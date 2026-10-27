@@ -1,0 +1,160 @@
+{
+  "schema": "m418-independent-wording-only-increment-review/1",
+  "localDate": "2026-10-24",
+  "decision": "CLOSED_R3_WORDING_RESERVATION_AFFECTED_PINS_AND_CANDIDATE_GATES_PRESERVED",
+  "originalReservation": {
+    "review": {
+      "file": "E:/八卦周易/.local/team-412/audit/review-result.json",
+      "sha256": "2585b4c41defc938411b4128f8fe94aa9c990257c1ce5043ce0f92b0e8093159",
+      "bytes": 13128
+    },
+    "id": "M412-YOU-CONTINUATION-PRECISION",
+    "caseId": "single-meaning-m393:又:24539:0:0"
+  },
+  "input": {
+    "root": "E:/八卦周易/.local/team-418/dev02/r3",
+    "delta": {
+      "file": "E:/八卦周易/.local/team-418/dev02/r3/delta.json",
+      "sha256": "2e78cb43cba9e144312670b8133395538a025a6563314ebdda00d685bdaf4fce",
+      "bytes": 4700
+    },
+    "baselineManifest": {
+      "file": "E:/八卦周易/.local/team-393/dev02/delivery-manifest.json",
+      "sha256": "c0883e0323c4b7016b0a637341c8a2a5c9ba8bd359922cc894e35025d39e62d2",
+      "bytes": 9118
+    },
+    "newManifest": {
+      "file": "E:/八卦周易/.local/team-418/dev02/r3/candidate/data/naming-character-meanings-m393-manifest.json",
+      "sha256": "23137c2c605a4807c603b9bdfcf7a2f7558872ac8d1661d0ff6b8a60a66332b4",
+      "bytes": 2932
+    },
+    "newProfile": {
+      "sha256": "eee6a01e1d28a34c3992c8dd81d547352222caa62d04f363f3ec43edfcd5acd8",
+      "bytes": 162031
+    },
+    "newSubset": {
+      "sha256": "cbf3add7ab417a01a6d433723366608c31b61ae5d0ab3065504a4947fad85b86",
+      "bytes": 161637
+    },
+    "patch": {
+      "file": "E:/八卦周易/.local/team-418/dev02/r3/M418-wording-only.patch",
+      "sha256": "b24bb2d870313b82b0397963719c476b104d0aae4a1e3ec84870947eec00ec95",
+      "bytes": 7940
+    }
+  },
+  "scope": "Only three wording mirrors and affected fixedbyte dependencies/gates. No20semantic/source re-review, researchBOM reseal, originalsource read, old12check rerun ornewadmission.",
+  "findings": {
+    "P1": [],
+    "P2": [],
+    "materialContradictions": []
+  },
+  "wording": {
+    "char": "又",
+    "before": "取动作再次发生、重复延续的语用意象。",
+    "after": "取再次发生、重复或反复的语用意象。",
+    "locations": [
+      "profile:/cases/16/editorial/meaning",
+      "subset:/cases/16/editorial/meaning",
+      "editorial20:/rows/16/meaning"
+    ],
+    "threeMirrorsExact": true,
+    "semanticDecision": "Matches M412's requested narrow wording. It removes independent continuity/persistence/result implication and stays within the previously reviewed repetition sense.",
+    "closeReservationForR3": true,
+    "originalM412AndM393SnapshotsRetainOriginalTextAndHistory": true
+  },
+  "changedSurface": {
+    "changedFiles": 7,
+    "unchangedLoaderAndNOTICEFiles": 2,
+    "semanticLeaves": 3,
+    "otherLeafChanges": "Only profile.subset refs, admissionprofilehash, lockcandidatepins, manifestfilepins and compiledcandidatepins.",
+    "oldAndNewOriginalSourcePinsEqual": true,
+    "all20OriginalGlyphBaselinePriorFieldsEqual": true,
+    "affectedReferenceClosure": true,
+    "manifestRows": 20,
+    "originalHashesNotRecomputedFromUpstream": true
+  },
+  "gates": {
+    "candidateOnly": true,
+    "activation": "off",
+    "productionApproved": false,
+    "dispatchToLive": false,
+    "generationAuthority": false,
+    "sourceAuthority": false,
+    "automaticNameRecommendation": false,
+    "automaticSemanticCreditAllowed": false,
+    "scoreDelta": 0,
+    "wholeNameAssessment": "not-assessed",
+    "wholeNameMeaning": null,
+    "approvedCaseIds": [],
+    "usageReviewRequiredChars": "呈克陵曲向炎又渝",
+    "usageReviewRequiredCount": 8,
+    "other12AutomaticAdmission": false,
+    "coverageAddedToLive": 0,
+    "current40Scope": "No affectedtarget names a current40resource/UI/transport/rootfreeze file; audit writes onlynewEaudit folder.",
+    "futureAdmissionContract": "r3/admission-contract.md is an unimplemented proposal. It is not reviewed as a newconsumer/state machine and gains no implementation orproduction approval here."
+  },
+  "evidence": {
+    "wordingPinGate": {
+      "file": "E:/八卦周易/.local/team-418/independent-audit/wording-pin-gate-review.json",
+      "sha256": "1d537fc4a3d28cb5f47fc039b298a0737a15af32af1193b0fa707cd7178ded8b",
+      "bytes": 12943
+    },
+    "ownerChangedData": {
+      "file": "E:/八卦周易/.local/team-418/dev02/r3/changed-data-check.json",
+      "sha256": "91628c9758567b1d55dd7705996035ec7d722e7541d05b92c2553022489ceb3a",
+      "bytes": 1579,
+      "reportedChecks": 4,
+      "role": "Existingowner incremental record; not an auditorloader/test run and not20lexical orliveauthority validation."
+    },
+    "patchPeer": {
+      "file": "E:/八卦周易/.local/team-418/independent-audit/wording-patch-review.json",
+      "sha256": "1dd3f617c0aefd7598758d22437e18c44476eeb8c6aa64b159f731939e1493f1",
+      "bytes": 15738,
+      "targets": 7,
+      "hunks": 10,
+      "byteExact": true
+    }
+  },
+  "execution": {
+    "newLoader": 0,
+    "newTests": 0,
+    "oldFull12Rerun": 0,
+    "MOEGzipRead": 0,
+    "UnicodeOriginalReads": 0,
+    "upstreamOriginalFilesRead": 0,
+    "App": 0,
+    "SQL": 0,
+    "Worker": 0,
+    "network": 0,
+    "build": 0,
+    "GitApply": 0,
+    "CWrites": 0,
+    "candidateWrites": 0,
+    "oldAuditWrites": 0,
+    "auditOutputOnly": "E:/八卦周易/.local/team-418/independent-audit"
+  },
+  "preservation": {
+    "M393c088Unchanged": true,
+    "M4122585Unchanged": true,
+    "noBackfillOldPublication": true,
+    "no20SemanticRerun": true,
+    "M408": "Rootfullregresource not occupied by decode/SQL/test/Worker",
+    "M402r2": "Owner announcement queued only; not audited orapproved during this increment."
+  },
+  "approvals": {
+    "wordingOnlyClosureForExactR3": true,
+    "lexical20Reapproved": false,
+    "production": false,
+    "live": false,
+    "automaticNaming": false,
+    "formalCoverageAdded": 0,
+    "release": false,
+    "releaseStatus": "HOLD"
+  },
+  "model": {
+    "explicitHelper": "gpt-6.1-sol",
+    "reasoning": "ultra",
+    "noRetestForModel": true
+  },
+  "completedAt": "2026-10-23T16:07:49.833Z"
+}

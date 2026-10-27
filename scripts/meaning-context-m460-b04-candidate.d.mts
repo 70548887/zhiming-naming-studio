@@ -1,0 +1,5 @@
+import type {MeaningContextPublication,MeaningContextRequest,MeaningContextResult,TrustedMeaningContext} from '../src/domain/meaning-context-next.mjs';
+export interface VerifiedB04ContextCandidate {readonly task:'M460-DATA-B04';readonly candidateOnly:true;readonly activation:'off';readonly productionApproved:false;readonly generationAuthority:false;readonly sourceAuthority:false;readonly formalCoverageAdded:0;readonly publication:MeaningContextPublication;readonly sourceFacts:unknown;readonly glyphs:unknown;}
+export function loadVerifiedB04ContextCandidate(candidateDataDir:string,originalDataDir:string):VerifiedB04ContextCandidate;
+export function queryB04ContextCandidate(capsule:VerifiedB04ContextCandidate,request:MeaningContextRequest,trustedContext:TrustedMeaningContext):MeaningContextResult;
+export function validateB04SemanticPublication(publication:unknown,glyphs:unknown,facts:unknown):Readonly<{cases:20;wholeWordOnly:true;explicitChoiceRequired:true;sourcePOSMissing:number;formalCoverageAdded:0}>;

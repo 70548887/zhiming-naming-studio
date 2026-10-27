@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "profileId": "ren-source-direction-capacities/1.0.0",
+  "hashConvention": "sha256(JSON.stringify(fileHashes)); sorted relative path keys",
+  "sources": [
+    {
+      "id": "bazi-ditian-ren-directions-2600158",
+      "name": "滴天髓阐微任注 · 木方与火方局部旺势固定节录",
+      "url": "https://zh.wikisource.org/w/index.php?title=%E6%BB%B4%E5%A4%A9%E9%AB%93%E9%97%A1%E5%BE%AE&oldid=2600158",
+      "commit": "wikisource-oldid/2600158;source-direction-capacities/1.0.0",
+      "license": "CC-BY-SA-4.0",
+      "files": [
+        "data/raw/CC-BY-SA-4.0.txt",
+        "data/raw/ren-directions-NOTICE.md",
+        "data/raw/ren-directions-excerpts.json",
+        "data/ren-directions-rules.json"
+      ],
+      "sha256": "cdecd76b4d34b4ab9d9c6535631793d126a0440e924da645b81c5f0847de18b7",
+      "note": "固定任注13句5完整评注；三方向支在已知柱齐全、日干已知同气即局部正判；完整性仅元数据，冲/财官/泄秀不自动否定，净作用及完整判格待核。",
+      "fileHashes": {
+        "data/raw/CC-BY-SA-4.0.txt": "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5",
+        "data/raw/ren-directions-NOTICE.md": "a139a8ef988851e82acc0a1085adf4f3f6211948591c4f69f79224d5e27359de",
+        "data/raw/ren-directions-excerpts.json": "5bd29ae221969376aa6c308a2cdac576824581615fcebb9e4eff42b54fdeb10b",
+        "data/ren-directions-rules.json": "05d3769b91922294b8696a141010d9755a2b4dcb0e6d977a4a2eae001656f9f2"
+      }
+    }
+  ]
+}

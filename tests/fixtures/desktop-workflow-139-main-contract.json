@@ -1,0 +1,18 @@
+{
+  "sourceCommit": "a3c419fdc98acaa82e8c3f77b1dbcdb0e0ffa536",
+  "mainBaseSha256": "b4deb6f1a6a9fe54aa1a880abbebf98ef056f4d484f6c187f4a2a03f4460b829",
+  "hashConvention": "sha256(function-or-call-TS-source withCRLFnormalizedtoLF)",
+  "hashes": {
+    "printer": "432e397ca48a3b51c0ec0339c85d6e65987cd51765cb466a4f7dd35a0076b660",
+    "exportReport": "8a5e9900d07cbf5c709ecdc8b9209bdfde8b6c3d43d8f15d84f75039eb339379",
+    "backup": "55f7747323d073b4bd1ee12a922972e5e3e3af9812c4aa038198532d04537f0b",
+    "restore": "ed1b1f5acfbb90115e001057d2bd74835a5128bb1fdd4ac9434a29a70ad2b839",
+    "scope:naming-v6": "3250026544cbf8424c8547fcfec422ed7ba6a5843049952bb78b446bc3b21aef",
+    "scope:naming-v5": "07b54d2b370298826d654e3fb40d758c240ef3150be51cd8ceed86b30f922ca0",
+    "scope:naming-readings": "d3557f2d63640c98d3cbdf94037e36115ea9d7a93eda81459d5b53e2437b63ca",
+    "scope:classics": "0401b7edde9544ee9cce5a49eaf526c71c4520644091a1e3f61cae88c51ae34b",
+    "scope:ren-directions": "788f06f769d7e2e402d5fb230a9869a1b89c12100655547a15a784c6e819d0b8",
+    "scope:yue-coverage": "3a523cd0e1f7147b7c46068e9106b05074fb243f523d2c6d7cd4f3b7022906f1",
+    "scope:ren-capacities": "69a5a6d3655ba63e4e6eed82a3059e5dc3767bfc2df21e207baabf47d2d1e75b"
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "schema": "m343-fixed-raw38-data-source-and-captured-type-gate/1",
+  "started": "2026-10-23T11:52:02.415Z",
+  "decision": "PASS_LIMITED_RAW38_DATA_SOURCE_AND_DCF7_OVERLAY_TYPES_RAW_BUSINESS_PENDING",
+  "scope": "Final M336 raw38 four-file data support source gate plus exact captured dcf7 r2 type evidence. No raw SQL, Service2127 consumer or runtime acceptance.",
+  "preparation": {
+    "file": "E:/八卦周易/.local/team-336/dev05/source-preparation.json",
+    "sha256": "15ac764361dd2bd444e5cc148b4288b7db558cc071a2c1e75acad6472926056b",
+    "bytes": 14745
+  },
+  "exactPatchParent": {
+    "head": "d881e0df43d82f626f7f664e10874416fc624a17",
+    "storeSha256": "ff08aadcb77cc96f7775c9808875492186d516464633d024bdf67422d2358ee1",
+    "storeBytes": 65630,
+    "semantics": "Exact raw Store patch parent only; does not define the current type target."
+  },
+  "source": {
+    "store": {
+      "sha256": "6ac0045fbf109e03738cbf243b2e0fc06541e775733f6d2396fe7643a6276569",
+      "bytes": 68288
+    },
+    "writer": {
+      "sha256": "63a117ade3b6236dd9cdc6fc3d23f0233ea42563ad4191ac63cbaf3df9b52ab6",
+      "bytes": 7748
+    },
+    "atomic": {
+      "sha256": "841ad0dc9e8c01bead15355e804be7e619fc5f3008c10f2f85d2b54f1535d264",
+      "bytes": 2774
+    },
+    "notice": {
+      "sha256": "0f0c401c19fbef8590933d90fbee0e58f91c115f43a3b98790120ce28bc49b93",
+      "bytes": 2333
+    }
+  },
+  "findings": {
+    "P1": [],
+    "P2": []
+  },
+  "observations": [
+    {
+      "area": "rawOrdinaryCommit",
+      "lines": "315-336",
+      "fact": "Raw persist retains verifyNamingHistoryLinks and db.export, computes nextHash before dedicated helper, receives only local real rename receipt and sets committed in the internal callback before diskHash. Caller CAS callback completes before resultFinalized=true and before deferred atomic/lock cleanup."
+    },
+    {
+      "area": "rawRollback",
+      "lines": "329-336",
+      "fact": "No receipt means precommit: close/reopen are independently attempted and secondaries retained with original thrown identity. Reopen remains new this.SQL.Database(before), preserving raw behavior; no compact binding/FK helper or format migration is added. After receipt, no rollback."
+    },
+    {
+      "area": "flushAndCas",
+      "lines": "345-346,385-392",
+      "fact": "flush now uses empty mutate for the same commit/error boundary, with an extra pre-state export/rollback guard. Session, meaning-context and generated-session revision/token backfills move inside postcommit callbacks before cleanup; original writeSession CAS/history/source guards remain."
+    },
+    {
+      "area": "rawRestore",
+      "lines": "439-465",
+      "fact": "Raw parse/validate/current-history/numerology/facts/source/AI-destination/token rules precede replacement and retain original code. Dedicated helper return sets committed, then replacement/hash/epoch installed before retired close and deferred cleanup. Precommit replacement.close is secondary; existing storage committed error preserves actual installed state."
+    },
+    {
+      "area": "authority",
+      "fact": "Store claims one JS private owner issuer; notice getter passes actual Store, six-field DTO unchanged. No caller-supplied receipt entry is added. Genuine main owner and resultFinalized remain prerequisites for any future consumer recovery."
+    }
+  ],
+  "sharedReuse": {
+    "sourceReview": {
+      "file": "E:/八卦周易/.local/team-333/audit/review-result.json",
+      "sha256": "65498368543cbcb9a14447501577a7054d7d046dcd18e22ee89baf589bdf4aa0",
+      "bytes": 11511
+    },
+    "scope": "Exact63a/841/0f0 source identity rechecked; reuse only shared helper semantics, not F13912 or Service12 runtime coverage.",
+    "limits": "Same nonblocking hostile same-directory temp-path mutation and no-fsync/durability limits apply; no universal path/inode ownership claim."
+  },
+  "evidence": {
+    "identity": {
+      "file": "E:/八卦周易/.local/team-343/audit/artifact-identity.json",
+      "sha256": "c57308713b39932afae7a2ab7516333d8caba91bfa4ab90ef37b24fa330bb950",
+      "bytes": 6894,
+      "refs": 16,
+      "allMatch": true
+    },
+    "sourceProof": {
+      "file": "E:/八卦周易/.local/team-336/dev05/source-patch/proof.json",
+      "sha256": "c63d8fb5352c20e043ee7040a3e8ad19750a55d670995fb0f41463094ee5a39c",
+      "bytes": 9755,
+      "scope": "Existing exact4after private git apply proof; independent in-memory patch review separate."
+    },
+    "patch": {
+      "file": "E:/八卦周易/.local/team-336/dev05/source-patch/minimal.patch",
+      "sha256": "28eed1168a782d4c002f1a6fee894c8a78c3031d2e30eea6799607d06886f27e",
+      "bytes": 26842
+    },
+    "restorePeer": {
+      "file": "E:/八卦周易/.local/team-343/audit/raw-restore-source-review.json",
+      "sha256": "4a9a505bd8a1d92cd441c99750d5afb1099047c5c82ed5e5a56a2dfffdd006e3",
+      "bytes": 6896
+    },
+    "writerPeer": {
+      "file": "E:/八卦周易/.local/team-343/audit/raw-writer-source-review.json",
+      "sha256": "3809e7d5d6ca2e1c78237b96d93b0f5c93ad73537cc001afaabe334fb6dee498",
+      "bytes": 9279
+    },
+    "packetPeer": {
+      "file": "E:/八卦周易/.local/team-343/audit/raw-packet-source-review.json",
+      "sha256": "045cc528bbf345905bd4e7180af19bf701e3b6bee32f0a91a59ada37dc64ce16",
+      "bytes": 4377
+    },
+    "finalSupportRefs": {
+      "file": "E:/八卦周易/.local/team-343/audit/final-support-reference-review.json",
+      "sha256": "a02546b83fa6e0fb3eb79703a57770eee53c318acf521607acaa48fc283dcae0",
+      "bytes": 23588,
+      "occurrences": 60,
+      "unique": 52,
+      "allMatch": true,
+      "allFourTypedBindingsMatch": true
+    }
+  },
+  "typeStatus": {
+    "initial": {
+      "file": "E:/八卦周易/.local/team-336/dev05/runtime/2026-10-23T11-40-18-181Z-6524/result.json",
+      "sha256": "c95e8f4aa6e58ad691addcbed832f16ba68e50f66d670168b44be492b5d31fc1",
+      "bytes": 705220,
+      "exitCode": 1,
+      "parentPid": 6524,
+      "childPid": 30308,
+      "programSources": 0,
+      "diagnostics": 0,
+      "sourcePrepsMatch": true,
+      "status": "CompilerHost baseline guard failed before TypeScript program creation. Type admission pending; not a confirmed raw production source bug.",
+      "cause": "Frozen d881 test blob differs from current dcf7 modified test file. Preserve failed run; owner repairs fixed-input Host mapping.",
+      "supersededSuggestion": "Do not rehydrate old d881 tests; coordinator explicitly chooses actual dcf7+four candidate overlays and current4integrated tests for r2 types.",
+      "currentTypeTarget": "actual dcf7 raw38 +4candidate",
+      "patchParent": "d881 only for exact Storeff08 source delta"
+    },
+    "currentTarget": "Actual current raw38 dcf7a51f4caf5b476fbe219da92ddd63c9409abb +4candidate overlays, with4integrated current tests in graph.",
+    "r2CompositionAnnouncement": {
+      "sha256": "3a824b7a0668fd330c5faefbfb7b62abd4abe01b4889e603979cd595fd28676f",
+      "bytes": 246958,
+      "source": "Owner announcement, not yet final typed gate."
+    },
+    "steering": "Coordinator explicitly superseded old d881 test-blob replay suggestion. d881 remains patch parent only; do not maintain two type goals.",
+    "admission": "PASS_LIMITED_CURRENT_RAW_DCF7_DATA_OVERLAY_TYPES",
+    "rawSQL": "NOT_EXECUTED",
+    "businessCases": "PENDING_AFTER_SOURCE_GATE",
+    "rawService2127": "OUT_OF_SCOPE_NOT_APPROVED",
+    "r2Accepted": {
+      "result": {
+        "file": "E:/八卦周易/.local/team-336/dev05/runtime-r2/2026-10-23T11-47-47-880Z-45272/result.json",
+        "sha256": "578be423f6301ba1bd0b3ba69f7a87abdf59f4b8e14565a999930a789f528b95",
+        "bytes": 1133240
+      },
+      "review": {
+        "file": "E:/八卦周易/.local/team-343/audit/types-r2-reference-review.json",
+        "sha256": "1b66e9015d40a82c8e9846b5d64e07023dbd9c94d8dcc0efdbb6015378e516e8",
+        "bytes": 13728
+      },
+      "roots": 649,
+      "programSources": 1015,
+      "reads": 1073,
+      "diagnostics": 0,
+      "compilerError": null,
+      "sourceDrift": 0,
+      "parentPid": 45272,
+      "childPid": 25228,
+      "naturalExitCode": 0,
+      "currentRefsChecked": 23,
+      "allEightOverlayAndTestBindings": true,
+      "strictNoEmit": true,
+      "scope": "Actual dcf7 +4data overlays only; excludes D01rawService2127."
+    }
+  },
+  "unchanged": "Generic atomicWrite and original raw read/current/history/source/restore validation regions preserved. No compact, pagination, migration, M299 GLOB or parse-error message changes.",
+  "pending": [
+    "Necessary new real raw data boundary cases",
+    "D01 rawService2127 precise combined consumer types and four runtime cases",
+    "HTTP/IPC/UI, sourceprofile22, build/ASAR/installer and release"
+  ],
+  "approvals": {
+    "preliminarySourceOnly": false,
+    "rootIntegration": false,
+    "Service": false,
+    "sourceprofile22": false,
+    "release": false,
+    "releaseStatus": "HOLD",
+    "broadProjectComplete": false,
+    "sourceAndCapturedTypeOnly": true
+  },
+  "executedByAuditor": {
+    "productWrites": 0,
+    "candidateModules": 0,
+    "tests": 0,
+    "types": 0,
+    "DB": 0,
+    "SQL": 0,
+    "Worker": 0,
+    "App": 0,
+    "build": 0,
+    "gitApply": 0
+  },
+  "finalManifest": {
+    "file": "E:/八卦周易/.local/team-336/dev05/ready-r1/manifest.json",
+    "sha256": "5cfd1ea0dafff7a4a8f8d680bc251a009a5e160eba47db7c500f59c72c517ee8",
+    "bytes": 14499,
+    "refCheck": "PASS exact52direct refs and4typed overlay bindings; no source re-review needed."
+  },
+  "completedAt": "2026-10-23T12:01:32.835Z",
+  "coordinatorLatest": "After this actual dcf7 type run completed, coordinator reports M345 second5test integration advanced raw HEAD with same six product pins. Do not rerun valid captured type for test-only advance; final full graph later includes new tests. Integration receipt team-351 not independently audited here."
+}

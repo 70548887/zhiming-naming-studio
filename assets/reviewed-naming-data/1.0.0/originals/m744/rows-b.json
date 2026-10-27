@@ -1,0 +1,490 @@
+{
+  "schema": "m744-data-row-audit/1",
+  "scope": "M744-DATA audit only; assigned rows 农/作/岁/叶/萧",
+  "candidateRoot": "D:/Codex-NamingStudio-Evidence/m740-character-meanings",
+  "baselineRoot": "D:/Codex-NamingStudio-Evidence/m587-product-integration/work/data",
+  "sourceLockPath": "D:/Codex-NamingStudio-Evidence/m740-character-meanings/data/source-lock.json",
+  "originalDictionaryPath": "D:/Codex-NamingStudio-Evidence/m587-product-integration/work/data/raw/moe-revised.json.gz",
+  "originalDictionarySha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+  "indexConvention": "raw entry/heteronym/definition indices are zero based; Unicode lines are one based",
+  "result": {
+    "checkedRows": 5,
+    "manualSupplementEligible": 4,
+    "pendingEvidenceOnly": 1,
+    "formalCoverageAdded": 0,
+    "dataMismatchCount": 0,
+    "candidateAndProductModified": false,
+    "testsRerun": 0,
+    "actualQueryWiring": "未执行",
+    "actualGenerationWiring": "未执行"
+  },
+  "rows": [
+    {
+      "char": "农",
+      "checks": {
+        "rowMatchesProfileExceptOriginalAlreadyIndependentlyChecked": true,
+        "completeOriginalEntryMatchesRaw": true,
+        "parsedEntrySha256Matches": true,
+        "selectedDefinitionMatches": true,
+        "senseMatches": true,
+        "posMatches": true,
+        "pinyinMatches": true,
+        "baselineCharacterMatches": true,
+        "defaultReadingMatches": true,
+        "historicalReviewExact": true,
+        "historicalReviewHashMatches": true,
+        "historicalApplicabilityPreserved": true,
+        "pendingProjectMeaningMatches": true,
+        "unicodeProofsMatch": true
+      },
+      "variantLines": [
+        {
+          "file": "raw/kTraditionalVariant.txt",
+          "lineNumberOneBased": 263,
+          "text": "519C\tU+8FB2"
+        },
+        {
+          "file": "raw/kSimplifiedVariant.txt",
+          "lineNumberOneBased": 3903,
+          "text": "8FB2\tU+519C"
+        }
+      ],
+      "selectedBinding": {
+        "char": "农",
+        "pinyin": "nóng",
+        "tone": 2,
+        "sourceId": "moe-revised",
+        "dictionaryWord": "農",
+        "rawEntryIndex": 140081,
+        "rawHeteronymIndex": 0,
+        "rawDefinitionIndex": 2,
+        "dictionarySense": "耕種事業。"
+      },
+      "project": {
+        "meaning": "取耕种事业这一农作主题意象。",
+        "projectWish": null,
+        "limits": [
+          "本条采用耕种事业名词义，不把古义努力勤勉转成人格判断。",
+          "家庭是否采用农业主题仍待确认，不推定职业、收入或收获。"
+        ],
+        "attribution": "M740-D02 project-authored single-character explanation; not a dictionary quotation or measured child trait",
+        "license": "CC0-1.0"
+      },
+      "history": {
+        "status": "approved",
+        "mode": "manual-confirmation-required",
+        "oldDefinitionIndex": 1
+      },
+      "rawOtherReadings": [
+        {
+          "index": 0,
+          "pinyin": "nóng"
+        }
+      ],
+      "literalConflicts": [],
+      "rowJsonlLineOneBased": 6,
+      "profilePointer": "/cases/5",
+      "pendingPointer": "/rows/5",
+      "sourceSingleCharacterEntryVerified": true,
+      "wholeWordBorrowing": false,
+      "projectWordingSeparated": true,
+      "projectInterpretationAssessment": "项目意象和限制单独存于 project，未混入 source 原文；本项仅是文本边界和内容审查，不推断创作来源历史。",
+      "generationAllowedNow": false,
+      "automaticSemanticCreditAllowed": false,
+      "formalCoverageAdded": 0,
+      "manualQuery": "admissible-on-request-manual-supplement",
+      "manualReason": "可展示農 nóng 的独立名词义“耕種事業”及单独标注的农业主题取意；仍为 manual，不能把 v7 勤勉动词义的历史 approved 当作当前名词义已获采用。",
+      "generationEvidence": [
+        "针对 140081/0/2 名词义的新独立采用记录，明确与历史 140081/0/1 勤勉动词义分开。",
+        "具体完整姓名、家庭采用农业主题的明确选择、对职业/收入/收获或勤勉人格推断的排除记录。"
+      ],
+      "defects": [],
+      "openConditions": [
+        "候选义项与历史审核义项不同；当前 review 仍 pending-independent-review，尚无当前名词义的独立采用记录。"
+      ]
+    },
+    {
+      "char": "作",
+      "checks": {
+        "rowMatchesProfileExceptOriginalAlreadyIndependentlyChecked": true,
+        "completeOriginalEntryMatchesRaw": true,
+        "parsedEntrySha256Matches": true,
+        "selectedDefinitionMatches": true,
+        "senseMatches": true,
+        "posMatches": true,
+        "pinyinMatches": true,
+        "baselineCharacterMatches": true,
+        "defaultReadingMatches": true,
+        "historicalReviewExact": true,
+        "historicalReviewHashMatches": true,
+        "historicalApplicabilityPreserved": true,
+        "pendingProjectMeaningMatches": true,
+        "unicodeProofsMatch": true
+      },
+      "variantLines": [],
+      "selectedBinding": {
+        "char": "作",
+        "pinyin": "zuò",
+        "tone": 4,
+        "sourceId": "moe-revised",
+        "dictionaryWord": "作",
+        "rawEntryIndex": 10964,
+        "rawHeteronymIndex": 0,
+        "rawDefinitionIndex": 10,
+        "dictionarySense": "詩文書畫與藝術品稱為「作」。"
+      },
+      "project": {
+        "meaning": "取诗文书画与艺术作品这一文化意象。",
+        "projectWish": null,
+        "limits": [
+          "本条采用名词作品义，原条假装等其他义仍须结合完整姓名消歧。",
+          "作品主题不证明创造力、艺术天赋或未来成就，采用方向仍待家庭确认。"
+        ],
+        "attribution": "M740-D02 project-authored single-character explanation; not a dictionary quotation or measured child trait",
+        "license": "CC0-1.0"
+      },
+      "history": {
+        "status": "approved",
+        "mode": "manual-confirmation-required",
+        "oldDefinitionIndex": 2
+      },
+      "rawOtherReadings": [
+        {
+          "index": 0,
+          "pinyin": "zuò"
+        },
+        {
+          "index": 1,
+          "pinyin": "zuó"
+        },
+        {
+          "index": 2,
+          "pinyin": "zuō"
+        }
+      ],
+      "literalConflicts": [],
+      "rowJsonlLineOneBased": 7,
+      "profilePointer": "/cases/6",
+      "pendingPointer": "/rows/6",
+      "sourceSingleCharacterEntryVerified": true,
+      "wholeWordBorrowing": false,
+      "projectWordingSeparated": true,
+      "projectInterpretationAssessment": "项目意象和限制单独存于 project，未混入 source 原文；本项仅是文本边界和内容审查，不推断创作来源历史。",
+      "generationAllowedNow": false,
+      "automaticSemanticCreditAllowed": false,
+      "formalCoverageAdded": 0,
+      "manualQuery": "admissible-on-request-manual-supplement",
+      "manualReason": "可展示默认 zuò 的“作品”独立名词义；例词傑作/佳作/名作仅为该单字义的例证，未从整词借义。历史“創作”动词义的审核不可转为作品义的生成许可。",
+      "generationEvidence": [
+        "针对 10964/0/10 名词作品义的独立采用记录，明确与历史 10964/0/2 创作动词义分开。",
+        "具体完整姓名固定 zuò，并说明作品主题的组合语境；排除同音“假裝”(0/5)与非默认 zuó、zuō 的解释；不赋予创造力或艺术天赋。"
+      ],
+      "defects": [],
+      "openConditions": [
+        "候选义项与历史审核义项不同；当前 review 仍 pending-independent-review，尚无当前名词义的独立采用记录。"
+      ]
+    },
+    {
+      "char": "岁",
+      "checks": {
+        "rowMatchesProfileExceptOriginalAlreadyIndependentlyChecked": true,
+        "completeOriginalEntryMatchesRaw": true,
+        "parsedEntrySha256Matches": true,
+        "selectedDefinitionMatches": true,
+        "senseMatches": true,
+        "posMatches": true,
+        "pinyinMatches": true,
+        "baselineCharacterMatches": true,
+        "defaultReadingMatches": true,
+        "historicalReviewExact": true,
+        "historicalReviewHashMatches": true,
+        "historicalApplicabilityPreserved": true,
+        "pendingProjectMeaningMatches": true,
+        "unicodeProofsMatch": true
+      },
+      "variantLines": [
+        {
+          "file": "raw/kTraditionalVariant.txt",
+          "lineNumberOneBased": 554,
+          "text": "5C81\tU+5C81 U+6B72"
+        },
+        {
+          "file": "raw/kSimplifiedVariant.txt",
+          "lineNumberOneBased": 1833,
+          "text": "6B72\tU+5C81"
+        }
+      ],
+      "selectedBinding": {
+        "char": "岁",
+        "pinyin": "suì",
+        "tone": 4,
+        "sourceId": "moe-revised",
+        "dictionaryWord": "歲",
+        "rawEntryIndex": 80142,
+        "rawHeteronymIndex": 0,
+        "rawDefinitionIndex": 1,
+        "dictionarySense": "時光。"
+      },
+      "project": {
+        "meaning": "取时光这一时间意象。",
+        "projectWish": null,
+        "limits": [
+          "时间主题与纪念对象须由家庭和完整姓名确认。",
+          "时光不构成长寿、成熟程度、健康或命运预测。"
+        ],
+        "attribution": "M740-D02 project-authored single-character explanation; not a dictionary quotation or measured child trait",
+        "license": "CC0-1.0"
+      },
+      "history": {
+        "status": "approved",
+        "mode": "manual-confirmation-required",
+        "oldDefinitionIndex": 1
+      },
+      "rawOtherReadings": [
+        {
+          "index": 0,
+          "pinyin": "suì"
+        }
+      ],
+      "literalConflicts": [],
+      "rowJsonlLineOneBased": 8,
+      "profilePointer": "/cases/7",
+      "pendingPointer": "/rows/7",
+      "sourceSingleCharacterEntryVerified": true,
+      "wholeWordBorrowing": false,
+      "projectWordingSeparated": true,
+      "projectInterpretationAssessment": "项目意象和限制单独存于 project，未混入 source 原文；本项仅是文本边界和内容审查，不推断创作来源历史。",
+      "generationAllowedNow": false,
+      "automaticSemanticCreditAllowed": false,
+      "formalCoverageAdded": 0,
+      "manualQuery": "admissible-on-request-manual-supplement",
+      "manualReason": "歲 suì 的“時光”是单字独立义，字形关系与历史 manual 均保留；岁自映射与歲并列不能扩大为所有语境无差别语义等价。",
+      "generationEvidence": [
+        "具体完整姓名与家庭时间/纪念主题的采用记录，明确采用时光义并与年龄、年成等义消歧。",
+        "对字形“岁”采用范围的审定及禁止长寿/健康/命运推断的完整姓名审查记录。"
+      ],
+      "defects": [],
+      "openConditions": [
+        "完整姓名与家庭时间/纪念主题尚未审定。"
+      ]
+    },
+    {
+      "char": "叶",
+      "checks": {
+        "rowMatchesProfileExceptOriginalAlreadyIndependentlyChecked": true,
+        "completeOriginalEntryMatchesRaw": true,
+        "parsedEntrySha256Matches": true,
+        "selectedDefinitionMatches": true,
+        "senseMatches": true,
+        "posMatches": true,
+        "pinyinMatches": true,
+        "baselineCharacterMatches": true,
+        "defaultReadingMatches": true,
+        "historicalReviewExact": true,
+        "historicalReviewHashMatches": true,
+        "historicalApplicabilityPreserved": true,
+        "pendingProjectMeaningMatches": true,
+        "unicodeProofsMatch": true
+      },
+      "variantLines": [
+        {
+          "file": "raw/kTraditionalVariant.txt",
+          "lineNumberOneBased": 361,
+          "text": "53F6\tU+53F6 U+8449"
+        },
+        {
+          "file": "raw/kSimplifiedVariant.txt",
+          "lineNumberOneBased": 2996,
+          "text": "8449\tU+53F6"
+        }
+      ],
+      "selectedBinding": {
+        "char": "叶",
+        "pinyin": "yè",
+        "tone": 4,
+        "sourceId": "moe-revised",
+        "dictionaryWord": "葉",
+        "rawEntryIndex": 124301,
+        "rawHeteronymIndex": 0,
+        "rawDefinitionIndex": 0,
+        "dictionarySense": "植物的一部分。生於枝幹上，專營呼吸、蒸發等作用，部分植物的葉子則因變態而具有貯藏、保護或捕食的功能。"
+      },
+      "project": {
+        "meaning": "取植物叶片这一具体自然意象。",
+        "projectWish": null,
+        "limits": [
+          "本批仅记录叶到葉的固定 Unicode 字形关系与默认 yè 来源，不解除原审的来源身份待审状态。",
+          "叶片意象不推定生命力、健康、性格或五行，采用主题须结合完整姓名。"
+        ],
+        "attribution": "M740-D02 project-authored single-character explanation; not a dictionary quotation or measured child trait",
+        "license": "CC0-1.0"
+      },
+      "history": {
+        "status": "pending",
+        "mode": "not-approved",
+        "oldDefinitionIndex": 0
+      },
+      "rawOtherReadings": [
+        {
+          "index": 0,
+          "pinyin": "yè"
+        },
+        {
+          "index": 1,
+          "pinyin": "shè"
+        }
+      ],
+      "literalConflicts": [
+        {
+          "rawEntryIndex": 25849,
+          "title": "叶",
+          "heteronyms": [
+            {
+              "definitions": [
+                {
+                  "def": "「協」的異體字。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "rowJsonlLineOneBased": 9,
+      "profilePointer": "/cases/8",
+      "pendingPointer": "/rows/8",
+      "sourceSingleCharacterEntryVerified": true,
+      "wholeWordBorrowing": false,
+      "projectWordingSeparated": true,
+      "projectInterpretationAssessment": "项目意象和限制单独存于 project，未混入 source 原文；本项仅是文本边界和内容审查，不推断创作来源历史。",
+      "generationAllowedNow": false,
+      "automaticSemanticCreditAllowed": false,
+      "formalCoverageAdded": 0,
+      "manualQuery": "pending-source-and-glyph-evidence-display-only",
+      "manualReason": "只可展示来源待审证据，不准以“已批准的叶本字释义”进入 manual meaning 结果。原字典叶(25849)为“協”的异体字，无 yè；葉(124301)/0 为 yè 叶片义，/1 是 shè 地名义。Unicode 361 行列叶自身和葉，2996 行反向对应，以及860行叶自映射，证明字形关系而非该词条语义准入。",
+      "generationEvidence": [
+        "明确、可复核的词条身份映射政策与批准记录：区分现代简体叶/yè/葉叶片义与原字叶/協异体义，并证明适用于所选读音及义项；固定字形映射本身不足。",
+        "在身份闭合后另有具体完整姓名、yè 读音、叶片主题采用的独立复核记录，排除非默认 shè 地名及人格/健康/五行推断。",
+        "身份待审未闭合前继续 pending/not-approved；不得用于生成、自动取意或评分。"
+      ],
+      "defects": [],
+      "openConditions": [
+        "已存在且保留的 pending-dictionary-identity：叶与葉本字词条身份映射尚未闭合。"
+      ]
+    },
+    {
+      "char": "萧",
+      "checks": {
+        "rowMatchesProfileExceptOriginalAlreadyIndependentlyChecked": true,
+        "completeOriginalEntryMatchesRaw": true,
+        "parsedEntrySha256Matches": true,
+        "selectedDefinitionMatches": true,
+        "senseMatches": true,
+        "posMatches": true,
+        "pinyinMatches": true,
+        "baselineCharacterMatches": true,
+        "defaultReadingMatches": true,
+        "historicalReviewExact": true,
+        "historicalReviewHashMatches": true,
+        "historicalApplicabilityPreserved": true,
+        "pendingProjectMeaningMatches": true,
+        "unicodeProofsMatch": true
+      },
+      "variantLines": [
+        {
+          "file": "raw/kTraditionalVariant.txt",
+          "lineNumberOneBased": 1544,
+          "text": "8427\tU+856D"
+        },
+        {
+          "file": "raw/kSimplifiedVariant.txt",
+          "lineNumberOneBased": 3055,
+          "text": "856D\tU+8427"
+        }
+      ],
+      "selectedBinding": {
+        "char": "萧",
+        "pinyin": "xiāo",
+        "tone": 1,
+        "sourceId": "moe-revised",
+        "dictionaryWord": "蕭",
+        "rawEntryIndex": 125387,
+        "rawHeteronymIndex": 0,
+        "rawDefinitionIndex": 0,
+        "dictionarySense": "一種香草。即艾蒿。"
+      },
+      "project": {
+        "meaning": "取艾蒿这一具体香草意象。",
+        "projectWish": null,
+        "limits": [
+          "原条另有寂寥、冷清等义，完整姓名仍须消歧。",
+          "香草主题不推定品格、健康、药效或运势。"
+        ],
+        "attribution": "M740-D02 project-authored single-character explanation; not a dictionary quotation or measured child trait",
+        "license": "CC0-1.0"
+      },
+      "history": {
+        "status": "approved",
+        "mode": "manual-confirmation-required",
+        "oldDefinitionIndex": 0
+      },
+      "rawOtherReadings": [
+        {
+          "index": 0,
+          "pinyin": "xiāo"
+        }
+      ],
+      "literalConflicts": [],
+      "rowJsonlLineOneBased": 10,
+      "profilePointer": "/cases/9",
+      "pendingPointer": "/rows/9",
+      "sourceSingleCharacterEntryVerified": true,
+      "wholeWordBorrowing": false,
+      "projectWordingSeparated": true,
+      "projectInterpretationAssessment": "项目意象和限制单独存于 project，未混入 source 原文；本项仅是文本边界和内容审查，不推断创作来源历史。",
+      "generationAllowedNow": false,
+      "automaticSemanticCreditAllowed": false,
+      "formalCoverageAdded": 0,
+      "manualQuery": "admissible-on-request-manual-supplement",
+      "manualReason": "蕭 xiāo 的“香草，即艾蒿”是单字独立名词义，未借箫的乐器义；历史 manual 原样保留。",
+      "generationEvidence": [
+        "具体完整姓名中明确艾蒿/草本主题的家庭采用与独立复核记录。",
+        "记录同条“寂寥、冷清”(0/2)及“莊嚴、恭謹”(0/3)的语境消歧，确认未借箫乐器义，不推断品格、药效或运势。"
+      ],
+      "defects": [],
+      "openConditions": [
+        "完整姓名中的草本主题与同条其他义项消歧尚未审定。"
+      ]
+    }
+  ],
+  "additionalVariantEvidence": {
+    "file": "D:/Codex-NamingStudio-Evidence/m587-product-integration/work/data/raw/kSimplifiedVariant.txt",
+    "lines": [
+      {
+        "line": 860,
+        "text": "53F6\tU+53F6"
+      },
+      {
+        "line": 1208,
+        "text": "5C81\tU+5C81"
+      }
+    ]
+  },
+  "executionLedger": {
+    "skillFilesSuccessfullyRead": [],
+    "successfulCommands": [
+      "Get-ChildItem -LiteralPath D:/Codex-NamingStudio-Evidence/m740-character-meanings -Recurse -File (inventory)",
+      "Read source-lock, contract, first rows.jsonl line and baseline data filenames",
+      "Inline Node extraction of assigned five rows, profile/pending rows, baseline/v7 rows, pinned gzip entries and literal-title collisions",
+      "Inline Node display of selected raw definitions, 叶/萧 project/history, and five pending rows",
+      "Inline Node equality/hash checks against parsed raw entries and baseline snapshots; exact Unicode line check",
+      "Inline Node atomic write rows-b.json and JSON parse verification"
+    ],
+    "notExecuted": [
+      "旧14项测试重跑",
+      "query 接线",
+      "generation 接线",
+      "候选/产品数据修改",
+      "外部来源扩充"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "schema": "M752-r2-input-pins/1",
+  "originalFiles": [
+    {
+      "file": "m740-generation-admission.json",
+      "bytes": 54345,
+      "sha256": "ecfb610b2c3467b9326e45c25fa4581870f6b3a2087b6490af08bd77d39ccbe6"
+    },
+    {
+      "file": "theme-registry.json",
+      "bytes": 1599,
+      "sha256": "70af9e1f5932b68a9ad7b615459cc955335f62d0453ca0344888051ffca82171"
+    },
+    {
+      "file": "generation-admission-contract.json",
+      "bytes": 9356,
+      "sha256": "3cd33baf220b9a7f41027ca811e74b69c99e363a89b915cbc806a29131b8ea21"
+    },
+    {
+      "file": "acceptance-cases.json",
+      "bytes": 51389,
+      "sha256": "2d52d060689ed3fcec836aced5e98496e53c2d6610dd6aad4c9b6aca15cdf64a"
+    }
+  ],
+  "m762Audit": {
+    "path": "D:/Codex-NamingStudio-Evidence/m762-meaning-contract-audit/M762-AUDIT.json",
+    "bytes": 8254,
+    "sha256": "bdd6b45a2accdb527eaf46c550f3895e83419a4b5a5b7e30a1abb20c5847aa42"
+  },
+  "legacyReplayInput": {
+    "path": "D:/Codex-NamingStudio-Evidence/m751-meaning-admission/tests/fixtures/naming71-accepted40.json",
+    "sha256": "58a6d9d57f672a9da46ea5f6f55f9c6f54caab613677105942702b386a8aed3c",
+    "kind": "fixed40-golden-input-not-full-NameCandidate"
+  }
+}

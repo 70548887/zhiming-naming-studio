@@ -1,0 +1,63 @@
+{
+  "schema": "m970-candidate-admission/1",
+  "batchId": "M970-DATA",
+  "version": "1.0.0-candidate.1",
+  "decision": "pending-independent-review",
+  "candidateOnly": true,
+  "activation": "off",
+  "productionApproved": false,
+  "admissionGranted": false,
+  "approvedCaseIds": [],
+  "formalCoverageAdded": 0,
+  "defaultAutomaticCoverageAdded": 0,
+  "defaultDatasetChanged": false,
+  "automaticMeaningAllowed": false,
+  "automaticSemanticCreditAllowed": false,
+  "automaticNameRecommendation": false,
+  "wholeNameMeaning": null,
+  "scoreDelta": 0,
+  "records": [
+    {
+      "candidateId": "m970-character-reference:傲:14019:0:1",
+      "char": "傲",
+      "state": "pending-independent-review",
+      "usageStatus": "manual-context-required",
+      "admissionGranted": false
+    },
+    {
+      "candidateId": "m970-character-reference:革:153706:0:0",
+      "char": "革",
+      "state": "pending-independent-review",
+      "usageStatus": "manual-context-required",
+      "admissionGranted": false
+    },
+    {
+      "candidateId": "m970-character-reference:司:25850:0:0",
+      "char": "司",
+      "state": "pending-independent-review",
+      "usageStatus": "manual-context-required",
+      "admissionGranted": false
+    },
+    {
+      "candidateId": "m970-character-reference:姿:40047:0:0",
+      "char": "姿",
+      "state": "pending-independent-review",
+      "usageStatus": "manual-context-required",
+      "admissionGranted": false
+    },
+    {
+      "candidateId": "m970-character-reference:由:98075:0:2",
+      "char": "由",
+      "state": "pending-independent-review",
+      "usageStatus": "manual-context-required",
+      "admissionGranted": false
+    },
+    {
+      "candidateId": "m970-character-reference:尤:45696:0:1",
+      "char": "尤",
+      "state": "pending-independent-review",
+      "usageStatus": "manual-context-required",
+      "admissionGranted": false
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "sourceCommit": "0b2affbc0c4f161ff84fc05b224fdaf869efb42f",
+  "refs": [
+    {
+      "source": "src/main/naming-meaning-review-report.ts",
+      "target": "tests/fixtures/naming-meaning-report-pre71.ts.txt",
+      "sha256": "60eb1a0d45caa105fc731d22c01aa7a6610d9bd55e54fb8c946d81267935fd1c"
+    },
+    {
+      "source": "src/renderer/NamingMeaningReviewView.tsx",
+      "target": "tests/fixtures/naming-meaning-view-pre71.tsx.txt",
+      "sha256": "9c935357399a08e5816ff9a6b09e0ab3ba8da637f4ce3bc42f659755a69f81f6"
+    }
+  ],
+  "scope": "Opaque old7 test inputs; not another production renderer"
+}

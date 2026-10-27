@@ -1,0 +1,193 @@
+{
+  "version": "ren-directions-calendar-goldens/1.0.0",
+  "sourceId": "bazi-ditian-ren-directions-2600158",
+  "library": "lunar-typescript@1.8.6",
+  "sourcePolicy": "Original book cases have no invented dates. These are separately validated Gregorian inputs and expected calendars only, not author-case classification labels.",
+  "cases": [
+    {
+      "civilDate": "1902-03-22 22:00:00",
+      "timezone": "Asia/Shanghai",
+      "timeBasis": "civil",
+      "pillars": [
+        "壬寅",
+        "癸卯",
+        "甲辰",
+        "乙亥"
+      ],
+      "independentExactFields": [
+        "壬寅",
+        "癸卯",
+        "甲辰",
+        "乙亥"
+      ]
+    },
+    {
+      "civilDate": "1962-03-07 22:00:00",
+      "timezone": "Asia/Shanghai",
+      "timeBasis": "civil",
+      "pillars": [
+        "壬寅",
+        "癸卯",
+        "甲辰",
+        "乙亥"
+      ],
+      "independentExactFields": [
+        "壬寅",
+        "癸卯",
+        "甲辰",
+        "乙亥"
+      ]
+    },
+    {
+      "civilDate": "1963-03-02 22:00:00",
+      "timezone": "Asia/Shanghai",
+      "timeBasis": "civil",
+      "pillars": [
+        "癸卯",
+        "甲寅",
+        "甲辰",
+        "乙亥"
+      ],
+      "independentExactFields": [
+        "癸卯",
+        "甲寅",
+        "甲辰",
+        "乙亥"
+      ]
+    },
+    {
+      "civilDate": "2023-02-15 22:00:00",
+      "timezone": "Asia/Shanghai",
+      "timeBasis": "civil",
+      "pillars": [
+        "癸卯",
+        "甲寅",
+        "甲辰",
+        "乙亥"
+      ],
+      "independentExactFields": [
+        "癸卯",
+        "甲寅",
+        "甲辰",
+        "乙亥"
+      ]
+    },
+    {
+      "civilDate": "1917-07-03 14:00:00",
+      "timezone": "Asia/Shanghai",
+      "timeBasis": "civil",
+      "pillars": [
+        "丁巳",
+        "丙午",
+        "丙午",
+        "乙未"
+      ],
+      "independentExactFields": [
+        "丁巳",
+        "丙午",
+        "丙午",
+        "乙未"
+      ]
+    },
+    {
+      "civilDate": "1917-07-04 12:00:00",
+      "timezone": "Asia/Shanghai",
+      "timeBasis": "civil",
+      "pillars": [
+        "丁巳",
+        "丙午",
+        "丁未",
+        "丙午"
+      ],
+      "independentExactFields": [
+        "丁巳",
+        "丙午",
+        "丁未",
+        "丙午"
+      ]
+    },
+    {
+      "civilDate": "1977-06-18 14:00:00",
+      "timezone": "Asia/Shanghai",
+      "timeBasis": "civil",
+      "pillars": [
+        "丁巳",
+        "丙午",
+        "丙午",
+        "乙未"
+      ],
+      "independentExactFields": [
+        "丁巳",
+        "丙午",
+        "丙午",
+        "乙未"
+      ]
+    },
+    {
+      "civilDate": "1977-06-19 12:00:00",
+      "timezone": "Asia/Shanghai",
+      "timeBasis": "civil",
+      "pillars": [
+        "丁巳",
+        "丙午",
+        "丁未",
+        "丙午"
+      ],
+      "independentExactFields": [
+        "丁巳",
+        "丙午",
+        "丁未",
+        "丙午"
+      ]
+    },
+    {
+      "civilDate": "2037-06-24 14:00:00",
+      "timezone": "Asia/Shanghai",
+      "timeBasis": "civil",
+      "pillars": [
+        "丁巳",
+        "丙午",
+        "丁卯",
+        "丁未"
+      ],
+      "independentExactFields": [
+        "丁巳",
+        "丙午",
+        "丁卯",
+        "丁未"
+      ]
+    },
+    {
+      "civilDate": "2097-06-09 14:00:00",
+      "timezone": "Asia/Shanghai",
+      "timeBasis": "civil",
+      "pillars": [
+        "丁巳",
+        "丙午",
+        "丁卯",
+        "丁未"
+      ],
+      "independentExactFields": [
+        "丁巳",
+        "丙午",
+        "丁卯",
+        "丁未"
+      ]
+    }
+  ],
+  "unknownHourPositive": {
+    "calendar": "solar",
+    "birthDate": "2023-02-15",
+    "birthTime": "00:00:00",
+    "timeUnknown": true,
+    "timezone": "Asia/Shanghai",
+    "timeBasis": "civil",
+    "knownPillars": [
+      "癸卯",
+      "甲寅",
+      "甲辰"
+    ],
+    "dayStem": "甲",
+    "expectedLocalWoodCapacity": "met"
+  }
+}

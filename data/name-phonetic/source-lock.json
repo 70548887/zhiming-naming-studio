@@ -1,0 +1,33 @@
+{
+  "schema": "name-phonetic-source-lock/1.0.0",
+  "profileVersions": {
+    "cmn": "cmn-homophone-review/1.0.0",
+    "yue": "yue-homophone-review/1.2.0"
+  },
+  "originals": {
+    "data/raw/zhwiktionary-Chinese.jsonl.gz": "3c9fa2e012e6c257b7a0789b581cadc3f19fd8316118dc48235b1eb4ccbd2d10",
+    "data/raw/yue-reading-words.dict.yaml": "54d174ad2bb997e4a678b7b076b84e4dc5914481b32467cdea3b43e88b7d5474",
+    "data/raw/yue-reading-chars.dict.yaml": "9b053a594c80eae76545bcdd83239884a49b1ba48b89ca0ab9e8daac79f33013",
+    "data/raw/yue-homophone-CC-BY-SA-4.0.txt": "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5",
+    "data/raw/yue-reading-CC-BY-4.0.txt": "97d24386ff776d7160b87031b259a942bd03c9939796cab6724ad5d17d2cf785"
+  },
+  "wiktionarySnapshot": "snapshot-sha256:3c9fa2e012e6c257b7a0789b581cadc3f19fd8316118dc48235b1eb4ccbd2d10",
+  "rimeCommit": "259f0e48bba840c3a2e0d117539e96937f3d89bc",
+  "licenses": {
+    "phonetic-wiktionary-fixed-137": "CC-BY-SA-4.0",
+    "phonetic-rime-fixed-137": "CC-BY-4.0"
+  },
+  "fileHashes": {
+    "CC-BY-4.0.txt": "97d24386ff776d7160b87031b259a942bd03c9939796cab6724ad5d17d2cf785",
+    "CC-BY-SA-4.0.txt": "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5",
+    "NOTICE.md": "e671d6285a210e011bb98ca560a9a76452fc576ac05057695ac9ccf9a1483279",
+    "name-phonetic-profile.json": "f75434d1b53e4a0083bc8519ca7758b31b414774633848796e20a07efd986756",
+    "name-reading-fixture-evidence.json": "5897c649bf2a98a877a1b1548fd0343a7b6c221b782d32fc0798100415e05a1b",
+    "reviewed-selection.mjs": "01b7fba8885fb2f79bee59ccddcaee281719a55c6b436b3633b1eebb72e41fce",
+    "rime-excerpts.json": "e21e300ab33df7a63b1c8c1112d6b2034175d9cd8c2f1dd4d0fd087afc81e583",
+    "selection-audit.json": "b09dee2e94c6acdfc157df0712e99e58097d4e2d7cef90a145e3967b7dd12809",
+    "wiktionary-excerpts.json": "520d64fb1079340aa6f6bd1e453802252e1602024455a4f5ad30e3e22524039f"
+  },
+  "aggregateConvention": "sha256(JSON.stringify(sorted fileHashes))",
+  "sha256": "b571e153ee91a1f47dbf14035a8d973d59b177e1efedab79cd4c50ef9b6dcb5c"
+}

@@ -1,0 +1,6 @@
+export interface RootFeedbackV132R2Identity {schema:'bazi-root-feedback-build/2';methodId:'project-bazi-mainchain-145/1.3.2';publicationId:'bazi-root-feedback/1.3.2;preview-publication-r2';fullClosureSha256:string;manifestSha256:string;esbuildVersion:string;}
+export interface RootFeedbackV132R2Source {sourcePath:string;resourcePath:string;bytes:number;sha256:string;role:'execution'|'resolution';}
+export interface RootFeedbackV132R2Closure {schema:string;build:unknown;files:RootFeedbackV132R2Source[];executionInputs:string[];externalRuntimeModules:string[];resolutionGuards:{path:string;expected:'absent'}[];}
+export function captureRootFeedbackV132R2Closure(root:string):Promise<RootFeedbackV132R2Closure>;
+export function verifyRootFeedbackV132R2BuildSources(root:string):Readonly<RootFeedbackV132R2Identity>;
+export function buildRootFeedbackV132R2(options:{root?:string;outfile:string}):Promise<{schema:string;identity:RootFeedbackV132R2Identity;compiledExecutionSources:RootFeedbackV132R2Source[];virtualInputs:{file:string;bytes:number;sha256:string}[];externalRuntimeModules:string[];resolutionMetadata:RootFeedbackV132R2Source[];runtimeEnvironment:unknown;output:{file:string;bytes:number;sha256:string};metafile:unknown}>;

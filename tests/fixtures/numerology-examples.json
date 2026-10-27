@@ -1,0 +1,21 @@
+{
+  "version": "2026.10.18.1",
+  "profileId": "kumazaki-five-grid",
+  "method": "independent-manual-arithmetic",
+  "note": "本文件为在给定字形笔画下，按四类公式独立手算的例名；不是熊崎原典标准例名，也不是对笔画来源的独立认证。给定数值另与两份固定版本开源公式交叉核对。",
+  "formulaReferences": ["shunshi-numerology-e93e1f3", "tianji-formula-0b3e64f"],
+  "examples": [
+    {"id":"single-single-1","shape":"single-single","surname":"王","givenName":"安","expectedStrokes":{"surname":[4],"given":[6]},"glyphs":{"surname":["王"],"given":["安"]},"expectedGrids":{"天格":5,"人格":10,"地格":7,"外格":2,"总格":10},"derivation":{"天格":"4+1=5","人格":"4+6=10","地格":"6+1=7","外格":"1+1=2","总格":"4+6=10"}},
+    {"id":"single-single-2","shape":"single-single","surname":"李","givenName":"明","expectedStrokes":{"surname":[7],"given":[8]},"glyphs":{"surname":["李"],"given":["明"]},"expectedGrids":{"天格":8,"人格":15,"地格":9,"外格":2,"总格":15},"derivation":{"天格":"7+1=8","人格":"7+8=15","地格":"8+1=9","外格":"1+1=2","总格":"7+8=15"}},
+    {"id":"single-single-3","shape":"single-single","surname":"林","givenName":"文","expectedStrokes":{"surname":[8],"given":[4]},"glyphs":{"surname":["林"],"given":["文"]},"expectedGrids":{"天格":9,"人格":12,"地格":5,"外格":2,"总格":12},"derivation":{"天格":"8+1=9","人格":"8+4=12","地格":"4+1=5","外格":"1+1=2","总格":"8+4=12"}},
+    {"id":"single-double-1","shape":"single-double","surname":"王","givenName":"安文","expectedStrokes":{"surname":[4],"given":[6,4]},"glyphs":{"surname":["王"],"given":["安","文"]},"expectedGrids":{"天格":5,"人格":10,"地格":10,"外格":5,"总格":14},"derivation":{"天格":"4+1=5","人格":"4+6=10","地格":"6+4=10","外格":"4+1=5","总格":"4+6+4=14"}},
+    {"id":"single-double-2","shape":"single-double","surname":"李","givenName":"明月","expectedStrokes":{"surname":[7],"given":[8,4]},"glyphs":{"surname":["李"],"given":["明","月"]},"expectedGrids":{"天格":8,"人格":15,"地格":12,"外格":5,"总格":19},"derivation":{"天格":"7+1=8","人格":"7+8=15","地格":"8+4=12","外格":"4+1=5","总格":"7+8+4=19"}},
+    {"id":"single-double-3","shape":"single-double","surname":"林","givenName":"天一","expectedStrokes":{"surname":[8],"given":[4,1]},"glyphs":{"surname":["林"],"given":["天","一"]},"expectedGrids":{"天格":9,"人格":12,"地格":5,"外格":2,"总格":13},"derivation":{"天格":"8+1=9","人格":"8+4=12","地格":"4+1=5","外格":"1+1=2","总格":"8+4+1=13"}},
+    {"id":"compound-single-1","shape":"compound-single","surname":"司徒","givenName":"安","expectedStrokes":{"surname":[5,10],"given":[6]},"glyphs":{"surname":["司","徒"],"given":["安"]},"expectedGrids":{"天格":15,"人格":16,"地格":7,"外格":6,"总格":21},"derivation":{"天格":"5+10=15","人格":"10+6=16","地格":"6+1=7","外格":"5+1=6","总格":"5+10+6=21"}},
+    {"id":"compound-single-2","shape":"compound-single","surname":"上官","givenName":"文","expectedStrokes":{"surname":[3,8],"given":[4]},"glyphs":{"surname":["上","官"],"given":["文"]},"expectedGrids":{"天格":11,"人格":12,"地格":5,"外格":4,"总格":15},"derivation":{"天格":"3+8=11","人格":"8+4=12","地格":"4+1=5","外格":"3+1=4","总格":"3+8+4=15"}},
+    {"id":"compound-single-3","shape":"compound-single","surname":"公羊","givenName":"天","expectedStrokes":{"surname":[4,6],"given":[4]},"glyphs":{"surname":["公","羊"],"given":["天"]},"expectedGrids":{"天格":10,"人格":10,"地格":5,"外格":5,"总格":14},"derivation":{"天格":"4+6=10","人格":"6+4=10","地格":"4+1=5","外格":"4+1=5","总格":"4+6+4=14"}},
+    {"id":"compound-double-1","shape":"compound-double","surname":"司徒","givenName":"明月","expectedStrokes":{"surname":[5,10],"given":[8,4]},"glyphs":{"surname":["司","徒"],"given":["明","月"]},"expectedGrids":{"天格":15,"人格":18,"地格":12,"外格":9,"总格":27},"derivation":{"天格":"5+10=15","人格":"10+8=18","地格":"8+4=12","外格":"5+4=9","总格":"5+10+8+4=27"}},
+    {"id":"compound-double-2","shape":"compound-double","surname":"上官","givenName":"安文","expectedStrokes":{"surname":[3,8],"given":[6,4]},"glyphs":{"surname":["上","官"],"given":["安","文"]},"expectedGrids":{"天格":11,"人格":14,"地格":10,"外格":7,"总格":21},"derivation":{"天格":"3+8=11","人格":"8+6=14","地格":"6+4=10","外格":"3+4=7","总格":"3+8+6+4=21"}},
+    {"id":"compound-double-3","shape":"compound-double","surname":"公羊","givenName":"天一","expectedStrokes":{"surname":[4,6],"given":[4,1]},"glyphs":{"surname":["公","羊"],"given":["天","一"]},"expectedGrids":{"天格":10,"人格":10,"地格":5,"外格":5,"总格":15},"derivation":{"天格":"4+6=10","人格":"6+4=10","地格":"4+1=5","外格":"4+1=5","总格":"4+6+4+1=15"}}
+  ]
+}

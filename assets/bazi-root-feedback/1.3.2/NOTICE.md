@@ -1,0 +1,1 @@
+1.3.2 is a separate project proposal implementation and source-verified preview publication. Fixed 1.3.1 code, publication, default selection and saved replay remain independent. Numerical rules are project proposals, not classical sufficient conditions. Original source attribution and licenses are preserved in rules/source-lock-1.3.2.json.

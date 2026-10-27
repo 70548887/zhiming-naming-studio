@@ -1,0 +1,32 @@
+{
+  "schema": "saved-modern-ui-fixture-source/1.0.0",
+  "scope": "Controlled historical actual Service/Store saved plan used only for render-only UI/action unit tests. Not a new product or authoritative Store replay fixture.",
+  "fixture": "saved-modern-ui-session.json",
+  "fixtureSha256": "457b51cfd9fd002539d6c582e7c39d06e4842e4b1558cb164b15fd91989154e9",
+  "bytes": 230282,
+  "projectCase": "D02-137-MODERN-INTEGRATION",
+  "historicalArtifact": ".local/team-137/dev02/modern-evidence-integration/verification/saved-modern.json",
+  "runtimeReadsHistoricalArtifact": false,
+  "producer": {
+    "file": "workspace/tests/modern-integration.test.ts",
+    "sha256": "c5a8052ab81f9af1588006efb903deec7e9b935bc3a3e20ce64bb5e58ebee462",
+    "steps": [
+      "Actual Store initialized in isolated verification store",
+      "Actual StudioService.generate creates 李知安 with controlled profile",
+      "recordModernPracticalEvidence receives verified IDs and CAS metadata",
+      "Generated saved session written byte-for-byte as saved-modern.json"
+    ],
+    "test": "records from verified IDs only, with CAS/history/capture identities and fixed scores/sources"
+  },
+  "snapshot": {
+    "sessionId": "6a2d00e0-b618-4f4f-8896-c4b0134eaa80",
+    "createdAt": "2026-10-21T03:27:30.784Z",
+    "customerName": "现代流程隔离样本",
+    "fullName": "李知安",
+    "recordVersion": "modern-practical-evidence/1.0.0",
+    "dataVersion": "1875aa49dcfa"
+  },
+  "modifications": "None:all original bytes preserved;test-only URL changed to a committed sibling fixtures directory.",
+  "normalCustomerDataUsed": false,
+  "requiredExternalEnvironment": false
+}

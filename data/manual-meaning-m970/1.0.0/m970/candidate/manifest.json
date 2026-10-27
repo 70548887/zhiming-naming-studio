@@ -1,0 +1,73 @@
+{
+  "schema": "m970-candidate-manifest/1",
+  "batchId": "M970-DATA",
+  "version": "1.0.0-candidate.1",
+  "candidateOnly": true,
+  "activation": "off",
+  "productionApproved": false,
+  "admissionGranted": false,
+  "formalCoverageAdded": 0,
+  "selectedCount": 6,
+  "files": [
+    {
+      "file": "candidate/profile.json",
+      "bytes": 19627,
+      "sha256": "016a3318e60f355d94b453bf7fe2b77b8c3ed44f86df4855329f2cb85b8bd108"
+    },
+    {
+      "file": "candidate/source-subset.json",
+      "bytes": 32592,
+      "sha256": "721f1570e113c6ae005db6f5b38b8d1eed4b74f75a9c5eeb4236abbb5c5ea62f"
+    },
+    {
+      "file": "candidate/admission.json",
+      "bytes": 1900,
+      "sha256": "88e12d0138df66b4e7514a2525e5262ee9c7d491e1a96b2d921391bc6bfa1258"
+    },
+    {
+      "file": "candidate/coverage-delta.json",
+      "bytes": 3392,
+      "sha256": "0cec6a5f0cc45483d6854e71db24812f8e0fa951d4e2809247b8a9c66d1996b3"
+    },
+    {
+      "file": "candidate/source-lock.json",
+      "bytes": 5954,
+      "sha256": "5b0ea090f02a7e7c0e3ad48a7b023d96317670f1634259ae59aaafb49e2af2fa"
+    },
+    {
+      "file": "coverage.json",
+      "bytes": 50086,
+      "sha256": "15fed32c100653be87a26f0ca888189ae7d1a61d18973649d974f80f661b6cc4"
+    },
+    {
+      "file": "regression-proof.json",
+      "bytes": 2527,
+      "sha256": "4a5cde8dd6648ae27befff741b52598457a5b8f32cda323b99ba6d83bbbe5e9c"
+    },
+    {
+      "file": "M959-RECLASSIFICATION.json",
+      "bytes": 4285,
+      "sha256": "f9052c3af98ff52ee43b194ea1126961615fd8d5305daf676924e2a40f768bfa"
+    },
+    {
+      "file": "inputs.json",
+      "bytes": 8978,
+      "sha256": "8ddbf3bbfa8cda1b6a6eb4981d0371ed6f620c7b869ee1795d17019fe6f6b942"
+    },
+    {
+      "file": "plans.json",
+      "bytes": 2266,
+      "sha256": "a2f391aec1b92d95de8cfe43df89c146bcaa2b5f6aee7b51e9e4859bafb42503"
+    },
+    {
+      "file": "notices/moe-README.md",
+      "bytes": 1214,
+      "sha256": "a93321d9381bc1cf34b4ad844f71607fa748c86c0b228ae37d46720d6a659cb2"
+    },
+    {
+      "file": "notices/CC-BY-ND-3.0-TW.html",
+      "bytes": 31775,
+      "sha256": "04e6ef69a223b6e13c93c97a918ad5fd0dbb9fc34ae307f4449ed264e2d4108f"
+    }
+  ]
+}

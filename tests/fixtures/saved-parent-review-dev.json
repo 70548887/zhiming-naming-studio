@@ -1,0 +1,243 @@
+{
+  "scope": "Development replay of root actualStoredReview from isolated real Service HTTP; not independent reviewed goldens and not a new Service run.",
+  "snapshot": {
+    "version": "parent-name-phonetic-review/1.0.0",
+    "recordState": "recorded",
+    "sessionId": "bb150d71-e100-4203-9c3a-2db23cfef050",
+    "candidateId": "86de66a7-14f3-4aef-a0b8-828f6fe2645f",
+    "capture": {
+      "mode": "strict",
+      "parentNames": {
+        "fatherName": "林知源",
+        "motherName": "陈安宁"
+      },
+      "readings": [
+        {
+          "version": "parent-name-reading/1.0.0",
+          "role": "father",
+          "fullName": "林知源",
+          "surnameLength": 1,
+          "givenName": "知源",
+          "readings": [
+            {
+              "index": 0,
+              "char": "知",
+              "confirmed": true,
+              "origin": "dictionary",
+              "token": "zhi1",
+              "optionId": "cmnr1-5dcab2718150ab87453f27b098587d8055bbb92ad5dfe56cb9ae17ac4d0872f8",
+              "source": {
+                "profile": "cmn-character-source/1.0.0",
+                "profileSha256": "bea3067ebffc763904d4ef3d2629a2c86fcb1fa8fd3a4a57d32ff4bee6d96270",
+                "language": "cmn",
+                "standard": "MOE-Revised-Taiwan-fixed-snapshot",
+                "sourceId": "moe-revised",
+                "commit": "a6dc997417507eb510fc29822bc514de2c92728c",
+                "rawFile": "data/raw/moe-revised.json.gz",
+                "rawSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+                "rawJsonSha256": "ea767109dfb04f838900b7462ebf6977f344f592e1dd745a204cbe3327ef8fe3",
+                "datasetFile": "data/dataset-v6.json",
+                "datasetSha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+                "datasetVersion": "2026.10.20.2",
+                "license": "CC-BY-ND-3.0-TW",
+                "url": "https://github.com/g0v/moedict-data/blob/a6dc997417507eb510fc29822bc514de2c92728c/dict-revised_bkup.json"
+              }
+            },
+            {
+              "index": 1,
+              "char": "源",
+              "confirmed": true,
+              "origin": "dictionary",
+              "token": "yuan2",
+              "optionId": "cmnr1-9304a6f1a80ab1219242ff7bacb6089ab8856f464e566f5e5985d325626b83d2",
+              "source": {
+                "profile": "cmn-character-source/1.0.0",
+                "profileSha256": "bea3067ebffc763904d4ef3d2629a2c86fcb1fa8fd3a4a57d32ff4bee6d96270",
+                "language": "cmn",
+                "standard": "MOE-Revised-Taiwan-fixed-snapshot",
+                "sourceId": "moe-revised",
+                "commit": "a6dc997417507eb510fc29822bc514de2c92728c",
+                "rawFile": "data/raw/moe-revised.json.gz",
+                "rawSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+                "rawJsonSha256": "ea767109dfb04f838900b7462ebf6977f344f592e1dd745a204cbe3327ef8fe3",
+                "datasetFile": "data/dataset-v6.json",
+                "datasetSha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+                "datasetVersion": "2026.10.20.2",
+                "license": "CC-BY-ND-3.0-TW",
+                "url": "https://github.com/g0v/moedict-data/blob/a6dc997417507eb510fc29822bc514de2c92728c/dict-revised_bkup.json"
+              }
+            }
+          ]
+        }
+      ],
+      "child": {
+        "surname": "林",
+        "surnamePinyin": "lín",
+        "givenName": "之元",
+        "characters": [
+          {
+            "char": "之",
+            "pinyin": "zhī",
+            "tone": 1,
+            "sourceId": "moe-revised"
+          },
+          {
+            "char": "元",
+            "pinyin": "yuán",
+            "tone": 2,
+            "sourceId": "moe-revised"
+          }
+        ]
+      }
+    },
+    "result": {
+      "version": "parent-name-phonetics/1.0.0",
+      "mode": "strict",
+      "scope": "whole-given-name-syllables-only",
+      "childFullName": "林之元",
+      "childGivenName": "之元",
+      "comparisons": [
+        {
+          "role": "father",
+          "status": "matched",
+          "comparison": "exact",
+          "parentFullName": "林知源",
+          "parentGivenName": "知源",
+          "childGivenName": "之元",
+          "actualChildTokens": [
+            "zhi1",
+            "yuan2"
+          ],
+          "parentTokens": [
+            "zhi1",
+            "yuan2"
+          ],
+          "differentTonePositions": [],
+          "confirmedParentReading": {
+            "version": "parent-name-reading/1.0.0",
+            "role": "father",
+            "fullName": "林知源",
+            "surnameLength": 1,
+            "givenName": "知源",
+            "readings": [
+              {
+                "index": 0,
+                "char": "知",
+                "confirmed": true,
+                "origin": "dictionary",
+                "token": "zhi1",
+                "optionId": "cmnr1-5dcab2718150ab87453f27b098587d8055bbb92ad5dfe56cb9ae17ac4d0872f8",
+                "source": {
+                  "profile": "cmn-character-source/1.0.0",
+                  "profileSha256": "bea3067ebffc763904d4ef3d2629a2c86fcb1fa8fd3a4a57d32ff4bee6d96270",
+                  "language": "cmn",
+                  "standard": "MOE-Revised-Taiwan-fixed-snapshot",
+                  "sourceId": "moe-revised",
+                  "commit": "a6dc997417507eb510fc29822bc514de2c92728c",
+                  "rawFile": "data/raw/moe-revised.json.gz",
+                  "rawSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+                  "rawJsonSha256": "ea767109dfb04f838900b7462ebf6977f344f592e1dd745a204cbe3327ef8fe3",
+                  "datasetFile": "data/dataset-v6.json",
+                  "datasetSha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+                  "datasetVersion": "2026.10.20.2",
+                  "license": "CC-BY-ND-3.0-TW",
+                  "url": "https://github.com/g0v/moedict-data/blob/a6dc997417507eb510fc29822bc514de2c92728c/dict-revised_bkup.json"
+                }
+              },
+              {
+                "index": 1,
+                "char": "源",
+                "confirmed": true,
+                "origin": "dictionary",
+                "token": "yuan2",
+                "optionId": "cmnr1-9304a6f1a80ab1219242ff7bacb6089ab8856f464e566f5e5985d325626b83d2",
+                "source": {
+                  "profile": "cmn-character-source/1.0.0",
+                  "profileSha256": "bea3067ebffc763904d4ef3d2629a2c86fcb1fa8fd3a4a57d32ff4bee6d96270",
+                  "language": "cmn",
+                  "standard": "MOE-Revised-Taiwan-fixed-snapshot",
+                  "sourceId": "moe-revised",
+                  "commit": "a6dc997417507eb510fc29822bc514de2c92728c",
+                  "rawFile": "data/raw/moe-revised.json.gz",
+                  "rawSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+                  "rawJsonSha256": "ea767109dfb04f838900b7462ebf6977f344f592e1dd745a204cbe3327ef8fe3",
+                  "datasetFile": "data/dataset-v6.json",
+                  "datasetSha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+                  "datasetVersion": "2026.10.20.2",
+                  "license": "CC-BY-ND-3.0-TW",
+                  "url": "https://github.com/g0v/moedict-data/blob/a6dc997417507eb510fc29822bc514de2c92728c/dict-revised_bkup.json"
+                }
+              }
+            ]
+          },
+          "reason": "双方确认的完整给名音节与声调相同；仅作家庭重音提醒，不决定名字适合度。"
+        },
+        {
+          "role": "mother",
+          "status": "not-assessed",
+          "comparison": null,
+          "parentFullName": "陈安宁",
+          "parentGivenName": null,
+          "childGivenName": "之元",
+          "actualChildTokens": [
+            "zhi1",
+            "yuan2"
+          ],
+          "parentTokens": null,
+          "differentTonePositions": [],
+          "confirmedParentReading": null,
+          "reason": "尚未完整确认该位家人的给名读音；未从姓名文字猜测。"
+        }
+      ],
+      "readingOrigins": {
+        "dictionarySourceIds": [
+          "moe-revised"
+        ],
+        "hasFamilyConfirmedInput": false
+      },
+      "notice": "只比较父母与孩子完整给名的实际采用音节；字形避讳与有限词表检查另行保留，未命中不表示安全。",
+      "limitations": [
+        "父母原姓名与姓/给名边界须明确确认；不自动猜复姓或枚举多音。",
+        "手输来源是家庭确认，不冒充字典或普通话认证。MOE候选明确来自台湾教育部固定词典，不当作大陆标准或真人实际读法证明。",
+        "忽略声调只去末尾数字调，不合并n/l、平翘舌、前后鼻音或ü/u；不推断连读音变。",
+        "只比较整个给名，不匹配单字、子串或父母姓氏，不判断完整姓名词义或心理影响。"
+      ],
+      "scoreDelta": 0,
+      "automaticRejection": false,
+      "wholeNameSuitability": "not-assessed"
+    },
+    "sourceSnapshot": {
+      "method": {
+        "id": "parent-name-phonetics-method-149-v1",
+        "name": "完整给名家庭重音比较方法1.0",
+        "url": "local:data/parent-name-phonetics-method-v1.json",
+        "commit": "M149-D02;parent-name-phonetics/1.0.0",
+        "license": "CC0-1.0 project method metadata only",
+        "files": [
+          "data/parent-name-phonetics-method-v1.json"
+        ],
+        "sha256": "adc7c59fbf2f248f022e9b580a8baceb6f635edb6402988540b014f34c8f4823",
+        "note": "只比较已确认父母给名与孩子实际采用音节；原词典来源另保留，不判断名字安全、品质或整名适合度。"
+      },
+      "dictionarySources": [
+        {
+          "profile": "cmn-character-source/1.0.0",
+          "profileSha256": "bea3067ebffc763904d4ef3d2629a2c86fcb1fa8fd3a4a57d32ff4bee6d96270",
+          "language": "cmn",
+          "standard": "MOE-Revised-Taiwan-fixed-snapshot",
+          "sourceId": "moe-revised",
+          "commit": "a6dc997417507eb510fc29822bc514de2c92728c",
+          "rawFile": "data/raw/moe-revised.json.gz",
+          "rawSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+          "rawJsonSha256": "ea767109dfb04f838900b7462ebf6977f344f592e1dd745a204cbe3327ef8fe3",
+          "datasetFile": "data/dataset-v6.json",
+          "datasetSha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+          "datasetVersion": "2026.10.20.2",
+          "license": "CC-BY-ND-3.0-TW",
+          "url": "https://github.com/g0v/moedict-data/blob/a6dc997417507eb510fc29822bc514de2c92728c/dict-revised_bkup.json"
+        }
+      ],
+      "confirmationPolicy": "family-confirmed-actual-reading"
+    }
+  }
+}

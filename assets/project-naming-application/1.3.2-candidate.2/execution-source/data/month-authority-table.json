@@ -1,0 +1,399 @@
+{
+  "version": "sanming-first-paragraph/1.0.0",
+  "sourceId": "bazi-month-authority-sanming-v1",
+  "title": "《三命通会》四库卷二“论人元司事”首段分日表（明确转录口径）",
+  "source": {
+    "repository": "mikkokotila/Sanming-Tongshui",
+    "commit": "eb3cacbf4b41a4fe8fc3c0e77e0d12b5bd17c079",
+    "upstreamPath": "source/juan-02.md",
+    "edition": "三命通會（四庫全書本）电子转录",
+    "section": "論人元司事",
+    "permalink": "https://zh.wikisource.org/w/index.php?oldid=761691",
+    "contributorHistory": "https://zh.wikisource.org/w/index.php?title=%E4%B8%89%E5%91%BD%E9%80%9A%E6%9C%83+%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29%2F%E5%8D%B702&action=history"
+  },
+  "license": {
+    "historicalText": "Public domain historical text",
+    "transcription": "CC-BY-SA-4.0",
+    "structuredMapping": "CC-BY-SA-4.0",
+    "notice": "data/raw/month-authority-ATTRIBUTION.md",
+    "fullLicense": "data/raw/CC-BY-SA-4.0.txt"
+  },
+  "verification": {
+    "scanCollation": false,
+    "status": "fixed-electronic-transcription-only",
+    "note": "上游明确未与影印原页独立校勘；固定Wikisource修订无扫描Index/Page链接。Kanripo相应电子分页可对读，但不构成影印页校核，本应用未再分发其无明确许可的电子编排。"
+  },
+  "policy": {
+    "id": "elapsed-24h-first-prose-no-tail-extension/1.0.0",
+    "daySeconds": 86400,
+    "interval": "fromDay inclusive; toDay exclusive",
+    "tableDays": 30,
+    "sourceTerms": "艮土、坤土、巳土、已土保留原文；只归土元素，不擅映射戊己天干。normalizedStem只在原词明确为十天干时提供。",
+    "actualMonth": "先按实际交节区间分段，再以距该节实际秒数除86400定位；这项时长约定属于软件，不声称原文明确采用UTC秒数。",
+    "shortMonth": "下一节前按实际区间裁切；不把30日按节长比例缩放。",
+    "longMonth": "超过第30个24小时但尚未交下一节的尾段无表项，输出未覆盖；不续尾、不折返、不取模。",
+    "unknownTime": "对实际可能瞬间区间求候选集合；跨交节分别保留月别、引用和未覆盖区间。"
+  },
+  "months": [
+    {
+      "monthBranch": "寅",
+      "sourceQuote": "正月建寅寅中有艮土用事五日丙火長生五日甲木二十日",
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[154,178)",
+      "segments": [
+        {
+          "sourceTerm": "艮土",
+          "days": 5,
+          "fromDay": 0,
+          "toDay": 5,
+          "element": "土"
+        },
+        {
+          "sourceTerm": "丙火",
+          "days": 5,
+          "fromDay": 5,
+          "toDay": 10,
+          "element": "火",
+          "normalizedStem": "丙"
+        },
+        {
+          "sourceTerm": "甲木",
+          "days": 20,
+          "fromDay": 10,
+          "toDay": 30,
+          "element": "木",
+          "normalizedStem": "甲"
+        }
+      ]
+    },
+    {
+      "monthBranch": "卯",
+      "sourceQuote": "二月建卯卯中有甲木用事七日乙木二十三日",
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[178,197)",
+      "segments": [
+        {
+          "sourceTerm": "甲木",
+          "days": 7,
+          "fromDay": 0,
+          "toDay": 7,
+          "element": "木",
+          "normalizedStem": "甲"
+        },
+        {
+          "sourceTerm": "乙木",
+          "days": 23,
+          "fromDay": 7,
+          "toDay": 30,
+          "element": "木",
+          "normalizedStem": "乙"
+        }
+      ]
+    },
+    {
+      "monthBranch": "辰",
+      "sourceQuote": "三月建辰辰中有乙木用事七日壬水墓庫五日戊土一十八日",
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[197,222)",
+      "segments": [
+        {
+          "sourceTerm": "乙木",
+          "days": 7,
+          "fromDay": 0,
+          "toDay": 7,
+          "element": "木",
+          "normalizedStem": "乙"
+        },
+        {
+          "sourceTerm": "壬水",
+          "days": 5,
+          "fromDay": 7,
+          "toDay": 12,
+          "element": "水",
+          "normalizedStem": "壬"
+        },
+        {
+          "sourceTerm": "戊土",
+          "days": 18,
+          "fromDay": 12,
+          "toDay": 30,
+          "element": "土",
+          "normalizedStem": "戊"
+        }
+      ]
+    },
+    {
+      "monthBranch": "巳",
+      "sourceQuote": "四月建巳巳中有戊土七日庚金長生五日丙火一十八日",
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[222,245)",
+      "segments": [
+        {
+          "sourceTerm": "戊土",
+          "days": 7,
+          "fromDay": 0,
+          "toDay": 7,
+          "element": "土",
+          "normalizedStem": "戊"
+        },
+        {
+          "sourceTerm": "庚金",
+          "days": 5,
+          "fromDay": 7,
+          "toDay": 12,
+          "element": "金",
+          "normalizedStem": "庚"
+        },
+        {
+          "sourceTerm": "丙火",
+          "days": 18,
+          "fromDay": 12,
+          "toDay": 30,
+          "element": "火",
+          "normalizedStem": "丙"
+        }
+      ]
+    },
+    {
+      "monthBranch": "午",
+      "sourceQuote": "五月建午午中丙火用事七日丁火二十三日",
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[245,263)",
+      "segments": [
+        {
+          "sourceTerm": "丙火",
+          "days": 7,
+          "fromDay": 0,
+          "toDay": 7,
+          "element": "火",
+          "normalizedStem": "丙"
+        },
+        {
+          "sourceTerm": "丁火",
+          "days": 23,
+          "fromDay": 7,
+          "toDay": 30,
+          "element": "火",
+          "normalizedStem": "丁"
+        }
+      ]
+    },
+    {
+      "monthBranch": "未",
+      "sourceQuote": "六月建未未中有丁火用事七日甲木墓庫五日巳土一十八日",
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[263,288)",
+      "segments": [
+        {
+          "sourceTerm": "丁火",
+          "days": 7,
+          "fromDay": 0,
+          "toDay": 7,
+          "element": "火",
+          "normalizedStem": "丁"
+        },
+        {
+          "sourceTerm": "甲木",
+          "days": 5,
+          "fromDay": 7,
+          "toDay": 12,
+          "element": "木",
+          "normalizedStem": "甲"
+        },
+        {
+          "sourceTerm": "巳土",
+          "days": 18,
+          "fromDay": 12,
+          "toDay": 30,
+          "element": "土"
+        }
+      ]
+    },
+    {
+      "monthBranch": "申",
+      "sourceQuote": "七月建申申中有坤土用事五日壬水長生五日庚金二十日",
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[288,312)",
+      "segments": [
+        {
+          "sourceTerm": "坤土",
+          "days": 5,
+          "fromDay": 0,
+          "toDay": 5,
+          "element": "土"
+        },
+        {
+          "sourceTerm": "壬水",
+          "days": 5,
+          "fromDay": 5,
+          "toDay": 10,
+          "element": "水",
+          "normalizedStem": "壬"
+        },
+        {
+          "sourceTerm": "庚金",
+          "days": 20,
+          "fromDay": 10,
+          "toDay": 30,
+          "element": "金",
+          "normalizedStem": "庚"
+        }
+      ]
+    },
+    {
+      "monthBranch": "酉",
+      "sourceQuote": "八月建酉酉中有庚金用事七日辛金二十三日",
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[312,331)",
+      "segments": [
+        {
+          "sourceTerm": "庚金",
+          "days": 7,
+          "fromDay": 0,
+          "toDay": 7,
+          "element": "金",
+          "normalizedStem": "庚"
+        },
+        {
+          "sourceTerm": "辛金",
+          "days": 23,
+          "fromDay": 7,
+          "toDay": 30,
+          "element": "金",
+          "normalizedStem": "辛"
+        }
+      ]
+    },
+    {
+      "monthBranch": "戌",
+      "sourceQuote": "九月建戌戌中有辛金用事七日丙火墓庫五日戊土一十八日",
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[331,356)",
+      "segments": [
+        {
+          "sourceTerm": "辛金",
+          "days": 7,
+          "fromDay": 0,
+          "toDay": 7,
+          "element": "金",
+          "normalizedStem": "辛"
+        },
+        {
+          "sourceTerm": "丙火",
+          "days": 5,
+          "fromDay": 7,
+          "toDay": 12,
+          "element": "火",
+          "normalizedStem": "丙"
+        },
+        {
+          "sourceTerm": "戊土",
+          "days": 18,
+          "fromDay": 12,
+          "toDay": 30,
+          "element": "土",
+          "normalizedStem": "戊"
+        }
+      ]
+    },
+    {
+      "monthBranch": "亥",
+      "sourceQuote": "十月建亥亥中有戊土五日甲木長生五日壬水用事二十日",
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[356,380)",
+      "segments": [
+        {
+          "sourceTerm": "戊土",
+          "days": 5,
+          "fromDay": 0,
+          "toDay": 5,
+          "element": "土",
+          "normalizedStem": "戊"
+        },
+        {
+          "sourceTerm": "甲木",
+          "days": 5,
+          "fromDay": 5,
+          "toDay": 10,
+          "element": "木",
+          "normalizedStem": "甲"
+        },
+        {
+          "sourceTerm": "壬水",
+          "days": 20,
+          "fromDay": 10,
+          "toDay": 30,
+          "element": "水",
+          "normalizedStem": "壬"
+        }
+      ]
+    },
+    {
+      "monthBranch": "子",
+      "sourceQuote": "十一月建子子中有壬水用事七日癸水二十三日",
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[380,400)",
+      "segments": [
+        {
+          "sourceTerm": "壬水",
+          "days": 7,
+          "fromDay": 0,
+          "toDay": 7,
+          "element": "水",
+          "normalizedStem": "壬"
+        },
+        {
+          "sourceTerm": "癸水",
+          "days": 23,
+          "fromDay": 7,
+          "toDay": 30,
+          "element": "水",
+          "normalizedStem": "癸"
+        }
+      ]
+    },
+    {
+      "monthBranch": "丑",
+      "sourceQuote": "十二月建丑丑中有癸水用事七日庚金墓庫五日巳土一十八日",
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[400,426)",
+      "segments": [
+        {
+          "sourceTerm": "癸水",
+          "days": 7,
+          "fromDay": 0,
+          "toDay": 7,
+          "element": "水",
+          "normalizedStem": "癸"
+        },
+        {
+          "sourceTerm": "庚金",
+          "days": 5,
+          "fromDay": 7,
+          "toDay": 12,
+          "element": "金",
+          "normalizedStem": "庚"
+        },
+        {
+          "sourceTerm": "巳土",
+          "days": 18,
+          "fromDay": 12,
+          "toDay": 30,
+          "element": "土"
+        }
+      ]
+    }
+  ],
+  "readings": [
+    {
+      "id": "yujing-alternative",
+      "title": "同章再考玉井异表",
+      "status": "comparison-only",
+      "quote": "正月寅〈立春雨水〉已土七日丙火五日甲木十八日二月卯〈驚蟄春分〉乙十八日甲九日癸三日\n\n三月辰〈清明穀雨〉戊十八日乙九日癸三日\n\n四月已〈立夏小滿〉丙十八日戊七日庚五日\n\n五月午〈芒種夏至〉丁十八日丙九日乙三日\n\n六月未〈小暑大暑〉已十八日乙五日丁七日\n\n七月申〈立秋處暑〉庚十七日已七日戊三日壬三日八月酉〈白露秋分〉辛二十日庚七日丁五日\n\n九月戌〈寒露霜降〉戊十八日辛七日丁五日\n\n十月亥〈立冬小雪〉壬十八日甲五日戊七日\n\n十一月子〈大雪冬至〉癸十八日壬五日辛三日\n\n十二月丑〈小寒大寒〉已十八日癸七日辛五日",
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[508,762)",
+      "note": "原列次序和天数保留，不作为本版本计算表；酉20+7+5为32，子18+5+3为26，不擅自补齐或归一30，亦不自动调换原列序。"
+    },
+    {
+      "id": "zuixingzi-non-fixed-days",
+      "title": "醉醒子不以固定日限的意见",
+      "status": "comparison-only",
+      "quote": "醉醒子曰時行物生天道之常一嵗之中雖有進退四時之内本無輕重故以金木水火分旺四時各得七十二日土旺四季各有十八日共三百六十日乃成嵗焉立春之後則用陽木三十六日艮土分野丙戊長生驚蟄後六日則用隂木三十六日癸水寄生清明後十二日則用戊土十八日陽水歸庫隂水返魂夏秋冬亦如此淵源淵海則以立春之後已土餘氣幾日艮土分野幾日丙戊長生先後各得幾日卯月癸水寄生幾日辰月陽水歸庫隂水返魂亦各幾日殊不思丑月之用既足春後又河餘哉分野者聚一方之旺氣長生者歸母成孕先後者盖有寅而後生丙有丙而後戊生寄生者徒有虚名乃無實位歸庫者絶其生氣而收藏返魂者續其死氣而變化此五行生死進退之𤣥機豈可以幾日為限哉且春之用木秋之用金固一定之理也若雜揉寓處之神占用幾日則本宫主氣之數未嘗不缺而虧矣則何以見春木夏火一氣流行各旺七十二日之數耶以四季配五行之用乃主有納客之數客無勝主之理但主氣之司權自有初中末三氣之淺深用之者特宜較量輕重言耳又豈可以三五七日為限哉其説足以破淵源之誤又支中所藏止以月論年日時不論人命重提綱厥有㫖哉\n",
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[764,1194)",
+      "note": "保留同章反对以三五七日定限的意见，与首段所选分日表并列；不能把电子表定位结果合成为唯一司令或喜用神。"
+    }
+  ],
+  "limitations": [
+    "本表是所选电子转录的首段，不等于全部传本或学派一致。",
+    "不将原词艮土/坤土/巳土更改成戊己，元素土明确不等于天干明确。",
+    "未根据表结果改变旧扶抑权重、命名排序或喜用神。",
+    "首段、玉井异表和醉醒子意见不合并成唯一司权。"
+  ]
+}

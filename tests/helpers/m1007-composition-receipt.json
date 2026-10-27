@@ -1,0 +1,59 @@
+{
+  "schema": "m1007-current-report-composition-candidate/1",
+  "base": "c86600dcb9f51e02aeffa48ec74922fe983d6121",
+  "reportCommits": [
+    "1607a863c9cb509b449554661049c4c0b22682f5",
+    "146aeb8feb5f638e9afa15e0cea0ff91c92eab03"
+  ],
+  "compositionOnly": true,
+  "conflictedFiles": [
+    "scripts/dev-plugin.ts",
+    "src/main/main.ts",
+    "src/main/preload.ts",
+    "src/main/service.ts",
+    "src/shared/browser-api.ts"
+  ],
+  "contentConflictBlocks": 9,
+  "methodBodyLogicConflicts": 0,
+  "resolution": "Union current history and fixed report imports/type intersections/native captures/route registration/allowlist/exact-arity exceptions. No whole file replaced from report source.",
+  "mustRetain": [
+    "restoreCandidate2History exact4",
+    "previewCandidate2Report exact3",
+    "exportCandidate2Report exact3 desktop-only",
+    "generateCandidate2 and reviewCandidate2 existing exact arguments",
+    "All current Store/Service members, native shared history private selection/CAS/review core",
+    "Current renderer/main.tsx byte-exact c866"
+  ],
+  "browserNoTrimMethods": [
+    "generateCandidate2",
+    "reviewCandidate2",
+    "restoreCandidate2History",
+    "previewCandidate2Report",
+    "exportCandidate2Report"
+  ],
+  "reportFinalPostimage": {
+    "independentWholeFilesByteExact146": 11,
+    "sharedAutoMergedStore": "Existing current AST retained; new readonly report method exact146 AST",
+    "otherSharedFive": "Additive union per conflict map",
+    "exportPdfHelper": "Exact146 AST accepting main-owned HTML"
+  },
+  "validation": {
+    "staticAstAndPostimageChecksPassed": 531,
+    "oldStoreMembersCompared": 186,
+    "currentStoreMembers": 187,
+    "oldServiceMembersCompared": 118,
+    "currentServiceMembers": 119,
+    "memberCountScope": "Counts of all class members in this checker, not a claim about another audit parser method count.",
+    "newTargetedTransportCasesPassed": 13,
+    "transportExitCode": 0,
+    "boundaryOnlyServiceMocks": true,
+    "old69Or30TestsRerun": false,
+    "fullTypecheckPerformed": false,
+    "actualStoreSqlHttpPdfElectronRuns": 0
+  },
+  "nativeOrSourceAcceptance": false,
+  "rootModified": false,
+  "oldReportBranchesModified": false,
+  "rootMergePerformed": false,
+  "next": "Root/audit review the unique composition commit and five shared-file difference map; full types/native report/PDF window remains root-scheduled."
+}

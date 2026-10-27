@@ -1,0 +1,92 @@
+{
+  "schema": "m957-review-artifact-manifest/1",
+  "task": "M957-CONSUMER-SOURCE-REVIEW",
+  "fixedHead": "f8e272b1b0d077019ca2d267709378df17e405d9",
+  "finalObservedHead": "841bddd49096a09f2b75b96a7976e70c638266c9",
+  "exact8CurrentStillMatched": true,
+  "exact8WorkingTreeClean": true,
+  "scopeFiles": [
+    {
+      "file": "src/domain/candidate2-naming-consumer-v1.ts",
+      "bytes": 1173,
+      "sha256": "ab0cdf1e41189f61684b87faebf319761e15f6cc038492d8a81d5863de767a91",
+      "gitBlob": "f9f8aaf82ea906807f6b36f09d144226623ad6e5"
+    },
+    {
+      "file": "src/shared/candidate2-naming-consumer-v1.ts",
+      "bytes": 2730,
+      "sha256": "5f56f306bb45e47e0c9d0186f477a216878790d741a1b8677deeb8c2ee1d948b",
+      "gitBlob": "066c889e242a703e6bcba9a652bbeb98d896148f"
+    },
+    {
+      "file": "src/main/candidate2-naming-consumer-v1.ts",
+      "bytes": 15408,
+      "sha256": "022f821df5ccff91d06b699002055ed1cb8e256adc045f45b8610365a8e82966",
+      "gitBlob": "a8545dcb6a0d8d674127ffb70ef5bf363e57ba72"
+    },
+    {
+      "file": "src/main/candidate2-naming-data-v1.ts",
+      "bytes": 5634,
+      "sha256": "1d877f3a08609906e8836f4c73af6f670a6757f7296978c1f54d021dd46e8dc2",
+      "gitBlob": "e877aa4e2a01f50fedd4dc0258598966c1cb5743"
+    },
+    {
+      "file": "src/main/candidate2-naming-runtime-v1.ts",
+      "bytes": 1594,
+      "sha256": "e3d0f649a3ecaa615a2950728d7f5fc4407562e82eeeefee9025389f05541b99",
+      "gitBlob": "946a2b28497450607ba7457fcbc5e5e1f0b6c857"
+    },
+    {
+      "file": "src/main/project-application-v132-r2-json.ts",
+      "bytes": 3085,
+      "sha256": "0df7cb5f70ed9ed648ef3c2f5d95b22b3dfd5994d039876f53cecc4893d07f29",
+      "gitBlob": "d7f18c0653cdfa7435c57733c4c849ce35712534"
+    },
+    {
+      "file": "src/main/candidate2-naming-eligibility-response-v1.ts",
+      "bytes": 5846,
+      "sha256": "1dfde15f030ca7ef1f0f43dc90bdb560286e5526e6f5be0e50ac5417f2ccbae9",
+      "gitBlob": "6fc724b7bc659a20bdafcc688bb6ab3ec8c94577"
+    },
+    {
+      "file": "src/shared/candidate2-naming-eligibility-v1.ts",
+      "bytes": 2192,
+      "sha256": "a63f1d5994623afdd280bdca21a24219a5d9d8f496e6110353c2727a807de15f",
+      "gitBlob": "1c2ca300b77f1357c19fa330f5efe5c37c515e6f"
+    }
+  ],
+  "artifactCount": 6,
+  "artifacts": [
+    {
+      "file": "D:\\Codex-NamingStudio-Evidence\\m957-consumer-source-review\\REVIEW.json",
+      "bytes": 17920,
+      "sha256": "5ebed106488ffb3b37568bd6b2564f0324fb3b239a1c64ff34578a9ed3dece83"
+    },
+    {
+      "file": "D:\\Codex-NamingStudio-Evidence\\m957-consumer-source-review\\REVIEW.md",
+      "bytes": 8579,
+      "sha256": "1d31eafcec1d85f60300a7f48909fdbd04f15d2c318b8555d52490d4a13415c9"
+    },
+    {
+      "file": "D:\\Codex-NamingStudio-Evidence\\m957-consumer-source-review\\exact8-pins.json",
+      "bytes": 4708,
+      "sha256": "869bfca8d3814557fc842e39742f0d9f23956c9ecf3e64d04bd8c48e0637bb8c"
+    },
+    {
+      "file": "D:\\Codex-NamingStudio-Evidence\\m957-consumer-source-review\\source-check.json",
+      "bytes": 22829,
+      "sha256": "3f4cee32fd44872e724bc33f326a34337938d598809451420afe49b22b268a1f"
+    },
+    {
+      "file": "D:\\Codex-NamingStudio-Evidence\\m957-consumer-source-review\\source-check.mjs",
+      "bytes": 7768,
+      "sha256": "83ade2ccc788fdd55e7b874bfa87ff12cc1497d9dba75572b76e9a72958994c6"
+    },
+    {
+      "file": "D:\\Codex-NamingStudio-Evidence\\m957-consumer-source-review\\execution-ledger.json",
+      "bytes": 38640,
+      "sha256": "9cb970014d6416e746429d572a8463ce4aed5987d9233222eb995112433d12bd"
+    }
+  ],
+  "selfExcluded": true
+}

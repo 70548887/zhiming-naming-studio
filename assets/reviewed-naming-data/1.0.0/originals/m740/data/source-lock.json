@@ -1,0 +1,245 @@
+{
+  "schema": "m740-source-lock/1",
+  "batchId": "M740-D02",
+  "version": "m740-default-meanings/1.0.0",
+  "sourceFiles": [
+    {
+      "root": "product-data",
+      "file": "dataset-v6.json",
+      "absolute": "D:\\Codex-NamingStudio-Evidence\\m587-product-integration\\work\\data\\dataset-v6.json",
+      "bytes": 1563457,
+      "sha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728"
+    },
+    {
+      "root": "product-data",
+      "file": "naming-editorial-v4.json",
+      "absolute": "D:\\Codex-NamingStudio-Evidence\\m587-product-integration\\work\\data\\naming-editorial-v4.json",
+      "bytes": 380418,
+      "sha256": "d24898eb63438d7b24262668eb3b36770f211fade015b28eeb361700a58ca6ce"
+    },
+    {
+      "root": "product-data",
+      "file": "naming-editorial-v5.json",
+      "absolute": "D:\\Codex-NamingStudio-Evidence\\m587-product-integration\\work\\data\\naming-editorial-v5.json",
+      "bytes": 65361,
+      "sha256": "bb8d3d255b42a6b67932988e13ceb2d7a7a1c6ef8fbbcc65312b9a50b5519da8"
+    },
+    {
+      "root": "product-data",
+      "file": "naming-editorial-v6.json",
+      "absolute": "D:\\Codex-NamingStudio-Evidence\\m587-product-integration\\work\\data\\naming-editorial-v6.json",
+      "bytes": 109426,
+      "sha256": "35de5f749f438e849543e5fde6e405b89ba01cba20597e82e7c4f518dd4363ab"
+    },
+    {
+      "root": "product-data",
+      "file": "naming-editorial-v7.json",
+      "absolute": "D:\\Codex-NamingStudio-Evidence\\m587-product-integration\\work\\data\\naming-editorial-v7.json",
+      "bytes": 1301005,
+      "sha256": "392fa47441a0c410b0903c3e85853081225a1a5e9f540b5467e4ea4e2151cc48"
+    },
+    {
+      "root": "product-data",
+      "file": "meaning-context-v1-1.json",
+      "absolute": "D:\\Codex-NamingStudio-Evidence\\m587-product-integration\\work\\data\\meaning-context-v1-1.json",
+      "bytes": 403708,
+      "sha256": "424e8b6ca9a920c8b707ac267db9609bee900a5389b3659256b4c71ad71b378d"
+    },
+    {
+      "root": "product-data",
+      "file": "meaning-context-m460-b04.json",
+      "absolute": "D:\\Codex-NamingStudio-Evidence\\m587-product-integration\\work\\data\\meaning-context-m460-b04.json",
+      "bytes": 188891,
+      "sha256": "ecc4ca0edbe1a0a1b1f5e3f67ad0caef9bf1daa197e781f55484b33ebfc8ce82"
+    },
+    {
+      "root": "product-data",
+      "file": "naming-character-meanings-v7.1-profile.json",
+      "absolute": "D:\\Codex-NamingStudio-Evidence\\m587-product-integration\\work\\data\\naming-character-meanings-v7.1-profile.json",
+      "bytes": 257013,
+      "sha256": "6e619be92c16dc018715fc77425f150b6a2c9af2e01be63b309035c81dd6a85b"
+    },
+    {
+      "root": "product-data",
+      "file": "naming-character-meanings-v71-m460-b02-profile.json",
+      "absolute": "D:\\Codex-NamingStudio-Evidence\\m587-product-integration\\work\\data\\naming-character-meanings-v71-m460-b02-profile.json",
+      "bytes": 419345,
+      "sha256": "2c4be917bbfcdc3fec9279b2d9d928f5215e6ee1386d60e7d62265cd8e3eb2d1"
+    },
+    {
+      "root": "product-data",
+      "file": "m460-lexical/naming-character-meanings-m393-profile.json",
+      "absolute": "D:\\Codex-NamingStudio-Evidence\\m587-product-integration\\work\\data\\m460-lexical\\naming-character-meanings-m393-profile.json",
+      "bytes": 162031,
+      "sha256": "eee6a01e1d28a34c3992c8dd81d547352222caa62d04f363f3ec43edfcd5acd8"
+    },
+    {
+      "root": "product-data",
+      "file": "naming-character-meanings-m610-profile.json",
+      "absolute": "D:\\Codex-NamingStudio-Evidence\\m587-product-integration\\work\\data\\naming-character-meanings-m610-profile.json",
+      "bytes": 147855,
+      "sha256": "501003d1322e7503426fda5198ccb7739ccffe9b353aa944a54abeee310e802a"
+    },
+    {
+      "root": "product-data",
+      "file": "naming-character-meanings-m616-profile.json",
+      "absolute": "D:\\Codex-NamingStudio-Evidence\\m587-product-integration\\work\\data\\naming-character-meanings-m616-profile.json",
+      "bytes": 86409,
+      "sha256": "a7036d60215c80b25e0e000aa40a193232370b70add708c1b4f79ec93dddf1fb"
+    },
+    {
+      "root": "product-data",
+      "file": "raw/moe-revised.json.gz",
+      "absolute": "D:\\Codex-NamingStudio-Evidence\\m587-product-integration\\work\\data\\raw\\moe-revised.json.gz",
+      "bytes": 20310688,
+      "sha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e"
+    },
+    {
+      "root": "product-data",
+      "file": "raw/kTraditionalVariant.txt",
+      "absolute": "D:\\Codex-NamingStudio-Evidence\\m587-product-integration\\work\\data\\raw\\kTraditionalVariant.txt",
+      "bytes": 86288,
+      "sha256": "4eca6285d45070548e6e6c06e4b48c3ca6866d4380e8cb980c512f5d1fc71895"
+    },
+    {
+      "root": "product-data",
+      "file": "raw/kSimplifiedVariant.txt",
+      "absolute": "D:\\Codex-NamingStudio-Evidence\\m587-product-integration\\work\\data\\raw\\kSimplifiedVariant.txt",
+      "bytes": 88425,
+      "sha256": "a7f0c9dbbca85cffd90517fa6ea9be97d2e6f811328a59b6b303d58a418ac9be"
+    },
+    {
+      "root": "product-data",
+      "file": "raw/moe-README.md",
+      "absolute": "D:\\Codex-NamingStudio-Evidence\\m587-product-integration\\work\\data\\raw\\moe-README.md",
+      "bytes": 1214,
+      "sha256": "a93321d9381bc1cf34b4ad844f71607fa748c86c0b228ae37d46720d6a659cb2"
+    },
+    {
+      "root": "product-data",
+      "file": "raw/CC-BY-ND-3.0-TW.html",
+      "absolute": "D:\\Codex-NamingStudio-Evidence\\m587-product-integration\\work\\data\\raw\\CC-BY-ND-3.0-TW.html",
+      "bytes": 31775,
+      "sha256": "04e6ef69a223b6e13c93c97a918ad5fd0dbb9fc34ae307f4449ed264e2d4108f"
+    },
+    {
+      "root": "product-data",
+      "file": "raw/unicode-LICENSE",
+      "absolute": "D:\\Codex-NamingStudio-Evidence\\m587-product-integration\\work\\data\\raw\\unicode-LICENSE",
+      "bytes": 2033,
+      "sha256": "fe5c62b543e287981db198f2acfa0ca732d12591a1024536dc8fd85dacd77104"
+    },
+    {
+      "root": "product-root",
+      "file": "src/domain/naming-semantics-v5.ts",
+      "absolute": "D:\\Codex-NamingStudio-Evidence\\m587-product-integration\\work\\src\\domain\\naming-semantics-v5.ts",
+      "bytes": 6301,
+      "sha256": "241aeb762281c16a9c948bdd419e6cc75b1b4a25bfd2c15341ba930d650db90b"
+    },
+    {
+      "root": "product-root",
+      "file": "src/domain/naming-semantics-v6.ts",
+      "absolute": "D:\\Codex-NamingStudio-Evidence\\m587-product-integration\\work\\src\\domain\\naming-semantics-v6.ts",
+      "bytes": 6623,
+      "sha256": "b352c901910ab480d581ab4f57f3703e5bb219dfe8648c135e6ca43e0b872e19"
+    },
+    {
+      "root": "product-root",
+      "file": "src/shared/character-reading.ts",
+      "absolute": "D:\\Codex-NamingStudio-Evidence\\m587-product-integration\\work\\src\\shared\\character-reading.ts",
+      "bytes": 606,
+      "sha256": "717aac3c5f8c56abcbfcec4eef786dedac6c21a28c734561201b6b5a36f26a07"
+    },
+    {
+      "root": "m690",
+      "file": "data/profile.json",
+      "absolute": "D:/Codex-NamingStudio-Evidence/m690-meanings-batch-next/data/profile.json",
+      "bytes": 132661,
+      "sha256": "3c19e745c3fd65ee0b96b6b672e52dcc41051721c4ce909b8b7056b64fa06c40"
+    },
+    {
+      "root": "m690",
+      "file": "selection.json",
+      "absolute": "D:/Codex-NamingStudio-Evidence/m690-meanings-batch-next/selection.json",
+      "bytes": 7988,
+      "sha256": "34d558fc14e849215bbaa3d0a4ad0ba60b159da1ccf3585011042ae65de2cd5a"
+    },
+    {
+      "root": "old-batch-occupancy",
+      "file": "B01/candidate/data/naming-character-meanings-m393-profile.json",
+      "absolute": "E:/八卦周易/.local/longterm-groups/naming-data/M460-b01/candidate/data/naming-character-meanings-m393-profile.json",
+      "bytes": 162031,
+      "sha256": "eee6a01e1d28a34c3992c8dd81d547352222caa62d04f363f3ec43edfcd5acd8"
+    },
+    {
+      "root": "old-batch-occupancy",
+      "file": "B02/stage/data/naming-character-meanings-v71-m460-b02-profile.json",
+      "absolute": "E:/八卦周易/.local/longterm-groups/naming-data/M460-b02/stage/data/naming-character-meanings-v71-m460-b02-profile.json",
+      "bytes": 419345,
+      "sha256": "2c4be917bbfcdc3fec9279b2d9d928f5215e6ee1386d60e7d62265cd8e3eb2d1"
+    },
+    {
+      "root": "old-batch-occupancy",
+      "file": "B03/stage/data/naming-character-meanings-v71-m460-b02-profile.json",
+      "absolute": "E:/八卦周易/.local/longterm-groups/naming-data/M460-b03/stage/data/naming-character-meanings-v71-m460-b02-profile.json",
+      "bytes": 419345,
+      "sha256": "2c4be917bbfcdc3fec9279b2d9d928f5215e6ee1386d60e7d62265cd8e3eb2d1"
+    },
+    {
+      "root": "old-batch-occupancy",
+      "file": "B04/plans.json",
+      "absolute": "E:/八卦周易/.local/longterm-groups/naming-data/M460-b04/plans.json",
+      "bytes": 9617,
+      "sha256": "98a516317585894c79b462bddec946f3597eede994812f0ba1d2ee2bffaf6a23"
+    },
+    {
+      "root": "old-batch-occupancy",
+      "file": "B05/plans.json",
+      "absolute": "E:/八卦周易/.local/longterm-groups/naming-data/M460-b05/plans.json",
+      "bytes": 8834,
+      "sha256": "7f5fc68b52396b479a8fe11f1c25aa404f6c8f35dd75082f61addaea020e093b"
+    }
+  ],
+  "candidateFiles": [
+    {
+      "file": "data/profile.json",
+      "bytes": 94920,
+      "sha256": "9e9b54ec980a0edf023963a95b721ae91212a5b06d9121873cd2e9d6f7f3e397"
+    },
+    {
+      "file": "data/rows.jsonl",
+      "bytes": 63025,
+      "sha256": "1d96bcdc11a9f1b6108397a5510af05f40084262e95e07d228727f208aeec34b"
+    },
+    {
+      "file": "data/coverage.json",
+      "bytes": 45421,
+      "sha256": "a28a43c3c671dafc39a3fd4e485a2cc0f295928589af4b6be8c3a69af9fb874f"
+    },
+    {
+      "file": "data/pending-review.json",
+      "bytes": 12282,
+      "sha256": "e2a4777ac12aa144fc36d0750061934048d0d192d386bf9c190b84cec3c6c879"
+    },
+    {
+      "file": "data/NOTICE.md",
+      "bytes": 1411,
+      "sha256": "6eeda546ec8b62c2785b62146a158f0445a3eb722a63553eadae7ed33d980ade"
+    },
+    {
+      "file": "selection.json",
+      "bytes": 4417,
+      "sha256": "cb37e6d32afd84dcad963e7b7edd8ad2dbff5b7d19ac301196c66905c25bca1e"
+    },
+    {
+      "file": "inventory-sources.json",
+      "bytes": 1145,
+      "sha256": "e77f5375219690c3b36f956d96133102332e356f529de81d978d6421c0dff171"
+    }
+  ],
+  "dictionaryLicense": "CC-BY-ND-3.0-TW",
+  "projectLicense": "CC0-1.0",
+  "unicodeLicense": "Unicode-License-V3",
+  "sourceStorage": "external-read-only-reuse-no-gzip-copy",
+  "baselineHead": "9ac38f2285f928c451caa10bad41ca226f7f5f51"
+}

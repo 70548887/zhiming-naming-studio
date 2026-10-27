@@ -1,0 +1,470 @@
+{
+  "version": "ren-directions-source-goldens/1.0.0",
+  "source": {
+    "revision": 2600158,
+    "title": "滴天髓闡微",
+    "authority": "ren-commentary",
+    "fullWikitextSha256": "1d1a3d61c1b9a26618b41b8ead857a6b966992fdf2adabdc607a0c6cb4c8f04d",
+    "fullWikitextCodepoints": 143701,
+    "url": "https://zh.wikisource.org/w/index.php?title=%E6%BB%B4%E5%A4%A9%E9%AB%93%E9%97%A1%E5%BE%AE&oldid=2600158",
+    "license": "CC-BY-SA-4.0",
+    "licenseText": "data/raw/CC-BY-SA-4.0.txt",
+    "contributors": "https://zh.wikisource.org/w/index.php?title=%E6%BB%B4%E5%A4%A9%E9%97%A1%E5%BE%AE&action=history"
+  },
+  "cases": [
+    {
+      "id": "wood-direction-fire-expression",
+      "pillars": [
+        "戊寅",
+        "甲寅",
+        "甲辰",
+        "丁卯"
+      ],
+      "role": "independently-hand-entered-author-example",
+      "chart": {
+        "quote": "戊寅\n\n甲寅\n\n甲辰\n\n丁卯",
+        "start": 31007,
+        "end": 31021,
+        "sha256": "cf39388b29ccf6506545d9283067ded2391c89a450d103648ad2cea7e4360be9",
+        "locator": "oldid=2600158;codepoint[31007,31021)",
+        "interval": "[start,end)"
+      },
+      "context": {
+        "quote": "此成方，干透元神，四柱不杂金水，时干丁火吐秀，纯粹可观。初中行运火土，中乡榜，出宰名区；惜木多火炽，丁火不中以泄之，所以运至庚申，不能免祸。",
+        "start": 31045,
+        "end": 31115,
+        "sha256": "6e32ed07683e210b49ddf72d1b6c8eee7a16628bfbfd8f5a764dbbe5a44f565a",
+        "locator": "oldid=2600158;codepoint[31045,31115)",
+        "interval": "[start,end)"
+      },
+      "authorAssertion": {
+        "quote": "此成方，干透元神，四柱不杂金水，时干丁火吐秀，纯粹可观",
+        "start": 31045,
+        "end": 31072,
+        "sha256": "b0f8f784877e76bc43fd4bbcc0d8ed6ed1b1b7e575380091e4e95feb8f7221ea",
+        "locator": "oldid=2600158;codepoint[31045,31072)",
+        "interval": "[start,end)"
+      },
+      "manualExpected": {
+        "localStrength": "source-general-positive",
+        "fireExpression": "author-positive",
+        "completeFollowStrong": "not-proven",
+        "laterMetalImmunity": "contradicted"
+      },
+      "interpretation": "木方旺可以与丁火吐秀并存；不得把无火当成原典必要条件。后运庚申受害保留。",
+      "doesNotProve": [
+        "不由本条推全局净强弱或生克胜负。",
+        "不由本条推各根实际有效、木生火或火生土必然有效。",
+        "不由本条推从强、从旺、从儿、真假从或合化。",
+        "不由本条改写完整调候、喜用、姓名评分、命运或后运吉凶。"
+      ],
+      "gregorianDatePolicy": "作者未给公历，不伪造；真实新盘另列。"
+    },
+    {
+      "id": "wood-direction-wealth-month",
+      "pillars": [
+        "癸卯",
+        "丙辰",
+        "甲辰",
+        "丙寅"
+      ],
+      "role": "independently-hand-entered-author-example",
+      "chart": {
+        "quote": "癸卯\n\n丙辰\n\n甲辰\n\n丙寅",
+        "start": 31117,
+        "end": 31131,
+        "sha256": "bdcc9032f48ac75aa302bd0d4a4e89fa3af65f8ca7ac1dbc2b1d3ab996988304",
+        "locator": "oldid=2600158;codepoint[31117,31131)",
+        "interval": "[start,end)"
+      },
+      "context": {
+        "quote": "此造财旺提纲，丙食生助，当以财星为用，丙火为喜，癸水为忌。身旺用财，遗业十余万初年水木运，一败如灰：至辛亥运，火绝木生，水临旺，冻饿而死。以此观之，不论成方成局，必先察财官之势。若财旺提纲，则以财为用；或官得财助，则以官为用；如财不通月支，官无旺财生，必须弃其寡而从其众也。余皆仿此。",
+        "start": 31155,
+        "end": 31297,
+        "sha256": "7d5655a47a878330a597750d8d7c21e03379539bf653707ef05e88acc7add58e",
+        "locator": "oldid=2600158;codepoint[31155,31297)",
+        "interval": "[start,end)"
+      },
+      "authorAssertion": {
+        "quote": "此造财旺提纲，丙食生助，当以财星为用，丙火为喜，癸水为忌。身旺用财",
+        "start": 31155,
+        "end": 31188,
+        "sha256": "6f277b456a4c1e1aef67d4a2e88a72a3ee19ea305be8d930a4728f329ad134db",
+        "locator": "oldid=2600158;codepoint[31155,31188)",
+        "interval": "[start,end)"
+      },
+      "manualExpected": {
+        "localStrength": "author-positive",
+        "wealth": "author-useful",
+        "completeFollowStrong": "not-asserted"
+      },
+      "interpretation": "同是木方及木日主，作者仍先审财官；辰月财旺不可静默转成弃财从强。",
+      "doesNotProve": [
+        "不由本条推全局净强弱或生克胜负。",
+        "不由本条推各根实际有效、木生火或火生土必然有效。",
+        "不由本条推从强、从旺、从儿、真假从或合化。",
+        "不由本条改写完整调候、喜用、姓名评分、命运或后运吉凶。"
+      ],
+      "gregorianDatePolicy": "作者未给公历，不伪造；真实新盘另列。"
+    },
+    {
+      "id": "wood-direction-metal-not-necessary-absence",
+      "pillars": [
+        "辛卯",
+        "庚寅",
+        "甲辰",
+        "丙寅"
+      ],
+      "role": "independently-hand-entered-author-example",
+      "chart": {
+        "quote": "辛卯\n\n庚寅\n\n甲辰\n\n丙寅",
+        "start": 17853,
+        "end": 17867,
+        "sha256": "72b0dcdcf2bb4074bc66e0e6c0eceb6098072246f06b17ab22c9c81bf19d8d5d",
+        "locator": "oldid=2600158;codepoint[17853,17867)",
+        "interval": "[start,end)"
+      },
+      "context": {
+        "quote": "此寅卯辰东方，兼之寅时，旺之极矣。年月两金临绝，旺神在提纲，休金难克，而且丙火透时，木火同心，谓强众而敌寡，势在去庚辛之寡。早行土运生金，破耗异常，进京入部办事；至丙戌运，分发广东，得军功，升知县，喜其克尽庚辛之美；至酉、庚辛得地，不禄宜矣。",
+        "start": 17891,
+        "end": 18012,
+        "sha256": "caeea004e0ca6c85bc3a75b42c59b9d2e57140dd24e691e7a788c8e81e28ce62",
+        "locator": "oldid=2600158;codepoint[17891,18012)",
+        "interval": "[start,end)"
+      },
+      "authorAssertion": {
+        "quote": "此寅卯辰东方，兼之寅时，旺之极矣。年月两金临绝，旺神在提纲，休金难克",
+        "start": 17891,
+        "end": 17925,
+        "sha256": "8eaf143529dc46b41642852fd9ee407eaae6279b8141579dcffeb33644642e8d",
+        "locator": "oldid=2600158;codepoint[17891,17925)",
+        "interval": "[start,end)"
+      },
+      "manualExpected": {
+        "localStrength": "author-positive",
+        "metalAbsent": "false",
+        "metalCapacity": "author-local-insufficient",
+        "laterMetalImmunity": "contradicted"
+      },
+      "interpretation": "明金存在不能反证木方不旺；寅月与辰月的同木方对抗不得混为一谈。",
+      "doesNotProve": [
+        "不由本条推全局净强弱或生克胜负。",
+        "不由本条推各根实际有效、木生火或火生土必然有效。",
+        "不由本条推从强、从旺、从儿、真假从或合化。",
+        "不由本条改写完整调候、喜用、姓名评分、命运或后运吉凶。"
+      ],
+      "gregorianDatePolicy": "作者未给公历，不伪造；真实新盘另列。"
+    },
+    {
+      "id": "fire-direction-season-wealth-boundary",
+      "pillars": [
+        "己巳",
+        "辛未",
+        "丙午",
+        "丁酉"
+      ],
+      "role": "independently-hand-entered-author-example",
+      "chart": {
+        "quote": "己巳\n\n辛未\n\n丙午\n\n丁酉",
+        "start": 27122,
+        "end": 27136,
+        "sha256": "5d6730fccc6f353b4517eeff7aa2a7dfad751153799ddc3b2c4fa8fcbbb62a00",
+        "locator": "oldid=2600158;codepoint[27122,27136)",
+        "interval": "[start,end)"
+      },
+      "context": {
+        "quote": "此造火长夏天，支类南方，旺之极矣，火土伤官生财。格所嫌者，丁火羊刃透干，局中全无湿气，劫刃肆逞，祖业无恒，父母早亡，幼遭孤苦，中受饥寒。六旬之前，运走东南木火之地，妻财子禄，一字无成。至丑运，北方湿土，晦火生全，暗会金局，从此得际遇，立业发财，至七旬又买妾，连生二子。及甲子癸亥，北方水地，获利数万，寿至九旬。谚云：“有其运，必得其福”，为人岂可限量哉！",
+        "start": 27168,
+        "end": 27345,
+        "sha256": "3cecdbfa00c9af7bb4d65658b4042a378c9316eff644b5d37a0b165ce7e14af0",
+        "locator": "oldid=2600158;codepoint[27168,27345)",
+        "interval": "[start,end)"
+      },
+      "authorAssertion": {
+        "quote": "此造火长夏天，支类南方，旺之极矣，火土伤官生财",
+        "start": 27168,
+        "end": 27191,
+        "sha256": "3c0129a1495bfc0a532377a9cc03c7756d46a43003564f01a88903b2f5a6f11c",
+        "locator": "oldid=2600158;codepoint[27168,27191)",
+        "interval": "[start,end)"
+      },
+      "manualExpected": {
+        "localStrength": "author-positive",
+        "completeFollowStrong": "not-asserted",
+        "woodFireAlwaysFavorable": "contradicted"
+      },
+      "interpretation": "火方旺极与伤官生财可并存；不能把火旺直接改成只喜木火或从强。",
+      "doesNotProve": [
+        "不由本条推全局净强弱或生克胜负。",
+        "不由本条推各根实际有效、木生火或火生土必然有效。",
+        "不由本条推从强、从旺、从儿、真假从或合化。",
+        "不由本条改写完整调候、喜用、姓名评分、命运或后运吉凶。"
+      ],
+      "gregorianDatePolicy": "作者未给公历，不伪造；真实新盘另列。"
+    },
+    {
+      "id": "fire-output-different-treatment",
+      "pillars": [
+        "甲寅",
+        "丁卯",
+        "乙未",
+        "丁亥"
+      ],
+      "role": "scope-negative",
+      "chart": {
+        "quote": "甲寅\n\n丁卯\n\n乙未\n\n丁亥",
+        "start": 29888,
+        "end": 29902,
+        "sha256": "04d874cc822b635a58ef96347af6d28da31dfda48d70adb75a08fad6d8ef8555",
+        "locator": "oldid=2600158;codepoint[29888,29902)",
+        "interval": "[start,end)"
+      },
+      "context": {
+        "quote": "此亦木局全，混一寅字，取丁火食神秀气，非前造从强论也。至巳运，丁火临官，登科发甲；庚午辛未，南方金败之地，不伤体用，仕途平坦；壬申，木火皆伤，破局，死于军中。前则从强，南北皆利；此则木火，西北有害。由此两造观之，局混方之无害也。",
+        "start": 29926,
+        "end": 30040,
+        "sha256": "66e1c070d3d8e712218e9fe0845203f6b49e18098941e55126f3a8f257bf70cf",
+        "locator": "oldid=2600158;codepoint[29926,30040)",
+        "interval": "[start,end)"
+      },
+      "authorAssertion": {
+        "quote": "此亦木局全，混一寅字，取丁火食神秀气，非前造从强论也",
+        "start": 29926,
+        "end": 29952,
+        "sha256": "0bb4995f6d319eaae77c94dbb2bcb93a36f847a6496d1c8729051b54cfa02daa",
+        "locator": "oldid=2600158;codepoint[29926,29952)",
+        "interval": "[start,end)"
+      },
+      "manualExpected": {
+        "sourceAssertionOnly": true
+      },
+      "interpretation": "同样木局加寅仍须保留火输出意向，不能把前例标签扩到有火干",
+      "doesNotProve": [
+        "该盘木不旺",
+        "木局或辰的生助能力不存在"
+      ],
+      "gregorianDatePolicy": "作者未给公历，不伪造；真实新盘另列。"
+    },
+    {
+      "id": "water-harms-specific-fire-not-all-wood",
+      "pillars": [
+        "甲寅",
+        "丁卯",
+        "乙亥",
+        "癸未"
+      ],
+      "role": "interference-boundary",
+      "chart": {
+        "quote": "甲寅\n\n丁卯\n\n乙亥\n\n癸未",
+        "start": 30459,
+        "end": 30473,
+        "sha256": "9999477ebfc9b7f948a061a4effda3250403e68f7eb9fa93b9b5cd3611224381",
+        "locator": "oldid=2600158;codepoint[30459,30473)",
+        "interval": "[start,end)"
+      },
+      "context": {
+        "quote": "此方局齐来，得月干丁火独透，发泄菁英，何其妙也。惜乎时干癸水透露，通根亥支，紧伤丁火秀气，谓干头反复，所以一衿尚不能博，贫乏无子。设使癸水换一火土，名利皆遂矣。",
+        "start": 30497,
+        "end": 30577,
+        "sha256": "214b36fbc7f4ed297a000bb5b0cf1d2eb97e43449e1d71f04dd0a8d0893c107b",
+        "locator": "oldid=2600158;codepoint[30497,30577)",
+        "interval": "[start,end)"
+      },
+      "authorAssertion": {
+        "quote": "惜乎时干癸水透露，通根亥支，紧伤丁火秀气，谓干头反复",
+        "start": 30521,
+        "end": 30547,
+        "sha256": "317567b2e298657a365602b70c8cd05efb7dd2da3bf969835730a15a7660db4e",
+        "locator": "oldid=2600158;codepoint[30521,30547)",
+        "interval": "[start,end)"
+      },
+      "manualExpected": {
+        "sourceAssertionOnly": true
+      },
+      "interpretation": "水为木之印成员也可能伤具体丁火输出，必须区分靶标",
+      "doesNotProve": [
+        "印成员一出现就所有木根有效",
+        "本局木无势"
+      ],
+      "gregorianDatePolicy": "作者未给公历，不伪造；真实新盘另列。"
+    },
+    {
+      "id": "chen-month-metal-can-control-wood",
+      "pillars": [
+        "庚寅",
+        "庚辰",
+        "甲寅",
+        "丁卯"
+      ],
+      "role": "season-and-control-boundary",
+      "chart": {
+        "quote": "庚寅\n\n庚辰\n\n甲寅\n\n丁卯",
+        "start": 18014,
+        "end": 18028,
+        "sha256": "e6194f77017acb257da90ea1e0643a086dad41e2834ef8a80cce0c61791286d7",
+        "locator": "oldid=2600158;codepoint[18014,18028)",
+        "interval": "[start,end)"
+      },
+      "context": {
+        "quote": "此亦寅、卯、辰东方。旺神不是提纲，辰土归垣，庚金得载，力量足以克木，丁火虽透，非庚金之敌，用杀明矣。至甲申运，庚金禄旺暗冲寅木，科甲联登，仕至郡守；一交丙运制杀，降职归田。",
+        "start": 18052,
+        "end": 18138,
+        "sha256": "767a7b0e432cf807c56602064f536d8dd8d332c257784eda7de58889089e446c",
+        "locator": "oldid=2600158;codepoint[18052,18138)",
+        "interval": "[start,end)"
+      },
+      "authorAssertion": {
+        "quote": "辰土归垣，庚金得载，力量足以克木",
+        "start": 18069,
+        "end": 18085,
+        "sha256": "7796a19d5d840a99c6e974ebcb2a24f0d74d91cf5c85339a5fe2a53ee9f6ab8c",
+        "locator": "oldid=2600158;codepoint[18069,18085)",
+        "interval": "[start,end)"
+      },
+      "manualExpected": {
+        "sourceAssertionOnly": true
+      },
+      "interpretation": "完整木方不允许在任意月、带有庚金时强推木不可克",
+      "doesNotProve": [
+        "本条新卯月、全明干木水子域已失败",
+        "单由辰支成员就能宣布庚必有效"
+      ],
+      "gregorianDatePolicy": "作者未给公历，不伪造；真实新盘另列。"
+    },
+    {
+      "id": "wood-overgrowth-does-not-prove-fire-support",
+      "pillars": [
+        "癸卯",
+        "甲寅",
+        "丁卯",
+        "甲辰"
+      ],
+      "role": "target-boundary",
+      "chart": {
+        "quote": "癸卯\n\n甲寅\n\n丁卯\n\n甲辰",
+        "start": 108890,
+        "end": 108904,
+        "sha256": "ad35362f1889d23b304be1b81bd780e8f35aa6ace7d8956830d74c50bc1e3d08",
+        "locator": "oldid=2600158;codepoint[108890,108904)",
+        "interval": "[start,end)"
+      },
+      "context": {
+        "quote": "此造俗谓杀印相生，身强杀浅，金水运名利双收，不知癸水之气，尽归甲木，地支寅、卯、辰全，木多火熄，初运癸丑壬子，生木克火，刑伤破耗；辛亥、庚戌、巳酉、戊申，土生金旺，触卯木之旺神，颠沛异常，夫存生之地，是以六旬以前，一事无成。丁未运助起日元，顺母这性，得际遇，娶妾连生两子：及丙午二十年，发财数万，寿至九旬外。",
+        "start": 108936,
+        "end": 109090,
+        "sha256": "b2c0486208332c6ff0647a5e9baf82cf5471a4e158b09816c7a0b1e90dbfae70",
+        "locator": "oldid=2600158;codepoint[108936,109090)",
+        "interval": "[start,end)"
+      },
+      "authorAssertion": {
+        "quote": "地支寅、卯、辰全，木多火熄",
+        "start": 108970,
+        "end": 108983,
+        "sha256": "586bb657341edd3ae1fbf7a0c8479a763672e11a8adf6bba7d6b64e62054ee7a",
+        "locator": "oldid=2600158;codepoint[108970,108983)",
+        "interval": "[start,end)"
+      },
+      "manualExpected": {
+        "sourceAssertionOnly": true
+      },
+      "interpretation": "木方旺势或木神生助不能自动推出木生丁火的有效性",
+      "doesNotProve": [
+        "木神不旺",
+        "所有水木印比域都不提供局部木生助能力"
+      ],
+      "gregorianDatePolicy": "作者未给公历，不伪造；真实新盘另列。"
+    }
+  ],
+  "reusedResearchStatements": [
+    {
+      "id": "all-three-defines-direction",
+      "quote": "凡三字全为成方，如寅、卯、辰全，其力量较胜于亥、卯、未木局",
+      "start": 28762,
+      "end": 28791,
+      "sha256": "16bd9f7abdec259f83462ad69e47c24313d58677e440788f2310f189dd7d6cf7",
+      "locator": "oldid=2600158;codepoint[28762,28791)",
+      "interval": "[start,end)"
+    },
+    {
+      "id": "same-day-element-defines-original-stem",
+      "quote": "成方干透元神者，日主即方之气也。",
+      "start": 30811,
+      "end": 30827,
+      "sha256": "14ace5b5b783d079ae1f3fdf8b8138d1086a37cae936d2b2e838768c56206beb",
+      "locator": "oldid=2600158;codepoint[30811,30827)",
+      "interval": "[start,end)"
+    },
+    {
+      "id": "wood-and-fire-explicit",
+      "quote": "如木方日主是木，火方日主是火，即为元神透出也。",
+      "start": 30827,
+      "end": 30850,
+      "sha256": "7a324efd2e874470f4aae825dd9097cbfee37ee02ece0cf2923ff11e852e37e4",
+      "locator": "oldid=2600158;codepoint[30827,30850)",
+      "interval": "[start,end)"
+    },
+    {
+      "id": "direction-sufficient-strength",
+      "quote": "成方透元神，旺可知矣",
+      "start": 30882,
+      "end": 30892,
+      "sha256": "aea52acbc7d06882d3d841e680f44fe87b54d690edfb8577315c5a154c2c245a",
+      "locator": "oldid=2600158;codepoint[30882,30892)",
+      "interval": "[start,end)"
+    },
+    {
+      "id": "three-members-strength",
+      "quote": "大凡支全三物，其势旺盛。",
+      "start": 17665,
+      "end": 17677,
+      "sha256": "ab90396a40cf44538922494f68cd72c69dc74b362ecdf1b80b01eef3aab7f1aa",
+      "locator": "oldid=2600158;codepoint[17665,17677)",
+      "interval": "[start,end)"
+    },
+    {
+      "id": "wood-strong-month",
+      "quote": "旺神者，木方提纲得寅卯也是也",
+      "start": 17766,
+      "end": 17780,
+      "sha256": "569d076bd9468e312855928296b8cbed74254fd594c496cfb4692987bc2520f3",
+      "locator": "oldid=2600158;codepoint[17766,17780)",
+      "interval": "[start,end)"
+    },
+    {
+      "id": "chen-metal-scope",
+      "quote": "如辰在提纲，四柱干支又有庚辛之助，方可制矣。",
+      "start": 17800,
+      "end": 17822,
+      "sha256": "bd232ebc71624226c90e94b3ec00e9180bd8f0dcffbdf2b3c39fadfa9157a9c8",
+      "locator": "oldid=2600158;codepoint[17800,17822)",
+      "interval": "[start,end)"
+    },
+    {
+      "id": "hai-wood-nourishing-member",
+      "quote": "且如木而见亥字，为生旺之神",
+      "start": 28876,
+      "end": 28889,
+      "sha256": "96731d211680a3caaac10121779a16fb4a010a8217eeef580580012568eb8026",
+      "locator": "oldid=2600158;codepoint[28876,28889)",
+      "interval": "[start,end)"
+    },
+    {
+      "id": "fire-water-competition",
+      "quote": "苟有火而见水，或无火而见金，此谓干头反复",
+      "start": 30337,
+      "end": 30357,
+      "sha256": "824ec8b367fe3e11eb6fbfaf1c9140f58e0397d779bf44e272f590e1eca89c35",
+      "locator": "oldid=2600158;codepoint[30337,30357)",
+      "interval": "[start,end)"
+    },
+    {
+      "id": "follow-strong-additional-conditions",
+      "quote": "倘年月时干不杂财官，又有劫印，谓之从强",
+      "start": 30908,
+      "end": 30927,
+      "sha256": "c6e7b7ae2b5b377812dcf764ed3f1c71070457a0ae70ab4d38d477cf0f1ef0f4",
+      "locator": "oldid=2600158;codepoint[30908,30927)",
+      "interval": "[start,end)"
+    }
+  ]
+}

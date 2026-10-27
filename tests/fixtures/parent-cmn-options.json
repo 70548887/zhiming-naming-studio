@@ -1,0 +1,902 @@
+{
+  "scope": "Actual fixed current CMN source query outputs; source-only reading options, not family confirmations or mainland certification.",
+  "queries": [
+    {
+      "profile": "cmn-character-source/1.0.0",
+      "source": {
+        "profile": "cmn-character-source/1.0.0",
+        "profileSha256": "bea3067ebffc763904d4ef3d2629a2c86fcb1fa8fd3a4a57d32ff4bee6d96270",
+        "language": "cmn",
+        "standard": "MOE-Revised-Taiwan-fixed-snapshot",
+        "sourceId": "moe-revised",
+        "commit": "a6dc997417507eb510fc29822bc514de2c92728c",
+        "rawFile": "data/raw/moe-revised.json.gz",
+        "rawSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "rawJsonSha256": "ea767109dfb04f838900b7462ebf6977f344f592e1dd745a204cbe3327ef8fe3",
+        "datasetFile": "data/dataset-v6.json",
+        "datasetSha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+        "datasetVersion": "2026.10.20.2",
+        "license": "CC-BY-ND-3.0-TW",
+        "url": "https://github.com/g0v/moedict-data/blob/a6dc997417507eb510fc29822bc514de2c92728c/dict-revised_bkup.json"
+      },
+      "char": "知",
+      "status": "available",
+      "unavailableReason": null,
+      "characterIdentitySha256": "8c1e18fb27bceb3d7cb91e3a5e44029f0c85a66c5cc4851cd60bd63817918eb3",
+      "currentDefault": {
+        "pinyin": "zhī",
+        "tone": 1,
+        "recordedTraditional": "知",
+        "sourceId": "moe-revised"
+      },
+      "defaultOptionIds": [
+        "cmnr1-5dcab2718150ab87453f27b098587d8055bbb92ad5dfe56cb9ae17ac4d0872f8"
+      ],
+      "options": [
+        {
+          "optionId": "cmnr1-5dcab2718150ab87453f27b098587d8055bbb92ad5dfe56cb9ae17ac4d0872f8",
+          "char": "知",
+          "characterIdentitySha256": "8c1e18fb27bceb3d7cb91e3a5e44029f0c85a66c5cc4851cd60bd63817918eb3",
+          "source": {
+            "profile": "cmn-character-source/1.0.0",
+            "profileSha256": "bea3067ebffc763904d4ef3d2629a2c86fcb1fa8fd3a4a57d32ff4bee6d96270",
+            "language": "cmn",
+            "standard": "MOE-Revised-Taiwan-fixed-snapshot",
+            "sourceId": "moe-revised",
+            "commit": "a6dc997417507eb510fc29822bc514de2c92728c",
+            "rawFile": "data/raw/moe-revised.json.gz",
+            "rawSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "rawJsonSha256": "ea767109dfb04f838900b7462ebf6977f344f592e1dd745a204cbe3327ef8fe3",
+            "datasetFile": "data/dataset-v6.json",
+            "datasetSha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+            "datasetVersion": "2026.10.20.2",
+            "license": "CC-BY-ND-3.0-TW",
+            "url": "https://github.com/g0v/moedict-data/blob/a6dc997417507eb510fc29822bc514de2c92728c/dict-revised_bkup.json"
+          },
+          "glyph": {
+            "inputChar": "知",
+            "recordedTraditional": "知",
+            "dictionaryWord": "知",
+            "kind": "same-character",
+            "characterReadingIndices": [
+              0,
+              1
+            ],
+            "variantEvidence": null
+          },
+          "entry": {
+            "index": 103895,
+            "path": "/103895",
+            "title": "知",
+            "sha256": "8691db90a8ef05e80c9edc9f9544ddf5e5a50c3621a6b756ed8091af7ababc8d"
+          },
+          "heteronym": {
+            "index": 0,
+            "path": "/103895/heteronyms/0",
+            "sha256": "9eefed1b28c3ff86dd585111a635fe416a02bede0cf17268fee741297dfd0b7d",
+            "rawPinyin": "zhī",
+            "rawBopomofo": "ㄓ"
+          },
+          "pinyin": "zhī",
+          "tone": 1,
+          "label": null,
+          "isCurrentDefault": true,
+          "definitions": [
+            {
+              "definitionId": "cmnd1-d9adacb54be674c1dd4eb3797e6427e001a03d691a097c743d78963e4c1343da",
+              "path": "/103895/heteronyms/0/definitions/0",
+              "index": 0,
+              "original": {
+                "def": "明白、了解、察覺。",
+                "example": [
+                  "如：「相知相許」。"
+                ],
+                "quote": [
+                  "唐．李紳〈古風〉詩二首之二：「誰知盤中餐，粒粒皆辛苦。」"
+                ],
+                "type": "動"
+              },
+              "kind": "definition"
+            },
+            {
+              "definitionId": "cmnd1-751060a3dc6a021f47757d0776771c553718e7c29efc03d8eb55686b6df9dd63",
+              "path": "/103895/heteronyms/0/definitions/1",
+              "index": 1,
+              "original": {
+                "def": "識別、區別。",
+                "quote": [
+                  "《禮記．樂記》：「知樂則幾於禮矣。」",
+                  "《淮南子．脩務》：「孿子之相似者，唯其母能知之。」"
+                ],
+                "type": "動"
+              },
+              "kind": "definition"
+            },
+            {
+              "definitionId": "cmnd1-e3f1a590ad496177a92b0b4af2e2ff9d34e25f896a36a99178ee96e01729adbe",
+              "path": "/103895/heteronyms/0/definitions/2",
+              "index": 2,
+              "original": {
+                "def": "相交、交往。",
+                "quote": [
+                  "《左傳．昭公四年》：「公孫明知叔孫於齊。」",
+                  "《荀子．不苟》：「君子易知而難狎。」"
+                ],
+                "type": "動"
+              },
+              "kind": "definition"
+            },
+            {
+              "definitionId": "cmnd1-12f0e4a710e951ba6a23db5da8008ccc8b1894d51ff49c1d1914a1f43236b7fd",
+              "path": "/103895/heteronyms/0/definitions/3",
+              "index": 3,
+              "original": {
+                "def": "招待、禮遇、賞識。",
+                "quote": [
+                  "《南史．卷一九．謝靈運傳》：「自謂才能宜參權要，既不見知，常懷慎惋。」",
+                  "唐．岑參〈北庭西郊候封大夫受降回軍獻上〉詩：「何幸一書生，忽蒙國士知。」"
+                ],
+                "type": "動"
+              },
+              "kind": "definition"
+            },
+            {
+              "definitionId": "cmnd1-0e7afda3cb0e7d9170d347b64070cbec3ec6f92d451872b4e7353f109383a5d9",
+              "path": "/103895/heteronyms/0/definitions/4",
+              "index": 4,
+              "original": {
+                "def": "掌管、主持。",
+                "quote": [
+                  "《國語．越語》：「有能助寡人謀而退吳者，吾與之共知越國之政。」",
+                  "《新唐書．卷八五．王世充傳》：「帝愛昵之，拜江都通守，兼知宮監事。」"
+                ],
+                "type": "動"
+              },
+              "kind": "definition"
+            },
+            {
+              "definitionId": "cmnd1-8542aa9f7093e1e0f2081d65fe23804f4ecbb534bff90f76626c8e42b246e0b2",
+              "path": "/103895/heteronyms/0/definitions/5",
+              "index": 5,
+              "original": {
+                "def": "識見、學問。",
+                "example": [
+                  "如：「求知」、「真知灼見」。"
+                ],
+                "quote": [
+                  "《論語．子罕》：「吾有知乎哉？無知也。」"
+                ],
+                "type": "名"
+              },
+              "kind": "definition"
+            },
+            {
+              "definitionId": "cmnd1-1e3ecdfb59ee94183735c036c9a6e3532249e98a6421aa3f99ceddbb0f21d251",
+              "path": "/103895/heteronyms/0/definitions/6",
+              "index": 6,
+              "original": {
+                "def": "意識、感覺。",
+                "quote": [
+                  "《荀子．王制》：「草木有生而無知。」",
+                  "漢．范縝〈神滅論〉：「手等亦應能有痛癢之知。」"
+                ],
+                "type": "名"
+              },
+              "kind": "definition"
+            },
+            {
+              "definitionId": "cmnd1-92e0e2e95022cdc425f17351073256223f806fb5576becb9fd6bcd64c1305daf",
+              "path": "/103895/heteronyms/0/definitions/7",
+              "index": 7,
+              "original": {
+                "def": "知己、朋友。",
+                "example": [
+                  "如：「故知」、「舊雨新知」。"
+                ],
+                "type": "名"
+              },
+              "kind": "definition"
+            }
+          ],
+          "suitabilityForPersonalName": "not-assessed"
+        },
+        {
+          "optionId": "cmnr1-bfbc2dc593613ab92ff9d7010afe885b38dfd7abe40180f87c9047f05757af62",
+          "char": "知",
+          "characterIdentitySha256": "8c1e18fb27bceb3d7cb91e3a5e44029f0c85a66c5cc4851cd60bd63817918eb3",
+          "source": {
+            "profile": "cmn-character-source/1.0.0",
+            "profileSha256": "bea3067ebffc763904d4ef3d2629a2c86fcb1fa8fd3a4a57d32ff4bee6d96270",
+            "language": "cmn",
+            "standard": "MOE-Revised-Taiwan-fixed-snapshot",
+            "sourceId": "moe-revised",
+            "commit": "a6dc997417507eb510fc29822bc514de2c92728c",
+            "rawFile": "data/raw/moe-revised.json.gz",
+            "rawSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "rawJsonSha256": "ea767109dfb04f838900b7462ebf6977f344f592e1dd745a204cbe3327ef8fe3",
+            "datasetFile": "data/dataset-v6.json",
+            "datasetSha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+            "datasetVersion": "2026.10.20.2",
+            "license": "CC-BY-ND-3.0-TW",
+            "url": "https://github.com/g0v/moedict-data/blob/a6dc997417507eb510fc29822bc514de2c92728c/dict-revised_bkup.json"
+          },
+          "glyph": {
+            "inputChar": "知",
+            "recordedTraditional": "知",
+            "dictionaryWord": "知",
+            "kind": "same-character",
+            "characterReadingIndices": [
+              0,
+              1
+            ],
+            "variantEvidence": null
+          },
+          "entry": {
+            "index": 103895,
+            "path": "/103895",
+            "title": "知",
+            "sha256": "8691db90a8ef05e80c9edc9f9544ddf5e5a50c3621a6b756ed8091af7ababc8d"
+          },
+          "heteronym": {
+            "index": 1,
+            "path": "/103895/heteronyms/1",
+            "sha256": "1026dc8732eba48224b7abd0c47df5bacb7ebb8818d41a3dce994804915da4f5",
+            "rawPinyin": "zhì",
+            "rawBopomofo": "ㄓˋ"
+          },
+          "pinyin": "zhì",
+          "tone": 4,
+          "label": null,
+          "isCurrentDefault": false,
+          "definitions": [
+            {
+              "definitionId": "cmnd1-4f5aedc745a29a3bc90aeec239bf7c3f68f43e345d0bb6ef0c4a982e73183f6a",
+              "path": "/103895/heteronyms/1/definitions/0",
+              "index": 0,
+              "original": {
+                "def": "智慧。",
+                "link": [
+                  "同「智」。"
+                ],
+                "quote": [
+                  "《論語．里仁》：「里仁為美，擇不處仁焉得知？」",
+                  "《禮記．中庸》：「知仁勇三者，天下之達德也。」"
+                ],
+                "type": "名"
+              },
+              "kind": "definition"
+            },
+            {
+              "definitionId": "cmnd1-c7d3a6fba6a0da69dd7c1ddd9d43664355f407d927337e719c49161eef381679",
+              "path": "/103895/heteronyms/1/definitions/1",
+              "index": 1,
+              "original": {
+                "def": "姓。如春秋時晉國有知罃。",
+                "type": "名"
+              },
+              "kind": "definition"
+            }
+          ],
+          "suitabilityForPersonalName": "not-assessed"
+        }
+      ],
+      "references": [],
+      "limitations": [
+        "固定MOE臺灣國語辭典來源；未將各地或大陸普通話讀音差異自動統一。",
+        "僅返回現779字條已登記的單字詞條身份；Unicode字形對應不等於每個義項均適用於簡體字。",
+        "原語音／讀音／又音、文言、姓氏、地名與參見提示原樣保留；未判定適合人名。",
+        "未拆分多字詞讀音，未將參見詞條或其他異讀的釋義借入當前讀音。",
+        "選擇校驗只證明固定來源及所選原義項一致；不修改現有默認音、評分、方案或歷史。"
+      ]
+    },
+    {
+      "profile": "cmn-character-source/1.0.0",
+      "source": {
+        "profile": "cmn-character-source/1.0.0",
+        "profileSha256": "bea3067ebffc763904d4ef3d2629a2c86fcb1fa8fd3a4a57d32ff4bee6d96270",
+        "language": "cmn",
+        "standard": "MOE-Revised-Taiwan-fixed-snapshot",
+        "sourceId": "moe-revised",
+        "commit": "a6dc997417507eb510fc29822bc514de2c92728c",
+        "rawFile": "data/raw/moe-revised.json.gz",
+        "rawSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "rawJsonSha256": "ea767109dfb04f838900b7462ebf6977f344f592e1dd745a204cbe3327ef8fe3",
+        "datasetFile": "data/dataset-v6.json",
+        "datasetSha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+        "datasetVersion": "2026.10.20.2",
+        "license": "CC-BY-ND-3.0-TW",
+        "url": "https://github.com/g0v/moedict-data/blob/a6dc997417507eb510fc29822bc514de2c92728c/dict-revised_bkup.json"
+      },
+      "char": "源",
+      "status": "available",
+      "unavailableReason": null,
+      "characterIdentitySha256": "e1d51ca2ca6cb03696af6ee6de374030de8bc36bda9e8c6abd59b3c48cc26ff2",
+      "currentDefault": {
+        "pinyin": "yuán",
+        "tone": 2,
+        "recordedTraditional": "源",
+        "sourceId": "moe-revised"
+      },
+      "defaultOptionIds": [
+        "cmnr1-9304a6f1a80ab1219242ff7bacb6089ab8856f464e566f5e5985d325626b83d2"
+      ],
+      "options": [
+        {
+          "optionId": "cmnr1-9304a6f1a80ab1219242ff7bacb6089ab8856f464e566f5e5985d325626b83d2",
+          "char": "源",
+          "characterIdentitySha256": "e1d51ca2ca6cb03696af6ee6de374030de8bc36bda9e8c6abd59b3c48cc26ff2",
+          "source": {
+            "profile": "cmn-character-source/1.0.0",
+            "profileSha256": "bea3067ebffc763904d4ef3d2629a2c86fcb1fa8fd3a4a57d32ff4bee6d96270",
+            "language": "cmn",
+            "standard": "MOE-Revised-Taiwan-fixed-snapshot",
+            "sourceId": "moe-revised",
+            "commit": "a6dc997417507eb510fc29822bc514de2c92728c",
+            "rawFile": "data/raw/moe-revised.json.gz",
+            "rawSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "rawJsonSha256": "ea767109dfb04f838900b7462ebf6977f344f592e1dd745a204cbe3327ef8fe3",
+            "datasetFile": "data/dataset-v6.json",
+            "datasetSha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+            "datasetVersion": "2026.10.20.2",
+            "license": "CC-BY-ND-3.0-TW",
+            "url": "https://github.com/g0v/moedict-data/blob/a6dc997417507eb510fc29822bc514de2c92728c/dict-revised_bkup.json"
+          },
+          "glyph": {
+            "inputChar": "源",
+            "recordedTraditional": "源",
+            "dictionaryWord": "源",
+            "kind": "same-character",
+            "characterReadingIndices": [
+              0
+            ],
+            "variantEvidence": null
+          },
+          "entry": {
+            "index": 88432,
+            "path": "/88432",
+            "title": "源",
+            "sha256": "af059bb0956fa172844c6f0208533f201b5235daa4906a0645bed8d68b581179"
+          },
+          "heteronym": {
+            "index": 0,
+            "path": "/88432/heteronyms/0",
+            "sha256": "230e75eadbed38de514324efd34ad3e269e1da994daf205fa96c088c14256f16",
+            "rawPinyin": "yuán",
+            "rawBopomofo": "ㄩㄢˊ"
+          },
+          "pinyin": "yuán",
+          "tone": 2,
+          "label": null,
+          "isCurrentDefault": true,
+          "definitions": [
+            {
+              "definitionId": "cmnd1-cab8de30f80631ab51e899672e465f9f561d8b78a53d4da0b2df629b299cc4bf",
+              "path": "/88432/heteronyms/0/definitions/0",
+              "index": 0,
+              "original": {
+                "def": "水流的出處。",
+                "example": [
+                  "如：「水源」、「泉源」、「飲水思源」。"
+                ],
+                "quote": [
+                  "《國語．晉語一》：「伐木不自其本，必復生；塞水不自其源，必復流。」",
+                  "唐．李嶠〈河〉詩：「源出崑崙中，長波接漢空。」"
+                ],
+                "type": "名"
+              },
+              "kind": "definition"
+            },
+            {
+              "definitionId": "cmnd1-af9ae85a6b7d10abd68554e8fc9ca6dd5fda383c9262808208a61af63df225f7",
+              "path": "/88432/heteronyms/0/definitions/1",
+              "index": 1,
+              "original": {
+                "def": "根本、由來。",
+                "quote": [
+                  "《韓非子．主道》：「是以明君守始以知萬物之源，治紀以知善敗之端。」",
+                  "《文選．班固．東都賦》：「嗜欲之源滅，廉恥之心生。」"
+                ],
+                "type": "名"
+              },
+              "kind": "definition"
+            },
+            {
+              "definitionId": "cmnd1-79e61242a03d125a2276b7294d68141d013670b9ac4df26b0af9d1a432551d79",
+              "path": "/88432/heteronyms/0/definitions/2",
+              "index": 2,
+              "original": {
+                "def": "姓。如唐代有源乾曜。",
+                "type": "名"
+              },
+              "kind": "definition"
+            }
+          ],
+          "suitabilityForPersonalName": "not-assessed"
+        }
+      ],
+      "references": [],
+      "limitations": [
+        "固定MOE臺灣國語辭典來源；未將各地或大陸普通話讀音差異自動統一。",
+        "僅返回現779字條已登記的單字詞條身份；Unicode字形對應不等於每個義項均適用於簡體字。",
+        "原語音／讀音／又音、文言、姓氏、地名與參見提示原樣保留；未判定適合人名。",
+        "未拆分多字詞讀音，未將參見詞條或其他異讀的釋義借入當前讀音。",
+        "選擇校驗只證明固定來源及所選原義項一致；不修改現有默認音、評分、方案或歷史。"
+      ]
+    },
+    {
+      "profile": "cmn-character-source/1.0.0",
+      "source": {
+        "profile": "cmn-character-source/1.0.0",
+        "profileSha256": "bea3067ebffc763904d4ef3d2629a2c86fcb1fa8fd3a4a57d32ff4bee6d96270",
+        "language": "cmn",
+        "standard": "MOE-Revised-Taiwan-fixed-snapshot",
+        "sourceId": "moe-revised",
+        "commit": "a6dc997417507eb510fc29822bc514de2c92728c",
+        "rawFile": "data/raw/moe-revised.json.gz",
+        "rawSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "rawJsonSha256": "ea767109dfb04f838900b7462ebf6977f344f592e1dd745a204cbe3327ef8fe3",
+        "datasetFile": "data/dataset-v6.json",
+        "datasetSha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+        "datasetVersion": "2026.10.20.2",
+        "license": "CC-BY-ND-3.0-TW",
+        "url": "https://github.com/g0v/moedict-data/blob/a6dc997417507eb510fc29822bc514de2c92728c/dict-revised_bkup.json"
+      },
+      "char": "若",
+      "status": "available",
+      "unavailableReason": null,
+      "characterIdentitySha256": "67780a84bf7a43afe1544b63a3f693a024ea0774185c205f598fc9d4efed2b0c",
+      "currentDefault": {
+        "pinyin": "ruò",
+        "tone": 4,
+        "recordedTraditional": "若",
+        "sourceId": "moe-revised"
+      },
+      "defaultOptionIds": [
+        "cmnr1-8d7e12fa2a52e0e714c8a9298b0cbc09c6e499e1bcdd4055d140135d26703a16"
+      ],
+      "options": [
+        {
+          "optionId": "cmnr1-8d7e12fa2a52e0e714c8a9298b0cbc09c6e499e1bcdd4055d140135d26703a16",
+          "char": "若",
+          "characterIdentitySha256": "67780a84bf7a43afe1544b63a3f693a024ea0774185c205f598fc9d4efed2b0c",
+          "source": {
+            "profile": "cmn-character-source/1.0.0",
+            "profileSha256": "bea3067ebffc763904d4ef3d2629a2c86fcb1fa8fd3a4a57d32ff4bee6d96270",
+            "language": "cmn",
+            "standard": "MOE-Revised-Taiwan-fixed-snapshot",
+            "sourceId": "moe-revised",
+            "commit": "a6dc997417507eb510fc29822bc514de2c92728c",
+            "rawFile": "data/raw/moe-revised.json.gz",
+            "rawSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "rawJsonSha256": "ea767109dfb04f838900b7462ebf6977f344f592e1dd745a204cbe3327ef8fe3",
+            "datasetFile": "data/dataset-v6.json",
+            "datasetSha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+            "datasetVersion": "2026.10.20.2",
+            "license": "CC-BY-ND-3.0-TW",
+            "url": "https://github.com/g0v/moedict-data/blob/a6dc997417507eb510fc29822bc514de2c92728c/dict-revised_bkup.json"
+          },
+          "glyph": {
+            "inputChar": "若",
+            "recordedTraditional": "若",
+            "dictionaryWord": "若",
+            "kind": "same-character",
+            "characterReadingIndices": [
+              0,
+              1
+            ],
+            "variantEvidence": null
+          },
+          "entry": {
+            "index": 122400,
+            "path": "/122400",
+            "title": "若",
+            "sha256": "b51b2dc20f4ec5d2fe3a1cb7071d02b1ebce9961d3ff5e89d8e99c37a0b11392"
+          },
+          "heteronym": {
+            "index": 0,
+            "path": "/122400/heteronyms/0",
+            "sha256": "ae687635efcc4f53ebdadf9a23326d181584fe628c32c2f20a715442915875fb",
+            "rawPinyin": "ruò",
+            "rawBopomofo": "ㄖㄨㄛˋ"
+          },
+          "pinyin": "ruò",
+          "tone": 4,
+          "label": null,
+          "isCurrentDefault": true,
+          "definitions": [
+            {
+              "definitionId": "cmnd1-a42de53fe1be9d8ecce0cf0f3a87423e6e87a7bd13000377254b580a0d0846f9",
+              "path": "/122400/heteronyms/0/definitions/0",
+              "index": 0,
+              "original": {
+                "def": "一種香草。",
+                "quote": [
+                  "《楚辭．屈原．九章．惜往日》：「自前世之嫉賢兮，謂蕙若其不可佩。」",
+                  "唐．陸龜蒙〈美人〉詩：「猶欲悟君心，朝朝佩蘭若。」"
+                ],
+                "type": "名"
+              },
+              "kind": "definition"
+            },
+            {
+              "definitionId": "cmnd1-3c40998b856f1cfa694c548a10d4a61cb2271f8541e1a821fb20372b74051c98",
+              "path": "/122400/heteronyms/0/definitions/1",
+              "index": 1,
+              "original": {
+                "def": "姓。如漢代有若章。",
+                "type": "名"
+              },
+              "kind": "definition"
+            },
+            {
+              "definitionId": "cmnd1-b2c74a577da7046023c7f505f8e2f0290baa76072bc1a01854f19c4edbd2b1e8",
+              "path": "/122400/heteronyms/0/definitions/2",
+              "index": 2,
+              "original": {
+                "def": "順從。",
+                "quote": [
+                  "《左傳．宣公三年》：「故民入川澤山林，不逢不若。」"
+                ],
+                "type": "動"
+              },
+              "kind": "definition"
+            },
+            {
+              "definitionId": "cmnd1-32641be37dad2281a9b74213da7b45be2c178935e9bf0b8eef016cfcba33d6ac",
+              "path": "/122400/heteronyms/0/definitions/3",
+              "index": 3,
+              "original": {
+                "def": "及、比得上。",
+                "quote": [
+                  "《國語．晉語五》：「病未若死，祗以解志。」",
+                  "《論語．學而》：「未若貧而樂，富而好禮者也。」"
+                ],
+                "type": "動"
+              },
+              "kind": "definition"
+            },
+            {
+              "definitionId": "cmnd1-3b114ca891d1a00cf479ff1e6bf9078ddeab10b43e056dea590de4e695d538f6",
+              "path": "/122400/heteronyms/0/definitions/4",
+              "index": 4,
+              "original": {
+                "def": "奈。",
+                "quote": [
+                  "《左傳．僖公十五年》：「寇深矣，若之何？」"
+                ],
+                "type": "動"
+              },
+              "kind": "definition"
+            },
+            {
+              "definitionId": "cmnd1-49064e0651def02fd230a725a6c0ac33bca46a60b3afc82cc2e3f9e6305b9ceb",
+              "path": "/122400/heteronyms/0/definitions/5",
+              "index": 5,
+              "original": {
+                "def": "如果、假如，表示假設。",
+                "quote": [
+                  "《左傳．僖公二十三年》：「公子若反晉國，則何以報不穀？」",
+                  "唐．李賀〈金銅仙人辭漢歌〉：「天若有情天亦老，攜盤獨出月荒涼。」"
+                ],
+                "type": "連"
+              },
+              "kind": "definition"
+            },
+            {
+              "definitionId": "cmnd1-96d1781b1683c1993c2fc4d1411fc70be259a9bac9b22d8c83b9f49bf851ea76",
+              "path": "/122400/heteronyms/0/definitions/6",
+              "index": 6,
+              "original": {
+                "def": "至於，表示另提一件事。",
+                "quote": [
+                  "《孟子．梁惠王上》：「若民，則無恆產因無恆心。」",
+                  "《荀子．勸學》：「故學數有終，若其義則不可須臾舍也。」"
+                ],
+                "type": "連"
+              },
+              "kind": "definition"
+            },
+            {
+              "definitionId": "cmnd1-0bac8f7c809454c2d74fb596656497406fb17d74c8964c5dbb51f1715456fda4",
+              "path": "/122400/heteronyms/0/definitions/7",
+              "index": 7,
+              "original": {
+                "def": "或、或者，表示選擇。",
+                "quote": [
+                  "《史記．卷一○七．魏其武安侯傳》：「願取吳王若將軍頭，以報父之仇。」",
+                  "《紅樓夢．第七四回》：「將鏡奩、妝盒、衾袱、衣包若大若小之物，一齊打開。」"
+                ],
+                "type": "連"
+              },
+              "kind": "definition"
+            },
+            {
+              "definitionId": "cmnd1-0e392bcc8c8b61bbd01cf81ae70a1cc280ca58a70c18e095983c989be43b4851",
+              "path": "/122400/heteronyms/0/definitions/8",
+              "index": 8,
+              "original": {
+                "def": "乃、才。",
+                "quote": [
+                  "《國語．周語中》：「必有忍也，若能有濟也。」"
+                ],
+                "type": "副"
+              },
+              "kind": "definition"
+            },
+            {
+              "definitionId": "cmnd1-b9085d05087597f57db7a8aa2ae215f2663849895c0796b9487f33b979547674",
+              "path": "/122400/heteronyms/0/definitions/9",
+              "index": 9,
+              "original": {
+                "def": "似、好像。",
+                "example": [
+                  "如：「欣喜若狂」、「旁若無人」。"
+                ],
+                "quote": [
+                  "《左傳．定公四年》：「若聞蔡將先衛，信乎？」",
+                  "明．李時珍《本草綱目．卷四九．禽部．杜鵑》：「其鳴若曰：『不如歸去。』」"
+                ],
+                "type": "副"
+              },
+              "kind": "definition"
+            },
+            {
+              "definitionId": "cmnd1-c20531ceb939700862c578b09794192bd6ab88a495c2f9a91d67a31483e26849",
+              "path": "/122400/heteronyms/0/definitions/10",
+              "index": 10,
+              "original": {
+                "def": "你、你的。",
+                "quote": [
+                  "《莊子．齊物論》：「然則我與若與人俱不能相知也。」",
+                  "《史記．卷七．項羽本紀》：「吾翁即若翁，必欲烹而翁，則幸分我一杯羹。」"
+                ],
+                "type": "代"
+              },
+              "kind": "definition"
+            },
+            {
+              "definitionId": "cmnd1-e61ffab1d1260688659812ef1c61ffcc9629c9e112d38614e80c397227a0b162",
+              "path": "/122400/heteronyms/0/definitions/11",
+              "index": 11,
+              "original": {
+                "def": "如此、這樣。",
+                "quote": [
+                  "《書經．大誥》：「爾知寧王若勤哉？」",
+                  "唐．白居易〈見敏中初到邠寧秋日登城樓詩詩中頗多鄉思因以寄和〉詩：「望鄉心若苦，不用數登樓。」"
+                ],
+                "type": "代"
+              },
+              "kind": "definition"
+            }
+          ],
+          "suitabilityForPersonalName": "not-assessed"
+        },
+        {
+          "optionId": "cmnr1-857a8db6d997936f0f6ffff37af7b883118a6480cd4d08a9f6c3b934bf43a10b",
+          "char": "若",
+          "characterIdentitySha256": "67780a84bf7a43afe1544b63a3f693a024ea0774185c205f598fc9d4efed2b0c",
+          "source": {
+            "profile": "cmn-character-source/1.0.0",
+            "profileSha256": "bea3067ebffc763904d4ef3d2629a2c86fcb1fa8fd3a4a57d32ff4bee6d96270",
+            "language": "cmn",
+            "standard": "MOE-Revised-Taiwan-fixed-snapshot",
+            "sourceId": "moe-revised",
+            "commit": "a6dc997417507eb510fc29822bc514de2c92728c",
+            "rawFile": "data/raw/moe-revised.json.gz",
+            "rawSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "rawJsonSha256": "ea767109dfb04f838900b7462ebf6977f344f592e1dd745a204cbe3327ef8fe3",
+            "datasetFile": "data/dataset-v6.json",
+            "datasetSha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+            "datasetVersion": "2026.10.20.2",
+            "license": "CC-BY-ND-3.0-TW",
+            "url": "https://github.com/g0v/moedict-data/blob/a6dc997417507eb510fc29822bc514de2c92728c/dict-revised_bkup.json"
+          },
+          "glyph": {
+            "inputChar": "若",
+            "recordedTraditional": "若",
+            "dictionaryWord": "若",
+            "kind": "same-character",
+            "characterReadingIndices": [
+              0,
+              1
+            ],
+            "variantEvidence": null
+          },
+          "entry": {
+            "index": 122400,
+            "path": "/122400",
+            "title": "若",
+            "sha256": "b51b2dc20f4ec5d2fe3a1cb7071d02b1ebce9961d3ff5e89d8e99c37a0b11392"
+          },
+          "heteronym": {
+            "index": 1,
+            "path": "/122400/heteronyms/1",
+            "sha256": "fcbf16cbd46ccb384a401817ff7289c246724bfa6d57b8b4d89d293d0b585a06",
+            "rawPinyin": "rě",
+            "rawBopomofo": "ㄖㄜˇ"
+          },
+          "pinyin": "rě",
+          "tone": 3,
+          "label": null,
+          "isCurrentDefault": false,
+          "definitions": [
+            {
+              "definitionId": "cmnd1-fc91f351d2d3a2e24e0fbe3535ae23c77bc79288f521ddd0c813cfdf82bc90dd",
+              "path": "/122400/heteronyms/1/definitions/0",
+              "index": 0,
+              "original": {
+                "def": "參見「般若」、「蘭若」等條。"
+              },
+              "kind": "dictionary-reference"
+            }
+          ],
+          "suitabilityForPersonalName": "not-assessed"
+        }
+      ],
+      "references": [],
+      "limitations": [
+        "固定MOE臺灣國語辭典來源；未將各地或大陸普通話讀音差異自動統一。",
+        "僅返回現779字條已登記的單字詞條身份；Unicode字形對應不等於每個義項均適用於簡體字。",
+        "原語音／讀音／又音、文言、姓氏、地名與參見提示原樣保留；未判定適合人名。",
+        "未拆分多字詞讀音，未將參見詞條或其他異讀的釋義借入當前讀音。",
+        "選擇校驗只證明固定來源及所選原義項一致；不修改現有默認音、評分、方案或歷史。"
+      ]
+    },
+    {
+      "profile": "cmn-character-source/1.0.0",
+      "source": {
+        "profile": "cmn-character-source/1.0.0",
+        "profileSha256": "bea3067ebffc763904d4ef3d2629a2c86fcb1fa8fd3a4a57d32ff4bee6d96270",
+        "language": "cmn",
+        "standard": "MOE-Revised-Taiwan-fixed-snapshot",
+        "sourceId": "moe-revised",
+        "commit": "a6dc997417507eb510fc29822bc514de2c92728c",
+        "rawFile": "data/raw/moe-revised.json.gz",
+        "rawSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "rawJsonSha256": "ea767109dfb04f838900b7462ebf6977f344f592e1dd745a204cbe3327ef8fe3",
+        "datasetFile": "data/dataset-v6.json",
+        "datasetSha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+        "datasetVersion": "2026.10.20.2",
+        "license": "CC-BY-ND-3.0-TW",
+        "url": "https://github.com/g0v/moedict-data/blob/a6dc997417507eb510fc29822bc514de2c92728c/dict-revised_bkup.json"
+      },
+      "char": "兰",
+      "status": "available",
+      "unavailableReason": null,
+      "characterIdentitySha256": "fbb954cffca63a337aef85eef369c8ec1e130e90efa0ba54e1d894ef1f5cbdc5",
+      "currentDefault": {
+        "pinyin": "lán",
+        "tone": 2,
+        "recordedTraditional": "蘭",
+        "sourceId": "moe-revised"
+      },
+      "defaultOptionIds": [
+        "cmnr1-9dcc40213a5496ecb8353d783dc6b1a5d413deae785dee6cdb4a7627c180647e"
+      ],
+      "options": [
+        {
+          "optionId": "cmnr1-9dcc40213a5496ecb8353d783dc6b1a5d413deae785dee6cdb4a7627c180647e",
+          "char": "兰",
+          "characterIdentitySha256": "fbb954cffca63a337aef85eef369c8ec1e130e90efa0ba54e1d894ef1f5cbdc5",
+          "source": {
+            "profile": "cmn-character-source/1.0.0",
+            "profileSha256": "bea3067ebffc763904d4ef3d2629a2c86fcb1fa8fd3a4a57d32ff4bee6d96270",
+            "language": "cmn",
+            "standard": "MOE-Revised-Taiwan-fixed-snapshot",
+            "sourceId": "moe-revised",
+            "commit": "a6dc997417507eb510fc29822bc514de2c92728c",
+            "rawFile": "data/raw/moe-revised.json.gz",
+            "rawSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "rawJsonSha256": "ea767109dfb04f838900b7462ebf6977f344f592e1dd745a204cbe3327ef8fe3",
+            "datasetFile": "data/dataset-v6.json",
+            "datasetSha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+            "datasetVersion": "2026.10.20.2",
+            "license": "CC-BY-ND-3.0-TW",
+            "url": "https://github.com/g0v/moedict-data/blob/a6dc997417507eb510fc29822bc514de2c92728c/dict-revised_bkup.json"
+          },
+          "glyph": {
+            "inputChar": "兰",
+            "recordedTraditional": "蘭",
+            "dictionaryWord": "蘭",
+            "kind": "unicode-traditional-variant",
+            "characterReadingIndices": [
+              0
+            ],
+            "variantEvidence": {
+              "file": "data/raw/kTraditionalVariant.txt",
+              "sha256": "4eca6285d45070548e6e6c06e4b48c3ca6866d4380e8cb980c512f5d1fc71895",
+              "line": 251,
+              "text": "5170\tU+862D"
+            }
+          },
+          "entry": {
+            "index": 126201,
+            "path": "/126201",
+            "title": "蘭",
+            "sha256": "23b779a4f6aaa9122ba7446394e095ff5a4cbb6432fd0a142ef9870445545f9e"
+          },
+          "heteronym": {
+            "index": 0,
+            "path": "/126201/heteronyms/0",
+            "sha256": "5eac34e0327208a729da669151cfaacfa67914fd10bd6aaf359d969f2233eb65",
+            "rawPinyin": "lán",
+            "rawBopomofo": "ㄌㄢˊ"
+          },
+          "pinyin": "lán",
+          "tone": 2,
+          "label": null,
+          "isCurrentDefault": true,
+          "definitions": [
+            {
+              "definitionId": "cmnd1-8f08409f2d079884c2dd1949b79559625b37493a5b290f388af34a9cf75b0196",
+              "path": "/126201/heteronyms/0/definitions/0",
+              "index": 0,
+              "original": {
+                "def": "植物名：(1)一種葉細長而尖，花有清香味的多年生草本植物。參見「蘭花」條。(2) 蘭草、澤蘭。菊科蘭澤屬，多年生草本。葉卵形，對生，邊緣有鋸齒。秋末開花，全株有香味，可供觀賞。古人所謂蘭多指此草。",
+                "quote": [
+                  "《漢書．卷五七．司馬相如傳上》：「其東則有蕙圃，衡蘭芷若。」",
+                  "唐．顏師古．注：「蘭，即今所澤蘭也。」"
+                ],
+                "type": "名"
+              },
+              "kind": "definition"
+            },
+            {
+              "definitionId": "cmnd1-f8547f54c1b7e81f587b7c2003b46c7b697735924c6b377aaa9ba72f6d92eec8",
+              "path": "/126201/heteronyms/0/definitions/1",
+              "index": 1,
+              "original": {
+                "def": "姓。如漢代有蘭廣。",
+                "type": "名"
+              },
+              "kind": "definition"
+            }
+          ],
+          "suitabilityForPersonalName": "not-assessed"
+        }
+      ],
+      "references": [],
+      "limitations": [
+        "固定MOE臺灣國語辭典來源；未將各地或大陸普通話讀音差異自動統一。",
+        "僅返回現779字條已登記的單字詞條身份；Unicode字形對應不等於每個義項均適用於簡體字。",
+        "原語音／讀音／又音、文言、姓氏、地名與參見提示原樣保留；未判定適合人名。",
+        "未拆分多字詞讀音，未將參見詞條或其他異讀的釋義借入當前讀音。",
+        "選擇校驗只證明固定來源及所選原義項一致；不修改現有默認音、評分、方案或歷史。"
+      ]
+    },
+    {
+      "profile": "cmn-character-source/1.0.0",
+      "source": {
+        "profile": "cmn-character-source/1.0.0",
+        "profileSha256": "bea3067ebffc763904d4ef3d2629a2c86fcb1fa8fd3a4a57d32ff4bee6d96270",
+        "language": "cmn",
+        "standard": "MOE-Revised-Taiwan-fixed-snapshot",
+        "sourceId": "moe-revised",
+        "commit": "a6dc997417507eb510fc29822bc514de2c92728c",
+        "rawFile": "data/raw/moe-revised.json.gz",
+        "rawSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "rawJsonSha256": "ea767109dfb04f838900b7462ebf6977f344f592e1dd745a204cbe3327ef8fe3",
+        "datasetFile": "data/dataset-v6.json",
+        "datasetSha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+        "datasetVersion": "2026.10.20.2",
+        "license": "CC-BY-ND-3.0-TW",
+        "url": "https://github.com/g0v/moedict-data/blob/a6dc997417507eb510fc29822bc514de2c92728c/dict-revised_bkup.json"
+      },
+      "char": "𠮷",
+      "status": "unavailable",
+      "unavailableReason": "not-in-fixed-character-set",
+      "characterIdentitySha256": null,
+      "currentDefault": null,
+      "defaultOptionIds": [],
+      "options": [],
+      "references": [],
+      "limitations": [
+        "固定MOE臺灣國語辭典來源；未將各地或大陸普通話讀音差異自動統一。",
+        "僅返回現779字條已登記的單字詞條身份；Unicode字形對應不等於每個義項均適用於簡體字。",
+        "原語音／讀音／又音、文言、姓氏、地名與參見提示原樣保留；未判定適合人名。",
+        "未拆分多字詞讀音，未將參見詞條或其他異讀的釋義借入當前讀音。",
+        "選擇校驗只證明固定來源及所選原義項一致；不修改現有默認音、評分、方案或歷史。"
+      ]
+    }
+  ]
+}

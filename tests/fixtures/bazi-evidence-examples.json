@@ -1,0 +1,2244 @@
+{
+  "version": "bazi-evidence-profile/1.0.0",
+  "method": "literal-fixed-upstream-tables-with-independent-transcription-anchors",
+  "scope": "Fact memberships only. No application engine/calendar import; not evidence of transformation, strength, fate or favorable-element judgments.",
+  "sources": [
+    {
+      "id": "bazi-evidence-lunar186",
+      "commit": "0f3e95d15e31f1a7c7b93d624542649347328a20"
+    },
+    {
+      "id": "bazi-evidence-go-ganzhi",
+      "commit": "4d3f58fa0f401b5b3a337f119138e99e90685dda"
+    },
+    {
+      "id": "bazi-evidence-project-heuristic",
+      "commit": "project-fuyi-seasonal/1.0.0"
+    }
+  ],
+  "hiddenStems": [
+    {
+      "branch": "子",
+      "expected": [
+        "癸"
+      ],
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:1030"
+    },
+    {
+      "branch": "丑",
+      "expected": [
+        "己",
+        "癸",
+        "辛"
+      ],
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:1030"
+    },
+    {
+      "branch": "寅",
+      "expected": [
+        "甲",
+        "丙",
+        "戊"
+      ],
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:1030"
+    },
+    {
+      "branch": "卯",
+      "expected": [
+        "乙"
+      ],
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:1030"
+    },
+    {
+      "branch": "辰",
+      "expected": [
+        "戊",
+        "乙",
+        "癸"
+      ],
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:1030"
+    },
+    {
+      "branch": "巳",
+      "expected": [
+        "丙",
+        "庚",
+        "戊"
+      ],
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:1030"
+    },
+    {
+      "branch": "午",
+      "expected": [
+        "丁",
+        "己"
+      ],
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:1030"
+    },
+    {
+      "branch": "未",
+      "expected": [
+        "己",
+        "丁",
+        "乙"
+      ],
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:1030"
+    },
+    {
+      "branch": "申",
+      "expected": [
+        "庚",
+        "壬",
+        "戊"
+      ],
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:1030"
+    },
+    {
+      "branch": "酉",
+      "expected": [
+        "辛"
+      ],
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:1030"
+    },
+    {
+      "branch": "戌",
+      "expected": [
+        "戊",
+        "辛",
+        "丁"
+      ],
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:1030"
+    },
+    {
+      "branch": "亥",
+      "expected": [
+        "壬",
+        "甲"
+      ],
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:1030"
+    }
+  ],
+  "tenGod": [
+    {
+      "dayMaster": "甲",
+      "stem": "甲",
+      "expected": "比肩",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "甲",
+      "stem": "乙",
+      "expected": "劫财",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "甲",
+      "stem": "丙",
+      "expected": "食神",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "甲",
+      "stem": "丁",
+      "expected": "伤官",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "甲",
+      "stem": "戊",
+      "expected": "偏财",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "甲",
+      "stem": "己",
+      "expected": "正财",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "甲",
+      "stem": "庚",
+      "expected": "七杀",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "甲",
+      "stem": "辛",
+      "expected": "正官",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "甲",
+      "stem": "壬",
+      "expected": "偏印",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "甲",
+      "stem": "癸",
+      "expected": "正印",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "乙",
+      "stem": "甲",
+      "expected": "劫财",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "乙",
+      "stem": "乙",
+      "expected": "比肩",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "乙",
+      "stem": "丙",
+      "expected": "伤官",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "乙",
+      "stem": "丁",
+      "expected": "食神",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "乙",
+      "stem": "戊",
+      "expected": "正财",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "乙",
+      "stem": "己",
+      "expected": "偏财",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "乙",
+      "stem": "庚",
+      "expected": "正官",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "乙",
+      "stem": "辛",
+      "expected": "七杀",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "乙",
+      "stem": "壬",
+      "expected": "正印",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "乙",
+      "stem": "癸",
+      "expected": "偏印",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "丙",
+      "stem": "甲",
+      "expected": "偏印",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "丙",
+      "stem": "乙",
+      "expected": "正印",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "丙",
+      "stem": "丙",
+      "expected": "比肩",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "丙",
+      "stem": "丁",
+      "expected": "劫财",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "丙",
+      "stem": "戊",
+      "expected": "食神",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "丙",
+      "stem": "己",
+      "expected": "伤官",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "丙",
+      "stem": "庚",
+      "expected": "偏财",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "丙",
+      "stem": "辛",
+      "expected": "正财",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "丙",
+      "stem": "壬",
+      "expected": "七杀",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "丙",
+      "stem": "癸",
+      "expected": "正官",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "丁",
+      "stem": "甲",
+      "expected": "正印",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "丁",
+      "stem": "乙",
+      "expected": "偏印",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "丁",
+      "stem": "丙",
+      "expected": "劫财",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "丁",
+      "stem": "丁",
+      "expected": "比肩",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "丁",
+      "stem": "戊",
+      "expected": "伤官",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "丁",
+      "stem": "己",
+      "expected": "食神",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "丁",
+      "stem": "庚",
+      "expected": "正财",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "丁",
+      "stem": "辛",
+      "expected": "偏财",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "丁",
+      "stem": "壬",
+      "expected": "正官",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "丁",
+      "stem": "癸",
+      "expected": "七杀",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "戊",
+      "stem": "甲",
+      "expected": "七杀",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "戊",
+      "stem": "乙",
+      "expected": "正官",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "戊",
+      "stem": "丙",
+      "expected": "偏印",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "戊",
+      "stem": "丁",
+      "expected": "正印",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "戊",
+      "stem": "戊",
+      "expected": "比肩",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "戊",
+      "stem": "己",
+      "expected": "劫财",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "戊",
+      "stem": "庚",
+      "expected": "食神",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "戊",
+      "stem": "辛",
+      "expected": "伤官",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "戊",
+      "stem": "壬",
+      "expected": "偏财",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "戊",
+      "stem": "癸",
+      "expected": "正财",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "己",
+      "stem": "甲",
+      "expected": "正官",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "己",
+      "stem": "乙",
+      "expected": "七杀",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "己",
+      "stem": "丙",
+      "expected": "正印",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "己",
+      "stem": "丁",
+      "expected": "偏印",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "己",
+      "stem": "戊",
+      "expected": "劫财",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "己",
+      "stem": "己",
+      "expected": "比肩",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "己",
+      "stem": "庚",
+      "expected": "伤官",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "己",
+      "stem": "辛",
+      "expected": "食神",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "己",
+      "stem": "壬",
+      "expected": "正财",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "己",
+      "stem": "癸",
+      "expected": "偏财",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "庚",
+      "stem": "甲",
+      "expected": "偏财",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "庚",
+      "stem": "乙",
+      "expected": "正财",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "庚",
+      "stem": "丙",
+      "expected": "七杀",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "庚",
+      "stem": "丁",
+      "expected": "正官",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "庚",
+      "stem": "戊",
+      "expected": "偏印",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "庚",
+      "stem": "己",
+      "expected": "正印",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "庚",
+      "stem": "庚",
+      "expected": "比肩",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "庚",
+      "stem": "辛",
+      "expected": "劫财",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "庚",
+      "stem": "壬",
+      "expected": "食神",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "庚",
+      "stem": "癸",
+      "expected": "伤官",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "辛",
+      "stem": "甲",
+      "expected": "正财",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "辛",
+      "stem": "乙",
+      "expected": "偏财",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "辛",
+      "stem": "丙",
+      "expected": "正官",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "辛",
+      "stem": "丁",
+      "expected": "七杀",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "辛",
+      "stem": "戊",
+      "expected": "正印",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "辛",
+      "stem": "己",
+      "expected": "偏印",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "辛",
+      "stem": "庚",
+      "expected": "劫财",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "辛",
+      "stem": "辛",
+      "expected": "比肩",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "辛",
+      "stem": "壬",
+      "expected": "伤官",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "辛",
+      "stem": "癸",
+      "expected": "食神",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "壬",
+      "stem": "甲",
+      "expected": "食神",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "壬",
+      "stem": "乙",
+      "expected": "伤官",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "壬",
+      "stem": "丙",
+      "expected": "偏财",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "壬",
+      "stem": "丁",
+      "expected": "正财",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "壬",
+      "stem": "戊",
+      "expected": "七杀",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "壬",
+      "stem": "己",
+      "expected": "正官",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "壬",
+      "stem": "庚",
+      "expected": "偏印",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "壬",
+      "stem": "辛",
+      "expected": "正印",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "壬",
+      "stem": "壬",
+      "expected": "比肩",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "壬",
+      "stem": "癸",
+      "expected": "劫财",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "癸",
+      "stem": "甲",
+      "expected": "伤官",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "癸",
+      "stem": "乙",
+      "expected": "食神",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "癸",
+      "stem": "丙",
+      "expected": "正财",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "癸",
+      "stem": "丁",
+      "expected": "偏财",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "癸",
+      "stem": "戊",
+      "expected": "正官",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "癸",
+      "stem": "己",
+      "expected": "七杀",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "癸",
+      "stem": "庚",
+      "expected": "正印",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "癸",
+      "stem": "辛",
+      "expected": "偏印",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "癸",
+      "stem": "壬",
+      "expected": "劫财",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    },
+    {
+      "dayMaster": "癸",
+      "stem": "癸",
+      "expected": "比肩",
+      "sourceId": "bazi-evidence-lunar186",
+      "sourceLocator": "src/lib/LunarUtil.ts:928"
+    }
+  ],
+  "tables": {
+    "stemCombinations": [
+      {
+        "subjects": [
+          "甲",
+          "己"
+        ]
+      },
+      {
+        "subjects": [
+          "乙",
+          "庚"
+        ]
+      },
+      {
+        "subjects": [
+          "丙",
+          "辛"
+        ]
+      },
+      {
+        "subjects": [
+          "丁",
+          "壬"
+        ]
+      },
+      {
+        "subjects": [
+          "戊",
+          "癸"
+        ]
+      }
+    ],
+    "branchLiuhe": [
+      {
+        "subjects": [
+          "子",
+          "丑"
+        ]
+      },
+      {
+        "subjects": [
+          "寅",
+          "亥"
+        ]
+      },
+      {
+        "subjects": [
+          "卯",
+          "戌"
+        ]
+      },
+      {
+        "subjects": [
+          "辰",
+          "酉"
+        ]
+      },
+      {
+        "subjects": [
+          "巳",
+          "申"
+        ]
+      },
+      {
+        "subjects": [
+          "午",
+          "未"
+        ]
+      }
+    ],
+    "branchClashes": [
+      {
+        "subjects": [
+          "子",
+          "午"
+        ]
+      },
+      {
+        "subjects": [
+          "丑",
+          "未"
+        ]
+      },
+      {
+        "subjects": [
+          "寅",
+          "申"
+        ]
+      },
+      {
+        "subjects": [
+          "卯",
+          "酉"
+        ]
+      },
+      {
+        "subjects": [
+          "辰",
+          "戌"
+        ]
+      },
+      {
+        "subjects": [
+          "巳",
+          "亥"
+        ]
+      }
+    ],
+    "branchSanhe": [
+      {
+        "subjects": [
+          "申",
+          "子",
+          "辰"
+        ],
+        "element": "水"
+      },
+      {
+        "subjects": [
+          "寅",
+          "午",
+          "戌"
+        ],
+        "element": "火"
+      },
+      {
+        "subjects": [
+          "亥",
+          "卯",
+          "未"
+        ],
+        "element": "木"
+      },
+      {
+        "subjects": [
+          "巳",
+          "酉",
+          "丑"
+        ],
+        "element": "金"
+      }
+    ],
+    "branchSanhui": [
+      {
+        "subjects": [
+          "子",
+          "丑",
+          "亥"
+        ],
+        "element": "水"
+      },
+      {
+        "subjects": [
+          "寅",
+          "卯",
+          "辰"
+        ],
+        "element": "木"
+      },
+      {
+        "subjects": [
+          "巳",
+          "午",
+          "未"
+        ],
+        "element": "火"
+      },
+      {
+        "subjects": [
+          "申",
+          "酉",
+          "戌"
+        ],
+        "element": "金"
+      }
+    ]
+  },
+  "relationships": [
+    {
+      "id": "stem-combination-1-all",
+      "kind": "stem-combination",
+      "input": [
+        "甲",
+        "己"
+      ],
+      "matched": true,
+      "subjects": [
+        "甲",
+        "己"
+      ],
+      "sourceLocator": "src/lib/LunarUtil.ts:813; xuan/ganzhi.go:76",
+      "evidence": "All distinct members of the fixed external source group occur."
+    },
+    {
+      "id": "stem-combination-1-reordered",
+      "kind": "stem-combination",
+      "input": [
+        "己",
+        "甲",
+        "甲"
+      ],
+      "matched": true,
+      "subjects": [
+        "甲",
+        "己"
+      ],
+      "sourceLocator": "src/lib/LunarUtil.ts:813; xuan/ganzhi.go:76",
+      "evidence": "Order and duplicate occurrences do not add or remove distinct source members."
+    },
+    {
+      "id": "stem-combination-1-incomplete",
+      "kind": "stem-combination",
+      "input": [
+        "甲",
+        "乙"
+      ],
+      "matched": false,
+      "subjects": [
+        "甲",
+        "己"
+      ],
+      "sourceLocator": "src/lib/LunarUtil.ts:813; xuan/ganzhi.go:76",
+      "evidence": "At least one member of this exact source group is absent; repeated members do not complete it."
+    },
+    {
+      "id": "stem-combination-2-all",
+      "kind": "stem-combination",
+      "input": [
+        "乙",
+        "庚"
+      ],
+      "matched": true,
+      "subjects": [
+        "乙",
+        "庚"
+      ],
+      "sourceLocator": "src/lib/LunarUtil.ts:813; xuan/ganzhi.go:76",
+      "evidence": "All distinct members of the fixed external source group occur."
+    },
+    {
+      "id": "stem-combination-2-reordered",
+      "kind": "stem-combination",
+      "input": [
+        "庚",
+        "乙",
+        "乙"
+      ],
+      "matched": true,
+      "subjects": [
+        "乙",
+        "庚"
+      ],
+      "sourceLocator": "src/lib/LunarUtil.ts:813; xuan/ganzhi.go:76",
+      "evidence": "Order and duplicate occurrences do not add or remove distinct source members."
+    },
+    {
+      "id": "stem-combination-2-incomplete",
+      "kind": "stem-combination",
+      "input": [
+        "乙",
+        "甲"
+      ],
+      "matched": false,
+      "subjects": [
+        "乙",
+        "庚"
+      ],
+      "sourceLocator": "src/lib/LunarUtil.ts:813; xuan/ganzhi.go:76",
+      "evidence": "At least one member of this exact source group is absent; repeated members do not complete it."
+    },
+    {
+      "id": "stem-combination-3-all",
+      "kind": "stem-combination",
+      "input": [
+        "丙",
+        "辛"
+      ],
+      "matched": true,
+      "subjects": [
+        "丙",
+        "辛"
+      ],
+      "sourceLocator": "src/lib/LunarUtil.ts:813; xuan/ganzhi.go:76",
+      "evidence": "All distinct members of the fixed external source group occur."
+    },
+    {
+      "id": "stem-combination-3-reordered",
+      "kind": "stem-combination",
+      "input": [
+        "辛",
+        "丙",
+        "丙"
+      ],
+      "matched": true,
+      "subjects": [
+        "丙",
+        "辛"
+      ],
+      "sourceLocator": "src/lib/LunarUtil.ts:813; xuan/ganzhi.go:76",
+      "evidence": "Order and duplicate occurrences do not add or remove distinct source members."
+    },
+    {
+      "id": "stem-combination-3-incomplete",
+      "kind": "stem-combination",
+      "input": [
+        "丙",
+        "甲"
+      ],
+      "matched": false,
+      "subjects": [
+        "丙",
+        "辛"
+      ],
+      "sourceLocator": "src/lib/LunarUtil.ts:813; xuan/ganzhi.go:76",
+      "evidence": "At least one member of this exact source group is absent; repeated members do not complete it."
+    },
+    {
+      "id": "stem-combination-4-all",
+      "kind": "stem-combination",
+      "input": [
+        "丁",
+        "壬"
+      ],
+      "matched": true,
+      "subjects": [
+        "丁",
+        "壬"
+      ],
+      "sourceLocator": "src/lib/LunarUtil.ts:813; xuan/ganzhi.go:76",
+      "evidence": "All distinct members of the fixed external source group occur."
+    },
+    {
+      "id": "stem-combination-4-reordered",
+      "kind": "stem-combination",
+      "input": [
+        "壬",
+        "丁",
+        "丁"
+      ],
+      "matched": true,
+      "subjects": [
+        "丁",
+        "壬"
+      ],
+      "sourceLocator": "src/lib/LunarUtil.ts:813; xuan/ganzhi.go:76",
+      "evidence": "Order and duplicate occurrences do not add or remove distinct source members."
+    },
+    {
+      "id": "stem-combination-4-incomplete",
+      "kind": "stem-combination",
+      "input": [
+        "丁",
+        "甲"
+      ],
+      "matched": false,
+      "subjects": [
+        "丁",
+        "壬"
+      ],
+      "sourceLocator": "src/lib/LunarUtil.ts:813; xuan/ganzhi.go:76",
+      "evidence": "At least one member of this exact source group is absent; repeated members do not complete it."
+    },
+    {
+      "id": "stem-combination-5-all",
+      "kind": "stem-combination",
+      "input": [
+        "戊",
+        "癸"
+      ],
+      "matched": true,
+      "subjects": [
+        "戊",
+        "癸"
+      ],
+      "sourceLocator": "src/lib/LunarUtil.ts:813; xuan/ganzhi.go:76",
+      "evidence": "All distinct members of the fixed external source group occur."
+    },
+    {
+      "id": "stem-combination-5-reordered",
+      "kind": "stem-combination",
+      "input": [
+        "癸",
+        "戊",
+        "戊"
+      ],
+      "matched": true,
+      "subjects": [
+        "戊",
+        "癸"
+      ],
+      "sourceLocator": "src/lib/LunarUtil.ts:813; xuan/ganzhi.go:76",
+      "evidence": "Order and duplicate occurrences do not add or remove distinct source members."
+    },
+    {
+      "id": "stem-combination-5-incomplete",
+      "kind": "stem-combination",
+      "input": [
+        "戊",
+        "甲"
+      ],
+      "matched": false,
+      "subjects": [
+        "戊",
+        "癸"
+      ],
+      "sourceLocator": "src/lib/LunarUtil.ts:813; xuan/ganzhi.go:76",
+      "evidence": "At least one member of this exact source group is absent; repeated members do not complete it."
+    },
+    {
+      "id": "branch-liuhe-1-all",
+      "kind": "branch-liuhe",
+      "input": [
+        "子",
+        "丑"
+      ],
+      "matched": true,
+      "subjects": [
+        "子",
+        "丑"
+      ],
+      "sourceLocator": "src/lib/LunarUtil.ts:814; xuan/ganzhi.go:82",
+      "evidence": "All distinct members of the fixed external source group occur."
+    },
+    {
+      "id": "branch-liuhe-1-reordered",
+      "kind": "branch-liuhe",
+      "input": [
+        "丑",
+        "子",
+        "子"
+      ],
+      "matched": true,
+      "subjects": [
+        "子",
+        "丑"
+      ],
+      "sourceLocator": "src/lib/LunarUtil.ts:814; xuan/ganzhi.go:82",
+      "evidence": "Order and duplicate occurrences do not add or remove distinct source members."
+    },
+    {
+      "id": "branch-liuhe-1-incomplete",
+      "kind": "branch-liuhe",
+      "input": [
+        "子",
+        "寅"
+      ],
+      "matched": false,
+      "subjects": [
+        "子",
+        "丑"
+      ],
+      "sourceLocator": "src/lib/LunarUtil.ts:814; xuan/ganzhi.go:82",
+      "evidence": "At least one member of this exact source group is absent; repeated members do not complete it."
+    },
+    {
+      "id": "branch-liuhe-2-all",
+      "kind": "branch-liuhe",
+      "input": [
+        "寅",
+        "亥"
+      ],
+      "matched": true,
+      "subjects": [
+        "寅",
+        "亥"
+      ],
+      "sourceLocator": "src/lib/LunarUtil.ts:814; xuan/ganzhi.go:82",
+      "evidence": "All distinct members of the fixed external source group occur."
+    },
+    {
+      "id": "branch-liuhe-2-reordered",
+      "kind": "branch-liuhe",
+      "input": [
+        "亥",
+        "寅",
+        "寅"
+      ],
+      "matched": true,
+      "subjects": [
+        "寅",
+        "亥"
+      ],
+      "sourceLocator": "src/lib/LunarUtil.ts:814; xuan/ganzhi.go:82",
+      "evidence": "Order and duplicate occurrences do not add or remove distinct source members."
+    },
+    {
+      "id": "branch-liuhe-2-incomplete",
+      "kind": "branch-liuhe",
+      "input": [
+        "寅",
+        "子"
+      ],
+      "matched": false,
+      "subjects": [
+        "寅",
+        "亥"
+      ],
+      "sourceLocator": "src/lib/LunarUtil.ts:814; xuan/ganzhi.go:82",
+      "evidence": "At least one member of this exact source group is absent; repeated members do not complete it."
+    },
+    {
+      "id": "branch-liuhe-3-all",
+      "kind": "branch-liuhe",
+      "input": [
+        "卯",
+        "戌"
+      ],
+      "matched": true,
+      "subjects": [
+        "卯",
+        "戌"
+      ],
+      "sourceLocator": "src/lib/LunarUtil.ts:814; xuan/ganzhi.go:82",
+      "evidence": "All distinct members of the fixed external source group occur."
+    },
+    {
+      "id": "branch-liuhe-3-reordered",
+      "kind": "branch-liuhe",
+      "input": [
+        "戌",
+        "卯",
+        "卯"
+      ],
+      "matched": true,
+      "subjects": [
+        "卯",
+        "戌"
+      ],
+      "sourceLocator": "src/lib/LunarUtil.ts:814; xuan/ganzhi.go:82",
+      "evidence": "Order and duplicate occurrences do not add or remove distinct source members."
+    },
+    {
+      "id": "branch-liuhe-3-incomplete",
+      "kind": "branch-liuhe",
+      "input": [
+        "卯",
+        "子"
+      ],
+      "matched": false,
+      "subjects": [
+        "卯",
+        "戌"
+      ],
+      "sourceLocator": "src/lib/LunarUtil.ts:814; xuan/ganzhi.go:82",
+      "evidence": "At least one member of this exact source group is absent; repeated members do not complete it."
+    },
+    {
+      "id": "branch-liuhe-4-all",
+      "kind": "branch-liuhe",
+      "input": [
+        "辰",
+        "酉"
+      ],
+      "matched": true,
+      "subjects": [
+        "辰",
+        "酉"
+      ],
+      "sourceLocator": "src/lib/LunarUtil.ts:814; xuan/ganzhi.go:82",
+      "evidence": "All distinct members of the fixed external source group occur."
+    },
+    {
+      "id": "branch-liuhe-4-reordered",
+      "kind": "branch-liuhe",
+      "input": [
+        "酉",
+        "辰",
+        "辰"
+      ],
+      "matched": true,
+      "subjects": [
+        "辰",
+        "酉"
+      ],
+      "sourceLocator": "src/lib/LunarUtil.ts:814; xuan/ganzhi.go:82",
+      "evidence": "Order and duplicate occurrences do not add or remove distinct source members."
+    },
+    {
+      "id": "branch-liuhe-4-incomplete",
+      "kind": "branch-liuhe",
+      "input": [
+        "辰",
+        "子"
+      ],
+      "matched": false,
+      "subjects": [
+        "辰",
+        "酉"
+      ],
+      "sourceLocator": "src/lib/LunarUtil.ts:814; xuan/ganzhi.go:82",
+      "evidence": "At least one member of this exact source group is absent; repeated members do not complete it."
+    },
+    {
+      "id": "branch-liuhe-5-all",
+      "kind": "branch-liuhe",
+      "input": [
+        "巳",
+        "申"
+      ],
+      "matched": true,
+      "subjects": [
+        "巳",
+        "申"
+      ],
+      "sourceLocator": "src/lib/LunarUtil.ts:814; xuan/ganzhi.go:82",
+      "evidence": "All distinct members of the fixed external source group occur."
+    },
+    {
+      "id": "branch-liuhe-5-reordered",
+      "kind": "branch-liuhe",
+      "input": [
+        "申",
+        "巳",
+        "巳"
+      ],
+      "matched": true,
+      "subjects": [
+        "巳",
+        "申"
+      ],
+      "sourceLocator": "src/lib/LunarUtil.ts:814; xuan/ganzhi.go:82",
+      "evidence": "Order and duplicate occurrences do not add or remove distinct source members."
+    },
+    {
+      "id": "branch-liuhe-5-incomplete",
+      "kind": "branch-liuhe",
+      "input": [
+        "巳",
+        "子"
+      ],
+      "matched": false,
+      "subjects": [
+        "巳",
+        "申"
+      ],
+      "sourceLocator": "src/lib/LunarUtil.ts:814; xuan/ganzhi.go:82",
+      "evidence": "At least one member of this exact source group is absent; repeated members do not complete it."
+    },
+    {
+      "id": "branch-liuhe-6-all",
+      "kind": "branch-liuhe",
+      "input": [
+        "午",
+        "未"
+      ],
+      "matched": true,
+      "subjects": [
+        "午",
+        "未"
+      ],
+      "sourceLocator": "src/lib/LunarUtil.ts:814; xuan/ganzhi.go:82",
+      "evidence": "All distinct members of the fixed external source group occur."
+    },
+    {
+      "id": "branch-liuhe-6-reordered",
+      "kind": "branch-liuhe",
+      "input": [
+        "未",
+        "午",
+        "午"
+      ],
+      "matched": true,
+      "subjects": [
+        "午",
+        "未"
+      ],
+      "sourceLocator": "src/lib/LunarUtil.ts:814; xuan/ganzhi.go:82",
+      "evidence": "Order and duplicate occurrences do not add or remove distinct source members."
+    },
+    {
+      "id": "branch-liuhe-6-incomplete",
+      "kind": "branch-liuhe",
+      "input": [
+        "午",
+        "子"
+      ],
+      "matched": false,
+      "subjects": [
+        "午",
+        "未"
+      ],
+      "sourceLocator": "src/lib/LunarUtil.ts:814; xuan/ganzhi.go:82",
+      "evidence": "At least one member of this exact source group is absent; repeated members do not complete it."
+    },
+    {
+      "id": "branch-clash-1-all",
+      "kind": "branch-clash",
+      "input": [
+        "子",
+        "午"
+      ],
+      "matched": true,
+      "subjects": [
+        "子",
+        "午"
+      ],
+      "sourceLocator": "xuan/ganzhi.go:88",
+      "evidence": "All distinct members of the fixed external source group occur."
+    },
+    {
+      "id": "branch-clash-1-reordered",
+      "kind": "branch-clash",
+      "input": [
+        "午",
+        "子",
+        "子"
+      ],
+      "matched": true,
+      "subjects": [
+        "子",
+        "午"
+      ],
+      "sourceLocator": "xuan/ganzhi.go:88",
+      "evidence": "Order and duplicate occurrences do not add or remove distinct source members."
+    },
+    {
+      "id": "branch-clash-1-incomplete",
+      "kind": "branch-clash",
+      "input": [
+        "子",
+        "丑"
+      ],
+      "matched": false,
+      "subjects": [
+        "子",
+        "午"
+      ],
+      "sourceLocator": "xuan/ganzhi.go:88",
+      "evidence": "At least one member of this exact source group is absent; repeated members do not complete it."
+    },
+    {
+      "id": "branch-clash-2-all",
+      "kind": "branch-clash",
+      "input": [
+        "丑",
+        "未"
+      ],
+      "matched": true,
+      "subjects": [
+        "丑",
+        "未"
+      ],
+      "sourceLocator": "xuan/ganzhi.go:88",
+      "evidence": "All distinct members of the fixed external source group occur."
+    },
+    {
+      "id": "branch-clash-2-reordered",
+      "kind": "branch-clash",
+      "input": [
+        "未",
+        "丑",
+        "丑"
+      ],
+      "matched": true,
+      "subjects": [
+        "丑",
+        "未"
+      ],
+      "sourceLocator": "xuan/ganzhi.go:88",
+      "evidence": "Order and duplicate occurrences do not add or remove distinct source members."
+    },
+    {
+      "id": "branch-clash-2-incomplete",
+      "kind": "branch-clash",
+      "input": [
+        "丑",
+        "子"
+      ],
+      "matched": false,
+      "subjects": [
+        "丑",
+        "未"
+      ],
+      "sourceLocator": "xuan/ganzhi.go:88",
+      "evidence": "At least one member of this exact source group is absent; repeated members do not complete it."
+    },
+    {
+      "id": "branch-clash-3-all",
+      "kind": "branch-clash",
+      "input": [
+        "寅",
+        "申"
+      ],
+      "matched": true,
+      "subjects": [
+        "寅",
+        "申"
+      ],
+      "sourceLocator": "xuan/ganzhi.go:88",
+      "evidence": "All distinct members of the fixed external source group occur."
+    },
+    {
+      "id": "branch-clash-3-reordered",
+      "kind": "branch-clash",
+      "input": [
+        "申",
+        "寅",
+        "寅"
+      ],
+      "matched": true,
+      "subjects": [
+        "寅",
+        "申"
+      ],
+      "sourceLocator": "xuan/ganzhi.go:88",
+      "evidence": "Order and duplicate occurrences do not add or remove distinct source members."
+    },
+    {
+      "id": "branch-clash-3-incomplete",
+      "kind": "branch-clash",
+      "input": [
+        "寅",
+        "子"
+      ],
+      "matched": false,
+      "subjects": [
+        "寅",
+        "申"
+      ],
+      "sourceLocator": "xuan/ganzhi.go:88",
+      "evidence": "At least one member of this exact source group is absent; repeated members do not complete it."
+    },
+    {
+      "id": "branch-clash-4-all",
+      "kind": "branch-clash",
+      "input": [
+        "卯",
+        "酉"
+      ],
+      "matched": true,
+      "subjects": [
+        "卯",
+        "酉"
+      ],
+      "sourceLocator": "xuan/ganzhi.go:88",
+      "evidence": "All distinct members of the fixed external source group occur."
+    },
+    {
+      "id": "branch-clash-4-reordered",
+      "kind": "branch-clash",
+      "input": [
+        "酉",
+        "卯",
+        "卯"
+      ],
+      "matched": true,
+      "subjects": [
+        "卯",
+        "酉"
+      ],
+      "sourceLocator": "xuan/ganzhi.go:88",
+      "evidence": "Order and duplicate occurrences do not add or remove distinct source members."
+    },
+    {
+      "id": "branch-clash-4-incomplete",
+      "kind": "branch-clash",
+      "input": [
+        "卯",
+        "子"
+      ],
+      "matched": false,
+      "subjects": [
+        "卯",
+        "酉"
+      ],
+      "sourceLocator": "xuan/ganzhi.go:88",
+      "evidence": "At least one member of this exact source group is absent; repeated members do not complete it."
+    },
+    {
+      "id": "branch-clash-5-all",
+      "kind": "branch-clash",
+      "input": [
+        "辰",
+        "戌"
+      ],
+      "matched": true,
+      "subjects": [
+        "辰",
+        "戌"
+      ],
+      "sourceLocator": "xuan/ganzhi.go:88",
+      "evidence": "All distinct members of the fixed external source group occur."
+    },
+    {
+      "id": "branch-clash-5-reordered",
+      "kind": "branch-clash",
+      "input": [
+        "戌",
+        "辰",
+        "辰"
+      ],
+      "matched": true,
+      "subjects": [
+        "辰",
+        "戌"
+      ],
+      "sourceLocator": "xuan/ganzhi.go:88",
+      "evidence": "Order and duplicate occurrences do not add or remove distinct source members."
+    },
+    {
+      "id": "branch-clash-5-incomplete",
+      "kind": "branch-clash",
+      "input": [
+        "辰",
+        "子"
+      ],
+      "matched": false,
+      "subjects": [
+        "辰",
+        "戌"
+      ],
+      "sourceLocator": "xuan/ganzhi.go:88",
+      "evidence": "At least one member of this exact source group is absent; repeated members do not complete it."
+    },
+    {
+      "id": "branch-clash-6-all",
+      "kind": "branch-clash",
+      "input": [
+        "巳",
+        "亥"
+      ],
+      "matched": true,
+      "subjects": [
+        "巳",
+        "亥"
+      ],
+      "sourceLocator": "xuan/ganzhi.go:88",
+      "evidence": "All distinct members of the fixed external source group occur."
+    },
+    {
+      "id": "branch-clash-6-reordered",
+      "kind": "branch-clash",
+      "input": [
+        "亥",
+        "巳",
+        "巳"
+      ],
+      "matched": true,
+      "subjects": [
+        "巳",
+        "亥"
+      ],
+      "sourceLocator": "xuan/ganzhi.go:88",
+      "evidence": "Order and duplicate occurrences do not add or remove distinct source members."
+    },
+    {
+      "id": "branch-clash-6-incomplete",
+      "kind": "branch-clash",
+      "input": [
+        "巳",
+        "子"
+      ],
+      "matched": false,
+      "subjects": [
+        "巳",
+        "亥"
+      ],
+      "sourceLocator": "xuan/ganzhi.go:88",
+      "evidence": "At least one member of this exact source group is absent; repeated members do not complete it."
+    },
+    {
+      "id": "branch-sanhe-1-all",
+      "kind": "branch-sanhe",
+      "input": [
+        "申",
+        "子",
+        "辰"
+      ],
+      "matched": true,
+      "subjects": [
+        "申",
+        "子",
+        "辰"
+      ],
+      "groupElement": "水",
+      "sourceLocator": "xuan/ganzhi.go:96",
+      "evidence": "All distinct members of the fixed external source group occur."
+    },
+    {
+      "id": "branch-sanhe-1-reordered",
+      "kind": "branch-sanhe",
+      "input": [
+        "辰",
+        "子",
+        "申",
+        "申"
+      ],
+      "matched": true,
+      "subjects": [
+        "申",
+        "子",
+        "辰"
+      ],
+      "groupElement": "水",
+      "sourceLocator": "xuan/ganzhi.go:96",
+      "evidence": "Order and duplicate occurrences do not add or remove distinct source members."
+    },
+    {
+      "id": "branch-sanhe-1-incomplete",
+      "kind": "branch-sanhe",
+      "input": [
+        "申",
+        "子",
+        "丑"
+      ],
+      "matched": false,
+      "subjects": [
+        "申",
+        "子",
+        "辰"
+      ],
+      "groupElement": "水",
+      "sourceLocator": "xuan/ganzhi.go:96",
+      "evidence": "At least one member of this exact source group is absent; repeated members do not complete it."
+    },
+    {
+      "id": "branch-sanhe-2-all",
+      "kind": "branch-sanhe",
+      "input": [
+        "寅",
+        "午",
+        "戌"
+      ],
+      "matched": true,
+      "subjects": [
+        "寅",
+        "午",
+        "戌"
+      ],
+      "groupElement": "火",
+      "sourceLocator": "xuan/ganzhi.go:96",
+      "evidence": "All distinct members of the fixed external source group occur."
+    },
+    {
+      "id": "branch-sanhe-2-reordered",
+      "kind": "branch-sanhe",
+      "input": [
+        "戌",
+        "午",
+        "寅",
+        "寅"
+      ],
+      "matched": true,
+      "subjects": [
+        "寅",
+        "午",
+        "戌"
+      ],
+      "groupElement": "火",
+      "sourceLocator": "xuan/ganzhi.go:96",
+      "evidence": "Order and duplicate occurrences do not add or remove distinct source members."
+    },
+    {
+      "id": "branch-sanhe-2-incomplete",
+      "kind": "branch-sanhe",
+      "input": [
+        "寅",
+        "午",
+        "子"
+      ],
+      "matched": false,
+      "subjects": [
+        "寅",
+        "午",
+        "戌"
+      ],
+      "groupElement": "火",
+      "sourceLocator": "xuan/ganzhi.go:96",
+      "evidence": "At least one member of this exact source group is absent; repeated members do not complete it."
+    },
+    {
+      "id": "branch-sanhe-3-all",
+      "kind": "branch-sanhe",
+      "input": [
+        "亥",
+        "卯",
+        "未"
+      ],
+      "matched": true,
+      "subjects": [
+        "亥",
+        "卯",
+        "未"
+      ],
+      "groupElement": "木",
+      "sourceLocator": "xuan/ganzhi.go:96",
+      "evidence": "All distinct members of the fixed external source group occur."
+    },
+    {
+      "id": "branch-sanhe-3-reordered",
+      "kind": "branch-sanhe",
+      "input": [
+        "未",
+        "卯",
+        "亥",
+        "亥"
+      ],
+      "matched": true,
+      "subjects": [
+        "亥",
+        "卯",
+        "未"
+      ],
+      "groupElement": "木",
+      "sourceLocator": "xuan/ganzhi.go:96",
+      "evidence": "Order and duplicate occurrences do not add or remove distinct source members."
+    },
+    {
+      "id": "branch-sanhe-3-incomplete",
+      "kind": "branch-sanhe",
+      "input": [
+        "亥",
+        "卯",
+        "子"
+      ],
+      "matched": false,
+      "subjects": [
+        "亥",
+        "卯",
+        "未"
+      ],
+      "groupElement": "木",
+      "sourceLocator": "xuan/ganzhi.go:96",
+      "evidence": "At least one member of this exact source group is absent; repeated members do not complete it."
+    },
+    {
+      "id": "branch-sanhe-4-all",
+      "kind": "branch-sanhe",
+      "input": [
+        "巳",
+        "酉",
+        "丑"
+      ],
+      "matched": true,
+      "subjects": [
+        "巳",
+        "酉",
+        "丑"
+      ],
+      "groupElement": "金",
+      "sourceLocator": "xuan/ganzhi.go:96",
+      "evidence": "All distinct members of the fixed external source group occur."
+    },
+    {
+      "id": "branch-sanhe-4-reordered",
+      "kind": "branch-sanhe",
+      "input": [
+        "丑",
+        "酉",
+        "巳",
+        "巳"
+      ],
+      "matched": true,
+      "subjects": [
+        "巳",
+        "酉",
+        "丑"
+      ],
+      "groupElement": "金",
+      "sourceLocator": "xuan/ganzhi.go:96",
+      "evidence": "Order and duplicate occurrences do not add or remove distinct source members."
+    },
+    {
+      "id": "branch-sanhe-4-incomplete",
+      "kind": "branch-sanhe",
+      "input": [
+        "巳",
+        "酉",
+        "子"
+      ],
+      "matched": false,
+      "subjects": [
+        "巳",
+        "酉",
+        "丑"
+      ],
+      "groupElement": "金",
+      "sourceLocator": "xuan/ganzhi.go:96",
+      "evidence": "At least one member of this exact source group is absent; repeated members do not complete it."
+    },
+    {
+      "id": "branch-sanhui-1-all",
+      "kind": "branch-sanhui",
+      "input": [
+        "子",
+        "丑",
+        "亥"
+      ],
+      "matched": true,
+      "subjects": [
+        "子",
+        "丑",
+        "亥"
+      ],
+      "groupElement": "水",
+      "sourceLocator": "xuan/ganzhi.go:121",
+      "evidence": "All distinct members of the fixed external source group occur."
+    },
+    {
+      "id": "branch-sanhui-1-reordered",
+      "kind": "branch-sanhui",
+      "input": [
+        "亥",
+        "丑",
+        "子",
+        "子"
+      ],
+      "matched": true,
+      "subjects": [
+        "子",
+        "丑",
+        "亥"
+      ],
+      "groupElement": "水",
+      "sourceLocator": "xuan/ganzhi.go:121",
+      "evidence": "Order and duplicate occurrences do not add or remove distinct source members."
+    },
+    {
+      "id": "branch-sanhui-1-incomplete",
+      "kind": "branch-sanhui",
+      "input": [
+        "子",
+        "丑",
+        "寅"
+      ],
+      "matched": false,
+      "subjects": [
+        "子",
+        "丑",
+        "亥"
+      ],
+      "groupElement": "水",
+      "sourceLocator": "xuan/ganzhi.go:121",
+      "evidence": "At least one member of this exact source group is absent; repeated members do not complete it."
+    },
+    {
+      "id": "branch-sanhui-2-all",
+      "kind": "branch-sanhui",
+      "input": [
+        "寅",
+        "卯",
+        "辰"
+      ],
+      "matched": true,
+      "subjects": [
+        "寅",
+        "卯",
+        "辰"
+      ],
+      "groupElement": "木",
+      "sourceLocator": "xuan/ganzhi.go:121",
+      "evidence": "All distinct members of the fixed external source group occur."
+    },
+    {
+      "id": "branch-sanhui-2-reordered",
+      "kind": "branch-sanhui",
+      "input": [
+        "辰",
+        "卯",
+        "寅",
+        "寅"
+      ],
+      "matched": true,
+      "subjects": [
+        "寅",
+        "卯",
+        "辰"
+      ],
+      "groupElement": "木",
+      "sourceLocator": "xuan/ganzhi.go:121",
+      "evidence": "Order and duplicate occurrences do not add or remove distinct source members."
+    },
+    {
+      "id": "branch-sanhui-2-incomplete",
+      "kind": "branch-sanhui",
+      "input": [
+        "寅",
+        "卯",
+        "子"
+      ],
+      "matched": false,
+      "subjects": [
+        "寅",
+        "卯",
+        "辰"
+      ],
+      "groupElement": "木",
+      "sourceLocator": "xuan/ganzhi.go:121",
+      "evidence": "At least one member of this exact source group is absent; repeated members do not complete it."
+    },
+    {
+      "id": "branch-sanhui-3-all",
+      "kind": "branch-sanhui",
+      "input": [
+        "巳",
+        "午",
+        "未"
+      ],
+      "matched": true,
+      "subjects": [
+        "巳",
+        "午",
+        "未"
+      ],
+      "groupElement": "火",
+      "sourceLocator": "xuan/ganzhi.go:121",
+      "evidence": "All distinct members of the fixed external source group occur."
+    },
+    {
+      "id": "branch-sanhui-3-reordered",
+      "kind": "branch-sanhui",
+      "input": [
+        "未",
+        "午",
+        "巳",
+        "巳"
+      ],
+      "matched": true,
+      "subjects": [
+        "巳",
+        "午",
+        "未"
+      ],
+      "groupElement": "火",
+      "sourceLocator": "xuan/ganzhi.go:121",
+      "evidence": "Order and duplicate occurrences do not add or remove distinct source members."
+    },
+    {
+      "id": "branch-sanhui-3-incomplete",
+      "kind": "branch-sanhui",
+      "input": [
+        "巳",
+        "午",
+        "子"
+      ],
+      "matched": false,
+      "subjects": [
+        "巳",
+        "午",
+        "未"
+      ],
+      "groupElement": "火",
+      "sourceLocator": "xuan/ganzhi.go:121",
+      "evidence": "At least one member of this exact source group is absent; repeated members do not complete it."
+    },
+    {
+      "id": "branch-sanhui-4-all",
+      "kind": "branch-sanhui",
+      "input": [
+        "申",
+        "酉",
+        "戌"
+      ],
+      "matched": true,
+      "subjects": [
+        "申",
+        "酉",
+        "戌"
+      ],
+      "groupElement": "金",
+      "sourceLocator": "xuan/ganzhi.go:121",
+      "evidence": "All distinct members of the fixed external source group occur."
+    },
+    {
+      "id": "branch-sanhui-4-reordered",
+      "kind": "branch-sanhui",
+      "input": [
+        "戌",
+        "酉",
+        "申",
+        "申"
+      ],
+      "matched": true,
+      "subjects": [
+        "申",
+        "酉",
+        "戌"
+      ],
+      "groupElement": "金",
+      "sourceLocator": "xuan/ganzhi.go:121",
+      "evidence": "Order and duplicate occurrences do not add or remove distinct source members."
+    },
+    {
+      "id": "branch-sanhui-4-incomplete",
+      "kind": "branch-sanhui",
+      "input": [
+        "申",
+        "酉",
+        "子"
+      ],
+      "matched": false,
+      "subjects": [
+        "申",
+        "酉",
+        "戌"
+      ],
+      "groupElement": "金",
+      "sourceLocator": "xuan/ganzhi.go:121",
+      "evidence": "At least one member of this exact source group is absent; repeated members do not complete it."
+    }
+  ],
+  "disabled": [
+    "branch-harm",
+    "month-day-command",
+    "seasonal-school-opinion",
+    "following-pattern",
+    "transformation-verdict"
+  ]
+}

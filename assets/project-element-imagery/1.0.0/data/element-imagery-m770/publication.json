@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "m779-admitted-element-imagery-publication/1.0.0",
+  "publicationId": "project-element-imagery/1.0.0",
+  "authority": "project-convention",
+  "mappingProfileId": "project-dictionary-object-elements/2.0.0-m754-candidate",
+  "mappingPackageLockSha256": "e33287aac335327e58f772def9c7f8064abed174d7988b4ac6f452eba68ada72",
+  "review": {
+    "relativePath": "data/element-imagery-m770/independent-review.json",
+    "sha256": "89ad0ade1a15adb0f801649b650888f376d84f51c469de4f1455bf42a4280509",
+    "reviewId": "M770-object-element-review/1.0.0",
+    "reviewerId": "M770-DECISION",
+    "authorId": "M754-DATA"
+  },
+  "semanticAudit": {
+    "auditId": "M777-element-admission-audit/1.0.0",
+    "decisionFile": "data/element-imagery-m770/m777-admission-decision.json",
+    "decisionSha256": "abbdac6c87e14c033de43e40acada9ac2ddcf4ae90761066b6f036cb4e57c64e",
+    "approved": 10,
+    "general": 5,
+    "explicitTheme": 5,
+    "semanticBlockingIssues": 0
+  },
+  "baseline": {
+    "total": 779,
+    "existingTagged": 257,
+    "existingUntagged": 522,
+    "sha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728"
+  },
+  "activation": "trusted-factory-explicit-invocation",
+  "productionServiceConnected": false,
+  "productionStoreConnected": false,
+  "sourceBoundary": {
+    "dictionaryText": "CC-BY-ND-3.0-TW",
+    "formatEditing": "CC0-1.0",
+    "unicode": "Unicode-3.0",
+    "projectMappingAndEditorial": "CC0-1.0; does not relicense dictionary text",
+    "admissionEvidence": "Internal project review evidence; no new license grant asserted"
+  },
+  "scoreEffect": "Projected elements participate in existing element shortlisting and traditional-score heuristics; no new scoring weights are introduced."
+}

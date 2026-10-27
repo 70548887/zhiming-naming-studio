@@ -1,0 +1,557 @@
+{
+  "schemaVersion": "m754-dictionary-facts/1.0.0",
+  "originalTextUnchanged": true,
+  "hashConvention": "sha256(UTF-8 JSON.stringify(unmodified parsed source object)); original property order retained",
+  "dictionary": {
+    "sourceId": "moe-revised",
+    "title": "重編國語辭典修訂本",
+    "publisher": "中華民國教育部",
+    "planning": "國家教育研究院",
+    "edition": "中華民國110年11月臺灣學術網路第六版",
+    "commit": "a6dc997417507eb510fc29822bc514de2c92728c",
+    "textLicense": "CC-BY-ND-3.0-TW",
+    "formatLicense": "CC0-1.0",
+    "formatEditor": "g0v/moedict-data; @kcwu",
+    "attribution": "辞书本文著作权为教育部所有；企划执行国家教育研究院；g0v/kcwu格式转换、重新编排的编辑权CC0。"
+  },
+  "unicode": {
+    "version": "17.0.0",
+    "commit": "4fd8eca90b30aa4c72543ccddb4c15d05becdf8d",
+    "license": "Unicode-3.0"
+  },
+  "entries": [
+    {
+      "factId": "m754-67ab",
+      "char": "枫",
+      "defaultPinyin": "fēng",
+      "dictionaryWord": "楓",
+      "sourceId": "moe-revised",
+      "sourceRecordId": "moe-revised@a6dc997417507eb510fc29822bc514de2c92728c/entry/77587",
+      "entryIndex": 77587,
+      "readingIndex": 0,
+      "definitionIndex": 0,
+      "senseRecordId": "moe-revised@a6dc997417507eb510fc29822bc514de2c92728c/entry/77587/heteronyms/0/definitions/0",
+      "sourceEntrySha256": "63427c48d07d853243d79859ee915e0c92b6583541cb0e2bef557e14d0aeb589",
+      "sourceReadingSha256": "00eb0ab5c6e6e6f2b6c03a86dc413aa702ed0ad1d0711be846968ae341564b9e",
+      "sourceDefinitionSha256": "62caa9be03d4d5536059c5079463f0a09a97fdec92ff7c8138aeee856c196514",
+      "rawPinyin": "fēng",
+      "glyphEvidence": [
+        {
+          "file": "data/raw/kTraditionalVariant.txt",
+          "lineNumber": 825,
+          "line": "67AB\tU+6953"
+        },
+        {
+          "file": "data/raw/kSimplifiedVariant.txt",
+          "lineNumber": 1705,
+          "line": "6953\tU+67AB"
+        }
+      ],
+      "verbatimEntry": {
+        "heteronyms": [
+          {
+            "bopomofo": "ㄈㄥ",
+            "definitions": [
+              {
+                "def": "植物名。金縷梅科楓香屬，落葉大喬木。葉互生，菱形，掌狀分裂為三，邊緣有細鋸齒。單性花，雌雄同株。春季抽新葉並開黃褐色花。蒴果集生。木材可供建築箱櫃之用。秋間葉落前，葉色由黃而紅，甚為美觀，故常栽培為庭園樹。",
+                "link": [
+                  "俗稱為「楓樹」。"
+                ],
+                "type": "名"
+              }
+            ],
+            "pinyin": "fēng"
+          }
+        ],
+        "non_radical_stroke_count": 9,
+        "radical": "木",
+        "stroke_count": 13,
+        "title": "楓"
+      }
+    },
+    {
+      "factId": "m754-5349",
+      "char": "卉",
+      "defaultPinyin": "huì",
+      "dictionaryWord": "卉",
+      "sourceId": "moe-revised",
+      "sourceRecordId": "moe-revised@a6dc997417507eb510fc29822bc514de2c92728c/entry/23092",
+      "entryIndex": 23092,
+      "readingIndex": 0,
+      "definitionIndex": 0,
+      "senseRecordId": "moe-revised@a6dc997417507eb510fc29822bc514de2c92728c/entry/23092/heteronyms/0/definitions/0",
+      "sourceEntrySha256": "ce6960bd9226f6049664236acf94acd1a796c6b83126c4553b1db744b47071d5",
+      "sourceReadingSha256": "9a70db3c51df3cbecbbd3b5d5c3287549e52b2a0ed5bc87d1be3a8305e26c4bb",
+      "sourceDefinitionSha256": "f224e6d08940f1cb2f9d5f4f0564923746ee3c39f7ac3d7a212123e36e95b898",
+      "rawPinyin": "huì",
+      "glyphEvidence": [],
+      "verbatimEntry": {
+        "heteronyms": [
+          {
+            "bopomofo": "ㄏㄨㄟˋ",
+            "definitions": [
+              {
+                "def": "草類植物的總稱。",
+                "example": [
+                  "如：「奇卉」、「花卉」。"
+                ],
+                "quote": [
+                  "《爾雅．釋草》：「卉，草。」",
+                  "晉．郭璞．注：「卉，百卉總名。」",
+                  "《詩經．小雅．出車》：「春日遲遲，卉木萋萋。」"
+                ],
+                "type": "名"
+              }
+            ],
+            "pinyin": "huì"
+          }
+        ],
+        "non_radical_stroke_count": 3,
+        "radical": "十",
+        "stroke_count": 5,
+        "title": "卉"
+      }
+    },
+    {
+      "factId": "m754-9e93",
+      "char": "麓",
+      "defaultPinyin": "lù",
+      "dictionaryWord": "麓",
+      "sourceId": "moe-revised",
+      "sourceRecordId": "moe-revised@a6dc997417507eb510fc29822bc514de2c92728c/entry/161127",
+      "entryIndex": 161127,
+      "readingIndex": 0,
+      "definitionIndex": 0,
+      "senseRecordId": "moe-revised@a6dc997417507eb510fc29822bc514de2c92728c/entry/161127/heteronyms/0/definitions/0",
+      "sourceEntrySha256": "3fb9fb5f0414e7adf2bbc34f878e16220fe1aea59db9925609d24118d4a0697e",
+      "sourceReadingSha256": "d1d2766b36ef6caf29bad04be5c88c19445560c95f51f29aa63d089bcace8a4d",
+      "sourceDefinitionSha256": "cb5fccb887b6a219bfe354e04b44bb82313427ceb74cbe216270ec9272ff8272",
+      "rawPinyin": "lù",
+      "glyphEvidence": [],
+      "verbatimEntry": {
+        "heteronyms": [
+          {
+            "bopomofo": "ㄌㄨˋ",
+            "definitions": [
+              {
+                "def": "山腳。",
+                "example": [
+                  "如：「山麓」、「南麓」。"
+                ],
+                "quote": [
+                  "元．虞集〈寄幻庵主者〉詩：「朝遊武夷麓，莫入匡廬岑。」"
+                ],
+                "type": "名"
+              }
+            ],
+            "pinyin": "lù"
+          }
+        ],
+        "non_radical_stroke_count": 8,
+        "radical": "鹿",
+        "stroke_count": 19,
+        "title": "麓"
+      }
+    },
+    {
+      "factId": "m754-83d8",
+      "char": "菘",
+      "defaultPinyin": "sōng",
+      "dictionaryWord": "菘",
+      "sourceId": "moe-revised",
+      "sourceRecordId": "moe-revised@a6dc997417507eb510fc29822bc514de2c92728c/entry/123575",
+      "entryIndex": 123575,
+      "readingIndex": 0,
+      "definitionIndex": 0,
+      "senseRecordId": "moe-revised@a6dc997417507eb510fc29822bc514de2c92728c/entry/123575/heteronyms/0/definitions/0",
+      "sourceEntrySha256": "3bf7a955cd7ba214a32d75b5496f3dbb23e825e601c885de376a05e0d6d30d7a",
+      "sourceReadingSha256": "d37275a29d110bd9573ab71e091d92d49e3238e1970141f3449ce393cc7efc9c",
+      "sourceDefinitionSha256": "a5a61683765a568dd65923966cc351f470db43bc4cfb37a6601c6ff562b40db3",
+      "rawPinyin": "sōng",
+      "glyphEvidence": [],
+      "verbatimEntry": {
+        "heteronyms": [
+          {
+            "bopomofo": "ㄙㄨㄥ",
+            "definitions": [
+              {
+                "def": "植物名。十字花科蕓薹屬，二年生草本。變種極多，形似油菜，葉片較大，呈倒卵形，波狀緣邊，春日開黃花。通稱為「白菜」。",
+                "type": "名"
+              }
+            ],
+            "pinyin": "sōng"
+          }
+        ],
+        "non_radical_stroke_count": 8,
+        "radical": "艸",
+        "stroke_count": 12,
+        "title": "菘"
+      }
+    },
+    {
+      "factId": "m754-73c9",
+      "char": "珉",
+      "defaultPinyin": "mín",
+      "dictionaryWord": "珉",
+      "sourceId": "moe-revised",
+      "sourceRecordId": "moe-revised@a6dc997417507eb510fc29822bc514de2c92728c/entry/96309",
+      "entryIndex": 96309,
+      "readingIndex": 0,
+      "definitionIndex": 0,
+      "senseRecordId": "moe-revised@a6dc997417507eb510fc29822bc514de2c92728c/entry/96309/heteronyms/0/definitions/0",
+      "sourceEntrySha256": "2a09d116adf0e02a162fad284b339e0a562f7626bca53a318a7e4b06801cdf9d",
+      "sourceReadingSha256": "56d0fb517e6e71b4a2a6e7d5e682085e5ef665cc44c5d96d45f6fa30594253fb",
+      "sourceDefinitionSha256": "83d9ccab70e83b332b81ed63139096b1a82aca7f1b6553e78dd8266341434b33",
+      "rawPinyin": "mín",
+      "glyphEvidence": [],
+      "verbatimEntry": {
+        "heteronyms": [
+          {
+            "bopomofo": "ㄇㄧㄣˊ",
+            "definitions": [
+              {
+                "def": "似玉的美石。",
+                "quote": [
+                  "《荀子．法行》：「君子之所以貴玉而賤珉者，何也？」"
+                ],
+                "type": "名"
+              }
+            ],
+            "pinyin": "mín"
+          }
+        ],
+        "non_radical_stroke_count": 5,
+        "radical": "玉",
+        "stroke_count": 9,
+        "title": "珉"
+      }
+    },
+    {
+      "factId": "m754-5ddd",
+      "char": "川",
+      "defaultPinyin": "chuān",
+      "dictionaryWord": "川",
+      "sourceId": "moe-revised",
+      "sourceRecordId": "moe-revised@a6dc997417507eb510fc29822bc514de2c92728c/entry/47214",
+      "entryIndex": 47214,
+      "readingIndex": 0,
+      "definitionIndex": 0,
+      "senseRecordId": "moe-revised@a6dc997417507eb510fc29822bc514de2c92728c/entry/47214/heteronyms/0/definitions/0",
+      "sourceEntrySha256": "c020d366e6017d556489253a0c7a2642c0b2162b9e727a2947d6159347adba8a",
+      "sourceReadingSha256": "c7c6091b249ce4da2e108ad51195832b14d2a73f9df5aa7842ce1ffdcfd3f950",
+      "sourceDefinitionSha256": "a4b51c7c4a111570671734a160e04bfba8c87400bb9039005986007097998fbe",
+      "rawPinyin": "chuān",
+      "glyphEvidence": [],
+      "verbatimEntry": {
+        "heteronyms": [
+          {
+            "bopomofo": "ㄔㄨㄢ",
+            "definitions": [
+              {
+                "def": "河流。",
+                "example": [
+                  "如：「河川」。"
+                ],
+                "quote": [
+                  "《論語．子罕》：「子在川上曰：『逝者如斯夫，不舍晝夜。』」"
+                ],
+                "type": "名"
+              },
+              {
+                "def": "大陸地區四川省的簡稱。",
+                "type": "名"
+              },
+              {
+                "def": "一種烹飪方法。將食物置於開水中，水一開即刻撈起。",
+                "example": [
+                  "如：「川肉片」。"
+                ],
+                "type": "動"
+              }
+            ],
+            "pinyin": "chuān"
+          }
+        ],
+        "non_radical_stroke_count": 0,
+        "radical": "巛",
+        "stroke_count": 3,
+        "title": "川"
+      }
+    },
+    {
+      "factId": "m754-77f3",
+      "char": "石",
+      "defaultPinyin": "shí",
+      "dictionaryWord": "石",
+      "sourceId": "moe-revised",
+      "sourceRecordId": "moe-revised@a6dc997417507eb510fc29822bc514de2c92728c/entry/104223",
+      "entryIndex": 104223,
+      "readingIndex": 0,
+      "definitionIndex": 0,
+      "senseRecordId": "moe-revised@a6dc997417507eb510fc29822bc514de2c92728c/entry/104223/heteronyms/0/definitions/0",
+      "sourceEntrySha256": "9c9e41e081affeb85999913164837287e8b4dcdb41df49b0c337f4512851ecdb",
+      "sourceReadingSha256": "5ae03bc25dbfcdd8c20e96be73ff82189300faea3c87a356c50d6136a7c378f6",
+      "sourceDefinitionSha256": "0106b82a6832e18d9112b711a660c006e4418e01f0e91eb08a4ddba1c0616c6f",
+      "rawPinyin": "shí",
+      "glyphEvidence": [],
+      "verbatimEntry": {
+        "heteronyms": [
+          {
+            "bopomofo": "ㄕˊ",
+            "definitions": [
+              {
+                "def": "由礦物集結而成的堅硬塊狀物，是構成地殼的物質。",
+                "example": [
+                  "如：「岩石」、「礦石」、「花岡石」。"
+                ],
+                "type": "名"
+              },
+              {
+                "def": "碑、碣。",
+                "quote": [
+                  "《呂氏春秋．慎行論．求人》：「故功績銘乎金石，著於盤盂。」",
+                  "《史記．卷六．秦始皇本紀》：「乃遂上泰山，立石。」"
+                ],
+                "type": "名"
+              },
+              {
+                "def": "藥石。",
+                "quote": [
+                  "《左傳．襄公二十三年》：「季孫之愛我，疾疢也；孟孫之惡我，藥石也，美疢不如惡石。」",
+                  "唐．孔穎達．正義：「治病藥分用石。《本草》云：『鍾乳、礬、磁石之類多矣。』」"
+                ],
+                "type": "名"
+              },
+              {
+                "def": "姓。如宋代有石延年。",
+                "type": "名"
+              },
+              {
+                "def": "二一四部首之一。",
+                "type": "名"
+              }
+            ],
+            "pinyin": "shí"
+          },
+          {
+            "bopomofo": "ㄉㄢˋ",
+            "definitions": [
+              {
+                "def": "量詞：(1) 計算容量的單位。公制一石等於十斗。也稱為「公石」。(2) 古代計算重量的單位。漢．鼂錯〈論貴粟疏〉：「數石之重，中人弗勝，不為奸邪所利，一日弗得而飢寒至，是故明君貴五穀而賤金玉。」《戰國策．齊策》：「大王據千乘之地，而建千石鐘，萬石?。」",
+                "type": "名"
+              }
+            ],
+            "pinyin": "dàn"
+          }
+        ],
+        "non_radical_stroke_count": 0,
+        "radical": "石",
+        "stroke_count": 5,
+        "title": "石"
+      }
+    },
+    {
+      "factId": "m754-679d",
+      "char": "枝",
+      "defaultPinyin": "zhī",
+      "dictionaryWord": "枝",
+      "sourceId": "moe-revised",
+      "sourceRecordId": "moe-revised@a6dc997417507eb510fc29822bc514de2c92728c/entry/75727",
+      "entryIndex": 75727,
+      "readingIndex": 0,
+      "definitionIndex": 0,
+      "senseRecordId": "moe-revised@a6dc997417507eb510fc29822bc514de2c92728c/entry/75727/heteronyms/0/definitions/0",
+      "sourceEntrySha256": "7a7e4bdf9e5c4c55d87a37f1e18c15176611e5a7ca0c5e5b71f41892f9635412",
+      "sourceReadingSha256": "a87e1ef13c64ddd71453053a634a22a1e37200cff3a932708b6faa317c1eb355",
+      "sourceDefinitionSha256": "7f252b873a93f73350d8e32cae06629a61f51282f3333f2564f16dd8d317c9c1",
+      "rawPinyin": "zhī",
+      "glyphEvidence": [],
+      "verbatimEntry": {
+        "heteronyms": [
+          {
+            "bopomofo": "ㄓ",
+            "definitions": [
+              {
+                "def": "樹幹從旁生出的枝條。",
+                "example": [
+                  "如：「枯枝」、「嫩枝」。"
+                ],
+                "quote": [
+                  "《說文解字．木部》：「枝，木別生條也。」"
+                ],
+                "type": "名"
+              },
+              {
+                "def": "凡自同一本源而分出者。",
+                "quote": [
+                  "《左傳．莊公六年》：「《詩》云：『本枝百世。』」",
+                  "《荀子．儒效》：「故以枝代主而非越也。」"
+                ],
+                "type": "名"
+              },
+              {
+                "def": "四肢。",
+                "link": [
+                  "通「肢」。"
+                ],
+                "quote": [
+                  "《莊子．大宗師》：「墮枝體，黜聰明，離形去知。」"
+                ],
+                "type": "名"
+              },
+              {
+                "def": "量詞。計算細長物體的單位。",
+                "example": [
+                  "如：「一枝花」、「三枝毛筆」。"
+                ],
+                "type": "名"
+              },
+              {
+                "def": "姓。如漢代有枝百英。",
+                "type": "名"
+              },
+              {
+                "def": "不中肯的、不一致的。",
+                "quote": [
+                  "《易經．繫辭下》：「中心疑者，其辭枝。」"
+                ],
+                "type": "形"
+              }
+            ],
+            "pinyin": "zhī"
+          },
+          {
+            "bopomofo": "ㄑㄧˊ",
+            "definitions": [
+              {
+                "def": "多出的腳趾。",
+                "example": [
+                  "如：「駢拇枝指」。"
+                ],
+                "link": [
+                  "同「跂」。"
+                ],
+                "quote": [
+                  "《集韻．平聲．支韻》：「跂，《說文》：『足多指也。』或作枝。」"
+                ],
+                "type": "名"
+              }
+            ],
+            "pinyin": "qí"
+          }
+        ],
+        "non_radical_stroke_count": 4,
+        "radical": "木",
+        "stroke_count": 8,
+        "title": "枝"
+      }
+    },
+    {
+      "factId": "m754-68c9",
+      "char": "棉",
+      "defaultPinyin": "mián",
+      "dictionaryWord": "棉",
+      "sourceId": "moe-revised",
+      "sourceRecordId": "moe-revised@a6dc997417507eb510fc29822bc514de2c92728c/entry/77186",
+      "entryIndex": 77186,
+      "readingIndex": 0,
+      "definitionIndex": 0,
+      "senseRecordId": "moe-revised@a6dc997417507eb510fc29822bc514de2c92728c/entry/77186/heteronyms/0/definitions/0",
+      "sourceEntrySha256": "007046e4360f0a5d415342c8bf8c66ae048eb5db57f693508f1aab8fed570f60",
+      "sourceReadingSha256": "a97abfed8e9f9c8d7786230eef993239fb73846f031cdcb158b5f6439e06a9fe",
+      "sourceDefinitionSha256": "2a917ef731bbd57804a0c45a61a381549eb2312c29552c6531b8c20c8f210f67",
+      "rawPinyin": "mián",
+      "glyphEvidence": [],
+      "verbatimEntry": {
+        "heteronyms": [
+          {
+            "bopomofo": "ㄇㄧㄢˊ",
+            "definitions": [
+              {
+                "def": "木棉和草棉的統稱。參見「木棉」、「草棉」條。",
+                "type": "名"
+              },
+              {
+                "def": "用棉絮製的。",
+                "example": [
+                  "如：「棉衣」、「棉被」。"
+                ],
+                "type": "形"
+              },
+              {
+                "def": "微薄。",
+                "quote": [
+                  "清．徐珂《清稗類鈔．棍騙類．騙押櫃銀》：「吾力棉，未能為子有所籌。」",
+                  "《官場現形記．第三三回》：「兄弟只好勉竭棉力，捐一百銀子，附附驥的了。」"
+                ],
+                "type": "形"
+              }
+            ],
+            "pinyin": "mián"
+          }
+        ],
+        "non_radical_stroke_count": 8,
+        "radical": "木",
+        "stroke_count": 12,
+        "title": "棉"
+      }
+    },
+    {
+      "factId": "m754-8564",
+      "char": "蕤",
+      "defaultPinyin": "ruí",
+      "dictionaryWord": "蕤",
+      "sourceId": "moe-revised",
+      "sourceRecordId": "moe-revised@a6dc997417507eb510fc29822bc514de2c92728c/entry/125341",
+      "entryIndex": 125341,
+      "readingIndex": 0,
+      "definitionIndex": 1,
+      "senseRecordId": "moe-revised@a6dc997417507eb510fc29822bc514de2c92728c/entry/125341/heteronyms/0/definitions/1",
+      "sourceEntrySha256": "c5f6d1561c2d24be6e36d5a11efad0a46dfad456f838cc03b1c4c0cc184a87f5",
+      "sourceReadingSha256": "573da3482e22fa80810a96658684f86b35e8b5add2d3553f19a0cf71b18b3766",
+      "sourceDefinitionSha256": "f054ed2aac0e126338a3780edcc849d548a785f77438ef160887c9f5043f22ea",
+      "rawPinyin": "ruí",
+      "glyphEvidence": [],
+      "verbatimEntry": {
+        "heteronyms": [
+          {
+            "bopomofo": "ㄖㄨㄟˊ",
+            "definitions": [
+              {
+                "def": "繁花盛開下垂的樣子。",
+                "quote": [
+                  "《說文解字．艸部》：「蕤，艸木花垂貌。」"
+                ],
+                "type": "形"
+              },
+              {
+                "def": "泛指草木所垂結的花。",
+                "quote": [
+                  "《文選．陸機．文賦》：「播芳蕤之馥馥，發青條之森森。」",
+                  "宋．蘇軾〈南鄉子．寒雀滿疏籬〉詞：「寒雀滿疏籬，爭抱寒柯看玉蕤。」"
+                ],
+                "type": "名"
+              },
+              {
+                "def": "帽上所繫的下垂狀飾物。",
+                "quote": [
+                  "《文選．左思．吳都賦》：「羽旄揚蕤，雄戟耀芒。」"
+                ],
+                "type": "名"
+              },
+              {
+                "def": "參見「葳蕤」條。",
+                "type": "名"
+              }
+            ],
+            "pinyin": "ruí"
+          }
+        ],
+        "non_radical_stroke_count": 12,
+        "radical": "艸",
+        "stroke_count": 16,
+        "title": "蕤"
+      }
+    }
+  ]
+}

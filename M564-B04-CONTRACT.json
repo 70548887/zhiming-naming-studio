@@ -1,0 +1,33 @@
+{
+  "schema": "b04-word-context-options/1",
+  "status": "independent-readonly-adapter",
+  "api": "createB04WordContextAdapter({candidateDataDir, originalDataDir}).getB04WordContextOptions({char, pinyin?})",
+  "result": {
+    "status": ["available", "not-covered"],
+    "char": "exact target character",
+    "pinyin": "optional exact target reading or null",
+    "wholeWordOnly": true,
+    "sourcePOS": "unknown",
+    "activation": "off",
+    "options": "complete given-name contexts only",
+    "selection": ["usage", "caseId", "senseId", "contextKey"],
+    "sourceAnchors": "MOE source id/word/pinyin/definition/raw indexes/original SHA/parsed entry SHA/license",
+    "authority": {
+      "productionApproved": false,
+      "automaticNameRecommendation": false,
+      "automaticSemanticCreditAllowed": false,
+      "wholeNameApproved": false,
+      "wholeNameMeaning": null,
+      "scoreDelta": 0,
+      "projectWish": null
+    }
+  },
+  "inputPolicy": "reject proxy/accessor/hidden/extra fields; authenticate B04 candidate and source closure on every query",
+  "integrationScope": "domain adapter only; no Service/main IPC/preload/browser/shared types/Store changes",
+  "source": {
+    "manifestSha256": "538c314744a135f20f3ed6cb08f9788dc4539b388e07d5a7d63914f95a00b07e",
+    "independentReview": "limited-scope-pass",
+    "formalCoverageAdded": 0,
+    "productionActivation": false
+  }
+}

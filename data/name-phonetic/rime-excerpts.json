@@ -1,0 +1,766 @@
+{
+  "sourceId": "phonetic-rime-fixed-137",
+  "attribution": "CanCLID 与 Rime Cantonese contributors",
+  "license": "CC-BY-4.0",
+  "commit": "259f0e48bba840c3a2e0d117539e96937f3d89bc",
+  "originalSha256": "54d174ad2bb997e4a678b7b076b84e4dc5914481b32467cdea3b43e88b7d5474",
+  "records": [
+    {
+      "line": 1118,
+      "rawLine": "笨蛋\tban6 daan2",
+      "word": "笨蛋",
+      "tokens": [
+        "ban6",
+        "daan2"
+      ],
+      "sha256": "67cd1fc2ead86ae06a752aba46dd1235df04c48badf263d8d20c11a733b253f0"
+    },
+    {
+      "line": 1560,
+      "rawLine": "鼻涕\tbei6 tai3",
+      "word": "鼻涕",
+      "tokens": [
+        "bei6",
+        "tai3"
+      ],
+      "sha256": "2836b3bda6386a568c22b0a60a1f2fc43b53d0a08796257596ae7b73f7fd56a1"
+    },
+    {
+      "line": 1592,
+      "rawLine": "病毒\tbeng6 duk6",
+      "word": "病毒",
+      "tokens": [
+        "beng6",
+        "duk6"
+      ],
+      "sha256": "0a66f3862bf0044839bff09766fd09d269e0af2907b7df2ac453c57e8a2f1e52"
+    },
+    {
+      "line": 1602,
+      "rawLine": "病人\tbeng6 jan4",
+      "word": "病人",
+      "tokens": [
+        "beng6",
+        "jan4"
+      ],
+      "sha256": "bf38eff80705a12268b431375cf0d8b1ca9aa46d643a9924027b52e3305b4b02"
+    },
+    {
+      "line": 1804,
+      "rawLine": "變態\tbin3 taai3",
+      "word": "變態",
+      "tokens": [
+        "bin3",
+        "taai3"
+      ],
+      "sha256": "3799d99c5ddaf3eecdde4f6678b1a2ad0813a1f936d6417cd4ac76f2718fc9bc"
+    },
+    {
+      "line": 4542,
+      "rawLine": "出醜\tceot1 cau2",
+      "word": "出醜",
+      "tokens": [
+        "ceot1",
+        "cau2"
+      ],
+      "sha256": "c517914065c50cc112bb79af22c63f8fbd1f5a0facdbb2abd3bbf902f601d367"
+    },
+    {
+      "line": 6236,
+      "rawLine": "粗口\tcou1 hau2",
+      "word": "粗口",
+      "tokens": [
+        "cou1",
+        "hau2"
+      ],
+      "sha256": "3b3b3258ab9099ca1b2e532153afb8e9809dbe7da127a2ecd9fd3a552a5a95ea"
+    },
+    {
+      "line": 7454,
+      "rawLine": "大話\tdaai6 waa6",
+      "word": "大話",
+      "tokens": [
+        "daai6",
+        "waa6"
+      ],
+      "sha256": "47200876c56a54e38038ff3bc4f5bbe6559fba789406cb3cf56f1d519941f917"
+    },
+    {
+      "line": 8307,
+      "rawLine": "豆腐\tdau6 fu6",
+      "word": "豆腐",
+      "tokens": [
+        "dau6",
+        "fu6"
+      ],
+      "sha256": "aa6d11dcd0271c8d4dae0746409d00b7fc7452801f622a5c48de046713403157"
+    },
+    {
+      "line": 9086,
+      "rawLine": "丟臉\tdiu1 lim5",
+      "word": "丟臉",
+      "tokens": [
+        "diu1",
+        "lim5"
+      ],
+      "sha256": "d051ac137f739f3098a34017ffa34db29a329aec1c3bb11f460a3f0ae1f072b2"
+    },
+    {
+      "line": 9529,
+      "rawLine": "倒霉\tdou2 mui4",
+      "word": "倒霉",
+      "tokens": [
+        "dou2",
+        "mui4"
+      ],
+      "sha256": "46100b406d4679e3db203019b70a79a5c0a6d64931c2bbda7609367be07cbe06"
+    },
+    {
+      "line": 10471,
+      "rawLine": "犯法\tfaan6 faat3",
+      "word": "犯法",
+      "tokens": [
+        "faan6",
+        "faat3"
+      ],
+      "sha256": "0cb35444706683f4d48fdfc84e7e970bf33e84cb33f58548d3f29829f4edce96"
+    },
+    {
+      "line": 10553,
+      "rawLine": "發癲\tfaat3 din1",
+      "word": "發癲",
+      "tokens": [
+        "faat3",
+        "din1"
+      ],
+      "sha256": "5a27af3a575a862f57de0e92db7eea1b7ac6d01abcccab30e83f5faf7fb642d4"
+    },
+    {
+      "line": 10739,
+      "rawLine": "廢柴\tfai3 caai4",
+      "word": "廢柴",
+      "tokens": [
+        "fai3",
+        "caai4"
+      ],
+      "sha256": "667e0b632be52f2b793cade266322b89250f8bc9177309355bfad6c7a7581099"
+    },
+    {
+      "line": 10756,
+      "rawLine": "廢物\tfai3 mat6",
+      "word": "廢物",
+      "tokens": [
+        "fai3",
+        "mat6"
+      ],
+      "sha256": "ecd37a7122e1decdae36e23c08711184b5e17af0c033e6fcc5044c0750023a5d"
+    },
+    {
+      "line": 13031,
+      "rawLine": "奸商\tgaan1 soeng1",
+      "word": "奸商",
+      "tokens": [
+        "gaan1",
+        "soeng1"
+      ],
+      "sha256": "54021c4e10cc991642411cc5e0699d465436d1462e99c60e3da2e7f2a0b967aa"
+    },
+    {
+      "line": 13475,
+      "rawLine": "雞蛋\tgai1 daan2",
+      "word": "雞蛋",
+      "tokens": [
+        "gai1",
+        "daan2"
+      ],
+      "sha256": "df0838077fc893ec9414c860efdb83601a1025f63ae8f9dd6a1a489c74329394"
+    },
+    {
+      "line": 13476,
+      "rawLine": "雞蛋\tgai1 daan6",
+      "word": "雞蛋",
+      "tokens": [
+        "gai1",
+        "daan6"
+      ],
+      "sha256": "9e433ed11c090c0a463f6851b8ea93e7536a87be1e468cea9ce6dbe68b48f6d3"
+    },
+    {
+      "line": 15887,
+      "rawLine": "孤寒\tgu1 hon4",
+      "word": "孤寒",
+      "tokens": [
+        "gu1",
+        "hon4"
+      ],
+      "sha256": "f1040743c201c96d276d0971e6c98dadf1cd1bcf9aa41a400e1cc5dc8c39d64a"
+    },
+    {
+      "line": 17424,
+      "rawLine": "下流\thaa6 lau4",
+      "word": "下流",
+      "tokens": [
+        "haa6",
+        "lau4"
+      ],
+      "sha256": "dff934e7fc21d38fb523bc355e2464792639a90617107f0368ed1e23526f375c"
+    },
+    {
+      "line": 18382,
+      "rawLine": "口水\thau2 seoi2",
+      "word": "口水",
+      "tokens": [
+        "hau2",
+        "seoi2"
+      ],
+      "sha256": "e5decb8e71fe4d7e4467222b724c7d899167077320fd5f5a2f906023526e95b3"
+    },
+    {
+      "line": 19166,
+      "rawLine": "囂張\thiu1 zoeng1",
+      "word": "囂張",
+      "tokens": [
+        "hiu1",
+        "zoeng1"
+      ],
+      "sha256": "6b443ae933b16e8ae97d09c4ea7b2609d67572533a5e9fd273270c3b2c52556f"
+    },
+    {
+      "line": 19372,
+      "rawLine": "香蕉\thoeng1 ziu1",
+      "word": "香蕉",
+      "tokens": [
+        "hoeng1",
+        "ziu1"
+      ],
+      "sha256": "2c1a6cf5bd978adbb47778253732512c6e75f2f082040b9a15c8162d0481167d"
+    },
+    {
+      "line": 22345,
+      "rawLine": "嫌棄\tjim4 hei3",
+      "word": "嫌棄",
+      "tokens": [
+        "jim4",
+        "hei3"
+      ],
+      "sha256": "c7f9cd381206d2fdd2c431828458a192e2b9596d133e028df07c4549b46e0994"
+    },
+    {
+      "line": 24353,
+      "rawLine": "月經\tjyut6 ging1",
+      "word": "月經",
+      "tokens": [
+        "jyut6",
+        "ging1"
+      ],
+      "sha256": "d2e39009f3b3ec3b68dc5cc85ba656ee9d28f8acf71c09308f79792e4fee50dc"
+    },
+    {
+      "line": 25174,
+      "rawLine": "強姦\tkoeng4 gaan1",
+      "word": "強姦",
+      "tokens": [
+        "koeng4",
+        "gaan1"
+      ],
+      "sha256": "5da4e6faea79f69c411a1533aea54a9dd10b56b120474649d9422a316ae64fdb"
+    },
+    {
+      "line": 25865,
+      "rawLine": "懶惰\tlaan5 do6",
+      "word": "懶惰",
+      "tokens": [
+        "laan5",
+        "do6"
+      ],
+      "sha256": "0a8459e5f00c2b3c7b2518acccbc84db0197780a902245fa0bde2c1d328b8d8d"
+    },
+    {
+      "line": 25883,
+      "rawLine": "爛賭\tlaan6 dou2",
+      "word": "爛賭",
+      "tokens": [
+        "laan6",
+        "dou2"
+      ],
+      "sha256": "c40ccd3492a0332ae9da1e17f4d4db903906f9abce5e8bfdd71255366f7151f2"
+    },
+    {
+      "line": 26013,
+      "rawLine": "垃圾\tlaap6 saap3",
+      "word": "垃圾",
+      "tokens": [
+        "laap6",
+        "saap3"
+      ],
+      "sha256": "3d24c513deb0a5d26c8e11844b43ee94e30ee57f53cbdec234094d28f43191ba"
+    },
+    {
+      "line": 26408,
+      "rawLine": "流氓\tlau4 man4",
+      "word": "流氓",
+      "tokens": [
+        "lau4",
+        "man4"
+      ],
+      "sha256": "242af481c76efaf770e0c3b47126bcc69cd393d0f661d52d60c9ef955691a15e"
+    },
+    {
+      "line": 26414,
+      "rawLine": "流氓\tlau4 mong4",
+      "word": "流氓",
+      "tokens": [
+        "lau4",
+        "mong4"
+      ],
+      "sha256": "a4f85c8ed35200a8528b684683ac8d70da42c4b06009333dd88a29f8812bd9ac"
+    },
+    {
+      "line": 26902,
+      "rawLine": "吝嗇\tleon6 sik1",
+      "word": "吝嗇",
+      "tokens": [
+        "leon6",
+        "sik1"
+      ],
+      "sha256": "6a7c661e8d3fe1bbe2b58a48b31621e3f33a4c7f73c7232d57a63bb0660428db"
+    },
+    {
+      "line": 27872,
+      "rawLine": "老千\tlou5 cin1",
+      "word": "老千",
+      "tokens": [
+        "lou5",
+        "cin1"
+      ],
+      "sha256": "4d009b2466ab30f74e182aa527d8484fca8829e52e73c9852ab594fd5d0bad47"
+    },
+    {
+      "line": 28669,
+      "rawLine": "饅頭\tmaan4 tau4",
+      "word": "饅頭",
+      "tokens": [
+        "maan4",
+        "tau4"
+      ],
+      "sha256": "721f27e0b5b68cfb78c4002b59590a2bfdf2fd659769a35350e32ceb59a110b0"
+    },
+    {
+      "line": 28740,
+      "rawLine": "饅頭\tmaan6 tau4",
+      "word": "饅頭",
+      "tokens": [
+        "maan6",
+        "tau4"
+      ],
+      "sha256": "980d22a87bde18c2e52ede259e09bd31b64aeb32cc1fe252514e634b237a48cc"
+    },
+    {
+      "line": 30191,
+      "rawLine": "無恥\tmou4 ci2",
+      "word": "無恥",
+      "tokens": [
+        "mou4",
+        "ci2"
+      ],
+      "sha256": "6a01434777a44521c468d6f6ae8b81daf69f54257a9088643faa8f9490d7bf3f"
+    },
+    {
+      "line": 30194,
+      "rawLine": "無情\tmou4 cing4",
+      "word": "無情",
+      "tokens": [
+        "mou4",
+        "cing4"
+      ],
+      "sha256": "4d61b594593e515d02ee85ba08ddf587974d5abbb4d8c4c3566377f9ebb49727"
+    },
+    {
+      "line": 30874,
+      "rawLine": "奶粉\tnaai5 fan2",
+      "word": "奶粉",
+      "tokens": [
+        "naai5",
+        "fan2"
+      ],
+      "sha256": "c73189b2979ca8af9e319e0150f4a5893687b8a56f214dcdf6c48b4214bc3b9e"
+    },
+    {
+      "line": 31347,
+      "rawLine": "誤導\tng6 dou6",
+      "word": "誤導",
+      "tokens": [
+        "ng6",
+        "dou6"
+      ],
+      "sha256": "677bdd1d4d7ddfb8050906baaec96afcc93bf1a4d672e057070613b137634fe4"
+    },
+    {
+      "line": 31522,
+      "rawLine": "癌症\tngaam4 zing3",
+      "word": "癌症",
+      "tokens": [
+        "ngaam4",
+        "zing3"
+      ],
+      "sha256": "87067e30d48334eaffc717fa39820a490e3b6b736e5681e922a57257e0cf95db"
+    },
+    {
+      "line": 32372,
+      "rawLine": "尿布\tniu6 bou3",
+      "word": "尿布",
+      "tokens": [
+        "niu6",
+        "bou3"
+      ],
+      "sha256": "5c982bfb83cc5edfde38b623f58e11af9e54ddaf58ef8927c79dc7040f16fc9c"
+    },
+    {
+      "line": 33479,
+      "rawLine": "騙子\tpin3 zi2",
+      "word": "騙子",
+      "tokens": [
+        "pin3",
+        "zi2"
+      ],
+      "sha256": "644c6b42341a8503f0d19bc47f45b0e8a8804908b1084c512e3c88fd4de6eca6"
+    },
+    {
+      "line": 33482,
+      "rawLine": "便宜\tpin4 ji2",
+      "word": "便宜",
+      "tokens": [
+        "pin4",
+        "ji2"
+      ],
+      "sha256": "396c1a912983b1d5493707b2392aabe635b9c73fe627d6995c0b53543404e5d3"
+    },
+    {
+      "line": 33483,
+      "rawLine": "便宜\tpin4 ji4",
+      "word": "便宜",
+      "tokens": [
+        "pin4",
+        "ji4"
+      ],
+      "sha256": "ab7b49e4d00ff70ebf28f3f608dce34c38c22688b5106c80bc1377f4e1836dc2"
+    },
+    {
+      "line": 33994,
+      "rawLine": "仆街\tpuk1 gaai1",
+      "word": "仆街",
+      "tokens": [
+        "puk1",
+        "gaai1"
+      ],
+      "sha256": "771fc394b8f587c08016df7059df68d1e7d176c67f4ab1ecb8b4c22dcee8bff6"
+    },
+    {
+      "line": 35482,
+      "rawLine": "失敗\tsat1 baai6",
+      "word": "失敗",
+      "tokens": [
+        "sat1",
+        "baai6"
+      ],
+      "sha256": "e504d1a0d51528946fb5b2e26ef4c256e9c999c7682f3388513af5502092f59d"
+    },
+    {
+      "line": 35525,
+      "rawLine": "失禮\tsat1 lai5",
+      "word": "失禮",
+      "tokens": [
+        "sat1",
+        "lai5"
+      ],
+      "sha256": "a7925a99aec9833288fdcec03b89d2f813dbab82b1392244b6bc102689dbd7dc"
+    },
+    {
+      "line": 36262,
+      "rawLine": "死人\tsei2 jan4",
+      "word": "死人",
+      "tokens": [
+        "sei2",
+        "jan4"
+      ],
+      "sha256": "84966a86e6c622cdb76c60bed8161b8d942e7e225d4d4245b10a3c085ae2f5e8"
+    },
+    {
+      "line": 36285,
+      "rawLine": "死亡\tsei2 mong4",
+      "word": "死亡",
+      "tokens": [
+        "sei2",
+        "mong4"
+      ],
+      "sha256": "81d1e02e49e4e707f1123835b9d189f13a040204e2f27a64d04e0600162e7511"
+    },
+    {
+      "line": 36451,
+      "rawLine": "衰人\tseoi1 jan4",
+      "word": "衰人",
+      "tokens": [
+        "seoi1",
+        "jan4"
+      ],
+      "sha256": "5548d24d3cd85ae78ffd28466302703342544ec218168e0ae79ff576c9c66520"
+    },
+    {
+      "line": 37469,
+      "rawLine": "色狼\tsik1 long4",
+      "word": "色狼",
+      "tokens": [
+        "sik1",
+        "long4"
+      ],
+      "sha256": "7761977ec933856d65810dcaa6e3f5f85ae95f2837813a57d269c15c08685b44"
+    },
+    {
+      "line": 37904,
+      "rawLine": "性病\tsing3 beng6",
+      "word": "性病",
+      "tokens": [
+        "sing3",
+        "beng6"
+      ],
+      "sha256": "9dab828c147102e3ba7080833434cf265769dbf89f887bc8c36d3d182f92eaed"
+    },
+    {
+      "line": 38342,
+      "rawLine": "小氣\tsiu2 hei3",
+      "word": "小氣",
+      "tokens": [
+        "siu2",
+        "hei3"
+      ],
+      "sha256": "9b3afb5062653419e3de8ada68813a467f42e2bd7673543d6e607ba401acd442"
+    },
+    {
+      "line": 38410,
+      "rawLine": "小偷\tsiu2 tau1",
+      "word": "小偷",
+      "tokens": [
+        "siu2",
+        "tau1"
+      ],
+      "sha256": "d9dde0b531f29616c1ad383b6aded990ec6ecaa31a617fe8486673bc19e7552c"
+    },
+    {
+      "line": 38428,
+      "rawLine": "笑柄\tsiu3 beng3",
+      "word": "笑柄",
+      "tokens": [
+        "siu3",
+        "beng3"
+      ],
+      "sha256": "ed755116c4bb2ef009d2bbac1be172cff1acec10cbc94a1f082fbfffc79e8909"
+    },
+    {
+      "line": 38553,
+      "rawLine": "傻瓜\tso4 gwaa1",
+      "word": "傻瓜",
+      "tokens": [
+        "so4",
+        "gwaa1"
+      ],
+      "sha256": "fe0d1a72ab52831931627fa3eaceb13029a7bc821f84ab618c7c295e2eb668fa"
+    },
+    {
+      "line": 38565,
+      "rawLine": "傻仔\tso4 zai2",
+      "word": "傻仔",
+      "tokens": [
+        "so4",
+        "zai2"
+      ],
+      "sha256": "bb8f9fa2b524883b819bb5fa447229fdf7f45324e41ccce92269278b99376c27"
+    },
+    {
+      "line": 39858,
+      "rawLine": "貪污\ttaam1 wu1",
+      "word": "貪污",
+      "tokens": [
+        "taam1",
+        "wu1"
+      ],
+      "sha256": "466f9ff0e12e59ff9c66052247e8803c617f5b2078a4ff7eb0a6b17331876557"
+    },
+    {
+      "line": 40285,
+      "rawLine": "偷懶\ttau1 laan5",
+      "word": "偷懶",
+      "tokens": [
+        "tau1",
+        "laan5"
+      ],
+      "sha256": "2dabd7941c71fe710c44b9c26dff76852e54c78b0bd514869368d5eda4b28c03"
+    },
+    {
+      "line": 42627,
+      "rawLine": "瘟疫\twan1 jik6",
+      "word": "瘟疫",
+      "tokens": [
+        "wan1",
+        "jik6"
+      ],
+      "sha256": "cc94f26e877c01ba255df046fe5c5a55a5fbf2532919e6137ab95d5363a284cc"
+    },
+    {
+      "line": 42773,
+      "rawLine": "混蛋\twan6 daan2",
+      "word": "混蛋",
+      "tokens": [
+        "wan6",
+        "daan2"
+      ],
+      "sha256": "3333a59eaeafb142883d6ca08e44ba3a566d3fda14cb7429b47113c900879c44"
+    },
+    {
+      "line": 43030,
+      "rawLine": "王八\twong4 baat3",
+      "word": "王八",
+      "tokens": [
+        "wong4",
+        "baat3"
+      ],
+      "sha256": "22a9474255ab942beb9ff96a787a3256325474cac704f4008230bafc7b795f4d"
+    },
+    {
+      "line": 43175,
+      "rawLine": "烏龜\twu1 gwai1",
+      "word": "烏龜",
+      "tokens": [
+        "wu1",
+        "gwai1"
+      ],
+      "sha256": "ca9551d2cdab529584932fca887fd866931e2cd481704ee1440c6542df0aa1b1"
+    },
+    {
+      "line": 43195,
+      "rawLine": "污水\twu1 seoi2",
+      "word": "污水",
+      "tokens": [
+        "wu1",
+        "seoi2"
+      ],
+      "sha256": "c2fb100ea2fbbec15149287c6ff6814a793d1be1cbf5c9f9a333448d0eee72e6"
+    },
+    {
+      "line": 43240,
+      "rawLine": "胡鬧\twu4 naau6",
+      "word": "胡鬧",
+      "tokens": [
+        "wu4",
+        "naau6"
+      ],
+      "sha256": "3cde24a101fa8576e581fe088fe4d10a0128a793a7961496b756b58603083306"
+    },
+    {
+      "line": 43250,
+      "rawLine": "胡說\twu4 syut3",
+      "word": "胡說",
+      "tokens": [
+        "wu4",
+        "syut3"
+      ],
+      "sha256": "7bb2b69ce6d79af0b847264a295fd81c8de95dd6d50ff0a867e7f776e60a6952"
+    },
+    {
+      "line": 46161,
+      "rawLine": "賤貨\tzin6 fo3",
+      "word": "賤貨",
+      "tokens": [
+        "zin6",
+        "fo3"
+      ],
+      "sha256": "37ccd590bfedaafb3a91204e87a577ea9d3026f5e40a5a1fa401a9afa8b251f8"
+    },
+    {
+      "line": 46166,
+      "rawLine": "賤人\tzin6 jan4",
+      "word": "賤人",
+      "tokens": [
+        "zin6",
+        "jan4"
+      ],
+      "sha256": "01cc39562a5635062172aa2a48c9f3ff8d9f70f122a0e210c53e678449ec4e8e"
+    },
+    {
+      "line": 47093,
+      "rawLine": "醬油\tzoeng3 jau4",
+      "word": "醬油",
+      "tokens": [
+        "zoeng3",
+        "jau4"
+      ],
+      "sha256": "b9c479332a4a23cb03373bb7e7162bc5c4725f76f46450f1fb5da1b99ac445ea"
+    },
+    {
+      "line": 48184,
+      "rawLine": "豬頭\tzyu1 tau4",
+      "word": "豬頭",
+      "tokens": [
+        "zyu1",
+        "tau4"
+      ],
+      "sha256": "11f774b26fe53a92a07cb65a2f1cafabb8bfa13fd17e1f00c1f30780afe6c428"
+    },
+    {
+      "line": 70365,
+      "rawLine": "衛生巾\twai6 sang1 gan1",
+      "word": "衛生巾",
+      "tokens": [
+        "wai6",
+        "sang1",
+        "gan1"
+      ],
+      "sha256": "b5eb3ee1b7ea7556eef9bbf87af1f5fa025e91babdf3d228a5510064e1126ec8"
+    },
+    {
+      "line": 70368,
+      "rawLine": "衛生紙\twai6 sang1 zi2",
+      "word": "衛生紙",
+      "tokens": [
+        "wai6",
+        "sang1",
+        "zi2"
+      ],
+      "sha256": "7b8abd150f8e476667dc9bd0ce61ae703f28d93c5cc49dedbd550322c9b3b1ba"
+    },
+    {
+      "line": 70729,
+      "rawLine": "狐狸精\twu4 lei4 zing1",
+      "word": "狐狸精",
+      "tokens": [
+        "wu4",
+        "lei4",
+        "zing1"
+      ],
+      "sha256": "e1b9dfc04ba2dc81000ed94c370b79494a7877942b0ac64899a9ad252f68443c"
+    },
+    {
+      "line": 82897,
+      "rawLine": "一無是處\tjat1 mou4 si6 cyu3",
+      "word": "一無是處",
+      "tokens": [
+        "jat1",
+        "mou4",
+        "si6",
+        "cyu3"
+      ],
+      "sha256": "e481a8b95050b848d321890fc88eff60a84d5a2f492e27fe4d172590ffe3e8f7"
+    },
+    {
+      "line": 82976,
+      "rawLine": "一事無成\tjat1 si6 mou4 sing4",
+      "word": "一事無成",
+      "tokens": [
+        "jat1",
+        "si6",
+        "mou4",
+        "sing4"
+      ],
+      "sha256": "2e77fae694c787f7588d84de68c50c9e4e3023af34536192e479b5e7d681abdd"
+    }
+  ]
+}

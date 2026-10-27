@@ -1,0 +1,140 @@
+{
+  "schema": "M752-conflict-registry/2",
+  "conflicts": [
+    {
+      "id": "alt-sense:political-identity",
+      "kind": "excluded-interpretation",
+      "affectsAssess": false,
+      "predicateRef": null,
+      "enforcement": "render only pinned project text and limits; do not generate or certify these interpretations",
+      "wholeNameMatcher": null,
+      "exhaustiveSemanticDetector": false
+    },
+    {
+      "id": "alt-sense:mouth-fluid",
+      "kind": "excluded-interpretation",
+      "affectsAssess": false,
+      "predicateRef": null,
+      "enforcement": "render only pinned project text and limits; do not generate or certify these interpretations",
+      "wholeNameMatcher": null,
+      "exhaustiveSemanticDetector": false
+    },
+    {
+      "id": "alt-sense:cessation",
+      "kind": "excluded-interpretation",
+      "affectsAssess": false,
+      "predicateRef": null,
+      "enforcement": "render only pinned project text and limits; do not generate or certify these interpretations",
+      "wholeNameMatcher": null,
+      "exhaustiveSemanticDetector": false
+    },
+    {
+      "id": "association:evanescence",
+      "kind": "display-association",
+      "affectsAssess": false,
+      "predicateRef": null,
+      "enforcement": "render only pinned project text and limits; do not generate or certify these interpretations",
+      "wholeNameMatcher": null,
+      "exhaustiveSemanticDetector": false
+    },
+    {
+      "id": "other-reading:jǐ",
+      "kind": "reading-alias-warning",
+      "affectsAssess": true,
+      "predicateRef": "exact-machine-selectedPinyin-and-tone",
+      "enforcement": "the selected default reading must exactly equal record.machineConditions",
+      "wholeNameMatcher": null,
+      "exhaustiveSemanticDetector": false
+    },
+    {
+      "id": "alt-sense:law-era-history",
+      "kind": "excluded-interpretation",
+      "affectsAssess": false,
+      "predicateRef": null,
+      "enforcement": "render only pinned project text and limits; do not generate or certify these interpretations",
+      "wholeNameMatcher": null,
+      "exhaustiveSemanticDetector": false
+    },
+    {
+      "id": "other-reading:guān",
+      "kind": "reading-alias-warning",
+      "affectsAssess": true,
+      "predicateRef": "exact-machine-selectedPinyin-and-tone",
+      "enforcement": "the selected default reading must exactly equal record.machineConditions",
+      "wholeNameMatcher": null,
+      "exhaustiveSemanticDetector": false
+    },
+    {
+      "id": "alt-sense:fishing-imperial",
+      "kind": "excluded-interpretation",
+      "affectsAssess": false,
+      "predicateRef": null,
+      "enforcement": "render only pinned project text and limits; do not generate or certify these interpretations",
+      "wholeNameMatcher": null,
+      "exhaustiveSemanticDetector": false
+    },
+    {
+      "id": "alt-sense:harvest-festival-age-era",
+      "kind": "excluded-interpretation",
+      "affectsAssess": false,
+      "predicateRef": null,
+      "enforcement": "render only pinned project text and limits; do not generate or certify these interpretations",
+      "wholeNameMatcher": null,
+      "exhaustiveSemanticDetector": false
+    },
+    {
+      "id": "alt-sense:effort-person-occupation",
+      "kind": "excluded-interpretation",
+      "affectsAssess": false,
+      "predicateRef": null,
+      "enforcement": "render only pinned project text and limits; do not generate or certify these interpretations",
+      "wholeNameMatcher": null,
+      "exhaustiveSemanticDetector": false
+    },
+    {
+      "id": "other-reading:zuó-zuō",
+      "kind": "reading-alias-warning",
+      "affectsAssess": true,
+      "predicateRef": "exact-machine-selectedPinyin-and-tone",
+      "enforcement": "the selected default reading must exactly equal record.machineConditions",
+      "wholeNameMatcher": null,
+      "exhaustiveSemanticDetector": false
+    },
+    {
+      "id": "alt-sense:pretend-action-create",
+      "kind": "excluded-interpretation",
+      "affectsAssess": false,
+      "predicateRef": null,
+      "enforcement": "render only pinned project text and limits; do not generate or certify these interpretations",
+      "wholeNameMatcher": null,
+      "exhaustiveSemanticDetector": false
+    },
+    {
+      "id": "alt-sense:year-age-harvest",
+      "kind": "excluded-interpretation",
+      "affectsAssess": false,
+      "predicateRef": null,
+      "enforcement": "render only pinned project text and limits; do not generate or certify these interpretations",
+      "wholeNameMatcher": null,
+      "exhaustiveSemanticDetector": false
+    },
+    {
+      "id": "source-identity",
+      "kind": "source-admission",
+      "affectsAssess": true,
+      "predicateRef": "record.decision / sourceIdentityDecision",
+      "enforcement": "valid pending record -> pending-source-identity",
+      "wholeNameMatcher": null,
+      "exhaustiveSemanticDetector": false
+    },
+    {
+      "id": "alt-sense:desolate-solemn",
+      "kind": "excluded-interpretation",
+      "affectsAssess": false,
+      "predicateRef": null,
+      "enforcement": "render only pinned project text and limits; do not generate or certify these interpretations",
+      "wholeNameMatcher": null,
+      "exhaustiveSemanticDetector": false
+    }
+  ]
+}

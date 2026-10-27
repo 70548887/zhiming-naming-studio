@@ -1,0 +1,410 @@
+{
+  "schema": "m925-qiongtong-source-group-review/1",
+  "task": "M925-AUDIT-SOURCE",
+  "date": "2026-10-26",
+  "frozenCommit": "b6773530ef941d48b72a451f5d7ab5831abe074a",
+  "repository": "D:/Codex-NamingStudio-Evidence/m768-next-integration",
+  "verdict": "PASS_BOUNDED_CURRENT_SOURCE_GROUP_WITH_TEST_MAINTENANCE_GAPS",
+  "confirmedP1": [],
+  "confirmedP2": [],
+  "exactScope": {
+    "primary": [
+      {
+        "kind": "primary",
+        "file": "src/main/qiongtong-clause-reference-preview.ts",
+        "bytes": 9152,
+        "sha256": "be3617edf79519ce64d80b71323a39b621c1f477937cc2f181a07bfdf171ba44"
+      },
+      {
+        "kind": "primary",
+        "file": "src/shared/qiongtong-clause-reference-preview.ts",
+        "bytes": 2149,
+        "sha256": "107de7ed7fb2a14cca5d7c133f510cede907a58604c0eb784290c1628ee42324"
+      },
+      {
+        "kind": "primary",
+        "file": "src/renderer/qiongtong-clause-preview-bindings.ts",
+        "bytes": 5857,
+        "sha256": "5b745356ed7bc94a5eefd5815bec39e9e62fab4be25434970e28b3e9ffea4e12"
+      }
+    ],
+    "uiImportClosure": [
+      {
+        "kind": "ui",
+        "file": "src/renderer/QiongtongClausePreviewPanel.tsx",
+        "bytes": 5810,
+        "sha256": "2119015eaed08c2570d4f93af13c4322e9dac1d711ff8d0b51c9c82351a3e6c1"
+      },
+      {
+        "kind": "ui",
+        "file": "src/renderer/QiongtongClauseReferenceView.tsx",
+        "bytes": 6093,
+        "sha256": "731bcf4ee04da3654728aeabf4d14b4966dacf363e56cd001a9e7b2cfd5111b8"
+      },
+      {
+        "kind": "ui",
+        "file": "src/renderer/QiongtongJiaChapterView.tsx",
+        "bytes": 4891,
+        "sha256": "b46a022dd52234e5e3f0c1f5fdaaf9cae6d33042b0b3848edec2afa38312f8d9"
+      },
+      {
+        "kind": "ui",
+        "file": "src/renderer/QiongtongClauseReferenceView.css",
+        "bytes": 3067,
+        "sha256": "2ba8ea20ee4c8406200d9258d8e98525bfdbb451e32a26f2d02728a1c5713a61"
+      }
+    ],
+    "supportFiles": [
+      {
+        "kind": "support",
+        "file": "src/main/qiongtong-preview-input.ts",
+        "bytes": 4498,
+        "sha256": "2cedb803a24f922148415c9f18b955e2bc387c2210b3db2a1abc0df69d69dc52"
+      },
+      {
+        "kind": "support",
+        "file": "src/main/qiongtong-clause-reference.ts",
+        "bytes": 5655,
+        "sha256": "e1b43a2fa000af5599c2784eb7604b13675961d058d6ded11f8977ebdc49e4ba"
+      },
+      {
+        "kind": "support",
+        "file": "src/main/qiongtong-jia-preview.ts",
+        "bytes": 10017,
+        "sha256": "0efd553e9e7665dcaada3548cb5bd875af58b980171f46274dcb38fe6b564f02"
+      },
+      {
+        "kind": "support",
+        "file": "src/shared/qiongtong-clause-reference.ts",
+        "bytes": 1482,
+        "sha256": "e427f31d3180dab2d9404abbf8c8d80595e371fbd1452fb835caea9c0cda1d81"
+      },
+      {
+        "kind": "support",
+        "file": "src/shared/birth-time-basis.ts",
+        "bytes": 7741,
+        "sha256": "67e7758a342fd4382b76889d8915f02bdd2a58ae89c006d6bbbcbc66a590af92"
+      },
+      {
+        "kind": "support",
+        "file": "src/domain/traditional/qiongtong-clause-reference.ts",
+        "bytes": 9423,
+        "sha256": "dec96d378e0fc0e956b498d4e42cc7d5e081a2933ded6632a447f42942e4cee6"
+      }
+    ],
+    "routing": "App imports QiongtongClausePreviewPanel; Panel imports bindings and ReferenceView, ReferenceView imports JiaChapterView. Service preview method only calls actual preview adapter with this.store.dataDir.",
+    "readOnly": true
+  },
+  "priorEvidence": {
+    "candidateProfile": {
+      "commit": "b5f7bf8a7100a23f7bb1dd8fc63c161312c7a041",
+      "path": "scripts/verification/source-profile-138-extensions-r2.json",
+      "sha256": "94a8b404ece6c288e0da916158ae76bf864f43b218949ca251b99d936f9b0073",
+      "bytes": 108197,
+      "exactCapturedBytesMatch": true
+    },
+    "reviewReferences": [
+      {
+        "id": "M738-prior-M636",
+        "file": "scripts/verification/extension-evidence/M738-M636.json",
+        "sha256": "36e0416622d256d2320bc8d9a171f2289a3f142598f144d3956b7995dc5b6e44",
+        "bytes": 4063,
+        "scope": "Jia API source and targeted semantics only",
+        "productionApproval": false
+      },
+      {
+        "id": "M738-prior-M615",
+        "file": "scripts/verification/extension-evidence/M738-M615.json",
+        "sha256": "2195148c0f6e6f73b3aa7d3cb3d95a5bcf0990571c32a6ca58d6e9935b678686",
+        "bytes": 9476,
+        "scope": "Exact optional Jia Panel/View source only; not API/release authority",
+        "productionApproval": false
+      },
+      {
+        "id": "M738-delta",
+        "file": "scripts/verification/extension-evidence/M738-delta-r2.json",
+        "sha256": "7b0c4a76f210c0a70103225d57a97c3b4542267e304782fe3e2b8539243803f7",
+        "bytes": 149707,
+        "scope": "Exact e7b4 candidate delta inventory with retained old pins; pending independent source review, never approval",
+        "productionApproval": false
+      },
+      {
+        "id": "M573",
+        "file": "scripts/verification/extension-evidence/M573.json",
+        "sha256": "30677e7925ae53e33f8600bb705a35e9979423212a8f6ac11366e10211fab5e8",
+        "bytes": 4090,
+        "scope": "three-clause API/CORE source scope only",
+        "productionApproval": false
+      },
+      {
+        "id": "M568",
+        "file": "scripts/verification/extension-evidence/M568.json",
+        "sha256": "d1438b0d2781a4a581fd40601d702919f59a8674f48d3284eb64cfa0dd0f094a",
+        "bytes": 3324,
+        "scope": "three-clause root source composition only",
+        "productionApproval": false
+      }
+    ],
+    "reusableExactBytes": [
+      "src/main/qiongtong-clause-reference-preview.ts",
+      "src/shared/qiongtong-clause-reference-preview.ts",
+      "src/renderer/QiongtongJiaChapterView.tsx"
+    ],
+    "newByteReviewRequiredAndPerformed": [
+      {
+        "file": "src/renderer/qiongtong-clause-preview-bindings.ts",
+        "current": {
+          "sha256": "5b745356ed7bc94a5eefd5815bec39e9e62fab4be25434970e28b3e9ffea4e12",
+          "bytes": 5857
+        },
+        "prior": {
+          "sourceCommit": "c137e2ecf7e2b028f3dce01ace152535e9e4a1a2",
+          "bytes": 5052,
+          "sha256": "17ecd5f56527420d2b76fbad2f6a993f45e95764f718c774525c63f8a22fd1b4",
+          "matchesDeclared": true
+        },
+        "reviewIds": [
+          "M738-prior-M636",
+          "M738-prior-M615",
+          "M738-delta"
+        ]
+      },
+      {
+        "file": "src/renderer/QiongtongClausePreviewPanel.tsx",
+        "current": {
+          "sha256": "2119015eaed08c2570d4f93af13c4322e9dac1d711ff8d0b51c9c82351a3e6c1",
+          "bytes": 5810
+        },
+        "prior": {
+          "sourceCommit": "c137e2ecf7e2b028f3dce01ace152535e9e4a1a2",
+          "bytes": 3927,
+          "sha256": "0f819bf38bdb9a77385a18224de8a8178a4d4a0f14784e1c3709da431ab89319",
+          "matchesDeclared": true
+        },
+        "reviewIds": [
+          "M738-delta"
+        ]
+      },
+      {
+        "file": "src/renderer/QiongtongClauseReferenceView.tsx",
+        "current": {
+          "sha256": "731bcf4ee04da3654728aeabf4d14b4966dacf363e56cd001a9e7b2cfd5111b8",
+          "bytes": 6093
+        },
+        "prior": {
+          "sourceCommit": "c137e2ecf7e2b028f3dce01ace152535e9e4a1a2",
+          "bytes": 6112,
+          "sha256": "1a8bdcb852218e99d107151c3e61778b283682d1ec0ed3ff09c037554a2dd900",
+          "matchesDeclared": true
+        },
+        "reviewIds": [
+          "M738-delta"
+        ]
+      },
+      {
+        "file": "src/renderer/QiongtongClauseReferenceView.css",
+        "current": {
+          "sha256": "2ba8ea20ee4c8406200d9258d8e98525bfdbb451e32a26f2d02728a1c5713a61",
+          "bytes": 3067
+        },
+        "prior": {
+          "sourceCommit": "ff89498d968bcb7e9f51eca46ae8bac14afec586",
+          "bytes": 2622,
+          "sha256": "a969961926f694eb930e91fa1eee25e9c4b5d1433e088e27e2fbe864010fa095",
+          "matchesDeclared": true
+        },
+        "reviewIds": [
+          "M573",
+          "M568"
+        ]
+      }
+    ],
+    "compiledRuntimeDependencyContext": {
+      "sameAsC137": true,
+      "differences": [],
+      "inventory": {
+        "file": "runtime-pins.json",
+        "bytes": 25659,
+        "sha256": "039d245693535e17dcb1f5f0d24024146fdd3b629ff87cb5fcb91ccacdf172b0"
+      },
+      "qualification": "Only actually loaded fixed compile/data inputs, not a complete application dynamic dependency audit."
+    },
+    "qualification": "Main/shared and Jia view match old frozen pins, but not all three requested files do: bindings changed, as did Panel/ReferenceView/CSS. M738 delta was a candidate inventory; M748 only closed two gate defects, not current source/build admission. Prior reports were reused only within their original bounds."
+  },
+  "codeObservations": [
+    {
+      "area": "input boundary",
+      "files": [
+        "src/main/qiongtong-preview-input.ts",
+        "src/main/qiongtong-clause-reference-preview.ts:40"
+      ],
+      "result": "Own enumerable data copy rejects proxy/getters/cycles/sparse/extra fields; fixed depth24,array4096,nodes25000,scalarUTF8bytes200000. Root optional undefined is selectively omitted; a second independently budgeted copy precedes engine analysis. Profile values and caller source/approval fields do not become source authority."
+    },
+    {
+      "area": "fixed source reader",
+      "files": [
+        "src/main/qiongtong-clause-reference-preview.ts:61",
+        "src/main/qiongtong-jia-preview.ts"
+      ],
+      "result": "Every invocation rereads fixed monthly/raw/conditions/Jia resources and verifies hashes/lengths, revision, exact rule membership, quote/context codepoint spans and returned rule bindings. Warm previous results cannot authorize modified/missing files. Unicode source and context spans remain separate."
+    },
+    {
+      "area": "time unknown/cross-day",
+      "files": [
+        "src/main/qiongtong-clause-reference.ts",
+        "src/shared/birth-time-basis.ts"
+      ],
+      "result": "No invented hour for unknown civil time. Apparent-solar unknown interval spanning two dates retains dayStem=null and unknown day/hour; enough known facts may still satisfy a limited subclause. Known solar crossing keeps adjusted previous/next day while year/month gan-zhi retain actual-instant basis; derived tenGod may change with day master, as expected."
+    },
+    {
+      "area": "text facts versus project rules",
+      "files": [
+        "src/renderer/QiongtongClauseReferenceView.tsx",
+        "src/renderer/QiongtongJiaChapterView.tsx"
+      ],
+      "result": "Electronic quotes/context remain identifiable; statuses describe limited literal predicates. textReferences are recorded text, not adopted useful-god choices. actionEvaluation/usefulGodDecision and wholeSourceBranchDecision remain not-evaluated; namingImpact none; scanCollation false. This review does not authenticate broader traditional predictions or independent scan collation."
+    },
+    {
+      "area": "readonly UI and stale results",
+      "files": [
+        "src/renderer/QiongtongClausePreviewPanel.tsx",
+        "src/renderer/qiongtong-clause-preview-bindings.ts"
+      ],
+      "result": "One explicit read action, no render-time request or save/generation control. Input/API/request epochs isolate A-B-A, API replacement, cleanup and effect reconnection stale replies. Renderer binding equality is not file/resource/source authority; service owns that check."
+    }
+  ],
+  "actualValidation": {
+    "inputExistingFixedTest": {
+      "file": "tests/qiongtong-preview-input.test.ts",
+      "passed": 14,
+      "failed": 0,
+      "execution": "new isolated run against frozen source"
+    },
+    "backend": {
+      "firstAttempt": {
+        "completedAssertionsBeforeFailure": 13,
+        "failure": "audit harness incorrectly compared derived tenGod when testing invariant year/month stems and branches; original script/failure preserved",
+        "productDefect": false
+      },
+      "resumed": {
+        "passed": 20,
+        "failed": 0,
+        "resumeFrom": "crossday assertion",
+        "priorSuccessfulChecksRerun": false
+      },
+      "singleInvocation33Green": false,
+      "scope": "actual fixed preview/input/engine with23 fixed source-file copies, no real Store/IPC"
+    },
+    "ui": {
+      "passed": 26,
+      "failed": 0,
+      "reexecutedAfterInterruption": false,
+      "scope": "current frozen UI/bindings; actual React server rendering and controlled actual-Panel hook adapter; no real browser StrictMode/IPC/current Service/source authentication",
+      "oneAssertionReproducesObsoleteTestFixture": true
+    },
+    "sourceCopiesAfterTests": {
+      "count": 23,
+      "unchanged": true
+    },
+    "typecheck": "full product tsc not rerun",
+    "wholeApplicationBuild": false
+  },
+  "testMaintenanceGaps": [
+    {
+      "file": "tests/qiongtong-clause-lifecycle.test.tsx",
+      "issue": "Old controlled fixture contains only id/surname; current Panel also reads required BirthProfile birthDate/timezone strings. TypeError trim reproduced with that invalid fixture, not with valid product profiles.",
+      "classification": "test fixture maintenance gap, not confirmed product P1/P2",
+      "needed": "Supply complete BirthProfile in the existing lifecycle fixture and retain the original race assertions."
+    },
+    {
+      "file": "tests/qiongtong-clause-jia-combined.test.tsx",
+      "issue": "SSR assertion still expects old heading/button strings after current UI wording change.",
+      "classification": "static stale assertion; the entire old suite was not rerun",
+      "needed": "Update expected visible wording while preserving read-only and unknown-time checks."
+    }
+  ],
+  "admission": {
+    "sourceGroupReviewCompleted": true,
+    "sourceBuildApproved": false,
+    "productionAdmission": false,
+    "activeGateModified": false,
+    "registryModified": false,
+    "productFilesModified": false,
+    "automaticCoverageGranted": false,
+    "all198DifferencesApproved": false
+  },
+  "gateBoundary": {
+    "observedPriorRefusal": "Outer source admission: source extensions unknown bytes/version: src/main/qiongtong-clause-reference-preview.ts",
+    "activeMainPin": {
+      "bytes": 8816,
+      "sha256": "2cc2719acf10e0949ea95446b94e36e6e99e8e39942cd52c7776162c037cb5da"
+    },
+    "currentMainPin": {
+      "kind": "primary",
+      "file": "src/main/qiongtong-clause-reference-preview.ts",
+      "bytes": 9152,
+      "sha256": "be3617edf79519ce64d80b71323a39b621c1f477937cc2f181a07bfdf171ba44"
+    },
+    "activeSharedPin": {
+      "bytes": 1194,
+      "sha256": "57da63f012410ad8188df46faf4a5cfa1169c4cc2c12cb67d9c5a23b9e370954"
+    },
+    "bindingsActiveRegistered": false,
+    "normalGateRerun": false
+  },
+  "nextMinimalGap": [
+    "Gate owner may reference this exact scoped review and pins in a separate narrowly reviewed source-group registration change; this audit did not register or approve a normal build.",
+    "Repair the two stale UI tests, then run only affected cases.",
+    "After any registration change, normal prebuild must still evaluate all other unreviewed/drifted roles; no approval is inferred for the remaining198 observation set or full product."
+  ],
+  "unreviewed": [
+    "Other source groups in the198-difference observation set",
+    "Complete application dynamic dependency closure",
+    "New culture App lease fixes and their acceptance",
+    "Real Electron IPC/native DOM lifecycle",
+    "Full app regression/build/installer/release",
+    "Independent astronomical accuracy and scan collation"
+  ],
+  "evidence": [
+    {
+      "file": "pins.json",
+      "bytes": 4628,
+      "sha256": "ad6059252ae19f8d5c627ac409da38f67aabd42c7c840b9ffaaaea63fc7c5ad0"
+    },
+    {
+      "file": "prior-check-final.json",
+      "bytes": 9173,
+      "sha256": "5e4a5009bcdb18240a92b6c9689cab22a69f733f46318c4cf1a7c466fca88a39"
+    },
+    {
+      "file": "runtime-pins.json",
+      "bytes": 25659,
+      "sha256": "039d245693535e17dcb1f5f0d24024146fdd3b629ff87cb5fcb91ccacdf172b0"
+    },
+    {
+      "file": "runtime-results.json",
+      "bytes": 8042,
+      "sha256": "93c3b77b87c237728b1fea186b46c612fc371ad520c16d6a1ecdabb5c44ec592"
+    },
+    {
+      "file": "input-tests.json",
+      "bytes": 6730,
+      "sha256": "b0eb3dbffaf62b97440c05aa62fe0fb4801b9a6a62d7996a1e0c3b54bd3fad1a"
+    },
+    {
+      "file": "ui-review/pins.json",
+      "bytes": 1293,
+      "sha256": "c70681d8cb2dcd6ff23c97b96a581fbbe2e356b30798e16568c8fc2ff39edfa7"
+    },
+    {
+      "file": "ui-review/probe-results.json",
+      "bytes": 3260,
+      "sha256": "910df8f545c8abf67a22ec37e129f59d54198dd6214a92f85afe219551deac07"
+    },
+    {
+      "file": "failed-attempts.json",
+      "bytes": 1181,
+      "sha256": "e26dc85cb8c9a04a2bc11899897deca8c9856bfb3897ca784351bec0593cd34d"
+    }
+  ]
+}

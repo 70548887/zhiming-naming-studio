@@ -1,0 +1,288 @@
+{
+  "version": "qiongtong-2294674-conditions/1.0.0",
+  "method": "Manually transcribed exact source conditions and independent HKO civil-date facts; no application/calendar import",
+  "officialCalendar": {
+    "url": "https://www.hko.gov.hk/en/gts/time/calendar/text/files/T2024e.txt",
+    "title": "Hong Kong Observatory Gregorian-Lunar Calendar Conversion Table2024",
+    "timeBasis": "HongKong UTC+08:00 calendar date",
+    "facts": [
+      [
+        "清明",
+        "2024-04-04",
+        "Bright & Clear"
+      ],
+      [
+        "谷雨",
+        "2024-04-19",
+        "Corn Rain"
+      ],
+      [
+        "立夏",
+        "2024-05-05",
+        "Summer Commences"
+      ],
+      [
+        "白露",
+        "2024-09-07",
+        "White Dew"
+      ],
+      [
+        "秋分",
+        "2024-09-22",
+        "Autumnal Equinox"
+      ],
+      [
+        "寒露",
+        "2024-10-08",
+        "Cold Dew"
+      ]
+    ]
+  },
+  "dateCases": [
+    {
+      "id": "yi-you-before-autumn-equinox-before",
+      "ruleId": "yi-you-before-autumn-equinox",
+      "birthDate": "2024-09-15",
+      "birthTime": "12:00:00",
+      "timeUnknown": false,
+      "timezone": "Asia/Shanghai",
+      "expected": "met",
+      "doesNotResolveOriginalBranch": true
+    },
+    {
+      "id": "yi-you-before-autumn-equinox-after",
+      "ruleId": "yi-you-before-autumn-equinox",
+      "birthDate": "2024-09-25",
+      "birthTime": "12:00:00",
+      "timeUnknown": false,
+      "timezone": "Asia/Shanghai",
+      "expected": "not-met",
+      "doesNotResolveOriginalBranch": true
+    },
+    {
+      "id": "yi-you-before-autumn-equinox-unknown-boundary",
+      "ruleId": "yi-you-before-autumn-equinox",
+      "birthDate": "2024-09-22",
+      "birthTime": "",
+      "timeUnknown": true,
+      "timezone": "Asia/Shanghai",
+      "expected": "uncertain",
+      "doesNotResolveOriginalBranch": true
+    },
+    {
+      "id": "yi-you-after-autumn-equinox-before",
+      "ruleId": "yi-you-after-autumn-equinox",
+      "birthDate": "2024-09-15",
+      "birthTime": "12:00:00",
+      "timeUnknown": false,
+      "timezone": "Asia/Shanghai",
+      "expected": "not-met",
+      "doesNotResolveOriginalBranch": true
+    },
+    {
+      "id": "yi-you-after-autumn-equinox-after",
+      "ruleId": "yi-you-after-autumn-equinox",
+      "birthDate": "2024-09-25",
+      "birthTime": "12:00:00",
+      "timeUnknown": false,
+      "timezone": "Asia/Shanghai",
+      "expected": "met",
+      "doesNotResolveOriginalBranch": true
+    },
+    {
+      "id": "yi-you-after-autumn-equinox-unknown-boundary",
+      "ruleId": "yi-you-after-autumn-equinox",
+      "birthDate": "2024-09-22",
+      "birthTime": "",
+      "timeUnknown": true,
+      "timezone": "Asia/Shanghai",
+      "expected": "uncertain",
+      "doesNotResolveOriginalBranch": true
+    },
+    {
+      "id": "gui-chen-before-grain-rain-before",
+      "ruleId": "gui-chen-before-grain-rain",
+      "birthDate": "2024-04-10",
+      "birthTime": "12:00:00",
+      "timeUnknown": false,
+      "timezone": "Asia/Shanghai",
+      "expected": "met",
+      "doesNotResolveOriginalBranch": true
+    },
+    {
+      "id": "gui-chen-before-grain-rain-after",
+      "ruleId": "gui-chen-before-grain-rain",
+      "birthDate": "2024-04-25",
+      "birthTime": "12:00:00",
+      "timeUnknown": false,
+      "timezone": "Asia/Shanghai",
+      "expected": "not-met",
+      "doesNotResolveOriginalBranch": true
+    },
+    {
+      "id": "gui-chen-before-grain-rain-unknown-boundary",
+      "ruleId": "gui-chen-before-grain-rain",
+      "birthDate": "2024-04-19",
+      "birthTime": "",
+      "timeUnknown": true,
+      "timezone": "Asia/Shanghai",
+      "expected": "uncertain",
+      "doesNotResolveOriginalBranch": true
+    },
+    {
+      "id": "gui-chen-after-grain-rain-before",
+      "ruleId": "gui-chen-after-grain-rain",
+      "birthDate": "2024-04-10",
+      "birthTime": "12:00:00",
+      "timeUnknown": false,
+      "timezone": "Asia/Shanghai",
+      "expected": "not-met",
+      "doesNotResolveOriginalBranch": true
+    },
+    {
+      "id": "gui-chen-after-grain-rain-after",
+      "ruleId": "gui-chen-after-grain-rain",
+      "birthDate": "2024-04-25",
+      "birthTime": "12:00:00",
+      "timeUnknown": false,
+      "timezone": "Asia/Shanghai",
+      "expected": "met",
+      "doesNotResolveOriginalBranch": true
+    },
+    {
+      "id": "gui-chen-after-grain-rain-unknown-boundary",
+      "ruleId": "gui-chen-after-grain-rain",
+      "birthDate": "2024-04-19",
+      "birthTime": "",
+      "timeUnknown": true,
+      "timezone": "Asia/Shanghai",
+      "expected": "uncertain",
+      "doesNotResolveOriginalBranch": true
+    }
+  ],
+  "factCases": [
+    {
+      "ruleId": "yi-yin-bing-gui-exposed",
+      "facts": {
+        "exposed": [
+          "丙",
+          "癸"
+        ],
+        "hidden": [],
+        "complete": true
+      },
+      "expected": "met",
+      "proposedUses": []
+    },
+    {
+      "ruleId": "yi-yin-bing-gui-exposed",
+      "facts": {
+        "exposed": [
+          "丙"
+        ],
+        "hidden": [
+          "癸"
+        ],
+        "complete": true
+      },
+      "expected": "not-met",
+      "proposedUses": []
+    },
+    {
+      "ruleId": "yi-yin-bing-gui-exposed",
+      "facts": {
+        "exposed": [
+          "丙"
+        ],
+        "hidden": [],
+        "complete": false
+      },
+      "expected": "unknown",
+      "proposedUses": []
+    },
+    {
+      "ruleId": "geng-chen-jia-exposed-ding-hidden",
+      "facts": {
+        "exposed": [
+          "甲"
+        ],
+        "hidden": [
+          "丁"
+        ],
+        "complete": true
+      },
+      "expected": "met",
+      "proposedUses": []
+    },
+    {
+      "ruleId": "geng-chen-jia-exposed-ding-hidden",
+      "facts": {
+        "exposed": [
+          "甲",
+          "丁"
+        ],
+        "hidden": [],
+        "complete": true
+      },
+      "expected": "not-met",
+      "proposedUses": []
+    },
+    {
+      "ruleId": "geng-chen-jia-exposed-ding-hidden",
+      "facts": {
+        "exposed": [
+          "甲"
+        ],
+        "hidden": [],
+        "complete": false
+      },
+      "expected": "unknown",
+      "proposedUses": []
+    },
+    {
+      "ruleId": "xin-chou-ren-bing-hidden",
+      "facts": {
+        "exposed": [],
+        "hidden": [
+          "壬",
+          "丙"
+        ],
+        "complete": true
+      },
+      "expected": "met",
+      "proposedUses": []
+    },
+    {
+      "ruleId": "xin-chou-ren-bing-hidden",
+      "facts": {
+        "exposed": [
+          "壬"
+        ],
+        "hidden": [
+          "丙"
+        ],
+        "complete": true
+      },
+      "expected": "not-met",
+      "proposedUses": []
+    },
+    {
+      "ruleId": "xin-chou-ren-bing-hidden",
+      "facts": {
+        "exposed": [],
+        "hidden": [
+          "丙"
+        ],
+        "complete": false
+      },
+      "expected": "unknown",
+      "proposedUses": []
+    }
+  ],
+  "assertions": [
+    "Original12unimplementedconditionsstayunchanged",
+    "Allcalendarchecksremainpartial-prerequisiteevenwhenmet",
+    "NoautomaticproposedUses",
+    "No15dayhalfmonthconversion"
+  ]
+}

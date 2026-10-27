@@ -1,0 +1,22 @@
+node_modules/
+dist/
+dist-electron/
+release/
+.local/
+*.log
+test-results/
+verification-output/
+
+# Local credentials are never part of source publication.
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.p12
+*.pfx
+
+# Historical test material withheld pending exact synthetic provenance.
+tests/fixtures/naming-session-1.0.32.sqlite
+tests/fixtures/naming-session-1.0.32.json
+tests/fixtures/dictionary-session-1.0.32-probe.sqlite
+tests/fixtures/dictionary-session-1.0.32-probe.json

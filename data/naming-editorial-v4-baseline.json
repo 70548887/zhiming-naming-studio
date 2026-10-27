@@ -1,0 +1,5429 @@
+{
+  "version": "naming-editorial-defaults-baseline/1.0.0",
+  "anchor": {
+    "releaseVersion": "1.0.30",
+    "asarSha256": "d06d98f0407b2f1220421165efea98d44767a07b457870279a7a0d719524a833",
+    "installerSha256": "a5adacf0e03b414668089332cd3ea9178ac2b3b440694ce46d432fc4ff1467df",
+    "editorialVersion": "naming-editorial-3.0.0",
+    "editorialSha256": "97c3162238c9493174544580a338fb0852d2784fbeac712fbd8e234f99945195",
+    "datasetJsonSha256": "c5e6934fab8892e2f162cb584c0869c253b838b5f41d7087d9e7630f648fe6ae",
+    "knowledgeSqliteSha256": "f264eb26f631441a31324e9be14058f38d02d444070e00e9e0690b4f0b9ff7cc",
+    "namingSourceSha256": "ff660c84ec8926c7b88c13bfb520dd14b2fb382a100a5fd2b1f7c3c960f5f40d"
+  },
+  "policy": "Immutable metadata and project-authored expression constants captured from the actual published1.0.30 sources and dictionary defaults. Mechanical applicability registry, not an independent expert review of779 meanings.",
+  "characterReadings": {
+    "安": {
+      "pinyin": "ān",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "安"
+    },
+    "昂": {
+      "pinyin": "áng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "昂"
+    },
+    "傲": {
+      "pinyin": "ào",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "傲"
+    },
+    "奥": {
+      "pinyin": "ào",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "奧"
+    },
+    "白": {
+      "pinyin": "bái",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "白"
+    },
+    "百": {
+      "pinyin": "bǎi",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "百"
+    },
+    "柏": {
+      "pinyin": "bǎi",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "柏"
+    },
+    "邦": {
+      "pinyin": "bāng",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "邦"
+    },
+    "宝": {
+      "pinyin": "bǎo",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "寶"
+    },
+    "保": {
+      "pinyin": "bǎo",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "保"
+    },
+    "贝": {
+      "pinyin": "bèi",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "貝"
+    },
+    "蓓": {
+      "pinyin": "bèi",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "蓓"
+    },
+    "碧": {
+      "pinyin": "bì",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "碧"
+    },
+    "彬": {
+      "pinyin": "bīn",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "彬"
+    },
+    "斌": {
+      "pinyin": "bīn",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "斌"
+    },
+    "滨": {
+      "pinyin": "bīn",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "濱"
+    },
+    "冰": {
+      "pinyin": "bīng",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "冰"
+    },
+    "秉": {
+      "pinyin": "bǐng",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "秉"
+    },
+    "博": {
+      "pinyin": "bó",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "博"
+    },
+    "渤": {
+      "pinyin": "bó",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "渤"
+    },
+    "才": {
+      "pinyin": "cái",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "纔"
+    },
+    "采": {
+      "pinyin": "cǎi",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "採"
+    },
+    "彩": {
+      "pinyin": "cǎi",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "彩"
+    },
+    "灿": {
+      "pinyin": "càn",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "燦"
+    },
+    "苍": {
+      "pinyin": "cāng",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "蒼"
+    },
+    "策": {
+      "pinyin": "cè",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "策"
+    },
+    "岑": {
+      "pinyin": "cén",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "岑"
+    },
+    "曾": {
+      "pinyin": "céng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "曾"
+    },
+    "长": {
+      "pinyin": "cháng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "長"
+    },
+    "畅": {
+      "pinyin": "chàng",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "暢"
+    },
+    "超": {
+      "pinyin": "chāo",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "超"
+    },
+    "朝": {
+      "pinyin": "zhāo",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "朝"
+    },
+    "辰": {
+      "pinyin": "chén",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "辰"
+    },
+    "晨": {
+      "pinyin": "chén",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "晨"
+    },
+    "宸": {
+      "pinyin": "chén",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "宸"
+    },
+    "琛": {
+      "pinyin": "chēn",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "琛"
+    },
+    "承": {
+      "pinyin": "chéng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "承"
+    },
+    "呈": {
+      "pinyin": "chéng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "呈"
+    },
+    "诚": {
+      "pinyin": "chéng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "誠"
+    },
+    "成": {
+      "pinyin": "chéng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "成"
+    },
+    "澄": {
+      "pinyin": "chéng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "澄"
+    },
+    "城": {
+      "pinyin": "chéng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "城"
+    },
+    "程": {
+      "pinyin": "chéng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "程"
+    },
+    "驰": {
+      "pinyin": "chí",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "馳"
+    },
+    "楚": {
+      "pinyin": "chǔ",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "楚"
+    },
+    "川": {
+      "pinyin": "chuān",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "川"
+    },
+    "传": {
+      "pinyin": "chuán",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "傳"
+    },
+    "春": {
+      "pinyin": "chūn",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "春"
+    },
+    "淳": {
+      "pinyin": "chún",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "淳"
+    },
+    "纯": {
+      "pinyin": "chún",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "純"
+    },
+    "慈": {
+      "pinyin": "cí",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "慈"
+    },
+    "聪": {
+      "pinyin": "cōng",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "聰"
+    },
+    "翠": {
+      "pinyin": "cuì",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "翠"
+    },
+    "存": {
+      "pinyin": "cún",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "存"
+    },
+    "达": {
+      "pinyin": "dá",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "達"
+    },
+    "岱": {
+      "pinyin": "dài",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "岱"
+    },
+    "丹": {
+      "pinyin": "dān",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "丹"
+    },
+    "旦": {
+      "pinyin": "dàn",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "旦"
+    },
+    "道": {
+      "pinyin": "dào",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "道"
+    },
+    "德": {
+      "pinyin": "dé",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "德"
+    },
+    "登": {
+      "pinyin": "dēng",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "登"
+    },
+    "迪": {
+      "pinyin": "dí",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "迪"
+    },
+    "笛": {
+      "pinyin": "dí",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "笛"
+    },
+    "典": {
+      "pinyin": "diǎn",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "典"
+    },
+    "鼎": {
+      "pinyin": "dǐng",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "鼎"
+    },
+    "东": {
+      "pinyin": "dōng",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "東"
+    },
+    "冬": {
+      "pinyin": "dōng",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "鼕"
+    },
+    "栋": {
+      "pinyin": "dòng",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "棟"
+    },
+    "端": {
+      "pinyin": "duān",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "端"
+    },
+    "朵": {
+      "pinyin": "duǒ",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "朵"
+    },
+    "恩": {
+      "pinyin": "ēn",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "恩"
+    },
+    "尔": {
+      "pinyin": "ěr",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "爾"
+    },
+    "发": {
+      "pinyin": "fā",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "發"
+    },
+    "帆": {
+      "pinyin": "fān",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "帆"
+    },
+    "凡": {
+      "pinyin": "fán",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "凡"
+    },
+    "方": {
+      "pinyin": "fāng",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "方"
+    },
+    "芳": {
+      "pinyin": "fāng",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "芳"
+    },
+    "飞": {
+      "pinyin": "fēi",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "飛"
+    },
+    "菲": {
+      "pinyin": "fēi",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "菲"
+    },
+    "斐": {
+      "pinyin": "fěi",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "斐"
+    },
+    "芬": {
+      "pinyin": "fēn",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "芬"
+    },
+    "丰": {
+      "pinyin": "fēng",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "豐"
+    },
+    "峰": {
+      "pinyin": "fēng",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "峰"
+    },
+    "锋": {
+      "pinyin": "fēng",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "鋒"
+    },
+    "枫": {
+      "pinyin": "fēng",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "楓"
+    },
+    "凤": {
+      "pinyin": "fèng",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "鳳"
+    },
+    "芙": {
+      "pinyin": "fú",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "芙"
+    },
+    "福": {
+      "pinyin": "fú",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "福"
+    },
+    "甫": {
+      "pinyin": "fǔ",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "甫"
+    },
+    "赋": {
+      "pinyin": "fù",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "賦"
+    },
+    "馥": {
+      "pinyin": "fù",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "馥"
+    },
+    "甘": {
+      "pinyin": "gān",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "甘"
+    },
+    "刚": {
+      "pinyin": "gāng",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "剛"
+    },
+    "高": {
+      "pinyin": "gāo",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "高"
+    },
+    "歌": {
+      "pinyin": "gē",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "歌"
+    },
+    "革": {
+      "pinyin": "gé",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "革"
+    },
+    "格": {
+      "pinyin": "gé",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "格"
+    },
+    "庚": {
+      "pinyin": "gēng",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "庚"
+    },
+    "耕": {
+      "pinyin": "gēng",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "耕"
+    },
+    "耿": {
+      "pinyin": "gěng",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "耿"
+    },
+    "恭": {
+      "pinyin": "gōng",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "恭"
+    },
+    "功": {
+      "pinyin": "gōng",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "功"
+    },
+    "巩": {
+      "pinyin": "gǒng",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "鞏"
+    },
+    "冠": {
+      "pinyin": "guān",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "冠"
+    },
+    "观": {
+      "pinyin": "guān",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "觀"
+    },
+    "贯": {
+      "pinyin": "guàn",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "貫"
+    },
+    "光": {
+      "pinyin": "guāng",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "光"
+    },
+    "广": {
+      "pinyin": "guǎng",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "廣"
+    },
+    "贵": {
+      "pinyin": "guì",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "貴"
+    },
+    "桂": {
+      "pinyin": "guì",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "桂"
+    },
+    "国": {
+      "pinyin": "guó",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "國"
+    },
+    "果": {
+      "pinyin": "guǒ",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "果"
+    },
+    "海": {
+      "pinyin": "hǎi",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "海"
+    },
+    "涵": {
+      "pinyin": "hán",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "涵"
+    },
+    "含": {
+      "pinyin": "hán",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "含"
+    },
+    "翰": {
+      "pinyin": "hàn",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "翰"
+    },
+    "航": {
+      "pinyin": "háng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "航"
+    },
+    "杭": {
+      "pinyin": "háng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "杭"
+    },
+    "豪": {
+      "pinyin": "háo",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "豪"
+    },
+    "昊": {
+      "pinyin": "hào",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "昊"
+    },
+    "浩": {
+      "pinyin": "hào",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "浩"
+    },
+    "皓": {
+      "pinyin": "hào",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "皓"
+    },
+    "和": {
+      "pinyin": "hé",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "和"
+    },
+    "河": {
+      "pinyin": "hé",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "河"
+    },
+    "贺": {
+      "pinyin": "hè",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "賀"
+    },
+    "荷": {
+      "pinyin": "hé",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "荷"
+    },
+    "鹤": {
+      "pinyin": "hè",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "鶴"
+    },
+    "赫": {
+      "pinyin": "hè",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "赫"
+    },
+    "衡": {
+      "pinyin": "héng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "衡"
+    },
+    "恒": {
+      "pinyin": "héng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "恆"
+    },
+    "宏": {
+      "pinyin": "hóng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "宏"
+    },
+    "泓": {
+      "pinyin": "hóng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "泓"
+    },
+    "弘": {
+      "pinyin": "hóng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "弘"
+    },
+    "虹": {
+      "pinyin": "hóng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "虹"
+    },
+    "鸿": {
+      "pinyin": "hóng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "鴻"
+    },
+    "红": {
+      "pinyin": "hóng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "紅"
+    },
+    "洪": {
+      "pinyin": "hóng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "洪"
+    },
+    "华": {
+      "pinyin": "huá",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "華"
+    },
+    "桦": {
+      "pinyin": "huà",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "樺"
+    },
+    "怀": {
+      "pinyin": "huái",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "懷"
+    },
+    "欢": {
+      "pinyin": "huān",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "歡"
+    },
+    "环": {
+      "pinyin": "huán",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "環"
+    },
+    "寰": {
+      "pinyin": "huán",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "寰"
+    },
+    "焕": {
+      "pinyin": "huàn",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "煥"
+    },
+    "煌": {
+      "pinyin": "huáng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "煌"
+    },
+    "晖": {
+      "pinyin": "huī",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "暉"
+    },
+    "辉": {
+      "pinyin": "huī",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "輝"
+    },
+    "惠": {
+      "pinyin": "huì",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "惠"
+    },
+    "慧": {
+      "pinyin": "huì",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "慧"
+    },
+    "卉": {
+      "pinyin": "huì",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "卉"
+    },
+    "会": {
+      "pinyin": "huì",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "會"
+    },
+    "荟": {
+      "pinyin": "huì",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "薈"
+    },
+    "汇": {
+      "pinyin": "huì",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "匯"
+    },
+    "继": {
+      "pinyin": "jì",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "繼"
+    },
+    "纪": {
+      "pinyin": "jì",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "紀"
+    },
+    "佳": {
+      "pinyin": "jiā",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "佳"
+    },
+    "嘉": {
+      "pinyin": "jiā",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "嘉"
+    },
+    "珈": {
+      "pinyin": "jiā",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "珈"
+    },
+    "家": {
+      "pinyin": "jiā",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "傢"
+    },
+    "加": {
+      "pinyin": "jiā",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "加"
+    },
+    "甲": {
+      "pinyin": "jiǎ",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "甲"
+    },
+    "坚": {
+      "pinyin": "jiān",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "堅"
+    },
+    "简": {
+      "pinyin": "jiǎn",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "簡"
+    },
+    "建": {
+      "pinyin": "jiàn",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "建"
+    },
+    "健": {
+      "pinyin": "jiàn",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "健"
+    },
+    "剑": {
+      "pinyin": "jiàn",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "劍"
+    },
+    "娇": {
+      "pinyin": "jiāo",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "嬌"
+    },
+    "骄": {
+      "pinyin": "jiāo",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "驕"
+    },
+    "杰": {
+      "pinyin": "jié",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "傑"
+    },
+    "洁": {
+      "pinyin": "jié",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "潔"
+    },
+    "婕": {
+      "pinyin": "jié",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "婕"
+    },
+    "捷": {
+      "pinyin": "jié",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "捷"
+    },
+    "金": {
+      "pinyin": "jīn",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "金"
+    },
+    "津": {
+      "pinyin": "jīn",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "津"
+    },
+    "瑾": {
+      "pinyin": "jǐn",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "瑾"
+    },
+    "锦": {
+      "pinyin": "jǐn",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "錦"
+    },
+    "晋": {
+      "pinyin": "jìn",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "晉"
+    },
+    "劲": {
+      "pinyin": "jìn",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "勁"
+    },
+    "靖": {
+      "pinyin": "jìng",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "靖"
+    },
+    "景": {
+      "pinyin": "jǐng",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "景"
+    },
+    "敬": {
+      "pinyin": "jìng",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "敬"
+    },
+    "静": {
+      "pinyin": "jìng",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "靜"
+    },
+    "晶": {
+      "pinyin": "jīng",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "晶"
+    },
+    "菁": {
+      "pinyin": "jīng",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "菁"
+    },
+    "旌": {
+      "pinyin": "jīng",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "旌"
+    },
+    "境": {
+      "pinyin": "jìng",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "境"
+    },
+    "炯": {
+      "pinyin": "jiǒng",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "炯"
+    },
+    "炅": {
+      "pinyin": "jiǒng",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "炅"
+    },
+    "玖": {
+      "pinyin": "jiǔ",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "玖"
+    },
+    "久": {
+      "pinyin": "jiǔ",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "久"
+    },
+    "九": {
+      "pinyin": "jiǔ",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "九"
+    },
+    "举": {
+      "pinyin": "jǔ",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "舉"
+    },
+    "隽": {
+      "pinyin": "juàn",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "雋"
+    },
+    "俊": {
+      "pinyin": "jùn",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "俊"
+    },
+    "君": {
+      "pinyin": "jūn",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "君"
+    },
+    "钧": {
+      "pinyin": "jūn",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "鈞"
+    },
+    "峻": {
+      "pinyin": "jùn",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "峻"
+    },
+    "骏": {
+      "pinyin": "jùn",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "駿"
+    },
+    "楷": {
+      "pinyin": "kǎi",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "楷"
+    },
+    "凯": {
+      "pinyin": "kǎi",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "凱"
+    },
+    "开": {
+      "pinyin": "kāi",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "開"
+    },
+    "恺": {
+      "pinyin": "kǎi",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "愷"
+    },
+    "康": {
+      "pinyin": "kāng",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "康"
+    },
+    "珂": {
+      "pinyin": "kē",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "珂"
+    },
+    "柯": {
+      "pinyin": "kē",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "柯"
+    },
+    "科": {
+      "pinyin": "kē",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "科"
+    },
+    "可": {
+      "pinyin": "kě",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "可"
+    },
+    "克": {
+      "pinyin": "kè",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "剋"
+    },
+    "恪": {
+      "pinyin": "kè",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "恪"
+    },
+    "空": {
+      "pinyin": "kōng",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "空"
+    },
+    "孔": {
+      "pinyin": "kǒng",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "孔"
+    },
+    "坤": {
+      "pinyin": "kūn",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "坤"
+    },
+    "昆": {
+      "pinyin": "kūn",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "昆"
+    },
+    "岚": {
+      "pinyin": "lán",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "嵐"
+    },
+    "蓝": {
+      "pinyin": "lán",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "藍"
+    },
+    "澜": {
+      "pinyin": "lán",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "瀾"
+    },
+    "兰": {
+      "pinyin": "lán",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "蘭"
+    },
+    "朗": {
+      "pinyin": "lǎng",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "朗"
+    },
+    "浪": {
+      "pinyin": "làng",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "浪"
+    },
+    "乐": {
+      "pinyin": "lè",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "樂"
+    },
+    "蕾": {
+      "pinyin": "lěi",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "蕾"
+    },
+    "磊": {
+      "pinyin": "lěi",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "磊"
+    },
+    "雷": {
+      "pinyin": "léi",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "雷"
+    },
+    "黎": {
+      "pinyin": "lí",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "黎"
+    },
+    "礼": {
+      "pinyin": "lǐ",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "禮"
+    },
+    "理": {
+      "pinyin": "lǐ",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "理"
+    },
+    "俐": {
+      "pinyin": "lì",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "俐"
+    },
+    "莉": {
+      "pinyin": "lì",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "莉"
+    },
+    "丽": {
+      "pinyin": "lì",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "麗"
+    },
+    "力": {
+      "pinyin": "lì",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "力"
+    },
+    "立": {
+      "pinyin": "lì",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "立"
+    },
+    "励": {
+      "pinyin": "lì",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "勵"
+    },
+    "利": {
+      "pinyin": "lì",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "利"
+    },
+    "良": {
+      "pinyin": "liáng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "良"
+    },
+    "梁": {
+      "pinyin": "liáng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "梁"
+    },
+    "凉": {
+      "pinyin": "liáng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "涼"
+    },
+    "亮": {
+      "pinyin": "liàng",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "亮"
+    },
+    "辽": {
+      "pinyin": "liáo",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "遼"
+    },
+    "燎": {
+      "pinyin": "liáo",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "燎"
+    },
+    "林": {
+      "pinyin": "lín",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "林"
+    },
+    "琳": {
+      "pinyin": "lín",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "琳"
+    },
+    "霖": {
+      "pinyin": "lín",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "霖"
+    },
+    "临": {
+      "pinyin": "lín",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "臨"
+    },
+    "灵": {
+      "pinyin": "líng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "靈"
+    },
+    "玲": {
+      "pinyin": "líng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "玲"
+    },
+    "凌": {
+      "pinyin": "líng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "凌"
+    },
+    "陵": {
+      "pinyin": "líng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "陵"
+    },
+    "翎": {
+      "pinyin": "líng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "翎"
+    },
+    "令": {
+      "pinyin": "lìng",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "令"
+    },
+    "柳": {
+      "pinyin": "liǔ",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "柳"
+    },
+    "六": {
+      "pinyin": "liù",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "六"
+    },
+    "龙": {
+      "pinyin": "lóng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "龍"
+    },
+    "隆": {
+      "pinyin": "lóng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "隆"
+    },
+    "露": {
+      "pinyin": "lù",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "露"
+    },
+    "璐": {
+      "pinyin": "lù",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "璐"
+    },
+    "陆": {
+      "pinyin": "lù",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "陸"
+    },
+    "路": {
+      "pinyin": "lù",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "路"
+    },
+    "禄": {
+      "pinyin": "lù",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "祿"
+    },
+    "麓": {
+      "pinyin": "lù",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "麓"
+    },
+    "伦": {
+      "pinyin": "lún",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "倫"
+    },
+    "纶": {
+      "pinyin": "lún",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "綸"
+    },
+    "洛": {
+      "pinyin": "luò",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "洛"
+    },
+    "珞": {
+      "pinyin": "luò",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "珞"
+    },
+    "律": {
+      "pinyin": "lǜ",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "律"
+    },
+    "绿": {
+      "pinyin": "lǜ",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "綠"
+    },
+    "玛": {
+      "pinyin": "mǎ",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "瑪"
+    },
+    "满": {
+      "pinyin": "mǎn",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "滿"
+    },
+    "曼": {
+      "pinyin": "màn",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "曼"
+    },
+    "漫": {
+      "pinyin": "màn",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "漫"
+    },
+    "茂": {
+      "pinyin": "mào",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "茂"
+    },
+    "梅": {
+      "pinyin": "méi",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "梅"
+    },
+    "枚": {
+      "pinyin": "méi",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "枚"
+    },
+    "美": {
+      "pinyin": "měi",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "美"
+    },
+    "萌": {
+      "pinyin": "méng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "萌"
+    },
+    "孟": {
+      "pinyin": "mèng",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "孟"
+    },
+    "梦": {
+      "pinyin": "mèng",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "夢"
+    },
+    "棉": {
+      "pinyin": "mián",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "棉"
+    },
+    "苗": {
+      "pinyin": "miáo",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "苗"
+    },
+    "妙": {
+      "pinyin": "miào",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "妙"
+    },
+    "敏": {
+      "pinyin": "mǐn",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "敏"
+    },
+    "明": {
+      "pinyin": "míng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "明"
+    },
+    "鸣": {
+      "pinyin": "míng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "鳴"
+    },
+    "铭": {
+      "pinyin": "míng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "銘"
+    },
+    "茗": {
+      "pinyin": "míng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "茗"
+    },
+    "墨": {
+      "pinyin": "mò",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "墨"
+    },
+    "沫": {
+      "pinyin": "mò",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "沫"
+    },
+    "默": {
+      "pinyin": "mò",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "默"
+    },
+    "沐": {
+      "pinyin": "mù",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "沐"
+    },
+    "牧": {
+      "pinyin": "mù",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "牧"
+    },
+    "穆": {
+      "pinyin": "mù",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "穆"
+    },
+    "慕": {
+      "pinyin": "mù",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "慕"
+    },
+    "木": {
+      "pinyin": "mù",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "木"
+    },
+    "楠": {
+      "pinyin": "nán",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "楠"
+    },
+    "南": {
+      "pinyin": "nán",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "南"
+    },
+    "宁": {
+      "pinyin": "níng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "寧"
+    },
+    "凝": {
+      "pinyin": "níng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "凝"
+    },
+    "念": {
+      "pinyin": "niàn",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "念"
+    },
+    "年": {
+      "pinyin": "nián",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "年"
+    },
+    "农": {
+      "pinyin": "nóng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "農"
+    },
+    "诺": {
+      "pinyin": "nuò",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "諾"
+    },
+    "鸥": {
+      "pinyin": "ōu",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "鷗"
+    },
+    "盼": {
+      "pinyin": "pàn",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "盼"
+    },
+    "沛": {
+      "pinyin": "pèi",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "沛"
+    },
+    "佩": {
+      "pinyin": "pèi",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "佩"
+    },
+    "培": {
+      "pinyin": "péi",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "培"
+    },
+    "朋": {
+      "pinyin": "péng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "朋"
+    },
+    "鹏": {
+      "pinyin": "péng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "鵬"
+    },
+    "彭": {
+      "pinyin": "péng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "彭"
+    },
+    "品": {
+      "pinyin": "pǐn",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "品"
+    },
+    "平": {
+      "pinyin": "píng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "平"
+    },
+    "萍": {
+      "pinyin": "píng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "萍"
+    },
+    "朴": {
+      "pinyin": "pú",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "樸"
+    },
+    "璞": {
+      "pinyin": "pú",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "璞"
+    },
+    "浦": {
+      "pinyin": "pǔ",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "浦"
+    },
+    "普": {
+      "pinyin": "pǔ",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "普"
+    },
+    "琪": {
+      "pinyin": "qí",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "琪"
+    },
+    "奇": {
+      "pinyin": "qí",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "奇"
+    },
+    "祺": {
+      "pinyin": "qí",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "祺"
+    },
+    "齐": {
+      "pinyin": "qí",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "齊"
+    },
+    "棋": {
+      "pinyin": "qí",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "棋"
+    },
+    "琦": {
+      "pinyin": "qí",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "琦"
+    },
+    "启": {
+      "pinyin": "qǐ",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "啟"
+    },
+    "起": {
+      "pinyin": "qǐ",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "起"
+    },
+    "绮": {
+      "pinyin": "qǐ",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "綺"
+    },
+    "千": {
+      "pinyin": "qiān",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "韆"
+    },
+    "迁": {
+      "pinyin": "qiān",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "遷"
+    },
+    "谦": {
+      "pinyin": "qiān",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "謙"
+    },
+    "乾": {
+      "pinyin": "qián",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "乾"
+    },
+    "前": {
+      "pinyin": "qián",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "前"
+    },
+    "倩": {
+      "pinyin": "qiàn",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "倩"
+    },
+    "乔": {
+      "pinyin": "qiáo",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "喬"
+    },
+    "侨": {
+      "pinyin": "qiáo",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "僑"
+    },
+    "桥": {
+      "pinyin": "qiáo",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "橋"
+    },
+    "巧": {
+      "pinyin": "qiǎo",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "巧"
+    },
+    "琴": {
+      "pinyin": "qín",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "琴"
+    },
+    "沁": {
+      "pinyin": "qìn",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "沁"
+    },
+    "秦": {
+      "pinyin": "qín",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "秦"
+    },
+    "芹": {
+      "pinyin": "qín",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "芹"
+    },
+    "青": {
+      "pinyin": "qīng",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "青"
+    },
+    "清": {
+      "pinyin": "qīng",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "清"
+    },
+    "卿": {
+      "pinyin": "qīng",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "卿"
+    },
+    "庆": {
+      "pinyin": "qìng",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "慶"
+    },
+    "晴": {
+      "pinyin": "qíng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "晴"
+    },
+    "情": {
+      "pinyin": "qíng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "情"
+    },
+    "琼": {
+      "pinyin": "qióng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "瓊"
+    },
+    "丘": {
+      "pinyin": "qiū",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "丘"
+    },
+    "秋": {
+      "pinyin": "qiū",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "鞦"
+    },
+    "求": {
+      "pinyin": "qiú",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "求"
+    },
+    "曲": {
+      "pinyin": "qū",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "曲"
+    },
+    "权": {
+      "pinyin": "quán",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "權"
+    },
+    "泉": {
+      "pinyin": "quán",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "泉"
+    },
+    "群": {
+      "pinyin": "qún",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "群"
+    },
+    "然": {
+      "pinyin": "rán",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "然"
+    },
+    "冉": {
+      "pinyin": "rǎn",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "冉"
+    },
+    "仁": {
+      "pinyin": "rén",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "仁"
+    },
+    "任": {
+      "pinyin": "rèn",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "任"
+    },
+    "荣": {
+      "pinyin": "róng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "榮"
+    },
+    "容": {
+      "pinyin": "róng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "容"
+    },
+    "蓉": {
+      "pinyin": "róng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "蓉"
+    },
+    "柔": {
+      "pinyin": "róu",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "柔"
+    },
+    "如": {
+      "pinyin": "rú",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "如"
+    },
+    "儒": {
+      "pinyin": "rú",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "儒"
+    },
+    "濡": {
+      "pinyin": "rú",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "濡"
+    },
+    "茹": {
+      "pinyin": "rú",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "茹"
+    },
+    "蕊": {
+      "pinyin": "ruǐ",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "蕊"
+    },
+    "芮": {
+      "pinyin": "ruì",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "芮"
+    },
+    "锐": {
+      "pinyin": "ruì",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "銳"
+    },
+    "睿": {
+      "pinyin": "ruì",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "睿"
+    },
+    "瑞": {
+      "pinyin": "ruì",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "瑞"
+    },
+    "润": {
+      "pinyin": "rùn",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "潤"
+    },
+    "若": {
+      "pinyin": "ruò",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "若"
+    },
+    "桑": {
+      "pinyin": "sāng",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "桑"
+    },
+    "森": {
+      "pinyin": "sēn",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "森"
+    },
+    "莎": {
+      "pinyin": "shā",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "莎"
+    },
+    "沙": {
+      "pinyin": "shā",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "沙"
+    },
+    "山": {
+      "pinyin": "shān",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "山"
+    },
+    "杉": {
+      "pinyin": "shān",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "杉"
+    },
+    "善": {
+      "pinyin": "shàn",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "善"
+    },
+    "尚": {
+      "pinyin": "shàng",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "尚"
+    },
+    "韶": {
+      "pinyin": "sháo",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "韶"
+    },
+    "少": {
+      "pinyin": "shǎo",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "少"
+    },
+    "绍": {
+      "pinyin": "shào",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "紹"
+    },
+    "邵": {
+      "pinyin": "shào",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "邵"
+    },
+    "深": {
+      "pinyin": "shēn",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "深"
+    },
+    "申": {
+      "pinyin": "shēn",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "申"
+    },
+    "沈": {
+      "pinyin": "shěn",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "瀋"
+    },
+    "莘": {
+      "pinyin": "shēn",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "莘"
+    },
+    "笙": {
+      "pinyin": "shēng",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "笙"
+    },
+    "生": {
+      "pinyin": "shēng",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "生"
+    },
+    "圣": {
+      "pinyin": "shèng",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "聖"
+    },
+    "胜": {
+      "pinyin": "shèng",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "勝"
+    },
+    "盛": {
+      "pinyin": "shèng",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "盛"
+    },
+    "晟": {
+      "pinyin": "chéng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "晟"
+    },
+    "诗": {
+      "pinyin": "shī",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "詩"
+    },
+    "施": {
+      "pinyin": "shī",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "施"
+    },
+    "时": {
+      "pinyin": "shí",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "時"
+    },
+    "识": {
+      "pinyin": "shì",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "識"
+    },
+    "实": {
+      "pinyin": "shí",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "實"
+    },
+    "石": {
+      "pinyin": "shí",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "石"
+    },
+    "世": {
+      "pinyin": "shì",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "世"
+    },
+    "士": {
+      "pinyin": "shì",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "士"
+    },
+    "适": {
+      "pinyin": "shì",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "適"
+    },
+    "仕": {
+      "pinyin": "shì",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "仕"
+    },
+    "树": {
+      "pinyin": "shù",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "樹"
+    },
+    "舒": {
+      "pinyin": "shū",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "舒"
+    },
+    "抒": {
+      "pinyin": "shū",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "抒"
+    },
+    "书": {
+      "pinyin": "shū",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "書"
+    },
+    "姝": {
+      "pinyin": "shū",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "姝"
+    },
+    "淑": {
+      "pinyin": "shú",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "淑"
+    },
+    "殊": {
+      "pinyin": "shū",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "殊"
+    },
+    "纾": {
+      "pinyin": "shū",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "紓"
+    },
+    "朔": {
+      "pinyin": "shuò",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "朔"
+    },
+    "硕": {
+      "pinyin": "shuò",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "碩"
+    },
+    "思": {
+      "pinyin": "sī",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "思"
+    },
+    "斯": {
+      "pinyin": "sī",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "斯"
+    },
+    "司": {
+      "pinyin": "sī",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "司"
+    },
+    "松": {
+      "pinyin": "sōng",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "松"
+    },
+    "颂": {
+      "pinyin": "sòng",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "頌"
+    },
+    "苏": {
+      "pinyin": "sū",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "囌"
+    },
+    "素": {
+      "pinyin": "sù",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "素"
+    },
+    "肃": {
+      "pinyin": "sù",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "肅"
+    },
+    "穗": {
+      "pinyin": "suì",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "穗"
+    },
+    "岁": {
+      "pinyin": "suì",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "歲"
+    },
+    "隋": {
+      "pinyin": "suí",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "隋"
+    },
+    "遂": {
+      "pinyin": "suì",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "遂"
+    },
+    "孙": {
+      "pinyin": "sūn",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "孫"
+    },
+    "索": {
+      "pinyin": "suǒ",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "索"
+    },
+    "泰": {
+      "pinyin": "tài",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "泰"
+    },
+    "太": {
+      "pinyin": "tài",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "太"
+    },
+    "棠": {
+      "pinyin": "táng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "棠"
+    },
+    "涛": {
+      "pinyin": "tāo",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "濤"
+    },
+    "韬": {
+      "pinyin": "tāo",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "韜"
+    },
+    "陶": {
+      "pinyin": "táo",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "陶"
+    },
+    "桃": {
+      "pinyin": "táo",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "桃"
+    },
+    "特": {
+      "pinyin": "tè",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "特"
+    },
+    "腾": {
+      "pinyin": "téng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "騰"
+    },
+    "天": {
+      "pinyin": "tiān",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "天"
+    },
+    "田": {
+      "pinyin": "tián",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "田"
+    },
+    "恬": {
+      "pinyin": "tián",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "恬"
+    },
+    "甜": {
+      "pinyin": "tián",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "甜"
+    },
+    "庭": {
+      "pinyin": "tíng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "庭"
+    },
+    "廷": {
+      "pinyin": "tíng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "廷"
+    },
+    "婷": {
+      "pinyin": "tíng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "婷"
+    },
+    "霆": {
+      "pinyin": "tíng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "霆"
+    },
+    "同": {
+      "pinyin": "tòng",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "衕"
+    },
+    "彤": {
+      "pinyin": "tóng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "彤"
+    },
+    "桐": {
+      "pinyin": "tóng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "桐"
+    },
+    "童": {
+      "pinyin": "tóng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "童"
+    },
+    "瞳": {
+      "pinyin": "tóng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "瞳"
+    },
+    "宛": {
+      "pinyin": "wǎn",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "宛"
+    },
+    "婉": {
+      "pinyin": "wǎn",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "婉"
+    },
+    "琬": {
+      "pinyin": "wǎn",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "琬"
+    },
+    "万": {
+      "pinyin": "wàn",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "萬"
+    },
+    "望": {
+      "pinyin": "wàng",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "望"
+    },
+    "旺": {
+      "pinyin": "wàng",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "旺"
+    },
+    "威": {
+      "pinyin": "wēi",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "威"
+    },
+    "微": {
+      "pinyin": "wēi",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "微"
+    },
+    "薇": {
+      "pinyin": "wéi",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "薇"
+    },
+    "伟": {
+      "pinyin": "wěi",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "偉"
+    },
+    "纬": {
+      "pinyin": "wěi",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "緯"
+    },
+    "玮": {
+      "pinyin": "wěi",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "瑋"
+    },
+    "唯": {
+      "pinyin": "wéi",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "唯"
+    },
+    "惟": {
+      "pinyin": "wéi",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "惟"
+    },
+    "维": {
+      "pinyin": "wéi",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "維"
+    },
+    "韦": {
+      "pinyin": "wéi",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "韋"
+    },
+    "卫": {
+      "pinyin": "wèi",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "衛"
+    },
+    "蔚": {
+      "pinyin": "wèi",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "蔚"
+    },
+    "文": {
+      "pinyin": "wén",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "文"
+    },
+    "闻": {
+      "pinyin": "wén",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "聞"
+    },
+    "纹": {
+      "pinyin": "wén",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "紋"
+    },
+    "温": {
+      "pinyin": "wēn",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "溫"
+    },
+    "雯": {
+      "pinyin": "wén",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "雯"
+    },
+    "问": {
+      "pinyin": "wèn",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "問"
+    },
+    "稳": {
+      "pinyin": "wěn",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "穩"
+    },
+    "武": {
+      "pinyin": "wǔ",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "武"
+    },
+    "舞": {
+      "pinyin": "wǔ",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "舞"
+    },
+    "伍": {
+      "pinyin": "wǔ",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "伍"
+    },
+    "悟": {
+      "pinyin": "wù",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "悟"
+    },
+    "西": {
+      "pinyin": "xī",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "西"
+    },
+    "希": {
+      "pinyin": "xī",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "希"
+    },
+    "溪": {
+      "pinyin": "xī",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "溪"
+    },
+    "熙": {
+      "pinyin": "xī",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "熙"
+    },
+    "曦": {
+      "pinyin": "xī",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "曦"
+    },
+    "惜": {
+      "pinyin": "xí",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "惜"
+    },
+    "晰": {
+      "pinyin": "xī",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "晰"
+    },
+    "锡": {
+      "pinyin": "xí",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "錫"
+    },
+    "夕": {
+      "pinyin": "xì",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "夕"
+    },
+    "习": {
+      "pinyin": "xí",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "習"
+    },
+    "喜": {
+      "pinyin": "xǐ",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "喜"
+    },
+    "夏": {
+      "pinyin": "xià",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "夏"
+    },
+    "霞": {
+      "pinyin": "xiá",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "霞"
+    },
+    "仙": {
+      "pinyin": "xiān",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "仙"
+    },
+    "贤": {
+      "pinyin": "xián",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "賢"
+    },
+    "咸": {
+      "pinyin": "xián",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "鹹"
+    },
+    "先": {
+      "pinyin": "xiān",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "先"
+    },
+    "献": {
+      "pinyin": "xiàn",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "獻"
+    },
+    "湘": {
+      "pinyin": "xiāng",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "湘"
+    },
+    "香": {
+      "pinyin": "xiāng",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "香"
+    },
+    "祥": {
+      "pinyin": "xiáng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "祥"
+    },
+    "翔": {
+      "pinyin": "xiáng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "翔"
+    },
+    "想": {
+      "pinyin": "xiǎng",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "想"
+    },
+    "向": {
+      "pinyin": "xiàng",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "嚮"
+    },
+    "项": {
+      "pinyin": "xiàng",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "項"
+    },
+    "象": {
+      "pinyin": "xiàng",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "象"
+    },
+    "晓": {
+      "pinyin": "xiǎo",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "曉"
+    },
+    "萧": {
+      "pinyin": "xiāo",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "蕭"
+    },
+    "潇": {
+      "pinyin": "xiāo",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "瀟"
+    },
+    "箫": {
+      "pinyin": "xiāo",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "簫"
+    },
+    "小": {
+      "pinyin": "xiǎo",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "小"
+    },
+    "笑": {
+      "pinyin": "xiào",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "笑"
+    },
+    "欣": {
+      "pinyin": "xīn",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "欣"
+    },
+    "心": {
+      "pinyin": "xīn",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "心"
+    },
+    "辛": {
+      "pinyin": "xīn",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "辛"
+    },
+    "新": {
+      "pinyin": "xīn",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "新"
+    },
+    "馨": {
+      "pinyin": "xīn",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "馨"
+    },
+    "鑫": {
+      "pinyin": "xīn",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "鑫"
+    },
+    "信": {
+      "pinyin": "xìn",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "信"
+    },
+    "星": {
+      "pinyin": "xīng",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "星"
+    },
+    "兴": {
+      "pinyin": "xìng",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "興"
+    },
+    "杏": {
+      "pinyin": "xìng",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "杏"
+    },
+    "行": {
+      "pinyin": "xíng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "行"
+    },
+    "幸": {
+      "pinyin": "xìng",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "幸"
+    },
+    "修": {
+      "pinyin": "xiū",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "修"
+    },
+    "秀": {
+      "pinyin": "xiù",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "秀"
+    },
+    "旭": {
+      "pinyin": "xù",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "旭"
+    },
+    "序": {
+      "pinyin": "xù",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "序"
+    },
+    "叙": {
+      "pinyin": "xù",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "敘"
+    },
+    "绪": {
+      "pinyin": "xù",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "緒"
+    },
+    "轩": {
+      "pinyin": "xuān",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "軒"
+    },
+    "宣": {
+      "pinyin": "xuān",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "宣"
+    },
+    "萱": {
+      "pinyin": "xuān",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "萱"
+    },
+    "玄": {
+      "pinyin": "xuán",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "玄"
+    },
+    "旋": {
+      "pinyin": "xuàn",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "鏇"
+    },
+    "璇": {
+      "pinyin": "xuán",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "璇"
+    },
+    "选": {
+      "pinyin": "xuǎn",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "選"
+    },
+    "学": {
+      "pinyin": "xué",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "學"
+    },
+    "雪": {
+      "pinyin": "xuě",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "雪"
+    },
+    "勋": {
+      "pinyin": "xūn",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "勛"
+    },
+    "寻": {
+      "pinyin": "xún",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "尋"
+    },
+    "逊": {
+      "pinyin": "xùn",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "遜"
+    },
+    "迅": {
+      "pinyin": "xùn",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "迅"
+    },
+    "雅": {
+      "pinyin": "yǎ",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "雅"
+    },
+    "亚": {
+      "pinyin": "yà",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "亞"
+    },
+    "娅": {
+      "pinyin": "yà",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "婭"
+    },
+    "延": {
+      "pinyin": "yán",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "延"
+    },
+    "炎": {
+      "pinyin": "yán",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "炎"
+    },
+    "言": {
+      "pinyin": "yán",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "言"
+    },
+    "岩": {
+      "pinyin": "yán",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "岩"
+    },
+    "颜": {
+      "pinyin": "yán",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "顏"
+    },
+    "衍": {
+      "pinyin": "yǎn",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "衍"
+    },
+    "彦": {
+      "pinyin": "yàn",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "彥"
+    },
+    "研": {
+      "pinyin": "yán",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "研"
+    },
+    "妍": {
+      "pinyin": "yán",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "妍"
+    },
+    "晏": {
+      "pinyin": "yàn",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "晏"
+    },
+    "燕": {
+      "pinyin": "yàn",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "燕"
+    },
+    "雁": {
+      "pinyin": "yàn",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "雁"
+    },
+    "扬": {
+      "pinyin": "yáng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "揚"
+    },
+    "杨": {
+      "pinyin": "yáng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "楊"
+    },
+    "阳": {
+      "pinyin": "yáng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "陽"
+    },
+    "洋": {
+      "pinyin": "yáng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "洋"
+    },
+    "尧": {
+      "pinyin": "yáo",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "堯"
+    },
+    "遥": {
+      "pinyin": "yáo",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "遙"
+    },
+    "瑶": {
+      "pinyin": "yáo",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "瑤"
+    },
+    "耀": {
+      "pinyin": "yào",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "耀"
+    },
+    "曜": {
+      "pinyin": "yào",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "曜"
+    },
+    "叶": {
+      "pinyin": "yè",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "葉"
+    },
+    "烨": {
+      "pinyin": "yè",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "燁"
+    },
+    "怡": {
+      "pinyin": "yí",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "怡"
+    },
+    "宜": {
+      "pinyin": "yí",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "宜"
+    },
+    "依": {
+      "pinyin": "yī",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "依"
+    },
+    "仪": {
+      "pinyin": "yí",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "儀"
+    },
+    "伊": {
+      "pinyin": "yī",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "伊"
+    },
+    "颐": {
+      "pinyin": "yí",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "頤"
+    },
+    "毅": {
+      "pinyin": "yì",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "毅"
+    },
+    "奕": {
+      "pinyin": "yì",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "奕"
+    },
+    "逸": {
+      "pinyin": "yì",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "逸"
+    },
+    "易": {
+      "pinyin": "yì",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "易"
+    },
+    "翊": {
+      "pinyin": "yì",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "翊"
+    },
+    "意": {
+      "pinyin": "yì",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "意"
+    },
+    "益": {
+      "pinyin": "yì",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "益"
+    },
+    "义": {
+      "pinyin": "yì",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "義"
+    },
+    "艺": {
+      "pinyin": "yì",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "藝"
+    },
+    "亦": {
+      "pinyin": "yì",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "亦"
+    },
+    "译": {
+      "pinyin": "yì",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "譯"
+    },
+    "翌": {
+      "pinyin": "yì",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "翌"
+    },
+    "忆": {
+      "pinyin": "yì",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "憶"
+    },
+    "茵": {
+      "pinyin": "yīn",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "茵"
+    },
+    "殷": {
+      "pinyin": "yīn",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "殷"
+    },
+    "寅": {
+      "pinyin": "yín",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "寅"
+    },
+    "银": {
+      "pinyin": "yín",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "銀"
+    },
+    "音": {
+      "pinyin": "yīn",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "音"
+    },
+    "吟": {
+      "pinyin": "yín",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "吟"
+    },
+    "尹": {
+      "pinyin": "yǐn",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "尹"
+    },
+    "印": {
+      "pinyin": "yìn",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "印"
+    },
+    "英": {
+      "pinyin": "yīng",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "英"
+    },
+    "颖": {
+      "pinyin": "yǐng",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "穎"
+    },
+    "莹": {
+      "pinyin": "yíng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "瑩"
+    },
+    "莺": {
+      "pinyin": "yīng",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "鶯"
+    },
+    "盈": {
+      "pinyin": "yíng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "盈"
+    },
+    "迎": {
+      "pinyin": "yíng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "迎"
+    },
+    "映": {
+      "pinyin": "yìng",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "映"
+    },
+    "樱": {
+      "pinyin": "yīng",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "櫻"
+    },
+    "瑛": {
+      "pinyin": "yīng",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "瑛"
+    },
+    "滢": {
+      "pinyin": "yíng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "瀅"
+    },
+    "永": {
+      "pinyin": "yǒng",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "永"
+    },
+    "咏": {
+      "pinyin": "yǒng",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "詠"
+    },
+    "勇": {
+      "pinyin": "yǒng",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "勇"
+    },
+    "泳": {
+      "pinyin": "yǒng",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "泳"
+    },
+    "优": {
+      "pinyin": "yōu",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "優"
+    },
+    "悠": {
+      "pinyin": "yōu",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "悠"
+    },
+    "尤": {
+      "pinyin": "yóu",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "尤"
+    },
+    "由": {
+      "pinyin": "yóu",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "由"
+    },
+    "友": {
+      "pinyin": "yǒu",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "友"
+    },
+    "有": {
+      "pinyin": "yǒu",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "有"
+    },
+    "宥": {
+      "pinyin": "yòu",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "宥"
+    },
+    "佑": {
+      "pinyin": "yòu",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "佑"
+    },
+    "又": {
+      "pinyin": "yòu",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "又"
+    },
+    "幼": {
+      "pinyin": "yòu",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "幼"
+    },
+    "瑜": {
+      "pinyin": "yú",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "瑜"
+    },
+    "于": {
+      "pinyin": "yú",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "於"
+    },
+    "予": {
+      "pinyin": "yǔ",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "予"
+    },
+    "余": {
+      "pinyin": "yú",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "餘"
+    },
+    "俞": {
+      "pinyin": "yú",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "俞"
+    },
+    "渝": {
+      "pinyin": "yú",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "渝"
+    },
+    "愉": {
+      "pinyin": "yú",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "愉"
+    },
+    "榆": {
+      "pinyin": "yú",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "榆"
+    },
+    "虞": {
+      "pinyin": "yú",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "虞"
+    },
+    "羽": {
+      "pinyin": "yǔ",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "羽"
+    },
+    "宇": {
+      "pinyin": "yǔ",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "宇"
+    },
+    "语": {
+      "pinyin": "yǔ",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "語"
+    },
+    "雨": {
+      "pinyin": "yǔ",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "雨"
+    },
+    "禹": {
+      "pinyin": "yǔ",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "禹"
+    },
+    "玉": {
+      "pinyin": "yù",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "玉"
+    },
+    "育": {
+      "pinyin": "yù",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "育"
+    },
+    "昱": {
+      "pinyin": "yù",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "昱"
+    },
+    "煜": {
+      "pinyin": "yù",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "煜"
+    },
+    "誉": {
+      "pinyin": "yù",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "譽"
+    },
+    "毓": {
+      "pinyin": "yù",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "毓"
+    },
+    "豫": {
+      "pinyin": "yù",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "豫"
+    },
+    "郁": {
+      "pinyin": "yù",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "鬱"
+    },
+    "渊": {
+      "pinyin": "yuān",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "淵"
+    },
+    "元": {
+      "pinyin": "yuán",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "元"
+    },
+    "源": {
+      "pinyin": "yuán",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "源"
+    },
+    "园": {
+      "pinyin": "yuán",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "園"
+    },
+    "圆": {
+      "pinyin": "yuán",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "圓"
+    },
+    "媛": {
+      "pinyin": "yuàn",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "媛"
+    },
+    "缘": {
+      "pinyin": "yuán",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "緣"
+    },
+    "远": {
+      "pinyin": "yuǎn",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "遠"
+    },
+    "苑": {
+      "pinyin": "yuàn",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "苑"
+    },
+    "愿": {
+      "pinyin": "yuàn",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "願"
+    },
+    "岳": {
+      "pinyin": "yuè",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "岳"
+    },
+    "悦": {
+      "pinyin": "yuè",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "悅"
+    },
+    "越": {
+      "pinyin": "yuè",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "越"
+    },
+    "跃": {
+      "pinyin": "yuè",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "躍"
+    },
+    "月": {
+      "pinyin": "yuè",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "月"
+    },
+    "玥": {
+      "pinyin": "yuè",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "玥"
+    },
+    "云": {
+      "pinyin": "yún",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "雲"
+    },
+    "芸": {
+      "pinyin": "yún",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "蕓"
+    },
+    "昀": {
+      "pinyin": "yún",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "昀"
+    },
+    "允": {
+      "pinyin": "yǔn",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "允"
+    },
+    "运": {
+      "pinyin": "yùn",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "運"
+    },
+    "韵": {
+      "pinyin": "yùn",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "韻"
+    },
+    "耘": {
+      "pinyin": "yún",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "耘"
+    },
+    "泽": {
+      "pinyin": "zé",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "澤"
+    },
+    "则": {
+      "pinyin": "zé",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "則"
+    },
+    "增": {
+      "pinyin": "zēng",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "增"
+    },
+    "展": {
+      "pinyin": "zhǎn",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "展"
+    },
+    "湛": {
+      "pinyin": "zhàn",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "湛"
+    },
+    "章": {
+      "pinyin": "zhāng",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "章"
+    },
+    "璋": {
+      "pinyin": "zhāng",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "璋"
+    },
+    "彰": {
+      "pinyin": "zhāng",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "彰"
+    },
+    "樟": {
+      "pinyin": "zhāng",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "樟"
+    },
+    "昭": {
+      "pinyin": "zhāo",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "昭"
+    },
+    "兆": {
+      "pinyin": "zhào",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "兆"
+    },
+    "照": {
+      "pinyin": "zhào",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "照"
+    },
+    "哲": {
+      "pinyin": "zhé",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "哲"
+    },
+    "浙": {
+      "pinyin": "zhè",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "浙"
+    },
+    "珍": {
+      "pinyin": "zhēn",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "珍"
+    },
+    "真": {
+      "pinyin": "zhēn",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "真"
+    },
+    "贞": {
+      "pinyin": "zhēn",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "貞"
+    },
+    "臻": {
+      "pinyin": "zhēn",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "臻"
+    },
+    "甄": {
+      "pinyin": "zhēn",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "甄"
+    },
+    "祯": {
+      "pinyin": "zhēn",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "禎"
+    },
+    "振": {
+      "pinyin": "zhèn",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "振"
+    },
+    "震": {
+      "pinyin": "zhèn",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "震"
+    },
+    "镇": {
+      "pinyin": "zhèn",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "鎮"
+    },
+    "正": {
+      "pinyin": "zhèng",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "正"
+    },
+    "政": {
+      "pinyin": "zhèng",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "政"
+    },
+    "之": {
+      "pinyin": "zhī",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "之"
+    },
+    "芝": {
+      "pinyin": "zhī",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "芝"
+    },
+    "知": {
+      "pinyin": "zhī",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "知"
+    },
+    "枝": {
+      "pinyin": "zhī",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "枝"
+    },
+    "直": {
+      "pinyin": "zhí",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "直"
+    },
+    "植": {
+      "pinyin": "zhí",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "植"
+    },
+    "芷": {
+      "pinyin": "zhǐ",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "芷"
+    },
+    "志": {
+      "pinyin": "zhì",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "誌"
+    },
+    "至": {
+      "pinyin": "zhì",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "至"
+    },
+    "智": {
+      "pinyin": "zhì",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "智"
+    },
+    "致": {
+      "pinyin": "zhì",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "緻"
+    },
+    "仲": {
+      "pinyin": "zhòng",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "仲"
+    },
+    "中": {
+      "pinyin": "zhōng",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "中"
+    },
+    "忠": {
+      "pinyin": "zhōng",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "忠"
+    },
+    "钟": {
+      "pinyin": "zhōng",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "鍾"
+    },
+    "众": {
+      "pinyin": "zhòng",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "眾"
+    },
+    "舟": {
+      "pinyin": "zhōu",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "舟"
+    },
+    "洲": {
+      "pinyin": "zhōu",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "洲"
+    },
+    "周": {
+      "pinyin": "zhōu",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "周"
+    },
+    "宙": {
+      "pinyin": "zhòu",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "宙"
+    },
+    "珠": {
+      "pinyin": "zhū",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "珠"
+    },
+    "竹": {
+      "pinyin": "zhú",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "竹"
+    },
+    "竺": {
+      "pinyin": "zhú",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "竺"
+    },
+    "卓": {
+      "pinyin": "zhuó",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "卓"
+    },
+    "灼": {
+      "pinyin": "zhuó",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "灼"
+    },
+    "茁": {
+      "pinyin": "zhuó",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "茁"
+    },
+    "梓": {
+      "pinyin": "zǐ",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "梓"
+    },
+    "子": {
+      "pinyin": "zǐ",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "子"
+    },
+    "紫": {
+      "pinyin": "zǐ",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "紫"
+    },
+    "姿": {
+      "pinyin": "zī",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "姿"
+    },
+    "宗": {
+      "pinyin": "zōng",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "宗"
+    },
+    "祖": {
+      "pinyin": "zǔ",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "祖"
+    },
+    "佐": {
+      "pinyin": "zuǒ",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "佐"
+    },
+    "左": {
+      "pinyin": "zuǒ",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "左"
+    },
+    "作": {
+      "pinyin": "zuò",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "作"
+    },
+    "祚": {
+      "pinyin": "zuò",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "祚"
+    },
+    "芃": {
+      "pinyin": "péng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "芃"
+    },
+    "燊": {
+      "pinyin": "shēn",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "燊"
+    },
+    "祎": {
+      "pinyin": "yī",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "禕"
+    },
+    "瑄": {
+      "pinyin": "xuān",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "瑄"
+    },
+    "璨": {
+      "pinyin": "càn",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "璨"
+    },
+    "粲": {
+      "pinyin": "càn",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "粲"
+    },
+    "黛": {
+      "pinyin": "dài",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "黛"
+    },
+    "偲": {
+      "pinyin": "sī",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "偲"
+    },
+    "谧": {
+      "pinyin": "mì",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "謐"
+    },
+    "麒": {
+      "pinyin": "qí",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "麒"
+    },
+    "骞": {
+      "pinyin": "qiān",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "騫"
+    },
+    "穹": {
+      "pinyin": "qióng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "穹"
+    },
+    "蕤": {
+      "pinyin": "ruí",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "蕤"
+    },
+    "菘": {
+      "pinyin": "sōng",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "菘"
+    },
+    "澍": {
+      "pinyin": "shù",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "澍"
+    },
+    "绥": {
+      "pinyin": "suí",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "綏"
+    },
+    "筱": {
+      "pinyin": "xiǎo",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "筱"
+    },
+    "歆": {
+      "pinyin": "xīn",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "歆"
+    },
+    "熹": {
+      "pinyin": "xī",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "熹"
+    },
+    "羲": {
+      "pinyin": "xī",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "羲"
+    },
+    "娴": {
+      "pinyin": "xián",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "嫻"
+    },
+    "泱": {
+      "pinyin": "yāng",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "泱"
+    },
+    "漪": {
+      "pinyin": "yī",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "漪"
+    },
+    "弈": {
+      "pinyin": "yì",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "弈"
+    },
+    "怿": {
+      "pinyin": "yì",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "懌"
+    },
+    "颍": {
+      "pinyin": "yǐng",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "潁"
+    },
+    "雍": {
+      "pinyin": "yōng",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "雍"
+    },
+    "攸": {
+      "pinyin": "yōu",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "攸"
+    },
+    "淯": {
+      "pinyin": "yù",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "淯"
+    },
+    "缨": {
+      "pinyin": "yīng",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "纓"
+    },
+    "苒": {
+      "pinyin": "rǎn",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "苒"
+    },
+    "珩": {
+      "pinyin": "héng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "珩"
+    },
+    "蘅": {
+      "pinyin": "héng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "蘅"
+    },
+    "菡": {
+      "pinyin": "hàn",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "菡"
+    },
+    "颢": {
+      "pinyin": "hào",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "顥"
+    },
+    "琰": {
+      "pinyin": "yǎn",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "琰"
+    },
+    "燚": {
+      "pinyin": "yì",
+      "tone": 4,
+      "sourceId": "wiktionary-zh",
+      "dictionaryWord": "燚"
+    },
+    "暘": {
+      "pinyin": "yáng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "暘"
+    },
+    "柠": {
+      "pinyin": "níng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "檸"
+    },
+    "桉": {
+      "pinyin": "àn",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "桉"
+    },
+    "槿": {
+      "pinyin": "jǐn",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "槿"
+    },
+    "栎": {
+      "pinyin": "lì",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "櫟"
+    },
+    "晞": {
+      "pinyin": "xī",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "晞"
+    },
+    "璠": {
+      "pinyin": "fán",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "璠"
+    },
+    "璘": {
+      "pinyin": "lín",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "璘"
+    },
+    "筠": {
+      "pinyin": "yún",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "筠"
+    },
+    "箐": {
+      "pinyin": "jīng",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "箐"
+    },
+    "聿": {
+      "pinyin": "yù",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "聿"
+    },
+    "琮": {
+      "pinyin": "cóng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "琮"
+    },
+    "珉": {
+      "pinyin": "mín",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "珉"
+    },
+    "厚": {
+      "pinyin": "hòu",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "厚"
+    },
+    "自": {
+      "pinyin": "zì",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "自"
+    },
+    "强": {
+      "pinyin": "qiáng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "強"
+    },
+    "升": {
+      "pinyin": "shēng",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "升"
+    },
+    "慎": {
+      "pinyin": "shèn",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "慎"
+    }
+  },
+  "defaultSenseMap": {
+    "仁": "仁爱",
+    "和": "和美",
+    "宁": "安宁",
+    "安": "平安",
+    "嘉": "美好",
+    "知": "求知",
+    "明": "明朗",
+    "清": "清澈",
+    "澄": "澄明",
+    "远": "志向",
+    "志": "志向",
+    "怀": "胸怀",
+    "德": "品德",
+    "礼": "礼仪",
+    "文": "文采",
+    "雅": "典雅",
+    "书": "书香",
+    "言": "诚信",
+    "诚": "诚信",
+    "信": "诚信",
+    "修": "修养",
+    "思": "思辨",
+    "睿": "睿智",
+    "慧": "智慧",
+    "智": "智慧",
+    "朗": "开朗",
+    "悦": "喜悦",
+    "乐": "快乐",
+    "欣": "欣悦",
+    "昕": "晨光",
+    "晨": "晨光",
+    "曦": "晨光",
+    "昭": "光明",
+    "景": "光明与景致",
+    "霁": "晴朗",
+    "晴": "晴朗",
+    "雨": "润泽",
+    "泽": "润泽",
+    "润": "润泽",
+    "涵": "涵养",
+    "溪": "清流",
+    "川": "开阔",
+    "山": "沉稳",
+    "岳": "沉稳",
+    "松": "坚韧",
+    "柏": "坚韧",
+    "竹": "气节",
+    "兰": "清雅",
+    "芷": "芳洁",
+    "若": "从容",
+    "予": "给予",
+    "以": "持守",
+    "允": "公允",
+    "攸": "悠然",
+    "行": "笃行",
+    "序": "有序",
+    "衡": "平衡",
+    "璟": "玉光",
+    "瑾": "美德",
+    "瑜": "美玉",
+    "珩": "玉佩",
+    "玥": "珍爱",
+    "士": "修身志业",
+    "光": "光明",
+    "月": "清辉",
+    "夕": "宁静时光",
+    "巧": "聪慧",
+    "星": "星光",
+    "阳": "向阳",
+    "桐": "挺拔",
+    "梓": "生长",
+    "林": "蓬勃",
+    "森": "生机",
+    "楠": "坚实",
+    "榆": "坚韧",
+    "枫": "丰茂",
+    "槿": "生机",
+    "榕": "荫庇",
+    "柳": "柔韧",
+    "桃": "生机",
+    "梅": "坚贞",
+    "杏": "春意",
+    "荷": "清雅",
+    "莲": "芳洁",
+    "苒": "生长",
+    "茵": "芳草",
+    "茉": "芳香",
+    "菲": "芳菲",
+    "菁": "精华",
+    "萱": "喜悦",
+    "薇": "清新",
+    "芙": "秀雅",
+    "芊": "葱茏",
+    "芳": "芳洁",
+    "芸": "书香",
+    "芮": "初生",
+    "蕙": "兰心",
+    "蓉": "清雅",
+    "穗": "丰收",
+    "禾": "生长",
+    "稷": "丰足",
+    "秋": "收获",
+    "春": "新生",
+    "冬": "坚韧",
+    "夏": "热忱",
+    "雪": "澄净",
+    "霖": "甘霖",
+    "云": "高远",
+    "霞": "明丽",
+    "露": "清润",
+    "汐": "潮汐",
+    "沐": "润泽",
+    "沅": "清流",
+    "汀": "水岸",
+    "沛": "充沛",
+    "浩": "浩然",
+    "洋": "开阔",
+    "涛": "气度",
+    "海": "宽广",
+    "澜": "波澜",
+    "泉": "清润",
+    "渊": "深厚",
+    "泓": "深广",
+    "沁": "清新",
+    "淳": "敦厚",
+    "淇": "清流",
+    "淑": "善美",
+    "洪": "宽广",
+    "源": "本源",
+    "逸": "从容",
+    "达": "通达",
+    "谦": "谦和",
+    "谨": "谨慎",
+    "敏": "聪敏",
+    "颖": "颖悟",
+    "勤": "勤勉",
+    "坚": "坚定",
+    "毅": "坚毅",
+    "勇": "勇气",
+    "善": "善意",
+    "恩": "感恩",
+    "恺": "和乐",
+    "恬": "安然",
+    "怡": "愉悦",
+    "悠": "从容",
+    "亦": "相承",
+    "可": "可期",
+    "如": "如愿",
+    "兮": "古典音韵",
+    "之": "相承",
+    "成": "成就",
+    "立": "自立",
+    "建": "建树",
+    "启": "启迪",
+    "新": "创新",
+    "承": "承继",
+    "绍": "传承",
+    "继": "接续",
+    "维": "维系",
+    "宥": "宽容",
+    "宸": "深邃",
+    "宇": "气度",
+    "宙": "辽远",
+    "宏": "宏阔",
+    "博": "博学",
+    "硕": "丰实",
+    "鸿": "高远",
+    "鹏": "远志",
+    "鹤": "高洁",
+    "鹿": "灵动",
+    "麟": "祥瑞",
+    "麒": "祥瑞",
+    "瑞": "祥瑞",
+    "祺": "安吉",
+    "福": "福泽",
+    "泰": "安泰",
+    "康": "安康",
+    "健": "健康",
+    "慈": "仁慈",
+    "济": "济人",
+    "玉": "温润",
+    "琼": "美玉",
+    "琳": "美玉",
+    "瑶": "美玉",
+    "琬": "温润",
+    "琰": "玉光",
+    "琪": "珍美",
+    "珂": "玉声",
+    "珞": "珠玉",
+    "瑗": "美玉",
+    "珍": "珍爱",
+    "珠": "珍美",
+    "钰": "珍宝",
+    "锦": "美好前程",
+    "铭": "铭记",
+    "铮": "正直",
+    "钧": "公正",
+    "锐": "进取",
+    "锋": "锐意",
+    "镇": "安定",
+    "坤": "厚德",
+    "垚": "厚重",
+    "城": "坚实",
+    "垣": "守护",
+    "堇": "质朴",
+    "培": "培育",
+    "昊": "广阔",
+    "晗": "晨光",
+    "暄": "和暖",
+    "煦": "和暖",
+    "熙": "光明",
+    "熹": "微明",
+    "炜": "光彩",
+    "烨": "光华",
+    "灿": "灿然",
+    "炫": "光彩",
+    "曜": "光耀",
+    "煜": "照耀",
+    "焕": "焕然",
+    "烁": "闪耀",
+    "熠": "明亮",
+    "哲": "明哲",
+    "卓": "卓然",
+    "俊": "才俊",
+    "杰": "杰出",
+    "英": "英华",
+    "雄": "雄健",
+    "秀": "秀雅",
+    "尚": "崇尚",
+    "正": "正直",
+    "直": "正直",
+    "端": "端正",
+    "方": "方正",
+    "平": "平和",
+    "朝": "晨光与新生",
+    "长": "长远与持久",
+    "微": "见微知著的细察",
+    "然": "从容自然",
+    "厚": "敦厚",
+    "强": "自强",
+    "育": "涵育",
+    "懿": "美德",
+    "含": "蕴藏",
+    "章": "文采",
+    "升": "向上成长",
+    "恒": "恒心",
+    "益": "增益",
+    "心": "诚心",
+    "慎": "谨慎",
+    "敬": "敬慎",
+    "柔": "柔和",
+    "吉": "美好",
+    "贞": "守正",
+    "自": "自省自勉"
+  },
+  "naturalPairs": [
+    "安宁",
+    "安然",
+    "安和",
+    "安予",
+    "安澄",
+    "安晴",
+    "安悦",
+    "安恬",
+    "安雅",
+    "予安",
+    "予宁",
+    "若安",
+    "若宁",
+    "若晴",
+    "若和",
+    "宁远",
+    "宁和",
+    "宁清",
+    "宁书",
+    "宁知",
+    "书宁",
+    "书安",
+    "思宁",
+    "思安",
+    "知安",
+    "知宁",
+    "明安",
+    "亦安",
+    "以宁",
+    "以安",
+    "一宁",
+    "一安",
+    "允安",
+    "允宁",
+    "承安",
+    "承宁",
+    "嘉宁",
+    "嘉安",
+    "嘉和",
+    "靖安",
+    "靖宁",
+    "宥宁",
+    "宥安",
+    "乐安",
+    "乐宁",
+    "恬宁",
+    "清宁",
+    "清和",
+    "清安",
+    "平安",
+    "和宁",
+    "和安",
+    "泰安",
+    "康宁",
+    "知远",
+    "知新",
+    "知行",
+    "知礼",
+    "知言",
+    "知微",
+    "知衡",
+    "知夏",
+    "知书",
+    "知然",
+    "知明",
+    "知予",
+    "思齐",
+    "思远",
+    "思源",
+    "思睿",
+    "思澄",
+    "思明",
+    "思言",
+    "思予",
+    "思礼",
+    "思成",
+    "思哲",
+    "思和",
+    "思乐",
+    "明哲",
+    "明睿",
+    "明远",
+    "明礼",
+    "明知",
+    "明澄",
+    "明朗",
+    "明轩",
+    "博文",
+    "博雅",
+    "博知",
+    "博言",
+    "博远",
+    "博宁",
+    "睿知",
+    "睿思",
+    "慧宁",
+    "慧言",
+    "书言",
+    "书禾",
+    "书远",
+    "书予",
+    "书雅",
+    "文知",
+    "文远",
+    "文清",
+    "文雅",
+    "文宁",
+    "文礼",
+    "学思",
+    "启明",
+    "启知",
+    "启文",
+    "启宁",
+    "致远",
+    "修远",
+    "修齐",
+    "修文",
+    "修宁",
+    "怀知",
+    "怀安",
+    "怀仁",
+    "嘉言",
+    "嘉禾",
+    "嘉树",
+    "嘉木",
+    "嘉泽",
+    "嘉澄",
+    "嘉悦",
+    "嘉仪",
+    "嘉礼",
+    "嘉文",
+    "嘉知",
+    "嘉景",
+    "允和",
+    "允知",
+    "允文",
+    "允礼",
+    "允诚",
+    "允言",
+    "承泽",
+    "承知",
+    "承文",
+    "承远",
+    "承言",
+    "予和",
+    "予澄",
+    "予晴",
+    "予知",
+    "予书",
+    "予嘉",
+    "景明",
+    "景和",
+    "景宁",
+    "景行",
+    "景初",
+    "景澄",
+    "清扬",
+    "清越",
+    "清朗",
+    "清雅",
+    "清言",
+    "清知",
+    "澄明",
+    "澄宁",
+    "澄心",
+    "亦宁",
+    "亦知",
+    "亦清",
+    "亦然",
+    "亦和",
+    "亦嘉",
+    "以文",
+    "以知",
+    "以诚",
+    "以和",
+    "怀瑾",
+    "怀瑜",
+    "怀德",
+    "怀远",
+    "怀信",
+    "怀谦",
+    "仁安",
+    "仁和",
+    "仁知",
+    "仁礼",
+    "仁雅",
+    "礼安",
+    "礼知",
+    "礼和",
+    "言知",
+    "言安",
+    "言宁",
+    "言清",
+    "言和",
+    "言诚",
+    "德宁",
+    "德安",
+    "德言",
+    "德知",
+    "谦和",
+    "谦宁",
+    "谦远",
+    "谨言",
+    "谨宁",
+    "谨知",
+    "诚安",
+    "诚知",
+    "诚宁",
+    "信安",
+    "信言",
+    "和光",
+    "和雅",
+    "和畅",
+    "和悦",
+    "星澄",
+    "星宁",
+    "星言",
+    "星予",
+    "星禾",
+    "星然",
+    "星知",
+    "星远",
+    "晨安",
+    "晨宁",
+    "晨知",
+    "晨澄",
+    "晨予",
+    "晴川",
+    "晴安",
+    "晴宁",
+    "晴知",
+    "霁月",
+    "霁宁",
+    "霁晴",
+    "云舒",
+    "云知",
+    "云澄",
+    "云宁",
+    "云舟",
+    "雨禾",
+    "雨晴",
+    "雨霁",
+    "雨澄",
+    "沐安",
+    "沐宁",
+    "沐言",
+    "沐知",
+    "沐晴",
+    "沐禾",
+    "泽安",
+    "泽宁",
+    "泽知",
+    "泽言",
+    "涵知",
+    "涵宁",
+    "涵文",
+    "溪宁",
+    "溪言",
+    "溪知",
+    "溪禾",
+    "川宁",
+    "川知",
+    "川和",
+    "林溪",
+    "林知",
+    "林宁",
+    "松宁",
+    "松言",
+    "柏宁",
+    "柏言",
+    "梓宁",
+    "梓安",
+    "梓言",
+    "梓知",
+    "桐宁",
+    "桐安",
+    "桐知",
+    "禾宁",
+    "禾安",
+    "禾知",
+    "禾言",
+    "竹宁",
+    "竹安",
+    "竹知",
+    "竹言",
+    "兰宁",
+    "兰知",
+    "兰清",
+    "芷宁",
+    "芷安",
+    "芷言",
+    "若溪",
+    "若澄",
+    "若知",
+    "若言",
+    "若初",
+    "若舟",
+    "初宁",
+    "初安",
+    "初言",
+    "初知",
+    "初禾",
+    "南知",
+    "南宁",
+    "南星",
+    "南乔",
+    "时安",
+    "时宁",
+    "时知",
+    "时予",
+    "昕宁",
+    "昕知",
+    "昕予",
+    "昭宁",
+    "昭知",
+    "昭言",
+    "朗宁",
+    "朗知",
+    "昊宁",
+    "昊文",
+    "熙宁",
+    "熙和",
+    "熙知",
+    "煦宁",
+    "煦知",
+    "瑾宁",
+    "瑾言",
+    "瑾知",
+    "瑾安",
+    "瑜宁",
+    "瑜安",
+    "瑜知",
+    "琬宁",
+    "琬言",
+    "琬清",
+    "明德",
+    "德明",
+    "厚德",
+    "自强",
+    "育德",
+    "文德",
+    "含章",
+    "允升",
+    "惠心",
+    "永贞",
+    "婉清",
+    "宁安",
+    "和乐",
+    "乐和",
+    "淑慎",
+    "令德",
+    "令仪",
+    "攸宁",
+    "柔嘉",
+    "德音",
+    "昭明",
+    "景福",
+    "如山",
+    "温恭",
+    "纯熙",
+    "德纯",
+    "柔惠",
+    "惠直",
+    "修德",
+    "继明",
+    "贤德",
+    "明时",
+    "丽泽",
+    "谦谦",
+    "鸣谦",
+    "行健",
+    "琼瑶",
+    "静姝",
+    "佩玉",
+    "和鸣",
+    "邦彦"
+  ],
+  "projectTags": [
+    "常用命名字候选",
+    "明朗",
+    "玉石珍宝",
+    "美德",
+    "自然草木"
+  ],
+  "dictionarySenseEvidence": [
+    {
+      "char": "朝",
+      "pinyin": "zhāo",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "朝",
+      "quotedSense": "早晨。"
+    },
+    {
+      "char": "长",
+      "pinyin": "cháng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "長",
+      "quotedSense": "時間久遠。與「短」相對。"
+    },
+    {
+      "char": "乐",
+      "pinyin": "lè",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "樂",
+      "quotedSense": "歡喜、愉悅。"
+    },
+    {
+      "char": "行",
+      "pinyin": "xíng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "行",
+      "quotedSense": "做、從事。"
+    },
+    {
+      "char": "微",
+      "pinyin": "wēi",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "微",
+      "quotedSense": "精妙幽深。"
+    },
+    {
+      "char": "然",
+      "pinyin": "rán",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "然",
+      "quotedSense": "形容詞或副詞詞尾。"
+    },
+    {
+      "char": "厚",
+      "pinyin": "hòu",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "厚",
+      "quotedSense": "不刻薄的。"
+    },
+    {
+      "char": "强",
+      "pinyin": "qiáng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "強",
+      "quotedSense": "加強。"
+    },
+    {
+      "char": "升",
+      "pinyin": "shēng",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "升",
+      "quotedSense": "由下而上。"
+    },
+    {
+      "char": "慎",
+      "pinyin": "shèn",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "慎",
+      "quotedSense": "小心。"
+    },
+    {
+      "char": "松",
+      "pinyin": "sōng",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "松",
+      "quotedSense": "松科植物的總稱。種類極多，一般為常綠喬木。幹聳直，皮粗厚，葉如針，花單性，結毬果，木材用途甚廣，可供醫藥和工藝用。"
+    },
+    {
+      "char": "自",
+      "pinyin": "zì",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "自",
+      "quotedSense": "己身。"
+    }
+  ]
+}

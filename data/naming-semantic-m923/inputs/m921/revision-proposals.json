@@ -1,0 +1,95 @@
+{
+  "schema": "m921-editorial-revisions/1",
+  "version": "m921-character-meaning-publication/1.0.0-candidate.1",
+  "admissionGranted": false,
+  "status": "pending-independent-decision",
+  "rows": [
+    {
+      "candidateCaseId": "m914-naming-data:川:47214:0:0",
+      "char": "川",
+      "sourceClassification": "general",
+      "independentDisposition": "migration-hold",
+      "sourceMeaning": "取河流延展、清流向前的自然意象。",
+      "proposedMeaning": "取河流的自然意象。",
+      "sourceDefinition": {
+        "def": "河流。",
+        "example": [
+          "如：「河川」。"
+        ],
+        "quote": [
+          "《論語．子罕》：「子在川上曰：『逝者如斯夫，不舍晝夜。』」"
+        ],
+        "type": "名"
+      },
+      "sourceDefinitionSha256": "a4b51c7c4a111570671734a160e04bfba8c87400bb9039005986007097998fbe",
+      "pinyin": "chuān",
+      "tone": 1,
+      "definitionCoordinate": {
+        "rawEntryIndex": 47214,
+        "rawHeteronymIndex": 0,
+        "rawDefinitionIndex": 0
+      },
+      "status": "pending-independent-decision",
+      "decisionId": null,
+      "admissionGranted": false,
+      "generationEligibilityGranted": false,
+      "activation": "off"
+    },
+    {
+      "candidateCaseId": "m914-naming-data:方:69546:0:1",
+      "char": "方",
+      "sourceClassification": "pending",
+      "independentDisposition": "source-pending",
+      "sourceMeaning": "取区域、空间与方向的意象。",
+      "proposedMeaning": "取区域的空间意象。",
+      "sourceDefinition": {
+        "def": "區域。",
+        "example": [
+          "如：「地方」、「遠方」。"
+        ],
+        "type": "名"
+      },
+      "sourceDefinitionSha256": "8a6c3532f91651c46a8a38a61a4de74793c7bcaaaeb4c7930064346e13060fe8",
+      "pinyin": "fāng",
+      "tone": 1,
+      "definitionCoordinate": {
+        "rawEntryIndex": 69546,
+        "rawHeteronymIndex": 0,
+        "rawDefinitionIndex": 1
+      },
+      "status": "pending-independent-decision",
+      "decisionId": null,
+      "admissionGranted": false,
+      "generationEligibilityGranted": false,
+      "activation": "off"
+    },
+    {
+      "candidateCaseId": "m914-naming-data:锋:146581:0:1",
+      "char": "锋",
+      "sourceClassification": "pending",
+      "independentDisposition": "source-pending",
+      "sourceMeaning": "取器物尖端、边缘与清晰界面的意象。",
+      "proposedMeaning": "取器物尖端部分的意象。",
+      "sourceDefinition": {
+        "def": "泛指器物的尖端部分。",
+        "example": [
+          "如：「筆鋒」、「針鋒」。"
+        ],
+        "type": "名"
+      },
+      "sourceDefinitionSha256": "4f998933d603f77558007bf3c8bc7103b2b3fa174575183c4d658a1d9b512c45",
+      "pinyin": "fēng",
+      "tone": 1,
+      "definitionCoordinate": {
+        "rawEntryIndex": 146581,
+        "rawHeteronymIndex": 0,
+        "rawDefinitionIndex": 1
+      },
+      "status": "pending-independent-decision",
+      "decisionId": null,
+      "admissionGranted": false,
+      "generationEligibilityGranted": false,
+      "activation": "off"
+    }
+  ]
+}

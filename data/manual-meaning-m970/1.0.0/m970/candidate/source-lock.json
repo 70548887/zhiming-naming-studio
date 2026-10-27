@@ -1,0 +1,134 @@
+{
+  "schema": "m970-candidate-source-lock/1",
+  "batchId": "M970-DATA",
+  "version": "1.0.0-candidate.1",
+  "rawMOEFile": "D:/Codex-NamingStudio-Evidence/m768-next-integration/data/raw/moe-revised.json.gz",
+  "rawMOESha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+  "referenceDataCommit": "f8e272b1b0d077019ca2d267709378df17e405d9",
+  "inputPins": [
+    {
+      "file": "D:\\Codex-NamingStudio-Evidence\\m768-next-integration\\data\\dataset-v6.json",
+      "bytes": 1563457,
+      "sha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728"
+    },
+    {
+      "file": "D:\\Codex-NamingStudio-Evidence\\m768-next-integration\\data\\naming-editorial-v7.json",
+      "bytes": 1301005,
+      "sha256": "392fa47441a0c410b0903c3e85853081225a1a5e9f540b5467e4ea4e2151cc48"
+    },
+    {
+      "file": "D:\\Codex-NamingStudio-Evidence\\m768-next-integration\\data\\naming-editorial-v4.json",
+      "bytes": 380418,
+      "sha256": "d24898eb63438d7b24262668eb3b36770f211fade015b28eeb361700a58ca6ce"
+    },
+    {
+      "file": "D:\\Codex-NamingStudio-Evidence\\m768-next-integration\\data\\naming-editorial-v5.json",
+      "bytes": 65361,
+      "sha256": "bb8d3d255b42a6b67932988e13ceb2d7a7a1c6ef8fbbcc65312b9a50b5519da8"
+    },
+    {
+      "file": "D:\\Codex-NamingStudio-Evidence\\m768-next-integration\\data\\naming-editorial-v6.json",
+      "bytes": 109426,
+      "sha256": "35de5f749f438e849543e5fde6e405b89ba01cba20597e82e7c4f518dd4363ab"
+    },
+    {
+      "file": "D:/Codex-NamingStudio-Evidence/m768-next-integration/data/naming-character-meanings-v71-m460-b02-profile.json",
+      "bytes": 419345,
+      "sha256": "2c4be917bbfcdc3fec9279b2d9d928f5215e6ee1386d60e7d62265cd8e3eb2d1"
+    },
+    {
+      "file": "D:/Codex-NamingStudio-Evidence/m768-next-integration/data/naming-semantic-m923/admission-records.json",
+      "bytes": 306320,
+      "sha256": "a4d529327ab8a0245da15f9479644bb6bb391ed3dba1bbe56b4a525a2308f753"
+    },
+    {
+      "file": "D:/Codex-NamingStudio-Evidence/m610-meaning-next/selection.json",
+      "bytes": 1519,
+      "sha256": "fe640e4f9922040d0dbe837c7e5cbe78b05540e54f99cdd9b12f1576bf08ba4c"
+    },
+    {
+      "file": "D:/Codex-NamingStudio-Evidence/m616-reading-meanings/selection.json",
+      "bytes": 2722,
+      "sha256": "b04a39332842590a704bbb49bf086e0e865e4734c7b553965870d2241dff4add"
+    },
+    {
+      "file": "D:/Codex-NamingStudio-Evidence/m690-meanings-batch-next/selection.json",
+      "bytes": 7988,
+      "sha256": "34d558fc14e849215bbaa3d0a4ad0ba60b159da1ccf3585011042ae65de2cd5a"
+    },
+    {
+      "file": "D:/Codex-NamingStudio-Evidence/m740-character-meanings/selection.json",
+      "bytes": 4417,
+      "sha256": "cb37e6d32afd84dcad963e7b7edd8ad2dbff5b7d19ac301196c66905c25bca1e"
+    },
+    {
+      "file": "D:/Codex-NamingStudio-Evidence/m875-next-character-meanings/candidates/m875-character-meanings/selection.json",
+      "bytes": 12138,
+      "sha256": "7340f84f66378c69d571effa62c0fd50114b22022b6124f30e04e9ae09023a2e"
+    },
+    {
+      "file": "D:/Codex-NamingStudio-Evidence/m910-naming-data-batch/selection.json",
+      "bytes": 23959,
+      "sha256": "6019bf2c7bc170af093c5bf6458e798968f63a6c03dd09b24dc35abb6fd4948f"
+    },
+    {
+      "file": "D:/Codex-NamingStudio-Evidence/m914-naming-data/work/candidates/m914-naming-data/selection.json",
+      "bytes": 66093,
+      "sha256": "b7e6d8bbf2ca13c086f781763e6b74ffb344f5585561be43b1a5705871e7bdf5"
+    },
+    {
+      "file": "D:/Codex-NamingStudio-Evidence/m768-next-integration/data/meaning-context-v1-1.json",
+      "bytes": 403708,
+      "sha256": "424e8b6ca9a920c8b707ac267db9609bee900a5389b3659256b4c71ad71b378d"
+    },
+    {
+      "file": "E:/八卦周易/.local/longterm-groups/naming-data/M460-b04/plans.json",
+      "bytes": 9617,
+      "sha256": "98a516317585894c79b462bddec946f3597eede994812f0ba1d2ee2bffaf6a23"
+    },
+    {
+      "file": "E:/八卦周易/.local/longterm-groups/naming-data/M460-b05/plans.json",
+      "bytes": 8834,
+      "sha256": "7f5fc68b52396b479a8fe11f1c25aa404f6c8f35dd75082f61addaea020e093b"
+    },
+    {
+      "file": "D:/Codex-NamingStudio-Evidence/m959-naming-data-batch/selection.json",
+      "bytes": 40802,
+      "sha256": "c046b2bef7f605b60e3021e711211de3f754fedafbbff6a0d1e06b2f7eaac179"
+    },
+    {
+      "file": "D:/Codex-NamingStudio-Evidence/m965-naming-data-audit/M965-REVIEW.json",
+      "bytes": 7229,
+      "sha256": "23f5309363144350bdd1bc6c3c6da874b0e2fe65002305a9eb19cf5c93479b59"
+    },
+    {
+      "file": "D:/Codex-NamingStudio-Evidence/m965-naming-data-audit/per-character-review.json",
+      "bytes": 35141,
+      "sha256": "d6bae7e79597de1c12ae4a7b46efaae738ca274da930d31a2d4d926f8eb5caa3"
+    },
+    {
+      "file": "D:/Codex-NamingStudio-Evidence/m910-naming-data-batch/baseline-overlap.json",
+      "bytes": 10690,
+      "sha256": "09795bf02007ce100d8da41eb7f6cab68c9d74264302281ed152e4cdfe4a3228"
+    },
+    {
+      "file": "D:/Codex-NamingStudio-Evidence/m768-next-integration/data/raw/moe-revised.json.gz",
+      "bytes": 20310688,
+      "sha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e"
+    },
+    {
+      "file": "D:\\Codex-NamingStudio-Evidence\\m768-next-integration\\data\\raw\\moe-README.md",
+      "bytes": 1214,
+      "sha256": "a93321d9381bc1cf34b4ad844f71607fa748c86c0b228ae37d46720d6a659cb2"
+    },
+    {
+      "file": "D:\\Codex-NamingStudio-Evidence\\m768-next-integration\\data\\raw\\CC-BY-ND-3.0-TW.html",
+      "bytes": 31775,
+      "sha256": "04e6ef69a223b6e13c93c97a918ad5fd0dbb9fc34ae307f4449ed264e2d4108f"
+    }
+  ],
+  "coverageSha256": "15fed32c100653be87a26f0ca888189ae7d1a61d18973649d974f80f661b6cc4",
+  "plansSha256": "a2f391aec1b92d95de8cfe43df89c146bcaa2b5f6aee7b51e9e4859bafb42503",
+  "sourceAttribution": "教育部《重編國語辭典修訂本》",
+  "rawToneAuthority": "MOE numeric tone absent; all raw tone values remain null. Selected tone from fixed dataset-v6 only."
+}

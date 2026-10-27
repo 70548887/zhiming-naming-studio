@@ -1,0 +1,4261 @@
+{
+  "version": "qiongtong-2294674-initial/1.0.0",
+  "license": "CC-BY-SA-4.0",
+  "policy": "逐干读取固定原文后人工明确锚定初始句、角色、共享段和待审项；不从现代120短表、应用生成结果或首提天干推测。",
+  "entries": [
+    {
+      "id": "甲-寅",
+      "title": "甲日干 · 寅月令初始取用原文",
+      "dayStem": "甲",
+      "monthBranch": "寅",
+      "sourceSpan": {
+        "start": 1491,
+        "end": 1559,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论甲;codepoint[1491,1559)",
+      "initialUses": [
+        {
+          "stem": "丙",
+          "role": "unranked",
+          "sequence": 1,
+          "quote": "初春尚有余寒，得丙癸逢"
+        },
+        {
+          "stem": "癸",
+          "role": "unranked",
+          "sequence": 2,
+          "quote": "初春尚有余寒，得丙癸逢"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "甲-卯",
+      "title": "甲日干 · 卯月令初始取用原文",
+      "dayStem": "甲",
+      "monthBranch": "卯",
+      "sourceSpan": {
+        "start": 2028,
+        "end": 2150,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论甲;codepoint[2028,2150)",
+      "initialUses": [],
+      "conditions": [],
+      "reviewStatus": "needs-review",
+      "coverageStatus": "needs-review",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "该月首句描述庚金得所，未明确独立主辅次序；不把现代摘要表移入此版。",
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "甲-辰",
+      "title": "甲日干 · 辰月令初始取用原文",
+      "dayStem": "甲",
+      "monthBranch": "辰",
+      "sourceSpan": {
+        "start": 2152,
+        "end": 2205,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论甲;codepoint[2152,2205)",
+      "initialUses": [
+        {
+          "stem": "庚",
+          "role": "first",
+          "sequence": 1,
+          "quote": "先取庚金，次用壬水。"
+        },
+        {
+          "stem": "壬",
+          "role": "support",
+          "sequence": 2,
+          "quote": "先取庚金，次用壬水。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "甲-巳",
+      "title": "甲日干 · 巳月令初始取用原文",
+      "dayStem": "甲",
+      "monthBranch": "巳",
+      "sourceSpan": {
+        "start": 2444,
+        "end": 2467,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论甲;codepoint[2444,2467)",
+      "initialUses": [
+        {
+          "stem": "癸",
+          "role": "first",
+          "sequence": 1,
+          "quote": "退气，丙火司权，先癸后丁。"
+        },
+        {
+          "stem": "丁",
+          "role": "support",
+          "sequence": 2,
+          "quote": "退气，丙火司权，先癸后丁。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "甲-午",
+      "title": "甲日干 · 午月令初始取用原文",
+      "dayStem": "甲",
+      "monthBranch": "午",
+      "sourceSpan": {
+        "start": 2644,
+        "end": 2718,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论甲;codepoint[2644,2718)",
+      "initialUses": [
+        {
+          "stem": "癸",
+          "role": "first",
+          "sequence": 1,
+          "quote": "五月先癸后丁庚金次之。"
+        },
+        {
+          "stem": "丁",
+          "role": "support",
+          "sequence": 2,
+          "quote": "五月先癸后丁庚金次之。"
+        },
+        {
+          "stem": "庚",
+          "role": "support",
+          "sequence": 3,
+          "quote": "五月先癸后丁庚金次之。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "shared-may-june-paragraph",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "甲-未",
+      "title": "甲日干 · 未月令初始取用原文",
+      "dayStem": "甲",
+      "monthBranch": "未",
+      "sourceSpan": {
+        "start": 2644,
+        "end": 2718,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论甲;codepoint[2644,2718)",
+      "initialUses": [
+        {
+          "stem": "丁",
+          "role": "first",
+          "sequence": 1,
+          "quote": "先丁后庚，无癸亦可。"
+        },
+        {
+          "stem": "庚",
+          "role": "support",
+          "sequence": 2,
+          "quote": "先丁后庚，无癸亦可。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "shared-may-june-paragraph",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "甲-申",
+      "title": "甲日干 · 申月令初始取用原文",
+      "dayStem": "甲",
+      "monthBranch": "申",
+      "sourceSpan": {
+        "start": 3703,
+        "end": 3791,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论甲;codepoint[3703,3791)",
+      "initialUses": [
+        {
+          "stem": "丁",
+          "role": "first",
+          "sequence": 1,
+          "quote": "丁火为尊，庚金次之，庚金不可少。"
+        },
+        {
+          "stem": "庚",
+          "role": "support",
+          "sequence": 2,
+          "quote": "丁火为尊，庚金次之，庚金不可少。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "甲-酉",
+      "title": "甲日干 · 酉月令初始取用原文",
+      "dayStem": "甲",
+      "monthBranch": "酉",
+      "sourceSpan": {
+        "start": 3793,
+        "end": 3824,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论甲;codepoint[3793,3824)",
+      "initialUses": [
+        {
+          "stem": "丁",
+          "role": "first",
+          "sequence": 1,
+          "quote": "丁火为先，次用丙火，庚金再次。"
+        },
+        {
+          "stem": "丙",
+          "role": "support",
+          "sequence": 2,
+          "quote": "丁火为先，次用丙火，庚金再次。"
+        },
+        {
+          "stem": "庚",
+          "role": "support",
+          "sequence": 3,
+          "quote": "丁火为先，次用丙火，庚金再次。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "甲-戌",
+      "title": "甲日干 · 戌月令初始取用原文",
+      "dayStem": "甲",
+      "monthBranch": "戌",
+      "sourceSpan": {
+        "start": 3976,
+        "end": 4034,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论甲;codepoint[3976,4034)",
+      "initialUses": [
+        {
+          "stem": "丁",
+          "role": "first",
+          "sequence": 1,
+          "quote": "独爱丁火，壬癸滋扶"
+        },
+        {
+          "stem": "壬",
+          "role": "support",
+          "sequence": 2,
+          "quote": "独爱丁火，壬癸滋扶"
+        },
+        {
+          "stem": "癸",
+          "role": "support",
+          "sequence": 3,
+          "quote": "独爱丁火，壬癸滋扶"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "甲-亥",
+      "title": "甲日干 · 亥月令初始取用原文",
+      "dayStem": "甲",
+      "monthBranch": "亥",
+      "sourceSpan": {
+        "start": 4638,
+        "end": 4671,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论甲;codepoint[4638,4671)",
+      "initialUses": [
+        {
+          "stem": "庚",
+          "role": "parallel",
+          "sequence": 1,
+          "quote": "庚丁为要，丙火次之。"
+        },
+        {
+          "stem": "丁",
+          "role": "parallel",
+          "sequence": 2,
+          "quote": "庚丁为要，丙火次之。"
+        },
+        {
+          "stem": "丙",
+          "role": "support",
+          "sequence": 3,
+          "quote": "庚丁为要，丙火次之。"
+        }
+      ],
+      "conditions": [
+        {
+          "id": "jia-hai-three-exposed",
+          "sourceQuote": "若庚丁两透，又加戊出干",
+          "sourceLocator": "oldid=2294674;论甲;codepoint[4673,4684)",
+          "sourceSpan": {
+            "start": 4673,
+            "end": 4684,
+            "unit": "unicode-codepoint",
+            "interval": "[start,end)"
+          },
+          "predicate": {
+            "kind": "all",
+            "items": [
+              {
+                "kind": "stem",
+                "stem": "庚",
+                "scope": "exposed",
+                "includeDayMaster": false,
+                "present": true
+              },
+              {
+                "kind": "stem",
+                "stem": "丁",
+                "scope": "exposed",
+                "includeDayMaster": false,
+                "present": true
+              },
+              {
+                "kind": "stem",
+                "stem": "戊",
+                "scope": "exposed",
+                "includeDayMaster": false,
+                "present": true
+              }
+            ]
+          },
+          "proposedUses": [],
+          "note": "只核三干透出的明示事实；不实现随后富贵断语，不把日干本身计作辅助透干。"
+        }
+      ],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "甲-子",
+      "title": "甲日干 · 子月令初始取用原文",
+      "dayStem": "甲",
+      "monthBranch": "子",
+      "sourceSpan": {
+        "start": 4826,
+        "end": 4927,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论甲;codepoint[4826,4927)",
+      "initialUses": [
+        {
+          "stem": "丁",
+          "role": "first",
+          "sequence": 1,
+          "quote": "丁先庚后，丙火佐之。"
+        },
+        {
+          "stem": "庚",
+          "role": "support",
+          "sequence": 2,
+          "quote": "丁先庚后，丙火佐之。"
+        },
+        {
+          "stem": "丙",
+          "role": "support",
+          "sequence": 3,
+          "quote": "丁先庚后，丙火佐之。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "甲-丑",
+      "title": "甲日干 · 丑月令初始取用原文",
+      "dayStem": "甲",
+      "monthBranch": "丑",
+      "sourceSpan": {
+        "start": 5015,
+        "end": 5068,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论甲;codepoint[5015,5068)",
+      "initialUses": [
+        {
+          "stem": "庚",
+          "role": "first",
+          "sequence": 1,
+          "quote": "先用庚噼甲，方引丁火始得木火有通明之象，故丁次之。"
+        },
+        {
+          "stem": "丁",
+          "role": "support",
+          "sequence": 2,
+          "quote": "先用庚噼甲，方引丁火始得木火有通明之象，故丁次之。"
+        }
+      ],
+      "conditions": [
+        {
+          "id": "jia-chou-geng-exposed-ding-hidden",
+          "sourceQuote": "庚透丁藏",
+          "sourceLocator": "oldid=2294674;论甲;codepoint[5080,5084)",
+          "sourceSpan": {
+            "start": 5080,
+            "end": 5084,
+            "unit": "unicode-codepoint",
+            "interval": "[start,end)"
+          },
+          "predicate": {
+            "kind": "all",
+            "items": [
+              {
+                "kind": "stem",
+                "stem": "庚",
+                "scope": "exposed",
+                "includeDayMaster": false,
+                "present": true
+              },
+              {
+                "kind": "stem",
+                "stem": "丁",
+                "scope": "hidden",
+                "includeDayMaster": false,
+                "present": true
+              }
+            ]
+          },
+          "proposedUses": [],
+          "note": "只核庚见明干、丁见所选藏干表；藏不代表司权、强度或结果。"
+        }
+      ],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "乙-寅",
+      "title": "乙日干 · 寅月令初始取用原文",
+      "dayStem": "乙",
+      "monthBranch": "寅",
+      "sourceSpan": {
+        "start": 5343,
+        "end": 5394,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论乙;codepoint[5343,5394)",
+      "initialUses": [
+        {
+          "stem": "丙",
+          "role": "first",
+          "sequence": 1,
+          "quote": "故以丙火为先，癸水次之。"
+        },
+        {
+          "stem": "癸",
+          "role": "support",
+          "sequence": 2,
+          "quote": "故以丙火为先，癸水次之。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "乙-卯",
+      "title": "乙日干 · 卯月令初始取用原文",
+      "dayStem": "乙",
+      "monthBranch": "卯",
+      "sourceSpan": {
+        "start": 5494,
+        "end": 5539,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论乙;codepoint[5494,5539)",
+      "initialUses": [
+        {
+          "stem": "丙",
+          "role": "first",
+          "sequence": 1,
+          "quote": "以丙为君，癸为臣"
+        },
+        {
+          "stem": "癸",
+          "role": "support",
+          "sequence": 2,
+          "quote": "以丙为君，癸为臣"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "乙-辰",
+      "title": "乙日干 · 辰月令初始取用原文",
+      "dayStem": "乙",
+      "monthBranch": "辰",
+      "sourceSpan": {
+        "start": 5714,
+        "end": 5735,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论乙;codepoint[5714,5735)",
+      "initialUses": [
+        {
+          "stem": "癸",
+          "role": "first",
+          "sequence": 1,
+          "quote": "阳气愈炽，先癸后丙。"
+        },
+        {
+          "stem": "丙",
+          "role": "support",
+          "sequence": 2,
+          "quote": "阳气愈炽，先癸后丙。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "乙-巳",
+      "title": "乙日干 · 巳月令初始取用原文",
+      "dayStem": "乙",
+      "monthBranch": "巳",
+      "sourceSpan": {
+        "start": 6169,
+        "end": 6291,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论乙;codepoint[6169,6291)",
+      "initialUses": [
+        {
+          "stem": "癸",
+          "role": "first",
+          "sequence": 1,
+          "quote": "自有丙火，耑取癸水为尊。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "同段另有丙火酌用和庚辛佐癸条件，本行不自动推断剂量或条件。",
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "乙-午",
+      "title": "乙日干 · 午月令初始取用原文",
+      "dayStem": "乙",
+      "monthBranch": "午",
+      "sourceSpan": {
+        "start": 6338,
+        "end": 6404,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论乙;codepoint[6338,6404)",
+      "initialUses": [],
+      "conditions": [
+        {
+          "id": "yi-wu-half-month-branches",
+          "sourceQuote": "上半月属阳，仍用癸水。下半月属阴，三伏生寒，丙癸齐用。柱多金水，丙火为先，余皆用癸水为先。",
+          "sourceLocator": "oldid=2294674;论乙;codepoint[6359,6404)",
+          "sourceSpan": {
+            "start": 6359,
+            "end": 6404,
+            "unit": "unicode-codepoint",
+            "interval": "[start,end)"
+          },
+          "proposedUses": [],
+          "note": "上下半月与金水多的阈值／历法取法没有在本profile实现，保留未实现。"
+        }
+      ],
+      "reviewStatus": "needs-review",
+      "coverageStatus": "needs-review",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "上/下半月与金水多的条件会改变优先项；本版本不把不明阈值变成无条件主辅。",
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "乙-未",
+      "title": "乙日干 · 未月令初始取用原文",
+      "dayStem": "乙",
+      "monthBranch": "未",
+      "sourceSpan": {
+        "start": 6521,
+        "end": 6584,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论乙;codepoint[6521,6584)",
+      "initialUses": [],
+      "conditions": [],
+      "reviewStatus": "needs-review",
+      "coverageStatus": "needs-review",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "初句把丙为尊置于柱多金水条件下；多寡阈值和三夏共有意见需人工并读。",
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "乙-申",
+      "title": "乙日干 · 申月令初始取用原文",
+      "dayStem": "乙",
+      "monthBranch": "申",
+      "sourceSpan": {
+        "start": 6960,
+        "end": 7066,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论乙;codepoint[6960,7066)",
+      "initialUses": [
+        {
+          "stem": "己",
+          "role": "unranked",
+          "sequence": 1,
+          "quote": "七月喜己土为用"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "后文癸透丙藏庚少时又称不用己，初始项不是无条件最终意见。",
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "乙-酉",
+      "title": "乙日干 · 酉月令初始取用原文",
+      "dayStem": "乙",
+      "monthBranch": "酉",
+      "sourceSpan": {
+        "start": 7254,
+        "end": 7334,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论乙;codepoint[7254,7334)",
+      "initialUses": [],
+      "conditions": [
+        {
+          "id": "yi-you-white-dew-autumn-equinox",
+          "sourceQuote": "在白露之后，桂蕊未开，耑用癸水以滋桂萼。若秋分后，桂花已开，却喜向阳，又宜用丙，癸水次之",
+          "sourceLocator": "oldid=2294674;论乙;codepoint[7279,7323)",
+          "sourceSpan": {
+            "start": 7279,
+            "end": 7323,
+            "unit": "unicode-codepoint",
+            "interval": "[start,end)"
+          },
+          "proposedUses": [],
+          "note": "涉及秋分前后及原意象条件，暂未实现；不强制选择一边。"
+        }
+      ],
+      "reviewStatus": "needs-review",
+      "coverageStatus": "needs-review",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "白露至秋分前后取用不同；此行不默选其中一支，不将节月机械等分。",
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "乙-戌",
+      "title": "乙日干 · 戌月令初始取用原文",
+      "dayStem": "乙",
+      "monthBranch": "戌",
+      "sourceSpan": {
+        "start": 7615,
+        "end": 7710,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论乙;codepoint[7615,7710)",
+      "initialUses": [
+        {
+          "stem": "癸",
+          "role": "first",
+          "sequence": 1,
+          "quote": "根枯叶落，必赖癸水滋养。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "乙-亥",
+      "title": "乙日干 · 亥月令初始取用原文",
+      "dayStem": "乙",
+      "monthBranch": "亥",
+      "sourceSpan": {
+        "start": 7784,
+        "end": 7856,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论乙;codepoint[7784,7856)",
+      "initialUses": [
+        {
+          "stem": "丙",
+          "role": "first",
+          "sequence": 1,
+          "quote": "取丙为用，戊土次之。"
+        },
+        {
+          "stem": "戊",
+          "role": "support",
+          "sequence": 2,
+          "quote": "取丙为用，戊土次之。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "乙-子",
+      "title": "乙日干 · 子月令初始取用原文",
+      "dayStem": "乙",
+      "monthBranch": "子",
+      "sourceSpan": {
+        "start": 7990,
+        "end": 8043,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论乙;codepoint[7990,8043)",
+      "initialUses": [
+        {
+          "stem": "丙",
+          "role": "first",
+          "sequence": 1,
+          "quote": "故耑用丙火。"
+        }
+      ],
+      "conditions": [
+        {
+          "id": "yi-zi-no-bing-anywhere",
+          "sourceQuote": "干支无丙",
+          "sourceLocator": "oldid=2294674;论乙;codepoint[8460,8464)",
+          "sourceSpan": {
+            "start": 8460,
+            "end": 8464,
+            "unit": "unicode-codepoint",
+            "interval": "[start,end)"
+          },
+          "predicate": {
+            "kind": "stem",
+            "stem": "丙",
+            "scope": "any",
+            "includeDayMaster": false,
+            "present": false
+          },
+          "proposedUses": [],
+          "note": "按已确定柱的明干与所选藏干核对；时刻未知或柱待定时，缺失不能自动证明全局无丙。不采纳原寒儒断语。"
+        }
+      ],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "乙-丑",
+      "title": "乙日干 · 丑月令初始取用原文",
+      "dayStem": "乙",
+      "monthBranch": "丑",
+      "sourceSpan": {
+        "start": 8297,
+        "end": 8340,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论乙;codepoint[8297,8340)",
+      "initialUses": [],
+      "conditions": [],
+      "reviewStatus": "needs-review",
+      "coverageStatus": "needs-review",
+      "sourceScope": "generic-winter-context-only",
+      "missing": [
+        "所选电子版乙木章无十二月或腊月专段；此处仅保留泛冬月上下文，不把它伪装成该月独立初始条目。",
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "丙-寅",
+      "title": "丙日干 · 寅月令初始取用原文",
+      "dayStem": "丙",
+      "monthBranch": "寅",
+      "sourceSpan": {
+        "start": 9223,
+        "end": 9277,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论丙;codepoint[9223,9277)",
+      "initialUses": [
+        {
+          "stem": "壬",
+          "role": "first",
+          "sequence": 1,
+          "quote": "取壬为尊，庚金佐之。"
+        },
+        {
+          "stem": "庚",
+          "role": "support",
+          "sequence": 2,
+          "quote": "取壬为尊，庚金佐之。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "丙-卯",
+      "title": "丙日干 · 卯月令初始取用原文",
+      "dayStem": "丙",
+      "monthBranch": "卯",
+      "sourceSpan": {
+        "start": 9766,
+        "end": 9815,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论丙;codepoint[9766,9815)",
+      "initialUses": [
+        {
+          "stem": "壬",
+          "role": "first",
+          "sequence": 1,
+          "quote": "阳气舒升，耑用壬水。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "丙-辰",
+      "title": "丙日干 · 辰月令初始取用原文",
+      "dayStem": "丙",
+      "monthBranch": "辰",
+      "sourceSpan": {
+        "start": 10165,
+        "end": 10235,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论丙;codepoint[10165,10235)",
+      "initialUses": [
+        {
+          "stem": "壬",
+          "role": "first",
+          "sequence": 1,
+          "quote": "气渐炎升，用壬水。"
+        }
+      ],
+      "conditions": [
+        {
+          "id": "bing-chen-earth-group",
+          "sourceQuote": "或成土局，取甲为辅，壬不可离。",
+          "sourceLocator": "oldid=2294674;论丙;codepoint[10185,10200)",
+          "sourceSpan": {
+            "start": 10185,
+            "end": 10200,
+            "unit": "unicode-codepoint",
+            "interval": "[start,end)"
+          },
+          "proposedUses": [],
+          "note": "成土局不是单字有无谓词，未实现该流派成局裁决。"
+        }
+      ],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "甲为辅仅在下一句成土局条件下提出，不自动列作无条件初始用神。",
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "丙-巳",
+      "title": "丙日干 · 巳月令初始取用原文",
+      "dayStem": "丙",
+      "monthBranch": "巳",
+      "sourceSpan": {
+        "start": 10473,
+        "end": 10601,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论丙;codepoint[10473,10601)",
+      "initialUses": [
+        {
+          "stem": "壬",
+          "role": "first",
+          "sequence": 1,
+          "quote": "宜专用壬水，解炎威之力"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "丙-午",
+      "title": "丙日干 · 午月令初始取用原文",
+      "dayStem": "丙",
+      "monthBranch": "午",
+      "sourceSpan": {
+        "start": 10839,
+        "end": 10930,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论丙;codepoint[10839,10930)",
+      "initialUses": [
+        {
+          "stem": "壬",
+          "role": "unranked",
+          "sequence": 1,
+          "quote": "得壬高透，方为上命。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "原句以壬高透为前提；只转录所提取用，不采纳其上命断言。",
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "丙-未",
+      "title": "丙日干 · 未月令初始取用原文",
+      "dayStem": "丙",
+      "monthBranch": "未",
+      "sourceSpan": {
+        "start": 11190,
+        "end": 11218,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论丙;codepoint[11190,11218)",
+      "initialUses": [
+        {
+          "stem": "壬",
+          "role": "first",
+          "sequence": 1,
+          "quote": "壬水为用，取庚辅佐。"
+        },
+        {
+          "stem": "庚",
+          "role": "support",
+          "sequence": 2,
+          "quote": "壬水为用，取庚辅佐。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "丙-申",
+      "title": "丙日干 · 申月令初始取用原文",
+      "dayStem": "丙",
+      "monthBranch": "申",
+      "sourceSpan": {
+        "start": 11467,
+        "end": 11520,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论丙;codepoint[11467,11520)",
+      "initialUses": [
+        {
+          "stem": "壬",
+          "role": "first",
+          "sequence": 1,
+          "quote": "故仍用壬水，辅映光辉。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "丙-酉",
+      "title": "丙日干 · 酉月令初始取用原文",
+      "dayStem": "丙",
+      "monthBranch": "酉",
+      "sourceSpan": {
+        "start": 11722,
+        "end": 11756,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论丙;codepoint[11722,11756)",
+      "initialUses": [
+        {
+          "stem": "壬",
+          "role": "first",
+          "sequence": 1,
+          "quote": "仍用壬水辅映。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "丙-戌",
+      "title": "丙日干 · 戌月令初始取用原文",
+      "dayStem": "丙",
+      "monthBranch": "戌",
+      "sourceSpan": {
+        "start": 12015,
+        "end": 12130,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论丙;codepoint[12015,12130)",
+      "initialUses": [
+        {
+          "stem": "甲",
+          "role": "first",
+          "sequence": 1,
+          "quote": "必须先用甲木，次取壬水。"
+        },
+        {
+          "stem": "壬",
+          "role": "support",
+          "sequence": 2,
+          "quote": "必须先用甲木，次取壬水。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "丙-亥",
+      "title": "丙日干 · 亥月令初始取用原文",
+      "dayStem": "丙",
+      "monthBranch": "亥",
+      "sourceSpan": {
+        "start": 12417,
+        "end": 12446,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论丙;codepoint[12417,12446)",
+      "initialUses": [],
+      "conditions": [
+        {
+          "id": "bing-hai-strength-branches",
+          "sourceQuote": "木旺宜庚，水旺宜戊，火旺用壬，随宜酌用可也。",
+          "sourceLocator": "oldid=2294674;论丙;codepoint[12424,12446)",
+          "sourceSpan": {
+            "start": 12424,
+            "end": 12446,
+            "unit": "unicode-codepoint",
+            "interval": "[start,end)"
+          },
+          "proposedUses": [],
+          "note": "旺度不由本profile自创阈值，保持未实现。"
+        }
+      ],
+      "reviewStatus": "needs-review",
+      "coverageStatus": "needs-review",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "本段按木旺、水旺、火旺分支取用，未定义数值旺度阈值，不拼成通用候选表。",
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "丙-子",
+      "title": "丙日干 · 子月令初始取用原文",
+      "dayStem": "丙",
+      "monthBranch": "子",
+      "sourceSpan": {
+        "start": 12525,
+        "end": 12558,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论丙;codepoint[12525,12558)",
+      "initialUses": [
+        {
+          "stem": "壬",
+          "role": "first",
+          "sequence": 1,
+          "quote": "壬水为最，戊土佐之。"
+        },
+        {
+          "stem": "戊",
+          "role": "support",
+          "sequence": 2,
+          "quote": "壬水为最，戊土佐之。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "丙-丑",
+      "title": "丙日干 · 丑月令初始取用原文",
+      "dayStem": "丙",
+      "monthBranch": "丑",
+      "sourceSpan": {
+        "start": 12807,
+        "end": 12878,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论丙;codepoint[12807,12878)",
+      "initialUses": [
+        {
+          "stem": "壬",
+          "role": "first",
+          "sequence": 1,
+          "quote": "喜壬为用。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "后文土多不可少甲属于条件项，未无条件并入。",
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "丁-寅",
+      "title": "丁日干 · 寅月令初始取用原文",
+      "dayStem": "丁",
+      "monthBranch": "寅",
+      "sourceSpan": {
+        "start": 13123,
+        "end": 13161,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论丁;codepoint[13123,13161)",
+      "initialUses": [
+        {
+          "stem": "庚",
+          "role": "unranked",
+          "sequence": 1,
+          "quote": "姑用庚金。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "丁-卯",
+      "title": "丁日干 · 卯月令初始取用原文",
+      "dayStem": "丁",
+      "monthBranch": "卯",
+      "sourceSpan": {
+        "start": 13461,
+        "end": 13526,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论丁;codepoint[13461,13526)",
+      "initialUses": [
+        {
+          "stem": "庚",
+          "role": "first",
+          "sequence": 1,
+          "quote": "先庚后甲，非庚不能去乙，非甲不能引丁。"
+        },
+        {
+          "stem": "甲",
+          "role": "support",
+          "sequence": 2,
+          "quote": "先庚后甲，非庚不能去乙，非甲不能引丁。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "丁-辰",
+      "title": "丁日干 · 辰月令初始取用原文",
+      "dayStem": "丁",
+      "monthBranch": "辰",
+      "sourceSpan": {
+        "start": 13826,
+        "end": 13882,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论丁;codepoint[13826,13882)",
+      "initialUses": [
+        {
+          "stem": "甲",
+          "role": "first",
+          "sequence": 1,
+          "quote": "先用甲木引丁制土，次看庚金。"
+        },
+        {
+          "stem": "庚",
+          "role": "support",
+          "sequence": 2,
+          "quote": "先用甲木引丁制土，次看庚金。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "丁-巳",
+      "title": "丁日干 · 巳月令初始取用原文",
+      "dayStem": "丁",
+      "monthBranch": "巳",
+      "sourceSpan": {
+        "start": 13997,
+        "end": 14099,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论丁;codepoint[13997,14099)",
+      "initialUses": [
+        {
+          "stem": "甲",
+          "role": "unranked",
+          "sequence": 1,
+          "quote": "虽取甲引丁，必用庚噼甲。"
+        },
+        {
+          "stem": "庚",
+          "role": "unranked",
+          "sequence": 2,
+          "quote": "虽取甲引丁，必用庚噼甲。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "同段又称甲多时庚为先，不把当前并列列序当严格通用顺序。",
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "丁-午",
+      "title": "丁日干 · 午月令初始取用原文",
+      "dayStem": "丁",
+      "monthBranch": "午",
+      "sourceSpan": {
+        "start": 14333,
+        "end": 14356,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论丁;codepoint[14333,14356)",
+      "initialUses": [],
+      "conditions": [
+        {
+          "id": "ding-wu-fire-group",
+          "sourceQuote": "或支成火局，干见火出，得庚壬两透者",
+          "sourceLocator": "oldid=2294674;论丁;codepoint[14377,14394)",
+          "sourceSpan": {
+            "start": 14377,
+            "end": 14394,
+            "unit": "unicode-codepoint",
+            "interval": "[start,end)"
+          },
+          "proposedUses": [],
+          "note": "条件含支成火局与透干的合取，未实现成局前不得只凭透干判命中。"
+        }
+      ],
+      "reviewStatus": "needs-review",
+      "coverageStatus": "needs-review",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "首句为排除提醒，后文按火局、有水等条件转换；不把任意首提天干误当推荐。",
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "丁-未",
+      "title": "丁日干 · 未月令初始取用原文",
+      "dayStem": "丁",
+      "monthBranch": "未",
+      "sourceSpan": {
+        "start": 14825,
+        "end": 14863,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论丁;codepoint[14825,14863)",
+      "initialUses": [
+        {
+          "stem": "甲",
+          "role": "first",
+          "sequence": 1,
+          "quote": "专取甲木，壬水次之。"
+        },
+        {
+          "stem": "壬",
+          "role": "support",
+          "sequence": 2,
+          "quote": "专取甲木，壬水次之。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "丁-申",
+      "title": "丁日干 · 申月令初始取用原文",
+      "dayStem": "丁",
+      "monthBranch": "申",
+      "sourceSpan": {
+        "start": 15500,
+        "end": 15604,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论丁;codepoint[15500,15604)",
+      "initialUses": [
+        {
+          "stem": "甲",
+          "role": "first",
+          "sequence": 1,
+          "quote": "端用甲木，金虽乘旺司权，无伤丁之理，仍取庚劈甲"
+        },
+        {
+          "stem": "庚",
+          "role": "support",
+          "sequence": 2,
+          "quote": "端用甲木，金虽乘旺司权，无伤丁之理，仍取庚劈甲"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "丁-酉",
+      "title": "丁日干 · 酉月令初始取用原文",
+      "dayStem": "丁",
+      "monthBranch": "酉",
+      "sourceSpan": {
+        "start": 15207,
+        "end": 15323,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论丁;codepoint[15207,15323)",
+      "initialUses": [
+        {
+          "stem": "甲",
+          "role": "parallel",
+          "sequence": 1,
+          "quote": "八月甲丙庚皆用"
+        },
+        {
+          "stem": "丙",
+          "role": "parallel",
+          "sequence": 2,
+          "quote": "八月甲丙庚皆用"
+        },
+        {
+          "stem": "庚",
+          "role": "parallel",
+          "sequence": 3,
+          "quote": "八月甲丙庚皆用"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "shared-autumn-paragraph",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "丁-戌",
+      "title": "丁日干 · 戌月令初始取用原文",
+      "dayStem": "丁",
+      "monthBranch": "戌",
+      "sourceSpan": {
+        "start": 15207,
+        "end": 15323,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论丁;codepoint[15207,15323)",
+      "initialUses": [
+        {
+          "stem": "甲",
+          "role": "parallel",
+          "sequence": 1,
+          "quote": "九月耑用甲庚。"
+        },
+        {
+          "stem": "庚",
+          "role": "parallel",
+          "sequence": 2,
+          "quote": "九月耑用甲庚。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "shared-autumn-paragraph",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "丁-亥",
+      "title": "丁日干 · 亥月令初始取用原文",
+      "dayStem": "丁",
+      "monthBranch": "亥",
+      "sourceSpan": {
+        "start": 15853,
+        "end": 15941,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论丁;codepoint[15853,15941)",
+      "initialUses": [
+        {
+          "stem": "庚",
+          "role": "parallel",
+          "sequence": 1,
+          "quote": "三冬丁火微寒，耑用庚甲。"
+        },
+        {
+          "stem": "甲",
+          "role": "parallel",
+          "sequence": 2,
+          "quote": "三冬丁火微寒，耑用庚甲。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "shared-winter-paragraph",
+      "missing": [
+        "同章末句又以甲为尊、庚为佐，本行保留初段并列，不裁定唯一优先级。",
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "丁-子",
+      "title": "丁日干 · 子月令初始取用原文",
+      "dayStem": "丁",
+      "monthBranch": "子",
+      "sourceSpan": {
+        "start": 15853,
+        "end": 15941,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论丁;codepoint[15853,15941)",
+      "initialUses": [
+        {
+          "stem": "庚",
+          "role": "parallel",
+          "sequence": 1,
+          "quote": "三冬丁火微寒，耑用庚甲。"
+        },
+        {
+          "stem": "甲",
+          "role": "parallel",
+          "sequence": 2,
+          "quote": "三冬丁火微寒，耑用庚甲。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "shared-winter-paragraph",
+      "missing": [
+        "同章末句又以甲为尊、庚为佐，本行保留初段并列，不裁定唯一优先级。",
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "丁-丑",
+      "title": "丁日干 · 丑月令初始取用原文",
+      "dayStem": "丁",
+      "monthBranch": "丑",
+      "sourceSpan": {
+        "start": 15853,
+        "end": 15941,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论丁;codepoint[15853,15941)",
+      "initialUses": [
+        {
+          "stem": "庚",
+          "role": "parallel",
+          "sequence": 1,
+          "quote": "三冬丁火微寒，耑用庚甲。"
+        },
+        {
+          "stem": "甲",
+          "role": "parallel",
+          "sequence": 2,
+          "quote": "三冬丁火微寒，耑用庚甲。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "shared-winter-paragraph",
+      "missing": [
+        "同章末句又以甲为尊、庚为佐，本行保留初段并列，不裁定唯一优先级。",
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "戊-寅",
+      "title": "戊日干 · 寅月令初始取用原文",
+      "dayStem": "戊",
+      "monthBranch": "寅",
+      "sourceSpan": {
+        "start": 17172,
+        "end": 17280,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论戊;codepoint[17172,17280)",
+      "initialUses": [
+        {
+          "stem": "丙",
+          "role": "first",
+          "sequence": 1,
+          "quote": "正二月先丙后甲，癸又次之。"
+        },
+        {
+          "stem": "甲",
+          "role": "support",
+          "sequence": 2,
+          "quote": "正二月先丙后甲，癸又次之。"
+        },
+        {
+          "stem": "癸",
+          "role": "support",
+          "sequence": 3,
+          "quote": "正二月先丙后甲，癸又次之。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "shared-spring-paragraph",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "戊-卯",
+      "title": "戊日干 · 卯月令初始取用原文",
+      "dayStem": "戊",
+      "monthBranch": "卯",
+      "sourceSpan": {
+        "start": 17172,
+        "end": 17280,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论戊;codepoint[17172,17280)",
+      "initialUses": [
+        {
+          "stem": "丙",
+          "role": "first",
+          "sequence": 1,
+          "quote": "正二月先丙后甲，癸又次之。"
+        },
+        {
+          "stem": "甲",
+          "role": "support",
+          "sequence": 2,
+          "quote": "正二月先丙后甲，癸又次之。"
+        },
+        {
+          "stem": "癸",
+          "role": "support",
+          "sequence": 3,
+          "quote": "正二月先丙后甲，癸又次之。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "shared-spring-paragraph",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "戊-辰",
+      "title": "戊日干 · 辰月令初始取用原文",
+      "dayStem": "戊",
+      "monthBranch": "辰",
+      "sourceSpan": {
+        "start": 17172,
+        "end": 17280,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论戊;codepoint[17172,17280)",
+      "initialUses": [
+        {
+          "stem": "甲",
+          "role": "first",
+          "sequence": 1,
+          "quote": "三月先甲后丙，癸又次之"
+        },
+        {
+          "stem": "丙",
+          "role": "support",
+          "sequence": 2,
+          "quote": "三月先甲后丙，癸又次之"
+        },
+        {
+          "stem": "癸",
+          "role": "support",
+          "sequence": 3,
+          "quote": "三月先甲后丙，癸又次之"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "shared-spring-paragraph",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "戊-巳",
+      "title": "戊日干 · 巳月令初始取用原文",
+      "dayStem": "戊",
+      "monthBranch": "巳",
+      "sourceSpan": {
+        "start": 18012,
+        "end": 18068,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论戊;codepoint[18012,18068)",
+      "initialUses": [
+        {
+          "stem": "甲",
+          "role": "first",
+          "sequence": 1,
+          "quote": "故先用甲疏噼，次取丙癸为佐。"
+        },
+        {
+          "stem": "丙",
+          "role": "support",
+          "sequence": 2,
+          "quote": "故先用甲疏噼，次取丙癸为佐。"
+        },
+        {
+          "stem": "癸",
+          "role": "support",
+          "sequence": 3,
+          "quote": "故先用甲疏噼，次取丙癸为佐。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "戊-午",
+      "title": "戊日干 · 午月令初始取用原文",
+      "dayStem": "戊",
+      "monthBranch": "午",
+      "sourceSpan": {
+        "start": 18239,
+        "end": 18275,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论戊;codepoint[18239,18275)",
+      "initialUses": [
+        {
+          "stem": "壬",
+          "role": "first",
+          "sequence": 1,
+          "quote": "先看壬水，次取甲木，丙火酌用"
+        },
+        {
+          "stem": "甲",
+          "role": "support",
+          "sequence": 2,
+          "quote": "先看壬水，次取甲木，丙火酌用"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "丙为酌用，没有自动判定适用条件。",
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "戊-未",
+      "title": "戊日干 · 未月令初始取用原文",
+      "dayStem": "戊",
+      "monthBranch": "未",
+      "sourceSpan": {
+        "start": 18443,
+        "end": 18515,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论戊;codepoint[18443,18515)",
+      "initialUses": [
+        {
+          "stem": "癸",
+          "role": "first",
+          "sequence": 1,
+          "quote": "先看癸水，次用丙火甲木。"
+        },
+        {
+          "stem": "丙",
+          "role": "support",
+          "sequence": 2,
+          "quote": "先看癸水，次用丙火甲木。"
+        },
+        {
+          "stem": "甲",
+          "role": "support",
+          "sequence": 3,
+          "quote": "先看癸水，次用丙火甲木。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "戊-申",
+      "title": "戊日干 · 申月令初始取用原文",
+      "dayStem": "戊",
+      "monthBranch": "申",
+      "sourceSpan": {
+        "start": 18717,
+        "end": 18829,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论戊;codepoint[18717,18829)",
+      "initialUses": [
+        {
+          "stem": "丙",
+          "role": "first",
+          "sequence": 1,
+          "quote": "先丙后癸，甲木次之。"
+        },
+        {
+          "stem": "癸",
+          "role": "support",
+          "sequence": 2,
+          "quote": "先丙后癸，甲木次之。"
+        },
+        {
+          "stem": "甲",
+          "role": "support",
+          "sequence": 3,
+          "quote": "先丙后癸，甲木次之。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "戊-酉",
+      "title": "戊日干 · 酉月令初始取用原文",
+      "dayStem": "戊",
+      "monthBranch": "酉",
+      "sourceSpan": {
+        "start": 18945,
+        "end": 19038,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论戊;codepoint[18945,19038)",
+      "initialUses": [
+        {
+          "stem": "丙",
+          "role": "first",
+          "sequence": 1,
+          "quote": "先丙后癸，不必木疏。"
+        },
+        {
+          "stem": "癸",
+          "role": "support",
+          "sequence": 2,
+          "quote": "先丙后癸，不必木疏。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "戊-戌",
+      "title": "戊日干 · 戌月令初始取用原文",
+      "dayStem": "戊",
+      "monthBranch": "戌",
+      "sourceSpan": {
+        "start": 19152,
+        "end": 19215,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论戊;codepoint[19152,19215)",
+      "initialUses": [
+        {
+          "stem": "甲",
+          "role": "first",
+          "sequence": 1,
+          "quote": "先看甲木，次取癸水"
+        },
+        {
+          "stem": "癸",
+          "role": "support",
+          "sequence": 2,
+          "quote": "先看甲木，次取癸水"
+        }
+      ],
+      "conditions": [
+        {
+          "id": "wu-xu-metal-switch",
+          "sourceQuote": "见金先用癸水，后取丙火",
+          "sourceLocator": "oldid=2294674;论戊;codepoint[19186,19197)",
+          "sourceSpan": {
+            "start": 19186,
+            "end": 19197,
+            "unit": "unicode-codepoint",
+            "interval": "[start,end)"
+          },
+          "proposedUses": [],
+          "note": "见金的明干／支藏作用范围未明，本profile不自动将甲癸初始转为癸丙。"
+        }
+      ],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "同段见金条件下改先癸后丙，本行不裁定该条件。",
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "戊-亥",
+      "title": "戊日干 · 亥月令初始取用原文",
+      "dayStem": "戊",
+      "monthBranch": "亥",
+      "sourceSpan": {
+        "start": 19489,
+        "end": 19577,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论戊;codepoint[19489,19577)",
+      "initialUses": [
+        {
+          "stem": "甲",
+          "role": "first",
+          "sequence": 1,
+          "quote": "先用甲木，次取丙火。"
+        },
+        {
+          "stem": "丙",
+          "role": "support",
+          "sequence": 2,
+          "quote": "先用甲木，次取丙火。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "戊-子",
+      "title": "戊日干 · 子月令初始取用原文",
+      "dayStem": "戊",
+      "monthBranch": "子",
+      "sourceSpan": {
+        "start": 19749,
+        "end": 19832,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论戊;codepoint[19749,19832)",
+      "initialUses": [
+        {
+          "stem": "丙",
+          "role": "first",
+          "sequence": 1,
+          "quote": "严寒冰冻，丙火为专，甲木为佐。"
+        },
+        {
+          "stem": "甲",
+          "role": "support",
+          "sequence": 2,
+          "quote": "严寒冰冻，丙火为专，甲木为佐。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "shared-november-december-paragraph",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "戊-丑",
+      "title": "戊日干 · 丑月令初始取用原文",
+      "dayStem": "戊",
+      "monthBranch": "丑",
+      "sourceSpan": {
+        "start": 19749,
+        "end": 19832,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论戊;codepoint[19749,19832)",
+      "initialUses": [
+        {
+          "stem": "丙",
+          "role": "first",
+          "sequence": 1,
+          "quote": "严寒冰冻，丙火为专，甲木为佐。"
+        },
+        {
+          "stem": "甲",
+          "role": "support",
+          "sequence": 2,
+          "quote": "严寒冰冻，丙火为专，甲木为佐。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "shared-november-december-paragraph",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "己-寅",
+      "title": "己日干 · 寅月令初始取用原文",
+      "dayStem": "己",
+      "monthBranch": "寅",
+      "sourceSpan": {
+        "start": 20108,
+        "end": 20234,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论己;codepoint[20108,20234)",
+      "initialUses": [
+        {
+          "stem": "丙",
+          "role": "first",
+          "sequence": 1,
+          "quote": "故丙为尊。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "己-卯",
+      "title": "己日干 · 卯月令初始取用原文",
+      "dayStem": "己",
+      "monthBranch": "卯",
+      "sourceSpan": {
+        "start": 20400,
+        "end": 20481,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论己;codepoint[20400,20481)",
+      "initialUses": [
+        {
+          "stem": "甲",
+          "role": "first",
+          "sequence": 1,
+          "quote": "先取甲木疏之，忌合。次取癸水润之。"
+        },
+        {
+          "stem": "癸",
+          "role": "support",
+          "sequence": 2,
+          "quote": "先取甲木疏之，忌合。次取癸水润之。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "己-辰",
+      "title": "己日干 · 辰月令初始取用原文",
+      "dayStem": "己",
+      "monthBranch": "辰",
+      "sourceSpan": {
+        "start": 20689,
+        "end": 20759,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论己;codepoint[20689,20759)",
+      "initialUses": [
+        {
+          "stem": "丙",
+          "role": "first",
+          "sequence": 1,
+          "quote": "先丙后癸，土暖而润，随用甲疏"
+        },
+        {
+          "stem": "癸",
+          "role": "support",
+          "sequence": 2,
+          "quote": "先丙后癸，土暖而润，随用甲疏"
+        },
+        {
+          "stem": "甲",
+          "role": "support",
+          "sequence": 3,
+          "quote": "先丙后癸，土暖而润，随用甲疏"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "己-巳",
+      "title": "己日干 · 巳月令初始取用原文",
+      "dayStem": "己",
+      "monthBranch": "巳",
+      "sourceSpan": {
+        "start": 20931,
+        "end": 20984,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论己;codepoint[20931,20984)",
+      "initialUses": [
+        {
+          "stem": "癸",
+          "role": "first",
+          "sequence": 1,
+          "quote": "取癸为要，次用丙火。"
+        },
+        {
+          "stem": "丙",
+          "role": "support",
+          "sequence": 2,
+          "quote": "取癸为要，次用丙火。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "shared-summer-paragraph",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "己-午",
+      "title": "己日干 · 午月令初始取用原文",
+      "dayStem": "己",
+      "monthBranch": "午",
+      "sourceSpan": {
+        "start": 20931,
+        "end": 20984,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论己;codepoint[20931,20984)",
+      "initialUses": [
+        {
+          "stem": "癸",
+          "role": "first",
+          "sequence": 1,
+          "quote": "取癸为要，次用丙火。"
+        },
+        {
+          "stem": "丙",
+          "role": "support",
+          "sequence": 2,
+          "quote": "取癸为要，次用丙火。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "shared-summer-paragraph",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "己-未",
+      "title": "己日干 · 未月令初始取用原文",
+      "dayStem": "己",
+      "monthBranch": "未",
+      "sourceSpan": {
+        "start": 20931,
+        "end": 20984,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论己;codepoint[20931,20984)",
+      "initialUses": [
+        {
+          "stem": "癸",
+          "role": "first",
+          "sequence": 1,
+          "quote": "取癸为要，次用丙火。"
+        },
+        {
+          "stem": "丙",
+          "role": "support",
+          "sequence": 2,
+          "quote": "取癸为要，次用丙火。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "shared-summer-paragraph",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "己-申",
+      "title": "己日干 · 申月令初始取用原文",
+      "dayStem": "己",
+      "monthBranch": "申",
+      "sourceSpan": {
+        "start": 21628,
+        "end": 21662,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论己;codepoint[21628,21662)",
+      "initialUses": [
+        {
+          "stem": "癸",
+          "role": "first",
+          "sequence": 1,
+          "quote": "总之，三秋己土，先癸后丙，取辛辅癸。"
+        },
+        {
+          "stem": "丙",
+          "role": "support",
+          "sequence": 2,
+          "quote": "总之，三秋己土，先癸后丙，取辛辅癸。"
+        },
+        {
+          "stem": "辛",
+          "role": "support",
+          "sequence": 3,
+          "quote": "总之，三秋己土，先癸后丙，取辛辅癸。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "shared-autumn-paragraph",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "己-酉",
+      "title": "己日干 · 酉月令初始取用原文",
+      "dayStem": "己",
+      "monthBranch": "酉",
+      "sourceSpan": {
+        "start": 21628,
+        "end": 21662,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论己;codepoint[21628,21662)",
+      "initialUses": [
+        {
+          "stem": "癸",
+          "role": "first",
+          "sequence": 1,
+          "quote": "总之，三秋己土，先癸后丙，取辛辅癸。"
+        },
+        {
+          "stem": "丙",
+          "role": "support",
+          "sequence": 2,
+          "quote": "总之，三秋己土，先癸后丙，取辛辅癸。"
+        },
+        {
+          "stem": "辛",
+          "role": "support",
+          "sequence": 3,
+          "quote": "总之，三秋己土，先癸后丙，取辛辅癸。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "shared-autumn-paragraph",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "己-戌",
+      "title": "己日干 · 戌月令初始取用原文",
+      "dayStem": "己",
+      "monthBranch": "戌",
+      "sourceSpan": {
+        "start": 21628,
+        "end": 21662,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论己;codepoint[21628,21662)",
+      "initialUses": [
+        {
+          "stem": "癸",
+          "role": "first",
+          "sequence": 1,
+          "quote": "总之，三秋己土，先癸后丙，取辛辅癸。"
+        },
+        {
+          "stem": "丙",
+          "role": "support",
+          "sequence": 2,
+          "quote": "总之，三秋己土，先癸后丙，取辛辅癸。"
+        },
+        {
+          "stem": "辛",
+          "role": "support",
+          "sequence": 3,
+          "quote": "总之，三秋己土，先癸后丙，取辛辅癸。"
+        }
+      ],
+      "conditions": [
+        {
+          "id": "ji-xu-earth-strong-jia",
+          "sourceQuote": "九月土盛，宜甲木疏之，余皆酌用。",
+          "sourceLocator": "oldid=2294674;论己;codepoint[21646,21662)",
+          "sourceSpan": {
+            "start": 21646,
+            "end": 21662,
+            "unit": "unicode-codepoint",
+            "interval": "[start,end)"
+          },
+          "proposedUses": [],
+          "note": "共享三秋初句之外有九月土盛分支；土盛阈值未定义，未实现。"
+        }
+      ],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "shared-autumn-paragraph",
+      "missing": [
+        "九月同段另称土盛宜甲疏；没有把土盛阈值编成确定判断。",
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "己-亥",
+      "title": "己日干 · 亥月令初始取用原文",
+      "dayStem": "己",
+      "monthBranch": "亥",
+      "sourceSpan": {
+        "start": 21819,
+        "end": 21883,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论己;codepoint[21819,21883)",
+      "initialUses": [
+        {
+          "stem": "丙",
+          "role": "first",
+          "sequence": 1,
+          "quote": "取丙为尊，甲木参酌。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "shared-winter-paragraph",
+      "missing": [
+        "甲为参酌，初冬壬旺另取戊制；不混入无条件初始清单。",
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "己-子",
+      "title": "己日干 · 子月令初始取用原文",
+      "dayStem": "己",
+      "monthBranch": "子",
+      "sourceSpan": {
+        "start": 21819,
+        "end": 21883,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论己;codepoint[21819,21883)",
+      "initialUses": [
+        {
+          "stem": "丙",
+          "role": "first",
+          "sequence": 1,
+          "quote": "取丙为尊，甲木参酌。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "shared-winter-paragraph",
+      "missing": [
+        "甲为参酌，初冬壬旺另取戊制；不混入无条件初始清单。",
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "己-丑",
+      "title": "己日干 · 丑月令初始取用原文",
+      "dayStem": "己",
+      "monthBranch": "丑",
+      "sourceSpan": {
+        "start": 21819,
+        "end": 21883,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论己;codepoint[21819,21883)",
+      "initialUses": [
+        {
+          "stem": "丙",
+          "role": "first",
+          "sequence": 1,
+          "quote": "取丙为尊，甲木参酌。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "shared-winter-paragraph",
+      "missing": [
+        "甲为参酌，初冬壬旺另取戊制；不混入无条件初始清单。",
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "庚-寅",
+      "title": "庚日干 · 寅月令初始取用原文",
+      "dayStem": "庚",
+      "monthBranch": "寅",
+      "sourceSpan": {
+        "start": 22751,
+        "end": 22834,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论庚;codepoint[22751,22834)",
+      "initialUses": [
+        {
+          "stem": "丙",
+          "role": "first",
+          "sequence": 1,
+          "quote": "先用丙暖庚性，又虑土厚埋金，须甲疏洩。"
+        },
+        {
+          "stem": "甲",
+          "role": "support",
+          "sequence": 2,
+          "quote": "先用丙暖庚性，又虑土厚埋金，须甲疏洩。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "庚-卯",
+      "title": "庚日干 · 卯月令初始取用原文",
+      "dayStem": "庚",
+      "monthBranch": "卯",
+      "sourceSpan": {
+        "start": 23096,
+        "end": 23176,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论庚;codepoint[23096,23176)",
+      "initialUses": [
+        {
+          "stem": "丁",
+          "role": "first",
+          "sequence": 1,
+          "quote": "专用丁火，借甲引丁"
+        },
+        {
+          "stem": "甲",
+          "role": "support",
+          "sequence": 2,
+          "quote": "专用丁火，借甲引丁"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "庚-辰",
+      "title": "庚日干 · 辰月令初始取用原文",
+      "dayStem": "庚",
+      "monthBranch": "辰",
+      "sourceSpan": {
+        "start": 23510,
+        "end": 23594,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论庚;codepoint[23510,23594)",
+      "initialUses": [
+        {
+          "stem": "甲",
+          "role": "first",
+          "sequence": 1,
+          "quote": "故先甲后丁，不用庚噼甲。"
+        },
+        {
+          "stem": "丁",
+          "role": "support",
+          "sequence": 2,
+          "quote": "故先甲后丁，不用庚噼甲。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "庚-巳",
+      "title": "庚日干 · 巳月令初始取用原文",
+      "dayStem": "庚",
+      "monthBranch": "巳",
+      "sourceSpan": {
+        "start": 24089,
+        "end": 24118,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论庚;codepoint[24089,24118)",
+      "initialUses": [
+        {
+          "stem": "壬",
+          "role": "unranked",
+          "sequence": 1,
+          "quote": "四月庚金，须用壬丙戊，但非拘执先后，宜分病用药。"
+        },
+        {
+          "stem": "丙",
+          "role": "unranked",
+          "sequence": 2,
+          "quote": "四月庚金，须用壬丙戊，但非拘执先后，宜分病用药。"
+        },
+        {
+          "stem": "戊",
+          "role": "unranked",
+          "sequence": 3,
+          "quote": "四月庚金，须用壬丙戊，但非拘执先后，宜分病用药。"
+        }
+      ],
+      "conditions": [
+        {
+          "id": "geng-si-no-fixed-order",
+          "sourceQuote": "四月庚金，须用壬丙戊，但非拘执先后，宜分病用药。",
+          "sourceLocator": "oldid=2294674;论庚;codepoint[24089,24113)",
+          "sourceSpan": {
+            "start": 24089,
+            "end": 24113,
+            "unit": "unicode-codepoint",
+            "interval": "[start,end)"
+          },
+          "proposedUses": [],
+          "note": "原文明确不拘先后，保留分病用药的未实现条件，不能强行排序。"
+        }
+      ],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "本月总结明确不拘先后，不能把开段顺序冒称最终优先级。",
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "庚-午",
+      "title": "庚日干 · 午月令初始取用原文",
+      "dayStem": "庚",
+      "monthBranch": "午",
+      "sourceSpan": {
+        "start": 24165,
+        "end": 24266,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论庚;codepoint[24165,24266)",
+      "initialUses": [
+        {
+          "stem": "壬",
+          "role": "first",
+          "sequence": 1,
+          "quote": "专用壬水，癸又次之。"
+        },
+        {
+          "stem": "癸",
+          "role": "support",
+          "sequence": 2,
+          "quote": "专用壬水，癸又次之。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "庚-未",
+      "title": "庚日干 · 未月令初始取用原文",
+      "dayStem": "庚",
+      "monthBranch": "未",
+      "sourceSpan": {
+        "start": 24366,
+        "end": 24465,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论庚;codepoint[24366,24465)",
+      "initialUses": [
+        {
+          "stem": "丁",
+          "role": "first",
+          "sequence": 1,
+          "quote": "先用丁火，次取甲木。"
+        },
+        {
+          "stem": "甲",
+          "role": "support",
+          "sequence": 2,
+          "quote": "先用丁火，次取甲木。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "庚-申",
+      "title": "庚日干 · 申月令初始取用原文",
+      "dayStem": "庚",
+      "monthBranch": "申",
+      "sourceSpan": {
+        "start": 24622,
+        "end": 24687,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论庚;codepoint[24622,24687)",
+      "initialUses": [
+        {
+          "stem": "丁",
+          "role": "first",
+          "sequence": 1,
+          "quote": "专用丁火煅炼，次取甲木引丁"
+        },
+        {
+          "stem": "甲",
+          "role": "support",
+          "sequence": 2,
+          "quote": "专用丁火煅炼，次取甲木引丁"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "庚-酉",
+      "title": "庚日干 · 酉月令初始取用原文",
+      "dayStem": "庚",
+      "monthBranch": "酉",
+      "sourceSpan": {
+        "start": 24873,
+        "end": 24946,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论庚;codepoint[24873,24946)",
+      "initialUses": [
+        {
+          "stem": "丁",
+          "role": "parallel",
+          "sequence": 1,
+          "quote": "用丁用甲，丙不可少。"
+        },
+        {
+          "stem": "甲",
+          "role": "parallel",
+          "sequence": 2,
+          "quote": "用丁用甲，丙不可少。"
+        },
+        {
+          "stem": "丙",
+          "role": "support",
+          "sequence": 3,
+          "quote": "用丁用甲，丙不可少。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "庚-戌",
+      "title": "庚日干 · 戌月令初始取用原文",
+      "dayStem": "庚",
+      "monthBranch": "戌",
+      "sourceSpan": {
+        "start": 25159,
+        "end": 25206,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论庚;codepoint[25159,25206)",
+      "initialUses": [
+        {
+          "stem": "甲",
+          "role": "first",
+          "sequence": 1,
+          "quote": "宜先用甲疏，后用壬洗"
+        },
+        {
+          "stem": "壬",
+          "role": "support",
+          "sequence": 2,
+          "quote": "宜先用甲疏，后用壬洗"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "庚-亥",
+      "title": "庚日干 · 亥月令初始取用原文",
+      "dayStem": "庚",
+      "monthBranch": "亥",
+      "sourceSpan": {
+        "start": 25438,
+        "end": 25504,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论庚;codepoint[25438,25504)",
+      "initialUses": [
+        {
+          "stem": "丁",
+          "role": "parallel",
+          "sequence": 1,
+          "quote": "非丁莫造，非丙不暖。"
+        },
+        {
+          "stem": "丙",
+          "role": "parallel",
+          "sequence": 2,
+          "quote": "非丁莫造，非丙不暖。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "庚-子",
+      "title": "庚日干 · 子月令初始取用原文",
+      "dayStem": "庚",
+      "monthBranch": "子",
+      "sourceSpan": {
+        "start": 25642,
+        "end": 25740,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论庚;codepoint[25642,25740)",
+      "initialUses": [
+        {
+          "stem": "丁",
+          "role": "parallel",
+          "sequence": 1,
+          "quote": "仍取丁甲，次取丙火照暖。"
+        },
+        {
+          "stem": "甲",
+          "role": "parallel",
+          "sequence": 2,
+          "quote": "仍取丁甲，次取丙火照暖。"
+        },
+        {
+          "stem": "丙",
+          "role": "support",
+          "sequence": 3,
+          "quote": "仍取丁甲，次取丙火照暖。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "庚-丑",
+      "title": "庚日干 · 丑月令初始取用原文",
+      "dayStem": "庚",
+      "monthBranch": "丑",
+      "sourceSpan": {
+        "start": 25984,
+        "end": 26031,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论庚;codepoint[25984,26031)",
+      "initialUses": [
+        {
+          "stem": "丙",
+          "role": "first",
+          "sequence": 1,
+          "quote": "先取丙火解冻，次取丁火炼金，甲亦不可少。"
+        },
+        {
+          "stem": "丁",
+          "role": "support",
+          "sequence": 2,
+          "quote": "先取丙火解冻，次取丁火炼金，甲亦不可少。"
+        },
+        {
+          "stem": "甲",
+          "role": "support",
+          "sequence": 3,
+          "quote": "先取丙火解冻，次取丁火炼金，甲亦不可少。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "辛-寅",
+      "title": "辛日干 · 寅月令初始取用原文",
+      "dayStem": "辛",
+      "monthBranch": "寅",
+      "sourceSpan": {
+        "start": 26446,
+        "end": 26489,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论辛;codepoint[26446,26489)",
+      "initialUses": [
+        {
+          "stem": "己",
+          "role": "first",
+          "sequence": 1,
+          "quote": "故正月辛金，先己后壬。"
+        },
+        {
+          "stem": "壬",
+          "role": "support",
+          "sequence": 2,
+          "quote": "故正月辛金，先己后壬。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "辛-卯",
+      "title": "辛日干 · 卯月令初始取用原文",
+      "dayStem": "辛",
+      "monthBranch": "卯",
+      "sourceSpan": {
+        "start": 26556,
+        "end": 26685,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论辛;codepoint[26556,26685)",
+      "initialUses": [
+        {
+          "stem": "壬",
+          "role": "first",
+          "sequence": 1,
+          "quote": "壬水为尊，见戊己为病。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "甲制土的条件另列，不自动并入无条件推荐。",
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "辛-辰",
+      "title": "辛日干 · 辰月令初始取用原文",
+      "dayStem": "辛",
+      "monthBranch": "辰",
+      "sourceSpan": {
+        "start": 27011,
+        "end": 27082,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论辛;codepoint[27011,27082)",
+      "initialUses": [
+        {
+          "stem": "壬",
+          "role": "first",
+          "sequence": 1,
+          "quote": "先壬后甲。"
+        },
+        {
+          "stem": "甲",
+          "role": "support",
+          "sequence": 2,
+          "quote": "先壬后甲。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "辛-巳",
+      "title": "辛日干 · 巳月令初始取用原文",
+      "dayStem": "辛",
+      "monthBranch": "巳",
+      "sourceSpan": {
+        "start": 27266,
+        "end": 27362,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论辛;codepoint[27266,27362)",
+      "initialUses": [
+        {
+          "stem": "壬",
+          "role": "first",
+          "sequence": 1,
+          "quote": "喜壬水之洗淘。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "辛-午",
+      "title": "辛日干 · 午月令初始取用原文",
+      "dayStem": "辛",
+      "monthBranch": "午",
+      "sourceSpan": {
+        "start": 27510,
+        "end": 27666,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论辛;codepoint[27510,27666)",
+      "initialUses": [
+        {
+          "stem": "己",
+          "role": "parallel",
+          "sequence": 1,
+          "quote": "须己壬兼用"
+        },
+        {
+          "stem": "壬",
+          "role": "parallel",
+          "sequence": 2,
+          "quote": "须己壬兼用"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "后段又写壬癸己皆用；保留首段兼用与后文条件，不揉成无条件三干。",
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "辛-未",
+      "title": "辛日干 · 未月令初始取用原文",
+      "dayStem": "辛",
+      "monthBranch": "未",
+      "sourceSpan": {
+        "start": 27827,
+        "end": 27989,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论辛;codepoint[27827,27989)",
+      "initialUses": [
+        {
+          "stem": "壬",
+          "role": "first",
+          "sequence": 1,
+          "quote": "先用壬水，取庚佐之。"
+        },
+        {
+          "stem": "庚",
+          "role": "support",
+          "sequence": 2,
+          "quote": "先用壬水，取庚佐之。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "辛-申",
+      "title": "辛日干 · 申月令初始取用原文",
+      "dayStem": "辛",
+      "monthBranch": "申",
+      "sourceSpan": {
+        "start": 28258,
+        "end": 28303,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论辛;codepoint[28258,28303)",
+      "initialUses": [
+        {
+          "stem": "壬",
+          "role": "first",
+          "sequence": 1,
+          "quote": "壬水为尊，甲戊酌用可也"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "甲戊属酌用；水多、土多等条件未实现。",
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "辛-酉",
+      "title": "辛日干 · 酉月令初始取用原文",
+      "dayStem": "辛",
+      "monthBranch": "酉",
+      "sourceSpan": {
+        "start": 28346,
+        "end": 28418,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论辛;codepoint[28346,28418)",
+      "initialUses": [
+        {
+          "stem": "壬",
+          "role": "first",
+          "sequence": 1,
+          "quote": "专用壬水淘洗火"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "辛-戌",
+      "title": "辛日干 · 戌月令初始取用原文",
+      "dayStem": "辛",
+      "monthBranch": "戌",
+      "sourceSpan": {
+        "start": 28943,
+        "end": 29019,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论辛;codepoint[28943,29019)",
+      "initialUses": [
+        {
+          "stem": "壬",
+          "role": "first",
+          "sequence": 1,
+          "quote": "先壬后甲。"
+        },
+        {
+          "stem": "甲",
+          "role": "support",
+          "sequence": 2,
+          "quote": "先壬后甲。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "辛-亥",
+      "title": "辛日干 · 亥月令初始取用原文",
+      "dayStem": "辛",
+      "monthBranch": "亥",
+      "sourceSpan": {
+        "start": 29317,
+        "end": 29418,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论辛;codepoint[29317,29418)",
+      "initialUses": [
+        {
+          "stem": "壬",
+          "role": "first",
+          "sequence": 1,
+          "quote": "先用壬水，次取丙火"
+        },
+        {
+          "stem": "丙",
+          "role": "support",
+          "sequence": 2,
+          "quote": "先用壬水，次取丙火"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "辛-子",
+      "title": "辛日干 · 子月令初始取用原文",
+      "dayStem": "辛",
+      "monthBranch": "子",
+      "sourceSpan": {
+        "start": 29525,
+        "end": 29586,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论辛;codepoint[29525,29586)",
+      "initialUses": [
+        {
+          "stem": "壬",
+          "role": "unranked",
+          "sequence": 1,
+          "quote": "壬丙两透，不见戊癸"
+        },
+        {
+          "stem": "丙",
+          "role": "unranked",
+          "sequence": 2,
+          "quote": "壬丙两透，不见戊癸"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "原句是透干及不见戊癸的条件组合，不当作无条件最终意见。",
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "辛-丑",
+      "title": "辛日干 · 丑月令初始取用原文",
+      "dayStem": "辛",
+      "monthBranch": "丑",
+      "sourceSpan": {
+        "start": 29757,
+        "end": 29853,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论辛;codepoint[29757,29853)",
+      "initialUses": [
+        {
+          "stem": "丙",
+          "role": "first",
+          "sequence": 1,
+          "quote": "先丙后壬，无丙不能解冻，无壬不能洗淘。"
+        },
+        {
+          "stem": "壬",
+          "role": "support",
+          "sequence": 2,
+          "quote": "先丙后壬，无丙不能解冻，无壬不能洗淘。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "壬-寅",
+      "title": "壬日干 · 寅月令初始取用原文",
+      "dayStem": "壬",
+      "monthBranch": "寅",
+      "sourceSpan": {
+        "start": 30529,
+        "end": 30614,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论壬;codepoint[30529,30614)",
+      "initialUses": [
+        {
+          "stem": "庚",
+          "role": "first",
+          "sequence": 1,
+          "quote": "宜用庚金之源"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "无比肩羊刃时以丙为佐属于另句条件，不自动扩充。",
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "壬-卯",
+      "title": "壬日干 · 卯月令初始取用原文",
+      "dayStem": "壬",
+      "monthBranch": "卯",
+      "sourceSpan": {
+        "start": 30819,
+        "end": 30868,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论壬;codepoint[30819,30868)",
+      "initialUses": [
+        {
+          "stem": "戊",
+          "role": "first",
+          "sequence": 1,
+          "quote": "先戊后辛，庚金次之。"
+        },
+        {
+          "stem": "辛",
+          "role": "support",
+          "sequence": 2,
+          "quote": "先戊后辛，庚金次之。"
+        },
+        {
+          "stem": "庚",
+          "role": "support",
+          "sequence": 3,
+          "quote": "先戊后辛，庚金次之。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "壬-辰",
+      "title": "壬日干 · 辰月令初始取用原文",
+      "dayStem": "壬",
+      "monthBranch": "辰",
+      "sourceSpan": {
+        "start": 31052,
+        "end": 31161,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论壬;codepoint[31052,31161)",
+      "initialUses": [
+        {
+          "stem": "甲",
+          "role": "first",
+          "sequence": 1,
+          "quote": "先用甲疏季土，次取庚金。"
+        },
+        {
+          "stem": "庚",
+          "role": "support",
+          "sequence": 2,
+          "quote": "先用甲疏季土，次取庚金。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "壬-巳",
+      "title": "壬日干 · 巳月令初始取用原文",
+      "dayStem": "壬",
+      "monthBranch": "巳",
+      "sourceSpan": {
+        "start": 31290,
+        "end": 31377,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论壬;codepoint[31290,31377)",
+      "initialUses": [
+        {
+          "stem": "壬",
+          "role": "first",
+          "sequence": 1,
+          "quote": "专取壬水比肩为助，次取辛金发源，且暗合丙火，庚金为佐。"
+        },
+        {
+          "stem": "辛",
+          "role": "support",
+          "sequence": 2,
+          "quote": "专取壬水比肩为助，次取辛金发源，且暗合丙火，庚金为佐。"
+        },
+        {
+          "stem": "庚",
+          "role": "support",
+          "sequence": 3,
+          "quote": "专取壬水比肩为助，次取辛金发源，且暗合丙火，庚金为佐。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "壬-午",
+      "title": "壬日干 · 午月令初始取用原文",
+      "dayStem": "壬",
+      "monthBranch": "午",
+      "sourceSpan": {
+        "start": 31582,
+        "end": 31642,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论壬;codepoint[31582,31642)",
+      "initialUses": [
+        {
+          "stem": "癸",
+          "role": "first",
+          "sequence": 1,
+          "quote": "取癸为用，取庚为佐。"
+        },
+        {
+          "stem": "庚",
+          "role": "support",
+          "sequence": 2,
+          "quote": "取癸为用，取庚为佐。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "壬-未",
+      "title": "壬日干 · 未月令初始取用原文",
+      "dayStem": "壬",
+      "monthBranch": "未",
+      "sourceSpan": {
+        "start": 31771,
+        "end": 31890,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论壬;codepoint[31771,31890)",
+      "initialUses": [],
+      "conditions": [
+        {
+          "id": "ren-wei-alternative-order",
+          "sourceQuote": "六月壬水，先辛后甲，次取癸水。",
+          "sourceLocator": "oldid=2294674;论壬;codepoint[31806,31821)",
+          "sourceSpan": {
+            "start": 31806,
+            "end": 31821,
+            "unit": "unicode-codepoint",
+            "interval": "[start,end)"
+          },
+          "proposedUses": [],
+          "note": "同段与先用辛癸次甲的措辞不同，待人工审阅，不选定隐藏优先级。"
+        }
+      ],
+      "reviewStatus": "needs-review",
+      "coverageStatus": "needs-review",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "同段随后又写先辛后甲次癸，顺序有不同表述；不擅选唯一顺序。",
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "壬-申",
+      "title": "壬日干 · 申月令初始取用原文",
+      "dayStem": "壬",
+      "monthBranch": "申",
+      "sourceSpan": {
+        "start": 31979,
+        "end": 32101,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论壬;codepoint[31979,32101)",
+      "initialUses": [
+        {
+          "stem": "戊",
+          "role": "first",
+          "sequence": 1,
+          "quote": "专用戊土，次取丁火佐戊制庚。"
+        },
+        {
+          "stem": "丁",
+          "role": "support",
+          "sequence": 2,
+          "quote": "专用戊土，次取丁火佐戊制庚。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "壬-酉",
+      "title": "壬日干 · 酉月令初始取用原文",
+      "dayStem": "壬",
+      "monthBranch": "酉",
+      "sourceSpan": {
+        "start": 32493,
+        "end": 32518,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论壬;codepoint[32493,32518)",
+      "initialUses": [
+        {
+          "stem": "甲",
+          "role": "first",
+          "sequence": 1,
+          "quote": "八月壬水，专用甲木，庚金次之。"
+        },
+        {
+          "stem": "庚",
+          "role": "support",
+          "sequence": 2,
+          "quote": "八月壬水，专用甲木，庚金次之。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "壬-戌",
+      "title": "壬日干 · 戌月令初始取用原文",
+      "dayStem": "壬",
+      "monthBranch": "戌",
+      "sourceSpan": {
+        "start": 32775,
+        "end": 32799,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论壬;codepoint[32775,32799)",
+      "initialUses": [
+        {
+          "stem": "甲",
+          "role": "first",
+          "sequence": 1,
+          "quote": "九月壬水，专用甲木，次用丙火。"
+        },
+        {
+          "stem": "丙",
+          "role": "support",
+          "sequence": 2,
+          "quote": "九月壬水，专用甲木，次用丙火。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "壬-亥",
+      "title": "壬日干 · 亥月令初始取用原文",
+      "dayStem": "壬",
+      "monthBranch": "亥",
+      "sourceSpan": {
+        "start": 32874,
+        "end": 32982,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论壬;codepoint[32874,32982)",
+      "initialUses": [
+        {
+          "stem": "戊",
+          "role": "first",
+          "sequence": 1,
+          "quote": "取戊为用"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "本月末句另述戊丙及庚次用，需连同条件人工审阅。",
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "壬-子",
+      "title": "壬日干 · 子月令初始取用原文",
+      "dayStem": "壬",
+      "monthBranch": "子",
+      "sourceSpan": {
+        "start": 33159,
+        "end": 33221,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论壬;codepoint[33159,33221)",
+      "initialUses": [
+        {
+          "stem": "戊",
+          "role": "first",
+          "sequence": 1,
+          "quote": "先取戊土，次用丙火"
+        },
+        {
+          "stem": "丙",
+          "role": "support",
+          "sequence": 2,
+          "quote": "先取戊土，次用丙火"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "壬-丑",
+      "title": "壬日干 · 丑月令初始取用原文",
+      "dayStem": "壬",
+      "monthBranch": "丑",
+      "sourceSpan": {
+        "start": 33624,
+        "end": 33657,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论壬;codepoint[33624,33657)",
+      "initialUses": [
+        {
+          "stem": "丙",
+          "role": "first",
+          "sequence": 1,
+          "quote": "腊月壬水，先取丙火，丁甲为佐"
+        },
+        {
+          "stem": "丁",
+          "role": "support",
+          "sequence": 2,
+          "quote": "腊月壬水，先取丙火，丁甲为佐"
+        },
+        {
+          "stem": "甲",
+          "role": "support",
+          "sequence": 3,
+          "quote": "腊月壬水，先取丙火，丁甲为佐"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "癸-寅",
+      "title": "癸日干 · 寅月令初始取用原文",
+      "dayStem": "癸",
+      "monthBranch": "寅",
+      "sourceSpan": {
+        "start": 33735,
+        "end": 33801,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论癸;codepoint[33735,33801)",
+      "initialUses": [
+        {
+          "stem": "辛",
+          "role": "first",
+          "sequence": 1,
+          "quote": "先用辛金，生癸水之源，次用丙火照暖"
+        },
+        {
+          "stem": "丙",
+          "role": "support",
+          "sequence": 2,
+          "quote": "先用辛金，生癸水之源，次用丙火照暖"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "癸-卯",
+      "title": "癸日干 · 卯月令初始取用原文",
+      "dayStem": "癸",
+      "monthBranch": "卯",
+      "sourceSpan": {
+        "start": 34020,
+        "end": 34133,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论癸;codepoint[34020,34133)",
+      "initialUses": [
+        {
+          "stem": "庚",
+          "role": "first",
+          "sequence": 1,
+          "quote": "专以庚金为用，辛金次之。"
+        },
+        {
+          "stem": "辛",
+          "role": "support",
+          "sequence": 2,
+          "quote": "专以庚金为用，辛金次之。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "癸-辰",
+      "title": "癸日干 · 辰月令初始取用原文",
+      "dayStem": "癸",
+      "monthBranch": "辰",
+      "sourceSpan": {
+        "start": 34251,
+        "end": 34362,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论癸;codepoint[34251,34362)",
+      "initialUses": [
+        {
+          "stem": "丙",
+          "role": "first",
+          "sequence": 1,
+          "quote": "清明后、火气未炽，专用丙火，为阴阳合谐。谷雨后，虽用丙火，尚宜辛甲佐之。"
+        }
+      ],
+      "conditions": [
+        {
+          "id": "gui-chen-pure-brightness-grain-rain",
+          "sourceQuote": "清明后、火气未炽，专用丙火，为阴阳合谐。谷雨后，虽用丙火，尚宜辛甲佐之。",
+          "sourceLocator": "oldid=2294674;论癸;codepoint[34269,34305)",
+          "sourceSpan": {
+            "start": 34269,
+            "end": 34305,
+            "unit": "unicode-codepoint",
+            "interval": "[start,end)"
+          },
+          "proposedUses": [],
+          "note": "清明／谷雨实际瞬间及火气未炽条件本profile未实施，原句并列保留。"
+        }
+      ],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "谷雨后辛甲辅助的节气条件未自动裁定。",
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "癸-巳",
+      "title": "癸日干 · 巳月令初始取用原文",
+      "dayStem": "癸",
+      "monthBranch": "巳",
+      "sourceSpan": {
+        "start": 34596,
+        "end": 34670,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论癸;codepoint[34596,34670)",
+      "initialUses": [
+        {
+          "stem": "辛",
+          "role": "first",
+          "sequence": 1,
+          "quote": "喜辛金为用，无辛用庚。"
+        }
+      ],
+      "conditions": [
+        {
+          "id": "gui-si-no-xin-fallback",
+          "sourceQuote": "喜辛金为用，无辛用庚。",
+          "sourceLocator": "oldid=2294674;论癸;codepoint[34607,34618)",
+          "sourceSpan": {
+            "start": 34607,
+            "end": 34618,
+            "unit": "unicode-codepoint",
+            "interval": "[start,end)"
+          },
+          "proposedUses": [],
+          "note": "无辛未指明只看明干还是包含藏干，本profile不擅定scope。"
+        }
+      ],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "无辛改庚的无字作用域未明确，保留原句不自定包含藏干与否。",
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "癸-午",
+      "title": "癸日干 · 午月令初始取用原文",
+      "dayStem": "癸",
+      "monthBranch": "午",
+      "sourceSpan": {
+        "start": 34785,
+        "end": 34856,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论癸;codepoint[34785,34856)",
+      "initialUses": [
+        {
+          "stem": "庚",
+          "role": "parallel",
+          "sequence": 1,
+          "quote": "五月癸水，庚辛壬参酌并用可也。"
+        },
+        {
+          "stem": "辛",
+          "role": "parallel",
+          "sequence": 2,
+          "quote": "五月癸水，庚辛壬参酌并用可也。"
+        },
+        {
+          "stem": "壬",
+          "role": "parallel",
+          "sequence": 3,
+          "quote": "五月癸水，庚辛壬参酌并用可也。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "癸-未",
+      "title": "癸日干 · 未月令初始取用原文",
+      "dayStem": "癸",
+      "monthBranch": "未",
+      "sourceSpan": {
+        "start": 35026,
+        "end": 35180,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论癸;codepoint[35026,35180)",
+      "initialUses": [
+        {
+          "stem": "庚",
+          "role": "parallel",
+          "sequence": 1,
+          "quote": "所以专用庚辛。"
+        },
+        {
+          "stem": "辛",
+          "role": "parallel",
+          "sequence": 2,
+          "quote": "所以专用庚辛。"
+        }
+      ],
+      "conditions": [
+        {
+          "id": "gui-wei-half-month",
+          "sourceQuote": "下半月庚辛有气，上半月庚辛休囚。",
+          "sourceLocator": "oldid=2294674;论癸;codepoint[35044,35060)",
+          "sourceSpan": {
+            "start": 35044,
+            "end": 35060,
+            "unit": "unicode-codepoint",
+            "interval": "[start,end)"
+          },
+          "proposedUses": [],
+          "note": "上下半月取法和有气／休囚的传统解释本profile未实施，不因共同初用庚辛就略去。"
+        }
+      ],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "同段上下半月与比劫、丁透藏等条件未裁定。",
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "癸-申",
+      "title": "癸日干 · 申月令初始取用原文",
+      "dayStem": "癸",
+      "monthBranch": "申",
+      "sourceSpan": {
+        "start": 35255,
+        "end": 35386,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论癸;codepoint[35255,35386)",
+      "initialUses": [
+        {
+          "stem": "丁",
+          "role": "first",
+          "sequence": 1,
+          "quote": "必取丁火为用。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "癸-酉",
+      "title": "癸日干 · 酉月令初始取用原文",
+      "dayStem": "癸",
+      "monthBranch": "酉",
+      "sourceSpan": {
+        "start": 35529,
+        "end": 35620,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论癸;codepoint[35529,35620)",
+      "initialUses": [
+        {
+          "stem": "辛",
+          "role": "first",
+          "sequence": 1,
+          "quote": "故取辛金为用，丙火佐之。"
+        },
+        {
+          "stem": "丙",
+          "role": "support",
+          "sequence": 2,
+          "quote": "故取辛金为用，丙火佐之。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "癸-戌",
+      "title": "癸日干 · 戌月令初始取用原文",
+      "dayStem": "癸",
+      "monthBranch": "戌",
+      "sourceSpan": {
+        "start": 35693,
+        "end": 35825,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论癸;codepoint[35693,35825)",
+      "initialUses": [
+        {
+          "stem": "辛",
+          "role": "first",
+          "sequence": 1,
+          "quote": "专用辛金发水之源"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "同段后文辛甲并用及比肩滋甲条件需人工连读。",
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "癸-亥",
+      "title": "癸日干 · 亥月令初始取用原文",
+      "dayStem": "癸",
+      "monthBranch": "亥",
+      "sourceSpan": {
+        "start": 35912,
+        "end": 35965,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论癸;codepoint[35912,35965)",
+      "initialUses": [
+        {
+          "stem": "庚",
+          "role": "parallel",
+          "sequence": 1,
+          "quote": "宜用庚辛为妙。"
+        },
+        {
+          "stem": "辛",
+          "role": "parallel",
+          "sequence": 2,
+          "quote": "宜用庚辛为妙。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "癸-子",
+      "title": "癸日干 · 子月令初始取用原文",
+      "dayStem": "癸",
+      "monthBranch": "子",
+      "sourceSpan": {
+        "start": 36151,
+        "end": 36246,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论癸;codepoint[36151,36246)",
+      "initialUses": [
+        {
+          "stem": "丙",
+          "role": "first",
+          "sequence": 1,
+          "quote": "专用丙火解冻，庶不致成冰，又要辛金滋扶"
+        },
+        {
+          "stem": "辛",
+          "role": "support",
+          "sequence": 2,
+          "quote": "专用丙火解冻，庶不致成冰，又要辛金滋扶"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    },
+    {
+      "id": "癸-丑",
+      "title": "癸日干 · 丑月令初始取用原文",
+      "dayStem": "癸",
+      "monthBranch": "丑",
+      "sourceSpan": {
+        "start": 36398,
+        "end": 36492,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;论癸;codepoint[36398,36492)",
+      "initialUses": [
+        {
+          "stem": "丙",
+          "role": "first",
+          "sequence": 1,
+          "quote": "宜丙火解冻。"
+        }
+      ],
+      "conditions": [],
+      "reviewStatus": "initial",
+      "coverageStatus": "initial",
+      "sourceScope": "month-explicit",
+      "missing": [
+        "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+      ]
+    }
+  ]
+}

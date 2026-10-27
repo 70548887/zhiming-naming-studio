@@ -1,0 +1,2462 @@
+{
+  "schema": "naming-character-meanings-single-nondefault-reading-candidate/1",
+  "batchId": "M616-D02",
+  "sourceId": "naming-character-meanings-m616-candidate",
+  "version": "naming-character-meanings-candidate/M616.1",
+  "candidateOnly": true,
+  "activation": "off",
+  "productionApproved": false,
+  "dispatchToLive": false,
+  "generationAuthority": false,
+  "sourceAuthority": false,
+  "formalCoverageAdded": 0,
+  "automaticSemanticCreditAllowed": false,
+  "wholeNameAssessment": "not-assessed",
+  "wholeNameMeaning": null,
+  "automaticNameRecommendation": false,
+  "scoreDelta": 0,
+  "scope": "per-character-project-explanation-only; explicit non-default direct-reading binding",
+  "defaultDatasetChanged": false,
+  "defaultSourceLocksChanged": false,
+  "sourceCoverage": {
+    "m591InputContentIdentity": "7c6e5b16aa9f80690136fd42e2b0de6aae39b56e516053ecb7d6c6a7398b0d44",
+    "m591NonDefaultDirectRows": 164,
+    "m591NonDefaultDirectCharacters": 142,
+    "referenceOnlyExcluded": true
+  },
+  "cases": [
+    {
+      "caseId": "single-reading-meaning-m616:澄:dèng:90066:1:0",
+      "char": "澄",
+      "defaultReading": {
+        "pinyin": "chéng",
+        "tone": 2,
+        "word": "澄",
+        "meanings": [
+          "水靜止而清澈。"
+        ]
+      },
+      "selectedReading": {
+        "char": "澄",
+        "pinyin": "dèng",
+        "tone": 4,
+        "word": "澄",
+        "meanings": [
+          "使沉澱、清澈。"
+        ],
+        "sourceId": "moe-revised",
+        "readingRole": "non-default-direct-reading"
+      },
+      "readingBinding": {
+        "sourceId": "moe-revised",
+        "rawEntryIndex": 90066,
+        "rawHeteronymIndex": 1,
+        "rawDefinitionIndex": 0,
+        "referenceOnly": false
+      },
+      "readingBindingKind": "explicit-non-default",
+      "baselineCharacter": {
+        "char": "澄",
+        "pinyin": "chéng",
+        "tone": 2,
+        "meaning": "水靜止而清澈。",
+        "traditional": "澄",
+        "strokes": 15,
+        "radical": "水",
+        "elements": [
+          "水"
+        ],
+        "elementBasis": "字形／字义意象参考 v1（项目自编标签，非唯一汉字五行定论；不得当作康熙笔画五行）",
+        "tags": [
+          "常用命名字候选"
+        ],
+        "warning": "多音字：本方案采用 chéng，请按姓名用法确认；各读音义项分别保存。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "chéng",
+            "tone": 2,
+            "meanings": [
+              "水靜止而清澈。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "澄"
+          },
+          {
+            "pinyin": "dèng",
+            "tone": 4,
+            "meanings": [
+              "使沉澱、清澈。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "澄"
+          }
+        ],
+        "polyphonic": true,
+        "variants": [
+          "澄"
+        ]
+      },
+      "baselineCharacterSha256": "165f4bc91618d43df01ccb463e1943f3147fdad7f2f79190c292f7629118f0af",
+      "source": {
+        "sourceId": "moe-revised",
+        "word": "澄",
+        "pinyin": "dèng",
+        "originalFile": "raw/moe-revised.json.gz",
+        "originalSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "rawEntryIndex": 90066,
+        "rawHeteronymIndex": 1,
+        "rawDefinitionIndex": 0,
+        "definition": {
+          "def": "使沉澱、清澈。",
+          "example": [
+            "如：「把這盆水澄一澄。」"
+          ],
+          "type": "動"
+        },
+        "sourcePOS": "動",
+        "completeOriginalEntry": {
+          "heteronyms": [
+            {
+              "bopomofo": "ㄔㄥˊ",
+              "definitions": [
+                {
+                  "def": "水靜止而清澈。",
+                  "quote": [
+                    "南朝齊．謝朓〈晚登三山還望京邑〉詩：「餘霞散成綺，澄江靜如練。」",
+                    "唐．陳子昂〈薛大夫山亭宴序〉：「披翠微而列坐，左對青山；俯磐石而開襟，右臨澄水。」"
+                  ],
+                  "type": "形"
+                }
+              ],
+              "pinyin": "chéng"
+            },
+            {
+              "bopomofo": "ㄉㄥˋ",
+              "definitions": [
+                {
+                  "def": "使沉澱、清澈。",
+                  "example": [
+                    "如：「把這盆水澄一澄。」"
+                  ],
+                  "type": "動"
+                }
+              ],
+              "pinyin": "dèng"
+            }
+          ],
+          "non_radical_stroke_count": 12,
+          "radical": "水",
+          "stroke_count": 15,
+          "title": "澄"
+        },
+        "parsedEntrySha256": "8708a86ee2a2f32aecc09e54e6c1c74acdec2ee1ef02b4f747f82621019ead2b",
+        "hashConvention": "sha256(JSON.stringify(parsed complete original entry)); not raw byte range",
+        "license": "CC-BY-ND-3.0-TW"
+      },
+      "m591Coverage": {
+        "inputContentIdentity": "7c6e5b16aa9f80690136fd42e2b0de6aae39b56e516053ecb7d6c6a7398b0d44",
+        "scope": "stored non-default direct reading; hypothetical selection; never merged into default coverage",
+        "projectedMeaning": "使沉澱、清澈。",
+        "v7Status": "not-reviewed-by-overlay",
+        "standaloneStatus": "not-covered"
+      },
+      "priorV7Review": null,
+      "project": {
+        "meaning": "取使沉澱、清澈的动作意象。",
+        "projectWish": null,
+        "limits": [
+          "不把清澈动作写成性格、命运或结果保证。",
+          "不凭水旁直接追加五行结论。"
+        ],
+        "attribution": "M616-D02 independent direct-reading explanation",
+        "license": "CC0-1.0"
+      },
+      "overlap": {
+        "readingDistinctFromDefault": true,
+        "m610CharOverlap": false,
+        "defaultCoverageStatus": {
+          "v7Status": "not-reviewed-by-overlay",
+          "standaloneStatus": "not-covered"
+        },
+        "overlapReason": "same character is retained only through an explicit non-default reading binding"
+      },
+      "scope": "per-character-project-explanation-only",
+      "wholeNameAssessment": "not-assessed",
+      "wholeNameMeaning": null,
+      "automaticNameRecommendation": false,
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "productionApproved": false,
+      "activation": "off"
+    },
+    {
+      "caseId": "single-reading-meaning-m616:朝:cháo:73844:1:2",
+      "char": "朝",
+      "defaultReading": {
+        "pinyin": "zhāo",
+        "tone": 1,
+        "word": "朝",
+        "meanings": [
+          "早晨。",
+          "日、天。",
+          "姓。如隋代有朝景煥。",
+          "有活力的。"
+        ]
+      },
+      "selectedReading": {
+        "char": "朝",
+        "pinyin": "cháo",
+        "tone": 2,
+        "word": "朝",
+        "meanings": [
+          "古代見人皆稱「朝」。多用於卑見尊、下見上。如臣下進見君長、晚輩問候長輩。諸侯相拜見也稱為「朝」。",
+          "參拜神明。",
+          "對、向。",
+          "舊時君王聽政、辦事的地方。",
+          "某一世系帝王的統治時期，或某位君王的統治時期。",
+          "姓。如隋代有朝景煥。"
+        ],
+        "sourceId": "moe-revised",
+        "readingRole": "non-default-direct-reading"
+      },
+      "readingBinding": {
+        "sourceId": "moe-revised",
+        "rawEntryIndex": 73844,
+        "rawHeteronymIndex": 1,
+        "rawDefinitionIndex": 2,
+        "referenceOnly": false
+      },
+      "readingBindingKind": "explicit-non-default",
+      "baselineCharacter": {
+        "char": "朝",
+        "pinyin": "zhāo",
+        "tone": 1,
+        "meaning": "早晨。；日、天。；姓。如隋代有朝景煥。",
+        "traditional": "朝",
+        "strokes": 12,
+        "radical": "月",
+        "elements": [],
+        "elementBasis": "五行属性待起名师指定；不从普通笔画数推定五行",
+        "tags": [
+          "明朗"
+        ],
+        "warning": "多音字：本方案采用 zhāo，请按姓名用法确认；各读音义项分别保存。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "zhāo",
+            "tone": 1,
+            "meanings": [
+              "早晨。",
+              "日、天。",
+              "姓。如隋代有朝景煥。",
+              "有活力的。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "朝"
+          },
+          {
+            "pinyin": "cháo",
+            "tone": 2,
+            "meanings": [
+              "古代見人皆稱「朝」。多用於卑見尊、下見上。如臣下進見君長、晚輩問候長輩。諸侯相拜見也稱為「朝」。",
+              "參拜神明。",
+              "對、向。",
+              "舊時君王聽政、辦事的地方。",
+              "某一世系帝王的統治時期，或某位君王的統治時期。",
+              "姓。如隋代有朝景煥。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "朝"
+          }
+        ],
+        "polyphonic": true,
+        "variants": [
+          "朝"
+        ]
+      },
+      "baselineCharacterSha256": "aa9523c1fae607d392a99e5f2d7c6b2eb266cffefac636ed3d5dd7ca969f6671",
+      "source": {
+        "sourceId": "moe-revised",
+        "word": "朝",
+        "pinyin": "cháo",
+        "originalFile": "raw/moe-revised.json.gz",
+        "originalSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "rawEntryIndex": 73844,
+        "rawHeteronymIndex": 1,
+        "rawDefinitionIndex": 2,
+        "definition": {
+          "def": "對、向。",
+          "example": [
+            "如：「朝東」、「朝前」。"
+          ],
+          "type": "動"
+        },
+        "sourcePOS": "動",
+        "completeOriginalEntry": {
+          "heteronyms": [
+            {
+              "bopomofo": "ㄓㄠ",
+              "definitions": [
+                {
+                  "def": "早晨。",
+                  "example": [
+                    "如：「春朝」。"
+                  ],
+                  "quote": [
+                    "《詩經．小雅．何草不黃》：「哀我征夫，朝夕不暇。」",
+                    "《論語．里仁》：「朝聞道，夕死可矣。」"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "日、天。",
+                  "example": [
+                    "如：「有朝一日」、「成功在今朝」。"
+                  ],
+                  "quote": [
+                    "《孟子．告子下》：「雖與之天下，不能一朝居也。」"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "姓。如隋代有朝景煥。",
+                  "type": "名"
+                },
+                {
+                  "def": "有活力的。",
+                  "example": [
+                    "如：「朝氣蓬勃」。"
+                  ],
+                  "type": "形"
+                }
+              ],
+              "pinyin": "zhāo"
+            },
+            {
+              "bopomofo": "ㄔㄠˊ",
+              "definitions": [
+                {
+                  "def": "古代見人皆稱「朝」。多用於卑見尊、下見上。如臣下進見君長、晚輩問候長輩。諸侯相拜見也稱為「朝」。",
+                  "quote": [
+                    "《國語．魯語下》：「公父文伯退朝，朝其母，其母方績。」",
+                    "《孟子．公孫丑下》：「孟子將朝王。」"
+                  ],
+                  "type": "動"
+                },
+                {
+                  "def": "參拜神明。",
+                  "example": [
+                    "如：「朝聖」、「朝山」。"
+                  ],
+                  "quote": [
+                    "《花月痕．第三回》：「前年三月初三夜，忽來與我作別，說要去南海朝觀音。」"
+                  ],
+                  "type": "動"
+                },
+                {
+                  "def": "對、向。",
+                  "example": [
+                    "如：「朝東」、「朝前」。"
+                  ],
+                  "type": "動"
+                },
+                {
+                  "def": "舊時君王聽政、辦事的地方。",
+                  "example": [
+                    "如：「朝廷」。"
+                  ],
+                  "quote": [
+                    "《孟子．梁惠王上》：「使天下仕者皆欲立於王之朝。」"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "某一世系帝王的統治時期，或某位君王的統治時期。",
+                  "example": [
+                    "如：「漢朝」、「唐朝」、「崇禎朝」。"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "姓。如隋代有朝景煥。",
+                  "type": "名"
+                }
+              ],
+              "pinyin": "cháo"
+            }
+          ],
+          "non_radical_stroke_count": 8,
+          "radical": "月",
+          "stroke_count": 12,
+          "title": "朝"
+        },
+        "parsedEntrySha256": "6cd54a1dca1cbe9ae788afd6464d392df2cb6f3a88f5abc0aca6715e89d6d901",
+        "hashConvention": "sha256(JSON.stringify(parsed complete original entry)); not raw byte range",
+        "license": "CC-BY-ND-3.0-TW"
+      },
+      "m591Coverage": {
+        "inputContentIdentity": "7c6e5b16aa9f80690136fd42e2b0de6aae39b56e516053ecb7d6c6a7398b0d44",
+        "scope": "stored non-default direct reading; hypothetical selection; never merged into default coverage",
+        "projectedMeaning": "古代見人皆稱「朝」。多用於卑見尊、下見上。如臣下進見君長、晚輩問候長輩。諸侯相拜見也稱為「朝」。；參拜神明。；對、向。",
+        "v7Status": "not-reviewed-by-overlay",
+        "standaloneStatus": "not-covered"
+      },
+      "priorV7Review": null,
+      "project": {
+        "meaning": "取面向、朝向的动作意象。",
+        "projectWish": null,
+        "limits": [
+          "不把方向动作写成权力、朝廷或宗教身份。",
+          "不得混用 zhāo 早晨义。"
+        ],
+        "attribution": "M616-D02 independent direct-reading explanation",
+        "license": "CC0-1.0"
+      },
+      "overlap": {
+        "readingDistinctFromDefault": true,
+        "m610CharOverlap": false,
+        "defaultCoverageStatus": {
+          "v7Status": "not-reviewed-by-overlay",
+          "standaloneStatus": "not-covered"
+        },
+        "overlapReason": "same character is retained only through an explicit non-default reading binding"
+      },
+      "scope": "per-character-project-explanation-only",
+      "wholeNameAssessment": "not-assessed",
+      "wholeNameMeaning": null,
+      "automaticNameRecommendation": false,
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "productionApproved": false,
+      "activation": "off"
+    },
+    {
+      "caseId": "single-reading-meaning-m616:荷:hè:123295:1:1",
+      "char": "荷",
+      "defaultReading": {
+        "pinyin": "hé",
+        "tone": 2,
+        "word": "荷",
+        "meanings": [
+          "植物名。睡蓮科蓮屬，多年生草本。葉大而圓，夏天開紅色或白色花。地下莖稱為「藕」，果實稱為「蓮子」，二者皆可供食用。"
+        ]
+      },
+      "selectedReading": {
+        "char": "荷",
+        "pinyin": "hè",
+        "tone": 4,
+        "word": "荷",
+        "meanings": [
+          "用肩膀扛著。",
+          "承當、擔負。",
+          "蒙受。今多用書信中，表謝意。"
+        ],
+        "sourceId": "moe-revised",
+        "readingRole": "non-default-direct-reading"
+      },
+      "readingBinding": {
+        "sourceId": "moe-revised",
+        "rawEntryIndex": 123295,
+        "rawHeteronymIndex": 1,
+        "rawDefinitionIndex": 1,
+        "referenceOnly": false
+      },
+      "readingBindingKind": "explicit-non-default",
+      "baselineCharacter": {
+        "char": "荷",
+        "pinyin": "hé",
+        "tone": 2,
+        "meaning": "植物名。睡蓮科蓮屬，多年生草本。葉大而圓，夏天開紅色或白色花。地下莖稱為「藕」，果實稱為「蓮子」，二者皆可供食用。",
+        "traditional": "荷",
+        "strokes": 10,
+        "radical": "艸",
+        "elements": [
+          "木"
+        ],
+        "elementBasis": "字形／字义意象参考 v1（项目自编标签，非唯一汉字五行定论；不得当作康熙笔画五行）",
+        "tags": [
+          "自然草木"
+        ],
+        "warning": "多音字：本方案采用 hé，请按姓名用法确认；各读音义项分别保存。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "hé",
+            "tone": 2,
+            "meanings": [
+              "植物名。睡蓮科蓮屬，多年生草本。葉大而圓，夏天開紅色或白色花。地下莖稱為「藕」，果實稱為「蓮子」，二者皆可供食用。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "荷"
+          },
+          {
+            "pinyin": "hè",
+            "tone": 4,
+            "meanings": [
+              "用肩膀扛著。",
+              "承當、擔負。",
+              "蒙受。今多用書信中，表謝意。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "荷"
+          }
+        ],
+        "polyphonic": true,
+        "variants": [
+          "荷"
+        ]
+      },
+      "baselineCharacterSha256": "d8740c054d777e085ccdc1591cdf0395f1f2f642b3ea57b3343b5c74d8ce23fb",
+      "source": {
+        "sourceId": "moe-revised",
+        "word": "荷",
+        "pinyin": "hè",
+        "originalFile": "raw/moe-revised.json.gz",
+        "originalSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "rawEntryIndex": 123295,
+        "rawHeteronymIndex": 1,
+        "rawDefinitionIndex": 1,
+        "definition": {
+          "def": "承當、擔負。",
+          "example": [
+            "如：「不勝負荷」。"
+          ],
+          "quote": [
+            "漢．張衡〈東京賦〉：「荷天下之重任，匪怠皇以寧靜。」"
+          ],
+          "type": "動"
+        },
+        "sourcePOS": "動",
+        "completeOriginalEntry": {
+          "heteronyms": [
+            {
+              "bopomofo": "ㄏㄜˊ",
+              "definitions": [
+                {
+                  "def": "植物名。睡蓮科蓮屬，多年生草本。葉大而圓，夏天開紅色或白色花。地下莖稱為「藕」，果實稱為「蓮子」，二者皆可供食用。",
+                  "link": [
+                    "也稱為「蓮」、「芙蕖」。"
+                  ],
+                  "type": "名"
+                }
+              ],
+              "pinyin": "hé"
+            },
+            {
+              "bopomofo": "ㄏㄜˋ",
+              "definitions": [
+                {
+                  "def": "用肩膀扛著。",
+                  "example": [
+                    "如：「荷鋤」、「荷槍」。"
+                  ],
+                  "quote": [
+                    "《漢書．卷五二．竇田灌韓傳．灌夫》：「身荷戟，馳不測之吳軍。」"
+                  ],
+                  "type": "動"
+                },
+                {
+                  "def": "承當、擔負。",
+                  "example": [
+                    "如：「不勝負荷」。"
+                  ],
+                  "quote": [
+                    "漢．張衡〈東京賦〉：「荷天下之重任，匪怠皇以寧靜。」"
+                  ],
+                  "type": "動"
+                },
+                {
+                  "def": "蒙受。今多用書信中，表謝意。",
+                  "example": [
+                    "如：「感荷」、「為荷」。"
+                  ],
+                  "quote": [
+                    "《左傳．昭公三年》：「一為禮於晉，猶荷其祿，況以禮終始乎？」",
+                    "唐．駱賓王〈代徐敬業討武氏檄〉：「奉先帝之遺訓，荷本朝之厚恩。」"
+                  ],
+                  "type": "動"
+                }
+              ],
+              "pinyin": "hè"
+            }
+          ],
+          "non_radical_stroke_count": 7,
+          "radical": "艸",
+          "stroke_count": 11,
+          "title": "荷"
+        },
+        "parsedEntrySha256": "0938fad0ca5753aa0bb67d7aebf0ba8f4fd64ca9015244b3b8d2ab8b6424304f",
+        "hashConvention": "sha256(JSON.stringify(parsed complete original entry)); not raw byte range",
+        "license": "CC-BY-ND-3.0-TW"
+      },
+      "m591Coverage": {
+        "inputContentIdentity": "7c6e5b16aa9f80690136fd42e2b0de6aae39b56e516053ecb7d6c6a7398b0d44",
+        "scope": "stored non-default direct reading; hypothetical selection; never merged into default coverage",
+        "projectedMeaning": "用肩膀扛著。；承當、擔負。；蒙受。今多用書信中，表謝意。",
+        "v7Status": "not-reviewed-by-overlay",
+        "standaloneStatus": "not-covered"
+      },
+      "priorV7Review": null,
+      "project": {
+        "meaning": "取承当、担负的动作意象。",
+        "projectWish": null,
+        "limits": [
+          "不承诺承担能力、责任结果或事业成就。",
+          "不得混用 hé 植物义。"
+        ],
+        "attribution": "M616-D02 independent direct-reading explanation",
+        "license": "CC0-1.0"
+      },
+      "overlap": {
+        "readingDistinctFromDefault": true,
+        "m610CharOverlap": false,
+        "defaultCoverageStatus": {
+          "v7Status": "not-reviewed-by-overlay",
+          "standaloneStatus": "not-covered"
+        },
+        "overlapReason": "same character is retained only through an explicit non-default reading binding"
+      },
+      "scope": "per-character-project-explanation-only",
+      "wholeNameAssessment": "not-assessed",
+      "wholeNameMeaning": null,
+      "automaticNameRecommendation": false,
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "productionApproved": false,
+      "activation": "off"
+    },
+    {
+      "caseId": "single-reading-meaning-m616:劲:jìng:21365:0:1",
+      "char": "劲",
+      "defaultReading": {
+        "pinyin": "jìn",
+        "tone": 4,
+        "word": "勁",
+        "meanings": [
+          "力氣、力量。",
+          "精神。",
+          "興趣。",
+          "表情、態度。"
+        ]
+      },
+      "selectedReading": {
+        "char": "劲",
+        "pinyin": "jìng",
+        "tone": 4,
+        "word": "勁",
+        "meanings": [
+          "強而有力。",
+          "堅韌、堅強。",
+          "剛健正直。",
+          "猛烈、強烈。"
+        ],
+        "sourceId": "moe-revised",
+        "readingRole": "non-default-direct-reading"
+      },
+      "readingBinding": {
+        "sourceId": "moe-revised",
+        "rawEntryIndex": 21365,
+        "rawHeteronymIndex": 0,
+        "rawDefinitionIndex": 1,
+        "referenceOnly": false
+      },
+      "readingBindingKind": "explicit-non-default",
+      "baselineCharacter": {
+        "char": "劲",
+        "pinyin": "jìn",
+        "tone": 4,
+        "meaning": "力氣、力量。；精神。；興趣。",
+        "traditional": "勁",
+        "strokes": 7,
+        "radical": "力",
+        "elements": [],
+        "elementBasis": "五行属性待起名师指定；不从普通笔画数推定五行",
+        "tags": [
+          "常用命名字候选"
+        ],
+        "warning": "多音字：本方案采用 jìn，请按姓名用法确认；各读音义项分别保存。 繁体对应“勁”，简繁与异体须按户籍用字确认。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "jìng",
+            "tone": 4,
+            "meanings": [
+              "強而有力。",
+              "堅韌、堅強。",
+              "剛健正直。",
+              "猛烈、強烈。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "勁"
+          },
+          {
+            "pinyin": "jìn",
+            "tone": 4,
+            "meanings": [
+              "力氣、力量。",
+              "精神。",
+              "興趣。",
+              "表情、態度。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "勁"
+          }
+        ],
+        "polyphonic": true,
+        "variants": [
+          "劲",
+          "勁"
+        ]
+      },
+      "baselineCharacterSha256": "65263139eeee9976b1439f5c8234b5952383531c8e133a5a2e1726ffd3e836c0",
+      "source": {
+        "sourceId": "moe-revised",
+        "word": "勁",
+        "pinyin": "jìng",
+        "originalFile": "raw/moe-revised.json.gz",
+        "originalSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "rawEntryIndex": 21365,
+        "rawHeteronymIndex": 0,
+        "rawDefinitionIndex": 1,
+        "definition": {
+          "def": "堅韌、堅強。",
+          "example": [
+            "如：「疾風知勁草」。"
+          ],
+          "type": "形"
+        },
+        "sourcePOS": "形",
+        "completeOriginalEntry": {
+          "heteronyms": [
+            {
+              "bopomofo": "ㄐㄧㄥˋ",
+              "definitions": [
+                {
+                  "def": "強而有力。",
+                  "example": [
+                    "如：「勁敵」。"
+                  ],
+                  "quote": [
+                    "《墨子．節葬下》：「耳目不聰明，手足不勁強。」",
+                    "《戰國策 ．韓策一》：「天下之強弓勁弩，皆自韓出。」"
+                  ],
+                  "type": "形"
+                },
+                {
+                  "def": "堅韌、堅強。",
+                  "example": [
+                    "如：「疾風知勁草」。"
+                  ],
+                  "type": "形"
+                },
+                {
+                  "def": "剛健正直。",
+                  "example": [
+                    "如：「勁節」。"
+                  ],
+                  "quote": [
+                    "《荀子．儒效》：「行法至堅，不以私欲亂所聞，如是，則可謂勁士矣。」"
+                  ],
+                  "type": "形"
+                },
+                {
+                  "def": "猛烈、強烈。",
+                  "quote": [
+                    "晉．陶淵明〈飲酒詩〉二○首之四：「勁風無榮木，此蔭獨不衰。」",
+                    "宋．陸游〈醉中懷眉山舊遊〉詩：「勁酒少和氣，哀歌無歡情。」"
+                  ],
+                  "type": "形"
+                }
+              ],
+              "pinyin": "jìng"
+            },
+            {
+              "bopomofo": "ㄐㄧㄣˋ",
+              "definitions": [
+                {
+                  "def": "力氣、力量。",
+                  "example": [
+                    "如：「使勁」、「有勁」、「卯足了勁」。"
+                  ],
+                  "quote": [
+                    "《韓非子．觀行》：「有烏獲之勁，而不得人助，不能自舉。」"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "精神。",
+                  "example": [
+                    "如：「這個人唱歌真帶勁。」"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "興趣。",
+                  "example": [
+                    "如：「起勁」、「沒勁」。"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "表情、態度。",
+                  "example": [
+                    "如：「傻勁」、「親熱勁」。"
+                  ],
+                  "type": "名"
+                }
+              ],
+              "pinyin": "jìn"
+            }
+          ],
+          "non_radical_stroke_count": 7,
+          "radical": "力",
+          "stroke_count": 9,
+          "title": "勁"
+        },
+        "parsedEntrySha256": "25131ba616c88d806cdd264cebbb65746413dca6d061388d80a2df6c6ac96aa1",
+        "hashConvention": "sha256(JSON.stringify(parsed complete original entry)); not raw byte range",
+        "license": "CC-BY-ND-3.0-TW"
+      },
+      "m591Coverage": {
+        "inputContentIdentity": "7c6e5b16aa9f80690136fd42e2b0de6aae39b56e516053ecb7d6c6a7398b0d44",
+        "scope": "stored non-default direct reading; hypothetical selection; never merged into default coverage",
+        "projectedMeaning": "強而有力。；堅韌、堅強。；剛健正直。",
+        "v7Status": "not-applicable",
+        "standaloneStatus": "not-covered"
+      },
+      "priorV7Review": {
+        "pendingIndex": 122,
+        "char": "劲",
+        "status": "approved",
+        "namingMeaning": "力气、力量。",
+        "projectWish": "项目创作：愿遇事肯投入，也懂得合理休息。",
+        "useKind": "context-bound",
+        "scope": "当前jìn仅取力量；不得借jìng音坚强、强劲等形容义。",
+        "reason": "力气力量为所选默认音实体义，可用于投入与活力主题。",
+        "binding": {
+          "char": "劲",
+          "pinyin": "jìn",
+          "tone": 4,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "勁",
+          "rawEntryIndex": 21365,
+          "rawHeteronymIndex": 1,
+          "rawDefinitionIndex": 0,
+          "dictionarySense": "力氣、力量。"
+        },
+        "warnings": [
+          "本方案读jìn，须防与jìng音混用。"
+        ],
+        "licensing": {
+          "dictionary": "CC-BY-ND-3.0-TW;verbatim source definition",
+          "editorial": "CC0-1.0;project review and wishes only"
+        },
+        "automaticMeaningAllowed": false,
+        "applicability": {
+          "mode": "manual-confirmation-required",
+          "allowedNames": [],
+          "reason": "原审context-bound且当前仅jìn力量，需结合姓名确认力量主题并防jìng串音。"
+        }
+      },
+      "project": {
+        "meaning": "取坚韧、坚强的性质意象。",
+        "projectWish": null,
+        "limits": [
+          "不把字面性质当作体能、意志或成功测量。",
+          "不得混用 jìn 力气、精神等义。"
+        ],
+        "attribution": "M616-D02 independent direct-reading explanation",
+        "license": "CC0-1.0"
+      },
+      "overlap": {
+        "readingDistinctFromDefault": true,
+        "m610CharOverlap": false,
+        "defaultCoverageStatus": {
+          "v7Status": "not-applicable",
+          "standaloneStatus": "not-covered"
+        },
+        "overlapReason": "same character is retained only through an explicit non-default reading binding"
+      },
+      "scope": "per-character-project-explanation-only",
+      "wholeNameAssessment": "not-assessed",
+      "wholeNameMeaning": null,
+      "automaticNameRecommendation": false,
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "productionApproved": false,
+      "activation": "off"
+    },
+    {
+      "caseId": "single-reading-meaning-m616:隽:jùn:151336:1:1",
+      "char": "隽",
+      "defaultReading": {
+        "pinyin": "juàn",
+        "tone": 4,
+        "word": "雋",
+        "meanings": [
+          "言論或文句意味深長。",
+          "姓。如漢代有雋不疑。"
+        ]
+      },
+      "selectedReading": {
+        "char": "隽",
+        "pinyin": "jùn",
+        "tone": 4,
+        "word": "雋",
+        "meanings": [
+          "才能過人的人。",
+          "傑出、出眾。"
+        ],
+        "sourceId": "moe-revised",
+        "readingRole": "non-default-direct-reading"
+      },
+      "readingBinding": {
+        "sourceId": "moe-revised",
+        "rawEntryIndex": 151336,
+        "rawHeteronymIndex": 1,
+        "rawDefinitionIndex": 1,
+        "referenceOnly": false
+      },
+      "readingBindingKind": "explicit-non-default",
+      "baselineCharacter": {
+        "char": "隽",
+        "pinyin": "juàn",
+        "tone": 4,
+        "meaning": "言論或文句意味深長。；姓。如漢代有雋不疑。",
+        "traditional": "雋",
+        "strokes": 10,
+        "radical": "隹",
+        "elements": [],
+        "elementBasis": "五行属性待起名师指定；不从普通笔画数推定五行",
+        "tags": [
+          "常用命名字候选"
+        ],
+        "warning": "多音字：本方案采用 juàn，请按姓名用法确认；各读音义项分别保存。 繁体对应“雋”，简繁与异体须按户籍用字确认。 Unicode 记有多个简繁对应：隽、雋，请按实际字义确认。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "juàn",
+            "tone": 4,
+            "meanings": [
+              "言論或文句意味深長。",
+              "姓。如漢代有雋不疑。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "雋"
+          },
+          {
+            "pinyin": "jùn",
+            "tone": 4,
+            "meanings": [
+              "才能過人的人。",
+              "傑出、出眾。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "雋"
+          }
+        ],
+        "polyphonic": true,
+        "variants": [
+          "隽",
+          "雋"
+        ]
+      },
+      "baselineCharacterSha256": "37cd36d4c0c5b02f7635d85f6d29faea33eadf65dd77b8a00a88bffed1e05afd",
+      "source": {
+        "sourceId": "moe-revised",
+        "word": "雋",
+        "pinyin": "jùn",
+        "originalFile": "raw/moe-revised.json.gz",
+        "originalSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "rawEntryIndex": 151336,
+        "rawHeteronymIndex": 1,
+        "rawDefinitionIndex": 1,
+        "definition": {
+          "def": "傑出、出眾。",
+          "example": [
+            "如：「雋才」。"
+          ],
+          "quote": [
+            "《晉書．卷七九．謝安傳》：「萬字萬石，才器雋秀。」"
+          ],
+          "type": "形"
+        },
+        "sourcePOS": "形",
+        "completeOriginalEntry": {
+          "heteronyms": [
+            {
+              "bopomofo": "ㄐㄩㄢˋ",
+              "definitions": [
+                {
+                  "def": "言論或文句意味深長。",
+                  "example": [
+                    "如：「雋永」、「雋句」、「雋語」。"
+                  ],
+                  "type": "形"
+                },
+                {
+                  "def": "姓。如漢代有雋不疑。",
+                  "type": "名"
+                }
+              ],
+              "pinyin": "juàn"
+            },
+            {
+              "bopomofo": "ㄐㄩㄣˋ",
+              "definitions": [
+                {
+                  "def": "才能過人的人。",
+                  "link": [
+                    "通「俊」。"
+                  ],
+                  "quote": [
+                    "《漢書．卷二二．禮樂志》：「至武帝即位，進用英雋。」",
+                    "唐．白行簡〈李娃傳〉：「其年，遇大比，詔徵四方之雋。」"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "傑出、出眾。",
+                  "example": [
+                    "如：「雋才」。"
+                  ],
+                  "quote": [
+                    "《晉書．卷七九．謝安傳》：「萬字萬石，才器雋秀。」"
+                  ],
+                  "type": "形"
+                }
+              ],
+              "pinyin": "jùn"
+            }
+          ],
+          "non_radical_stroke_count": 4,
+          "radical": "隹",
+          "stroke_count": 12,
+          "title": "雋"
+        },
+        "parsedEntrySha256": "91585b0a041b1822a61f51b81ff037ec25f4a54e248cb4639b30d248fe0996d6",
+        "hashConvention": "sha256(JSON.stringify(parsed complete original entry)); not raw byte range",
+        "license": "CC-BY-ND-3.0-TW"
+      },
+      "m591Coverage": {
+        "inputContentIdentity": "7c6e5b16aa9f80690136fd42e2b0de6aae39b56e516053ecb7d6c6a7398b0d44",
+        "scope": "stored non-default direct reading; hypothetical selection; never merged into default coverage",
+        "projectedMeaning": "才能過人的人。；傑出、出眾。",
+        "v7Status": "not-applicable",
+        "standaloneStatus": "not-covered"
+      },
+      "priorV7Review": {
+        "pendingIndex": 134,
+        "char": "隽",
+        "status": "approved",
+        "namingMeaning": "言论或文句意味深长。",
+        "projectWish": "项目创作：愿珍惜文字，表达有内容、有余味。",
+        "useKind": "context-bound",
+        "scope": "限言语文章主题；本方案juàn，不借jùn音优秀人才义。",
+        "reason": "所选雋的juàn音有意味深长实体义，应用限于表达语境。",
+        "binding": {
+          "char": "隽",
+          "pinyin": "juàn",
+          "tone": 4,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "雋",
+          "rawEntryIndex": 151336,
+          "rawHeteronymIndex": 0,
+          "rawDefinitionIndex": 0,
+          "dictionarySense": "言論或文句意味深長。"
+        },
+        "warnings": [
+          "本方案读juàn，勿串入jùn音才俊解释。"
+        ],
+        "licensing": {
+          "dictionary": "CC-BY-ND-3.0-TW;verbatim source definition",
+          "editorial": "CC0-1.0;project review and wishes only"
+        },
+        "automaticMeaningAllowed": false,
+        "applicability": {
+          "mode": "manual-confirmation-required",
+          "allowedNames": [],
+          "reason": "本义专指言论文句意味深长，须确认语言文章主题及juàn读音。"
+        }
+      },
+      "project": {
+        "meaning": "取杰出、出众的字面赞许意象。",
+        "projectWish": null,
+        "limits": [
+          "不预测才华、名次或社会评价。",
+          "不得混用 juàn 言论文章意味深长义。"
+        ],
+        "attribution": "M616-D02 independent direct-reading explanation",
+        "license": "CC0-1.0"
+      },
+      "overlap": {
+        "readingDistinctFromDefault": true,
+        "m610CharOverlap": false,
+        "defaultCoverageStatus": {
+          "v7Status": "not-applicable",
+          "standaloneStatus": "not-covered"
+        },
+        "overlapReason": "same character is retained only through an explicit non-default reading binding"
+      },
+      "scope": "per-character-project-explanation-only",
+      "wholeNameAssessment": "not-assessed",
+      "wholeNameMeaning": null,
+      "automaticNameRecommendation": false,
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "productionApproved": false,
+      "activation": "off"
+    },
+    {
+      "caseId": "single-reading-meaning-m616:乐:yào:78102:3:0",
+      "char": "乐",
+      "defaultReading": {
+        "pinyin": "lè",
+        "tone": 4,
+        "word": "樂",
+        "meanings": [
+          "歡喜、愉悅。",
+          "快樂的事或態度。",
+          "聲色情事。",
+          "笑。",
+          "喜愛。"
+        ]
+      },
+      "selectedReading": {
+        "char": "乐",
+        "pinyin": "yào",
+        "tone": 4,
+        "word": "樂",
+        "meanings": [
+          "喜好、欣賞。用於文言文。"
+        ],
+        "sourceId": "moe-revised",
+        "readingRole": "non-default-direct-reading"
+      },
+      "readingBinding": {
+        "sourceId": "moe-revised",
+        "rawEntryIndex": 78102,
+        "rawHeteronymIndex": 3,
+        "rawDefinitionIndex": 0,
+        "referenceOnly": false
+      },
+      "readingBindingKind": "explicit-non-default",
+      "baselineCharacter": {
+        "char": "乐",
+        "pinyin": "lè",
+        "tone": 4,
+        "meaning": "歡喜、愉悅。；快樂的事或態度。；聲色情事。",
+        "traditional": "樂",
+        "strokes": 5,
+        "radical": "丿",
+        "elements": [],
+        "elementBasis": "五行属性待起名师指定；不从普通笔画数推定五行",
+        "tags": [
+          "常用命名字候选"
+        ],
+        "warning": "多音字：本方案采用 lè，请按姓名用法确认；各读音义项分别保存。 繁体对应“樂”，简繁与异体须按户籍用字确认。 Unicode 记有多个简繁对应：乐、樂，请按实际字义确认。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "yuè",
+            "tone": 4,
+            "meanings": [
+              "有規律而和諧動人的聲音。",
+              "六經之一。即樂經，相傳亡於秦火。",
+              "姓。如戰國時燕國有樂毅。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "樂"
+          },
+          {
+            "pinyin": "lào",
+            "tone": 4,
+            "meanings": [
+              "地名用字。如大陸地區河北省有樂亭、山東省有樂陵。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "樂"
+          },
+          {
+            "pinyin": "lè",
+            "tone": 4,
+            "meanings": [
+              "歡喜、愉悅。",
+              "快樂的事或態度。",
+              "聲色情事。",
+              "笑。",
+              "喜愛。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "樂"
+          },
+          {
+            "pinyin": "yào",
+            "tone": 4,
+            "meanings": [
+              "喜好、欣賞。用於文言文。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "樂"
+          }
+        ],
+        "polyphonic": true,
+        "variants": [
+          "乐",
+          "樂"
+        ]
+      },
+      "baselineCharacterSha256": "2aec9a6503f9c4f4af7f899816bf84630ca92e5035501936863581192d33eb3b",
+      "source": {
+        "sourceId": "moe-revised",
+        "word": "樂",
+        "pinyin": "yào",
+        "originalFile": "raw/moe-revised.json.gz",
+        "originalSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "rawEntryIndex": 78102,
+        "rawHeteronymIndex": 3,
+        "rawDefinitionIndex": 0,
+        "definition": {
+          "def": "喜好、欣賞。用於文言文。",
+          "quote": [
+            "《論語．雍也》：「知者樂水，仁者樂山。」"
+          ],
+          "type": "動"
+        },
+        "sourcePOS": "動",
+        "completeOriginalEntry": {
+          "heteronyms": [
+            {
+              "bopomofo": "ㄩㄝˋ",
+              "definitions": [
+                {
+                  "def": "有規律而和諧動人的聲音。",
+                  "example": [
+                    "如：「音樂」、「奏樂」、「軍樂」。"
+                  ],
+                  "quote": [
+                    "《論語．子路》：「事不成，則禮樂不興。」"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "六經之一。即樂經，相傳亡於秦火。",
+                  "example": [
+                    "如：「詩、書、禮、樂、易、春秋，謂之六經。」"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "姓。如戰國時燕國有樂毅。",
+                  "type": "名"
+                }
+              ],
+              "pinyin": "yuè"
+            },
+            {
+              "bopomofo": "ㄌㄠˋ",
+              "definitions": [
+                {
+                  "def": "地名用字。如大陸地區河北省有樂亭、山東省有樂陵。",
+                  "type": "名"
+                }
+              ],
+              "pinyin": "lào"
+            },
+            {
+              "bopomofo": "ㄌㄜˋ",
+              "definitions": [
+                {
+                  "def": "歡喜、愉悅。",
+                  "example": [
+                    "如：「快樂」、「歡樂」、「樂事」。"
+                  ],
+                  "quote": [
+                    "《論語．學而》：「有朋自遠方來，不亦樂乎！」"
+                  ],
+                  "type": "形"
+                },
+                {
+                  "def": "快樂的事或態度。",
+                  "example": [
+                    "如：「人生一大樂」。"
+                  ],
+                  "quote": [
+                    "《左傳．隱公元年》：「其樂也融融。」",
+                    "《論語．雍也》：「回也不改其樂。」"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "聲色情事。",
+                  "quote": [
+                    "《國語．越語下》：「今吳王淫於樂而忘其百姓。」"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "笑。",
+                  "example": [
+                    "如：「把一屋子的人都逗樂了！」"
+                  ],
+                  "type": "動"
+                },
+                {
+                  "def": "喜愛。",
+                  "example": [
+                    "如：「樂於助人」、「樂於行善」。"
+                  ],
+                  "type": "動"
+                }
+              ],
+              "pinyin": "lè"
+            },
+            {
+              "bopomofo": "ㄧㄠˋ",
+              "definitions": [
+                {
+                  "def": "喜好、欣賞。用於文言文。",
+                  "quote": [
+                    "《論語．雍也》：「知者樂水，仁者樂山。」"
+                  ],
+                  "type": "動"
+                }
+              ],
+              "pinyin": "yào"
+            }
+          ],
+          "non_radical_stroke_count": 11,
+          "radical": "木",
+          "stroke_count": 15,
+          "title": "樂"
+        },
+        "parsedEntrySha256": "245e0100177eece09215e7c84e2450a1a020af6311bbdaae7395c819679e9a1b",
+        "hashConvention": "sha256(JSON.stringify(parsed complete original entry)); not raw byte range",
+        "license": "CC-BY-ND-3.0-TW"
+      },
+      "m591Coverage": {
+        "inputContentIdentity": "7c6e5b16aa9f80690136fd42e2b0de6aae39b56e516053ecb7d6c6a7398b0d44",
+        "scope": "stored non-default direct reading; hypothetical selection; never merged into default coverage",
+        "projectedMeaning": "喜好、欣賞。用於文言文。",
+        "v7Status": "not-reviewed-by-overlay",
+        "standaloneStatus": "not-covered"
+      },
+      "priorV7Review": null,
+      "project": {
+        "meaning": "取喜好、欣赏的动作与态度意象。",
+        "projectWish": null,
+        "limits": [
+          "不承诺快乐结果或人格特征。",
+          "不得混用 lè 欢喜义或 yuè 音乐义。"
+        ],
+        "attribution": "M616-D02 independent direct-reading explanation",
+        "license": "CC0-1.0"
+      },
+      "overlap": {
+        "readingDistinctFromDefault": true,
+        "m610CharOverlap": false,
+        "defaultCoverageStatus": {
+          "v7Status": "not-reviewed-by-overlay",
+          "standaloneStatus": "not-covered"
+        },
+        "overlapReason": "same character is retained only through an explicit non-default reading binding"
+      },
+      "scope": "per-character-project-explanation-only",
+      "wholeNameAssessment": "not-assessed",
+      "wholeNameMeaning": null,
+      "automaticNameRecommendation": false,
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "productionApproved": false,
+      "activation": "off"
+    },
+    {
+      "caseId": "single-reading-meaning-m616:和:hè:28079:1:0",
+      "char": "和",
+      "defaultReading": {
+        "pinyin": "hé",
+        "tone": 2,
+        "word": "和",
+        "meanings": [
+          "各數相加的總數。",
+          "適中、恰到好處、剛柔並濟的常道。",
+          "和平、停戰。",
+          "日本的別名。",
+          "姓。如漢代有和武、晉代有和嶠。",
+          "敦睦、調諧。",
+          "連同。",
+          "溫順的、安詳的。",
+          "溫暖的。",
+          "對、向。",
+          "與、跟。"
+        ]
+      },
+      "selectedReading": {
+        "char": "和",
+        "pinyin": "hè",
+        "tone": 4,
+        "word": "和",
+        "meanings": [
+          "聲音相應。",
+          "依原詩格律或內容作詩以酬答他人。"
+        ],
+        "sourceId": "moe-revised",
+        "readingRole": "non-default-direct-reading"
+      },
+      "readingBinding": {
+        "sourceId": "moe-revised",
+        "rawEntryIndex": 28079,
+        "rawHeteronymIndex": 1,
+        "rawDefinitionIndex": 0,
+        "referenceOnly": false
+      },
+      "readingBindingKind": "explicit-non-default",
+      "baselineCharacter": {
+        "char": "和",
+        "pinyin": "hé",
+        "tone": 2,
+        "meaning": "各數相加的總數。；適中、恰到好處、剛柔並濟的常道。；和平、停戰。",
+        "traditional": "和",
+        "strokes": 8,
+        "radical": "口",
+        "elements": [],
+        "elementBasis": "五行属性待起名师指定；不从普通笔画数推定五行",
+        "tags": [
+          "美德"
+        ],
+        "warning": "多音字：本方案采用 hé，请按姓名用法确认；各读音义项分别保存。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "hé",
+            "tone": 2,
+            "meanings": [
+              "各數相加的總數。",
+              "適中、恰到好處、剛柔並濟的常道。",
+              "和平、停戰。",
+              "日本的別名。",
+              "姓。如漢代有和武、晉代有和嶠。",
+              "敦睦、調諧。",
+              "連同。",
+              "溫順的、安詳的。",
+              "溫暖的。",
+              "對、向。",
+              "與、跟。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "和"
+          },
+          {
+            "pinyin": "hè",
+            "tone": 4,
+            "meanings": [
+              "聲音相應。",
+              "依原詩格律或內容作詩以酬答他人。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "和"
+          },
+          {
+            "pinyin": "huo",
+            "tone": 5,
+            "meanings": [
+              "溫暖的。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "和"
+          },
+          {
+            "pinyin": "hú",
+            "tone": 2,
+            "meanings": [
+              "牌戲中牌張已湊齊成副而獲勝稱為「和」。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "和"
+          },
+          {
+            "pinyin": "huò",
+            "tone": 4,
+            "meanings": [
+              "攪拌、混合。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "和"
+          }
+        ],
+        "polyphonic": true,
+        "variants": [
+          "和"
+        ]
+      },
+      "baselineCharacterSha256": "00dd6c02a40a3e4baca7929063c5a6e18522966d4fcc98eb174334829f784bc0",
+      "source": {
+        "sourceId": "moe-revised",
+        "word": "和",
+        "pinyin": "hè",
+        "originalFile": "raw/moe-revised.json.gz",
+        "originalSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "rawEntryIndex": 28079,
+        "rawHeteronymIndex": 1,
+        "rawDefinitionIndex": 0,
+        "definition": {
+          "def": "聲音相應。",
+          "example": [
+            "如：「附和」、「唱和」。"
+          ],
+          "quote": [
+            "《資治通鑑．卷二三六．唐紀五十二．順宗永貞元年》：「絪等從而和之，議始定。」",
+            "宋．蘇軾〈赤壁賦〉：「客有吹洞簫者，倚歌而和之。」"
+          ],
+          "type": "動"
+        },
+        "sourcePOS": "動",
+        "completeOriginalEntry": {
+          "heteronyms": [
+            {
+              "bopomofo": "ㄏㄜˊ",
+              "definitions": [
+                {
+                  "def": "各數相加的總數。",
+                  "example": [
+                    "如：「總和」、「二加三的和是五。」"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "適中、恰到好處、剛柔並濟的常道。",
+                  "quote": [
+                    "《論語．學而》：「禮之用，和為貴。」",
+                    "《禮記．中庸》：「和也者，天下之達道也。」"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "和平、停戰。",
+                  "example": [
+                    "如：「講和」、「議和」。"
+                  ],
+                  "quote": [
+                    "《孫子．行軍》：「無約而請和者，謀也。」",
+                    "《戰國策．趙策三》：「故不若亟割地求和，以疑天下慰秦心。」"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "日本的別名。",
+                  "example": [
+                    "如：「大和民族」。"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "姓。如漢代有和武、晉代有和嶠。",
+                  "type": "名"
+                },
+                {
+                  "def": "敦睦、調諧。",
+                  "example": [
+                    "如：「和好如初」。"
+                  ],
+                  "quote": [
+                    "《左傳．隱公四年》：「臣聞以德和民，不聞以亂。」"
+                  ],
+                  "type": "動"
+                },
+                {
+                  "def": "連同。",
+                  "example": [
+                    "如：「和衣而眠」。"
+                  ],
+                  "type": "動"
+                },
+                {
+                  "def": "溫順的、安詳的。",
+                  "example": [
+                    "如：「和藹」、「心平氣和」、「和顏悅色」。"
+                  ],
+                  "quote": [
+                    "南朝陳．徐陵〈晉陵太守王勵德政碑〉：「風神雅淡，識量寬和。」",
+                    "唐．張說〈岳陽早霽南樓〉詩：「心阻意徒馳，神和生自足。」"
+                  ],
+                  "type": "形"
+                },
+                {
+                  "def": "溫暖的。",
+                  "example": [
+                    "如：「和煦」、「風和日麗」。"
+                  ],
+                  "quote": [
+                    "唐．白居易〈首夏病間〉詩：「清和好時節，微風吹裌衣。」"
+                  ],
+                  "type": "形"
+                },
+                {
+                  "def": "對、向。",
+                  "example": [
+                    "如：「你和尊長講話的態度要恭敬。」"
+                  ],
+                  "quote": [
+                    "《紅樓夢．第八回》：「好幾處都有，都稱贊得了不得，還和我們尋呢！」"
+                  ],
+                  "type": "介"
+                },
+                {
+                  "def": "與、跟。",
+                  "example": [
+                    "如：「我和他是好朋友。」"
+                  ],
+                  "quote": [
+                    "宋．岳飛〈滿江紅．怒髮衝冠〉詞：「三十功名塵與土，八千里路雲和月。」"
+                  ],
+                  "type": "連"
+                }
+              ],
+              "pinyin": "hé"
+            },
+            {
+              "bopomofo": "ㄏㄜˋ",
+              "definitions": [
+                {
+                  "def": "聲音相應。",
+                  "example": [
+                    "如：「附和」、「唱和」。"
+                  ],
+                  "quote": [
+                    "《資治通鑑．卷二三六．唐紀五十二．順宗永貞元年》：「絪等從而和之，議始定。」",
+                    "宋．蘇軾〈赤壁賦〉：「客有吹洞簫者，倚歌而和之。」"
+                  ],
+                  "type": "動"
+                },
+                {
+                  "def": "依原詩格律或內容作詩以酬答他人。",
+                  "quote": [
+                    "唐．白居易〈和微之詩．序〉：「微之又以近作四十三首寄來，命僕繼和。」"
+                  ],
+                  "type": "動"
+                }
+              ],
+              "pinyin": "hè"
+            },
+            {
+              "bopomofo": "˙ㄏㄨㄛ",
+              "definitions": [
+                {
+                  "def": "溫暖的。",
+                  "example": [
+                    "如：「暖和」。"
+                  ],
+                  "type": "形"
+                }
+              ],
+              "pinyin": "huo"
+            },
+            {
+              "bopomofo": "ㄏㄢˋ",
+              "definitions": [
+                {
+                  "def": "之語音。",
+                  "type": "連"
+                }
+              ],
+              "pinyin": "hàn"
+            },
+            {
+              "bopomofo": "ㄏㄨˊ",
+              "definitions": [
+                {
+                  "def": "牌戲中牌張已湊齊成副而獲勝稱為「和」。",
+                  "example": [
+                    "如：「和牌」。"
+                  ],
+                  "quote": [
+                    "《文明小史．第五五回》：「秦鳳梧自己買這樣，買那樣，應酬朋友，吃酒碰和，毛毛的也有一萬了。」"
+                  ],
+                  "type": "動"
+                }
+              ],
+              "pinyin": "hú"
+            },
+            {
+              "bopomofo": "ㄏㄨㄛˋ",
+              "definitions": [
+                {
+                  "def": "攪拌、混合。",
+                  "example": [
+                    "如：「攪和」、「和麵」。"
+                  ],
+                  "quote": [
+                    "《文明小史．第三回》：「柳知府詫異道：『與他們甚麼相干？怎麼也和在裡頭。』」"
+                  ],
+                  "type": "動"
+                }
+              ],
+              "pinyin": "huò"
+            }
+          ],
+          "non_radical_stroke_count": 5,
+          "radical": "口",
+          "stroke_count": 8,
+          "title": "和"
+        },
+        "parsedEntrySha256": "5ae0ee862113147e0c1267e4ea27b2977e0c52d17cecdab696cd20d1c3218a6b",
+        "hashConvention": "sha256(JSON.stringify(parsed complete original entry)); not raw byte range",
+        "license": "CC-BY-ND-3.0-TW"
+      },
+      "m591Coverage": {
+        "inputContentIdentity": "7c6e5b16aa9f80690136fd42e2b0de6aae39b56e516053ecb7d6c6a7398b0d44",
+        "scope": "stored non-default direct reading; hypothetical selection; never merged into default coverage",
+        "projectedMeaning": "聲音相應。；依原詩格律或內容作詩以酬答他人。",
+        "v7Status": "not-reviewed-by-overlay",
+        "standaloneStatus": "not-covered"
+      },
+      "priorV7Review": null,
+      "project": {
+        "meaning": "取声音相应、和声回应的动作意象。",
+        "projectWish": null,
+        "limits": [
+          "不把和声义扩写成关系和谐保证。",
+          "不得混用 hé、huo 等其他读音。"
+        ],
+        "attribution": "M616-D02 independent direct-reading explanation",
+        "license": "CC0-1.0"
+      },
+      "overlap": {
+        "readingDistinctFromDefault": true,
+        "m610CharOverlap": false,
+        "defaultCoverageStatus": {
+          "v7Status": "not-reviewed-by-overlay",
+          "standaloneStatus": "not-covered"
+        },
+        "overlapReason": "same character is retained only through an explicit non-default reading binding"
+      },
+      "scope": "per-character-project-explanation-only",
+      "wholeNameAssessment": "not-assessed",
+      "wholeNameMeaning": null,
+      "automaticNameRecommendation": false,
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "productionApproved": false,
+      "activation": "off"
+    },
+    {
+      "caseId": "single-reading-meaning-m616:音:yìn:154034:1:0",
+      "char": "音",
+      "defaultReading": {
+        "pinyin": "yīn",
+        "tone": 1,
+        "word": "音",
+        "meanings": [
+          "聲響、聲音。",
+          "腔調。",
+          "字的音讀。",
+          "書信、消息。",
+          "敬稱他人的言語。",
+          "姓。如清代有音泰。",
+          "二一四部首之一。"
+        ]
+      },
+      "selectedReading": {
+        "char": "音",
+        "pinyin": "yìn",
+        "tone": 4,
+        "word": "音",
+        "meanings": [
+          "樹蔭。"
+        ],
+        "sourceId": "moe-revised",
+        "readingRole": "non-default-direct-reading"
+      },
+      "readingBinding": {
+        "sourceId": "moe-revised",
+        "rawEntryIndex": 154034,
+        "rawHeteronymIndex": 1,
+        "rawDefinitionIndex": 0,
+        "referenceOnly": false
+      },
+      "readingBindingKind": "explicit-non-default",
+      "baselineCharacter": {
+        "char": "音",
+        "pinyin": "yīn",
+        "tone": 1,
+        "meaning": "聲響、聲音。；腔調。；字的音讀。",
+        "traditional": "音",
+        "strokes": 9,
+        "radical": "音",
+        "elements": [],
+        "elementBasis": "五行属性待起名师指定；不从普通笔画数推定五行",
+        "tags": [
+          "常用命名字候选"
+        ],
+        "warning": "多音字：本方案采用 yīn，请按姓名用法确认；各读音义项分别保存。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "yīn",
+            "tone": 1,
+            "meanings": [
+              "聲響、聲音。",
+              "腔調。",
+              "字的音讀。",
+              "書信、消息。",
+              "敬稱他人的言語。",
+              "姓。如清代有音泰。",
+              "二一四部首之一。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "音"
+          },
+          {
+            "pinyin": "yìn",
+            "tone": 4,
+            "meanings": [
+              "樹蔭。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "音"
+          }
+        ],
+        "polyphonic": true,
+        "variants": [
+          "音"
+        ]
+      },
+      "baselineCharacterSha256": "b2ee4f8499719b957a18fd4dc96a9f7b8a6382f2e24e8ad622cfb98a767b661a",
+      "source": {
+        "sourceId": "moe-revised",
+        "word": "音",
+        "pinyin": "yìn",
+        "originalFile": "raw/moe-revised.json.gz",
+        "originalSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "rawEntryIndex": 154034,
+        "rawHeteronymIndex": 1,
+        "rawDefinitionIndex": 0,
+        "definition": {
+          "def": "樹蔭。",
+          "link": [
+            "通「蔭」。"
+          ],
+          "quote": [
+            "《左傳．文公十七年》：「鹿死不擇音，小國之事大國也，德則其人也，不德則其鹿也。」"
+          ],
+          "type": "名"
+        },
+        "sourcePOS": "名",
+        "completeOriginalEntry": {
+          "heteronyms": [
+            {
+              "bopomofo": "ㄧㄣ",
+              "definitions": [
+                {
+                  "def": "聲響、聲音。",
+                  "example": [
+                    "如：「噪音」、「雜音」、「錄音」、「餘音繞梁」。"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "腔調。",
+                  "example": [
+                    "如：「口音」、「鄉音」。"
+                  ],
+                  "quote": [
+                    "宋．蘇軾〈祭石幼安文〉：「竄流江湖，隻影自憐，聞人蜀音，回首粲然。」"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "字的音讀。",
+                  "example": [
+                    "如：「字音」、「注音」、「音切」。"
+                  ],
+                  "quote": [
+                    "《晉書．卷九一．儒林傳．徐邈傳》：「撰正五經音訓，學者宗之。」"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "書信、消息。",
+                  "example": [
+                    "如：「回音」、「靜候佳音」、「音信全無」。"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "敬稱他人的言語。",
+                  "example": [
+                    "如：「玉音」、「德音」。"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "姓。如清代有音泰。",
+                  "type": "名"
+                },
+                {
+                  "def": "二一四部首之一。",
+                  "type": "名"
+                }
+              ],
+              "pinyin": "yīn"
+            },
+            {
+              "bopomofo": "ㄧㄣˋ",
+              "definitions": [
+                {
+                  "def": "樹蔭。",
+                  "link": [
+                    "通「蔭」。"
+                  ],
+                  "quote": [
+                    "《左傳．文公十七年》：「鹿死不擇音，小國之事大國也，德則其人也，不德則其鹿也。」"
+                  ],
+                  "type": "名"
+                }
+              ],
+              "pinyin": "yìn"
+            }
+          ],
+          "non_radical_stroke_count": 0,
+          "radical": "音",
+          "stroke_count": 9,
+          "title": "音"
+        },
+        "parsedEntrySha256": "162860da7d405ee296fb6db8c572cbc17bc0cdde185ba97f1228728a584069b8",
+        "hashConvention": "sha256(JSON.stringify(parsed complete original entry)); not raw byte range",
+        "license": "CC-BY-ND-3.0-TW"
+      },
+      "m591Coverage": {
+        "inputContentIdentity": "7c6e5b16aa9f80690136fd42e2b0de6aae39b56e516053ecb7d6c6a7398b0d44",
+        "scope": "stored non-default direct reading; hypothetical selection; never merged into default coverage",
+        "projectedMeaning": "樹蔭。",
+        "v7Status": "not-applicable",
+        "standaloneStatus": "not-covered"
+      },
+      "priorV7Review": {
+        "pendingIndex": 427,
+        "char": "音",
+        "status": "approved",
+        "namingMeaning": "声响、声音的听觉意象。",
+        "projectWish": "项目创作：愿认真聆听，也找到适合自己的表达方式。",
+        "useKind": "object-imagery",
+        "scope": "可单用或入复名；默认yīn，不借yìn树荫义；声音本身不等于乐音或音乐才华。",
+        "reason": "默认音有直接声音实体义。",
+        "binding": {
+          "char": "音",
+          "pinyin": "yīn",
+          "tone": 1,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "音",
+          "rawEntryIndex": 154034,
+          "rawHeteronymIndex": 0,
+          "rawDefinitionIndex": 0,
+          "dictionarySense": "聲響、聲音。"
+        },
+        "warnings": [
+          "polyphonic-default-only"
+        ],
+        "licensing": {
+          "dictionary": "CC-BY-ND-3.0-TW;verbatim source definition",
+          "editorial": "CC0-1.0;project review and wishes only"
+        },
+        "automaticMeaningAllowed": true,
+        "applicability": {
+          "mode": "any-name",
+          "allowedNames": [],
+          "reason": "声响声音是明确听觉实体，可直接采用而不擅改成乐音。"
+        }
+      },
+      "project": {
+        "meaning": "取树荫这一具体物象意象。",
+        "projectWish": null,
+        "limits": [
+          "不从树荫推定木、水等五行。",
+          "不得混用 yīn 声音义。"
+        ],
+        "attribution": "M616-D02 independent direct-reading explanation",
+        "license": "CC0-1.0"
+      },
+      "overlap": {
+        "readingDistinctFromDefault": true,
+        "m610CharOverlap": false,
+        "defaultCoverageStatus": {
+          "v7Status": "not-applicable",
+          "standaloneStatus": "not-covered"
+        },
+        "overlapReason": "same character is retained only through an explicit non-default reading binding"
+      },
+      "scope": "per-character-project-explanation-only",
+      "wholeNameAssessment": "not-assessed",
+      "wholeNameMeaning": null,
+      "automaticNameRecommendation": false,
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "productionApproved": false,
+      "activation": "off"
+    },
+    {
+      "caseId": "single-reading-meaning-m616:知:zhì:103895:1:0",
+      "char": "知",
+      "defaultReading": {
+        "pinyin": "zhī",
+        "tone": 1,
+        "word": "知",
+        "meanings": [
+          "明白、了解、察覺。",
+          "識別、區別。",
+          "相交、交往。",
+          "招待、禮遇、賞識。",
+          "掌管、主持。",
+          "識見、學問。",
+          "意識、感覺。",
+          "知己、朋友。"
+        ]
+      },
+      "selectedReading": {
+        "char": "知",
+        "pinyin": "zhì",
+        "tone": 4,
+        "word": "知",
+        "meanings": [
+          "智慧。",
+          "姓。如春秋時晉國有知罃。"
+        ],
+        "sourceId": "moe-revised",
+        "readingRole": "non-default-direct-reading"
+      },
+      "readingBinding": {
+        "sourceId": "moe-revised",
+        "rawEntryIndex": 103895,
+        "rawHeteronymIndex": 1,
+        "rawDefinitionIndex": 0,
+        "referenceOnly": false
+      },
+      "readingBindingKind": "explicit-non-default",
+      "baselineCharacter": {
+        "char": "知",
+        "pinyin": "zhī",
+        "tone": 1,
+        "meaning": "明白、了解、察覺。；識別、區別。；相交、交往。",
+        "traditional": "知",
+        "strokes": 8,
+        "radical": "矢",
+        "elements": [],
+        "elementBasis": "五行属性待起名师指定；不从普通笔画数推定五行",
+        "tags": [
+          "明朗"
+        ],
+        "warning": "多音字：本方案采用 zhī，请按姓名用法确认；各读音义项分别保存。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "zhī",
+            "tone": 1,
+            "meanings": [
+              "明白、了解、察覺。",
+              "識別、區別。",
+              "相交、交往。",
+              "招待、禮遇、賞識。",
+              "掌管、主持。",
+              "識見、學問。",
+              "意識、感覺。",
+              "知己、朋友。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "知"
+          },
+          {
+            "pinyin": "zhì",
+            "tone": 4,
+            "meanings": [
+              "智慧。",
+              "姓。如春秋時晉國有知罃。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "知"
+          }
+        ],
+        "polyphonic": true,
+        "variants": [
+          "知"
+        ]
+      },
+      "baselineCharacterSha256": "8c1e18fb27bceb3d7cb91e3a5e44029f0c85a66c5cc4851cd60bd63817918eb3",
+      "source": {
+        "sourceId": "moe-revised",
+        "word": "知",
+        "pinyin": "zhì",
+        "originalFile": "raw/moe-revised.json.gz",
+        "originalSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "rawEntryIndex": 103895,
+        "rawHeteronymIndex": 1,
+        "rawDefinitionIndex": 0,
+        "definition": {
+          "def": "智慧。",
+          "link": [
+            "同「智」。"
+          ],
+          "quote": [
+            "《論語．里仁》：「里仁為美，擇不處仁焉得知？」",
+            "《禮記．中庸》：「知仁勇三者，天下之達德也。」"
+          ],
+          "type": "名"
+        },
+        "sourcePOS": "名",
+        "completeOriginalEntry": {
+          "heteronyms": [
+            {
+              "bopomofo": "ㄓ",
+              "definitions": [
+                {
+                  "def": "明白、了解、察覺。",
+                  "example": [
+                    "如：「相知相許」。"
+                  ],
+                  "quote": [
+                    "唐．李紳〈古風〉詩二首之二：「誰知盤中餐，粒粒皆辛苦。」"
+                  ],
+                  "type": "動"
+                },
+                {
+                  "def": "識別、區別。",
+                  "quote": [
+                    "《禮記．樂記》：「知樂則幾於禮矣。」",
+                    "《淮南子．脩務》：「孿子之相似者，唯其母能知之。」"
+                  ],
+                  "type": "動"
+                },
+                {
+                  "def": "相交、交往。",
+                  "quote": [
+                    "《左傳．昭公四年》：「公孫明知叔孫於齊。」",
+                    "《荀子．不苟》：「君子易知而難狎。」"
+                  ],
+                  "type": "動"
+                },
+                {
+                  "def": "招待、禮遇、賞識。",
+                  "quote": [
+                    "《南史．卷一九．謝靈運傳》：「自謂才能宜參權要，既不見知，常懷慎惋。」",
+                    "唐．岑參〈北庭西郊候封大夫受降回軍獻上〉詩：「何幸一書生，忽蒙國士知。」"
+                  ],
+                  "type": "動"
+                },
+                {
+                  "def": "掌管、主持。",
+                  "quote": [
+                    "《國語．越語》：「有能助寡人謀而退吳者，吾與之共知越國之政。」",
+                    "《新唐書．卷八五．王世充傳》：「帝愛昵之，拜江都通守，兼知宮監事。」"
+                  ],
+                  "type": "動"
+                },
+                {
+                  "def": "識見、學問。",
+                  "example": [
+                    "如：「求知」、「真知灼見」。"
+                  ],
+                  "quote": [
+                    "《論語．子罕》：「吾有知乎哉？無知也。」"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "意識、感覺。",
+                  "quote": [
+                    "《荀子．王制》：「草木有生而無知。」",
+                    "漢．范縝〈神滅論〉：「手等亦應能有痛癢之知。」"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "知己、朋友。",
+                  "example": [
+                    "如：「故知」、「舊雨新知」。"
+                  ],
+                  "type": "名"
+                }
+              ],
+              "pinyin": "zhī"
+            },
+            {
+              "bopomofo": "ㄓˋ",
+              "definitions": [
+                {
+                  "def": "智慧。",
+                  "link": [
+                    "同「智」。"
+                  ],
+                  "quote": [
+                    "《論語．里仁》：「里仁為美，擇不處仁焉得知？」",
+                    "《禮記．中庸》：「知仁勇三者，天下之達德也。」"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "姓。如春秋時晉國有知罃。",
+                  "type": "名"
+                }
+              ],
+              "pinyin": "zhì"
+            }
+          ],
+          "non_radical_stroke_count": 3,
+          "radical": "矢",
+          "stroke_count": 8,
+          "title": "知"
+        },
+        "parsedEntrySha256": "8691db90a8ef05e80c9edc9f9544ddf5e5a50c3621a6b756ed8091af7ababc8d",
+        "hashConvention": "sha256(JSON.stringify(parsed complete original entry)); not raw byte range",
+        "license": "CC-BY-ND-3.0-TW"
+      },
+      "m591Coverage": {
+        "inputContentIdentity": "7c6e5b16aa9f80690136fd42e2b0de6aae39b56e516053ecb7d6c6a7398b0d44",
+        "scope": "stored non-default direct reading; hypothetical selection; never merged into default coverage",
+        "projectedMeaning": "智慧。；姓。如春秋時晉國有知罃。",
+        "v7Status": "not-reviewed-by-overlay",
+        "standaloneStatus": "not-covered"
+      },
+      "priorV7Review": null,
+      "project": {
+        "meaning": "取智慧的辞书义项意象。",
+        "projectWish": null,
+        "limits": [
+          "不把字面义当作智力测量或学业结果。",
+          "不得混用 zhī 知晓、交往等义。"
+        ],
+        "attribution": "M616-D02 independent direct-reading explanation",
+        "license": "CC0-1.0"
+      },
+      "overlap": {
+        "readingDistinctFromDefault": true,
+        "m610CharOverlap": false,
+        "defaultCoverageStatus": {
+          "v7Status": "not-reviewed-by-overlay",
+          "standaloneStatus": "not-covered"
+        },
+        "overlapReason": "same character is retained only through an explicit non-default reading binding"
+      },
+      "scope": "per-character-project-explanation-only",
+      "wholeNameAssessment": "not-assessed",
+      "wholeNameMeaning": null,
+      "automaticNameRecommendation": false,
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "productionApproved": false,
+      "activation": "off"
+    },
+    {
+      "caseId": "single-reading-meaning-m616:湛:dān:88333:1:0",
+      "char": "湛",
+      "defaultReading": {
+        "pinyin": "zhàn",
+        "tone": 4,
+        "word": "湛",
+        "meanings": [
+          "深厚。",
+          "清澈、清楚。",
+          "姓。如晉代有湛方生。"
+        ]
+      },
+      "selectedReading": {
+        "char": "湛",
+        "pinyin": "dān",
+        "tone": 1,
+        "word": "湛",
+        "meanings": [
+          "快樂。"
+        ],
+        "sourceId": "moe-revised",
+        "readingRole": "non-default-direct-reading"
+      },
+      "readingBinding": {
+        "sourceId": "moe-revised",
+        "rawEntryIndex": 88333,
+        "rawHeteronymIndex": 1,
+        "rawDefinitionIndex": 0,
+        "referenceOnly": false
+      },
+      "readingBindingKind": "explicit-non-default",
+      "baselineCharacter": {
+        "char": "湛",
+        "pinyin": "zhàn",
+        "tone": 4,
+        "meaning": "深厚。；清澈、清楚。；姓。如晉代有湛方生。",
+        "traditional": "湛",
+        "strokes": 12,
+        "radical": "水",
+        "elements": [
+          "水"
+        ],
+        "elementBasis": "字形／字义意象参考 v1（项目自编标签，非唯一汉字五行定论；不得当作康熙笔画五行）",
+        "tags": [
+          "常用命名字候选"
+        ],
+        "warning": "多音字：本方案采用 zhàn，请按姓名用法确认；各读音义项分别保存。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "zhàn",
+            "tone": 4,
+            "meanings": [
+              "深厚。",
+              "清澈、清楚。",
+              "姓。如晉代有湛方生。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "湛"
+          },
+          {
+            "pinyin": "dān",
+            "tone": 1,
+            "meanings": [
+              "快樂。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "湛"
+          }
+        ],
+        "polyphonic": true,
+        "variants": [
+          "湛"
+        ]
+      },
+      "baselineCharacterSha256": "0efcdb81da67fb600299b2ed230c5e4f89cc184a9ceae11d374c49f26026d170",
+      "source": {
+        "sourceId": "moe-revised",
+        "word": "湛",
+        "pinyin": "dān",
+        "originalFile": "raw/moe-revised.json.gz",
+        "originalSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "rawEntryIndex": 88333,
+        "rawHeteronymIndex": 1,
+        "rawDefinitionIndex": 0,
+        "definition": {
+          "def": "快樂。",
+          "quote": [
+            "《詩經．小雅．鹿鳴》：「鼓瑟鼓琴，和樂且湛。」"
+          ],
+          "type": "形"
+        },
+        "sourcePOS": "形",
+        "completeOriginalEntry": {
+          "heteronyms": [
+            {
+              "bopomofo": "ㄓㄢˋ",
+              "definitions": [
+                {
+                  "def": "深厚。",
+                  "example": [
+                    "如：「精湛」、「工夫湛深」。"
+                  ],
+                  "type": "形"
+                },
+                {
+                  "def": "清澈、清楚。",
+                  "quote": [
+                    "宋．蘇軾〈行香子．一葉舟輕〉詞：「一葉舟輕，雙槳鴻驚。水天清，影湛波平。」"
+                  ],
+                  "type": "形"
+                },
+                {
+                  "def": "姓。如晉代有湛方生。",
+                  "type": "名"
+                }
+              ],
+              "pinyin": "zhàn"
+            },
+            {
+              "bopomofo": "ㄉㄢ",
+              "definitions": [
+                {
+                  "def": "快樂。",
+                  "quote": [
+                    "《詩經．小雅．鹿鳴》：「鼓瑟鼓琴，和樂且湛。」"
+                  ],
+                  "type": "形"
+                }
+              ],
+              "pinyin": "dān"
+            }
+          ],
+          "non_radical_stroke_count": 9,
+          "radical": "水",
+          "stroke_count": 12,
+          "title": "湛"
+        },
+        "parsedEntrySha256": "7d9368028962b055bd77b933350e74b7f057765d485f2e1fef5da142470dbcc3",
+        "hashConvention": "sha256(JSON.stringify(parsed complete original entry)); not raw byte range",
+        "license": "CC-BY-ND-3.0-TW"
+      },
+      "m591Coverage": {
+        "inputContentIdentity": "7c6e5b16aa9f80690136fd42e2b0de6aae39b56e516053ecb7d6c6a7398b0d44",
+        "scope": "stored non-default direct reading; hypothetical selection; never merged into default coverage",
+        "projectedMeaning": "快樂。",
+        "v7Status": "not-applicable",
+        "standaloneStatus": "not-covered"
+      },
+      "priorV7Review": {
+        "pendingIndex": 480,
+        "char": "湛",
+        "status": "approved",
+        "namingMeaning": "清澈、清楚。",
+        "projectWish": "项目创作：愿你看事清楚，也保持内心沉静。",
+        "useKind": "literal-quality",
+        "scope": "采用zhàn清楚义；沉静为项目期许。",
+        "reason": "湛zhàn本条有独立清澈清楚义。",
+        "binding": {
+          "char": "湛",
+          "pinyin": "zhàn",
+          "tone": 4,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "湛",
+          "rawEntryIndex": 88333,
+          "rawHeteronymIndex": 0,
+          "rawDefinitionIndex": 1,
+          "dictionarySense": "清澈、清楚。"
+        },
+        "warnings": [
+          "不借dān快乐义，不直接定义为精湛技艺。"
+        ],
+        "licensing": {
+          "dictionary": "CC-BY-ND-3.0-TW;verbatim source definition",
+          "editorial": "CC0-1.0;project review and wishes only"
+        },
+        "automaticMeaningAllowed": true,
+        "applicability": {
+          "mode": "any-name",
+          "allowedNames": [],
+          "reason": "默认zhàn清澈清楚义完整，不借dān快乐义。"
+        }
+      },
+      "project": {
+        "meaning": "取快乐的字面状态意象。",
+        "projectWish": null,
+        "limits": [
+          "不承诺情绪稳定或持续幸福。",
+          "不得混用 zhàn 清澈、清楚或深厚义。"
+        ],
+        "attribution": "M616-D02 independent direct-reading explanation",
+        "license": "CC0-1.0"
+      },
+      "overlap": {
+        "readingDistinctFromDefault": true,
+        "m610CharOverlap": false,
+        "defaultCoverageStatus": {
+          "v7Status": "not-applicable",
+          "standaloneStatus": "not-covered"
+        },
+        "overlapReason": "same character is retained only through an explicit non-default reading binding"
+      },
+      "scope": "per-character-project-explanation-only",
+      "wholeNameAssessment": "not-assessed",
+      "wholeNameMeaning": null,
+      "automaticNameRecommendation": false,
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "productionApproved": false,
+      "activation": "off"
+    }
+  ]
+}

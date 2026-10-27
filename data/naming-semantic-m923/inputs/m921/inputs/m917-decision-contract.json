@@ -1,0 +1,276 @@
+{
+  "schema": "m917-semantic-admission-contract/2",
+  "decisionId": "M917-DECISION-r2",
+  "date": "2026-10-26",
+  "targetRuleVersion": "naming-editorial-7.2.0",
+  "authority": "next-stage-planning-and-readonly-review-only",
+  "sourceReviewCommit": "a758d4f8849fca949936a78ddfdce9249d0de5eb",
+  "sourceReviewSHA256": "55c0a6f9fd33b61e4a219da6d30275b9001e8bf519a33daf525ff269006555cf",
+  "sourceBindings": {
+    "m910": {
+      "commit": "ed99b83f7545481425b32b30d20bc0480bcf3758",
+      "batchId": "M910-DATA",
+      "count": 20,
+      "manifestSHA256": "a345d11b3f34cb5d4bc8b0a6de8453a2ff0cd68e559af5f0f48a215380da3e8c",
+      "selectionSHA256": "6019bf2c7bc170af093c5bf6458e798968f63a6c03dd09b24dc35abb6fd4948f",
+      "sourceSubsetSHA256": "e9e096c203b8ae640fe9ae64f91ab25bbbe9c8fd62cf6ce36c8a8224dea17893",
+      "rawFileSHA256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e"
+    },
+    "m914": {
+      "commit": "f5ac307ac9201e38e8030313818c2f020587fa0b",
+      "batchId": "M914-D01",
+      "count": 20,
+      "manifestSHA256": "1f599fb1dd014448674d39a95c1bc5c62372c1d80b9bf73de1d467ac9e00f6e8",
+      "selectionSHA256": "b7e6d8bbf2ca13c086f781763e6b74ffb344f5585561be43b1a5705871e7bdf5",
+      "sourceSubsetSHA256": "8d76e27ad008ed92747ac19aa04563233a5479f215ba03743eff63d654c958ff",
+      "rawFileSHA256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e"
+    }
+  },
+  "sourceInputHashes": {
+    "raw": "4c7f842b268943eab7d7207b5df2941ada3286d1558ad4eebc846830ce717291",
+    "compact": "54b0285005b1525db073deb8b9ac9fb9362aa5aefbc1b282ee2eef3fe355d095",
+    "compactConvention": "SHA256(UTF8(JSON.stringify(JSON.parse(UTF8(review-input.json)))))"
+  },
+  "rowsArtifact": "semantic-admission-contract.jsonl",
+  "inputPins": {
+    "m916-review-input.json": {
+      "sha256": "4c7f842b268943eab7d7207b5df2941ada3286d1558ad4eebc846830ce717291",
+      "bytes": 101050,
+      "origin": {
+        "repository": "D:/Codex-NamingStudio-Evidence/m916-meaning-semantic-review",
+        "commit": "a758d4f8849fca949936a78ddfdce9249d0de5eb",
+        "file": "review-input.json"
+      }
+    },
+    "m916-meaning-semantic-review.json": {
+      "sha256": "55c0a6f9fd33b61e4a219da6d30275b9001e8bf519a33daf525ff269006555cf",
+      "bytes": 101720,
+      "origin": {
+        "repository": "D:/Codex-NamingStudio-Evidence/m916-meaning-semantic-review",
+        "commit": "a758d4f8849fca949936a78ddfdce9249d0de5eb",
+        "file": "meaning-semantic-review.json"
+      }
+    },
+    "m916-manifest.json": {
+      "sha256": "d1c357985dcda8d74b063a05b2e06512a882f40ca573bb5a86db558a95cca2b1",
+      "bytes": 1896,
+      "origin": {
+        "repository": "D:/Codex-NamingStudio-Evidence/m916-meaning-semantic-review",
+        "commit": "a758d4f8849fca949936a78ddfdce9249d0de5eb",
+        "file": "manifest.json"
+      }
+    },
+    "m916-verify.cjs": {
+      "sha256": "b026018d141d773b107f41445ba06be69710e118e7067195e8ef136680e23306",
+      "bytes": 4305,
+      "origin": {
+        "repository": "D:/Codex-NamingStudio-Evidence/m916-meaning-semantic-review",
+        "commit": "a758d4f8849fca949936a78ddfdce9249d0de5eb",
+        "file": "verify.cjs"
+      }
+    },
+    "m752-r2-generation-admission-contract.json": {
+      "sha256": "660087ff57c5de26e4990a3c52a0c35f14180716fc2baaeac9f607ccb5573d06",
+      "bytes": 13667,
+      "origin": {
+        "path": "D:\\Codex-NamingStudio-Evidence\\m752-meaning-admission-decision\\r2\\generation-admission-contract.json"
+      }
+    },
+    "m752-r2-theme-registry.json": {
+      "sha256": "70af9e1f5932b68a9ad7b615459cc955335f62d0453ca0344888051ffca82171",
+      "bytes": 1599,
+      "origin": {
+        "path": "D:\\Codex-NamingStudio-Evidence\\m752-meaning-admission-decision\\r2\\theme-registry.json"
+      }
+    },
+    "m752-r2-generation-admission-v72.d.ts": {
+      "sha256": "b673278a88ee94b812e5c90d240584343b0d724948f886fe845b93ca22cf9cdd",
+      "bytes": 2957,
+      "origin": {
+        "path": "D:\\Codex-NamingStudio-Evidence\\m752-meaning-admission-decision\\r2\\generation-admission-v72.d.ts"
+      }
+    },
+    "m752-r2-manifest.json": {
+      "sha256": "5f4b29d9a5cd13c2d0496fd84172823e551be0221cdc52c83d95d933e1e79969",
+      "bytes": 1948,
+      "origin": {
+        "path": "D:\\Codex-NamingStudio-Evidence\\m917-semantic-admission-decision\\source-m752-r2-manifest.json",
+        "role": "previously captured frozen manifest"
+      }
+    },
+    "v72-shared.ts": {
+      "sha256": "13ba389a0eda0bfcda935891d17eb105a1af0010cc7b975dbdfad00847b8cc0a",
+      "bytes": 7253,
+      "origin": {
+        "repository": "D:/Codex-NamingStudio-Evidence/m751-meaning-admission",
+        "commit": "d80df63f0fee2ce27bdd33aa20963ac137820d65",
+        "file": "src/shared/naming-semantic-admission-v72.ts"
+      }
+    },
+    "v72-domain.ts": {
+      "sha256": "ad8f30794f58c65d2924d509772c10772c1f45ee1ee0b63fd5b4e119341d5e3f",
+      "bytes": 14132,
+      "origin": {
+        "repository": "D:/Codex-NamingStudio-Evidence/m751-meaning-admission",
+        "commit": "d80df63f0fee2ce27bdd33aa20963ac137820d65",
+        "file": "src/domain/naming-semantic-admission-v72.ts"
+      }
+    },
+    "provenance-audit.json": {
+      "sha256": "49fce775503332003a1ff0e9c353927edc6cdf3b3b6a2ab55b761b74c0e6d073",
+      "bytes": 143099,
+      "origin": {
+        "path": "D:\\Codex-NamingStudio-Evidence\\m917-semantic-admission-decision\\provenance-review\\provenance-audit.json"
+      }
+    },
+    "semantic-semantic-boundary-review.json": {
+      "sha256": "5cbe07d7ea9f6cac06af22d44bbb1a10ab077faf11b3d2fe11429f1eae0a62b8",
+      "bytes": 4427,
+      "origin": {
+        "path": "D:\\Codex-NamingStudio-Evidence\\m917-semantic-admission-decision\\semantic-review\\semantic-boundary-review.json",
+        "role": "independent review capture"
+      }
+    },
+    "semantic-row-scope-confirmation.jsonl": {
+      "sha256": "722580940d3fefd8bb8e51677d3fd6535d237054955d6dcf50a3d880c7908d02",
+      "bytes": 85434,
+      "origin": {
+        "path": "D:\\Codex-NamingStudio-Evidence\\m917-semantic-admission-decision\\semantic-review\\row-scope-confirmation.jsonl",
+        "role": "independent review capture"
+      }
+    },
+    "semantic-verification.json": {
+      "sha256": "43b5ed9a3457df95d1ec7534ff4777cf79cc3a6306bcfc04ba7aab1d9d98be52",
+      "bytes": 1050,
+      "origin": {
+        "path": "D:\\Codex-NamingStudio-Evidence\\m917-semantic-admission-decision\\semantic-review\\verification.json",
+        "role": "independent review capture"
+      }
+    }
+  },
+  "sourceClassification": {
+    "total": 40,
+    "general": 38,
+    "explicitTheme": 0,
+    "pending": 2,
+    "upstreamChanged": false
+  },
+  "independentDisposition": {
+    "characterwiseScopeConfirmed": 37,
+    "sourcePendingConfirmed": 2,
+    "additionalMigrationHold": 1,
+    "additionalHoldChars": [
+      "川"
+    ],
+    "sourcePendingChars": [
+      "方",
+      "锋"
+    ]
+  },
+  "sourceAudit": {
+    "dataRowsVerified": 40,
+    "upstreamAuditOk": false,
+    "manifestFullyMatchesCommit": false,
+    "verifierExecuted": false,
+    "rawGlobalDictionaryRehashed": false,
+    "issueId": "verifier-blob-manifest-line-ending-discrepancy",
+    "committedVerifier": {
+      "bytes": 4305,
+      "sha256": "b026018d141d773b107f41445ba06be69710e118e7067195e8ef136680e23306"
+    },
+    "manifestDeclaredWorkingVerifier": {
+      "bytes": 4306,
+      "sha256": "311faaea2ebcdffa3d98acdc5361c91d6d2e5ca1f6a39371cddfcf884ba08b63"
+    },
+    "normalizedLFEqual": true,
+    "resolution": "Preserve original source and both pins; no blanket source-manifest success claim. A future complete-source publication must correct its own verifier manifest without rewriting M916."
+  },
+  "grants": {
+    "admissionGranted": false,
+    "activation": "off",
+    "productionApproved": false,
+    "formalCoverageAdded": 0,
+    "defaultAutomaticCoverageAdded": 0,
+    "automaticSemanticCreditAllowed": false,
+    "scoreDelta": 0,
+    "wholeNameMeaning": null,
+    "automaticOverrideAllowed": false
+  },
+  "themePolicy": {
+    "knownThemeIds": [
+      "civic-homeland",
+      "water-bubbles",
+      "textile-ribbon",
+      "agriculture",
+      "literary-artwork",
+      "herb-plant"
+    ],
+    "unregisteredRows": 40,
+    "matchedRows": 0,
+    "unknownIdPolicy": "reject-context",
+    "freeTextInference": false,
+    "newRegistryEntries": 0,
+    "missingMatchDoesNotByItselfBlockFutureNeutralGeneralAdmission": true
+  },
+  "scopePolicy": {
+    "general": "只允许只读审阅中展示固定单字项目释义；不等于 allow-single-character-generation。",
+    "pending": "方/锋原文连同超义原因展示，不能当作已审通过释义。",
+    "additionalHold": "川保留源 general 标记，叠加 M917 迁移待澄清；不得展示为 38 条均获独立无保留确认。",
+    "projectWish": "仅保留项目原创期许草案；运行时 projectWish 仍为 null，不是家庭事实或辞典引文。",
+    "wholeName": "单字决定不推导整名语义、人格能力、命运、五行权威或评分。",
+    "existingRules": "保留 M752 r2 及 semantic v72 四层权威、E1–E7、六阶段同门控；不增加逐家庭签字或空白整名审核前置。"
+  },
+  "migrationGates": [
+    {
+      "id": "G1-source",
+      "required": "固定来源与新发布清单；校验原条、字形映射、读音、声调、词性和精确义项。调用方布尔值、自签新哈希不能授予来源身份。"
+    },
+    {
+      "id": "G2-editorial",
+      "required": "逐行独立准入决定，绑定精确项目释义、限制与审阅号。方/锋及川的迁移疑点先另版解决；不得改写旧证据。"
+    },
+    {
+      "id": "G3-themes",
+      "required": "六主题只按已登记枚举和真实显式选择处理；自定义标签不自动映射。未来中性 general 准入无需强行套入六主题。"
+    },
+    {
+      "id": "G4-engine",
+      "required": "新版本受信任加载器与正式 decision=allow-single-character-generation 记录才可生成；pool/required/local/ai/save/restore 使用同一门控，必选字/AI/数量不足均不得绕过。"
+    },
+    {
+      "id": "G5-output",
+      "required": "项目取意与词典事实分开；projectWish=null、wholeNameMeaning=null、scoreDelta=0；既有父母名、避讳、音韵等约束保留。"
+    },
+    {
+      "id": "G6-storage",
+      "required": "实际生成凭证绑定版本/发布/姓名/位置/读音/义项/上下文；实际保存、读取、备份恢复及篡改验证；旧历史不补算。"
+    },
+    {
+      "id": "G7-release-coverage",
+      "required": "独立集成、UI、原生与发行验收；覆盖按实际加载、去重后可用集合重新计算，禁止直接加 40 或 38。本契约无激活授权。"
+    }
+  ],
+  "developer02Acceptance": {
+    "readOnlyConsumer": "固定 M916 原 JSON 是审阅证据，M917 r2 是叠加决策。现有只读页面无需被伪装成运行时生成入口。",
+    "required": [
+      "40 条候选 ID 唯一且与固定来源集合相同",
+      "保留源 38 general / 2 pending；另显川迁移待审，不能偷偷改为源 pending 3",
+      "对固定输入、原条 SHA、读音和义项坐标作精确绑定；失败显式拒绝该包",
+      "general、必选字、自定义主题、AI 或项目期许均不能产生生成资格或评分",
+      "六主题无匹配；不得模糊映射或猜测用户主题",
+      "独立展示源字典义、项目释义、项目期许草案和审查意见",
+      "方/锋及川的疑点不被源 general 或源审阅原句覆盖",
+      "没有实际保存/恢复/UI/原生执行就标记未执行"
+    ],
+    "runtimeStatus": "未执行",
+    "consumerTestsByThisTask": "未执行"
+  },
+  "preservation": {
+    "productFilesWritten": 0,
+    "sourceFilesWritten": 0,
+    "oldPublicationsRewritten": false,
+    "existingConsumerRewritten": false,
+    "oldHistoryRecalculated": false
+  },
+  "verificationScope": "Decision artifacts, pinned snapshots, exact rows, boundary invariants and negative corruption fixtures only; no runtime or release acceptance."
+}

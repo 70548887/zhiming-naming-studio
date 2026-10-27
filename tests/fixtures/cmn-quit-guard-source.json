@@ -1,0 +1,21 @@
+{
+  "scope": "Controlled actual productrenderer readiness measurements;synthetic cancelable guard probes arenot actualnativequit/buttons.",
+  "actualProbePID": 36232,
+  "actualRuntimeManifestSha256": "ab32748e7440e0d1b0bee755e129e476144599f8e313c5d9582a373b21b0ff91",
+  "fixtures": [
+    {
+      "file": "cmn-quit-guard-programmatic.json",
+      "sha256": "62c258ca579c0115d2713578cb6ced7d3ff81c6a1e3adc1a5e4919fb25f06bac",
+      "original": "C:\\Users\\Administrator\\.codex\\worktrees\\naming-native-refresh\\八卦周易\\.local\\beforeunload-readiness-probe\\case-04\\out\\mode-old-prototype-input.json",
+      "byteIdentical": true
+    },
+    {
+      "file": "cmn-quit-guard-native-insert.json",
+      "sha256": "2b147846f4a2bc69e4255c13248c014fb995098533631671d1ebe20748521630",
+      "original": "C:\\Users\\Administrator\\.codex\\worktrees\\naming-native-refresh\\八卦周易\\.local\\beforeunload-readiness-probe\\case-04\\out\\mode-native-insertText.json",
+      "byteIdentical": true
+    }
+  ],
+  "normalCustomerData": false,
+  "privateSourceFilesRequiredAtRuntime": false
+}

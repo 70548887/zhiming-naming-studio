@@ -1,0 +1,72 @@
+{
+  "schema": "M541-runtime-reader-migration-receipt/1",
+  "generatedAt": "2026-10-25",
+  "decision": "APPROVED-EXACT-RUNTIME-READER-MIGRATION-SOURCE-ONLY",
+  "scope": "src/main/m393-meaning-candidate.mjs exact old/new identity; no publication activation",
+  "old": {
+    "path": "src/main/m393-meaning-candidate.mjs",
+    "sha256": "cde83055510c06c30a8599146779c6d783285a6887e52cd3c6220b964a784e3b",
+    "bytes": 18414,
+    "role": "M393 candidate reader before M518 cache change"
+  },
+  "new": {
+    "path": "src/main/m393-meaning-candidate.mjs",
+    "sha256": "0e23b3e6c744446a07ebb7d96a19bc03da190859c9b1188260fa1833818948a7",
+    "bytes": 19458,
+    "role": "M393 candidate reader after M518 cache change"
+  },
+  "sourceReview": {
+    "file": "D:/Codex-NamingStudio-Evidence/m518-m393-cache-review/review.json",
+    "sha256": "60eaeffc393175305ca41b1fd67aa8a213cfc60798d8013411e55e02da53e56c",
+    "decision": "source-review-passed-proceed-to-root-combined-15000ms-retest",
+    "patchSha256": "0ff0350846865ca68816d861d2f9c71245c16cc84b16dea008acfc62a3c0cd07",
+    "testEvidence": {
+      "passed": 7,
+      "failed": 0,
+      "independentRerun": false
+    }
+  },
+  "targetBinding": {
+    "M529Target": {
+      "file": "D:/Codex-NamingStudio-Evidence/m529-ci-bridge/proposal/TARGET-INVENTORY.json",
+      "sha256": "7e0fec17867a6a5c877a1640b68d1c9f11502e126097ec537173fd71ed06f5e7",
+      "bytes": 105751
+    },
+    "M541R3Manifest": {
+      "file": "E:/八卦周易/.local/team-529/dev06/r3/data/manifest.json",
+      "sha256": "627d8b7cde0dca97b97f05e6d875909c85df0a8c58be34683e752c5b3821f5dc",
+      "bytes": 23302
+    },
+    "actualNewReaderEvidence": "D:/Codex-NamingStudio-Evidence/m529-ci-bridge/target/src/main/m393-meaning-candidate.mjs"
+  },
+  "requiredChecks": {
+    "exactOldIdentity": true,
+    "exactNewIdentity": true,
+    "sameRelativePath": true,
+    "sourceReviewBindsNewHash": true,
+    "candidateOnlyScopePreserved": true,
+    "noWholeNameScoreOrRankingGrant": true,
+    "noM476Raw44Mutation": true,
+    "noM476SourceReceiptMutation": true,
+    "oldPublicationBaselineRepinStillPending": true,
+    "productionRegistryStillEmpty": true
+  },
+  "M476Boundary": {
+    "fullSourceReceiptFiles": 44,
+    "publicationSourceSha256": "870846c44faa368c913536467cf62b60cf5a96d43256f796644856dc1ae007a4",
+    "receiptFile": "E:/八卦周易/.local/team-476/dev04/approved-publication/full-source-receipt.json",
+    "receiptSha256": "c2b0f4a8e8ad536bf31fdce919498909d77224bb9b5f52d46016bd7abe16b434",
+    "action": "preserve unchanged"
+  },
+  "notApproved": [
+    "publication-lock-baseline repin from cde830 to 0e23",
+    "M529 production registry admission",
+    "source gate/seal/runtime/release",
+    "M519 performance"
+  ],
+  "limitations": [
+    "This receipt is source-only and does not authorize production publication.",
+    "M535 outer admission remains separate.",
+    "No M476 raw44 or receipt was modified."
+  ]
+}

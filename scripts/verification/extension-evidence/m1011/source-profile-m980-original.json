@@ -1,0 +1,1972 @@
+{
+  "schema": "naming-source-extension-profile/1",
+  "profileId": "raw138-source-extensions-m980-m754/1",
+  "applicationVersion": "1.0.38",
+  "scope": "source-compatibility-candidate-only",
+  "activation": "off",
+  "productionAdmission": false,
+  "authority": {
+    "automaticNameRecommendation": false,
+    "wholeNameAssessment": false,
+    "scoreDelta": 0,
+    "rankingDelta": 0,
+    "traditionalRuleAuthority": false
+  },
+  "productBase": {
+    "commit": "f5a4dc2be11f2d00a6b61a64f624c31b55c19dea",
+    "scope": "exact current source bytes; future unreviewed modules excluded"
+  },
+  "historicalSourceInventory": {
+    "file": "scripts/verification/admission/m529-subject-baseline.json",
+    "sha256": "edca81a4e8e4096b94cab404d822ef5545c4e9691a1d1b8d7e063d52059e4d15",
+    "bytes": 237398
+  },
+  "historicalResourceContract": {
+    "file": "scripts/verification/review-resources-138-m489-base.json",
+    "sha256": "21950ab68f842ece26980496203250530e1811cdc6cb742f280bf94a4bb22886",
+    "bytes": 70479
+  },
+  "reviews": [
+    {
+      "id": "M499",
+      "file": "scripts/verification/extension-evidence/M499.json",
+      "sha256": "329c1513bffb3c3091c4197ad1d7fc0a0582fc66057a8e3fb04c6500b2037b93",
+      "bytes": 21864,
+      "decision": {
+        "pointer": "/conclusion",
+        "value": "limited-scope-pass"
+      },
+      "scope": "full-word candidate source/semantic scope only",
+      "productionApproval": false
+    },
+    {
+      "id": "M501-roles",
+      "file": "scripts/verification/extension-evidence/M501-roles.json",
+      "sha256": "5c826624d6623ce8284229a0264b05deab7ec62031b775a26eafd63a29a59f1b",
+      "bytes": 2278,
+      "decision": {
+        "pointer": "/decision",
+        "value": "source-review-passed-with-integration-prerequisites"
+      },
+      "scope": "four renderer-role source scope only",
+      "productionApproval": false
+    },
+    {
+      "id": "M501-panel",
+      "file": "scripts/verification/extension-evidence/M501-panel.json",
+      "sha256": "2584579f71886a2fa88eb14961746f86238c0d8602b6769c5eb5fb42e4edc354",
+      "bytes": 4707,
+      "decision": {
+        "pointer": "/decision",
+        "value": "delta-source-review-passed-with-product-integration-prerequisites"
+      },
+      "scope": "GengSi panel/DTO source scope only",
+      "productionApproval": false
+    },
+    {
+      "id": "M510",
+      "file": "scripts/verification/extension-evidence/M510.json",
+      "sha256": "053faafd44f209057bfc1df17df119612d89bb2609dca8c75586b8012d8edacb",
+      "bytes": 6965,
+      "decision": {
+        "pointer": "/decision",
+        "value": "source-review-passed-with-root-integration-and-runtime-limits"
+      },
+      "scope": "GengSi complete API source scope only",
+      "productionApproval": false
+    },
+    {
+      "id": "M554",
+      "file": "scripts/verification/extension-evidence/M554.json",
+      "sha256": "86a842ec2830356891d071d5be6b1946e636c11a37b130208255d871f19bfd6c",
+      "bytes": 3615,
+      "decision": {
+        "pointer": "/status",
+        "value": "limited-correctness-pass"
+      },
+      "scope": "exact byte memo correctness; unchanged root wrapper/declarations only",
+      "productionApproval": false
+    },
+    {
+      "id": "M568",
+      "file": "scripts/verification/extension-evidence/M568.json",
+      "sha256": "d1438b0d2781a4a581fd40601d702919f59a8674f48d3284eb64cfa0dd0f094a",
+      "bytes": 3324,
+      "decision": {
+        "pointer": "/decisions/staticComposition",
+        "value": "APPROVED-FOR-STATIC-COMPOSITION-SCOPE"
+      },
+      "scope": "three-clause root source composition only",
+      "productionApproval": false
+    },
+    {
+      "id": "M573",
+      "file": "scripts/verification/extension-evidence/M573.json",
+      "sha256": "30677e7925ae53e33f8600bb705a35e9979423212a8f6ac11366e10211fab5e8",
+      "bytes": 4090,
+      "decision": {
+        "pointer": "/decisions/apiSourceAndTargetedTests",
+        "value": "APPROVED-FOR-BOUNDED-SOURCE-AND-TARGETED-SCOPE"
+      },
+      "scope": "three-clause API/CORE source scope only",
+      "productionApproval": false
+    },
+    {
+      "id": "M596",
+      "file": "scripts/verification/extension-evidence/M596.json",
+      "sha256": "30dce91239e6bd0651674f3c38da04378fce5745952315dd3565e19424b55579",
+      "bytes": 5774,
+      "decision": {
+        "pointer": "/status",
+        "value": "targeted-source-fixes-passed;two-P2-and-known-Proxy-closed"
+      },
+      "scope": "exact fixed B04 adapter/declaration scope only",
+      "productionApproval": false
+    },
+    {
+      "id": "M598-ui",
+      "file": "scripts/verification/extension-evidence/M598-ui.json",
+      "sha256": "98e523d95f5396d2b3b688e219e80f1a8d4f54052e21db4e98938ca0f9cedc4d",
+      "bytes": 3367,
+      "decision": {
+        "pointer": "/decisions/UIStateAndController",
+        "value": "APPROVED-FOR-BOUNDED-SOURCE-AND-PURE-TEST-SCOPE"
+      },
+      "scope": "manual full-word rendering/controller scope only",
+      "productionApproval": false
+    },
+    {
+      "id": "M598-root",
+      "file": "scripts/verification/extension-evidence/M598-root.json",
+      "sha256": "56682881ff2118c3b6fe6e3d8aade2010af272992af7c31c9df060bd1ba354e5",
+      "bytes": 2501,
+      "decision": {
+        "pointer": "/decisions/B04RootSourceComposition",
+        "value": "APPROVED-FOR-SOURCE-AND-CONSTRUCTOR-TEST-SCOPE"
+      },
+      "scope": "B04 root source/Service composition only",
+      "productionApproval": false
+    },
+    {
+      "id": "M518",
+      "file": "scripts/verification/publication-evidence/M518-source-review.json",
+      "sha256": "60eaeffc393175305ca41b1fd67aa8a213cfc60798d8013411e55e02da53e56c",
+      "bytes": 4750,
+      "decision": {
+        "pointer": "/decision",
+        "value": "source-review-passed-proceed-to-root-combined-15000ms-retest"
+      },
+      "scope": "fixed current M393 source transition; preserve raw decision",
+      "productionApproval": false
+    },
+    {
+      "id": "M541",
+      "file": "scripts/verification/publication-evidence/M541-reader-migration.json",
+      "sha256": "3987a755d1cd49c909c8f22fb2a1834787ceb8a627dae64424abc0b83c58e3cf",
+      "bytes": 2938,
+      "decision": {
+        "pointer": "/decision",
+        "value": "APPROVED-EXACT-RUNTIME-READER-MIGRATION-SOURCE-ONLY"
+      },
+      "scope": "exact old/new M393 source-only migration; no publication activation",
+      "productionApproval": false
+    },
+    {
+      "id": "M925-QIONGTONG-SOURCE",
+      "file": "scripts/verification/extension-evidence/m929/M925-REVIEW.json",
+      "sha256": "5aab8d7a9a5b4cedfd8495b14403d308c86db53b968b48cba2398f2ca6d1f285",
+      "bytes": 16759,
+      "decision": {
+        "pointer": "/verdict",
+        "value": "PASS_BOUNDED_CURRENT_SOURCE_GROUP_WITH_TEST_MAINTENANCE_GAPS"
+      },
+      "scope": "Only3primary+4UI/CSS exact source postimages; no support84 closure, current product admission or business authority. Original2test-maintenance gaps remain historical records.",
+      "productionApproval": false
+    },
+    {
+      "id": "M940-PROJECT-V132-EXACT15",
+      "file": "scripts/verification/extension-evidence/m944/M940-REVIEW.json",
+      "sha256": "b4343a3b181f21de58f40852d2dc4e295db4c08db459a685cb5d7070e3016172",
+      "bytes": 17831,
+      "decision": {
+        "pointer": "/verdict",
+        "value": "PASS_BOUNDED_EXACT15_PROJECT_SOURCE_REVIEW"
+      },
+      "scope": "Only fixed15project-v132 source postimages:10published9execution+1resolution plus5source-only companions. Numeric project proposal/defaultoff/traditionalunknown;17contextdependencies are not registered.",
+      "productionApproval": false
+    },
+    {
+      "id": "M957-CONSUMER-EXACT8",
+      "file": "scripts/verification/extension-evidence/m964/M957-REVIEW.json",
+      "sha256": "5ebed106488ffb3b37568bd6b2564f0324fb3b239a1c64ff34578a9ed3dece83",
+      "bytes": 17920,
+      "decision": {
+        "pointer": "/verdict",
+        "value": "pass-bounded-exact8-source-review"
+      },
+      "scope": "Exact8 current consumer source review only:6foundation+2direct eligibility support. External context/fixed e01-906/Store/sourcebuild/release not approved.",
+      "productionApproval": false
+    },
+    {
+      "id": "M975-M754-GROUP",
+      "file": "scripts/verification/extension-evidence/m980/M975-source-review.json",
+      "sha256": "0d5570de064c6c26c5d3a484245c56d1c1e732be3b0f45d53906f63f21fc86cc",
+      "bytes": 14941,
+      "decision": {
+        "pointer": "/result",
+        "value": "accepted-with-stated-source-scope"
+      },
+      "scope": "Exact7source:5M754foundation+2M779trustedowner at51d991. Twoexternalfactorycallers arecontextonly. Explicitprojectedlabels enterexistingfilter/scoring;no newweights/defaultcoverage/ServiceStoreUI/build/release authority.",
+      "productionApproval": false
+    }
+  ],
+  "sourceRoles": [
+    {
+      "role": "extension-domain-meaning-context-m460-b04-adapter-d-mts",
+      "file": "src/domain/meaning-context-m460-b04-adapter.d.mts",
+      "readerClass": "type-contract",
+      "compileScope": "type-only",
+      "storeRequiredSourceRole": false,
+      "versions": [
+        {
+          "version": "source-current/1",
+          "pin": {
+            "sha256": "4de1572e331da35dd0026912f135bf2210077650a8784763305fde680c44a815",
+            "bytes": 1422
+          },
+          "sourceCommit": "ce31a530833ea1063dbc37a0e62ba0a69b1d8369",
+          "reviewIds": [
+            "M596",
+            "M598-root"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "extension-domain-meaning-context-m460-b04-adapter-mjs",
+      "file": "src/domain/meaning-context-m460-b04-adapter.mjs",
+      "readerClass": "service-fixed-source-reader",
+      "compileScope": "main-service-bundle",
+      "storeRequiredSourceRole": false,
+      "versions": [
+        {
+          "version": "source-current/1",
+          "pin": {
+            "sha256": "31798981963d7677b0474d6c6968001acccfa754d771010a011ca25cb42b9e12",
+            "bytes": 4351
+          },
+          "sourceCommit": "ce31a530833ea1063dbc37a0e62ba0a69b1d8369",
+          "reviewIds": [
+            "M596",
+            "M598-root"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "extension-domain-traditional-geng-si-reference-r3-ts",
+      "file": "src/domain/traditional/geng-si-reference-r3.ts",
+      "readerClass": "pure-rule-or-rule-data",
+      "compileScope": "main-service-bundle",
+      "storeRequiredSourceRole": false,
+      "versions": [
+        {
+          "version": "source-current/1",
+          "pin": {
+            "sha256": "574e7272549463954393e3419a5249ca6cfc2cce601d82136c8cd74122adcfe1",
+            "bytes": 12540
+          },
+          "sourceCommit": "f1f4f20ab4fa6d371bae34d7646ef2133f274342",
+          "reviewIds": [
+            "M510"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "extension-domain-traditional-qiongtong-clause-reference-ts",
+      "file": "src/domain/traditional/qiongtong-clause-reference.ts",
+      "readerClass": "pure-rule-or-rule-data",
+      "compileScope": "main-service-bundle",
+      "storeRequiredSourceRole": false,
+      "versions": [
+        {
+          "version": "source-current/1",
+          "pin": {
+            "sha256": "dec96d378e0fc0e956b498d4e42cc7d5e081a2933ded6632a447f42942e4cee6",
+            "bytes": 9423
+          },
+          "sourceCommit": "ff89498d968bcb7e9f51eca46ae8bac14afec586",
+          "reviewIds": [
+            "M573",
+            "M568"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "extension-domain-traditional-qiongtong-conditions-v1-json",
+      "file": "src/domain/traditional/qiongtong-conditions-v1.json",
+      "readerClass": "pure-rule-or-rule-data",
+      "compileScope": "main-service-bundle",
+      "storeRequiredSourceRole": false,
+      "versions": [
+        {
+          "version": "source-current/1",
+          "pin": {
+            "sha256": "9df67435c2b63126d6bae24bcbb1d156ad4e362e07ecafbfd2bb430050fb8b41",
+            "bytes": 5499
+          },
+          "sourceCommit": "ff89498d968bcb7e9f51eca46ae8bac14afec586",
+          "reviewIds": [
+            "M573",
+            "M568"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "extension-main-byte-digest-memo-d-mts",
+      "file": "src/main/byte-digest-memo.d.mts",
+      "readerClass": "type-contract",
+      "compileScope": "type-only",
+      "storeRequiredSourceRole": false,
+      "versions": [
+        {
+          "version": "source-current/1",
+          "pin": {
+            "sha256": "4ab172fb95e7ec06c02803f5021b037e121acbdf281428dbff1f955ce5c7a775",
+            "bytes": 1646
+          },
+          "sourceCommit": "b0945c61e9e93dbfd6ffb66774e0ae2f0e15d82c",
+          "reviewIds": [
+            "M554"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "extension-main-byte-digest-memo-mjs",
+      "file": "src/main/byte-digest-memo.mjs",
+      "readerClass": "private-byte-digest",
+      "compileScope": "main-store-bundle",
+      "storeRequiredSourceRole": false,
+      "versions": [
+        {
+          "version": "source-current/1",
+          "pin": {
+            "sha256": "ffe4c78191f72d8d47096ffb389d5e1f550462f765f0bf2a9413e02adaae9239",
+            "bytes": 6305
+          },
+          "sourceCommit": "b0945c61e9e93dbfd6ffb66774e0ae2f0e15d82c",
+          "reviewIds": [
+            "M554"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "extension-main-geng-si-reference-explanation-ts",
+      "file": "src/main/geng-si-reference-explanation.ts",
+      "readerClass": "analysis-presentation",
+      "compileScope": "main-service-bundle",
+      "storeRequiredSourceRole": false,
+      "versions": [
+        {
+          "version": "source-current/1",
+          "pin": {
+            "sha256": "8a2aecdb18d861e0d3b79c963caed19473a56fc80ea8d9c2c48c60c22b9c3188",
+            "bytes": 7634
+          },
+          "sourceCommit": "f1f4f20ab4fa6d371bae34d7646ef2133f274342",
+          "reviewIds": [
+            "M510"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "extension-main-geng-si-reference-preview-ts",
+      "file": "src/main/geng-si-reference-preview.ts",
+      "readerClass": "service-fixed-source-reader",
+      "compileScope": "main-service-bundle",
+      "storeRequiredSourceRole": false,
+      "versions": [
+        {
+          "version": "source-current/1",
+          "pin": {
+            "sha256": "6fdf52eb5234ec1c9bd3c85905aee38f9b228149c35f6ccb434c0624b769e4f3",
+            "bytes": 4931
+          },
+          "sourceCommit": "f1f4f20ab4fa6d371bae34d7646ef2133f274342",
+          "reviewIds": [
+            "M510"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "extension-main-qiongtong-clause-reference-preview-ts",
+      "file": "src/main/qiongtong-clause-reference-preview.ts",
+      "readerClass": "service-fixed-source-reader",
+      "compileScope": "main-service-bundle",
+      "storeRequiredSourceRole": false,
+      "versions": [
+        {
+          "version": "source-current/1",
+          "pin": {
+            "sha256": "2cc2719acf10e0949ea95446b94e36e6e99e8e39942cd52c7776162c037cb5da",
+            "bytes": 8816
+          },
+          "sourceCommit": "ff89498d968bcb7e9f51eca46ae8bac14afec586",
+          "reviewIds": [
+            "M573",
+            "M568"
+          ]
+        },
+        {
+          "version": "m925-reviewed-source/1",
+          "pin": {
+            "sha256": "be3617edf79519ce64d80b71323a39b621c1f477937cc2f181a07bfdf171ba44",
+            "bytes": 9152
+          },
+          "sourceCommit": "b6773530ef941d48b72a451f5d7ab5831abe074a",
+          "reviewIds": [
+            "M925-QIONGTONG-SOURCE"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "extension-main-qiongtong-clause-reference-ts",
+      "file": "src/main/qiongtong-clause-reference.ts",
+      "readerClass": "analysis-presentation",
+      "compileScope": "main-service-bundle",
+      "storeRequiredSourceRole": false,
+      "versions": [
+        {
+          "version": "source-current/1",
+          "pin": {
+            "sha256": "e1b43a2fa000af5599c2784eb7604b13675961d058d6ded11f8977ebdc49e4ba",
+            "bytes": 5655
+          },
+          "sourceCommit": "ff89498d968bcb7e9f51eca46ae8bac14afec586",
+          "reviewIds": [
+            "M573",
+            "M568"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "extension-main-source-byte-digest-d-mts",
+      "file": "src/main/source-byte-digest.d.mts",
+      "readerClass": "type-contract",
+      "compileScope": "type-only",
+      "storeRequiredSourceRole": false,
+      "versions": [
+        {
+          "version": "source-current/1",
+          "pin": {
+            "sha256": "661fd9129a98492c8fb254d3d727849930d2a9456a5e059fb7779425b50bb0f7",
+            "bytes": 182
+          },
+          "sourceCommit": "b0945c61e9e93dbfd6ffb66774e0ae2f0e15d82c",
+          "reviewIds": [
+            "M554"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "extension-main-source-byte-digest-mjs",
+      "file": "src/main/source-byte-digest.mjs",
+      "readerClass": "private-byte-digest",
+      "compileScope": "main-store-bundle",
+      "storeRequiredSourceRole": false,
+      "versions": [
+        {
+          "version": "source-current/1",
+          "pin": {
+            "sha256": "fe3cac783762e729fa5dde3b02964e326a2aaa43bd76e9e08cb558fd7ce8b6c8",
+            "bytes": 291
+          },
+          "sourceCommit": "b0945c61e9e93dbfd6ffb66774e0ae2f0e15d82c",
+          "reviewIds": [
+            "M554"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "extension-renderer-b04wordcontextpanel-tsx",
+      "file": "src/renderer/B04WordContextPanel.tsx",
+      "readerClass": "read-only-renderer",
+      "compileScope": "renderer-bundle",
+      "storeRequiredSourceRole": false,
+      "versions": [
+        {
+          "version": "source-current/1",
+          "pin": {
+            "sha256": "d44a460e54a7b1f56cb47c14e20f80d603faae8170a26d96aa191472239b1573",
+            "bytes": 8202
+          },
+          "sourceCommit": "f5a4dc2be11f2d00a6b61a64f624c31b55c19dea",
+          "reviewIds": [
+            "M598-ui",
+            "M598-root"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "extension-renderer-gengsireferencepreviewpanel-tsx",
+      "file": "src/renderer/GengSiReferencePreviewPanel.tsx",
+      "readerClass": "read-only-renderer",
+      "compileScope": "renderer-bundle",
+      "storeRequiredSourceRole": false,
+      "versions": [
+        {
+          "version": "source-current/1",
+          "pin": {
+            "sha256": "0e9e1d64f9ed3a73160b5d0fc584b3d0b05eeb8e274a9fbb12a1dbb8ba9233ba",
+            "bytes": 4191
+          },
+          "sourceCommit": "f1f4f20ab4fa6d371bae34d7646ef2133f274342",
+          "reviewIds": [
+            "M501-panel"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "extension-renderer-qiongtongclausepreviewpanel-tsx",
+      "file": "src/renderer/QiongtongClausePreviewPanel.tsx",
+      "readerClass": "read-only-renderer",
+      "compileScope": "renderer-bundle",
+      "storeRequiredSourceRole": false,
+      "versions": [
+        {
+          "version": "source-current/1",
+          "pin": {
+            "sha256": "db933e59b610b80036ea3ceecbd34456c00cd0983198b61b2a2b31d44def5575",
+            "bytes": 5511
+          },
+          "sourceCommit": "ff89498d968bcb7e9f51eca46ae8bac14afec586",
+          "reviewIds": [
+            "M573",
+            "M568"
+          ]
+        },
+        {
+          "version": "m925-reviewed-source/1",
+          "pin": {
+            "sha256": "2119015eaed08c2570d4f93af13c4322e9dac1d711ff8d0b51c9c82351a3e6c1",
+            "bytes": 5810
+          },
+          "sourceCommit": "b6773530ef941d48b72a451f5d7ab5831abe074a",
+          "reviewIds": [
+            "M925-QIONGTONG-SOURCE"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "extension-renderer-qiongtongclausereferenceview-css",
+      "file": "src/renderer/QiongtongClauseReferenceView.css",
+      "readerClass": "read-only-renderer",
+      "compileScope": "renderer-bundle",
+      "storeRequiredSourceRole": false,
+      "versions": [
+        {
+          "version": "source-current/1",
+          "pin": {
+            "sha256": "a969961926f694eb930e91fa1eee25e9c4b5d1433e088e27e2fbe864010fa095",
+            "bytes": 2622
+          },
+          "sourceCommit": "ff89498d968bcb7e9f51eca46ae8bac14afec586",
+          "reviewIds": [
+            "M573",
+            "M568"
+          ]
+        },
+        {
+          "version": "m925-reviewed-source/1",
+          "pin": {
+            "sha256": "2ba8ea20ee4c8406200d9258d8e98525bfdbb451e32a26f2d02728a1c5713a61",
+            "bytes": 3067
+          },
+          "sourceCommit": "b6773530ef941d48b72a451f5d7ab5831abe074a",
+          "reviewIds": [
+            "M925-QIONGTONG-SOURCE"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "extension-renderer-qiongtongclausereferenceview-tsx",
+      "file": "src/renderer/QiongtongClauseReferenceView.tsx",
+      "readerClass": "read-only-renderer",
+      "compileScope": "renderer-bundle",
+      "storeRequiredSourceRole": false,
+      "versions": [
+        {
+          "version": "source-current/1",
+          "pin": {
+            "sha256": "69cb9e6943e5298fe0b925f0babf7d74c0e898b9e14bdec3acc2487bcd46af9d",
+            "bytes": 6134
+          },
+          "sourceCommit": "ff89498d968bcb7e9f51eca46ae8bac14afec586",
+          "reviewIds": [
+            "M573",
+            "M568"
+          ]
+        },
+        {
+          "version": "m925-reviewed-source/1",
+          "pin": {
+            "sha256": "731bcf4ee04da3654728aeabf4d14b4966dacf363e56cd001a9e7b2cfd5111b8",
+            "bytes": 6093
+          },
+          "sourceCommit": "b6773530ef941d48b72a451f5d7ab5831abe074a",
+          "reviewIds": [
+            "M925-QIONGTONG-SOURCE"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "extension-renderer-traditionalcorereferenceview-css",
+      "file": "src/renderer/TraditionalCoreReferenceView.css",
+      "readerClass": "read-only-renderer",
+      "compileScope": "renderer-bundle",
+      "storeRequiredSourceRole": false,
+      "versions": [
+        {
+          "version": "source-current/1",
+          "pin": {
+            "sha256": "95870d76b9af948dc91d427d947997bb5047321d5ffe6a294cdeb4b5d415ec32",
+            "bytes": 2490
+          },
+          "sourceCommit": "f1f4f20ab4fa6d371bae34d7646ef2133f274342",
+          "reviewIds": [
+            "M501-roles"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "extension-renderer-traditionalcorereferenceview-tsx",
+      "file": "src/renderer/TraditionalCoreReferenceView.tsx",
+      "readerClass": "read-only-renderer",
+      "compileScope": "renderer-bundle",
+      "storeRequiredSourceRole": false,
+      "versions": [
+        {
+          "version": "source-current/1",
+          "pin": {
+            "sha256": "6e9477b3102a6eaa069377dfb96d0f51905fe9de01cb0c0af185b15e6adfc121",
+            "bytes": 5485
+          },
+          "sourceCommit": "f1f4f20ab4fa6d371bae34d7646ef2133f274342",
+          "reviewIds": [
+            "M501-roles"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "extension-renderer-b04-word-context-state-ts",
+      "file": "src/renderer/b04-word-context-state.ts",
+      "readerClass": "read-only-renderer",
+      "compileScope": "renderer-bundle",
+      "storeRequiredSourceRole": false,
+      "versions": [
+        {
+          "version": "source-current/1",
+          "pin": {
+            "sha256": "0d3c24666f4188ce4771a3624d4a98cd232e8872d22f459f41956eb31caf1c92",
+            "bytes": 5650
+          },
+          "sourceCommit": "f5a4dc2be11f2d00a6b61a64f624c31b55c19dea",
+          "reviewIds": [
+            "M598-ui",
+            "M598-root"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "extension-renderer-b04-word-context-css",
+      "file": "src/renderer/b04-word-context.css",
+      "readerClass": "read-only-renderer",
+      "compileScope": "renderer-bundle",
+      "storeRequiredSourceRole": false,
+      "versions": [
+        {
+          "version": "source-current/1",
+          "pin": {
+            "sha256": "21111f8ae83ff76c6744c88d5dd1ba21a3830c573c09d7e53d3463a6754e3ac3",
+            "bytes": 2942
+          },
+          "sourceCommit": "f5a4dc2be11f2d00a6b61a64f624c31b55c19dea",
+          "reviewIds": [
+            "M598-ui",
+            "M598-root"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "extension-renderer-geng-si-reference-display-ts",
+      "file": "src/renderer/geng-si-reference-display.ts",
+      "readerClass": "read-only-renderer",
+      "compileScope": "renderer-bundle",
+      "storeRequiredSourceRole": false,
+      "versions": [
+        {
+          "version": "source-current/1",
+          "pin": {
+            "sha256": "9c1b67d167f8cc7ce327050b6753e18ade5892fed1b64d62c56cac851d0b1e1f",
+            "bytes": 1001
+          },
+          "sourceCommit": "f1f4f20ab4fa6d371bae34d7646ef2133f274342",
+          "reviewIds": [
+            "M501-roles"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "extension-shared-b04-word-context-ts",
+      "file": "src/shared/b04-word-context.ts",
+      "readerClass": "type-contract",
+      "compileScope": "type-only",
+      "storeRequiredSourceRole": false,
+      "versions": [
+        {
+          "version": "source-current/1",
+          "pin": {
+            "sha256": "04da2b604900630edd9d91445d7f06ad7b3351d6f7300f44bfed186008ef6d0c",
+            "bytes": 335
+          },
+          "sourceCommit": "ce31a530833ea1063dbc37a0e62ba0a69b1d8369",
+          "reviewIds": [
+            "M598-root"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "extension-shared-geng-si-reference-ts",
+      "file": "src/shared/geng-si-reference.ts",
+      "readerClass": "type-contract",
+      "compileScope": "type-only",
+      "storeRequiredSourceRole": false,
+      "versions": [
+        {
+          "version": "source-current/1",
+          "pin": {
+            "sha256": "56576fc1147f792893e9be5fd3aa002f3e0c25104bcda7a90fdb17221298f175",
+            "bytes": 1449
+          },
+          "sourceCommit": "f1f4f20ab4fa6d371bae34d7646ef2133f274342",
+          "reviewIds": [
+            "M510"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "extension-shared-qiongtong-clause-reference-preview-ts",
+      "file": "src/shared/qiongtong-clause-reference-preview.ts",
+      "readerClass": "service-fixed-source-reader",
+      "compileScope": "type-only",
+      "storeRequiredSourceRole": false,
+      "versions": [
+        {
+          "version": "source-current/1",
+          "pin": {
+            "sha256": "57da63f012410ad8188df46faf4a5cfa1169c4cc2c12cb67d9c5a23b9e370954",
+            "bytes": 1194
+          },
+          "sourceCommit": "ff89498d968bcb7e9f51eca46ae8bac14afec586",
+          "reviewIds": [
+            "M573",
+            "M568"
+          ]
+        },
+        {
+          "version": "m925-reviewed-source/1",
+          "pin": {
+            "sha256": "107de7ed7fb2a14cca5d7c133f510cede907a58604c0eb784290c1628ee42324",
+            "bytes": 2149
+          },
+          "sourceCommit": "b6773530ef941d48b72a451f5d7ab5831abe074a",
+          "reviewIds": [
+            "M925-QIONGTONG-SOURCE"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "extension-shared-qiongtong-clause-reference-ts",
+      "file": "src/shared/qiongtong-clause-reference.ts",
+      "readerClass": "type-contract",
+      "compileScope": "type-only",
+      "storeRequiredSourceRole": false,
+      "versions": [
+        {
+          "version": "source-current/1",
+          "pin": {
+            "sha256": "e427f31d3180dab2d9404abbf8c8d80595e371fbd1452fb835caea9c0cda1d81",
+            "bytes": 1482
+          },
+          "sourceCommit": "ff89498d968bcb7e9f51eca46ae8bac14afec586",
+          "reviewIds": [
+            "M573",
+            "M568"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "m929-renderer-qiongtong-clause-preview-bindings-ts",
+      "file": "src/renderer/qiongtong-clause-preview-bindings.ts",
+      "readerClass": "read-only-renderer",
+      "compileScope": "renderer-bundle",
+      "storeRequiredSourceRole": false,
+      "versions": [
+        {
+          "version": "m925-reviewed-source/1",
+          "pin": {
+            "sha256": "5b745356ed7bc94a5eefd5815bec39e9e62fab4be25434970e28b3e9ffea4e12",
+            "bytes": 5857
+          },
+          "sourceCommit": "b6773530ef941d48b72a451f5d7ab5831abe074a",
+          "reviewIds": [
+            "M925-QIONGTONG-SOURCE"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "m929-renderer-qiongtongjiachapterview-tsx",
+      "file": "src/renderer/QiongtongJiaChapterView.tsx",
+      "readerClass": "read-only-renderer",
+      "compileScope": "renderer-bundle",
+      "storeRequiredSourceRole": false,
+      "versions": [
+        {
+          "version": "m925-reviewed-source/1",
+          "pin": {
+            "sha256": "b46a022dd52234e5e3f0c1f5fdaaf9cae6d33042b0b3848edec2afa38312f8d9",
+            "bytes": 4891
+          },
+          "sourceCommit": "b6773530ef941d48b72a451f5d7ab5831abe074a",
+          "reviewIds": [
+            "M925-QIONGTONG-SOURCE"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "m944-m940-source-01",
+      "file": "src/domain/bazi-mainchain/project-v132/consumers.ts",
+      "readerClass": "pure-rule-or-rule-data",
+      "compileScope": "main-service-bundle",
+      "storeRequiredSourceRole": false,
+      "versions": [
+        {
+          "version": "m940-reviewed-project-v132/1",
+          "pin": {
+            "sha256": "9fc27fd796503c2f07b4b0d814adb25f48a71b20793e7d2b43a0813205752c00",
+            "bytes": 37864
+          },
+          "sourceCommit": "d46ebc65b738e6b76e9495875534b3f50dd47659",
+          "reviewIds": [
+            "M940-PROJECT-V132-EXACT15"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "m944-m940-source-02",
+      "file": "src/domain/bazi-mainchain/project-v132/index.ts",
+      "readerClass": "pure-rule-or-rule-data",
+      "compileScope": "main-service-bundle",
+      "storeRequiredSourceRole": false,
+      "versions": [
+        {
+          "version": "m940-reviewed-project-v132/1",
+          "pin": {
+            "sha256": "7479171a0ca50de436de987e6f31b1b8884c619955ea53d7f3bd19c7d4b09d23",
+            "bytes": 7361
+          },
+          "sourceCommit": "d46ebc65b738e6b76e9495875534b3f50dd47659",
+          "reviewIds": [
+            "M940-PROJECT-V132-EXACT15"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "m944-m940-source-03",
+      "file": "src/domain/bazi-mainchain/project-v132/intervention.ts",
+      "readerClass": "pure-rule-or-rule-data",
+      "compileScope": "main-service-bundle",
+      "storeRequiredSourceRole": false,
+      "versions": [
+        {
+          "version": "m940-reviewed-project-v132/1",
+          "pin": {
+            "sha256": "478743a9336f18de082effb837d7f55706367843a345bec62ad29d2eb0c9c153",
+            "bytes": 4950
+          },
+          "sourceCommit": "d46ebc65b738e6b76e9495875534b3f50dd47659",
+          "reviewIds": [
+            "M940-PROJECT-V132-EXACT15"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "m944-m940-source-04",
+      "file": "src/domain/bazi-mainchain/project-v132/presentation.ts",
+      "readerClass": "analysis-presentation",
+      "compileScope": "main-service-bundle",
+      "storeRequiredSourceRole": false,
+      "versions": [
+        {
+          "version": "m940-reviewed-project-v132/1",
+          "pin": {
+            "sha256": "82f3f2626241749216d3b67c6511b07f42a26af66f55e48afc729bec33e9890e",
+            "bytes": 10867
+          },
+          "sourceCommit": "d46ebc65b738e6b76e9495875534b3f50dd47659",
+          "reviewIds": [
+            "M940-PROJECT-V132-EXACT15"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "m944-m940-source-05",
+      "file": "src/domain/bazi-mainchain/project-v132/regime-protection.ts",
+      "readerClass": "pure-rule-or-rule-data",
+      "compileScope": "main-service-bundle",
+      "storeRequiredSourceRole": false,
+      "versions": [
+        {
+          "version": "m940-reviewed-project-v132/1",
+          "pin": {
+            "sha256": "c8772637d2440a2781fb174fb8ff4f1cc8164f6e708a987afec92adf21971989",
+            "bytes": 1405
+          },
+          "sourceCommit": "d46ebc65b738e6b76e9495875534b3f50dd47659",
+          "reviewIds": [
+            "M940-PROJECT-V132-EXACT15"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "m944-m940-source-06",
+      "file": "src/domain/bazi-mainchain/project-v132/root-feedback.ts",
+      "readerClass": "pure-rule-or-rule-data",
+      "compileScope": "main-service-bundle",
+      "storeRequiredSourceRole": false,
+      "versions": [
+        {
+          "version": "m940-reviewed-project-v132/1",
+          "pin": {
+            "sha256": "74ba6990d716900488ded56e3cb838e026cd516ef03aa10071a940aeba8b2675",
+            "bytes": 16800
+          },
+          "sourceCommit": "d46ebc65b738e6b76e9495875534b3f50dd47659",
+          "reviewIds": [
+            "M940-PROJECT-V132-EXACT15"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "m944-m940-source-07",
+      "file": "src/domain/bazi-mainchain/project-v132/rules/project-mainchain-1.3.2.json",
+      "readerClass": "pure-rule-or-rule-data",
+      "compileScope": "main-service-bundle",
+      "storeRequiredSourceRole": false,
+      "versions": [
+        {
+          "version": "m940-reviewed-project-v132/1",
+          "pin": {
+            "sha256": "6991753b498f57bd09d1bdbe7795c8cf437a2c4b6720c2039799d5afac7456f3",
+            "bytes": 29731
+          },
+          "sourceCommit": "d46ebc65b738e6b76e9495875534b3f50dd47659",
+          "reviewIds": [
+            "M940-PROJECT-V132-EXACT15"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "m944-m940-source-08",
+      "file": "src/domain/bazi-mainchain/project-v132/rules/qiongtong-initial-reference.json",
+      "readerClass": "pure-rule-or-rule-data",
+      "compileScope": "main-service-bundle",
+      "storeRequiredSourceRole": false,
+      "versions": [
+        {
+          "version": "m940-reviewed-project-v132/1",
+          "pin": {
+            "sha256": "71d58e5c547297feabbe44023cfb7ceed213f6582215ca21273076e98328ff48",
+            "bytes": 172719
+          },
+          "sourceCommit": "d46ebc65b738e6b76e9495875534b3f50dd47659",
+          "reviewIds": [
+            "M940-PROJECT-V132-EXACT15"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "m944-m940-source-09",
+      "file": "src/domain/bazi-mainchain/project-v132/rules/source-lock-1.3.2.json",
+      "readerClass": "pure-rule-or-rule-data",
+      "compileScope": "main-service-bundle",
+      "storeRequiredSourceRole": false,
+      "versions": [
+        {
+          "version": "m940-reviewed-project-v132/1",
+          "pin": {
+            "sha256": "647f4e4b6ace4e65aca7d811c9cb7bb2071d0dbb7f91a7d4d258a4925b03e2ca",
+            "bytes": 5372
+          },
+          "sourceCommit": "d46ebc65b738e6b76e9495875534b3f50dd47659",
+          "reviewIds": [
+            "M940-PROJECT-V132-EXACT15"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "m944-m940-source-10",
+      "file": "src/domain/bazi-mainchain/project-v132/settled-flows.ts",
+      "readerClass": "pure-rule-or-rule-data",
+      "compileScope": "main-service-bundle",
+      "storeRequiredSourceRole": false,
+      "versions": [
+        {
+          "version": "m940-reviewed-project-v132/1",
+          "pin": {
+            "sha256": "471ac93789932ede398bd16b8d764e2cee8a549e839f3a3e523f3d568a985394",
+            "bytes": 6726
+          },
+          "sourceCommit": "d46ebc65b738e6b76e9495875534b3f50dd47659",
+          "reviewIds": [
+            "M940-PROJECT-V132-EXACT15"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "m944-m940-source-11",
+      "file": "src/domain/bazi-mainchain/project-v132/NOTICE.md",
+      "readerClass": "source-only-notice",
+      "compileScope": "source-only",
+      "storeRequiredSourceRole": false,
+      "versions": [
+        {
+          "version": "m940-reviewed-project-v132/1",
+          "pin": {
+            "sha256": "6be0c2c2a8a6a00c6a0b49f51b11d4d71372e4d422d38b73bc721b27b4bc4aa2",
+            "bytes": 343
+          },
+          "sourceCommit": "d46ebc65b738e6b76e9495875534b3f50dd47659",
+          "reviewIds": [
+            "M940-PROJECT-V132-EXACT15"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "m944-m940-source-12",
+      "file": "src/domain/bazi-mainchain/project-v132/root-feedback-types.ts",
+      "readerClass": "type-contract",
+      "compileScope": "type-only",
+      "storeRequiredSourceRole": false,
+      "versions": [
+        {
+          "version": "m940-reviewed-project-v132/1",
+          "pin": {
+            "sha256": "a3bfb200f3e37046d955b72b1d0c6f95e9e89d29d36185c0c908f31beab1dac3",
+            "bytes": 4781
+          },
+          "sourceCommit": "d46ebc65b738e6b76e9495875534b3f50dd47659",
+          "reviewIds": [
+            "M940-PROJECT-V132-EXACT15"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "m944-m940-source-13",
+      "file": "src/domain/bazi-mainchain/project-v132/rules/CC-BY-SA-4.0.txt",
+      "readerClass": "source-only-license",
+      "compileScope": "source-only",
+      "storeRequiredSourceRole": false,
+      "versions": [
+        {
+          "version": "m940-reviewed-project-v132/1",
+          "pin": {
+            "sha256": "23ee78c8bae49cf08ea2f0c84945c66b987ebe4520881fb51b3dad4fb43d07c2",
+            "bytes": 20137
+          },
+          "sourceCommit": "d46ebc65b738e6b76e9495875534b3f50dd47659",
+          "reviewIds": [
+            "M940-PROJECT-V132-EXACT15"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "m944-m940-source-14",
+      "file": "src/domain/bazi-mainchain/project-v132/rules/lunar-typescript-LICENSE.txt",
+      "readerClass": "source-only-license",
+      "compileScope": "source-only",
+      "storeRequiredSourceRole": false,
+      "versions": [
+        {
+          "version": "m940-reviewed-project-v132/1",
+          "pin": {
+            "sha256": "097ec7989106eb9a27b6eff71dbaf1cd6bb04a9b35b6c94b54fff0829a041a8c",
+            "bytes": 1062
+          },
+          "sourceCommit": "d46ebc65b738e6b76e9495875534b3f50dd47659",
+          "reviewIds": [
+            "M940-PROJECT-V132-EXACT15"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "m944-m940-source-15",
+      "file": "src/domain/bazi-mainchain/project-v132/types-v13-consumers.ts",
+      "readerClass": "type-contract",
+      "compileScope": "type-only",
+      "storeRequiredSourceRole": false,
+      "versions": [
+        {
+          "version": "m940-reviewed-project-v132/1",
+          "pin": {
+            "sha256": "9d2a81040f403e55886c8a12b35c1974ececd6f2eeac0ca547f9fe5933d8f96c",
+            "bytes": 2530
+          },
+          "sourceCommit": "d46ebc65b738e6b76e9495875534b3f50dd47659",
+          "reviewIds": [
+            "M940-PROJECT-V132-EXACT15"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "m964-domain-candidate2-naming-consumer-v1-ts",
+      "file": "src/domain/candidate2-naming-consumer-v1.ts",
+      "readerClass": "pure-rule-or-rule-data",
+      "compileScope": "main-service-bundle",
+      "storeRequiredSourceRole": false,
+      "versions": [
+        {
+          "version": "m957-reviewed-consumer/1",
+          "pin": {
+            "sha256": "ab0cdf1e41189f61684b87faebf319761e15f6cc038492d8a81d5863de767a91",
+            "bytes": 1173
+          },
+          "sourceCommit": "f8e272b1b0d077019ca2d267709378df17e405d9",
+          "reviewIds": [
+            "M957-CONSUMER-EXACT8"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "m964-shared-candidate2-naming-consumer-v1-ts",
+      "file": "src/shared/candidate2-naming-consumer-v1.ts",
+      "readerClass": "pure-rule-or-rule-data",
+      "compileScope": "main-service-bundle",
+      "storeRequiredSourceRole": false,
+      "versions": [
+        {
+          "version": "m957-reviewed-consumer/1",
+          "pin": {
+            "sha256": "5f56f306bb45e47e0c9d0186f477a216878790d741a1b8677deeb8c2ee1d948b",
+            "bytes": 2730
+          },
+          "sourceCommit": "f8e272b1b0d077019ca2d267709378df17e405d9",
+          "reviewIds": [
+            "M957-CONSUMER-EXACT8"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "m964-main-candidate2-naming-consumer-v1-ts",
+      "file": "src/main/candidate2-naming-consumer-v1.ts",
+      "readerClass": "service-fixed-source-reader",
+      "compileScope": "main-service-bundle",
+      "storeRequiredSourceRole": false,
+      "versions": [
+        {
+          "version": "m957-reviewed-consumer/1",
+          "pin": {
+            "sha256": "022f821df5ccff91d06b699002055ed1cb8e256adc045f45b8610365a8e82966",
+            "bytes": 15408
+          },
+          "sourceCommit": "f8e272b1b0d077019ca2d267709378df17e405d9",
+          "reviewIds": [
+            "M957-CONSUMER-EXACT8"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "m964-main-candidate2-naming-data-v1-ts",
+      "file": "src/main/candidate2-naming-data-v1.ts",
+      "readerClass": "service-fixed-source-reader",
+      "compileScope": "main-service-bundle",
+      "storeRequiredSourceRole": false,
+      "versions": [
+        {
+          "version": "m957-reviewed-consumer/1",
+          "pin": {
+            "sha256": "1d877f3a08609906e8836f4c73af6f670a6757f7296978c1f54d021dd46e8dc2",
+            "bytes": 5634
+          },
+          "sourceCommit": "f8e272b1b0d077019ca2d267709378df17e405d9",
+          "reviewIds": [
+            "M957-CONSUMER-EXACT8"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "m964-main-candidate2-naming-runtime-v1-ts",
+      "file": "src/main/candidate2-naming-runtime-v1.ts",
+      "readerClass": "service-fixed-source-reader",
+      "compileScope": "main-service-bundle",
+      "storeRequiredSourceRole": false,
+      "versions": [
+        {
+          "version": "m957-reviewed-consumer/1",
+          "pin": {
+            "sha256": "e3d0f649a3ecaa615a2950728d7f5fc4407562e82eeeefee9025389f05541b99",
+            "bytes": 1594
+          },
+          "sourceCommit": "f8e272b1b0d077019ca2d267709378df17e405d9",
+          "reviewIds": [
+            "M957-CONSUMER-EXACT8"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "m964-main-project-application-v132-r2-json-ts",
+      "file": "src/main/project-application-v132-r2-json.ts",
+      "readerClass": "pure-rule-or-rule-data",
+      "compileScope": "main-service-bundle",
+      "storeRequiredSourceRole": false,
+      "versions": [
+        {
+          "version": "m957-reviewed-consumer/1",
+          "pin": {
+            "sha256": "0df7cb5f70ed9ed648ef3c2f5d95b22b3dfd5994d039876f53cecc4893d07f29",
+            "bytes": 3085
+          },
+          "sourceCommit": "f8e272b1b0d077019ca2d267709378df17e405d9",
+          "reviewIds": [
+            "M957-CONSUMER-EXACT8"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "m964-main-candidate2-naming-eligibility-response-v1-ts",
+      "file": "src/main/candidate2-naming-eligibility-response-v1.ts",
+      "readerClass": "pure-rule-or-rule-data",
+      "compileScope": "main-service-bundle",
+      "storeRequiredSourceRole": false,
+      "versions": [
+        {
+          "version": "m957-reviewed-consumer/1",
+          "pin": {
+            "sha256": "1dfde15f030ca7ef1f0f43dc90bdb560286e5526e6f5be0e50ac5417f2ccbae9",
+            "bytes": 5846
+          },
+          "sourceCommit": "f8e272b1b0d077019ca2d267709378df17e405d9",
+          "reviewIds": [
+            "M957-CONSUMER-EXACT8"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "m964-shared-candidate2-naming-eligibility-v1-ts",
+      "file": "src/shared/candidate2-naming-eligibility-v1.ts",
+      "readerClass": "pure-rule-or-rule-data",
+      "compileScope": "main-service-bundle",
+      "storeRequiredSourceRole": false,
+      "versions": [
+        {
+          "version": "m957-reviewed-consumer/1",
+          "pin": {
+            "sha256": "a63f1d5994623afdd280bdca21a24219a5d9d8f496e6110353c2727a807de15f",
+            "bytes": 2192
+          },
+          "sourceCommit": "f8e272b1b0d077019ca2d267709378df17e405d9",
+          "reviewIds": [
+            "M957-CONSUMER-EXACT8"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "m980-domain-m754-element-imagery-generation-ts",
+      "file": "src/domain/m754-element-imagery-generation.ts",
+      "readerClass": "pure-rule-or-rule-data",
+      "compileScope": "main-service-bundle",
+      "storeRequiredSourceRole": false,
+      "versions": [
+        {
+          "version": "m975-reviewed-imagery/1",
+          "pin": {
+            "sha256": "8870d6a590750a875afba96e34554a9e0bad5931748d1fbb3a19d753bb149ccc",
+            "bytes": 928
+          },
+          "sourceCommit": "51d991fb965a9d4441ade64c7e58d2bb558871ef",
+          "reviewIds": [
+            "M975-M754-GROUP"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "m980-main-m754-element-imagery-generation-ts",
+      "file": "src/main/m754-element-imagery-generation.ts",
+      "readerClass": "service-fixed-source-reader",
+      "compileScope": "main-service-bundle",
+      "storeRequiredSourceRole": false,
+      "versions": [
+        {
+          "version": "m975-reviewed-imagery/1",
+          "pin": {
+            "sha256": "02f3e9527c0885e81206815e61e1d47db64ccb7868c484246f65ac614a1ca131",
+            "bytes": 1054
+          },
+          "sourceCommit": "51d991fb965a9d4441ade64c7e58d2bb558871ef",
+          "reviewIds": [
+            "M975-M754-GROUP"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "m980-main-m754-element-imagery-ts",
+      "file": "src/main/m754-element-imagery.ts",
+      "readerClass": "service-fixed-source-reader",
+      "compileScope": "main-service-bundle",
+      "storeRequiredSourceRole": false,
+      "versions": [
+        {
+          "version": "m975-reviewed-imagery/1",
+          "pin": {
+            "sha256": "415e5a5248bbefaab735f5e954fcb72074bd263da5dea51718c12d4604af7d95",
+            "bytes": 12672
+          },
+          "sourceCommit": "51d991fb965a9d4441ade64c7e58d2bb558871ef",
+          "reviewIds": [
+            "M975-M754-GROUP"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "m980-shared-m754-element-imagery-ts",
+      "file": "src/shared/m754-element-imagery.ts",
+      "readerClass": "type-contract",
+      "compileScope": "type-only",
+      "storeRequiredSourceRole": false,
+      "versions": [
+        {
+          "version": "m975-reviewed-imagery/1",
+          "pin": {
+            "sha256": "f82db121e5c762aa70c2dda1d13ff8af3be5ff1da0785035b4661d89790f11d2",
+            "bytes": 2288
+          },
+          "sourceCommit": "51d991fb965a9d4441ade64c7e58d2bb558871ef",
+          "reviewIds": [
+            "M975-M754-GROUP"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "m980-shared-m754-element-imagery-pins-ts",
+      "file": "src/shared/m754-element-imagery-pins.ts",
+      "readerClass": "pure-rule-or-rule-data",
+      "compileScope": "main-service-bundle",
+      "storeRequiredSourceRole": false,
+      "versions": [
+        {
+          "version": "m975-reviewed-imagery/1",
+          "pin": {
+            "sha256": "a822962900f645f678a2abbc9f61aaa0f21114c1bfab9516590962e7eaf51993",
+            "bytes": 408
+          },
+          "sourceCommit": "51d991fb965a9d4441ade64c7e58d2bb558871ef",
+          "reviewIds": [
+            "M975-M754-GROUP"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "m980-main-m779-admitted-element-imagery-ts",
+      "file": "src/main/m779-admitted-element-imagery.ts",
+      "readerClass": "service-fixed-source-reader",
+      "compileScope": "main-service-bundle",
+      "storeRequiredSourceRole": false,
+      "versions": [
+        {
+          "version": "m975-reviewed-imagery/1",
+          "pin": {
+            "sha256": "7bfe28a05287880400bdfe1cc6f56b8540e356760ac9100a653f74f08667104b",
+            "bytes": 15216
+          },
+          "sourceCommit": "51d991fb965a9d4441ade64c7e58d2bb558871ef",
+          "reviewIds": [
+            "M975-M754-GROUP"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "m980-shared-m779-admitted-element-imagery-ts",
+      "file": "src/shared/m779-admitted-element-imagery.ts",
+      "readerClass": "type-contract",
+      "compileScope": "type-only",
+      "storeRequiredSourceRole": false,
+      "versions": [
+        {
+          "version": "m975-reviewed-imagery/1",
+          "pin": {
+            "sha256": "3d4f73839ed7cde3ddb6266cd8c957883cd5ef0ff7e93dee38786af33cd8751d",
+            "bytes": 2371
+          },
+          "sourceCommit": "51d991fb965a9d4441ade64c7e58d2bb558871ef",
+          "reviewIds": [
+            "M975-M754-GROUP"
+          ]
+        }
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "role": "b04-full-word-context-resource",
+      "file": "data/meaning-context-m460-b04-NOTICE.md",
+      "group": "b04-full-word-context-candidate",
+      "readerFiles": [
+        "src/domain/meaning-context-m460-b04-adapter.mjs",
+        "scripts/meaning-context-m460-b04-candidate.mjs",
+        "scripts/meaning-context-m460-b04-pins.mjs"
+      ],
+      "versions": [
+        {
+          "version": "source-current/1",
+          "pin": {
+            "sha256": "a3135440873af944e970d18eca23adec6c71ccd83d0883dfa131a69ec731ccb5",
+            "bytes": 846
+          },
+          "sourceCommit": "2a4d4f887e7ffd5a0c293c34c44f2806c35cb627",
+          "reviewIds": [
+            "M499",
+            "M598-root"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "b04-full-word-context-resource",
+      "file": "data/meaning-context-m460-b04-manifest.json",
+      "group": "b04-full-word-context-candidate",
+      "readerFiles": [
+        "src/domain/meaning-context-m460-b04-adapter.mjs",
+        "scripts/meaning-context-m460-b04-candidate.mjs",
+        "scripts/meaning-context-m460-b04-pins.mjs"
+      ],
+      "versions": [
+        {
+          "version": "source-current/1",
+          "pin": {
+            "sha256": "1ea9c100f8dc07a774ce10fdc8155b79caced819ceea8039c8b3275cfc1b9d2d",
+            "bytes": 3494
+          },
+          "sourceCommit": "2a4d4f887e7ffd5a0c293c34c44f2806c35cb627",
+          "reviewIds": [
+            "M499",
+            "M598-root"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "b04-full-word-context-resource",
+      "file": "data/meaning-context-m460-b04-source-lock.json",
+      "group": "b04-full-word-context-candidate",
+      "readerFiles": [
+        "src/domain/meaning-context-m460-b04-adapter.mjs",
+        "scripts/meaning-context-m460-b04-candidate.mjs",
+        "scripts/meaning-context-m460-b04-pins.mjs"
+      ],
+      "versions": [
+        {
+          "version": "source-current/1",
+          "pin": {
+            "sha256": "a184441ade3958e87e726ca57108e3b3a1f3292d8f9ce8bcdca9e2100b1b9931",
+            "bytes": 3557
+          },
+          "sourceCommit": "2a4d4f887e7ffd5a0c293c34c44f2806c35cb627",
+          "reviewIds": [
+            "M499",
+            "M598-root"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "b04-full-word-context-resource",
+      "file": "data/meaning-context-m460-b04.json",
+      "group": "b04-full-word-context-candidate",
+      "readerFiles": [
+        "src/domain/meaning-context-m460-b04-adapter.mjs",
+        "scripts/meaning-context-m460-b04-candidate.mjs",
+        "scripts/meaning-context-m460-b04-pins.mjs"
+      ],
+      "versions": [
+        {
+          "version": "source-current/1",
+          "pin": {
+            "sha256": "ecc4ca0edbe1a0a1b1f5e3f67ad0caef9bf1daa197e781f55484b33ebfc8ce82",
+            "bytes": 188891
+          },
+          "sourceCommit": "2a4d4f887e7ffd5a0c293c34c44f2806c35cb627",
+          "reviewIds": [
+            "M499",
+            "M598-root"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "qiongtong-literal-clause-conditions",
+      "file": "data/qiongtong-clause-conditions-v1.json",
+      "group": "qiongtong-three-clause-reference",
+      "readerFiles": [
+        "src/main/qiongtong-clause-reference-preview.ts"
+      ],
+      "versions": [
+        {
+          "version": "source-current/1",
+          "pin": {
+            "sha256": "9df67435c2b63126d6bae24bcbb1d156ad4e362e07ecafbfd2bb430050fb8b41",
+            "bytes": 5499
+          },
+          "sourceCommit": "ff89498d968bcb7e9f51eca46ae8bac14afec586",
+          "reviewIds": [
+            "M573",
+            "M568"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "b04-full-word-context-resource",
+      "file": "data/raw/meaning-context-m460-b04-exclusions.json",
+      "group": "b04-full-word-context-candidate",
+      "readerFiles": [
+        "src/domain/meaning-context-m460-b04-adapter.mjs",
+        "scripts/meaning-context-m460-b04-candidate.mjs",
+        "scripts/meaning-context-m460-b04-pins.mjs"
+      ],
+      "versions": [
+        {
+          "version": "source-current/1",
+          "pin": {
+            "sha256": "0bb97a21865dfb65d898ffebff917793d8a55b7e04c022e00460c60a0407fa2c",
+            "bytes": 2133
+          },
+          "sourceCommit": "2a4d4f887e7ffd5a0c293c34c44f2806c35cb627",
+          "reviewIds": [
+            "M499",
+            "M598-root"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "b04-full-word-context-resource",
+      "file": "data/raw/meaning-context-m460-b04-glyphs.json",
+      "group": "b04-full-word-context-candidate",
+      "readerFiles": [
+        "src/domain/meaning-context-m460-b04-adapter.mjs",
+        "scripts/meaning-context-m460-b04-candidate.mjs",
+        "scripts/meaning-context-m460-b04-pins.mjs"
+      ],
+      "versions": [
+        {
+          "version": "source-current/1",
+          "pin": {
+            "sha256": "53fec93e8fc5a8c3770a51bd60fa0a0178723d529383110384afee8b5d699d36",
+            "bytes": 15134
+          },
+          "sourceCommit": "2a4d4f887e7ffd5a0c293c34c44f2806c35cb627",
+          "reviewIds": [
+            "M499",
+            "M598-root"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "b04-full-word-context-resource",
+      "file": "data/raw/meaning-context-m460-b04-originals.json",
+      "group": "b04-full-word-context-candidate",
+      "readerFiles": [
+        "src/domain/meaning-context-m460-b04-adapter.mjs",
+        "scripts/meaning-context-m460-b04-candidate.mjs",
+        "scripts/meaning-context-m460-b04-pins.mjs"
+      ],
+      "versions": [
+        {
+          "version": "source-current/1",
+          "pin": {
+            "sha256": "56fe16226922dca702417db2713ba09c939c8b100ce1f855cd73b6619dd6e188",
+            "bytes": 112377
+          },
+          "sourceCommit": "2a4d4f887e7ffd5a0c293c34c44f2806c35cb627",
+          "reviewIds": [
+            "M499",
+            "M598-root"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "b04-full-word-context-resource",
+      "file": "data/raw/meaning-context-m460-b04-review.json",
+      "group": "b04-full-word-context-candidate",
+      "readerFiles": [
+        "src/domain/meaning-context-m460-b04-adapter.mjs",
+        "scripts/meaning-context-m460-b04-candidate.mjs",
+        "scripts/meaning-context-m460-b04-pins.mjs"
+      ],
+      "versions": [
+        {
+          "version": "source-current/1",
+          "pin": {
+            "sha256": "7b1a513a517bf41c43db05ad0245db3c31656e0495687c29620f790cb9b89ece",
+            "bytes": 12139
+          },
+          "sourceCommit": "2a4d4f887e7ffd5a0c293c34c44f2806c35cb627",
+          "reviewIds": [
+            "M499",
+            "M598-root"
+          ]
+        }
+      ]
+    }
+  ],
+  "readerCompanions": [
+    {
+      "role": "b04-existing-candidate-reader-companion",
+      "file": "scripts/meaning-context-m460-b04-candidate.mjs",
+      "readerClass": "service-fixed-source-reader",
+      "versions": [
+        {
+          "version": "source-current/1",
+          "pin": {
+            "sha256": "9f60681d54492d78d1e8f91bf65bd5212a79cb7e8af56078e89381608ec82af6",
+            "bytes": 13211
+          },
+          "sourceCommit": "2a4d4f887e7ffd5a0c293c34c44f2806c35cb627",
+          "reviewIds": [
+            "M499"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "b04-existing-candidate-reader-companion",
+      "file": "scripts/meaning-context-m460-b04-candidate.d.mts",
+      "readerClass": "type-contract",
+      "versions": [
+        {
+          "version": "source-current/1",
+          "pin": {
+            "sha256": "c0976e5105e712b794802c5129efa3a4e021db736b4d7105dfa1e81580d44b5f",
+            "bytes": 1019
+          },
+          "sourceCommit": "2a4d4f887e7ffd5a0c293c34c44f2806c35cb627",
+          "reviewIds": [
+            "M499"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "b04-existing-candidate-reader-companion",
+      "file": "scripts/meaning-context-m460-b04-pins.mjs",
+      "readerClass": "service-fixed-source-reader",
+      "versions": [
+        {
+          "version": "source-current/1",
+          "pin": {
+            "sha256": "a1ef5ea9b29f35771bde12c8eaf7ad15116b9f8df6042c69bd2a4229b1bf06fa",
+            "bytes": 41631
+          },
+          "sourceCommit": "2a4d4f887e7ffd5a0c293c34c44f2806c35cb627",
+          "reviewIds": [
+            "M499"
+          ]
+        }
+      ]
+    }
+  ],
+  "packageProjection": {
+    "legacySourceCommit": "b0945c61e9e93dbfd6ffb66774e0ae2f0e15d82c",
+    "legacyBuildFiles": [
+      "dist/**/*",
+      "dist-electron/**/*",
+      "assets/**/*",
+      "data/knowledge.sqlite",
+      "data/dataset.json",
+      "data/character-review.json",
+      "data/source-lock.json",
+      "data/build-verification.json",
+      "data/reproducibility-verification.json",
+      "data/naming-characters.txt",
+      "data/naming-editorial.json",
+      "data/parent-name-phonetics-method-v1.json",
+      "data/modern-method-references.json",
+      "data/numerology-strokes.json",
+      "data/numerology-rules.json",
+      "data/numerology-source-lock.json",
+      "data/numerology-rules-lock.json",
+      "data/qimen-markers-source-lock.json",
+      "data/qimen-patterns-source-lock.json",
+      "data/bazi-evidence-source-lock.json",
+      "data/bazi-evidence-project-profile.json",
+      "data/raw/bazi-evidence-lunar-LunarUtil.ts",
+      "data/raw/bazi-evidence-lunar-Lunar.ts",
+      "data/raw/bazi-evidence-go-ganzhi.go",
+      "data/month-authority-table.json",
+      "data/month-authority-source-lock.json",
+      "data/raw/month-authority-sanming-SOURCE_MANIFEST.json",
+      "data/monthly-seasonal-table.json",
+      "data/monthly-seasonal-editorial.json",
+      "data/monthly-seasonal-source-lock.json",
+      "data/raw/monthly-seasonal-qiongtong-excerpts.json",
+      "data/raw/monthly-seasonal-qiongtong-source.json",
+      "data/raw/*LICENSE*",
+      "data/raw/*.md",
+      "data/raw/CC*.txt",
+      "data/raw/CC*.html",
+      "data/raw/numerology-rules-*/LICENSE",
+      "docs/**/*",
+      "package.json",
+      "node_modules/sql.js/dist/sql-wasm.wasm",
+      "data/qimen-stem-tombs-table.json",
+      "data/qimen-stem-tombs-source-lock.json",
+      "data/raw/qimen-stem-tombs-go-defs.go",
+      "data/raw/qimen-stem-tombs-go-ganzhi.go",
+      "data/monthly-seasonal-conditions.json",
+      "data/seasonal-condition-source-lock.json",
+      "data/raw/seasonal-condition-qiongtong-excerpts.json",
+      "data/cong-wealth-rules.json",
+      "data/cong-wealth-source-lock.json",
+      "data/raw/cong-wealth-qiongtong-excerpts.json",
+      "data/cong-sha-rules.json",
+      "data/cong-sha-source-lock.json",
+      "data/raw/cong-sha-qiongtong-excerpts.json",
+      "data/solar-time-source-lock.json",
+      "data/raw/solar-time-independent-reference.json",
+      "data/raw/solar-time-noaa-excerpts.json",
+      "data/following-restrictions-rules.json",
+      "data/following-restrictions-source-lock.json",
+      "data/raw/following-restrictions-qiongtong-excerpts.json",
+      "data/ditian-ren-table.json",
+      "data/ditian-ren-source-lock.json",
+      "data/raw/ditian-ren-excerpts.json",
+      "data/raw/ditian-ren-scan-collation.json",
+      "data/ren-necessary-rules.json",
+      "data/ren-necessary-source-lock.json",
+      "data/raw/ren-necessary-excerpts.json",
+      "data/numerology-history/**/*",
+      "data/name-imagery-profile.json",
+      "data/name-imagery-source-lock.json",
+      "data/raw/name-imagery-*",
+      "data/yue-reading-table.json",
+      "data/yue-reading-source-lock.json",
+      "data/raw/yue-reading-*",
+      "data/raw/kTraditionalVariant.txt",
+      "data/raw/kSimplifiedVariant.txt",
+      "data/raw/unicode-LICENSE",
+      "data/raw/kMandarin.txt",
+      "data/raw/kTotalStrokes.txt",
+      "data/raw/kRSUnicode.txt",
+      "data/raw/CJKRadicals.txt",
+      "data/raw/qimen-patterns-arc-constants.js",
+      "data/ren-actions-rules.json",
+      "data/ren-actions-source-lock.json",
+      "data/raw/ren-actions-*",
+      "data/yue-homophone-rules.json",
+      "data/yue-homophone-source-lock.json",
+      "data/raw/yue-homophone-*",
+      "data/ren-capacities-rules.json",
+      "data/ren-capacities-source-lock.json",
+      "data/raw/ren-capacities-excerpts.json",
+      "data/yue-homophone-rules-v1-1.json",
+      "data/yue-homophone-expanded-source-lock.json",
+      "data/raw/yue-homophone-wiktionary-excerpts-v1-1.json",
+      "data/raw/yue-homophone-rime-excerpts-v1-1.json",
+      "data/ren-directions-rules.json",
+      "data/ren-directions-source-lock.json",
+      "data/raw/ren-directions-excerpts.json",
+      "data/classics-catalog.json",
+      "data/classics-source-lock.json",
+      "data/classics/**/*",
+      "data/raw/classics-*.wiki",
+      "data/naming-editorial-v4.json",
+      "data/naming-editorial-v4-baseline.json",
+      "data/naming-editorial-v4-NOTICE.md",
+      "data/naming-editorial-readings-source-lock.json",
+      "data/naming-editorial-v5.json",
+      "data/naming-editorial-names-v5-source-lock.json",
+      "data/dataset-v5.json",
+      "data/knowledge-v5.sqlite",
+      "data/naming-editorial-v5-NOTICE.md",
+      "data/raw/naming-editorial-v5-name-review.json",
+      "data/raw/naming-editorial-v5-character-overrides.json",
+      "data/raw/moe-revised.json.gz",
+      "data/raw/shijing.json",
+      "data/raw/zhouyi.tar.gz",
+      "data/ren-joint-battle-rules.json",
+      "data/ren-joint-battle-source-lock.json",
+      "data/raw/ren-joint-battle-excerpts.json",
+      "data/naming-editorial-v6.json",
+      "data/naming-editorial-dictionary-v6-source-lock.json",
+      "data/dataset-v6.json",
+      "data/knowledge-v6.sqlite",
+      "data/naming-editorial-v6-NOTICE.md",
+      "data/raw/naming-editorial-v6-character-overrides.json",
+      "data/raw/naming-editorial-v6-semantic-review.json",
+      "data/official-name-popularity.json",
+      "data/official-name-popularity-source-lock.json",
+      "data/official-name-popularity-NOTICE.md",
+      "data/raw/qimen-markers-arc-constants.js",
+      "data/raw/qimen-patterns-arc-calculations.js",
+      "data/raw/qimen-patterns-arc-patterns.js",
+      "data/raw/qimen-patterns-arc-test.js",
+      "data/raw/qimen-patterns-arc-utils.js",
+      "data/naming-editorial-meanings-v7-source-lock.json",
+      "data/naming-editorial-v7-NOTICE.md",
+      "data/naming-editorial-v7.json",
+      "data/raw/naming-citations-v7-errata-r2.json",
+      "data/raw/naming-citations-v7-review.json",
+      "data/raw/naming-meanings-v7-errata-r1.json",
+      "data/raw/naming-meanings-v7-review.json",
+      "!README.md",
+      "!docs/CURRENT-STATUS.md",
+      "data/name-phonetic/**/*",
+      "data/element-object/**/*",
+      "data/meaning-context-next-NOTICE.md",
+      "data/meaning-context-next-manifest.json",
+      "data/meaning-context-next-source-lock.json",
+      "data/meaning-context-next.json",
+      "data/meaning-gap-classification.json",
+      "data/raw/meaning-context-batch1-review.json",
+      "data/raw/meaning-context-gap-policy.json",
+      "data/name-word-pronunciation/**/*",
+      "data/meaning-context-v1-1-manifest.json",
+      "data/meaning-context-v1-1-NOTICE.md",
+      "data/meaning-context-v1-1-source-lock.json",
+      "data/meaning-context-v1-1.json",
+      "data/meaning-gap-classification-v1-1.json",
+      "data/raw/meaning-context-batch2-review.json",
+      "data/naming-character-meanings-v7.1-NOTICE.md",
+      "data/naming-character-meanings-v7.1-admission.json",
+      "data/naming-character-meanings-v7.1-manifest.json",
+      "data/naming-character-meanings-v7.1-profile.json",
+      "data/naming-character-meanings-v7.1-source-lock.json",
+      "data/raw/naming-character-meanings-v7.1-subset.json",
+      "data/naming-character-meanings-v71-m460-b02-*",
+      "data/raw/naming-character-meanings-v71-m460-b02-subset.json",
+      "data/m460-lexical/**/*",
+      "data/naming-character-meanings-v71-m460-b02-root-decision.json"
+    ],
+    "explicitAppends": [
+      "data/qiongtong-clause-conditions-v1.json",
+      "data/meaning-context-m460-b04-NOTICE.md",
+      "data/meaning-context-m460-b04-manifest.json",
+      "data/meaning-context-m460-b04-source-lock.json",
+      "data/meaning-context-m460-b04.json",
+      "data/raw/meaning-context-m460-b04-exclusions.json",
+      "data/raw/meaning-context-m460-b04-glyphs.json",
+      "data/raw/meaning-context-m460-b04-originals.json",
+      "data/raw/meaning-context-m460-b04-review.json",
+      "scripts/meaning-context-m460-b04-candidate.mjs",
+      "scripts/meaning-context-m460-b04-candidate.d.mts",
+      "scripts/meaning-context-m460-b04-pins.mjs"
+    ]
+  },
+  "readerTransitions": [
+    {
+      "file": "src/main/m393-meaning-candidate.mjs",
+      "scope": "reuse-fixed-M541-M518-exact-source-only-transition",
+      "versions": [
+        {
+          "version": "original-publication-reader",
+          "pin": {
+            "sha256": "cde83055510c06c30a8599146779c6d783285a6887e52cd3c6220b964a784e3b",
+            "bytes": 18414
+          },
+          "reviewIds": [
+            "M518",
+            "M541"
+          ]
+        },
+        {
+          "version": "reviewed-private-byte-parse-cache",
+          "pin": {
+            "sha256": "0e23b3e6c744446a07ebb7d96a19bc03da190859c9b1188260fa1833818948a7",
+            "bytes": 19458
+          },
+          "reviewIds": [
+            "M518",
+            "M541"
+          ]
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Fixed byte compatibility and bounded review references only; not independent admission of this new profile.",
+    "Original137 contract and publication baseline remain unchanged.",
+    "New unlisted source paths, new package appends, unknown versions and future M592/M601/M607/data revisions must fail closed until separately reviewed.",
+    "M929 registers only the exact M925 seven-file postimages and preserves five old versions. Every other source/package gap and the original outer/inner admission seals remain unresolved.",
+    "M944 adds only15exact M940 reviewed project-v132 roles;source-only companions are not runtime execution. All other groups/package/outer admission remain separate.",
+    "M964 adds only8 M957 independently read source identities; shared contracts include runtime version/selection constants and are not mislabeled type-only. No external context, CJS/core identity, Store or sourcebuild authority is granted.",
+    "M980 adds only7exact M975-source-reviewed imagery identities. Two sharedcontracts are type-only; three pins are runtime consts. Explicitoptin projection can affect existing filtering/traditional score inputs;no newweights/globaldefault/coverage increment or externalcallerreview granted."
+  ]
+}

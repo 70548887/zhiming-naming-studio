@@ -1,0 +1,1130 @@
+{
+  "schema": "m1051-qimen-cultural-exact15-source-review/1",
+  "reviewId": "M1051-QIMEN-CULTURAL-EXACT15",
+  "createdUtc": "2026-10-27T06:49:35.180Z",
+  "result": "accepted-with-trusted-internal-source-scope",
+  "verdict": "PASS_BOUNDED_EXACT15_QIMEN_CULTURAL_SOURCE_REVIEW",
+  "sourceCommit": "1e2d737f9c03c28184e8ec89ad2755a0f22ba8d4",
+  "currentCheckedCommit": "ad7e0b2f02992d0837c6a6ab0ea24c7816afd828",
+  "currentPostimagesByteIdentical": true,
+  "newP1": 0,
+  "newP2": 0,
+  "findings": [],
+  "scope": {
+    "total": 15,
+    "pureRuleFiles": 10,
+    "fixedSourceReaders": 5,
+    "typeOnlyFiles": 0,
+    "sharedRuntimeFiles": 4,
+    "sharedRuntimeExports": 10,
+    "compileScope": "main-service-bundle",
+    "all15SourceFilesActuallyReadByPrimary": true,
+    "excludedContextCount": 2,
+    "externalDependenciesApproved": false
+  },
+  "rows": [
+    {
+      "file": "src/domain/qimen-cultural-comparison-canonical.ts",
+      "bytes": 3904,
+      "sha256": "e77d8412572153599efd7f8cfaf005e73c61ec70daf604eb3a8c03b976a4e196",
+      "gitBlob": "a3debd53c4c341e8ffa6de634976756c777efd46",
+      "sourceCommit": "1e2d737f9c03c28184e8ec89ad2755a0f22ba8d4",
+      "currentCheckedCommit": "ad7e0b2f02992d0837c6a6ab0ea24c7816afd828",
+      "currentByteIdentical": true,
+      "reviewId": "M1051-QIMEN-CULTURAL-EXACT15",
+      "judgment": "accepted-for-bounded-trusted-internal-source-registration",
+      "role": "qimen-cultural-canonical-data",
+      "readerClass": "pure-rule-or-rule-data",
+      "compileScope": "main-service-bundle",
+      "storeRequiredSourceRole": false,
+      "verified": [
+        "输入捕获先检查Proxy，再检查prototype/descriptor；拒绝accessor、稀疏/隐藏/symbol字段、循环、负零及非有限数字，有depth/node/text/array固定预算并返回深冻普通数据。",
+        "canonical直接输出排序键token，数组顺序保留；legacy JSON.stringify与新canonical chart摘要算法明确分开，不静默重写旧摘要。",
+        "仅确定性数据复制/摘要，无文件、时钟、随机、来源准入或保存动作。"
+      ],
+      "limits": [
+        "只验证数据结构与摘要一致性，不认证调用者提供的来源/规则/盘。",
+        "运行在可信Node环境，预算是JSON结构限制，不等于全流程资源/大对象压力验收；旧M854边界测试没有重跑。"
+      ],
+      "anchors": [
+        {
+          "line": 11,
+          "needle": "export function ownCulturalJson"
+        },
+        {
+          "line": 53,
+          "needle": "export function culturalCanonicalJson"
+        },
+        {
+          "line": 55,
+          "needle": "export function culturalChartDigest"
+        }
+      ],
+      "priorExactReference": {
+        "file": "src/domain/qimen-cultural-comparison-canonical.ts",
+        "evidence": "prior-evidence/m854-cultural-comparison-audit-REVIEW.json",
+        "evidenceSha256": "18e4dceb7218ba2cba402da4a6e9b3bb484e5c52f1c56ff2c3b8f8ad806000b9",
+        "pointer": "/candidate/files/3",
+        "reuseOnly": "Independent exact4 pure comparator/canonical/runtime DTO/rules scope; trusted-main prepared inputs required. No source admission, persistence, UI/PDF, traditional rules or release."
+      }
+    },
+    {
+      "file": "src/domain/qimen-cultural-comparison.ts",
+      "bytes": 16190,
+      "sha256": "2f368913ce28ee4867b09dcc01a399cb00f67d0dcc0cf9fcd2aeee9b9dd643c1",
+      "gitBlob": "e011846e5b2a30ef63fa31d923f5697e446e1c02",
+      "sourceCommit": "1e2d737f9c03c28184e8ec89ad2755a0f22ba8d4",
+      "currentCheckedCommit": "ad7e0b2f02992d0837c6a6ab0ea24c7816afd828",
+      "currentByteIdentical": true,
+      "reviewId": "M1051-QIMEN-CULTURAL-EXACT15",
+      "judgment": "accepted-for-bounded-trusted-internal-source-registration",
+      "role": "qimen-cultural-comparison-domain",
+      "readerClass": "pure-rule-or-rule-data",
+      "compileScope": "main-service-bundle",
+      "storeRequiredSourceRole": false,
+      "verified": [
+        "enabled=false在读取其他输入前返回；启用时先拥有整个输入，再验证精确字段、归属、策略、chart摘要、字位和来源引用结构。",
+        "按固定五行到全部外宫投影，集合交/差/独有仅在完整条件下给出；unknown chart仅静态已知集，partial不以空交集证明无共同宫位。",
+        "source-error拒绝为source-unavailable，不因reading-required而降为未知；whole-chart观察与宫位观察分离，不搬中宫或改天盘寄干原文。",
+        "排序保留input-order，score=null/filtering=false/scoreMutation=false，traditional not-admitted/namePalaceMethod not-established/nameEffect not-evaluated/fourHarmRemoval not-performed。"
+      ],
+      "limits": [
+        "Prepared DTO必须由可信主进程认证来源/读音/义项/准入后构造，本模块不授这些权限；结构上匹配的自造输入不等于来源真。",
+        "原盘观察的真实性与适用scope须由provider认证；比较ready不能提升为传统吉凶结论。"
+      ],
+      "anchors": [
+        {
+          "line": 34,
+          "needle": "function validateAnchor"
+        },
+        {
+          "line": 45,
+          "needle": "function validateViews"
+        },
+        {
+          "line": 70,
+          "needle": "function projectRow"
+        },
+        {
+          "line": 91,
+          "needle": "export function compareQimenCultural"
+        }
+      ],
+      "priorExactReference": {
+        "file": "src/domain/qimen-cultural-comparison.ts",
+        "evidence": "prior-evidence/m854-cultural-comparison-audit-REVIEW.json",
+        "evidenceSha256": "18e4dceb7218ba2cba402da4a6e9b3bb484e5c52f1c56ff2c3b8f8ad806000b9",
+        "pointer": "/candidate/files/2",
+        "reuseOnly": "Independent exact4 pure comparator/canonical/runtime DTO/rules scope; trusted-main prepared inputs required. No source admission, persistence, UI/PDF, traditional rules or release."
+      }
+    },
+    {
+      "file": "src/main/qimen-cultural-offline-birth-v1.ts",
+      "bytes": 6255,
+      "sha256": "a93fd21467648564af77dd364af7bdf6b5f797d0845a09d058e0523c7b626b0c",
+      "gitBlob": "1857453750a20272ac5d7b563b7ff9a72b432bd6",
+      "sourceCommit": "1e2d737f9c03c28184e8ec89ad2755a0f22ba8d4",
+      "currentCheckedCommit": "ad7e0b2f02992d0837c6a6ab0ea24c7816afd828",
+      "currentByteIdentical": true,
+      "reviewId": "M1051-QIMEN-CULTURAL-EXACT15",
+      "judgment": "accepted-for-bounded-trusted-internal-source-registration",
+      "role": "qimen-cultural-offline-birth-check",
+      "readerClass": "pure-rule-or-rule-data",
+      "compileScope": "main-service-bundle",
+      "storeRequiredSourceRole": false,
+      "verified": [
+        "只使用固定engine-v13重算出生相关基础体，Qimen1.4与none/Ren1.0至1.5对应Bazi版本逐项白名单，不由存档版本选择任意calculator。",
+        "profile模式仅检查profile/Qimen/timeBasis，不伪造不存在的savedBazi；session模式还比对实际原fullBazi版本、profile/session/来源快照链接。",
+        "未知出生时刻必须无可用盘及宫位；解析/版本/不等值均拒绝。"
+      ],
+      "limits": [
+        "engine-v13与历法/时制算法为独立外部依赖，本轮不新审其算法准确性；无全Ren/时区/太阳时矩阵运行。",
+        "不重新认证Ren commentary、全候选评分、来源字节或Store链接；来源和expectedOwner/snapshot由外围认证链负责。"
+      ],
+      "anchors": [
+        {
+          "line": 16,
+          "needle": "const BAZI_VERSION_BY_REN_METHOD"
+        },
+        {
+          "line": 37,
+          "needle": "export function verifyCulturalOfflineBirthV1"
+        }
+      ],
+      "priorExactReference": {
+        "file": "src/main/qimen-cultural-offline-birth-v1.ts",
+        "evidence": "prior-evidence/evidence-read-m918-final-review.json",
+        "evidenceSha256": "0686bcdec73b62d9986d62911c53fac7c450e397d0feec7aa297b90eb17659ac",
+        "pointer": "/finalSourcePins/9",
+        "reuseOnly": "Read-only port/source comparison with26exactpins; runtime/test outcomes pending at freeze and inherited audit limitations retained. No new whole-group/runtime source admission."
+      }
+    },
+    {
+      "file": "src/main/qimen-cultural-offline-input-v1.ts",
+      "bytes": 6158,
+      "sha256": "51f667f9b849aab9ce6e7f1088afff7db2ee14b40291ec6d4c150cdc9022a119",
+      "gitBlob": "ca5401501137356170662f96eb1e10393ba64a96",
+      "sourceCommit": "1e2d737f9c03c28184e8ec89ad2755a0f22ba8d4",
+      "currentCheckedCommit": "ad7e0b2f02992d0837c6a6ab0ea24c7816afd828",
+      "currentByteIdentical": true,
+      "reviewId": "M1051-QIMEN-CULTURAL-EXACT15",
+      "judgment": "accepted-for-bounded-trusted-internal-source-registration",
+      "role": "qimen-cultural-offline-input-capture",
+      "readerClass": "pure-rule-or-rule-data",
+      "compileScope": "main-service-bundle",
+      "storeRequiredSourceRole": false,
+      "verified": [
+        "根与blob条目必须为精确普通data descriptors；Proxy先拒，JSON对象深复制，原生Uint8Array/Buffer字节用captured native slots复制，不使用调用方迭代器。",
+        "200MiB总预算在每个逻辑view去重之前计费，128ref上限；blob id唯一、每一实际byteLength/SHA匹配material，额外/缺失blob分别拒绝。",
+        "material JSON字符串校验实际UTF8摘要并严格解析；返回持有字节与唯一hash集合供私有后继使用。"
+      ],
+      "limits": [
+        "返回的Uint8Array字节本身不是冻结不可变内存；只能作为已捕获同步内部流水线材料，不向不可信方发放可改引用。",
+        "该入口只捕获/核一致性，material完整schema及source ownership要后继重认证；不授真正来源和存储许可。"
+      ],
+      "anchors": [
+        {
+          "line": 23,
+          "needle": "function bytes"
+        },
+        {
+          "line": 31,
+          "needle": "export function ownCulturalOfflineInputV1"
+        }
+      ],
+      "priorExactReference": {
+        "file": "src/main/qimen-cultural-offline-input-v1.ts",
+        "evidence": "prior-evidence/evidence-read-m918-final-review.json",
+        "evidenceSha256": "0686bcdec73b62d9986d62911c53fac7c450e397d0feec7aa297b90eb17659ac",
+        "pointer": "/finalSourcePins/10",
+        "reuseOnly": "Read-only port/source comparison with26exactpins; runtime/test outcomes pending at freeze and inherited audit limitations retained. No new whole-group/runtime source admission."
+      }
+    },
+    {
+      "file": "src/main/qimen-cultural-offline-pack-v1.ts",
+      "bytes": 7638,
+      "sha256": "0a6dd0e81f903c0be1065e6df78558cb2652b0236be28bc09daad8deb1aee723",
+      "gitBlob": "f7ca9056b5d43d7437d299f44f9c97fda5bf202f",
+      "sourceCommit": "1e2d737f9c03c28184e8ec89ad2755a0f22ba8d4",
+      "currentCheckedCommit": "ad7e0b2f02992d0837c6a6ab0ea24c7816afd828",
+      "currentByteIdentical": true,
+      "reviewId": "M1051-QIMEN-CULTURAL-EXACT15",
+      "judgment": "accepted-for-bounded-trusted-internal-source-registration",
+      "role": "qimen-cultural-offline-pack-reader",
+      "readerClass": "service-fixed-source-reader",
+      "compileScope": "main-service-bundle",
+      "storeRequiredSourceRole": false,
+      "verified": [
+        "installed sql.js/WASM仅一次runtime准备，材料不提供代码或lookup回调。实际archive按digest-derived dataVersion与原sourceSnapshot绑定。",
+        "内存SQLite先审完整inert sqlite_master：精确5简单TEXT表+5指定nullSQL autoindex，随后table_xinfo/integrity_check及固定SELECT；拒trigger/view/virtual/表达式DEFAULT/CHECK等。",
+        "行数与logical JSON bytes有界，strict JSON和characters/readings/source membership核对；替代读音只可来自原archive合法非referenceOnly项，immutableglyph/source/elements/tags不可插入。"
+      ],
+      "limits": [
+        "此文件初始化SQL运行时并打开内存数据库，属于fixed-source-reader，不是type-only或无IO；本轮没有执行这些操作。",
+        "只认证该archive资料结构/绑定及字符约束，不是全词条语义、全候选评分、Store事务、持久化或任意SQLite文件安全证明；依赖已安装SQL实现。"
+      ],
+      "anchors": [
+        {
+          "line": 26,
+          "needle": "export async function prepareCulturalOfflinePackRuntimeV1"
+        },
+        {
+          "line": 43,
+          "needle": "export function authenticateCulturalOfflinePackV1"
+        },
+        {
+          "line": 81,
+          "needle": "export function bindCulturalOfflineCharacterV1"
+        }
+      ],
+      "priorExactReference": {
+        "file": "src/main/qimen-cultural-offline-pack-v1.ts",
+        "evidence": "prior-evidence/evidence-read-m918-final-review.json",
+        "evidenceSha256": "0686bcdec73b62d9986d62911c53fac7c450e397d0feec7aa297b90eb17659ac",
+        "pointer": "/finalSourcePins/11",
+        "reuseOnly": "Read-only port/source comparison with26exactpins; runtime/test outcomes pending at freeze and inherited audit limitations retained. No new whole-group/runtime source admission."
+      }
+    },
+    {
+      "file": "src/main/qimen-cultural-offline-projection-v1.ts",
+      "bytes": 15718,
+      "sha256": "240124120758d2863530df7c5e18fd617ee708248d8621c7f00ddeebb3319ace",
+      "gitBlob": "c9f32256221f4d88bf021451cadabdf6027300d2",
+      "sourceCommit": "1e2d737f9c03c28184e8ec89ad2755a0f22ba8d4",
+      "currentCheckedCommit": "ad7e0b2f02992d0837c6a6ab0ea24c7816afd828",
+      "currentByteIdentical": true,
+      "reviewId": "M1051-QIMEN-CULTURAL-EXACT15",
+      "judgment": "accepted-for-bounded-trusted-internal-source-registration",
+      "role": "qimen-cultural-offline-projection-check",
+      "readerClass": "pure-rule-or-rule-data",
+      "compileScope": "main-service-bundle",
+      "storeRequiredSourceRole": false,
+      "verified": [
+        "从已认证birth/source/pack重建anchor、label policy、每个candidate/position/reading/选项状态及材料JSON精确集合，不仅比对调用方派生摘要。",
+        "saved candidate必须等原session candidate并逐字绑定archive；draft限1–2汉字，另读音不能借baseline元素；10pending映射仍不消费，原条目不一致列disputed。",
+        "重导原盘palace/whole observations、coverage和rule-basis difference，逐项比较；显式选择按token/position作用域防重用，whole-chart不归名。"
+      ],
+      "limits": [
+        "依赖已认证普通owned材料；本函数不是公有任意对象入口。",
+        "opaque evidence id只能核固定选项语义，不能证明原provider签发或历史用户点击；手选读音不是传统姓名落宫授权。"
+      ],
+      "anchors": [
+        {
+          "line": 19,
+          "needle": "export function readCulturalOfflineJsonV1"
+        },
+        {
+          "line": 23,
+          "needle": "export function rederiveCulturalPreparedV1"
+        }
+      ],
+      "priorExactReference": {
+        "file": "src/main/qimen-cultural-offline-projection-v1.ts",
+        "evidence": "prior-evidence/evidence-read-m918-final-review.json",
+        "evidenceSha256": "0686bcdec73b62d9986d62911c53fac7c450e397d0feec7aa297b90eb17659ac",
+        "pointer": "/finalSourcePins/12",
+        "reuseOnly": "Read-only port/source comparison with26exactpins; runtime/test outcomes pending at freeze and inherited audit limitations retained. No new whole-group/runtime source admission."
+      }
+    },
+    {
+      "file": "src/main/qimen-cultural-offline-sources-v1.ts",
+      "bytes": 18223,
+      "sha256": "2248d7288680ff80960f15802f8ebcfb98a6cf7ec5e9aff24eeb186ad9c76dbb",
+      "gitBlob": "9cc8f8c53d40dfeeb274c117bc0bb98cd4606bc6",
+      "sourceCommit": "1e2d737f9c03c28184e8ec89ad2755a0f22ba8d4",
+      "currentCheckedCommit": "ad7e0b2f02992d0837c6a6ab0ea24c7816afd828",
+      "currentByteIdentical": true,
+      "reviewId": "M1051-QIMEN-CULTURAL-EXACT15",
+      "judgment": "accepted-for-bounded-trusted-internal-source-registration",
+      "role": "qimen-cultural-offline-fixed-source-reader",
+      "readerClass": "service-fixed-source-reader",
+      "compileScope": "main-service-bundle",
+      "storeRequiredSourceRole": false,
+      "verified": [
+        "代码固定59来源文件及单独policy descriptor，实际blob逐SHA/length/role集合匹配，未知额外来源不能扩allowlist；saved模式额外要求原knowledge pack。",
+        "128MiB私有source vault，先拥有输入再把固定惰性字节写入新scratch child，以已安装固定loader重验，比较60实际blobs与sourceJSON，未执行档案内TS/JS/Go。",
+        "清理只允许该次创建、父目录匹配、固定前缀、非symlink的child；清理失败同样拒绝，不返回已验证成功。"
+      ],
+      "limits": [
+        "真实scratch写入/读取/递归清理与loader调用都存在；不是无文件写入模块。本轮均未执行，也未解rawMOE。",
+        "scratchRoot及内部actualBlobs来自私有工厂/捕获入口；不把内部字节转换当作任意JS/Proxy安全沙箱，不承诺抵抗特权并发文件改写。",
+        "固定原始材料及许可闭包保持外部语义边界，本轮不新授rawMOE/新增映射或当前资料fallback许可。"
+      ],
+      "anchors": [
+        {
+          "line": 21,
+          "needle": "const FIXED_SOURCE_FILES"
+        },
+        {
+          "line": 327,
+          "needle": "function ownedPayloads"
+        },
+        {
+          "line": 345,
+          "needle": "function removeOwnedChild"
+        },
+        {
+          "line": 361,
+          "needle": "export function authenticateCulturalOfflineSourcesV1"
+        }
+      ],
+      "priorExactReference": {
+        "file": "src/main/qimen-cultural-offline-sources-v1.ts",
+        "evidence": "prior-evidence/evidence-read-m918-final-review.json",
+        "evidenceSha256": "0686bcdec73b62d9986d62911c53fac7c450e397d0feec7aa297b90eb17659ac",
+        "pointer": "/finalSourcePins/13",
+        "reuseOnly": "Read-only port/source comparison with26exactpins; runtime/test outcomes pending at freeze and inherited audit limitations retained. No new whole-group/runtime source admission."
+      }
+    },
+    {
+      "file": "src/main/qimen-cultural-offline-v1.ts",
+      "bytes": 6760,
+      "sha256": "2073ed355b59f239e55e944220c5c92217470a97eb98a08fa1624f2c5fb5ca59",
+      "gitBlob": "664af0a2be895523c7d441ab274358d261d41b14",
+      "sourceCommit": "1e2d737f9c03c28184e8ec89ad2755a0f22ba8d4",
+      "currentCheckedCommit": "ad7e0b2f02992d0837c6a6ab0ea24c7816afd828",
+      "currentByteIdentical": true,
+      "reviewId": "M1051-QIMEN-CULTURAL-EXACT15",
+      "judgment": "accepted-for-bounded-trusted-internal-source-registration",
+      "role": "qimen-cultural-offline-replay-owner",
+      "readerClass": "service-fixed-source-reader",
+      "compileScope": "main-service-bundle",
+      "storeRequiredSourceRole": false,
+      "verified": [
+        "私有symbolbrand检查来源于实际工厂对象，配置只accept scratchRoot；准备installed runtime和私有scratch生命周期。",
+        "verify同步拥有所有输入，再依次source/birth/pack/projection认证，重新compare并与expected snapshot完整canonical相等；material digest D保持evidenceCapsuleDigest，不替换为外部storage capsule C。",
+        "错误分类保持invalid/missing/extra/unsupported/source-unavailable/integrity/closed，关闭与active/cleanup状态有界；verified reply明确generationAuthority=false/storageAuthority=false。"
+      ],
+      "limits": [
+        "实际runtime/scratch/source IO与关闭动作属于fixed reader；本轮不执行。",
+        "expectedOwner/expectedSnapshot必须来自Store自有密封链接；brand/result/digest都不是renderer可带回的写许可。",
+        "只为fixed-cultural-sources/birth/labels/selection/derived-result范围，不认证全部历史存储/NSBK或完整姓名解释。"
+      ],
+      "anchors": [
+        {
+          "line": 18,
+          "needle": "export function isCulturalOfflineReplayV1"
+        },
+        {
+          "line": 41,
+          "needle": "export async function prepareCulturalOfflineReplayV1"
+        },
+        {
+          "line": 52,
+          "needle": "verify(value:CulturalOfflineReplayInput)"
+        }
+      ],
+      "priorExactReference": {
+        "file": "src/main/qimen-cultural-offline-v1.ts",
+        "evidence": "prior-evidence/evidence-read-m918-final-review.json",
+        "evidenceSha256": "0686bcdec73b62d9986d62911c53fac7c450e397d0feec7aa297b90eb17659ac",
+        "pointer": "/finalSourcePins/15",
+        "reuseOnly": "Read-only port/source comparison with26exactpins; runtime/test outcomes pending at freeze and inherited audit limitations retained. No new whole-group/runtime source admission."
+      }
+    },
+    {
+      "file": "src/main/qimen-cultural-provider-profile-v1.ts",
+      "bytes": 4539,
+      "sha256": "816251d15f17958c1c0fb6bce63421afae277ec398283946fc959b6931196c30",
+      "gitBlob": "1192d53918cec089f29e696770a7866fb0bd8d83",
+      "sourceCommit": "1e2d737f9c03c28184e8ec89ad2755a0f22ba8d4",
+      "currentCheckedCommit": "ad7e0b2f02992d0837c6a6ab0ea24c7816afd828",
+      "currentByteIdentical": true,
+      "reviewId": "M1051-QIMEN-CULTURAL-EXACT15",
+      "judgment": "accepted-for-bounded-trusted-internal-source-registration",
+      "role": "qimen-cultural-stored-profile-gate",
+      "readerClass": "pure-rule-or-rule-data",
+      "compileScope": "main-service-bundle",
+      "storeRequiredSourceRole": false,
+      "verified": [
+        "先ownCulturalJson，再精确允许字段/200000UTF8bytes/字符串长度/姓氏/性别/历法/日期时制/父母名字等约束；原值保留无normalize或chart计算。",
+        "可选namingPreferences明确字段和method选择验证，不接受未知扩展配置。"
+      ],
+      "limits": [
+        "stored-profile内部语义门，不是公共表单端点或来源认证；父母读音的provenance仍由真实Store负责。",
+        "历法/方法/偏好验证依赖外部函数，不在本15文件范围新授其算法或完整业务正确性。"
+      ],
+      "anchors": [
+        {
+          "line": 16,
+          "needle": "function checkPreferences"
+        },
+        {
+          "line": 31,
+          "needle": "export function readCulturalStoredProfile"
+        }
+      ],
+      "priorExactReference": {
+        "file": "src/main/qimen-cultural-provider-profile-v1.ts",
+        "evidence": "prior-evidence/evidence-read-m918-final-review.json",
+        "evidenceSha256": "0686bcdec73b62d9986d62911c53fac7c450e397d0feec7aa297b90eb17659ac",
+        "pointer": "/finalSourcePins/16",
+        "reuseOnly": "Read-only port/source comparison with26exactpins; runtime/test outcomes pending at freeze and inherited audit limitations retained. No new whole-group/runtime source admission."
+      }
+    },
+    {
+      "file": "src/main/qimen-cultural-provider-sources-v1.ts",
+      "bytes": 15524,
+      "sha256": "8d2def0ed964f1293cfe4b1eb1a51ed90807202869e485383057063ce0e24ccf",
+      "gitBlob": "ecbe03e16f40509de74d86953fc994011d508294",
+      "sourceCommit": "1e2d737f9c03c28184e8ec89ad2755a0f22ba8d4",
+      "currentCheckedCommit": "ad7e0b2f02992d0837c6a6ab0ea24c7816afd828",
+      "currentByteIdentical": true,
+      "reviewId": "M1051-QIMEN-CULTURAL-EXACT15",
+      "judgment": "accepted-for-bounded-trusted-internal-source-registration",
+      "role": "qimen-cultural-live-fixed-source-reader",
+      "readerClass": "service-fixed-source-reader",
+      "compileScope": "main-service-bundle",
+      "storeRequiredSourceRole": false,
+      "verified": [
+        "每次读取固定M779 publication21files、baseline779与editorial版本/SHA、六source locks及每文件/聚合hash，许可文字和Arc完整constants原件；路径realpath在root内。",
+        "现有项目标签257/unknown522及5general+5theme计数是代码固定断言；只baselineCharacters，不调用admitted.project()；十条新映射在本policy保持pending。",
+        "字典、编辑标签、宫位表、出生规则各有authority/locator；返回拥有的source bytes、exact JSON与完整descriptor摘要，每次load重新认证，不跨调用复用来源成功。"
+      ],
+      "limits": [
+        "真实fs和外部loaders/原MOE可能被读取，本轮只审源码；257/522等不是本轮fresh data recount。",
+        "realpath包含检查不等于所有物理别名/并发替换防护；配置root可信，固定hash证明读到的内容而非全局连续freshness。",
+        "M779及数据/许可/规则内容保持各自审阅范围，不能将其项目标签当传统唯一五行或自动命名权威。"
+      ],
+      "anchors": [
+        {
+          "line": 83,
+          "needle": "export function loadCulturalProviderSources"
+        },
+        {
+          "line": 133,
+          "needle": "const pendingCharacters="
+        },
+        {
+          "line": 183,
+          "needle": "const descriptor="
+        }
+      ],
+      "priorExactReference": {
+        "file": "src/main/qimen-cultural-provider-sources-v1.ts",
+        "evidence": "prior-evidence/evidence-read-m918-final-review.json",
+        "evidenceSha256": "0686bcdec73b62d9986d62911c53fac7c450e397d0feec7aa297b90eb17659ac",
+        "pointer": "/finalSourcePins/17",
+        "reuseOnly": "Read-only port/source comparison with26exactpins; runtime/test outcomes pending at freeze and inherited audit limitations retained. No new whole-group/runtime source admission."
+      }
+    },
+    {
+      "file": "src/main/qimen-cultural-provider-v1.ts",
+      "bytes": 31395,
+      "sha256": "9e80378d992db577c7f5f7df98da7898c5ba84055f51f593a0f9cdd1775e7998",
+      "gitBlob": "2c0642835be0add4de6a1091a6c0e4c6944f7082",
+      "sourceCommit": "1e2d737f9c03c28184e8ec89ad2755a0f22ba8d4",
+      "currentCheckedCommit": "ad7e0b2f02992d0837c6a6ab0ea24c7816afd828",
+      "currentByteIdentical": true,
+      "reviewId": "M1051-QIMEN-CULTURAL-EXACT15",
+      "judgment": "accepted-for-bounded-trusted-internal-source-registration",
+      "role": "qimen-cultural-live-provider-owner",
+      "readerClass": "service-fixed-source-reader",
+      "compileScope": "main-service-bundle",
+      "storeRequiredSourceRole": false,
+      "verified": [
+        "可信composition factory只accept userDir/dataDir，捕获实际Store prototype methods，不让客户端注入Store/SQL/chart/elements/source callback；每anchor新Store reader，阻止缺DB走flush写分支。",
+        "saved模式真实Store读取/审阅token/原SQL JSON与archive绑定，profile模式一次分析；disk/source revision及后续fresh检查使过期句柄拒绝，来源异常不降正常未知。",
+        "privateopaque anchor/candidate/evidence/preview映射限制16anchors/64candidates/32previews/128MiB retainedbytes；选项按字位签发和选择，alternate读音不借标签、saved记录不一致disputed。",
+        "verifyOwnedPreview重验当前DB与freshsources、private material/owner/session/revision及每实际blob hash，返回内部live检查；readMaterialBlob仅返回自有字节副本，不自称当前fresh。",
+        "候选原解释/评分作为原材料保存，比较输出不重算、不排序、不筛选。close清除进程映射。"
+      ],
+      "limits": [
+        "该文件真实Store.init/SQL/文件/随机句柄操作都未在本轮执行。当前Store相对M918已变，捕获方法不等于跨版本Store/CAS/NSBK组合验收。",
+        "live check须在真实私有writer边界重新调用；公开DTO/opaque字符串或material摘要不能作为IPC自证保存授权；幂等已提交结果规则属外部Store。",
+        "旧1/4候选完整证据rawJSON超过8MiB的容量未通过记录保留；此源审不授durable storage/全部预算/性能通过。",
+        "配置与内部原数据可信；完整profile/schema源闸保护不是任意特权并发环境安全证明。"
+      ],
+      "anchors": [
+        {
+          "line": 49,
+          "needle": "export function createQimenCulturalProvider"
+        },
+        {
+          "line": 83,
+          "needle": "function baselineRow"
+        },
+        {
+          "line": 112,
+          "needle": "async function prepareBirthAnchor"
+        },
+        {
+          "line": 185,
+          "needle": "function preview"
+        },
+        {
+          "line": 208,
+          "needle": "verifyOwnedPreview(previewHandle:string)"
+        }
+      ],
+      "priorExactReference": {
+        "file": "src/main/qimen-cultural-provider-v1.ts",
+        "evidence": "prior-evidence/evidence-read-m918-final-review.json",
+        "evidenceSha256": "0686bcdec73b62d9986d62911c53fac7c450e397d0feec7aa297b90eb17659ac",
+        "pointer": "/finalSourcePins/18",
+        "reuseOnly": "Read-only port/source comparison with26exactpins; runtime/test outcomes pending at freeze and inherited audit limitations retained. No new whole-group/runtime source admission."
+      }
+    },
+    {
+      "file": "src/shared/qimen-cultural-comparison-rules.ts",
+      "bytes": 1974,
+      "sha256": "785e92d8c9a28c6d45e099c94b5b1289d922d9d27433768bb409bc61198a3c09",
+      "gitBlob": "baccc0b3963448eec17c5ff1a5f0e6279f721b97",
+      "sourceCommit": "1e2d737f9c03c28184e8ec89ad2755a0f22ba8d4",
+      "currentCheckedCommit": "ad7e0b2f02992d0837c6a6ab0ea24c7816afd828",
+      "currentByteIdentical": true,
+      "reviewId": "M1051-QIMEN-CULTURAL-EXACT15",
+      "judgment": "accepted-for-bounded-trusted-internal-source-registration",
+      "role": "qimen-cultural-outer-palace-rules",
+      "readerClass": "pure-rule-or-rule-data",
+      "compileScope": "main-service-bundle",
+      "storeRequiredSourceRole": false,
+      "verified": [
+        "运行时冻结常量明确木3/4、火9、土2/8、金6/7、水1，外宫不含5；不从姓氏/笔画补宫、不做喜忌。",
+        "提供固定JSON实现预算与局限文案，不能按type-only编译角色登记。"
+      ],
+      "limits": [
+        "项目外宫约定，不是已建立传统姓名落宫流派或新增字符五行准入。",
+        "数值预算只属实现限制，不是经过本轮压力/容量验收。"
+      ],
+      "anchors": [
+        {
+          "line": 5,
+          "needle": "export const CULTURAL_OUTER_PALACES"
+        },
+        {
+          "line": 6,
+          "needle": "export const CULTURAL_ELEMENT_PALACES"
+        },
+        {
+          "line": 13,
+          "needle": "export const CULTURAL_JSON_LIMITS"
+        },
+        {
+          "line": 14,
+          "needle": "export const CULTURAL_COMPARISON_LIMITATIONS"
+        }
+      ],
+      "priorExactReference": {
+        "file": "src/shared/qimen-cultural-comparison-rules.ts",
+        "evidence": "prior-evidence/m854-cultural-comparison-audit-REVIEW.json",
+        "evidenceSha256": "18e4dceb7218ba2cba402da4a6e9b3bb484e5c52f1c56ff2c3b8f8ad806000b9",
+        "pointer": "/candidate/files/1",
+        "reuseOnly": "Independent exact4 pure comparator/canonical/runtime DTO/rules scope; trusted-main prepared inputs required. No source admission, persistence, UI/PDF, traditional rules or release."
+      }
+    },
+    {
+      "file": "src/shared/qimen-cultural-comparison.ts",
+      "bytes": 7187,
+      "sha256": "6aa7bbca7db128ac69fe25379d95c19c833d1e0382950aa97cb8b1f56f6efe9d",
+      "gitBlob": "cc5ac4555e505066b0d6478cf16db7bb7715d99a",
+      "sourceCommit": "1e2d737f9c03c28184e8ec89ad2755a0f22ba8d4",
+      "currentCheckedCommit": "ad7e0b2f02992d0837c6a6ab0ea24c7816afd828",
+      "currentByteIdentical": true,
+      "reviewId": "M1051-QIMEN-CULTURAL-EXACT15",
+      "judgment": "accepted-for-bounded-trusted-internal-source-registration",
+      "role": "qimen-cultural-comparison-runtime-contract",
+      "readerClass": "pure-rule-or-rule-data",
+      "compileScope": "main-service-bundle",
+      "storeRequiredSourceRole": false,
+      "verified": [
+        "4个实际运行时version/publication/digest常量与结构types同文件，main-service runtime可达，非type-only。",
+        "DTO区分dictionary/project/object/palace/savedchart来源、unknown/partial状态、whole-chart与palace-position；输出score null及传统notadmitted等约束显式。"
+      ],
+      "limits": [
+        "TypeScript结构类型与字符串constant不可自证来源或权限，必须外部main认证。",
+        "本轮不授renderer显示/PDF/存储或传统姓名方法有效性。"
+      ],
+      "anchors": [
+        {
+          "line": 3,
+          "needle": "export const QIMEN_CULTURAL_VERSION"
+        },
+        {
+          "line": 55,
+          "needle": "export interface PreparedCulturalComparisonInput"
+        },
+        {
+          "line": 71,
+          "needle": "export interface CulturalComparisonSnapshot"
+        }
+      ],
+      "priorExactReference": {
+        "file": "src/shared/qimen-cultural-comparison.ts",
+        "evidence": "prior-evidence/m854-cultural-comparison-audit-REVIEW.json",
+        "evidenceSha256": "18e4dceb7218ba2cba402da4a6e9b3bb484e5c52f1c56ff2c3b8f8ad806000b9",
+        "pointer": "/candidate/files/0",
+        "reuseOnly": "Independent exact4 pure comparator/canonical/runtime DTO/rules scope; trusted-main prepared inputs required. No source admission, persistence, UI/PDF, traditional rules or release."
+      }
+    },
+    {
+      "file": "src/shared/qimen-cultural-offline-v1.ts",
+      "bytes": 1956,
+      "sha256": "2fe13e24254dd5c13a7ff5975acdca7abacf92a2770f80f0fb9918fbbbfa6461",
+      "gitBlob": "6180f0e31f33ad0f5130f5333bfea10f80357805",
+      "sourceCommit": "1e2d737f9c03c28184e8ec89ad2755a0f22ba8d4",
+      "currentCheckedCommit": "ad7e0b2f02992d0837c6a6ab0ea24c7816afd828",
+      "currentByteIdentical": true,
+      "reviewId": "M1051-QIMEN-CULTURAL-EXACT15",
+      "judgment": "accepted-for-bounded-trusted-internal-source-registration",
+      "role": "qimen-cultural-offline-runtime-contract",
+      "readerClass": "pure-rule-or-rule-data",
+      "compileScope": "main-service-bundle",
+      "storeRequiredSourceRole": false,
+      "verified": [
+        "包含实际运行时offline version常量；input明确material+actual blob bytes+Store-ownedexpected owner/snapshot，verify同步与close接口。",
+        "verified-scope明确仅fixedsource/birth/labels/selection/derivedresult，generationAuthority/storageAuthority恒false，opaque id不证明发行或用户历史动作。"
+      ],
+      "limits": [
+        "数据接口声明不是独立来源/存储认证；unknown owner来源不能靠DTO字段提升可信。",
+        "本轮不执行实现，不授所有版本/时制矩阵。"
+      ],
+      "anchors": [
+        {
+          "line": 4,
+          "needle": "export const CULTURAL_OFFLINE_REPLAY_VERSION"
+        },
+        {
+          "line": 5,
+          "needle": "export interface CulturalOfflineReplayInput"
+        },
+        {
+          "line": 27,
+          "needle": "export interface CulturalOfflineReplayAPI"
+        }
+      ],
+      "priorExactReference": {
+        "file": "src/shared/qimen-cultural-offline-v1.ts",
+        "evidence": "prior-evidence/evidence-read-m918-final-review.json",
+        "evidenceSha256": "0686bcdec73b62d9986d62911c53fac7c450e397d0feec7aa297b90eb17659ac",
+        "pointer": "/finalSourcePins/23",
+        "reuseOnly": "Read-only port/source comparison with26exactpins; runtime/test outcomes pending at freeze and inherited audit limitations retained. No new whole-group/runtime source admission."
+      }
+    },
+    {
+      "file": "src/shared/qimen-cultural-provider-v1.ts",
+      "bytes": 4224,
+      "sha256": "c1d24f3052ed3b9a30bcdf3dbc21146aeae1c24e9fff095be275014d4b5880a1",
+      "gitBlob": "2f56048f7c89f2d81c1cf77da3af3c2f82b8cc47",
+      "sourceCommit": "1e2d737f9c03c28184e8ec89ad2755a0f22ba8d4",
+      "currentCheckedCommit": "ad7e0b2f02992d0837c6a6ab0ea24c7816afd828",
+      "currentByteIdentical": true,
+      "reviewId": "M1051-QIMEN-CULTURAL-EXACT15",
+      "judgment": "accepted-for-bounded-trusted-internal-source-registration",
+      "role": "qimen-cultural-provider-runtime-contract",
+      "readerClass": "pure-rule-or-rule-data",
+      "compileScope": "main-service-bundle",
+      "storeRequiredSourceRole": false,
+      "verified": [
+        "实际provider version常量配合reference-only请求、opaque process handles和memory-only material；不接受客户端source/chart/element材料作为authority。",
+        "live-owned-preview检查与readMaterialBlob字节检索语义分开，须实际commit前再次核；数据状态不含传统评分承诺。"
+      ],
+      "limits": [
+        "接口不授generation/storage或CAS writer权限；调用者持有复制的validation字符串不成为授权。",
+        "和provider实际freshness对应，当前外部Store/service/renderer接线另审。"
+      ],
+      "anchors": [
+        {
+          "line": 4,
+          "needle": "export const CULTURAL_PROVIDER_VERSION"
+        },
+        {
+          "line": 23,
+          "needle": "export interface CulturalProviderMaterial"
+        },
+        {
+          "line": 35,
+          "needle": "export interface CulturalOwnedPreviewCheck"
+        },
+        {
+          "line": 39,
+          "needle": "export interface CulturalProviderAPI"
+        }
+      ],
+      "priorExactReference": {
+        "file": "src/shared/qimen-cultural-provider-v1.ts",
+        "evidence": "prior-evidence/evidence-read-m918-final-review.json",
+        "evidenceSha256": "0686bcdec73b62d9986d62911c53fac7c450e397d0feec7aa297b90eb17659ac",
+        "pointer": "/finalSourcePins/24",
+        "reuseOnly": "Read-only port/source comparison with26exactpins; runtime/test outcomes pending at freeze and inherited audit limitations retained. No new whole-group/runtime source admission."
+      }
+    }
+  ],
+  "excludedContext": [
+    {
+      "file": "src/main/qimen-cultural-offline-store-boundary-v1.ts",
+      "bytes": 3689,
+      "sha256": "e8dd43293b87f0bd0a97ce70b48a72afe7f5b92ebfb8ab574b2e693ec425d463",
+      "gitBlob": "3d1d649107437f9c9ba4cb523f8d25617828dfe4",
+      "classification": "unused-runtime-store-facade-context",
+      "postimage": "postimages/src/main/qimen-cultural-offline-store-boundary-v1.ts",
+      "reason": "Fixed1e2 explicit module/export search returns only its own file. Current compact Store owners use a separate semantic verifier/offline capability; this wrapper is not required by the needed provider/offline graph.",
+      "newSourceApproval": false
+    },
+    {
+      "file": "src/renderer/qimen-cultural-comparison-view.css",
+      "bytes": 2727,
+      "sha256": "f6f7eb2dd8ad705a686e55d63826ad33f6c0bfab4ad0040eca3cb11e61921aa9",
+      "gitBlob": "314309ac1d1cd35b64b5b611afe560d15ce8d25c",
+      "classification": "renderer-only-stylesheet-context",
+      "postimage": "postimages/src/renderer/qimen-cultural-comparison-view.css",
+      "reason": "Imported by renderer QimenCulturalComparisonView, outside main/provider/offline required graph and belongs with UI display family. Does not carry runtime main/data authority.",
+      "newSourceApproval": false
+    }
+  ],
+  "sourceGraph": {
+    "roots": [
+      "src/main/qimen-cultural-provider-v1.ts",
+      "src/main/qimen-cultural-offline-v1.ts"
+    ],
+    "all15RuntimeReachable": true,
+    "externalDependencyCount": 24,
+    "externalDependencies": [
+      {
+        "file": "src/shared/types.ts",
+        "bytes": 33408,
+        "sha256": "1cd8e614a9409e37b780010a65ce905197d8df28409fccaaa95f977b650cd3b9",
+        "gitBlob": "6c40afd273f593b6a5d10bc005475cb2217133af",
+        "modes": [
+          "type-only"
+        ],
+        "newAuthority": false
+      },
+      {
+        "file": "src/domain/engine-v13.ts",
+        "bytes": 13496,
+        "sha256": "bc893b98d96b8a59f0da565c94eb7ce81480490371f55cc90c3da57dd4c36edd",
+        "gitBlob": "1c2ec8791b24ecd8ada79c9f1755ce766ae313cd",
+        "modes": [
+          "runtime"
+        ],
+        "newAuthority": false
+      },
+      {
+        "file": "src/main/snapshot-json-spans.ts",
+        "bytes": 4733,
+        "sha256": "9dffb537ce3c2fb624d05549377680adc1d7749f9cfdfa880120359d65d239f8",
+        "gitBlob": "c479e0aadef34cfc9e86d9ab86c6ffe33a8124a7",
+        "modes": [
+          "runtime"
+        ],
+        "newAuthority": false
+      },
+      {
+        "file": "src/shared/session-sources.ts",
+        "bytes": 9856,
+        "sha256": "84134cae9eecd272e550617fa9fb1b151e247bb0b314f8818ffbdcf617eae1f7",
+        "gitBlob": "ece8f9726f1f3aa7741f5958ce7303d2cf550e2e",
+        "modes": [
+          "runtime"
+        ],
+        "newAuthority": false
+      },
+      {
+        "file": "src/shared/character-reading.ts",
+        "bytes": 606,
+        "sha256": "717aac3c5f8c56abcbfcec4eef786dedac6c21a28c734561201b6b5a36f26a07",
+        "gitBlob": "68b2689f80377262b375acee267077dc0926df1c",
+        "modes": [
+          "runtime"
+        ],
+        "newAuthority": false
+      },
+      {
+        "file": "src/shared/character-reading-reference.ts",
+        "bytes": 2325,
+        "sha256": "fc729ff8025c3ee4a6469861a2ca468723d64aaf42ea6b42250b6d24a34f472e",
+        "gitBlob": "7d839f0479302c36790bed0ba21ff20d278a54d0",
+        "modes": [
+          "runtime"
+        ],
+        "newAuthority": false
+      },
+      {
+        "file": "src/main/store.ts",
+        "bytes": 179242,
+        "sha256": "53eaa50db0eaa60021d4179ce45bfd0f12ccb1d3f8692ff5931efd4e990483cc",
+        "gitBlob": "1d8cd28a7a8a1c1976eb7c25c65feb73fcb33e41",
+        "modes": [
+          "runtime"
+        ],
+        "newAuthority": false
+      },
+      {
+        "file": "src/shared/civil-birth.ts",
+        "bytes": 9047,
+        "sha256": "6f9a9f780633137f3cf3a3ca2e0a3216cce04dabb4b0d1eded63ab0969b0ccae",
+        "gitBlob": "36be62293de972b13fb92eb3acdae03399d6dc44",
+        "modes": [
+          "runtime"
+        ],
+        "newAuthority": false
+      },
+      {
+        "file": "src/shared/birth-time-basis.ts",
+        "bytes": 7741,
+        "sha256": "67e7758a342fd4382b76889d8915f02bdd2a58ae89c006d6bbbcbc66a590af92",
+        "gitBlob": "feef686b6d54aefa41f018b65492560803f07e25",
+        "modes": [
+          "runtime"
+        ],
+        "newAuthority": false
+      },
+      {
+        "file": "src/shared/month-authority-method.ts",
+        "bytes": 679,
+        "sha256": "6b7e225aaa93053e6fa9983aa8e448fc3a831255de6e085abbedb4ed3329879a",
+        "gitBlob": "95b8ab483cda70e5c99bd7f41303efa974fb14f0",
+        "modes": [
+          "runtime"
+        ],
+        "newAuthority": false
+      },
+      {
+        "file": "src/shared/seasonal-method.ts",
+        "bytes": 535,
+        "sha256": "90287e95c9afd2688be6ec2552538753a3cdf6159b8fec6ec7821ebe1b13e156",
+        "gitBlob": "6dd92b81ab2e354f2f927b5278cdfe02e86407da",
+        "modes": [
+          "runtime"
+        ],
+        "newAuthority": false
+      },
+      {
+        "file": "src/shared/ren-method.ts",
+        "bytes": 1087,
+        "sha256": "34feeee52938a44a22baa4088ee63a7059b254dfa748fdf46a292e578cd1e324",
+        "gitBlob": "c5f60b2511ca1565494959f1746570f40e841825",
+        "modes": [
+          "runtime"
+        ],
+        "newAuthority": false
+      },
+      {
+        "file": "src/shared/word-pronunciation-reference.ts",
+        "bytes": 3540,
+        "sha256": "ee01ebb54c29be4a873a7403f8db8047675047c423fe2ee7366b1fe4df8d466a",
+        "gitBlob": "edab6b601717b6b69f840a69848d1bc4d77014ae",
+        "modes": [
+          "runtime"
+        ],
+        "newAuthority": false
+      },
+      {
+        "file": "src/shared/name-phonetic-preferences.ts",
+        "bytes": 4647,
+        "sha256": "e2387b5ff1e50c82e12b56ce340b11af1b2d0ecbb3cf82e0bfe907d973db88b9",
+        "gitBlob": "f8279b4dbd4a0e2b9250e0e7f5fe2bd6645d38e2",
+        "modes": [
+          "runtime"
+        ],
+        "newAuthority": false
+      },
+      {
+        "file": "src/shared/yue-homophone-types.ts",
+        "bytes": 1960,
+        "sha256": "ff0e605fa8c154447a408b380a71e1e5eb381e5edc13c056963e7bb79a975df2",
+        "gitBlob": "6a22f212194ebfe675c73b4c918499d7482dd0de",
+        "modes": [
+          "runtime"
+        ],
+        "newAuthority": false
+      },
+      {
+        "file": "src/shared/project-naming-use.ts",
+        "bytes": 3498,
+        "sha256": "ee36a71d2f9107ff742d3d73e77f5d25f0644b30a22288b77f1259dec0ef03c6",
+        "gitBlob": "d456d1b75094cdf57774be5bb43e96a08b3f5aca",
+        "modes": [
+          "runtime"
+        ],
+        "newAuthority": false
+      },
+      {
+        "file": "src/main/parent-name-phonetics-adapter.ts",
+        "bytes": 10969,
+        "sha256": "ad220590e7ad2bcf9ed6e02d72bfc2dfefc227e0aa8026ed7c21a5fc8a81ca49",
+        "gitBlob": "60fce185f599d649e7dbd15a09b5b90a82feca8e",
+        "modes": [
+          "runtime"
+        ],
+        "newAuthority": false
+      },
+      {
+        "file": "src/shared/m754-element-imagery-pins.ts",
+        "bytes": 408,
+        "sha256": "a822962900f645f678a2abbc9f61aaa0f21114c1bfab9516590962e7eaf51993",
+        "gitBlob": "6dae1b9f961df8d7966cae41988e4418db03f1c2",
+        "modes": [
+          "runtime"
+        ],
+        "newAuthority": false
+      },
+      {
+        "file": "src/main/bazi-data.ts",
+        "bytes": 3840,
+        "sha256": "340de51efb4f67e9b504590433142b3ee7bf9a6d8198214a503071caa40e3451",
+        "gitBlob": "01fcf48330cce062019869479a06a97572da9ba4",
+        "modes": [
+          "runtime"
+        ],
+        "newAuthority": false
+      },
+      {
+        "file": "src/main/m779-admitted-element-imagery.ts",
+        "bytes": 15216,
+        "sha256": "7bfe28a05287880400bdfe1cc6f56b8540e356760ac9100a653f74f08667104b",
+        "gitBlob": "c2d881e7c2f72080108315bdc593ff839ce16148",
+        "modes": [
+          "runtime"
+        ],
+        "newAuthority": false
+      },
+      {
+        "file": "src/main/name-imagery-data.ts",
+        "bytes": 5865,
+        "sha256": "4f146114ae6ba1bd184ccd3c2a581dec0f45275e0ff351d9587b02fdc6c9a1ee",
+        "gitBlob": "fb7257713750cde7b455e77549e10631991879c8",
+        "modes": [
+          "runtime"
+        ],
+        "newAuthority": false
+      },
+      {
+        "file": "src/main/qimen-data.ts",
+        "bytes": 4609,
+        "sha256": "7c40a4e36b7e276f5c25d88d418e7dc5eb12622a0661c7a10dbc4fe8cea57d55",
+        "gitBlob": "cf77a9b55778fa25f2ea33b9b30f4423a9f034a2",
+        "modes": [
+          "runtime"
+        ],
+        "newAuthority": false
+      },
+      {
+        "file": "src/main/solar-time-data.ts",
+        "bytes": 2755,
+        "sha256": "8e8af4b3e773cc42109733fc6beeda2ab9bd38f20dd1f7e172cd45531edf84cc",
+        "gitBlob": "1ca99ff8ac4c7483d2742a759b766f3d2bed12e8",
+        "modes": [
+          "runtime"
+        ],
+        "newAuthority": false
+      },
+      {
+        "file": "src/domain/engine.ts",
+        "bytes": 919,
+        "sha256": "908138aff9640cec08c9c471f2a5a931ece32b4033baac05304976fd64747af8",
+        "gitBlob": "7b0101f7b3bacdb276c8e0d31b250d8f5b77979d",
+        "modes": [
+          "runtime"
+        ],
+        "newAuthority": false
+      }
+    ],
+    "reverseCallerCount": 16,
+    "reverseContextNewAuthority": false,
+    "currentStoreByteChangedFromM918": true,
+    "currentStoreScope": "独立current Store/source/CAS/lifecycle事务范围，未随这15个文件认证。"
+  },
+  "behavior": {
+    "cultureMode": "project-convention-only",
+    "outerPalaces": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
+      9
+    ],
+    "elementPalaces": {
+      "木": [
+        3,
+        4
+      ],
+      "火": [
+        9
+      ],
+      "土": [
+        2,
+        8
+      ],
+      "金": [
+        6,
+        7
+      ],
+      "水": [
+        1
+      ]
+    },
+    "surnameProjection": false,
+    "center5Relocation": false,
+    "strokeNamePlacement": false,
+    "traditional": {
+      "status": "not-admitted",
+      "verdict": "not-evaluated",
+      "namePalaceMethod": "not-established"
+    },
+    "score": null,
+    "ranking": "input-order",
+    "scoreMutation": false,
+    "filtering": false,
+    "nameEffect": "not-evaluated",
+    "fourHarmRemoval": "not-performed",
+    "sourceError": "refused/source-unavailable not ordinary unknown",
+    "unknownBirthChart": "only static known character sets, no fabricated chart or complete intersection/exclusive verdict",
+    "manualReadingSelection": "fixed options/opaque process ownership only;not traditional name-palace or fortune authority"
+  },
+  "baselineScope": {
+    "characters": 779,
+    "existingLabels": 257,
+    "unknownLabels": 522,
+    "newGeneral": 5,
+    "newTheme": 5,
+    "newTenConsumed": false,
+    "formalCoverageAdded": 0,
+    "defaultCoverageAdded": 0,
+    "freshDataRecount": false,
+    "origin": "fixed source assertions only"
+  },
+  "reuse": {
+    "M854": {
+      "exactFiles": 4,
+      "evidenceSha256": "18e4dceb7218ba2cba402da4a6e9b3bb484e5c52f1c56ff2c3b8f8ad806000b9",
+      "scope": "纯comparison/canonical/runtimeDTO/rules，仅可信main已认证输入；旧测试不重跑。"
+    },
+    "M856Freshness": {
+      "exactFiles": 2,
+      "evidenceSha256": "4957725b84a8db229c1386671c0007b446169175a0d61965596c30632f28650a",
+      "scope": "live-owned-preview freshness静态增量，不授Store/CAS/persistence。"
+    },
+    "M918": {
+      "exactSourceFiles": 11,
+      "evidenceSha256": "0686bcdec73b62d9986d62911c53fac7c450e397d0feec7aa297b90eb17659ac",
+      "scope": "26pins移植比较中当前11字节一致；审阅冻结时runtime pending，不当作独立实际通过。"
+    },
+    "oldFailureNotOverridden": "M856旧1/4完整evidence rawJSON超过8MiB容量不通过保留；M887作者22和M918作者12/4聚焦结果仅历史范围，未扩为当前整sourceclosure/native/预算通过。"
+  },
+  "verification": {
+    "staticGraphAndPriorPinChecks": 36,
+    "syntaxASTOnly": true,
+    "pureContractChecks": 12,
+    "pureScope": "Synthetic contract consistency checks only, no genuine chart/source/admission proof.",
+    "pureModules": [
+      "src/domain/qimen-cultural-comparison-canonical.ts",
+      "src/shared/qimen-cultural-comparison.ts",
+      "src/shared/qimen-cultural-comparison-rules.ts",
+      "src/domain/qimen-cultural-comparison.ts"
+    ],
+    "extractedProviderFunction": "exact AST baselineRow extracted only; synthetic anchor and sources; no provider module import",
+    "rawMOEReadOrParsed": 0,
+    "SQLite": 0,
+    "Store": 0,
+    "businessLoaders": 0,
+    "liveProviderFactory": 0,
+    "offlineReplayFactory": 0,
+    "wholeGate": 0,
+    "fullTypecheck": 0,
+    "build": 0,
+    "oldCasesRerun": 0,
+    "internalSubagentUsed": false
+  },
+  "authority": {
+    "exact15MayBeReferencedForSeparateSourceRegistration": true,
+    "registrationApplied": false,
+    "profileModified": false,
+    "srcModified": false,
+    "dataModified": false,
+    "wholeSourceClosureApproved": false,
+    "sourceBuildApproved": false,
+    "standardElectronOrPdfApproved": false,
+    "dataSemanticsNewlyApproved": false,
+    "generationAuthority": false,
+    "automaticNameRecommendation": false,
+    "storageAuthority": false,
+    "StoreOrCASApproved": false,
+    "ServiceOrUIApproved": false,
+    "traditionalNameMethodEstablished": false,
+    "formalCoverageAdded": 0,
+    "defaultCoverageAdded": 0,
+    "releaseApproved": false
+  },
+  "remaining": [
+    "需另行做精确source registration，读取本reviewId/15filepins/分类/limits，不得把外部24/context16或2excluded带入。",
+    "全source gate和后续未审输入仍独立受限，本结论本身不执行或放行standardbuild/desktopPDF。",
+    "currentStore组合、私有writer边界、完整offline/saved/history/NSBK/UI/PDF和原容量限制仍按各自任务验收。",
+    "传统姓名落宫具体规则未建立，项目比较ready不能提升传统吉凶/命运/四害解除结论。",
+    "不把固定源码静态边界当任意JavaScript或特权并发文件系统安全认证。"
+  ],
+  "artifacts": [
+    "intake.json",
+    "review-entry.json",
+    "graph-checks.json",
+    "pure-checks.json",
+    "prior-limits.json",
+    "freshness-scope.json",
+    "prior-evidence-index.json",
+    "EXECUTION-LEDGER.json"
+  ]
+}

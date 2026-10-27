@@ -1,0 +1,1863 @@
+{
+  "schema": "m914-naming-selection/1",
+  "batchId": "M914-D01",
+  "version": "1.0.0-candidate.1",
+  "status": "pending-independent-review",
+  "selectionBasis": "从固定 dataset-v6 剩余字符中选择；排除 M910-DATA loaded occupancy 与 M910 selected；保留原始异读和项目文化标签边界。",
+  "count": 20,
+  "selected": [
+    {
+      "candidateId": "m914-naming-data:博:23625:0:0",
+      "char": "博",
+      "pinyin": "bó",
+      "tone": 2,
+      "traditional": "博",
+      "sourceId": "moe-revised",
+      "dictionaryWord": "博",
+      "rawEntryIndex": 23625,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 0,
+      "dictionarySense": "廣大、眾多的意思。",
+      "sourcePOS": "形",
+      "meaning": "取广大、众多的开阔意象。",
+      "projectWish": "项目创作：愿你接触丰富经验，也能选择适合自己的广度。",
+      "projectCultureLabel": "广博开阔",
+      "projectCultureLabelBasis": "仅项目文化标签；不代表传统五行定论，不改 dataset-v6 elements 字段。",
+      "limits": [
+        "只取广大、众多义，不推导学历、见识或成就。",
+        "项目愿望不构成能力、地位或人生结果承诺。"
+      ],
+      "alternativeReadings": [
+        {
+          "index": 0,
+          "pinyin": "bó",
+          "tone": null,
+          "definitions": [
+            {
+              "def": "廣大、眾多的意思。",
+              "example": [
+                "如：「廣博」、「地大物博」。"
+              ],
+              "quote": [
+                "《廣韻．入聲．鐸韻》：「博，廣也、大也、通也。」"
+              ],
+              "type": "形"
+            },
+            {
+              "def": "比喻見識廣大。",
+              "example": [
+                "如：「淵博」。"
+              ],
+              "quote": [
+                "《荀子．修身》：「多聞曰博；少聞曰淺。」"
+              ],
+              "type": "形"
+            },
+            {
+              "def": "姓。如漢代有博子勞。",
+              "type": "名"
+            },
+            {
+              "def": "賭錢。",
+              "quote": [
+                "《論語．陽貨》：「子曰：『飽食終日，無所用心，難矣哉！不有博弈者乎？為之猶賢乎已！』」",
+                "《史記．卷八六．刺客傳．荊軻傳》：「魯句踐與荊軻博。」"
+              ],
+              "type": "動"
+            },
+            {
+              "def": "獲取。",
+              "example": [
+                "如：「博得同情」、「博得美人心」。"
+              ],
+              "type": "動"
+            }
+          ]
+        }
+      ],
+      "status": "pending-independent-review",
+      "admissionStatus": "candidate-only",
+      "admissionGranted": false,
+      "automaticMeaningAllowed": false,
+      "productionApproved": false
+    },
+    {
+      "candidateId": "m914-naming-data:灿:93360:0:0",
+      "char": "灿",
+      "pinyin": "càn",
+      "tone": 4,
+      "traditional": "燦",
+      "sourceId": "moe-revised",
+      "dictionaryWord": "燦",
+      "rawEntryIndex": 93360,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 0,
+      "dictionarySense": "光彩鮮明、耀眼。",
+      "sourcePOS": "形",
+      "meaning": "取光彩鲜明、耀眼的光亮意象。",
+      "projectWish": "项目创作：愿你留意生活中清楚而温暖的光亮。",
+      "projectCultureLabel": "鲜明光彩",
+      "projectCultureLabelBasis": "仅项目文化标签；不代表传统五行定论，不改 dataset-v6 elements 字段。",
+      "limits": [
+        "只取光彩鲜明义，不推导外貌、名望或成功。",
+        "光亮是项目文化标签，不作命运判断。"
+      ],
+      "alternativeReadings": [
+        {
+          "index": 0,
+          "pinyin": "càn",
+          "tone": null,
+          "definitions": [
+            {
+              "def": "光彩鮮明、耀眼。",
+              "example": [
+                "如：「燦爛」。"
+              ],
+              "type": "形"
+            }
+          ]
+        }
+      ],
+      "status": "pending-independent-review",
+      "admissionStatus": "candidate-only",
+      "admissionGranted": false,
+      "automaticMeaningAllowed": false,
+      "productionApproved": false
+    },
+    {
+      "candidateId": "m914-naming-data:长:147806:0:1",
+      "char": "长",
+      "pinyin": "cháng",
+      "tone": 2,
+      "traditional": "長",
+      "sourceId": "moe-revised",
+      "dictionaryWord": "長",
+      "rawEntryIndex": 147806,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 1,
+      "dictionarySense": "優點、長處。",
+      "sourcePOS": "名",
+      "meaning": "取优点、长处这一能力与特质的词典义。",
+      "projectWish": "项目创作：愿你看见自己的长处，也允许自己持续学习。",
+      "projectCultureLabel": "长处自识",
+      "projectCultureLabelBasis": "仅项目文化标签；不代表传统五行定论，不改 dataset-v6 elements 字段。",
+      "limits": [
+        "只取长处义，不把名字当作能力已经实现的证明。",
+        "不据此推定竞争力、成绩或社会评价。"
+      ],
+      "alternativeReadings": [
+        {
+          "index": 0,
+          "pinyin": "cháng",
+          "tone": null,
+          "definitions": [
+            {
+              "def": "兩端點之間的距離。",
+              "example": [
+                "如：「這條河全長三十里。」"
+              ],
+              "type": "名"
+            },
+            {
+              "def": "優點、長處。",
+              "example": [
+                "如：「各有所長」、「截長補短」。"
+              ],
+              "quote": [
+                "《戰國策．齊策三》：「請掩足下之短者，誦足下之長。」"
+              ],
+              "type": "名"
+            },
+            {
+              "def": "專精的技能。",
+              "example": [
+                "如：「專長」、「特長」。"
+              ],
+              "type": "名"
+            },
+            {
+              "def": "姓。如春秋時楚國有長沮。",
+              "type": "名"
+            },
+            {
+              "def": "二一四部首之一。",
+              "type": "名"
+            },
+            {
+              "def": "空間、距離大。與「短」相對。",
+              "example": [
+                "如：「長橋臥波」。"
+              ],
+              "quote": [
+                "《楚辭．屈原．九歌．國殤》：「帶長劍兮挾秦弓，首身離兮心不懲。」"
+              ],
+              "type": "形"
+            },
+            {
+              "def": "時間久遠。與「短」相對。",
+              "quote": [
+                "晉．陶淵明〈飲酒詩〉二○首之一六：「披褐守長夜，晨雞不肯鳴。」"
+              ],
+              "type": "形"
+            },
+            {
+              "def": "遠。",
+              "quote": [
+                "唐．王昌齡〈出塞〉詩二首之一：「秦時明月漢時關，萬里長征人未還。」"
+              ],
+              "type": "副"
+            },
+            {
+              "def": "永久。",
+              "quote": [
+                "漢．桓寬《鹽鐵論．繇役》：「夫文猶可長用，而武難久行也。」"
+              ],
+              "type": "副"
+            },
+            {
+              "def": "專精、擅於。",
+              "example": [
+                "如：「長於寫作」。"
+              ],
+              "quote": [
+                "南朝宋．劉義慶《世說新語．文學》：「樂令善於清言，而不長於手筆。」"
+              ],
+              "type": "動"
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "pinyin": "zhàng",
+          "tone": null,
+          "definitions": [
+            {
+              "def": "多餘的。",
+              "example": [
+                "如：「身無長物」。"
+              ],
+              "quote": [
+                "唐．白居易〈無長物〉詩：「只緣無長物，始得作閒人。」"
+              ],
+              "type": "形"
+            },
+            {
+              "def": "強盛。",
+              "quote": [
+                "《呂氏春秋．審分覽．知度》：「此神農之所以長，而堯舜之所以章也。」"
+              ],
+              "type": "動"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "pinyin": "zhǎng",
+          "tone": null,
+          "definitions": [
+            {
+              "def": "年紀大、輩分高的人。",
+              "example": [
+                "如：「尊長」、「師長」、「兄長」。"
+              ],
+              "quote": [
+                "《莊子．天道》：「君先而臣從，父先而子從，兄先而弟從，長先而少從。」",
+                "《後漢書．卷七○．孔融傳》：「 吏問其母，母曰：『家事任長，妾當其辜。』」"
+              ],
+              "type": "名"
+            },
+            {
+              "def": "主管、領導人。",
+              "example": [
+                "如：「部長」、「首長」。"
+              ],
+              "type": "名"
+            },
+            {
+              "def": "年齡稍大。",
+              "example": [
+                "如：「他比我長三歲。」"
+              ],
+              "quote": [
+                "《公羊傳．隱公三年》：「桓幼而貴，隱長而卑。」"
+              ],
+              "type": "形"
+            },
+            {
+              "def": "排行第一。",
+              "example": [
+                "如：「長女」、「長子」。"
+              ],
+              "quote": [
+                "《易經．說卦》：「震一索而得男，故謂之長男。」"
+              ],
+              "type": "形"
+            },
+            {
+              "def": "老。",
+              "quote": [
+                "《莊子．大宗師》：「子之年長矣，而色若孺子，何也？」",
+                "《國語．晉語四》：「齊侯長矣，而欲親晉。」"
+              ],
+              "type": "形"
+            },
+            {
+              "def": "出生。",
+              "quote": [
+                "漢．桓寬《鹽鐵論．和親》：「范蠡出於越，由余長於胡，皆為霸王賢佐。」",
+                "《西遊記．第一回》：「我雖不是樹上生，卻是石裡長的。」"
+              ],
+              "type": "動"
+            },
+            {
+              "def": "生長、發育。",
+              "quote": [
+                "《孟子．告子上》：「苟得其養，無物不長。」",
+                "《呂氏春秋．季春紀．圜道 》：「物動則萌，萌而生，生而長，長而大。」"
+              ],
+              "type": "動"
+            },
+            {
+              "def": "生、顯。",
+              "example": [
+                "如：「他長得很俊美。」"
+              ],
+              "type": "動"
+            },
+            {
+              "def": "養育。",
+              "quote": [
+                "《詩經．小雅．蓼莪》：「父兮生我，母兮鞠我，拊我畜我，長我育我。」",
+                "《左傳．昭公十四年》：「長孤幼，養老疾。」"
+              ],
+              "type": "動"
+            },
+            {
+              "def": "增進、增加。",
+              "example": [
+                "如：「長他人志氣，滅自己威風。」"
+              ],
+              "quote": [
+                "《易經．泰卦》：「君子道長，小人道消也。」"
+              ],
+              "type": "動"
+            },
+            {
+              "def": "執掌。",
+              "quote": [
+                "漢．王充《論衡．感虛》：「使一郡皆寒，賢者長一縣，一縣之界能獨溫乎？」"
+              ],
+              "type": "動"
+            },
+            {
+              "def": "尊重。",
+              "quote": [
+                "《書經．牧誓》：「乃惟四方之多罪逋逃，是崇是長，是信是使。」"
+              ],
+              "type": "動"
+            }
+          ]
+        }
+      ],
+      "status": "pending-independent-review",
+      "admissionStatus": "candidate-only",
+      "admissionGranted": false,
+      "automaticMeaningAllowed": false,
+      "productionApproved": false
+    },
+    {
+      "candidateId": "m914-naming-data:宸:43152:0:1",
+      "char": "宸",
+      "pinyin": "chén",
+      "tone": 2,
+      "traditional": "宸",
+      "sourceId": "moe-revised",
+      "dictionaryWord": "宸",
+      "rawEntryIndex": 43152,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 1,
+      "dictionarySense": "幽深的房室。",
+      "sourcePOS": "名",
+      "meaning": "取幽深房室的空间意象。",
+      "projectWish": "项目创作：愿你拥有可以安静思考、休息和探索的空间。",
+      "projectCultureLabel": "幽室静思",
+      "projectCultureLabelBasis": "仅项目文化标签；不代表传统五行定论，不改 dataset-v6 elements 字段。",
+      "limits": [
+        "固定幽深房室义，不借帝王居处或帝王借指义。",
+        "不推导尊贵、权力或身份。"
+      ],
+      "alternativeReadings": [
+        {
+          "index": 0,
+          "pinyin": "chén",
+          "tone": null,
+          "definitions": [
+            {
+              "def": "屋簷。",
+              "quote": [
+                "《說文解字．宀部》：「宸，屋宇也。」",
+                "清．段玉裁．注：「屋者以宮室上覆言之，宸謂屋邊。」",
+                "宋．王安石〈外廚遺火示公佐〉詩：「翛翛短褐方圍火，冉冉青煙已被宸。」"
+              ],
+              "type": "名"
+            },
+            {
+              "def": "幽深的房室。",
+              "quote": [
+                "《玉篇．宀部》：「宸，賈逵曰：『室之奧者。』」"
+              ],
+              "type": "名"
+            },
+            {
+              "def": "帝王的住處。",
+              "quote": [
+                "《廣韻．平聲．真韻》：「宸，天子所居。」",
+                "《水滸傳．第七一回》：「青龍隱隱來黃道，白鶴翩翩下紫宸。」"
+              ],
+              "type": "名"
+            },
+            {
+              "def": "借指帝王。",
+              "quote": [
+                "唐．張說〈奉和同皇太子過慈恩寺應制〉詩二首之一：「翼翼宸恩永，煌煌福地開。」"
+              ],
+              "type": "名"
+            }
+          ]
+        }
+      ],
+      "status": "pending-independent-review",
+      "admissionStatus": "candidate-only",
+      "admissionGranted": false,
+      "automaticMeaningAllowed": false,
+      "productionApproved": false
+    },
+    {
+      "candidateId": "m914-naming-data:成:57344:0:0",
+      "char": "成",
+      "pinyin": "chéng",
+      "tone": 2,
+      "traditional": "成",
+      "sourceId": "moe-revised",
+      "dictionaryWord": "成",
+      "rawEntryIndex": 57344,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 0,
+      "dictionarySense": "做好事情。",
+      "sourcePOS": "動",
+      "meaning": "取做好事情、完成行动的直接义。",
+      "projectWish": "项目创作：愿你把愿意投入的事情一步步做成。",
+      "projectCultureLabel": "完成行动",
+      "projectCultureLabelBasis": "仅项目文化标签；不代表传统五行定论，不改 dataset-v6 elements 字段。",
+      "limits": [
+        "只取做好事情义，不承诺目标必然完成。",
+        "项目愿望不等同成绩、事业或成功保证。"
+      ],
+      "alternativeReadings": [
+        {
+          "index": 0,
+          "pinyin": "chéng",
+          "tone": null,
+          "definitions": [
+            {
+              "def": "做好事情。",
+              "example": [
+                "如：「完成」、「功成名就」、「大功告成」。"
+              ],
+              "quote": [
+                "《說文解字．戊部》：「成，就也。」"
+              ],
+              "type": "動"
+            },
+            {
+              "def": "變為。",
+              "example": [
+                "如：「點石成金」、「磨杵成針」。"
+              ],
+              "type": "動"
+            },
+            {
+              "def": "達到。",
+              "example": [
+                "如：「成千上萬」、「成雙成對」。"
+              ],
+              "type": "動"
+            },
+            {
+              "def": "促成。",
+              "example": [
+                "如：「成全」、「玉成其事」、「成人之美」。"
+              ],
+              "type": "動"
+            },
+            {
+              "def": "可以。",
+              "example": [
+                "如：「他想要耍賴是不成的。」"
+              ],
+              "type": "動"
+            },
+            {
+              "def": "量詞。計算十等分概念的單位。",
+              "example": [
+                "如：「有八成希望。」"
+              ],
+              "type": "名"
+            },
+            {
+              "def": "古代十里平方的土地。",
+              "quote": [
+                "《左傳．哀公元年》：「有田一成，有眾一旅。」"
+              ],
+              "type": "名"
+            },
+            {
+              "def": "現有的一切。",
+              "example": [
+                "如：「創業容易守成難。」"
+              ],
+              "quote": [
+                "唐．吳兢《貞觀政要．卷一．論君道》：「帝王之業，草創與守成孰難？」"
+              ],
+              "type": "名"
+            },
+            {
+              "def": "姓。如漢代有成瑨。",
+              "type": "名"
+            },
+            {
+              "def": "完整的。",
+              "example": [
+                "如：「成品」、「成天」。"
+              ],
+              "quote": [
+                "宋．陸游〈何君墓表〉：「不以字害其成句，不以句累其全篇。」"
+              ],
+              "type": "形"
+            },
+            {
+              "def": "現有的、舊有的。",
+              "example": [
+                "如：「成例」、「成規」、「成語」。"
+              ],
+              "type": "形"
+            },
+            {
+              "def": "構成整體的。",
+              "example": [
+                "如：「成分」、「成員」。"
+              ],
+              "type": "形"
+            }
+          ]
+        }
+      ],
+      "status": "pending-independent-review",
+      "admissionStatus": "candidate-only",
+      "admissionGranted": false,
+      "automaticMeaningAllowed": false,
+      "productionApproved": false
+    },
+    {
+      "candidateId": "m914-naming-data:城:33291:0:1",
+      "char": "城",
+      "pinyin": "chéng",
+      "tone": 2,
+      "traditional": "城",
+      "sourceId": "moe-revised",
+      "dictionaryWord": "城",
+      "rawEntryIndex": 33291,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 1,
+      "dictionarySense": "都市。",
+      "sourcePOS": "名",
+      "meaning": "取都市与公共生活空间的意象。",
+      "projectWish": "项目创作：愿你在城市与共同生活中找到自己的位置和连接。",
+      "projectCultureLabel": "城市生活",
+      "projectCultureLabelBasis": "仅项目文化标签；不代表传统五行定论，不改 dataset-v6 elements 字段。",
+      "limits": [
+        "固定都市义，不借姓氏、筑城或防守墙义。",
+        "不推导社会地位、归属结果或安全保证。"
+      ],
+      "alternativeReadings": [
+        {
+          "index": 0,
+          "pinyin": "chéng",
+          "tone": null,
+          "definitions": [
+            {
+              "def": "古時環繞京師或圍繞某一區域以供防守的大圍牆。",
+              "quote": [
+                "《廣韻．平聲．清韻》：「城，城郭。」",
+                "《墨子．七患》：「城者，所以自守也。」",
+                "唐．李白〈送友人〉詩：「青山橫北郭，白水遶東城。」"
+              ],
+              "type": "名"
+            },
+            {
+              "def": "都市。",
+              "example": [
+                "如：「京城」、「城市」。"
+              ],
+              "type": "名"
+            },
+            {
+              "def": "姓。如戰國時有城渾。",
+              "type": "名"
+            },
+            {
+              "def": "築城。",
+              "quote": [
+                "《詩經．小雅．出車》：「天子命我，城彼朔方。」",
+                "《明史．卷三．太祖本紀三》：「是月，城西寧。」"
+              ],
+              "type": "動"
+            }
+          ]
+        }
+      ],
+      "status": "pending-independent-review",
+      "admissionStatus": "candidate-only",
+      "admissionGranted": false,
+      "automaticMeaningAllowed": false,
+      "productionApproved": false
+    },
+    {
+      "candidateId": "m914-naming-data:川:47214:0:0",
+      "char": "川",
+      "pinyin": "chuān",
+      "tone": 1,
+      "traditional": "川",
+      "sourceId": "moe-revised",
+      "dictionaryWord": "川",
+      "rawEntryIndex": 47214,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 0,
+      "dictionarySense": "河流。",
+      "sourcePOS": "名",
+      "meaning": "取河流延展、清流向前的自然意象。",
+      "projectWish": "项目创作：愿你亲近水流与自然，也保有自己的方向。",
+      "projectCultureLabel": "河流延展",
+      "projectCultureLabelBasis": "仅项目文化标签；不代表传统五行定论，不改 dataset-v6 elements 字段。",
+      "limits": [
+        "只取河流义，不采用四川简称或烹饪义。",
+        "水意象是项目标签，不作传统五行定论。"
+      ],
+      "alternativeReadings": [
+        {
+          "index": 0,
+          "pinyin": "chuān",
+          "tone": null,
+          "definitions": [
+            {
+              "def": "河流。",
+              "example": [
+                "如：「河川」。"
+              ],
+              "quote": [
+                "《論語．子罕》：「子在川上曰：『逝者如斯夫，不舍晝夜。』」"
+              ],
+              "type": "名"
+            },
+            {
+              "def": "大陸地區四川省的簡稱。",
+              "type": "名"
+            },
+            {
+              "def": "一種烹飪方法。將食物置於開水中，水一開即刻撈起。",
+              "example": [
+                "如：「川肉片」。"
+              ],
+              "type": "動"
+            }
+          ]
+        }
+      ],
+      "status": "pending-independent-review",
+      "admissionStatus": "candidate-only",
+      "admissionGranted": false,
+      "automaticMeaningAllowed": false,
+      "productionApproved": false
+    },
+    {
+      "candidateId": "m914-naming-data:淳:87393:0:1",
+      "char": "淳",
+      "pinyin": "chún",
+      "tone": 2,
+      "traditional": "淳",
+      "sourceId": "moe-revised",
+      "dictionaryWord": "淳",
+      "rawEntryIndex": 87393,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 1,
+      "dictionarySense": "篤厚、樸實的。",
+      "sourcePOS": "形",
+      "meaning": "取笃厚、朴实的质感与处世意象。",
+      "projectWish": "项目创作：愿你在真实关系中保有朴实与分寸。",
+      "projectCultureLabel": "笃厚朴实",
+      "projectCultureLabelBasis": "仅项目文化标签；不代表传统五行定论，不改 dataset-v6 elements 字段。",
+      "limits": [
+        "固定笃厚、朴实义，不把名字当作道德事实。",
+        "不推导性格、家教或他人评价。"
+      ],
+      "alternativeReadings": [
+        {
+          "index": 0,
+          "pinyin": "chún",
+          "tone": null,
+          "definitions": [
+            {
+              "def": "濃厚。",
+              "quote": [
+                "《紅樓夢．第四一回》：「隔年蠲的雨水，那有這樣輕淳，如何吃得！」"
+              ],
+              "type": "形"
+            },
+            {
+              "def": "篤厚、樸實的。",
+              "example": [
+                "如：「民風淳樸」。"
+              ],
+              "quote": [
+                "唐．白居易〈朱陳村〉詩：「縣遠官事少，山深人俗淳。」"
+              ],
+              "type": "形"
+            },
+            {
+              "def": "質樸。",
+              "quote": [
+                "《淮南子．齊俗》：「衰世之俗，……澆天下之淳，析天下之樸。」",
+                "《漢書．卷八九．循吏傳．黃霸傳》：「澆淳散樸，並行偽貌。」"
+              ],
+              "type": "名"
+            },
+            {
+              "def": "相配對。",
+              "quote": [
+                "《左傳．襄公十一年》：「廣車、軘車，淳十五乘，甲兵備。」"
+              ],
+              "type": "動"
+            }
+          ]
+        }
+      ],
+      "status": "pending-independent-review",
+      "admissionStatus": "candidate-only",
+      "admissionGranted": false,
+      "automaticMeaningAllowed": false,
+      "productionApproved": false
+    },
+    {
+      "candidateId": "m914-naming-data:达:142577:0:2",
+      "char": "达",
+      "pinyin": "dá",
+      "tone": 2,
+      "traditional": "達",
+      "sourceId": "moe-revised",
+      "dictionaryWord": "達",
+      "rawEntryIndex": 142577,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 2,
+      "dictionarySense": "實現、完成。",
+      "sourcePOS": "動",
+      "meaning": "取实现、完成这一行动结果义。",
+      "projectWish": "项目创作：愿你在清楚目标后，拥有调整路径的自由。",
+      "projectCultureLabel": "实现通达",
+      "projectCultureLabelBasis": "仅项目文化标签；不代表传统五行定论，不改 dataset-v6 elements 字段。",
+      "limits": [
+        "只取实现、完成义，不承诺事业、财富或愿望达成。",
+        "不借通行、显达等其他义项作保证。"
+      ],
+      "alternativeReadings": [
+        {
+          "index": 0,
+          "pinyin": "dá",
+          "tone": null,
+          "definitions": [
+            {
+              "def": "通。",
+              "example": [
+                "如：「直達車」、「四通八達」。"
+              ],
+              "quote": [
+                "《呂氏春秋．孟春紀．重己》：「理塞則氣不達，味眾珍則胃充，胃充則中大鞔。」"
+              ],
+              "type": "動"
+            },
+            {
+              "def": "到。",
+              "quote": [
+                "《書經．禹貢》：「浮于淮泗、達于河。」",
+                "唐．杜甫〈月夜憶舍弟〉詩：「寄書長不達，況乃未休兵。」"
+              ],
+              "type": "動"
+            },
+            {
+              "def": "實現、完成。",
+              "example": [
+                "如：「目的已達」。"
+              ],
+              "type": "動"
+            },
+            {
+              "def": "表現。",
+              "example": [
+                "如：「詞不達意」。"
+              ],
+              "type": "動"
+            },
+            {
+              "def": "通曉事理。",
+              "quote": [
+                "《論語．雍也》：「賜也達，於從政乎何有？」"
+              ],
+              "type": "動"
+            },
+            {
+              "def": "告訴。",
+              "example": [
+                "如：「傳達」、「轉達」。"
+              ],
+              "type": "動"
+            },
+            {
+              "def": "顯達、顯貴。",
+              "example": [
+                "如：「達官貴人」。"
+              ],
+              "quote": [
+                "《文選．李密．陳情表》：「本圖宦達，不矜名節。」"
+              ],
+              "type": "形"
+            },
+            {
+              "def": "常行不變。",
+              "example": [
+                "如：「達德」、「達道」。"
+              ],
+              "quote": [
+                "《禮記．三年問》：「夫三年之喪，天下之達喪也。」"
+              ],
+              "type": "形"
+            },
+            {
+              "def": "豁達、宏達。",
+              "example": [
+                "如：「達人」、「達見」。"
+              ],
+              "type": "形"
+            },
+            {
+              "def": "遍。",
+              "quote": [
+                "《書經．召誥》：「若翼日乙卯，周公朝至于洛，則達觀于新邑營。」"
+              ],
+              "type": "副"
+            },
+            {
+              "def": "姓。如春秋時齊國有達子，明代有達云。",
+              "type": "名"
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "pinyin": "tà",
+          "tone": null,
+          "definitions": [
+            {
+              "def": "挑達：(1) 往來自由。《廣韻．入聲．曷韻》：「達，挑達，往來貌。」唐．王維〈贈吳官〉詩：「不如儂家任挑達，草屩撈蝦富春渚。」(2) 行為輕薄放縱。晉．干寶《搜神記．卷五》：「蔣子文者，廣陵人也，嗜酒好色，挑達無度。」也作「佻達」、「佻㒓」。",
+              "type": "形"
+            }
+          ]
+        }
+      ],
+      "status": "pending-independent-review",
+      "admissionStatus": "candidate-only",
+      "admissionGranted": false,
+      "automaticMeaningAllowed": false,
+      "productionApproved": false
+    },
+    {
+      "candidateId": "m914-naming-data:德:52821:0:1",
+      "char": "德",
+      "pinyin": "dé",
+      "tone": 2,
+      "traditional": "德",
+      "sourceId": "moe-revised",
+      "dictionaryWord": "德",
+      "rawEntryIndex": 52821,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 1,
+      "dictionarySense": "品行、作風。",
+      "sourcePOS": "名",
+      "meaning": "取品行、作风这一社会与自我实践意象。",
+      "projectWish": "项目创作：愿你在关系中形成自己的原则，也尊重他人的边界。",
+      "projectCultureLabel": "品行自持",
+      "projectCultureLabelBasis": "仅项目文化标签；不代表传统五行定论，不改 dataset-v6 elements 字段。",
+      "limits": [
+        "项目愿望不证明现实品行或道德优越。",
+        "不把名字转化为家庭义务、评价或命运。"
+      ],
+      "alternativeReadings": [
+        {
+          "index": 0,
+          "pinyin": "dé",
+          "tone": null,
+          "definitions": [
+            {
+              "def": "人類共同遵循的規範。",
+              "quote": [
+                "《論語．述而》：「德之不脩，學之不講。」"
+              ],
+              "type": "名"
+            },
+            {
+              "def": "品行、作風。",
+              "quote": [
+                "《論語．顏淵》：「君子之德風，小人之德草。草上之風必偃。」"
+              ],
+              "type": "名"
+            },
+            {
+              "def": "恩澤、恩惠。",
+              "quote": [
+                "《論語．憲問》：「子曰：『何以報德？以直報怨，以德報德。』」",
+                "《孟子．公孫丑上》：「且以文王之德，百年而後崩，猶未洽於天下。」"
+              ],
+              "type": "名"
+            },
+            {
+              "def": "心意、信念。",
+              "example": [
+                "如：「一心一德」、「離心離德」。"
+              ],
+              "type": "名"
+            },
+            {
+              "def": "德意志聯邦共和國的簡稱。",
+              "type": "名"
+            },
+            {
+              "def": "姓。如漢代西域有德若國，後人以國為姓，簡姓德。",
+              "type": "名"
+            },
+            {
+              "def": "感激、感恩。",
+              "quote": [
+                "《左傳．成公三年》：「王曰：『然則德我乎？』」",
+                "《聊齋志異．卷一．王成》：「主人聞而德之，贈金五兩，慰之使歸。」"
+              ],
+              "type": "動"
+            },
+            {
+              "def": "好的、善的。",
+              "example": [
+                "如：「德政」、「德譽」。"
+              ],
+              "quote": [
+                "《文選．袁宏．三國名臣序贊》：「恂恂德心，汪汪軌度。」"
+              ],
+              "type": "形"
+            }
+          ]
+        }
+      ],
+      "status": "pending-independent-review",
+      "admissionStatus": "candidate-only",
+      "admissionGranted": false,
+      "automaticMeaningAllowed": false,
+      "productionApproved": false
+    },
+    {
+      "candidateId": "m914-naming-data:冬:17795:0:0",
+      "char": "冬",
+      "pinyin": "dōng",
+      "tone": 1,
+      "traditional": "冬",
+      "sourceId": "moe-revised",
+      "dictionaryWord": "冬",
+      "rawEntryIndex": 17795,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 0,
+      "dictionarySense": "一年四季中的最後一季。農曆指立冬至立春的時期，一般而言氣溫較低。若以北半球氣候論，概指十一月或十二月至翌年的二月或三月期間。",
+      "sourcePOS": "名",
+      "meaning": "取一年四季最后一季的时序与自然意象。",
+      "projectWish": "项目创作：愿你尊重季节变化，也给自己留出沉静的阶段。",
+      "projectCultureLabel": "冬季时序",
+      "projectCultureLabelBasis": "仅项目文化标签；不代表传统五行定论，不改 dataset-v6 elements 字段。",
+      "limits": [
+        "只取季节义，不把冬解释为衰败、寒苦或命运信号。",
+        "不推导健康、性格或人生阶段。"
+      ],
+      "alternativeReadings": [
+        {
+          "index": 0,
+          "pinyin": "dōng",
+          "tone": null,
+          "definitions": [
+            {
+              "def": "一年四季中的最後一季。農曆指立冬至立春的時期，一般而言氣溫較低。若以北半球氣候論，概指十一月或十二月至翌年的二月或三月期間。",
+              "example": [
+                "如：「寒冬」、「殘冬」、「冬天」。"
+              ],
+              "type": "名"
+            },
+            {
+              "def": "閩南方言。代表一年的時間。",
+              "example": [
+                "如：「兩冬」、「三冬」。"
+              ],
+              "type": "名"
+            },
+            {
+              "def": "姓。如三國時有冬逢。",
+              "type": "名"
+            }
+          ]
+        }
+      ],
+      "status": "pending-independent-review",
+      "admissionStatus": "candidate-only",
+      "admissionGranted": false,
+      "automaticMeaningAllowed": false,
+      "productionApproved": false
+    },
+    {
+      "candidateId": "m914-naming-data:端:108859:0:1",
+      "char": "端",
+      "pinyin": "duān",
+      "tone": 1,
+      "traditional": "端",
+      "sourceId": "moe-revised",
+      "dictionaryWord": "端",
+      "rawEntryIndex": 108859,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 1,
+      "dictionarySense": "事物的起始。",
+      "sourcePOS": "名",
+      "meaning": "取事物起始、开端的时间与过程意象。",
+      "projectWish": "项目创作：愿你珍惜每个开始，也能重新选择方向。",
+      "projectCultureLabel": "开端起步",
+      "projectCultureLabelBasis": "仅项目文化标签；不代表传统五行定论，不改 dataset-v6 elements 字段。",
+      "limits": [
+        "固定起始义，不替代端正、端午等其他义项。",
+        "开始意象不保证过程或结果。"
+      ],
+      "alternativeReadings": [
+        {
+          "index": 0,
+          "pinyin": "duān",
+          "tone": null,
+          "definitions": [
+            {
+              "def": "事物的兩頭皆稱為「端」。",
+              "example": [
+                "如：「尖端」、「末端」、「筆端」。"
+              ],
+              "quote": [
+                "《論語．子罕》：「我叩其兩端而竭焉。」"
+              ],
+              "type": "名"
+            },
+            {
+              "def": "事物的起始。",
+              "example": [
+                "如：「開端」、「發端」、「挑起戰端」。"
+              ],
+              "quote": [
+                "《孟子．公孫丑》：「惻隱之心，仁之端也。」"
+              ],
+              "type": "名"
+            },
+            {
+              "def": "項目、方面。",
+              "example": [
+                "如：「鬼計多端」、「變化萬端」、「舉其一端」。"
+              ],
+              "type": "名"
+            },
+            {
+              "def": "心思、思緒。",
+              "quote": [
+                "南朝宋．劉義慶《世說新語．言語》：「衛洗馬初欲渡江，形神慘悴語左右云：『見此芒芒，不覺百端交集。』」",
+                "唐．杜甫〈自京赴奉先縣詠懷五百字〉詩：「憂端齊終南，澒洞不可掇。」"
+              ],
+              "type": "名"
+            },
+            {
+              "def": "古代布帛的長度單位。通常一端約等於一疋。",
+              "quote": [
+                "《初刻拍案驚奇．卷一》：「除了文若虛，每人送緞子二端。」"
+              ],
+              "type": "名"
+            },
+            {
+              "def": "姓。如明代有端孝思。",
+              "type": "名"
+            },
+            {
+              "def": "正、正直。",
+              "example": [
+                "如：「品行不端」。"
+              ],
+              "quote": [
+                "《禮記．玉藻》：「目容端，口容止。」",
+                "《孟子．離婁下》：「夫尹公之他，端人也，其取友必端矣。」"
+              ],
+              "type": "形"
+            },
+            {
+              "def": "以手托物。",
+              "example": [
+                "如：「端碗」、「端菜上桌」。"
+              ],
+              "type": "動"
+            },
+            {
+              "def": "擺。",
+              "example": [
+                "如：「端架子」、「把問題都端出檯面上討論。」"
+              ],
+              "type": "動"
+            },
+            {
+              "def": "到底、究竟。",
+              "quote": [
+                "宋．王安石〈龍泉寺石井〉詩二首之二：「四海旱多霖雨少，此中端有臥龍無？」",
+                "宋．陸游〈幽事〉詩：「餘年端有幾？風月且婆娑。」"
+              ],
+              "type": "副"
+            },
+            {
+              "def": "果真。",
+              "quote": [
+                "宋．蘇軾〈水龍吟．小舟橫截春江〉詞：「武昌南岸，昔遊應記。料多情夢裡，端來見我，也參差是。」"
+              ],
+              "type": "副"
+            }
+          ]
+        }
+      ],
+      "status": "pending-independent-review",
+      "admissionStatus": "candidate-only",
+      "admissionGranted": false,
+      "automaticMeaningAllowed": false,
+      "productionApproved": false
+    },
+    {
+      "candidateId": "m914-naming-data:恩:54550:0:1",
+      "char": "恩",
+      "pinyin": "ēn",
+      "tone": 1,
+      "traditional": "恩",
+      "sourceId": "moe-revised",
+      "dictionaryWord": "恩",
+      "rawEntryIndex": 54550,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 1,
+      "dictionarySense": "情愛。",
+      "sourcePOS": "名",
+      "meaning": "取情爱与关怀关系的意象。",
+      "projectWish": "项目创作：愿你感受被尊重的情感，也能照顾自己的需要。",
+      "projectCultureLabel": "情爱关怀",
+      "projectCultureLabelBasis": "仅项目文化标签；不代表传统五行定论，不改 dataset-v6 elements 字段。",
+      "limits": [
+        "固定情爱义，不把名字变成孝亲、报恩或家庭义务。",
+        "不推导关系结果或道德评价。"
+      ],
+      "alternativeReadings": [
+        {
+          "index": 0,
+          "pinyin": "ēn",
+          "tone": null,
+          "definitions": [
+            {
+              "def": "他人給我或我給他人的幫助。",
+              "example": [
+                "如：「感恩」、「大恩大德」。"
+              ],
+              "type": "名"
+            },
+            {
+              "def": "情愛。",
+              "quote": [
+                "唐．白居易〈後宮詞〉：「紅顏未老恩先斷，斜倚薰籠坐到明。」",
+                "清．洪昇《長生殿．第三七齣》：「記盒釵初賜，種下這恩深厚。」"
+              ],
+              "type": "名"
+            },
+            {
+              "def": "有德澤的。",
+              "example": [
+                "如：「恩師」、「救命恩人」。"
+              ],
+              "type": "形"
+            },
+            {
+              "def": "國家有特殊慶典而特別舉辦的。",
+              "example": [
+                "如：「恩詔」、「恩科」。"
+              ],
+              "type": "形"
+            }
+          ]
+        }
+      ],
+      "status": "pending-independent-review",
+      "admissionStatus": "candidate-only",
+      "admissionGranted": false,
+      "automaticMeaningAllowed": false,
+      "productionApproved": false
+    },
+    {
+      "candidateId": "m914-naming-data:方:69546:0:1",
+      "char": "方",
+      "pinyin": "fāng",
+      "tone": 1,
+      "traditional": "方",
+      "sourceId": "moe-revised",
+      "dictionaryWord": "方",
+      "rawEntryIndex": 69546,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 1,
+      "dictionarySense": "區域。",
+      "sourcePOS": "名",
+      "meaning": "取区域、空间与方向的意象。",
+      "projectWish": "项目创作：愿你在不同空间中找到适合自己的位置。",
+      "projectCultureLabel": "空间方向",
+      "projectCultureLabelBasis": "仅项目文化标签；不代表传统五行定论，不改 dataset-v6 elements 字段。",
+      "limits": [
+        "只取区域义，不借方形、药方、方法等其他义项。",
+        "空间标签不推导地位、方向选择或命运。"
+      ],
+      "alternativeReadings": [
+        {
+          "index": 0,
+          "pinyin": "fāng",
+          "tone": null,
+          "definitions": [
+            {
+              "def": "四個角都是九十度的四邊形。",
+              "example": [
+                "如：「正方形」、「長方形」。"
+              ],
+              "type": "名"
+            },
+            {
+              "def": "區域。",
+              "example": [
+                "如：「地方」、「遠方」。"
+              ],
+              "type": "名"
+            },
+            {
+              "def": "古代稱地為「方」。",
+              "quote": [
+                "《淮南子．本經》：「戴圓履方，抱表懷繩。」",
+                "漢．高誘．注：「圓，天也；方，地也。」"
+              ],
+              "type": "名"
+            },
+            {
+              "def": "位置、地位的一邊或一面。",
+              "example": [
+                "如：「東方」、「四面八方」、「對方」、「我方」、「雙方」。"
+              ],
+              "type": "名"
+            },
+            {
+              "def": "法子、辦法。",
+              "example": [
+                "如：「方法」、「千方百計」、「教導有方」。"
+              ],
+              "type": "名"
+            },
+            {
+              "def": "治病的藥單、配藥的單子。",
+              "example": [
+                "如：「藥方」、「偏方」、「祕方」、「處方」。"
+              ],
+              "quote": [
+                "《鏡花緣．第二九回》：「此跌打損傷第一奇方。」"
+              ],
+              "type": "名"
+            },
+            {
+              "def": "數學上的乘方。",
+              "example": [
+                "如：「平方」、「立方」。"
+              ],
+              "type": "名"
+            },
+            {
+              "def": "量詞。計算方形物品的單位。相當於「塊」、「個」。",
+              "example": [
+                "如：「匾額一方」、「一方手帕」、「三方圖章」。"
+              ],
+              "type": "名"
+            },
+            {
+              "def": "姓。如明代有方孝孺。",
+              "type": "名"
+            },
+            {
+              "def": " 二一四部首之一。",
+              "type": "名"
+            },
+            {
+              "def": "方形的。如 :「方桌」、「方陣」。",
+              "type": "形"
+            },
+            {
+              "def": "某一地的。",
+              "example": [
+                "如：「方音」、「方言」、「方志」。"
+              ],
+              "type": "形"
+            },
+            {
+              "def": "正直。",
+              "example": [
+                "如：「品行方正」。"
+              ],
+              "quote": [
+                "《老子．第五八章》：「是以聖人方而不割，廉而不劌。」",
+                "《漢書．卷五六．董仲舒傳》：「悼王道之不昭，故舉賢良方正之士。」"
+              ],
+              "type": "形"
+            },
+            {
+              "def": "才、始。",
+              "example": [
+                "如：「書到用時方恨少」、「如夢方醒」。"
+              ],
+              "quote": [
+                "《紅樓夢．第四回》：「今年方四十上下，只有薛蟠一子。」"
+              ],
+              "type": "副"
+            },
+            {
+              "def": "正、適。",
+              "example": [
+                "如：「來日方長」、「方興未艾」。"
+              ],
+              "quote": [
+                "《論語．季氏》：「及其壯也，血氣方剛，戒之在鬥。」"
+              ],
+              "type": "副"
+            },
+            {
+              "def": "將。",
+              "quote": [
+                "《後漢書．卷一七．馮異傳》：「璽書勞異曰：『方論功賞，以答大勛。』」",
+                "《資治通鑑．卷六五．漢紀五十七．獻帝建安十三年》：「今治水軍八十萬眾，方與將軍會獵於吳。」"
+              ],
+              "type": "副"
+            },
+            {
+              "def": "當、在。",
+              "quote": [
+                "《莊子．人間世》：「方今之時，僅免刑焉。」",
+                "《漢書．卷六六．楊敞傳》：「惲家方隆盛時，乘朱輪者十人。」"
+              ],
+              "type": "介"
+            }
+          ]
+        }
+      ],
+      "status": "pending-independent-review",
+      "admissionStatus": "candidate-only",
+      "admissionGranted": false,
+      "automaticMeaningAllowed": false,
+      "productionApproved": false
+    },
+    {
+      "candidateId": "m914-naming-data:锋:146581:0:1",
+      "char": "锋",
+      "pinyin": "fēng",
+      "tone": 1,
+      "traditional": "鋒",
+      "sourceId": "moe-revised",
+      "dictionaryWord": "鋒",
+      "rawEntryIndex": 146581,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 1,
+      "dictionarySense": "泛指器物的尖端部分。",
+      "sourcePOS": "名",
+      "meaning": "取器物尖端、边缘与清晰界面的意象。",
+      "projectWish": "项目创作：愿你有辨识边界的清晰感，也保有柔软。",
+      "projectCultureLabel": "锋端边界",
+      "projectCultureLabelBasis": "仅项目文化标签；不代表传统五行定论，不改 dataset-v6 elements 字段。",
+      "limits": [
+        "固定器物尖端义，不借兵器、军队前列或竞争胜负义。",
+        "不推导攻击性、勇武或成就。"
+      ],
+      "alternativeReadings": [
+        {
+          "index": 0,
+          "pinyin": "fēng",
+          "tone": null,
+          "definitions": [
+            {
+              "def": "兵器銳利的部分。",
+              "example": [
+                "如：「刀鋒」、「劍鋒」。"
+              ],
+              "type": "名"
+            },
+            {
+              "def": "泛指器物的尖端部分。",
+              "example": [
+                "如：「筆鋒」、「針鋒」。"
+              ],
+              "type": "名"
+            },
+            {
+              "def": "借指刀、劍等兵器。",
+              "quote": [
+                "《史記．卷九二．淮陰侯傳》：「且天下銳精持鋒欲為陛下所為者甚眾，顧力不能耳。」",
+                "晉．陸機〈從軍行〉：「飛鋒無絕影，鳴鏑自相和。」"
+              ],
+              "type": "名"
+            },
+            {
+              "def": "軍隊的前列或在前領導的人。",
+              "example": [
+                "如：「先鋒」、「前鋒」。"
+              ],
+              "type": "名"
+            },
+            {
+              "def": "銳利的情勢。",
+              "example": [
+                "如：「詞鋒」、「禪鋒」。"
+              ],
+              "quote": [
+                "《史記．卷九二．淮陰侯傳》：「此乘勝而去國遠鬥，其鋒不可當。」"
+              ],
+              "type": "名"
+            },
+            {
+              "def": "氣象學上指密度、溫度、溼度等性質不同的兩氣團間之交界面或交替帶。",
+              "example": [
+                "如：「冷鋒」、「暖鋒」。"
+              ],
+              "type": "名"
+            },
+            {
+              "def": "銳利的。",
+              "example": [
+                "如：「鋒刃」。"
+              ],
+              "type": "形"
+            }
+          ]
+        }
+      ],
+      "status": "pending-independent-review",
+      "admissionStatus": "candidate-only",
+      "admissionGranted": false,
+      "automaticMeaningAllowed": false,
+      "productionApproved": false
+    },
+    {
+      "candidateId": "m914-naming-data:含:27258:0:2",
+      "char": "含",
+      "pinyin": "hán",
+      "tone": 2,
+      "traditional": "含",
+      "sourceId": "moe-revised",
+      "dictionaryWord": "含",
+      "rawEntryIndex": 27258,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 2,
+      "dictionarySense": "包容、容納。",
+      "sourcePOS": "動",
+      "meaning": "取包容、容纳与承接空间的意象。",
+      "projectWish": "项目创作：愿你理解不同经验，也能保有自己的边界。",
+      "projectCultureLabel": "包容边界",
+      "projectCultureLabelBasis": "仅项目文化标签；不代表传统五行定论，不改 dataset-v6 elements 字段。",
+      "limits": [
+        "固定包容、容纳义，不转化为无条件承受。",
+        "不推导性格、能力或关系义务。"
+      ],
+      "alternativeReadings": [
+        {
+          "index": 0,
+          "pinyin": "hán",
+          "tone": null,
+          "definitions": [
+            {
+              "def": "東西銜在嘴裡，不吐出也不吞下。",
+              "example": [
+                "如：「含著藥片。」"
+              ],
+              "quote": [
+                "漢．劉熙《釋名．釋飲食》：「含，合也，合口亭之也。」",
+                "《史記．卷十三．三代世表》：「有燕銜卵墮之，契母得，故含之，誤吞之，即生契。」"
+              ],
+              "type": "動"
+            },
+            {
+              "def": "裡面藏著，存在著。",
+              "example": [
+                "如：「含水分」、「含養分」、「含苞待放」。"
+              ],
+              "quote": [
+                "《文選．宋玉．登徒子好色賦》：「此郊之姝，華色含光，體美容冶，不待飾裝。」"
+              ],
+              "type": "動"
+            },
+            {
+              "def": "包容、容納。",
+              "example": [
+                "如：「包含」。"
+              ],
+              "quote": [
+                "《易經．坤卦．文言曰》：「後得主而有常，含萬物而化光。」",
+                "唐．杜甫〈絕句四首〉之三：「窗含西嶺千秋雪，門泊東吳萬里船。」"
+              ],
+              "type": "動"
+            },
+            {
+              "def": "懷著。",
+              "example": [
+                "如：「含怒」、「含恨」、「含羞帶怯」、「含情脈脈」。"
+              ],
+              "quote": [
+                "唐．沈佺期〈古意呈補闕喬知之〉詩：「誰謂含愁獨不見，更教明月照流黃。」"
+              ],
+              "type": "動"
+            },
+            {
+              "def": "忍受、忍耐。",
+              "example": [
+                "如：「茹苦含辛」。"
+              ],
+              "quote": [
+                "宋．胡銓〈戊午上高宗封事〉：「含垢忍恥，與天下而臣之，甘心焉。」"
+              ],
+              "type": "動"
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "pinyin": "hàn",
+          "tone": null,
+          "definitions": [
+            {
+              "def": "古代塞在死者嘴裡的珠玉。",
+              "link": [
+                "通「琀」。"
+              ],
+              "quote": [
+                "《廣韻．去聲．勘韻》：「琀，送死口中玉。亦作含。」",
+                "《公羊傳．文公五年》：「含者何，口實也。」",
+                "漢．何休．解詁：「緣生以事死，不忍虛其口。天子以珠，諸侯以玉，大夫以碧，士以貝，春秋之制也。」",
+                "《戰國策．趙策三》：「鄒、魯之臣，生不得事養，死則不得飯含。」"
+              ],
+              "type": "名"
+            },
+            {
+              "def": "一種古代禮俗。將珠玉塞在死者的嘴裡，稱為「含」。",
+              "quote": [
+                "《左傳．襄公十九年》：「二月甲寅，（荀偃）卒，而視，不可含。」",
+                "《禮記．檀弓下》：「邾婁考公之喪，徐君使容居來弔，含。」"
+              ],
+              "type": "動"
+            }
+          ]
+        }
+      ],
+      "status": "pending-independent-review",
+      "admissionStatus": "candidate-only",
+      "admissionGranted": false,
+      "automaticMeaningAllowed": false,
+      "productionApproved": false
+    },
+    {
+      "candidateId": "m914-naming-data:浩:85945:0:1",
+      "char": "浩",
+      "pinyin": "hào",
+      "tone": 4,
+      "traditional": "浩",
+      "sourceId": "moe-revised",
+      "dictionaryWord": "浩",
+      "rawEntryIndex": 85945,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 1,
+      "dictionarySense": "大、廣大。",
+      "sourcePOS": "形",
+      "meaning": "取广大、开阔的空间与视野意象。",
+      "projectWish": "项目创作：愿你保持开阔视野，也能选择具体而踏实的方向。",
+      "projectCultureLabel": "广大视野",
+      "projectCultureLabelBasis": "仅项目文化标签；不代表传统五行定论，不改 dataset-v6 elements 字段。",
+      "limits": [
+        "固定广大义，不把名字转成格局、成就或气势保证。",
+        "不借水势盛大等其他义项作命运解释。"
+      ],
+      "alternativeReadings": [
+        {
+          "index": 0,
+          "pinyin": "hào",
+          "tone": null,
+          "definitions": [
+            {
+              "def": "水勢盛大。",
+              "example": [
+                "如：「浩瀚江河」、「水勢浩淼」。"
+              ],
+              "quote": [
+                "明．張自烈《正字通．水部》：「浩，大水盛貌。」",
+                "《書經．堯典》：「湯湯洪水方割，蕩蕩懷山襄陵，浩浩滔天。」"
+              ],
+              "type": "形"
+            },
+            {
+              "def": "大、廣大。",
+              "example": [
+                "如：「浩劫」、「浩氣長存」。"
+              ],
+              "quote": [
+                "唐．韋應物〈夕次盱眙縣〉詩：「浩浩風起波，冥冥日沉夕。」",
+                "明．宋濂〈謝翱傳〉：「然其志汗漫超越，浩不可禦。」"
+              ],
+              "type": "形"
+            },
+            {
+              "def": "繁多、眾多。",
+              "example": [
+                "如：「費用浩繁」、「浩如煙海」。"
+              ],
+              "type": "形"
+            },
+            {
+              "def": "參見「浩浩」條。",
+              "type": "形"
+            },
+            {
+              "def": "姓。如漢代有浩賞。",
+              "type": "名"
+            }
+          ]
+        }
+      ],
+      "status": "pending-independent-review",
+      "admissionStatus": "candidate-only",
+      "admissionGranted": false,
+      "automaticMeaningAllowed": false,
+      "productionApproved": false
+    },
+    {
+      "candidateId": "m914-naming-data:恒:54370:0:0",
+      "char": "恒",
+      "pinyin": "héng",
+      "tone": 2,
+      "traditional": "恆",
+      "sourceId": "moe-revised",
+      "dictionaryWord": "恆",
+      "rawEntryIndex": 54370,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 0,
+      "dictionarySense": "長久的、不變的。",
+      "sourcePOS": "形",
+      "meaning": "取长久、不变的时间与持续意象。",
+      "projectWish": "项目创作：愿你在重要事情上找到适合自己的持续节奏。",
+      "projectCultureLabel": "长久持续",
+      "projectCultureLabelBasis": "仅项目文化标签；不代表传统五行定论，不改 dataset-v6 elements 字段。",
+      "limits": [
+        "固定长久不变义，不保证关系、健康或事业永久不变。",
+        "不把卦名义当作个人命运判断。"
+      ],
+      "alternativeReadings": [
+        {
+          "index": 0,
+          "pinyin": "héng",
+          "tone": null,
+          "definitions": [
+            {
+              "def": "長久的、不變的。",
+              "example": [
+                "如：「恆心」。"
+              ],
+              "quote": [
+                "《孟子．梁惠王上》：「無恆產而有恆心者，惟士為能。」",
+                "南朝梁．劉勰《文心雕龍．物色》：「然物有恆姿，而思無定檢。」"
+              ],
+              "type": "形"
+            },
+            {
+              "def": "平常的、普通的。",
+              "quote": [
+                "《莊子．大宗師》：「是恆物之大情也。」",
+                "《後漢書．卷八三．逸民傳．梁鴻傳》：「鄰家耆老，見鴻非恆人，乃共責讓主人，而稱鴻長者。」"
+              ],
+              "type": "形"
+            },
+            {
+              "def": "長久不變的意志。",
+              "example": [
+                "如：「持之以恆」。"
+              ],
+              "quote": [
+                "《論語．子路》：「人而無恆，不可以作巫醫。」",
+                "《文選．崔瑗．座右銘》：「行之苟有恆，久久自芬芳。」"
+              ],
+              "type": "名"
+            },
+            {
+              "def": "《易經》卦名。六十四卦之一。巽（☴）下震（☳）上。表長久不變之道。",
+              "type": "名"
+            },
+            {
+              "def": "姓。如漢代有恆奕。",
+              "type": "名"
+            },
+            {
+              "def": "經常。",
+              "quote": [
+                "《書經．伊訓》：「敢有恆舞於宮，酣歌於室，時謂巫風。」",
+                "《晉書．卷九四．隱逸傳．陶潛傳》：「性嗜酒，而家貧不能恆得。」"
+              ],
+              "type": "副"
+            }
+          ]
+        }
+      ],
+      "status": "pending-independent-review",
+      "admissionStatus": "candidate-only",
+      "admissionGranted": false,
+      "automaticMeaningAllowed": false,
+      "productionApproved": false
+    },
+    {
+      "candidateId": "m914-naming-data:宏:42113:0:0",
+      "char": "宏",
+      "pinyin": "hóng",
+      "tone": 2,
+      "traditional": "宏",
+      "sourceId": "moe-revised",
+      "dictionaryWord": "宏",
+      "rawEntryIndex": 42113,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 0,
+      "dictionarySense": "廣博、深遠、遠大。",
+      "sourcePOS": "形",
+      "meaning": "取广博、深远、远大的空间与愿景意象。",
+      "projectWish": "项目创作：愿你拥有远景，也能按自己的步子落地。",
+      "projectCultureLabel": "深远愿景",
+      "projectCultureLabelBasis": "仅项目文化标签；不代表传统五行定论，不改 dataset-v6 elements 字段。",
+      "limits": [
+        "固定广博深远义，不推导宏大成就或社会地位。",
+        "项目愿望不替代具体规划和现实行动。"
+      ],
+      "alternativeReadings": [
+        {
+          "index": 0,
+          "pinyin": "hóng",
+          "tone": null,
+          "definitions": [
+            {
+              "def": "廣博、深遠、遠大。",
+              "example": [
+                "如：「宏大」、「宏偉」、「寬宏大量」。"
+              ],
+              "quote": [
+                "《三國志．卷二一 ．魏書．傅嘏傳》：「蓋聞帝制宏深，聖道奧遠。」"
+              ],
+              "type": "形"
+            },
+            {
+              "def": "聲音響亮。",
+              "example": [
+                "如：「哭聲宏亮」。"
+              ],
+              "quote": [
+                "《周禮．冬官考工記．梓人》：「其聲大而宏，有力而不能走。」"
+              ],
+              "type": "形"
+            },
+            {
+              "def": "擴大、光大。",
+              "quote": [
+                "《文選．潘岳．楊荊州誄》：「將宏王略，肅清荒遐。」"
+              ],
+              "type": "動"
+            },
+            {
+              "def": "姓。如明代有宏承。",
+              "type": "名"
+            }
+          ]
+        }
+      ],
+      "status": "pending-independent-review",
+      "admissionStatus": "candidate-only",
+      "admissionGranted": false,
+      "automaticMeaningAllowed": false,
+      "productionApproved": false
+    },
+    {
+      "candidateId": "m914-naming-data:鸿:160493:0:2",
+      "char": "鸿",
+      "pinyin": "hóng",
+      "tone": 2,
+      "traditional": "鴻",
+      "sourceId": "moe-revised",
+      "dictionaryWord": "鴻",
+      "rawEntryIndex": 160493,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 2,
+      "dictionarySense": "大、盛。",
+      "sourcePOS": "形",
+      "meaning": "取大、盛的开阔意象。",
+      "projectWish": "项目创作：愿你在丰富经验中保持开阔，也尊重自己的节奏。",
+      "projectCultureLabel": "广大丰盛",
+      "projectCultureLabelBasis": "仅项目文化标签；不代表传统五行定论，不改 dataset-v6 elements 字段。",
+      "limits": [
+        "固定大、盛义，不借鸿雁、书信或崇高声名义。",
+        "不承诺财富、成就或人生规模。"
+      ],
+      "alternativeReadings": [
+        {
+          "index": 0,
+          "pinyin": "hóng",
+          "tone": null,
+          "definitions": [
+            {
+              "def": "動物名。鳥綱雁形目。體型較雁大，背頸灰色，翅黑色，腹白色。",
+              "type": "名"
+            },
+            {
+              "def": "借指書信。",
+              "example": [
+                "如：「來鴻」。"
+              ],
+              "quote": [
+                "元．王實甫《西廂記．第三本．第一折》：「自別顏範，鴻稀鱗絕，悲愴不勝。」"
+              ],
+              "type": "名"
+            },
+            {
+              "def": "大、盛。",
+              "example": [
+                "如：「鴻願」、「鴻志」、「鴻恩」、「鴻圖大展」。"
+              ],
+              "link": [
+                "通「洪」、「宏」、「弘」。"
+              ],
+              "type": "形"
+            }
+          ]
+        }
+      ],
+      "status": "pending-independent-review",
+      "admissionStatus": "candidate-only",
+      "admissionGranted": false,
+      "automaticMeaningAllowed": false,
+      "productionApproved": false
+    }
+  ]
+}

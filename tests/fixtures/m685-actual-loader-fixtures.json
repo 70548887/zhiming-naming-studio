@@ -1,0 +1,676 @@
+{
+  "alternate": {
+    "input": {
+      "char": "知",
+      "pinyin": "zhì",
+      "tone": 4
+    },
+    "result": {
+      "schema": "single-character-meaning-options/1",
+      "char": "知",
+      "pinyin": "zhì",
+      "status": "available",
+      "scope": "on-request-supplement-only",
+      "options": [
+        {
+          "char": "知",
+          "pinyin": "zhì",
+          "tone": 4,
+          "defaultReading": {
+            "pinyin": "zhī",
+            "tone": 1,
+            "word": "知",
+            "meanings": [
+              "明白、了解、察覺。",
+              "識別、區別。",
+              "相交、交往。",
+              "招待、禮遇、賞識。",
+              "掌管、主持。",
+              "識見、學問。",
+              "意識、感覺。",
+              "知己、朋友。"
+            ]
+          },
+          "meaning": "取智慧的辞书义项意象。",
+          "source": {
+            "sourceId": "moe-revised",
+            "word": "知",
+            "pinyin": "zhì",
+            "tone": 4,
+            "definition": {
+              "def": "智慧。",
+              "link": [
+                "同「智」。"
+              ],
+              "quote": [
+                "《論語．里仁》：「里仁為美，擇不處仁焉得知？」",
+                "《禮記．中庸》：「知仁勇三者，天下之達德也。」"
+              ],
+              "type": "名"
+            },
+            "sourcePOS": "名",
+            "readings": [
+              {
+                "pinyin": "zhī",
+                "tone": 1,
+                "meanings": [
+                  "明白、了解、察覺。",
+                  "識別、區別。",
+                  "相交、交往。",
+                  "招待、禮遇、賞識。",
+                  "掌管、主持。",
+                  "識見、學問。",
+                  "意識、感覺。",
+                  "知己、朋友。"
+                ],
+                "sourceId": "moe-revised",
+                "word": "知"
+              },
+              {
+                "pinyin": "zhì",
+                "tone": 4,
+                "meanings": [
+                  "智慧。",
+                  "姓。如春秋時晉國有知罃。"
+                ],
+                "sourceId": "moe-revised",
+                "word": "知"
+              }
+            ],
+            "originalFile": "raw/moe-revised.json.gz",
+            "rawEntryIndex": 103895,
+            "rawHeteronymIndex": 1,
+            "rawDefinitionIndex": 0,
+            "parsedEntrySha256": "8691db90a8ef05e80c9edc9f9544ddf5e5a50c3621a6b756ed8091af7ababc8d",
+            "license": "CC-BY-ND-3.0-TW",
+            "completeOriginalEntry": {
+              "heteronyms": [
+                {
+                  "bopomofo": "ㄓ",
+                  "definitions": [
+                    {
+                      "def": "明白、了解、察覺。",
+                      "example": [
+                        "如：「相知相許」。"
+                      ],
+                      "quote": [
+                        "唐．李紳〈古風〉詩二首之二：「誰知盤中餐，粒粒皆辛苦。」"
+                      ],
+                      "type": "動"
+                    },
+                    {
+                      "def": "識別、區別。",
+                      "quote": [
+                        "《禮記．樂記》：「知樂則幾於禮矣。」",
+                        "《淮南子．脩務》：「孿子之相似者，唯其母能知之。」"
+                      ],
+                      "type": "動"
+                    },
+                    {
+                      "def": "相交、交往。",
+                      "quote": [
+                        "《左傳．昭公四年》：「公孫明知叔孫於齊。」",
+                        "《荀子．不苟》：「君子易知而難狎。」"
+                      ],
+                      "type": "動"
+                    },
+                    {
+                      "def": "招待、禮遇、賞識。",
+                      "quote": [
+                        "《南史．卷一九．謝靈運傳》：「自謂才能宜參權要，既不見知，常懷慎惋。」",
+                        "唐．岑參〈北庭西郊候封大夫受降回軍獻上〉詩：「何幸一書生，忽蒙國士知。」"
+                      ],
+                      "type": "動"
+                    },
+                    {
+                      "def": "掌管、主持。",
+                      "quote": [
+                        "《國語．越語》：「有能助寡人謀而退吳者，吾與之共知越國之政。」",
+                        "《新唐書．卷八五．王世充傳》：「帝愛昵之，拜江都通守，兼知宮監事。」"
+                      ],
+                      "type": "動"
+                    },
+                    {
+                      "def": "識見、學問。",
+                      "example": [
+                        "如：「求知」、「真知灼見」。"
+                      ],
+                      "quote": [
+                        "《論語．子罕》：「吾有知乎哉？無知也。」"
+                      ],
+                      "type": "名"
+                    },
+                    {
+                      "def": "意識、感覺。",
+                      "quote": [
+                        "《荀子．王制》：「草木有生而無知。」",
+                        "漢．范縝〈神滅論〉：「手等亦應能有痛癢之知。」"
+                      ],
+                      "type": "名"
+                    },
+                    {
+                      "def": "知己、朋友。",
+                      "example": [
+                        "如：「故知」、「舊雨新知」。"
+                      ],
+                      "type": "名"
+                    }
+                  ],
+                  "pinyin": "zhī"
+                },
+                {
+                  "bopomofo": "ㄓˋ",
+                  "definitions": [
+                    {
+                      "def": "智慧。",
+                      "link": [
+                        "同「智」。"
+                      ],
+                      "quote": [
+                        "《論語．里仁》：「里仁為美，擇不處仁焉得知？」",
+                        "《禮記．中庸》：「知仁勇三者，天下之達德也。」"
+                      ],
+                      "type": "名"
+                    },
+                    {
+                      "def": "姓。如春秋時晉國有知罃。",
+                      "type": "名"
+                    }
+                  ],
+                  "pinyin": "zhì"
+                }
+              ],
+              "non_radical_stroke_count": 3,
+              "radical": "矢",
+              "stroke_count": 8,
+              "title": "知"
+            }
+          },
+          "project": {
+            "meaning": "取智慧的辞书义项意象。",
+            "projectWish": null,
+            "limits": [
+              "不把字面义当作智力测量或学业结果。",
+              "不得混用 zhī 知晓、交往等义。"
+            ],
+            "attribution": "M616-D02 independent direct-reading explanation",
+            "license": "CC0-1.0"
+          },
+          "limits": [
+            "不把字面义当作智力测量或学业结果。",
+            "不得混用 zhī 知晓、交往等义。"
+          ],
+          "batch": {
+            "batchId": "M616-D02",
+            "sourceId": "naming-character-meanings-m616-candidate",
+            "publicationState": "candidate-source-verified-not-admitted",
+            "admission": "candidate-awaiting-independent-review",
+            "activation": "off",
+            "candidateOnly": true,
+            "productionApproved": false
+          },
+          "scope": "on-request-supplement-only",
+          "wholeNameMeaning": null,
+          "automaticNameRecommendation": false,
+          "automaticSemanticCreditAllowed": false,
+          "scoreDelta": 0
+        }
+      ],
+      "source": {
+        "batchId": "M616-D02",
+        "sourceId": "naming-character-meanings-m616-candidate",
+        "publicationState": "candidate-source-verified-not-admitted",
+        "admission": "candidate-awaiting-independent-review",
+        "activation": "off",
+        "candidateOnly": true,
+        "productionApproved": false
+      },
+      "limits": [
+        "不把字面义当作智力测量或学业结果。",
+        "不得混用 zhī 知晓、交往等义。"
+      ],
+      "wholeNameMeaning": null,
+      "automaticNameRecommendation": false,
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0
+    }
+  },
+  "ambiguousNoTone": {
+    "input": {
+      "char": "知",
+      "pinyin": "zhì"
+    },
+    "result": {
+      "schema": "single-character-meaning-options/1",
+      "char": "知",
+      "pinyin": "zhì",
+      "status": "ambiguous-reading",
+      "scope": "on-request-supplement-only",
+      "options": [],
+      "source": null,
+      "limits": [],
+      "wholeNameMeaning": null,
+      "automaticNameRecommendation": false,
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0
+    }
+  },
+  "ambiguous": {
+    "input": {
+      "char": "知"
+    },
+    "result": {
+      "schema": "single-character-meaning-options/1",
+      "char": "知",
+      "pinyin": null,
+      "status": "ambiguous-reading",
+      "scope": "on-request-supplement-only",
+      "options": [],
+      "source": null,
+      "limits": [],
+      "wholeNameMeaning": null,
+      "automaticNameRecommendation": false,
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0
+    }
+  },
+  "defaultMismatch": {
+    "input": {
+      "char": "知",
+      "pinyin": "zhī",
+      "tone": 1
+    },
+    "result": {
+      "schema": "single-character-meaning-options/1",
+      "char": "知",
+      "pinyin": "zhī",
+      "status": "not-covered",
+      "scope": "on-request-supplement-only",
+      "options": [],
+      "source": null,
+      "limits": [],
+      "wholeNameMeaning": null,
+      "automaticNameRecommendation": false,
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0
+    }
+  },
+  "wrongTone": {
+    "input": {
+      "char": "知",
+      "pinyin": "zhì",
+      "tone": 1
+    },
+    "result": {
+      "schema": "single-character-meaning-options/1",
+      "char": "知",
+      "pinyin": "zhì",
+      "status": "not-covered",
+      "scope": "on-request-supplement-only",
+      "options": [],
+      "source": null,
+      "limits": [],
+      "wholeNameMeaning": null,
+      "automaticNameRecommendation": false,
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0
+    }
+  },
+  "approved": {
+    "input": {
+      "char": "静"
+    },
+    "result": {
+      "schema": "single-character-meaning-options/1",
+      "char": "静",
+      "pinyin": "jìng",
+      "status": "available",
+      "scope": "on-request-supplement-only",
+      "options": [
+        {
+          "char": "静",
+          "pinyin": "jìng",
+          "tone": 4,
+          "meaning": "取恬淡、平和之意。",
+          "source": {
+            "sourceId": "moe-revised",
+            "word": "靜",
+            "pinyin": "jìng",
+            "tone": 4,
+            "definition": {
+              "def": "恬淡、平和。",
+              "quote": [
+                "唐．崔融〈報三原李少府書〉：「撤函敷紙，恬神靜諷。」",
+                "唐．杜甫〈送孔巢父謝病歸遊江東兼呈李白〉詩：「蔡侯靜者意有餘，清夜置酒臨前除。」"
+              ],
+              "type": "形"
+            },
+            "sourcePOS": "形",
+            "readings": [
+              {
+                "pinyin": "jìng",
+                "tone": 4,
+                "meanings": [
+                  "止、安定。與「動」相對。",
+                  "安定不動的。",
+                  "緘默無聲。",
+                  "貞烈。",
+                  "恬淡、平和。",
+                  "安謐。"
+                ],
+                "sourceId": "moe-revised",
+                "word": "靜"
+              }
+            ],
+            "originalFile": "data/raw/moe-revised.json.gz",
+            "rawEntryIndex": 153292,
+            "rawHeteronymIndex": 0,
+            "rawDefinitionIndex": 4,
+            "parsedEntrySha256": "4fd37bf2eae9b0574f0916ef3c28c48492916611beca2a0283a5e4853263db37",
+            "license": "CC-BY-ND-3.0-TW",
+            "completeOriginalEntry": {
+              "heteronyms": [
+                {
+                  "bopomofo": "ㄐㄧㄥˋ",
+                  "definitions": [
+                    {
+                      "def": "止、安定。與「動」相對。",
+                      "example": [
+                        "如：「樹欲靜而風不止，子欲養而親不在。」"
+                      ],
+                      "quote": [
+                        "《墨子．非攻》：「卿制大極，而神明不違，天下乃靜。」",
+                        "《淮南子．本經》：「哀斯憤，憤斯怒，怒斯動，動則手足不靜。」"
+                      ],
+                      "type": "動"
+                    },
+                    {
+                      "def": "安定不動的。",
+                      "example": [
+                        "如：「風平浪靜」。"
+                      ],
+                      "type": "形"
+                    },
+                    {
+                      "def": "緘默無聲。",
+                      "example": [
+                        "如：「安靜」、「寧靜」、「更深夜靜」。"
+                      ],
+                      "quote": [
+                        "明．陸采《懷香記．第二齣》：「牛羊已下山徑靜，鳥鵲爭歸林木擾。」"
+                      ],
+                      "type": "形"
+                    },
+                    {
+                      "def": "貞烈。",
+                      "quote": [
+                        "《詩經．邶風．靜女》：「靜女其姝，俟我於城隅。」",
+                        "唐．方干〈書桃花塢周處土壁〉詩：「自學古賢修靜節，唯應野鶴識高情。」"
+                      ],
+                      "type": "形"
+                    },
+                    {
+                      "def": "恬淡、平和。",
+                      "quote": [
+                        "唐．崔融〈報三原李少府書〉：「撤函敷紙，恬神靜諷。」",
+                        "唐．杜甫〈送孔巢父謝病歸遊江東兼呈李白〉詩：「蔡侯靜者意有餘，清夜置酒臨前除。」"
+                      ],
+                      "type": "形"
+                    },
+                    {
+                      "def": "安謐。",
+                      "quote": [
+                        "《後漢書．卷一六．鄧禹傳》：「檢敕宗族，闔門靜居。」"
+                      ],
+                      "type": "副"
+                    }
+                  ],
+                  "pinyin": "jìng"
+                }
+              ],
+              "non_radical_stroke_count": 8,
+              "radical": "青",
+              "stroke_count": 16,
+              "title": "靜"
+            }
+          },
+          "project": {
+            "meaning": "取恬淡、平和之意。",
+            "projectWish": "项目创作：愿你在生活变化中保有从容与平和。",
+            "limits": [
+              "不把平和等同沉默、服从或必须压抑情绪。",
+              "不采用贞烈义约束性别或人格。",
+              "愿望是项目创作，不是性格测定。"
+            ],
+            "attribution": "Project naming interpretation; not an MOE quotation or measured child trait",
+            "license": "CC0-1.0"
+          },
+          "limits": [
+            "不把平和等同沉默、服从或必须压抑情绪。",
+            "不采用贞烈义约束性别或人格。",
+            "愿望是项目创作，不是性格测定。"
+          ],
+          "batch": {
+            "batchId": "M460-V71-B02",
+            "sourceId": "naming-character-meanings-v7.1-fixed",
+            "publicationState": "fixed-approved-character-display-publication",
+            "admission": "approved-character-notes",
+            "activation": "naming-editorial-7.1.0",
+            "candidateOnly": false,
+            "productionApproved": false
+          },
+          "scope": "on-request-supplement-only",
+          "wholeNameMeaning": null,
+          "automaticNameRecommendation": false,
+          "automaticSemanticCreditAllowed": false,
+          "scoreDelta": 0
+        }
+      ],
+      "source": {
+        "batchId": "M460-V71-B02",
+        "sourceId": "naming-character-meanings-v7.1-fixed",
+        "publicationState": "fixed-approved-character-display-publication",
+        "admission": "approved-character-notes",
+        "activation": "naming-editorial-7.1.0",
+        "candidateOnly": false,
+        "productionApproved": false
+      },
+      "limits": [
+        "不把平和等同沉默、服从或必须压抑情绪。",
+        "不采用贞烈义约束性别或人格。",
+        "愿望是项目创作，不是性格测定。"
+      ],
+      "wholeNameMeaning": null,
+      "automaticNameRecommendation": false,
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0
+    }
+  },
+  "candidate": {
+    "input": {
+      "char": "万"
+    },
+    "result": {
+      "schema": "single-character-meaning-options/1",
+      "char": "万",
+      "pinyin": "wàn",
+      "status": "available",
+      "scope": "on-request-supplement-only",
+      "options": [
+        {
+          "char": "万",
+          "pinyin": "wàn",
+          "tone": 4,
+          "meaning": "取众多的字面意象，不作数量或结果承诺。",
+          "source": {
+            "sourceId": "moe-revised",
+            "word": "萬",
+            "pinyin": "wàn",
+            "tone": 4,
+            "definition": {
+              "def": "眾多的。",
+              "example": [
+                "如：「排除萬難」。"
+              ],
+              "quote": [
+                "《易經．謙卦．象曰》：「勞謙君子，萬民服也。」",
+                "《荀子．富國》：「古有萬國，今有十數焉。」"
+              ],
+              "type": "形"
+            },
+            "sourcePOS": "形",
+            "readings": [
+              {
+                "pinyin": "wàn",
+                "tone": 4,
+                "meanings": [
+                  "數目字。千的十倍。",
+                  "眾多的。",
+                  "極、非常、絕對。"
+                ],
+                "sourceId": "moe-revised",
+                "word": "萬"
+              }
+            ],
+            "originalFile": "data/raw/moe-revised.json.gz",
+            "rawEntryIndex": 123915,
+            "rawHeteronymIndex": 0,
+            "rawDefinitionIndex": 1,
+            "parsedEntrySha256": "50930d3582a7aa442b3e2161593368afe237678df7b44f3e5c49b19e8665d1f6",
+            "license": "CC-BY-ND-3.0-TW",
+            "completeOriginalEntry": {
+              "heteronyms": [
+                {
+                  "bopomofo": "ㄨㄢˋ",
+                  "definitions": [
+                    {
+                      "def": "數目字。千的十倍。",
+                      "quote": [
+                        "《玉篇．禸部》：「萬，十千也。」",
+                        "《孟子．梁惠王上》：「萬取千焉，千取百焉，不為不多矣。」",
+                        "唐．白居易〈寄元九〉詩：「三寄衣食資，數盈二十萬。」"
+                      ],
+                      "type": "名"
+                    },
+                    {
+                      "def": "眾多的。",
+                      "example": [
+                        "如：「排除萬難」。"
+                      ],
+                      "quote": [
+                        "《易經．謙卦．象曰》：「勞謙君子，萬民服也。」",
+                        "《荀子．富國》：「古有萬國，今有十數焉。」"
+                      ],
+                      "type": "形"
+                    },
+                    {
+                      "def": "極、非常、絕對。",
+                      "example": [
+                        "如：「萬不得已」、「萬萬不可」。"
+                      ],
+                      "quote": [
+                        "《漢書．卷三四．黥布傳》：「我之取天下可以萬全。」",
+                        "唐．韓愈〈柳子厚墓誌銘〉：「無辭以白其大人，且萬無母子俱往理。」"
+                      ],
+                      "type": "副"
+                    }
+                  ],
+                  "pinyin": "wàn"
+                }
+              ],
+              "non_radical_stroke_count": 8,
+              "radical": "禸",
+              "stroke_count": 13,
+              "title": "萬"
+            }
+          },
+          "project": {
+            "meaning": "取众多的字面意象，不作数量或结果承诺。",
+            "projectWish": null,
+            "limits": [
+              "不把数字、万事如意或极端程度写成姓名保证。",
+              "默认词条为简繁异体绑定，来源身份与默认读音须保留。"
+            ],
+            "attribution": "M610-D02 independent project explanation",
+            "license": "CC0-1.0"
+          },
+          "limits": [
+            "不把数字、万事如意或极端程度写成姓名保证。",
+            "默认词条为简繁异体绑定，来源身份与默认读音须保留。"
+          ],
+          "batch": {
+            "batchId": "M610-D02",
+            "sourceId": "naming-character-meanings-m610-candidate",
+            "publicationState": "candidate-source-verified-not-admitted",
+            "admission": "candidate-awaiting-independent-review",
+            "activation": "off",
+            "candidateOnly": true,
+            "productionApproved": false
+          },
+          "scope": "on-request-supplement-only",
+          "wholeNameMeaning": null,
+          "automaticNameRecommendation": false,
+          "automaticSemanticCreditAllowed": false,
+          "scoreDelta": 0
+        }
+      ],
+      "source": {
+        "batchId": "M610-D02",
+        "sourceId": "naming-character-meanings-m610-candidate",
+        "publicationState": "candidate-source-verified-not-admitted",
+        "admission": "candidate-awaiting-independent-review",
+        "activation": "off",
+        "candidateOnly": true,
+        "productionApproved": false
+      },
+      "limits": [
+        "不把数字、万事如意或极端程度写成姓名保证。",
+        "默认词条为简繁异体绑定，来源身份与默认读音须保留。"
+      ],
+      "wholeNameMeaning": null,
+      "automaticNameRecommendation": false,
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0
+    }
+  },
+  "notCovered": {
+    "input": {
+      "char": "安"
+    },
+    "result": {
+      "schema": "single-character-meaning-options/1",
+      "char": "安",
+      "pinyin": null,
+      "status": "not-covered",
+      "scope": "on-request-supplement-only",
+      "options": [],
+      "source": null,
+      "limits": [],
+      "wholeNameMeaning": null,
+      "automaticNameRecommendation": false,
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0
+    }
+  },
+  "untoned": {
+    "input": {
+      "char": "知",
+      "pinyin": "zhi",
+      "tone": 4
+    },
+    "result": {
+      "schema": "single-character-meaning-options/1",
+      "char": "知",
+      "pinyin": "zhi",
+      "status": "not-covered",
+      "scope": "on-request-supplement-only",
+      "options": [],
+      "source": null,
+      "limits": [],
+      "wholeNameMeaning": null,
+      "automaticNameRecommendation": false,
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0
+    }
+  }
+}

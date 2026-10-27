@@ -1,0 +1,663 @@
+{
+  "methodId": "project-bazi-mainchain-144/1.2.0",
+  "status": "independent-project-proposal",
+  "defaultProductIntegration": false,
+  "sourceIds": {
+    "facts": "lunar-typescript-1.8.6-facts",
+    "ren": "ditian-ren-2600158-principles",
+    "proposal": "project-bazi-mainchain-144",
+    "qiong": "qiongtong-2294674-initial-reference"
+  },
+  "sourceAnchors": [
+    {
+      "id": "month-not-only",
+      "sourceId": "ditian-ren-2600158-principles",
+      "origin": "source-derived",
+      "codepointStart": 40371,
+      "codepointEnd": 40721,
+      "quote": "得时俱为旺论，失令便作衰看，虽是至理，亦死法也。夫五行之气，流行于四时，虽日干各有专令，而其实专令之中，亦有并存者在，如春木司令，甲乙虽旺，而此时休囚之戊巳，亦未尝绝于天地也；冬水司令，壬天虽旺，百此时休囚之丙丁，变未尝绝于天地也。物时当退避，不敢争先，而春实春土何尝不生万物，冬日何尝不照万国乎？况八字虽以月令迷重，而旺相休囚，年日时中，亦有损益之权，故生月即不值令，亦能值年值日值时，岂可执一而论？有如春木虽强，金太重而木亦危；干庚辛而支申酉，无火制而不富，逢土生而必夭，是得时不旺也。秋木虽弱，木根深而木亦强，干甲乙而支寅卯，遇官透而能受，逢水生而太过，是失时不弱也。是故日干不论月令休囚，只要四柱有根，便能受财官食神而当伤官七杀。长生禄旺，根之重者也；墓库余气，奶之轻者也。天干得一比肩，不如",
+      "scope": "Principle/context only; no numerical sufficient conditions attributed to the commentary."
+    },
+    {
+      "id": "clash-by-strength",
+      "sourceId": "ditian-ren-2600158-principles",
+      "origin": "source-derived",
+      "codepointStart": 13535,
+      "codepointEnd": 13895,
+      "quote": "旺者冲衰衰者拔，衰神冲旺旺神发\n\n{{*|原注：子旺午衰，冲则午拔不能立；子衰午旺，冲则午发而为福。余仿此。}}\n\n{{annotate|任氏曰：十二支相冲，各支中所藏互相冲克，在原局为明冲，在岁运为暗冲。得令者冲衰则拔，失时者冲旺无伤。冲之者有力，则能去之，去凶神则利，去吉神则不利；冲之者无力，则反激之，激凶神则为祸，激吉神虽不为祸，亦不能获福也。如日主是午，或喜神是午，支中有寅卯巳未戌之类，遇子冲谓衰神冲旺，无伤；日主午，或喜神是午，支中有申酉亥子丑辰之类，遇子冲，谓旺者冲衰则拔。余支皆然。然以子、卯、午、酉、寅、申、巳、亥八支为重，辰、戌、丑、未较轻。如子午冲，子中癸水冲午中丁火，如午旺提纲，四柱无金而有木，则午能冲子；卯酉冲，酉中辛金，冲卯中乙木，如卯旺提纲，四柱有火而无土，则卯亦能冲酉；寅申冲，寅中甲",
+      "scope": "Principle/context only; no numerical sufficient conditions attributed to the commentary."
+    },
+    {
+      "id": "fuyi-principle",
+      "sourceId": "ditian-ren-2600158-principles",
+      "origin": "source-derived",
+      "codepointStart": 3934,
+      "codepointEnd": 3964,
+      "quote": "当抑则抑，当扶则扶，所谓去留舒配，取裁确当，则运途否泰，显然",
+      "scope": "Principle/context only; no numerical sufficient conditions attributed to the commentary."
+    },
+    {
+      "id": "from-output",
+      "sourceId": "ditian-ren-2600158-principles",
+      "origin": "source-derived",
+      "codepointStart": 105196,
+      "codepointEnd": 105636,
+      "quote": "从儿不管身强弱，只要吾儿又得儿。\n\n原注；此与成象、从象、伤官不同，只取我生者为儿。如木遇火，成气象，如戊已日遇申酉戌成西方气，或巳酉丑全会金局，不论日主强弱，而又看金能生水气，转成生育之意。此为流通，必然富贵。\n\n{{annotate|任氏曰：顺者，我生之也；只见儿者，食伤多也；构门闾者，月建逢食伤也，月为门户，必要食伤在提纲也；不论身强弱者，四柱虽有比劫仍去生助食伤也；吾儿又得儿者，必要局中有财，以成生育之意也。如己身碌碌庸庸，无作无为，得子孙昌盛，振起家声，又要运行财地，儿又生孙，可享儿孙这荣矣。故为顺局。从儿与从财官不同也。然食伤生财，转成生育，秀气流行，名利皆遂。故以食伤为子，财即是孙，孙不能克祖，可以安享荣华。如见官星，谓孙又生儿，则曾祖必受其伤，故见官杀必为已害。如见印绶 ，是我之父，父能生我，我自有为，焉能容子？子必遭殃。无生育之意。其祸立至，是以从儿格最忌印运，次忌官运。官能泄财，又能克日，而食伤又与官星不睦，忘生育之意，起争战这风，不伤人丁，则散财",
+      "scope": "Principle/context only; no numerical sufficient conditions attributed to the commentary."
+    },
+    {
+      "id": "transformation-carrier",
+      "sourceId": "ditian-ren-2600158-principles",
+      "origin": "source-derived",
+      "codepointStart": 9533,
+      "codepointEnd": 9693,
+      "quote": "化辰之原神发露也，凡十干逢辰位，必干透化神，此一定不易之理也。不愁火土者，至弱之性，见火土多即从化矣；不论庚辛者，弱水不能泄金气，所谓金多反浊，癸水是也。合戊见火者，阴极则阳生，戊土燥厚，柱中得丙火透露，引出化神，乃为真也。若秋冬金水旺地，纵使支遇辰龙，干透丙丁，亦难从化，宜细详之。}}\n\n===八、地支===\n\n阳支",
+      "scope": "Principle/context only; no numerical sufficient conditions attributed to the commentary."
+    },
+    {
+      "id": "from-output-strong-context",
+      "sourceId": "ditian-ren-2600158-principles",
+      "origin": "source-derived",
+      "codepointStart": 106226,
+      "codepointEnd": 106400,
+      "quote": "甲木生于季冬，火虚而幸通根有焰，格取从儿。木虽进气，又逢禄比帮身，所谓从儿不论身强弱，非身弱论也。前造过于燥烈。此则湿土逢燥,地润天和，生肓不悖。联登甲第，仕至待郎。\n\n辛丑\n\n辛丑\n\n戊申\n\n壬子庚子\n\n己亥\n\n戊戌\n\n丁酉\n\n丙申\n\n乙未\n\n戊土生于季冬，辛金并透通根坐下申金壬水，旺而逢生，纯粹可观，早游泮水，至亥运，类聚北方，高攀秋桂；交戊",
+      "scope": "Original context explicitly rejects the idea that output-following is only weak-body; used as a principle/context, never as chart-lookup classification."
+    },
+    {
+      "id": "from-output-printed-month-context",
+      "origin": "source-derived",
+      "sourceId": "ditian-ren-2600158-principles",
+      "codepointStart": 106188,
+      "codepointEnd": 106401,
+      "quote": "甲午\n\n丁丑\n\n甲午\n\n丙寅戊寅\n\n己卯\n\n庚辰\n\n辛巳\n\n壬午\n\n癸未\n\n甲木生于季冬，火虚而幸通根有焰，格取从儿。木虽进气，又逢禄比帮身，所谓从儿不论身强弱，非身弱论也。前造过于燥烈。此则湿土逢燥,地润天和，生肓不悖。联登甲第，仕至待郎。\n\n辛丑\n\n辛丑\n\n戊申\n\n壬子庚子\n\n己亥\n\n戊戌\n\n丁酉\n\n丙申\n\n乙未\n\n戊土生于季冬，辛金并透通根坐下申金壬水，旺而逢生，纯粹可观，早游泮水，至亥运，类聚北方，高攀秋桂；交戊戌",
+      "printedPillars": [
+        "甲午",
+        "丁丑",
+        "甲午",
+        "丙寅"
+      ],
+      "scope": "Printed chart has month stem丁 and branch丑; nearby commentary explicitly says non-weak-body. This contextual fact does not itself universally authorize a month-stem sufficient rule."
+    },
+    {
+      "id": "resource-protection-object-order",
+      "sourceId": "ditian-ren-2600158-principles",
+      "origin": "source-derived",
+      "codepointStart": 47174,
+      "codepointEnd": 47600,
+      "quote": "{{annotate|任氏曰：通关者，引通克制之神也。所谓阴阳二用，妙在气交，天降而下，地升而上。天干之气动而专，地支之气静而杂，是故地运有推移，而天气从之；天气有转徒，而地运应之；天气动于上，而人元应之；人元动于下，而天气从之，所以阴胜逢阳则止，阳胜逢阴则往，是谓天地交泰，干支有情，左右不背，阴阳生育而相通也，若杀重喜印，杀露印亦露，煞藏印亦，此显然通达，不必节外生枝。倘原局无印，必须岁运逢印，向而通之，或暗会明合而通之，局内有印，被财星损坏，或官星化之，或比劫解之，或被合住，则冲开之，或被冲坏，则合化之，或隔一物，则克去-之，前后上下，不能授引，得岁运相逢尤佳。如年印时杀，干杀支印，前后远立，上下悬隔，或为间神忌物所间，此原局无可通之理，必须岁运暗冲暗会，克制间神忌物，该冲则冲，该合则合，引通相克之势，此关一通，所谓琴遇子期，马逢伯乐，求名者青钱万选，问利者意则屡中，如牛郎织女之入洞房，无不其所愿。杀印之论如此，食伤财官之论亦如此。}}",
+      "scope": "原文仅支持被财损坏的同一印、比劫解除间障与通路可达的对象及顺序，不提供本项目固定点、阈值、数值充分条件或来源穿透算法。"
+    }
+  ],
+  "tables": {
+    "elements": [
+      "木",
+      "火",
+      "土",
+      "金",
+      "水"
+    ],
+    "stems": [
+      "甲",
+      "乙",
+      "丙",
+      "丁",
+      "戊",
+      "己",
+      "庚",
+      "辛",
+      "壬",
+      "癸"
+    ],
+    "branches": [
+      "子",
+      "丑",
+      "寅",
+      "卯",
+      "辰",
+      "巳",
+      "午",
+      "未",
+      "申",
+      "酉",
+      "戌",
+      "亥"
+    ],
+    "stemElements": {
+      "甲": "木",
+      "乙": "木",
+      "丙": "火",
+      "丁": "火",
+      "戊": "土",
+      "己": "土",
+      "庚": "金",
+      "辛": "金",
+      "壬": "水",
+      "癸": "水"
+    },
+    "hiddenStems": {
+      "子": [
+        "癸"
+      ],
+      "丑": [
+        "己",
+        "癸",
+        "辛"
+      ],
+      "寅": [
+        "甲",
+        "丙",
+        "戊"
+      ],
+      "卯": [
+        "乙"
+      ],
+      "辰": [
+        "戊",
+        "乙",
+        "癸"
+      ],
+      "巳": [
+        "丙",
+        "庚",
+        "戊"
+      ],
+      "午": [
+        "丁",
+        "己"
+      ],
+      "未": [
+        "己",
+        "丁",
+        "乙"
+      ],
+      "申": [
+        "庚",
+        "壬",
+        "戊"
+      ],
+      "酉": [
+        "辛"
+      ],
+      "戌": [
+        "戊",
+        "辛",
+        "丁"
+      ],
+      "亥": [
+        "壬",
+        "甲"
+      ]
+    },
+    "clashes": [
+      "子午",
+      "丑未",
+      "寅申",
+      "卯酉",
+      "辰戌",
+      "巳亥"
+    ],
+    "stemPairs": [
+      [
+        "甲",
+        "己",
+        "土"
+      ],
+      [
+        "乙",
+        "庚",
+        "金"
+      ],
+      [
+        "丙",
+        "辛",
+        "水"
+      ],
+      [
+        "丁",
+        "壬",
+        "木"
+      ],
+      [
+        "戊",
+        "癸",
+        "火"
+      ]
+    ],
+    "liuhe": [
+      "子丑",
+      "寅亥",
+      "卯戌",
+      "辰酉",
+      "巳申",
+      "午未"
+    ],
+    "groups": [
+      {
+        "kind": "sanhui",
+        "members": "亥子丑",
+        "element": "水"
+      },
+      {
+        "kind": "sanhui",
+        "members": "寅卯辰",
+        "element": "木"
+      },
+      {
+        "kind": "sanhui",
+        "members": "巳午未",
+        "element": "火"
+      },
+      {
+        "kind": "sanhui",
+        "members": "申酉戌",
+        "element": "金"
+      },
+      {
+        "kind": "sanhe",
+        "members": "申子辰",
+        "element": "水"
+      },
+      {
+        "kind": "sanhe",
+        "members": "寅午戌",
+        "element": "火"
+      },
+      {
+        "kind": "sanhe",
+        "members": "亥卯未",
+        "element": "木"
+      },
+      {
+        "kind": "sanhe",
+        "members": "巳酉丑",
+        "element": "金"
+      }
+    ]
+  },
+  "parameters": {
+    "branchBase": {
+      "year": 2,
+      "month": 4,
+      "day": 2,
+      "hour": 2
+    },
+    "stemBase": 1,
+    "hiddenWeights": {
+      "1": [
+        1
+      ],
+      "2": [
+        0.7,
+        0.3
+      ],
+      "3": [
+        0.6,
+        0.2,
+        0.2
+      ]
+    },
+    "season": {
+      "same": 1.5,
+      "generatedByMonth": 1.2,
+      "generatesMonth": 0.8,
+      "controlsMonth": 0.7,
+      "controlledByMonth": 0.5
+    },
+    "clashRatio": 1.5,
+    "clashWeak": 0.25,
+    "clashStrong": 0.9,
+    "clashBalanced": 0.65,
+    "clashFloor": 0.1,
+    "liuheBinding": 0.8,
+    "stemBinding": 0.5,
+    "rootMinimum": 0.5,
+    "resourceSeedMinimum": 1,
+    "rootedFactor": 1,
+    "resourceOnlyFactor": 0.7,
+    "floatingFactor": 0.35,
+    "pathByDistance": [
+      1,
+      0.8,
+      0.6,
+      0.4
+    ],
+    "hiddenAcrossBranches": 0.35,
+    "hiddenToExposed": 0.6,
+    "controlFraction": 0.25,
+    "maxControlLoss": 0.8,
+    "generationFraction": 0.2,
+    "assistFraction": 0.1,
+    "strongShare": 0.6,
+    "weakShare": 0.4,
+    "boundaryBand": 0.03,
+    "fromStrongShare": 0.85,
+    "fromWeakShare": 0.12,
+    "dominanceShare": 0.6,
+    "fromOutputShare": 0.4,
+    "fromOutputWealthShare": 0.15,
+    "opponentAbsMaximum": 0.25,
+    "externalSupportMinimum": 0.5,
+    "usableMinimum": 0.25,
+    "transformationOppositionRatio": 0.5,
+    "rescueHeavyControlRatio": 0.5,
+    "seasonalSuppliedShare": 0.15,
+    "epsilon": 1e-9
+  },
+  "rules": [
+    {
+      "id": "facts",
+      "origin": "source-derived",
+      "title": "干五行、藏干、五合和六合配对事实",
+      "sourceIds": [
+        "lunar-typescript-1.8.6-facts"
+      ],
+      "assumptions": []
+    },
+    {
+      "id": "input",
+      "origin": "project-proposal",
+      "title": "已有历法柱输入、缺时及跨日分案",
+      "sourceIds": [
+        "project-bazi-mainchain-144"
+      ],
+      "assumptions": [
+        "不另排日期或节气",
+        "单柱阴阳合法不证明四柱存在共同公历时刻"
+      ]
+    },
+    {
+      "id": "season",
+      "origin": "project-proposal",
+      "title": "月主气关系和载体基量",
+      "sourceIds": [
+        "project-bazi-mainchain-144",
+        "ditian-ren-2600158-principles"
+      ],
+      "assumptions": [
+        "月支主气法，不是分日司令",
+        "旺相休囚死倍率由项目明确指定"
+      ]
+    },
+    {
+      "id": "clash",
+      "origin": "project-proposal",
+      "title": "冲后量分配",
+      "sourceIds": [
+        "project-bazi-mainchain-144",
+        "ditian-ren-2600158-principles"
+      ],
+      "assumptions": [
+        "比较冲前快照，不循环自证",
+        "量比与余量均为工程假设"
+      ]
+    },
+    {
+      "id": "branch-transform",
+      "origin": "project-proposal",
+      "title": "三会三合充分条件与重叠优先",
+      "sourceIds": [
+        "project-bazi-mainchain-144"
+      ],
+      "assumptions": [
+        "会优先于合",
+        "六合不据此化气",
+        "不把半合/拱会补为全组"
+      ]
+    },
+    {
+      "id": "stem-transform",
+      "origin": "project-proposal",
+      "title": "相邻五合、争合、化神载体和原日根限制",
+      "sourceIds": [
+        "project-bazi-mainchain-144",
+        "ditian-ren-2600158-principles"
+      ],
+      "assumptions": [
+        "原文原则不提供这里的唯一充分条件",
+        "本项目严格版与部分传统变例可能冲突"
+      ]
+    },
+    {
+      "id": "binding",
+      "origin": "project-proposal",
+      "title": "不化时的相邻唯一合绊衰减",
+      "sourceIds": [
+        "project-bazi-mainchain-144"
+      ],
+      "assumptions": [
+        "没有统一古籍数值",
+        "六合只作无冲时相邻合绊"
+      ]
+    },
+    {
+      "id": "root",
+      "origin": "project-proposal",
+      "title": "有效根与透干载体可用量",
+      "sourceIds": [
+        "project-bazi-mainchain-144"
+      ],
+      "assumptions": [
+        "0.5为项目有效根阈值",
+        "余根可因阈值失效，存在流派争议",
+        "无根有源不代表传统原神已充分有效"
+      ]
+    },
+    {
+      "id": "flow",
+      "origin": "project-proposal",
+      "title": "固定控制预算收敛后一次生成分配",
+      "sourceIds": [
+        "project-bazi-mainchain-144"
+      ],
+      "assumptions": [
+        "固定控制图内不重定根、合化或路径。",
+        "受制攻击预算由同一固定点结算，不再按未受制容量全额发克。",
+        "一次生成用该次解的remaining重算目标权重；不认证古典时序。",
+        "数值权重不是物理能量或命局实测量。"
+      ]
+    },
+    {
+      "id": "strength",
+      "origin": "project-proposal",
+      "title": "实际量比判旺弱及边界提示",
+      "sourceIds": [
+        "project-bazi-mainchain-144",
+        "ditian-ren-2600158-principles"
+      ],
+      "assumptions": [
+        "比印合计是本项目强弱指标",
+        "不等同经验证据或统计置信度"
+      ]
+    },
+    {
+      "id": "hua",
+      "origin": "project-proposal",
+      "title": "日主已满足化气充分前提的顺化分支",
+      "sourceIds": [
+        "project-bazi-mainchain-144"
+      ],
+      "assumptions": [
+        "不覆盖假化、争妒解救及暗合变例"
+      ]
+    },
+    {
+      "id": "cong-output",
+      "origin": "project-proposal",
+      "title": "独立承载/生育两轴下的项目从儿作用条件",
+      "sourceIds": [
+        "project-bazi-mainchain-144",
+        "ditian-ren-2600158-principles"
+      ],
+      "assumptions": [
+        "默认仅原月支主气入口；月干入口是显式启用的独立项目提案，输出两入口政策，不把单例推为经典普遍充分条件。",
+        "成气占比只比较食伤、财、官杀的作用支路，不与比印成互补上限。",
+        "财须有可用合量，且食伤实际生财的合流边权重达到既有可用量门槛。",
+        "身强弱定义和阈值不改；此分支不以身弱或身旺作准入条件。",
+        "原文局中有财、生育与不管强弱是来源原则；新增充分条件、阈值及提纲解释都是project-proposal。",
+        "印官有效量阻碍沿用项目门槛，不称原文逐字的唯一判据。"
+      ]
+    },
+    {
+      "id": "cong-strong",
+      "origin": "project-proposal",
+      "title": "比印成势的项目从强条件",
+      "sourceIds": [
+        "project-bazi-mainchain-144"
+      ],
+      "assumptions": [
+        "绝不冒称任注真假从全部条件"
+      ]
+    },
+    {
+      "id": "cong-weak",
+      "origin": "project-proposal",
+      "title": "财杀主势且无有效救身载体的从弱条件",
+      "sourceIds": [
+        "project-bazi-mainchain-144"
+      ],
+      "assumptions": [
+        "印比、根、主势和月令均须满足本项目数值门槛"
+      ]
+    },
+    {
+      "id": "regular-use",
+      "origin": "project-proposal",
+      "title": "常规扶抑及平衡盘月令流通选择",
+      "sourceIds": [
+        "project-bazi-mainchain-144",
+        "ditian-ren-2600158-principles"
+      ],
+      "assumptions": [
+        "规则能闭合的旺弱分支给主辅；平衡或关键取法未闭合时列条件化替代方案，不为了非空输出添加兜底",
+        "现有可用载体与待增补目标分列",
+        "阻止从格使用元素合量，取现有主用载体使用单载体门槛；多微载体合力主用未闭合"
+      ]
+    },
+    {
+      "id": "rescue",
+      "origin": "project-proposal",
+      "title": "官杀印日候选拓扑，源流尚未认证",
+      "sourceIds": [
+        "project-bazi-mainchain-144"
+      ],
+      "assumptions": [
+        "两条微小生边不构成官杀经印穿透日主的认证。",
+        "本版仅另外核验比劫制财后同靶印的净保护。",
+        "特殊分支不反向强补印。"
+      ]
+    },
+    {
+      "id": "seasonal",
+      "origin": "project-proposal",
+      "title": "寒暖燥湿辅助和主链冲突保留",
+      "sourceIds": [
+        "project-bazi-mainchain-144"
+      ],
+      "assumptions": [
+        "寒暖燥湿门槛不冒充穷通原文定量式",
+        "辅助冲突不覆盖主分支"
+      ]
+    },
+    {
+      "id": "qiong-reference",
+      "origin": "source-derived",
+      "title": "固定120日干月支初始原文参照",
+      "sourceIds": [
+        "qiongtong-2294674-initial-reference"
+      ],
+      "assumptions": [
+        "只转录已声明的初始句及其未覆盖范围",
+        "不据原文吉凶断语推出现代效验"
+      ]
+    },
+    {
+      "id": "cong-output-entry-policy",
+      "origin": "project-proposal",
+      "title": "原月支入口与新增月干提案分列",
+      "sourceIds": [
+        "project-bazi-mainchain-144",
+        "ditian-ren-2600158-principles"
+      ],
+      "assumptions": [
+        "原月支入口结果完整保留；不由新盘倒推经典已普遍允许月干替代。",
+        "固定同源文例仅提供解释上下文，不是判断算法或唯一充分条件。",
+        "新增月干路线须显式选择；通用两轴/生育作用条件仍另外逐项满足。"
+      ]
+    },
+    {
+      "id": "control-settlement",
+      "origin": "project-proposal",
+      "title": "固定载体控制预算收缩结算",
+      "sourceIds": [
+        "project-bazi-mainchain-144"
+      ],
+      "assumptions": [
+        "系数、路径、容量与rootFactor在内迭代保持不变。",
+        "列和<=.25的L1收缩及向外浮点误差界被逐盘核验。",
+        "超限/非法/不有限不回退旧控制算法。"
+      ]
+    },
+    {
+      "id": "resource-protection",
+      "origin": "project-proposal",
+      "title": "同一财、同一印、同一日主的单边干预净效",
+      "sourceIds": [
+        "project-bazi-mainchain-144",
+        "ditian-ren-2600158-principles"
+      ],
+      "assumptions": [
+        "原文只支持对象和顺序，数值充分条件属于项目提案。",
+        "指定W→R伤害、R全部受制量、R→D贡献三项分别超误差界改善。",
+        "关闭指定B→W边不删除载体、不重分配其它控制系数。",
+        "多项干预收益不相加；不认证官杀来源穿透。"
+      ],
+      "sourceAnchorId": "resource-protection-object-order"
+    }
+  ],
+  "limitations": [
+    "分日司权、半合拱会、刑穿害、六合化气、墓库开闭、暗合、根反馈、完整杀印源流及多轮救应与真假从例外未覆盖。",
+    "没有经验校准；完整结论仅为本项目规则内文化取法候选。",
+    "各数值是项目规则权重，不是命局能量实测值；假设的可执行不等于完整传统目标已解决。",
+    "固定点外的根反馈容量、多解/无解机制不在1.2范围。",
+    "默认月支入口的身旺从儿正例仍未证明；显式月干样本不替代该覆盖。"
+  ],
+  "conclusionPolicy": {
+    "noForcedFallback": true,
+    "ordinaryOutput": "定性项目意见；不称权重为命局实测量",
+    "exactNumbers": "calculationTrace and rule audit only",
+    "balancedOrUnclosed": "保留具体替代结论和未满足前提，不强置唯一主用"
+  },
+  "twoAxisPolicy": {
+    "bodyStrength": "Original final-pool support share and original0.60/0.40 cutoffs, unchanged.",
+    "outputFollowing": "Default principal-month-branch entry retained; explicit month-stem proposal remains separate. Productive action axis independent from unchanged body-strength cutoffs.",
+    "retiredParameter": "fromOutputWealthShare remains in legacy parameters only for provenance; not used in1.1.0.",
+    "collectiveWealth": "Only explicitly traced output-to-wealth receiving carriers form this aggregate; not a general assertion that any micro-carriers can substitute a primary."
+  },
+  "entryPolicy": {
+    "default": "month-branch-only",
+    "alternative": "month-stem-proposal",
+    "origin": "project-proposal",
+    "note": "Default retains the old principal-month-branch entry; extra month-stem entry is explicit, separate and under review."
+  },
+  "previousMethod": "project-bazi-mainchain-140/1.1.0",
+  "fixedControlBudget": {
+    "version": "fixed-control-budget/1.0.0",
+    "maxIterations": 64,
+    "capacityRootRelationsPath": "frozen-during-inner-iteration",
+    "formula": "x_i=C_i-min(.8*C_i,sum_j(a_ij*x_j))",
+    "coefficients": "0.25*C_i*path(j,i)/sum_k(C_k*path(j,k)); represented conservatively downward with upward denominator",
+    "contractionNorm": "L1",
+    "maximumColumnSum": 0.25,
+    "epsilon": 1e-9,
+    "displayRounding": "none-before-decisions-or-certificates",
+    "controlDenominators": "frozen",
+    "generationRule": "same-recomputed-from-own-solution",
+    "intervention": "Only specified B→W coefficient disabled; all other frozen coefficients and capacities retained; no budget redistribution",
+    "boundaryPolicy": "Outward intervals and roundoff bounds; uncertain numerical prerequisites leave explicit alternatives",
+    "numericCertificate": "Exact binary frozen column sums <=.25; outward operator/iteration roundoff bound; downstream nonnegative intervals; zero-denominator uncertainty never divided.",
+    "rootTerms": {
+      "capacityRoot": "pre-control seed root and resource-only factors, frozen inside solve",
+      "posteriorRoot": "after once-generation final power, consumed by branches but not fed back into C"
+    }
+  }
+}

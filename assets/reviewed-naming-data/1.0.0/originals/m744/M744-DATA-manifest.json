@@ -1,0 +1,78 @@
+{
+  "schema": "m744-data-audit-manifest/1",
+  "auditId": "M744-DATA",
+  "sealedAt": "2026-10-25T07:44:17.372Z",
+  "status": "sealed",
+  "candidateManifest": {
+    "path": "D:\\Codex-NamingStudio-Evidence\\m740-character-meanings\\M740-MANIFEST.json",
+    "sha256": "0290ada57d4e87386e224d6be33901e0f626d3530c74e9d48611f046a6252f23"
+  },
+  "sourceBaseline": "9ac38f2285f928c451caa10bad41ca226f7f5f51",
+  "findings": {
+    "P1": 0,
+    "P2": 0,
+    "P3": 0
+  },
+  "rowDisposition": {
+    "conditionalManualReference": 9,
+    "pendingEvidenceOnly": [
+      "叶"
+    ],
+    "generationApproved": 0,
+    "formalCoverageAdded": 0
+  },
+  "files": [
+    {
+      "path": "D:/Codex-NamingStudio-Evidence/m744-data-audit/M744-DATA-AUDIT.json",
+      "bytes": 16357,
+      "sha256": "8b272e6062254fe3f112a19ee6a1f31a086ca56dc5964e21eb45fae8bc59b157"
+    },
+    {
+      "path": "D:/Codex-NamingStudio-Evidence/m744-data-audit/M744-DATA-AUDIT.md",
+      "bytes": 7614,
+      "sha256": "b4cf2ca2ccb09c24cdd98348497eaf70ea7703e1d3bef918dd3ad680721101f9"
+    },
+    {
+      "path": "D:/Codex-NamingStudio-Evidence/m744-data-audit/execution-ledger.json",
+      "bytes": 2198,
+      "sha256": "b73ec886387d5f1c530ae1a5876b0aa1e5c2e5bc5a18cf43616710c47be1b363"
+    }
+  ],
+  "evidence": [
+    {
+      "path": "D:/Codex-NamingStudio-Evidence/m744-data-audit/input-integrity.json",
+      "bytes": 21353,
+      "sha256": "ab5fc7dcee485b2841f57646dbee1cbfcd7b4c96d0555e0278d6ab49e23d8d95"
+    },
+    {
+      "path": "D:/Codex-NamingStudio-Evidence/m744-data-audit/rows-a.json",
+      "bytes": 16185,
+      "sha256": "35609399a5d0fbe94276e9c797d4c392346a6f8f73acf99e2088513ee7c8452b"
+    },
+    {
+      "path": "D:/Codex-NamingStudio-Evidence/m744-data-audit/rows-b.json",
+      "bytes": 19637,
+      "sha256": "f690d6cfb9f13ea3d2d9ead7b94e774fc78e78ba473f1145be8698ead04f1978"
+    },
+    {
+      "path": "D:/Codex-NamingStudio-Evidence/m744-data-audit/coverage-integrity.json",
+      "bytes": 22487,
+      "sha256": "b2dc2310575613beb123fe2937295b6f7138dd71a8397e7dbdf6bb3bcfbc1a62"
+    },
+    {
+      "path": "D:/Codex-NamingStudio-Evidence/m744-data-audit/coverage-probes/independent-coverage-audit.mjs",
+      "bytes": 13039,
+      "sha256": "6ffcfebf142f3190c99577d0760093299ad6a9a86761f1256200ad33490286d6"
+    },
+    {
+      "path": "D:/Codex-NamingStudio-Evidence/m744-data-audit/coverage-probes/recomputed-sets.json",
+      "bytes": 32338,
+      "sha256": "d58838bf158133cd10192110449c46bfb2d9d040e90f029a5b06d95fb13c04a1"
+    },
+    {
+      "path": "D:/Codex-NamingStudio-Evidence/m744-data-audit/coverage-probes/execution-ledger.json",
+      "bytes": 4156,
+      "sha256": "8c9449e29bde88b4250b3b7bd3c5048cd9750df1dbe3115157cbc317bc278cba"
+    }
+  ]
+}

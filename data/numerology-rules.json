@@ -1,0 +1,450 @@
+{
+  "version": "2026.10.18.1",
+  "profile": {
+    "id": "kumazaki-five-grid",
+    "version": "1.0.0",
+    "name": "熊崎式五格剖象（开源公式约定 v1）",
+    "strokePolicy": "使用经来源定位确认并由用户选择的康熙字形笔画；缺字或多字形未决时暂停五格结论，不以普通笔画替代。",
+    "formulaConvention": "支持单姓或双字复姓、单字或双字名；单姓天格加虚数1，单名地格加虚数1；人格为姓末字加名首字；外格为两端实字或虚数之和；总格只加实字；81以上保留原数，不循环查表；三才按原数末位取五行，仅显示生克关系。",
+    "interpretationSourceId": "shunshi-numerology-e93e1f3"
+  },
+  "sources": [
+    {
+      "id": "shunshi-numerology-e93e1f3",
+      "name": "Shunshi.AI naming-mcp 五格公式及81分类（MIT 固定版）",
+      "url": "https://github.com/shunshi-ai/naming-mcp",
+      "commit": "e93e1f39cd89dedb2f45031f6e7592f2e77623a0",
+      "license": "MIT",
+      "files": [
+        "data/raw/numerology-rules-e93e1f39cd89dedb2f45031f6e7592f2e77623a0/shuli-81.json.gz",
+        "data/raw/numerology-rules-e93e1f39cd89dedb2f45031f6e7592f2e77623a0/wuge.ts",
+        "data/raw/numerology-rules-e93e1f39cd89dedb2f45031f6e7592f2e77623a0/score.test.ts",
+        "data/raw/numerology-rules-e93e1f39cd89dedb2f45031f6e7592f2e77623a0/LICENSE",
+        "data/raw/numerology-rules-e93e1f39cd89dedb2f45031f6e7592f2e77623a0/manifest.json"
+      ],
+      "sha256": "fabcae035135e2ec579af87a473accd385604e7f432eb1532e8bc5cb2790071a",
+      "note": "sha256对应原始shuli-81.json.gz；其他文件校验值见manifest。仅派生level和poem短关键词；不复制长判文、125三才判表或人生运势评级。上游称熊崎流派但未提供熊崎原典页码，表中1另标未经外部核验。本项目标为该MIT开源版传统分类，不宣称核验原典。许可全文保留；上游对第三方表述的权利链未独立追溯。"
+    },
+    {
+      "id": "tianji-formula-0b3e64f",
+      "name": "Ficere/tianji 五格公式第二参考（MIT 固定版）",
+      "url": "https://github.com/Ficere/tianji",
+      "commit": "0b3e64f6008c2a20b3d1b6deb2d3c4344f848dd9",
+      "license": "MIT",
+      "files": [
+        "data/raw/numerology-rules-tianji-0b3e64f6008c2a20b3d1b6deb2d3c4344f848dd9/name_wuge_calc.py",
+        "data/raw/numerology-rules-tianji-0b3e64f6008c2a20b3d1b6deb2d3c4344f848dd9/LICENSE",
+        "data/raw/numerology-rules-tianji-0b3e64f6008c2a20b3d1b6deb2d3c4344f848dd9/manifest.json"
+      ],
+      "sha256": "db97e291f94c2929d849bc2adae2e42212125ea70d2114f6a8f97377382585a5",
+      "note": "sha256对应原始name_wuge_calc.py。仅以四种姓名结构公式交叉核对，未使用其打分、81判语或三才评级；两开源实现一致不等于两个独立流派原典。"
+    }
+  ],
+  "interpretations": {
+    "1": {
+      "label": "吉",
+      "keyword": "太极之数",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "2": {
+      "label": "凶",
+      "keyword": "两仪之数",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "3": {
+      "label": "大吉",
+      "keyword": "三才之数",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "4": {
+      "label": "凶",
+      "keyword": "凶变之数",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "5": {
+      "label": "大吉",
+      "keyword": "五行之数",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "6": {
+      "label": "吉",
+      "keyword": "六爻之数",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "7": {
+      "label": "吉",
+      "keyword": "精悍之数",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "8": {
+      "label": "吉",
+      "keyword": "八卦之数",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "9": {
+      "label": "大凶",
+      "keyword": "大成之数",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "10": {
+      "label": "大凶",
+      "keyword": "终结之数",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "11": {
+      "label": "大吉",
+      "keyword": "挽回之数",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "12": {
+      "label": "凶",
+      "keyword": "掘井无泉",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "13": {
+      "label": "大吉",
+      "keyword": "春日牡丹",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "14": {
+      "label": "大凶",
+      "keyword": "破兆之数",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "15": {
+      "label": "大吉",
+      "keyword": "福寿之数",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "16": {
+      "label": "大吉",
+      "keyword": "厚重之数",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "17": {
+      "label": "吉",
+      "keyword": "刚强之数",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "18": {
+      "label": "吉",
+      "keyword": "铁镜重磨",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "19": {
+      "label": "大凶",
+      "keyword": "多难之数",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "20": {
+      "label": "大凶",
+      "keyword": "屋下藏金",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "21": {
+      "label": "大吉",
+      "keyword": "明月中天",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "22": {
+      "label": "凶",
+      "keyword": "秋草逢霜",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "23": {
+      "label": "大吉",
+      "keyword": "壮丽之数",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "24": {
+      "label": "大吉",
+      "keyword": "掘藏得金",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "25": {
+      "label": "吉",
+      "keyword": "荣俊之数",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "26": {
+      "label": "凶",
+      "keyword": "变怪之数",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "27": {
+      "label": "半吉",
+      "keyword": "增长之数",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "28": {
+      "label": "大凶",
+      "keyword": "阔水浮萍",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "29": {
+      "label": "大吉",
+      "keyword": "智谋之数",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "30": {
+      "label": "半吉",
+      "keyword": "非运之数",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "31": {
+      "label": "大吉",
+      "keyword": "春日花开",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "32": {
+      "label": "吉",
+      "keyword": "宝马金鞍",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "33": {
+      "label": "大吉",
+      "keyword": "旭日升天",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "34": {
+      "label": "大凶",
+      "keyword": "破家之数",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "35": {
+      "label": "吉",
+      "keyword": "温和之数",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "36": {
+      "label": "凶",
+      "keyword": "波澜重叠",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "37": {
+      "label": "吉",
+      "keyword": "权威显达",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "38": {
+      "label": "吉",
+      "keyword": "磨铁成针",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "39": {
+      "label": "大吉",
+      "keyword": "富贵荣华",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "40": {
+      "label": "半吉",
+      "keyword": "退安之数",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "41": {
+      "label": "大吉",
+      "keyword": "有德之数",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "42": {
+      "label": "半吉",
+      "keyword": "寒蝉在柳",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "43": {
+      "label": "凶",
+      "keyword": "散财破产",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "44": {
+      "label": "大凶",
+      "keyword": "破家之数",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "45": {
+      "label": "吉",
+      "keyword": "顺风之数",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "46": {
+      "label": "大凶",
+      "keyword": "罗网离身",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "47": {
+      "label": "大吉",
+      "keyword": "点石成金",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "48": {
+      "label": "大吉",
+      "keyword": "古松立鹤",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "49": {
+      "label": "半吉",
+      "keyword": "转变之数",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "50": {
+      "label": "半吉",
+      "keyword": "小舟入海",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "51": {
+      "label": "半吉",
+      "keyword": "沉浮之数",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "52": {
+      "label": "大吉",
+      "keyword": "达眼之数",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "53": {
+      "label": "半吉",
+      "keyword": "曲卷难伸",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "54": {
+      "label": "大凶",
+      "keyword": "石上栽花",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "55": {
+      "label": "凶",
+      "keyword": "善恶交集",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "56": {
+      "label": "大凶",
+      "keyword": "浪里行舟",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "57": {
+      "label": "吉",
+      "keyword": "日照春松",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "58": {
+      "label": "吉",
+      "keyword": "晚行遇月",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "59": {
+      "label": "大凶",
+      "keyword": "寒蝉悲风",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "60": {
+      "label": "大凶",
+      "keyword": "黑暗无光",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "61": {
+      "label": "大吉",
+      "keyword": "牡丹芙蓉",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "62": {
+      "label": "大凶",
+      "keyword": "基础虚弱",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "63": {
+      "label": "大吉",
+      "keyword": "富贵荣华",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "64": {
+      "label": "大凶",
+      "keyword": "骨肉分离",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "65": {
+      "label": "吉",
+      "keyword": "巨流归海",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "66": {
+      "label": "大凶",
+      "keyword": "岩头步马",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "67": {
+      "label": "大吉",
+      "keyword": "通达之数",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "68": {
+      "label": "大吉",
+      "keyword": "顺风扬帆",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "69": {
+      "label": "大凶",
+      "keyword": "非业之数",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "70": {
+      "label": "大凶",
+      "keyword": "险恶之数",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "71": {
+      "label": "半吉",
+      "keyword": "石上金花",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "72": {
+      "label": "凶",
+      "keyword": "劳苦之数",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "73": {
+      "label": "吉",
+      "keyword": "志高力微",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "74": {
+      "label": "大凶",
+      "keyword": "残菊逢霜",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "75": {
+      "label": "半吉",
+      "keyword": "守分之数",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "76": {
+      "label": "大凶",
+      "keyword": "离散之数",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "77": {
+      "label": "半吉",
+      "keyword": "半吉半凶",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "78": {
+      "label": "半吉",
+      "keyword": "晚苦之数",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "79": {
+      "label": "大凶",
+      "keyword": "云头望月",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "80": {
+      "label": "大凶",
+      "keyword": "遁吉之数",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    },
+    "81": {
+      "label": "大吉",
+      "keyword": "万物回春",
+      "sourceId": "shunshi-numerology-e93e1f3"
+    }
+  }
+}

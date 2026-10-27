@@ -1,0 +1,390 @@
+{
+  "schema": "project-v132-correspondence-candidate/1",
+  "sourceBase": "d46ebc65b738e6b76e9495875534b3f50dd47659",
+  "sourceRoot": "src/domain/bazi-mainchain/project-v132",
+  "publicationRoot": "assets/bazi-root-feedback/1.3.2-r2",
+  "manifest": {
+    "file": "assets/bazi-root-feedback/1.3.2-r2/resource-manifest.json",
+    "sha256": "3d9b15e6f9963f385411a70eabcbb3ab940629bc285bea65a8ebee92c3f6c71a",
+    "bytes": 94589
+  },
+  "tuple": {
+    "schema": "bazi-root-feedback-resource-manifest/3",
+    "methodId": "project-bazi-mainchain-145/1.3.2",
+    "applicationPolicyVersion": "naming-element-preview/1.3.2",
+    "publicationId": "bazi-root-feedback/1.3.2;preview-publication-r2",
+    "fullClosureSha256": "9f3fa8d4cfc8f190934268597cffb25be19cbf2723b4b827ec74228f2c7596f8",
+    "kernel": {
+      "methodId": "project-bazi-mainchain-144/1.2.0",
+      "sourceRevision": "c73c53b4558dc5b4e339fe84e930d08695a4df5865147e422d7295a7822cc685"
+    },
+    "closureSchema": "bazi-root-feedback-execution-closure/1"
+  },
+  "publicationCounts": {
+    "files": 142,
+    "closureFiles": 138,
+    "executionInputs": 133
+  },
+  "mapped": [
+    {
+      "sourceFile": "src/domain/bazi-mainchain/project-v132/consumers.ts",
+      "resourceFile": "assets/bazi-root-feedback/1.3.2-r2/execution-source/src/domain/bazi-mainchain/project-v132/consumers.ts",
+      "manifestPath": "execution-source/src/domain/bazi-mainchain/project-v132/consumers.ts",
+      "bytes": 37864,
+      "sha256": "9fc27fd796503c2f07b4b0d814adb25f48a71b20793e7d2b43a0813205752c00",
+      "kind": "runtime-source",
+      "closureTuple": {
+        "sourcePath": "src/domain/bazi-mainchain/project-v132/consumers.ts",
+        "resourcePath": "execution-source/src/domain/bazi-mainchain/project-v132/consumers.ts",
+        "bytes": 37864,
+        "sha256": "9fc27fd796503c2f07b4b0d814adb25f48a71b20793e7d2b43a0813205752c00",
+        "role": "execution"
+      },
+      "executionInput": true,
+      "sourceReviewStatus": "pending-exact-source-review;publication-is-not-source-review",
+      "category": "published-execution",
+      "review": {
+        "status": "pending-exact-group-source-review",
+        "reference": null
+      }
+    },
+    {
+      "sourceFile": "src/domain/bazi-mainchain/project-v132/index.ts",
+      "resourceFile": "assets/bazi-root-feedback/1.3.2-r2/execution-source/src/domain/bazi-mainchain/project-v132/index.ts",
+      "manifestPath": "execution-source/src/domain/bazi-mainchain/project-v132/index.ts",
+      "bytes": 7361,
+      "sha256": "7479171a0ca50de436de987e6f31b1b8884c619955ea53d7f3bd19c7d4b09d23",
+      "kind": "runtime-source",
+      "closureTuple": {
+        "sourcePath": "src/domain/bazi-mainchain/project-v132/index.ts",
+        "resourcePath": "execution-source/src/domain/bazi-mainchain/project-v132/index.ts",
+        "bytes": 7361,
+        "sha256": "7479171a0ca50de436de987e6f31b1b8884c619955ea53d7f3bd19c7d4b09d23",
+        "role": "execution"
+      },
+      "executionInput": true,
+      "sourceReviewStatus": "pending-exact-source-review;publication-is-not-source-review",
+      "category": "published-execution",
+      "review": {
+        "status": "pending-exact-group-source-review",
+        "reference": null
+      }
+    },
+    {
+      "sourceFile": "src/domain/bazi-mainchain/project-v132/intervention.ts",
+      "resourceFile": "assets/bazi-root-feedback/1.3.2-r2/execution-source/src/domain/bazi-mainchain/project-v132/intervention.ts",
+      "manifestPath": "execution-source/src/domain/bazi-mainchain/project-v132/intervention.ts",
+      "bytes": 4950,
+      "sha256": "478743a9336f18de082effb837d7f55706367843a345bec62ad29d2eb0c9c153",
+      "kind": "runtime-source",
+      "closureTuple": {
+        "sourcePath": "src/domain/bazi-mainchain/project-v132/intervention.ts",
+        "resourcePath": "execution-source/src/domain/bazi-mainchain/project-v132/intervention.ts",
+        "bytes": 4950,
+        "sha256": "478743a9336f18de082effb837d7f55706367843a345bec62ad29d2eb0c9c153",
+        "role": "execution"
+      },
+      "executionInput": true,
+      "sourceReviewStatus": "pending-exact-source-review;publication-is-not-source-review",
+      "category": "published-execution",
+      "review": {
+        "status": "pending-exact-group-source-review",
+        "reference": null
+      }
+    },
+    {
+      "sourceFile": "src/domain/bazi-mainchain/project-v132/presentation.ts",
+      "resourceFile": "assets/bazi-root-feedback/1.3.2-r2/execution-source/src/domain/bazi-mainchain/project-v132/presentation.ts",
+      "manifestPath": "execution-source/src/domain/bazi-mainchain/project-v132/presentation.ts",
+      "bytes": 10867,
+      "sha256": "82f3f2626241749216d3b67c6511b07f42a26af66f55e48afc729bec33e9890e",
+      "kind": "runtime-source",
+      "closureTuple": {
+        "sourcePath": "src/domain/bazi-mainchain/project-v132/presentation.ts",
+        "resourcePath": "execution-source/src/domain/bazi-mainchain/project-v132/presentation.ts",
+        "bytes": 10867,
+        "sha256": "82f3f2626241749216d3b67c6511b07f42a26af66f55e48afc729bec33e9890e",
+        "role": "execution"
+      },
+      "executionInput": true,
+      "sourceReviewStatus": "pending-exact-source-review;publication-is-not-source-review",
+      "category": "published-execution",
+      "review": {
+        "status": "pending-exact-group-source-review",
+        "reference": null
+      }
+    },
+    {
+      "sourceFile": "src/domain/bazi-mainchain/project-v132/regime-protection.ts",
+      "resourceFile": "assets/bazi-root-feedback/1.3.2-r2/execution-source/src/domain/bazi-mainchain/project-v132/regime-protection.ts",
+      "manifestPath": "execution-source/src/domain/bazi-mainchain/project-v132/regime-protection.ts",
+      "bytes": 1405,
+      "sha256": "c8772637d2440a2781fb174fb8ff4f1cc8164f6e708a987afec92adf21971989",
+      "kind": "runtime-source",
+      "closureTuple": {
+        "sourcePath": "src/domain/bazi-mainchain/project-v132/regime-protection.ts",
+        "resourcePath": "execution-source/src/domain/bazi-mainchain/project-v132/regime-protection.ts",
+        "bytes": 1405,
+        "sha256": "c8772637d2440a2781fb174fb8ff4f1cc8164f6e708a987afec92adf21971989",
+        "role": "execution"
+      },
+      "executionInput": true,
+      "sourceReviewStatus": "pending-exact-source-review;publication-is-not-source-review",
+      "category": "published-execution",
+      "review": {
+        "status": "pending-exact-group-source-review",
+        "reference": null
+      }
+    },
+    {
+      "sourceFile": "src/domain/bazi-mainchain/project-v132/root-feedback.ts",
+      "resourceFile": "assets/bazi-root-feedback/1.3.2-r2/execution-source/src/domain/bazi-mainchain/project-v132/root-feedback.ts",
+      "manifestPath": "execution-source/src/domain/bazi-mainchain/project-v132/root-feedback.ts",
+      "bytes": 16800,
+      "sha256": "74ba6990d716900488ded56e3cb838e026cd516ef03aa10071a940aeba8b2675",
+      "kind": "runtime-source",
+      "closureTuple": {
+        "sourcePath": "src/domain/bazi-mainchain/project-v132/root-feedback.ts",
+        "resourcePath": "execution-source/src/domain/bazi-mainchain/project-v132/root-feedback.ts",
+        "bytes": 16800,
+        "sha256": "74ba6990d716900488ded56e3cb838e026cd516ef03aa10071a940aeba8b2675",
+        "role": "execution"
+      },
+      "executionInput": true,
+      "sourceReviewStatus": "pending-exact-source-review;publication-is-not-source-review",
+      "category": "published-execution",
+      "review": {
+        "status": "pending-exact-group-source-review",
+        "reference": null
+      }
+    },
+    {
+      "sourceFile": "src/domain/bazi-mainchain/project-v132/rules/project-mainchain-1.3.2.json",
+      "resourceFile": "assets/bazi-root-feedback/1.3.2-r2/execution-source/src/domain/bazi-mainchain/project-v132/rules/project-mainchain-1.3.2.json",
+      "manifestPath": "execution-source/src/domain/bazi-mainchain/project-v132/rules/project-mainchain-1.3.2.json",
+      "bytes": 29731,
+      "sha256": "6991753b498f57bd09d1bdbe7795c8cf437a2c4b6720c2039799d5afac7456f3",
+      "kind": "runtime-source",
+      "closureTuple": {
+        "sourcePath": "src/domain/bazi-mainchain/project-v132/rules/project-mainchain-1.3.2.json",
+        "resourcePath": "execution-source/src/domain/bazi-mainchain/project-v132/rules/project-mainchain-1.3.2.json",
+        "bytes": 29731,
+        "sha256": "6991753b498f57bd09d1bdbe7795c8cf437a2c4b6720c2039799d5afac7456f3",
+        "role": "execution"
+      },
+      "executionInput": true,
+      "sourceReviewStatus": "pending-exact-source-review;publication-is-not-source-review",
+      "category": "published-execution",
+      "review": {
+        "status": "pending-exact-group-source-review",
+        "reference": null
+      }
+    },
+    {
+      "sourceFile": "src/domain/bazi-mainchain/project-v132/rules/qiongtong-initial-reference.json",
+      "resourceFile": "assets/bazi-root-feedback/1.3.2-r2/execution-source/src/domain/bazi-mainchain/project-v132/rules/qiongtong-initial-reference.json",
+      "manifestPath": "execution-source/src/domain/bazi-mainchain/project-v132/rules/qiongtong-initial-reference.json",
+      "bytes": 172719,
+      "sha256": "71d58e5c547297feabbe44023cfb7ceed213f6582215ca21273076e98328ff48",
+      "kind": "runtime-source",
+      "closureTuple": {
+        "sourcePath": "src/domain/bazi-mainchain/project-v132/rules/qiongtong-initial-reference.json",
+        "resourcePath": "execution-source/src/domain/bazi-mainchain/project-v132/rules/qiongtong-initial-reference.json",
+        "bytes": 172719,
+        "sha256": "71d58e5c547297feabbe44023cfb7ceed213f6582215ca21273076e98328ff48",
+        "role": "execution"
+      },
+      "executionInput": true,
+      "sourceReviewStatus": "pending-exact-source-review;publication-is-not-source-review",
+      "category": "published-execution",
+      "review": {
+        "status": "pending-exact-group-source-review",
+        "reference": null
+      }
+    },
+    {
+      "sourceFile": "src/domain/bazi-mainchain/project-v132/rules/source-lock-1.3.2.json",
+      "resourceFile": "assets/bazi-root-feedback/1.3.2-r2/execution-source/src/domain/bazi-mainchain/project-v132/rules/source-lock-1.3.2.json",
+      "manifestPath": "execution-source/src/domain/bazi-mainchain/project-v132/rules/source-lock-1.3.2.json",
+      "bytes": 5372,
+      "sha256": "647f4e4b6ace4e65aca7d811c9cb7bb2071d0dbb7f91a7d4d258a4925b03e2ca",
+      "kind": "runtime-source",
+      "closureTuple": {
+        "sourcePath": "src/domain/bazi-mainchain/project-v132/rules/source-lock-1.3.2.json",
+        "resourcePath": "execution-source/src/domain/bazi-mainchain/project-v132/rules/source-lock-1.3.2.json",
+        "bytes": 5372,
+        "sha256": "647f4e4b6ace4e65aca7d811c9cb7bb2071d0dbb7f91a7d4d258a4925b03e2ca",
+        "role": "resolution"
+      },
+      "executionInput": false,
+      "sourceReviewStatus": "pending-exact-source-review;publication-is-not-source-review",
+      "category": "published-resolution",
+      "review": {
+        "status": "pending-exact-group-source-review",
+        "reference": null
+      }
+    },
+    {
+      "sourceFile": "src/domain/bazi-mainchain/project-v132/settled-flows.ts",
+      "resourceFile": "assets/bazi-root-feedback/1.3.2-r2/execution-source/src/domain/bazi-mainchain/project-v132/settled-flows.ts",
+      "manifestPath": "execution-source/src/domain/bazi-mainchain/project-v132/settled-flows.ts",
+      "bytes": 6726,
+      "sha256": "471ac93789932ede398bd16b8d764e2cee8a549e839f3a3e523f3d568a985394",
+      "kind": "runtime-source",
+      "closureTuple": {
+        "sourcePath": "src/domain/bazi-mainchain/project-v132/settled-flows.ts",
+        "resourcePath": "execution-source/src/domain/bazi-mainchain/project-v132/settled-flows.ts",
+        "bytes": 6726,
+        "sha256": "471ac93789932ede398bd16b8d764e2cee8a549e839f3a3e523f3d568a985394",
+        "role": "execution"
+      },
+      "executionInput": true,
+      "sourceReviewStatus": "pending-exact-source-review;publication-is-not-source-review",
+      "category": "published-execution",
+      "review": {
+        "status": "pending-exact-group-source-review",
+        "reference": null
+      }
+    }
+  ],
+  "reviewEvidenceStatus": "prior-limited-evidence-only;actual15-file-source-review-pending",
+  "authority": {
+    "activation": "off",
+    "sourceBuildApproved": false,
+    "productionAdmission": false,
+    "registrationAllowed": false,
+    "traditionalConclusion": "unknown",
+    "methodScope": "project-proposal-only",
+    "scoreChange": 0
+  },
+  "limits": [
+    "10publishedexecution-source entries are byte-identical; this is not an independent source review.",
+    "No v13/kernel paths, other sources, data, assets, package, active profile or seven-source gate are modified.",
+    "5 source-only companions are explicit pinned candidates. Their type/NOTICE/license roles are not invented execution-asset mappings; every companion requires a future exact independent source review reference.",
+    "M786/M866/M913 do not constitute a current full15-file source review. Matching publication bytes are reusable evidence only."
+  ],
+  "buildPins": {
+    "file": "src/main/bazi-root-feedback-v132-r2-pins.json",
+    "bytes": 53389,
+    "sha256": "e613b83ff2ff8432127ac80dcca4ca8fb968178933a007aa3f43365a39967c8b"
+  },
+  "manifestCopy": {
+    "file": "scripts/verification/extension-evidence/m940/resource-manifest-publication-original.json",
+    "bytes": 94589,
+    "sha256": "3d9b15e6f9963f385411a70eabcbb3ab940629bc285bea65a8ebee92c3f6c71a"
+  },
+  "companions": [
+    {
+      "file": "src/domain/bazi-mainchain/project-v132/NOTICE.md",
+      "sha256": "6be0c2c2a8a6a00c6a0b49f51b11d4d71372e4d422d38b73bc721b27b4bc4aa2",
+      "bytes": 343,
+      "category": "source-only-companion",
+      "role": "project-proposal-notice",
+      "gitSourceCommit": "d46ebc65b738e6b76e9495875534b3f50dd47659",
+      "gitBlob": "f433124b65590482a35313e33bd13bb64145b673",
+      "executionAssetCounterpart": null,
+      "review": {
+        "status": "pending-exact-companion-source-review",
+        "reference": null
+      }
+    },
+    {
+      "file": "src/domain/bazi-mainchain/project-v132/root-feedback-types.ts",
+      "sha256": "a3bfb200f3e37046d955b72b1d0c6f95e9e89d29d36185c0c908f31beab1dac3",
+      "bytes": 4781,
+      "category": "source-only-companion",
+      "role": "type-only-source",
+      "gitSourceCommit": "d46ebc65b738e6b76e9495875534b3f50dd47659",
+      "gitBlob": "9028f76afb88c333143c08c19f5be93ef0dba387",
+      "executionAssetCounterpart": null,
+      "review": {
+        "status": "pending-exact-companion-source-review",
+        "reference": null
+      }
+    },
+    {
+      "file": "src/domain/bazi-mainchain/project-v132/rules/CC-BY-SA-4.0.txt",
+      "sha256": "23ee78c8bae49cf08ea2f0c84945c66b987ebe4520881fb51b3dad4fb43d07c2",
+      "bytes": 20137,
+      "category": "source-only-companion",
+      "role": "license-CC-BY-SA-4.0",
+      "gitSourceCommit": "d46ebc65b738e6b76e9495875534b3f50dd47659",
+      "gitBlob": "7d4f96c54aa155a17387e64501c50b6a0469932c",
+      "executionAssetCounterpart": null,
+      "review": {
+        "status": "pending-exact-companion-source-review",
+        "reference": null
+      }
+    },
+    {
+      "file": "src/domain/bazi-mainchain/project-v132/rules/lunar-typescript-LICENSE.txt",
+      "sha256": "097ec7989106eb9a27b6eff71dbaf1cd6bb04a9b35b6c94b54fff0829a041a8c",
+      "bytes": 1062,
+      "category": "source-only-companion",
+      "role": "license-lunar-typescript-MIT",
+      "gitSourceCommit": "d46ebc65b738e6b76e9495875534b3f50dd47659",
+      "gitBlob": "15151d3ce4226fa7829a11c9bbfbddc935cda314",
+      "executionAssetCounterpart": null,
+      "review": {
+        "status": "pending-exact-companion-source-review",
+        "reference": null
+      }
+    },
+    {
+      "file": "src/domain/bazi-mainchain/project-v132/types-v13-consumers.ts",
+      "sha256": "9d2a81040f403e55886c8a12b35c1974ececd6f2eeac0ca547f9fe5933d8f96c",
+      "bytes": 2530,
+      "category": "source-only-companion",
+      "role": "type-only-source",
+      "gitSourceCommit": "d46ebc65b738e6b76e9495875534b3f50dd47659",
+      "gitBlob": "b6fb863e7580bef5a63dc2f4bcccd38b997b450d",
+      "executionAssetCounterpart": null,
+      "review": {
+        "status": "pending-exact-companion-source-review",
+        "reference": null
+      }
+    }
+  ],
+  "priorEvidence": [
+    {
+      "id": "M786",
+      "file": "scripts/verification/extension-evidence/m940/M786-original.json",
+      "bytes": 4779,
+      "sha256": "e9956cd1e8efd6b78c0b8723f2773bac30f41f72ba3fd8033d61710189b905b6",
+      "originalFile": "D:/Codex-NamingStudio-Evidence/m786-core-input-boundary-audit/M786-AUDIT-RESULT.json",
+      "scope": "input boundary incremental review; preserves frozen r2, not a full current project-v132 source-group review",
+      "exactCurrentGroupSourceReview": false,
+      "grantsRegistration": false
+    },
+    {
+      "id": "M786-publication-bytes",
+      "file": "scripts/verification/extension-evidence/m940/M786-publication-bytes-original.json",
+      "bytes": 46267,
+      "sha256": "76de60669dd124957997950c33029e98d2d189c550791053a10e14d58c86fd62",
+      "originalFile": "D:/Codex-NamingStudio-Evidence/m786-core-input-boundary-audit/git-publication-resources.json",
+      "scope": "10 exact matching publication source pins and matching nested r2 manifest; integrity evidence only",
+      "exactCurrentGroupSourceReview": false,
+      "grantsRegistration": false
+    },
+    {
+      "id": "M866",
+      "file": "scripts/verification/extension-evidence/m940/M866-original.json",
+      "bytes": 12027,
+      "sha256": "7e4b4f61807411a5ef72ac9378fa588e4e606e3087d211dc0bf86056b0a476bd",
+      "originalFile": "D:/Codex-NamingStudio-Evidence/m866-core-receipt-recheck/REVIEW.json",
+      "scope": "exact build-receipt helper and test, excludes fixed core math and source/host admission",
+      "exactCurrentGroupSourceReview": false,
+      "grantsRegistration": false
+    },
+    {
+      "id": "M913",
+      "file": "scripts/verification/extension-evidence/m940/M913-original.json",
+      "bytes": 1309,
+      "sha256": "f30f3b3cdd619c427522b3a93989131c890d9f40e151416b1701c3520556d6eb",
+      "originalFile": "D:/Codex-NamingStudio-Evidence/m899-core-c2-persist/work/M913-CORE-REVIEW.json",
+      "scope": "read-only useful-god explanation adapter and DTO/test, outside this source group",
+      "exactCurrentGroupSourceReview": false,
+      "grantsRegistration": false
+    }
+  ]
+}

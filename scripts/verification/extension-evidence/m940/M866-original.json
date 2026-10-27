@@ -1,0 +1,327 @@
+{
+  "schema": "M866-core-receipt-recheck/1",
+  "task": "M866-CORE-RECEIPT-RECHECK",
+  "commit": "3676f060af7f4742f2372d0f7cb4a133e1c42af9",
+  "base": "0e8e3caa6e6c2a6a7189b05aec8e19ad45396c33",
+  "tree": "c435e1dd60a7909b3b6bcdddbb0589f808d00cad",
+  "verdict": "pass-bounded-receipt-integrity-fix",
+  "closedFindings": [
+    "M855-P2-01"
+  ],
+  "severityCounts": {
+    "P1": 0,
+    "P2": 0,
+    "P3": 0
+  },
+  "newFindings": [],
+  "exactSource": {
+    "files": [
+      {
+        "path": "scripts/build-candidate2-naming-dependency-v1.mjs",
+        "bytes": 23308,
+        "sha256": "a1d606f089fab2da82dbf864f9816f85248f570d7657731d03e195a4387a944e",
+        "matchesWorkingFile": true
+      },
+      {
+        "path": "tests/m860-candidate2-receipt.test.ts",
+        "bytes": 14315,
+        "sha256": "5b68b375ee1d024fd35183353fab328f84208886a79dfb5e0cc9e29af2d03281",
+        "matchesWorkingFile": true
+      }
+    ],
+    "scope": "Exactly the helper and focused receipt test; no consumer, shared DTO, fixed core mathematics, runtime admission, normal build entry, Service, Store or App changes.",
+    "candidateCleanBefore": true,
+    "candidateCleanAfter": true,
+    "allSealedPinsMatch": true,
+    "sealedPinCount": 13,
+    "oldM845PinsUnchanged": true,
+    "oldM845PinCount": 29,
+    "originalM845WorkingHeadObserved": "d419c068406501f280eb94c948c4caa1467f0bad",
+    "originalM845Note": "The untouched original worktree has the later numerical-guard-only test commit. The fix commit itself is directly based on 0e8e3caa; no guard supplement is silently treated as part of this fix."
+  },
+  "codeReview": {
+    "file": "scripts/build-candidate2-naming-dependency-v1.mjs",
+    "schema": {
+      "lines": [
+        191,
+        194
+      ],
+      "exactTopLevelFields": 10,
+      "missingOrExtraRejected": true
+    },
+    "environment": {
+      "lines": [
+        196,
+        202
+      ],
+      "exactFields": [
+        "node",
+        "icu",
+        "tz",
+        "unicode",
+        "platform",
+        "arch"
+      ],
+      "versionTypeAndPlatformArchValidation": true,
+      "historicalAuthenticityAttested": false,
+      "wholeReceiptHashPinned": false,
+      "grantsAuthority": false
+    },
+    "evidence": {
+      "lines": [
+        210,
+        214
+      ],
+      "nonEnvironmentFields": [
+        "schema",
+        "identity",
+        "compiledExecutionSources",
+        "virtualInputs",
+        "externalRuntimeModules",
+        "resolutionMetadata",
+        "buildSources",
+        "output",
+        "metafile"
+      ],
+      "comparison": "canonical full nested equality with actual unchanged official builder result, including array membership/order and nested metafile contribution/import/byte data",
+      "notNonemptyCheck": true
+    },
+    "warm": {
+      "lines": [
+        225,
+        232
+      ],
+      "reference": "Reconstruct verified fixed publication inputs into invocation-owned private scratch and compile there using unchanged official builder and fixed esbuild 0.25.12.",
+      "writesPublicPair": false,
+      "repairsBadReceipts": false,
+      "additionalCompilationCost": true
+    },
+    "cold": {
+      "lines": [
+        223,
+        224
+      ],
+      "reference": "The actual cold official builder returns the expected complete receipt; its persisted pair is checked against that return.",
+      "sameFixedCjs": true
+    },
+    "officialBuilder": {
+      "file": "scripts/build-project-application-v132-r2.mjs",
+      "lines": [
+        191,
+        199
+      ],
+      "unchanged": true,
+      "receiptContainsTenFields": true,
+      "sourceVerificationBeforeAndAfterCompile": true
+    }
+  },
+  "independent": {
+    "caseGroups": 8,
+    "passed": 8,
+    "failed": 0,
+    "cases": [
+      {
+        "name": "normal cold and warm official pair",
+        "passed": true,
+        "cold": "built",
+        "warm": "verified-existing",
+        "output": {
+          "file": "application.cjs",
+          "bytes": 2002922,
+          "sha256": "906b191c88ce2e6f0335c674727c39bcae14edf2968d2c1c5cdffcb04079b47a"
+        },
+        "receiptFields": [
+          "schema",
+          "identity",
+          "compiledExecutionSources",
+          "virtualInputs",
+          "externalRuntimeModules",
+          "resolutionMetadata",
+          "buildSources",
+          "runtimeEnvironment",
+          "output",
+          "metafile"
+        ],
+        "pairUnchanged": true,
+        "protectedInputsUnchanged": true
+      },
+      {
+        "name": "original M855 removal of all seven proof fields",
+        "passed": true,
+        "rejected": true,
+        "error": "CANDIDATE2_NAMING_DEPENDENCY_RECEIPT_INVALID: official receipt fields differ from the complete official schema; files were preserved",
+        "badReceiptUnchanged": true,
+        "bundleUnchanged": true,
+        "pairMtimesUnchanged": true,
+        "protectedInputsUnchanged": true
+      },
+      {
+        "name": "nonempty compiled source hash forgery",
+        "passed": true,
+        "rejected": true,
+        "error": "CANDIDATE2_NAMING_DEPENDENCY_RECEIPT_INVALID: official receipt compiledExecutionSources differs from the actual fixed-source reference compilation; files were preserved",
+        "badReceiptUnchanged": true,
+        "bundleUnchanged": true,
+        "pairMtimesUnchanged": true,
+        "protectedInputsUnchanged": true
+      },
+      {
+        "name": "nonempty virtual define digest forgery",
+        "passed": true,
+        "rejected": true,
+        "error": "CANDIDATE2_NAMING_DEPENDENCY_RECEIPT_INVALID: official receipt virtualInputs differs from the actual fixed-source reference compilation; files were preserved",
+        "badReceiptUnchanged": true,
+        "bundleUnchanged": true,
+        "pairMtimesUnchanged": true,
+        "protectedInputsUnchanged": true
+      },
+      {
+        "name": "nonempty external runtime module forgery",
+        "passed": true,
+        "rejected": true,
+        "error": "CANDIDATE2_NAMING_DEPENDENCY_RECEIPT_INVALID: official receipt externalRuntimeModules differs from the actual fixed-source reference compilation; files were preserved",
+        "badReceiptUnchanged": true,
+        "bundleUnchanged": true,
+        "pairMtimesUnchanged": true,
+        "protectedInputsUnchanged": true
+      },
+      {
+        "name": "nonempty nested metafile output contribution forgery",
+        "passed": true,
+        "rejected": true,
+        "error": "CANDIDATE2_NAMING_DEPENDENCY_RECEIPT_INVALID: official receipt metafile differs from the actual fixed-source reference compilation; files were preserved",
+        "badReceiptUnchanged": true,
+        "bundleUnchanged": true,
+        "pairMtimesUnchanged": true,
+        "protectedInputsUnchanged": true
+      },
+      {
+        "name": "structurally valid historical environment is metadata only",
+        "passed": true,
+        "status": "verified-existing",
+        "environment": {
+          "node": "24.0.0",
+          "icu": "77.1",
+          "tz": "2025b",
+          "unicode": "16.0",
+          "platform": "linux",
+          "arch": "arm64"
+        },
+        "historicalAuthenticityAttested": false,
+        "pairUnchanged": true,
+        "wholeReceiptHashNotHardcoded": true
+      },
+      {
+        "name": "restored official receipt after all cases",
+        "passed": true,
+        "status": "verified-existing",
+        "pairUnchanged": true,
+        "protectedInputsUnchanged": true
+      }
+    ],
+    "protectedInputCount": 297,
+    "protectedInputsAndMtimesUnchanged": true,
+    "originalOfficialPairRestored": true,
+    "privateScratchChildren": [],
+    "officialOutput": {
+      "file": "application.cjs",
+      "bytes": 2002922,
+      "sha256": "906b191c88ce2e6f0335c674727c39bcae14edf2968d2c1c5cdffcb04079b47a"
+    },
+    "actualOfficialReceiptSha256": "8b5387cfe90e606bb823cc14b55d16b23b403c9ee6004d396a9c70a4f6bdabfe",
+    "typecheck": {
+      "schema": "m866-typecheck/1",
+      "commit": "3676f060af7f4742f2372d0f7cb4a133e1c42af9",
+      "startedUtc": "2026-10-25T17:03:35.254Z",
+      "completedUtc": "2026-10-25T17:03:58.521Z",
+      "exitCode": 0,
+      "signal": null,
+      "error": null,
+      "logBytes": 0
+    }
+  },
+  "authorEvidence": {
+    "focusedTests": {
+      "passed": 45,
+      "failed": 0,
+      "actualAssertionCount": 45,
+      "invalidMutationCases": 43,
+      "legalTests": 2,
+      "allInvalidCasesRejected": true,
+      "allSuppliedBadReceiptsPreserved": true,
+      "allProtectedInputsPreserved": true,
+      "receipt": "D:/Codex-NamingStudio-Evidence/m860-core-receipt-fix/focused-tests-attempt1.json",
+      "rerunAll45": false
+    },
+    "typecheck": {
+      "actualExitCode": 0,
+      "receipt": "D:/Codex-NamingStudio-Evidence/m860-core-receipt-fix/typecheck-m860.json",
+      "independentlyConfirmedByM866": true
+    },
+    "preservedChronology": {
+      "failure": {
+        "file": "D:/Codex-NamingStudio-Evidence/m845-core-eligibility/typecheck-final.log",
+        "bytes": 1460,
+        "sha256": "0608af00eba5d5b90a30e6ee486a9e2457951fe822cf7a07e803581cca4d8b1e",
+        "recordedExitCode": 2,
+        "meaning": "M845 initial TS2454 failure before explicit-return fix"
+      },
+      "laterSuccess": {
+        "file": "D:/Codex-NamingStudio-Evidence/m845-core-eligibility/typecheck-attempt2.log",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "recordedExitCode": 0,
+        "independentPriorConfirmation": "M855 exact target-file-set tsc exit0"
+      },
+      "qualification": "Empty logs alone are not success proof. Original failure and later success remain separately preserved; M866 new execution records its actual exit0."
+    }
+  },
+  "integrationBoundary": {
+    "boundedFutureComposition": true,
+    "scope": "M855 eligibility/consumer bounded conclusion plus closure of its one deployment receipt integrity finding at the exact fixed source hash.",
+    "fixedCjsAndRuntimeAdmissionChanged": false,
+    "sourceAndHostAdmissionGranted": false,
+    "eligibilityDtoGenerationAuthority": false,
+    "normalBuildHookupStillUnapplied": true,
+    "appOrReleaseApproved": false,
+    "productionEnabled": false,
+    "remaining": [
+      "normal source/execution publication and host resource admission",
+      "actual candidate.2 build hook installation and packaged runtime path verification",
+      "Service/Store/UI routing and stale-request/resource owner binding",
+      "AI/history/import/archive/custom-pack/enrichment integration as applicable",
+      "product build/install/release validation"
+    ],
+    "filesystemGuarantee": "Inherited physical-path and fixed-resource checks remain; sequential pair writes are not a two-file atomic transaction and no concurrent privileged-writer exclusion is claimed.",
+    "environmentMeaning": "An accepted structurally valid historical runtimeEnvironment is metadata, not authenticated historical provenance or execution permission."
+  },
+  "numericalCoverage": {
+    "changed": false,
+    "newDateScans": 0,
+    "realNumericalFailureDateStillNotCovered": true,
+    "controlledGuardTests": "Prior d419c supplement remains separate controlled diagnostic evidence; not rerun and not promoted to real negative date coverage.",
+    "specialRealDate": "Prior M855 2022-02-14 result remains its original bounded observation; not rerun for this build-receipt-only fix.",
+    "globalNumericalProofClaimed": false
+  },
+  "notExecuted": [
+    "full author45 receipt-suite rerun",
+    "old25/26/50 consumer or saved suites",
+    "120-date scan or additional date search",
+    "numeric policy/guard suite rerun",
+    "full product build/install/runtime/release",
+    "Service/Store/UI/AI or DB writes",
+    "external network"
+  ],
+  "noCandidateWrites": true,
+  "noOriginalEvidenceWrites": true,
+  "noExternalNetwork": true,
+  "noSubagentSpawn": true,
+  "artifacts": [
+    "version-pins.json",
+    "independent-results.json",
+    "official-receipt.json",
+    "typecheck-independent.json",
+    "typecheck-independent.log",
+    "execution-ledger.json"
+  ]
+}

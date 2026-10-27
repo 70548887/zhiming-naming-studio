@@ -1,0 +1,150 @@
+{
+  "baselineCommit": "512ce1d788480a1e9a7e113b0253008c46372d24",
+  "original139Sha256": "30b16a5b25f3e7b783cd988f86e61184a43234821de710c686c48ffcaedeb123",
+  "new145Sha256": "4dc3eefa4845c5c66786622a77e8cb70b82c245973a5e02196a04250cfd29843",
+  "contractSourceSha256": "60e0367eba9b531d0dce93a9015049f6ff62046892a6d08055c1fd1863e435d7",
+  "contractObjectSha256": "81c3a519446f9a7174f69dba3edc9e912864c28b9892ff313e464793e66fbe22",
+  "currentStoreSha256": "9740bff328c7d6af1d06ee10b0bb39329ccf9333385d505416b5cfa37e5bebf6",
+  "helperTransformations": [
+    {
+      "kind": "global",
+      "before": "139",
+      "after": "145",
+      "count": 40
+    },
+    {
+      "kind": "once",
+      "before": "review-resources-136.json",
+      "after": "review-resources-137.json",
+      "count": 1
+    },
+    {
+      "kind": "global",
+      "before": "1.0.36",
+      "after": "1.0.37",
+      "count": 4
+    },
+    {
+      "kind": "once",
+      "before": "1de1738a6e4b4092e84abc65e4ed2ce2bb98798d61eef6bf22e4fdad50bf8f59",
+      "after": "81c3a519446f9a7174f69dba3edc9e912864c28b9892ff313e464793e66fbe22",
+      "count": 1
+    },
+    {
+      "kind": "global",
+      "before": "固定67件",
+      "after": "固定74件",
+      "count": 2
+    },
+    {
+      "kind": "once",
+      "before": "files.length===67",
+      "after": "files.length===74",
+      "count": 1
+    },
+    {
+      "kind": "once",
+      "before": "contractSourceSha256:'8dd864fe692ee833cffa4b03e34963c11d4c5ad7754c109ff251cab66e2c55d6'",
+      "after": "contractSourceSha256:'60e0367eba9b531d0dce93a9015049f6ff62046892a6d08055c1fd1863e435d7'",
+      "count": 1
+    },
+    {
+      "kind": "once",
+      "before": "meaningBatch:'v1-only'",
+      "after": "meaningBatch:'v1-and-current-v1.1',currentMeaningDataVersion:'meaning-context-data/1.1.0',sourceReaders:resourceContract.sourceReaders",
+      "count": 1
+    },
+    {
+      "kind": "once",
+      "before": "resourceContract.applicationVersion==='1.0.37'&&hash(JSON.stringify(resourceContract))",
+      "after": "resourceContract.applicationVersion==='1.0.37'&&resourceContract.sourceReaders.find(row=>row.file==='src/main/store.ts')?.sha256==='9740bff328c7d6af1d06ee10b0bb39329ccf9333385d505416b5cfa37e5bebf6'&&hash(JSON.stringify(resourceContract))",
+      "count": 1
+    },
+    {
+      "kind": "once",
+      "before": "fact(session.candidates[0].meaningContextReview?.source.sourceId==='project-meaning-context-next-137'&&session.candidates[0].meaningContextReview.rows.some(row=>row.result.status==='explanation-ready'),'未采用本批v1真实词义；v1.1不属于本场景。');",
+      "after": "fact(equal(session.candidates[0].meaningContextReview?.source,{sourceId:'project-meaning-context-next-138-v1-1',sourceSha256:'448a4a3132e0689ba5c0ffc114f439fbf0c6550e7c72a8d563080100be9aa6d2',dataSha256:'424e8b6ca9a920c8b707ac267db9609bee900a5389b3659256b4c71ad71b378d',sourceLockSha256:'473b1fb377bfeeb07c3cea800450e2ec88532b1678c9c590dcad650d8e3dd964',dataManifestSha256:'c5ac43e96b59beafaf54bce6a504ef9d97c0b59afd0687eaa7daa64ad9378ac9'})&&session.candidates[0].meaningContextReview?.version==='meaning-context-review/1.0.0'&&session.candidates[0].meaningContextReview.rows.some(row=>row.result.status==='explanation-ready'),'未采用本批meaning-context-data/1.1.0真实完整词义或固定原件身份不符。');",
+      "count": 1
+    },
+    {
+      "kind": "once",
+      "before": "legacyInputsUsedOnlyForExistingPreflight:true,meaningBatch:'v1-only-no-data1.1'",
+      "after": "legacyInputsUsedOnlyForExistingPreflight:true,meaningBatch:'v1-and-current-v1.1',currentMeaningDataVersion:'meaning-context-data/1.1.0'",
+      "count": 1
+    },
+    {
+      "kind": "once",
+      "before": "import {withNamingV7Deadline,reloadNamingV7Page} from './smoke-naming-v7-waits';",
+      "after": "import {withNamingV7Deadline,reloadNamingV7Page} from './smoke-naming-v7-waits';\nimport {canonicalPlainJson} from '../shared/plain-json';",
+      "count": 1,
+      "scope": "explicit post-history-restore assertion enhancement"
+    },
+    {
+      "kind": "once",
+      "before": "/** The source-owned contract is compiled into the main bundle; every actual",
+      "after": "/** Compare the actual restore return with the selected, independently saved\n * historical target. Mutable CAS fields belong to the current saved session. */\nexport function assertDesktop145RecordedHistoryRestored(restored:NamingSession,beforeRestore:NamingSession,revision:SessionRevision){\n const target=revision.session;\n fact(revision.sessionId===beforeRestore.id&&target.id===beforeRestore.id&&target.profileId===beforeRestore.profileId,'选定历史不属于当前方案。');\n fact(target.candidates.length===1&&!!target.candidates[0].modernPracticalEvidence,'选定历史缺少待恢复的完整现代记录。');\n fact(restored.id===beforeRestore.id&&restored.profileId===beforeRestore.profileId,'恢复返回了其他方案。');\n fact(canonicalPlainJson(restored.candidates)===canonicalPlainJson(target.candidates),'恢复未取回选定历史的完整候选／现代／词义／来源快照。');\n const targetMeaning=target.candidates[0].meaningContextReview;\n fact(equal(targetMeaning,beforeRestore.candidates[0].meaningContextReview),'选定历史的词义与清除前既有选择不同。');\n if(targetMeaning)fact(targetMeaning.version==='meaning-context-review/1.0.0'&&equal(targetMeaning.source,{sourceId:'project-meaning-context-next-138-v1-1',sourceSha256:'448a4a3132e0689ba5c0ffc114f439fbf0c6550e7c72a8d563080100be9aa6d2',dataSha256:'424e8b6ca9a920c8b707ac267db9609bee900a5389b3659256b4c71ad71b378d',sourceLockSha256:'473b1fb377bfeeb07c3cea800450e2ec88532b1678c9c590dcad650d8e3dd964',dataManifestSha256:'c5ac43e96b59beafaf54bce6a504ef9d97c0b59afd0687eaa7daa64ad9378ac9'}),'选定历史的当前词义来源身份不同。');\n for(const key of ['profile','analysis','originalFavorable','dataVersion','createdAt','sourceSnapshot'] as const)fact(equal(restored[key],beforeRestore[key]),'恢复改变了当前不可回退字段：'+key);\n fact(restored.reviewRevision===(beforeRestore.reviewRevision??0)+1&&typeof restored.reviewToken==='string'&&restored.reviewToken.length>0&&restored.reviewToken!==beforeRestore.reviewToken,'恢复没有执行当前版本的单次CAS／新令牌。');\n return{verified:true as const,revisionId:revision.id,sessionId:revision.sessionId,hashConvention:'sha256(canonicalPlainJson(value)); sorted JSON object keys' as const,targetSnapshotSha256:hash(canonicalPlainJson(target)),targetCandidatesSha256:hash(canonicalPlainJson(target.candidates)),targetModernSha256:hash(canonicalPlainJson(target.candidates[0].modernPracticalEvidence)),targetMeaningSha256:hash(canonicalPlainJson(targetMeaning??null)),restoredCandidatesSha256:hash(canonicalPlainJson(restored.candidates)),beforeReviewRevision:beforeRestore.reviewRevision??0,beforeReviewToken:beforeRestore.reviewToken,restoredReviewRevision:restored.reviewRevision,restoredReviewToken:restored.reviewToken};\n}\n\n/** The source-owned contract is compiled into the main bundle; every actual",
+      "count": 1,
+      "scope": "explicit post-history-restore assertion enhancement"
+    },
+    {
+      "kind": "once",
+      "before": "fact(recordedRevision,'清除前现代记录没有真实历史见证。');session=await ipc<NamingSession>('restoreHistory',[session.id,recordedRevision.id,session.reviewRevision,session.reviewToken]);",
+      "after": "fact(recordedRevision,'清除前现代记录没有真实历史见证。');const beforeRecordedRestore=plain(session);session=await ipc<NamingSession>('restoreHistory',[session.id,recordedRevision.id,session.reviewRevision,session.reviewToken]);const historyRestoreWitness=assertDesktop145RecordedHistoryRestored(session,beforeRecordedRestore,recordedRevision);",
+      "count": 1,
+      "scope": "explicit post-history-restore assertion enhancement"
+    },
+    {
+      "kind": "once",
+      "before": "historyRestore:'actual-saved-revision',modernClearAndHistoryRestoration:true",
+      "after": "historyRestore:'actual-saved-revision',modernClearAndHistoryRestoration:historyRestoreWitness.verified,historyRestoreWitness",
+      "count": 1,
+      "scope": "explicit post-history-restore assertion enhancement"
+    }
+  ],
+  "mainReplacements": [
+    {
+      "before": "import {smokeDesktopWorkflow139,createDesktop139FileRoutes} from './smoke-desktop-workflow-139';",
+      "after": "import {smokeDesktopWorkflow139,createDesktop139FileRoutes} from './smoke-desktop-workflow-139';\nimport {smokeDesktopWorkflow145,createDesktop145FileRoutes} from './smoke-desktop-workflow-145';"
+    },
+    {
+      "before": "const desktopWorkflow139Requested=process.env.NAMING_STUDIO_DESKTOP_WORKFLOW==='139';",
+      "after": "const desktopWorkflow139Requested=process.env.NAMING_STUDIO_DESKTOP_WORKFLOW==='139';\nconst desktopWorkflow145Requested=process.env.NAMING_STUDIO_DESKTOP_WORKFLOW==='145';\nconst desktopWorkflowRequested=desktopWorkflow139Requested||desktopWorkflow145Requested;"
+    },
+    {
+      "before": "(!desktopWorkflow139Requested||process.env.NAMING_STUDIO_SMOKE_SCOPE!=='naming-v7')",
+      "after": "(!desktopWorkflowRequested||process.env.NAMING_STUDIO_SMOKE_SCOPE!=='naming-v7')"
+    },
+    {
+      "before": "桌面139必须明确marker=139并复用naming-v7完整隔离scope。",
+      "after": "桌面验收必须明确marker=139或145并复用naming-v7完整隔离scope。"
+    },
+    {
+      "before": "const desktop139Files=desktopWorkflow139Requested?createDesktop139FileRoutes(service,namingV7Context!,(session,file)=>exportPDF(session,file,(target,bytes)=>{writeNamingV7SmokeFile(namingV7Context!,target,bytes);})):undefined;",
+      "after": "const desktop139Files=desktopWorkflow139Requested?createDesktop139FileRoutes(service,namingV7Context!,(session,file)=>exportPDF(session,file,(target,bytes)=>{writeNamingV7SmokeFile(namingV7Context!,target,bytes);})):desktopWorkflow145Requested?createDesktop145FileRoutes(service,namingV7Context!,(session,file)=>exportPDF(session,file,(target,bytes)=>{writeNamingV7SmokeFile(namingV7Context!,target,bytes);})):undefined;"
+    },
+    {
+      "before": "if(desktopWorkflow139Requested)return {action:'deny'};",
+      "after": "if(desktopWorkflowRequested)return {action:'deny'};"
+    },
+    {
+      "before": "if(desktopWorkflow139Requested)window.webContents.session.webRequest",
+      "after": "if(desktopWorkflowRequested)window.webContents.session.webRequest"
+    },
+    {
+      "before": "const naming=desktopWorkflow139Requested",
+      "after": "const naming=desktopWorkflow145Requested\n          ?await smokeDesktopWorkflow145(window,service,context,captureSmokePage,desktop139Files!,{appVersion:app.getVersion(),preloadPath:join(root,'dist-electron/preload.cjs'),rendererNetworkAttempts:()=>[...desktop139RendererNetworkAttempts]})\n          :desktopWorkflow139Requested"
+    },
+    {
+      "before": "if(desktopWorkflow139Requested)writeNamingV7SmokeArtifact(context,'desktop-workflow-139-result.json',JSON.stringify({appVersion:app.getVersion(),workflow:naming,runtimeVersions:process.versions},null,2));",
+      "after": "if(desktopWorkflow139Requested)writeNamingV7SmokeArtifact(context,'desktop-workflow-139-result.json',JSON.stringify({appVersion:app.getVersion(),workflow:naming,runtimeVersions:process.versions},null,2));\n        if(desktopWorkflow145Requested)writeNamingV7SmokeArtifact(context,'desktop-workflow-145-result.json',JSON.stringify({appVersion:app.getVersion(),workflow:naming,runtimeVersions:process.versions},null,2));"
+    }
+  ],
+  "mainBaseSha256": "6c96c3e277ddd287645d7615d1c6ad433e2b036de1e339feffd21a2c21d1b423",
+  "postRestoreEnhancement": {
+    "issue": "A147-DESKTOP145-HISTORY-RESTORE",
+    "baseSha256": "f49c0700d03bdcd1cbf3130067fb8174c7d3e300cb3d90a0194b153764783fa4",
+    "afterSha256": "4dc3eefa4845c5c66786622a77e8cb70b82c245973a5e02196a04250cfd29843",
+    "newWitnessField": "states[case].historyRestoreWitness",
+    "original139Changed": false
+  }
+}

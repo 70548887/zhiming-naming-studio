@@ -1,0 +1,90 @@
+{
+  "schemaVersion": "m754-independent-review/1.0.0",
+  "profileId": "project-dictionary-object-elements/2.0.0-m754-candidate",
+  "packageLockSha256": "e33287aac335327e58f772def9c7f8064abed174d7988b4ac6f452eba68ada72",
+  "reviewId": "M770-object-element-review/1.0.0",
+  "reviewerId": "M770-DECISION",
+  "authorId": "M754-DATA",
+  "rows": [
+    {
+      "char": "枫",
+      "candidateSha256": "3c96d4a6b3e7c0efdf40149bf6fc65e14fe88bddc2cf83102b61ee6f453156a2",
+      "decision": "approved",
+      "scope": "default-reading-direct-object",
+      "themeId": null,
+      "rationale": "fēng所选名词直接说明乔木，按项目树木→木约定可独立分类；固定枫/楓双向字形证据只解决来源绑定。 叶色由黄转红不产生火或土标签；只对所选楓词条，不泛称所有同名植物的生物分类。 本批准只属固定字形/默认读音/指定词性义项的项目物象分类；不等于传统唯一汉字五行、整名适用或人格吉凶。"
+    },
+    {
+      "char": "卉",
+      "candidateSha256": "af99f36d8ad5023f3c425f91986829d747ed064d706cd5be6f31b7f7150c7475",
+      "decision": "approved",
+      "scope": "default-reading-direct-object",
+      "themeId": null,
+      "rationale": "huì所选名词直接指草类植物，自足对象可按植物→木分类，不需知道具体花种或家庭偏好。 不得把每种花的色彩、功用、药性归入本条；不是见艹即木。 本批准只属固定字形/默认读音/指定词性义项的项目物象分类；不等于传统唯一汉字五行、整名适用或人格吉凶。"
+    },
+    {
+      "char": "麓",
+      "candidateSha256": "5c0b0e498af033e40327d7e50b21d48190273cb2b8945372841f27a46c143c3f",
+      "decision": "approved",
+      "scope": "default-reading-direct-object",
+      "themeId": null,
+      "rationale": "lù所选义为山脚，按地形→土的项目约定足够；含林的字形不是木标签证据。 只分类地形；不是地质稳定性、人体足部或命局稳定的证明。 本批准只属固定字形/默认读音/指定词性义项的项目物象分类；不等于传统唯一汉字五行、整名适用或人格吉凶。"
+    },
+    {
+      "char": "菘",
+      "candidateSha256": "09d53e7686b1affc248513017b4fdcff86186af695b3fa8c5ef7c5fd363a0a32",
+      "decision": "approved",
+      "scope": "default-reading-direct-object",
+      "themeId": null,
+      "rationale": "sōng直接指所列草本植物，按植物→木一致分类；是否喜欢蔬菜意象属于后续选名偏好，不能否定客观所指的项目分类。 必须保留白菜所指，不把菘偷换成同音松、扩大成所有蔬菜、推药效或营养保证。 本批准只属固定字形/默认读音/指定词性义项的项目物象分类；不等于传统唯一汉字五行、整名适用或人格吉凶。"
+    },
+    {
+      "char": "珉",
+      "candidateSha256": "7a378b028407bf7220f21b91bc89998739613271984dcbeaa81394bafeab3bbb",
+      "decision": "approved",
+      "scope": "default-reading-direct-object",
+      "themeId": null,
+      "rationale": "mín所选名词指似玉美石，按石材→土分类，与石的岩石义一致；玉旁不产生金属性。 似玉不等于玉，不宣称金属成分、价额、品级或道德品质。 本批准只属固定字形/默认读音/指定词性义项的项目物象分类；不等于传统唯一汉字五行、整名适用或人格吉凶。"
+    },
+    {
+      "char": "川",
+      "candidateSha256": "f5d1d4488609ad5ac1cae5da4da71f5c3d53a228f2a413c13e507c25c4d7df07",
+      "decision": "approved",
+      "scope": "explicit-naming-theme",
+      "themeId": "river-object",
+      "rationale": "chuān/def0直接为河流；显式river-object选择把采用对象限定在河流，因此足以按河流→水约定采用。 四川简称或烹饪动词不在范围；不得因烹饪用了水而借此条归水。无主题保持theme-required。 本批准只属固定字形/默认读音/指定词性义项的项目物象分类；不等于传统唯一汉字五行、整名适用或人格吉凶。"
+    },
+    {
+      "char": "石",
+      "candidateSha256": "131ffc5746ce3512111e5eab202cc4ced8c69571fa8f823cf9fca9e106f6f179",
+      "decision": "approved",
+      "scope": "explicit-naming-theme",
+      "themeId": "mineral-stone-object",
+      "rationale": "shí/def0的岩石材料义与mineral-stone-object主题一起足以按石材→土采用；不是所有矿物一律金。 排除dàn量词、shí姓氏、部首、药石或碑碣等其他义；姓石不自动触发给名的项目分类。 本批准只属固定字形/默认读音/指定词性义项的项目物象分类；不等于传统唯一汉字五行、整名适用或人格吉凶。"
+    },
+    {
+      "char": "枝",
+      "candidateSha256": "19b297c331823162eb177fb24f4a295978754cee9089c3156239bde4fe713479",
+      "decision": "approved",
+      "scope": "explicit-naming-theme",
+      "themeId": "tree-branch-object",
+      "rationale": "zhī/def0直接指植物部位；tree-branch-object显式选择足以将该对象按植物部位→木采用。 不采用支系、量词、姓氏、四肢或qí多趾义；不能从人体/宗族含义补木。 本批准只属固定字形/默认读音/指定词性义项的项目物象分类；不等于传统唯一汉字五行、整名适用或人格吉凶。"
+    },
+    {
+      "char": "棉",
+      "candidateSha256": "d87f0385ba765aa0bad9430854e6d8a32f717b81b7529d8c0e50b5c82ca4acdf",
+      "decision": "approved",
+      "scope": "explicit-naming-theme",
+      "themeId": "cotton-plant-object",
+      "rationale": "mián/def0在参见前已经给出木棉和草棉统称，是自足的植物类别定义；cotton-plant-object主题足以选定植物→木。 无需外借参见条补植物种类细节；不包含棉絮制品形容词、微薄义，不能推定所有纺织物都属木。 本批准只属固定字形/默认读音/指定词性义项的项目物象分类；不等于传统唯一汉字五行、整名适用或人格吉凶。"
+    },
+    {
+      "char": "蕤",
+      "candidateSha256": "1e699c3a69c837e575709c000d414dcd1496091c5c2459852cfd760c96009bc0",
+      "decision": "approved",
+      "scope": "explicit-naming-theme",
+      "themeId": "hanging-flower-object",
+      "rationale": "ruí/def1名词直接为草木垂结之花；hanging-flower-object主题足以按植物部位→木采用，不能误取def0。 固定definitionIndex=1；不用首义下垂形容、帽饰或葳蕤参见义，也不按艹偏旁推断。 本批准只属固定字形/默认读音/指定词性义项的项目物象分类；不等于传统唯一汉字五行、整名适用或人格吉凶。"
+    }
+  ]
+}

@@ -1,0 +1,534 @@
+{
+  "schema": "m970-character-reference-profile/1",
+  "batchId": "M970-DATA",
+  "version": "1.0.0-candidate.1",
+  "candidateOnly": true,
+  "activation": "off",
+  "productionApproved": false,
+  "formalCoverageAdded": 0,
+  "defaultAutomaticCoverageAdded": 0,
+  "newDictionaryCharacters": 0,
+  "sourceScope": "direct-default-reading-single-character-only",
+  "rows": [
+    {
+      "candidateId": "m970-character-reference:傲:14019:0:1",
+      "char": "傲",
+      "pinyin": "ào",
+      "tone": 4,
+      "sourceWord": "傲",
+      "sourcePOS": "形",
+      "sourceCoordinates": [
+        14019,
+        0,
+        1
+      ],
+      "sourceEntrySha256": "03e30ebac62ef49998b3504cd45adf60f31eef2f49e7ff9a44ad2f9b5e3b2b2d",
+      "sourceDefinitionSha256": "f6780cb6b95de4586fd9a6b1b9dc8d7688696b416d4885f04dd25c5b7db1f093",
+      "glyphBinding": {
+        "kind": "exact-source-glyph",
+        "char": "傲",
+        "sourceWord": "傲"
+      },
+      "baselineCharacter": {
+        "char": "傲",
+        "pinyin": "ào",
+        "tone": 4,
+        "meaning": "倨慢。；不屈服的。；輕視、不尊敬。",
+        "traditional": "傲",
+        "strokes": 12,
+        "radical": "人",
+        "elements": [],
+        "elementBasis": "五行属性待起名师指定；不从普通笔画数推定五行",
+        "tags": [
+          "常用命名字候选"
+        ],
+        "warning": "本表按字典中文义项与 Unicode 字形字段核对；仍需结合全名检查谐音。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "ào",
+            "tone": 4,
+            "meanings": [
+              "倨慢。",
+              "不屈服的。",
+              "輕視、不尊敬。",
+              "急躁。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "傲"
+          }
+        ],
+        "polyphonic": false,
+        "variants": [
+          "傲"
+        ]
+      },
+      "baselineCharacterSha256": "c90f316b684232b982ccc37d5f649972fbf5364699ad0c186e1efe46bccb6ccd",
+      "prior": {
+        "status": "approved",
+        "automaticMeaningAllowed": false,
+        "mode": "manual-confirmation-required",
+        "scope": "宜用于能显明坚守之义的复名；单用易读作傲慢；并存倨慢、轻视、不敬、急躁义。"
+      },
+      "project": {
+        "meaning": "取不屈服这一限定形容义。",
+        "projectWish": null,
+        "limits": [
+          "不把不屈服写成已经具备的坚强、勇敢或道德事实。",
+          "不采用傲慢、轻视或急躁的其他义项，也不由傲骨复词补义。",
+          "仅作候选单字原义对照；完整姓名未评估，未取得生成或自动采用权限。"
+        ],
+        "manualReason": "同一读音还有倨慢、轻视和急躁义；必须结合具体名字与意图排除歧义。",
+        "attribution": "M970 original narrow project explanation; not dictionary text or an adoption decision",
+        "license": "CC0-1.0"
+      },
+      "usageStatus": "manual-context-required",
+      "candidateStatus": "pending-independent-review",
+      "admissionGranted": false,
+      "automaticMeaningAllowed": false,
+      "productionApproved": false,
+      "wholeNameAssessment": "not-assessed",
+      "wholeNameMeaning": null,
+      "automaticNameRecommendation": false,
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0
+    },
+    {
+      "candidateId": "m970-character-reference:革:153706:0:0",
+      "char": "革",
+      "pinyin": "gé",
+      "tone": 2,
+      "sourceWord": "革",
+      "sourcePOS": "名",
+      "sourceCoordinates": [
+        153706,
+        0,
+        0
+      ],
+      "sourceEntrySha256": "6fa9fc95a53e2b2e930aee711f65e9b28ef5fa9d6fb8a3c77de93c91f4cc628a",
+      "sourceDefinitionSha256": "54d97c0a87759cc4671c211d13f6a591cb459fedaf6d6baa557c47cebfefa4d2",
+      "glyphBinding": {
+        "kind": "exact-source-glyph",
+        "char": "革",
+        "sourceWord": "革"
+      },
+      "baselineCharacter": {
+        "char": "革",
+        "pinyin": "gé",
+        "tone": 2,
+        "meaning": "去毛且經過加工處理的獸皮。；人體肌膚上的厚皮。；古代軍人所穿的甲冑。",
+        "traditional": "革",
+        "strokes": 9,
+        "radical": "革",
+        "elements": [],
+        "elementBasis": "五行属性待起名师指定；不从普通笔画数推定五行",
+        "tags": [
+          "常用命名字候选"
+        ],
+        "warning": "多音字：本方案采用 gé，请按姓名用法确认；各读音义项分别保存。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "gé",
+            "tone": 2,
+            "meanings": [
+              "去毛且經過加工處理的獸皮。",
+              "人體肌膚上的厚皮。",
+              "古代軍人所穿的甲冑。",
+              "《易經》卦名。六十四卦之一。離（☲）下兌（☱）上，表去故、變革之象。",
+              "姓。如漢代有革鑒，明代有革從時。",
+              "二一四部首之一。",
+              "變更、改換。",
+              "除去。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "革"
+          },
+          {
+            "pinyin": "jí",
+            "tone": 2,
+            "meanings": [
+              "危急。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "革"
+          }
+        ],
+        "polyphonic": true,
+        "variants": [
+          "革"
+        ]
+      },
+      "baselineCharacterSha256": "66c1d91c9fde778999a6382c88c3e73ba627759223ad0f48f1e8f750613e3d0e",
+      "prior": {
+        "status": "approved",
+        "automaticMeaningAllowed": false,
+        "mode": "manual-confirmation-required",
+        "scope": "改换的对象应具体；勇于改进是项目期许，原义不天然为善。"
+      },
+      "project": {
+        "meaning": "取去毛并经过加工处理的兽皮这一材料义。",
+        "projectWish": null,
+        "limits": [
+          "不从材料义推导改革、进取、坚韧或军事身份。",
+          "不赋予材料传统五行归属，不混入卦名、甲胄或人体皮肤义。",
+          "仅作候选单字原义对照；完整姓名未评估，未取得生成或自动采用权限。"
+        ],
+        "manualReason": "本次选择具体材料义，区别此前变更动作取意；材料主题及家庭接受度须明确。",
+        "attribution": "M970 original narrow project explanation; not dictionary text or an adoption decision",
+        "license": "CC0-1.0"
+      },
+      "usageStatus": "manual-context-required",
+      "candidateStatus": "pending-independent-review",
+      "admissionGranted": false,
+      "automaticMeaningAllowed": false,
+      "productionApproved": false,
+      "wholeNameAssessment": "not-assessed",
+      "wholeNameMeaning": null,
+      "automaticNameRecommendation": false,
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0
+    },
+    {
+      "candidateId": "m970-character-reference:司:25850:0:0",
+      "char": "司",
+      "pinyin": "sī",
+      "tone": 1,
+      "sourceWord": "司",
+      "sourcePOS": "動",
+      "sourceCoordinates": [
+        25850,
+        0,
+        0
+      ],
+      "sourceEntrySha256": "d9239bcbc063cd12de43970ba0650a214c85643fc561667261f5fbac0ca913be",
+      "sourceDefinitionSha256": "31a76ec7700f1748e50073c70b3a53c3e6539b55caeb3ab5dd814755933d8cc5",
+      "glyphBinding": {
+        "kind": "exact-source-glyph",
+        "char": "司",
+        "sourceWord": "司"
+      },
+      "baselineCharacter": {
+        "char": "司",
+        "pinyin": "sī",
+        "tone": 1,
+        "meaning": "掌管。；中央機關各部以下的組織單位。；姓。如宋代有司超。",
+        "traditional": "司",
+        "strokes": 5,
+        "radical": "口",
+        "elements": [],
+        "elementBasis": "五行属性待起名师指定；不从普通笔画数推定五行",
+        "tags": [
+          "常用命名字候选"
+        ],
+        "warning": "本表按字典中文义项与 Unicode 字形字段核对；仍需结合全名检查谐音。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "sī",
+            "tone": 1,
+            "meanings": [
+              "掌管。",
+              "中央機關各部以下的組織單位。",
+              "姓。如宋代有司超。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "司"
+          }
+        ],
+        "polyphonic": false,
+        "variants": [
+          "司"
+        ]
+      },
+      "baselineCharacterSha256": "cc08e71dd4e268709f2f69bc9b69d54fdd8601bebe6d390228a7f958ea2ccf7a",
+      "prior": {
+        "status": "approved",
+        "automaticMeaningAllowed": false,
+        "mode": "manual-confirmation-required",
+        "scope": "宜复名中明确所司之事；另指行政单位及姓氏，不等于主管地位或领导天命。"
+      },
+      "project": {
+        "meaning": "取掌管这一动作义。",
+        "projectWish": null,
+        "limits": [
+          "不把掌管写成孩子天生领导、掌权或未来仕途。",
+          "不借行政组织单位或姓氏义批准姓名组合。",
+          "仅作候选单字原义对照；完整姓名未评估，未取得生成或自动采用权限。"
+        ],
+        "manualReason": "所掌管对象须由具体名字语境说明，单字不证明职位、权力或管理能力。",
+        "attribution": "M970 original narrow project explanation; not dictionary text or an adoption decision",
+        "license": "CC0-1.0"
+      },
+      "usageStatus": "manual-context-required",
+      "candidateStatus": "pending-independent-review",
+      "admissionGranted": false,
+      "automaticMeaningAllowed": false,
+      "productionApproved": false,
+      "wholeNameAssessment": "not-assessed",
+      "wholeNameMeaning": null,
+      "automaticNameRecommendation": false,
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0
+    },
+    {
+      "candidateId": "m970-character-reference:姿:40047:0:0",
+      "char": "姿",
+      "pinyin": "zī",
+      "tone": 1,
+      "sourceWord": "姿",
+      "sourcePOS": "名",
+      "sourceCoordinates": [
+        40047,
+        0,
+        0
+      ],
+      "sourceEntrySha256": "91b0fea922ecdca77ef750657a2024f18d31bdbe3294324e2c136f485770e17b",
+      "sourceDefinitionSha256": "d1bfcc7d35421d3f534be6789e46a5b8882bf3f642479006918565ec6d911b63",
+      "glyphBinding": {
+        "kind": "exact-source-glyph",
+        "char": "姿",
+        "sourceWord": "姿"
+      },
+      "baselineCharacter": {
+        "char": "姿",
+        "pinyin": "zī",
+        "tone": 1,
+        "meaning": "容貌、態勢。；資質。；放任、縱情。",
+        "traditional": "姿",
+        "strokes": 9,
+        "radical": "女",
+        "elements": [],
+        "elementBasis": "五行属性待起名师指定；不从普通笔画数推定五行",
+        "tags": [
+          "常用命名字候选"
+        ],
+        "warning": "本表按字典中文义项与 Unicode 字形字段核对；仍需结合全名检查谐音。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "zī",
+            "tone": 1,
+            "meanings": [
+              "容貌、態勢。",
+              "資質。",
+              "放任、縱情。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "姿"
+          }
+        ],
+        "polyphonic": false,
+        "variants": [
+          "姿"
+        ]
+      },
+      "baselineCharacterSha256": "e7511406721c84be0ac5b1f1644935effa988c7566ebd5c2d958c944a0659c8b",
+      "prior": {
+        "status": "approved",
+        "automaticMeaningAllowed": false,
+        "mode": "manual-confirmation-required",
+        "scope": "资质为中性本义，不自动等于天资卓越；另有放任纵情义。"
+      },
+      "project": {
+        "meaning": "取容貌、态势这一字面描述。",
+        "projectWish": null,
+        "limits": [
+          "不把容貌、态势自动加上美丽、优雅或出众等未见本义的形容。",
+          "不借资质义推断天赋，不把纵情义混入采用。",
+          "仅作候选单字原义对照；完整姓名未评估，未取得生成或自动采用权限。"
+        ],
+        "manualReason": "外貌和态势为中性词义，具体所指及个人接受度须审阅，不套用美貌评价。",
+        "attribution": "M970 original narrow project explanation; not dictionary text or an adoption decision",
+        "license": "CC0-1.0"
+      },
+      "usageStatus": "manual-context-required",
+      "candidateStatus": "pending-independent-review",
+      "admissionGranted": false,
+      "automaticMeaningAllowed": false,
+      "productionApproved": false,
+      "wholeNameAssessment": "not-assessed",
+      "wholeNameMeaning": null,
+      "automaticNameRecommendation": false,
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0
+    },
+    {
+      "candidateId": "m970-character-reference:由:98075:0:2",
+      "char": "由",
+      "pinyin": "yóu",
+      "tone": 2,
+      "sourceWord": "由",
+      "sourcePOS": "名",
+      "sourceCoordinates": [
+        98075,
+        0,
+        2
+      ],
+      "sourceEntrySha256": "1048e5fc70aee214cb78cff99f34e006b2307e49f9d3e9df3590baa5145f8b5f",
+      "sourceDefinitionSha256": "4d00b2c876f15ad1f0275f63ef2156475656348d7e3d3875ea3549212cc34951",
+      "glyphBinding": {
+        "kind": "exact-source-glyph",
+        "char": "由",
+        "sourceWord": "由"
+      },
+      "baselineCharacter": {
+        "char": "由",
+        "pinyin": "yóu",
+        "tone": 2,
+        "meaning": "原因。；機會、機緣。；途徑、方法。",
+        "traditional": "由",
+        "strokes": 5,
+        "radical": "田",
+        "elements": [],
+        "elementBasis": "五行属性待起名师指定；不从普通笔画数推定五行",
+        "tags": [
+          "常用命名字候选"
+        ],
+        "warning": "本表按字典中文义项与 Unicode 字形字段核对；仍需结合全名检查谐音。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "yóu",
+            "tone": 2,
+            "meanings": [
+              "原因。",
+              "機會、機緣。",
+              "途徑、方法。",
+              "姓。如秦代有由余。",
+              "遵循、聽從。",
+              "聽任、任憑。",
+              "走、經過。",
+              "踐行。",
+              "自、從。表示所從出。",
+              "因為。表示原因。",
+              "表示憑藉。",
+              "屬、歸。表示職責範圍的畫分。",
+              "於。表示所在。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "由"
+          }
+        ],
+        "polyphonic": false,
+        "variants": [
+          "由"
+        ]
+      },
+      "baselineCharacterSha256": "818eb32d9be60c90efa3031b8f0e13bf78de51aa7600285c88a1b65a7f4ca33f",
+      "prior": {
+        "status": "approved",
+        "automaticMeaningAllowed": false,
+        "mode": "manual-confirmation-required",
+        "scope": "只采用践行义，不将“自由”整个词义拆给由。"
+      },
+      "project": {
+        "meaning": "取途径、方法这一名词义。",
+        "projectWish": null,
+        "limits": [
+          "不将自由复词拆为由字的自由、独立或自主品格义。",
+          "不把途径方法解释为正确选择、能力、机会或人生结果保证。",
+          "仅作候选单字原义对照；完整姓名未评估，未取得生成或自动采用权限。"
+        ],
+        "manualReason": "须明确所指途径或方法；这是不同于旧践行动作解释的限定义项。",
+        "attribution": "M970 original narrow project explanation; not dictionary text or an adoption decision",
+        "license": "CC0-1.0"
+      },
+      "usageStatus": "manual-context-required",
+      "candidateStatus": "pending-independent-review",
+      "admissionGranted": false,
+      "automaticMeaningAllowed": false,
+      "productionApproved": false,
+      "wholeNameAssessment": "not-assessed",
+      "wholeNameMeaning": null,
+      "automaticNameRecommendation": false,
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0
+    },
+    {
+      "candidateId": "m970-character-reference:尤:45696:0:1",
+      "char": "尤",
+      "pinyin": "yóu",
+      "tone": 2,
+      "sourceWord": "尤",
+      "sourcePOS": "動",
+      "sourceCoordinates": [
+        45696,
+        0,
+        1
+      ],
+      "sourceEntrySha256": "137eaea18778cde70387585bfd469d5dcf2613c352cb2d46b10ed739a87064f4",
+      "sourceDefinitionSha256": "1ec92c16cdad87e42e9fa7fa8935910918aaf2190f9c457f987b1d1014a2da88",
+      "glyphBinding": {
+        "kind": "exact-source-glyph",
+        "char": "尤",
+        "sourceWord": "尤"
+      },
+      "baselineCharacter": {
+        "char": "尤",
+        "pinyin": "yóu",
+        "tone": 2,
+        "meaning": "怨恨、責怪。；親近、喜愛。；更加、格外。",
+        "traditional": "尤",
+        "strokes": 4,
+        "radical": "尢",
+        "elements": [],
+        "elementBasis": "五行属性待起名师指定；不从普通笔画数推定五行",
+        "tags": [
+          "常用命名字候选"
+        ],
+        "warning": "本表按字典中文义项与 Unicode 字形字段核对；仍需结合全名检查谐音。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "yóu",
+            "tone": 2,
+            "meanings": [
+              "怨恨、責怪。",
+              "親近、喜愛。",
+              "更加、格外。",
+              "特異。",
+              "過失。",
+              "姓。如宋代有尤鶴。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "尤"
+          }
+        ],
+        "polyphonic": false,
+        "variants": [
+          "尤"
+        ]
+      },
+      "baselineCharacterSha256": "01f2ccd80d7a15f176ea13908966a8b2cebce82c6cd12d8de5862695525d6dfd",
+      "prior": {
+        "status": "approved",
+        "automaticMeaningAllowed": false,
+        "mode": "manual-confirmation-required",
+        "scope": "限亲近喜爱义；同音另有责怪、过失，不以尤其推断优秀。"
+      },
+      "project": {
+        "meaning": "取亲近、喜爱这一动作义。",
+        "projectWish": null,
+        "limits": [
+          "不由尤其或优异等相近词推导优秀、卓越或人格评价。",
+          "不保证人际关系，不把责怪或过失义反向美化。",
+          "仅作候选单字原义对照；完整姓名未评估，未取得生成或自动采用权限。"
+        ],
+        "manualReason": "亲近或喜爱的对象须由语境确定；同音另有责怪、过失等义，不自动适名。",
+        "attribution": "M970 original narrow project explanation; not dictionary text or an adoption decision",
+        "license": "CC0-1.0"
+      },
+      "usageStatus": "manual-context-required",
+      "candidateStatus": "pending-independent-review",
+      "admissionGranted": false,
+      "automaticMeaningAllowed": false,
+      "productionApproved": false,
+      "wholeNameAssessment": "not-assessed",
+      "wholeNameMeaning": null,
+      "automaticNameRecommendation": false,
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "schema": "naming-citation-source-errata/137.r2",
+  "revision": "137.r2",
+  "baseline": {
+    "manifestSha256": "403308ec81c8aa2b462f5b8a9110ebbc6e0e1537bb44a7e58a7e3c6b0eaccd67",
+    "tableSha256": "d317d530b40794cc788e97ce3b2765d6a213d277ffa59b2629755181e1f46be5"
+  },
+  "audit": {
+    "file": ".local/team-137/audit/dev03-naming-r1-audit.json",
+    "sha256": "950efae8797e8c88de0016180ffdd12beba10b0395cc0e02e572c73fd0f9726a",
+    "findingId": "DEV03-R1-SOURCE-001"
+  },
+  "corrections": [
+    {
+      "name": "琼莹",
+      "action": "replace-contextual-sense",
+      "before": {
+        "name": "琼莹",
+        "ruleId": "meaning137-name-琼莹",
+        "citation": {
+          "id": "shijing-98-2",
+          "title": "诗经",
+          "chapter": "国风·齐风·着 第2章",
+          "text": "俟我于庭乎而，充耳以青乎而，尚之以琼莹乎而。",
+          "sourceId": "shijing"
+        },
+        "excerpt": "尚之以琼莹乎而。",
+        "extraction": "continuous",
+        "context": "同篇三章的玉饰语境完整保留，期许是对光洁物象的项目创作。 两字在原句连续出现，连续取字不等于现代固定词。 原文语义与项目家庭期许分开，原句不作孩子属性或命运保证。",
+        "meaning": "原句关联：原句描写佩饰中的美玉形象，莹取透明光洁。 项目家庭期许：愿保持清楚坦诚的表达，珍惜细致之美。",
+        "sourceMeaning": "原句描写佩饰中的美玉形象，莹取透明光洁。",
+        "projectWish": "项目创作：愿保持清楚坦诚的表达，珍惜细致之美。",
+        "readings": [
+          {
+            "char": "琼",
+            "pinyin": "qióng",
+            "tone": 2,
+            "sourceId": "moe-revised",
+            "dictionaryWord": "瓊",
+            "rawEntryIndex": 97123,
+            "rawHeteronymIndex": 0,
+            "rawDefinitionIndex": 0,
+            "dictionarySense": "一種美玉。"
+          },
+          {
+            "char": "莹",
+            "pinyin": "yíng",
+            "tone": 2,
+            "sourceId": "moe-revised",
+            "dictionaryWord": "瑩",
+            "rawEntryIndex": 96948,
+            "rawHeteronymIndex": 0,
+            "rawDefinitionIndex": 0,
+            "dictionarySense": "透明光潔。"
+          }
+        ],
+        "wholeContext": {
+          "title": "着",
+          "chapter": "国风",
+          "section": "齐风",
+          "content": [
+            "俟我于着乎而，充耳以素乎而，尚之以琼华乎而。",
+            "俟我于庭乎而，充耳以青乎而，尚之以琼莹乎而。",
+            "俟我于堂乎而，充耳以黄乎而，尚之以琼英乎而。"
+          ],
+          "matchedBlockIndexOneBased": 2
+        },
+        "reviewWarnings": [
+          "莹的琢磨义不与本句透明光洁义混用。"
+        ],
+        "licensing": {
+          "dictionary": "CC-BY-ND-3.0-TW;verbatim source definition",
+          "editorial": "CC0-1.0;project review and wishes only",
+          "citation": "MIT;fixed-source original text only"
+        }
+      },
+      "after": {
+        "name": "琼莹",
+        "ruleId": "meaning137-name-琼莹",
+        "citation": {
+          "id": "shijing-98-2",
+          "title": "诗经",
+          "chapter": "国风·齐风·着 第2章",
+          "text": "俟我于庭乎而，充耳以青乎而，尚之以琼莹乎而。",
+          "sourceId": "shijing"
+        },
+        "excerpt": "尚之以琼莹乎而。",
+        "extraction": "continuous",
+        "context": "同篇三章的充耳与玉饰语境完整保留；本句采用美石名物义，清楚坦诚等家庭期许是项目现代创作，不当作原诗字义。两字在原句连续出现，连续取字不等于现代固定词。原文语义与项目家庭期许分开，原句不作孩子属性或命运保证。",
+        "meaning": "原句关联：《著》本章描写充耳佩饰；“莹”在所选诗句中是名物词“美石”，固定词典该义项直接引用“尚之以瓊瑩乎而”，不以一般透明光洁义代替。 项目家庭期许：愿保持清楚坦诚的表达，珍惜细致之美。",
+        "sourceMeaning": "《著》本章描写充耳佩饰；“莹”在所选诗句中是名物词“美石”，固定词典该义项直接引用“尚之以瓊瑩乎而”，不以一般透明光洁义代替。",
+        "projectWish": "项目创作：愿保持清楚坦诚的表达，珍惜细致之美。",
+        "readings": [
+          {
+            "char": "琼",
+            "pinyin": "qióng",
+            "tone": 2,
+            "sourceId": "moe-revised",
+            "dictionaryWord": "瓊",
+            "rawEntryIndex": 97123,
+            "rawHeteronymIndex": 0,
+            "rawDefinitionIndex": 0,
+            "dictionarySense": "一種美玉。"
+          },
+          {
+            "char": "莹",
+            "pinyin": "yíng",
+            "tone": 2,
+            "sourceId": "moe-revised",
+            "dictionaryWord": "瑩",
+            "rawEntryIndex": 96948,
+            "rawHeteronymIndex": 0,
+            "rawDefinitionIndex": 1,
+            "dictionarySense": "美石。"
+          }
+        ],
+        "wholeContext": {
+          "title": "着",
+          "chapter": "国风",
+          "section": "齐风",
+          "content": [
+            "俟我于着乎而，充耳以素乎而，尚之以琼华乎而。",
+            "俟我于庭乎而，充耳以青乎而，尚之以琼莹乎而。",
+            "俟我于堂乎而，充耳以黄乎而，尚之以琼英乎而。"
+          ],
+          "matchedBlockIndexOneBased": 2
+        },
+        "reviewWarnings": [
+          "本句“莹”绑定固定词条瑩96948/0/1“美石。”；不借同音透明光洁或琢磨义作原句释义。"
+        ],
+        "licensing": {
+          "dictionary": "CC-BY-ND-3.0-TW;verbatim source definition",
+          "editorial": "CC0-1.0;project review and wishes only",
+          "citation": "MIT;fixed-source original text only"
+        }
+      },
+      "sameClauseEvidence": {
+        "rawEntryIndex": 96948,
+        "rawHeteronymIndex": 0,
+        "rawDefinitionIndex": 1,
+        "definition": {
+          "def": "美石。",
+          "quote": [
+            "《詩經．齊風．著》：「充耳以青乎而，尚之以瓊瑩乎而。」"
+          ],
+          "type": "名"
+        }
+      }
+    },
+    {
+      "name": "琼英",
+      "action": "defer-without-new-combination-credit",
+      "before": {
+        "name": "琼英",
+        "ruleId": "meaning137-name-琼英",
+        "citation": {
+          "id": "shijing-98-3",
+          "title": "诗经",
+          "chapter": "国风·齐风·着 第3章",
+          "text": "俟我于堂乎而，充耳以黄乎而，尚之以琼英乎而。",
+          "sourceId": "shijing"
+        },
+        "excerpt": "尚之以琼英乎而。",
+        "extraction": "continuous",
+        "context": "全篇迎候与佩饰语境保留，命名只取文化物象的期许，不把英解作本句才德杰出之人。 两字在原句连续出现，连续取字不等于现代固定词。 原文语义与项目家庭期许分开，原句不作孩子属性或命运保证。",
+        "meaning": "原句关联：原句描写美玉佩饰的光采，琼为美玉、英取美好义。 项目家庭期许：愿涵养自己的特点，温和而自持。",
+        "sourceMeaning": "原句描写美玉佩饰的光采，琼为美玉、英取美好义。",
+        "projectWish": "项目创作：愿涵养自己的特点，温和而自持。",
+        "readings": [
+          {
+            "char": "琼",
+            "pinyin": "qióng",
+            "tone": 2,
+            "sourceId": "moe-revised",
+            "dictionaryWord": "瓊",
+            "rawEntryIndex": 97123,
+            "rawHeteronymIndex": 0,
+            "rawDefinitionIndex": 0,
+            "dictionarySense": "一種美玉。"
+          },
+          {
+            "char": "英",
+            "pinyin": "yīng",
+            "tone": 1,
+            "sourceId": "moe-revised",
+            "dictionaryWord": "英",
+            "rawEntryIndex": 122560,
+            "rawHeteronymIndex": 0,
+            "rawDefinitionIndex": 5,
+            "dictionarySense": "美好的。"
+          }
+        ],
+        "wholeContext": {
+          "title": "着",
+          "chapter": "国风",
+          "section": "齐风",
+          "content": [
+            "俟我于着乎而，充耳以素乎而，尚之以琼华乎而。",
+            "俟我于庭乎而，充耳以青乎而，尚之以琼莹乎而。",
+            "俟我于堂乎而，充耳以黄乎而，尚之以琼英乎而。"
+          ],
+          "matchedBlockIndexOneBased": 3
+        },
+        "reviewWarnings": [
+          "不以英的现代国家简称或本句无据的身份义解释。"
+        ],
+        "licensing": {
+          "dictionary": "CC-BY-ND-3.0-TW;verbatim source definition",
+          "editorial": "CC0-1.0;project review and wishes only",
+          "citation": "MIT;fixed-source original text only"
+        }
+      },
+      "after": {
+        "name": "琼英",
+        "status": "pending",
+        "reason": "固定MOE复词瓊英97152/0/0以所选诗句释为“如玉一般的美石”，并说明也作瓊瑩。单字英的通用“美好的”不能证明本句名物义；当前完整姓名合同只支持单字义项绑定，先待组合级原义证据合同完成，不授本批新增出处信用。",
+        "scope": "no-automatic-combination-credit",
+        "citation": {
+          "id": "shijing-98-3",
+          "title": "诗经",
+          "chapter": "国风·齐风·着 第3章",
+          "text": "俟我于堂乎而，充耳以黄乎而，尚之以琼英乎而。",
+          "sourceId": "shijing"
+        },
+        "sourceEvidence": {
+          "sourceId": "moe-revised",
+          "dictionaryWord": "瓊英",
+          "rawEntryIndex": 97152,
+          "rawHeteronymIndex": 0,
+          "rawDefinitionIndex": 0,
+          "pinyin": "qióng yīng",
+          "dictionarySense": "如玉一般的美石。《詩經．齊風．著》：「俟我於堂乎而，充耳以黃乎而，尚之以瓊英乎而。」漢．毛亨．傳：「瓊英，美石似玉者，人君之服也。」也作「瓊瑩」。"
+        }
+      }
+    }
+  ],
+  "preserved": {
+    "all562MeaningDecisions": true,
+    "threeOriginalBatches": true,
+    "characterElements": true,
+    "defaultPronunciations": true,
+    "oldRules": true,
+    "r1Publication": true
+  },
+  "sameClauseEvidenceDoesNotApproveStandaloneUses": true
+}

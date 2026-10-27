@@ -1,0 +1,134 @@
+{
+  "source": {
+    "archiveSha256": "2af6f3cd3cdd606e5e90fc2b0992ab457b831ad6cdeaaf7e5633c2d7d983487c",
+    "installerSha256": "66ab5c6d1d04c21983420269f70b37bf5fff836bd3278dddd6848aebddbd3a56",
+    "policy": "Compiled only preserved published1.0.25 report/presentation modules from the verified original ASAR source map; no current report generator used for expected HTML hashes.",
+    "modules": [
+      {
+        "file": "src/main/yue-homophone-report.ts",
+        "sourceSha256": "d03d58d19579bc8909ac3baa55c4798a007d434765f6b36a6b31b0ad6bf730ea"
+      },
+      {
+        "file": "src/shared/yue-homophone-presentation.ts",
+        "sourceSha256": "a5ce415c7a8777bad6222e68e194514ec7e3be49c9c8619cb73758244cf8c42e"
+      }
+    ]
+  },
+  "cases": [
+    {
+      "table": "sessions",
+      "rowId": "660c6e26-66df-4e98-b8df-aca3b3be881e",
+      "rawSha256": "8183a273eb92b1b5d839e2056e782d6071619dec3d1e420a2d1347d45aeb2e1f",
+      "reports": [
+        {
+          "candidateId": "e62722ca-742c-4617-8f03-edb1840f891a",
+          "fullName": "溫奕",
+          "bytes": 6946,
+          "sha256": "b4f8d4c12d619d876dceffa6a79a884d26f0b500140578956a31ac4c20499e6e"
+        }
+      ]
+    },
+    {
+      "table": "sessions",
+      "rowId": "01877c2a-bbf3-4519-9c93-a17bb7d8452b",
+      "rawSha256": "469d4aa668d1c1f27114071688261eb792461f5f40a4d25485b960d1119bcafc",
+      "reports": [
+        {
+          "candidateId": "004c9192-7563-4dff-9f24-c5d192e33e9f",
+          "fullName": "陈瑞仁",
+          "bytes": 6066,
+          "sha256": "36b6702117d54137775e0a3e7f5e66d6c153fe5f6d7cded0958d7caba4b7b680"
+        },
+        {
+          "candidateId": "303a67f5-3df2-49f9-a411-efe3bb086a39",
+          "fullName": "陈仁瑞",
+          "bytes": 6181,
+          "sha256": "990d71eb7d2f2c406eead51ac07ddeee4d438f9a3266955079e01bfdbe92307e"
+        }
+      ]
+    },
+    {
+      "table": "revisions",
+      "rowId": "17",
+      "rawSha256": "b0f746f7874df402ea369e16bc1a3f06b23ba91556f7e8ebb9f1175680d4cbe1",
+      "reports": [
+        {
+          "candidateId": "e62722ca-742c-4617-8f03-edb1840f891a",
+          "fullName": "溫奕",
+          "bytes": 6123,
+          "sha256": "119817a070f78fc8a052063be2741b0e4f122953dac6faa142cb4b624faf4c4a"
+        }
+      ]
+    },
+    {
+      "table": "revisions",
+      "rowId": "18",
+      "rawSha256": "24c05d251430682f34d2d51654c5e925d162aef36377206a1867021d54c6ffa2",
+      "reports": [
+        {
+          "candidateId": "e62722ca-742c-4617-8f03-edb1840f891a",
+          "fullName": "溫奕",
+          "bytes": 6123,
+          "sha256": "119817a070f78fc8a052063be2741b0e4f122953dac6faa142cb4b624faf4c4a"
+        }
+      ]
+    },
+    {
+      "table": "revisions",
+      "rowId": "19",
+      "rawSha256": "3dce911205059101d0109f1d00f8f55bf148446b0c79616f8f804363bbcdad06",
+      "reports": [
+        {
+          "candidateId": "004c9192-7563-4dff-9f24-c5d192e33e9f",
+          "fullName": "陈瑞仁",
+          "bytes": 6181,
+          "sha256": "7defc7ed34e13582d00057660d978323bf9286af349451f794afd903d5197c5f"
+        },
+        {
+          "candidateId": "303a67f5-3df2-49f9-a411-efe3bb086a39",
+          "fullName": "陈仁瑞",
+          "bytes": 6181,
+          "sha256": "990d71eb7d2f2c406eead51ac07ddeee4d438f9a3266955079e01bfdbe92307e"
+        }
+      ]
+    },
+    {
+      "table": "revisions",
+      "rowId": "20",
+      "rawSha256": "1da39b9eec3cda50ae942aafcce2bd91212761e8de1177abae76deb078293ca3",
+      "reports": [
+        {
+          "candidateId": "004c9192-7563-4dff-9f24-c5d192e33e9f",
+          "fullName": "陈瑞仁",
+          "bytes": 6181,
+          "sha256": "7defc7ed34e13582d00057660d978323bf9286af349451f794afd903d5197c5f"
+        },
+        {
+          "candidateId": "303a67f5-3df2-49f9-a411-efe3bb086a39",
+          "fullName": "陈仁瑞",
+          "bytes": 6181,
+          "sha256": "990d71eb7d2f2c406eead51ac07ddeee4d438f9a3266955079e01bfdbe92307e"
+        }
+      ]
+    },
+    {
+      "table": "revisions",
+      "rowId": "21",
+      "rawSha256": "4c4322fc9ad8ef9178490bb93c13696eeae77f857f336fd7996947451a45a1bc",
+      "reports": [
+        {
+          "candidateId": "004c9192-7563-4dff-9f24-c5d192e33e9f",
+          "fullName": "陈瑞仁",
+          "bytes": 6838,
+          "sha256": "10b2fe42aa2c104045d4b17c03fbca11de7d91e1a7edef220461b2e0b2c2e2e2"
+        },
+        {
+          "candidateId": "303a67f5-3df2-49f9-a411-efe3bb086a39",
+          "fullName": "陈仁瑞",
+          "bytes": 6181,
+          "sha256": "990d71eb7d2f2c406eead51ac07ddeee4d438f9a3266955079e01bfdbe92307e"
+        }
+      ]
+    }
+  ]
+}

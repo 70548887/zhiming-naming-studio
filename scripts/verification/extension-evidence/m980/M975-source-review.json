@@ -1,0 +1,335 @@
+{
+  "schema": "independent-exact-source-review/1",
+  "reviewId": "M975-M754-GROUP",
+  "date": "2026-10-27",
+  "reviewer": "decision-group",
+  "result": "accepted-with-stated-source-scope",
+  "repository": "D:/Codex-NamingStudio-Evidence/m768-next-integration",
+  "commit": "51d991fb965a9d4441ade64c7e58d2bb558871ef",
+  "groupMapSha256": "46d668ae3ea19f3dca5314e0083cf10a81da833d2f636578ead8c9a2d2eca261",
+  "subgroups": {
+    "foundation5": 5,
+    "adjacentAdmitted2": 2
+  },
+  "rows": [
+    {
+      "file": "src/domain/m754-element-imagery-generation.ts",
+      "bytes": 928,
+      "sha256": "8870d6a590750a875afba96e34554a9e0bad5931748d1fbb3a19d753bb149ccc",
+      "gitBlob": "680a87481f3cb1e7d08109e452a41b2d8b54eca5",
+      "subgroup": "foundation5",
+      "historicalCommit": "82a089e0592e2e7b6cbfa1c8e15ab36f5f77a04b",
+      "historicalBytesIdentical": true,
+      "role": "pure generator seam",
+      "readerClass": "pure-rule-or-rule-data",
+      "compileScope": "main-service-bundle",
+      "reviewId": "M975-M754-GROUP",
+      "judgment": "accepted-for-exact-source-registration-with-trusted-main-scope",
+      "lines": [
+        5,
+        14
+      ],
+      "verified": [
+        "Forwards explicit projected characters and remaining caller context to the existing versioned local generator.",
+        "No factory creation, source-admission issuance, score-weight change or persistence is implemented here."
+      ],
+      "limits": [
+        "Imported domain/naming.ts and actual 7.1 generation algorithm are external context, not newly audited or dynamically executed.",
+        "Projection and generator inputs must come from trusted main context; this seam is not an IPC validation boundary."
+      ]
+    },
+    {
+      "file": "src/main/m754-element-imagery-generation.ts",
+      "bytes": 1054,
+      "sha256": "02f3e9527c0885e81206815e61e1d47db64ccb7868c484246f65ac614a1ca131",
+      "gitBlob": "2d41a0b442027fbc4fb8765dafa8cbff197bc3a3",
+      "subgroup": "foundation5",
+      "historicalCommit": "82a089e0592e2e7b6cbfa1c8e15ab36f5f77a04b",
+      "historicalBytesIdentical": true,
+      "role": "main verified projection adapter",
+      "readerClass": "service-fixed-source-reader",
+      "compileScope": "main-service-bundle",
+      "reviewId": "M975-M754-GROUP",
+      "judgment": "accepted-for-exact-source-registration-with-trusted-main-scope",
+      "lines": [
+        7,
+        11
+      ],
+      "verified": [
+        "Calls the real verified-handle projection before the domain generation seam.",
+        "Returns the projection decisions, lock and review identity without writing a dataset or Store."
+      ],
+      "limits": [
+        "Accepts the generic M754 handle and ordinary main-owned character array; it is not the fixed M779 admission factory or an untrusted input boundary.",
+        "No current Service/UI wiring or end-to-end generation acceptance is granted."
+      ]
+    },
+    {
+      "file": "src/main/m754-element-imagery.ts",
+      "bytes": 12672,
+      "sha256": "415e5a5248bbefaab735f5e954fcb72074bd263da5dea51718c12d4604af7d95",
+      "gitBlob": "b90f3cc0359f99b3a1e9ed1cfa91421dc408a005",
+      "subgroup": "foundation5",
+      "historicalCommit": "82a089e0592e2e7b6cbfa1c8e15ab36f5f77a04b",
+      "historicalBytesIdentical": true,
+      "role": "fixed resources/review/projection loader",
+      "readerClass": "service-fixed-source-reader",
+      "compileScope": "main-service-bundle",
+      "reviewId": "M975-M754-GROUP",
+      "judgment": "accepted-for-exact-source-registration-with-trusted-main-scope",
+      "lines": [
+        23,
+        78,
+        84,
+        108,
+        112,
+        125
+      ],
+      "verified": [
+        "Private WeakMap requires an issued verified handle; fixed lock and baseline hashes are checked against runtime constants.",
+        "Fixed source facts bind reading, entry, definition, candidate digest and proof; no review means pending, not admitted.",
+        "Projection preserves baseline equality and copies rows before changing project element labels.",
+        "M761r2 own enumerable data-property theme snapshot rejects inherited activation, accessors and proxies; the exact repaired source is retained."
+      ],
+      "limits": [
+        "independentReview is trusted main configuration, not caller-provided review authority. M779 supplies the fixed admitted review.",
+        "The foundation still invokes supplied character array methods; direct arbitrary JavaScript objects/IPC inputs are outside its trusted-main contract. M779 separately owns the arrays.",
+        "The handle is a frozen verified data snapshot, not a continuous filesystem freshness/revalidation guarantee.",
+        "Full raw dictionary processing, all publication payloads and source semantics were not rerun in this review."
+      ]
+    },
+    {
+      "file": "src/shared/m754-element-imagery.ts",
+      "bytes": 2288,
+      "sha256": "f82db121e5c762aa70c2dda1d13ff8af3be5ff1da0785035b4661d89790f11d2",
+      "gitBlob": "67e6190ea883750af7cbd3ec6d294aa17bcf9fe7",
+      "subgroup": "foundation5",
+      "historicalCommit": "82a089e0592e2e7b6cbfa1c8e15ab36f5f77a04b",
+      "historicalBytesIdentical": true,
+      "role": "type-only module contract",
+      "readerClass": "type-contract",
+      "compileScope": "type-only",
+      "reviewId": "M975-M754-GROUP",
+      "judgment": "accepted-for-exact-source-registration-with-trusted-main-scope",
+      "lines": [
+        1,
+        28
+      ],
+      "verified": [
+        "Only import type, type aliases and interfaces; no runtime value declaration.",
+        "Distinguishes uncovered, pending, theme-required and eligible decisions; pending/project-convention data does not imply traditional authority."
+      ],
+      "limits": [
+        "Type-only classification is based on actual source syntax; no whole-project TypeScript emit/build was executed.",
+        "External shared/types.ts is context only."
+      ]
+    },
+    {
+      "file": "src/shared/m754-element-imagery-pins.ts",
+      "bytes": 408,
+      "sha256": "a822962900f645f678a2abbc9f61aaa0f21114c1bfab9516590962e7eaf51993",
+      "gitBlob": "6dae1b9f961df8d7966cae41988e4418db03f1c2",
+      "subgroup": "foundation5",
+      "historicalCommit": "82a089e0592e2e7b6cbfa1c8e15ab36f5f77a04b",
+      "historicalBytesIdentical": true,
+      "role": "runtime fixed package/profile/baseline constants",
+      "readerClass": "pure-rule-or-rule-data",
+      "compileScope": "main-service-bundle",
+      "reviewId": "M975-M754-GROUP",
+      "judgment": "accepted-for-exact-source-registration-with-trusted-main-scope",
+      "lines": [
+        2,
+        4
+      ],
+      "verified": [
+        "Three exported const values are actual runtime profile/lock/baseline pins consumed by both loaders.",
+        "as const is a type annotation and does not erase the exported runtime values."
+      ],
+      "limits": [
+        "Must be registered as main-service-bundle runtime rule data, not type-only.",
+        "The constants authenticate resource identities in their consumer logic; they do not independently approve executable source closure."
+      ]
+    },
+    {
+      "file": "src/main/m779-admitted-element-imagery.ts",
+      "bytes": 15216,
+      "sha256": "7bfe28a05287880400bdfe1cc6f56b8540e356760ac9100a653f74f08667104b",
+      "gitBlob": "c2d881e7c2f72080108315bdc593ff839ce16148",
+      "subgroup": "adjacent-admitted2",
+      "historicalCommit": "b3258fe467bc9995a9f9d55beac38392e822ebe3",
+      "historicalBytesIdentical": true,
+      "role": "trusted-factory review registration/provenance/replay/generation owner",
+      "readerClass": "service-fixed-source-reader",
+      "compileScope": "main-service-bundle",
+      "reviewId": "M975-M754-GROUP",
+      "judgment": "accepted-for-exact-source-registration-with-trusted-main-scope",
+      "lines": [
+        31,
+        76,
+        80,
+        152
+      ],
+      "verified": [
+        "Factory uses fixed publication/review/audit pins and exactly the already-reviewed five general plus five explicit-theme mappings.",
+        "Own descriptor-based JSON copying rejects proxies, accessors, sparse/extra array keys, cycles and nonordinary prototypes with explicit bounds.",
+        "All project/capture/verify/generate paths use the same owned original character snapshot; the exact M783r2 fix is retained.",
+        "Saved per-occurrence provenance is recomputed against independent expected binding, original characters and themes.",
+        "Generation is restricted to the expected rule version and explicitly returns persistence not-written."
+      ],
+      "limits": [
+        "Other generator inputs and the independent expected context remain trusted main responsibilities.",
+        "Projection output is a copied object, not an unforgeable capability. Saved provenance is a recomputed DTO, not a signature or Store write permission.",
+        "Projected elements do feed the existing shortlist/traditional scoring inputs; this audit does not grant new scoring weights, production score authority or default rollout.",
+        "External callers exist at the fixed root. Their behavior, persistence, caching and Service/UI acceptance are not reviewed by this seven-file decision.",
+        "Imported plain-json, naming-rules and actual naming generator are external context only."
+      ]
+    },
+    {
+      "file": "src/shared/m779-admitted-element-imagery.ts",
+      "bytes": 2371,
+      "sha256": "3d4f73839ed7cde3ddb6266cd8c957883cd5ef0ff7e93dee38786af33cd8751d",
+      "gitBlob": "33c509b966baf20ccef0e0a6089e063bfde57f31",
+      "subgroup": "adjacent-admitted2",
+      "historicalCommit": "b3258fe467bc9995a9f9d55beac38392e822ebe3",
+      "historicalBytesIdentical": true,
+      "role": "type-only admitted provenance contract",
+      "readerClass": "type-contract",
+      "compileScope": "type-only",
+      "reviewId": "M975-M754-GROUP",
+      "judgment": "accepted-for-exact-source-registration-with-trusted-main-scope",
+      "lines": [
+        1,
+        35
+      ],
+      "verified": [
+        "Only import type and interfaces, with no executable value declarations.",
+        "Contracts distinguish module projection coverage, score effect, provenance evidence and not-written persistence."
+      ],
+      "limits": [
+        "Static coverage/connection literals are module contracts, not a fresh audit proving absence of consumers in the current root.",
+        "No build, Store compatibility or UI acceptance is implied by type-only review."
+      ]
+    }
+  ],
+  "findings": [],
+  "newP1": 0,
+  "newP2": 0,
+  "historicalReuse": [
+    {
+      "id": "M761-r2",
+      "scope": "Exact inherited-theme P2 fix and prior scoped dynamic evidence; original failing report is preserved.",
+      "sha256": "bacf7b59ad959912470fb93a707abcd1c3e59d22339c3bb8bee7ea2c2cbf0241"
+    },
+    {
+      "id": "M777",
+      "scope": "Only exact ten project-convention mappings, five general and five exact own-theme conditions; no new semantic approval.",
+      "sha256": "abbdac6c87e14c033de43e40acada9ac2ddcf4ae90761066b6f036cb4e57c64e"
+    },
+    {
+      "id": "M783-r2",
+      "scope": "Exact owned-character snapshot P2 fix and bounded source-registration/module-generation evidence; original failing report preserved.",
+      "sha256": "e726720ce63e833de0aa41308fb98ff8b43eee377f1bf27d3cca6c06a721aff5"
+    }
+  ],
+  "mappingScope": {
+    "general": [
+      "枫",
+      "卉",
+      "麓",
+      "菘",
+      "珉"
+    ],
+    "explicitTheme": [
+      {
+        "char": "川",
+        "theme": "river-object"
+      },
+      {
+        "char": "石",
+        "theme": "mineral-stone-object",
+        "reading": "shí, not dàn"
+      },
+      {
+        "char": "枝",
+        "theme": "tree-branch-object",
+        "reading": "zhī, not qí"
+      },
+      {
+        "char": "棉",
+        "theme": "cotton-plant-object"
+      },
+      {
+        "char": "蕤",
+        "theme": "hanging-flower-object",
+        "definitionIndex": 1
+      }
+    ],
+    "authority": "project-convention",
+    "formalKnown": 257,
+    "formalUnknown": 522,
+    "formalAdded": 0,
+    "moduleProjectedGeneral": 262,
+    "moduleProjectedWithExplicitThemes": 267
+  },
+  "publication": {
+    "file": "assets/project-element-imagery/1.0.0/manifest.json",
+    "bytes": 3780,
+    "sha256": "79fc7b9c1ffb4098c960cbd65ff0a9b92c69a41d680ed581380457c1180209f9",
+    "publicationId": "project-element-imagery/1.0.0",
+    "declaredFiles": 21,
+    "totalIncludingManifest": 22,
+    "sourceCodeEntries": [],
+    "scope": "Data/review/license publication21declaredfiles+manifest, not execution-source copies of current7source files",
+    "meaning": "21 payload data/review/license files plus manifest; none are the seven execution/type source files.",
+    "currentChecks": "Manifest SHA and Git tree membership verified by independent identity reviewer. All 21 payload hashes were not rerun."
+  },
+  "currentExternalContext": {
+    "fixedCommit": "51d991fb965a9d4441ade64c7e58d2bb558871ef",
+    "callers": [
+      {
+        "file": "src/main/qimen-cultural-provider-sources-v1.ts",
+        "line": 92,
+        "observation": "Factory invocation exists; nearby comment says new projection is intentionally not invoked."
+      },
+      {
+        "file": "src/main/reviewed-naming-data-resources.ts",
+        "line": 39,
+        "observation": "Factory is invoked or its cached instance used."
+      }
+    ],
+    "scope": "Short fixed-source call-site context only. No new review of either consumer or transitive source closure."
+  },
+  "authority": {
+    "exactSevenMayBeReferencedBySeparateSourceRegistration": true,
+    "sourceRoleProfileModified": false,
+    "registryWritten": false,
+    "wholeSourceClosureApproved": false,
+    "sourceBuildApproved": false,
+    "serviceStoreApproved": false,
+    "uiApproved": false,
+    "persistenceApproved": false,
+    "globalDefaultEnabled": false,
+    "newScoreWeightsApproved": false,
+    "traditionalUniqueElementsApproved": false,
+    "releaseApproved": false
+  },
+  "execution": {
+    "mode": "fixed-source-static-review-with-exact-prior-evidence-reuse",
+    "currentTestsExecuted": 0,
+    "businessRuns": 0,
+    "productImports": 0,
+    "old45Rerun": false,
+    "new32Rerun": false,
+    "ownerStoreRuns": 0,
+    "fullTypecheck": "not-executed",
+    "build": "not-executed",
+    "networkRequests": 0,
+    "productEdits": 0
+  },
+  "residualLimits": [
+    "These exact seven sources are eligible only for a separate bounded registration change; this report does not install a role or bypass a gate.",
+    "No claim of global lack of factory consumers: two fixed current consumer call sites were observed as external context.",
+    "M754 foundation expects trusted main arrays and review configuration. Any new untrusted entry needs its own ownership and authority boundary review.",
+    "No actual runtime generation, source-closure, binary, Store or release acceptance is newly established."
+  ]
+}

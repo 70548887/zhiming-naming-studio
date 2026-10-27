@@ -1,0 +1,63 @@
+{
+  "schema": "m150-facade-interface-decision/1",
+  "status": "implementation-contract-not-a-runtime-certificate",
+  "methodId": "project-bazi-mainchain-145/1.3.1",
+  "methodAdmission": "pending-1.3.1-aggregation-delta-audit-and-facade-acceptance;1.3.0-not-enabled-for-generation",
+  "facadeSchema": "bazi-root-feedback-facade/1.0.0",
+  "applicationPolicyVersion": "naming-element-application/1.0.0",
+  "previewInput": {
+    "function": "previewBaziRootFeedbackProfile",
+    "arguments": "validated BirthProfile, optional exact {fromOutputMonthStem?:boolean}",
+    "publicExcludedInputs": ["pillars","capacities","thresholds","disabledControlEdgeIds","favorable","source","certificate","applicationGate"]
+  },
+  "gateRequiredAll": [
+    "Validated profile.timeUnknown=false; one recorded-instant branch; no declared alternative birth case; hypothetical=false; actual calendar provides all four pillars and determined calculation day",
+    "root.scope=complete-known-pillars; resolution=unique-consistent-regime; exactly one consistentId; possibleIds empty; root pending empty",
+    "selected regime exists once; consistency=consistent; pending empty; settlement.status=closed and controlSettlement.status=closed; certificate numerical bounds finite and accepted by pinned kernel",
+    "all selected root predicates determined; no pending conversion qualification needed by selected state",
+    "mainchainResult exists; status=settled; coverage=complete; hypothetical=false; methodId/entryPolicy agree with facade",
+    "decisionStatus=resolved-by-project-rules; numericReview.status=separated-from-thresholds; mainchain missing empty; alternativeUses empty",
+    "At least one primary use; primary/secondary/avoid values are finite canonical Element members; primary or secondary never intersects avoid"
+  ],
+  "effectiveElements": {
+    "primary": "stable canonical unique elements from mainchain uses role=primary",
+    "secondary": "stable canonical unique elements from mainchain uses role=secondary, excluding primary duplicates",
+    "avoid": "stable canonical unique elements from mainchain uses role=avoid",
+    "applied": "canonical-order unique union(primary,secondary)",
+    "order": ["木","火","土","金","水"],
+    "avoidIsHardGenerationBan": false,
+    "seasonalMergedIntoApplied": false
+  },
+  "auxiliaryBoundary": "Seasonal conflict/pending remains explicitly recorded; application selects only the resolved project mainchain uses. Do not silently merge seasonal targets. Any pending premise affecting selected mainchain use blocks. Generic declared project limitations are not missing input to be silently treated as solved.",
+  "blockedGate": {
+    "status": "blocked",
+    "effectiveElements": "absent",
+    "certificate": "absent",
+    "reasonCodes": ["birth-input-unresolved","hypothetical-birth-case","multiple-regimes","no-consistent-regime","root-prerequisite-pending","control-unsettled","consumer-missing-or-failed","mainchain-conditional","numeric-threshold-pending","missing-primary-use","contradictory-uses"],
+    "retainPreviewEvidence": true,
+    "fallbackToOlderMethod": false
+  },
+  "certificateRequiredFields": {
+    "schema": "bazi-root-feedback-application-certificate/1.0.0",
+    "methodId": "project-bazi-mainchain-145/1.3.1",
+    "applicationPolicyVersion": "naming-element-application/1.0.0",
+    "entryPolicy": "month-branch-only or explicitly selected month-stem-proposal",
+    "profileId": "Validated profile identity; not a sole validation key",
+    "birthFacts": "original solar/lunar record, leap flag, recorded time, timezone, timeBasis/longitude plus exact current-calendar known pillars and actual instant; no parent names/notes needed",
+    "calendarIdentity": "baseline Bazi version, time-basis version/method/source, fixed four-pillar and birth-facts binding digest",
+    "resourceIdentity": "exact1.3.1 rules/source-lock/publication and pinned fixed kernel resource identities; no untrusted runtime caller pins; never relabel1.3.0 bytes",
+    "rootSummary": "scope/resolution, all regime IDs+consistency, consistentIds/possibleIds, selected regime ID, complete root assumptions/capacities and witness intervals/qualification summaries",
+    "controlSummary": "closed status, iteration/residual/error-bound/roundoff and pinned coefficient-validation summary sufficient to bind the selected actual certificate",
+    "mainchainOpinion": "decisionStatus/numeric status, strength/branch, exact uses primary/secondary/avoid and referenced rule/carrier IDs, empty relevant missing, entry-policy context",
+    "auxiliary": "seasonal status/candidates/conflicts and limitations, explicitly outside adopted elements",
+    "effectiveElements": "primary/secondary/avoid/applied defined above",
+    "engineResultDigest": "digest of canonical full raw engine result from the same run, not DTO.detail or client input",
+    "digest": "digest of canonical certificate excluding this digest field"
+  },
+  "verification": {
+    "hashIsProof": false,
+    "required": "Rebuild using saved validated birth facts, exact saved base calendar/Bazi version, exact saved method/entry policy and retained resource version; recompute full engine result, gate and compact canonical certificate; compare every field plus both digests. Historical verification must not call a facade that silently selects the current calendar version.",
+    "storage": "Persist compact typed certificate only; full diagnostic trace can be recomputed by the same pinned saved version for inspection",
+    "missingFrozenResources": "Reject unsupported saved project record; never use latest1.3-compatible code or1.1 as substitute"
+  }
+}

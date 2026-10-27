@@ -1,0 +1,1492 @@
+{
+  "method": "Actualsaved1.0.22chartpluspre-productresearchmanuallyspecifiedsets;noexpectedgeneratedfromproductionname-imagerymodule.",
+  "sourceSession": "8e46b08e-3659-4584-9e2e-73bfa3bf5b55",
+  "sourceChartVersion": "zhuanpan-chaibu-futou-kun2/1.4.0",
+  "sourceChartSha": "f2950679c727ad2ec182f8adbd7b287484f7811f1fcdea70d854bb63fedc654f",
+  "chart": {
+    "available": true,
+    "dun": "阴遁",
+    "ju": 6,
+    "yuan": "上元",
+    "solarTerm": "寒露",
+    "xun": "甲子（遁戊）",
+    "chiefStar": "天心",
+    "chiefDoor": "开门",
+    "palaces": [
+      {
+        "number": 4,
+        "direction": "东南",
+        "trigram": "巽",
+        "earth": "庚",
+        "heaven": "壬（寄己）",
+        "star": "天芮、天禽",
+        "door": "伤门",
+        "god": "太阴",
+        "marks": [
+          "六仪击刑（壬（主干））"
+        ]
+      },
+      {
+        "number": 9,
+        "direction": "南",
+        "trigram": "离",
+        "earth": "丁",
+        "heaven": "乙",
+        "star": "天柱",
+        "door": "杜门",
+        "god": "腾蛇",
+        "marks": []
+      },
+      {
+        "number": 2,
+        "direction": "西南",
+        "trigram": "坤",
+        "earth": "壬",
+        "heaven": "戊",
+        "star": "天心",
+        "door": "景门",
+        "god": "值符",
+        "marks": []
+      },
+      {
+        "number": 3,
+        "direction": "东",
+        "trigram": "震",
+        "earth": "辛",
+        "heaven": "丁",
+        "star": "天英",
+        "door": "生门",
+        "god": "六合",
+        "marks": []
+      },
+      {
+        "number": 5,
+        "direction": "中",
+        "trigram": "中",
+        "earth": "己",
+        "heaven": "随天禽寄巽",
+        "star": "天禽寄巽",
+        "door": "",
+        "god": "",
+        "marks": [
+          "中五寄坤，天禽随天芮"
+        ]
+      },
+      {
+        "number": 7,
+        "direction": "西",
+        "trigram": "兑",
+        "earth": "乙",
+        "heaven": "癸",
+        "star": "天蓬",
+        "door": "死门",
+        "god": "九天",
+        "marks": []
+      },
+      {
+        "number": 8,
+        "direction": "东北",
+        "trigram": "艮",
+        "earth": "丙",
+        "heaven": "庚",
+        "star": "天辅",
+        "door": "休门",
+        "god": "白虎",
+        "marks": [
+          "六仪击刑（庚（主干））"
+        ]
+      },
+      {
+        "number": 1,
+        "direction": "北",
+        "trigram": "坎",
+        "earth": "癸",
+        "heaven": "辛",
+        "star": "天冲",
+        "door": "开门",
+        "god": "玄武",
+        "marks": []
+      },
+      {
+        "number": 6,
+        "direction": "西北",
+        "trigram": "乾",
+        "earth": "戊",
+        "heaven": "丙",
+        "star": "天任",
+        "door": "惊门",
+        "god": "九地",
+        "marks": [
+          "时旬空（戌、亥）",
+          "时驿马（亥）",
+          "三奇入墓（丙（主干））"
+        ]
+      }
+    ],
+    "reasons": [
+      "拆补（甲己符头三元版本）：甲子日回溯0日得符头甲子，定上元；寒露阴遁6局。",
+      "己巳时属甲子旬，甲遁戊；旬首仪在6宫，值符天心、值使开门。",
+      "值符随时干己至5宫，中五寄坤二；值使顺/逆数5步至1宫。",
+      "九星、天盘按八宫同向刚性转动；中五寄坤二，天禽及中宫干随天芮。八神版本：阳遁勾陈朱雀，阴遁白虎玄武；阳顺阴逆。",
+      "来源对照：arc119226/qimen_dunjia@7d94103 的盘层与经典转录例题；MarkChenXY163/qimendunjia_mcp@d5941f4 的日干支三元及局数表。后者交节只到日期，本引擎另用精确交节。",
+      "当前节气交接时刻：2026-10-08 14:29:17 UTC+08:00；出生地时间基准 Asia/Shanghai，民用午夜换日，未作真太阳时校正。"
+    ],
+    "warnings": [
+      "奇门用于出生盘的传统文化参考；未建立姓名落宫算法，不用于宣称名字已验算吉凶。",
+      "结构辅助已核查门迫、天盘宽式六仪击刑、所选三奇入墓与星门整层原位或对宫；四害解除、真假空及姓名验局尚未启用。时旬空与时驿马只作固定地支宫位标记。",
+      "三元采用甲己符头规则，不采用交节后每120小时换元，也不启用超神接气置闰。",
+      "另列qimen-go固定十干墓支表参考，按实际显式天盘主、寄干核对；甲未直接观测，不与原三奇读法合并。"
+    ],
+    "version": "zhuanpan-chaibu-futou-kun2/1.4.0",
+    "auxiliary": {
+      "version": "hour-xunkong-yima/1.0.0",
+      "hourGanzhi": "己巳",
+      "scope": "hour",
+      "rules": [
+        {
+          "id": "qimen-hour-xunkong",
+          "version": "1.0.0",
+          "name": "时柱六旬旬空",
+          "sources": [
+            {
+              "id": "qimen-arc-markers",
+              "url": "https://github.com/arc119226/qimen_dunjia",
+              "commit": "7d941031d685d818d9fd234edf891dba5bd6a323",
+              "locator": "constants.js:627–632,651–659; test.js:527–549"
+            },
+            {
+              "id": "qimen-go-markers",
+              "url": "https://github.com/deminzhang/qimen-go",
+              "commit": "4d3f58fa0f401b5b3a337f119138e99e90685dda",
+              "locator": "xuan/ganzhi.go:31–46,141–148; xuan/qimen.go:182–190"
+            }
+          ],
+          "conditions": [
+            "输入为已确定时柱的有效六十甲子，以时柱所属的十干一旬取两支旬空，不取年柱或日柱。",
+            "地支按固定后天九宫映射：子1，丑寅8，卯3，辰巳4，午9，未申2，酉7，戌亥6。",
+            "同宫两空支合并显示；中宫5无地支，不因中五寄坤或天盘旋转而转移旬空。"
+          ]
+        },
+        {
+          "id": "qimen-hour-yima",
+          "version": "1.0.0",
+          "name": "时支三合组驿马",
+          "sources": [
+            {
+              "id": "qimen-go-markers",
+              "url": "https://github.com/deminzhang/qimen-go",
+              "commit": "4d3f58fa0f401b5b3a337f119138e99e90685dda",
+              "locator": "xuan/ganzhi.go:31–46,141–148; xuan/qimen.go:182–190"
+            }
+          ],
+          "conditions": [
+            "仅按已确定时柱的时支取驿马，不使用年支、日支或姓名笔画。",
+            "申子辰马在寅，寅午戌马在申，巳酉丑马在亥，亥卯未马在巳。",
+            "马支按固定地支宫位标记，不随阴阳遁、盘层转动或中五寄坤改变。"
+          ]
+        }
+      ],
+      "markers": [
+        {
+          "kind": "xunkong",
+          "label": "时旬空",
+          "branches": [
+            "戌",
+            "亥"
+          ],
+          "palaces": [
+            6
+          ],
+          "ruleId": "qimen-hour-xunkong",
+          "ruleVersion": "1.0.0",
+          "evidence": [
+            "时柱己巳属甲子旬（甲子至癸酉）。",
+            "本旬十干配支后余戌、亥，取为时旬空；固定支宫为戌→6宫、亥→6宫。",
+            "仅标两支所在固定宫位，不判断真空、假空、冲空、填实或吉凶。"
+          ]
+        },
+        {
+          "kind": "yima",
+          "label": "时驿马",
+          "branches": [
+            "亥"
+          ],
+          "palaces": [
+            6
+          ],
+          "ruleId": "qimen-hour-yima",
+          "ruleVersion": "1.0.0",
+          "evidence": [
+            "时柱己巳的时支巳属巳、酉、丑三合组，按该组取马在亥。",
+            "马支亥固定落6宫，不取年支、日支，也不随转盘或寄中改变。"
+          ]
+        }
+      ],
+      "warnings": [
+        "本模块仅列时柱旬空与时支驿马的规则事实，不推导姓名落宫或吉凶结论。"
+      ]
+    },
+    "patterns": {
+      "version": "zhuanpan-structural-patterns/1.0.0",
+      "school": "zhuanpan-chaibu-futou-kun2",
+      "rules": [
+        {
+          "id": "qimen-door-menpo",
+          "version": "1.0.0",
+          "name": "门迫（门克宫）",
+          "sources": [
+            {
+              "id": "qimen-arc-structural-patterns",
+              "url": "https://github.com/arc119226/qimen_dunjia",
+              "commit": "7d941031d685d818d9fd234edf891dba5bd6a323",
+              "locator": "patterns.js:59–71 SOURCES.法竅_迫制註; 384–407 detectMenPo"
+            }
+          ],
+          "conditions": [
+            "仅在门五行克落宫五行时命中；宫克门、生扶或同类不记为门迫。",
+            "休水；伤杜木；景火；生死土；开惊金。宫行：坎水、震巽木、离火、坤艮土、乾兑金。",
+            "核查外八宫，不将中五寄坤产生第九个门。"
+          ]
+        },
+        {
+          "id": "qimen-heaven-yi-jixing",
+          "version": "1.0.0",
+          "name": "六仪击刑（天盘宽式）",
+          "sources": [
+            {
+              "id": "qimen-arc-structural-patterns",
+              "url": "https://github.com/arc119226/qimen_dunjia",
+              "commit": "7d941031d685d818d9fd234edf891dba5bd6a323",
+              "locator": "patterns.js:516–556 JI_XING / detectLiuYiJiXing"
+            },
+            {
+              "id": "qimen-go-structural-patterns",
+              "url": "https://github.com/deminzhang/qimen-go",
+              "commit": "4d3f58fa0f401b5b3a337f119138e99e90685dda",
+              "locator": "xuan/qimen_defs.go:226–235 QM6YiJiXing"
+            }
+          ],
+          "conditions": [
+            "采用宽式任一六仪落刑宫，不采用仅值符所带仪的严式；同一仪不再重复记严式结果。",
+            "固定仪宫：戊3、己2、庚8、辛9、壬4、癸4。",
+            "只核外八宫天盘主干及随天芮落宫的寄干，按实际落宫计算；地盘干与中五展示副本不参与。"
+          ]
+        },
+        {
+          "id": "qimen-heaven-qi-rumu",
+          "version": "1.0.0",
+          "name": "三奇入墓（乙坤、丙乾、丁艮）",
+          "sources": [
+            {
+              "id": "qimen-arc-structural-patterns",
+              "url": "https://github.com/arc119226/qimen_dunjia",
+              "commit": "7d941031d685d818d9fd234edf891dba5bd6a323",
+              "locator": "patterns.js:150–158 SOURCES.統宗_四十格 / 旨歸_入墓; 563–579 RU_MU"
+            }
+          ],
+          "conditions": [
+            "仅核三奇乙丙丁，固定采用乙入坤二、丙入乾六、丁入艮八的读法，不声称覆盖十干入墓。",
+            "丁墓乾六及其他长生表为不同读法，本版本未采用；不得把不同流派的墓宫混成一张表。",
+            "只核外八宫天盘主干及随天芮落宫的寄干，按实际落宫计算；地盘干与中五展示副本不参与。"
+          ]
+        },
+        {
+          "id": "qimen-stars-fuyin",
+          "version": "1.0.0",
+          "name": "星盘原位（结构伏吟）",
+          "sources": [
+            {
+              "id": "qimen-arc-structural-patterns",
+              "url": "https://github.com/arc119226/qimen_dunjia",
+              "commit": "7d941031d685d818d9fd234edf891dba5bd6a323",
+              "locator": "patterns.js:145–149 SOURCES.釣叟_反吟"
+            },
+            {
+              "id": "qimen-go-structural-patterns",
+              "url": "https://github.com/deminzhang/qimen-go",
+              "commit": "4d3f58fa0f401b5b3a337f119138e99e90685dda",
+              "locator": "xuan/qimen_defs.go:198–205 StarHome / DoorHome"
+            }
+          ],
+          "conditions": [
+            "逐一核对外八宫全部八项，不以值符或值使单宫代替整层；中五无独立星门，天禽随天芮以坤二为原位。",
+            "本产品按固定原位表定义整层结构伏吟，不把该软件分层定义声称为独立核验古籍原页。",
+            "天蓬1、天芮2、天冲3、天辅4、天心6、天柱7、天任8、天英9全部处于原位才命中；不把单干重叠格同名伏吟混入。"
+          ]
+        },
+        {
+          "id": "qimen-stars-fanyin",
+          "version": "1.0.0",
+          "name": "星盘对宫（结构反吟）",
+          "sources": [
+            {
+              "id": "qimen-arc-structural-patterns",
+              "url": "https://github.com/arc119226/qimen_dunjia",
+              "commit": "7d941031d685d818d9fd234edf891dba5bd6a323",
+              "locator": "patterns.js:145–149 SOURCES.釣叟_反吟; 312–330 detectFanYin"
+            },
+            {
+              "id": "qimen-go-structural-patterns",
+              "url": "https://github.com/deminzhang/qimen-go",
+              "commit": "4d3f58fa0f401b5b3a337f119138e99e90685dda",
+              "locator": "xuan/qimen_defs.go:198–205 StarHome / DoorHome"
+            }
+          ],
+          "conditions": [
+            "逐一核对外八宫全部八项，不以值符或值使单宫代替整层；中五无独立星门，天禽随天芮以坤二为原位。",
+            "本产品把单星对宫条文与固定原位表扩展为整层核查，明确属于软件结构定义。",
+            "八星全部到各自原位对宫才命中；对宫固定为1↔9、2↔8、3↔7、4↔6（宫号和为10）。"
+          ]
+        },
+        {
+          "id": "qimen-doors-fuyin",
+          "version": "1.0.0",
+          "name": "门盘原位（结构伏吟）",
+          "sources": [
+            {
+              "id": "qimen-go-structural-patterns",
+              "url": "https://github.com/deminzhang/qimen-go",
+              "commit": "4d3f58fa0f401b5b3a337f119138e99e90685dda",
+              "locator": "xuan/qimen_defs.go:198–205 StarHome / DoorHome"
+            }
+          ],
+          "conditions": [
+            "逐一核对外八宫全部八项，不以值符或值使单宫代替整层；中五无独立星门，天禽随天芮以坤二为原位。",
+            "本产品按固定门原位表定义的整层结构检查，未声称已核验独立古籍的门层判语。",
+            "休1、死2、伤3、杜4、开6、惊7、生8、景9全部处于原位才命中；不与星层合并。"
+          ]
+        },
+        {
+          "id": "qimen-doors-fanyin",
+          "version": "1.0.0",
+          "name": "门盘对宫（结构反吟）",
+          "sources": [
+            {
+              "id": "qimen-go-structural-patterns",
+              "url": "https://github.com/deminzhang/qimen-go",
+              "commit": "4d3f58fa0f401b5b3a337f119138e99e90685dda",
+              "locator": "xuan/qimen_defs.go:198–205 StarHome / DoorHome"
+            }
+          ],
+          "conditions": [
+            "逐一核对外八宫全部八项，不以值符或值使单宫代替整层；中五无独立星门，天禽随天芮以坤二为原位。",
+            "本产品按固定门原位表及对宫几何定义的整层结构检查，未声称已核验独立古籍的门层判语。",
+            "八门全部到各自原位对宫才命中；对宫固定为1↔9、2↔8、3↔7、4↔6（宫号和为10），不与星层合并。"
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "ruleId": "qimen-door-menpo",
+          "ruleVersion": "1.0.0",
+          "layer": "doors",
+          "status": "not-matched",
+          "palaces": [],
+          "evidence": [
+            "外八宫逐门按门克宫核查，未将宫克门计作门迫。",
+            "1宫开门金→宫水：未命中门克宫。",
+            "2宫景门火→宫土：未命中门克宫。",
+            "3宫生门土→宫木：未命中门克宫。",
+            "4宫伤门木→宫木：未命中门克宫。",
+            "6宫惊门金→宫金：未命中门克宫。",
+            "7宫死门土→宫金：未命中门克宫。",
+            "8宫休门水→宫土：未命中门克宫。",
+            "9宫杜门木→宫火：未命中门克宫。"
+          ]
+        },
+        {
+          "ruleId": "qimen-heaven-yi-jixing",
+          "ruleVersion": "1.0.0",
+          "layer": "heaven-stems",
+          "status": "matched",
+          "palaces": [
+            4,
+            8
+          ],
+          "evidence": [
+            "只核外八宫天盘主干及随天芮落宫的寄干，按实际落宫计算；地盘干与中五展示副本不参与。",
+            "本次采用任一六仪的宽式，固定戊→3、己→2、庚→8、辛→9、壬→4、癸→4。",
+            "1宫辛（主），本规则目标9宫：未命中。",
+            "2宫戊（主），本规则目标3宫：未命中。",
+            "4宫壬（主），本规则目标4宫：命中。",
+            "4宫己（寄），本规则目标2宫：未命中。",
+            "7宫癸（主），本规则目标4宫：未命中。",
+            "8宫庚（主），本规则目标8宫：命中。"
+          ]
+        },
+        {
+          "ruleId": "qimen-heaven-qi-rumu",
+          "ruleVersion": "1.0.0",
+          "layer": "heaven-stems",
+          "status": "matched",
+          "palaces": [
+            6
+          ],
+          "evidence": [
+            "只核外八宫天盘主干及随天芮落宫的寄干，按实际落宫计算；地盘干与中五展示副本不参与。",
+            "本次仅核乙→2、丙→6、丁→8；丁在乾六不按本版本三奇入墓计。",
+            "3宫丁（主），本规则目标8宫：未命中。",
+            "6宫丙（主），本规则目标6宫：命中。",
+            "9宫乙（主），本规则目标2宫：未命中。"
+          ]
+        },
+        {
+          "ruleId": "qimen-stars-fuyin",
+          "ruleVersion": "1.0.0",
+          "layer": "stars",
+          "status": "not-matched",
+          "palaces": [],
+          "evidence": [
+            "逐一核对外八宫全部八项，不以值符或值使单宫代替整层；中五无独立星门，天禽随天芮以坤二为原位。",
+            "1宫天冲原位3宫，本规则目标3宫：不符合。",
+            "2宫天心原位6宫，本规则目标6宫：不符合。",
+            "3宫天英原位9宫，本规则目标9宫：不符合。",
+            "4宫天芮原位2宫，本规则目标2宫：不符合。",
+            "6宫天任原位8宫，本规则目标8宫：不符合。",
+            "7宫天蓬原位1宫，本规则目标1宫：不符合。",
+            "8宫天辅原位4宫，本规则目标4宫：不符合。",
+            "9宫天柱原位7宫，本规则目标7宫：不符合。",
+            "外八项0/8符合原位条件；整层未命中。"
+          ]
+        },
+        {
+          "ruleId": "qimen-stars-fanyin",
+          "ruleVersion": "1.0.0",
+          "layer": "stars",
+          "status": "not-matched",
+          "palaces": [],
+          "evidence": [
+            "逐一核对外八宫全部八项，不以值符或值使单宫代替整层；中五无独立星门，天禽随天芮以坤二为原位。",
+            "1宫天冲原位3宫，本规则目标7宫：不符合。",
+            "2宫天心原位6宫，本规则目标4宫：不符合。",
+            "3宫天英原位9宫，本规则目标1宫：不符合。",
+            "4宫天芮原位2宫，本规则目标8宫：不符合。",
+            "6宫天任原位8宫，本规则目标2宫：不符合。",
+            "7宫天蓬原位1宫，本规则目标9宫：不符合。",
+            "8宫天辅原位4宫，本规则目标6宫：不符合。",
+            "9宫天柱原位7宫，本规则目标3宫：不符合。",
+            "外八项0/8符合对宫条件；整层未命中。"
+          ]
+        },
+        {
+          "ruleId": "qimen-doors-fuyin",
+          "ruleVersion": "1.0.0",
+          "layer": "doors",
+          "status": "not-matched",
+          "palaces": [],
+          "evidence": [
+            "逐一核对外八宫全部八项，不以值符或值使单宫代替整层；中五无独立星门，天禽随天芮以坤二为原位。",
+            "1宫开门原位6宫，本规则目标6宫：不符合。",
+            "2宫景门原位9宫，本规则目标9宫：不符合。",
+            "3宫生门原位8宫，本规则目标8宫：不符合。",
+            "4宫伤门原位3宫，本规则目标3宫：不符合。",
+            "6宫惊门原位7宫，本规则目标7宫：不符合。",
+            "7宫死门原位2宫，本规则目标2宫：不符合。",
+            "8宫休门原位1宫，本规则目标1宫：不符合。",
+            "9宫杜门原位4宫，本规则目标4宫：不符合。",
+            "外八项0/8符合原位条件；整层未命中。"
+          ]
+        },
+        {
+          "ruleId": "qimen-doors-fanyin",
+          "ruleVersion": "1.0.0",
+          "layer": "doors",
+          "status": "not-matched",
+          "palaces": [],
+          "evidence": [
+            "逐一核对外八宫全部八项，不以值符或值使单宫代替整层；中五无独立星门，天禽随天芮以坤二为原位。",
+            "1宫开门原位6宫，本规则目标4宫：不符合。",
+            "2宫景门原位9宫，本规则目标1宫：不符合。",
+            "3宫生门原位8宫，本规则目标2宫：不符合。",
+            "4宫伤门原位3宫，本规则目标7宫：不符合。",
+            "6宫惊门原位7宫，本规则目标3宫：不符合。",
+            "7宫死门原位2宫，本规则目标8宫：不符合。",
+            "8宫休门原位1宫，本规则目标9宫：不符合。",
+            "9宫杜门原位4宫，本规则目标6宫：不符合。",
+            "外八项0/8符合对宫条件；整层未命中。"
+          ]
+        }
+      ],
+      "findings": [
+        {
+          "kind": "jixing",
+          "label": "六仪击刑",
+          "layer": "heaven-stems",
+          "palaces": [
+            4
+          ],
+          "subjects": [
+            "壬（主干）"
+          ],
+          "ruleId": "qimen-heaven-yi-jixing",
+          "ruleVersion": "1.0.0",
+          "evidence": [
+            "4宫天盘主干壬，对应本规则壬→4宫，命中六仪击刑。"
+          ]
+        },
+        {
+          "kind": "jixing",
+          "label": "六仪击刑",
+          "layer": "heaven-stems",
+          "palaces": [
+            8
+          ],
+          "subjects": [
+            "庚（主干）"
+          ],
+          "ruleId": "qimen-heaven-yi-jixing",
+          "ruleVersion": "1.0.0",
+          "evidence": [
+            "8宫天盘主干庚，对应本规则庚→8宫，命中六仪击刑。"
+          ]
+        },
+        {
+          "kind": "rumu",
+          "label": "三奇入墓",
+          "layer": "heaven-stems",
+          "palaces": [
+            6
+          ],
+          "subjects": [
+            "丙（主干）"
+          ],
+          "ruleId": "qimen-heaven-qi-rumu",
+          "ruleVersion": "1.0.0",
+          "evidence": [
+            "6宫天盘主干丙，对应本规则丙→6宫，命中三奇入墓。"
+          ]
+        }
+      ],
+      "warnings": [
+        "本模块只列固定流派的结构匹配与逐项核查，不据此推断人生吉凶、四害解除或姓名验局。",
+        "六仪击刑采用天盘宽式，三奇入墓只用乙坤二、丙乾六、丁艮八；地盘、中宫副本及其他流派条件未纳入。",
+        "典籍条文使用开源项目的固定版本转录及规则对照，未声称逐页核验全部古籍原本。"
+      ]
+    },
+    "stemTombs": {
+      "version": "qimen-go-explicit-stem-tombs/1.0.0",
+      "profile": "qimen-go-explicit-stem-tombs",
+      "rules": [
+        {
+          "id": "qimen-go-heaven-explicit-stem-tombs",
+          "version": "1.0.0",
+          "name": "qimen-go固定十干墓支表参考（显式天盘干）",
+          "sources": [
+            {
+              "id": "qimen-go-stem-tombs",
+              "url": "https://github.com/deminzhang/qimen-go",
+              "commit": "4d3f58fa0f401b5b3a337f119138e99e90685dda",
+              "locator": "xuan/qimen_defs.go:220–224 QMTomb; xuan/ganzhi.go:43–46 ZhiGong9"
+            }
+          ],
+          "conditions": [
+            "采用独立固定电子表的十干墓支→固定地支宫映射；与既有三奇乙坤二、丙乾六、丁艮八读法分别保留，不覆盖也不混表。",
+            "本产品限定核查外八宫实际天盘主干和随天芮提供的寄干；地盘干、中五说明副本不重复参与。此范围是产品选择，不声称原源软件仅查天盘。",
+            "转盘显式三奇六仪共九干各核一次；甲不直接出现，列原表甲未坤二但状态为未直接观测，不把甲子戊等遁仪身份反推甲的独立落宫。",
+            "只列所选表匹配或不匹配，不判断旺衰、真假入墓、解除四害、人生吉凶或姓名落宫。"
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "stem": "甲",
+          "targetBranch": "未",
+          "targetPalace": 2,
+          "status": "not-directly-observed",
+          "observations": [],
+          "ruleId": "qimen-go-heaven-explicit-stem-tombs",
+          "ruleVersion": "1.0.0",
+          "evidence": [
+            "所选固定表甲墓未，按固定支宫映射至2宫；定位xuan/qimen_defs.go:220–224 QMTomb; xuan/ganzhi.go:43–46 ZhiGong9。",
+            "转盘明干中没有甲；不从旬首遁仪生成甲的天盘位置，本项不判命中或未命中。",
+            "原表列甲未；本转盘明干无甲，不把六仪代号反推甲的位置。"
+          ]
+        },
+        {
+          "stem": "乙",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "status": "not-matched",
+          "observations": [
+            {
+              "palace": 9,
+              "role": "principal"
+            }
+          ],
+          "ruleId": "qimen-go-heaven-explicit-stem-tombs",
+          "ruleVersion": "1.0.0",
+          "evidence": [
+            "所选固定表乙墓戌，按固定支宫映射至6宫；定位xuan/qimen_defs.go:220–224 QMTomb; xuan/ganzhi.go:43–46 ZhiGong9。",
+            "乙实际为9宫天盘主干，与目标6宫不匹配。",
+            "本表乙戌乾六，与既有三奇乙坤二读法不同；两个profile分别保留。"
+          ]
+        },
+        {
+          "stem": "丙",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "status": "matched",
+          "observations": [
+            {
+              "palace": 6,
+              "role": "principal"
+            }
+          ],
+          "ruleId": "qimen-go-heaven-explicit-stem-tombs",
+          "ruleVersion": "1.0.0",
+          "evidence": [
+            "所选固定表丙墓戌，按固定支宫映射至6宫；定位xuan/qimen_defs.go:220–224 QMTomb; xuan/ganzhi.go:43–46 ZhiGong9。",
+            "丙实际为6宫天盘主干，与目标6宫匹配。"
+          ]
+        },
+        {
+          "stem": "丁",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "status": "not-matched",
+          "observations": [
+            {
+              "palace": 3,
+              "role": "principal"
+            }
+          ],
+          "ruleId": "qimen-go-heaven-explicit-stem-tombs",
+          "ruleVersion": "1.0.0",
+          "evidence": [
+            "所选固定表丁墓丑，按固定支宫映射至8宫；定位xuan/qimen_defs.go:220–224 QMTomb; xuan/ganzhi.go:43–46 ZhiGong9。",
+            "丁实际为3宫天盘主干，与目标8宫不匹配。"
+          ]
+        },
+        {
+          "stem": "戊",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "status": "not-matched",
+          "observations": [
+            {
+              "palace": 2,
+              "role": "principal"
+            }
+          ],
+          "ruleId": "qimen-go-heaven-explicit-stem-tombs",
+          "ruleVersion": "1.0.0",
+          "evidence": [
+            "所选固定表戊墓戌，按固定支宫映射至6宫；定位xuan/qimen_defs.go:220–224 QMTomb; xuan/ganzhi.go:43–46 ZhiGong9。",
+            "戊实际为2宫天盘主干，与目标6宫不匹配。"
+          ]
+        },
+        {
+          "stem": "己",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "status": "not-matched",
+          "observations": [
+            {
+              "palace": 4,
+              "role": "lodged"
+            }
+          ],
+          "ruleId": "qimen-go-heaven-explicit-stem-tombs",
+          "ruleVersion": "1.0.0",
+          "evidence": [
+            "所选固定表己墓丑，按固定支宫映射至8宫；定位xuan/qimen_defs.go:220–224 QMTomb; xuan/ganzhi.go:43–46 ZhiGong9。",
+            "己实际为4宫天盘寄干，与目标8宫不匹配。"
+          ]
+        },
+        {
+          "stem": "庚",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "status": "matched",
+          "observations": [
+            {
+              "palace": 8,
+              "role": "principal"
+            }
+          ],
+          "ruleId": "qimen-go-heaven-explicit-stem-tombs",
+          "ruleVersion": "1.0.0",
+          "evidence": [
+            "所选固定表庚墓丑，按固定支宫映射至8宫；定位xuan/qimen_defs.go:220–224 QMTomb; xuan/ganzhi.go:43–46 ZhiGong9。",
+            "庚实际为8宫天盘主干，与目标8宫匹配。"
+          ]
+        },
+        {
+          "stem": "辛",
+          "targetBranch": "辰",
+          "targetPalace": 4,
+          "status": "not-matched",
+          "observations": [
+            {
+              "palace": 1,
+              "role": "principal"
+            }
+          ],
+          "ruleId": "qimen-go-heaven-explicit-stem-tombs",
+          "ruleVersion": "1.0.0",
+          "evidence": [
+            "所选固定表辛墓辰，按固定支宫映射至4宫；定位xuan/qimen_defs.go:220–224 QMTomb; xuan/ganzhi.go:43–46 ZhiGong9。",
+            "辛实际为1宫天盘主干，与目标4宫不匹配。"
+          ]
+        },
+        {
+          "stem": "壬",
+          "targetBranch": "辰",
+          "targetPalace": 4,
+          "status": "matched",
+          "observations": [
+            {
+              "palace": 4,
+              "role": "principal"
+            }
+          ],
+          "ruleId": "qimen-go-heaven-explicit-stem-tombs",
+          "ruleVersion": "1.0.0",
+          "evidence": [
+            "所选固定表壬墓辰，按固定支宫映射至4宫；定位xuan/qimen_defs.go:220–224 QMTomb; xuan/ganzhi.go:43–46 ZhiGong9。",
+            "壬实际为4宫天盘主干，与目标4宫匹配。"
+          ]
+        },
+        {
+          "stem": "癸",
+          "targetBranch": "未",
+          "targetPalace": 2,
+          "status": "not-matched",
+          "observations": [
+            {
+              "palace": 7,
+              "role": "principal"
+            }
+          ],
+          "ruleId": "qimen-go-heaven-explicit-stem-tombs",
+          "ruleVersion": "1.0.0",
+          "evidence": [
+            "所选固定表癸墓未，按固定支宫映射至2宫；定位xuan/qimen_defs.go:220–224 QMTomb; xuan/ganzhi.go:43–46 ZhiGong9。",
+            "癸实际为7宫天盘主干，与目标2宫不匹配。"
+          ]
+        }
+      ],
+      "findings": [
+        {
+          "stem": "丙",
+          "palace": 6,
+          "role": "principal",
+          "targetBranch": "戌",
+          "ruleId": "qimen-go-heaven-explicit-stem-tombs",
+          "ruleVersion": "1.0.0",
+          "evidence": [
+            "所选固定表丙墓戌，按固定支宫映射至6宫；定位xuan/qimen_defs.go:220–224 QMTomb; xuan/ganzhi.go:43–46 ZhiGong9。",
+            "丙实际为6宫天盘主干，与目标6宫匹配。"
+          ]
+        },
+        {
+          "stem": "庚",
+          "palace": 8,
+          "role": "principal",
+          "targetBranch": "丑",
+          "ruleId": "qimen-go-heaven-explicit-stem-tombs",
+          "ruleVersion": "1.0.0",
+          "evidence": [
+            "所选固定表庚墓丑，按固定支宫映射至8宫；定位xuan/qimen_defs.go:220–224 QMTomb; xuan/ganzhi.go:43–46 ZhiGong9。",
+            "庚实际为8宫天盘主干，与目标8宫匹配。"
+          ]
+        },
+        {
+          "stem": "壬",
+          "palace": 4,
+          "role": "principal",
+          "targetBranch": "辰",
+          "ruleId": "qimen-go-heaven-explicit-stem-tombs",
+          "ruleVersion": "1.0.0",
+          "evidence": [
+            "所选固定表壬墓辰，按固定支宫映射至4宫；定位xuan/qimen_defs.go:220–224 QMTomb; xuan/ganzhi.go:43–46 ZhiGong9。",
+            "壬实际为4宫天盘主干，与目标4宫匹配。"
+          ]
+        }
+      ],
+      "warnings": [
+        "这是独立qimen-go固定十干墓支表参考，乙戌乾六与既有三奇乙坤二不同；两个读法不互相覆盖。",
+        "甲仅展示原表目标，未直接观测其落宫；不把戊、己等遁仪当作甲来核查。",
+        "只检查实际天盘主、寄干，不重复中五副本，不据匹配结果推断吉凶、四害解除或姓名验局。"
+      ]
+    }
+  },
+  "characters": [
+    {
+      "char": "安",
+      "pinyin": "ān",
+      "tone": 1,
+      "meaning": "平穩、安全、舒適的狀況或環境。；安非他命的簡稱。；量詞。安培的簡稱。參見「安培」條。",
+      "traditional": "安",
+      "strokes": 6,
+      "radical": "宀",
+      "elements": [
+        "土"
+      ],
+      "elementBasis": "字形／字义意象参考 v1（项目自编标签，非唯一汉字五行定论；不得当作康熙笔画五行）",
+      "tags": [
+        "常用命名字候选"
+      ],
+      "warning": "本表按字典中文义项与 Unicode 字形字段核对；仍需结合全名检查谐音。",
+      "sourceId": "moe-revised",
+      "readings": [
+        {
+          "pinyin": "ān",
+          "tone": 1,
+          "meanings": [
+            "平穩、安全、舒適的狀況或環境。",
+            "安非他命的簡稱。",
+            "量詞。安培的簡稱。參見「安培」條。",
+            "姓。如漢代有安成。",
+            "平靜、恬適。",
+            "穩定的、靜止的。",
+            "使穩定。",
+            "裝置、設置。",
+            "加上。",
+            "存、懷、居。",
+            "習慣、熟悉。",
+            "豈、怎麼。用於文言文。",
+            "何處、那裡。用於文言文。",
+            "如何。",
+            "乃、於是。"
+          ],
+          "sourceId": "moe-revised",
+          "word": "安"
+        }
+      ],
+      "polyphonic": false,
+      "variants": [
+        "安"
+      ]
+    },
+    {
+      "char": "宁",
+      "pinyin": "níng",
+      "tone": 2,
+      "meaning": "安定。；省視、問安。；回家。",
+      "traditional": "寧",
+      "strokes": 5,
+      "radical": "宀",
+      "elements": [
+        "土"
+      ],
+      "elementBasis": "字形／字义意象参考 v1（项目自编标签，非唯一汉字五行定论；不得当作康熙笔画五行）",
+      "tags": [
+        "常用命名字候选"
+      ],
+      "warning": "多音字：本方案采用 níng，请按姓名用法确认；各读音义项分别保存。 繁体对应“寧”，简繁与异体须按户籍用字确认。 Unicode 记有多个简繁对应：宁、寧，请按实际字义确认。",
+      "sourceId": "moe-revised",
+      "readings": [
+        {
+          "pinyin": "níng",
+          "tone": 2,
+          "meanings": [
+            "安定。",
+            "省視、問安。",
+            "回家。",
+            "平息。",
+            "情願、寧願。表示選擇後的結果。",
+            "豈、難道。",
+            "乃、竟然。",
+            "清朝以南京為江寧府治，故簡稱為「寧」。如：「寧漢分裂」。今稱為「京」。",
+            "大陸地區寧夏省的簡稱。",
+            "語氣助詞，無義。"
+          ],
+          "sourceId": "moe-revised",
+          "word": "寧"
+        },
+        {
+          "pinyin": "nìng",
+          "tone": 4,
+          "meanings": [
+            "姓。如漢代有寧成。"
+          ],
+          "sourceId": "moe-revised",
+          "word": "寧"
+        }
+      ],
+      "polyphonic": true,
+      "variants": [
+        "宁",
+        "寧"
+      ]
+    },
+    {
+      "char": "沐",
+      "pinyin": "mù",
+      "tone": 4,
+      "meaning": "洗髮。；承受。；休假。",
+      "traditional": "沐",
+      "strokes": 7,
+      "radical": "水",
+      "elements": [
+        "水"
+      ],
+      "elementBasis": "字形／字义意象参考 v1（项目自编标签，非唯一汉字五行定论；不得当作康熙笔画五行）",
+      "tags": [
+        "常用命名字候选"
+      ],
+      "warning": "本表按字典中文义项与 Unicode 字形字段核对；仍需结合全名检查谐音。",
+      "sourceId": "moe-revised",
+      "readings": [
+        {
+          "pinyin": "mù",
+          "tone": 4,
+          "meanings": [
+            "洗髮。",
+            "承受。",
+            "休假。",
+            "洗髮的米汁。",
+            "姓。如漢代有沐寵。"
+          ],
+          "sourceId": "moe-revised",
+          "word": "沐"
+        }
+      ],
+      "polyphonic": false,
+      "variants": [
+        "沐"
+      ]
+    },
+    {
+      "char": "清",
+      "pinyin": "qīng",
+      "tone": 1,
+      "meaning": "澄淨、純潔。與「濁」相對。；高潔、廉潔。；寂靜。",
+      "traditional": "清",
+      "strokes": 11,
+      "radical": "水",
+      "elements": [
+        "水"
+      ],
+      "elementBasis": "字形／字义意象参考 v1（项目自编标签，非唯一汉字五行定论；不得当作康熙笔画五行）",
+      "tags": [
+        "常用命名字候选"
+      ],
+      "warning": "本表按字典中文义项与 Unicode 字形字段核对；仍需结合全名检查谐音。",
+      "sourceId": "moe-revised",
+      "readings": [
+        {
+          "pinyin": "qīng",
+          "tone": 1,
+          "meanings": [
+            "澄淨、純潔。與「濁」相對。",
+            "高潔、廉潔。",
+            "寂靜。",
+            "秀美。",
+            "安定、太平。",
+            "單純的。",
+            "淨盡、一點也不留。",
+            "詳細、明白。",
+            "使乾淨、使整齊。",
+            "整頓。",
+            "結帳。",
+            "點檢（清楚）。",
+            "朝代名。參見「清朝」條。",
+            "參見「血清」條。",
+            "姓。如宋代有清賢。"
+          ],
+          "sourceId": "moe-revised",
+          "word": "清"
+        }
+      ],
+      "polyphonic": false,
+      "variants": [
+        "清"
+      ]
+    },
+    {
+      "char": "钧",
+      "pinyin": "jūn",
+      "tone": 1,
+      "meaning": "量詞。古代計算重量的單位。三十斤為一鈞。；製作陶器時所用的轉輪。；姓。如漢代有鈞喜。",
+      "traditional": "鈞",
+      "strokes": 9,
+      "radical": "钅",
+      "elements": [
+        "金"
+      ],
+      "elementBasis": "字形／字义意象参考 v1（项目自编标签，非唯一汉字五行定论；不得当作康熙笔画五行）",
+      "tags": [
+        "常用命名字候选"
+      ],
+      "warning": "繁体对应“鈞”，简繁与异体须按户籍用字确认。",
+      "sourceId": "moe-revised",
+      "readings": [
+        {
+          "pinyin": "jūn",
+          "tone": 1,
+          "meanings": [
+            "量詞。古代計算重量的單位。三十斤為一鈞。",
+            "製作陶器時所用的轉輪。",
+            "姓。如漢代有鈞喜。",
+            "同樣。",
+            "相同。",
+            "尊稱有關長輩或上級的事物、行為等的敬詞。",
+            "權衡。"
+          ],
+          "sourceId": "moe-revised",
+          "word": "鈞"
+        }
+      ],
+      "polyphonic": false,
+      "variants": [
+        "钧",
+        "鈞"
+      ]
+    },
+    {
+      "char": "烨",
+      "pinyin": "yè",
+      "tone": 4,
+      "meaning": "火光盛大的樣子。",
+      "traditional": "燁",
+      "strokes": 10,
+      "radical": "火",
+      "elements": [
+        "火"
+      ],
+      "elementBasis": "字形／字义意象参考 v1（项目自编标签，非唯一汉字五行定论；不得当作康熙笔画五行）",
+      "tags": [
+        "明朗"
+      ],
+      "warning": "繁体对应“燁”，简繁与异体须按户籍用字确认。",
+      "sourceId": "moe-revised",
+      "readings": [
+        {
+          "pinyin": "yè",
+          "tone": 4,
+          "meanings": [
+            "火光盛大的樣子。"
+          ],
+          "sourceId": "moe-revised",
+          "word": "燁"
+        }
+      ],
+      "polyphonic": false,
+      "variants": [
+        "烨",
+        "燁"
+      ]
+    },
+    {
+      "char": "梓",
+      "pinyin": "zǐ",
+      "tone": 3,
+      "meaning": "植物名。紫葳科梓屬，落葉喬木。葉對生，呈掌狀淺裂。夏日開淡黃色而帶有暗紫斑點的花。木材供建築及製作器具。；製作木器的工匠。；故鄉。",
+      "traditional": "梓",
+      "strokes": 11,
+      "radical": "木",
+      "elements": [
+        "木"
+      ],
+      "elementBasis": "字形／字义意象参考 v1（项目自编标签，非唯一汉字五行定论；不得当作康熙笔画五行）",
+      "tags": [
+        "自然草木",
+        "明朗"
+      ],
+      "warning": "本表按字典中文义项与 Unicode 字形字段核对；仍需结合全名检查谐音。",
+      "sourceId": "moe-revised",
+      "readings": [
+        {
+          "pinyin": "zǐ",
+          "tone": 3,
+          "meanings": [
+            "植物名。紫葳科梓屬，落葉喬木。葉對生，呈掌狀淺裂。夏日開淡黃色而帶有暗紫斑點的花。木材供建築及製作器具。",
+            "製作木器的工匠。",
+            "故鄉。",
+            "姓。如春秋時鄭國有梓慎。",
+            "出版。"
+          ],
+          "sourceId": "moe-revised",
+          "word": "梓"
+        }
+      ],
+      "polyphonic": false,
+      "variants": [
+        "梓"
+      ]
+    },
+    {
+      "char": "涵",
+      "pinyin": "hán",
+      "tone": 2,
+      "meaning": "水澤多。；浸潤、溼潤。；包容、容納。",
+      "traditional": "涵",
+      "strokes": 11,
+      "radical": "水",
+      "elements": [
+        "水"
+      ],
+      "elementBasis": "字形／字义意象参考 v1（项目自编标签，非唯一汉字五行定论；不得当作康熙笔画五行）",
+      "tags": [
+        "常用命名字候选"
+      ],
+      "warning": "本表按字典中文义项与 Unicode 字形字段核对；仍需结合全名检查谐音。",
+      "sourceId": "moe-revised",
+      "readings": [
+        {
+          "pinyin": "hán",
+          "tone": 2,
+          "meanings": [
+            "水澤多。",
+            "浸潤、溼潤。",
+            "包容、容納。",
+            "沉潛、潛水。參見「涵淹」、「涵泳」等條。",
+            "涵洞的簡稱。"
+          ],
+          "sourceId": "moe-revised",
+          "word": "涵"
+        }
+      ],
+      "polyphonic": false,
+      "variants": [
+        "涵"
+      ]
+    },
+    {
+      "char": "厚",
+      "pinyin": "hòu",
+      "tone": 4,
+      "meaning": "不刻薄的。；扁平物體上下之間距離較大的。與「薄」相對。；多、大。",
+      "traditional": "厚",
+      "strokes": 9,
+      "radical": "厂",
+      "elements": [],
+      "elementBasis": "五行属性待起名师指定；不从普通笔画数推定五行",
+      "tags": [
+        "自然草木"
+      ],
+      "warning": "本表按字典中文义项与 Unicode 字形字段核对；仍需结合全名检查谐音。",
+      "sourceId": "moe-revised",
+      "readings": [
+        {
+          "pinyin": "hòu",
+          "tone": 4,
+          "meanings": [
+            "扁平物體上下之間距離較大的。與「薄」相對。",
+            "多、大。",
+            "濃、深。",
+            "不刻薄的。",
+            "扁平物體表面與底面間的距離。",
+            "重視、推崇。",
+            "優待。"
+          ],
+          "sourceId": "moe-revised",
+          "word": "厚"
+        }
+      ],
+      "polyphonic": false,
+      "variants": [
+        "厚"
+      ]
+    },
+    {
+      "char": "德",
+      "pinyin": "dé",
+      "tone": 2,
+      "meaning": "人類共同遵循的規範。；品行、作風。；恩澤、恩惠。",
+      "traditional": "德",
+      "strokes": 15,
+      "radical": "彳",
+      "elements": [],
+      "elementBasis": "五行属性待起名师指定；不从普通笔画数推定五行",
+      "tags": [
+        "常用命名字候选"
+      ],
+      "warning": "本表按字典中文义项与 Unicode 字形字段核对；仍需结合全名检查谐音。",
+      "sourceId": "moe-revised",
+      "readings": [
+        {
+          "pinyin": "dé",
+          "tone": 2,
+          "meanings": [
+            "人類共同遵循的規範。",
+            "品行、作風。",
+            "恩澤、恩惠。",
+            "心意、信念。",
+            "德意志聯邦共和國的簡稱。",
+            "姓。如漢代西域有德若國，後人以國為姓，簡姓德。",
+            "感激、感恩。",
+            "好的、善的。"
+          ],
+          "sourceId": "moe-revised",
+          "word": "德"
+        }
+      ],
+      "polyphonic": false,
+      "variants": [
+        "德"
+      ]
+    },
+    {
+      "char": "知",
+      "pinyin": "zhī",
+      "tone": 1,
+      "meaning": "明白、了解、察覺。；識別、區別。；相交、交往。",
+      "traditional": "知",
+      "strokes": 8,
+      "radical": "矢",
+      "elements": [],
+      "elementBasis": "五行属性待起名师指定；不从普通笔画数推定五行",
+      "tags": [
+        "明朗"
+      ],
+      "warning": "多音字：本方案采用 zhī，请按姓名用法确认；各读音义项分别保存。",
+      "sourceId": "moe-revised",
+      "readings": [
+        {
+          "pinyin": "zhī",
+          "tone": 1,
+          "meanings": [
+            "明白、了解、察覺。",
+            "識別、區別。",
+            "相交、交往。",
+            "招待、禮遇、賞識。",
+            "掌管、主持。",
+            "識見、學問。",
+            "意識、感覺。",
+            "知己、朋友。"
+          ],
+          "sourceId": "moe-revised",
+          "word": "知"
+        },
+        {
+          "pinyin": "zhì",
+          "tone": 4,
+          "meanings": [
+            "智慧。",
+            "姓。如春秋時晉國有知罃。"
+          ],
+          "sourceId": "moe-revised",
+          "word": "知"
+        }
+      ],
+      "polyphonic": true,
+      "variants": [
+        "知"
+      ]
+    },
+    {
+      "char": "微",
+      "pinyin": "wēi",
+      "tone": 1,
+      "meaning": "精妙幽深。；隱匿。；無、沒。",
+      "traditional": "微",
+      "strokes": 13,
+      "radical": "彳",
+      "elements": [],
+      "elementBasis": "五行属性待起名师指定；不从普通笔画数推定五行",
+      "tags": [
+        "常用命名字候选"
+      ],
+      "warning": "多音字：本方案采用 wēi，请按姓名用法确认；各读音义项分别保存。",
+      "sourceId": "moe-revised",
+      "readings": [
+        {
+          "pinyin": "wéi",
+          "tone": 2,
+          "meanings": [
+            "隱匿。",
+            "無、沒。",
+            "非、不是。",
+            "精妙幽深。",
+            "細小。",
+            "卑賤。",
+            "衰落。",
+            "少。",
+            "昏暗不明。",
+            "暗中、祕密。",
+            "伺探。",
+            "稍、略。",
+            "姓。如春秋時魯國有微虎。"
+          ],
+          "sourceId": "moe-revised",
+          "word": "微"
+        },
+        {
+          "pinyin": "wēi",
+          "tone": 1,
+          "meanings": [
+            "隱匿。",
+            "無、沒。",
+            "非、不是。",
+            "精妙幽深。",
+            "細小。",
+            "卑賤。",
+            "衰落。",
+            "少。",
+            "昏暗不明。",
+            "暗中、祕密。",
+            "伺探。",
+            "稍、略。",
+            "姓。如春秋時魯國有微虎。"
+          ],
+          "sourceId": "moe-revised",
+          "word": "微"
+        }
+      ],
+      "polyphonic": true,
+      "variants": [
+        "微"
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "id": "earth",
+      "surname": "林",
+      "givenName": "安宁",
+      "expectedPalaces": [
+        2,
+        8
+      ],
+      "expectedState": "mapped",
+      "expectedCharacterPalaces": [
+        [
+          2,
+          8
+        ],
+        [
+          2,
+          8
+        ]
+      ]
+    },
+    {
+      "id": "water",
+      "surname": "林",
+      "givenName": "沐清",
+      "expectedPalaces": [
+        1
+      ],
+      "expectedState": "mapped",
+      "expectedCharacterPalaces": [
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "id": "metal-fire",
+      "surname": "林",
+      "givenName": "钧烨",
+      "expectedPalaces": [
+        6,
+        7,
+        9
+      ],
+      "expectedState": "mapped",
+      "expectedCharacterPalaces": [
+        [
+          6,
+          7
+        ],
+        [
+          9
+        ]
+      ]
+    },
+    {
+      "id": "mixed",
+      "surname": "林",
+      "givenName": "梓涵",
+      "expectedPalaces": [
+        1,
+        3,
+        4
+      ],
+      "expectedState": "mapped",
+      "expectedCharacterPalaces": [
+        [
+          3,
+          4
+        ],
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "id": "partial",
+      "surname": "林",
+      "givenName": "厚德",
+      "expectedPalaces": [],
+      "expectedState": "partial",
+      "expectedCharacterPalaces": [
+        [],
+        []
+      ]
+    },
+    {
+      "id": "single",
+      "surname": "林",
+      "givenName": "安",
+      "expectedPalaces": [
+        2,
+        8
+      ],
+      "expectedState": "mapped",
+      "expectedCharacterPalaces": [
+        [
+          2,
+          8
+        ]
+      ]
+    },
+    {
+      "id": "compound-surname",
+      "surname": "欧阳",
+      "givenName": "安宁",
+      "expectedPalaces": [
+        2,
+        8
+      ],
+      "expectedState": "mapped",
+      "expectedCharacterPalaces": [
+        [
+          2,
+          8
+        ],
+        [
+          2,
+          8
+        ]
+      ]
+    },
+    {
+      "id": "reverse-order",
+      "surname": "林",
+      "givenName": "宁安",
+      "expectedPalaces": [
+        2,
+        8
+      ],
+      "expectedState": "mapped",
+      "expectedCharacterPalaces": [
+        [
+          2,
+          8
+        ],
+        [
+          2,
+          8
+        ]
+      ]
+    },
+    {
+      "id": "unknownlabels",
+      "surname": "林",
+      "givenName": "知微",
+      "expectedPalaces": [],
+      "expectedState": "partial",
+      "expectedCharacterPalaces": [
+        [],
+        []
+      ]
+    }
+  ]
+}

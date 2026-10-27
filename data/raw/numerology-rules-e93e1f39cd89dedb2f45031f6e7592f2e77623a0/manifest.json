@@ -1,0 +1,34 @@
+[
+  {
+    "file": "LICENSE",
+    "upstreamPath": "LICENSE",
+    "url": "https://github.com/shunshi-ai/naming-mcp/blob/e93e1f39cd89dedb2f45031f6e7592f2e77623a0/LICENSE",
+    "gitBlob": "a630a392dcdc984e0cda29fa6f629694202225b1",
+    "sha256": "f1c7d8717f91d8205f519b76093d0cf9bb5d2f86e50738026a49b9d25f94c25c",
+    "bytes": 1088
+  },
+  {
+    "file": "wuge.ts",
+    "upstreamPath": "packages/naming-core/src/lib/wuge.ts",
+    "url": "https://github.com/shunshi-ai/naming-mcp/blob/e93e1f39cd89dedb2f45031f6e7592f2e77623a0/packages/naming-core/src/lib/wuge.ts",
+    "gitBlob": "6096e642b92aca0b6938c7fc54596f84d510ffcc",
+    "sha256": "7d59de003f1a5b980bdcc84ce7a6573114c9b60ad4924c27ae3858050674ede6",
+    "bytes": 9160
+  },
+  {
+    "file": "shuli-81.json.gz",
+    "upstreamPath": "packages/naming-core/data/shuli-81.json.gz",
+    "url": "https://github.com/shunshi-ai/naming-mcp/blob/e93e1f39cd89dedb2f45031f6e7592f2e77623a0/packages/naming-core/data/shuli-81.json.gz",
+    "gitBlob": "e71a150b10463ffbe331408282feb70b2b36df02",
+    "sha256": "fabcae035135e2ec579af87a473accd385604e7f432eb1532e8bc5cb2790071a",
+    "bytes": 12094
+  },
+  {
+    "file": "score.test.ts",
+    "upstreamPath": "packages/naming-core/tests/score.test.ts",
+    "url": "https://github.com/shunshi-ai/naming-mcp/blob/e93e1f39cd89dedb2f45031f6e7592f2e77623a0/packages/naming-core/tests/score.test.ts",
+    "gitBlob": "a07378e81f6ad2d936f750d333947eb8f8ac65e4",
+    "sha256": "5fc17fb598911b44084ea15f06b8335d61978b0941182d1c86d2a0305f4e9736",
+    "bytes": 9522
+  }
+]

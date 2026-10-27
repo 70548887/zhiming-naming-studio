@@ -1,0 +1,738 @@
+{
+  "version": "ren-action-bridge-source-goldens/1.0.0",
+  "purpose": "独立作者原例与条件合同；排除错误捷径，不作为新盘自动有效作用规则。",
+  "source": {
+    "title": "滴天髓闡微",
+    "revision": 2600158,
+    "url": "https://zh.wikisource.org/w/index.php?title=滴天髓闡微&oldid=2600158",
+    "file": "data/raw/classics-ditian-2600158.wiki",
+    "fullWikitextSha256": "1d1a3d61c1b9a26618b41b8ead857a6b966992fdf2adabdc607a0c6cb4c8f04d",
+    "fullWikitextCodepoints": 143701,
+    "authority": "ren-commentary-and-author-case-commentary",
+    "license": "CC-BY-SA-4.0",
+    "licenseText": "data/raw/CC-BY-SA-4.0.txt",
+    "attribution": "中文维基文库《滴天髓闡微》固定修订2600158及贡献者；原字节录及研究定位。历史原书公版，转录整理保留CC BY-SA 4.0。",
+    "contributors": "https://zh.wikisource.org/w/index.php?title=滴天髓闡微&action=history",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "contexts": [
+    {
+      "id": "weak-metal-over-wood-group",
+      "section": "十一、方局",
+      "anchor": {
+        "quote": "{{annotate|任氏曰：如地支会木局，日主元神透出，别干见辛之官、庚之杀，虚脱无气，即余干有土，土亦休囚，难以生金，须地支有一申酉丑字为美。若无申酉丑，反加之寅辰字，则木势愈盛，金势愈衰矣 ，故碌碌终身，名利无成也。若得岁运去其官星，亦可发达，必要柱中先见食伤，然后岁运去净官煞之根，名利遂矣。本局如此，余局仿此论之可也。}}",
+        "start": 31372,
+        "end": 31538,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)",
+        "sha256": "1d037534f80e8ab947bab7bd35b20f6eccb0475c652971ff7ed61feee9020196",
+        "locator": "oldid=2600158;codepoint[31372,31538)"
+      }
+    },
+    {
+      "id": "bridge-and-obstruction",
+      "section": "二十、通关",
+      "anchor": {
+        "quote": "{{annotate|任氏曰：通关者，引通克制之神也。所谓阴阳二用，妙在气交，天降而下，地升而上。天干之气动而专，地支之气静而杂，是故地运有推移，而天气从之；天气有转徒，而地运应之；天气动于上，而人元应之；人元动于下，而天气从之，所以阴胜逢阳则止，阳胜逢阴则往，是谓天地交泰，干支有情，左右不背，阴阳生育而相通也，若杀重喜印，杀露印亦露，煞藏印亦，此显然通达，不必节外生枝。倘原局无印，必须岁运逢印，向而通之，或暗会明合而通之，局内有印，被财星损坏，或官星化之，或比劫解之，或被合住，则冲开之，或被冲坏，则合化之，或隔一物，则克去-之，前后上下，不能授引，得岁运相逢尤佳。如年印时杀，干杀支印，前后远立，上下悬隔，或为间神忌物所间，此原局无可通之理，必须岁运暗冲暗会，克制间神忌物，该冲则冲，该合则合，引通相克之势，此关一通，所谓琴遇子期，马逢伯乐，求名者青钱万选，问利者意则屡中，如牛郎织女之入洞房，无不其所愿。杀印之论如此，食伤财官之论亦如此。}}",
+        "start": 47174,
+        "end": 47600,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)",
+        "sha256": "c9587a4473558c7abe844e04b151e8c25091f566484014663b13b80a278ff824",
+        "locator": "oldid=2600158;codepoint[47174,47600)"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "id": "bridge-four-clashes-four-assists",
+      "pillars": [
+        "癸酉",
+        "甲子",
+        "丁卯",
+        "丙午"
+      ],
+      "section": "二十、通关",
+      "role": "positive",
+      "authority": "ren-author-case-commentary",
+      "chart": {
+        "quote": "癸酉\n\n甲子\n\n丁卯\n\n丙午",
+        "start": 47602,
+        "end": 47616,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)",
+        "sha256": "9fb5bc9cdbc59a983e65c40de628bdb5e5511639363a92729174538253253438",
+        "locator": "oldid=2600158;codepoint[47602,47616)"
+      },
+      "context": {
+        "quote": "此造天干地支皆杀生印，印生身，时归禄旺，尤妙四冲反为四助，金见水克木而生水，水见木不克火而生木，此自然不隔不占，无阻节之物。日主弱中变旺，运遇水，仍能生木；逢金仍能生水，印绶不伤，所以秋闱早捷，仕至观察。",
+        "start": 47640,
+        "end": 47742,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)",
+        "sha256": "8c71a5b5c431d6b2919af4c259abac297ea94e350fcddbc70b6682739762f62f",
+        "locator": "oldid=2600158;codepoint[47640,47742)"
+      },
+      "authorAssertions": [
+        {
+          "quote": "四冲反为四助",
+          "start": 47662,
+          "end": 47668,
+          "unit": "unicode-codepoint",
+          "interval": "[start,end)",
+          "sha256": "6b6bf4822dc8d78daf0fa67a34234ccae001b6a481a8074ddfba849945c4ebce",
+          "locator": "oldid=2600158;codepoint[47662,47668)"
+        },
+        {
+          "quote": "金见水克木而生水，水见木不克火而生木",
+          "start": 47669,
+          "end": 47687,
+          "unit": "unicode-codepoint",
+          "interval": "[start,end)",
+          "sha256": "5401719cdb1e5d5ab029cfb39cc673567b7e66b04faf4030b681cf70d4029311",
+          "locator": "oldid=2600158;codepoint[47669,47687)"
+        },
+        {
+          "quote": "此自然不隔不占，无阻节之物",
+          "start": 47688,
+          "end": 47701,
+          "unit": "unicode-codepoint",
+          "interval": "[start,end)",
+          "sha256": "237e5957762f69aa40cd09aca6570968c013d915c63ab0b33a4eae7bd4dd5e77",
+          "locator": "oldid=2600158;codepoint[47688,47701)"
+        }
+      ],
+      "manualExpected": {
+        "authority": "manually-entered-source-reading-not-application-generated",
+        "sourceScope": [
+          "本作者例中的冲存在不等于根受净损；原文明确杀生印、印生身。"
+        ],
+        "blocks": [
+          "any-clash-is-net-root-damage",
+          "literal-controls-edge-is-effective-damage"
+        ],
+        "doesNotProve": [
+          "有印便杀印相生",
+          "任一金水木链皆可通关",
+          "所有酉卯或子午冲均不损根"
+        ]
+      },
+      "interpretation": {
+        "authority": "project-research-inference-not-author-algorithm",
+        "text": "本例只约束其原文所说靶标和条件；未把作者对本例的判断改写为所有同类成员组合的新盘算法。"
+      }
+    },
+    {
+      "id": "bridge-distant-becomes-close",
+      "pillars": [
+        "戊寅",
+        "癸亥",
+        "丁未",
+        "辛亥"
+      ],
+      "section": "二十、通关",
+      "role": "positive-boundary",
+      "authority": "ren-author-case-commentary",
+      "chart": {
+        "quote": "戊寅\n\n癸亥\n\n丁未\n\n辛亥",
+        "start": 47744,
+        "end": 47758,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)",
+        "sha256": "532b9ff1b2140159b7def3e42aaf9b7270c40862c085ba0ade6ea13619eced22",
+        "locator": "oldid=2600158;codepoint[47744,47758)"
+      },
+      "context": {
+        "quote": "此癸水临旺，贴峰相克，被戊土合去，反作帮身。月支亥水本助杀，得年支寅亥合来生身，寅本遥隔，反为亲近。时支之亥，又逢未会，以杂为恩。，一来一去，何等情协，一往一会，通关无阻。所以科甲联登，仕至黄堂。",
+        "start": 47782,
+        "end": 47880,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)",
+        "sha256": "55fe0a199b3ea74c29e1a59c70d926b78e821de37cf52e679f73365e58301f94",
+        "locator": "oldid=2600158;codepoint[47782,47880)"
+      },
+      "authorAssertions": [
+        {
+          "quote": "被戊土合去，反作帮身",
+          "start": 47793,
+          "end": 47803,
+          "unit": "unicode-codepoint",
+          "interval": "[start,end)",
+          "sha256": "ad79cb3b50c01b26d73e877ed2943871bb48cccacc00191a17bcd677d6e0e80d",
+          "locator": "oldid=2600158;codepoint[47793,47803)"
+        },
+        {
+          "quote": "寅本遥隔，反为亲近",
+          "start": 47822,
+          "end": 47831,
+          "unit": "unicode-codepoint",
+          "interval": "[start,end)",
+          "sha256": "5fc75e044136ab7ff25c4790ea1a9531f9ec57a83d92ccc27f2facbde060dd0f",
+          "locator": "oldid=2600158;codepoint[47822,47831)"
+        },
+        {
+          "quote": "通关无阻",
+          "start": 47863,
+          "end": 47867,
+          "unit": "unicode-codepoint",
+          "interval": "[start,end)",
+          "sha256": "080565e37bd9459e1f44498a5e7d0e816a922349ae8c8d66ace77f6f14ed0ae2",
+          "locator": "oldid=2600158;codepoint[47863,47867)"
+        }
+      ],
+      "manualExpected": {
+        "authority": "manually-entered-source-reading-not-application-generated",
+        "sourceScope": [
+          "本例通过寅亥合和亥未会建立作者所说生身通关；跨柱距离并非永久阻断。"
+        ],
+        "blocks": [
+          "different-pillar-distance-permanently-blocks-action",
+          "all-combinations-remove-support"
+        ],
+        "doesNotProve": [
+          "任一寅亥合自动恢复全部印根",
+          "凡合即化",
+          "戊癸任意出现都能消除杀"
+        ]
+      },
+      "interpretation": {
+        "authority": "project-research-inference-not-author-algorithm",
+        "text": "本例只约束其原文所说靶标和条件；未把作者对本例的判断改写为所有同类成员组合的新盘算法。"
+      }
+    },
+    {
+      "id": "bridge-wealth-breaks-both-resource-carriers",
+      "pillars": [
+        "戊辰",
+        "乙卯",
+        "辛丑",
+        "丁酉"
+      ],
+      "section": "二十、通关",
+      "role": "negative",
+      "authority": "ren-author-case-commentary",
+      "chart": {
+        "quote": "戊辰\n\n乙卯\n\n辛丑\n\n丁酉",
+        "start": 47882,
+        "end": 47896,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)",
+        "sha256": "0b02a4a252ddb3bd57051b8e76b6a6104caeb4c2a2759055b72f4f899ec1310e",
+        "locator": "oldid=2600158;codepoint[47882,47896)"
+      },
+      "context": {
+        "quote": "此春金气弱  ，时杀紧克，年逢印绶，远隔不通。又被旺木克土坏印，不但戊土不能生化，即日支之丑土，亦被卯木所坏。此局内无可通之理。中运南方杀地，碌碌风霜，奔驰未遇；交庚申克去木神，得奇遇，分发陕西，屡得军功；及辛酉二十年，官至副尹，盖金能克木帮身，印可化杀而通也。",
+        "start": 47920,
+        "end": 48051,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)",
+        "sha256": "81064e6f0c290530df84c68cad4923666104d0d13970c77e8b61ea912879218d",
+        "locator": "oldid=2600158;codepoint[47920,48051)"
+      },
+      "authorAssertions": [
+        {
+          "quote": "年逢印绶，远隔不通",
+          "start": 47933,
+          "end": 47942,
+          "unit": "unicode-codepoint",
+          "interval": "[start,end)",
+          "sha256": "b2df8bf139d3ca1c8e015bce9df9020104bde6390b71c4be7aa396c725d0481d",
+          "locator": "oldid=2600158;codepoint[47933,47942)"
+        },
+        {
+          "quote": "旺木克土坏印",
+          "start": 47945,
+          "end": 47951,
+          "unit": "unicode-codepoint",
+          "interval": "[start,end)",
+          "sha256": "20883ae66f2c883ec162971e2124b5f57a19f75f7f7e75dcc22a1c8fceb7cee8",
+          "locator": "oldid=2600158;codepoint[47945,47951)"
+        },
+        {
+          "quote": "日支之丑土，亦被卯木所坏",
+          "start": 47962,
+          "end": 47974,
+          "unit": "unicode-codepoint",
+          "interval": "[start,end)",
+          "sha256": "5b3a9ea8292919bac376f81685151063a94d51087731474401ed0e694c3cd4b8",
+          "locator": "oldid=2600158;codepoint[47962,47974)"
+        },
+        {
+          "quote": "此局内无可通之理",
+          "start": 47975,
+          "end": 47983,
+          "unit": "unicode-codepoint",
+          "interval": "[start,end)",
+          "sha256": "08c1faada7e611062abb76eba79689ab4ff5c463f7626d02d8cd1715207285bb",
+          "locator": "oldid=2600158;codepoint[47975,47983)"
+        }
+      ],
+      "manualExpected": {
+        "authority": "manually-entered-source-reading-not-application-generated",
+        "sourceScope": [
+          "作者指本例戊土不能生化且丑土受损，杀印链不通；单见印或印藏根不能证明具体救应。"
+        ],
+        "blocks": [
+          "any-exposed-resource-bridges-officer",
+          "any-hidden-earth-root-proves-effective-resource",
+          "rescue-members-met-implies-effective-rescue"
+        ],
+        "doesNotProve": [
+          "乙卯必坏所有戊辰丑土",
+          "原局不能通即任何岁运不能通",
+          "所有年印时杀永远无效"
+        ]
+      },
+      "interpretation": {
+        "authority": "project-research-inference-not-author-algorithm",
+        "text": "本例只约束其原文所说靶标和条件；未把作者对本例的判断改写为所有同类成员组合的新盘算法。"
+      }
+    },
+    {
+      "id": "bridge-adjacent-officer-resource-still-not-connected",
+      "pillars": [
+        "己巳",
+        "丁卯",
+        "辛卯",
+        "乙未"
+      ],
+      "section": "二十、通关",
+      "role": "negative-boundary",
+      "authority": "ren-author-case-commentary",
+      "chart": {
+        "quote": "己巳\n\n丁卯\n\n辛卯\n\n乙未",
+        "start": 48053,
+        "end": 48067,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)",
+        "sha256": "9759fcf2008207790bb60bfa561469839a50237765b405b51675b303fdb7278b",
+        "locator": "oldid=2600158;codepoint[48053,48067)"
+      },
+      "context": {
+        "quote": "此春金虚弱，木火当权，年印，月杀，未得相通，时支未土，又会卯化木，只有生杀之情，而无辅主之意，兼之一路运途无金，一派水木，仍滋杀之根源，以致破败祖业。一事无成，至亥运会木生杀而亡。",
+        "start": 48091,
+        "end": 48181,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)",
+        "sha256": "b38c176b579172a604dbf12f8cc0237ada61c9cff91dbafb4013c80279e65def",
+        "locator": "oldid=2600158;codepoint[48091,48181)"
+      },
+      "authorAssertions": [
+        {
+          "quote": "年印，月杀，未得相通",
+          "start": 48102,
+          "end": 48112,
+          "unit": "unicode-codepoint",
+          "interval": "[start,end)",
+          "sha256": "33d6b92f7ecac20b28764af266231b93da4448276bdbc0d8828971e1b2288a3a",
+          "locator": "oldid=2600158;codepoint[48102,48112)"
+        },
+        {
+          "quote": "未土，又会卯化木",
+          "start": 48115,
+          "end": 48123,
+          "unit": "unicode-codepoint",
+          "interval": "[start,end)",
+          "sha256": "4a0121753c3b8d5b2df48533d37883216f81b1c40ed076e744de7ed192029813",
+          "locator": "oldid=2600158;codepoint[48115,48123)"
+        },
+        {
+          "quote": "只有生杀之情，而无辅主之意",
+          "start": 48124,
+          "end": 48137,
+          "unit": "unicode-codepoint",
+          "interval": "[start,end)",
+          "sha256": "ad4e2d04ce7adbab94c933095f2522d3b0da0d978a11c3976cb6e7e1f7ab4707",
+          "locator": "oldid=2600158;codepoint[48124,48137)"
+        }
+      ],
+      "manualExpected": {
+        "authority": "manually-entered-source-reading-not-application-generated",
+        "sourceScope": [
+          "相邻明见丁杀己印并不充分证明此印生辛日主；作者另指定未土会木的目标转移。"
+        ],
+        "blocks": [
+          "adjacent-exposed-officer-resource-proves-bridge",
+          "same-element-resource-node-proves-effective-support",
+          "all-hidden-earth-carries-effective-resource"
+        ],
+        "doesNotProve": [
+          "年印月杀必不通",
+          "所有卯未都能化木",
+          "春季所有己土永久失效"
+        ]
+      },
+      "interpretation": {
+        "authority": "project-research-inference-not-author-algorithm",
+        "text": "本例只约束其原文所说靶标和条件；未把作者对本例的判断改写为所有同类成员组合的新盘算法。"
+      }
+    },
+    {
+      "id": "wood-group-exposed-metal-weak",
+      "pillars": [
+        "辛未",
+        "辛卯",
+        "乙未",
+        "丁亥"
+      ],
+      "section": "十一、方局",
+      "role": "positive-group-qualification",
+      "authority": "ren-author-case-commentary",
+      "chart": {
+        "quote": "辛未\n\n辛卯\n\n乙未\n\n丁亥",
+        "start": 31540,
+        "end": 31554,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)",
+        "sha256": "0761f99171a2362c9929091748acacd59c3210b242b58ae1a043affc322501b1",
+        "locator": "oldid=2600158;codepoint[31540,31554)"
+      },
+      "context": {
+        "quote": "此乙木归垣，亥卯未全，木势旺盛，金气虚脱，最喜时透丁火，制煞为用。故初运土金之乡，奔驰未遇；至于亥运，生木制煞，军前效力，得县佐；丙戌运中帮丁克辛，升县令。此所谓强众而敌寡，势在去其寡，非煞旺宜制而推也。至酉运，煞逢禄旺，冲破木局不禄。",
+        "start": 31578,
+        "end": 31696,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)",
+        "sha256": "7392e1ec927fa981083bf90ea8a867ae67cf19a063565f6a45c1263a8580d99b",
+        "locator": "oldid=2600158;codepoint[31578,31696)"
+      },
+      "authorAssertions": [
+        {
+          "quote": "亥卯未全，木势旺盛，金气虚脱",
+          "start": 31584,
+          "end": 31598,
+          "unit": "unicode-codepoint",
+          "interval": "[start,end)",
+          "sha256": "b8973dd9d029677dc8573c77b09c201242295b66d1e56f9f76a165644ae20ea5",
+          "locator": "oldid=2600158;codepoint[31584,31598)"
+        },
+        {
+          "quote": "非煞旺宜制而推也",
+          "start": 31671,
+          "end": 31679,
+          "unit": "unicode-codepoint",
+          "interval": "[start,end)",
+          "sha256": "b12fbf450c6d2ed29a5a05105ff06104f8a8ec4114b7c1b2adc6c2d0d2b6c54f",
+          "locator": "oldid=2600158;codepoint[31671,31679)"
+        },
+        {
+          "quote": "煞逢禄旺，冲破木局",
+          "start": 31684,
+          "end": 31693,
+          "unit": "unicode-codepoint",
+          "interval": "[start,end)",
+          "sha256": "454a1b8e985613ce0f4b6fd603876d338f82cab5cceae77687b30595520543d1",
+          "locator": "oldid=2600158;codepoint[31684,31693)"
+        }
+      ],
+      "manualExpected": {
+        "authority": "manually-entered-source-reading-not-application-generated",
+        "sourceScope": [
+          "原作者认定本木局旺且金虚；丁制辛仍是局内条件，金得禄在后运可改局。"
+        ],
+        "blocks": [
+          "any-exposed-metal-is-effective-control",
+          "all-complete-wood-groups-immune-to-clash"
+        ],
+        "doesNotProve": [
+          "所有庚辛克甲乙边无效",
+          "金不能生水",
+          "完整木局自动无任何官杀制约"
+        ]
+      },
+      "interpretation": {
+        "authority": "project-research-inference-not-author-algorithm",
+        "text": "本例只约束其原文所说靶标和条件；未把作者对本例的判断改写为所有同类成员组合的新盘算法。"
+      }
+    },
+    {
+      "id": "wood-without-full-group-boundary",
+      "pillars": [
+        "辛未",
+        "辛卯",
+        "乙未",
+        "戊寅"
+      ],
+      "section": "十一、方局",
+      "role": "negative-boundary",
+      "authority": "ren-author-case-commentary",
+      "chart": {
+        "quote": "辛未\n\n辛卯\n\n乙未\n\n戊寅",
+        "start": 31698,
+        "end": 31712,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)",
+        "sha256": "c4a3b9557d539b1e84997b1451ce42c4b5a6341f2208905b78b01effc37c48bf",
+        "locator": "oldid=2600158;codepoint[31698,31712)"
+      },
+      "context": {
+        "quote": "此乙木归垣，虽无全会，然寅时比亥之力量胜数倍矣。以大象观之，局中三土两金，似乎财生煞旺，不知卯旺提纲，支中皆木之根旺，非金之在地也。初运土金之乡，采芹食廪，家业丰裕：一交丁亥，制煞会局，刑妻克子，破耗异常，犯事革名，忧郁而死。",
+        "start": 31736,
+        "end": 31849,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)",
+        "sha256": "6385f5d381c9ce20dc49936de079168a259992ace917106d27dea2127891b98a",
+        "locator": "oldid=2600158;codepoint[31736,31849)"
+      },
+      "authorAssertions": [
+        {
+          "quote": "虽无全会",
+          "start": 31742,
+          "end": 31746,
+          "unit": "unicode-codepoint",
+          "interval": "[start,end)",
+          "sha256": "8f5cd54f4e85b8e4ccaa668c476d2537f4dd44f2d40110a337e1ff31ecc2d2a3",
+          "locator": "oldid=2600158;codepoint[31742,31746)"
+        },
+        {
+          "quote": "似乎财生煞旺",
+          "start": 31773,
+          "end": 31779,
+          "unit": "unicode-codepoint",
+          "interval": "[start,end)",
+          "sha256": "5ec28853205e01bbdd42694c2b8f6044570a5f6d969e6564e673beebc5cf1dd6",
+          "locator": "oldid=2600158;codepoint[31773,31779)"
+        },
+        {
+          "quote": "卯旺提纲，支中皆木之根旺，非金之在地也",
+          "start": 31782,
+          "end": 31801,
+          "unit": "unicode-codepoint",
+          "interval": "[start,end)",
+          "sha256": "ad9b0998b1e40df6b31bd207b263959a5305791dd84379e260fbc10a4d3376c4",
+          "locator": "oldid=2600158;codepoint[31782,31801)"
+        },
+        {
+          "quote": "一交丁亥，制煞会局",
+          "start": 31819,
+          "end": 31828,
+          "unit": "unicode-codepoint",
+          "interval": "[start,end)",
+          "sha256": "1b8c83998d0682bf9cc0f39adc7e4678ef8dad3071d997939c3d7e7ea39d0042",
+          "locator": "oldid=2600158;codepoint[31819,31828)"
+        }
+      ],
+      "manualExpected": {
+        "authority": "manually-entered-source-reading-not-application-generated",
+        "sourceScope": [
+          "作者明确本例虽无全会，而卯旺提纲、支中木根旺、金不在地；仅有木旺与金无所选申酉丑，不能把无全会补成成局。后文制煞会局及运程只保留上下文，不由人生结果倒推某条金克木边有效。"
+        ],
+        "blocks": [
+          "wood-root-count-implies-completed-group",
+          "no-shen-you-chou-implies-completed-group",
+          "life-outcome-proves-effective-action"
+        ],
+        "doesNotProve": [
+          "全会永远不利",
+          "戊透一定足以生金",
+          "无全会就一定能制木"
+        ]
+      },
+      "interpretation": {
+        "authority": "project-research-inference-not-author-algorithm",
+        "text": "本例只约束其原文所说靶标和条件；未把作者对本例的判断改写为所有同类成员组合的新盘算法。"
+      }
+    },
+    {
+      "id": "wood-group-metal-officer-no-landing",
+      "pillars": [
+        "庚寅",
+        "己卯",
+        "乙亥",
+        "癸未"
+      ],
+      "section": "十一、方局",
+      "role": "positive-group-qualification",
+      "authority": "ren-author-case-commentary",
+      "chart": {
+        "quote": "庚寅\n\n己卯\n\n乙亥\n\n癸未",
+        "start": 31851,
+        "end": 31865,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)",
+        "sha256": "04b2a6d0d799fa1c8135ba20aa3020094c52498a5606c3f6842dbda6e838b0ac",
+        "locator": "oldid=2600158;codepoint[31851,31865)"
+      },
+      "context": {
+        "quote": "此造正合本文成局，干透官星，左右皆空，四柱一无情致，用财则财会劫局，用官则官临绝地，用神无所着落，为人少恒一之志，多迁变之心，以致家业破耗。读书未就，而学医；医又不就，又学堪舆；自以为仲景再世，杨赖复生，而人终不信；又学巫，学易，学命，所学甚多，不能尽述。不但一无所就，而且财散人离，削发为僧矣。",
+        "start": 31889,
+        "end": 32037,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)",
+        "sha256": "807873e2ab8aadb93f8c35cd44eda4c01afad46fe80cb9e1b794a9044edbfb54",
+        "locator": "oldid=2600158;codepoint[31889,32037)"
+      },
+      "authorAssertions": [
+        {
+          "quote": "正合本文成局",
+          "start": 31891,
+          "end": 31897,
+          "unit": "unicode-codepoint",
+          "interval": "[start,end)",
+          "sha256": "6356994768d6c216193a1838146abf861bc69b3b0dcd8b0e3f3516ff88138b70",
+          "locator": "oldid=2600158;codepoint[31891,31897)"
+        },
+        {
+          "quote": "用财则财会劫局，用官则官临绝地",
+          "start": 31915,
+          "end": 31930,
+          "unit": "unicode-codepoint",
+          "interval": "[start,end)",
+          "sha256": "7c9627f53894f6e9792a1d75c2b7bd600280d6d14427672a963c7500f905c015",
+          "locator": "oldid=2600158;codepoint[31915,31930)"
+        },
+        {
+          "quote": "用神无所着落",
+          "start": 31931,
+          "end": 31937,
+          "unit": "unicode-codepoint",
+          "interval": "[start,end)",
+          "sha256": "54eef749e1a5c9eef0ee7d44224a68a62cfcafe2a785bf306d1a8380d5f05463",
+          "locator": "oldid=2600158;codepoint[31931,31937)"
+        }
+      ],
+      "manualExpected": {
+        "authority": "manually-entered-source-reading-not-application-generated",
+        "sourceScope": [
+          "作者原例有全木局、寅、明己土及庚官；仍否定本例以该官制局的可用落点。"
+        ],
+        "blocks": [
+          "any-visible-earth-proves-metal-control-capability",
+          "complete-group-and-metal-presence-proves-useful-officer"
+        ],
+        "doesNotProve": [
+          "所有己土永不生庚",
+          "官临绝可仅凭十二长生标签算出净效果",
+          "命中本例标签即完整判格"
+        ]
+      },
+      "interpretation": {
+        "authority": "project-research-inference-not-author-algorithm",
+        "text": "本例只约束其原文所说靶标和条件；未把作者对本例的判断改写为所有同类成员组合的新盘算法。"
+      }
+    }
+  ],
+  "conditionalContracts": [
+    {
+      "id": "officer-resource-explicit-bridge",
+      "relation": "source-conditional-sufficient",
+      "sourceQuote": {
+        "quote": "若杀重喜印，杀露印亦露，煞藏印亦，此显然通达，不必节外生枝。",
+        "start": 47331,
+        "end": 47361,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)",
+        "sha256": "76fc7e7d62cbdf03b2878d060895b859ee178b7a76cdd144f2bd62093e74ba5b",
+        "locator": "oldid=2600158;codepoint[47331,47361)"
+      },
+      "literalFacts": [
+        "具体杀节点、印节点、同露或同藏的位置和层。"
+      ],
+      "requiredSourceQualifications": [
+        "杀重",
+        "喜印",
+        "原句所说的通达对象与当前具体杀印链一致。",
+        "固定电子本为“煞藏印亦”，末语未校定；不补字，也不将藏层对读独立发布为闭合规则。"
+      ],
+      "sourceConsequence": "本句所述杀印链显然通达。",
+      "targetScope": "指定杀→指定印的通关链，不是全盘无阻、不表示全部印根仍有效。",
+      "notAdoptedOperationalDefinitions": [
+        "杀重不等于杀数较多或月支相等；喜印不能先由未闭合格局标签注入。",
+        "露/藏相同和相邻只是字位事实，不是本句全部充分前提。"
+      ],
+      "readyForNewChartEvaluation": false,
+      "currentDependenciesCannotAssign": [
+        "rescue-effective-reachable",
+        "resource-protection-resolved"
+      ],
+      "independentCaseIds": [
+        "bridge-four-clashes-four-assists",
+        "bridge-adjacent-officer-resource-still-not-connected"
+      ]
+    },
+    {
+      "id": "same-obstruction-alternative-rescue",
+      "relation": "source-conditional-sufficient-alternatives-not-exhaustive",
+      "sourceQuote": {
+        "quote": "局内有印，被财星损坏，或官星化之，或比劫解之，或被合住，则冲开之，或被冲坏，则合化之，或隔一物，则克去-之",
+        "start": 47388,
+        "end": 47441,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)",
+        "sha256": "3ba4c1b04cf53b66057108bf1e43b06cd8fbc4c2ce3d14606423348405ac20d1",
+        "locator": "oldid=2600158;codepoint[47388,47441)"
+      },
+      "literalFacts": [
+        "确切受损印、同一财或其他阻断靶标及原句对应救法成员。"
+      ],
+      "requiredSourceQualifications": [
+        "原印被该具体阻断实际损坏或隔绝。",
+        "对应救法确实化、解、开、合化或克去该障碍；不只是存在相生克成员。"
+      ],
+      "sourceConsequence": "所选同一障碍得到对应解除后，该具体通关链可通。",
+      "targetScope": "同一阻断的具体救法；“或”是替代，不要求所有救法同时成立。",
+      "notAdoptedOperationalDefinitions": [
+        "不把某官或比劫出现等同救应有力可达。",
+        "所列候选未证成立不反推穷尽无救；不由“年印时杀”四字永久禁止跨柱。"
+      ],
+      "readyForNewChartEvaluation": false,
+      "currentDependenciesCannotAssign": [
+        "specific-damage",
+        "rescue-effective-reachable",
+        "wealth-effective-capability"
+      ],
+      "independentCaseIds": [
+        "bridge-distant-becomes-close",
+        "bridge-wealth-breaks-both-resource-carriers",
+        "bridge-adjacent-officer-resource-still-not-connected"
+      ]
+    },
+    {
+      "id": "weak-visible-metal-against-completed-wood-group",
+      "relation": "source-conditional-capacity-qualification",
+      "sourceQuote": {
+        "quote": "若无申酉丑，反加之寅辰字，则木势愈盛，金势愈衰矣",
+        "start": 31445,
+        "end": 31469,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)",
+        "sha256": "38817bb21a94277cd56061776d82fa30dc4894e477807ac4fb4ea634ed6397fb",
+        "locator": "oldid=2600158;codepoint[31445,31469)"
+      },
+      "literalFacts": [
+        "所选亥卯未三支、同气日干及明庚辛各自的真实字位。",
+        "申酉丑缺失、额外寅辰的已知范围；缺柱不得当作已证缺失。"
+      ],
+      "requiredSourceQualifications": [
+        "原句的“会木局”而非只把成员齐当成完成全局净作用。",
+        "金“虚脱无气”与土休囚无力生金的定性前提/推论边界。"
+      ],
+      "sourceConsequence": "本条所述木势愈盛、金势愈衰。",
+      "targetScope": "明庚辛相对于指定木局的组级能力资格；不摊成每条克根边无效。",
+      "notAdoptedOperationalDefinitions": [
+        "金势衰不自动等价完全不能克任何木；不得借局部旺势证明全局无官杀之制。",
+        "无申酉丑不是所有流派金根、金载体的充分否定。",
+        "不存在已采用的定性资格判准，不据相似原例填其真值。"
+      ],
+      "readyForNewChartEvaluation": false,
+      "currentDependenciesCannotAssign": [
+        "clash-capability",
+        "wealth-effective-capability",
+        "rescue-effective-reachable"
+      ],
+      "independentCaseIds": [
+        "wood-group-exposed-metal-weak",
+        "wood-without-full-group-boundary",
+        "wood-group-metal-officer-no-landing"
+      ]
+    }
+  ],
+  "policy": {
+    "applicationRules": false,
+    "sufficientGeneralization": false,
+    "authorCharts": "作者手录四柱，不推造公历日期，不把大运当第五柱。",
+    "expectedValues": "研究者人工录入；未调用领域引擎生成。",
+    "originalSpelling": "保留原文贴峰、不隔不占等原字；不擅校疑字。",
+    "adoptedOutputs": "只记录本例作用靶标与可反驳的快捷算法；不采纳人事寿命断语，不提升从格喜用。"
+  }
+}

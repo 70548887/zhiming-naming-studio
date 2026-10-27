@@ -1,0 +1,43 @@
+{
+  "schema": "m740-execution-ledger/1",
+  "task": "M740-D02 single-character meaning candidate expansion",
+  "outputRoot": "D:/Codex-NamingStudio-Evidence/m740-character-meanings",
+  "skillsSuccessfullyRead": [],
+  "repeatedIdenticalSuccessfulCommands": 0,
+  "commandLogConvention": "Tool output IDs identify the exact command inputs and real outputs in this task; command summaries below describe their work without copying whole source libraries.",
+  "successfulCommands": [
+    {"outputId":"cd68fa","commandSummary":"Get-Location; inspect evidence roots and parent AGENTS paths"},
+    {"outputId":"edba34","commandSummary":"Inspect product and M690 paths; rg file inventory"},
+    {"outputId":"e6ab9d","commandSummary":"Read any applicable AGENTS at product/M690 roots; inspect M690 files, source files, runtimes; git rev-parse HEAD"},
+    {"outputId":"021594","commandSummary":"Read M690 build.mjs, data/manifest.json, data/source-lock.json, data/NOTICE.md, schema.mjs and pins.mjs"},
+    {"outputId":"d68f0b","commandSummary":"Node read current v7/dataset/v1.1/M610/M616/M393 schemas and raw MOE entry count"},
+    {"outputId":"783c32","commandSummary":"rg current meaning/profile references; read M690 selection and available current meaning files"},
+    {"outputId":"e49d38","command":"node D:/Codex-NamingStudio-Evidence/m740-character-meanings/inspect-pool.mjs","note":"Initial direct-source pool inspection; large output was truncated, followed by a compact persisted pool format."},
+    {"outputId":"8520c4","commandSummary":"Run updated inspect-pool, persist pool.json atomically and print compact noun/adjective pool"},
+    {"outputId":"23d9bb","commandSummary":"Inspect initial candidate details, M690 bound adapter and original MOE README; unsuccessful Unicode regex returned no matches but surrounding command completed"},
+    {"outputId":"758327","commandSummary":"Locate current meaning coverage/provider source and prior B01-B05 directories"},
+    {"outputId":"6bf816","commandSummary":"Read current naming-coverage-provider.ts and reviewedNamingSense references"},
+    {"outputId":"103861","commandSummary":"Read exact selected-meaning matcher, Unicode license header and traditional mapping original lines"},
+    {"outputId":"29231f","commandSummary":"Inspect real B01/B03 structure and existing B02/B04/B05 plans/manifest keys"},
+    {"outputId":"314ee5","commandSummary":"Check new package files and actual B01/B03 profile paths"},
+    {"outputId":"dfa85d","commandSummary":"Read B05 plans target characters and exact words; new ten had no B05 overlap"},
+    {"outputId":"43e7dd","commandSummary":"Confirm B01/B02 profile paths and B04 targets; no B04 overlap"},
+    {"outputId":"9a808d","commandSummary":"Read actual B01-B05 source rows, verify initial ten had no overlap with those batches, atomically write inventory-sources.json"},
+    {"outputId":"1bfedf","commandSummary":"Recompute full coverage from current source and identify v1.1 target overlaps 道/群; inspect remaining noun pool"},
+    {"outputId":"f96bfd","commandSummary":"Inspect exact 沫/作 default reading, raw indices, noun definitions and historical manual requirements"},
+    {"outputId":"2fbd6e","command":"node ./build.mjs","cwd":"D:/Codex-NamingStudio-Evidence/m740-character-meanings","result":"10 fixed rows, 28 source files, all protected source bytes unchanged"},
+    {"outputId":"75352e","command":"node ./validate.mjs","cwd":"D:/Codex-NamingStudio-Evidence/m740-character-meanings","result":"passed"},
+    {"outputId":"1e32b8","command":"node --test tests/data.test.mjs","cwd":"D:/Codex-NamingStudio-Evidence/m740-character-meanings","result":"14/14 passed"},
+    {"outputId":"47899f","commandSummary":"Read final coverage/selection/delta, file sizes and prior batch full-name character overlaps; all overlaps empty"}
+  ],
+  "failedOrPartialCommands": [
+    {"outputId":"54524d","reason":"rg meaningProfile/defaultMeaningProfile produced no matches; other requested source reads succeeded"},
+    {"outputId":"08aa88","reason":"Nonexistent naming-editorial-v3.json path; v4-v6 semantics reads succeeded and were reused"},
+    {"outputId":"6b2c45","reason":"B01/plans.json absent; real B01 candidate profile discovered and read later"},
+    {"outputId":"dd0750","reason":"Initial build rejected selected 道 due to existing v1.1 target occupancy; full inventory also identified 群; both replaced with 沫/作 before successful build"},
+    {"outputId":"6acba2","reason":"Node ESM absolute Windows import required file URL or relative module; corrected to relative import in M740 cwd"}
+  ],
+  "writes": "Only new files under outputRoot, using apply_patch or temporary-file rename",
+  "networkRequests": 0,
+  "unexecuted": ["independent semantic admission review", "actual product query wiring", "actual product generation wiring"]
+}

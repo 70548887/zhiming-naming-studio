@@ -1,0 +1,612 @@
+{
+  "schema": "m1003-exact11-source-review/1",
+  "reviewId": "M1003-COVERAGE-EXACT11",
+  "date": "2026-10-27",
+  "result": "accepted-with-trusted-readonly-source-scope",
+  "repository": "D:/Codex-NamingStudio-Evidence/m768-next-integration",
+  "sourceCommit": "c86600dcb9f51e02aeffa48ec74922fe983d6121",
+  "baseCommit": "b848a8cc88f12555d5cb80c0c8cf2ea435588c69",
+  "groupMapSha256": "a7c0da42b0db48a67f40dffd09527412da4cce956671f974de7d45e92b8417de",
+  "groupManifestSha256": "a1101cd3dca105b77121bc8f7ef3954ad16805acc6a4804aff1026f98c002f59",
+  "scope": {
+    "total": 11,
+    "coverageCore": 4,
+    "qualificationSupport": 7,
+    "allSourceFilesActuallyReadByPrimary": true,
+    "externalDependenciesApproved": false
+  },
+  "rows": [
+    {
+      "file": "src/domain/naming-coverage.ts",
+      "bytes": 12254,
+      "sha256": "044363590b2688d52e3ac013ecca64d14dc6cc04de2ca10f3ec60969ffbbcc94",
+      "gitBlob": "74d3aa9e2e65c4ec0301989b6661d3bdc84296cb",
+      "subgroup": "coverage-core4",
+      "sourceCommit": "c86600dcb9f51e02aeffa48ec74922fe983d6121",
+      "baseCommit": "b848a8cc88f12555d5cb80c0c8cf2ea435588c69",
+      "baseByteIdentical": true,
+      "reviewId": "M1003-COVERAGE-EXACT11",
+      "readerClass": "pure-rule-or-rule-data",
+      "compileScope": "main-service-bundle",
+      "judgment": "accepted-for-bounded-readonly-source-registration",
+      "role": "Read-only set, source-label and partition aggregator",
+      "lines": [
+        26,
+        50,
+        55,
+        87,
+        96,
+        165
+      ],
+      "verified": [
+        "Canonical deduplicated sets produce intersections/unions; totals are derived, not hardcoded521/581.",
+        "Every required group must be available with expected source ID, nonzero digest, same pack and dataset-default scope; failures omit counts.",
+        "Standalone notes cannot imply automatic recommendation, score or full-name approval; word and off-candidate outputs stay outside automatic/standalone sets.",
+        "Original label/unknown partition and imagery candidate/unresolved partition are enforced; output remains recursively frozen with no writes."
+      ],
+      "limits": [
+        "It validates supplied loader-output shape and consistency, not authenticity of source digests. Trusted provider must supply source-verified inputs.",
+        "Plain-JSON descriptor checks are not a general trap-free Proxy sandbox; do not reuse old broad Proxy wording as arbitrary-JavaScript authorization.",
+        "No complete source publication/large dictionary is read by this pure function."
+      ]
+    },
+    {
+      "file": "src/shared/naming-coverage.ts",
+      "bytes": 4925,
+      "sha256": "befa03909e392ce7d9e7de2d12fb716b3d2b6a1763cf0c7aea043dfd52041090",
+      "gitBlob": "89f94ced5cbbafa3dde3af9d330aeb2066f0c689",
+      "subgroup": "coverage-core4",
+      "sourceCommit": "c86600dcb9f51e02aeffa48ec74922fe983d6121",
+      "baseCommit": "b848a8cc88f12555d5cb80c0c8cf2ea435588c69",
+      "baseByteIdentical": true,
+      "reviewId": "M1003-COVERAGE-EXACT11",
+      "readerClass": "type-contract",
+      "compileScope": "type-only",
+      "judgment": "accepted-for-bounded-readonly-source-registration",
+      "role": "Type-only coverage DTO and loader-result contracts",
+      "lines": [
+        1,
+        112
+      ],
+      "verified": [
+        "Only exported types and interfaces; no runtime value declaration.",
+        "Types separate default, on-request, complete-word, off-candidate and original/unknown element sets, with false/zero authority fields."
+      ],
+      "limits": [
+        "Types cannot authenticate values at runtime. Provider and aggregate checks supply the actual boundary.",
+        "No UI, IPC or persistence acceptance follows from the declaration."
+      ]
+    },
+    {
+      "file": "src/shared/naming-coverage-api.ts",
+      "bytes": 528,
+      "sha256": "1962e923b2ffe4af26e0b7a00f2b45eb7989b8765b0e9bd4ac7f5fbe77624075",
+      "gitBlob": "872b88e5587407cf4bd751683a23ca68e5f6bfdf",
+      "subgroup": "coverage-core4",
+      "sourceCommit": "c86600dcb9f51e02aeffa48ec74922fe983d6121",
+      "baseCommit": "b848a8cc88f12555d5cb80c0c8cf2ea435588c69",
+      "baseByteIdentical": true,
+      "reviewId": "M1003-COVERAGE-EXACT11",
+      "readerClass": "read-only-renderer",
+      "compileScope": "renderer-bundle",
+      "judgment": "accepted-for-bounded-readonly-source-registration",
+      "role": "Parameterless API contract plus renderer runtime own-data-method predicate",
+      "lines": [
+        3,
+        11
+      ],
+      "verified": [
+        "hasNamingCoverageApi is executable: only an own data descriptor containing a function is accepted; ordinary accessor/inherited methods are not accepted.",
+        "No method invocation, argument forwarding, write or dataset lookup occurs inside the guard."
+      ],
+      "limits": [
+        "This is capability-shape detection, not authority, Promise-return, service identity or arbitrary Proxy validation.",
+        "Register as renderer runtime code; the map proposal type-contract-with-runtime-guard is not an existing outer-reader class. Use the existing read-only-renderer class with this semantic role, without broadening the gate."
+      ]
+    },
+    {
+      "file": "src/main/naming-coverage-provider.ts",
+      "bytes": 10354,
+      "sha256": "64cc05cd1f5e0d2c6d594c1a5a982ce9ce6c0090b953b3579c92691ead231cc9",
+      "gitBlob": "1c0e6ae5eb8703c500c7f49a7361ad7f02c00f7f",
+      "subgroup": "coverage-core4",
+      "sourceCommit": "c86600dcb9f51e02aeffa48ec74922fe983d6121",
+      "baseCommit": "b848a8cc88f12555d5cb80c0c8cf2ea435588c69",
+      "baseByteIdentical": true,
+      "reviewId": "M1003-COVERAGE-EXACT11",
+      "readerClass": "service-fixed-source-reader",
+      "compileScope": "main-service-bundle",
+      "judgment": "accepted-for-bounded-readonly-source-registration",
+      "role": "Trusted owning-service current-data reader and coverage projection",
+      "lines": [
+        17,
+        38,
+        40,
+        88,
+        89,
+        124
+      ],
+      "verified": [
+        "Construction is lazy; each parameterless call obtains the actual owning Store view after imports and reruns loader/file checks without caching result or source verdict.",
+        "Current version and characters/citations/knowledge/sources must equal the fixed dataset; fixed table/lock/base source are reread with digest checks.",
+        "Calls the direct optional60 loader and rejects absence instead of falling back to legacy40.",
+        "Default sets use actual V6 selected-reading sense lookup and v7 applicability with fixed pack; on-request set uses exact character explanation status.",
+        "Queries complete-word cases with explicit choice/readings and checks no semantic credit, name approval or score; B04/imagery remain off/pending.",
+        "Returns only read-only DTO or unavailable; no save, generator or score operation."
+      ],
+      "limits": [
+        "getCurrentStore and imported loaders are trusted main dependencies; external library/source approval is not inherited.",
+        "File reads authenticate fixed bytes at read time; this is not a transactional filesystem snapshot or concurrency-proof final-restat protocol.",
+        "No actual Store, IPC, UI or full optional publication loader was executed by this review.",
+        "Dataset equality confirms the supplied owning dataset against a fixed source; this module does not independently open and authenticate the active SQLite database."
+      ]
+    },
+    {
+      "file": "src/domain/naming-semantics-v6.ts",
+      "bytes": 6623,
+      "sha256": "b352c901910ab480d581ab4f57f3703e5bb219dfe8648c135e6ca43e0b872e19",
+      "gitBlob": "f08a091a86e8645831b593fe9ae84b8351f6cfda",
+      "subgroup": "direct-qualification-support7",
+      "sourceCommit": "c86600dcb9f51e02aeffa48ec74922fe983d6121",
+      "baseCommit": "b848a8cc88f12555d5cb80c0c8cf2ea435588c69",
+      "baseByteIdentical": true,
+      "reviewId": "M1003-COVERAGE-EXACT11",
+      "readerClass": "pure-rule-or-rule-data",
+      "compileScope": "main-service-bundle",
+      "judgment": "accepted-for-bounded-readonly-source-registration",
+      "role": "V6 selected-reading overrides and actual V5 fallback qualification",
+      "lines": [
+        22,
+        77
+      ],
+      "verified": [
+        "Explicit V6 override set blocks broad reuse of old project tags/meanings; only matching semantic migrations return overridden meanings.",
+        "V6 matching rejects reference display and filters malformed/reference-only reading metadata before V5 binding comparison.",
+        "Fixed dictionary identity, baseline pronunciation, reviewed project reading and semantic concept are distinct functions; display identity does not itself grant tags or imagery.",
+        "Non-overridden meanings use actual V5 binding path; source-level function contains no new assignment to elements."
+      ],
+      "limits": [
+        "Imported V4/V6 tables and gate dependencies are trusted fixed data; factory/readDependencies do not mint source authority.",
+        "V5 fallback is the historical fixed-input algorithm; this is not a fresh generic untrusted input sandbox.",
+        "Other naming/citation consumers of these functions are external context, not newly approved generation or scoring."
+      ]
+    },
+    {
+      "file": "src/domain/naming-semantics-v5.ts",
+      "bytes": 6301,
+      "sha256": "241aeb762281c16a9c948bdd419e6cc75b1b4a25bfd2c15341ba930d650db90b",
+      "gitBlob": "47938bca49efcedee3e7b1dfc4f8fb8df3109bfb",
+      "subgroup": "direct-qualification-support7",
+      "sourceCommit": "c86600dcb9f51e02aeffa48ec74922fe983d6121",
+      "baseCommit": "b848a8cc88f12555d5cb80c0c8cf2ea435588c69",
+      "baseByteIdentical": true,
+      "reviewId": "M1003-COVERAGE-EXACT11",
+      "readerClass": "pure-rule-or-rule-data",
+      "compileScope": "main-service-bundle",
+      "judgment": "accepted-for-bounded-readonly-source-registration",
+      "role": "V4/V5 fixed selected-reading binding and corrected-reading fallback",
+      "lines": [
+        22,
+        70
+      ],
+      "verified": [
+        "Corrected entries require a matching source word, pinyin/tone/source and selected literal definitions; corrected bindings replace the corresponding V4 defaults.",
+        "Sense/combination/pair eligibility requires bound-default-reading and per-position character plus reading matches.",
+        "Current default pronunciation is display-only; project tag credit is tied to reviewed reading, while warnings avoid falsely retaining the old reading assertion."
+      ],
+      "limits": [
+        "Tables are source-verified externally; returned dependency objects are live references by design, not an immutable authority token.",
+        "matchesReviewedReading alone does not validate full CharacterEntry ownership, every optional metadata field, or source provenance.",
+        "No whole-name semantics or data-table judgments are newly approved."
+      ]
+    },
+    {
+      "file": "src/shared/character-reading.ts",
+      "bytes": 606,
+      "sha256": "717aac3c5f8c56abcbfcec4eef786dedac6c21a28c734561201b6b5a36f26a07",
+      "gitBlob": "68b2689f80377262b375acee267077dc0926df1c",
+      "subgroup": "direct-qualification-support7",
+      "sourceCommit": "c86600dcb9f51e02aeffa48ec74922fe983d6121",
+      "baseCommit": "b848a8cc88f12555d5cb80c0c8cf2ea435588c69",
+      "baseByteIdentical": true,
+      "reviewId": "M1003-COVERAGE-EXACT11",
+      "readerClass": "pure-rule-or-rule-data",
+      "compileScope": "main-service-bundle",
+      "judgment": "accepted-for-bounded-readonly-source-registration",
+      "role": "Literal selected-definition membership helper",
+      "lines": [
+        1,
+        5
+      ],
+      "verified": [
+        "Accepts exact definition or a semicolon concatenation of at most three distinct definitions; no inferred synonyms or other-reading meanings."
+      ],
+      "limits": [
+        "Typed definitions array is expected from an authenticated entry. This is not a character/source/reading authenticator.",
+        "No semantic approval, raw-dictionary parse or numeric tone derivation."
+      ]
+    },
+    {
+      "file": "src/shared/character-reading-reference.ts",
+      "bytes": 2325,
+      "sha256": "fc729ff8025c3ee4a6469861a2ca468723d64aaf42ea6b42250b6d24a34f472e",
+      "gitBlob": "7d839f0479302c36790bed0ba21ff20d278a54d0",
+      "subgroup": "direct-qualification-support7",
+      "sourceCommit": "c86600dcb9f51e02aeffa48ec74922fe983d6121",
+      "baseCommit": "b848a8cc88f12555d5cb80c0c8cf2ea435588c69",
+      "baseByteIdentical": true,
+      "reviewId": "M1003-COVERAGE-EXACT11",
+      "readerClass": "pure-rule-or-rule-data",
+      "compileScope": "main-service-bundle",
+      "judgment": "accepted-for-bounded-readonly-source-registration",
+      "role": "Paired reference metadata validation and reference-only selection",
+      "lines": [
+        4,
+        23
+      ],
+      "verified": [
+        "ReferenceOnly and sourceReference must appear as paired own enumerable data descriptors, with exact kind/index/text fields and one literal prefixed reference definition.",
+        "Selected reference-only reading must match pinyin/tone/source and displayed literal meaning; it returns a reference record rather than a substantive definition."
+      ],
+      "limits": [
+        "A missing pair is allowed for an ordinary reading; validity does not mean independent source authentication.",
+        "Descriptor calls may encounter arbitrary Proxy behavior; trusted plain entry boundary remains required."
+      ]
+    },
+    {
+      "file": "src/domain/naming-review-v7.mjs",
+      "bytes": 22345,
+      "sha256": "a7fdc297da6312cce8e3edc7c8f01c312506cd3f6c11d03fdc08c7f010b16a61",
+      "gitBlob": "6b2540eab23c623478bf2f5377b5c44b7712db69",
+      "subgroup": "direct-qualification-support7",
+      "sourceCommit": "c86600dcb9f51e02aeffa48ec74922fe983d6121",
+      "baseCommit": "b848a8cc88f12555d5cb80c0c8cf2ea435588c69",
+      "baseByteIdentical": true,
+      "reviewId": "M1003-COVERAGE-EXACT11",
+      "readerClass": "pure-rule-or-rule-data",
+      "compileScope": "main-service-bundle",
+      "judgment": "accepted-for-bounded-readonly-source-registration",
+      "role": "Pure fixed-table applicability and per-character explanation lookup",
+      "lines": [
+        6,
+        18,
+        20,
+        75,
+        79,
+        165,
+        173,
+        208
+      ],
+      "verified": [
+        "Lookup copies the supplied plain table; pack identity and active version must match the reviewed base before qualification.",
+        "Current entry must match default source word, complete selected reading and literal displayed meaning; nonapproved/manual modes and unapproved full names do not become automatic meanings.",
+        "Automatic meaning output explicitly has no automatic semantic credit; documentary review remains display-only.",
+        "Private lookup-input identity is issued only for the real registered lookup and serializes with captured native roots; it is not source admission.",
+        "V7.1 requires fixed scope, exact40/60 case/admission and complete baseline-character equality; output is per-character, no whole-name meaning/recommendation/score."
+      ],
+      "limits": [
+        "Input tables and identity hashes must be authenticated by main loaders. The pure factory does not prove that caller-supplied review text was independently approved.",
+        "Its browser-safe plain-JSON checks do not promise Node-style types.isProxy exclusion; use only trusted owned/plain inputs.",
+        "Runtime/bootstrap identity and optional citation behavior are read as part of this source file, but downstream compiled consumers are not newly certified."
+      ]
+    },
+    {
+      "file": "src/domain/naming-review-v7.d.mts",
+      "bytes": 5831,
+      "sha256": "e72fe0e550675b4c9ddd02d32c7906db548fcfea19b016f098f077d5cef43ac6",
+      "gitBlob": "7f2296a1787a80a61d79d27f02efacb9973f1761",
+      "subgroup": "direct-qualification-support7",
+      "sourceCommit": "c86600dcb9f51e02aeffa48ec74922fe983d6121",
+      "baseCommit": "b848a8cc88f12555d5cb80c0c8cf2ea435588c69",
+      "baseByteIdentical": true,
+      "reviewId": "M1003-COVERAGE-EXACT11",
+      "readerClass": "type-contract",
+      "compileScope": "type-only",
+      "judgment": "accepted-for-bounded-readonly-source-registration",
+      "role": "Declaration companion for review lookup and per-character contracts",
+      "lines": [
+        1,
+        30
+      ],
+      "verified": [
+        "Declaration-only type/interface/function signatures correspond to runtime lookup methods; no runtime emitted values.",
+        "Manual/pending/not-recommended distinctions and no-score/no-whole-name flags are explicit in the contract."
+      ],
+      "limits": [
+        "Declaration identity is a source-review subject; it does not independently validate a record, compiled consumer or execution publication."
+      ]
+    },
+    {
+      "file": "src/main/naming-editorial-v7-data.ts",
+      "bytes": 22824,
+      "sha256": "9afe6ab29ae8087fffc1cd032d4117d23072968b4ae8a046a9f435fc1f803b29",
+      "gitBlob": "ec24ee0aec43b1e407ba7e48328de36542a1f781",
+      "subgroup": "direct-qualification-support7",
+      "sourceCommit": "c86600dcb9f51e02aeffa48ec74922fe983d6121",
+      "baseCommit": "b848a8cc88f12555d5cb80c0c8cf2ea435588c69",
+      "baseByteIdentical": true,
+      "reviewId": "M1003-COVERAGE-EXACT11",
+      "readerClass": "service-fixed-source-reader",
+      "compileScope": "main-service-bundle",
+      "judgment": "accepted-for-bounded-readonly-source-registration",
+      "role": "Fixed supplemental and legacy/on-request publication reader plus saved provenance selection",
+      "lines": [
+        23,
+        105,
+        113,
+        131,
+        133,
+        303
+      ],
+      "verified": [
+        "Supplemental table and lock are fixed by raw byte digest, full compiled equality, exact20-file manifest, per-file/aggregate hashes, base identities and no-score/no-element-change policy.",
+        "Owned rule JSON requests reauthenticate and reread four exact source byte sequences; no successful filesystem verdict cache crosses calls.",
+        "V7 saved provenance binds version/pack/source and rejects missing/duplicate/foreign full metadata.",
+        "Legacy V7.1 fixes exact40 case corpus and full29/30 source/manifest closure; optional current M460 selection is separate from historical saved-source selection.",
+        "Trusted V7.1 objects are fixed/issued identities, and saved selection uses its recorded source digest rather than substituting current data."
+      ],
+      "limits": [
+        "The full source-file review does not newly approve the external20/29/30 payload semantics or M460 library. No rawMOE or SQLite loader was run here.",
+        "Legacy fallback in loadNamingEditorialV71Data is a separate API; coverage provider intentionally uses direct optional loader and cannot take that fallback.",
+        "readFileSync byte hashes are not physical alias exclusion or continuous freshness; supplied directory is main-owned.",
+        "Provenance validators require trusted plain session records; they are not arbitrary-JavaScript Proxy-safe ingress."
+      ]
+    }
+  ],
+  "findings": [],
+  "newP1": 0,
+  "newP2": 0,
+  "counts": {
+    "baseMeaning": 217,
+    "supplementalAutomatic": 304,
+    "defaultIntersection": 0,
+    "defaultUnion": 521,
+    "onRequest": 60,
+    "onRequestDefaultIntersection": 0,
+    "displayMaterialUnion": 581,
+    "originalElementLabels": 257,
+    "originalUnknown": 522,
+    "formalCoverageAdded": 0
+  },
+  "qualification": {
+    "defaultReadingOnly": true,
+    "manualNotAutomaticallyIncluded": true,
+    "unknownNotGranted": true,
+    "wrongReadingOrPackRejected": true,
+    "onRequestIsNotAutomatic": true,
+    "completeWordCasesNotAddedToCharacterTotals": true,
+    "B04CandidateOff": true,
+    "imageryCandidateOff": true,
+    "traditionalUniqueElementsApproved": false,
+    "saveAuthority": false
+  },
+  "independentChecks": {
+    "pureGroups": 5,
+    "providerFlowGroups": 4,
+    "failed": 0,
+    "realFixedRuleLookupAndDatasetCharacterRecount": true,
+    "fullInstalledLoadersExecuted": false,
+    "providerDynamicImportsSubstituted": true,
+    "rawMoeParsed": false,
+    "SQLiteOpened": false,
+    "wholeTypecheck": false,
+    "Store": false,
+    "largeReplay": false
+  },
+  "reuse": {
+    "M629": "Only original pureDTO read-only/source shape scope, linked exactM612 pins. Broad historical wording about Proxy rejection is not expanded here.",
+    "M637": "Only exact four provider/factory/API/DTO and supplied fixture boundaries, with fixedM631 original/copy identities; no service/UI approval.",
+    "M842": "Six support byte identities only; original saved-consumer scope is not reused as an11-source semantic verdict.",
+    "exactMatches": [
+      {
+        "file": "src/domain/naming-coverage.ts",
+        "matches": [
+          {
+            "id": "M612-author-manifest",
+            "file": "candidate/src/domain/naming-coverage.ts",
+            "bytes": 12254,
+            "sha256": "044363590b2688d52e3ac013ecca64d14dc6cc04de2ca10f3ec60969ffbbcc94"
+          },
+          {
+            "id": "M631-author-manifest",
+            "file": "work/src/domain/naming-coverage.ts",
+            "bytes": 12254,
+            "sha256": "044363590b2688d52e3ac013ecca64d14dc6cc04de2ca10f3ec60969ffbbcc94"
+          }
+        ]
+      },
+      {
+        "file": "src/shared/naming-coverage.ts",
+        "matches": [
+          {
+            "id": "M612-author-manifest",
+            "file": "candidate/src/shared/naming-coverage.ts",
+            "bytes": 4925,
+            "sha256": "befa03909e392ce7d9e7de2d12fb716b3d2b6a1763cf0c7aea043dfd52041090"
+          },
+          {
+            "id": "M631-author-manifest",
+            "file": "work/src/shared/naming-coverage.ts",
+            "bytes": 4925,
+            "sha256": "befa03909e392ce7d9e7de2d12fb716b3d2b6a1763cf0c7aea043dfd52041090"
+          }
+        ]
+      },
+      {
+        "file": "src/shared/naming-coverage-api.ts",
+        "matches": [
+          {
+            "id": "M631-author-manifest",
+            "file": "work/src/shared/naming-coverage-api.ts",
+            "bytes": 528,
+            "sha256": "1962e923b2ffe4af26e0b7a00f2b45eb7989b8765b0e9bd4ac7f5fbe77624075"
+          }
+        ]
+      },
+      {
+        "file": "src/main/naming-coverage-provider.ts",
+        "matches": [
+          {
+            "id": "M631-author-manifest",
+            "file": "work/src/main/naming-coverage-provider.ts",
+            "bytes": 10354,
+            "sha256": "64cc05cd1f5e0d2c6d594c1a5a982ce9ce6c0090b953b3579c92691ead231cc9"
+          }
+        ]
+      },
+      {
+        "file": "src/domain/naming-semantics-v6.ts",
+        "matches": [
+          {
+            "id": "M842-fixed-source-pins",
+            "file": "src/domain/naming-semantics-v6.ts",
+            "bytes": 6623,
+            "sha256": "b352c901910ab480d581ab4f57f3703e5bb219dfe8648c135e6ca43e0b872e19"
+          }
+        ]
+      },
+      {
+        "file": "src/domain/naming-semantics-v5.ts",
+        "matches": [
+          {
+            "id": "M842-fixed-source-pins",
+            "file": "src/domain/naming-semantics-v5.ts",
+            "bytes": 6301,
+            "sha256": "241aeb762281c16a9c948bdd419e6cc75b1b4a25bfd2c15341ba930d650db90b"
+          }
+        ]
+      },
+      {
+        "file": "src/shared/character-reading.ts",
+        "matches": [
+          {
+            "id": "M842-fixed-source-pins",
+            "file": "src/shared/character-reading.ts",
+            "bytes": 606,
+            "sha256": "717aac3c5f8c56abcbfcec4eef786dedac6c21a28c734561201b6b5a36f26a07"
+          }
+        ]
+      },
+      {
+        "file": "src/shared/character-reading-reference.ts",
+        "matches": [
+          {
+            "id": "M842-fixed-source-pins",
+            "file": "src/shared/character-reading-reference.ts",
+            "bytes": 2325,
+            "sha256": "fc729ff8025c3ee4a6469861a2ca468723d64aaf42ea6b42250b6d24a34f472e"
+          }
+        ]
+      },
+      {
+        "file": "src/domain/naming-review-v7.mjs",
+        "matches": [
+          {
+            "id": "M842-fixed-source-pins",
+            "file": "src/domain/naming-review-v7.mjs",
+            "bytes": 22345,
+            "sha256": "a7fdc297da6312cce8e3edc7c8f01c312506cd3f6c11d03fdc08c7f010b16a61"
+          }
+        ]
+      },
+      {
+        "file": "src/domain/naming-review-v7.d.mts",
+        "matches": []
+      },
+      {
+        "file": "src/main/naming-editorial-v7-data.ts",
+        "matches": [
+          {
+            "id": "M842-fixed-source-pins",
+            "file": "src/main/naming-editorial-v7-data.ts",
+            "bytes": 22824,
+            "sha256": "9afe6ab29ae8087fffc1cd032d4117d23072968b4ae8a046a9f435fc1f803b29"
+          }
+        ]
+      }
+    ]
+  },
+  "registrationNotes": [
+    {
+      "id": "API-RUNTIME-CLASS",
+      "file": "src/shared/naming-coverage-api.ts",
+      "mapProposal": "type-contract-with-runtime-guard",
+      "reviewedClass": "read-only-renderer",
+      "compileScope": "renderer-bundle",
+      "reason": "The current outer role validator has no proposed hybrid class. The actual own-descriptor predicate is renderer runtime code. Use the existing supported read-only-renderer class; do not mislabel type-only or broaden the gate for a label."
+    }
+  ],
+  "externalContext": {
+    "direct20": [
+      "src/shared/types.ts",
+      "src/domain/meaning-context-next.mjs",
+      "src/main/m460-publication-data.mjs",
+      "src/main/meaning-context-data.ts",
+      "scripts/meaning-context-m460-b04-candidate.mjs",
+      "data/element-object/load-verified-element-package.mjs",
+      "src/shared/element-assessment.ts",
+      "data/naming-editorial-v6.json",
+      "data/naming-editorial-v4.json",
+      "data/naming-editorial-v5.json",
+      "src/shared/candidate-facts.ts",
+      "src/shared/naming-rules.ts",
+      "data/naming-character-meanings-v7.1-profile.json",
+      "data/naming-character-meanings-v7.1-admission.json",
+      "data/naming-character-meanings-v7.1-source-lock.json",
+      "data/naming-character-meanings-v7.1-manifest.json",
+      "data/raw/naming-character-meanings-v7.1-subset.json",
+      "src/main/source-byte-digest.mjs",
+      "data/naming-editorial-v7.json",
+      "data/naming-editorial-meanings-v7-source-lock.json"
+    ],
+    "scope": "Literal dynamic/import/type/table and declaration companions remain context only. Their original independent authority is unchanged.",
+    "owningCallSite": {
+      "file": "src/main/service.ts",
+      "line": 302,
+      "observed": "Parameterless method uses this.store.dataDir and this.store.dataset; inspected as context only."
+    },
+    "additionalApproval": 0
+  },
+  "materialLimits": [
+    "The exact eleven may be referenced by a separate narrowly reviewed source-registration delta. This review does not modify source roles, profile, gate or registry.",
+    "The current API/helper inputs are trusted main data or fixed JSON. No generic malicious-Proxy immunity is asserted; old reports using that phrase are not expanded.",
+    "Pure lookup accepts fixed-input context for counting; the full20-file source validator and optional publication loaders were inspected, not executed.",
+    "Full coverage factory input in the probe deliberately uses synthetic source metadata and empty word/imagery groups. Actual40/20/56 historical counts are not freshly revalidated or added to automatic coverage.",
+    "No transactional filesystem snapshot/final restat guarantee or active SQLite certification is introduced.",
+    "No whole-name endorsement, score/ranking change, default five-element assignment, Store save, Service/UI integration or release approval."
+  ],
+  "authority": {
+    "exact11MayBeReferencedForSeparateSourceRegistration": true,
+    "registrationApplied": false,
+    "srcModified": false,
+    "profileModified": false,
+    "wholeSourceClosureApproved": false,
+    "sourceBuildApproved": false,
+    "dataSemanticsNewlyApproved": false,
+    "formalCoverageAdded": 0,
+    "automaticRecommendationsApproved": false,
+    "traditionalUniqueElementsApproved": false,
+    "StoreSaveApproved": false,
+    "ServiceOrUIApproved": false,
+    "releaseApproved": false
+  },
+  "evidence": {
+    "identitySha256": "dd4425463f589fac5b83c0bb56bf95559b104da8ead54bcd36c639cbf37d196f",
+    "pureResultSha256": "8d28934aa78f66a7747c49ff7d1a7386682d7af7d4cbb782baf570f8af0dd64a",
+    "providerResultSha256": "4d14fe540a2adc81ae3d96fc09e39b1795ab587416768b94b2d1516945b2be09"
+  },
+  "execution": {
+    "primarySourceReview": true,
+    "aggregateAgentFailedBeforeResult": true,
+    "supportAgentRemainedPendingAndStopped": true,
+    "agentConclusionsUsed": 0,
+    "productWrites": 0,
+    "normalGateExecuted": false,
+    "rawMOE": false,
+    "SQLite": false,
+    "Store": false,
+    "fullTypecheck": false,
+    "build": false,
+    "network": false
+  }
+}

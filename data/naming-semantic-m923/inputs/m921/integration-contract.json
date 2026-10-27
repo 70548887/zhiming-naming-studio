@@ -1,0 +1,391 @@
+{
+  "schema": "m921-meaning-admission-integration-contract/1",
+  "date": "2026-10-26",
+  "status": "candidate-publication-built-unregistered-no-activation",
+  "baseCommit": "a168b151c212ff34643db613188b91f54af877c0",
+  "publicationScope": "Forty fixed source-lineage rows plus unapproved narrow-editorial proposals; no new generation authority.",
+  "targetRuleVersion": "naming-editorial-7.2.0",
+  "runtime": {
+    "registered": false,
+    "activation": "off",
+    "admissionGranted": false,
+    "generationEligibilityGranted": false,
+    "productionApproved": false,
+    "runtimeWish": null,
+    "projectWish": null,
+    "wholeNameMeaning": null,
+    "automaticSemanticCreditAllowed": false,
+    "scoreDelta": 0,
+    "formalCoverageAdded": 0,
+    "defaultAutomaticCoverageAdded": 0,
+    "ServiceConnected": false,
+    "StoreConnected": false,
+    "CURRENTChanged": false
+  },
+  "lineage": {
+    "rows": 40,
+    "sourceClassification": {
+      "general": 38,
+      "pending": 2,
+      "pendingChars": [
+        "方",
+        "锋"
+      ]
+    },
+    "independentDisposition": {
+      "characterwiseScopeConfirmed": 37,
+      "sourcePendingConfirmed": 2,
+      "additionalMigrationHold": 1,
+      "additionalMigrationHoldChars": [
+        "川"
+      ]
+    },
+    "notEquivalent": "Three migration holds do not change the original pending classification from2 to3. General and characterwise scope confirmation are not allow-single-character-generation.",
+    "proposalBoundary": "Any new narrower text for 方/锋/川 is a new proposal only; no independent semantic or generation approval is inferred. Preserve original text/row SHA and separate proposal ID/hash/status."
+  },
+  "decisionInputs": [
+    {
+      "file": "M917-r2/decision-contract.json",
+      "origin": "D:/Codex-NamingStudio-Evidence/m917-semantic-admission-decision/r2/decision-contract.json",
+      "sha256": "99e649b8db0ccb8ab2dd979807f05cf1991e836bd7b211e161ee13a3655f2bed",
+      "bytes": 12087
+    },
+    {
+      "file": "M917-r2/semantic-admission-contract.jsonl",
+      "origin": "D:/Codex-NamingStudio-Evidence/m917-semantic-admission-decision/r2/semantic-admission-contract.jsonl",
+      "sha256": "20feda04fc9387b6fc20de641e4b38dc52a805236ebd96a7f80d2f5ba80ea17e",
+      "bytes": 145675
+    }
+  ],
+  "sourceAudit": {
+    "upstreamAuditOk": false,
+    "sourceManifestFullyMatchesCommit": false,
+    "rawGlobalDictionaryRehashedByInterfaceTask": false,
+    "committedVerifier": {
+      "bytes": 4305,
+      "sha256": "b026018d141d773b107f41445ba06be69710e118e7067195e8ef136680e23306"
+    },
+    "manifestDeclaredWorkingVerifier": {
+      "bytes": 4306,
+      "sha256": "311faaea2ebcdffa3d98acdc5361c91d6d2e5ca1f6a39371cddfcf884ba08b63"
+    },
+    "normalizedLFEqual": true,
+    "preserveBoth": true,
+    "newPublication": "A new package may accurately manifest its own copied files and verification script; this does not rewrite M916 or make the old source manifest fully match its historical commit."
+  },
+  "currentRuntimeCompatibility": {
+    "directlyAcceptedByCurrentLoader": false,
+    "currentLoader": "loadNamingSemanticAdmissionV72(NamingSemanticAdmissionLoaderConfig):SemanticAdmissionHandle",
+    "actualRegistry": "Private WeakMap<object,Resources> in src/main/naming-semantic-admission-v72-data.ts",
+    "reason": [
+      "Current fixed pins and schemas are the M752/M740 family only.",
+      "Exact legacy candidate sequence is 邦沫纪纶年农作岁叶萧 with9 allow decisions; reviewId begins M752-use-review-.",
+      "M917 JSONL is a review-only decision schema, not a complete SemanticAdmissionRecord/ SemanticCandidateRowV72 publication.",
+      "Shared sourceId literal is naming-semantic-admission-v72-M752. Matching ruleVersion or a pure domain handle does not grant main resource capability."
+    ],
+    "noFakeAdapter": "Forty full SemanticPublicationV72-shape records are generated as manual-only37/pending3 with false grants. This structural compatibility does not mint a main-authenticated handle or new M752 authority; current fixed M752 loader still rejects this family."
+  },
+  "evidenceGates": [
+    {
+      "id": "E1-fixed-source",
+      "must": "Fixed new publication manifest/source locks/raw bytes and exact dictionary entry/read/POS/sense, including project/source separation. No caller booleans, callbacks or self-rehashed pins.",
+      "reuse": "Existing main loader full byte/identity approach; a separate approved M921 family would be required."
+    },
+    {
+      "id": "E2-identity",
+      "must": "Exact glyph/default selected reading/tone/source word, baseline record/readings/definition and glyph relation.",
+      "reuse": "validateIdentity and assess full-default-character-record logic; new40-row identity schema cannot be assumed identical to M740."
+    },
+    {
+      "id": "E3-editorial-scope",
+      "must": "Independent reusable project-review ID and exact text/limits for the selected source sense; new proposals need new review, not lineage substitution.",
+      "reuse": "SemanticAdmissionRecord decision/approvedScope/sourceIdentityDecision/projectSha256; all M921 grants remainfalse."
+    },
+    {
+      "id": "E4-machine-conditions",
+      "must": "Exact selected reading/tone/sense, namePart, lengths and explicit known theme IDs; unsupported predicate fails closed.",
+      "reuse": "assessNamingSemanticAdmission allstage gate. Neutral future general usage may be any-context, but only a separately approved decision can choose that mode."
+    },
+    {
+      "id": "E5-output",
+      "must": "Pinned character-level intent only, runtime projectWish=null, wholeNameMeaning=null, scoreDelta0. No personality/fortune/element/citation authority.",
+      "reuse": "assertNamingSemanticOutput and receipt/project exact-text verification."
+    },
+    {
+      "id": "E6-runtime",
+      "must": "One assess policy across pool/required/local/ai/save/restore. Required chars, AI or quantity shortage cannot bypass. Saved occurrence receipt validation before qualification.",
+      "reuse": "createNamingSemanticGenerationV72 facade and verifyNamingSemanticAdoptionReceipt, pending integration remains off."
+    },
+    {
+      "id": "E7-version-and-coverage",
+      "must": "Separate publication/source/version identity, originalbytes/history unchanged, actual loaded deduplicated coverage after real consumers and release gates.",
+      "reuse": "Existing publication identity/receipt fields, replayLegacy preservation; no adding40/38/37 as automaticcoverage."
+    }
+  ],
+  "stages": [
+    "pool",
+    "required",
+    "local",
+    "ai",
+    "save",
+    "restore"
+  ],
+  "stageChangesEligibility": false,
+  "themes": {
+    "known": [
+      "civic-homeland",
+      "water-bubbles",
+      "textile-ribbon",
+      "agriculture",
+      "literary-artwork",
+      "herb-plant"
+    ],
+    "M917MatchedRows": 0,
+    "M917UnregisteredLabels": 40,
+    "freeTextInference": false,
+    "newRegistryEntries": 0,
+    "unknownIds": "reject-context",
+    "doNotForceNeutralGeneralIntoThemes": true
+  },
+  "futureRegistrationHunks": {
+    "executableNow": false,
+    "authority": "Design-only future edit locations; exact allow decision/new source ID/version and final package pin require a separate approved integration task.",
+    "fixedPins": "Add a new independently pinned publication family in a new fixed main loader/dispatcher branch; retain NAMING_V72_FIXED_PINS M752/M740 values and old10/9 assertions byte-for-byte.",
+    "identityValidator": "Add a schema-specific validator for M921 source lineage + separately approved exact project records. Do not reuse validateIdentity by merely changing expectedChars or allowing a new reviewId prefix.",
+    "privateRegistry": "Only successful fixed main loading may register a handle in its private capability registry. Pure createNamingSemanticAdmissionHandle or candidate JSON is not sufficient. Refresh must re-read the exact new family resources.",
+    "sharedIdentity": "Introduce the specifically approved source/publication identity shape as a new family; do not masquerade it as the current M752 sourceId literal. New source/version values are deliberately not invented in this draft.",
+    "facade": "Dispatch authenticated new family into the existing E1-E7 and six-stage policy only after registration authority exists; preserve legacy pool union, mandatory occurrence receipts and output assertions.",
+    "activation": "No hunk in this draft changes CURRENT, Service, Store, schema, UI, API, runtime flags, data source originals or coverage. Actual wiring/replay/UI/native/release acceptance is future work.",
+    "registrationTextFile": "registration-hunk.txt",
+    "candidateScriptsInert": "A future trusted loader reads JSON/raw bytes and independently checks fixed pins. It must never import, eval, spawn or execute pins.mjs/convert.mjs/verify.mjs/seal.mjs or archived candidate TS/JS as authority.",
+    "sealCycleRule": "This contract binds publication/source-lock/lineage/proposals and script byte pins. It does not contain its own file hash or the enclosing manifest hash. A later external final receipt binds the actual manifest bytes after sealing.",
+    "futureVersionDispatch": "A new M921 trusted-family dispatcher and independent record decision are required before any real eligibility. Do not replace the current M752 pins/validator or infer allow from this candidate state."
+  },
+  "futureRequiredChecks": [
+    "New exact source/publication closure and corrupted/missing/extra byte negatives.",
+    "New reviewed text approval and held/proposed records fail generation in every stage.",
+    "Full glyph/read/tone/sense/word/POS/position/name/context tamper refusal.",
+    "Explicit six-theme and unknown custom-theme refusal; neutral general does not receive automatic fabricated themes.",
+    "No semantic score or whole-name/personality/fortune/element inference; old hard constraints remain.",
+    "Actual generation receipt issue and save/read/backup/restore replay; legacy records gain no new fields or receipts.",
+    "Actual deduplicated coverage and independent activation/release decision."
+  ],
+  "execution": {
+    "productImported": "未执行",
+    "productRuntime": "未执行",
+    "typecheck": "未执行",
+    "tests": "未执行",
+    "actualIntegration": "未执行",
+    "sourceFilesModified": 0
+  },
+  "draftOwner": "/root/r4_engine",
+  "publicationVersion": "m921-character-meaning-publication/1.0.0-candidate.1",
+  "artifactPins": [
+    {
+      "file": "publication.json",
+      "sha256": "315ea65ed78cf3b5b630a6dd8e525924f89b0355a98685d5503e02737aea7431",
+      "bytes": 612192
+    },
+    {
+      "file": "source-lock.json",
+      "sha256": "9261c3cc633802c41ecce826e175fab373dab461281525e6b78918284ae1c975",
+      "bytes": 6207
+    },
+    {
+      "file": "lineage.json",
+      "sha256": "1bb823792457ac0a966896b094b4d4bbfe720dbbe1821c0b6b279d1e4c555af2",
+      "bytes": 56224
+    },
+    {
+      "file": "revision-proposals.json",
+      "sha256": "b37708c5b2da686598c75d135c1fbd957740b2bbbf4899be48542319293277bc",
+      "bytes": 3162
+    }
+  ],
+  "candidateScriptPins": [
+    {
+      "file": "pins.mjs",
+      "sha256": "c4f1e3fe1232a1613b35016b42c453496ebd670d4adf96517a2631015eb2edd6",
+      "bytes": 4928,
+      "runtimeExecutionAllowed": false
+    },
+    {
+      "file": "convert.mjs",
+      "sha256": "3a1fe4e32df410e0cc42f08bdbb5c88e584f7b370749a65654a545ba9677aa14",
+      "bytes": 17153,
+      "runtimeExecutionAllowed": false
+    },
+    {
+      "file": "verify.mjs",
+      "sha256": "4c0681a4e357d39dcb42789be03a7ab2970fd31c289aa66bc999284e1a28905e",
+      "bytes": 4787,
+      "runtimeExecutionAllowed": false
+    },
+    {
+      "file": "seal.mjs",
+      "sha256": "ec2cc4ea2ffc3607d8ad5ce06939378e35a507ad9bc5ee16d63792ebb7fc8ffb",
+      "bytes": 794,
+      "runtimeExecutionAllowed": false
+    }
+  ],
+  "fixedSourcePins": {
+    "data/dataset-v6.json": {
+      "sha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+      "bytes": 1563457
+    },
+    "data/knowledge-v6.sqlite": {
+      "sha256": "1875aa49dcfaeca0f266a3be7578e4d4b2a9b2c9c1f59fd79699a3e26d5d6b8b",
+      "bytes": 1454080
+    },
+    "data/raw/moe-revised.json.gz": {
+      "sha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+      "bytes": 20310688
+    },
+    "data/raw/kTraditionalVariant.txt": {
+      "sha256": "4eca6285d45070548e6e6c06e4b48c3ca6866d4380e8cb980c512f5d1fc71895",
+      "bytes": 86288
+    },
+    "data/raw/kSimplifiedVariant.txt": {
+      "sha256": "a7f0c9dbbca85cffd90517fa6ea9be97d2e6f811328a59b6b303d58a418ac9be",
+      "bytes": 88425
+    },
+    "data/raw/moe-README.md": {
+      "sha256": "a93321d9381bc1cf34b4ad844f71607fa748c86c0b228ae37d46720d6a659cb2",
+      "bytes": 1214
+    },
+    "data/raw/CC-BY-ND-3.0-TW.html": {
+      "sha256": "04e6ef69a223b6e13c93c97a918ad5fd0dbb9fc34ae307f4449ed264e2d4108f",
+      "bytes": 31775
+    },
+    "data/raw/unicode-LICENSE": {
+      "sha256": "fe5c62b543e287981db198f2acfa0ca732d12591a1024536dc8fd85dacd77104",
+      "bytes": 2033
+    },
+    "src/shared/naming-semantic-admission-v72.ts": {
+      "sha256": "d36c063bb549c354627e37858f62aa8dd8263d3c47566882581b2817ff9fde15",
+      "bytes": 7470
+    },
+    "src/domain/naming-semantic-admission-v72.ts": {
+      "sha256": "26eeb2959d9ff815c625a2da6c0c8524ecd381f6d00cc3abf50ac974f9e2e808",
+      "bytes": 15942
+    }
+  },
+  "fixedInputPins": {
+    "inputs/m910-selection.json": {
+      "sha256": "6019bf2c7bc170af093c5bf6458e798968f63a6c03dd09b24dc35abb6fd4948f",
+      "bytes": 23959,
+      "origin": "D:/Codex-NamingStudio-Evidence/m910-naming-data-batch/selection.json"
+    },
+    "inputs/m910-source-subset.json": {
+      "sha256": "e9e096c203b8ae640fe9ae64f91ab25bbbe9c8fd62cf6ce36c8a8224dea17893",
+      "bytes": 45689,
+      "origin": "D:/Codex-NamingStudio-Evidence/m910-naming-data-batch/source-subset.json"
+    },
+    "inputs/m910-manifest.json": {
+      "sha256": "a345d11b3f34cb5d4bc8b0a6de8453a2ff0cd68e559af5f0f48a215380da3e8c",
+      "bytes": 1262,
+      "origin": "D:/Codex-NamingStudio-Evidence/m910-naming-data-batch/manifest.json"
+    },
+    "inputs/m910-source-lock.json": {
+      "sha256": "fec799c8ac7848e9eb0360207931862a3a06eda7bcf7570282daef22fd1d7307",
+      "bytes": 5304,
+      "origin": "D:/Codex-NamingStudio-Evidence/m910-naming-data-batch/source-lock.json"
+    },
+    "inputs/m914-selection.json": {
+      "sha256": "b7e6d8bbf2ca13c086f781763e6b74ffb344f5585561be43b1a5705871e7bdf5",
+      "bytes": 66093,
+      "origin": "D:/Codex-NamingStudio-Evidence/m914-naming-data/work/candidates/m914-naming-data/selection.json"
+    },
+    "inputs/m914-source-subset.json": {
+      "sha256": "8d76e27ad008ed92747ac19aa04563233a5479f215ba03743eff63d654c958ff",
+      "bytes": 106824,
+      "origin": "D:/Codex-NamingStudio-Evidence/m914-naming-data/work/candidates/m914-naming-data/source-subset.json"
+    },
+    "inputs/m914-manifest.json": {
+      "sha256": "1f599fb1dd014448674d39a95c1bc5c62372c1d80b9bf73de1d467ac9e00f6e8",
+      "bytes": 1261,
+      "origin": "D:/Codex-NamingStudio-Evidence/m914-naming-data/work/candidates/m914-naming-data/manifest.json"
+    },
+    "inputs/m914-source-lock.json": {
+      "sha256": "93cbee88e96b9a4e95cc0c2d2e19f0288d85040cce53ce45c7c1ed8b7864ee48",
+      "bytes": 2199,
+      "origin": "D:/Codex-NamingStudio-Evidence/m914-naming-data/work/candidates/m914-naming-data/source-lock.json"
+    },
+    "inputs/m916-review-input.json": {
+      "sha256": "4c7f842b268943eab7d7207b5df2941ada3286d1558ad4eebc846830ce717291",
+      "bytes": 101050,
+      "origin": "D:/Codex-NamingStudio-Evidence/m916-meaning-semantic-review/review-input.json"
+    },
+    "inputs/m916-semantic-review.json": {
+      "sha256": "55c0a6f9fd33b61e4a219da6d30275b9001e8bf519a33daf525ff269006555cf",
+      "bytes": 101720,
+      "origin": "D:/Codex-NamingStudio-Evidence/m916-meaning-semantic-review/meaning-semantic-review.json"
+    },
+    "inputs/m916-manifest.json": {
+      "sha256": "d1c357985dcda8d74b063a05b2e06512a882f40ca573bb5a86db558a95cca2b1",
+      "bytes": 1896,
+      "origin": "D:/Codex-NamingStudio-Evidence/m916-meaning-semantic-review/manifest.json"
+    },
+    "inputs/m917-decision-contract.json": {
+      "sha256": "99e649b8db0ccb8ab2dd979807f05cf1991e836bd7b211e161ee13a3655f2bed",
+      "bytes": 12087,
+      "origin": "D:/Codex-NamingStudio-Evidence/m917-semantic-admission-decision/r2/decision-contract.json"
+    },
+    "inputs/m917-rows.jsonl": {
+      "sha256": "20feda04fc9387b6fc20de641e4b38dc52a805236ebd96a7f80d2f5ba80ea17e",
+      "bytes": 145675,
+      "origin": "D:/Codex-NamingStudio-Evidence/m917-semantic-admission-decision/r2/semantic-admission-contract.jsonl"
+    }
+  },
+  "sourcePinCounts": {
+    "sourceFiles": 10,
+    "inputFiles": 13,
+    "candidateScripts": 4,
+    "meaning": "13 exact copied inputs plus10 fixed originals/interface sources; archived code hashes are evidence, not execution permission."
+  },
+  "structuralPublication": {
+    "interface": "SemanticPublicationV72",
+    "recordCount": 40,
+    "rows": 40,
+    "decisions": {
+      "manualOnly": 37,
+      "pending": 3,
+      "allow": 0
+    },
+    "publicationActivation": "not-current",
+    "rowActivation": "off",
+    "allRowCandidateOnly": true,
+    "allRowGenerationAuthority": false,
+    "eligibilityPolicyApproved": false,
+    "approvedScope": "none",
+    "runtimeProjectWish": null,
+    "wholeNameMeaning": null,
+    "scoreDelta": 0,
+    "identity": {
+      "ruleVersion": "naming-editorial-7.2.0",
+      "sourceId": "naming-semantic-admission-v72-M752",
+      "decisionSha256": "20feda04fc9387b6fc20de641e4b38dc52a805236ebd96a7f80d2f5ba80ea17e",
+      "policySha256": "660e5a0635e2cfa18de0bffeff206afcdc32f343757ee1949379c70679694615",
+      "themeSha256": "5c59988cd347fc59b448064c933d7f35716a7aa75cd01b3136d0b4890089b3b4",
+      "contractSha256": "99e649b8db0ccb8ab2dd979807f05cf1991e836bd7b211e161ee13a3655f2bed",
+      "fixtureSha256": "d18a2e8f3daea360c19391ca7ddfea368832bbf71bf3e26f0f55a3aa0a7787c7",
+      "candidateProfileSha256": "bf86682f60ad23ec0f38e0bbf438ca20326ae8b99e551fde7c52d1e696fa715a",
+      "candidateLockSha256": "660e5a0635e2cfa18de0bffeff206afcdc32f343757ee1949379c70679694615",
+      "datasetSha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+      "basePackSha256": "1875aa49dcfaeca0f266a3be7578e4d4b2a9b2c9c1f59fd79699a3e26d5d6b8b"
+    },
+    "sourceIdCompatibility": "The existing naming-semantic-admission-v72-M752 literal is retained only to inhabit the present TypeScript shape. It does not identify M921 as M752-approved, permit the current M752 loader to accept this package, or confer generation authority.",
+    "parsedObjectHashConvention": "file=actual UTF8/original bytes; object=SHA256(UTF8(JSON.stringify(original parsed key order)))",
+    "rawSourceLockSha256": "9261c3cc633802c41ecce826e175fab373dab461281525e6b78918284ae1c975",
+    "identityPolicySha256": "660e5a0635e2cfa18de0bffeff206afcdc32f343757ee1949379c70679694615",
+    "identityCandidateLockSha256": "660e5a0635e2cfa18de0bffeff206afcdc32f343757ee1949379c70679694615",
+    "identityHashWarning": "Publication identity policy/candidateLock fields use the declared parsed-object digest. Actual source-lock.json file byte SHA is separately bound above; do not interchange these values."
+  },
+  "supersededDraft": {
+    "snapshot": "D:/Codex-NamingStudio-Evidence/m921-meaning-admission/evidence/integration-contract.interface-draft.json",
+    "sha256": "815e7e9cc645d4b35e5427a28b8dd1ca6db270d5f988443fdfee4ff9fa0ac241",
+    "bytes": 9627,
+    "note": "Earlier interface-analysis.json refers to this preserved draft; current contract adds exact root output pins and candidate shape."
+  },
+  "packageVerifierBoundary": "The pinned candidate verify.mjs checks deterministic output exact UTF8 pretty-JSON+LF bytes before parsing/deep comparison; unknown/duplicate/reordered/resealed output is not accepted merely because hashes are recomputed. This candidate audit script remains inert to a future runtime loader and is not a generation authority."
+}

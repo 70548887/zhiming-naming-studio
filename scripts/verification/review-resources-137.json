@@ -1,0 +1,1012 @@
+{
+  "schema": "current-review-runtime-resources/1",
+  "profile": "naming-review-resources/1.0.37",
+  "applicationVersion": "1.0.37",
+  "locks": {
+    "elements": {
+      "file": "data/element-object/source-lock.json",
+      "sha256": "9c42d9649c3a07cf94a690b1d4059b30352f85eb84cb902fc3ccd67ac49c221f"
+    },
+    "phonetic": {
+      "file": "data/name-phonetic/source-lock.json",
+      "sha256": "0a170e50e46d63f8d4d13396eba93155cb615aabafd16d839de6c63ec8f9b440"
+    },
+    "word": {
+      "file": "data/name-word-pronunciation/word-source-lock.json",
+      "sha256": "23b218e227cd102c2b0ddef1dd8258fd4a87b2a0b8019f4413dae8f84abea07c"
+    },
+    "meaning-v1": {
+      "file": "data/meaning-context-next-source-lock.json",
+      "sha256": "cdc25bbb48fe24d84413e71ead37a07fe633ba8758c991c6b481924c7838eb72"
+    },
+    "yue-reading-dependency": {
+      "file": "data/yue-reading-source-lock.json",
+      "sha256": "e5a593195a4fbc0fcce98b7f11e535aca7754f68f02d8d2ae45715d15a4acf25"
+    },
+    "meaning-v1.1": {
+      "file": "data/meaning-context-v1-1-source-lock.json",
+      "sha256": "473b1fb377bfeeb07c3cea800450e2ec88532b1678c9c590dcad650d8e3dd964",
+      "sourceId": "project-meaning-context-next-138-v1-1",
+      "publication": "data/meaning-context-v1-1-manifest.json",
+      "publicationSha256": "c5ac43e96b59beafaf54bce6a504ef9d97c0b59afd0687eaa7daa64ad9378ac9"
+    }
+  },
+  "groups": {
+    "elements": [
+      "data/dataset-v6.json",
+      "data/element-object/README.md",
+      "data/element-object/build.mjs",
+      "data/element-object/element-overlay.json",
+      "data/element-object/evidence-selections.txt",
+      "data/element-object/load-verified-element-package.d.mts",
+      "data/element-object/load-verified-element-package.mjs",
+      "data/element-object/lookup-element-assessment.d.mts",
+      "data/element-object/lookup-element-assessment.mjs",
+      "data/element-object/profile.json",
+      "data/element-object/review-manifest.json",
+      "data/element-object/review-notes.txt",
+      "data/element-object/source-excerpts.json",
+      "data/element-object/source-lock.json",
+      "data/element-object/verify.mjs",
+      "data/raw/CC-BY-ND-3.0-TW.html",
+      "data/raw/kMandarin.txt",
+      "data/raw/kSimplifiedVariant.txt",
+      "data/raw/kTraditionalVariant.txt",
+      "data/raw/moe-README.md",
+      "data/raw/moe-revised.json.gz",
+      "data/raw/unicode-LICENSE"
+    ],
+    "phonetic": [
+      "data/name-phonetic/CC-BY-4.0.txt",
+      "data/name-phonetic/CC-BY-SA-4.0.txt",
+      "data/name-phonetic/NOTICE.md",
+      "data/name-phonetic/name-phonetic-engine.mjs",
+      "data/name-phonetic/name-phonetic-profile.json",
+      "data/name-phonetic/name-reading-fixture-evidence.json",
+      "data/name-phonetic/package-pins.mjs",
+      "data/name-phonetic/profile-source-loader.mjs",
+      "data/name-phonetic/reviewed-selection.mjs",
+      "data/name-phonetic/rime-excerpts.json",
+      "data/name-phonetic/selection-audit.json",
+      "data/name-phonetic/source-lock.json",
+      "data/name-phonetic/wiktionary-excerpts.json"
+    ],
+    "word": [
+      "data/name-word-pronunciation/CC-BY-4.0.txt",
+      "data/name-word-pronunciation/CC-BY-ND-3.0-TW.html",
+      "data/name-word-pronunciation/NOTICE.md",
+      "data/name-word-pronunciation/selection-review.json",
+      "data/name-word-pronunciation/source-excerpts.json",
+      "data/name-word-pronunciation/unicode-LICENSE",
+      "data/name-word-pronunciation/word-engine.d.mts",
+      "data/name-word-pronunciation/word-engine.mjs",
+      "data/name-word-pronunciation/word-pins.mjs",
+      "data/name-word-pronunciation/word-profile.json",
+      "data/name-word-pronunciation/word-source-loader.d.mts",
+      "data/name-word-pronunciation/word-source-loader.mjs",
+      "data/name-word-pronunciation/word-source-lock.json"
+    ],
+    "meaning-v1": [
+      "data/dataset-v6.json",
+      "data/meaning-context-next-NOTICE.md",
+      "data/meaning-context-next-manifest.json",
+      "data/meaning-context-next-source-lock.json",
+      "data/meaning-context-next.json",
+      "data/meaning-gap-classification.json",
+      "data/naming-editorial-v7.json",
+      "data/raw/CC-BY-ND-3.0-TW.html",
+      "data/raw/meaning-context-batch1-review.json",
+      "data/raw/meaning-context-gap-policy.json",
+      "data/raw/moe-README.md",
+      "data/raw/moe-revised.json.gz"
+    ],
+    "modern": [
+      "data/modern-method-references.json"
+    ],
+    "yue-reading-dependency": [
+      "data/raw/CJKRadicals.txt",
+      "data/raw/kMandarin.txt",
+      "data/raw/kRSUnicode.txt",
+      "data/raw/kSimplifiedVariant.txt",
+      "data/raw/kTotalStrokes.txt",
+      "data/raw/kTraditionalVariant.txt",
+      "data/raw/unicode-LICENSE",
+      "data/raw/yue-reading-CC-BY-4.0.txt",
+      "data/raw/yue-reading-NOTICE.md",
+      "data/raw/yue-reading-README-cmn.md",
+      "data/raw/yue-reading-chars.dict.yaml",
+      "data/raw/yue-reading-words.dict.yaml",
+      "data/yue-reading-source-lock.json",
+      "data/yue-reading-table.json"
+    ],
+    "meaning-v1.1": [
+      "data/dataset-v6.json",
+      "data/meaning-context-next-NOTICE.md",
+      "data/meaning-context-next-manifest.json",
+      "data/meaning-context-next-source-lock.json",
+      "data/meaning-context-next.json",
+      "data/meaning-context-v1-1-NOTICE.md",
+      "data/meaning-context-v1-1-manifest.json",
+      "data/meaning-context-v1-1-source-lock.json",
+      "data/meaning-context-v1-1.json",
+      "data/meaning-gap-classification-v1-1.json",
+      "data/meaning-gap-classification.json",
+      "data/naming-editorial-v7.json",
+      "data/raw/CC-BY-ND-3.0-TW.html",
+      "data/raw/meaning-context-batch1-review.json",
+      "data/raw/meaning-context-batch2-review.json",
+      "data/raw/meaning-context-gap-policy.json",
+      "data/raw/moe-README.md",
+      "data/raw/moe-revised.json.gz"
+    ],
+    "cmn-reading": [
+      "data/dataset-v6.json",
+      "data/raw/CC-BY-ND-3.0-TW.html",
+      "data/raw/kSimplifiedVariant.txt",
+      "data/raw/kTraditionalVariant.txt",
+      "data/raw/moe-README.md",
+      "data/raw/moe-revised.json.gz",
+      "data/raw/unicode-LICENSE",
+      "data/source-lock.json"
+    ]
+  },
+  "files": {
+    "data/dataset-v6.json": {
+      "sha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+      "bytes": 1563457,
+      "modules": [
+        "elements",
+        "meaning-v1",
+        "meaning-v1.1",
+        "cmn-reading"
+      ],
+      "reasons": [
+        "runtime-baseline-hash-read",
+        "runtime-loader-original-or-table-read",
+        "versioned-loader-both-fixed-publications-and-originals",
+        "D04-confirmed-original-runtime-source"
+      ]
+    },
+    "data/element-object/build.mjs": {
+      "sha256": "bc5d84eb360466dcafd0b4cc297791fe1d6ea9bb19c6d1d67818d59359ff966d",
+      "bytes": 13993,
+      "modules": [
+        "elements"
+      ],
+      "reasons": [
+        "runtime-loader-hash-read"
+      ]
+    },
+    "data/element-object/element-overlay.json": {
+      "sha256": "dc440d8b699e59d5548bbae225f11a1b2bb0a14e9232b426893acb4562d314b8",
+      "bytes": 933100,
+      "modules": [
+        "elements"
+      ],
+      "reasons": [
+        "runtime-loader-hash-read"
+      ]
+    },
+    "data/element-object/evidence-selections.txt": {
+      "sha256": "d54b146ea7d32d6c93acf6e41bfd8c70e7028367f19512ac4c94e2f4a9aec2bb",
+      "bytes": 5088,
+      "modules": [
+        "elements"
+      ],
+      "reasons": [
+        "runtime-loader-hash-read"
+      ]
+    },
+    "data/element-object/load-verified-element-package.d.mts": {
+      "sha256": "c3cbb085cb427b49faa3e775ac87a617fa687930ece3c3c353bc52f128d3bbb0",
+      "bytes": 198,
+      "modules": [
+        "elements"
+      ],
+      "reasons": [
+        "runtime-loader-hash-read"
+      ]
+    },
+    "data/element-object/load-verified-element-package.mjs": {
+      "sha256": "9d02d449687d232efe62160a0f817495d17bd60000025a23f8c9150bad179a63",
+      "bytes": 2550,
+      "modules": [
+        "elements"
+      ],
+      "reasons": [
+        "runtime-loader-hash-read"
+      ]
+    },
+    "data/element-object/lookup-element-assessment.d.mts": {
+      "sha256": "973a44a95a72d4bc35994e52ea9db608c02f468d9f5b1533fc94ce25584b445a",
+      "bytes": 2710,
+      "modules": [
+        "elements"
+      ],
+      "reasons": [
+        "runtime-loader-hash-read"
+      ]
+    },
+    "data/element-object/lookup-element-assessment.mjs": {
+      "sha256": "408a7bc509325f3bcc5912eeaae954c3b386256fb41929149081ac4ed92c6fbf",
+      "bytes": 8314,
+      "modules": [
+        "elements"
+      ],
+      "reasons": [
+        "runtime-loader-hash-read"
+      ]
+    },
+    "data/element-object/profile.json": {
+      "sha256": "c1288f65a1ca9fd4cdf04260481be4e4676f69dffb56159ee3816c5d42fbe5b0",
+      "bytes": 3000,
+      "modules": [
+        "elements"
+      ],
+      "reasons": [
+        "runtime-loader-hash-read"
+      ]
+    },
+    "data/element-object/README.md": {
+      "sha256": "265416ec8c91902b18eeb0830929b48bd31578e592a992a2b627b1fff1277d68",
+      "bytes": 4860,
+      "modules": [
+        "elements"
+      ],
+      "reasons": [
+        "runtime-loader-hash-read"
+      ]
+    },
+    "data/element-object/review-manifest.json": {
+      "sha256": "a2ec768a126c3d9fcbdd9b564a6f76012f37a5afc0cd932cb6320407912f6c1f",
+      "bytes": 3584853,
+      "modules": [
+        "elements"
+      ],
+      "reasons": [
+        "runtime-loader-hash-read"
+      ]
+    },
+    "data/element-object/review-notes.txt": {
+      "sha256": "09e847817715bd1c154be7d56cc0ad2672eed6853047ad20794fbc5a9a5021d8",
+      "bytes": 18022,
+      "modules": [
+        "elements"
+      ],
+      "reasons": [
+        "runtime-loader-hash-read"
+      ]
+    },
+    "data/element-object/source-excerpts.json": {
+      "sha256": "80c0b6c9bcf2f7e090e59e89309c4e622c7a5386817dbe8da3d10f7ab22ea8e8",
+      "bytes": 1311087,
+      "modules": [
+        "elements"
+      ],
+      "reasons": [
+        "runtime-loader-hash-read"
+      ]
+    },
+    "data/element-object/source-lock.json": {
+      "sha256": "9c42d9649c3a07cf94a690b1d4059b30352f85eb84cb902fc3ccd67ac49c221f",
+      "bytes": 4835,
+      "modules": [
+        "elements"
+      ],
+      "reasons": [
+        "fixed-source-lock"
+      ]
+    },
+    "data/element-object/verify.mjs": {
+      "sha256": "f824520657997086d41aa22eddc2f57f505b25e10d0b316bbedca9e95c8e357c",
+      "bytes": 18804,
+      "modules": [
+        "elements"
+      ],
+      "reasons": [
+        "runtime-loader-hash-read"
+      ]
+    },
+    "data/meaning-context-next-manifest.json": {
+      "sha256": "f5c7664b661229f39919f8b10afe482b3aab65836e1fcc6a674d86296e870371",
+      "bytes": 10317,
+      "modules": [
+        "meaning-v1",
+        "meaning-v1.1"
+      ],
+      "reasons": [
+        "runtime-publication-manifest-read",
+        "versioned-loader-both-fixed-publications-and-originals"
+      ]
+    },
+    "data/meaning-context-next-NOTICE.md": {
+      "sha256": "93f7dd60d3dcc09dbf2221f365f0ee0c7cfe757266f2485ac63e7c4b07c719f7",
+      "bytes": 1377,
+      "modules": [
+        "meaning-v1",
+        "meaning-v1.1"
+      ],
+      "reasons": [
+        "runtime-loader-original-or-table-read",
+        "versioned-loader-both-fixed-publications-and-originals"
+      ]
+    },
+    "data/meaning-context-next-source-lock.json": {
+      "sha256": "cdc25bbb48fe24d84413e71ead37a07fe633ba8758c991c6b481924c7838eb72",
+      "bytes": 2287,
+      "modules": [
+        "meaning-v1",
+        "meaning-v1.1"
+      ],
+      "reasons": [
+        "fixed-source-lock",
+        "versioned-loader-both-fixed-publications-and-originals"
+      ]
+    },
+    "data/meaning-context-next.json": {
+      "sha256": "3dc77f55dca1516ae3cb4231a022a58aca1874189da6ea99c101c6931b7a1877",
+      "bytes": 187497,
+      "modules": [
+        "meaning-v1",
+        "meaning-v1.1"
+      ],
+      "reasons": [
+        "runtime-loader-original-or-table-read",
+        "versioned-loader-both-fixed-publications-and-originals"
+      ]
+    },
+    "data/meaning-context-v1-1-manifest.json": {
+      "sha256": "c5ac43e96b59beafaf54bce6a504ef9d97c0b59afd0687eaa7daa64ad9378ac9",
+      "bytes": 3086,
+      "modules": [
+        "meaning-v1.1"
+      ],
+      "reasons": [
+        "versioned-loader-both-fixed-publications-and-originals"
+      ]
+    },
+    "data/meaning-context-v1-1-NOTICE.md": {
+      "sha256": "65c1093c15c1a5d13d5fd390a90c1546730689a3c7dc21843fbbdba95d05733c",
+      "bytes": 1267,
+      "modules": [
+        "meaning-v1.1"
+      ],
+      "reasons": [
+        "versioned-loader-both-fixed-publications-and-originals"
+      ]
+    },
+    "data/meaning-context-v1-1-source-lock.json": {
+      "sha256": "473b1fb377bfeeb07c3cea800450e2ec88532b1678c9c590dcad650d8e3dd964",
+      "bytes": 3162,
+      "modules": [
+        "meaning-v1.1"
+      ],
+      "reasons": [
+        "versioned-loader-both-fixed-publications-and-originals"
+      ]
+    },
+    "data/meaning-context-v1-1.json": {
+      "sha256": "424e8b6ca9a920c8b707ac267db9609bee900a5389b3659256b4c71ad71b378d",
+      "bytes": 403708,
+      "modules": [
+        "meaning-v1.1"
+      ],
+      "reasons": [
+        "versioned-loader-both-fixed-publications-and-originals"
+      ]
+    },
+    "data/meaning-gap-classification-v1-1.json": {
+      "sha256": "480b10cf542d20a583f1bf78ce8c4da7dc31bd0b66565d46e6335e658fc839f2",
+      "bytes": 301791,
+      "modules": [
+        "meaning-v1.1"
+      ],
+      "reasons": [
+        "versioned-loader-both-fixed-publications-and-originals"
+      ]
+    },
+    "data/meaning-gap-classification.json": {
+      "sha256": "1be67b4d4a9f02ef38697d1fca8b4385b5eb2ef9abe54ef78dfe962a94615ccc",
+      "bytes": 292514,
+      "modules": [
+        "meaning-v1",
+        "meaning-v1.1"
+      ],
+      "reasons": [
+        "runtime-loader-original-or-table-read",
+        "versioned-loader-both-fixed-publications-and-originals"
+      ]
+    },
+    "data/modern-method-references.json": {
+      "sha256": "d9659d48d0857426180ece79f6958b753729cf991d375ce8e2e340d1063ff6c7",
+      "bytes": 3293,
+      "modules": [
+        "modern"
+      ],
+      "reasons": [
+        "runtime-explicit-record-method-read"
+      ]
+    },
+    "data/name-phonetic/CC-BY-4.0.txt": {
+      "sha256": "97d24386ff776d7160b87031b259a942bd03c9939796cab6724ad5d17d2cf785",
+      "bytes": 18657,
+      "modules": [
+        "phonetic"
+      ],
+      "reasons": [
+        "runtime-loader-hash-read"
+      ]
+    },
+    "data/name-phonetic/CC-BY-SA-4.0.txt": {
+      "sha256": "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5",
+      "bytes": 20138,
+      "modules": [
+        "phonetic"
+      ],
+      "reasons": [
+        "runtime-loader-hash-read"
+      ]
+    },
+    "data/name-phonetic/name-phonetic-engine.mjs": {
+      "sha256": "e70c49edf1ca863b827fbdac8504faa2070c55e0944c3b9d1715d59e73086a4f",
+      "bytes": 9969,
+      "modules": [
+        "phonetic"
+      ],
+      "reasons": [
+        "audited-data-module-and-trust-pin-layout"
+      ]
+    },
+    "data/name-phonetic/name-phonetic-profile.json": {
+      "sha256": "f75434d1b53e4a0083bc8519ca7758b31b414774633848796e20a07efd986756",
+      "bytes": 391117,
+      "modules": [
+        "phonetic"
+      ],
+      "reasons": [
+        "runtime-loader-hash-read"
+      ]
+    },
+    "data/name-phonetic/name-reading-fixture-evidence.json": {
+      "sha256": "5897c649bf2a98a877a1b1548fd0343a7b6c221b782d32fc0798100415e05a1b",
+      "bytes": 4085,
+      "modules": [
+        "phonetic"
+      ],
+      "reasons": [
+        "runtime-loader-hash-read"
+      ]
+    },
+    "data/name-phonetic/NOTICE.md": {
+      "sha256": "e671d6285a210e011bb98ca560a9a76452fc576ac05057695ac9ccf9a1483279",
+      "bytes": 3633,
+      "modules": [
+        "phonetic"
+      ],
+      "reasons": [
+        "runtime-loader-hash-read"
+      ]
+    },
+    "data/name-phonetic/package-pins.mjs": {
+      "sha256": "f928262c0c0158f8befb7ac7a9652902bd951e6be4c287f000af91b985abc1d3",
+      "bytes": 403,
+      "modules": [
+        "phonetic"
+      ],
+      "reasons": [
+        "audited-data-module-and-trust-pin-layout"
+      ]
+    },
+    "data/name-phonetic/profile-source-loader.mjs": {
+      "sha256": "67865d84b0733f68bd0c6227c32a66f2c3a25df4ba1d01eeba33ee762ce3e2b7",
+      "bytes": 2476,
+      "modules": [
+        "phonetic"
+      ],
+      "reasons": [
+        "audited-data-module-and-trust-pin-layout"
+      ]
+    },
+    "data/name-phonetic/reviewed-selection.mjs": {
+      "sha256": "01b7fba8885fb2f79bee59ccddcaee281719a55c6b436b3633b1eebb72e41fce",
+      "bytes": 6574,
+      "modules": [
+        "phonetic"
+      ],
+      "reasons": [
+        "runtime-loader-hash-read"
+      ]
+    },
+    "data/name-phonetic/rime-excerpts.json": {
+      "sha256": "e21e300ab33df7a63b1c8c1112d6b2034175d9cd8c2f1dd4d0fd087afc81e583",
+      "bytes": 18330,
+      "modules": [
+        "phonetic"
+      ],
+      "reasons": [
+        "runtime-loader-hash-read"
+      ]
+    },
+    "data/name-phonetic/selection-audit.json": {
+      "sha256": "b09dee2e94c6acdfc157df0712e99e58097d4e2d7cef90a145e3967b7dd12809",
+      "bytes": 31767,
+      "modules": [
+        "phonetic"
+      ],
+      "reasons": [
+        "runtime-loader-hash-read"
+      ]
+    },
+    "data/name-phonetic/source-lock.json": {
+      "sha256": "0a170e50e46d63f8d4d13396eba93155cb615aabafd16d839de6c63ec8f9b440",
+      "bytes": 2066,
+      "modules": [
+        "phonetic"
+      ],
+      "reasons": [
+        "fixed-source-lock"
+      ]
+    },
+    "data/name-phonetic/wiktionary-excerpts.json": {
+      "sha256": "520d64fb1079340aa6f6bd1e453802252e1602024455a4f5ad30e3e22524039f",
+      "bytes": 1743729,
+      "modules": [
+        "phonetic"
+      ],
+      "reasons": [
+        "runtime-loader-hash-read"
+      ]
+    },
+    "data/name-word-pronunciation/CC-BY-4.0.txt": {
+      "sha256": "97d24386ff776d7160b87031b259a942bd03c9939796cab6724ad5d17d2cf785",
+      "bytes": 18657,
+      "modules": [
+        "word"
+      ],
+      "reasons": [
+        "runtime-loader-hash-read"
+      ]
+    },
+    "data/name-word-pronunciation/CC-BY-ND-3.0-TW.html": {
+      "sha256": "04e6ef69a223b6e13c93c97a918ad5fd0dbb9fc34ae307f4449ed264e2d4108f",
+      "bytes": 31775,
+      "modules": [
+        "word"
+      ],
+      "reasons": [
+        "runtime-loader-hash-read"
+      ]
+    },
+    "data/name-word-pronunciation/NOTICE.md": {
+      "sha256": "363f599871237f1cdfd3621e21ce96aa25c79f48fff9310c8d0e5550af0f6149",
+      "bytes": 1444,
+      "modules": [
+        "word"
+      ],
+      "reasons": [
+        "runtime-loader-hash-read"
+      ]
+    },
+    "data/name-word-pronunciation/selection-review.json": {
+      "sha256": "d5c9aebebfad06ffda80a105725022b63f251b40883bb275e13b5c0e841537a9",
+      "bytes": 2901,
+      "modules": [
+        "word"
+      ],
+      "reasons": [
+        "runtime-loader-hash-read"
+      ]
+    },
+    "data/name-word-pronunciation/source-excerpts.json": {
+      "sha256": "282e6e1f5950f8f0dab30d0b927da477a7a5b1743666ff39ba26ce327ec8b353",
+      "bytes": 17888,
+      "modules": [
+        "word"
+      ],
+      "reasons": [
+        "runtime-loader-hash-read"
+      ]
+    },
+    "data/name-word-pronunciation/unicode-LICENSE": {
+      "sha256": "fe5c62b543e287981db198f2acfa0ca732d12591a1024536dc8fd85dacd77104",
+      "bytes": 2033,
+      "modules": [
+        "word"
+      ],
+      "reasons": [
+        "runtime-loader-hash-read"
+      ]
+    },
+    "data/name-word-pronunciation/word-engine.d.mts": {
+      "sha256": "afcac7c38a8a29fea76663e9efe47a87745a08c34129759bd13e73e33079cecf",
+      "bytes": 1056,
+      "modules": [
+        "word"
+      ],
+      "reasons": [
+        "runtime-loader-hash-read"
+      ]
+    },
+    "data/name-word-pronunciation/word-engine.mjs": {
+      "sha256": "85d94e08029cf9c68913242d4daf2c43d2def4a7e72e31dc8ff45940a27fae7f",
+      "bytes": 2971,
+      "modules": [
+        "word"
+      ],
+      "reasons": [
+        "runtime-loader-hash-read"
+      ]
+    },
+    "data/name-word-pronunciation/word-pins.mjs": {
+      "sha256": "806b4480130a8bd08f04ae3c6f5e361a083f4e685acf479e9e73e370f3219e9e",
+      "bytes": 199,
+      "modules": [
+        "word"
+      ],
+      "reasons": [
+        "audited-data-module-trust-pin"
+      ]
+    },
+    "data/name-word-pronunciation/word-profile.json": {
+      "sha256": "630dd1db9838c3d7af0168158d7fe3a4c2bd45fb36c3d5578a3c8c9efd0a4843",
+      "bytes": 28406,
+      "modules": [
+        "word"
+      ],
+      "reasons": [
+        "runtime-loader-hash-read"
+      ]
+    },
+    "data/name-word-pronunciation/word-source-loader.d.mts": {
+      "sha256": "3f536c08476dc18b9ee1cc980cb2395521ff2c2bdbd6bd106ccaba46bf14733f",
+      "bytes": 225,
+      "modules": [
+        "word"
+      ],
+      "reasons": [
+        "runtime-loader-hash-read"
+      ]
+    },
+    "data/name-word-pronunciation/word-source-loader.mjs": {
+      "sha256": "078ec6fc9807f06ecd9bad629944099b2c67dc401eddd4c874e7ba02c631ee76",
+      "bytes": 1600,
+      "modules": [
+        "word"
+      ],
+      "reasons": [
+        "runtime-loader-hash-read"
+      ]
+    },
+    "data/name-word-pronunciation/word-source-lock.json": {
+      "sha256": "23b218e227cd102c2b0ddef1dd8258fd4a87b2a0b8019f4413dae8f84abea07c",
+      "bytes": 1964,
+      "modules": [
+        "word"
+      ],
+      "reasons": [
+        "fixed-source-lock"
+      ]
+    },
+    "data/naming-editorial-v7.json": {
+      "sha256": "392fa47441a0c410b0903c3e85853081225a1a5e9f540b5467e4ea4e2151cc48",
+      "bytes": 1301005,
+      "modules": [
+        "meaning-v1",
+        "meaning-v1.1"
+      ],
+      "reasons": [
+        "runtime-loader-original-or-table-read",
+        "versioned-loader-both-fixed-publications-and-originals"
+      ]
+    },
+    "data/raw/CC-BY-ND-3.0-TW.html": {
+      "sha256": "04e6ef69a223b6e13c93c97a918ad5fd0dbb9fc34ae307f4449ed264e2d4108f",
+      "bytes": 31775,
+      "modules": [
+        "elements",
+        "meaning-v1",
+        "meaning-v1.1",
+        "cmn-reading"
+      ],
+      "reasons": [
+        "runtime-original-hash-read",
+        "runtime-loader-original-or-table-read",
+        "versioned-loader-both-fixed-publications-and-originals",
+        "D04-confirmed-original-runtime-source"
+      ]
+    },
+    "data/raw/CJKRadicals.txt": {
+      "sha256": "826f83be25cd18fb8a5015a514704504e1982e840ea14d058bf583e1cc620c83",
+      "bytes": 5491,
+      "modules": [
+        "yue-reading-dependency"
+      ],
+      "reasons": [
+        "actual-confirmed-Yue-loader-original-read"
+      ]
+    },
+    "data/raw/kMandarin.txt": {
+      "sha256": "e549450d76b4f7f79dcf3c928f17f62dc7dcfda904dd4db983a18d4afab221e3",
+      "bytes": 462072,
+      "modules": [
+        "elements",
+        "yue-reading-dependency"
+      ],
+      "reasons": [
+        "runtime-original-hash-read",
+        "actual-confirmed-Yue-loader-original-read"
+      ]
+    },
+    "data/raw/kRSUnicode.txt": {
+      "sha256": "481f8a3d2fda0c6b8e6f7c746a0eedfb145a62f30bf6e61527a8f7cdb2a99108",
+      "bytes": 345977,
+      "modules": [
+        "yue-reading-dependency"
+      ],
+      "reasons": [
+        "actual-confirmed-Yue-loader-original-read"
+      ]
+    },
+    "data/raw/kSimplifiedVariant.txt": {
+      "sha256": "a7f0c9dbbca85cffd90517fa6ea9be97d2e6f811328a59b6b303d58a418ac9be",
+      "bytes": 88425,
+      "modules": [
+        "elements",
+        "yue-reading-dependency",
+        "cmn-reading"
+      ],
+      "reasons": [
+        "runtime-original-hash-read",
+        "actual-confirmed-Yue-loader-original-read",
+        "D04-confirmed-original-runtime-source"
+      ]
+    },
+    "data/raw/kTotalStrokes.txt": {
+      "sha256": "33b37518686bda5c320eabd83ae0d4651e3d5932915308aa7a85b54f312f1e56",
+      "bytes": 311470,
+      "modules": [
+        "yue-reading-dependency"
+      ],
+      "reasons": [
+        "actual-confirmed-Yue-loader-original-read"
+      ]
+    },
+    "data/raw/kTraditionalVariant.txt": {
+      "sha256": "4eca6285d45070548e6e6c06e4b48c3ca6866d4380e8cb980c512f5d1fc71895",
+      "bytes": 86288,
+      "modules": [
+        "elements",
+        "yue-reading-dependency",
+        "cmn-reading"
+      ],
+      "reasons": [
+        "runtime-original-hash-read",
+        "actual-confirmed-Yue-loader-original-read",
+        "D04-confirmed-original-runtime-source"
+      ]
+    },
+    "data/raw/meaning-context-batch1-review.json": {
+      "sha256": "01df11ddaf15780cb472533114ac4175e718ce80b6f1f090d79603c1cdfd3b0c",
+      "bytes": 11584,
+      "modules": [
+        "meaning-v1",
+        "meaning-v1.1"
+      ],
+      "reasons": [
+        "runtime-loader-original-or-table-read",
+        "versioned-loader-both-fixed-publications-and-originals"
+      ]
+    },
+    "data/raw/meaning-context-batch2-review.json": {
+      "sha256": "f0412a83c596f81dbb26d5dce98985c8f9eab415a25ab49fb1e4e1d1761ee18a",
+      "bytes": 11333,
+      "modules": [
+        "meaning-v1.1"
+      ],
+      "reasons": [
+        "versioned-loader-both-fixed-publications-and-originals"
+      ]
+    },
+    "data/raw/meaning-context-gap-policy.json": {
+      "sha256": "949297c14cba5f56014b8003311bbbe5aa4837a99ddb57529b428f7330f85a04",
+      "bytes": 3144,
+      "modules": [
+        "meaning-v1",
+        "meaning-v1.1"
+      ],
+      "reasons": [
+        "runtime-loader-original-or-table-read",
+        "versioned-loader-both-fixed-publications-and-originals"
+      ]
+    },
+    "data/raw/moe-README.md": {
+      "sha256": "a93321d9381bc1cf34b4ad844f71607fa748c86c0b228ae37d46720d6a659cb2",
+      "bytes": 1214,
+      "modules": [
+        "elements",
+        "meaning-v1",
+        "meaning-v1.1",
+        "cmn-reading"
+      ],
+      "reasons": [
+        "runtime-original-hash-read",
+        "runtime-loader-original-or-table-read",
+        "versioned-loader-both-fixed-publications-and-originals",
+        "D04-confirmed-original-runtime-source"
+      ]
+    },
+    "data/raw/moe-revised.json.gz": {
+      "sha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+      "bytes": 20310688,
+      "modules": [
+        "elements",
+        "meaning-v1",
+        "meaning-v1.1",
+        "cmn-reading"
+      ],
+      "reasons": [
+        "runtime-original-hash-read",
+        "runtime-loader-original-or-table-read",
+        "versioned-loader-both-fixed-publications-and-originals",
+        "D04-confirmed-original-runtime-source"
+      ]
+    },
+    "data/raw/unicode-LICENSE": {
+      "sha256": "fe5c62b543e287981db198f2acfa0ca732d12591a1024536dc8fd85dacd77104",
+      "bytes": 2033,
+      "modules": [
+        "elements",
+        "yue-reading-dependency",
+        "cmn-reading"
+      ],
+      "reasons": [
+        "runtime-original-hash-read",
+        "actual-confirmed-Yue-loader-original-read",
+        "D04-confirmed-original-runtime-source"
+      ]
+    },
+    "data/raw/yue-reading-CC-BY-4.0.txt": {
+      "sha256": "97d24386ff776d7160b87031b259a942bd03c9939796cab6724ad5d17d2cf785",
+      "bytes": 18657,
+      "modules": [
+        "yue-reading-dependency"
+      ],
+      "reasons": [
+        "actual-confirmed-Yue-loader-original-read"
+      ]
+    },
+    "data/raw/yue-reading-chars.dict.yaml": {
+      "sha256": "9b053a594c80eae76545bcdd83239884a49b1ba48b89ca0ab9e8daac79f33013",
+      "bytes": 345329,
+      "modules": [
+        "yue-reading-dependency"
+      ],
+      "reasons": [
+        "actual-confirmed-Yue-loader-original-read"
+      ]
+    },
+    "data/raw/yue-reading-NOTICE.md": {
+      "sha256": "a96216ceec82cdcd7398aec771e9bd88b0b76f005c38f0f559cc029097bbe538",
+      "bytes": 1239,
+      "modules": [
+        "yue-reading-dependency"
+      ],
+      "reasons": [
+        "actual-confirmed-Yue-loader-original-read"
+      ]
+    },
+    "data/raw/yue-reading-README-cmn.md": {
+      "sha256": "ca0783ce0a7eaa6560e7718d50ed2f7db2488d1b73eb5c3f82cf116ba2831d56",
+      "bytes": 5580,
+      "modules": [
+        "yue-reading-dependency"
+      ],
+      "reasons": [
+        "actual-confirmed-Yue-loader-original-read"
+      ]
+    },
+    "data/raw/yue-reading-words.dict.yaml": {
+      "sha256": "54d174ad2bb997e4a678b7b076b84e4dc5914481b32467cdea3b43e88b7d5474",
+      "bytes": 2630257,
+      "modules": [
+        "yue-reading-dependency"
+      ],
+      "reasons": [
+        "actual-confirmed-Yue-loader-original-read"
+      ]
+    },
+    "data/source-lock.json": {
+      "sha256": "b1d206cdcfa2da184009442ba705d2231d8f0a43c2f5a9885a122a3e5d353bba",
+      "bytes": 5953,
+      "modules": [
+        "cmn-reading"
+      ],
+      "reasons": [
+        "D04-confirmed-original-runtime-source"
+      ]
+    },
+    "data/yue-reading-source-lock.json": {
+      "sha256": "e5a593195a4fbc0fcce98b7f11e535aca7754f68f02d8d2ae45715d15a4acf25",
+      "bytes": 3419,
+      "modules": [
+        "yue-reading-dependency"
+      ],
+      "reasons": [
+        "fixed-source-lock"
+      ]
+    },
+    "data/yue-reading-table.json": {
+      "sha256": "f285837167d7ae731a3e3dedc817cb13f32b6dab0bd04091b115c3415afcf028",
+      "bytes": 425435,
+      "modules": [
+        "yue-reading-dependency"
+      ],
+      "reasons": [
+        "actual-confirmed-Yue-loader-original-read"
+      ]
+    }
+  },
+  "sourceReaders": [
+    {
+      "file": "src/main/meaning-context-data.ts",
+      "sha256": "aa2a38805e37a33de28301a17c3040ef20a12c542cb045b2867227be935c401c",
+      "scope": "optional-source-layout-reader-identity;notclaimedasanASARcompiledcodeproof"
+    },
+    {
+      "file": "src/main/modern-practical-evidence.ts",
+      "sha256": "ed6a48e9e89a4277670efb1fe36c01598bdc841b7bbd92de9d41a3bae0831b03",
+      "scope": "optional-source-layout-reader-identity;notclaimedasanASARcompiledcodeproof"
+    },
+    {
+      "file": "src/main/yue-reading-data.ts",
+      "sha256": "c96393079c4ca23cf2f12a790919eafedc280e76aa42f82367f32ca51974de51",
+      "scope": "optional-source-layout-reader-identity;notclaimedasanASARcompiledcodeproof"
+    },
+    {
+      "file": "src/main/store.ts",
+      "sha256": "9740bff328c7d6af1d06ee10b0bb39329ccf9333385d505416b5cfa37e5bebf6",
+      "scope": "fixed-two-source-ID-registry;optional-source-layout-identity;notcompiled-code-proof"
+    }
+  ],
+  "excludedNextBatch": [],
+  "buildOnlyUpstreamPhoneticOriginals": [
+    "data/raw/zhwiktionary-Chinese.jsonl.gz",
+    "data/raw/yue-reading-words.dict.yaml",
+    "data/raw/yue-reading-chars.dict.yaml",
+    "data/raw/yue-homophone-CC-BY-SA-4.0.txt",
+    "data/raw/yue-reading-CC-BY-4.0.txt"
+  ],
+  "limitations": [
+    "Exact1.0.37 runtime bytes/package contract; fixed1.0 meaning resources remain for historical evidence and1.1 is newly required.",
+    "D04 confirmation covers8 actual runtime source paths only; no adapter API/ASAR/installer claim.",
+    "Original three real MJS data gates remain required. TS source reader checks are optional in extracted layouts and do not prove compiled ASAR code.",
+    "No whole upstream phonetic corpora are added; build-only exclusions from136 retained."
+  ],
+  "derivation": {
+    "baseContractSha256": "8dd864fe692ee833cffa4b03e34963c11d4c5ad7754c109ff251cab66e2c55d6",
+    "baseFiles": 67,
+    "meaningV11AddedFiles": [
+      "data/meaning-context-v1-1-manifest.json",
+      "data/meaning-context-v1-1-NOTICE.md",
+      "data/meaning-context-v1-1-source-lock.json",
+      "data/meaning-context-v1-1.json",
+      "data/meaning-gap-classification-v1-1.json",
+      "data/raw/meaning-context-batch2-review.json"
+    ],
+    "cmnConfirmedResourceManifestSha256": "19337cb4b7b5c405fa36279678d09bf8b28441346c1908f61673b6ec40630fef",
+    "cmnSourceProfileSha256": "bea3067ebffc763904d4ef3d2629a2c86fcb1fa8fd3a4a57d32ff4bee6d96270",
+    "cmnSharedFiles": [
+      "data/dataset-v6.json",
+      "data/raw/CC-BY-ND-3.0-TW.html",
+      "data/raw/kSimplifiedVariant.txt",
+      "data/raw/kTraditionalVariant.txt",
+      "data/raw/moe-README.md",
+      "data/raw/moe-revised.json.gz",
+      "data/raw/unicode-LICENSE"
+    ],
+    "cmnAddedFiles": [
+      "data/source-lock.json"
+    ],
+    "unionFiles": 74
+  }
+}

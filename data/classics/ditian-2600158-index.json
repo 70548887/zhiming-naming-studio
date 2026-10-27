@@ -1,0 +1,1074 @@
+{
+  "version": "classics-section-index/1.0.0",
+  "id": "classic-ditian-2600158",
+  "title": "滴天髓闡微",
+  "aliases": [
+    "滴天髓阐微"
+  ],
+  "revision": "2600158",
+  "sourceId": "classics-ditian-2600158-fixed",
+  "rawFile": "data/raw/classics-ditian-2600158.wiki",
+  "rawSha256": "1d1a3d61c1b9a26618b41b8ead857a6b966992fdf2adabdc607a0c6cb4c8f04d",
+  "rawBytes": 401801,
+  "codepoints": 143701,
+  "sections": [
+    {
+      "id": "classic-ditian-2600158:section:0",
+      "bookId": "classic-ditian-2600158",
+      "title": "卷首与页面元信息",
+      "headingLevel": 0,
+      "path": [
+        "卷首与页面元信息"
+      ],
+      "start": 0,
+      "end": 112,
+      "sha256": "18ad5fbd5dead4048f7db08d56a24c38cad55915f96f81c307dfc4d4cf547bef",
+      "kind": "frontmatter",
+      "nextSectionId": "classic-ditian-2600158:section:112"
+    },
+    {
+      "id": "classic-ditian-2600158:section:112",
+      "bookId": "classic-ditian-2600158",
+      "title": "通神论",
+      "headingLevel": 2,
+      "path": [
+        "通神论"
+      ],
+      "start": 112,
+      "end": 121,
+      "sha256": "57311f2a1606d1bb3ddda44964393e6c0eec901ee383e5be10c904efc8369515",
+      "kind": "section",
+      "previousSectionId": "classic-ditian-2600158:section:0",
+      "nextSectionId": "classic-ditian-2600158:section:121"
+    },
+    {
+      "id": "classic-ditian-2600158:section:121",
+      "bookId": "classic-ditian-2600158",
+      "title": "一、天道",
+      "headingLevel": 3,
+      "path": [
+        "通神论",
+        "一、天道"
+      ],
+      "start": 121,
+      "end": 317,
+      "sha256": "1e321c1c07e5b6819f9f170ca4e31061993a7ca017cc91c03e6f3b4727031b7b",
+      "kind": "section",
+      "previousSectionId": "classic-ditian-2600158:section:112",
+      "nextSectionId": "classic-ditian-2600158:section:317"
+    },
+    {
+      "id": "classic-ditian-2600158:section:317",
+      "bookId": "classic-ditian-2600158",
+      "title": "二、地道",
+      "headingLevel": 3,
+      "path": [
+        "通神论",
+        "二、地道"
+      ],
+      "start": 317,
+      "end": 495,
+      "sha256": "60e0ab47c41ea1f307de439e4e4dd9e96e3f3c9a15f7c7a805f2528d089b727b",
+      "kind": "section",
+      "previousSectionId": "classic-ditian-2600158:section:121",
+      "nextSectionId": "classic-ditian-2600158:section:495"
+    },
+    {
+      "id": "classic-ditian-2600158:section:495",
+      "bookId": "classic-ditian-2600158",
+      "title": "三、人道",
+      "headingLevel": 3,
+      "path": [
+        "通神论",
+        "三、人道"
+      ],
+      "start": 495,
+      "end": 1172,
+      "sha256": "8dada616ddb2e8ff04a7aa91add0def72abadc077ef1986fa97e6b1d6d9922a5",
+      "kind": "section",
+      "previousSectionId": "classic-ditian-2600158:section:317",
+      "nextSectionId": "classic-ditian-2600158:section:1172"
+    },
+    {
+      "id": "classic-ditian-2600158:section:1172",
+      "bookId": "classic-ditian-2600158",
+      "title": "四、知命",
+      "headingLevel": 3,
+      "path": [
+        "通神论",
+        "四、知命"
+      ],
+      "start": 1172,
+      "end": 2958,
+      "sha256": "8a4a7ca32dc28b8b2fbbdf8ee95c5331f54048225afc4c20bbdc9d84450d4781",
+      "kind": "section",
+      "previousSectionId": "classic-ditian-2600158:section:495",
+      "nextSectionId": "classic-ditian-2600158:section:2958"
+    },
+    {
+      "id": "classic-ditian-2600158:section:2958",
+      "bookId": "classic-ditian-2600158",
+      "title": "五、理气",
+      "headingLevel": 3,
+      "path": [
+        "通神论",
+        "五、理气"
+      ],
+      "start": 2958,
+      "end": 3715,
+      "sha256": "b0df2863f1b96f9339e41087c683a80fc04952fd757c07e71f37354908daef4d",
+      "kind": "section",
+      "previousSectionId": "classic-ditian-2600158:section:1172",
+      "nextSectionId": "classic-ditian-2600158:section:3715"
+    },
+    {
+      "id": "classic-ditian-2600158:section:3715",
+      "bookId": "classic-ditian-2600158",
+      "title": "六、配合",
+      "headingLevel": 3,
+      "path": [
+        "通神论",
+        "六、配合"
+      ],
+      "start": 3715,
+      "end": 4553,
+      "sha256": "f83396bd5eb8c43e97cabb659ef6642c4ebc0a7bd72eddb1dd1c5cc88613afa1",
+      "kind": "section",
+      "previousSectionId": "classic-ditian-2600158:section:2958",
+      "nextSectionId": "classic-ditian-2600158:section:4553"
+    },
+    {
+      "id": "classic-ditian-2600158:section:4553",
+      "bookId": "classic-ditian-2600158",
+      "title": "七、天干",
+      "headingLevel": 3,
+      "path": [
+        "通神论",
+        "七、天干"
+      ],
+      "start": 4553,
+      "end": 9679,
+      "sha256": "ed562526c30d2d4a3c36b99b1032c76ae062bdb0c473c34f94abf60b05f08f57",
+      "kind": "section",
+      "previousSectionId": "classic-ditian-2600158:section:3715",
+      "nextSectionId": "classic-ditian-2600158:section:9679"
+    },
+    {
+      "id": "classic-ditian-2600158:section:9679",
+      "bookId": "classic-ditian-2600158",
+      "title": "八、地支",
+      "headingLevel": 3,
+      "path": [
+        "通神论",
+        "八、地支"
+      ],
+      "start": 9679,
+      "end": 14434,
+      "sha256": "756db3b950c5d8106616c2f7ce896d08b8a3af9c42de9901fc55a6323b7566d9",
+      "kind": "section",
+      "previousSectionId": "classic-ditian-2600158:section:4553",
+      "nextSectionId": "classic-ditian-2600158:section:14434"
+    },
+    {
+      "id": "classic-ditian-2600158:section:14434",
+      "bookId": "classic-ditian-2600158",
+      "title": "九、干支总论",
+      "headingLevel": 3,
+      "path": [
+        "通神论",
+        "九、干支总论"
+      ],
+      "start": 14434,
+      "end": 23744,
+      "sha256": "4420223dccde983229d02868c39666c6891ac32cebae18c0fcc27c06d0e98da9",
+      "kind": "section",
+      "previousSectionId": "classic-ditian-2600158:section:9679",
+      "nextSectionId": "classic-ditian-2600158:section:23744"
+    },
+    {
+      "id": "classic-ditian-2600158:section:23744",
+      "bookId": "classic-ditian-2600158",
+      "title": "十、形象",
+      "headingLevel": 3,
+      "path": [
+        "通神论",
+        "十、形象"
+      ],
+      "start": 23744,
+      "end": 28642,
+      "sha256": "f445c718f030aa5e330454b6e0c8e714f00402f0566ee55966a024282601d396",
+      "kind": "section",
+      "previousSectionId": "classic-ditian-2600158:section:14434",
+      "nextSectionId": "classic-ditian-2600158:section:28642"
+    },
+    {
+      "id": "classic-ditian-2600158:section:28642",
+      "bookId": "classic-ditian-2600158",
+      "title": "十一、方局",
+      "headingLevel": 3,
+      "path": [
+        "通神论",
+        "十一、方局"
+      ],
+      "start": 28642,
+      "end": 32039,
+      "sha256": "ed3f6c925db9987ae0de945e258639c2e479c9996b83666b2e56df6b6160575a",
+      "kind": "section",
+      "previousSectionId": "classic-ditian-2600158:section:23744",
+      "nextSectionId": "classic-ditian-2600158:section:32039"
+    },
+    {
+      "id": "classic-ditian-2600158:section:32039",
+      "bookId": "classic-ditian-2600158",
+      "title": "十二、八格",
+      "headingLevel": 3,
+      "path": [
+        "通神论",
+        "十二、八格"
+      ],
+      "start": 32039,
+      "end": 35302,
+      "sha256": "f193621a9935edea9aa4a44f39fde8ac459032368cefccb3c5068809ef2d9a76",
+      "kind": "section",
+      "previousSectionId": "classic-ditian-2600158:section:28642",
+      "nextSectionId": "classic-ditian-2600158:section:35302"
+    },
+    {
+      "id": "classic-ditian-2600158:section:35302",
+      "bookId": "classic-ditian-2600158",
+      "title": "十三、体用",
+      "headingLevel": 3,
+      "path": [
+        "通神论",
+        "十三、体用"
+      ],
+      "start": 35302,
+      "end": 37220,
+      "sha256": "c8cbf8decea381219b3244b6352c0623d81b84d0dca6487e4557cd5f7701ffc7",
+      "kind": "section",
+      "previousSectionId": "classic-ditian-2600158:section:32039",
+      "nextSectionId": "classic-ditian-2600158:section:37220"
+    },
+    {
+      "id": "classic-ditian-2600158:section:37220",
+      "bookId": "classic-ditian-2600158",
+      "title": "十四、精神",
+      "headingLevel": 3,
+      "path": [
+        "通神论",
+        "十四、精神"
+      ],
+      "start": 37220,
+      "end": 38603,
+      "sha256": "c8a047493e0e1dab3fb9de7e112a3714d3915eb99198685536ae3166483a9fcd",
+      "kind": "section",
+      "previousSectionId": "classic-ditian-2600158:section:35302",
+      "nextSectionId": "classic-ditian-2600158:section:38603"
+    },
+    {
+      "id": "classic-ditian-2600158:section:38603",
+      "bookId": "classic-ditian-2600158",
+      "title": "十五、月令",
+      "headingLevel": 3,
+      "path": [
+        "通神论",
+        "十五、月令"
+      ],
+      "start": 38603,
+      "end": 39487,
+      "sha256": "f786e7cc1c7a9daa2574b9c6019088d738d69e78ef353da88b9a4a856bc17228",
+      "kind": "section",
+      "previousSectionId": "classic-ditian-2600158:section:37220",
+      "nextSectionId": "classic-ditian-2600158:section:39487"
+    },
+    {
+      "id": "classic-ditian-2600158:section:39487",
+      "bookId": "classic-ditian-2600158",
+      "title": "十六、生时",
+      "headingLevel": 3,
+      "path": [
+        "通神论",
+        "十六、生时"
+      ],
+      "start": 39487,
+      "end": 40215,
+      "sha256": "31ccbb7be5f20b38f9b2afb7cd75e7c348ef8aefbb8a9cf801c67bf3ea2623a9",
+      "kind": "section",
+      "previousSectionId": "classic-ditian-2600158:section:38603",
+      "nextSectionId": "classic-ditian-2600158:section:40215"
+    },
+    {
+      "id": "classic-ditian-2600158:section:40215",
+      "bookId": "classic-ditian-2600158",
+      "title": "十七、衰旺",
+      "headingLevel": 3,
+      "path": [
+        "通神论",
+        "十七、衰旺"
+      ],
+      "start": 40215,
+      "end": 44048,
+      "sha256": "bcf7295147673589050933ec942f62523bf5615ffa46143eec328d5bac0901ee",
+      "kind": "section",
+      "previousSectionId": "classic-ditian-2600158:section:39487",
+      "nextSectionId": "classic-ditian-2600158:section:44048"
+    },
+    {
+      "id": "classic-ditian-2600158:section:44048",
+      "bookId": "classic-ditian-2600158",
+      "title": "十八、中和",
+      "headingLevel": 3,
+      "path": [
+        "通神论",
+        "十八、中和"
+      ],
+      "start": 44048,
+      "end": 45050,
+      "sha256": "398559f1c230deda9f4aaa0a9678b1447fd3e03acf445063f4d2fd02d0b804f8",
+      "kind": "section",
+      "previousSectionId": "classic-ditian-2600158:section:40215",
+      "nextSectionId": "classic-ditian-2600158:section:45050"
+    },
+    {
+      "id": "classic-ditian-2600158:section:45050",
+      "bookId": "classic-ditian-2600158",
+      "title": "十九、源流",
+      "headingLevel": 3,
+      "path": [
+        "通神论",
+        "十九、源流"
+      ],
+      "start": 45050,
+      "end": 46897,
+      "sha256": "210bb9d95072dab6db899a4a355a7d48fd6b8d912725337ed3106c28c2b175c0",
+      "kind": "section",
+      "previousSectionId": "classic-ditian-2600158:section:44048",
+      "nextSectionId": "classic-ditian-2600158:section:46897"
+    },
+    {
+      "id": "classic-ditian-2600158:section:46897",
+      "bookId": "classic-ditian-2600158",
+      "title": "二十、通关",
+      "headingLevel": 3,
+      "path": [
+        "通神论",
+        "二十、通关"
+      ],
+      "start": 46897,
+      "end": 48183,
+      "sha256": "a676975946c54e8cfc92afb401c557590191f24f4c0a35d49a68dfbfefb039aa",
+      "kind": "section",
+      "previousSectionId": "classic-ditian-2600158:section:45050",
+      "nextSectionId": "classic-ditian-2600158:section:48183"
+    },
+    {
+      "id": "classic-ditian-2600158:section:48183",
+      "bookId": "classic-ditian-2600158",
+      "title": "二十一、官杀",
+      "headingLevel": 3,
+      "path": [
+        "通神论",
+        "二十一、官杀"
+      ],
+      "start": 48183,
+      "end": 53675,
+      "sha256": "c436f7bbc15d553e29d3bc2aa0a4440d61e127c220caba5d0d3b979a02d8f3ef",
+      "kind": "section",
+      "previousSectionId": "classic-ditian-2600158:section:46897",
+      "nextSectionId": "classic-ditian-2600158:section:53675"
+    },
+    {
+      "id": "classic-ditian-2600158:section:53675",
+      "bookId": "classic-ditian-2600158",
+      "title": "二十二、伤官",
+      "headingLevel": 3,
+      "path": [
+        "通神论",
+        "二十二、伤官"
+      ],
+      "start": 53675,
+      "end": 58131,
+      "sha256": "7297b2980f7ccfa67e9d747abf62065231e01b0edb38a344aad3d208a143b989",
+      "kind": "section",
+      "previousSectionId": "classic-ditian-2600158:section:48183",
+      "nextSectionId": "classic-ditian-2600158:section:58131"
+    },
+    {
+      "id": "classic-ditian-2600158:section:58131",
+      "bookId": "classic-ditian-2600158",
+      "title": "二十三、清气",
+      "headingLevel": 3,
+      "path": [
+        "通神论",
+        "二十三、清气"
+      ],
+      "start": 58131,
+      "end": 59419,
+      "sha256": "a0d6f3ae95685b2a6d60cdb885149e96c9713d216e5af25bf695c60385ffbfa2",
+      "kind": "section",
+      "previousSectionId": "classic-ditian-2600158:section:53675",
+      "nextSectionId": "classic-ditian-2600158:section:59419"
+    },
+    {
+      "id": "classic-ditian-2600158:section:59419",
+      "bookId": "classic-ditian-2600158",
+      "title": "二十四、浊气",
+      "headingLevel": 3,
+      "path": [
+        "通神论",
+        "二十四、浊气"
+      ],
+      "start": 59419,
+      "end": 60397,
+      "sha256": "a181d72c179acf683c7b8193b75bada134611e38d7a1899ccc6719be07506350",
+      "kind": "section",
+      "previousSectionId": "classic-ditian-2600158:section:58131",
+      "nextSectionId": "classic-ditian-2600158:section:60397"
+    },
+    {
+      "id": "classic-ditian-2600158:section:60397",
+      "bookId": "classic-ditian-2600158",
+      "title": "二十五、真神",
+      "headingLevel": 3,
+      "path": [
+        "通神论",
+        "二十五、真神"
+      ],
+      "start": 60397,
+      "end": 61264,
+      "sha256": "2dcd754ad4e4d7b2881807225b9f7ed02d3bd212b46db872b630581a69a08122",
+      "kind": "section",
+      "previousSectionId": "classic-ditian-2600158:section:59419",
+      "nextSectionId": "classic-ditian-2600158:section:61264"
+    },
+    {
+      "id": "classic-ditian-2600158:section:61264",
+      "bookId": "classic-ditian-2600158",
+      "title": "二十六、假神",
+      "headingLevel": 3,
+      "path": [
+        "通神论",
+        "二十六、假神"
+      ],
+      "start": 61264,
+      "end": 62590,
+      "sha256": "2d313862766472564692af39736c953a073c272766bb7c9f366b9fe65f4408c4",
+      "kind": "section",
+      "previousSectionId": "classic-ditian-2600158:section:60397",
+      "nextSectionId": "classic-ditian-2600158:section:62590"
+    },
+    {
+      "id": "classic-ditian-2600158:section:62590",
+      "bookId": "classic-ditian-2600158",
+      "title": "二十七、刚柔",
+      "headingLevel": 3,
+      "path": [
+        "通神论",
+        "二十七、刚柔"
+      ],
+      "start": 62590,
+      "end": 64098,
+      "sha256": "e9313a84a6e8ab8740bf245f8e59cee82ae2febe702718f023e022e197e36cc5",
+      "kind": "section",
+      "previousSectionId": "classic-ditian-2600158:section:61264",
+      "nextSectionId": "classic-ditian-2600158:section:64098"
+    },
+    {
+      "id": "classic-ditian-2600158:section:64098",
+      "bookId": "classic-ditian-2600158",
+      "title": "二十八、顺逆",
+      "headingLevel": 3,
+      "path": [
+        "通神论",
+        "二十八、顺逆"
+      ],
+      "start": 64098,
+      "end": 65032,
+      "sha256": "5a606572f75389dc524648de6ed0bb797224a761e6eb548bb7209bf3dcc83ad3",
+      "kind": "section",
+      "previousSectionId": "classic-ditian-2600158:section:62590",
+      "nextSectionId": "classic-ditian-2600158:section:65032"
+    },
+    {
+      "id": "classic-ditian-2600158:section:65032",
+      "bookId": "classic-ditian-2600158",
+      "title": "二十九、寒暖",
+      "headingLevel": 3,
+      "path": [
+        "通神论",
+        "二十九、寒暖"
+      ],
+      "start": 65032,
+      "end": 66191,
+      "sha256": "0602574cf49612d7965a9e164be2c0ff87a716d960108c94893e77d5c8aba5c1",
+      "kind": "section",
+      "previousSectionId": "classic-ditian-2600158:section:64098",
+      "nextSectionId": "classic-ditian-2600158:section:66191"
+    },
+    {
+      "id": "classic-ditian-2600158:section:66191",
+      "bookId": "classic-ditian-2600158",
+      "title": "三十、燥湿",
+      "headingLevel": 3,
+      "path": [
+        "通神论",
+        "三十、燥湿"
+      ],
+      "start": 66191,
+      "end": 67183,
+      "sha256": "a29ede1e968be4c0fb92bfc0bf29dea5c1007c0bcfd1aee706561dc3165424b4",
+      "kind": "section",
+      "previousSectionId": "classic-ditian-2600158:section:65032",
+      "nextSectionId": "classic-ditian-2600158:section:67183"
+    },
+    {
+      "id": "classic-ditian-2600158:section:67183",
+      "bookId": "classic-ditian-2600158",
+      "title": "三十一、隐显",
+      "headingLevel": 3,
+      "path": [
+        "通神论",
+        "三十一、隐显"
+      ],
+      "start": 67183,
+      "end": 67993,
+      "sha256": "1f75b2d2cfb40ca1cd67d59c6d6f0896082f33f41727c13912ecb95fcd06d508",
+      "kind": "section",
+      "previousSectionId": "classic-ditian-2600158:section:66191",
+      "nextSectionId": "classic-ditian-2600158:section:67993"
+    },
+    {
+      "id": "classic-ditian-2600158:section:67993",
+      "bookId": "classic-ditian-2600158",
+      "title": "三十二、众寡",
+      "headingLevel": 3,
+      "path": [
+        "通神论",
+        "三十二、众寡"
+      ],
+      "start": 67993,
+      "end": 68838,
+      "sha256": "020e2bb80945bd2ed910a830893df3000cb70b3fe9588ced27892ca95730b1b7",
+      "kind": "section",
+      "previousSectionId": "classic-ditian-2600158:section:67183",
+      "nextSectionId": "classic-ditian-2600158:section:68838"
+    },
+    {
+      "id": "classic-ditian-2600158:section:68838",
+      "bookId": "classic-ditian-2600158",
+      "title": "三十三、震兑",
+      "headingLevel": 3,
+      "path": [
+        "通神论",
+        "三十三、震兑"
+      ],
+      "start": 68838,
+      "end": 70181,
+      "sha256": "e2c51ccaaf11c98e6c4b68a9054c4f43d42c3adc4b0a15ec5e492a145d77bc2d",
+      "kind": "section",
+      "previousSectionId": "classic-ditian-2600158:section:67993",
+      "nextSectionId": "classic-ditian-2600158:section:70181"
+    },
+    {
+      "id": "classic-ditian-2600158:section:70181",
+      "bookId": "classic-ditian-2600158",
+      "title": "三十四、坎离",
+      "headingLevel": 3,
+      "path": [
+        "通神论",
+        "三十四、坎离"
+      ],
+      "start": 70181,
+      "end": 71432,
+      "sha256": "8a4484acb578a34adc8f249916170ae42292dacbeb45f217671d307e863699a7",
+      "kind": "section",
+      "previousSectionId": "classic-ditian-2600158:section:68838",
+      "nextSectionId": "classic-ditian-2600158:section:71432"
+    },
+    {
+      "id": "classic-ditian-2600158:section:71432",
+      "bookId": "classic-ditian-2600158",
+      "title": "六亲论",
+      "headingLevel": 2,
+      "path": [
+        "六亲论"
+      ],
+      "start": 71432,
+      "end": 71441,
+      "sha256": "42d12b2ec3a2efec3b3e55acfb713546174f0c3f735af7e80c43b4bcd132e4c0",
+      "kind": "section",
+      "previousSectionId": "classic-ditian-2600158:section:70181",
+      "nextSectionId": "classic-ditian-2600158:section:71441"
+    },
+    {
+      "id": "classic-ditian-2600158:section:71441",
+      "bookId": "classic-ditian-2600158",
+      "title": "一、夫妻",
+      "headingLevel": 3,
+      "path": [
+        "六亲论",
+        "一、夫妻"
+      ],
+      "start": 71441,
+      "end": 72735,
+      "sha256": "838f54503f79ccf1cc8ec18e44fdcee7633e8e2bf8162c6b0d9863aedd33461d",
+      "kind": "section",
+      "previousSectionId": "classic-ditian-2600158:section:71432",
+      "nextSectionId": "classic-ditian-2600158:section:72735"
+    },
+    {
+      "id": "classic-ditian-2600158:section:72735",
+      "bookId": "classic-ditian-2600158",
+      "title": "二、子女",
+      "headingLevel": 3,
+      "path": [
+        "六亲论",
+        "二、子女"
+      ],
+      "start": 72735,
+      "end": 74617,
+      "sha256": "0da3867f4ebce660348e8ec8f44ab60d74e21358841d17fd532852a439d7ba32",
+      "kind": "section",
+      "previousSectionId": "classic-ditian-2600158:section:71441",
+      "nextSectionId": "classic-ditian-2600158:section:74617"
+    },
+    {
+      "id": "classic-ditian-2600158:section:74617",
+      "bookId": "classic-ditian-2600158",
+      "title": "三、父母",
+      "headingLevel": 3,
+      "path": [
+        "六亲论",
+        "三、父母"
+      ],
+      "start": 74617,
+      "end": 75820,
+      "sha256": "3bb414d810e3609a9f39858632fbb6727eb82cfa150804623b96ee6154b92b1d",
+      "kind": "section",
+      "previousSectionId": "classic-ditian-2600158:section:72735",
+      "nextSectionId": "classic-ditian-2600158:section:75820"
+    },
+    {
+      "id": "classic-ditian-2600158:section:75820",
+      "bookId": "classic-ditian-2600158",
+      "title": "四、兄弟",
+      "headingLevel": 3,
+      "path": [
+        "六亲论",
+        "四、兄弟"
+      ],
+      "start": 75820,
+      "end": 76639,
+      "sha256": "7df79e470b1f9b0670b4540bc7fbc8cb14d91d10025b69f45cc8b5ea4d235298",
+      "kind": "section",
+      "previousSectionId": "classic-ditian-2600158:section:74617",
+      "nextSectionId": "classic-ditian-2600158:section:76639"
+    },
+    {
+      "id": "classic-ditian-2600158:section:76639",
+      "bookId": "classic-ditian-2600158",
+      "title": "五、何知章",
+      "headingLevel": 3,
+      "path": [
+        "六亲论",
+        "五、何知章"
+      ],
+      "start": 76639,
+      "end": 85038,
+      "sha256": "e2308bca7439790ad5314e2c0a15b3e3aa036108736eaa090b24e76029e00d59",
+      "kind": "section",
+      "previousSectionId": "classic-ditian-2600158:section:75820",
+      "nextSectionId": "classic-ditian-2600158:section:85038"
+    },
+    {
+      "id": "classic-ditian-2600158:section:85038",
+      "bookId": "classic-ditian-2600158",
+      "title": "六、女命章",
+      "headingLevel": 3,
+      "path": [
+        "六亲论",
+        "六、女命章"
+      ],
+      "start": 85038,
+      "end": 91222,
+      "sha256": "223e85e95b8a3eba72ab353f353e91de71c1f4e462c4fb58f928996db2ddafd9",
+      "kind": "section",
+      "previousSectionId": "classic-ditian-2600158:section:76639",
+      "nextSectionId": "classic-ditian-2600158:section:91222"
+    },
+    {
+      "id": "classic-ditian-2600158:section:91222",
+      "bookId": "classic-ditian-2600158",
+      "title": "七、小儿",
+      "headingLevel": 3,
+      "path": [
+        "六亲论",
+        "七、小儿"
+      ],
+      "start": 91222,
+      "end": 93081,
+      "sha256": "ef4c57c4b150bc32056bc433d3e929b3223ae06f7ead7a75bf655dd8b0546d62",
+      "kind": "section",
+      "previousSectionId": "classic-ditian-2600158:section:85038",
+      "nextSectionId": "classic-ditian-2600158:section:93081"
+    },
+    {
+      "id": "classic-ditian-2600158:section:93081",
+      "bookId": "classic-ditian-2600158",
+      "title": "八、才德",
+      "headingLevel": 3,
+      "path": [
+        "六亲论",
+        "八、才德"
+      ],
+      "start": 93081,
+      "end": 94158,
+      "sha256": "d3deb4ee5fadd0d113efd2bc8f1076bfb80614a707fbd844eedffb50e698fbcb",
+      "kind": "section",
+      "previousSectionId": "classic-ditian-2600158:section:91222",
+      "nextSectionId": "classic-ditian-2600158:section:94158"
+    },
+    {
+      "id": "classic-ditian-2600158:section:94158",
+      "bookId": "classic-ditian-2600158",
+      "title": "九、奋郁",
+      "headingLevel": 3,
+      "path": [
+        "六亲论",
+        "九、奋郁"
+      ],
+      "start": 94158,
+      "end": 95446,
+      "sha256": "7db1669e250e00efe49fe59ba692520b8fbe6dd57c77cb28ce209ccc8247e4e2",
+      "kind": "section",
+      "previousSectionId": "classic-ditian-2600158:section:93081",
+      "nextSectionId": "classic-ditian-2600158:section:95446"
+    },
+    {
+      "id": "classic-ditian-2600158:section:95446",
+      "bookId": "classic-ditian-2600158",
+      "title": "十、恩怨",
+      "headingLevel": 3,
+      "path": [
+        "六亲论",
+        "十、恩怨"
+      ],
+      "start": 95446,
+      "end": 96481,
+      "sha256": "fcc6d4d9d9bf445759f2f6fab0fbaa28075351d0ea6365d8491923fd939a40f4",
+      "kind": "section",
+      "previousSectionId": "classic-ditian-2600158:section:94158",
+      "nextSectionId": "classic-ditian-2600158:section:96481"
+    },
+    {
+      "id": "classic-ditian-2600158:section:96481",
+      "bookId": "classic-ditian-2600158",
+      "title": "十一、闲神",
+      "headingLevel": 3,
+      "path": [
+        "六亲论",
+        "十一、闲神"
+      ],
+      "start": 96481,
+      "end": 98675,
+      "sha256": "13f52df30a37200ef6a33aa19ca5f468fe394ab79db91f3ab0a4b32c51caf2c0",
+      "kind": "section",
+      "previousSectionId": "classic-ditian-2600158:section:95446",
+      "nextSectionId": "classic-ditian-2600158:section:98675"
+    },
+    {
+      "id": "classic-ditian-2600158:section:98675",
+      "bookId": "classic-ditian-2600158",
+      "title": "十二、从象",
+      "headingLevel": 3,
+      "path": [
+        "六亲论",
+        "十二、从象"
+      ],
+      "start": 98675,
+      "end": 100852,
+      "sha256": "a98cf29d2e2e6d6607d74a6719aa39343e9bbb561c137528adc88ef5c03a7354",
+      "kind": "section",
+      "previousSectionId": "classic-ditian-2600158:section:96481",
+      "nextSectionId": "classic-ditian-2600158:section:100852"
+    },
+    {
+      "id": "classic-ditian-2600158:section:100852",
+      "bookId": "classic-ditian-2600158",
+      "title": "十三、化象",
+      "headingLevel": 3,
+      "path": [
+        "六亲论",
+        "十三、化象"
+      ],
+      "start": 100852,
+      "end": 102540,
+      "sha256": "547aa55491c45bf58cd38b6e2c00a3ad0215fdbbd977faa7a30e24fbed97087f",
+      "kind": "section",
+      "previousSectionId": "classic-ditian-2600158:section:98675",
+      "nextSectionId": "classic-ditian-2600158:section:102540"
+    },
+    {
+      "id": "classic-ditian-2600158:section:102540",
+      "bookId": "classic-ditian-2600158",
+      "title": "十四、假从",
+      "headingLevel": 3,
+      "path": [
+        "六亲论",
+        "十四、假从"
+      ],
+      "start": 102540,
+      "end": 103716,
+      "sha256": "a160ed798634ef5fce9d533a76a7b66029330f3533a90443a6a8fd69b16119e9",
+      "kind": "section",
+      "previousSectionId": "classic-ditian-2600158:section:100852",
+      "nextSectionId": "classic-ditian-2600158:section:103716"
+    },
+    {
+      "id": "classic-ditian-2600158:section:103716",
+      "bookId": "classic-ditian-2600158",
+      "title": "十五、假化",
+      "headingLevel": 3,
+      "path": [
+        "六亲论",
+        "十五、假化"
+      ],
+      "start": 103716,
+      "end": 105167,
+      "sha256": "ff05b99bb5d7d766ed63356c1edc743eb28ecf3e838b833dad0234c684f61768",
+      "kind": "section",
+      "previousSectionId": "classic-ditian-2600158:section:102540",
+      "nextSectionId": "classic-ditian-2600158:section:105167"
+    },
+    {
+      "id": "classic-ditian-2600158:section:105167",
+      "bookId": "classic-ditian-2600158",
+      "title": "十六、顺局",
+      "headingLevel": 3,
+      "path": [
+        "六亲论",
+        "十六、顺局"
+      ],
+      "start": 105167,
+      "end": 106830,
+      "sha256": "08a06b5e3d00beef63bd4396b43c52c2fdb5a90bd958b79aeeef85bf0b63b929",
+      "kind": "section",
+      "previousSectionId": "classic-ditian-2600158:section:103716",
+      "nextSectionId": "classic-ditian-2600158:section:106830"
+    },
+    {
+      "id": "classic-ditian-2600158:section:106830",
+      "bookId": "classic-ditian-2600158",
+      "title": "十七、反局",
+      "headingLevel": 3,
+      "path": [
+        "六亲论",
+        "十七、反局"
+      ],
+      "start": 106830,
+      "end": 110710,
+      "sha256": "336472e5da3425ef6222cfd870a129b6c5f59d1134c9de211783f5a6af429c39",
+      "kind": "section",
+      "previousSectionId": "classic-ditian-2600158:section:105167",
+      "nextSectionId": "classic-ditian-2600158:section:110710"
+    },
+    {
+      "id": "classic-ditian-2600158:section:110710",
+      "bookId": "classic-ditian-2600158",
+      "title": "十八、战局",
+      "headingLevel": 3,
+      "path": [
+        "六亲论",
+        "十八、战局"
+      ],
+      "start": 110710,
+      "end": 112076,
+      "sha256": "2104c211414fa42a920c2b44e9d1c175dd130d254f18e1dd9ca89dc39eb9be2c",
+      "kind": "section",
+      "previousSectionId": "classic-ditian-2600158:section:106830",
+      "nextSectionId": "classic-ditian-2600158:section:112076"
+    },
+    {
+      "id": "classic-ditian-2600158:section:112076",
+      "bookId": "classic-ditian-2600158",
+      "title": "十九、合局",
+      "headingLevel": 3,
+      "path": [
+        "六亲论",
+        "十九、合局"
+      ],
+      "start": 112076,
+      "end": 113627,
+      "sha256": "e9ad134d860626e34e4c78ef5d72cebfc389cecab77241a62512de27f3137351",
+      "kind": "section",
+      "previousSectionId": "classic-ditian-2600158:section:110710",
+      "nextSectionId": "classic-ditian-2600158:section:113627"
+    },
+    {
+      "id": "classic-ditian-2600158:section:113627",
+      "bookId": "classic-ditian-2600158",
+      "title": "二十、君象",
+      "headingLevel": 3,
+      "path": [
+        "六亲论",
+        "二十、君象"
+      ],
+      "start": 113627,
+      "end": 114274,
+      "sha256": "6d8f757e66b915fa04254896b4a485a724e1677f259df942f7593e7c3a431c63",
+      "kind": "section",
+      "previousSectionId": "classic-ditian-2600158:section:112076",
+      "nextSectionId": "classic-ditian-2600158:section:114274"
+    },
+    {
+      "id": "classic-ditian-2600158:section:114274",
+      "bookId": "classic-ditian-2600158",
+      "title": "二十一、臣象",
+      "headingLevel": 3,
+      "path": [
+        "六亲论",
+        "二十一、臣象"
+      ],
+      "start": 114274,
+      "end": 115219,
+      "sha256": "59415b5dd68e0e345c653906bca249686d76372283807e6b4bb1972ae5772811",
+      "kind": "section",
+      "previousSectionId": "classic-ditian-2600158:section:113627",
+      "nextSectionId": "classic-ditian-2600158:section:115219"
+    },
+    {
+      "id": "classic-ditian-2600158:section:115219",
+      "bookId": "classic-ditian-2600158",
+      "title": "二十二、母象",
+      "headingLevel": 3,
+      "path": [
+        "六亲论",
+        "二十二、母象"
+      ],
+      "start": 115219,
+      "end": 115832,
+      "sha256": "c7c89395e656fb65b88f4475f42341e18bc31e6b76349bac70e7df13513c1fd0",
+      "kind": "section",
+      "previousSectionId": "classic-ditian-2600158:section:114274",
+      "nextSectionId": "classic-ditian-2600158:section:115832"
+    },
+    {
+      "id": "classic-ditian-2600158:section:115832",
+      "bookId": "classic-ditian-2600158",
+      "title": "二十三、子象",
+      "headingLevel": 3,
+      "path": [
+        "六亲论",
+        "二十三、子象"
+      ],
+      "start": 115832,
+      "end": 116503,
+      "sha256": "5d086d9de4389489caca9dd95a8555730f4c41dc1a792674d262d47f9a59f59b",
+      "kind": "section",
+      "previousSectionId": "classic-ditian-2600158:section:115219",
+      "nextSectionId": "classic-ditian-2600158:section:116503"
+    },
+    {
+      "id": "classic-ditian-2600158:section:116503",
+      "bookId": "classic-ditian-2600158",
+      "title": "二十四、性情",
+      "headingLevel": 3,
+      "path": [
+        "六亲论",
+        "二十四、性情"
+      ],
+      "start": 116503,
+      "end": 124346,
+      "sha256": "936a26d0a48d74c45ef084c808e1b87c977276c82444c85bab7d29906f25d12d",
+      "kind": "section",
+      "previousSectionId": "classic-ditian-2600158:section:115832",
+      "nextSectionId": "classic-ditian-2600158:section:124346"
+    },
+    {
+      "id": "classic-ditian-2600158:section:124346",
+      "bookId": "classic-ditian-2600158",
+      "title": "二十五、疾病",
+      "headingLevel": 3,
+      "path": [
+        "六亲论",
+        "二十五、疾病"
+      ],
+      "start": 124346,
+      "end": 131359,
+      "sha256": "29e461896cc9b5c824634f094883e61fec112188def4ff5e1ff95ec5c07f2ae0",
+      "kind": "section",
+      "previousSectionId": "classic-ditian-2600158:section:116503",
+      "nextSectionId": "classic-ditian-2600158:section:131359"
+    },
+    {
+      "id": "classic-ditian-2600158:section:131359",
+      "bookId": "classic-ditian-2600158",
+      "title": "二十六、出身",
+      "headingLevel": 3,
+      "path": [
+        "六亲论",
+        "二十六、出身"
+      ],
+      "start": 131359,
+      "end": 136545,
+      "sha256": "3d7c686de80b311303968375694662f706d1c485b08865372145697f837d2614",
+      "kind": "section",
+      "previousSectionId": "classic-ditian-2600158:section:124346",
+      "nextSectionId": "classic-ditian-2600158:section:136545"
+    },
+    {
+      "id": "classic-ditian-2600158:section:136545",
+      "bookId": "classic-ditian-2600158",
+      "title": "二十七、地位",
+      "headingLevel": 3,
+      "path": [
+        "六亲论",
+        "二十七、地位"
+      ],
+      "start": 136545,
+      "end": 139653,
+      "sha256": "6ef8c91a880e8af21b92f729256f96b4dd0ad2c2f10110faf647626b4865048c",
+      "kind": "section",
+      "previousSectionId": "classic-ditian-2600158:section:131359",
+      "nextSectionId": "classic-ditian-2600158:section:139653"
+    },
+    {
+      "id": "classic-ditian-2600158:section:139653",
+      "bookId": "classic-ditian-2600158",
+      "title": "二十八、岁运",
+      "headingLevel": 3,
+      "path": [
+        "六亲论",
+        "二十八、岁运"
+      ],
+      "start": 139653,
+      "end": 142775,
+      "sha256": "6004ef9c160051e2914b66c142bc1e7f9d35255938e0365e193a86cbf3976654",
+      "kind": "section",
+      "previousSectionId": "classic-ditian-2600158:section:136545",
+      "nextSectionId": "classic-ditian-2600158:section:142775"
+    },
+    {
+      "id": "classic-ditian-2600158:section:142775",
+      "bookId": "classic-ditian-2600158",
+      "title": "二十九、贞元",
+      "headingLevel": 3,
+      "path": [
+        "六亲论",
+        "二十九、贞元"
+      ],
+      "start": 142775,
+      "end": 143701,
+      "sha256": "3e1acfc8e46f08551dacd9254abf68575d556c3ecb08031d105fd295b99f200f",
+      "kind": "section",
+      "previousSectionId": "classic-ditian-2600158:section:139653"
+    }
+  ],
+  "quality": {
+    "privateUseCharacters": [],
+    "originalTranscription": true,
+    "scanCollation": false,
+    "note": "固定电子转录保留原字、标点与Wiki排版标记；未进行影印底本校勘。"
+  },
+  "coordinateConvention": "0-based Unicode codepoints; half-open [start,end); exact original UTF8 text"
+}

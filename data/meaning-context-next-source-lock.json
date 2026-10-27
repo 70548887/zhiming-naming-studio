@@ -1,0 +1,39 @@
+{
+  "schema": "meaning-context-source-lock/1",
+  "hashConvention": "sha256(JSON.stringify(fileHashes));sorted relative paths",
+  "sources": [
+    {
+      "id": "project-meaning-context-next-137",
+      "name": "项目下一批有条件完整词义证据（待独立审计）",
+      "url": "local:data/meaning-context-next.json",
+      "commit": "D03-137-MEANING-NEXT;batch1",
+      "license": "CC0-1.0 project metadata only;original MOE CC-BY-ND-3.0-TW retained",
+      "files": [
+        "data/dataset-v6.json",
+        "data/meaning-context-next-NOTICE.md",
+        "data/meaning-context-next.json",
+        "data/meaning-gap-classification.json",
+        "data/naming-editorial-v7.json",
+        "data/raw/CC-BY-ND-3.0-TW.html",
+        "data/raw/meaning-context-batch1-review.json",
+        "data/raw/meaning-context-gap-policy.json",
+        "data/raw/moe-README.md",
+        "data/raw/moe-revised.json.gz"
+      ],
+      "sha256": "0bd01932fe21ee44fda65cdd766ae838e24b73b1bff2e86768be7a5dfcf8aa2b",
+      "note": "20字完整复词条件证据，243缺口归类；未注册新方法版本、不改变独立字义和评分。",
+      "fileHashes": {
+        "data/dataset-v6.json": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+        "data/meaning-context-next-NOTICE.md": "93f7dd60d3dcc09dbf2221f365f0ee0c7cfe757266f2485ac63e7c4b07c719f7",
+        "data/meaning-context-next.json": "3dc77f55dca1516ae3cb4231a022a58aca1874189da6ea99c101c6931b7a1877",
+        "data/meaning-gap-classification.json": "1be67b4d4a9f02ef38697d1fca8b4385b5eb2ef9abe54ef78dfe962a94615ccc",
+        "data/naming-editorial-v7.json": "392fa47441a0c410b0903c3e85853081225a1a5e9f540b5467e4ea4e2151cc48",
+        "data/raw/CC-BY-ND-3.0-TW.html": "04e6ef69a223b6e13c93c97a918ad5fd0dbb9fc34ae307f4449ed264e2d4108f",
+        "data/raw/meaning-context-batch1-review.json": "01df11ddaf15780cb472533114ac4175e718ce80b6f1f090d79603c1cdfd3b0c",
+        "data/raw/meaning-context-gap-policy.json": "949297c14cba5f56014b8003311bbbe5aa4837a99ddb57529b428f7330f85a04",
+        "data/raw/moe-README.md": "a93321d9381bc1cf34b4ad844f71607fa748c86c0b228ae37d46720d6a659cb2",
+        "data/raw/moe-revised.json.gz": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e"
+      }
+    }
+  ]
+}

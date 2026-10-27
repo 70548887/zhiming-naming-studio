@@ -1,0 +1,130 @@
+{
+  "version": "qiongtong-2294674-monthly-cong-sha/1.0.0",
+  "source": {
+    "title": "穷通宝鉴",
+    "pageId": 1057030,
+    "revisionId": 2294674,
+    "revisionTimestamp": "2023-06-14T13:49:39Z",
+    "url": "https://zh.wikisource.org/w/index.php?title=穷通宝鉴&oldid=2294674",
+    "permalink": "https://zh.wikisource.org/w/index.php?oldid=2294674",
+    "contributorHistory": "https://zh.wikisource.org/w/index.php?title=%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4&action=history",
+    "rawSha256": "8ba17242f116583de2e10172e006f5ce5f74b23ccfc0bd24b886be135e9f20bd",
+    "rawCharacters": 36746,
+    "license": "Wikisource transcription CC-BY-SA-4.0; no claim of independent scanned-edition or public-domain-chain verification",
+    "scanCollation": false,
+    "sourceVersionType": "fixed-electronic-transcription"
+  },
+  "changes": "Ten exact contextual passages retained. Five monthly 从杀 routes distinguish unknown strength/scope from observable stem-position subsets and dependent counter-signals. No original fortune conclusions implemented.",
+  "excerpts": [
+    {
+      "id": "bing-hai-context",
+      "sourceQuote": "'''十月丙火'''，太阳失令，得见甲戊庚出干，可云科甲，主为人性好清高，斯文领袖。如辛透见辰，名化合逢时，主大贵。",
+      "sourceLocator": "oldid=2294674;codepoint[12312,12370)",
+      "sourceSpan": {
+        "start": 12312,
+        "end": 12370,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      }
+    },
+    {
+      "id": "bing-hai-route",
+      "sourceQuote": "或壬多无甲，乃作弃命从杀，即不科甲，亦是宦僚。或壬多有甲无戊，却非从杀，宜用己土混壬。",
+      "sourceLocator": "oldid=2294674;codepoint[12372,12415)",
+      "sourceSpan": {
+        "start": 12372,
+        "end": 12415,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      }
+    },
+    {
+      "id": "bing-zi-context",
+      "sourceQuote": "'''十一月丙火'''，冬至一阳生，弱中复强，壬水为最，戊土佐之。",
+      "sourceLocator": "oldid=2294674;codepoint[12525,12558)",
+      "sourceSpan": {
+        "start": 12525,
+        "end": 12558,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      }
+    },
+    {
+      "id": "bing-zi-route",
+      "sourceQuote": "或四柱多壬无甲，乃作弃命从杀，亦有云路。",
+      "sourceLocator": "oldid=2294674;codepoint[12672,12692)",
+      "sourceSpan": {
+        "start": 12672,
+        "end": 12692,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      }
+    },
+    {
+      "id": "bing-zi-negative",
+      "sourceQuote": "或水多、有甲、无戊，却非从杀，宜用己土浊壬，十一月丙火，与十月颇同。",
+      "sourceLocator": "oldid=2294674;codepoint[12694,12728)",
+      "sourceSpan": {
+        "start": 12694,
+        "end": 12728,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      }
+    },
+    {
+      "id": "ding-zi-route",
+      "sourceQuote": "'''十一月丁火'''，或仲冬水多癸旺，全无比印，此作弃命从杀，亦有异途功名。见丁比出干，难合格局，常人，且主骨肉浮云，六亲流水。戊出破癸，颇有兄弟妻儿。此格用戊，火妻土子。用甲、水妻木子。",
+      "sourceLocator": "oldid=2294674;codepoint[16177,16272)",
+      "sourceSpan": {
+        "start": 16177,
+        "end": 16272,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      }
+    },
+    {
+      "id": "geng-wu-context",
+      "sourceQuote": "'''五月庚金'''，丁火旺烈，庚金败地，专用壬水，癸又次之。壬透癸藏，支见庚辛，必然科甲，切忌戊己透干制水、则否。戊藏支内，不失儒林。或壬在支，有金生助，又得金神出干，明经之贵。或癸出带辛，异路之荣。",
+      "sourceLocator": "oldid=2294674;codepoint[24165,24266)",
+      "sourceSpan": {
+        "start": 24165,
+        "end": 24266,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      }
+    },
+    {
+      "id": "geng-wu-route",
+      "sourceQuote": "总之，仲夏无水，必非上格，或一派木火，无伤、印、比劫，又作从杀而论。",
+      "sourceLocator": "oldid=2294674;codepoint[24330,24364)",
+      "sourceSpan": {
+        "start": 24330,
+        "end": 24364,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      }
+    },
+    {
+      "id": "gui-wu-context",
+      "sourceQuote": "'''五月癸水'''，至弱无根，必须庚辛为生身之本，但丁火司权，金难敌火，安能滋养癸水，宜见比劫，方得辛金之用。五月癸水，庚辛壬参酌并用可也。",
+      "sourceLocator": "oldid=2294674;codepoint[34785,34856)",
+      "sourceSpan": {
+        "start": 34785,
+        "end": 34856,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      }
+    },
+    {
+      "id": "gui-wu-route",
+      "sourceQuote": "或支成火局，无壬出干，定主僧道。或二壬一庚同透，衣锦腰金。或一派己土，无甲出制，此作从杀而论，又主大贵。凡从杀者，切不可破格方吉。",
+      "sourceLocator": "oldid=2294674;codepoint[34959,35024)",
+      "sourceSpan": {
+        "start": 34959,
+        "end": 35024,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      }
+    }
+  ]
+}

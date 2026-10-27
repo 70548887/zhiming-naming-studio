@@ -1,0 +1,56 @@
+{
+  "schema": "jia-hai-control-managed-inputs/1.0.0",
+  "sourceVersion": "jia-hai-wu-ren-project-intervention/1.0.0",
+  "sourceSchema": "jia-hai-wu-ren-source-context/1.0.0",
+  "revision": "wikisource-revision/2294674",
+  "rawSha256": "8ba17242f116583de2e10172e006f5ce5f74b23ccfc0bd24b886be135e9f20bd",
+  "contextSpan": {
+    "start": 4638,
+    "end": 4671,
+    "unit": "unicode-codepoint",
+    "interval": "[start,end)"
+  },
+  "contextSha256": "9a49ea96cca93edb51def09359035dddad18cafa5f72eb23f36c828fbae33fbf",
+  "quote": "忌壬水泛身，须戊土制之。",
+  "quoteSpan": {
+    "start": 4659,
+    "end": 4671,
+    "unit": "unicode-codepoint",
+    "interval": "[start,end)"
+  },
+  "counterControl": {
+    "quote": "或甲多制戊，庚金无根",
+    "safeSpan": {
+      "start": 4708,
+      "end": 4718,
+      "unit": "unicode-codepoint",
+      "interval": "[start,end)"
+    }
+  },
+  "files": [
+    {
+      "file": "rule-input.ts",
+      "role": "rule-input",
+      "sha256": "8c908ed605590b8deeaf24da11fced479ccd7b8b049ad0046f65c63564df6288",
+      "bytes": 19957
+    },
+    {
+      "file": "types-input.ts",
+      "role": "types-input",
+      "sha256": "d224c119834128928428e0e13d8314692de577af871e7086ed297edb875994e6",
+      "bytes": 4925
+    },
+    {
+      "file": "source.json",
+      "role": "source",
+      "sha256": "46043f55f413c5d98145041ea3b88fbe506c4911bbeb37f814858196a9a8b8b9",
+      "bytes": 2379
+    }
+  ],
+  "notice": {
+    "file": "NOTICE.md",
+    "role": "project-attribution",
+    "sha256": "917f32130efd4a911216dbd6f5c028df41afb7e216606c0980db5e40a6f86a46",
+    "bytes": 1002
+  }
+}

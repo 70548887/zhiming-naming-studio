@@ -1,0 +1,89 @@
+name: Windows locked verification
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: windows-verify-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    runs-on: windows-2022
+    timeout-minutes: 45
+    defaults:
+      run:
+        shell: pwsh
+    env:
+      CI: 'true'
+      # Preserve Git blob bytes used by the existing fixed-source checks.
+      GIT_CONFIG_COUNT: '1'
+      GIT_CONFIG_KEY_0: core.autocrlf
+      GIT_CONFIG_VALUE_0: 'false'
+    steps:
+      - name: Check out the exact triggering commit
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Set the existing Node baseline and lockfile cache
+        uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: '22.16.0'
+          cache: npm
+          cache-dependency-path: package-lock.json
+          package-manager-cache: false
+
+      - name: Record the actual runner and toolchain
+        run: |
+          $ErrorActionPreference = 'Stop'
+          New-Item -ItemType Directory -Path verification-output/prerequisites -Force | Out-Null
+          node --version | Tee-Object -FilePath verification-output/prerequisites/node-version.txt
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          npm --version | Tee-Object -FilePath verification-output/prerequisites/npm-version.txt
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          git rev-parse HEAD | Tee-Object -FilePath verification-output/prerequisites/checkout-head.txt
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          [ordered]@{
+            runnerOS = $env:RUNNER_OS
+            runnerArch = $env:RUNNER_ARCH
+            imageOS = $env:ImageOS
+            imageVersion = $env:ImageVersion
+            lockfileSha256 = (Get-FileHash -LiteralPath package-lock.json -Algorithm SHA256).Hash.ToLowerInvariant()
+          } | ConvertTo-Json | Set-Content -LiteralPath verification-output/prerequisites/runner.json -Encoding utf8
+
+      - name: Check the CI input preflight boundaries
+        run: |
+          node --test scripts/ci/check-inputs.test.mjs scripts/verification/source-profile-reseal-138.test.mjs scripts/verification/outer-source-admission-138.test.mjs 2>&1 | Tee-Object -FilePath verification-output/prerequisites/ci-input-tests.log
+          exit $LASTEXITCODE
+
+      - name: Require checkout-contained fixed inputs and license originals
+        run: |
+          node scripts/ci/check-inputs.mjs --output verification-output/prerequisites/inputs.json
+          exit $LASTEXITCODE
+
+      - name: Install exactly the committed lockfile
+        run: |
+          npm ci --no-audit --fund=false 2>&1 | Tee-Object -FilePath verification-output/prerequisites/npm-ci.log
+          exit $LASTEXITCODE
+
+      - name: Run the existing complete controlled verification
+        run: |
+          node scripts/verify.mjs --profile ci --output verification-output/ci 2>&1 | Tee-Object -FilePath verification-output/prerequisites/verify-console.log
+          exit $LASTEXITCODE
+
+      - name: Archive the actual logs and reports on success or failure
+        if: always()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: windows-verification-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            verification-output/prerequisites
+            verification-output/ci
+          if-no-files-found: error
+          retention-days: 14

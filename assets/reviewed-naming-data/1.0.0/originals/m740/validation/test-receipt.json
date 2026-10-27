@@ -1,0 +1,16 @@
+{
+  "schema": "m740-test-receipt/1",
+  "status": "passed",
+  "command": "node --test tests/data.test.mjs",
+  "cwd": "D:/Codex-NamingStudio-Evidence/m740-character-meanings",
+  "tests": 14,
+  "passed": 14,
+  "failed": 0,
+  "skipped": 0,
+  "exitCode": 0,
+  "actualToolOutputId": "1e32b8",
+  "independentSemanticReview": "not-executed",
+  "actualQueryWiring": "not-executed",
+  "actualGenerationWiring": "not-executed",
+  "formalCoverageAdded": 0
+}

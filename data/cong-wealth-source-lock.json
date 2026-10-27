@@ -1,0 +1,27 @@
+{
+  "version": "qiongtong-2294674-monthly-cong-wealth/1.0.0",
+  "hashConvention": "sha256(JSON.stringify(fileHashes)); sorted relative keys",
+  "sources": [
+    {
+      "id": "bazi-cong-wealth-qiongtong-2294674",
+      "name": "穷通宝鉴2294674月别从财原句：结构候选及本条反证",
+      "url": "https://zh.wikisource.org/w/index.php?title=穷通宝鉴&oldid=2294674",
+      "commit": "wikisource-revision/2294674",
+      "license": "CC-BY-SA-4.0（维基文库转录、节录与月别结构映射）",
+      "files": [
+        "data/cong-wealth-rules.json",
+        "data/raw/cong-wealth-qiongtong-excerpts.json",
+        "data/raw/cong-wealth-ATTRIBUTION.md",
+        "data/raw/CC-BY-SA-4.0.txt"
+      ],
+      "note": "同版甲辰、乙午未、庚卯从财四路径；明示无水、无比劫出干等可核；一片、土局、戊己范围未决。候选不是格局成立，反证仅说明本条路径不符；不把其他书真假从规则混入。",
+      "fileHashes": {
+        "data/cong-wealth-rules.json": "158ca8518800cf8e3c51307189c069cd10669a40995a9722877b6edcb434f107",
+        "data/raw/CC-BY-SA-4.0.txt": "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5",
+        "data/raw/cong-wealth-ATTRIBUTION.md": "aa079d176ff831eecace2e7dab0b0189e0b1d7438dba22c35fb8f91c7dbbc7b2",
+        "data/raw/cong-wealth-qiongtong-excerpts.json": "fa94b431987e68f3714e1c92956ff50973bd0f39ee4e08917199fa8ce6352a55"
+      },
+      "sha256": "9da08fccf17eced44b81fb25373419d16875c7e9d364288f07bd874b516d259e"
+    }
+  ]
+}

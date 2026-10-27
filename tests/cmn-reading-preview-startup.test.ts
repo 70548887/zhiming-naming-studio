@@ -1,0 +1,30 @@
+import {afterEach,expect,it,vi} from 'vitest';
+import {createCmnPreviewProject,cmnBuildFileSnapshot} from './helpers/cmn-preview-project';
+import fs from 'node:fs';import path from 'node:path';import os from 'node:os';
+import {createServer,type ViteDevServer} from 'vite';
+import {studioDevPlugin} from '../scripts/dev-plugin';
+import {StudioService} from '../src/main/service';
+import {CmnReadingWorkerHost} from '../src/main/cmn-reading-worker-host';
+const parent=fs.realpathSync.native(os.tmpdir());let directory:string|undefined,server:ViteDevServer|undefined,project:ReturnType<typeof createCmnPreviewProject>|undefined;
+afterEach(async()=>{await server?.close();server=undefined;project?.close();project=undefined;vi.restoreAllMocks();vi.unstubAllEnvs();if(directory){if(!directory.startsWith(parent+path.sep))throw Error('Unsafe preview cleanup');fs.rmSync(directory,{recursive:true,force:true});directory=undefined;}});
+it('a clean ordinary Vite plugin startup builds and awaits its real worker before HTTP queries, then closes it with the server',async()=>{
+  directory=fs.realpathSync.native(fs.mkdtempSync(path.join(parent,'cmn-preview-clean-')));vi.stubEnv('NAMING_STUDIO_PREVIEW_DATA',path.join(directory,'user'));
+  const existingBuild=cmnBuildFileSnapshot();project=createCmnPreviewProject();const root=project.root,dist=path.join(root,'dist-electron');
+  expect(fs.existsSync(path.join(dist,'cmn-reading-worker.cjs'))).toBe(false);
+  const close=vi.spyOn(StudioService.prototype,'closeCmnReadingWorker'),query=vi.spyOn(CmnReadingWorkerHost.prototype,'query');
+  server=await createServer({root,configFile:false,plugins:[studioDevPlugin()],server:{host:'127.0.0.1',port:0,watch:{ignored:['**/*']}}});
+  expect(fs.existsSync(path.join(dist,'cmn-reading-worker.cjs'))).toBe(true);expect(fs.existsSync(path.join(dist,'main.cjs'))).toBe(false);expect(fs.existsSync(path.join(dist,'preload.cjs'))).toBe(false);
+  await server.listen();const address=server.httpServer!.address();if(!address||typeof address==='string')throw Error('Expected private TCP listener');
+  const origin='http://127.0.0.1:'+address.port;
+  const response=await fetch(origin+'/__studio_api/getCmnReadingOptions',{method:'POST',headers:{'Content-Type':'application/json','X-Studio-Local-Request':'1',Origin:origin},body:'["长"]'});
+  expect(response.status).toBe(200);const q=await response.json();expect(q.options.map((o:{pinyin:string})=>o.pinyin)).toEqual(['cháng','zhàng','zhǎng']);expect(q.currentDefault.pinyin).toBe('cháng');
+  const h=query.mock.contexts[0] as CmnReadingWorkerHost;expect(h.snapshot().active).toBe(true);
+  const invalid=await fetch(origin+'/__studio_api/getCmnReadingOptions',{method:'POST',headers:{'Content-Type':'application/json','X-Studio-Local-Request':'1'},body:'["长长"]'});expect(invalid.status).toBe(400);expect(await invalid.json()).toEqual({error:'请输入一个完整的汉字。'});
+  await server.close();server=undefined;await new Promise(r=>setImmediate(r));expect(close).toHaveBeenCalledTimes(1);await Promise.all(close.mock.results.map(r=>r.value));expect(h.snapshot()).toEqual({active:false,pending:0,closed:true});
+  expect(cmnBuildFileSnapshot()).toEqual(existingBuild);
+},30000);
+it('worker compile failure rejects standard Vite startup instead of serving an old artifact',async()=>{
+  directory=fs.realpathSync.native(fs.mkdtempSync(path.join(parent,'cmn-preview-build-fail-')));fs.mkdirSync(path.join(directory,'src/main'),{recursive:true});fs.mkdirSync(path.join(directory,'dist-electron'));
+  fs.writeFileSync(path.join(directory,'src/main/cmn-reading-worker.ts'),'export const = invalid syntax;');fs.writeFileSync(path.join(directory,'dist-electron/cmn-reading-worker.cjs'),'throw Error("stale artifact must not be served");');
+  await expect(createServer({root:directory,configFile:false,plugins:[studioDevPlugin()],server:{host:'127.0.0.1',port:0,watch:{ignored:['**/*']}}})).rejects.toThrow();
+});

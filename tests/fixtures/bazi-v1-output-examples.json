@@ -1,0 +1,2010 @@
+{
+  "version": "civil-midnight-fuyi-candidate/1.1.0;lunar-typescript/1.8.6",
+  "method": "Captured original 1.1 evidence before month-authority method was enabled.",
+  "cases": [
+    {
+      "profile": {
+        "id": "v1-frozen",
+        "customerName": "冻结1.1快照",
+        "surname": "林",
+        "surnamePinyin": "lín",
+        "gender": "中性",
+        "calendar": "solar",
+        "birthDate": "2024-02-10",
+        "birthTime": "09:30",
+        "timeUnknown": false,
+        "leapMonth": false,
+        "birthPlace": "上海",
+        "timezone": "Asia/Shanghai",
+        "notes": ""
+      },
+      "expected": {
+        "solarDate": "2024-02-10 09:30",
+        "lunarDate": "二〇二四年正月初一",
+        "zodiac": "龙",
+        "pillars": [
+          {
+            "label": "年柱",
+            "gan": "甲",
+            "zhi": "辰",
+            "element": "木土",
+            "hidden": [
+              "戊",
+              "乙",
+              "癸"
+            ],
+            "tenGod": "比肩"
+          },
+          {
+            "label": "月柱",
+            "gan": "丙",
+            "zhi": "寅",
+            "element": "火木",
+            "hidden": [
+              "甲",
+              "丙",
+              "戊"
+            ],
+            "tenGod": "食神"
+          },
+          {
+            "label": "日柱",
+            "gan": "甲",
+            "zhi": "辰",
+            "element": "木土",
+            "hidden": [
+              "戊",
+              "乙",
+              "癸"
+            ],
+            "tenGod": "日主"
+          },
+          {
+            "label": "时柱",
+            "gan": "己",
+            "zhi": "巳",
+            "element": "土火",
+            "hidden": [
+              "丙",
+              "戊",
+              "庚"
+            ],
+            "tenGod": "正财"
+          }
+        ],
+        "elements": {
+          "木": 3,
+          "火": 2,
+          "土": 3,
+          "金": 0,
+          "水": 0
+        },
+        "favorable": [],
+        "unfavorable": [],
+        "strength": "接近平衡，候选结论不唯一",
+        "reasons": [
+          "日主甲木；月令寅木。",
+          "通根检查（地支藏干含日主同类）：年柱辰、月柱寅、日柱辰；同类或印星透干：年柱甲。",
+          "扶抑候选使用本产品可解释启发式：透干权重1，支藏干本/中/余气按1或0.7/0.3或0.6/0.25/0.15，月支权重2；此权重不是古籍定量公式。",
+          "比印加权占比44%，小于38%初筛偏弱，大于55%初筛偏强，其余保留多解；候选按生扶或泄耗制衡关系选择，不按缺项选择。",
+          "出生地民用时间 Asia/Shanghai，00:00换日；年柱立春、月柱节令，以精确交节时刻划分；生肖按农历年，可能与年柱年界不同。"
+        ],
+        "seasonalAdvice": "春月关注木气与寒暖燥湿的具体组合，暂不按季节机械指定补益元素。",
+        "warnings": [
+          "五行明字数量仅为天干与地支本气计数，不代表喜用神；扶抑结果为规则候选，特殊格局须人工复核。"
+        ],
+        "version": "civil-midnight-fuyi-candidate/1.1.0;lunar-typescript/1.8.6",
+        "ruleDescription": "扶抑启发式候选：月令加权、通根、透干及生克关系；不处理从格、化气格和天干地支合化，不能替代起名师的流派判断。",
+        "evidence": {
+          "version": "bazi-evidence-profile/1.0.0",
+          "profile": "civil-midnight;factual-relations;separate-fuyi-seasonal-opinions",
+          "sources": [
+            {
+              "id": "bazi-evidence-lunar186",
+              "name": "lunar-typescript 1.8.6 固定关系与历算接口",
+              "url": "https://github.com/6tail/lunar-typescript",
+              "revision": "0f3e95d15e31f1a7c7b93d624542649347328a20",
+              "locator": "src/lib/LunarUtil.ts:813–814 HE_GAN_5/HE_ZHI_6,928–1043 SHI_SHEN/ZHI_HIDE_GAN; src/lib/Lunar.ts:1332–1347 getNextJie/getPrevJie",
+              "note": "MIT；藏干顺序、十神、五合、六合及十二节接口的所选电子实现；组合出现不等于化气，固定实现不等于独立天文精度验证。"
+            },
+            {
+              "id": "bazi-evidence-go-ganzhi",
+              "name": "qimen-go 固定干支组合表",
+              "url": "https://github.com/deminzhang/qimen-go",
+              "revision": "4d3f58fa0f401b5b3a337f119138e99e90685dda",
+              "locator": "xuan/ganzhi.go:75–133 HeGan/HeZhi/ChongZhi/He3Zhi/Hui3Zhi",
+              "note": "MIT；只取三合、三会与六冲组成员事实，不采用其六合化气注释，也不据此宣布格局成立。"
+            },
+            {
+              "id": "bazi-evidence-project-heuristic",
+              "name": "本产品既有扶抑与季节意象启发式",
+              "url": "local:data/bazi-evidence-project-profile.json",
+              "revision": "project-fuyi-seasonal/1.0.0",
+              "locator": "data/bazi-evidence-project-profile.json",
+              "note": "项目自编数值与季节意见，非古籍定量公式，非《穷通宝鉴》逐日干逐月用神表；不具备唯一喜用神判定。"
+            }
+          ],
+          "rules": [
+            {
+              "id": "bazi-hidden-tengod",
+              "version": "1.0.0",
+              "name": "所选藏干表与相对日主十神",
+              "sourceIds": [
+                "bazi-evidence-lunar186"
+              ],
+              "conditions": [
+                "只列已确定的柱；时刻未知时不补时柱，交节待定的月柱不补事实。",
+                "藏干顺序保留所选电子表列序，序号从1开始；不是司权顺序，也不用于本产品既有扶抑权重。",
+                "旧扶抑的巳列序丙戊庚保持不变；本事实表巳列序丙庚戊来自所选lunar-typescript电子表。",
+                "按天干阴阳与五行生克列十神；此层不判断喜忌、从格或吉凶。"
+              ]
+            },
+            {
+              "id": "bazi-stem-five-combination",
+              "version": "1.0.0",
+              "name": "天干五合出现核查",
+              "sourceIds": [
+                "bazi-evidence-lunar186"
+              ],
+              "conditions": [
+                "仅核查四柱已确定的明干中甲己、乙庚、丙辛、丁壬、戊癸配对。",
+                "不要求相邻；逐对保留柱位，未评估距离、争合、得时或化神条件。",
+                "来源只证配对，不输出候选化气五行或合化成立结论。"
+              ]
+            },
+            {
+              "id": "bazi-branch-six-combination",
+              "version": "1.0.0",
+              "name": "地支六合出现核查",
+              "sourceIds": [
+                "bazi-evidence-lunar186"
+              ],
+              "conditions": [
+                "仅核查子丑、寅亥、卯戌、辰酉、巳申、午未六组。",
+                "只列确定地支的配对，不输出六合化成何行，也不把六合当作统一吉凶。"
+              ]
+            },
+            {
+              "id": "bazi-branch-three-combination",
+              "version": "1.0.0",
+              "name": "地支三合组全支出现",
+              "sourceIds": [
+                "bazi-evidence-go-ganzhi"
+              ],
+              "conditions": [
+                "只在申子辰、寅午戌、亥卯未、巳酉丑三支全部出现在已确定四柱时记录。",
+                "重复地支不替代缺少的第三支；不把半合、拱合或三合组齐全认定为合化。"
+              ]
+            },
+            {
+              "id": "bazi-branch-three-meeting",
+              "version": "1.0.0",
+              "name": "地支三会组全支出现",
+              "sourceIds": [
+                "bazi-evidence-go-ganzhi"
+              ],
+              "conditions": [
+                "只在亥子丑、寅卯辰、巳午未、申酉戌三支全部出现在已确定四柱时记录。",
+                "仅记录完整组成员和实际柱位，不输出力量、化气或吉凶判定。"
+              ]
+            },
+            {
+              "id": "bazi-branch-six-clash",
+              "version": "1.0.0",
+              "name": "地支六冲配对出现",
+              "sourceIds": [
+                "bazi-evidence-go-ganzhi"
+              ],
+              "conditions": [
+                "只记录子午、丑未、寅申、卯酉、辰戌、巳亥配对的实际柱位。",
+                "配对出现不等于凶断；不评估冲动、冲散、旺衰或流年。"
+              ]
+            },
+            {
+              "id": "bazi-month-authority",
+              "version": "1.0.0",
+              "name": "十二节实际区间与待核实的司权取法",
+              "sourceIds": [
+                "bazi-evidence-lunar186"
+              ],
+              "conditions": [
+                "以相邻十二节划分月令，交节瞬间按 UTC+08:00 历算转换为实际瞬间。",
+                "已记录十二节区间，不代表已选定月令分日司权表；未核实分日表前不输出司权。",
+                "未知时刻保留当日本地有效时段；重复民用小时按既有政策取第一次实际瞬间，并标注歧义。"
+              ]
+            },
+            {
+              "id": "bazi-fuyi-opinion",
+              "version": "1.0.0",
+              "name": "既有项目扶抑初筛意见",
+              "sourceIds": [
+                "bazi-evidence-project-heuristic"
+              ],
+              "conditions": [
+                "照录既有扶抑候选，不用本模块新事实改动排序或筛选。",
+                "透干1；旧支藏干权重1或0.7/0.3或0.6/0.25/0.15，月支乘2；比印占比小于38%或大于55%作初筛。",
+                "全部权重、阈值为产品自编；不宣称来源于古籍或流派公认定量式。"
+              ]
+            },
+            {
+              "id": "bazi-seasonal-opinion",
+              "version": "1.0.0",
+              "name": "季节寒暖意象意见",
+              "sourceIds": [
+                "bazi-evidence-project-heuristic"
+              ],
+              "conditions": [
+                "只提供现有冬火、夏水季节意象，春秋保留多解。",
+                "这不是《穷通宝鉴》的逐日干逐月调候取用；未计算燥湿、具体用神搭配或通关。",
+                "不覆盖扶抑、不自动参与姓名排序，所有意见须人工复核。"
+              ]
+            }
+          ],
+          "dayMaster": {
+            "stem": "甲",
+            "element": "木"
+          },
+          "timeBasis": {
+            "timezone": "Asia/Shanghai",
+            "timeUnknown": false,
+            "ambiguous": false,
+            "description": "出生地民用午夜换日，交节按实际瞬间与北京时间历算比对；未作真太阳时修正。"
+          },
+          "stems": [
+            {
+              "pillar": "年柱",
+              "stem": "甲",
+              "element": "木",
+              "tenGod": "比肩",
+              "relationToDay": "与日主同五行",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "月柱",
+              "stem": "丙",
+              "element": "火",
+              "tenGod": "食神",
+              "relationToDay": "日主生此干",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "日柱",
+              "stem": "甲",
+              "element": "木",
+              "tenGod": "日主",
+              "relationToDay": "日主自身",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "时柱",
+              "stem": "己",
+              "element": "土",
+              "tenGod": "正财",
+              "relationToDay": "日主克此干",
+              "ruleId": "bazi-hidden-tengod"
+            }
+          ],
+          "hiddenStems": [
+            {
+              "pillar": "年柱",
+              "branch": "辰",
+              "stem": "戊",
+              "element": "土",
+              "order": 1,
+              "tenGod": "偏财",
+              "relationToDay": "日主克此干",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "年柱",
+              "branch": "辰",
+              "stem": "乙",
+              "element": "木",
+              "order": 2,
+              "tenGod": "劫财",
+              "relationToDay": "与日主同五行",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "年柱",
+              "branch": "辰",
+              "stem": "癸",
+              "element": "水",
+              "order": 3,
+              "tenGod": "正印",
+              "relationToDay": "此干生日主",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "月柱",
+              "branch": "寅",
+              "stem": "甲",
+              "element": "木",
+              "order": 1,
+              "tenGod": "比肩",
+              "relationToDay": "与日主同五行",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "月柱",
+              "branch": "寅",
+              "stem": "丙",
+              "element": "火",
+              "order": 2,
+              "tenGod": "食神",
+              "relationToDay": "日主生此干",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "月柱",
+              "branch": "寅",
+              "stem": "戊",
+              "element": "土",
+              "order": 3,
+              "tenGod": "偏财",
+              "relationToDay": "日主克此干",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "日柱",
+              "branch": "辰",
+              "stem": "戊",
+              "element": "土",
+              "order": 1,
+              "tenGod": "偏财",
+              "relationToDay": "日主克此干",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "日柱",
+              "branch": "辰",
+              "stem": "乙",
+              "element": "木",
+              "order": 2,
+              "tenGod": "劫财",
+              "relationToDay": "与日主同五行",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "日柱",
+              "branch": "辰",
+              "stem": "癸",
+              "element": "水",
+              "order": 3,
+              "tenGod": "正印",
+              "relationToDay": "此干生日主",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "时柱",
+              "branch": "巳",
+              "stem": "丙",
+              "element": "火",
+              "order": 1,
+              "tenGod": "食神",
+              "relationToDay": "日主生此干",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "时柱",
+              "branch": "巳",
+              "stem": "庚",
+              "element": "金",
+              "order": 2,
+              "tenGod": "七杀",
+              "relationToDay": "此干克日主",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "时柱",
+              "branch": "巳",
+              "stem": "戊",
+              "element": "土",
+              "order": 3,
+              "tenGod": "偏财",
+              "relationToDay": "日主克此干",
+              "ruleId": "bazi-hidden-tengod"
+            }
+          ],
+          "relations": [
+            {
+              "kind": "stem-combination",
+              "label": "天干五合配对",
+              "subjects": [
+                "甲",
+                "己"
+              ],
+              "pillars": [
+                "年柱",
+                "时柱"
+              ],
+              "ruleId": "bazi-stem-five-combination",
+              "evidence": [
+                "年柱甲与时柱己构成甲己五合配对。",
+                "只记录配对，不输出候选化气五行，不判断合化成立或据此改变五行计数。"
+              ]
+            },
+            {
+              "kind": "stem-combination",
+              "label": "天干五合配对",
+              "subjects": [
+                "甲",
+                "己"
+              ],
+              "pillars": [
+                "日柱",
+                "时柱"
+              ],
+              "ruleId": "bazi-stem-five-combination",
+              "evidence": [
+                "日柱甲与时柱己构成甲己五合配对。",
+                "只记录配对，不输出候选化气五行，不判断合化成立或据此改变五行计数。"
+              ]
+            }
+          ],
+          "monthAuthority": {
+            "status": "not-evaluated",
+            "ruleId": "bazi-month-authority",
+            "method": "相邻十二节实际瞬间区间；司权分日表尚待核实",
+            "candidates": [],
+            "segments": [
+              {
+                "monthBranch": "寅",
+                "previousJie": "立春",
+                "previousJieAt": "2024-02-04T08:27:07.000Z",
+                "startAt": "2024-02-10T01:30:00.000Z",
+                "endAt": "2024-02-10T01:30:00.000Z",
+                "elapsedStartDays": 5.710335648148148,
+                "elapsedEndDays": 5.710335648148148,
+                "candidates": []
+              }
+            ],
+            "evidence": [
+              "区间端点为UTC实际瞬间，精确到秒；交节秒归入新节，旧段截止交节前一秒。",
+              "已记录前一节的实际交接时刻及节后经过的实际秒数；天数为实际秒数÷86400。",
+              "分日表尚未核实，不以藏干排列顺序、权重或月支本气冒充司权。"
+            ],
+            "missing": [
+              "尚未接入已核实来源与版本的月令分日司权表。"
+            ]
+          },
+          "opinions": [
+            {
+              "method": "fuyi",
+              "profile": "project-weighted-fuyi/1.0.0",
+              "status": "pending",
+              "elements": [],
+              "unfavorable": [],
+              "evidence": [
+                "接近平衡，候选结论不唯一",
+                "扶抑候选使用本产品可解释启发式：透干权重1，支藏干本/中/余气按1或0.7/0.3或0.6/0.25/0.15，月支权重2；此权重不是古籍定量公式。",
+                "比印加权占比44%，小于38%初筛偏弱，大于55%初筛偏强，其余保留多解；候选按生扶或泄耗制衡关系选择，不按缺项选择。",
+                "此意见照录原有扶抑初筛，新证据模块不改姓名筛选或排序。"
+              ],
+              "missing": [
+                "未执行从格、化气格或合化条件裁决。"
+              ],
+              "requiresManualReview": true,
+              "ruleId": "bazi-fuyi-opinion"
+            },
+            {
+              "method": "tiaohou",
+              "profile": "project-seasonal-imagery/1.0.0",
+              "status": "pending",
+              "elements": [],
+              "unfavorable": [],
+              "evidence": [
+                "春月关注木气与寒暖燥湿的具体组合，暂不按季节机械指定补益元素。",
+                "本项仅为项目季节寒暖意象，不是《穷通宝鉴》日干×月份调候用神表，不合并成唯一喜用神。"
+              ],
+              "missing": [
+                "未评估完整寒暖燥湿、日干逐月用神组合与通关条件。",
+                "所选季节没有机械指定元素，保留多解。"
+              ],
+              "requiresManualReview": true,
+              "ruleId": "bazi-seasonal-opinion"
+            }
+          ],
+          "patternCandidates": [
+            {
+              "kind": "cong",
+              "name": "从格候选",
+              "status": "not-evaluated",
+              "supportedBy": [],
+              "opposedBy": [],
+              "missing": [
+                "尚未接入可独立复核的同流派从格成立与破格条件；不以五行加权占比阈值断真从。",
+                "需明确月令、根气、透干、逆势因素及未知时柱的影响后再分阶段评估。"
+              ]
+            }
+          ],
+          "transformationEvidence": [
+            {
+              "kind": "stem-combination",
+              "subjects": [
+                "甲",
+                "己"
+              ],
+              "status": "not-evaluated",
+              "supportedBy": [
+                "仅核实年柱、时柱的甲、己组合出现。"
+              ],
+              "opposedBy": [],
+              "missing": [
+                "未接入完整同流派得令、透引、阻隔与争合等合化条件；组合出现不等于合化成立。"
+              ],
+              "ruleId": "bazi-stem-five-combination"
+            },
+            {
+              "kind": "stem-combination",
+              "subjects": [
+                "甲",
+                "己"
+              ],
+              "status": "not-evaluated",
+              "supportedBy": [
+                "仅核实日柱、时柱的甲、己组合出现。"
+              ],
+              "opposedBy": [],
+              "missing": [
+                "未接入完整同流派得令、透引、阻隔与争合等合化条件；组合出现不等于合化成立。"
+              ],
+              "ruleId": "bazi-stem-five-combination"
+            }
+          ],
+          "limitations": [
+            "事实层只描述本命已确定四柱，不推导大运、流年或命运吉凶。",
+            "关系检查覆盖五合、六合、完整三合与三会、六冲；六害、三刑、半合、拱合尚未启用。",
+            "扶抑阈值与季节意象都是明确标注的项目启发式；司权、从格及合化不应由它们自动推出。",
+            "不同流派可使用不同藏干次序、分日司权与调候取法，不能把某一电子表视为唯一标准。",
+            "本模块属于传统文化规则说明，无证据证明姓名会改变命运。"
+          ]
+        }
+      }
+    },
+    {
+      "profile": {
+        "id": "v1-frozen",
+        "customerName": "冻结1.1快照",
+        "surname": "林",
+        "surnamePinyin": "lín",
+        "gender": "中性",
+        "calendar": "solar",
+        "birthDate": "2024-02-04",
+        "birthTime": "",
+        "timeUnknown": true,
+        "leapMonth": false,
+        "birthPlace": "上海",
+        "timezone": "Asia/Shanghai",
+        "notes": ""
+      },
+      "expected": {
+        "solarDate": "2024-02-04 时刻未知",
+        "lunarDate": "二〇二三年腊月廿五",
+        "zodiac": "兔",
+        "pillars": [
+          {
+            "label": "日柱",
+            "gan": "戊",
+            "zhi": "戌",
+            "element": "土土",
+            "hidden": [
+              "戊",
+              "辛",
+              "丁"
+            ],
+            "tenGod": "日主"
+          }
+        ],
+        "elements": {
+          "木": 0,
+          "火": 0,
+          "土": 2,
+          "金": 0,
+          "水": 0
+        },
+        "favorable": [],
+        "unfavorable": [],
+        "strength": "月令待定，暂不输出喜用候选",
+        "reasons": [
+          "日主戊土；月令未定。",
+          "通根检查（地支藏干含日主同类）：日柱戌；同类或印星透干：未见。",
+          "扶抑候选使用本产品可解释启发式：透干权重1，支藏干本/中/余气按1或0.7/0.3或0.6/0.25/0.15，月支权重2；此权重不是古籍定量公式。",
+          "比印加权占比88%，小于38%初筛偏弱，大于55%初筛偏强，其余保留多解；候选按生扶或泄耗制衡关系选择，不按缺项选择。",
+          "出生地民用时间 Asia/Shanghai，00:00换日；年柱立春、月柱节令，以精确交节时刻划分；生肖按农历年，可能与年柱年界不同。"
+        ],
+        "seasonalAdvice": "月令待定，调候建议暂缺。",
+        "warnings": [
+          "五行明字数量仅为天干与地支本气计数，不代表喜用神；扶抑结果为规则候选，特殊格局须人工复核。",
+          "出生时刻未知且当日跨立春，年柱待定，未纳入计数或喜用推断。",
+          "出生时刻未知且当日交节，月柱待定，未纳入计数或喜用推断。",
+          "出生时刻未知：仅列确定的柱，不生成时柱；喜用候选属于不完整资料下的初筛。"
+        ],
+        "version": "civil-midnight-fuyi-candidate/1.1.0;lunar-typescript/1.8.6",
+        "ruleDescription": "扶抑启发式候选：月令加权、通根、透干及生克关系；不处理从格、化气格和天干地支合化，不能替代起名师的流派判断。",
+        "evidence": {
+          "version": "bazi-evidence-profile/1.0.0",
+          "profile": "civil-midnight;factual-relations;separate-fuyi-seasonal-opinions",
+          "sources": [
+            {
+              "id": "bazi-evidence-lunar186",
+              "name": "lunar-typescript 1.8.6 固定关系与历算接口",
+              "url": "https://github.com/6tail/lunar-typescript",
+              "revision": "0f3e95d15e31f1a7c7b93d624542649347328a20",
+              "locator": "src/lib/LunarUtil.ts:813–814 HE_GAN_5/HE_ZHI_6,928–1043 SHI_SHEN/ZHI_HIDE_GAN; src/lib/Lunar.ts:1332–1347 getNextJie/getPrevJie",
+              "note": "MIT；藏干顺序、十神、五合、六合及十二节接口的所选电子实现；组合出现不等于化气，固定实现不等于独立天文精度验证。"
+            },
+            {
+              "id": "bazi-evidence-go-ganzhi",
+              "name": "qimen-go 固定干支组合表",
+              "url": "https://github.com/deminzhang/qimen-go",
+              "revision": "4d3f58fa0f401b5b3a337f119138e99e90685dda",
+              "locator": "xuan/ganzhi.go:75–133 HeGan/HeZhi/ChongZhi/He3Zhi/Hui3Zhi",
+              "note": "MIT；只取三合、三会与六冲组成员事实，不采用其六合化气注释，也不据此宣布格局成立。"
+            },
+            {
+              "id": "bazi-evidence-project-heuristic",
+              "name": "本产品既有扶抑与季节意象启发式",
+              "url": "local:data/bazi-evidence-project-profile.json",
+              "revision": "project-fuyi-seasonal/1.0.0",
+              "locator": "data/bazi-evidence-project-profile.json",
+              "note": "项目自编数值与季节意见，非古籍定量公式，非《穷通宝鉴》逐日干逐月用神表；不具备唯一喜用神判定。"
+            }
+          ],
+          "rules": [
+            {
+              "id": "bazi-hidden-tengod",
+              "version": "1.0.0",
+              "name": "所选藏干表与相对日主十神",
+              "sourceIds": [
+                "bazi-evidence-lunar186"
+              ],
+              "conditions": [
+                "只列已确定的柱；时刻未知时不补时柱，交节待定的月柱不补事实。",
+                "藏干顺序保留所选电子表列序，序号从1开始；不是司权顺序，也不用于本产品既有扶抑权重。",
+                "旧扶抑的巳列序丙戊庚保持不变；本事实表巳列序丙庚戊来自所选lunar-typescript电子表。",
+                "按天干阴阳与五行生克列十神；此层不判断喜忌、从格或吉凶。"
+              ]
+            },
+            {
+              "id": "bazi-stem-five-combination",
+              "version": "1.0.0",
+              "name": "天干五合出现核查",
+              "sourceIds": [
+                "bazi-evidence-lunar186"
+              ],
+              "conditions": [
+                "仅核查四柱已确定的明干中甲己、乙庚、丙辛、丁壬、戊癸配对。",
+                "不要求相邻；逐对保留柱位，未评估距离、争合、得时或化神条件。",
+                "来源只证配对，不输出候选化气五行或合化成立结论。"
+              ]
+            },
+            {
+              "id": "bazi-branch-six-combination",
+              "version": "1.0.0",
+              "name": "地支六合出现核查",
+              "sourceIds": [
+                "bazi-evidence-lunar186"
+              ],
+              "conditions": [
+                "仅核查子丑、寅亥、卯戌、辰酉、巳申、午未六组。",
+                "只列确定地支的配对，不输出六合化成何行，也不把六合当作统一吉凶。"
+              ]
+            },
+            {
+              "id": "bazi-branch-three-combination",
+              "version": "1.0.0",
+              "name": "地支三合组全支出现",
+              "sourceIds": [
+                "bazi-evidence-go-ganzhi"
+              ],
+              "conditions": [
+                "只在申子辰、寅午戌、亥卯未、巳酉丑三支全部出现在已确定四柱时记录。",
+                "重复地支不替代缺少的第三支；不把半合、拱合或三合组齐全认定为合化。"
+              ]
+            },
+            {
+              "id": "bazi-branch-three-meeting",
+              "version": "1.0.0",
+              "name": "地支三会组全支出现",
+              "sourceIds": [
+                "bazi-evidence-go-ganzhi"
+              ],
+              "conditions": [
+                "只在亥子丑、寅卯辰、巳午未、申酉戌三支全部出现在已确定四柱时记录。",
+                "仅记录完整组成员和实际柱位，不输出力量、化气或吉凶判定。"
+              ]
+            },
+            {
+              "id": "bazi-branch-six-clash",
+              "version": "1.0.0",
+              "name": "地支六冲配对出现",
+              "sourceIds": [
+                "bazi-evidence-go-ganzhi"
+              ],
+              "conditions": [
+                "只记录子午、丑未、寅申、卯酉、辰戌、巳亥配对的实际柱位。",
+                "配对出现不等于凶断；不评估冲动、冲散、旺衰或流年。"
+              ]
+            },
+            {
+              "id": "bazi-month-authority",
+              "version": "1.0.0",
+              "name": "十二节实际区间与待核实的司权取法",
+              "sourceIds": [
+                "bazi-evidence-lunar186"
+              ],
+              "conditions": [
+                "以相邻十二节划分月令，交节瞬间按 UTC+08:00 历算转换为实际瞬间。",
+                "已记录十二节区间，不代表已选定月令分日司权表；未核实分日表前不输出司权。",
+                "未知时刻保留当日本地有效时段；重复民用小时按既有政策取第一次实际瞬间，并标注歧义。"
+              ]
+            },
+            {
+              "id": "bazi-fuyi-opinion",
+              "version": "1.0.0",
+              "name": "既有项目扶抑初筛意见",
+              "sourceIds": [
+                "bazi-evidence-project-heuristic"
+              ],
+              "conditions": [
+                "照录既有扶抑候选，不用本模块新事实改动排序或筛选。",
+                "透干1；旧支藏干权重1或0.7/0.3或0.6/0.25/0.15，月支乘2；比印占比小于38%或大于55%作初筛。",
+                "全部权重、阈值为产品自编；不宣称来源于古籍或流派公认定量式。"
+              ]
+            },
+            {
+              "id": "bazi-seasonal-opinion",
+              "version": "1.0.0",
+              "name": "季节寒暖意象意见",
+              "sourceIds": [
+                "bazi-evidence-project-heuristic"
+              ],
+              "conditions": [
+                "只提供现有冬火、夏水季节意象，春秋保留多解。",
+                "这不是《穷通宝鉴》的逐日干逐月调候取用；未计算燥湿、具体用神搭配或通关。",
+                "不覆盖扶抑、不自动参与姓名排序，所有意见须人工复核。"
+              ]
+            }
+          ],
+          "dayMaster": {
+            "stem": "戊",
+            "element": "土"
+          },
+          "timeBasis": {
+            "timezone": "Asia/Shanghai",
+            "timeUnknown": true,
+            "ambiguous": false,
+            "description": "出生地民用午夜换日，交节按实际瞬间与北京时间历算比对；未作真太阳时修正。"
+          },
+          "stems": [
+            {
+              "pillar": "日柱",
+              "stem": "戊",
+              "element": "土",
+              "tenGod": "日主",
+              "relationToDay": "日主自身",
+              "ruleId": "bazi-hidden-tengod"
+            }
+          ],
+          "hiddenStems": [
+            {
+              "pillar": "日柱",
+              "branch": "戌",
+              "stem": "戊",
+              "element": "土",
+              "order": 1,
+              "tenGod": "比肩",
+              "relationToDay": "与日主同五行",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "日柱",
+              "branch": "戌",
+              "stem": "辛",
+              "element": "金",
+              "order": 2,
+              "tenGod": "伤官",
+              "relationToDay": "日主生此干",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "日柱",
+              "branch": "戌",
+              "stem": "丁",
+              "element": "火",
+              "order": 3,
+              "tenGod": "正印",
+              "relationToDay": "此干生日主",
+              "ruleId": "bazi-hidden-tengod"
+            }
+          ],
+          "relations": [],
+          "monthAuthority": {
+            "status": "not-evaluated",
+            "ruleId": "bazi-month-authority",
+            "method": "相邻十二节实际瞬间区间；司权分日表尚待核实",
+            "candidates": [],
+            "segments": [
+              {
+                "monthBranch": "丑",
+                "previousJie": "小寒",
+                "previousJieAt": "2024-01-05T20:49:22.000Z",
+                "startAt": "2024-02-03T16:00:00.000Z",
+                "endAt": "2024-02-04T08:27:06.000Z",
+                "elapsedStartDays": 28.799050925925926,
+                "elapsedEndDays": 29.484537037037036,
+                "candidates": []
+              },
+              {
+                "monthBranch": "寅",
+                "previousJie": "立春",
+                "previousJieAt": "2024-02-04T08:27:07.000Z",
+                "startAt": "2024-02-04T08:27:07.000Z",
+                "endAt": "2024-02-04T15:59:59.000Z",
+                "elapsedStartDays": 0,
+                "elapsedEndDays": 0.31449074074074074,
+                "candidates": []
+              }
+            ],
+            "evidence": [
+              "区间端点为UTC实际瞬间，精确到秒；交节秒归入新节，旧段截止交节前一秒。",
+              "已记录前一节的实际交接时刻及节后经过的实际秒数；天数为实际秒数÷86400。",
+              "分日表尚未核实，不以藏干排列顺序、权重或月支本气冒充司权。"
+            ],
+            "missing": [
+              "尚未接入已核实来源与版本的月令分日司权表。",
+              "出生时刻未知：保留可能区间，不宣称唯一司令。"
+            ]
+          },
+          "opinions": [
+            {
+              "method": "fuyi",
+              "profile": "project-weighted-fuyi/1.0.0",
+              "status": "pending",
+              "elements": [],
+              "unfavorable": [],
+              "evidence": [
+                "月令待定，暂不输出喜用候选",
+                "扶抑候选使用本产品可解释启发式：透干权重1，支藏干本/中/余气按1或0.7/0.3或0.6/0.25/0.15，月支权重2；此权重不是古籍定量公式。",
+                "比印加权占比88%，小于38%初筛偏弱，大于55%初筛偏强，其余保留多解；候选按生扶或泄耗制衡关系选择，不按缺项选择。",
+                "此意见照录原有扶抑初筛，新证据模块不改姓名筛选或排序。"
+              ],
+              "missing": [
+                "出生时刻未知，缺时柱；扶抑候选来自不完整资料。",
+                "月柱交节待定，暂停扶抑元素候选。",
+                "未执行从格、化气格或合化条件裁决。"
+              ],
+              "requiresManualReview": true,
+              "ruleId": "bazi-fuyi-opinion"
+            },
+            {
+              "method": "tiaohou",
+              "profile": "project-seasonal-imagery/1.0.0",
+              "status": "pending",
+              "elements": [],
+              "unfavorable": [],
+              "evidence": [
+                "月令待定，调候建议暂缺。",
+                "本项仅为项目季节寒暖意象，不是《穷通宝鉴》日干×月份调候用神表，不合并成唯一喜用神。"
+              ],
+              "missing": [
+                "未评估完整寒暖燥湿、日干逐月用神组合与通关条件。",
+                "所选季节没有机械指定元素，保留多解。",
+                "出生资料不完整或瞬间有歧义，季节意见须保留人工复核。"
+              ],
+              "requiresManualReview": true,
+              "ruleId": "bazi-seasonal-opinion"
+            }
+          ],
+          "patternCandidates": [
+            {
+              "kind": "cong",
+              "name": "从格候选",
+              "status": "not-evaluated",
+              "supportedBy": [],
+              "opposedBy": [],
+              "missing": [
+                "尚未接入可独立复核的同流派从格成立与破格条件；不以五行加权占比阈值断真从。",
+                "需明确月令、根气、透干、逆势因素及未知时柱的影响后再分阶段评估。"
+              ]
+            }
+          ],
+          "transformationEvidence": [],
+          "limitations": [
+            "事实层只描述本命已确定四柱，不推导大运、流年或命运吉凶。",
+            "关系检查覆盖五合、六合、完整三合与三会、六冲；六害、三刑、半合、拱合尚未启用。",
+            "扶抑阈值与季节意象都是明确标注的项目启发式；司权、从格及合化不应由它们自动推出。",
+            "不同流派可使用不同藏干次序、分日司权与调候取法，不能把某一电子表视为唯一标准。",
+            "本模块属于传统文化规则说明，无证据证明姓名会改变命运。"
+          ]
+        }
+      }
+    },
+    {
+      "profile": {
+        "id": "v1-frozen",
+        "customerName": "冻结1.1快照",
+        "surname": "林",
+        "surnamePinyin": "lín",
+        "gender": "中性",
+        "calendar": "solar",
+        "birthDate": "2000-01-15",
+        "birthTime": "",
+        "timeUnknown": true,
+        "leapMonth": false,
+        "birthPlace": "上海",
+        "timezone": "Africa/Juba",
+        "notes": ""
+      },
+      "expected": {
+        "solarDate": "2000-01-15 时刻未知",
+        "lunarDate": "一九九九年腊月初九",
+        "zodiac": "兔",
+        "pillars": [
+          {
+            "label": "年柱",
+            "gan": "己",
+            "zhi": "卯",
+            "element": "土木",
+            "hidden": [
+              "乙"
+            ],
+            "tenGod": "正官"
+          },
+          {
+            "label": "月柱",
+            "gan": "丁",
+            "zhi": "丑",
+            "element": "火土",
+            "hidden": [
+              "己",
+              "癸",
+              "辛"
+            ],
+            "tenGod": "正财"
+          },
+          {
+            "label": "日柱",
+            "gan": "壬",
+            "zhi": "申",
+            "element": "水金",
+            "hidden": [
+              "庚",
+              "壬",
+              "戊"
+            ],
+            "tenGod": "日主"
+          }
+        ],
+        "elements": {
+          "木": 1,
+          "火": 1,
+          "土": 2,
+          "金": 1,
+          "水": 1
+        },
+        "favorable": [
+          "金",
+          "水"
+        ],
+        "unfavorable": [
+          "木",
+          "火"
+        ],
+        "strength": "扶抑初筛：日主偏弱",
+        "reasons": [
+          "日主壬水；月令丑土。",
+          "通根检查（地支藏干含日主同类）：月柱丑、日柱申；同类或印星透干：未见。",
+          "扶抑候选使用本产品可解释启发式：透干权重1，支藏干本/中/余气按1或0.7/0.3或0.6/0.25/0.15，月支权重2；此权重不是古籍定量公式。",
+          "比印加权占比38%，小于38%初筛偏弱，大于55%初筛偏强，其余保留多解；候选按生扶或泄耗制衡关系选择，不按缺项选择。",
+          "出生地民用时间 Africa/Juba，00:00换日；年柱立春、月柱节令，以精确交节时刻划分；生肖按农历年，可能与年柱年界不同。"
+        ],
+        "seasonalAdvice": "冬月偏寒，调候可关注温暖、向阳的火意象；是否适用仍须结合全局，调候意见不自动覆盖扶抑候选。",
+        "warnings": [
+          "出生时刻未知，且该日12:00处于民用时间跳转缺口；仅用该日有效起点作历算代表，未填入出生时刻或时柱。年、月柱仍按全日区间核对，交节不确定时保留待定。",
+          "采用 Africa/Juba 出生地民用日期定日柱、民用钟定时柱；年/月柱按该瞬间对应的北京时间交节。公农历按中国历法的同名日期换算，未作真太阳时校正。",
+          "五行明字数量仅为天干与地支本气计数，不代表喜用神；扶抑结果为规则候选，特殊格局须人工复核。",
+          "出生时刻未知：仅列确定的柱，不生成时柱；喜用候选属于不完整资料下的初筛。"
+        ],
+        "version": "civil-midnight-fuyi-candidate/1.1.0;lunar-typescript/1.8.6",
+        "ruleDescription": "扶抑启发式候选：月令加权、通根、透干及生克关系；不处理从格、化气格和天干地支合化，不能替代起名师的流派判断。",
+        "evidence": {
+          "version": "bazi-evidence-profile/1.0.0",
+          "profile": "civil-midnight;factual-relations;separate-fuyi-seasonal-opinions",
+          "sources": [
+            {
+              "id": "bazi-evidence-lunar186",
+              "name": "lunar-typescript 1.8.6 固定关系与历算接口",
+              "url": "https://github.com/6tail/lunar-typescript",
+              "revision": "0f3e95d15e31f1a7c7b93d624542649347328a20",
+              "locator": "src/lib/LunarUtil.ts:813–814 HE_GAN_5/HE_ZHI_6,928–1043 SHI_SHEN/ZHI_HIDE_GAN; src/lib/Lunar.ts:1332–1347 getNextJie/getPrevJie",
+              "note": "MIT；藏干顺序、十神、五合、六合及十二节接口的所选电子实现；组合出现不等于化气，固定实现不等于独立天文精度验证。"
+            },
+            {
+              "id": "bazi-evidence-go-ganzhi",
+              "name": "qimen-go 固定干支组合表",
+              "url": "https://github.com/deminzhang/qimen-go",
+              "revision": "4d3f58fa0f401b5b3a337f119138e99e90685dda",
+              "locator": "xuan/ganzhi.go:75–133 HeGan/HeZhi/ChongZhi/He3Zhi/Hui3Zhi",
+              "note": "MIT；只取三合、三会与六冲组成员事实，不采用其六合化气注释，也不据此宣布格局成立。"
+            },
+            {
+              "id": "bazi-evidence-project-heuristic",
+              "name": "本产品既有扶抑与季节意象启发式",
+              "url": "local:data/bazi-evidence-project-profile.json",
+              "revision": "project-fuyi-seasonal/1.0.0",
+              "locator": "data/bazi-evidence-project-profile.json",
+              "note": "项目自编数值与季节意见，非古籍定量公式，非《穷通宝鉴》逐日干逐月用神表；不具备唯一喜用神判定。"
+            }
+          ],
+          "rules": [
+            {
+              "id": "bazi-hidden-tengod",
+              "version": "1.0.0",
+              "name": "所选藏干表与相对日主十神",
+              "sourceIds": [
+                "bazi-evidence-lunar186"
+              ],
+              "conditions": [
+                "只列已确定的柱；时刻未知时不补时柱，交节待定的月柱不补事实。",
+                "藏干顺序保留所选电子表列序，序号从1开始；不是司权顺序，也不用于本产品既有扶抑权重。",
+                "旧扶抑的巳列序丙戊庚保持不变；本事实表巳列序丙庚戊来自所选lunar-typescript电子表。",
+                "按天干阴阳与五行生克列十神；此层不判断喜忌、从格或吉凶。"
+              ]
+            },
+            {
+              "id": "bazi-stem-five-combination",
+              "version": "1.0.0",
+              "name": "天干五合出现核查",
+              "sourceIds": [
+                "bazi-evidence-lunar186"
+              ],
+              "conditions": [
+                "仅核查四柱已确定的明干中甲己、乙庚、丙辛、丁壬、戊癸配对。",
+                "不要求相邻；逐对保留柱位，未评估距离、争合、得时或化神条件。",
+                "来源只证配对，不输出候选化气五行或合化成立结论。"
+              ]
+            },
+            {
+              "id": "bazi-branch-six-combination",
+              "version": "1.0.0",
+              "name": "地支六合出现核查",
+              "sourceIds": [
+                "bazi-evidence-lunar186"
+              ],
+              "conditions": [
+                "仅核查子丑、寅亥、卯戌、辰酉、巳申、午未六组。",
+                "只列确定地支的配对，不输出六合化成何行，也不把六合当作统一吉凶。"
+              ]
+            },
+            {
+              "id": "bazi-branch-three-combination",
+              "version": "1.0.0",
+              "name": "地支三合组全支出现",
+              "sourceIds": [
+                "bazi-evidence-go-ganzhi"
+              ],
+              "conditions": [
+                "只在申子辰、寅午戌、亥卯未、巳酉丑三支全部出现在已确定四柱时记录。",
+                "重复地支不替代缺少的第三支；不把半合、拱合或三合组齐全认定为合化。"
+              ]
+            },
+            {
+              "id": "bazi-branch-three-meeting",
+              "version": "1.0.0",
+              "name": "地支三会组全支出现",
+              "sourceIds": [
+                "bazi-evidence-go-ganzhi"
+              ],
+              "conditions": [
+                "只在亥子丑、寅卯辰、巳午未、申酉戌三支全部出现在已确定四柱时记录。",
+                "仅记录完整组成员和实际柱位，不输出力量、化气或吉凶判定。"
+              ]
+            },
+            {
+              "id": "bazi-branch-six-clash",
+              "version": "1.0.0",
+              "name": "地支六冲配对出现",
+              "sourceIds": [
+                "bazi-evidence-go-ganzhi"
+              ],
+              "conditions": [
+                "只记录子午、丑未、寅申、卯酉、辰戌、巳亥配对的实际柱位。",
+                "配对出现不等于凶断；不评估冲动、冲散、旺衰或流年。"
+              ]
+            },
+            {
+              "id": "bazi-month-authority",
+              "version": "1.0.0",
+              "name": "十二节实际区间与待核实的司权取法",
+              "sourceIds": [
+                "bazi-evidence-lunar186"
+              ],
+              "conditions": [
+                "以相邻十二节划分月令，交节瞬间按 UTC+08:00 历算转换为实际瞬间。",
+                "已记录十二节区间，不代表已选定月令分日司权表；未核实分日表前不输出司权。",
+                "未知时刻保留当日本地有效时段；重复民用小时按既有政策取第一次实际瞬间，并标注歧义。"
+              ]
+            },
+            {
+              "id": "bazi-fuyi-opinion",
+              "version": "1.0.0",
+              "name": "既有项目扶抑初筛意见",
+              "sourceIds": [
+                "bazi-evidence-project-heuristic"
+              ],
+              "conditions": [
+                "照录既有扶抑候选，不用本模块新事实改动排序或筛选。",
+                "透干1；旧支藏干权重1或0.7/0.3或0.6/0.25/0.15，月支乘2；比印占比小于38%或大于55%作初筛。",
+                "全部权重、阈值为产品自编；不宣称来源于古籍或流派公认定量式。"
+              ]
+            },
+            {
+              "id": "bazi-seasonal-opinion",
+              "version": "1.0.0",
+              "name": "季节寒暖意象意见",
+              "sourceIds": [
+                "bazi-evidence-project-heuristic"
+              ],
+              "conditions": [
+                "只提供现有冬火、夏水季节意象，春秋保留多解。",
+                "这不是《穷通宝鉴》的逐日干逐月调候取用；未计算燥湿、具体用神搭配或通关。",
+                "不覆盖扶抑、不自动参与姓名排序，所有意见须人工复核。"
+              ]
+            }
+          ],
+          "dayMaster": {
+            "stem": "壬",
+            "element": "水"
+          },
+          "timeBasis": {
+            "timezone": "Africa/Juba",
+            "timeUnknown": true,
+            "ambiguous": false,
+            "description": "出生地民用午夜换日，交节按实际瞬间与北京时间历算比对；未作真太阳时修正。"
+          },
+          "stems": [
+            {
+              "pillar": "年柱",
+              "stem": "己",
+              "element": "土",
+              "tenGod": "正官",
+              "relationToDay": "此干克日主",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "月柱",
+              "stem": "丁",
+              "element": "火",
+              "tenGod": "正财",
+              "relationToDay": "日主克此干",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "日柱",
+              "stem": "壬",
+              "element": "水",
+              "tenGod": "日主",
+              "relationToDay": "日主自身",
+              "ruleId": "bazi-hidden-tengod"
+            }
+          ],
+          "hiddenStems": [
+            {
+              "pillar": "年柱",
+              "branch": "卯",
+              "stem": "乙",
+              "element": "木",
+              "order": 1,
+              "tenGod": "伤官",
+              "relationToDay": "日主生此干",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "月柱",
+              "branch": "丑",
+              "stem": "己",
+              "element": "土",
+              "order": 1,
+              "tenGod": "正官",
+              "relationToDay": "此干克日主",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "月柱",
+              "branch": "丑",
+              "stem": "癸",
+              "element": "水",
+              "order": 2,
+              "tenGod": "劫财",
+              "relationToDay": "与日主同五行",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "月柱",
+              "branch": "丑",
+              "stem": "辛",
+              "element": "金",
+              "order": 3,
+              "tenGod": "正印",
+              "relationToDay": "此干生日主",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "日柱",
+              "branch": "申",
+              "stem": "庚",
+              "element": "金",
+              "order": 1,
+              "tenGod": "偏印",
+              "relationToDay": "此干生日主",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "日柱",
+              "branch": "申",
+              "stem": "壬",
+              "element": "水",
+              "order": 2,
+              "tenGod": "比肩",
+              "relationToDay": "与日主同五行",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "日柱",
+              "branch": "申",
+              "stem": "戊",
+              "element": "土",
+              "order": 3,
+              "tenGod": "七杀",
+              "relationToDay": "此干克日主",
+              "ruleId": "bazi-hidden-tengod"
+            }
+          ],
+          "relations": [
+            {
+              "kind": "stem-combination",
+              "label": "天干五合配对",
+              "subjects": [
+                "丁",
+                "壬"
+              ],
+              "pillars": [
+                "月柱",
+                "日柱"
+              ],
+              "ruleId": "bazi-stem-five-combination",
+              "evidence": [
+                "月柱丁与日柱壬构成丁壬五合配对。",
+                "只记录配对，不输出候选化气五行，不判断合化成立或据此改变五行计数。"
+              ]
+            }
+          ],
+          "monthAuthority": {
+            "status": "not-evaluated",
+            "ruleId": "bazi-month-authority",
+            "method": "相邻十二节实际瞬间区间；司权分日表尚待核实",
+            "candidates": [],
+            "segments": [
+              {
+                "monthBranch": "丑",
+                "previousJie": "小寒",
+                "previousJieAt": "2000-01-06T01:00:42.000Z",
+                "startAt": "2000-01-14T22:00:00.000Z",
+                "endAt": "2000-01-15T20:59:59.000Z",
+                "elapsedStartDays": 8.874513888888888,
+                "elapsedEndDays": 9.832835648148148,
+                "candidates": []
+              }
+            ],
+            "evidence": [
+              "区间端点为UTC实际瞬间，精确到秒；交节秒归入新节，旧段截止交节前一秒。",
+              "已记录前一节的实际交接时刻及节后经过的实际秒数；天数为实际秒数÷86400。",
+              "分日表尚未核实，不以藏干排列顺序、权重或月支本气冒充司权。"
+            ],
+            "missing": [
+              "尚未接入已核实来源与版本的月令分日司权表。",
+              "出生时刻未知：保留可能区间，不宣称唯一司令。"
+            ]
+          },
+          "opinions": [
+            {
+              "method": "fuyi",
+              "profile": "project-weighted-fuyi/1.0.0",
+              "status": "candidate",
+              "elements": [
+                "金",
+                "水"
+              ],
+              "unfavorable": [
+                "木",
+                "火"
+              ],
+              "evidence": [
+                "扶抑初筛：日主偏弱",
+                "扶抑候选使用本产品可解释启发式：透干权重1，支藏干本/中/余气按1或0.7/0.3或0.6/0.25/0.15，月支权重2；此权重不是古籍定量公式。",
+                "比印加权占比38%，小于38%初筛偏弱，大于55%初筛偏强，其余保留多解；候选按生扶或泄耗制衡关系选择，不按缺项选择。",
+                "此意见照录原有扶抑初筛，新证据模块不改姓名筛选或排序。"
+              ],
+              "missing": [
+                "出生时刻未知，缺时柱；扶抑候选来自不完整资料。",
+                "未执行从格、化气格或合化条件裁决。"
+              ],
+              "requiresManualReview": true,
+              "ruleId": "bazi-fuyi-opinion"
+            },
+            {
+              "method": "tiaohou",
+              "profile": "project-seasonal-imagery/1.0.0",
+              "status": "candidate",
+              "elements": [
+                "火"
+              ],
+              "unfavorable": [],
+              "evidence": [
+                "冬月偏寒，调候可关注温暖、向阳的火意象；是否适用仍须结合全局，调候意见不自动覆盖扶抑候选。",
+                "本项仅为项目季节寒暖意象，不是《穷通宝鉴》日干×月份调候用神表，不合并成唯一喜用神。"
+              ],
+              "missing": [
+                "未评估完整寒暖燥湿、日干逐月用神组合与通关条件。",
+                "出生资料不完整或瞬间有歧义，季节意见须保留人工复核。"
+              ],
+              "requiresManualReview": true,
+              "ruleId": "bazi-seasonal-opinion"
+            }
+          ],
+          "patternCandidates": [
+            {
+              "kind": "cong",
+              "name": "从格候选",
+              "status": "not-evaluated",
+              "supportedBy": [],
+              "opposedBy": [],
+              "missing": [
+                "尚未接入可独立复核的同流派从格成立与破格条件；不以五行加权占比阈值断真从。",
+                "需明确月令、根气、透干、逆势因素及未知时柱的影响后再分阶段评估。"
+              ]
+            }
+          ],
+          "transformationEvidence": [
+            {
+              "kind": "stem-combination",
+              "subjects": [
+                "丁",
+                "壬"
+              ],
+              "status": "not-evaluated",
+              "supportedBy": [
+                "仅核实月柱、日柱的丁、壬组合出现。"
+              ],
+              "opposedBy": [],
+              "missing": [
+                "未接入完整同流派得令、透引、阻隔与争合等合化条件；组合出现不等于合化成立。"
+              ],
+              "ruleId": "bazi-stem-five-combination"
+            }
+          ],
+          "limitations": [
+            "事实层只描述本命已确定四柱，不推导大运、流年或命运吉凶。",
+            "关系检查覆盖五合、六合、完整三合与三会、六冲；六害、三刑、半合、拱合尚未启用。",
+            "扶抑阈值与季节意象都是明确标注的项目启发式；司权、从格及合化不应由它们自动推出。",
+            "不同流派可使用不同藏干次序、分日司权与调候取法，不能把某一电子表视为唯一标准。",
+            "本模块属于传统文化规则说明，无证据证明姓名会改变命运。"
+          ]
+        }
+      }
+    },
+    {
+      "profile": {
+        "id": "v1-frozen",
+        "customerName": "冻结1.1快照",
+        "surname": "林",
+        "surnamePinyin": "lín",
+        "gender": "中性",
+        "calendar": "solar",
+        "birthDate": "2024-11-03",
+        "birthTime": "01:30",
+        "timeUnknown": false,
+        "leapMonth": false,
+        "birthPlace": "上海",
+        "timezone": "America/New_York",
+        "notes": ""
+      },
+      "expected": {
+        "solarDate": "2024-11-03 01:30",
+        "lunarDate": "二〇二四年十月初三",
+        "zodiac": "龙",
+        "pillars": [
+          {
+            "label": "年柱",
+            "gan": "甲",
+            "zhi": "辰",
+            "element": "木土",
+            "hidden": [
+              "戊",
+              "乙",
+              "癸"
+            ],
+            "tenGod": "正财"
+          },
+          {
+            "label": "月柱",
+            "gan": "甲",
+            "zhi": "戌",
+            "element": "木土",
+            "hidden": [
+              "戊",
+              "辛",
+              "丁"
+            ],
+            "tenGod": "正财"
+          },
+          {
+            "label": "日柱",
+            "gan": "辛",
+            "zhi": "未",
+            "element": "金土",
+            "hidden": [
+              "己",
+              "丁",
+              "乙"
+            ],
+            "tenGod": "日主"
+          },
+          {
+            "label": "时柱",
+            "gan": "己",
+            "zhi": "丑",
+            "element": "土土",
+            "hidden": [
+              "己",
+              "癸",
+              "辛"
+            ],
+            "tenGod": "偏印"
+          }
+        ],
+        "elements": {
+          "木": 2,
+          "火": 0,
+          "土": 5,
+          "金": 1,
+          "水": 0
+        },
+        "favorable": [
+          "水",
+          "木",
+          "火"
+        ],
+        "unfavorable": [
+          "金",
+          "土"
+        ],
+        "strength": "扶抑初筛：日主偏强",
+        "reasons": [
+          "日主辛金；月令戌土。",
+          "通根检查（地支藏干含日主同类）：月柱戌、时柱丑；同类或印星透干：时柱己。",
+          "扶抑候选使用本产品可解释启发式：透干权重1，支藏干本/中/余气按1或0.7/0.3或0.6/0.25/0.15，月支权重2；此权重不是古籍定量公式。",
+          "比印加权占比63%，小于38%初筛偏弱，大于55%初筛偏强，其余保留多解；候选按生扶或泄耗制衡关系选择，不按缺项选择。",
+          "出生地民用时间 America/New_York，00:00换日；年柱立春、月柱节令，以精确交节时刻划分；生肖按农历年，可能与年柱年界不同。"
+        ],
+        "seasonalAdvice": "秋月关注燥润与金气的具体组合，暂不按季节机械指定补益元素。",
+        "warnings": [
+          "该民用时刻处于夏令时回拨的重复小时，采用第一次出现的时刻；请起名师复核。",
+          "采用 America/New_York 出生地民用日期定日柱、民用钟定时柱；年/月柱按该瞬间对应的北京时间交节。公农历按中国历法的同名日期换算，未作真太阳时校正。",
+          "五行明字数量仅为天干与地支本气计数，不代表喜用神；扶抑结果为规则候选，特殊格局须人工复核。"
+        ],
+        "version": "civil-midnight-fuyi-candidate/1.1.0;lunar-typescript/1.8.6",
+        "ruleDescription": "扶抑启发式候选：月令加权、通根、透干及生克关系；不处理从格、化气格和天干地支合化，不能替代起名师的流派判断。",
+        "evidence": {
+          "version": "bazi-evidence-profile/1.0.0",
+          "profile": "civil-midnight;factual-relations;separate-fuyi-seasonal-opinions",
+          "sources": [
+            {
+              "id": "bazi-evidence-lunar186",
+              "name": "lunar-typescript 1.8.6 固定关系与历算接口",
+              "url": "https://github.com/6tail/lunar-typescript",
+              "revision": "0f3e95d15e31f1a7c7b93d624542649347328a20",
+              "locator": "src/lib/LunarUtil.ts:813–814 HE_GAN_5/HE_ZHI_6,928–1043 SHI_SHEN/ZHI_HIDE_GAN; src/lib/Lunar.ts:1332–1347 getNextJie/getPrevJie",
+              "note": "MIT；藏干顺序、十神、五合、六合及十二节接口的所选电子实现；组合出现不等于化气，固定实现不等于独立天文精度验证。"
+            },
+            {
+              "id": "bazi-evidence-go-ganzhi",
+              "name": "qimen-go 固定干支组合表",
+              "url": "https://github.com/deminzhang/qimen-go",
+              "revision": "4d3f58fa0f401b5b3a337f119138e99e90685dda",
+              "locator": "xuan/ganzhi.go:75–133 HeGan/HeZhi/ChongZhi/He3Zhi/Hui3Zhi",
+              "note": "MIT；只取三合、三会与六冲组成员事实，不采用其六合化气注释，也不据此宣布格局成立。"
+            },
+            {
+              "id": "bazi-evidence-project-heuristic",
+              "name": "本产品既有扶抑与季节意象启发式",
+              "url": "local:data/bazi-evidence-project-profile.json",
+              "revision": "project-fuyi-seasonal/1.0.0",
+              "locator": "data/bazi-evidence-project-profile.json",
+              "note": "项目自编数值与季节意见，非古籍定量公式，非《穷通宝鉴》逐日干逐月用神表；不具备唯一喜用神判定。"
+            }
+          ],
+          "rules": [
+            {
+              "id": "bazi-hidden-tengod",
+              "version": "1.0.0",
+              "name": "所选藏干表与相对日主十神",
+              "sourceIds": [
+                "bazi-evidence-lunar186"
+              ],
+              "conditions": [
+                "只列已确定的柱；时刻未知时不补时柱，交节待定的月柱不补事实。",
+                "藏干顺序保留所选电子表列序，序号从1开始；不是司权顺序，也不用于本产品既有扶抑权重。",
+                "旧扶抑的巳列序丙戊庚保持不变；本事实表巳列序丙庚戊来自所选lunar-typescript电子表。",
+                "按天干阴阳与五行生克列十神；此层不判断喜忌、从格或吉凶。"
+              ]
+            },
+            {
+              "id": "bazi-stem-five-combination",
+              "version": "1.0.0",
+              "name": "天干五合出现核查",
+              "sourceIds": [
+                "bazi-evidence-lunar186"
+              ],
+              "conditions": [
+                "仅核查四柱已确定的明干中甲己、乙庚、丙辛、丁壬、戊癸配对。",
+                "不要求相邻；逐对保留柱位，未评估距离、争合、得时或化神条件。",
+                "来源只证配对，不输出候选化气五行或合化成立结论。"
+              ]
+            },
+            {
+              "id": "bazi-branch-six-combination",
+              "version": "1.0.0",
+              "name": "地支六合出现核查",
+              "sourceIds": [
+                "bazi-evidence-lunar186"
+              ],
+              "conditions": [
+                "仅核查子丑、寅亥、卯戌、辰酉、巳申、午未六组。",
+                "只列确定地支的配对，不输出六合化成何行，也不把六合当作统一吉凶。"
+              ]
+            },
+            {
+              "id": "bazi-branch-three-combination",
+              "version": "1.0.0",
+              "name": "地支三合组全支出现",
+              "sourceIds": [
+                "bazi-evidence-go-ganzhi"
+              ],
+              "conditions": [
+                "只在申子辰、寅午戌、亥卯未、巳酉丑三支全部出现在已确定四柱时记录。",
+                "重复地支不替代缺少的第三支；不把半合、拱合或三合组齐全认定为合化。"
+              ]
+            },
+            {
+              "id": "bazi-branch-three-meeting",
+              "version": "1.0.0",
+              "name": "地支三会组全支出现",
+              "sourceIds": [
+                "bazi-evidence-go-ganzhi"
+              ],
+              "conditions": [
+                "只在亥子丑、寅卯辰、巳午未、申酉戌三支全部出现在已确定四柱时记录。",
+                "仅记录完整组成员和实际柱位，不输出力量、化气或吉凶判定。"
+              ]
+            },
+            {
+              "id": "bazi-branch-six-clash",
+              "version": "1.0.0",
+              "name": "地支六冲配对出现",
+              "sourceIds": [
+                "bazi-evidence-go-ganzhi"
+              ],
+              "conditions": [
+                "只记录子午、丑未、寅申、卯酉、辰戌、巳亥配对的实际柱位。",
+                "配对出现不等于凶断；不评估冲动、冲散、旺衰或流年。"
+              ]
+            },
+            {
+              "id": "bazi-month-authority",
+              "version": "1.0.0",
+              "name": "十二节实际区间与待核实的司权取法",
+              "sourceIds": [
+                "bazi-evidence-lunar186"
+              ],
+              "conditions": [
+                "以相邻十二节划分月令，交节瞬间按 UTC+08:00 历算转换为实际瞬间。",
+                "已记录十二节区间，不代表已选定月令分日司权表；未核实分日表前不输出司权。",
+                "未知时刻保留当日本地有效时段；重复民用小时按既有政策取第一次实际瞬间，并标注歧义。"
+              ]
+            },
+            {
+              "id": "bazi-fuyi-opinion",
+              "version": "1.0.0",
+              "name": "既有项目扶抑初筛意见",
+              "sourceIds": [
+                "bazi-evidence-project-heuristic"
+              ],
+              "conditions": [
+                "照录既有扶抑候选，不用本模块新事实改动排序或筛选。",
+                "透干1；旧支藏干权重1或0.7/0.3或0.6/0.25/0.15，月支乘2；比印占比小于38%或大于55%作初筛。",
+                "全部权重、阈值为产品自编；不宣称来源于古籍或流派公认定量式。"
+              ]
+            },
+            {
+              "id": "bazi-seasonal-opinion",
+              "version": "1.0.0",
+              "name": "季节寒暖意象意见",
+              "sourceIds": [
+                "bazi-evidence-project-heuristic"
+              ],
+              "conditions": [
+                "只提供现有冬火、夏水季节意象，春秋保留多解。",
+                "这不是《穷通宝鉴》的逐日干逐月调候取用；未计算燥湿、具体用神搭配或通关。",
+                "不覆盖扶抑、不自动参与姓名排序，所有意见须人工复核。"
+              ]
+            }
+          ],
+          "dayMaster": {
+            "stem": "辛",
+            "element": "金"
+          },
+          "timeBasis": {
+            "timezone": "America/New_York",
+            "timeUnknown": false,
+            "ambiguous": true,
+            "description": "出生地民用午夜换日，交节按实际瞬间与北京时间历算比对；未作真太阳时修正。重复民用小时只计算第一次实际瞬间，第二次未计算。"
+          },
+          "stems": [
+            {
+              "pillar": "年柱",
+              "stem": "甲",
+              "element": "木",
+              "tenGod": "正财",
+              "relationToDay": "日主克此干",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "月柱",
+              "stem": "甲",
+              "element": "木",
+              "tenGod": "正财",
+              "relationToDay": "日主克此干",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "日柱",
+              "stem": "辛",
+              "element": "金",
+              "tenGod": "日主",
+              "relationToDay": "日主自身",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "时柱",
+              "stem": "己",
+              "element": "土",
+              "tenGod": "偏印",
+              "relationToDay": "此干生日主",
+              "ruleId": "bazi-hidden-tengod"
+            }
+          ],
+          "hiddenStems": [
+            {
+              "pillar": "年柱",
+              "branch": "辰",
+              "stem": "戊",
+              "element": "土",
+              "order": 1,
+              "tenGod": "正印",
+              "relationToDay": "此干生日主",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "年柱",
+              "branch": "辰",
+              "stem": "乙",
+              "element": "木",
+              "order": 2,
+              "tenGod": "偏财",
+              "relationToDay": "日主克此干",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "年柱",
+              "branch": "辰",
+              "stem": "癸",
+              "element": "水",
+              "order": 3,
+              "tenGod": "食神",
+              "relationToDay": "日主生此干",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "月柱",
+              "branch": "戌",
+              "stem": "戊",
+              "element": "土",
+              "order": 1,
+              "tenGod": "正印",
+              "relationToDay": "此干生日主",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "月柱",
+              "branch": "戌",
+              "stem": "辛",
+              "element": "金",
+              "order": 2,
+              "tenGod": "比肩",
+              "relationToDay": "与日主同五行",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "月柱",
+              "branch": "戌",
+              "stem": "丁",
+              "element": "火",
+              "order": 3,
+              "tenGod": "七杀",
+              "relationToDay": "此干克日主",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "日柱",
+              "branch": "未",
+              "stem": "己",
+              "element": "土",
+              "order": 1,
+              "tenGod": "偏印",
+              "relationToDay": "此干生日主",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "日柱",
+              "branch": "未",
+              "stem": "丁",
+              "element": "火",
+              "order": 2,
+              "tenGod": "七杀",
+              "relationToDay": "此干克日主",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "日柱",
+              "branch": "未",
+              "stem": "乙",
+              "element": "木",
+              "order": 3,
+              "tenGod": "偏财",
+              "relationToDay": "日主克此干",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "时柱",
+              "branch": "丑",
+              "stem": "己",
+              "element": "土",
+              "order": 1,
+              "tenGod": "偏印",
+              "relationToDay": "此干生日主",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "时柱",
+              "branch": "丑",
+              "stem": "癸",
+              "element": "水",
+              "order": 2,
+              "tenGod": "食神",
+              "relationToDay": "日主生此干",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "时柱",
+              "branch": "丑",
+              "stem": "辛",
+              "element": "金",
+              "order": 3,
+              "tenGod": "比肩",
+              "relationToDay": "与日主同五行",
+              "ruleId": "bazi-hidden-tengod"
+            }
+          ],
+          "relations": [
+            {
+              "kind": "branch-clash",
+              "label": "地支六冲配对",
+              "subjects": [
+                "辰",
+                "戌"
+              ],
+              "pillars": [
+                "年柱",
+                "月柱"
+              ],
+              "ruleId": "bazi-branch-six-clash",
+              "evidence": [
+                "年柱辰与月柱戌在所选六冲表中配对；只记录关系出现，不推断吉凶。"
+              ]
+            },
+            {
+              "kind": "stem-combination",
+              "label": "天干五合配对",
+              "subjects": [
+                "甲",
+                "己"
+              ],
+              "pillars": [
+                "年柱",
+                "时柱"
+              ],
+              "ruleId": "bazi-stem-five-combination",
+              "evidence": [
+                "年柱甲与时柱己构成甲己五合配对。",
+                "只记录配对，不输出候选化气五行，不判断合化成立或据此改变五行计数。"
+              ]
+            },
+            {
+              "kind": "stem-combination",
+              "label": "天干五合配对",
+              "subjects": [
+                "甲",
+                "己"
+              ],
+              "pillars": [
+                "月柱",
+                "时柱"
+              ],
+              "ruleId": "bazi-stem-five-combination",
+              "evidence": [
+                "月柱甲与时柱己构成甲己五合配对。",
+                "只记录配对，不输出候选化气五行，不判断合化成立或据此改变五行计数。"
+              ]
+            },
+            {
+              "kind": "branch-clash",
+              "label": "地支六冲配对",
+              "subjects": [
+                "未",
+                "丑"
+              ],
+              "pillars": [
+                "日柱",
+                "时柱"
+              ],
+              "ruleId": "bazi-branch-six-clash",
+              "evidence": [
+                "日柱未与时柱丑在所选六冲表中配对；只记录关系出现，不推断吉凶。"
+              ]
+            }
+          ],
+          "monthAuthority": {
+            "status": "not-evaluated",
+            "ruleId": "bazi-month-authority",
+            "method": "相邻十二节实际瞬间区间；司权分日表尚待核实",
+            "candidates": [],
+            "segments": [
+              {
+                "monthBranch": "戌",
+                "previousJie": "寒露",
+                "previousJieAt": "2024-10-07T18:59:57.000Z",
+                "startAt": "2024-11-03T05:30:00.000Z",
+                "endAt": "2024-11-03T05:30:00.000Z",
+                "elapsedStartDays": 26.43753472222222,
+                "elapsedEndDays": 26.43753472222222,
+                "candidates": []
+              }
+            ],
+            "evidence": [
+              "区间端点为UTC实际瞬间，精确到秒；交节秒归入新节，旧段截止交节前一秒。",
+              "已记录前一节的实际交接时刻及节后经过的实际秒数；天数为实际秒数÷86400。",
+              "分日表尚未核实，不以藏干排列顺序、权重或月支本气冒充司权。"
+            ],
+            "missing": [
+              "尚未接入已核实来源与版本的月令分日司权表。",
+              "民用时刻处于重复小时：本次只计算第一次出现的实际瞬间，第二次未计算，需人工核对。"
+            ]
+          },
+          "opinions": [
+            {
+              "method": "fuyi",
+              "profile": "project-weighted-fuyi/1.0.0",
+              "status": "candidate",
+              "elements": [
+                "水",
+                "木",
+                "火"
+              ],
+              "unfavorable": [
+                "金",
+                "土"
+              ],
+              "evidence": [
+                "扶抑初筛：日主偏强",
+                "扶抑候选使用本产品可解释启发式：透干权重1，支藏干本/中/余气按1或0.7/0.3或0.6/0.25/0.15，月支权重2；此权重不是古籍定量公式。",
+                "比印加权占比63%，小于38%初筛偏弱，大于55%初筛偏强，其余保留多解；候选按生扶或泄耗制衡关系选择，不按缺项选择。",
+                "此意见照录原有扶抑初筛，新证据模块不改姓名筛选或排序。"
+              ],
+              "missing": [
+                "重复民用小时采用第一次瞬间，需复核。",
+                "未执行从格、化气格或合化条件裁决。"
+              ],
+              "requiresManualReview": true,
+              "ruleId": "bazi-fuyi-opinion"
+            },
+            {
+              "method": "tiaohou",
+              "profile": "project-seasonal-imagery/1.0.0",
+              "status": "pending",
+              "elements": [],
+              "unfavorable": [],
+              "evidence": [
+                "秋月关注燥润与金气的具体组合，暂不按季节机械指定补益元素。",
+                "本项仅为项目季节寒暖意象，不是《穷通宝鉴》日干×月份调候用神表，不合并成唯一喜用神。"
+              ],
+              "missing": [
+                "未评估完整寒暖燥湿、日干逐月用神组合与通关条件。",
+                "所选季节没有机械指定元素，保留多解。",
+                "出生资料不完整或瞬间有歧义，季节意见须保留人工复核。"
+              ],
+              "requiresManualReview": true,
+              "ruleId": "bazi-seasonal-opinion"
+            }
+          ],
+          "patternCandidates": [
+            {
+              "kind": "cong",
+              "name": "从格候选",
+              "status": "not-evaluated",
+              "supportedBy": [],
+              "opposedBy": [],
+              "missing": [
+                "尚未接入可独立复核的同流派从格成立与破格条件；不以五行加权占比阈值断真从。",
+                "需明确月令、根气、透干、逆势因素及未知时柱的影响后再分阶段评估。"
+              ]
+            }
+          ],
+          "transformationEvidence": [
+            {
+              "kind": "stem-combination",
+              "subjects": [
+                "甲",
+                "己"
+              ],
+              "status": "not-evaluated",
+              "supportedBy": [
+                "仅核实年柱、时柱的甲、己组合出现。"
+              ],
+              "opposedBy": [],
+              "missing": [
+                "未接入完整同流派得令、透引、阻隔与争合等合化条件；组合出现不等于合化成立。"
+              ],
+              "ruleId": "bazi-stem-five-combination"
+            },
+            {
+              "kind": "stem-combination",
+              "subjects": [
+                "甲",
+                "己"
+              ],
+              "status": "not-evaluated",
+              "supportedBy": [
+                "仅核实月柱、时柱的甲、己组合出现。"
+              ],
+              "opposedBy": [],
+              "missing": [
+                "未接入完整同流派得令、透引、阻隔与争合等合化条件；组合出现不等于合化成立。"
+              ],
+              "ruleId": "bazi-stem-five-combination"
+            }
+          ],
+          "limitations": [
+            "事实层只描述本命已确定四柱，不推导大运、流年或命运吉凶。",
+            "关系检查覆盖五合、六合、完整三合与三会、六冲；六害、三刑、半合、拱合尚未启用。",
+            "扶抑阈值与季节意象都是明确标注的项目启发式；司权、从格及合化不应由它们自动推出。",
+            "不同流派可使用不同藏干次序、分日司权与调候取法，不能把某一电子表视为唯一标准。",
+            "本模块属于传统文化规则说明，无证据证明姓名会改变命运。"
+          ]
+        }
+      }
+    }
+  ]
+}

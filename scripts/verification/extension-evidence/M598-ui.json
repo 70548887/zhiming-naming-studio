@@ -1,0 +1,101 @@
+{
+  "auditId": "M598-B04-word-context-ui-source-integration-audit",
+  "generatedAt": "2026-10-25",
+  "status": "bounded-ui-source-and-controller-pass-real-browser-pending",
+  "scope": {
+    "readOnly": true,
+    "productWrites": 0,
+    "network": 0,
+    "sql": 0,
+    "worker": 0,
+    "browser": 0,
+    "fullBuild": 0,
+    "fullRegression": 0,
+    "sourcePinApproval": false
+  },
+  "inputs": {
+    "manifest": {
+      "file": "D:/Codex-NamingStudio-Evidence/m585-b04-ui/manifest.json",
+      "sha256": "4b42c165f50626c25076f580bc46a878659478547dc9e77c7af91217ab4bb69f",
+      "bytes": 7278
+    },
+    "patch": {
+      "sha256": "5d6b5345f60dd11d0bacdb17fdea17ec6a88046acc821c80e6b0234b0299a980",
+      "bytes": 43172
+    },
+    "payloads": 10,
+    "tests": {
+      "initial7": "separate evidence",
+      "additional12": "12 passed/0 failed"
+    },
+    "focusedType": {
+      "sourceFiles": 212,
+      "diagnostics": 0
+    },
+    "ownerContract": {
+      "file": "D:/Codex-NamingStudio-Evidence/m585-b04-ui/owner-fix-inputs.json",
+      "sha256": "aa429aade27a2a3e88b7391663f98cde0a9cf040c4bd24d6f181f7b5edfc8bed",
+      "bytes": 2272
+    }
+  },
+  "checks": {
+    "input": {
+      "singleCharInput": "checked",
+      "optionalPinyinOmit": "checked",
+      "exactPinyin": "checked",
+      "invalidMissing": "checked",
+      "capsBusy": "checked"
+    },
+    "requests": {
+      "asyncABA": "checked",
+      "latestWins": "checked",
+      "apiReplacement": "checked",
+      "unmount": "checked",
+      "strictModeStyleActivation": "checked",
+      "oldSuccessFailureSuppressed": "checked",
+      "retryOnlyExplicit": "checked"
+    },
+    "contentScope": {
+      "completeWordOnly": true,
+      "noStandaloneMeaningAdoption": true,
+      "noDefaultScore": true,
+      "noRanking": true,
+      "noAutoAdoption": true,
+      "unknownPOS": true,
+      "activationOff": true
+    },
+    "provenance": {
+      "originalDefinitionSeparateFromProjectExplanation": true,
+      "sourceAnchorsDisplayed": true,
+      "internalPathsHidden": true,
+      "unknownFieldsNoGetterExecution": true,
+      "reactEscapingByElementRendering": true
+    },
+    "types": {
+      "actualServiceDTOFixtures": true,
+      "exactOwnerDeclarations": true
+    }
+  },
+  "findings": [],
+  "decisions": {
+    "UIStateAndController": "APPROVED-FOR-BOUNDED-SOURCE-AND-PURE-TEST-SCOPE",
+    "ReadonlyWordContextRendering": "APPROVED-FOR-BOUNDED-SCOPE",
+    "realDOMHTTP": "NOT-EXECUTED",
+    "AppMount": "PENDING-ROOT-INTEGRATION",
+    "productionRelease": "NOT-APPROVED"
+  },
+  "limitations": [
+    "No real DOM/browser or API/HTTP execution was performed.",
+    "No SQL/Store/Worker/full App mount/full build/installer/regression was performed.",
+    "Initial 7 and additional 12 tests were separate runs; not one 19-test final suite.",
+    "Initial type failure is preserved historical evidence; final focused type is clean.",
+    "No style issue is treated as a blocker."
+  ],
+  "evidence": [
+    "D:/Codex-NamingStudio-Evidence/m585-b04-ui/manifest.json",
+    "D:/Codex-NamingStudio-Evidence/m585-b04-ui/actual-ready-tests.json",
+    "D:/Codex-NamingStudio-Evidence/m585-b04-ui/final-type-result.json",
+    "D:/Codex-NamingStudio-Evidence/m585-b04-ui/candidate/src/renderer/b04-word-context-state.ts",
+    "D:/Codex-NamingStudio-Evidence/m585-b04-ui/candidate/src/renderer/B04WordContextPanel.tsx"
+  ]
+}

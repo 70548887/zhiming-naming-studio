@@ -1,0 +1,48 @@
+{
+  "version": "classics-fulltext/1.0.0",
+  "hashConvention": "sha256(JSON.stringify(fileHashes)); sorted relative path keys",
+  "sources": [
+    {
+      "id": "classics-ditian-2600158-fixed",
+      "name": "滴天髓闡微 · 固定电子版全文与章节索引",
+      "url": "https://zh.wikisource.org/w/index.php?title=滴天髓闡微&oldid=2600158",
+      "commit": "wikisource-oldid/2600158;classics-fulltext/1.0.0",
+      "license": "CC-BY-SA-4.0",
+      "files": [
+        "data/classics/ditian-2600158-index.json",
+        "data/raw/CC-BY-SA-4.0.txt",
+        "data/raw/classics-ditian-2600158-NOTICE.md",
+        "data/raw/classics-ditian-2600158.wiki"
+      ],
+      "sha256": "df7b49bea8302554b930f998cc0b2810e9a69b89282fcd9d9ccd405f66af9543",
+      "note": "仅供离线原典全文检索与阅读；固定电子转录，未影印校勘，不自动作为命名出处或判格规则。",
+      "fileHashes": {
+        "data/classics/ditian-2600158-index.json": "691bacd992af55c88c2bad58b7032b09c362732c1378a6167bd06a4997a5bb3e",
+        "data/raw/CC-BY-SA-4.0.txt": "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5",
+        "data/raw/classics-ditian-2600158-NOTICE.md": "ac58eae62a60a294f09620b1a9a2d1a76f6a68c55c2960d6d566edce04c12d1f",
+        "data/raw/classics-ditian-2600158.wiki": "1d1a3d61c1b9a26618b41b8ead857a6b966992fdf2adabdc607a0c6cb4c8f04d"
+      }
+    },
+    {
+      "id": "classics-qiongtong-2294674-fixed",
+      "name": "穷通宝鉴 · 固定电子版全文与章节索引",
+      "url": "https://zh.wikisource.org/w/index.php?title=穷通宝鉴&oldid=2294674",
+      "commit": "wikisource-oldid/2294674;classics-fulltext/1.0.0",
+      "license": "CC-BY-SA-4.0",
+      "files": [
+        "data/classics/qiongtong-2294674-index.json",
+        "data/raw/CC-BY-SA-4.0.txt",
+        "data/raw/classics-qiongtong-2294674-NOTICE.md",
+        "data/raw/classics-qiongtong-2294674.wiki"
+      ],
+      "sha256": "e7efbe39ceddc8eb34bfecdd47716e5453ac03c589ca7d4d07e735dbbb7201db",
+      "note": "仅供离线原典全文检索与阅读；固定电子转录，未影印校勘，不自动作为命名出处或判格规则。",
+      "fileHashes": {
+        "data/classics/qiongtong-2294674-index.json": "05b375092fbb2eb1d49d67f0fc7a28836920c75180185bab4ef5a49c2a77de00",
+        "data/raw/CC-BY-SA-4.0.txt": "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5",
+        "data/raw/classics-qiongtong-2294674-NOTICE.md": "5f302eb03a3d10f49cd515b8b7e99fe991d87d0c28fe4740cad831b7df8bd527",
+        "data/raw/classics-qiongtong-2294674.wiki": "8ba17242f116583de2e10172e006f5ce5f74b23ccfc0bd24b886be135e9f20bd"
+      }
+    }
+  ]
+}

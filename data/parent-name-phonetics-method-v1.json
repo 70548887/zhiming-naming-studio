@@ -1,0 +1,40 @@
+{
+  "schema": "parent-name-phonetics-method/1",
+  "version": "parent-name-phonetics/1.0.0",
+  "sourceId": "parent-name-phonetics-method-149-v1",
+  "scope": "whole-given-name-syllables-only",
+  "pureSharedSha256": "c6c47895f1e6e0322f1d917ecadb64924e4beba0eb1a6cad1df36819ae5cec93",
+  "pureCalculatorSha256": "8bd4d1e7d58b72c6506a5536811c34a3e92dd1d4dddb4b76ae5d11f9010782d6",
+  "normalization": "explicit family-selected tone; verified dictionary neutral tone5 supplies5 only when original Pinyin is unaccented; never infer family-input tone",
+  "dictionaryProfile": "cmn-character-source/1.0.0",
+  "dictionaryProfileSha256": "bea3067ebffc763904d4ef3d2629a2c86fcb1fa8fd3a4a57d32ff4bee6d96270",
+  "modes": [
+    "strict",
+    "ignore-tone"
+  ],
+  "parentReadingOrigins": [
+    "dictionary",
+    "family-confirmed"
+  ],
+  "dictionaryProof": "exact actual fixed-source query optionId, normalized token and source identity; not a client verified marker",
+  "familyInputProof": "explicit family confirmation bound to original name and Unicode surname boundary; not dictionary certification",
+  "wholeNameSuitability": "not-assessed",
+  "scoreDelta": 0,
+  "automaticRejection": false,
+  "license": "CC0-1.0 project method metadata only",
+  "dictionarySourceRecord": {
+    "id": "moe-revised",
+    "name": "中华民国教育部《重编国语辞典修订本》，g0v 原文格式转换",
+    "url": "https://github.com/g0v/moedict-data",
+    "commit": "a6dc997417507eb510fc29822bc514de2c92728c",
+    "license": "CC-BY-ND-3.0-TW (verbatim definition text; format conversion allowed)",
+    "files": [
+      "data/raw/moe-revised.json.gz",
+      "data/raw/moe-README.md",
+      "data/raw/CC-BY-ND-3.0-TW.html",
+      "data/character-review.json"
+    ],
+    "sha256": "f70f47b566078e290017467fc150e9f57268a18f36b86eedd59769d998553f7a",
+    "note": "版权为教育部所有，策划执行国家教育研究院。按上游 README 转述教育部解释，禁止改作仅限文字本身，不限制格式转换与后续应用。本项目使用固定版本 dict-revised_bkup.json 的释义原文，不改写、翻译或将其重新授权为 CC BY-SA。原始完整辞典压缩保留；转换格式的编辑权由上游 kcwu 以 CC0 释出。"
+  }
+}

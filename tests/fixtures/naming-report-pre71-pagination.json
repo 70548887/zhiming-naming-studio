@@ -1,0 +1,5 @@
+{
+  "file": "tests/fixtures/naming-report-pre71-pagination.ts.txt",
+  "sha256": "0bce6c34d53a7cf9f93100f1cffd92c5e5429aa96370e7fec645b1439707c35f",
+  "role": "Opaque main-report baseline before exact71-only CSS/warning fix; never a runtime import"
+}

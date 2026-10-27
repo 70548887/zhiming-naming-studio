@@ -1,0 +1,19 @@
+{
+  "schema": "bazi-root-feedback-application-publication/1",
+  "applicationPolicyVersion": "naming-element-application/1.0.0",
+  "methodId": "project-bazi-mainchain-145/1.3.1",
+  "facadeSchema": "bazi-root-feedback-facade/1.0.0",
+  "gate": "Completeactualcalendar/root/numerical/consumerchecks; blockedresults have no adopted elements/certificate.",
+  "verification": "Canonical compare against replayed saved fixed-base facts and pinned complete root engine, not client digest proof.",
+  "files": {
+    "application-source/src/domain/bazi-root-calendar-branches.ts": "fd9a633c3fbb09703a8f954446e1dda47813dbad9d42f914f73df1bc764c9f11",
+    "application-source/src/main/bazi-root-feedback-application.ts": "5e5ddc8189cff37acce231a4aabbe9fab169aa93bdbec72acab0759a5b886552",
+    "application-source/src/main/bazi-root-feedback-facade.ts": "8faec2a82c7f2dc700799a29d02bd42902e164706faca68ce9eeff29d529e56f",
+    "application-source/src/main/bazi-root-feedback-resources.ts": "118fbdd59d9bdad263d36992188262c4666b441dd8531c39358d63810def41dd",
+    "application-source/src/shared/bazi-root-feedback-application.ts": "92ce67b9f06801c0afbe93942ffa88c8c8ac24f3783db5857be129da53e99310",
+    "application-source/src/shared/bazi-root-feedback-facade.ts": "d4c870ce850b403ad08734905818da4d2d50788f086a5cd300aadd1aaa92b17c",
+    "publication/facade-gate.json": "3082e0f8436f929cc1ae873802553e88a135ea8afdb842ed73c51ab069698ae1",
+    "publication/implementation-contract.md": "f094deab16c4e26f06e2fc8fcdc063a338cccd6e6138e593a28bb81a44abec0d",
+    "publication/solar-model-monotonic-bound.json": "32e639b14e3701eda709091b2e10e67865df4f740859942a84242df92e5ef80d"
+  }
+}

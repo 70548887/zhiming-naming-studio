@@ -1,0 +1,225 @@
+{
+  "schema": "dev03-meaning-next-manifest/137.batch1",
+  "task": "D03-137-MEANING-NEXT",
+  "status": "待审计",
+  "baseline": {
+    "commitReportedByRoot": "413670af5af1bd04893e494d6745a349606f946a",
+    "earlierCommitRetained": "2acd062a554357cb3d24486f4e8f458df3779180",
+    "filePinsAuthoritative": true,
+    "fixedInputs": {
+      "data/naming-editorial-v7.json": "392fa47441a0c410b0903c3e85853081225a1a5e9f540b5467e4ea4e2151cc48",
+      "data/dataset-v6.json": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+      "data/raw/moe-revised.json.gz": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+      "data/raw/moe-README.md": "a93321d9381bc1cf34b4ad844f71607fa748c86c0b228ae37d46720d6a659cb2",
+      "data/raw/CC-BY-ND-3.0-TW.html": "04e6ef69a223b6e13c93c97a918ad5fd0dbb9fc34ae307f4449ed264e2d4108f",
+      "data/raw/meaning-context-batch1-review.json": "01df11ddaf15780cb472533114ac4175e718ce80b6f1f090d79603c1cdfd3b0c",
+      "data/raw/meaning-context-gap-policy.json": "949297c14cba5f56014b8003311bbbe5aa4837a99ddb57529b428f7330f85a04"
+    }
+  },
+  "scope": "Only meaning-next independent staging;243gap triage plus20conditional complete-word explanation cases;no shared code or active method registration",
+  "files": [
+    {
+      "stagePath": ".local/team-137/dev03/meaning-next/outputs/data/meaning-context-next.json",
+      "logicalTarget": "data/meaning-context-next.json",
+      "sha256": "3dc77f55dca1516ae3cb4231a022a58aca1874189da6ea99c101c6931b7a1877",
+      "bytes": 187497,
+      "operation": "add",
+      "role": "independent-reviewed-meaning-evidence"
+    },
+    {
+      "stagePath": ".local/team-137/dev03/meaning-next/outputs/data/meaning-gap-classification.json",
+      "logicalTarget": "data/meaning-gap-classification.json",
+      "sha256": "1be67b4d4a9f02ef38697d1fca8b4385b5eb2ef9abe54ef78dfe962a94615ccc",
+      "bytes": 292514,
+      "operation": "add",
+      "role": "independent-reviewed-meaning-evidence"
+    },
+    {
+      "stagePath": ".local/team-137/dev03/meaning-next/outputs/data/meaning-context-next-NOTICE.md",
+      "logicalTarget": "data/meaning-context-next-NOTICE.md",
+      "sha256": "93f7dd60d3dcc09dbf2221f365f0ee0c7cfe757266f2485ac63e7c4b07c719f7",
+      "bytes": 1377,
+      "operation": "add",
+      "role": "independent-reviewed-meaning-evidence"
+    },
+    {
+      "stagePath": ".local/team-137/dev03/meaning-next/outputs/data/meaning-context-next-source-lock.json",
+      "logicalTarget": "data/meaning-context-next-source-lock.json",
+      "sha256": "cdc25bbb48fe24d84413e71ead37a07fe633ba8758c991c6b481924c7838eb72",
+      "bytes": 2287,
+      "operation": "add",
+      "role": "independent-reviewed-meaning-evidence"
+    },
+    {
+      "stagePath": ".local/team-137/dev03/meaning-next/outputs/data/raw/meaning-context-batch1-review.json",
+      "logicalTarget": "data/raw/meaning-context-batch1-review.json",
+      "sha256": "01df11ddaf15780cb472533114ac4175e718ce80b6f1f090d79603c1cdfd3b0c",
+      "bytes": 11584,
+      "operation": "add",
+      "role": "independent-reviewed-meaning-evidence"
+    },
+    {
+      "stagePath": ".local/team-137/dev03/meaning-next/outputs/data/raw/meaning-context-gap-policy.json",
+      "logicalTarget": "data/raw/meaning-context-gap-policy.json",
+      "sha256": "949297c14cba5f56014b8003311bbbe5aa4837a99ddb57529b428f7330f85a04",
+      "bytes": 3144,
+      "operation": "add",
+      "role": "independent-reviewed-meaning-evidence"
+    },
+    {
+      "stagePath": ".local/team-137/dev03/meaning-next/runtime/meaning-context-next.mjs",
+      "logicalTarget": "src/domain/meaning-context-next.mjs",
+      "sha256": "4d71c77a5dc9131d66a9c0dcb00d9323aa919cb67421bf38731b6fe3341e4f17",
+      "bytes": 5416,
+      "operation": "add",
+      "role": "conditional-explanation-consumer"
+    },
+    {
+      "stagePath": ".local/team-137/dev03/meaning-next/runtime/meaning-context-next.d.mts",
+      "logicalTarget": "src/domain/meaning-context-next.d.mts",
+      "sha256": "959a59ac2595446b28118c4f8236239bd538e47901d838f0184a9913a6a2c622",
+      "bytes": 2658,
+      "operation": "add",
+      "role": "conditional-explanation-consumer"
+    },
+    {
+      "stagePath": ".local/team-137/dev03/meaning-next/scripts/meaning-context-build.mjs",
+      "logicalTarget": "scripts/meaning-context-build.mjs",
+      "sha256": "ef4b65bb63f3c59af6aaf03e17d264d28e007df36c51a6ade34f6ce486897d53",
+      "bytes": 12416,
+      "operation": "add",
+      "role": "controlled-offline-reproduction"
+    },
+    {
+      "stagePath": ".local/team-137/dev03/meaning-next/scripts/meaning-context-pins.mjs",
+      "logicalTarget": "scripts/meaning-context-pins.mjs",
+      "sha256": "bd0a11dc21d00f25b2b5b1f7625a96d6fe6289a709a9cc5b91a31403cbb70266",
+      "bytes": 1412,
+      "operation": "add",
+      "role": "controlled-offline-reproduction"
+    },
+    {
+      "stagePath": ".local/team-137/dev03/meaning-next/scripts/meaning-context-publication.mjs",
+      "logicalTarget": "scripts/meaning-context-publication.mjs",
+      "sha256": "4a1b08426197aca452da27293ba31f38b472c51c185c999a5ba410a68c465102",
+      "bytes": 1171,
+      "operation": "add",
+      "role": "controlled-offline-reproduction"
+    },
+    {
+      "stagePath": ".local/team-137/dev03/meaning-next/scripts/verify-meaning-context-next.mjs",
+      "logicalTarget": "scripts/verify-meaning-context-next.mjs",
+      "sha256": "76880dceaf44ecd910afd62d8fc41d5c71e99a888e7edc1407993b5d9e7fc4ab",
+      "bytes": 844,
+      "operation": "add",
+      "role": "controlled-offline-reproduction"
+    }
+  ],
+  "pins": {
+    "schema": "meaning-context-fixed-inputs/1",
+    "inputHashes": {
+      "data/naming-editorial-v7.json": "392fa47441a0c410b0903c3e85853081225a1a5e9f540b5467e4ea4e2151cc48",
+      "data/dataset-v6.json": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+      "data/raw/moe-revised.json.gz": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+      "data/raw/moe-README.md": "a93321d9381bc1cf34b4ad844f71607fa748c86c0b228ae37d46720d6a659cb2",
+      "data/raw/CC-BY-ND-3.0-TW.html": "04e6ef69a223b6e13c93c97a918ad5fd0dbb9fc34ae307f4449ed264e2d4108f",
+      "data/raw/meaning-context-batch1-review.json": "01df11ddaf15780cb472533114ac4175e718ce80b6f1f090d79603c1cdfd3b0c",
+      "data/raw/meaning-context-gap-policy.json": "949297c14cba5f56014b8003311bbbe5aa4837a99ddb57529b428f7330f85a04"
+    },
+    "outputHashes": {
+      "data/meaning-context-next.json": "3dc77f55dca1516ae3cb4231a022a58aca1874189da6ea99c101c6931b7a1877",
+      "data/meaning-gap-classification.json": "1be67b4d4a9f02ef38697d1fca8b4385b5eb2ef9abe54ef78dfe962a94615ccc",
+      "data/meaning-context-next-NOTICE.md": "93f7dd60d3dcc09dbf2221f365f0ee0c7cfe757266f2485ac63e7c4b07c719f7",
+      "data/meaning-context-next-source-lock.json": "cdc25bbb48fe24d84413e71ead37a07fe633ba8758c991c6b481924c7838eb72"
+    }
+  },
+  "coverage": {
+    "baseGap": 243,
+    "baseManual": 161,
+    "basePending": 82,
+    "firstBatchDistinctCharacters": 20,
+    "firstBatchManualCharacters": 12,
+    "firstBatchPendingCharacters": 8,
+    "remainingWithoutNewContext": 223,
+    "remainingManualWithoutNewContext": 149,
+    "remainingPendingWithoutNewContext": 74,
+    "automaticPromotions": 0,
+    "baseAutomaticDisplayCharacters": 304,
+    "excludedNotRecommended": 15,
+    "baseStandaloneStatusesChanged": false
+  },
+  "countInterpretation": {
+    "newConditionallyConsumableCharacterContexts": 20,
+    "previousManualTargets": 12,
+    "previousPendingTargets": 8,
+    "noNewContextYet": 223,
+    "oldStandaloneCharacterGapsStillUnchanged": 243,
+    "newUnconditionalStandaloneMeanings": 0,
+    "newAutomaticPromotions": 0,
+    "newWholeNameApprovals": 0,
+    "requiresExplicitSenseAndContextChoice": true
+  },
+  "checks": [
+    {
+      "command": "node --test .local/team-137/dev03/meaning-next/context-tests.mjs",
+      "passed": true,
+      "tests": 22,
+      "log": ".local/team-137/dev03/meaning-next/targeted.log",
+      "sha256": "b66e8633d811b6664f2cf2a376f125f6f1d93af5189f7817a1b4d20d543510a7"
+    },
+    {
+      "command": "node .local/team-137/dev03/meaning-next/typecheck.mjs",
+      "passed": true,
+      "diagnostics": 0,
+      "log": ".local/team-137/dev03/meaning-next/typecheck.log",
+      "sha256": "6f31789171b9a27e5dc19d1ea727f0b5c23b860152cfc0928a51bd1e1a6b47ab"
+    },
+    {
+      "command": "node .local/team-137/dev03/meaning-next/run-clean-proof.mjs",
+      "passed": true,
+      "evidence": ".local/team-137/dev03/meaning-next/clean-proof.json",
+      "sha256": "9a0e3d1f5c2deedc7c587f4f37978d6cd72126f5358d5c8ac1d7e8ffc682bc8f",
+      "fixedDataInputs": 7,
+      "rebuiltOutputs": 4,
+      "sourceFiles": 10,
+      "unchangedDataFiles": 11,
+      "outsideReadDenied": "ERR_ACCESS_DENIED"
+    },
+    {
+      "command": "node .local/team-137/dev03/meaning-next/record-review-boundaries.mjs",
+      "passed": true,
+      "evidence": ".local/team-137/dev03/meaning-next/review-boundaries.json",
+      "sha256": "888f3daee653e4baddbeba78a1fef124fcb2c309c250c77ae126c2b70ec1c394",
+      "existingFullNameRules": 91,
+      "newContexts": 20,
+      "overlap": 0
+    }
+  ],
+  "frozenPackages": [
+    {
+      "file": ".local/team-137/dev03/r2/manifest-r2.json",
+      "sha256": "60c14300d109e88afc245957c037df2732c82f5bbedc11373063ad039ad6f9b8",
+      "preserved": true
+    },
+    {
+      "file": ".local/team-137/dev03/phonetic-ui-next/manifest-phonetic-ui-r1.json",
+      "sha256": "505bde7a318341c9a62ba5d3a27b7943113ac23df7dec92dd9e5f226caf577ad",
+      "preserved": true
+    }
+  ],
+  "lexicalReferences": {
+    "dictionaryOriginalLicense": "CC-BY-ND-3.0-TW;original definitions/quotes/entries unchanged",
+    "projectMetadataLicense": "CC0-1.0;grammar/reasons/conditions only",
+    "wholeDictionarySha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+    "rawMoeCommit": "a6dc997417507eb510fc29822bc514de2c92728c"
+  },
+  "integration": ".local/team-137/dev03/meaning-next/INTEGRATION.md",
+  "sharedTreeModified": false,
+  "newApplicationMethodVersionDefined": false,
+  "unexecuted": [
+    "Independent semantic/source audit of20casesand243classification",
+    "Product versioning and main-process/store/UI integration",
+    "Full tests/build/package/install",
+    "External sources/network requests"
+  ]
+}

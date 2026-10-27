@@ -1,0 +1,387 @@
+{
+  "schema": "m412-m393-twenty-character-candidate-independent-admission-review/1",
+  "date": "2026-10-23",
+  "decision": "SUPPORTED_LEXICAL_CANDIDATE_FACTS_WITH_ONE_WORDING_RESERVATION_NO_PRODUCTION_OR_AUTONAMING_ADMISSION",
+  "manifest": {
+    "file": "E:/八卦周易/.local/team-393/dev02/delivery-manifest.json",
+    "sha256": "c0883e0323c4b7016b0a637341c8a2a5c9ba8bd359922cc894e35025d39e62d2",
+    "bytes": 9118
+  },
+  "candidateManifest": {
+    "sha256": "7ae88160c3ab8b2ebc3982fa6084f52ab2838640296fc213e528d64deb32ec51",
+    "bytes": 2932
+  },
+  "classifications": {
+    "lexicalFactsSupportedForFurtherCandidateReview": "呈凡庚科克昆陵枚孟曲茹莘宛伍向炎又余渝兆",
+    "noun8": "庚科昆枚孟茹伍兆",
+    "adjective4": "凡莘宛余",
+    "verb6": "呈克陵向炎渝",
+    "adverb2": "曲又",
+    "usageReviewRequiredTrue8": "呈克陵曲向炎又渝",
+    "nominalAdjectiveFlagFalseMeaning": "12false values describe selectedPOS metadata only; do not authorize automatic name use.",
+    "fullNameAndFamilyContextRequired": "All20 remain candidate-only; facts being supported is not whole-name applicability.",
+    "productionAdmittedChars": [],
+    "automaticNamingApprovedChars": [],
+    "newOfficialCoverage": 0
+  },
+  "perCharacter": [
+    {
+      "char": "呈",
+      "pinyin": "chéng",
+      "sourceWord": "呈",
+      "pos": "動",
+      "sense": "顯露。",
+      "usageReviewRequired": true
+    },
+    {
+      "char": "凡",
+      "pinyin": "fán",
+      "sourceWord": "凡",
+      "pos": "形",
+      "sense": "平庸、平常。",
+      "usageReviewRequired": false
+    },
+    {
+      "char": "庚",
+      "pinyin": "gēng",
+      "sourceWord": "庚",
+      "pos": "名",
+      "sense": "年齡、年歲。",
+      "usageReviewRequired": false
+    },
+    {
+      "char": "科",
+      "pinyin": "kē",
+      "sourceWord": "科",
+      "pos": "名",
+      "sense": "類別、項目。",
+      "usageReviewRequired": false
+    },
+    {
+      "char": "克",
+      "pinyin": "kè",
+      "sourceWord": "剋",
+      "pos": "動",
+      "sense": "約束。",
+      "usageReviewRequired": true
+    },
+    {
+      "char": "昆",
+      "pinyin": "kūn",
+      "sourceWord": "昆",
+      "pos": "名",
+      "sense": "後嗣、子孫。",
+      "usageReviewRequired": false
+    },
+    {
+      "char": "陵",
+      "pinyin": "líng",
+      "sourceWord": "陵",
+      "pos": "動",
+      "sense": "淬礪。",
+      "usageReviewRequired": true
+    },
+    {
+      "char": "枚",
+      "pinyin": "méi",
+      "sourceWord": "枚",
+      "pos": "名",
+      "sense": "樹幹。",
+      "usageReviewRequired": false
+    },
+    {
+      "char": "孟",
+      "pinyin": "mèng",
+      "sourceWord": "孟",
+      "pos": "名",
+      "sense": "四季中每季的第一個月。",
+      "usageReviewRequired": false
+    },
+    {
+      "char": "曲",
+      "pinyin": "qū",
+      "sourceWord": "曲",
+      "pos": "副",
+      "sense": "周全、盡心盡力。",
+      "usageReviewRequired": true
+    },
+    {
+      "char": "茹",
+      "pinyin": "rú",
+      "sourceWord": "茹",
+      "pos": "名",
+      "sense": "蔬菜的總稱。",
+      "usageReviewRequired": false
+    },
+    {
+      "char": "莘",
+      "pinyin": "shēn",
+      "sourceWord": "莘",
+      "pos": "形",
+      "sense": "眾多。",
+      "usageReviewRequired": false
+    },
+    {
+      "char": "宛",
+      "pinyin": "wǎn",
+      "sourceWord": "宛",
+      "pos": "形",
+      "sense": "曲折的。",
+      "usageReviewRequired": false
+    },
+    {
+      "char": "伍",
+      "pinyin": "wǔ",
+      "sourceWord": "伍",
+      "pos": "名",
+      "sense": "古代軍隊的編制單位，以五人為一伍。",
+      "usageReviewRequired": false
+    },
+    {
+      "char": "向",
+      "pinyin": "xiàng",
+      "sourceWord": "嚮",
+      "pos": "動",
+      "sense": "面對。",
+      "usageReviewRequired": true
+    },
+    {
+      "char": "炎",
+      "pinyin": "yán",
+      "sourceWord": "炎",
+      "pos": "動",
+      "sense": "火光上升。",
+      "usageReviewRequired": true
+    },
+    {
+      "char": "又",
+      "pinyin": "yòu",
+      "sourceWord": "又",
+      "pos": "副",
+      "sense": "表示重複或反覆。",
+      "usageReviewRequired": true
+    },
+    {
+      "char": "余",
+      "pinyin": "yú",
+      "sourceWord": "餘",
+      "pos": "形",
+      "sense": "不盡的、未完的。",
+      "usageReviewRequired": false
+    },
+    {
+      "char": "渝",
+      "pinyin": "yú",
+      "sourceWord": "渝",
+      "pos": "動",
+      "sense": "變更、改變。",
+      "usageReviewRequired": true
+    },
+    {
+      "char": "兆",
+      "pinyin": "zhào",
+      "sourceWord": "兆",
+      "pos": "名",
+      "sense": "事情發生前所顯露的徵候、跡象。",
+      "usageReviewRequired": false
+    }
+  ],
+  "findings": {
+    "P1": [],
+    "P2": [],
+    "wordingReservations": [
+      {
+        "id": "M412-YOU-CONTINUATION-PRECISION",
+        "severity": "wording-clarification-before-future-source-backed-publication",
+        "char": "又",
+        "caseId": "single-meaning-m393:又:24539:0:0",
+        "source": "表示重複或反覆。",
+        "observed": "取动作再次发生、重复延续的语用意象。",
+        "issue": "Repeated/again is supported. Continuity without interruption, persistence,progress oroutcome guarantee is not independently supplied by this anchor; ‘延续’must not acquire sourcecredit.",
+        "locations": [
+          {
+            "file": "E:/八卦周易/.local/team-393/dev02/candidate/data/naming-character-meanings-m393-profile.json",
+            "line": 3600,
+            "jsonPointer": "/cases/16/editorial/meaning"
+          },
+          {
+            "file": "E:/八卦周易/.local/team-393/dev02/candidate/data/raw/naming-character-meanings-m393-subset.json",
+            "line": 3594,
+            "jsonPointer": "/cases/16/editorial/meaning"
+          },
+          {
+            "file": "E:/八卦周易/.local/team-393/dev02/editorial20.json",
+            "line": 184
+          }
+        ],
+        "recommendedText": "取再次发生、重复或反复的语用意象。",
+        "alternative": "If retaining延续, explicitly limit it to repetition, without continuous/persistent/performance credit.",
+        "candidateEdited": false
+      }
+    ]
+  },
+  "semanticLimits": [
+    "克/剋:约束/剋己supports narrowproject‘节制’paraphrase only; not verbatimMOEquotation or all克senses/personality.",
+    "曲 usesqū adverb周全尽力; notqǔmusic/麯orwholeword meaningborrow.",
+    "渝 ischange, not坚定from否定‘不渝’.",
+    "陵 retains兵刃淬砺 context; skillswishisprojectcreation.",
+    "莘r2 only众多; unsupported汇集removed andoldr1 remains archived.",
+    "凡原义含平庸、宛为曲折、伍为古军制、兆为中性征候；no positive/fortune flip or automatic family acceptance.",
+    "炎baselinealready火、渝baselinealready水; those are unchanged preexistingtags, not thiscandidateaddingelements frommeaning/radicals.",
+    "Wishes about学习/表达/温暖/cooperation remain authoredwishes, not sourcefacts/measured childtraits/score."
+  ],
+  "dedup": {
+    "overlaps": [],
+    "all20BaselineAndPendingReviewsExact": true,
+    "oldNamingMeaningNullAndAutoFalse": true,
+    "oldV4AndV7ApprovedExcluded": true,
+    "actualCurrent40Excluded": true,
+    "independent143144Excluded": true,
+    "independent143And144SamePublication": true,
+    "excludedAndWholeWordContextExcluded": true,
+    "note": "Distinct projectmeaning candidates only. All20glyphs already exist in dataset; not20newdictionarycharacters. Raw batch input inventory is not itself independentlyapproved meaningcoverage."
+  },
+  "unicode": {
+    "mappings": [
+      {
+        "char": "克",
+        "sourceWord": "剋",
+        "forward": true,
+        "reverse": true
+      },
+      {
+        "char": "向",
+        "sourceWord": "嚮",
+        "forward": true,
+        "reverse": true
+      },
+      {
+        "char": "余",
+        "sourceWord": "餘",
+        "forward": true,
+        "reverse": true
+      }
+    ],
+    "originalSmallTextHashesAnd1basedLinesMatch": true,
+    "ownGlyphOriginalEntryRetained": true,
+    "noBlanketVariantSenseOrPinyinEquivalence": true
+  },
+  "sourceAndLicense": {
+    "selectedObjectsPinyinPOSParsedEntryHashesAnd20MirrorsMatch": true,
+    "hashConvention": "sha256(JSON.stringify(parsed complete original entry)), not originalUTF8byte-range hash.",
+    "upstreamGzipIndependentlyReDecoded": false,
+    "entryIndicesIndependentlyReplayedAgainstFullGzip": false,
+    "sourceLimit": "Sealed fullentry content/anchors and existingfixed-source positive record reviewed; no new largegzip extraction or sourceauthority granted.",
+    "MOEOriginal": "Complete definition/type/examples/quotes retained under fixedCC-BY-ND-3.0-TW and original attribution.",
+    "UnicodeOriginal": "Pinned smalloriginal lines andUnicode-3.0notice retained.",
+    "projectCC0": "Onlyseparatelyattributed authoredprojectprose, not relicenseMOEoriginals.",
+    "reviewScope": "Fixednotice text/hash/provenance checked; no newdistribution/productionlegalapproval."
+  },
+  "gates": {
+    "candidateOnly": true,
+    "activation": "off",
+    "productionApproved": false,
+    "dispatchToLive": false,
+    "generationAuthority": false,
+    "sourceAuthority": false,
+    "automaticNameRecommendation": false,
+    "automaticSemanticCreditAllowed": false,
+    "scoreDelta": 0,
+    "wholeNameAssessment": "not-assessed",
+    "wholeNameMeaning": null,
+    "approvedCaseIds": [],
+    "usage8PreservedInBothMirrorsAndLoader": true,
+    "liveEntry": "Actualoldv7.1 fixed40file/hash/approvedID/admission entry and4/5/6/7/7.1registry do notaccept M39320/off/testOnly DTO. Scope-limited static source inspection, not fullrepo/runtime dispatch proof.",
+    "returnedObject": "Deepfrozen plaincandidate data is not anopaque privateauthorityhandle; callerclones/verifiedflags have no adoptionconsumer here."
+  },
+  "existingChecks": {
+    "record": {
+      "file": "E:/八卦周易/.local/team-393/dev02/evidence/verification-r2/result.json",
+      "sha256": "0ff9cb399dbf30c52a3e41070749bf29f8cfbfbb085408d41900af4b605bbf97",
+      "bytes": 4310
+    },
+    "passed": 12,
+    "positive": 1,
+    "candidateFixedByteOrMissingRejects": 10,
+    "originalDatasetPreGzipRejects": 1,
+    "ownerRunGzipRead": 1,
+    "ownerRunGunzip": 1,
+    "auditRerun": false,
+    "limitation": "Mutated candidate negatives mostly fail fixedbyteintegrity; not independent semanticguard exercises after resigning allpins, not production semanticadmission."
+  },
+  "evidence": {
+    "nounAdjective": {
+      "file": "E:/八卦周易/.local/team-412/audit/noun-adjective-semantic-review.json",
+      "sha256": "bd44a286d48976811fef10e61e8d0da27c61a76a8776cc33280628fa3d94a7d0",
+      "bytes": 32817
+    },
+    "verbAdverb": {
+      "file": "E:/八卦周易/.local/team-412/audit/verb-adverb-semantic-review.json",
+      "sha256": "acf91c5d6b7bf7a5073bf00e4f44f29bba465b698297f7fbd3e02e55eb4c698e",
+      "bytes": 21648
+    },
+    "gate": {
+      "file": "E:/八卦周易/.local/team-412/audit/candidate-gate-review.json",
+      "sha256": "0ff94803dd091b6cb55a85e6aa84d7884511423fc093dfd3770105bae4776979",
+      "bytes": 13952
+    },
+    "dedupGlyph": {
+      "file": "E:/八卦周易/.local/team-412/audit/dedup-baseline-unicode-review.json",
+      "sha256": "4570c1bd892215ca9213b3ec69ae17c15beac308dd378b7b7dbbedf5d056f4b8",
+      "bytes": 9150
+    },
+    "packetLicense": {
+      "file": "E:/八卦周易/.local/team-412/audit/artifact-patch-license-review.json",
+      "sha256": "f9b05bdfdf22783363fce3c83047c3427e904d8f06cc9753ffd1858cc5ea07c9",
+      "bytes": 18870
+    }
+  },
+  "packet": {
+    "listedSmallArtifacts": 39,
+    "allMatched": true,
+    "newFiles": 8,
+    "patchSha256": "e89f98930e28da387131174ddef9669858499cd8f4e6394caabd70e2784fbb5b",
+    "patchBytes": 362984,
+    "inMemoryNewFileReconstructionExact": true,
+    "GitApplyExecuted": false
+  },
+  "preservation": {
+    "publicationR1AndFailedRecordsUnchanged": true,
+    "shenR2NoUnsupportedHuiJiBackfill": true,
+    "live40ResourcesUnchangedByAudit": true,
+    "CUnchangedByAudit": true,
+    "M389RuntimeNotRerun": true,
+    "M408": "Root-owned fullregression concurrent; no heavyfullpackage decode started here."
+  },
+  "executedByAuditor": {
+    "loader": 0,
+    "tests": 0,
+    "fullMOEGzipDecode": 0,
+    "App": 0,
+    "SQL": 0,
+    "Worker": 0,
+    "network": 0,
+    "build": 0,
+    "candidateWrites": 0,
+    "CWrites": 0,
+    "auditOutputsOnly": "E:/八卦周易/.local/team-412/audit"
+  },
+  "approvals": {
+    "candidateReviewOnly": true,
+    "production": false,
+    "automaticNaming": false,
+    "sourceAuthority": false,
+    "generationAuthority": false,
+    "coverageAddedToLive": 0,
+    "sourceprofile22": false,
+    "release": false,
+    "releaseStatus": "HOLD",
+    "broadProjectComplete": false
+  },
+  "completedAt": "2026-10-23T15:48:59.747Z",
+  "model": {
+    "explicitSubagents": "gpt-6.1-sol",
+    "reasoning": "ultra",
+    "noRestart": true
+  }
+}

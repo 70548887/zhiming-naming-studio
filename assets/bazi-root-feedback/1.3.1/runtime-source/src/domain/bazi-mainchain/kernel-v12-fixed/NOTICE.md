@@ -1,0 +1,1 @@
+Frozen1.2 mathematical helper subset only; original source identity and full licenses retained inrules. Old main/index/adapter and saved-result dispatch are excluded. This unique namespace does not overwrite project-v12.

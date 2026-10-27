@@ -1,0 +1,60 @@
+{
+  "version": "ditian-ren-necessary-clauses/1.0.0",
+  "profileId": "ditian-ren-commentary-2600158/1.1.0",
+  "sourceId": "bazi-ditian-ren-necessary-2600158",
+  "scope": "selected-vocabulary-necessary-prerequisite-only",
+  "source": {
+    "title": "滴天髓闡微",
+    "revision": 2600158,
+    "revisionTimestamp": "2025-09-25T13:22:02Z",
+    "url": "https://zh.wikisource.org/w/index.php?title=%E6%BB%B4%E5%A4%A9%E9%AB%93%E9%97%A1%E5%BE%AE&oldid=2600158",
+    "fullWikitextSha256": "1d1a3d61c1b9a26618b41b8ead857a6b966992fdf2adabdc607a0c6cb4c8f04d",
+    "fullWikitextCodepoints": 143701,
+    "authority": "ren-commentary"
+  },
+  "vocabulary": {
+    "exposed": "四柱明干；相对已确定日干分类",
+    "hidden": "lunar-typescript1.8.6 ZHI_HIDE_GAN所选完整藏干表；此为明示电子词汇，不宣称任注唯一有效根气范围",
+    "unknown": "缺柱未见不能证明没有；日主待定不得补12:00或任选日期"
+  },
+  "rules": [
+    {
+      "id": "child-wealth-required",
+      "name": "从儿必要财星 · 全明藏字面核查",
+      "pattern": "cong-er",
+      "role": "necessary-literal-membership",
+      "requiredRelation": "wealth",
+      "scope": "selected-vocabulary-necessary-prerequisite-only",
+      "sourceId": "bazi-ditian-ren-necessary-2600158",
+      "sourceQuote": "顺者，我生之也；只见儿者，食伤多也；构门闾者，月建逢食伤也，月为门户，必要食伤在提纲也；不论身强弱者，四柱虽有比劫仍去生助食伤也；吾儿又得儿者，必要局中有财，以成生育之意也。",
+      "sourceLocator": "oldid=2600158;codepoint[105319,105406)",
+      "sourceSpan": {
+        "start": 105319,
+        "end": 105406,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceHeading": "十六、顺局 · 任氏曰",
+      "interpretation": "将局中有财核为相对确定日主、全部明干及所选全藏干财星字面存在；完整未见仅反证本条所选词汇必要前提，藏财存在也不证明有效生育或成格。"
+    },
+    {
+      "id": "child-output-superset-required",
+      "name": "从儿提纲食伤 · 全盘必要上位集合",
+      "pattern": "cong-er",
+      "role": "necessary-superset",
+      "requiredRelation": "output",
+      "scope": "selected-vocabulary-necessary-prerequisite-only",
+      "sourceId": "bazi-ditian-ren-necessary-2600158",
+      "sourceQuote": "顺者，我生之也；只见儿者，食伤多也；构门闾者，月建逢食伤也，月为门户，必要食伤在提纲也；不论身强弱者，四柱虽有比劫仍去生助食伤也；吾儿又得儿者，必要局中有财，以成生育之意也。",
+      "sourceLocator": "oldid=2600158;codepoint[105319,105406)",
+      "sourceSpan": {
+        "start": 105319,
+        "end": 105406,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceHeading": "十六、顺局 · 任氏曰",
+      "interpretation": "全盘明干及所选全藏干完全无食伤时，其月干、本气、全藏等通常子集亦无；有食伤仅表示全盘上位集合未被缺项排除，不证明食伤在提纲或完整从儿。"
+    }
+  ]
+}

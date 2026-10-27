@@ -1,0 +1,3073 @@
+{
+  "version": "zhuanpan-chaibu-futou-kun2/1.2.0",
+  "method": "Captured complete published1.2 charts before independent ten-stem tomb reference.",
+  "cases": [
+    {
+      "profile": {
+        "id": "qimen-v2-frozen",
+        "customerName": "冻结奇门1.2",
+        "surname": "林",
+        "surnamePinyin": "lín",
+        "gender": "中性",
+        "calendar": "solar",
+        "birthDate": "2024-02-10",
+        "birthTime": "09:30:00",
+        "timeUnknown": false,
+        "leapMonth": false,
+        "birthPlace": "上海",
+        "timezone": "Asia/Shanghai",
+        "notes": ""
+      },
+      "expected": {
+        "available": true,
+        "dun": "阳遁",
+        "ju": 2,
+        "yuan": "下元",
+        "solarTerm": "立春",
+        "xun": "甲子（遁戊）",
+        "chiefStar": "天芮",
+        "chiefDoor": "死门",
+        "palaces": [
+          {
+            "number": 4,
+            "direction": "东南",
+            "trigram": "巽",
+            "earth": "庚",
+            "heaven": "癸",
+            "star": "天柱",
+            "door": "伤门",
+            "god": "腾蛇",
+            "marks": [
+              "六仪击刑（癸（主干））"
+            ]
+          },
+          {
+            "number": 9,
+            "direction": "南",
+            "trigram": "离",
+            "earth": "丙",
+            "heaven": "壬",
+            "star": "天心",
+            "door": "杜门",
+            "god": "太阴",
+            "marks": []
+          },
+          {
+            "number": 2,
+            "direction": "西南",
+            "trigram": "坤",
+            "earth": "戊",
+            "heaven": "乙",
+            "star": "天蓬",
+            "door": "景门",
+            "god": "六合",
+            "marks": [
+              "三奇入墓（乙（主干））"
+            ]
+          },
+          {
+            "number": 3,
+            "direction": "东",
+            "trigram": "震",
+            "earth": "己",
+            "heaven": "戊（寄辛）",
+            "star": "天芮、天禽",
+            "door": "生门",
+            "god": "值符",
+            "marks": [
+              "六仪击刑（戊（主干））"
+            ]
+          },
+          {
+            "number": 5,
+            "direction": "中",
+            "trigram": "中",
+            "earth": "辛",
+            "heaven": "随天禽寄震",
+            "star": "天禽寄震",
+            "door": "",
+            "god": "",
+            "marks": [
+              "中五寄坤，天禽随天芮"
+            ]
+          },
+          {
+            "number": 7,
+            "direction": "西",
+            "trigram": "兑",
+            "earth": "癸",
+            "heaven": "丁",
+            "star": "天任",
+            "door": "死门",
+            "god": "勾陈",
+            "marks": []
+          },
+          {
+            "number": 8,
+            "direction": "东北",
+            "trigram": "艮",
+            "earth": "丁",
+            "heaven": "丙",
+            "star": "天英",
+            "door": "休门",
+            "god": "九天",
+            "marks": []
+          },
+          {
+            "number": 1,
+            "direction": "北",
+            "trigram": "坎",
+            "earth": "乙",
+            "heaven": "庚",
+            "star": "天辅",
+            "door": "开门",
+            "god": "九地",
+            "marks": []
+          },
+          {
+            "number": 6,
+            "direction": "西北",
+            "trigram": "乾",
+            "earth": "壬",
+            "heaven": "己",
+            "star": "天冲",
+            "door": "惊门",
+            "god": "朱雀",
+            "marks": [
+              "时旬空（戌、亥）",
+              "时驿马（亥）"
+            ]
+          }
+        ],
+        "reasons": [
+          "拆补（甲己符头三元版本）：甲辰日回溯0日得符头甲辰，定下元；立春阳遁2局。",
+          "己巳时属甲子旬，甲遁戊；旬首仪在2宫，值符天芮、值使死门。",
+          "值符随时干己至3宫；值使顺/逆数5步至7宫。",
+          "九星、天盘按八宫同向刚性转动；中五寄坤二，天禽及中宫干随天芮。八神版本：阳遁勾陈朱雀，阴遁白虎玄武；阳顺阴逆。",
+          "来源对照：arc119226/qimen_dunjia@7d94103 的盘层与经典转录例题；MarkChenXY163/qimendunjia_mcp@d5941f4 的日干支三元及局数表。后者交节只到日期，本引擎另用精确交节。",
+          "当前节气交接时刻：2024-02-04 16:27:07 UTC+08:00；出生地时间基准 Asia/Shanghai，民用午夜换日，未作真太阳时校正。"
+        ],
+        "warnings": [
+          "奇门用于出生盘的传统文化参考；未建立姓名落宫算法，不用于宣称名字已验算吉凶。",
+          "结构辅助已核查门迫、天盘宽式六仪击刑、所选三奇入墓与星门整层原位或对宫；四害解除、真假空及姓名验局尚未启用。时旬空与时驿马只作固定地支宫位标记。",
+          "三元采用甲己符头规则，不采用交节后每120小时换元，也不启用超神接气置闰。"
+        ],
+        "version": "zhuanpan-chaibu-futou-kun2/1.2.0",
+        "auxiliary": {
+          "version": "hour-xunkong-yima/1.0.0",
+          "hourGanzhi": "己巳",
+          "scope": "hour",
+          "rules": [
+            {
+              "id": "qimen-hour-xunkong",
+              "version": "1.0.0",
+              "name": "时柱六旬旬空",
+              "sources": [
+                {
+                  "id": "qimen-arc-markers",
+                  "url": "https://github.com/arc119226/qimen_dunjia",
+                  "commit": "7d941031d685d818d9fd234edf891dba5bd6a323",
+                  "locator": "constants.js:627–632,651–659; test.js:527–549"
+                },
+                {
+                  "id": "qimen-go-markers",
+                  "url": "https://github.com/deminzhang/qimen-go",
+                  "commit": "4d3f58fa0f401b5b3a337f119138e99e90685dda",
+                  "locator": "xuan/ganzhi.go:31–46,141–148; xuan/qimen.go:182–190"
+                }
+              ],
+              "conditions": [
+                "输入为已确定时柱的有效六十甲子，以时柱所属的十干一旬取两支旬空，不取年柱或日柱。",
+                "地支按固定后天九宫映射：子1，丑寅8，卯3，辰巳4，午9，未申2，酉7，戌亥6。",
+                "同宫两空支合并显示；中宫5无地支，不因中五寄坤或天盘旋转而转移旬空。"
+              ]
+            },
+            {
+              "id": "qimen-hour-yima",
+              "version": "1.0.0",
+              "name": "时支三合组驿马",
+              "sources": [
+                {
+                  "id": "qimen-go-markers",
+                  "url": "https://github.com/deminzhang/qimen-go",
+                  "commit": "4d3f58fa0f401b5b3a337f119138e99e90685dda",
+                  "locator": "xuan/ganzhi.go:31–46,141–148; xuan/qimen.go:182–190"
+                }
+              ],
+              "conditions": [
+                "仅按已确定时柱的时支取驿马，不使用年支、日支或姓名笔画。",
+                "申子辰马在寅，寅午戌马在申，巳酉丑马在亥，亥卯未马在巳。",
+                "马支按固定地支宫位标记，不随阴阳遁、盘层转动或中五寄坤改变。"
+              ]
+            }
+          ],
+          "markers": [
+            {
+              "kind": "xunkong",
+              "label": "时旬空",
+              "branches": [
+                "戌",
+                "亥"
+              ],
+              "palaces": [
+                6
+              ],
+              "ruleId": "qimen-hour-xunkong",
+              "ruleVersion": "1.0.0",
+              "evidence": [
+                "时柱己巳属甲子旬（甲子至癸酉）。",
+                "本旬十干配支后余戌、亥，取为时旬空；固定支宫为戌→6宫、亥→6宫。",
+                "仅标两支所在固定宫位，不判断真空、假空、冲空、填实或吉凶。"
+              ]
+            },
+            {
+              "kind": "yima",
+              "label": "时驿马",
+              "branches": [
+                "亥"
+              ],
+              "palaces": [
+                6
+              ],
+              "ruleId": "qimen-hour-yima",
+              "ruleVersion": "1.0.0",
+              "evidence": [
+                "时柱己巳的时支巳属巳、酉、丑三合组，按该组取马在亥。",
+                "马支亥固定落6宫，不取年支、日支，也不随转盘或寄中改变。"
+              ]
+            }
+          ],
+          "warnings": [
+            "本模块仅列时柱旬空与时支驿马的规则事实，不推导姓名落宫或吉凶结论。"
+          ]
+        },
+        "patterns": {
+          "version": "zhuanpan-structural-patterns/1.0.0",
+          "school": "zhuanpan-chaibu-futou-kun2",
+          "rules": [
+            {
+              "id": "qimen-door-menpo",
+              "version": "1.0.0",
+              "name": "门迫（门克宫）",
+              "sources": [
+                {
+                  "id": "qimen-arc-structural-patterns",
+                  "url": "https://github.com/arc119226/qimen_dunjia",
+                  "commit": "7d941031d685d818d9fd234edf891dba5bd6a323",
+                  "locator": "patterns.js:59–71 SOURCES.法竅_迫制註; 384–407 detectMenPo"
+                }
+              ],
+              "conditions": [
+                "仅在门五行克落宫五行时命中；宫克门、生扶或同类不记为门迫。",
+                "休水；伤杜木；景火；生死土；开惊金。宫行：坎水、震巽木、离火、坤艮土、乾兑金。",
+                "核查外八宫，不将中五寄坤产生第九个门。"
+              ]
+            },
+            {
+              "id": "qimen-heaven-yi-jixing",
+              "version": "1.0.0",
+              "name": "六仪击刑（天盘宽式）",
+              "sources": [
+                {
+                  "id": "qimen-arc-structural-patterns",
+                  "url": "https://github.com/arc119226/qimen_dunjia",
+                  "commit": "7d941031d685d818d9fd234edf891dba5bd6a323",
+                  "locator": "patterns.js:516–556 JI_XING / detectLiuYiJiXing"
+                },
+                {
+                  "id": "qimen-go-structural-patterns",
+                  "url": "https://github.com/deminzhang/qimen-go",
+                  "commit": "4d3f58fa0f401b5b3a337f119138e99e90685dda",
+                  "locator": "xuan/qimen_defs.go:226–235 QM6YiJiXing"
+                }
+              ],
+              "conditions": [
+                "采用宽式任一六仪落刑宫，不采用仅值符所带仪的严式；同一仪不再重复记严式结果。",
+                "固定仪宫：戊3、己2、庚8、辛9、壬4、癸4。",
+                "只核外八宫天盘主干及随天芮落宫的寄干，按实际落宫计算；地盘干与中五展示副本不参与。"
+              ]
+            },
+            {
+              "id": "qimen-heaven-qi-rumu",
+              "version": "1.0.0",
+              "name": "三奇入墓（乙坤、丙乾、丁艮）",
+              "sources": [
+                {
+                  "id": "qimen-arc-structural-patterns",
+                  "url": "https://github.com/arc119226/qimen_dunjia",
+                  "commit": "7d941031d685d818d9fd234edf891dba5bd6a323",
+                  "locator": "patterns.js:150–158 SOURCES.統宗_四十格 / 旨歸_入墓; 563–579 RU_MU"
+                }
+              ],
+              "conditions": [
+                "仅核三奇乙丙丁，固定采用乙入坤二、丙入乾六、丁入艮八的读法，不声称覆盖十干入墓。",
+                "丁墓乾六及其他长生表为不同读法，本版本未采用；不得把不同流派的墓宫混成一张表。",
+                "只核外八宫天盘主干及随天芮落宫的寄干，按实际落宫计算；地盘干与中五展示副本不参与。"
+              ]
+            },
+            {
+              "id": "qimen-stars-fuyin",
+              "version": "1.0.0",
+              "name": "星盘原位（结构伏吟）",
+              "sources": [
+                {
+                  "id": "qimen-arc-structural-patterns",
+                  "url": "https://github.com/arc119226/qimen_dunjia",
+                  "commit": "7d941031d685d818d9fd234edf891dba5bd6a323",
+                  "locator": "patterns.js:145–149 SOURCES.釣叟_反吟"
+                },
+                {
+                  "id": "qimen-go-structural-patterns",
+                  "url": "https://github.com/deminzhang/qimen-go",
+                  "commit": "4d3f58fa0f401b5b3a337f119138e99e90685dda",
+                  "locator": "xuan/qimen_defs.go:198–205 StarHome / DoorHome"
+                }
+              ],
+              "conditions": [
+                "逐一核对外八宫全部八项，不以值符或值使单宫代替整层；中五无独立星门，天禽随天芮以坤二为原位。",
+                "本产品按固定原位表定义整层结构伏吟，不把该软件分层定义声称为独立核验古籍原页。",
+                "天蓬1、天芮2、天冲3、天辅4、天心6、天柱7、天任8、天英9全部处于原位才命中；不把单干重叠格同名伏吟混入。"
+              ]
+            },
+            {
+              "id": "qimen-stars-fanyin",
+              "version": "1.0.0",
+              "name": "星盘对宫（结构反吟）",
+              "sources": [
+                {
+                  "id": "qimen-arc-structural-patterns",
+                  "url": "https://github.com/arc119226/qimen_dunjia",
+                  "commit": "7d941031d685d818d9fd234edf891dba5bd6a323",
+                  "locator": "patterns.js:145–149 SOURCES.釣叟_反吟; 312–330 detectFanYin"
+                },
+                {
+                  "id": "qimen-go-structural-patterns",
+                  "url": "https://github.com/deminzhang/qimen-go",
+                  "commit": "4d3f58fa0f401b5b3a337f119138e99e90685dda",
+                  "locator": "xuan/qimen_defs.go:198–205 StarHome / DoorHome"
+                }
+              ],
+              "conditions": [
+                "逐一核对外八宫全部八项，不以值符或值使单宫代替整层；中五无独立星门，天禽随天芮以坤二为原位。",
+                "本产品把单星对宫条文与固定原位表扩展为整层核查，明确属于软件结构定义。",
+                "八星全部到各自原位对宫才命中；对宫固定为1↔9、2↔8、3↔7、4↔6（宫号和为10）。"
+              ]
+            },
+            {
+              "id": "qimen-doors-fuyin",
+              "version": "1.0.0",
+              "name": "门盘原位（结构伏吟）",
+              "sources": [
+                {
+                  "id": "qimen-go-structural-patterns",
+                  "url": "https://github.com/deminzhang/qimen-go",
+                  "commit": "4d3f58fa0f401b5b3a337f119138e99e90685dda",
+                  "locator": "xuan/qimen_defs.go:198–205 StarHome / DoorHome"
+                }
+              ],
+              "conditions": [
+                "逐一核对外八宫全部八项，不以值符或值使单宫代替整层；中五无独立星门，天禽随天芮以坤二为原位。",
+                "本产品按固定门原位表定义的整层结构检查，未声称已核验独立古籍的门层判语。",
+                "休1、死2、伤3、杜4、开6、惊7、生8、景9全部处于原位才命中；不与星层合并。"
+              ]
+            },
+            {
+              "id": "qimen-doors-fanyin",
+              "version": "1.0.0",
+              "name": "门盘对宫（结构反吟）",
+              "sources": [
+                {
+                  "id": "qimen-go-structural-patterns",
+                  "url": "https://github.com/deminzhang/qimen-go",
+                  "commit": "4d3f58fa0f401b5b3a337f119138e99e90685dda",
+                  "locator": "xuan/qimen_defs.go:198–205 StarHome / DoorHome"
+                }
+              ],
+              "conditions": [
+                "逐一核对外八宫全部八项，不以值符或值使单宫代替整层；中五无独立星门，天禽随天芮以坤二为原位。",
+                "本产品按固定门原位表及对宫几何定义的整层结构检查，未声称已核验独立古籍的门层判语。",
+                "八门全部到各自原位对宫才命中；对宫固定为1↔9、2↔8、3↔7、4↔6（宫号和为10），不与星层合并。"
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "ruleId": "qimen-door-menpo",
+              "ruleVersion": "1.0.0",
+              "layer": "doors",
+              "status": "not-matched",
+              "palaces": [],
+              "evidence": [
+                "外八宫逐门按门克宫核查，未将宫克门计作门迫。",
+                "1宫开门金→宫水：未命中门克宫。",
+                "2宫景门火→宫土：未命中门克宫。",
+                "3宫生门土→宫木：未命中门克宫。",
+                "4宫伤门木→宫木：未命中门克宫。",
+                "6宫惊门金→宫金：未命中门克宫。",
+                "7宫死门土→宫金：未命中门克宫。",
+                "8宫休门水→宫土：未命中门克宫。",
+                "9宫杜门木→宫火：未命中门克宫。"
+              ]
+            },
+            {
+              "ruleId": "qimen-heaven-yi-jixing",
+              "ruleVersion": "1.0.0",
+              "layer": "heaven-stems",
+              "status": "matched",
+              "palaces": [
+                3,
+                4
+              ],
+              "evidence": [
+                "只核外八宫天盘主干及随天芮落宫的寄干，按实际落宫计算；地盘干与中五展示副本不参与。",
+                "本次采用任一六仪的宽式，固定戊→3、己→2、庚→8、辛→9、壬→4、癸→4。",
+                "1宫庚（主），本规则目标8宫：未命中。",
+                "3宫戊（主），本规则目标3宫：命中。",
+                "3宫辛（寄），本规则目标9宫：未命中。",
+                "4宫癸（主），本规则目标4宫：命中。",
+                "6宫己（主），本规则目标2宫：未命中。",
+                "9宫壬（主），本规则目标4宫：未命中。"
+              ]
+            },
+            {
+              "ruleId": "qimen-heaven-qi-rumu",
+              "ruleVersion": "1.0.0",
+              "layer": "heaven-stems",
+              "status": "matched",
+              "palaces": [
+                2
+              ],
+              "evidence": [
+                "只核外八宫天盘主干及随天芮落宫的寄干，按实际落宫计算；地盘干与中五展示副本不参与。",
+                "本次仅核乙→2、丙→6、丁→8；丁在乾六不按本版本三奇入墓计。",
+                "2宫乙（主），本规则目标2宫：命中。",
+                "7宫丁（主），本规则目标8宫：未命中。",
+                "8宫丙（主），本规则目标6宫：未命中。"
+              ]
+            },
+            {
+              "ruleId": "qimen-stars-fuyin",
+              "ruleVersion": "1.0.0",
+              "layer": "stars",
+              "status": "not-matched",
+              "palaces": [],
+              "evidence": [
+                "逐一核对外八宫全部八项，不以值符或值使单宫代替整层；中五无独立星门，天禽随天芮以坤二为原位。",
+                "1宫天辅原位4宫，本规则目标4宫：不符合。",
+                "2宫天蓬原位1宫，本规则目标1宫：不符合。",
+                "3宫天芮原位2宫，本规则目标2宫：不符合。",
+                "4宫天柱原位7宫，本规则目标7宫：不符合。",
+                "6宫天冲原位3宫，本规则目标3宫：不符合。",
+                "7宫天任原位8宫，本规则目标8宫：不符合。",
+                "8宫天英原位9宫，本规则目标9宫：不符合。",
+                "9宫天心原位6宫，本规则目标6宫：不符合。",
+                "外八项0/8符合原位条件；整层未命中。"
+              ]
+            },
+            {
+              "ruleId": "qimen-stars-fanyin",
+              "ruleVersion": "1.0.0",
+              "layer": "stars",
+              "status": "not-matched",
+              "palaces": [],
+              "evidence": [
+                "逐一核对外八宫全部八项，不以值符或值使单宫代替整层；中五无独立星门，天禽随天芮以坤二为原位。",
+                "1宫天辅原位4宫，本规则目标6宫：不符合。",
+                "2宫天蓬原位1宫，本规则目标9宫：不符合。",
+                "3宫天芮原位2宫，本规则目标8宫：不符合。",
+                "4宫天柱原位7宫，本规则目标3宫：不符合。",
+                "6宫天冲原位3宫，本规则目标7宫：不符合。",
+                "7宫天任原位8宫，本规则目标2宫：不符合。",
+                "8宫天英原位9宫，本规则目标1宫：不符合。",
+                "9宫天心原位6宫，本规则目标4宫：不符合。",
+                "外八项0/8符合对宫条件；整层未命中。"
+              ]
+            },
+            {
+              "ruleId": "qimen-doors-fuyin",
+              "ruleVersion": "1.0.0",
+              "layer": "doors",
+              "status": "not-matched",
+              "palaces": [],
+              "evidence": [
+                "逐一核对外八宫全部八项，不以值符或值使单宫代替整层；中五无独立星门，天禽随天芮以坤二为原位。",
+                "1宫开门原位6宫，本规则目标6宫：不符合。",
+                "2宫景门原位9宫，本规则目标9宫：不符合。",
+                "3宫生门原位8宫，本规则目标8宫：不符合。",
+                "4宫伤门原位3宫，本规则目标3宫：不符合。",
+                "6宫惊门原位7宫，本规则目标7宫：不符合。",
+                "7宫死门原位2宫，本规则目标2宫：不符合。",
+                "8宫休门原位1宫，本规则目标1宫：不符合。",
+                "9宫杜门原位4宫，本规则目标4宫：不符合。",
+                "外八项0/8符合原位条件；整层未命中。"
+              ]
+            },
+            {
+              "ruleId": "qimen-doors-fanyin",
+              "ruleVersion": "1.0.0",
+              "layer": "doors",
+              "status": "not-matched",
+              "palaces": [],
+              "evidence": [
+                "逐一核对外八宫全部八项，不以值符或值使单宫代替整层；中五无独立星门，天禽随天芮以坤二为原位。",
+                "1宫开门原位6宫，本规则目标4宫：不符合。",
+                "2宫景门原位9宫，本规则目标1宫：不符合。",
+                "3宫生门原位8宫，本规则目标2宫：不符合。",
+                "4宫伤门原位3宫，本规则目标7宫：不符合。",
+                "6宫惊门原位7宫，本规则目标3宫：不符合。",
+                "7宫死门原位2宫，本规则目标8宫：不符合。",
+                "8宫休门原位1宫，本规则目标9宫：不符合。",
+                "9宫杜门原位4宫，本规则目标6宫：不符合。",
+                "外八项0/8符合对宫条件；整层未命中。"
+              ]
+            }
+          ],
+          "findings": [
+            {
+              "kind": "jixing",
+              "label": "六仪击刑",
+              "layer": "heaven-stems",
+              "palaces": [
+                3
+              ],
+              "subjects": [
+                "戊（主干）"
+              ],
+              "ruleId": "qimen-heaven-yi-jixing",
+              "ruleVersion": "1.0.0",
+              "evidence": [
+                "3宫天盘主干戊，对应本规则戊→3宫，命中六仪击刑。"
+              ]
+            },
+            {
+              "kind": "jixing",
+              "label": "六仪击刑",
+              "layer": "heaven-stems",
+              "palaces": [
+                4
+              ],
+              "subjects": [
+                "癸（主干）"
+              ],
+              "ruleId": "qimen-heaven-yi-jixing",
+              "ruleVersion": "1.0.0",
+              "evidence": [
+                "4宫天盘主干癸，对应本规则癸→4宫，命中六仪击刑。"
+              ]
+            },
+            {
+              "kind": "rumu",
+              "label": "三奇入墓",
+              "layer": "heaven-stems",
+              "palaces": [
+                2
+              ],
+              "subjects": [
+                "乙（主干）"
+              ],
+              "ruleId": "qimen-heaven-qi-rumu",
+              "ruleVersion": "1.0.0",
+              "evidence": [
+                "2宫天盘主干乙，对应本规则乙→2宫，命中三奇入墓。"
+              ]
+            }
+          ],
+          "warnings": [
+            "本模块只列固定流派的结构匹配与逐项核查，不据此推断人生吉凶、四害解除或姓名验局。",
+            "六仪击刑采用天盘宽式，三奇入墓只用乙坤二、丙乾六、丁艮八；地盘、中宫副本及其他流派条件未纳入。",
+            "典籍条文使用开源项目的固定版本转录及规则对照，未声称逐页核验全部古籍原本。"
+          ]
+        }
+      }
+    },
+    {
+      "profile": {
+        "id": "qimen-v2-frozen",
+        "customerName": "冻结奇门1.2",
+        "surname": "林",
+        "surnamePinyin": "lín",
+        "gender": "中性",
+        "calendar": "solar",
+        "birthDate": "2024-07-20",
+        "birthTime": "01:30:00",
+        "timeUnknown": false,
+        "leapMonth": false,
+        "birthPlace": "上海",
+        "timezone": "Asia/Shanghai",
+        "notes": ""
+      },
+      "expected": {
+        "available": true,
+        "dun": "阴遁",
+        "ju": 2,
+        "yuan": "中元",
+        "solarTerm": "小暑",
+        "xun": "甲戌（遁己）",
+        "chiefStar": "天蓬",
+        "chiefDoor": "休门",
+        "palaces": [
+          {
+            "number": 4,
+            "direction": "东南",
+            "trigram": "巽",
+            "earth": "丙",
+            "heaven": "壬",
+            "star": "天柱",
+            "door": "死门",
+            "god": "太阴",
+            "marks": [
+              "六仪击刑（壬（主干））"
+            ]
+          },
+          {
+            "number": 9,
+            "direction": "南",
+            "trigram": "离",
+            "earth": "庚",
+            "heaven": "癸",
+            "star": "天心",
+            "door": "惊门",
+            "god": "腾蛇",
+            "marks": []
+          },
+          {
+            "number": 2,
+            "direction": "西南",
+            "trigram": "坤",
+            "earth": "戊",
+            "heaven": "己",
+            "star": "天蓬",
+            "door": "开门",
+            "god": "值符",
+            "marks": [
+              "时旬空（申）",
+              "六仪击刑（己（主干））"
+            ]
+          },
+          {
+            "number": 3,
+            "direction": "东",
+            "trigram": "震",
+            "earth": "乙",
+            "heaven": "戊（寄丁）",
+            "star": "天芮、天禽",
+            "door": "景门",
+            "god": "六合",
+            "marks": [
+              "六仪击刑（戊（主干））"
+            ]
+          },
+          {
+            "number": 5,
+            "direction": "中",
+            "trigram": "中",
+            "earth": "丁",
+            "heaven": "随天禽寄震",
+            "star": "天禽寄震",
+            "door": "",
+            "god": "",
+            "marks": [
+              "中五寄坤，天禽随天芮"
+            ]
+          },
+          {
+            "number": 7,
+            "direction": "西",
+            "trigram": "兑",
+            "earth": "壬",
+            "heaven": "辛",
+            "star": "天任",
+            "door": "休门",
+            "god": "九天",
+            "marks": [
+              "时旬空（酉）"
+            ]
+          },
+          {
+            "number": 8,
+            "direction": "东北",
+            "trigram": "艮",
+            "earth": "辛",
+            "heaven": "庚",
+            "star": "天英",
+            "door": "杜门",
+            "god": "白虎",
+            "marks": [
+              "门迫（杜门）",
+              "六仪击刑（庚（主干））"
+            ]
+          },
+          {
+            "number": 1,
+            "direction": "北",
+            "trigram": "坎",
+            "earth": "己",
+            "heaven": "丙",
+            "star": "天辅",
+            "door": "伤门",
+            "god": "玄武",
+            "marks": []
+          },
+          {
+            "number": 6,
+            "direction": "西北",
+            "trigram": "乾",
+            "earth": "癸",
+            "heaven": "乙",
+            "star": "天冲",
+            "door": "生门",
+            "god": "九地",
+            "marks": [
+              "时驿马（亥）"
+            ]
+          }
+        ],
+        "reasons": [
+          "拆补（甲己符头三元版本）：乙酉日回溯1日得符头甲申，定中元；小暑阴遁2局。",
+          "丁丑时属甲戌旬，甲遁己；旬首仪在1宫，值符天蓬、值使休门。",
+          "值符随时干丁至5宫，中五寄坤二；值使顺/逆数3步至7宫。",
+          "九星、天盘按八宫同向刚性转动；中五寄坤二，天禽及中宫干随天芮。八神版本：阳遁勾陈朱雀，阴遁白虎玄武；阳顺阴逆。",
+          "来源对照：arc119226/qimen_dunjia@7d94103 的盘层与经典转录例题；MarkChenXY163/qimendunjia_mcp@d5941f4 的日干支三元及局数表。后者交节只到日期，本引擎另用精确交节。",
+          "当前节气交接时刻：2024-07-06 22:20:03 UTC+08:00；出生地时间基准 Asia/Shanghai，民用午夜换日，未作真太阳时校正。"
+        ],
+        "warnings": [
+          "奇门用于出生盘的传统文化参考；未建立姓名落宫算法，不用于宣称名字已验算吉凶。",
+          "结构辅助已核查门迫、天盘宽式六仪击刑、所选三奇入墓与星门整层原位或对宫；四害解除、真假空及姓名验局尚未启用。时旬空与时驿马只作固定地支宫位标记。",
+          "三元采用甲己符头规则，不采用交节后每120小时换元，也不启用超神接气置闰。"
+        ],
+        "version": "zhuanpan-chaibu-futou-kun2/1.2.0",
+        "auxiliary": {
+          "version": "hour-xunkong-yima/1.0.0",
+          "hourGanzhi": "丁丑",
+          "scope": "hour",
+          "rules": [
+            {
+              "id": "qimen-hour-xunkong",
+              "version": "1.0.0",
+              "name": "时柱六旬旬空",
+              "sources": [
+                {
+                  "id": "qimen-arc-markers",
+                  "url": "https://github.com/arc119226/qimen_dunjia",
+                  "commit": "7d941031d685d818d9fd234edf891dba5bd6a323",
+                  "locator": "constants.js:627–632,651–659; test.js:527–549"
+                },
+                {
+                  "id": "qimen-go-markers",
+                  "url": "https://github.com/deminzhang/qimen-go",
+                  "commit": "4d3f58fa0f401b5b3a337f119138e99e90685dda",
+                  "locator": "xuan/ganzhi.go:31–46,141–148; xuan/qimen.go:182–190"
+                }
+              ],
+              "conditions": [
+                "输入为已确定时柱的有效六十甲子，以时柱所属的十干一旬取两支旬空，不取年柱或日柱。",
+                "地支按固定后天九宫映射：子1，丑寅8，卯3，辰巳4，午9，未申2，酉7，戌亥6。",
+                "同宫两空支合并显示；中宫5无地支，不因中五寄坤或天盘旋转而转移旬空。"
+              ]
+            },
+            {
+              "id": "qimen-hour-yima",
+              "version": "1.0.0",
+              "name": "时支三合组驿马",
+              "sources": [
+                {
+                  "id": "qimen-go-markers",
+                  "url": "https://github.com/deminzhang/qimen-go",
+                  "commit": "4d3f58fa0f401b5b3a337f119138e99e90685dda",
+                  "locator": "xuan/ganzhi.go:31–46,141–148; xuan/qimen.go:182–190"
+                }
+              ],
+              "conditions": [
+                "仅按已确定时柱的时支取驿马，不使用年支、日支或姓名笔画。",
+                "申子辰马在寅，寅午戌马在申，巳酉丑马在亥，亥卯未马在巳。",
+                "马支按固定地支宫位标记，不随阴阳遁、盘层转动或中五寄坤改变。"
+              ]
+            }
+          ],
+          "markers": [
+            {
+              "kind": "xunkong",
+              "label": "时旬空",
+              "branches": [
+                "申",
+                "酉"
+              ],
+              "palaces": [
+                2,
+                7
+              ],
+              "ruleId": "qimen-hour-xunkong",
+              "ruleVersion": "1.0.0",
+              "evidence": [
+                "时柱丁丑属甲戌旬（甲戌至癸未）。",
+                "本旬十干配支后余申、酉，取为时旬空；固定支宫为申→2宫、酉→7宫。",
+                "仅标两支所在固定宫位，不判断真空、假空、冲空、填实或吉凶。"
+              ]
+            },
+            {
+              "kind": "yima",
+              "label": "时驿马",
+              "branches": [
+                "亥"
+              ],
+              "palaces": [
+                6
+              ],
+              "ruleId": "qimen-hour-yima",
+              "ruleVersion": "1.0.0",
+              "evidence": [
+                "时柱丁丑的时支丑属巳、酉、丑三合组，按该组取马在亥。",
+                "马支亥固定落6宫，不取年支、日支，也不随转盘或寄中改变。"
+              ]
+            }
+          ],
+          "warnings": [
+            "本模块仅列时柱旬空与时支驿马的规则事实，不推导姓名落宫或吉凶结论。"
+          ]
+        },
+        "patterns": {
+          "version": "zhuanpan-structural-patterns/1.0.0",
+          "school": "zhuanpan-chaibu-futou-kun2",
+          "rules": [
+            {
+              "id": "qimen-door-menpo",
+              "version": "1.0.0",
+              "name": "门迫（门克宫）",
+              "sources": [
+                {
+                  "id": "qimen-arc-structural-patterns",
+                  "url": "https://github.com/arc119226/qimen_dunjia",
+                  "commit": "7d941031d685d818d9fd234edf891dba5bd6a323",
+                  "locator": "patterns.js:59–71 SOURCES.法竅_迫制註; 384–407 detectMenPo"
+                }
+              ],
+              "conditions": [
+                "仅在门五行克落宫五行时命中；宫克门、生扶或同类不记为门迫。",
+                "休水；伤杜木；景火；生死土；开惊金。宫行：坎水、震巽木、离火、坤艮土、乾兑金。",
+                "核查外八宫，不将中五寄坤产生第九个门。"
+              ]
+            },
+            {
+              "id": "qimen-heaven-yi-jixing",
+              "version": "1.0.0",
+              "name": "六仪击刑（天盘宽式）",
+              "sources": [
+                {
+                  "id": "qimen-arc-structural-patterns",
+                  "url": "https://github.com/arc119226/qimen_dunjia",
+                  "commit": "7d941031d685d818d9fd234edf891dba5bd6a323",
+                  "locator": "patterns.js:516–556 JI_XING / detectLiuYiJiXing"
+                },
+                {
+                  "id": "qimen-go-structural-patterns",
+                  "url": "https://github.com/deminzhang/qimen-go",
+                  "commit": "4d3f58fa0f401b5b3a337f119138e99e90685dda",
+                  "locator": "xuan/qimen_defs.go:226–235 QM6YiJiXing"
+                }
+              ],
+              "conditions": [
+                "采用宽式任一六仪落刑宫，不采用仅值符所带仪的严式；同一仪不再重复记严式结果。",
+                "固定仪宫：戊3、己2、庚8、辛9、壬4、癸4。",
+                "只核外八宫天盘主干及随天芮落宫的寄干，按实际落宫计算；地盘干与中五展示副本不参与。"
+              ]
+            },
+            {
+              "id": "qimen-heaven-qi-rumu",
+              "version": "1.0.0",
+              "name": "三奇入墓（乙坤、丙乾、丁艮）",
+              "sources": [
+                {
+                  "id": "qimen-arc-structural-patterns",
+                  "url": "https://github.com/arc119226/qimen_dunjia",
+                  "commit": "7d941031d685d818d9fd234edf891dba5bd6a323",
+                  "locator": "patterns.js:150–158 SOURCES.統宗_四十格 / 旨歸_入墓; 563–579 RU_MU"
+                }
+              ],
+              "conditions": [
+                "仅核三奇乙丙丁，固定采用乙入坤二、丙入乾六、丁入艮八的读法，不声称覆盖十干入墓。",
+                "丁墓乾六及其他长生表为不同读法，本版本未采用；不得把不同流派的墓宫混成一张表。",
+                "只核外八宫天盘主干及随天芮落宫的寄干，按实际落宫计算；地盘干与中五展示副本不参与。"
+              ]
+            },
+            {
+              "id": "qimen-stars-fuyin",
+              "version": "1.0.0",
+              "name": "星盘原位（结构伏吟）",
+              "sources": [
+                {
+                  "id": "qimen-arc-structural-patterns",
+                  "url": "https://github.com/arc119226/qimen_dunjia",
+                  "commit": "7d941031d685d818d9fd234edf891dba5bd6a323",
+                  "locator": "patterns.js:145–149 SOURCES.釣叟_反吟"
+                },
+                {
+                  "id": "qimen-go-structural-patterns",
+                  "url": "https://github.com/deminzhang/qimen-go",
+                  "commit": "4d3f58fa0f401b5b3a337f119138e99e90685dda",
+                  "locator": "xuan/qimen_defs.go:198–205 StarHome / DoorHome"
+                }
+              ],
+              "conditions": [
+                "逐一核对外八宫全部八项，不以值符或值使单宫代替整层；中五无独立星门，天禽随天芮以坤二为原位。",
+                "本产品按固定原位表定义整层结构伏吟，不把该软件分层定义声称为独立核验古籍原页。",
+                "天蓬1、天芮2、天冲3、天辅4、天心6、天柱7、天任8、天英9全部处于原位才命中；不把单干重叠格同名伏吟混入。"
+              ]
+            },
+            {
+              "id": "qimen-stars-fanyin",
+              "version": "1.0.0",
+              "name": "星盘对宫（结构反吟）",
+              "sources": [
+                {
+                  "id": "qimen-arc-structural-patterns",
+                  "url": "https://github.com/arc119226/qimen_dunjia",
+                  "commit": "7d941031d685d818d9fd234edf891dba5bd6a323",
+                  "locator": "patterns.js:145–149 SOURCES.釣叟_反吟; 312–330 detectFanYin"
+                },
+                {
+                  "id": "qimen-go-structural-patterns",
+                  "url": "https://github.com/deminzhang/qimen-go",
+                  "commit": "4d3f58fa0f401b5b3a337f119138e99e90685dda",
+                  "locator": "xuan/qimen_defs.go:198–205 StarHome / DoorHome"
+                }
+              ],
+              "conditions": [
+                "逐一核对外八宫全部八项，不以值符或值使单宫代替整层；中五无独立星门，天禽随天芮以坤二为原位。",
+                "本产品把单星对宫条文与固定原位表扩展为整层核查，明确属于软件结构定义。",
+                "八星全部到各自原位对宫才命中；对宫固定为1↔9、2↔8、3↔7、4↔6（宫号和为10）。"
+              ]
+            },
+            {
+              "id": "qimen-doors-fuyin",
+              "version": "1.0.0",
+              "name": "门盘原位（结构伏吟）",
+              "sources": [
+                {
+                  "id": "qimen-go-structural-patterns",
+                  "url": "https://github.com/deminzhang/qimen-go",
+                  "commit": "4d3f58fa0f401b5b3a337f119138e99e90685dda",
+                  "locator": "xuan/qimen_defs.go:198–205 StarHome / DoorHome"
+                }
+              ],
+              "conditions": [
+                "逐一核对外八宫全部八项，不以值符或值使单宫代替整层；中五无独立星门，天禽随天芮以坤二为原位。",
+                "本产品按固定门原位表定义的整层结构检查，未声称已核验独立古籍的门层判语。",
+                "休1、死2、伤3、杜4、开6、惊7、生8、景9全部处于原位才命中；不与星层合并。"
+              ]
+            },
+            {
+              "id": "qimen-doors-fanyin",
+              "version": "1.0.0",
+              "name": "门盘对宫（结构反吟）",
+              "sources": [
+                {
+                  "id": "qimen-go-structural-patterns",
+                  "url": "https://github.com/deminzhang/qimen-go",
+                  "commit": "4d3f58fa0f401b5b3a337f119138e99e90685dda",
+                  "locator": "xuan/qimen_defs.go:198–205 StarHome / DoorHome"
+                }
+              ],
+              "conditions": [
+                "逐一核对外八宫全部八项，不以值符或值使单宫代替整层；中五无独立星门，天禽随天芮以坤二为原位。",
+                "本产品按固定门原位表及对宫几何定义的整层结构检查，未声称已核验独立古籍的门层判语。",
+                "八门全部到各自原位对宫才命中；对宫固定为1↔9、2↔8、3↔7、4↔6（宫号和为10），不与星层合并。"
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "ruleId": "qimen-door-menpo",
+              "ruleVersion": "1.0.0",
+              "layer": "doors",
+              "status": "matched",
+              "palaces": [
+                8
+              ],
+              "evidence": [
+                "外八宫逐门按门克宫核查，未将宫克门计作门迫。",
+                "1宫伤门木→宫水：未命中门克宫。",
+                "2宫开门金→宫土：未命中门克宫。",
+                "3宫景门火→宫木：未命中门克宫。",
+                "4宫死门土→宫木：未命中门克宫。",
+                "6宫生门土→宫金：未命中门克宫。",
+                "7宫休门水→宫金：未命中门克宫。",
+                "8宫杜门木→宫土：命中门克宫。",
+                "9宫惊门金→宫火：未命中门克宫。"
+              ]
+            },
+            {
+              "ruleId": "qimen-heaven-yi-jixing",
+              "ruleVersion": "1.0.0",
+              "layer": "heaven-stems",
+              "status": "matched",
+              "palaces": [
+                2,
+                3,
+                4,
+                8
+              ],
+              "evidence": [
+                "只核外八宫天盘主干及随天芮落宫的寄干，按实际落宫计算；地盘干与中五展示副本不参与。",
+                "本次采用任一六仪的宽式，固定戊→3、己→2、庚→8、辛→9、壬→4、癸→4。",
+                "2宫己（主），本规则目标2宫：命中。",
+                "3宫戊（主），本规则目标3宫：命中。",
+                "4宫壬（主），本规则目标4宫：命中。",
+                "7宫辛（主），本规则目标9宫：未命中。",
+                "8宫庚（主），本规则目标8宫：命中。",
+                "9宫癸（主），本规则目标4宫：未命中。"
+              ]
+            },
+            {
+              "ruleId": "qimen-heaven-qi-rumu",
+              "ruleVersion": "1.0.0",
+              "layer": "heaven-stems",
+              "status": "not-matched",
+              "palaces": [],
+              "evidence": [
+                "只核外八宫天盘主干及随天芮落宫的寄干，按实际落宫计算；地盘干与中五展示副本不参与。",
+                "本次仅核乙→2、丙→6、丁→8；丁在乾六不按本版本三奇入墓计。",
+                "1宫丙（主），本规则目标6宫：未命中。",
+                "3宫丁（寄），本规则目标8宫：未命中。",
+                "6宫乙（主），本规则目标2宫：未命中。"
+              ]
+            },
+            {
+              "ruleId": "qimen-stars-fuyin",
+              "ruleVersion": "1.0.0",
+              "layer": "stars",
+              "status": "not-matched",
+              "palaces": [],
+              "evidence": [
+                "逐一核对外八宫全部八项，不以值符或值使单宫代替整层；中五无独立星门，天禽随天芮以坤二为原位。",
+                "1宫天辅原位4宫，本规则目标4宫：不符合。",
+                "2宫天蓬原位1宫，本规则目标1宫：不符合。",
+                "3宫天芮原位2宫，本规则目标2宫：不符合。",
+                "4宫天柱原位7宫，本规则目标7宫：不符合。",
+                "6宫天冲原位3宫，本规则目标3宫：不符合。",
+                "7宫天任原位8宫，本规则目标8宫：不符合。",
+                "8宫天英原位9宫，本规则目标9宫：不符合。",
+                "9宫天心原位6宫，本规则目标6宫：不符合。",
+                "外八项0/8符合原位条件；整层未命中。"
+              ]
+            },
+            {
+              "ruleId": "qimen-stars-fanyin",
+              "ruleVersion": "1.0.0",
+              "layer": "stars",
+              "status": "not-matched",
+              "palaces": [],
+              "evidence": [
+                "逐一核对外八宫全部八项，不以值符或值使单宫代替整层；中五无独立星门，天禽随天芮以坤二为原位。",
+                "1宫天辅原位4宫，本规则目标6宫：不符合。",
+                "2宫天蓬原位1宫，本规则目标9宫：不符合。",
+                "3宫天芮原位2宫，本规则目标8宫：不符合。",
+                "4宫天柱原位7宫，本规则目标3宫：不符合。",
+                "6宫天冲原位3宫，本规则目标7宫：不符合。",
+                "7宫天任原位8宫，本规则目标2宫：不符合。",
+                "8宫天英原位9宫，本规则目标1宫：不符合。",
+                "9宫天心原位6宫，本规则目标4宫：不符合。",
+                "外八项0/8符合对宫条件；整层未命中。"
+              ]
+            },
+            {
+              "ruleId": "qimen-doors-fuyin",
+              "ruleVersion": "1.0.0",
+              "layer": "doors",
+              "status": "not-matched",
+              "palaces": [],
+              "evidence": [
+                "逐一核对外八宫全部八项，不以值符或值使单宫代替整层；中五无独立星门，天禽随天芮以坤二为原位。",
+                "1宫伤门原位3宫，本规则目标3宫：不符合。",
+                "2宫开门原位6宫，本规则目标6宫：不符合。",
+                "3宫景门原位9宫，本规则目标9宫：不符合。",
+                "4宫死门原位2宫，本规则目标2宫：不符合。",
+                "6宫生门原位8宫，本规则目标8宫：不符合。",
+                "7宫休门原位1宫，本规则目标1宫：不符合。",
+                "8宫杜门原位4宫，本规则目标4宫：不符合。",
+                "9宫惊门原位7宫，本规则目标7宫：不符合。",
+                "外八项0/8符合原位条件；整层未命中。"
+              ]
+            },
+            {
+              "ruleId": "qimen-doors-fanyin",
+              "ruleVersion": "1.0.0",
+              "layer": "doors",
+              "status": "not-matched",
+              "palaces": [],
+              "evidence": [
+                "逐一核对外八宫全部八项，不以值符或值使单宫代替整层；中五无独立星门，天禽随天芮以坤二为原位。",
+                "1宫伤门原位3宫，本规则目标7宫：不符合。",
+                "2宫开门原位6宫，本规则目标4宫：不符合。",
+                "3宫景门原位9宫，本规则目标1宫：不符合。",
+                "4宫死门原位2宫，本规则目标8宫：不符合。",
+                "6宫生门原位8宫，本规则目标2宫：不符合。",
+                "7宫休门原位1宫，本规则目标9宫：不符合。",
+                "8宫杜门原位4宫，本规则目标6宫：不符合。",
+                "9宫惊门原位7宫，本规则目标3宫：不符合。",
+                "外八项0/8符合对宫条件；整层未命中。"
+              ]
+            }
+          ],
+          "findings": [
+            {
+              "kind": "menpo",
+              "label": "门迫",
+              "layer": "doors",
+              "palaces": [
+                8
+              ],
+              "subjects": [
+                "杜门"
+              ],
+              "ruleId": "qimen-door-menpo",
+              "ruleVersion": "1.0.0",
+              "evidence": [
+                "8宫杜门属木，落宫属土，构成门克宫。"
+              ]
+            },
+            {
+              "kind": "jixing",
+              "label": "六仪击刑",
+              "layer": "heaven-stems",
+              "palaces": [
+                2
+              ],
+              "subjects": [
+                "己（主干）"
+              ],
+              "ruleId": "qimen-heaven-yi-jixing",
+              "ruleVersion": "1.0.0",
+              "evidence": [
+                "2宫天盘主干己，对应本规则己→2宫，命中六仪击刑。"
+              ]
+            },
+            {
+              "kind": "jixing",
+              "label": "六仪击刑",
+              "layer": "heaven-stems",
+              "palaces": [
+                3
+              ],
+              "subjects": [
+                "戊（主干）"
+              ],
+              "ruleId": "qimen-heaven-yi-jixing",
+              "ruleVersion": "1.0.0",
+              "evidence": [
+                "3宫天盘主干戊，对应本规则戊→3宫，命中六仪击刑。"
+              ]
+            },
+            {
+              "kind": "jixing",
+              "label": "六仪击刑",
+              "layer": "heaven-stems",
+              "palaces": [
+                4
+              ],
+              "subjects": [
+                "壬（主干）"
+              ],
+              "ruleId": "qimen-heaven-yi-jixing",
+              "ruleVersion": "1.0.0",
+              "evidence": [
+                "4宫天盘主干壬，对应本规则壬→4宫，命中六仪击刑。"
+              ]
+            },
+            {
+              "kind": "jixing",
+              "label": "六仪击刑",
+              "layer": "heaven-stems",
+              "palaces": [
+                8
+              ],
+              "subjects": [
+                "庚（主干）"
+              ],
+              "ruleId": "qimen-heaven-yi-jixing",
+              "ruleVersion": "1.0.0",
+              "evidence": [
+                "8宫天盘主干庚，对应本规则庚→8宫，命中六仪击刑。"
+              ]
+            }
+          ],
+          "warnings": [
+            "本模块只列固定流派的结构匹配与逐项核查，不据此推断人生吉凶、四害解除或姓名验局。",
+            "六仪击刑采用天盘宽式，三奇入墓只用乙坤二、丙乾六、丁艮八；地盘、中宫副本及其他流派条件未纳入。",
+            "典籍条文使用开源项目的固定版本转录及规则对照，未声称逐页核验全部古籍原本。"
+          ]
+        }
+      }
+    },
+    {
+      "profile": {
+        "id": "qimen-v2-frozen",
+        "customerName": "冻结奇门1.2",
+        "surname": "林",
+        "surnamePinyin": "lín",
+        "gender": "中性",
+        "calendar": "solar",
+        "birthDate": "2024-02-04",
+        "birthTime": "16:27:06",
+        "timeUnknown": false,
+        "leapMonth": false,
+        "birthPlace": "上海",
+        "timezone": "Asia/Shanghai",
+        "notes": ""
+      },
+      "expected": {
+        "available": true,
+        "dun": "阳遁",
+        "ju": 3,
+        "yuan": "上元",
+        "solarTerm": "大寒",
+        "xun": "甲寅（遁癸）",
+        "chiefStar": "天任",
+        "chiefDoor": "生门",
+        "palaces": [
+          {
+            "number": 4,
+            "direction": "东南",
+            "trigram": "巽",
+            "earth": "己",
+            "heaven": "辛",
+            "star": "天心",
+            "door": "开门",
+            "god": "九地",
+            "marks": [
+              "门迫（开门）",
+              "星盘对宫（结构反吟）",
+              "门盘对宫（结构反吟）"
+            ]
+          },
+          {
+            "number": 9,
+            "direction": "南",
+            "trigram": "离",
+            "earth": "丁",
+            "heaven": "丙",
+            "star": "天蓬",
+            "door": "休门",
+            "god": "九天",
+            "marks": [
+              "门迫（休门）",
+              "星盘对宫（结构反吟）",
+              "门盘对宫（结构反吟）"
+            ]
+          },
+          {
+            "number": 2,
+            "direction": "西南",
+            "trigram": "坤",
+            "earth": "乙",
+            "heaven": "癸",
+            "star": "天任",
+            "door": "生门",
+            "god": "值符",
+            "marks": [
+              "星盘对宫（结构反吟）",
+              "门盘对宫（结构反吟）"
+            ]
+          },
+          {
+            "number": 3,
+            "direction": "东",
+            "trigram": "震",
+            "earth": "戊",
+            "heaven": "壬",
+            "star": "天柱",
+            "door": "惊门",
+            "god": "朱雀",
+            "marks": [
+              "门迫（惊门）",
+              "星盘对宫（结构反吟）",
+              "门盘对宫（结构反吟）"
+            ]
+          },
+          {
+            "number": 5,
+            "direction": "中",
+            "trigram": "中",
+            "earth": "庚",
+            "heaven": "随天禽寄艮",
+            "star": "天禽寄艮",
+            "door": "",
+            "god": "",
+            "marks": [
+              "中五寄坤，天禽随天芮"
+            ]
+          },
+          {
+            "number": 7,
+            "direction": "西",
+            "trigram": "兑",
+            "earth": "壬",
+            "heaven": "戊",
+            "star": "天冲",
+            "door": "伤门",
+            "god": "腾蛇",
+            "marks": [
+              "星盘对宫（结构反吟）",
+              "门盘对宫（结构反吟）"
+            ]
+          },
+          {
+            "number": 8,
+            "direction": "东北",
+            "trigram": "艮",
+            "earth": "癸",
+            "heaven": "乙（寄庚）",
+            "star": "天芮、天禽",
+            "door": "死门",
+            "god": "勾陈",
+            "marks": [
+              "时旬空（丑）",
+              "时驿马（寅）",
+              "六仪击刑（庚（寄干））",
+              "星盘对宫（结构反吟）",
+              "门盘对宫（结构反吟）"
+            ]
+          },
+          {
+            "number": 1,
+            "direction": "北",
+            "trigram": "坎",
+            "earth": "丙",
+            "heaven": "丁",
+            "star": "天英",
+            "door": "景门",
+            "god": "六合",
+            "marks": [
+              "时旬空（子）",
+              "星盘对宫（结构反吟）",
+              "门盘对宫（结构反吟）"
+            ]
+          },
+          {
+            "number": 6,
+            "direction": "西北",
+            "trigram": "乾",
+            "earth": "辛",
+            "heaven": "己",
+            "star": "天辅",
+            "door": "杜门",
+            "god": "太阴",
+            "marks": [
+              "星盘对宫（结构反吟）",
+              "门盘对宫（结构反吟）"
+            ]
+          }
+        ],
+        "reasons": [
+          "拆补（甲己符头三元版本）：戊戌日回溯4日得符头甲午，定上元；大寒阳遁3局。",
+          "庚申时属甲寅旬，甲遁癸；旬首仪在8宫，值符天任、值使生门。",
+          "值符随时干庚至5宫，中五寄坤二；值使顺/逆数6步至5宫，中五寄坤二。",
+          "九星、天盘按八宫同向刚性转动；中五寄坤二，天禽及中宫干随天芮。八神版本：阳遁勾陈朱雀，阴遁白虎玄武；阳顺阴逆。",
+          "来源对照：arc119226/qimen_dunjia@7d94103 的盘层与经典转录例题；MarkChenXY163/qimendunjia_mcp@d5941f4 的日干支三元及局数表。后者交节只到日期，本引擎另用精确交节。",
+          "当前节气交接时刻：2024-01-20 22:07:22 UTC+08:00；出生地时间基准 Asia/Shanghai，民用午夜换日，未作真太阳时校正。"
+        ],
+        "warnings": [
+          "奇门用于出生盘的传统文化参考；未建立姓名落宫算法，不用于宣称名字已验算吉凶。",
+          "结构辅助已核查门迫、天盘宽式六仪击刑、所选三奇入墓与星门整层原位或对宫；四害解除、真假空及姓名验局尚未启用。时旬空与时驿马只作固定地支宫位标记。",
+          "三元采用甲己符头规则，不采用交节后每120小时换元，也不启用超神接气置闰。"
+        ],
+        "version": "zhuanpan-chaibu-futou-kun2/1.2.0",
+        "auxiliary": {
+          "version": "hour-xunkong-yima/1.0.0",
+          "hourGanzhi": "庚申",
+          "scope": "hour",
+          "rules": [
+            {
+              "id": "qimen-hour-xunkong",
+              "version": "1.0.0",
+              "name": "时柱六旬旬空",
+              "sources": [
+                {
+                  "id": "qimen-arc-markers",
+                  "url": "https://github.com/arc119226/qimen_dunjia",
+                  "commit": "7d941031d685d818d9fd234edf891dba5bd6a323",
+                  "locator": "constants.js:627–632,651–659; test.js:527–549"
+                },
+                {
+                  "id": "qimen-go-markers",
+                  "url": "https://github.com/deminzhang/qimen-go",
+                  "commit": "4d3f58fa0f401b5b3a337f119138e99e90685dda",
+                  "locator": "xuan/ganzhi.go:31–46,141–148; xuan/qimen.go:182–190"
+                }
+              ],
+              "conditions": [
+                "输入为已确定时柱的有效六十甲子，以时柱所属的十干一旬取两支旬空，不取年柱或日柱。",
+                "地支按固定后天九宫映射：子1，丑寅8，卯3，辰巳4，午9，未申2，酉7，戌亥6。",
+                "同宫两空支合并显示；中宫5无地支，不因中五寄坤或天盘旋转而转移旬空。"
+              ]
+            },
+            {
+              "id": "qimen-hour-yima",
+              "version": "1.0.0",
+              "name": "时支三合组驿马",
+              "sources": [
+                {
+                  "id": "qimen-go-markers",
+                  "url": "https://github.com/deminzhang/qimen-go",
+                  "commit": "4d3f58fa0f401b5b3a337f119138e99e90685dda",
+                  "locator": "xuan/ganzhi.go:31–46,141–148; xuan/qimen.go:182–190"
+                }
+              ],
+              "conditions": [
+                "仅按已确定时柱的时支取驿马，不使用年支、日支或姓名笔画。",
+                "申子辰马在寅，寅午戌马在申，巳酉丑马在亥，亥卯未马在巳。",
+                "马支按固定地支宫位标记，不随阴阳遁、盘层转动或中五寄坤改变。"
+              ]
+            }
+          ],
+          "markers": [
+            {
+              "kind": "xunkong",
+              "label": "时旬空",
+              "branches": [
+                "子",
+                "丑"
+              ],
+              "palaces": [
+                1,
+                8
+              ],
+              "ruleId": "qimen-hour-xunkong",
+              "ruleVersion": "1.0.0",
+              "evidence": [
+                "时柱庚申属甲寅旬（甲寅至癸亥）。",
+                "本旬十干配支后余子、丑，取为时旬空；固定支宫为子→1宫、丑→8宫。",
+                "仅标两支所在固定宫位，不判断真空、假空、冲空、填实或吉凶。"
+              ]
+            },
+            {
+              "kind": "yima",
+              "label": "时驿马",
+              "branches": [
+                "寅"
+              ],
+              "palaces": [
+                8
+              ],
+              "ruleId": "qimen-hour-yima",
+              "ruleVersion": "1.0.0",
+              "evidence": [
+                "时柱庚申的时支申属申、子、辰三合组，按该组取马在寅。",
+                "马支寅固定落8宫，不取年支、日支，也不随转盘或寄中改变。"
+              ]
+            }
+          ],
+          "warnings": [
+            "本模块仅列时柱旬空与时支驿马的规则事实，不推导姓名落宫或吉凶结论。"
+          ]
+        },
+        "patterns": {
+          "version": "zhuanpan-structural-patterns/1.0.0",
+          "school": "zhuanpan-chaibu-futou-kun2",
+          "rules": [
+            {
+              "id": "qimen-door-menpo",
+              "version": "1.0.0",
+              "name": "门迫（门克宫）",
+              "sources": [
+                {
+                  "id": "qimen-arc-structural-patterns",
+                  "url": "https://github.com/arc119226/qimen_dunjia",
+                  "commit": "7d941031d685d818d9fd234edf891dba5bd6a323",
+                  "locator": "patterns.js:59–71 SOURCES.法竅_迫制註; 384–407 detectMenPo"
+                }
+              ],
+              "conditions": [
+                "仅在门五行克落宫五行时命中；宫克门、生扶或同类不记为门迫。",
+                "休水；伤杜木；景火；生死土；开惊金。宫行：坎水、震巽木、离火、坤艮土、乾兑金。",
+                "核查外八宫，不将中五寄坤产生第九个门。"
+              ]
+            },
+            {
+              "id": "qimen-heaven-yi-jixing",
+              "version": "1.0.0",
+              "name": "六仪击刑（天盘宽式）",
+              "sources": [
+                {
+                  "id": "qimen-arc-structural-patterns",
+                  "url": "https://github.com/arc119226/qimen_dunjia",
+                  "commit": "7d941031d685d818d9fd234edf891dba5bd6a323",
+                  "locator": "patterns.js:516–556 JI_XING / detectLiuYiJiXing"
+                },
+                {
+                  "id": "qimen-go-structural-patterns",
+                  "url": "https://github.com/deminzhang/qimen-go",
+                  "commit": "4d3f58fa0f401b5b3a337f119138e99e90685dda",
+                  "locator": "xuan/qimen_defs.go:226–235 QM6YiJiXing"
+                }
+              ],
+              "conditions": [
+                "采用宽式任一六仪落刑宫，不采用仅值符所带仪的严式；同一仪不再重复记严式结果。",
+                "固定仪宫：戊3、己2、庚8、辛9、壬4、癸4。",
+                "只核外八宫天盘主干及随天芮落宫的寄干，按实际落宫计算；地盘干与中五展示副本不参与。"
+              ]
+            },
+            {
+              "id": "qimen-heaven-qi-rumu",
+              "version": "1.0.0",
+              "name": "三奇入墓（乙坤、丙乾、丁艮）",
+              "sources": [
+                {
+                  "id": "qimen-arc-structural-patterns",
+                  "url": "https://github.com/arc119226/qimen_dunjia",
+                  "commit": "7d941031d685d818d9fd234edf891dba5bd6a323",
+                  "locator": "patterns.js:150–158 SOURCES.統宗_四十格 / 旨歸_入墓; 563–579 RU_MU"
+                }
+              ],
+              "conditions": [
+                "仅核三奇乙丙丁，固定采用乙入坤二、丙入乾六、丁入艮八的读法，不声称覆盖十干入墓。",
+                "丁墓乾六及其他长生表为不同读法，本版本未采用；不得把不同流派的墓宫混成一张表。",
+                "只核外八宫天盘主干及随天芮落宫的寄干，按实际落宫计算；地盘干与中五展示副本不参与。"
+              ]
+            },
+            {
+              "id": "qimen-stars-fuyin",
+              "version": "1.0.0",
+              "name": "星盘原位（结构伏吟）",
+              "sources": [
+                {
+                  "id": "qimen-arc-structural-patterns",
+                  "url": "https://github.com/arc119226/qimen_dunjia",
+                  "commit": "7d941031d685d818d9fd234edf891dba5bd6a323",
+                  "locator": "patterns.js:145–149 SOURCES.釣叟_反吟"
+                },
+                {
+                  "id": "qimen-go-structural-patterns",
+                  "url": "https://github.com/deminzhang/qimen-go",
+                  "commit": "4d3f58fa0f401b5b3a337f119138e99e90685dda",
+                  "locator": "xuan/qimen_defs.go:198–205 StarHome / DoorHome"
+                }
+              ],
+              "conditions": [
+                "逐一核对外八宫全部八项，不以值符或值使单宫代替整层；中五无独立星门，天禽随天芮以坤二为原位。",
+                "本产品按固定原位表定义整层结构伏吟，不把该软件分层定义声称为独立核验古籍原页。",
+                "天蓬1、天芮2、天冲3、天辅4、天心6、天柱7、天任8、天英9全部处于原位才命中；不把单干重叠格同名伏吟混入。"
+              ]
+            },
+            {
+              "id": "qimen-stars-fanyin",
+              "version": "1.0.0",
+              "name": "星盘对宫（结构反吟）",
+              "sources": [
+                {
+                  "id": "qimen-arc-structural-patterns",
+                  "url": "https://github.com/arc119226/qimen_dunjia",
+                  "commit": "7d941031d685d818d9fd234edf891dba5bd6a323",
+                  "locator": "patterns.js:145–149 SOURCES.釣叟_反吟; 312–330 detectFanYin"
+                },
+                {
+                  "id": "qimen-go-structural-patterns",
+                  "url": "https://github.com/deminzhang/qimen-go",
+                  "commit": "4d3f58fa0f401b5b3a337f119138e99e90685dda",
+                  "locator": "xuan/qimen_defs.go:198–205 StarHome / DoorHome"
+                }
+              ],
+              "conditions": [
+                "逐一核对外八宫全部八项，不以值符或值使单宫代替整层；中五无独立星门，天禽随天芮以坤二为原位。",
+                "本产品把单星对宫条文与固定原位表扩展为整层核查，明确属于软件结构定义。",
+                "八星全部到各自原位对宫才命中；对宫固定为1↔9、2↔8、3↔7、4↔6（宫号和为10）。"
+              ]
+            },
+            {
+              "id": "qimen-doors-fuyin",
+              "version": "1.0.0",
+              "name": "门盘原位（结构伏吟）",
+              "sources": [
+                {
+                  "id": "qimen-go-structural-patterns",
+                  "url": "https://github.com/deminzhang/qimen-go",
+                  "commit": "4d3f58fa0f401b5b3a337f119138e99e90685dda",
+                  "locator": "xuan/qimen_defs.go:198–205 StarHome / DoorHome"
+                }
+              ],
+              "conditions": [
+                "逐一核对外八宫全部八项，不以值符或值使单宫代替整层；中五无独立星门，天禽随天芮以坤二为原位。",
+                "本产品按固定门原位表定义的整层结构检查，未声称已核验独立古籍的门层判语。",
+                "休1、死2、伤3、杜4、开6、惊7、生8、景9全部处于原位才命中；不与星层合并。"
+              ]
+            },
+            {
+              "id": "qimen-doors-fanyin",
+              "version": "1.0.0",
+              "name": "门盘对宫（结构反吟）",
+              "sources": [
+                {
+                  "id": "qimen-go-structural-patterns",
+                  "url": "https://github.com/deminzhang/qimen-go",
+                  "commit": "4d3f58fa0f401b5b3a337f119138e99e90685dda",
+                  "locator": "xuan/qimen_defs.go:198–205 StarHome / DoorHome"
+                }
+              ],
+              "conditions": [
+                "逐一核对外八宫全部八项，不以值符或值使单宫代替整层；中五无独立星门，天禽随天芮以坤二为原位。",
+                "本产品按固定门原位表及对宫几何定义的整层结构检查，未声称已核验独立古籍的门层判语。",
+                "八门全部到各自原位对宫才命中；对宫固定为1↔9、2↔8、3↔7、4↔6（宫号和为10），不与星层合并。"
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "ruleId": "qimen-door-menpo",
+              "ruleVersion": "1.0.0",
+              "layer": "doors",
+              "status": "matched",
+              "palaces": [
+                3,
+                4,
+                9
+              ],
+              "evidence": [
+                "外八宫逐门按门克宫核查，未将宫克门计作门迫。",
+                "1宫景门火→宫水：未命中门克宫。",
+                "2宫生门土→宫土：未命中门克宫。",
+                "3宫惊门金→宫木：命中门克宫。",
+                "4宫开门金→宫木：命中门克宫。",
+                "6宫杜门木→宫金：未命中门克宫。",
+                "7宫伤门木→宫金：未命中门克宫。",
+                "8宫死门土→宫土：未命中门克宫。",
+                "9宫休门水→宫火：命中门克宫。"
+              ]
+            },
+            {
+              "ruleId": "qimen-heaven-yi-jixing",
+              "ruleVersion": "1.0.0",
+              "layer": "heaven-stems",
+              "status": "matched",
+              "palaces": [
+                8
+              ],
+              "evidence": [
+                "只核外八宫天盘主干及随天芮落宫的寄干，按实际落宫计算；地盘干与中五展示副本不参与。",
+                "本次采用任一六仪的宽式，固定戊→3、己→2、庚→8、辛→9、壬→4、癸→4。",
+                "2宫癸（主），本规则目标4宫：未命中。",
+                "3宫壬（主），本规则目标4宫：未命中。",
+                "4宫辛（主），本规则目标9宫：未命中。",
+                "6宫己（主），本规则目标2宫：未命中。",
+                "7宫戊（主），本规则目标3宫：未命中。",
+                "8宫庚（寄），本规则目标8宫：命中。"
+              ]
+            },
+            {
+              "ruleId": "qimen-heaven-qi-rumu",
+              "ruleVersion": "1.0.0",
+              "layer": "heaven-stems",
+              "status": "not-matched",
+              "palaces": [],
+              "evidence": [
+                "只核外八宫天盘主干及随天芮落宫的寄干，按实际落宫计算；地盘干与中五展示副本不参与。",
+                "本次仅核乙→2、丙→6、丁→8；丁在乾六不按本版本三奇入墓计。",
+                "1宫丁（主），本规则目标8宫：未命中。",
+                "8宫乙（主），本规则目标2宫：未命中。",
+                "9宫丙（主），本规则目标6宫：未命中。"
+              ]
+            },
+            {
+              "ruleId": "qimen-stars-fuyin",
+              "ruleVersion": "1.0.0",
+              "layer": "stars",
+              "status": "not-matched",
+              "palaces": [],
+              "evidence": [
+                "逐一核对外八宫全部八项，不以值符或值使单宫代替整层；中五无独立星门，天禽随天芮以坤二为原位。",
+                "1宫天英原位9宫，本规则目标9宫：不符合。",
+                "2宫天任原位8宫，本规则目标8宫：不符合。",
+                "3宫天柱原位7宫，本规则目标7宫：不符合。",
+                "4宫天心原位6宫，本规则目标6宫：不符合。",
+                "6宫天辅原位4宫，本规则目标4宫：不符合。",
+                "7宫天冲原位3宫，本规则目标3宫：不符合。",
+                "8宫天芮原位2宫，本规则目标2宫：不符合。",
+                "9宫天蓬原位1宫，本规则目标1宫：不符合。",
+                "外八项0/8符合原位条件；整层未命中。"
+              ]
+            },
+            {
+              "ruleId": "qimen-stars-fanyin",
+              "ruleVersion": "1.0.0",
+              "layer": "stars",
+              "status": "matched",
+              "palaces": [
+                1,
+                2,
+                3,
+                4,
+                6,
+                7,
+                8,
+                9
+              ],
+              "evidence": [
+                "逐一核对外八宫全部八项，不以值符或值使单宫代替整层；中五无独立星门，天禽随天芮以坤二为原位。",
+                "1宫天英原位9宫，本规则目标1宫：符合。",
+                "2宫天任原位8宫，本规则目标2宫：符合。",
+                "3宫天柱原位7宫，本规则目标3宫：符合。",
+                "4宫天心原位6宫，本规则目标4宫：符合。",
+                "6宫天辅原位4宫，本规则目标6宫：符合。",
+                "7宫天冲原位3宫，本规则目标7宫：符合。",
+                "8宫天芮原位2宫，本规则目标8宫：符合。",
+                "9宫天蓬原位1宫，本规则目标9宫：符合。",
+                "外八项8/8符合对宫条件；整层命中。"
+              ]
+            },
+            {
+              "ruleId": "qimen-doors-fuyin",
+              "ruleVersion": "1.0.0",
+              "layer": "doors",
+              "status": "not-matched",
+              "palaces": [],
+              "evidence": [
+                "逐一核对外八宫全部八项，不以值符或值使单宫代替整层；中五无独立星门，天禽随天芮以坤二为原位。",
+                "1宫景门原位9宫，本规则目标9宫：不符合。",
+                "2宫生门原位8宫，本规则目标8宫：不符合。",
+                "3宫惊门原位7宫，本规则目标7宫：不符合。",
+                "4宫开门原位6宫，本规则目标6宫：不符合。",
+                "6宫杜门原位4宫，本规则目标4宫：不符合。",
+                "7宫伤门原位3宫，本规则目标3宫：不符合。",
+                "8宫死门原位2宫，本规则目标2宫：不符合。",
+                "9宫休门原位1宫，本规则目标1宫：不符合。",
+                "外八项0/8符合原位条件；整层未命中。"
+              ]
+            },
+            {
+              "ruleId": "qimen-doors-fanyin",
+              "ruleVersion": "1.0.0",
+              "layer": "doors",
+              "status": "matched",
+              "palaces": [
+                1,
+                2,
+                3,
+                4,
+                6,
+                7,
+                8,
+                9
+              ],
+              "evidence": [
+                "逐一核对外八宫全部八项，不以值符或值使单宫代替整层；中五无独立星门，天禽随天芮以坤二为原位。",
+                "1宫景门原位9宫，本规则目标1宫：符合。",
+                "2宫生门原位8宫，本规则目标2宫：符合。",
+                "3宫惊门原位7宫，本规则目标3宫：符合。",
+                "4宫开门原位6宫，本规则目标4宫：符合。",
+                "6宫杜门原位4宫，本规则目标6宫：符合。",
+                "7宫伤门原位3宫，本规则目标7宫：符合。",
+                "8宫死门原位2宫，本规则目标8宫：符合。",
+                "9宫休门原位1宫，本规则目标9宫：符合。",
+                "外八项8/8符合对宫条件；整层命中。"
+              ]
+            }
+          ],
+          "findings": [
+            {
+              "kind": "menpo",
+              "label": "门迫",
+              "layer": "doors",
+              "palaces": [
+                3
+              ],
+              "subjects": [
+                "惊门"
+              ],
+              "ruleId": "qimen-door-menpo",
+              "ruleVersion": "1.0.0",
+              "evidence": [
+                "3宫惊门属金，落宫属木，构成门克宫。"
+              ]
+            },
+            {
+              "kind": "menpo",
+              "label": "门迫",
+              "layer": "doors",
+              "palaces": [
+                4
+              ],
+              "subjects": [
+                "开门"
+              ],
+              "ruleId": "qimen-door-menpo",
+              "ruleVersion": "1.0.0",
+              "evidence": [
+                "4宫开门属金，落宫属木，构成门克宫。"
+              ]
+            },
+            {
+              "kind": "menpo",
+              "label": "门迫",
+              "layer": "doors",
+              "palaces": [
+                9
+              ],
+              "subjects": [
+                "休门"
+              ],
+              "ruleId": "qimen-door-menpo",
+              "ruleVersion": "1.0.0",
+              "evidence": [
+                "9宫休门属水，落宫属火，构成门克宫。"
+              ]
+            },
+            {
+              "kind": "jixing",
+              "label": "六仪击刑",
+              "layer": "heaven-stems",
+              "palaces": [
+                8
+              ],
+              "subjects": [
+                "庚（寄干）"
+              ],
+              "ruleId": "qimen-heaven-yi-jixing",
+              "ruleVersion": "1.0.0",
+              "evidence": [
+                "8宫天盘寄干庚，对应本规则庚→8宫，命中六仪击刑。"
+              ]
+            },
+            {
+              "kind": "fanyin",
+              "label": "星盘对宫（结构反吟）",
+              "layer": "stars",
+              "palaces": [
+                1,
+                2,
+                3,
+                4,
+                6,
+                7,
+                8,
+                9
+              ],
+              "subjects": [
+                "天英",
+                "天任",
+                "天柱",
+                "天心",
+                "天辅",
+                "天冲",
+                "天芮",
+                "天蓬"
+              ],
+              "ruleId": "qimen-stars-fanyin",
+              "ruleVersion": "1.0.0",
+              "evidence": [
+                "逐一核对外八宫全部八项，不以值符或值使单宫代替整层；中五无独立星门，天禽随天芮以坤二为原位。",
+                "1宫天英原位9宫，本规则目标1宫：符合。",
+                "2宫天任原位8宫，本规则目标2宫：符合。",
+                "3宫天柱原位7宫，本规则目标3宫：符合。",
+                "4宫天心原位6宫，本规则目标4宫：符合。",
+                "6宫天辅原位4宫，本规则目标6宫：符合。",
+                "7宫天冲原位3宫，本规则目标7宫：符合。",
+                "8宫天芮原位2宫，本规则目标8宫：符合。",
+                "9宫天蓬原位1宫，本规则目标9宫：符合。",
+                "外八项8/8符合对宫条件；整层命中。"
+              ]
+            },
+            {
+              "kind": "fanyin",
+              "label": "门盘对宫（结构反吟）",
+              "layer": "doors",
+              "palaces": [
+                1,
+                2,
+                3,
+                4,
+                6,
+                7,
+                8,
+                9
+              ],
+              "subjects": [
+                "景门",
+                "生门",
+                "惊门",
+                "开门",
+                "杜门",
+                "伤门",
+                "死门",
+                "休门"
+              ],
+              "ruleId": "qimen-doors-fanyin",
+              "ruleVersion": "1.0.0",
+              "evidence": [
+                "逐一核对外八宫全部八项，不以值符或值使单宫代替整层；中五无独立星门，天禽随天芮以坤二为原位。",
+                "1宫景门原位9宫，本规则目标1宫：符合。",
+                "2宫生门原位8宫，本规则目标2宫：符合。",
+                "3宫惊门原位7宫，本规则目标3宫：符合。",
+                "4宫开门原位6宫，本规则目标4宫：符合。",
+                "6宫杜门原位4宫，本规则目标6宫：符合。",
+                "7宫伤门原位3宫，本规则目标7宫：符合。",
+                "8宫死门原位2宫，本规则目标8宫：符合。",
+                "9宫休门原位1宫，本规则目标9宫：符合。",
+                "外八项8/8符合对宫条件；整层命中。"
+              ]
+            }
+          ],
+          "warnings": [
+            "本模块只列固定流派的结构匹配与逐项核查，不据此推断人生吉凶、四害解除或姓名验局。",
+            "六仪击刑采用天盘宽式，三奇入墓只用乙坤二、丙乾六、丁艮八；地盘、中宫副本及其他流派条件未纳入。",
+            "典籍条文使用开源项目的固定版本转录及规则对照，未声称逐页核验全部古籍原本。"
+          ]
+        }
+      }
+    },
+    {
+      "profile": {
+        "id": "qimen-v2-frozen",
+        "customerName": "冻结奇门1.2",
+        "surname": "林",
+        "surnamePinyin": "lín",
+        "gender": "中性",
+        "calendar": "solar",
+        "birthDate": "2024-02-04",
+        "birthTime": "16:27:07",
+        "timeUnknown": false,
+        "leapMonth": false,
+        "birthPlace": "上海",
+        "timezone": "Asia/Shanghai",
+        "notes": ""
+      },
+      "expected": {
+        "available": true,
+        "dun": "阳遁",
+        "ju": 8,
+        "yuan": "上元",
+        "solarTerm": "立春",
+        "xun": "甲寅（遁癸）",
+        "chiefStar": "天辅",
+        "chiefDoor": "杜门",
+        "palaces": [
+          {
+            "number": 4,
+            "direction": "东南",
+            "trigram": "巽",
+            "earth": "癸",
+            "heaven": "乙",
+            "star": "天柱",
+            "door": "惊门",
+            "god": "六合",
+            "marks": [
+              "门迫（惊门）"
+            ]
+          },
+          {
+            "number": 9,
+            "direction": "南",
+            "trigram": "离",
+            "earth": "己",
+            "heaven": "丙",
+            "star": "天心",
+            "door": "开门",
+            "god": "勾陈",
+            "marks": []
+          },
+          {
+            "number": 2,
+            "direction": "西南",
+            "trigram": "坤",
+            "earth": "辛",
+            "heaven": "庚",
+            "star": "天蓬",
+            "door": "休门",
+            "god": "朱雀",
+            "marks": []
+          },
+          {
+            "number": 3,
+            "direction": "东",
+            "trigram": "震",
+            "earth": "壬",
+            "heaven": "辛（寄丁）",
+            "star": "天芮、天禽",
+            "door": "死门",
+            "god": "太阴",
+            "marks": []
+          },
+          {
+            "number": 5,
+            "direction": "中",
+            "trigram": "中",
+            "earth": "丁",
+            "heaven": "随天禽寄震",
+            "star": "天禽寄震",
+            "door": "",
+            "god": "",
+            "marks": [
+              "中五寄坤，天禽随天芮"
+            ]
+          },
+          {
+            "number": 7,
+            "direction": "西",
+            "trigram": "兑",
+            "earth": "乙",
+            "heaven": "戊",
+            "star": "天任",
+            "door": "生门",
+            "god": "九地",
+            "marks": []
+          },
+          {
+            "number": 8,
+            "direction": "东北",
+            "trigram": "艮",
+            "earth": "戊",
+            "heaven": "己",
+            "star": "天英",
+            "door": "景门",
+            "god": "腾蛇",
+            "marks": [
+              "时旬空（丑）",
+              "时驿马（寅）"
+            ]
+          },
+          {
+            "number": 1,
+            "direction": "北",
+            "trigram": "坎",
+            "earth": "庚",
+            "heaven": "癸",
+            "star": "天辅",
+            "door": "杜门",
+            "god": "值符",
+            "marks": [
+              "时旬空（子）"
+            ]
+          },
+          {
+            "number": 6,
+            "direction": "西北",
+            "trigram": "乾",
+            "earth": "丙",
+            "heaven": "壬",
+            "star": "天冲",
+            "door": "伤门",
+            "god": "九天",
+            "marks": []
+          }
+        ],
+        "reasons": [
+          "拆补（甲己符头三元版本）：戊戌日回溯4日得符头甲午，定上元；立春阳遁8局。",
+          "庚申时属甲寅旬，甲遁癸；旬首仪在4宫，值符天辅、值使杜门。",
+          "值符随时干庚至1宫；值使顺/逆数6步至1宫。",
+          "九星、天盘按八宫同向刚性转动；中五寄坤二，天禽及中宫干随天芮。八神版本：阳遁勾陈朱雀，阴遁白虎玄武；阳顺阴逆。",
+          "来源对照：arc119226/qimen_dunjia@7d94103 的盘层与经典转录例题；MarkChenXY163/qimendunjia_mcp@d5941f4 的日干支三元及局数表。后者交节只到日期，本引擎另用精确交节。",
+          "当前节气交接时刻：2024-02-04 16:27:07 UTC+08:00；出生地时间基准 Asia/Shanghai，民用午夜换日，未作真太阳时校正。"
+        ],
+        "warnings": [
+          "奇门用于出生盘的传统文化参考；未建立姓名落宫算法，不用于宣称名字已验算吉凶。",
+          "结构辅助已核查门迫、天盘宽式六仪击刑、所选三奇入墓与星门整层原位或对宫；四害解除、真假空及姓名验局尚未启用。时旬空与时驿马只作固定地支宫位标记。",
+          "三元采用甲己符头规则，不采用交节后每120小时换元，也不启用超神接气置闰。"
+        ],
+        "version": "zhuanpan-chaibu-futou-kun2/1.2.0",
+        "auxiliary": {
+          "version": "hour-xunkong-yima/1.0.0",
+          "hourGanzhi": "庚申",
+          "scope": "hour",
+          "rules": [
+            {
+              "id": "qimen-hour-xunkong",
+              "version": "1.0.0",
+              "name": "时柱六旬旬空",
+              "sources": [
+                {
+                  "id": "qimen-arc-markers",
+                  "url": "https://github.com/arc119226/qimen_dunjia",
+                  "commit": "7d941031d685d818d9fd234edf891dba5bd6a323",
+                  "locator": "constants.js:627–632,651–659; test.js:527–549"
+                },
+                {
+                  "id": "qimen-go-markers",
+                  "url": "https://github.com/deminzhang/qimen-go",
+                  "commit": "4d3f58fa0f401b5b3a337f119138e99e90685dda",
+                  "locator": "xuan/ganzhi.go:31–46,141–148; xuan/qimen.go:182–190"
+                }
+              ],
+              "conditions": [
+                "输入为已确定时柱的有效六十甲子，以时柱所属的十干一旬取两支旬空，不取年柱或日柱。",
+                "地支按固定后天九宫映射：子1，丑寅8，卯3，辰巳4，午9，未申2，酉7，戌亥6。",
+                "同宫两空支合并显示；中宫5无地支，不因中五寄坤或天盘旋转而转移旬空。"
+              ]
+            },
+            {
+              "id": "qimen-hour-yima",
+              "version": "1.0.0",
+              "name": "时支三合组驿马",
+              "sources": [
+                {
+                  "id": "qimen-go-markers",
+                  "url": "https://github.com/deminzhang/qimen-go",
+                  "commit": "4d3f58fa0f401b5b3a337f119138e99e90685dda",
+                  "locator": "xuan/ganzhi.go:31–46,141–148; xuan/qimen.go:182–190"
+                }
+              ],
+              "conditions": [
+                "仅按已确定时柱的时支取驿马，不使用年支、日支或姓名笔画。",
+                "申子辰马在寅，寅午戌马在申，巳酉丑马在亥，亥卯未马在巳。",
+                "马支按固定地支宫位标记，不随阴阳遁、盘层转动或中五寄坤改变。"
+              ]
+            }
+          ],
+          "markers": [
+            {
+              "kind": "xunkong",
+              "label": "时旬空",
+              "branches": [
+                "子",
+                "丑"
+              ],
+              "palaces": [
+                1,
+                8
+              ],
+              "ruleId": "qimen-hour-xunkong",
+              "ruleVersion": "1.0.0",
+              "evidence": [
+                "时柱庚申属甲寅旬（甲寅至癸亥）。",
+                "本旬十干配支后余子、丑，取为时旬空；固定支宫为子→1宫、丑→8宫。",
+                "仅标两支所在固定宫位，不判断真空、假空、冲空、填实或吉凶。"
+              ]
+            },
+            {
+              "kind": "yima",
+              "label": "时驿马",
+              "branches": [
+                "寅"
+              ],
+              "palaces": [
+                8
+              ],
+              "ruleId": "qimen-hour-yima",
+              "ruleVersion": "1.0.0",
+              "evidence": [
+                "时柱庚申的时支申属申、子、辰三合组，按该组取马在寅。",
+                "马支寅固定落8宫，不取年支、日支，也不随转盘或寄中改变。"
+              ]
+            }
+          ],
+          "warnings": [
+            "本模块仅列时柱旬空与时支驿马的规则事实，不推导姓名落宫或吉凶结论。"
+          ]
+        },
+        "patterns": {
+          "version": "zhuanpan-structural-patterns/1.0.0",
+          "school": "zhuanpan-chaibu-futou-kun2",
+          "rules": [
+            {
+              "id": "qimen-door-menpo",
+              "version": "1.0.0",
+              "name": "门迫（门克宫）",
+              "sources": [
+                {
+                  "id": "qimen-arc-structural-patterns",
+                  "url": "https://github.com/arc119226/qimen_dunjia",
+                  "commit": "7d941031d685d818d9fd234edf891dba5bd6a323",
+                  "locator": "patterns.js:59–71 SOURCES.法竅_迫制註; 384–407 detectMenPo"
+                }
+              ],
+              "conditions": [
+                "仅在门五行克落宫五行时命中；宫克门、生扶或同类不记为门迫。",
+                "休水；伤杜木；景火；生死土；开惊金。宫行：坎水、震巽木、离火、坤艮土、乾兑金。",
+                "核查外八宫，不将中五寄坤产生第九个门。"
+              ]
+            },
+            {
+              "id": "qimen-heaven-yi-jixing",
+              "version": "1.0.0",
+              "name": "六仪击刑（天盘宽式）",
+              "sources": [
+                {
+                  "id": "qimen-arc-structural-patterns",
+                  "url": "https://github.com/arc119226/qimen_dunjia",
+                  "commit": "7d941031d685d818d9fd234edf891dba5bd6a323",
+                  "locator": "patterns.js:516–556 JI_XING / detectLiuYiJiXing"
+                },
+                {
+                  "id": "qimen-go-structural-patterns",
+                  "url": "https://github.com/deminzhang/qimen-go",
+                  "commit": "4d3f58fa0f401b5b3a337f119138e99e90685dda",
+                  "locator": "xuan/qimen_defs.go:226–235 QM6YiJiXing"
+                }
+              ],
+              "conditions": [
+                "采用宽式任一六仪落刑宫，不采用仅值符所带仪的严式；同一仪不再重复记严式结果。",
+                "固定仪宫：戊3、己2、庚8、辛9、壬4、癸4。",
+                "只核外八宫天盘主干及随天芮落宫的寄干，按实际落宫计算；地盘干与中五展示副本不参与。"
+              ]
+            },
+            {
+              "id": "qimen-heaven-qi-rumu",
+              "version": "1.0.0",
+              "name": "三奇入墓（乙坤、丙乾、丁艮）",
+              "sources": [
+                {
+                  "id": "qimen-arc-structural-patterns",
+                  "url": "https://github.com/arc119226/qimen_dunjia",
+                  "commit": "7d941031d685d818d9fd234edf891dba5bd6a323",
+                  "locator": "patterns.js:150–158 SOURCES.統宗_四十格 / 旨歸_入墓; 563–579 RU_MU"
+                }
+              ],
+              "conditions": [
+                "仅核三奇乙丙丁，固定采用乙入坤二、丙入乾六、丁入艮八的读法，不声称覆盖十干入墓。",
+                "丁墓乾六及其他长生表为不同读法，本版本未采用；不得把不同流派的墓宫混成一张表。",
+                "只核外八宫天盘主干及随天芮落宫的寄干，按实际落宫计算；地盘干与中五展示副本不参与。"
+              ]
+            },
+            {
+              "id": "qimen-stars-fuyin",
+              "version": "1.0.0",
+              "name": "星盘原位（结构伏吟）",
+              "sources": [
+                {
+                  "id": "qimen-arc-structural-patterns",
+                  "url": "https://github.com/arc119226/qimen_dunjia",
+                  "commit": "7d941031d685d818d9fd234edf891dba5bd6a323",
+                  "locator": "patterns.js:145–149 SOURCES.釣叟_反吟"
+                },
+                {
+                  "id": "qimen-go-structural-patterns",
+                  "url": "https://github.com/deminzhang/qimen-go",
+                  "commit": "4d3f58fa0f401b5b3a337f119138e99e90685dda",
+                  "locator": "xuan/qimen_defs.go:198–205 StarHome / DoorHome"
+                }
+              ],
+              "conditions": [
+                "逐一核对外八宫全部八项，不以值符或值使单宫代替整层；中五无独立星门，天禽随天芮以坤二为原位。",
+                "本产品按固定原位表定义整层结构伏吟，不把该软件分层定义声称为独立核验古籍原页。",
+                "天蓬1、天芮2、天冲3、天辅4、天心6、天柱7、天任8、天英9全部处于原位才命中；不把单干重叠格同名伏吟混入。"
+              ]
+            },
+            {
+              "id": "qimen-stars-fanyin",
+              "version": "1.0.0",
+              "name": "星盘对宫（结构反吟）",
+              "sources": [
+                {
+                  "id": "qimen-arc-structural-patterns",
+                  "url": "https://github.com/arc119226/qimen_dunjia",
+                  "commit": "7d941031d685d818d9fd234edf891dba5bd6a323",
+                  "locator": "patterns.js:145–149 SOURCES.釣叟_反吟; 312–330 detectFanYin"
+                },
+                {
+                  "id": "qimen-go-structural-patterns",
+                  "url": "https://github.com/deminzhang/qimen-go",
+                  "commit": "4d3f58fa0f401b5b3a337f119138e99e90685dda",
+                  "locator": "xuan/qimen_defs.go:198–205 StarHome / DoorHome"
+                }
+              ],
+              "conditions": [
+                "逐一核对外八宫全部八项，不以值符或值使单宫代替整层；中五无独立星门，天禽随天芮以坤二为原位。",
+                "本产品把单星对宫条文与固定原位表扩展为整层核查，明确属于软件结构定义。",
+                "八星全部到各自原位对宫才命中；对宫固定为1↔9、2↔8、3↔7、4↔6（宫号和为10）。"
+              ]
+            },
+            {
+              "id": "qimen-doors-fuyin",
+              "version": "1.0.0",
+              "name": "门盘原位（结构伏吟）",
+              "sources": [
+                {
+                  "id": "qimen-go-structural-patterns",
+                  "url": "https://github.com/deminzhang/qimen-go",
+                  "commit": "4d3f58fa0f401b5b3a337f119138e99e90685dda",
+                  "locator": "xuan/qimen_defs.go:198–205 StarHome / DoorHome"
+                }
+              ],
+              "conditions": [
+                "逐一核对外八宫全部八项，不以值符或值使单宫代替整层；中五无独立星门，天禽随天芮以坤二为原位。",
+                "本产品按固定门原位表定义的整层结构检查，未声称已核验独立古籍的门层判语。",
+                "休1、死2、伤3、杜4、开6、惊7、生8、景9全部处于原位才命中；不与星层合并。"
+              ]
+            },
+            {
+              "id": "qimen-doors-fanyin",
+              "version": "1.0.0",
+              "name": "门盘对宫（结构反吟）",
+              "sources": [
+                {
+                  "id": "qimen-go-structural-patterns",
+                  "url": "https://github.com/deminzhang/qimen-go",
+                  "commit": "4d3f58fa0f401b5b3a337f119138e99e90685dda",
+                  "locator": "xuan/qimen_defs.go:198–205 StarHome / DoorHome"
+                }
+              ],
+              "conditions": [
+                "逐一核对外八宫全部八项，不以值符或值使单宫代替整层；中五无独立星门，天禽随天芮以坤二为原位。",
+                "本产品按固定门原位表及对宫几何定义的整层结构检查，未声称已核验独立古籍的门层判语。",
+                "八门全部到各自原位对宫才命中；对宫固定为1↔9、2↔8、3↔7、4↔6（宫号和为10），不与星层合并。"
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "ruleId": "qimen-door-menpo",
+              "ruleVersion": "1.0.0",
+              "layer": "doors",
+              "status": "matched",
+              "palaces": [
+                4
+              ],
+              "evidence": [
+                "外八宫逐门按门克宫核查，未将宫克门计作门迫。",
+                "1宫杜门木→宫水：未命中门克宫。",
+                "2宫休门水→宫土：未命中门克宫。",
+                "3宫死门土→宫木：未命中门克宫。",
+                "4宫惊门金→宫木：命中门克宫。",
+                "6宫伤门木→宫金：未命中门克宫。",
+                "7宫生门土→宫金：未命中门克宫。",
+                "8宫景门火→宫土：未命中门克宫。",
+                "9宫开门金→宫火：未命中门克宫。"
+              ]
+            },
+            {
+              "ruleId": "qimen-heaven-yi-jixing",
+              "ruleVersion": "1.0.0",
+              "layer": "heaven-stems",
+              "status": "not-matched",
+              "palaces": [],
+              "evidence": [
+                "只核外八宫天盘主干及随天芮落宫的寄干，按实际落宫计算；地盘干与中五展示副本不参与。",
+                "本次采用任一六仪的宽式，固定戊→3、己→2、庚→8、辛→9、壬→4、癸→4。",
+                "1宫癸（主），本规则目标4宫：未命中。",
+                "2宫庚（主），本规则目标8宫：未命中。",
+                "3宫辛（主），本规则目标9宫：未命中。",
+                "6宫壬（主），本规则目标4宫：未命中。",
+                "7宫戊（主），本规则目标3宫：未命中。",
+                "8宫己（主），本规则目标2宫：未命中。"
+              ]
+            },
+            {
+              "ruleId": "qimen-heaven-qi-rumu",
+              "ruleVersion": "1.0.0",
+              "layer": "heaven-stems",
+              "status": "not-matched",
+              "palaces": [],
+              "evidence": [
+                "只核外八宫天盘主干及随天芮落宫的寄干，按实际落宫计算；地盘干与中五展示副本不参与。",
+                "本次仅核乙→2、丙→6、丁→8；丁在乾六不按本版本三奇入墓计。",
+                "3宫丁（寄），本规则目标8宫：未命中。",
+                "4宫乙（主），本规则目标2宫：未命中。",
+                "9宫丙（主），本规则目标6宫：未命中。"
+              ]
+            },
+            {
+              "ruleId": "qimen-stars-fuyin",
+              "ruleVersion": "1.0.0",
+              "layer": "stars",
+              "status": "not-matched",
+              "palaces": [],
+              "evidence": [
+                "逐一核对外八宫全部八项，不以值符或值使单宫代替整层；中五无独立星门，天禽随天芮以坤二为原位。",
+                "1宫天辅原位4宫，本规则目标4宫：不符合。",
+                "2宫天蓬原位1宫，本规则目标1宫：不符合。",
+                "3宫天芮原位2宫，本规则目标2宫：不符合。",
+                "4宫天柱原位7宫，本规则目标7宫：不符合。",
+                "6宫天冲原位3宫，本规则目标3宫：不符合。",
+                "7宫天任原位8宫，本规则目标8宫：不符合。",
+                "8宫天英原位9宫，本规则目标9宫：不符合。",
+                "9宫天心原位6宫，本规则目标6宫：不符合。",
+                "外八项0/8符合原位条件；整层未命中。"
+              ]
+            },
+            {
+              "ruleId": "qimen-stars-fanyin",
+              "ruleVersion": "1.0.0",
+              "layer": "stars",
+              "status": "not-matched",
+              "palaces": [],
+              "evidence": [
+                "逐一核对外八宫全部八项，不以值符或值使单宫代替整层；中五无独立星门，天禽随天芮以坤二为原位。",
+                "1宫天辅原位4宫，本规则目标6宫：不符合。",
+                "2宫天蓬原位1宫，本规则目标9宫：不符合。",
+                "3宫天芮原位2宫，本规则目标8宫：不符合。",
+                "4宫天柱原位7宫，本规则目标3宫：不符合。",
+                "6宫天冲原位3宫，本规则目标7宫：不符合。",
+                "7宫天任原位8宫，本规则目标2宫：不符合。",
+                "8宫天英原位9宫，本规则目标1宫：不符合。",
+                "9宫天心原位6宫，本规则目标4宫：不符合。",
+                "外八项0/8符合对宫条件；整层未命中。"
+              ]
+            },
+            {
+              "ruleId": "qimen-doors-fuyin",
+              "ruleVersion": "1.0.0",
+              "layer": "doors",
+              "status": "not-matched",
+              "palaces": [],
+              "evidence": [
+                "逐一核对外八宫全部八项，不以值符或值使单宫代替整层；中五无独立星门，天禽随天芮以坤二为原位。",
+                "1宫杜门原位4宫，本规则目标4宫：不符合。",
+                "2宫休门原位1宫，本规则目标1宫：不符合。",
+                "3宫死门原位2宫，本规则目标2宫：不符合。",
+                "4宫惊门原位7宫，本规则目标7宫：不符合。",
+                "6宫伤门原位3宫，本规则目标3宫：不符合。",
+                "7宫生门原位8宫，本规则目标8宫：不符合。",
+                "8宫景门原位9宫，本规则目标9宫：不符合。",
+                "9宫开门原位6宫，本规则目标6宫：不符合。",
+                "外八项0/8符合原位条件；整层未命中。"
+              ]
+            },
+            {
+              "ruleId": "qimen-doors-fanyin",
+              "ruleVersion": "1.0.0",
+              "layer": "doors",
+              "status": "not-matched",
+              "palaces": [],
+              "evidence": [
+                "逐一核对外八宫全部八项，不以值符或值使单宫代替整层；中五无独立星门，天禽随天芮以坤二为原位。",
+                "1宫杜门原位4宫，本规则目标6宫：不符合。",
+                "2宫休门原位1宫，本规则目标9宫：不符合。",
+                "3宫死门原位2宫，本规则目标8宫：不符合。",
+                "4宫惊门原位7宫，本规则目标3宫：不符合。",
+                "6宫伤门原位3宫，本规则目标7宫：不符合。",
+                "7宫生门原位8宫，本规则目标2宫：不符合。",
+                "8宫景门原位9宫，本规则目标1宫：不符合。",
+                "9宫开门原位6宫，本规则目标4宫：不符合。",
+                "外八项0/8符合对宫条件；整层未命中。"
+              ]
+            }
+          ],
+          "findings": [
+            {
+              "kind": "menpo",
+              "label": "门迫",
+              "layer": "doors",
+              "palaces": [
+                4
+              ],
+              "subjects": [
+                "惊门"
+              ],
+              "ruleId": "qimen-door-menpo",
+              "ruleVersion": "1.0.0",
+              "evidence": [
+                "4宫惊门属金，落宫属木，构成门克宫。"
+              ]
+            }
+          ],
+          "warnings": [
+            "本模块只列固定流派的结构匹配与逐项核查，不据此推断人生吉凶、四害解除或姓名验局。",
+            "六仪击刑采用天盘宽式，三奇入墓只用乙坤二、丙乾六、丁艮八；地盘、中宫副本及其他流派条件未纳入。",
+            "典籍条文使用开源项目的固定版本转录及规则对照，未声称逐页核验全部古籍原本。"
+          ]
+        }
+      }
+    },
+    {
+      "profile": {
+        "id": "qimen-v2-frozen",
+        "customerName": "冻结奇门1.2",
+        "surname": "林",
+        "surnamePinyin": "lín",
+        "gender": "中性",
+        "calendar": "solar",
+        "birthDate": "2024-11-03",
+        "birthTime": "01:30:00",
+        "timeUnknown": false,
+        "leapMonth": false,
+        "birthPlace": "上海",
+        "timezone": "America/New_York",
+        "notes": ""
+      },
+      "expected": {
+        "available": true,
+        "dun": "阴遁",
+        "ju": 8,
+        "yuan": "中元",
+        "solarTerm": "霜降",
+        "xun": "甲申（遁庚）",
+        "chiefStar": "天心",
+        "chiefDoor": "开门",
+        "palaces": [
+          {
+            "number": 4,
+            "direction": "东南",
+            "trigram": "巽",
+            "earth": "壬",
+            "heaven": "乙",
+            "star": "天英",
+            "door": "伤门",
+            "god": "六合",
+            "marks": []
+          },
+          {
+            "number": 9,
+            "direction": "南",
+            "trigram": "离",
+            "earth": "乙",
+            "heaven": "丁（寄辛）",
+            "star": "天芮、天禽",
+            "door": "杜门",
+            "god": "太阴",
+            "marks": [
+              "时旬空（午）",
+              "六仪击刑（辛（寄干））"
+            ]
+          },
+          {
+            "number": 2,
+            "direction": "西南",
+            "trigram": "坤",
+            "earth": "丁",
+            "heaven": "己",
+            "star": "天柱",
+            "door": "景门",
+            "god": "腾蛇",
+            "marks": [
+              "时旬空（未）",
+              "六仪击刑（己（主干））"
+            ]
+          },
+          {
+            "number": 3,
+            "direction": "东",
+            "trigram": "震",
+            "earth": "癸",
+            "heaven": "壬",
+            "star": "天辅",
+            "door": "生门",
+            "god": "白虎",
+            "marks": []
+          },
+          {
+            "number": 5,
+            "direction": "中",
+            "trigram": "中",
+            "earth": "辛",
+            "heaven": "随天禽寄离",
+            "star": "天禽寄离",
+            "door": "",
+            "god": "",
+            "marks": [
+              "中五寄坤，天禽随天芮"
+            ]
+          },
+          {
+            "number": 7,
+            "direction": "西",
+            "trigram": "兑",
+            "earth": "己",
+            "heaven": "庚",
+            "star": "天心",
+            "door": "死门",
+            "god": "值符",
+            "marks": []
+          },
+          {
+            "number": 8,
+            "direction": "东北",
+            "trigram": "艮",
+            "earth": "戊",
+            "heaven": "癸",
+            "star": "天冲",
+            "door": "休门",
+            "god": "玄武",
+            "marks": []
+          },
+          {
+            "number": 1,
+            "direction": "北",
+            "trigram": "坎",
+            "earth": "丙",
+            "heaven": "戊",
+            "star": "天任",
+            "door": "开门",
+            "god": "九地",
+            "marks": []
+          },
+          {
+            "number": 6,
+            "direction": "西北",
+            "trigram": "乾",
+            "earth": "庚",
+            "heaven": "丙",
+            "star": "天蓬",
+            "door": "惊门",
+            "god": "九天",
+            "marks": [
+              "时驿马（亥）",
+              "三奇入墓（丙（主干））"
+            ]
+          }
+        ],
+        "reasons": [
+          "拆补（甲己符头三元版本）：辛未日回溯2日得符头己巳，定中元；霜降阴遁8局。",
+          "己丑时属甲申旬，甲遁庚；旬首仪在6宫，值符天心、值使开门。",
+          "值符随时干己至7宫；值使顺/逆数5步至1宫。",
+          "九星、天盘按八宫同向刚性转动；中五寄坤二，天禽及中宫干随天芮。八神版本：阳遁勾陈朱雀，阴遁白虎玄武；阳顺阴逆。",
+          "来源对照：arc119226/qimen_dunjia@7d94103 的盘层与经典转录例题；MarkChenXY163/qimendunjia_mcp@d5941f4 的日干支三元及局数表。后者交节只到日期，本引擎另用精确交节。",
+          "当前节气交接时刻：2024-10-23 06:14:47 UTC+08:00；出生地时间基准 America/New_York，民用午夜换日，未作真太阳时校正。"
+        ],
+        "warnings": [
+          "奇门用于出生盘的传统文化参考；未建立姓名落宫算法，不用于宣称名字已验算吉凶。",
+          "结构辅助已核查门迫、天盘宽式六仪击刑、所选三奇入墓与星门整层原位或对宫；四害解除、真假空及姓名验局尚未启用。时旬空与时驿马只作固定地支宫位标记。",
+          "三元采用甲己符头规则，不采用交节后每120小时换元，也不启用超神接气置闰。",
+          "该民用时刻处于夏令时回拨的重复小时，采用第一次出现的时刻；请起名师复核。",
+          "采用 America/New_York 出生地民用日期定日柱、民用钟定时柱；年/月柱按该瞬间对应的北京时间交节。公农历按中国历法的同名日期换算，未作真太阳时校正。"
+        ],
+        "version": "zhuanpan-chaibu-futou-kun2/1.2.0",
+        "auxiliary": {
+          "version": "hour-xunkong-yima/1.0.0",
+          "hourGanzhi": "己丑",
+          "scope": "hour",
+          "rules": [
+            {
+              "id": "qimen-hour-xunkong",
+              "version": "1.0.0",
+              "name": "时柱六旬旬空",
+              "sources": [
+                {
+                  "id": "qimen-arc-markers",
+                  "url": "https://github.com/arc119226/qimen_dunjia",
+                  "commit": "7d941031d685d818d9fd234edf891dba5bd6a323",
+                  "locator": "constants.js:627–632,651–659; test.js:527–549"
+                },
+                {
+                  "id": "qimen-go-markers",
+                  "url": "https://github.com/deminzhang/qimen-go",
+                  "commit": "4d3f58fa0f401b5b3a337f119138e99e90685dda",
+                  "locator": "xuan/ganzhi.go:31–46,141–148; xuan/qimen.go:182–190"
+                }
+              ],
+              "conditions": [
+                "输入为已确定时柱的有效六十甲子，以时柱所属的十干一旬取两支旬空，不取年柱或日柱。",
+                "地支按固定后天九宫映射：子1，丑寅8，卯3，辰巳4，午9，未申2，酉7，戌亥6。",
+                "同宫两空支合并显示；中宫5无地支，不因中五寄坤或天盘旋转而转移旬空。"
+              ]
+            },
+            {
+              "id": "qimen-hour-yima",
+              "version": "1.0.0",
+              "name": "时支三合组驿马",
+              "sources": [
+                {
+                  "id": "qimen-go-markers",
+                  "url": "https://github.com/deminzhang/qimen-go",
+                  "commit": "4d3f58fa0f401b5b3a337f119138e99e90685dda",
+                  "locator": "xuan/ganzhi.go:31–46,141–148; xuan/qimen.go:182–190"
+                }
+              ],
+              "conditions": [
+                "仅按已确定时柱的时支取驿马，不使用年支、日支或姓名笔画。",
+                "申子辰马在寅，寅午戌马在申，巳酉丑马在亥，亥卯未马在巳。",
+                "马支按固定地支宫位标记，不随阴阳遁、盘层转动或中五寄坤改变。"
+              ]
+            }
+          ],
+          "markers": [
+            {
+              "kind": "xunkong",
+              "label": "时旬空",
+              "branches": [
+                "午",
+                "未"
+              ],
+              "palaces": [
+                2,
+                9
+              ],
+              "ruleId": "qimen-hour-xunkong",
+              "ruleVersion": "1.0.0",
+              "evidence": [
+                "时柱己丑属甲申旬（甲申至癸巳）。",
+                "本旬十干配支后余午、未，取为时旬空；固定支宫为午→9宫、未→2宫。",
+                "仅标两支所在固定宫位，不判断真空、假空、冲空、填实或吉凶。"
+              ]
+            },
+            {
+              "kind": "yima",
+              "label": "时驿马",
+              "branches": [
+                "亥"
+              ],
+              "palaces": [
+                6
+              ],
+              "ruleId": "qimen-hour-yima",
+              "ruleVersion": "1.0.0",
+              "evidence": [
+                "时柱己丑的时支丑属巳、酉、丑三合组，按该组取马在亥。",
+                "马支亥固定落6宫，不取年支、日支，也不随转盘或寄中改变。"
+              ]
+            }
+          ],
+          "warnings": [
+            "本模块仅列时柱旬空与时支驿马的规则事实，不推导姓名落宫或吉凶结论。"
+          ]
+        },
+        "patterns": {
+          "version": "zhuanpan-structural-patterns/1.0.0",
+          "school": "zhuanpan-chaibu-futou-kun2",
+          "rules": [
+            {
+              "id": "qimen-door-menpo",
+              "version": "1.0.0",
+              "name": "门迫（门克宫）",
+              "sources": [
+                {
+                  "id": "qimen-arc-structural-patterns",
+                  "url": "https://github.com/arc119226/qimen_dunjia",
+                  "commit": "7d941031d685d818d9fd234edf891dba5bd6a323",
+                  "locator": "patterns.js:59–71 SOURCES.法竅_迫制註; 384–407 detectMenPo"
+                }
+              ],
+              "conditions": [
+                "仅在门五行克落宫五行时命中；宫克门、生扶或同类不记为门迫。",
+                "休水；伤杜木；景火；生死土；开惊金。宫行：坎水、震巽木、离火、坤艮土、乾兑金。",
+                "核查外八宫，不将中五寄坤产生第九个门。"
+              ]
+            },
+            {
+              "id": "qimen-heaven-yi-jixing",
+              "version": "1.0.0",
+              "name": "六仪击刑（天盘宽式）",
+              "sources": [
+                {
+                  "id": "qimen-arc-structural-patterns",
+                  "url": "https://github.com/arc119226/qimen_dunjia",
+                  "commit": "7d941031d685d818d9fd234edf891dba5bd6a323",
+                  "locator": "patterns.js:516–556 JI_XING / detectLiuYiJiXing"
+                },
+                {
+                  "id": "qimen-go-structural-patterns",
+                  "url": "https://github.com/deminzhang/qimen-go",
+                  "commit": "4d3f58fa0f401b5b3a337f119138e99e90685dda",
+                  "locator": "xuan/qimen_defs.go:226–235 QM6YiJiXing"
+                }
+              ],
+              "conditions": [
+                "采用宽式任一六仪落刑宫，不采用仅值符所带仪的严式；同一仪不再重复记严式结果。",
+                "固定仪宫：戊3、己2、庚8、辛9、壬4、癸4。",
+                "只核外八宫天盘主干及随天芮落宫的寄干，按实际落宫计算；地盘干与中五展示副本不参与。"
+              ]
+            },
+            {
+              "id": "qimen-heaven-qi-rumu",
+              "version": "1.0.0",
+              "name": "三奇入墓（乙坤、丙乾、丁艮）",
+              "sources": [
+                {
+                  "id": "qimen-arc-structural-patterns",
+                  "url": "https://github.com/arc119226/qimen_dunjia",
+                  "commit": "7d941031d685d818d9fd234edf891dba5bd6a323",
+                  "locator": "patterns.js:150–158 SOURCES.統宗_四十格 / 旨歸_入墓; 563–579 RU_MU"
+                }
+              ],
+              "conditions": [
+                "仅核三奇乙丙丁，固定采用乙入坤二、丙入乾六、丁入艮八的读法，不声称覆盖十干入墓。",
+                "丁墓乾六及其他长生表为不同读法，本版本未采用；不得把不同流派的墓宫混成一张表。",
+                "只核外八宫天盘主干及随天芮落宫的寄干，按实际落宫计算；地盘干与中五展示副本不参与。"
+              ]
+            },
+            {
+              "id": "qimen-stars-fuyin",
+              "version": "1.0.0",
+              "name": "星盘原位（结构伏吟）",
+              "sources": [
+                {
+                  "id": "qimen-arc-structural-patterns",
+                  "url": "https://github.com/arc119226/qimen_dunjia",
+                  "commit": "7d941031d685d818d9fd234edf891dba5bd6a323",
+                  "locator": "patterns.js:145–149 SOURCES.釣叟_反吟"
+                },
+                {
+                  "id": "qimen-go-structural-patterns",
+                  "url": "https://github.com/deminzhang/qimen-go",
+                  "commit": "4d3f58fa0f401b5b3a337f119138e99e90685dda",
+                  "locator": "xuan/qimen_defs.go:198–205 StarHome / DoorHome"
+                }
+              ],
+              "conditions": [
+                "逐一核对外八宫全部八项，不以值符或值使单宫代替整层；中五无独立星门，天禽随天芮以坤二为原位。",
+                "本产品按固定原位表定义整层结构伏吟，不把该软件分层定义声称为独立核验古籍原页。",
+                "天蓬1、天芮2、天冲3、天辅4、天心6、天柱7、天任8、天英9全部处于原位才命中；不把单干重叠格同名伏吟混入。"
+              ]
+            },
+            {
+              "id": "qimen-stars-fanyin",
+              "version": "1.0.0",
+              "name": "星盘对宫（结构反吟）",
+              "sources": [
+                {
+                  "id": "qimen-arc-structural-patterns",
+                  "url": "https://github.com/arc119226/qimen_dunjia",
+                  "commit": "7d941031d685d818d9fd234edf891dba5bd6a323",
+                  "locator": "patterns.js:145–149 SOURCES.釣叟_反吟; 312–330 detectFanYin"
+                },
+                {
+                  "id": "qimen-go-structural-patterns",
+                  "url": "https://github.com/deminzhang/qimen-go",
+                  "commit": "4d3f58fa0f401b5b3a337f119138e99e90685dda",
+                  "locator": "xuan/qimen_defs.go:198–205 StarHome / DoorHome"
+                }
+              ],
+              "conditions": [
+                "逐一核对外八宫全部八项，不以值符或值使单宫代替整层；中五无独立星门，天禽随天芮以坤二为原位。",
+                "本产品把单星对宫条文与固定原位表扩展为整层核查，明确属于软件结构定义。",
+                "八星全部到各自原位对宫才命中；对宫固定为1↔9、2↔8、3↔7、4↔6（宫号和为10）。"
+              ]
+            },
+            {
+              "id": "qimen-doors-fuyin",
+              "version": "1.0.0",
+              "name": "门盘原位（结构伏吟）",
+              "sources": [
+                {
+                  "id": "qimen-go-structural-patterns",
+                  "url": "https://github.com/deminzhang/qimen-go",
+                  "commit": "4d3f58fa0f401b5b3a337f119138e99e90685dda",
+                  "locator": "xuan/qimen_defs.go:198–205 StarHome / DoorHome"
+                }
+              ],
+              "conditions": [
+                "逐一核对外八宫全部八项，不以值符或值使单宫代替整层；中五无独立星门，天禽随天芮以坤二为原位。",
+                "本产品按固定门原位表定义的整层结构检查，未声称已核验独立古籍的门层判语。",
+                "休1、死2、伤3、杜4、开6、惊7、生8、景9全部处于原位才命中；不与星层合并。"
+              ]
+            },
+            {
+              "id": "qimen-doors-fanyin",
+              "version": "1.0.0",
+              "name": "门盘对宫（结构反吟）",
+              "sources": [
+                {
+                  "id": "qimen-go-structural-patterns",
+                  "url": "https://github.com/deminzhang/qimen-go",
+                  "commit": "4d3f58fa0f401b5b3a337f119138e99e90685dda",
+                  "locator": "xuan/qimen_defs.go:198–205 StarHome / DoorHome"
+                }
+              ],
+              "conditions": [
+                "逐一核对外八宫全部八项，不以值符或值使单宫代替整层；中五无独立星门，天禽随天芮以坤二为原位。",
+                "本产品按固定门原位表及对宫几何定义的整层结构检查，未声称已核验独立古籍的门层判语。",
+                "八门全部到各自原位对宫才命中；对宫固定为1↔9、2↔8、3↔7、4↔6（宫号和为10），不与星层合并。"
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "ruleId": "qimen-door-menpo",
+              "ruleVersion": "1.0.0",
+              "layer": "doors",
+              "status": "not-matched",
+              "palaces": [],
+              "evidence": [
+                "外八宫逐门按门克宫核查，未将宫克门计作门迫。",
+                "1宫开门金→宫水：未命中门克宫。",
+                "2宫景门火→宫土：未命中门克宫。",
+                "3宫生门土→宫木：未命中门克宫。",
+                "4宫伤门木→宫木：未命中门克宫。",
+                "6宫惊门金→宫金：未命中门克宫。",
+                "7宫死门土→宫金：未命中门克宫。",
+                "8宫休门水→宫土：未命中门克宫。",
+                "9宫杜门木→宫火：未命中门克宫。"
+              ]
+            },
+            {
+              "ruleId": "qimen-heaven-yi-jixing",
+              "ruleVersion": "1.0.0",
+              "layer": "heaven-stems",
+              "status": "matched",
+              "palaces": [
+                2,
+                9
+              ],
+              "evidence": [
+                "只核外八宫天盘主干及随天芮落宫的寄干，按实际落宫计算；地盘干与中五展示副本不参与。",
+                "本次采用任一六仪的宽式，固定戊→3、己→2、庚→8、辛→9、壬→4、癸→4。",
+                "1宫戊（主），本规则目标3宫：未命中。",
+                "2宫己（主），本规则目标2宫：命中。",
+                "3宫壬（主），本规则目标4宫：未命中。",
+                "7宫庚（主），本规则目标8宫：未命中。",
+                "8宫癸（主），本规则目标4宫：未命中。",
+                "9宫辛（寄），本规则目标9宫：命中。"
+              ]
+            },
+            {
+              "ruleId": "qimen-heaven-qi-rumu",
+              "ruleVersion": "1.0.0",
+              "layer": "heaven-stems",
+              "status": "matched",
+              "palaces": [
+                6
+              ],
+              "evidence": [
+                "只核外八宫天盘主干及随天芮落宫的寄干，按实际落宫计算；地盘干与中五展示副本不参与。",
+                "本次仅核乙→2、丙→6、丁→8；丁在乾六不按本版本三奇入墓计。",
+                "4宫乙（主），本规则目标2宫：未命中。",
+                "6宫丙（主），本规则目标6宫：命中。",
+                "9宫丁（主），本规则目标8宫：未命中。"
+              ]
+            },
+            {
+              "ruleId": "qimen-stars-fuyin",
+              "ruleVersion": "1.0.0",
+              "layer": "stars",
+              "status": "not-matched",
+              "palaces": [],
+              "evidence": [
+                "逐一核对外八宫全部八项，不以值符或值使单宫代替整层；中五无独立星门，天禽随天芮以坤二为原位。",
+                "1宫天任原位8宫，本规则目标8宫：不符合。",
+                "2宫天柱原位7宫，本规则目标7宫：不符合。",
+                "3宫天辅原位4宫，本规则目标4宫：不符合。",
+                "4宫天英原位9宫，本规则目标9宫：不符合。",
+                "6宫天蓬原位1宫，本规则目标1宫：不符合。",
+                "7宫天心原位6宫，本规则目标6宫：不符合。",
+                "8宫天冲原位3宫，本规则目标3宫：不符合。",
+                "9宫天芮原位2宫，本规则目标2宫：不符合。",
+                "外八项0/8符合原位条件；整层未命中。"
+              ]
+            },
+            {
+              "ruleId": "qimen-stars-fanyin",
+              "ruleVersion": "1.0.0",
+              "layer": "stars",
+              "status": "not-matched",
+              "palaces": [],
+              "evidence": [
+                "逐一核对外八宫全部八项，不以值符或值使单宫代替整层；中五无独立星门，天禽随天芮以坤二为原位。",
+                "1宫天任原位8宫，本规则目标2宫：不符合。",
+                "2宫天柱原位7宫，本规则目标3宫：不符合。",
+                "3宫天辅原位4宫，本规则目标6宫：不符合。",
+                "4宫天英原位9宫，本规则目标1宫：不符合。",
+                "6宫天蓬原位1宫，本规则目标9宫：不符合。",
+                "7宫天心原位6宫，本规则目标4宫：不符合。",
+                "8宫天冲原位3宫，本规则目标7宫：不符合。",
+                "9宫天芮原位2宫，本规则目标8宫：不符合。",
+                "外八项0/8符合对宫条件；整层未命中。"
+              ]
+            },
+            {
+              "ruleId": "qimen-doors-fuyin",
+              "ruleVersion": "1.0.0",
+              "layer": "doors",
+              "status": "not-matched",
+              "palaces": [],
+              "evidence": [
+                "逐一核对外八宫全部八项，不以值符或值使单宫代替整层；中五无独立星门，天禽随天芮以坤二为原位。",
+                "1宫开门原位6宫，本规则目标6宫：不符合。",
+                "2宫景门原位9宫，本规则目标9宫：不符合。",
+                "3宫生门原位8宫，本规则目标8宫：不符合。",
+                "4宫伤门原位3宫，本规则目标3宫：不符合。",
+                "6宫惊门原位7宫，本规则目标7宫：不符合。",
+                "7宫死门原位2宫，本规则目标2宫：不符合。",
+                "8宫休门原位1宫，本规则目标1宫：不符合。",
+                "9宫杜门原位4宫，本规则目标4宫：不符合。",
+                "外八项0/8符合原位条件；整层未命中。"
+              ]
+            },
+            {
+              "ruleId": "qimen-doors-fanyin",
+              "ruleVersion": "1.0.0",
+              "layer": "doors",
+              "status": "not-matched",
+              "palaces": [],
+              "evidence": [
+                "逐一核对外八宫全部八项，不以值符或值使单宫代替整层；中五无独立星门，天禽随天芮以坤二为原位。",
+                "1宫开门原位6宫，本规则目标4宫：不符合。",
+                "2宫景门原位9宫，本规则目标1宫：不符合。",
+                "3宫生门原位8宫，本规则目标2宫：不符合。",
+                "4宫伤门原位3宫，本规则目标7宫：不符合。",
+                "6宫惊门原位7宫，本规则目标3宫：不符合。",
+                "7宫死门原位2宫，本规则目标8宫：不符合。",
+                "8宫休门原位1宫，本规则目标9宫：不符合。",
+                "9宫杜门原位4宫，本规则目标6宫：不符合。",
+                "外八项0/8符合对宫条件；整层未命中。"
+              ]
+            }
+          ],
+          "findings": [
+            {
+              "kind": "jixing",
+              "label": "六仪击刑",
+              "layer": "heaven-stems",
+              "palaces": [
+                2
+              ],
+              "subjects": [
+                "己（主干）"
+              ],
+              "ruleId": "qimen-heaven-yi-jixing",
+              "ruleVersion": "1.0.0",
+              "evidence": [
+                "2宫天盘主干己，对应本规则己→2宫，命中六仪击刑。"
+              ]
+            },
+            {
+              "kind": "jixing",
+              "label": "六仪击刑",
+              "layer": "heaven-stems",
+              "palaces": [
+                9
+              ],
+              "subjects": [
+                "辛（寄干）"
+              ],
+              "ruleId": "qimen-heaven-yi-jixing",
+              "ruleVersion": "1.0.0",
+              "evidence": [
+                "9宫天盘寄干辛，对应本规则辛→9宫，命中六仪击刑。"
+              ]
+            },
+            {
+              "kind": "rumu",
+              "label": "三奇入墓",
+              "layer": "heaven-stems",
+              "palaces": [
+                6
+              ],
+              "subjects": [
+                "丙（主干）"
+              ],
+              "ruleId": "qimen-heaven-qi-rumu",
+              "ruleVersion": "1.0.0",
+              "evidence": [
+                "6宫天盘主干丙，对应本规则丙→6宫，命中三奇入墓。"
+              ]
+            }
+          ],
+          "warnings": [
+            "本模块只列固定流派的结构匹配与逐项核查，不据此推断人生吉凶、四害解除或姓名验局。",
+            "六仪击刑采用天盘宽式，三奇入墓只用乙坤二、丙乾六、丁艮八；地盘、中宫副本及其他流派条件未纳入。",
+            "典籍条文使用开源项目的固定版本转录及规则对照，未声称逐页核验全部古籍原本。"
+          ]
+        }
+      }
+    },
+    {
+      "profile": {
+        "id": "qimen-v2-frozen",
+        "customerName": "冻结奇门1.2",
+        "surname": "林",
+        "surnamePinyin": "lín",
+        "gender": "中性",
+        "calendar": "solar",
+        "birthDate": "2024-02-10",
+        "birthTime": "",
+        "timeUnknown": true,
+        "leapMonth": false,
+        "birthPlace": "上海",
+        "timezone": "Asia/Shanghai",
+        "notes": ""
+      },
+      "expected": {
+        "available": false,
+        "reason": "出生时刻未知，不能生成唯一的时家奇门盘。",
+        "dun": "",
+        "ju": 0,
+        "yuan": "",
+        "solarTerm": "",
+        "xun": "",
+        "chiefStar": "",
+        "chiefDoor": "",
+        "palaces": [],
+        "reasons": [],
+        "warnings": [
+          "请补充出生时刻后重新排盘。"
+        ],
+        "version": "zhuanpan-chaibu-futou-kun2/1.2.0"
+      }
+    }
+  ]
+}

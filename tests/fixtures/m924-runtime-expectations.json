@@ -1,0 +1,2170 @@
+{
+  "schema": "m924-semantic-runtime-expectations/1",
+  "familyIdentity": {
+    "familyId": "naming-semantic-m921",
+    "sourceId": "naming-semantic-admission-v72-M921-M923",
+    "publicationVersion": "m921-character-meaning-publication/1.0.0-m923.1",
+    "decisionVersion": "M923-DECISION/1",
+    "ruleVersion": "naming-editorial-7.2.0"
+  },
+  "baselines": [
+    {
+      "candidateCaseId": "m910-naming-data:安:41748:0:0",
+      "reviewId": "M923-use-review-01-41748-0-0",
+      "char": "安",
+      "sourceQualification": {
+        "selectedPinyin": "ān",
+        "tone": 1,
+        "senseId": "moe-revised:41748:0:0",
+        "namePart": "given-name",
+        "familySelection": {
+          "familyId": "naming-semantic-m921",
+          "sourceId": "naming-semantic-admission-v72-M921-M923",
+          "publicationVersion": "m921-character-meaning-publication/1.0.0-m923.1",
+          "decisionVersion": "M923-DECISION/1",
+          "ruleVersion": "naming-editorial-7.2.0",
+          "enabled": true
+        },
+        "themeIds": []
+      },
+      "pool": {
+        "stage": "pool",
+        "requestedGivenNameLength": 1
+      },
+      "occurrence": {
+        "candidateId": "m923-runtime-acceptance-01",
+        "surname": "赵",
+        "givenName": "安",
+        "fullName": "赵安",
+        "position": 0,
+        "givenNameLength": 1
+      },
+      "expectedProject": {
+        "meaning": "取平稳、安全、舒适的环境与状态之意。",
+        "projectWish": null,
+        "limits": [
+          "词典义描述状态或环境，不承诺现实安全、健康或人生结果。",
+          "项目愿望不替代家庭对名字的具体理解。",
+          "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+        ],
+        "attribution": "M923 independent project wording decision; dictionary text remains MOE",
+        "license": "CC0-1.0"
+      },
+      "sourcePolicyExpected": "eligible",
+      "existingConstraintOutcome": "must be computed by actual existing implementation, never forced true",
+      "saveRestorePrerequisite": "actual locally or AI-finalized producer receipt; if full-name hard constraints prevent this fixture, choose a valid real name containing the same char and record the change before running; never fake a receipt"
+    },
+    {
+      "candidateCaseId": "m910-naming-data:晨:71627:0:0",
+      "reviewId": "M923-use-review-02-71627-0-0",
+      "char": "晨",
+      "sourceQualification": {
+        "selectedPinyin": "chén",
+        "tone": 2,
+        "senseId": "moe-revised:71627:0:0",
+        "namePart": "given-name",
+        "familySelection": {
+          "familyId": "naming-semantic-m921",
+          "sourceId": "naming-semantic-admission-v72-M921-M923",
+          "publicationVersion": "m921-character-meaning-publication/1.0.0-m923.1",
+          "decisionVersion": "M923-DECISION/1",
+          "ruleVersion": "naming-editorial-7.2.0",
+          "enabled": true
+        },
+        "themeIds": []
+      },
+      "pool": {
+        "stage": "pool",
+        "requestedGivenNameLength": 1
+      },
+      "occurrence": {
+        "candidateId": "m923-runtime-acceptance-02",
+        "surname": "赵",
+        "givenName": "晨",
+        "fullName": "赵晨",
+        "position": 0,
+        "givenNameLength": 1
+      },
+      "expectedProject": {
+        "meaning": "取太阳初出时的早晨意象。",
+        "projectWish": null,
+        "limits": [
+          "只取早晨时段的自然意象，不推导前程或性格。",
+          "晨光愿望不表示人生必然顺利。",
+          "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+        ],
+        "attribution": "M923 independent project wording decision; dictionary text remains MOE",
+        "license": "CC0-1.0"
+      },
+      "sourcePolicyExpected": "eligible",
+      "existingConstraintOutcome": "must be computed by actual existing implementation, never forced true",
+      "saveRestorePrerequisite": "actual locally or AI-finalized producer receipt; if full-name hard constraints prevent this fixture, choose a valid real name containing the same char and record the change before running; never fake a receipt"
+    },
+    {
+      "candidateCaseId": "m910-naming-data:承:59613:0:1",
+      "reviewId": "M923-use-review-03-59613-0-1",
+      "char": "承",
+      "sourceQualification": {
+        "selectedPinyin": "chéng",
+        "tone": 2,
+        "senseId": "moe-revised:59613:0:1",
+        "namePart": "given-name",
+        "familySelection": {
+          "familyId": "naming-semantic-m921",
+          "sourceId": "naming-semantic-admission-v72-M921-M923",
+          "publicationVersion": "m921-character-meaning-publication/1.0.0-m923.1",
+          "decisionVersion": "M923-DECISION/1",
+          "ruleVersion": "naming-editorial-7.2.0",
+          "enabled": true
+        },
+        "themeIds": []
+      },
+      "pool": {
+        "stage": "pool",
+        "requestedGivenNameLength": 1
+      },
+      "occurrence": {
+        "candidateId": "m923-runtime-acceptance-03",
+        "surname": "赵",
+        "givenName": "承",
+        "fullName": "赵承",
+        "position": 0,
+        "givenNameLength": 1
+      },
+      "expectedProject": {
+        "meaning": "取蒙受、接受这一承接动作之意。",
+        "projectWish": null,
+        "limits": [
+          "承接对象与责任须由使用者具体说明，不把名字变成责任要求。",
+          "不从承接动作推定服从、继承权或能力。",
+          "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+        ],
+        "attribution": "M923 independent project wording decision; dictionary text remains MOE",
+        "license": "CC0-1.0"
+      },
+      "sourcePolicyExpected": "eligible",
+      "existingConstraintOutcome": "must be computed by actual existing implementation, never forced true",
+      "saveRestorePrerequisite": "actual locally or AI-finalized producer receipt; if full-name hard constraints prevent this fixture, choose a valid real name containing the same char and record the change before running; never fake a receipt"
+    },
+    {
+      "candidateCaseId": "m910-naming-data:诚:132515:0:1",
+      "reviewId": "M923-use-review-04-132515-0-1",
+      "char": "诚",
+      "sourceQualification": {
+        "selectedPinyin": "chéng",
+        "tone": 2,
+        "senseId": "moe-revised:132515:0:1",
+        "namePart": "given-name",
+        "familySelection": {
+          "familyId": "naming-semantic-m921",
+          "sourceId": "naming-semantic-admission-v72-M921-M923",
+          "publicationVersion": "m921-character-meaning-publication/1.0.0-m923.1",
+          "decisionVersion": "M923-DECISION/1",
+          "ruleVersion": "naming-editorial-7.2.0",
+          "enabled": true
+        },
+        "themeIds": []
+      },
+      "pool": {
+        "stage": "pool",
+        "requestedGivenNameLength": 1
+      },
+      "occurrence": {
+        "candidateId": "m923-runtime-acceptance-04",
+        "surname": "赵",
+        "givenName": "诚",
+        "fullName": "赵诚",
+        "position": 0,
+        "givenNameLength": 1
+      },
+      "expectedProject": {
+        "meaning": "取真实无妄、忠实不欺之意。",
+        "projectWish": null,
+        "limits": [
+          "原义为文字与行为的价值取向，不证明现实中已经诚实。",
+          "不据此推定道德优越、信用结果或他人评价。",
+          "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+        ],
+        "attribution": "M923 independent project wording decision; dictionary text remains MOE",
+        "license": "CC0-1.0"
+      },
+      "sourcePolicyExpected": "eligible",
+      "existingConstraintOutcome": "must be computed by actual existing implementation, never forced true",
+      "saveRestorePrerequisite": "actual locally or AI-finalized producer receipt; if full-name hard constraints prevent this fixture, choose a valid real name containing the same char and record the change before running; never fake a receipt"
+    },
+    {
+      "candidateCaseId": "m910-naming-data:慈:56151:0:2",
+      "reviewId": "M923-use-review-05-56151-0-2",
+      "char": "慈",
+      "sourceQualification": {
+        "selectedPinyin": "cí",
+        "tone": 2,
+        "senseId": "moe-revised:56151:0:2",
+        "namePart": "given-name",
+        "familySelection": {
+          "familyId": "naming-semantic-m921",
+          "sourceId": "naming-semantic-admission-v72-M921-M923",
+          "publicationVersion": "m921-character-meaning-publication/1.0.0-m923.1",
+          "decisionVersion": "M923-DECISION/1",
+          "ruleVersion": "naming-editorial-7.2.0",
+          "enabled": true
+        },
+        "themeIds": []
+      },
+      "pool": {
+        "stage": "pool",
+        "requestedGivenNameLength": 1
+      },
+      "occurrence": {
+        "candidateId": "m923-runtime-acceptance-05",
+        "surname": "赵",
+        "givenName": "慈",
+        "fullName": "赵慈",
+        "position": 0,
+        "givenNameLength": 1
+      },
+      "expectedProject": {
+        "meaning": "取深笃的爱与关怀之意。",
+        "projectWish": null,
+        "limits": [
+          "关怀是项目主题，不规定孝亲、照护或性别角色。",
+          "不把名字作为善良事实或家庭义务的证明。",
+          "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+        ],
+        "attribution": "M923 independent project wording decision; dictionary text remains MOE",
+        "license": "CC0-1.0"
+      },
+      "sourcePolicyExpected": "eligible",
+      "existingConstraintOutcome": "must be computed by actual existing implementation, never forced true",
+      "saveRestorePrerequisite": "actual locally or AI-finalized producer receipt; if full-name hard constraints prevent this fixture, choose a valid real name containing the same char and record the change before running; never fake a receipt"
+    },
+    {
+      "candidateCaseId": "m910-naming-data:芳:122175:0:0",
+      "reviewId": "M923-use-review-06-122175-0-0",
+      "char": "芳",
+      "sourceQualification": {
+        "selectedPinyin": "fāng",
+        "tone": 1,
+        "senseId": "moe-revised:122175:0:0",
+        "namePart": "given-name",
+        "familySelection": {
+          "familyId": "naming-semantic-m921",
+          "sourceId": "naming-semantic-admission-v72-M921-M923",
+          "publicationVersion": "m921-character-meaning-publication/1.0.0-m923.1",
+          "decisionVersion": "M923-DECISION/1",
+          "ruleVersion": "naming-editorial-7.2.0",
+          "enabled": true
+        },
+        "themeIds": []
+      },
+      "pool": {
+        "stage": "pool",
+        "requestedGivenNameLength": 1
+      },
+      "occurrence": {
+        "candidateId": "m923-runtime-acceptance-06",
+        "surname": "赵",
+        "givenName": "芳",
+        "fullName": "赵芳",
+        "position": 0,
+        "givenNameLength": 1
+      },
+      "expectedProject": {
+        "meaning": "取花草香气这一具体自然意象。",
+        "projectWish": null,
+        "limits": [
+          "只取花草香气，不借美德、声誉或敬称义。",
+          "自然意象不推导外貌、性别或社会评价。",
+          "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+        ],
+        "attribution": "M923 independent project wording decision; dictionary text remains MOE",
+        "license": "CC0-1.0"
+      },
+      "sourcePolicyExpected": "eligible",
+      "existingConstraintOutcome": "must be computed by actual existing implementation, never forced true",
+      "saveRestorePrerequisite": "actual locally or AI-finalized producer receipt; if full-name hard constraints prevent this fixture, choose a valid real name containing the same char and record the change before running; never fake a receipt"
+    },
+    {
+      "candidateCaseId": "m910-naming-data:枫:77587:0:0",
+      "reviewId": "M923-use-review-07-77587-0-0",
+      "char": "枫",
+      "sourceQualification": {
+        "selectedPinyin": "fēng",
+        "tone": 1,
+        "senseId": "moe-revised:77587:0:0",
+        "namePart": "given-name",
+        "familySelection": {
+          "familyId": "naming-semantic-m921",
+          "sourceId": "naming-semantic-admission-v72-M921-M923",
+          "publicationVersion": "m921-character-meaning-publication/1.0.0-m923.1",
+          "decisionVersion": "M923-DECISION/1",
+          "ruleVersion": "naming-editorial-7.2.0",
+          "enabled": true
+        },
+        "themeIds": []
+      },
+      "pool": {
+        "stage": "pool",
+        "requestedGivenNameLength": 1
+      },
+      "occurrence": {
+        "candidateId": "m923-runtime-acceptance-07",
+        "surname": "赵",
+        "givenName": "枫",
+        "fullName": "赵枫",
+        "position": 0,
+        "givenNameLength": 1
+      },
+      "expectedProject": {
+        "meaning": "取楓香属落叶乔木及其秋日叶色的植物意象。",
+        "projectWish": null,
+        "limits": [
+          "原条是植物学描述，不从树木推导坚强、长寿或人格。",
+          "秋叶审美属于项目文化标签，不作传统五行结论。",
+          "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+        ],
+        "attribution": "M923 independent project wording decision; dictionary text remains MOE",
+        "license": "CC0-1.0"
+      },
+      "sourcePolicyExpected": "eligible",
+      "existingConstraintOutcome": "must be computed by actual existing implementation, never forced true",
+      "saveRestorePrerequisite": "actual locally or AI-finalized producer receipt; if full-name hard constraints prevent this fixture, choose a valid real name containing the same char and record the change before running; never fake a receipt"
+    },
+    {
+      "candidateCaseId": "m910-naming-data:福:106369:0:0",
+      "reviewId": "M923-use-review-08-106369-0-0",
+      "char": "福",
+      "sourceQualification": {
+        "selectedPinyin": "fú",
+        "tone": 2,
+        "senseId": "moe-revised:106369:0:0",
+        "namePart": "given-name",
+        "familySelection": {
+          "familyId": "naming-semantic-m921",
+          "sourceId": "naming-semantic-admission-v72-M921-M923",
+          "publicationVersion": "m921-character-meaning-publication/1.0.0-m923.1",
+          "decisionVersion": "M923-DECISION/1",
+          "ruleVersion": "naming-editorial-7.2.0",
+          "enabled": true
+        },
+        "themeIds": []
+      },
+      "pool": {
+        "stage": "pool",
+        "requestedGivenNameLength": 1
+      },
+      "occurrence": {
+        "candidateId": "m923-runtime-acceptance-08",
+        "surname": "赵",
+        "givenName": "福",
+        "fullName": "赵福",
+        "position": 0,
+        "givenNameLength": 1
+      },
+      "expectedProject": {
+        "meaning": "取泛称吉祥幸运之事的文化祝愿意象。",
+        "projectWish": null,
+        "limits": [
+          "保留原条富贵寿考与吉祥幸运的词典语境，不把它变成现实承诺。",
+          "不据此预测财富、健康、寿命或运气。",
+          "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+        ],
+        "attribution": "M923 independent project wording decision; dictionary text remains MOE",
+        "license": "CC0-1.0"
+      },
+      "sourcePolicyExpected": "eligible",
+      "existingConstraintOutcome": "must be computed by actual existing implementation, never forced true",
+      "saveRestorePrerequisite": "actual locally or AI-finalized producer receipt; if full-name hard constraints prevent this fixture, choose a valid real name containing the same char and record the change before running; never fake a receipt"
+    },
+    {
+      "candidateCaseId": "m910-naming-data:涵:86829:0:2",
+      "reviewId": "M923-use-review-09-86829-0-2",
+      "char": "涵",
+      "sourceQualification": {
+        "selectedPinyin": "hán",
+        "tone": 2,
+        "senseId": "moe-revised:86829:0:2",
+        "namePart": "given-name",
+        "familySelection": {
+          "familyId": "naming-semantic-m921",
+          "sourceId": "naming-semantic-admission-v72-M921-M923",
+          "publicationVersion": "m921-character-meaning-publication/1.0.0-m923.1",
+          "decisionVersion": "M923-DECISION/1",
+          "ruleVersion": "naming-editorial-7.2.0",
+          "enabled": true
+        },
+        "themeIds": []
+      },
+      "pool": {
+        "stage": "pool",
+        "requestedGivenNameLength": 1
+      },
+      "occurrence": {
+        "candidateId": "m923-runtime-acceptance-09",
+        "surname": "赵",
+        "givenName": "涵",
+        "fullName": "赵涵",
+        "position": 0,
+        "givenNameLength": 1
+      },
+      "expectedProject": {
+        "meaning": "取包容、容纳这一关系与空间意象。",
+        "projectWish": null,
+        "limits": [
+          "包容是项目解释，不证明现实中的性格或处理能力。",
+          "不把容纳解释为无条件承受、牺牲或没有边界。",
+          "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+        ],
+        "attribution": "M923 independent project wording decision; dictionary text remains MOE",
+        "license": "CC0-1.0"
+      },
+      "sourcePolicyExpected": "eligible",
+      "existingConstraintOutcome": "must be computed by actual existing implementation, never forced true",
+      "saveRestorePrerequisite": "actual locally or AI-finalized producer receipt; if full-name hard constraints prevent this fixture, choose a valid real name containing the same char and record the change before running; never fake a receipt"
+    },
+    {
+      "candidateCaseId": "m910-naming-data:昊:70453:0:0",
+      "reviewId": "M923-use-review-10-70453-0-0",
+      "char": "昊",
+      "sourceQualification": {
+        "selectedPinyin": "hào",
+        "tone": 4,
+        "senseId": "moe-revised:70453:0:0",
+        "namePart": "given-name",
+        "familySelection": {
+          "familyId": "naming-semantic-m921",
+          "sourceId": "naming-semantic-admission-v72-M921-M923",
+          "publicationVersion": "m921-character-meaning-publication/1.0.0-m923.1",
+          "decisionVersion": "M923-DECISION/1",
+          "ruleVersion": "naming-editorial-7.2.0",
+          "enabled": true
+        },
+        "themeIds": []
+      },
+      "pool": {
+        "stage": "pool",
+        "requestedGivenNameLength": 1
+      },
+      "occurrence": {
+        "candidateId": "m923-runtime-acceptance-10",
+        "surname": "赵",
+        "givenName": "昊",
+        "fullName": "赵昊",
+        "position": 0,
+        "givenNameLength": 1
+      },
+      "expectedProject": {
+        "meaning": "取广大无边际的天空意象。",
+        "projectWish": null,
+        "limits": [
+          "天空意象不等同伟大、地位或能力保证。",
+          "不据此推断人生格局、成就或传统五行。",
+          "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+        ],
+        "attribution": "M923 independent project wording decision; dictionary text remains MOE",
+        "license": "CC0-1.0"
+      },
+      "sourcePolicyExpected": "eligible",
+      "existingConstraintOutcome": "must be computed by actual existing implementation, never forced true",
+      "saveRestorePrerequisite": "actual locally or AI-finalized producer receipt; if full-name hard constraints prevent this fixture, choose a valid real name containing the same char and record the change before running; never fake a receipt"
+    },
+    {
+      "candidateCaseId": "m910-naming-data:泓:84419:0:0",
+      "reviewId": "M923-use-review-11-84419-0-0",
+      "char": "泓",
+      "sourceQualification": {
+        "selectedPinyin": "hóng",
+        "tone": 2,
+        "senseId": "moe-revised:84419:0:0",
+        "namePart": "given-name",
+        "familySelection": {
+          "familyId": "naming-semantic-m921",
+          "sourceId": "naming-semantic-admission-v72-M921-M923",
+          "publicationVersion": "m921-character-meaning-publication/1.0.0-m923.1",
+          "decisionVersion": "M923-DECISION/1",
+          "ruleVersion": "naming-editorial-7.2.0",
+          "enabled": true
+        },
+        "themeIds": []
+      },
+      "pool": {
+        "stage": "pool",
+        "requestedGivenNameLength": 1
+      },
+      "occurrence": {
+        "candidateId": "m923-runtime-acceptance-11",
+        "surname": "赵",
+        "givenName": "泓",
+        "fullName": "赵泓",
+        "position": 0,
+        "givenNameLength": 1
+      },
+      "expectedProject": {
+        "meaning": "取水深广的自然意象。",
+        "projectWish": null,
+        "limits": [
+          "原义是形态描述，不把水意象转成人格深度或命运。",
+          "五行字段仅为项目文化标签，不作传统五行定论。",
+          "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+        ],
+        "attribution": "M923 independent project wording decision; dictionary text remains MOE",
+        "license": "CC0-1.0"
+      },
+      "sourcePolicyExpected": "eligible",
+      "existingConstraintOutcome": "must be computed by actual existing implementation, never forced true",
+      "saveRestorePrerequisite": "actual locally or AI-finalized producer receipt; if full-name hard constraints prevent this fixture, choose a valid real name containing the same char and record the change before running; never fake a receipt"
+    },
+    {
+      "candidateCaseId": "m910-naming-data:嘉:30135:0:0",
+      "reviewId": "M923-use-review-12-30135-0-0",
+      "char": "嘉",
+      "sourceQualification": {
+        "selectedPinyin": "jiā",
+        "tone": 1,
+        "senseId": "moe-revised:30135:0:0",
+        "namePart": "given-name",
+        "familySelection": {
+          "familyId": "naming-semantic-m921",
+          "sourceId": "naming-semantic-admission-v72-M921-M923",
+          "publicationVersion": "m921-character-meaning-publication/1.0.0-m923.1",
+          "decisionVersion": "M923-DECISION/1",
+          "ruleVersion": "naming-editorial-7.2.0",
+          "enabled": true
+        },
+        "themeIds": []
+      },
+      "pool": {
+        "stage": "pool",
+        "requestedGivenNameLength": 1
+      },
+      "occurrence": {
+        "candidateId": "m923-runtime-acceptance-12",
+        "surname": "赵",
+        "givenName": "嘉",
+        "fullName": "赵嘉",
+        "position": 0,
+        "givenNameLength": 1
+      },
+      "expectedProject": {
+        "meaning": "取美好这一直接形容义。",
+        "projectWish": null,
+        "limits": [
+          "美好是原字形容义与项目愿望，不证明社会认可或品格完成。",
+          "不把名字转写成地位、成绩或吉凶预测。",
+          "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+        ],
+        "attribution": "M923 independent project wording decision; dictionary text remains MOE",
+        "license": "CC0-1.0"
+      },
+      "sourcePolicyExpected": "eligible",
+      "existingConstraintOutcome": "must be computed by actual existing implementation, never forced true",
+      "saveRestorePrerequisite": "actual locally or AI-finalized producer receipt; if full-name hard constraints prevent this fixture, choose a valid real name containing the same char and record the change before running; never fake a receipt"
+    },
+    {
+      "candidateCaseId": "m910-naming-data:朗:73745:0:0",
+      "reviewId": "M923-use-review-13-73745-0-0",
+      "char": "朗",
+      "sourceQualification": {
+        "selectedPinyin": "lǎng",
+        "tone": 3,
+        "senseId": "moe-revised:73745:0:0",
+        "namePart": "given-name",
+        "familySelection": {
+          "familyId": "naming-semantic-m921",
+          "sourceId": "naming-semantic-admission-v72-M921-M923",
+          "publicationVersion": "m921-character-meaning-publication/1.0.0-m923.1",
+          "decisionVersion": "M923-DECISION/1",
+          "ruleVersion": "naming-editorial-7.2.0",
+          "enabled": true
+        },
+        "themeIds": []
+      },
+      "pool": {
+        "stage": "pool",
+        "requestedGivenNameLength": 1
+      },
+      "occurrence": {
+        "candidateId": "m923-runtime-acceptance-13",
+        "surname": "赵",
+        "givenName": "朗",
+        "fullName": "赵朗",
+        "position": 0,
+        "givenNameLength": 1
+      },
+      "expectedProject": {
+        "meaning": "取明亮这一光线与状态意象。",
+        "projectWish": null,
+        "limits": [
+          "只取明亮义，不把它扩写为乐观、外向或前程保证。",
+          "光线意象不作人格测定。",
+          "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+        ],
+        "attribution": "M923 independent project wording decision; dictionary text remains MOE",
+        "license": "CC0-1.0"
+      },
+      "sourcePolicyExpected": "eligible",
+      "existingConstraintOutcome": "must be computed by actual existing implementation, never forced true",
+      "saveRestorePrerequisite": "actual locally or AI-finalized producer receipt; if full-name hard constraints prevent this fixture, choose a valid real name containing the same char and record the change before running; never fake a receipt"
+    },
+    {
+      "candidateCaseId": "m910-naming-data:宁:43912:0:0",
+      "reviewId": "M923-use-review-14-43912-0-0",
+      "char": "宁",
+      "sourceQualification": {
+        "selectedPinyin": "níng",
+        "tone": 2,
+        "senseId": "moe-revised:43912:0:0",
+        "namePart": "given-name",
+        "familySelection": {
+          "familyId": "naming-semantic-m921",
+          "sourceId": "naming-semantic-admission-v72-M921-M923",
+          "publicationVersion": "m921-character-meaning-publication/1.0.0-m923.1",
+          "decisionVersion": "M923-DECISION/1",
+          "ruleVersion": "naming-editorial-7.2.0",
+          "enabled": true
+        },
+        "themeIds": []
+      },
+      "pool": {
+        "stage": "pool",
+        "requestedGivenNameLength": 1
+      },
+      "occurrence": {
+        "candidateId": "m923-runtime-acceptance-14",
+        "surname": "赵",
+        "givenName": "宁",
+        "fullName": "赵宁",
+        "position": 0,
+        "givenNameLength": 1
+      },
+      "expectedProject": {
+        "meaning": "取安定这一状态之意。",
+        "projectWish": null,
+        "limits": [
+          "固定寧níng/安定义，区别宁愿及其他读音。",
+          "不把安定解释成没有风险、冲突或变化的人生保证。",
+          "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+        ],
+        "attribution": "M923 independent project wording decision; dictionary text remains MOE",
+        "license": "CC0-1.0"
+      },
+      "sourcePolicyExpected": "eligible",
+      "existingConstraintOutcome": "must be computed by actual existing implementation, never forced true",
+      "saveRestorePrerequisite": "actual locally or AI-finalized producer receipt; if full-name hard constraints prevent this fixture, choose a valid real name containing the same char and record the change before running; never fake a receipt"
+    },
+    {
+      "candidateCaseId": "m910-naming-data:霖:152818:0:0",
+      "reviewId": "M923-use-review-15-152818-0-0",
+      "char": "霖",
+      "sourceQualification": {
+        "selectedPinyin": "lín",
+        "tone": 2,
+        "senseId": "moe-revised:152818:0:0",
+        "namePart": "given-name",
+        "familySelection": {
+          "familyId": "naming-semantic-m921",
+          "sourceId": "naming-semantic-admission-v72-M921-M923",
+          "publicationVersion": "m921-character-meaning-publication/1.0.0-m923.1",
+          "decisionVersion": "M923-DECISION/1",
+          "ruleVersion": "naming-editorial-7.2.0",
+          "enabled": true
+        },
+        "themeIds": []
+      },
+      "pool": {
+        "stage": "pool",
+        "requestedGivenNameLength": 1
+      },
+      "occurrence": {
+        "candidateId": "m923-runtime-acceptance-15",
+        "surname": "赵",
+        "givenName": "霖",
+        "fullName": "赵霖",
+        "position": 0,
+        "givenNameLength": 1
+      },
+      "expectedProject": {
+        "meaning": "取连续下三天以上的雨这一自然现象意象。",
+        "projectWish": null,
+        "limits": [
+          "原义是持续降雨的名称，不把甘霖自动等同救济、财富或好运。",
+          "不作天气、健康或人生结果预测。",
+          "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+        ],
+        "attribution": "M923 independent project wording decision; dictionary text remains MOE",
+        "license": "CC0-1.0"
+      },
+      "sourcePolicyExpected": "eligible",
+      "existingConstraintOutcome": "must be computed by actual existing implementation, never forced true",
+      "saveRestorePrerequisite": "actual locally or AI-finalized producer receipt; if full-name hard constraints prevent this fixture, choose a valid real name containing the same char and record the change before running; never fake a receipt"
+    },
+    {
+      "candidateCaseId": "m910-naming-data:昭:71207:0:0",
+      "reviewId": "M923-use-review-16-71207-0-0",
+      "char": "昭",
+      "sourceQualification": {
+        "selectedPinyin": "zhāo",
+        "tone": 1,
+        "senseId": "moe-revised:71207:0:0",
+        "namePart": "given-name",
+        "familySelection": {
+          "familyId": "naming-semantic-m921",
+          "sourceId": "naming-semantic-admission-v72-M921-M923",
+          "publicationVersion": "m921-character-meaning-publication/1.0.0-m923.1",
+          "decisionVersion": "M923-DECISION/1",
+          "ruleVersion": "naming-editorial-7.2.0",
+          "enabled": true
+        },
+        "themeIds": []
+      },
+      "pool": {
+        "stage": "pool",
+        "requestedGivenNameLength": 1
+      },
+      "occurrence": {
+        "candidateId": "m923-runtime-acceptance-16",
+        "surname": "赵",
+        "givenName": "昭",
+        "fullName": "赵昭",
+        "position": 0,
+        "givenNameLength": 1
+      },
+      "expectedProject": {
+        "meaning": "取明亮、光明这一直接形容义。",
+        "projectWish": null,
+        "limits": [
+          "光明是文化意象，不预测名望、显达或人生结局。",
+          "不混入宗庙次序、显扬等其他义项。",
+          "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+        ],
+        "attribution": "M923 independent project wording decision; dictionary text remains MOE",
+        "license": "CC0-1.0"
+      },
+      "sourcePolicyExpected": "eligible",
+      "existingConstraintOutcome": "must be computed by actual existing implementation, never forced true",
+      "saveRestorePrerequisite": "actual locally or AI-finalized producer receipt; if full-name hard constraints prevent this fixture, choose a valid real name containing the same char and record the change before running; never fake a receipt"
+    },
+    {
+      "candidateCaseId": "m910-naming-data:秋:106848:0:0",
+      "reviewId": "M923-use-review-17-106848-0-0",
+      "char": "秋",
+      "sourceQualification": {
+        "selectedPinyin": "qiū",
+        "tone": 1,
+        "senseId": "moe-revised:106848:0:0",
+        "namePart": "given-name",
+        "familySelection": {
+          "familyId": "naming-semantic-m921",
+          "sourceId": "naming-semantic-admission-v72-M921-M923",
+          "publicationVersion": "m921-character-meaning-publication/1.0.0-m923.1",
+          "decisionVersion": "M923-DECISION/1",
+          "ruleVersion": "naming-editorial-7.2.0",
+          "enabled": true
+        },
+        "themeIds": []
+      },
+      "pool": {
+        "stage": "pool",
+        "requestedGivenNameLength": 1
+      },
+      "occurrence": {
+        "candidateId": "m923-runtime-acceptance-17",
+        "surname": "赵",
+        "givenName": "秋",
+        "fullName": "赵秋",
+        "position": 0,
+        "givenNameLength": 1
+      },
+      "expectedProject": {
+        "meaning": "取一年四季中的第三季这一时间与自然意象。",
+        "projectWish": null,
+        "limits": [
+          "只取季节义，不把秋解释为衰败、忧愁或命运信号。",
+          "时间意象不替代完整姓名的语境审查。",
+          "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+        ],
+        "attribution": "M923 independent project wording decision; dictionary text remains MOE",
+        "license": "CC0-1.0"
+      },
+      "sourcePolicyExpected": "eligible",
+      "existingConstraintOutcome": "must be computed by actual existing implementation, never forced true",
+      "saveRestorePrerequisite": "actual locally or AI-finalized producer receipt; if full-name hard constraints prevent this fixture, choose a valid real name containing the same char and record the change before running; never fake a receipt"
+    },
+    {
+      "candidateCaseId": "m910-naming-data:松:75337:0:0",
+      "reviewId": "M923-use-review-18-75337-0-0",
+      "char": "松",
+      "sourceQualification": {
+        "selectedPinyin": "sōng",
+        "tone": 1,
+        "senseId": "moe-revised:75337:0:0",
+        "namePart": "given-name",
+        "familySelection": {
+          "familyId": "naming-semantic-m921",
+          "sourceId": "naming-semantic-admission-v72-M921-M923",
+          "publicationVersion": "m921-character-meaning-publication/1.0.0-m923.1",
+          "decisionVersion": "M923-DECISION/1",
+          "ruleVersion": "naming-editorial-7.2.0",
+          "enabled": true
+        },
+        "themeIds": []
+      },
+      "pool": {
+        "stage": "pool",
+        "requestedGivenNameLength": 1
+      },
+      "occurrence": {
+        "candidateId": "m923-runtime-acceptance-18",
+        "surname": "赵",
+        "givenName": "松",
+        "fullName": "赵松",
+        "position": 0,
+        "givenNameLength": 1
+      },
+      "expectedProject": {
+        "meaning": "取松科常绿乔木的自然器物意象。",
+        "projectWish": null,
+        "limits": [
+          "原条是植物描述，不直接推导坚强、长寿或品格。",
+          "不把常绿解释成健康、寿命或成功保证。",
+          "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+        ],
+        "attribution": "M923 independent project wording decision; dictionary text remains MOE",
+        "license": "CC0-1.0"
+      },
+      "sourcePolicyExpected": "eligible",
+      "existingConstraintOutcome": "must be computed by actual existing implementation, never forced true",
+      "saveRestorePrerequisite": "actual locally or AI-finalized producer receipt; if full-name hard constraints prevent this fixture, choose a valid real name containing the same char and record the change before running; never fake a receipt"
+    },
+    {
+      "candidateCaseId": "m910-naming-data:哲:28713:0:0",
+      "reviewId": "M923-use-review-19-28713-0-0",
+      "char": "哲",
+      "sourceQualification": {
+        "selectedPinyin": "zhé",
+        "tone": 2,
+        "senseId": "moe-revised:28713:0:0",
+        "namePart": "given-name",
+        "familySelection": {
+          "familyId": "naming-semantic-m921",
+          "sourceId": "naming-semantic-admission-v72-M921-M923",
+          "publicationVersion": "m921-character-meaning-publication/1.0.0-m923.1",
+          "decisionVersion": "M923-DECISION/1",
+          "ruleVersion": "naming-editorial-7.2.0",
+          "enabled": true
+        },
+        "themeIds": []
+      },
+      "pool": {
+        "stage": "pool",
+        "requestedGivenNameLength": 1
+      },
+      "occurrence": {
+        "candidateId": "m923-runtime-acceptance-19",
+        "surname": "赵",
+        "givenName": "哲",
+        "fullName": "赵哲",
+        "position": 0,
+        "givenNameLength": 1
+      },
+      "expectedProject": {
+        "meaning": "取明智这一认识与思考意象。",
+        "projectWish": null,
+        "limits": [
+          "明智是词典义与项目愿望，不预测智力、学历或成绩。",
+          "不把名字作为现实能力、社会地位或道德判断。",
+          "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+        ],
+        "attribution": "M923 independent project wording decision; dictionary text remains MOE",
+        "license": "CC0-1.0"
+      },
+      "sourcePolicyExpected": "eligible",
+      "existingConstraintOutcome": "must be computed by actual existing implementation, never forced true",
+      "saveRestorePrerequisite": "actual locally or AI-finalized producer receipt; if full-name hard constraints prevent this fixture, choose a valid real name containing the same char and record the change before running; never fake a receipt"
+    },
+    {
+      "candidateCaseId": "m910-naming-data:瑞:96869:0:2",
+      "reviewId": "M923-use-review-20-96869-0-2",
+      "char": "瑞",
+      "sourceQualification": {
+        "selectedPinyin": "ruì",
+        "tone": 4,
+        "senseId": "moe-revised:96869:0:2",
+        "namePart": "given-name",
+        "familySelection": {
+          "familyId": "naming-semantic-m921",
+          "sourceId": "naming-semantic-admission-v72-M921-M923",
+          "publicationVersion": "m921-character-meaning-publication/1.0.0-m923.1",
+          "decisionVersion": "M923-DECISION/1",
+          "ruleVersion": "naming-editorial-7.2.0",
+          "enabled": true
+        },
+        "themeIds": []
+      },
+      "pool": {
+        "stage": "pool",
+        "requestedGivenNameLength": 1
+      },
+      "occurrence": {
+        "candidateId": "m923-runtime-acceptance-20",
+        "surname": "赵",
+        "givenName": "瑞",
+        "fullName": "赵瑞",
+        "position": 0,
+        "givenNameLength": 1
+      },
+      "expectedProject": {
+        "meaning": "取吉祥的文化祝愿意象。",
+        "projectWish": null,
+        "limits": [
+          "固定瑞ruì/吉祥的义，不把祥瑞当作占卜结果。",
+          "不承诺健康、财富、婚姻、寿命或其他人生结果。",
+          "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+        ],
+        "attribution": "M923 independent project wording decision; dictionary text remains MOE",
+        "license": "CC0-1.0"
+      },
+      "sourcePolicyExpected": "eligible",
+      "existingConstraintOutcome": "must be computed by actual existing implementation, never forced true",
+      "saveRestorePrerequisite": "actual locally or AI-finalized producer receipt; if full-name hard constraints prevent this fixture, choose a valid real name containing the same char and record the change before running; never fake a receipt"
+    },
+    {
+      "candidateCaseId": "m914-naming-data:博:23625:0:0",
+      "reviewId": "M923-use-review-21-23625-0-0",
+      "char": "博",
+      "sourceQualification": {
+        "selectedPinyin": "bó",
+        "tone": 2,
+        "senseId": "moe-revised:23625:0:0",
+        "namePart": "given-name",
+        "familySelection": {
+          "familyId": "naming-semantic-m921",
+          "sourceId": "naming-semantic-admission-v72-M921-M923",
+          "publicationVersion": "m921-character-meaning-publication/1.0.0-m923.1",
+          "decisionVersion": "M923-DECISION/1",
+          "ruleVersion": "naming-editorial-7.2.0",
+          "enabled": true
+        },
+        "themeIds": []
+      },
+      "pool": {
+        "stage": "pool",
+        "requestedGivenNameLength": 1
+      },
+      "occurrence": {
+        "candidateId": "m923-runtime-acceptance-21",
+        "surname": "赵",
+        "givenName": "博",
+        "fullName": "赵博",
+        "position": 0,
+        "givenNameLength": 1
+      },
+      "expectedProject": {
+        "meaning": "取广大、众多的开阔意象。",
+        "projectWish": null,
+        "limits": [
+          "只取广大、众多义，不推导学历、见识或成就。",
+          "项目愿望不构成能力、地位或人生结果承诺。",
+          "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+        ],
+        "attribution": "M923 independent project wording decision; dictionary text remains MOE",
+        "license": "CC0-1.0"
+      },
+      "sourcePolicyExpected": "eligible",
+      "existingConstraintOutcome": "must be computed by actual existing implementation, never forced true",
+      "saveRestorePrerequisite": "actual locally or AI-finalized producer receipt; if full-name hard constraints prevent this fixture, choose a valid real name containing the same char and record the change before running; never fake a receipt"
+    },
+    {
+      "candidateCaseId": "m914-naming-data:灿:93360:0:0",
+      "reviewId": "M923-use-review-22-93360-0-0",
+      "char": "灿",
+      "sourceQualification": {
+        "selectedPinyin": "càn",
+        "tone": 4,
+        "senseId": "moe-revised:93360:0:0",
+        "namePart": "given-name",
+        "familySelection": {
+          "familyId": "naming-semantic-m921",
+          "sourceId": "naming-semantic-admission-v72-M921-M923",
+          "publicationVersion": "m921-character-meaning-publication/1.0.0-m923.1",
+          "decisionVersion": "M923-DECISION/1",
+          "ruleVersion": "naming-editorial-7.2.0",
+          "enabled": true
+        },
+        "themeIds": []
+      },
+      "pool": {
+        "stage": "pool",
+        "requestedGivenNameLength": 1
+      },
+      "occurrence": {
+        "candidateId": "m923-runtime-acceptance-22",
+        "surname": "赵",
+        "givenName": "灿",
+        "fullName": "赵灿",
+        "position": 0,
+        "givenNameLength": 1
+      },
+      "expectedProject": {
+        "meaning": "取光彩鲜明、耀眼的光亮意象。",
+        "projectWish": null,
+        "limits": [
+          "只取光彩鲜明义，不推导外貌、名望或成功。",
+          "光亮是项目文化标签，不作命运判断。",
+          "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+        ],
+        "attribution": "M923 independent project wording decision; dictionary text remains MOE",
+        "license": "CC0-1.0"
+      },
+      "sourcePolicyExpected": "eligible",
+      "existingConstraintOutcome": "must be computed by actual existing implementation, never forced true",
+      "saveRestorePrerequisite": "actual locally or AI-finalized producer receipt; if full-name hard constraints prevent this fixture, choose a valid real name containing the same char and record the change before running; never fake a receipt"
+    },
+    {
+      "candidateCaseId": "m914-naming-data:长:147806:0:1",
+      "reviewId": "M923-use-review-23-147806-0-1",
+      "char": "长",
+      "sourceQualification": {
+        "selectedPinyin": "cháng",
+        "tone": 2,
+        "senseId": "moe-revised:147806:0:1",
+        "namePart": "given-name",
+        "familySelection": {
+          "familyId": "naming-semantic-m921",
+          "sourceId": "naming-semantic-admission-v72-M921-M923",
+          "publicationVersion": "m921-character-meaning-publication/1.0.0-m923.1",
+          "decisionVersion": "M923-DECISION/1",
+          "ruleVersion": "naming-editorial-7.2.0",
+          "enabled": true
+        },
+        "themeIds": []
+      },
+      "pool": {
+        "stage": "pool",
+        "requestedGivenNameLength": 1
+      },
+      "occurrence": {
+        "candidateId": "m923-runtime-acceptance-23",
+        "surname": "赵",
+        "givenName": "长",
+        "fullName": "赵长",
+        "position": 0,
+        "givenNameLength": 1
+      },
+      "expectedProject": {
+        "meaning": "取优点、长处这一能力与特质的词典义。",
+        "projectWish": null,
+        "limits": [
+          "只取长处义，不把名字当作能力已经实现的证明。",
+          "不据此推定竞争力、成绩或社会评价。",
+          "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+        ],
+        "attribution": "M923 independent project wording decision; dictionary text remains MOE",
+        "license": "CC0-1.0"
+      },
+      "sourcePolicyExpected": "eligible",
+      "existingConstraintOutcome": "must be computed by actual existing implementation, never forced true",
+      "saveRestorePrerequisite": "actual locally or AI-finalized producer receipt; if full-name hard constraints prevent this fixture, choose a valid real name containing the same char and record the change before running; never fake a receipt"
+    },
+    {
+      "candidateCaseId": "m914-naming-data:宸:43152:0:1",
+      "reviewId": "M923-use-review-24-43152-0-1",
+      "char": "宸",
+      "sourceQualification": {
+        "selectedPinyin": "chén",
+        "tone": 2,
+        "senseId": "moe-revised:43152:0:1",
+        "namePart": "given-name",
+        "familySelection": {
+          "familyId": "naming-semantic-m921",
+          "sourceId": "naming-semantic-admission-v72-M921-M923",
+          "publicationVersion": "m921-character-meaning-publication/1.0.0-m923.1",
+          "decisionVersion": "M923-DECISION/1",
+          "ruleVersion": "naming-editorial-7.2.0",
+          "enabled": true
+        },
+        "themeIds": []
+      },
+      "pool": {
+        "stage": "pool",
+        "requestedGivenNameLength": 1
+      },
+      "occurrence": {
+        "candidateId": "m923-runtime-acceptance-24",
+        "surname": "赵",
+        "givenName": "宸",
+        "fullName": "赵宸",
+        "position": 0,
+        "givenNameLength": 1
+      },
+      "expectedProject": {
+        "meaning": "取幽深房室的空间意象。",
+        "projectWish": null,
+        "limits": [
+          "固定幽深房室义，不借帝王居处或帝王借指义。",
+          "不推导尊贵、权力或身份。",
+          "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+        ],
+        "attribution": "M923 independent project wording decision; dictionary text remains MOE",
+        "license": "CC0-1.0"
+      },
+      "sourcePolicyExpected": "eligible",
+      "existingConstraintOutcome": "must be computed by actual existing implementation, never forced true",
+      "saveRestorePrerequisite": "actual locally or AI-finalized producer receipt; if full-name hard constraints prevent this fixture, choose a valid real name containing the same char and record the change before running; never fake a receipt"
+    },
+    {
+      "candidateCaseId": "m914-naming-data:成:57344:0:0",
+      "reviewId": "M923-use-review-25-57344-0-0",
+      "char": "成",
+      "sourceQualification": {
+        "selectedPinyin": "chéng",
+        "tone": 2,
+        "senseId": "moe-revised:57344:0:0",
+        "namePart": "given-name",
+        "familySelection": {
+          "familyId": "naming-semantic-m921",
+          "sourceId": "naming-semantic-admission-v72-M921-M923",
+          "publicationVersion": "m921-character-meaning-publication/1.0.0-m923.1",
+          "decisionVersion": "M923-DECISION/1",
+          "ruleVersion": "naming-editorial-7.2.0",
+          "enabled": true
+        },
+        "themeIds": []
+      },
+      "pool": {
+        "stage": "pool",
+        "requestedGivenNameLength": 1
+      },
+      "occurrence": {
+        "candidateId": "m923-runtime-acceptance-25",
+        "surname": "赵",
+        "givenName": "成",
+        "fullName": "赵成",
+        "position": 0,
+        "givenNameLength": 1
+      },
+      "expectedProject": {
+        "meaning": "取做好事情、完成行动的直接义。",
+        "projectWish": null,
+        "limits": [
+          "只取做好事情义，不承诺目标必然完成。",
+          "项目愿望不等同成绩、事业或成功保证。",
+          "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+        ],
+        "attribution": "M923 independent project wording decision; dictionary text remains MOE",
+        "license": "CC0-1.0"
+      },
+      "sourcePolicyExpected": "eligible",
+      "existingConstraintOutcome": "must be computed by actual existing implementation, never forced true",
+      "saveRestorePrerequisite": "actual locally or AI-finalized producer receipt; if full-name hard constraints prevent this fixture, choose a valid real name containing the same char and record the change before running; never fake a receipt"
+    },
+    {
+      "candidateCaseId": "m914-naming-data:城:33291:0:1",
+      "reviewId": "M923-use-review-26-33291-0-1",
+      "char": "城",
+      "sourceQualification": {
+        "selectedPinyin": "chéng",
+        "tone": 2,
+        "senseId": "moe-revised:33291:0:1",
+        "namePart": "given-name",
+        "familySelection": {
+          "familyId": "naming-semantic-m921",
+          "sourceId": "naming-semantic-admission-v72-M921-M923",
+          "publicationVersion": "m921-character-meaning-publication/1.0.0-m923.1",
+          "decisionVersion": "M923-DECISION/1",
+          "ruleVersion": "naming-editorial-7.2.0",
+          "enabled": true
+        },
+        "themeIds": []
+      },
+      "pool": {
+        "stage": "pool",
+        "requestedGivenNameLength": 1
+      },
+      "occurrence": {
+        "candidateId": "m923-runtime-acceptance-26",
+        "surname": "赵",
+        "givenName": "城",
+        "fullName": "赵城",
+        "position": 0,
+        "givenNameLength": 1
+      },
+      "expectedProject": {
+        "meaning": "取都市与公共生活空间的意象。",
+        "projectWish": null,
+        "limits": [
+          "固定都市义，不借姓氏、筑城或防守墙义。",
+          "不推导社会地位、归属结果或安全保证。",
+          "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+        ],
+        "attribution": "M923 independent project wording decision; dictionary text remains MOE",
+        "license": "CC0-1.0"
+      },
+      "sourcePolicyExpected": "eligible",
+      "existingConstraintOutcome": "must be computed by actual existing implementation, never forced true",
+      "saveRestorePrerequisite": "actual locally or AI-finalized producer receipt; if full-name hard constraints prevent this fixture, choose a valid real name containing the same char and record the change before running; never fake a receipt"
+    },
+    {
+      "candidateCaseId": "m914-naming-data:川:47214:0:0",
+      "reviewId": "M923-use-review-27-47214-0-0",
+      "char": "川",
+      "sourceQualification": {
+        "selectedPinyin": "chuān",
+        "tone": 1,
+        "senseId": "moe-revised:47214:0:0",
+        "namePart": "given-name",
+        "familySelection": {
+          "familyId": "naming-semantic-m921",
+          "sourceId": "naming-semantic-admission-v72-M921-M923",
+          "publicationVersion": "m921-character-meaning-publication/1.0.0-m923.1",
+          "decisionVersion": "M923-DECISION/1",
+          "ruleVersion": "naming-editorial-7.2.0",
+          "enabled": true
+        },
+        "themeIds": []
+      },
+      "pool": {
+        "stage": "pool",
+        "requestedGivenNameLength": 1
+      },
+      "occurrence": {
+        "candidateId": "m923-runtime-acceptance-27",
+        "surname": "赵",
+        "givenName": "川",
+        "fullName": "赵川",
+        "position": 0,
+        "givenNameLength": 1
+      },
+      "expectedProject": {
+        "meaning": "取河流的自然意象。",
+        "projectWish": null,
+        "limits": [
+          "只取河流义，不采用四川简称或烹饪义。",
+          "水意象是项目标签，不作传统五行定论。",
+          "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+        ],
+        "attribution": "M923 independent project wording decision; dictionary text remains MOE",
+        "license": "CC0-1.0"
+      },
+      "sourcePolicyExpected": "eligible",
+      "existingConstraintOutcome": "must be computed by actual existing implementation, never forced true",
+      "saveRestorePrerequisite": "actual locally or AI-finalized producer receipt; if full-name hard constraints prevent this fixture, choose a valid real name containing the same char and record the change before running; never fake a receipt"
+    },
+    {
+      "candidateCaseId": "m914-naming-data:淳:87393:0:1",
+      "reviewId": "M923-use-review-28-87393-0-1",
+      "char": "淳",
+      "sourceQualification": {
+        "selectedPinyin": "chún",
+        "tone": 2,
+        "senseId": "moe-revised:87393:0:1",
+        "namePart": "given-name",
+        "familySelection": {
+          "familyId": "naming-semantic-m921",
+          "sourceId": "naming-semantic-admission-v72-M921-M923",
+          "publicationVersion": "m921-character-meaning-publication/1.0.0-m923.1",
+          "decisionVersion": "M923-DECISION/1",
+          "ruleVersion": "naming-editorial-7.2.0",
+          "enabled": true
+        },
+        "themeIds": []
+      },
+      "pool": {
+        "stage": "pool",
+        "requestedGivenNameLength": 1
+      },
+      "occurrence": {
+        "candidateId": "m923-runtime-acceptance-28",
+        "surname": "赵",
+        "givenName": "淳",
+        "fullName": "赵淳",
+        "position": 0,
+        "givenNameLength": 1
+      },
+      "expectedProject": {
+        "meaning": "取笃厚、朴实的质感与处世意象。",
+        "projectWish": null,
+        "limits": [
+          "固定笃厚、朴实义，不把名字当作道德事实。",
+          "不推导性格、家教或他人评价。",
+          "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+        ],
+        "attribution": "M923 independent project wording decision; dictionary text remains MOE",
+        "license": "CC0-1.0"
+      },
+      "sourcePolicyExpected": "eligible",
+      "existingConstraintOutcome": "must be computed by actual existing implementation, never forced true",
+      "saveRestorePrerequisite": "actual locally or AI-finalized producer receipt; if full-name hard constraints prevent this fixture, choose a valid real name containing the same char and record the change before running; never fake a receipt"
+    },
+    {
+      "candidateCaseId": "m914-naming-data:达:142577:0:2",
+      "reviewId": "M923-use-review-29-142577-0-2",
+      "char": "达",
+      "sourceQualification": {
+        "selectedPinyin": "dá",
+        "tone": 2,
+        "senseId": "moe-revised:142577:0:2",
+        "namePart": "given-name",
+        "familySelection": {
+          "familyId": "naming-semantic-m921",
+          "sourceId": "naming-semantic-admission-v72-M921-M923",
+          "publicationVersion": "m921-character-meaning-publication/1.0.0-m923.1",
+          "decisionVersion": "M923-DECISION/1",
+          "ruleVersion": "naming-editorial-7.2.0",
+          "enabled": true
+        },
+        "themeIds": []
+      },
+      "pool": {
+        "stage": "pool",
+        "requestedGivenNameLength": 1
+      },
+      "occurrence": {
+        "candidateId": "m923-runtime-acceptance-29",
+        "surname": "赵",
+        "givenName": "达",
+        "fullName": "赵达",
+        "position": 0,
+        "givenNameLength": 1
+      },
+      "expectedProject": {
+        "meaning": "取实现、完成这一行动结果义。",
+        "projectWish": null,
+        "limits": [
+          "只取实现、完成义，不承诺事业、财富或愿望达成。",
+          "不借通行、显达等其他义项作保证。",
+          "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+        ],
+        "attribution": "M923 independent project wording decision; dictionary text remains MOE",
+        "license": "CC0-1.0"
+      },
+      "sourcePolicyExpected": "eligible",
+      "existingConstraintOutcome": "must be computed by actual existing implementation, never forced true",
+      "saveRestorePrerequisite": "actual locally or AI-finalized producer receipt; if full-name hard constraints prevent this fixture, choose a valid real name containing the same char and record the change before running; never fake a receipt"
+    },
+    {
+      "candidateCaseId": "m914-naming-data:德:52821:0:1",
+      "reviewId": "M923-use-review-30-52821-0-1",
+      "char": "德",
+      "sourceQualification": {
+        "selectedPinyin": "dé",
+        "tone": 2,
+        "senseId": "moe-revised:52821:0:1",
+        "namePart": "given-name",
+        "familySelection": {
+          "familyId": "naming-semantic-m921",
+          "sourceId": "naming-semantic-admission-v72-M921-M923",
+          "publicationVersion": "m921-character-meaning-publication/1.0.0-m923.1",
+          "decisionVersion": "M923-DECISION/1",
+          "ruleVersion": "naming-editorial-7.2.0",
+          "enabled": true
+        },
+        "themeIds": []
+      },
+      "pool": {
+        "stage": "pool",
+        "requestedGivenNameLength": 1
+      },
+      "occurrence": {
+        "candidateId": "m923-runtime-acceptance-30",
+        "surname": "赵",
+        "givenName": "德",
+        "fullName": "赵德",
+        "position": 0,
+        "givenNameLength": 1
+      },
+      "expectedProject": {
+        "meaning": "取品行、作风这一社会与自我实践意象。",
+        "projectWish": null,
+        "limits": [
+          "项目愿望不证明现实品行或道德优越。",
+          "不把名字转化为家庭义务、评价或命运。",
+          "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+        ],
+        "attribution": "M923 independent project wording decision; dictionary text remains MOE",
+        "license": "CC0-1.0"
+      },
+      "sourcePolicyExpected": "eligible",
+      "existingConstraintOutcome": "must be computed by actual existing implementation, never forced true",
+      "saveRestorePrerequisite": "actual locally or AI-finalized producer receipt; if full-name hard constraints prevent this fixture, choose a valid real name containing the same char and record the change before running; never fake a receipt"
+    },
+    {
+      "candidateCaseId": "m914-naming-data:冬:17795:0:0",
+      "reviewId": "M923-use-review-31-17795-0-0",
+      "char": "冬",
+      "sourceQualification": {
+        "selectedPinyin": "dōng",
+        "tone": 1,
+        "senseId": "moe-revised:17795:0:0",
+        "namePart": "given-name",
+        "familySelection": {
+          "familyId": "naming-semantic-m921",
+          "sourceId": "naming-semantic-admission-v72-M921-M923",
+          "publicationVersion": "m921-character-meaning-publication/1.0.0-m923.1",
+          "decisionVersion": "M923-DECISION/1",
+          "ruleVersion": "naming-editorial-7.2.0",
+          "enabled": true
+        },
+        "themeIds": []
+      },
+      "pool": {
+        "stage": "pool",
+        "requestedGivenNameLength": 1
+      },
+      "occurrence": {
+        "candidateId": "m923-runtime-acceptance-31",
+        "surname": "赵",
+        "givenName": "冬",
+        "fullName": "赵冬",
+        "position": 0,
+        "givenNameLength": 1
+      },
+      "expectedProject": {
+        "meaning": "取一年四季最后一季的时序与自然意象。",
+        "projectWish": null,
+        "limits": [
+          "只取季节义，不把冬解释为衰败、寒苦或命运信号。",
+          "不推导健康、性格或人生阶段。",
+          "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+        ],
+        "attribution": "M923 independent project wording decision; dictionary text remains MOE",
+        "license": "CC0-1.0"
+      },
+      "sourcePolicyExpected": "eligible",
+      "existingConstraintOutcome": "must be computed by actual existing implementation, never forced true",
+      "saveRestorePrerequisite": "actual locally or AI-finalized producer receipt; if full-name hard constraints prevent this fixture, choose a valid real name containing the same char and record the change before running; never fake a receipt"
+    },
+    {
+      "candidateCaseId": "m914-naming-data:端:108859:0:1",
+      "reviewId": "M923-use-review-32-108859-0-1",
+      "char": "端",
+      "sourceQualification": {
+        "selectedPinyin": "duān",
+        "tone": 1,
+        "senseId": "moe-revised:108859:0:1",
+        "namePart": "given-name",
+        "familySelection": {
+          "familyId": "naming-semantic-m921",
+          "sourceId": "naming-semantic-admission-v72-M921-M923",
+          "publicationVersion": "m921-character-meaning-publication/1.0.0-m923.1",
+          "decisionVersion": "M923-DECISION/1",
+          "ruleVersion": "naming-editorial-7.2.0",
+          "enabled": true
+        },
+        "themeIds": []
+      },
+      "pool": {
+        "stage": "pool",
+        "requestedGivenNameLength": 1
+      },
+      "occurrence": {
+        "candidateId": "m923-runtime-acceptance-32",
+        "surname": "赵",
+        "givenName": "端",
+        "fullName": "赵端",
+        "position": 0,
+        "givenNameLength": 1
+      },
+      "expectedProject": {
+        "meaning": "取事物起始、开端的时间与过程意象。",
+        "projectWish": null,
+        "limits": [
+          "固定起始义，不替代端正、端午等其他义项。",
+          "开始意象不保证过程或结果。",
+          "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+        ],
+        "attribution": "M923 independent project wording decision; dictionary text remains MOE",
+        "license": "CC0-1.0"
+      },
+      "sourcePolicyExpected": "eligible",
+      "existingConstraintOutcome": "must be computed by actual existing implementation, never forced true",
+      "saveRestorePrerequisite": "actual locally or AI-finalized producer receipt; if full-name hard constraints prevent this fixture, choose a valid real name containing the same char and record the change before running; never fake a receipt"
+    },
+    {
+      "candidateCaseId": "m914-naming-data:恩:54550:0:1",
+      "reviewId": "M923-use-review-33-54550-0-1",
+      "char": "恩",
+      "sourceQualification": {
+        "selectedPinyin": "ēn",
+        "tone": 1,
+        "senseId": "moe-revised:54550:0:1",
+        "namePart": "given-name",
+        "familySelection": {
+          "familyId": "naming-semantic-m921",
+          "sourceId": "naming-semantic-admission-v72-M921-M923",
+          "publicationVersion": "m921-character-meaning-publication/1.0.0-m923.1",
+          "decisionVersion": "M923-DECISION/1",
+          "ruleVersion": "naming-editorial-7.2.0",
+          "enabled": true
+        },
+        "themeIds": []
+      },
+      "pool": {
+        "stage": "pool",
+        "requestedGivenNameLength": 1
+      },
+      "occurrence": {
+        "candidateId": "m923-runtime-acceptance-33",
+        "surname": "赵",
+        "givenName": "恩",
+        "fullName": "赵恩",
+        "position": 0,
+        "givenNameLength": 1
+      },
+      "expectedProject": {
+        "meaning": "取情爱与关怀关系的意象。",
+        "projectWish": null,
+        "limits": [
+          "固定情爱义，不把名字变成孝亲、报恩或家庭义务。",
+          "不推导关系结果或道德评价。",
+          "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+        ],
+        "attribution": "M923 independent project wording decision; dictionary text remains MOE",
+        "license": "CC0-1.0"
+      },
+      "sourcePolicyExpected": "eligible",
+      "existingConstraintOutcome": "must be computed by actual existing implementation, never forced true",
+      "saveRestorePrerequisite": "actual locally or AI-finalized producer receipt; if full-name hard constraints prevent this fixture, choose a valid real name containing the same char and record the change before running; never fake a receipt"
+    },
+    {
+      "candidateCaseId": "m914-naming-data:方:69546:0:1",
+      "reviewId": "M923-use-review-34-69546-0-1",
+      "char": "方",
+      "sourceQualification": {
+        "selectedPinyin": "fāng",
+        "tone": 1,
+        "senseId": "moe-revised:69546:0:1",
+        "namePart": "given-name",
+        "familySelection": {
+          "familyId": "naming-semantic-m921",
+          "sourceId": "naming-semantic-admission-v72-M921-M923",
+          "publicationVersion": "m921-character-meaning-publication/1.0.0-m923.1",
+          "decisionVersion": "M923-DECISION/1",
+          "ruleVersion": "naming-editorial-7.2.0",
+          "enabled": true
+        },
+        "themeIds": []
+      },
+      "pool": {
+        "stage": "pool",
+        "requestedGivenNameLength": 1
+      },
+      "occurrence": {
+        "candidateId": "m923-runtime-acceptance-34",
+        "surname": "赵",
+        "givenName": "方",
+        "fullName": "赵方",
+        "position": 0,
+        "givenNameLength": 1
+      },
+      "expectedProject": {
+        "meaning": "取区域的空间意象。",
+        "projectWish": null,
+        "limits": [
+          "只取区域义，不借方形、药方、方法等其他义项。",
+          "空间标签不推导地位、方向选择或命运。",
+          "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+        ],
+        "attribution": "M923 independent project wording decision; dictionary text remains MOE",
+        "license": "CC0-1.0"
+      },
+      "sourcePolicyExpected": "eligible",
+      "existingConstraintOutcome": "must be computed by actual existing implementation, never forced true",
+      "saveRestorePrerequisite": "actual locally or AI-finalized producer receipt; if full-name hard constraints prevent this fixture, choose a valid real name containing the same char and record the change before running; never fake a receipt"
+    },
+    {
+      "candidateCaseId": "m914-naming-data:锋:146581:0:1",
+      "reviewId": "M923-use-review-35-146581-0-1",
+      "char": "锋",
+      "sourceQualification": {
+        "selectedPinyin": "fēng",
+        "tone": 1,
+        "senseId": "moe-revised:146581:0:1",
+        "namePart": "given-name",
+        "familySelection": {
+          "familyId": "naming-semantic-m921",
+          "sourceId": "naming-semantic-admission-v72-M921-M923",
+          "publicationVersion": "m921-character-meaning-publication/1.0.0-m923.1",
+          "decisionVersion": "M923-DECISION/1",
+          "ruleVersion": "naming-editorial-7.2.0",
+          "enabled": true
+        },
+        "themeIds": []
+      },
+      "pool": {
+        "stage": "pool",
+        "requestedGivenNameLength": 1
+      },
+      "occurrence": {
+        "candidateId": "m923-runtime-acceptance-35",
+        "surname": "赵",
+        "givenName": "锋",
+        "fullName": "赵锋",
+        "position": 0,
+        "givenNameLength": 1
+      },
+      "expectedProject": {
+        "meaning": "取器物尖端部分的意象。",
+        "projectWish": null,
+        "limits": [
+          "固定器物尖端义，不借兵器、军队前列或竞争胜负义。",
+          "不推导攻击性、勇武或成就。",
+          "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+        ],
+        "attribution": "M923 independent project wording decision; dictionary text remains MOE",
+        "license": "CC0-1.0"
+      },
+      "sourcePolicyExpected": "eligible",
+      "existingConstraintOutcome": "must be computed by actual existing implementation, never forced true",
+      "saveRestorePrerequisite": "actual locally or AI-finalized producer receipt; if full-name hard constraints prevent this fixture, choose a valid real name containing the same char and record the change before running; never fake a receipt"
+    },
+    {
+      "candidateCaseId": "m914-naming-data:含:27258:0:2",
+      "reviewId": "M923-use-review-36-27258-0-2",
+      "char": "含",
+      "sourceQualification": {
+        "selectedPinyin": "hán",
+        "tone": 2,
+        "senseId": "moe-revised:27258:0:2",
+        "namePart": "given-name",
+        "familySelection": {
+          "familyId": "naming-semantic-m921",
+          "sourceId": "naming-semantic-admission-v72-M921-M923",
+          "publicationVersion": "m921-character-meaning-publication/1.0.0-m923.1",
+          "decisionVersion": "M923-DECISION/1",
+          "ruleVersion": "naming-editorial-7.2.0",
+          "enabled": true
+        },
+        "themeIds": []
+      },
+      "pool": {
+        "stage": "pool",
+        "requestedGivenNameLength": 1
+      },
+      "occurrence": {
+        "candidateId": "m923-runtime-acceptance-36",
+        "surname": "赵",
+        "givenName": "含",
+        "fullName": "赵含",
+        "position": 0,
+        "givenNameLength": 1
+      },
+      "expectedProject": {
+        "meaning": "取包容、容纳与承接空间的意象。",
+        "projectWish": null,
+        "limits": [
+          "固定包容、容纳义，不转化为无条件承受。",
+          "不推导性格、能力或关系义务。",
+          "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+        ],
+        "attribution": "M923 independent project wording decision; dictionary text remains MOE",
+        "license": "CC0-1.0"
+      },
+      "sourcePolicyExpected": "eligible",
+      "existingConstraintOutcome": "must be computed by actual existing implementation, never forced true",
+      "saveRestorePrerequisite": "actual locally or AI-finalized producer receipt; if full-name hard constraints prevent this fixture, choose a valid real name containing the same char and record the change before running; never fake a receipt"
+    },
+    {
+      "candidateCaseId": "m914-naming-data:浩:85945:0:1",
+      "reviewId": "M923-use-review-37-85945-0-1",
+      "char": "浩",
+      "sourceQualification": {
+        "selectedPinyin": "hào",
+        "tone": 4,
+        "senseId": "moe-revised:85945:0:1",
+        "namePart": "given-name",
+        "familySelection": {
+          "familyId": "naming-semantic-m921",
+          "sourceId": "naming-semantic-admission-v72-M921-M923",
+          "publicationVersion": "m921-character-meaning-publication/1.0.0-m923.1",
+          "decisionVersion": "M923-DECISION/1",
+          "ruleVersion": "naming-editorial-7.2.0",
+          "enabled": true
+        },
+        "themeIds": []
+      },
+      "pool": {
+        "stage": "pool",
+        "requestedGivenNameLength": 1
+      },
+      "occurrence": {
+        "candidateId": "m923-runtime-acceptance-37",
+        "surname": "赵",
+        "givenName": "浩",
+        "fullName": "赵浩",
+        "position": 0,
+        "givenNameLength": 1
+      },
+      "expectedProject": {
+        "meaning": "取广大、开阔的空间与视野意象。",
+        "projectWish": null,
+        "limits": [
+          "固定广大义，不把名字转成格局、成就或气势保证。",
+          "不借水势盛大等其他义项作命运解释。",
+          "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+        ],
+        "attribution": "M923 independent project wording decision; dictionary text remains MOE",
+        "license": "CC0-1.0"
+      },
+      "sourcePolicyExpected": "eligible",
+      "existingConstraintOutcome": "must be computed by actual existing implementation, never forced true",
+      "saveRestorePrerequisite": "actual locally or AI-finalized producer receipt; if full-name hard constraints prevent this fixture, choose a valid real name containing the same char and record the change before running; never fake a receipt"
+    },
+    {
+      "candidateCaseId": "m914-naming-data:恒:54370:0:0",
+      "reviewId": "M923-use-review-38-54370-0-0",
+      "char": "恒",
+      "sourceQualification": {
+        "selectedPinyin": "héng",
+        "tone": 2,
+        "senseId": "moe-revised:54370:0:0",
+        "namePart": "given-name",
+        "familySelection": {
+          "familyId": "naming-semantic-m921",
+          "sourceId": "naming-semantic-admission-v72-M921-M923",
+          "publicationVersion": "m921-character-meaning-publication/1.0.0-m923.1",
+          "decisionVersion": "M923-DECISION/1",
+          "ruleVersion": "naming-editorial-7.2.0",
+          "enabled": true
+        },
+        "themeIds": []
+      },
+      "pool": {
+        "stage": "pool",
+        "requestedGivenNameLength": 1
+      },
+      "occurrence": {
+        "candidateId": "m923-runtime-acceptance-38",
+        "surname": "赵",
+        "givenName": "恒",
+        "fullName": "赵恒",
+        "position": 0,
+        "givenNameLength": 1
+      },
+      "expectedProject": {
+        "meaning": "取长久、不变的时间与持续意象。",
+        "projectWish": null,
+        "limits": [
+          "固定长久不变义，不保证关系、健康或事业永久不变。",
+          "不把卦名义当作个人命运判断。",
+          "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+        ],
+        "attribution": "M923 independent project wording decision; dictionary text remains MOE",
+        "license": "CC0-1.0"
+      },
+      "sourcePolicyExpected": "eligible",
+      "existingConstraintOutcome": "must be computed by actual existing implementation, never forced true",
+      "saveRestorePrerequisite": "actual locally or AI-finalized producer receipt; if full-name hard constraints prevent this fixture, choose a valid real name containing the same char and record the change before running; never fake a receipt"
+    },
+    {
+      "candidateCaseId": "m914-naming-data:宏:42113:0:0",
+      "reviewId": "M923-use-review-39-42113-0-0",
+      "char": "宏",
+      "sourceQualification": {
+        "selectedPinyin": "hóng",
+        "tone": 2,
+        "senseId": "moe-revised:42113:0:0",
+        "namePart": "given-name",
+        "familySelection": {
+          "familyId": "naming-semantic-m921",
+          "sourceId": "naming-semantic-admission-v72-M921-M923",
+          "publicationVersion": "m921-character-meaning-publication/1.0.0-m923.1",
+          "decisionVersion": "M923-DECISION/1",
+          "ruleVersion": "naming-editorial-7.2.0",
+          "enabled": true
+        },
+        "themeIds": []
+      },
+      "pool": {
+        "stage": "pool",
+        "requestedGivenNameLength": 1
+      },
+      "occurrence": {
+        "candidateId": "m923-runtime-acceptance-39",
+        "surname": "赵",
+        "givenName": "宏",
+        "fullName": "赵宏",
+        "position": 0,
+        "givenNameLength": 1
+      },
+      "expectedProject": {
+        "meaning": "取广博、深远、远大的空间与愿景意象。",
+        "projectWish": null,
+        "limits": [
+          "固定广博深远义，不推导宏大成就或社会地位。",
+          "项目愿望不替代具体规划和现实行动。",
+          "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+        ],
+        "attribution": "M923 independent project wording decision; dictionary text remains MOE",
+        "license": "CC0-1.0"
+      },
+      "sourcePolicyExpected": "eligible",
+      "existingConstraintOutcome": "must be computed by actual existing implementation, never forced true",
+      "saveRestorePrerequisite": "actual locally or AI-finalized producer receipt; if full-name hard constraints prevent this fixture, choose a valid real name containing the same char and record the change before running; never fake a receipt"
+    },
+    {
+      "candidateCaseId": "m914-naming-data:鸿:160493:0:2",
+      "reviewId": "M923-use-review-40-160493-0-2",
+      "char": "鸿",
+      "sourceQualification": {
+        "selectedPinyin": "hóng",
+        "tone": 2,
+        "senseId": "moe-revised:160493:0:2",
+        "namePart": "given-name",
+        "familySelection": {
+          "familyId": "naming-semantic-m921",
+          "sourceId": "naming-semantic-admission-v72-M921-M923",
+          "publicationVersion": "m921-character-meaning-publication/1.0.0-m923.1",
+          "decisionVersion": "M923-DECISION/1",
+          "ruleVersion": "naming-editorial-7.2.0",
+          "enabled": true
+        },
+        "themeIds": []
+      },
+      "pool": {
+        "stage": "pool",
+        "requestedGivenNameLength": 1
+      },
+      "occurrence": {
+        "candidateId": "m923-runtime-acceptance-40",
+        "surname": "赵",
+        "givenName": "鸿",
+        "fullName": "赵鸿",
+        "position": 0,
+        "givenNameLength": 1
+      },
+      "expectedProject": {
+        "meaning": "取大、盛的开阔意象。",
+        "projectWish": null,
+        "limits": [
+          "固定大、盛义，不借鸿雁、书信或崇高声名义。",
+          "不承诺财富、成就或人生规模。",
+          "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+        ],
+        "attribution": "M923 independent project wording decision; dictionary text remains MOE",
+        "license": "CC0-1.0"
+      },
+      "sourcePolicyExpected": "eligible",
+      "existingConstraintOutcome": "must be computed by actual existing implementation, never forced true",
+      "saveRestorePrerequisite": "actual locally or AI-finalized producer receipt; if full-name hard constraints prevent this fixture, choose a valid real name containing the same char and record the change before running; never fake a receipt"
+    }
+  ],
+  "cases": [
+    {
+      "id": "L01",
+      "layer": "actual-loader",
+      "scenario": "fixed-originals-and-40-records",
+      "expected": "load handle through new main private registry; 40 records authenticated; new family/source/version exact",
+      "requirement": "all source resources are real fixed bytes; no pure-domain handle",
+      "execution": "未执行"
+    },
+    {
+      "id": "L02",
+      "layer": "actual-loader",
+      "scenario": "missing-original-gzip",
+      "expected": "M923_SOURCE_UNAVAILABLE",
+      "requirement": "remove from isolated copied fixture only",
+      "execution": "未执行"
+    },
+    {
+      "id": "L03",
+      "layer": "actual-loader",
+      "scenario": "source-byte-tamper-and-self-reseal",
+      "expected": "M923_REJECTED_INTEGRITY",
+      "requirement": "alter input bytes and update its supplied JSON hashes; compiled descriptor unchanged",
+      "execution": "未执行"
+    },
+    {
+      "id": "L04",
+      "layer": "actual-loader",
+      "scenario": "old-m752-literal-substitution",
+      "expected": "M923_REJECTED_INTEGRITY",
+      "requirement": "new dispatch rejects sourceId naming-semantic-admission-v72-M752",
+      "execution": "未执行"
+    },
+    {
+      "id": "L05",
+      "layer": "actual-loader",
+      "scenario": "pure-domain-handle",
+      "expected": "M923_UNTRUSTED_HANDLE",
+      "requirement": "construct existing pure-domain equivalent and pass to new main consumer",
+      "execution": "未执行"
+    },
+    {
+      "id": "L06",
+      "layer": "actual-loader",
+      "scenario": "serialized-or-cloned-handle",
+      "expected": "M923_UNTRUSTED_HANDLE",
+      "requirement": "clone a real authenticated object; own properties do not grant WeakMap membership",
+      "execution": "未执行"
+    },
+    {
+      "id": "L07",
+      "layer": "actual-loader",
+      "scenario": "other-family-handle",
+      "expected": "M923_UNTRUSTED_HANDLE",
+      "requirement": "old M752 handle cannot authorize M923 records",
+      "execution": "未执行"
+    },
+    {
+      "id": "L08",
+      "layer": "actual-loader",
+      "scenario": "caller-trusted-flag-or-expected-pins",
+      "expected": "reject unrecognized config/authority before loading",
+      "requirement": "no caller injection path exists",
+      "execution": "未执行"
+    },
+    {
+      "id": "L09",
+      "layer": "actual-loader",
+      "scenario": "license-label-and-notice-replacement",
+      "expected": "M923_REJECTED_INTEGRITY",
+      "requirement": "keep original dictionary label and exact notice bytes; project CC0 does not replace them",
+      "execution": "未执行"
+    },
+    {
+      "id": "L10",
+      "layer": "actual-loader",
+      "scenario": "actual-glyph-default-reading-lineage-mismatch",
+      "expected": "M923_REJECTED_INTEGRITY",
+      "requirement": "alter each field in isolated fixture including both variant directions",
+      "execution": "未执行"
+    },
+    {
+      "id": "L11",
+      "layer": "actual-loader",
+      "scenario": "archived-script-side-effect-marker",
+      "expected": "no script execution; reject altered script bytes if closure checked",
+      "requirement": "actual loader must only read data; marker is an inert test literal in isolated fixture",
+      "execution": "未执行"
+    },
+    {
+      "id": "L12",
+      "layer": "actual-loader",
+      "scenario": "same-family-resource-refresh-after-tamper",
+      "expected": "M923_REJECTED_INTEGRITY",
+      "requirement": "previously loaded handle cannot retain stale authority",
+      "execution": "未执行"
+    },
+    {
+      "id": "Q01",
+      "layer": "qualification",
+      "scenario": "all-40-exact-records-opted-in",
+      "expected": "eligible source-policy result for every row",
+      "requirement": "run with actual private main loader; pool requires no fabricated full name",
+      "execution": "未执行"
+    },
+    {
+      "id": "Q02",
+      "layer": "qualification",
+      "scenario": "absent-false-wrong-version-opt-in",
+      "expected": "M923_FAMILY_NOT_ENABLED or M923_CONTEXT_INVALID for malformed selection",
+      "requirement": "must not silently upgrade or auto-enable",
+      "execution": "未执行"
+    },
+    {
+      "id": "Q03",
+      "layer": "qualification",
+      "scenario": "pinyin-tone-sense-mismatch-each-row",
+      "expected": "M923_READING_MISMATCH",
+      "requirement": "长 cháng cannot adopt zhǎng; fixed sense only",
+      "execution": "未执行"
+    },
+    {
+      "id": "Q04",
+      "layer": "qualification",
+      "scenario": "unknown-duplicate-free-text-themes",
+      "expected": "M923_CONTEXT_INVALID",
+      "requirement": "empty known themes valid for all 40; no forced matching",
+      "execution": "未执行"
+    },
+    {
+      "id": "Q05",
+      "layer": "qualification",
+      "scenario": "surname-part-or-length-3-or-bad-position",
+      "expected": "M923_CANDIDATE_SCOPE_MISMATCH",
+      "requirement": "Unicode codepoints; compound surname does not consume adoption index",
+      "execution": "未执行"
+    },
+    {
+      "id": "Q06",
+      "layer": "qualification",
+      "scenario": "required-ai-exhaustion-bypass",
+      "expected": "same gate rejection as local",
+      "requirement": "no fallback to unapproved meanings to fill requested name count",
+      "execution": "未执行"
+    },
+    {
+      "id": "O01",
+      "layer": "output",
+      "scenario": "three-narrowed-texts",
+      "expected": "exact approved 方/锋/川 strings and original semantic limits",
+      "requirement": "no old candidate pending status text or old extra meanings",
+      "execution": "未执行"
+    },
+    {
+      "id": "O02",
+      "layer": "output",
+      "scenario": "wish-wholename-personality-fate-element-score-injection",
+      "expected": "reject unreviewed output",
+      "requirement": "projectWish null, wholeNameMeaning null, scoreDelta 0; old unrelated warnings preserved",
+      "execution": "未执行"
+    },
+    {
+      "id": "O03",
+      "layer": "output",
+      "scenario": "existing-parent-name-avoidance-homophone-hard-constraint",
+      "expected": "existing constraint blocks real final candidate",
+      "requirement": "semantic approval must not erase existing exclusions",
+      "execution": "未执行"
+    },
+    {
+      "id": "P01",
+      "layer": "persistence",
+      "scenario": "actual-local-and-ai-finalization",
+      "expected": "real new-schema receipts with every required field",
+      "requirement": "no receipt at pool or mere required-char qualification",
+      "execution": "未执行"
+    },
+    {
+      "id": "P02",
+      "layer": "persistence",
+      "scenario": "save-read-backup-restore",
+      "expected": "exact validated saved output and family opt-in context replay",
+      "requirement": "must call actual Store/service paths; qualification-only is insufficient",
+      "execution": "未执行"
+    },
+    {
+      "id": "P03",
+      "layer": "persistence",
+      "scenario": "receipt-family-version-source-reviewid-hash-tamper",
+      "expected": "M923_REJECTED_INTEGRITY",
+      "requirement": "mutate every required receipt field plus add extra field or remove one",
+      "execution": "未执行"
+    },
+    {
+      "id": "P04",
+      "layer": "persistence",
+      "scenario": "receipt-name-reading-sense-position-context-tamper",
+      "expected": "M923_REJECTED_INTEGRITY",
+      "requirement": "including swapped same-character occurrence and surname changes",
+      "execution": "未执行"
+    },
+    {
+      "id": "P05",
+      "layer": "persistence",
+      "scenario": "old-history-and-m752-receipt-replay",
+      "expected": "legacy exact output and old receipt branch unchanged",
+      "requirement": "no M923 auto-fill; historical M91638/2 and 川 hold unmodified",
+      "execution": "未执行"
+    },
+    {
+      "id": "P06",
+      "layer": "persistence",
+      "scenario": "saved-m923-selection-current-default-off",
+      "expected": "saved historical result verifies under saved exact selection; new request remains off",
+      "requirement": "display/replay does not enable generation preference",
+      "execution": "未执行"
+    },
+    {
+      "id": "P07",
+      "layer": "persistence",
+      "scenario": "saved-parent-name-required-character-or-avoidance-changed",
+      "expected": "M923_REJECTED_INTEGRITY",
+      "requirement": "main recomputes constraintContextSHA256 from complete normalized saved profile/preferences; no caller digest accepted",
+      "execution": "未执行"
+    },
+    {
+      "id": "P08",
+      "layer": "persistence",
+      "scenario": "save-restore-through-qualification-only-api",
+      "expected": "compile-time and runtime rejection of wrong operation",
+      "requirement": "only validateAndAssessM921M923Saved accepts saved stages and requires receipt",
+      "execution": "未执行"
+    },
+    {
+      "id": "P09",
+      "layer": "persistence",
+      "scenario": "exact-canonical-receipt-reconstruction",
+      "expected": "may pass integrity if every derived field exactly matches; grants no source capability",
+      "requirement": "do not claim signature or past-issuer proof; actual producer/store pathway proved separately",
+      "execution": "未执行"
+    },
+    {
+      "id": "P10",
+      "layer": "persistence",
+      "scenario": "constraint-engine-id-or-caller-pass-flag",
+      "expected": "reject stale/unknown engine or untrusted bypass input",
+      "requirement": "m923-existing-constraints-v1 is code-owned; semantics changes require new adapter id",
+      "execution": "未执行"
+    },
+    {
+      "id": "C01",
+      "layer": "coverage",
+      "scenario": "default-and-opt-in-set-arithmetic",
+      "expected": "default coverage delta 0; independently measured eligible request union",
+      "requirement": "do not add 40/38/37 to existing counts",
+      "execution": "未执行"
+    },
+    {
+      "id": "C02",
+      "layer": "coverage",
+      "scenario": "same-semantic-text-next-request",
+      "expected": "no repeat editorial approval or per-family signature required",
+      "requirement": "still authenticate exact sources and request opt-in",
+      "execution": "未执行"
+    },
+    {
+      "id": "C03",
+      "layer": "release",
+      "scenario": "type-union-new-registry-and-legacy-regression",
+      "expected": "new independent source/receipt types and exact old10/9branch preserved",
+      "requirement": "ordinary build and tests cannot substitute native/installer acceptance",
+      "execution": "未执行"
+    }
+  ],
+  "receiptFields": [
+    "schema",
+    "familyId",
+    "sourceId",
+    "publicationVersion",
+    "decisionVersion",
+    "ruleVersion",
+    "registryEntrySHA256",
+    "decisionRecordsSHA256",
+    "policySHA256",
+    "candidateId",
+    "fullName",
+    "givenName",
+    "position",
+    "char",
+    "pinyin",
+    "tone",
+    "senseId",
+    "reviewId",
+    "candidateCaseId",
+    "sourceEntrySHA256",
+    "sourceDefinitionSHA256",
+    "sourceCaseSHA256",
+    "lineageSHA256",
+    "baseDatasetSHA256",
+    "basePackSHA256",
+    "projectTextSHA256",
+    "projectSHA256",
+    "constraintEngineId",
+    "constraintContextSHA256",
+    "contextSHA256",
+    "explanationScope",
+    "projectWish",
+    "wholeNameMeaning",
+    "scoreDelta"
+  ],
+  "knownThemes": [
+    "civic-homeland",
+    "water-bubbles",
+    "textile-ribbon",
+    "agriculture",
+    "literary-artwork",
+    "herb-plant"
+  ]
+}

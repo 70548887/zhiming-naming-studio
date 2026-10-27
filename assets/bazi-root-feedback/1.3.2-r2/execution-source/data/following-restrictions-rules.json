@@ -1,0 +1,69 @@
+{
+  "version": "qiongtong-2294674-monthly-following-restrictions/1.0.0",
+  "profile": "qiongtong-2294674-fixed-month-restrictions",
+  "sourceId": "bazi-following-restrictions-qiongtong-2294674",
+  "source": {
+    "title": "穷通宝鉴",
+    "revisionId": 2294674,
+    "revisionTimestamp": "2023-06-14T13:49:39Z",
+    "url": "https://zh.wikisource.org/w/index.php?title=穷通宝鉴&oldid=2294674",
+    "rawSha256": "8ba17242f116583de2e10172e006f5ce5f74b23ccfc0bd24b886be135e9f20bd",
+    "rawCharacters": 36746,
+    "license": "CC-BY-SA-4.0 fixed Wikisource transcription; scanCollation:false",
+    "scanCollation": false
+  },
+  "rules": [
+    {
+      "id": "jia-yin-mao-fixed-month-restriction",
+      "name": "甲木寅卯月原句不取从财、从杀",
+      "patterns": [
+        "cong-cai",
+        "cong-sha"
+      ],
+      "dayStems": [
+        "甲"
+      ],
+      "monthBranches": [
+        "寅",
+        "卯"
+      ],
+      "scope": "fixed-source-clause-only",
+      "sourceId": "bazi-following-restrictions-qiongtong-2294674",
+      "sourceHeading": "正二月甲木",
+      "sourceQuote": "'''正二月甲木'''，素无取从才从杀从化之理。",
+      "sourceSpan": {
+        "start": 1561,
+        "end": 1585,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;codepoint[1561,1585)",
+      "note": "原句从化字样保留，但本限制仅对从财/从杀，未执行合化判定。"
+    },
+    {
+      "id": "gui-wei-fixed-month-restriction",
+      "name": "癸水未月原句不取从杀",
+      "patterns": [
+        "cong-sha"
+      ],
+      "dayStems": [
+        "癸"
+      ],
+      "monthBranches": [
+        "未"
+      ],
+      "scope": "fixed-source-clause-only",
+      "sourceId": "bazi-following-restrictions-qiongtong-2294674",
+      "sourceHeading": "六月癸水",
+      "sourceQuote": "因未中有乙己同宫，破而不破，故癸水不能从杀，所以专用庚辛。",
+      "sourceSpan": {
+        "start": 35080,
+        "end": 35109,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;codepoint[35080,35109)",
+      "note": "本条只反映本版六月癸水原句；不得反推癸午从杀成立，不从本条自动采用庚辛为姓名喜用。"
+    }
+  ]
+}

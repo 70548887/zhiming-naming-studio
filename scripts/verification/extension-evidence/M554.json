@@ -1,0 +1,70 @@
+{
+  "schema": "m554-r4-digest-correctness-review/1",
+  "status": "limited-correctness-pass",
+  "reviewedManifestSha256": "e7a6cdf4b19661cf4efd8dd75b0754fe14e69186611a10d27a9c07ff511d13b2",
+  "helper": {"bytes": 6305, "sha256": "ffe4c78191f72d8d47096ffb389d5e1f550462f765f0bf2a9413e02adaae9239"},
+  "explicitDefects": [],
+  "priorRuntimeProblems": [
+    {
+      "problem": "Mutable hash factory or ordinary Hash handle delegation yields wrong digest and sticky cache entry",
+      "status": "closed-within-specified-post-import-mutations",
+      "file": "src/main/byte-digest-memo.mjs",
+      "lines": [45, 66],
+      "fix": "Capture trusted crypto.hash one-shot function by value and call it directly",
+      "independentRegressions": ["CJS/ESM SHA1 export replacement", "ordinary Hash handle prototype.digest replacement"],
+      "missDisabledOversizeAndWarmAfterRestoreCorrect": true
+    },
+    {
+      "problem": "Ordinary Array numeric setter obtains owned Buffer and can poison cache",
+      "status": "closed-within-specified-prototype-setter-regression",
+      "file": "src/main/byte-digest-memo.mjs",
+      "line": 80,
+      "fix": "Private cache index is created by captured Object.create(null)",
+      "independentRegression": "late Array.prototype[0] setter cannot obtain private bytes",
+      "privateBytesLeaked": false
+    }
+  ],
+  "sourceReview": {
+    "completeCurrentLengthAndByteComparisonOnEveryHit": true,
+    "noPathMtimeOrObjectIdentityCacheAuthority": true,
+    "privateUnpooledExactBackingCopies": true,
+    "ownedBytesHashedAfterFullCopy": true,
+    "noMutableInternalsExposed": true,
+    "evictionBeforeAllocation": true,
+    "retainedBytesBoundedByConfiguredCaps": true,
+    "rootFixedEntries": 64,
+    "rootFixedBytes": 67108864,
+    "unsupportedSharedResizableDetachedFailClosedPreserved": true,
+    "publicApiUnchanged": true,
+    "declarationTokensUnchanged": true,
+    "statisticsAuthority": "none"
+  },
+  "independentExecution": {
+    "runtime": "Node 22.16.0",
+    "exactAppendedRegressionBodiesPassed": 3,
+    "exactAppendedRegressionBodiesFailed": 0,
+    "additionalTinyContractProbesPassed": 2,
+    "additionalTinyContractProbesFailed": 0,
+    "original16Executed": false,
+    "original16ExactPrefixBytes": 14968,
+    "actualCryptoHashSourceReferencesOneShotDigest": true,
+    "minimalPatchFilesApplied": 3,
+    "minimalPatchPostimagesExact": 3,
+    "wrapperFilesUnchanged": 2,
+    "consumerFilesUnchanged": 2,
+    "modelOverride": "none"
+  },
+  "compatibilityEvidenceReused": {
+    "authorPinnedNode22Tests": "19/19 pass, no skip",
+    "authorPinnedElectron44Node24Tests": "19/19 pass, no skip",
+    "electronRuntime": "Electron 44.9.0 / Node 24.22.0",
+    "electronRerunByReviewer": false,
+    "authorDeclarationTypecheck": "0; receipt pinned, not rerun",
+    "priorIncompleteReviewerStatusUsedAsAcceptance": false
+  },
+  "trustBoundary": "Trusted standard Node intrinsics at import; only the specified later export/delegation/prototype mutations are independently regressed; no arbitrary runtime/native compromise immunity claim",
+  "scope": "ordinary SHA256 byte memo correctness only; not source freshness, authentication, qualification, whole-flow performance or current Store integration",
+  "writes": {"author": 0, "rootWrapper": 0, "consumers": 0, "product": 0},
+  "notExecuted": ["original 16 or whole 19 repeat", "Electron repeat", "Store", "SQL", "Worker", "browser", "network", "Solar", "Profiler", "whole-flow performance", "consumer nine-case repeat", "root M556 full typecheck"],
+  "performanceClaim": "none; original budget and prior failed result unchanged"
+}

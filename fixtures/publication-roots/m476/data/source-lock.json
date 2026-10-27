@@ -1,0 +1,121 @@
+{
+  "CC-BY-SA-4.0.txt": {
+    "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.txt",
+    "sha256": "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5",
+    "bytes": 20138,
+    "retrievedAt": "2026-10-17T11:20:24.405Z",
+    "encoding": "original response"
+  },
+  "zhwiktionary-index.html": {
+    "url": "https://kaikki.org/zhwiktionary/%E6%BC%A2%E8%AA%9E/index.html",
+    "sha256": "dc0701ab9c2ed25e7e3a1347da03a1bec010aaa7bab99368b6e4fa77aea1d893",
+    "bytes": 17118,
+    "retrievedAt": "2026-10-17T11:20:24.788Z",
+    "encoding": "original response"
+  },
+  "kTotalStrokes.txt": {
+    "url": "https://raw.githubusercontent.com/unicode-org/unicodetools/4fd8eca90b30aa4c72543ccddb4c15d05becdf8d/unicodetools/data/ucd/17.0.0/Unihan/kTotalStrokes.txt",
+    "sha256": "33b37518686bda5c320eabd83ae0d4651e3d5932915308aa7a85b54f312f1e56",
+    "bytes": 311470,
+    "retrievedAt": "2026-10-17T11:20:25.172Z",
+    "encoding": "original response"
+  },
+  "zhouyi.tar.gz": {
+    "url": "https://codeload.github.com/koriyoshi2041/zhouyi/tar.gz/c74ae5a89e4b01da03fc8024d653f764ffd10aef",
+    "sha256": "0a847c0b9b876f9926e4896399e31ee44f88292db107bc865d70e2d7308b15a0",
+    "bytes": 123007,
+    "retrievedAt": "2026-10-17T11:20:25.746Z",
+    "encoding": "original response"
+  },
+  "poetry-LICENSE": {
+    "url": "https://raw.githubusercontent.com/chinese-poetry/chinese-poetry/b8594f81a89752241442f2ce267d6f66f96704ee/LICENSE",
+    "sha256": "c195319aeaa3ffcbe16aa5d26eec19eae5a42f84337dd2b3dc3c9d5ccbbd6507",
+    "bytes": 1076,
+    "retrievedAt": "2026-10-17T11:21:31.516Z",
+    "encoding": "original response"
+  },
+  "zhouyi-LICENSE": {
+    "url": "https://raw.githubusercontent.com/koriyoshi2041/zhouyi/c74ae5a89e4b01da03fc8024d653f764ffd10aef/LICENSE",
+    "sha256": "0506d67239c89a3d3b14e253ed29e20e2e9259b41c4b32031eab5ac22ed2811f",
+    "bytes": 1070,
+    "retrievedAt": "2026-10-17T11:21:31.534Z",
+    "encoding": "original response"
+  },
+  "unicode-LICENSE": {
+    "url": "https://raw.githubusercontent.com/unicode-org/unicodetools/4fd8eca90b30aa4c72543ccddb4c15d05becdf8d/LICENSE",
+    "sha256": "fe5c62b543e287981db198f2acfa0ca732d12591a1024536dc8fd85dacd77104",
+    "bytes": 2033,
+    "retrievedAt": "2026-10-17T11:21:31.572Z",
+    "encoding": "original response"
+  },
+  "kSimplifiedVariant.txt": {
+    "url": "https://raw.githubusercontent.com/unicode-org/unicodetools/4fd8eca90b30aa4c72543ccddb4c15d05becdf8d/unicodetools/data/ucd/17.0.0/Unihan/kSimplifiedVariant.txt",
+    "sha256": "a7f0c9dbbca85cffd90517fa6ea9be97d2e6f811328a59b6b303d58a418ac9be",
+    "bytes": 88425,
+    "retrievedAt": "2026-10-17T11:21:31.742Z",
+    "encoding": "original response"
+  },
+  "kTraditionalVariant.txt": {
+    "url": "https://raw.githubusercontent.com/unicode-org/unicodetools/4fd8eca90b30aa4c72543ccddb4c15d05becdf8d/unicodetools/data/ucd/17.0.0/Unihan/kTraditionalVariant.txt",
+    "sha256": "4eca6285d45070548e6e6c06e4b48c3ca6866d4380e8cb980c512f5d1fc71895",
+    "bytes": 86288,
+    "retrievedAt": "2026-10-17T11:21:31.745Z",
+    "encoding": "original response"
+  },
+  "shijing.json": {
+    "url": "https://raw.githubusercontent.com/chinese-poetry/chinese-poetry/b8594f81a89752241442f2ce267d6f66f96704ee/%E8%AF%97%E7%BB%8F/shijing.json",
+    "sha256": "3c7ca54d59424542ada99adfcc85420287fbbd5c8a511e9baf705cb2b04051e7",
+    "bytes": 156972,
+    "retrievedAt": "2026-10-17T11:21:31.796Z",
+    "encoding": "original response"
+  },
+  "kMandarin.txt": {
+    "url": "https://raw.githubusercontent.com/unicode-org/unicodetools/4fd8eca90b30aa4c72543ccddb4c15d05becdf8d/unicodetools/data/ucd/17.0.0/Unihan/kMandarin.txt",
+    "sha256": "e549450d76b4f7f79dcf3c928f17f62dc7dcfda904dd4db983a18d4afab221e3",
+    "bytes": 462072,
+    "retrievedAt": "2026-10-17T11:21:31.866Z",
+    "encoding": "original response"
+  },
+  "kRSUnicode.txt": {
+    "url": "https://raw.githubusercontent.com/unicode-org/unicodetools/4fd8eca90b30aa4c72543ccddb4c15d05becdf8d/unicodetools/data/ucd/17.0.0/Unihan/kRSUnicode.txt",
+    "sha256": "481f8a3d2fda0c6b8e6f7c746a0eedfb145a62f30bf6e61527a8f7cdb2a99108",
+    "bytes": 345977,
+    "retrievedAt": "2026-10-17T11:21:32.098Z",
+    "encoding": "original response"
+  },
+  "zhwiktionary-Chinese.jsonl.gz": {
+    "url": "https://kaikki.org/zhwiktionary/%E6%BC%A2%E8%AA%9E/kaikki.org-dictionary-%E6%BC%A2%E8%AA%9E.jsonl",
+    "sha256": "3c9fa2e012e6c257b7a0789b581cadc3f19fd8316118dc48235b1eb4ccbd2d10",
+    "bytes": 79656340,
+    "retrievedAt": "2026-10-17T11:22:13.856Z",
+    "encoding": "gzip of original UTF-8 response, no content edits"
+  },
+  "moe-revised.json.gz": {
+    "url": "https://raw.githubusercontent.com/g0v/moedict-data/a6dc997417507eb510fc29822bc514de2c92728c/dict-revised_bkup.json",
+    "sha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+    "bytes": 20310688,
+    "retrievedAt": "2026-10-17T11:31:21.371Z",
+    "encoding": "gzip of original UTF-8 response, no content edits"
+  },
+  "moe-README.md": {
+    "url": "https://raw.githubusercontent.com/g0v/moedict-data/a6dc997417507eb510fc29822bc514de2c92728c/README.md",
+    "sha256": "a93321d9381bc1cf34b4ad844f71607fa748c86c0b228ae37d46720d6a659cb2",
+    "bytes": 1214,
+    "retrievedAt": "2026-10-17T11:31:21.372Z",
+    "encoding": "original response"
+  },
+  "CC-BY-ND-3.0-TW.html": {
+    "url": "https://creativecommons.org/licenses/by-nd/3.0/tw/legalcode.zh-hant",
+    "sha256": "04e6ef69a223b6e13c93c97a918ad5fd0dbb9fc34ae307f4449ed264e2d4108f",
+    "bytes": 31775,
+    "retrievedAt": "2026-10-17T11:31:24.023Z",
+    "encoding": "original response"
+  },
+  "CJKRadicals.txt": {
+    "url": "https://raw.githubusercontent.com/unicode-org/unicodetools/4fd8eca90b30aa4c72543ccddb4c15d05becdf8d/unicodetools/data/ucd/17.0.0/CJKRadicals.txt",
+    "sha256": "826f83be25cd18fb8a5015a514704504e1982e840ea14d058bf583e1cc620c83",
+    "bytes": 5491,
+    "retrievedAt": "2026-10-17T11:31:26.496Z",
+    "encoding": "original response"
+  }
+}

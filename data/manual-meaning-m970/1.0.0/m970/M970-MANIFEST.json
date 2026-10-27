@@ -1,0 +1,273 @@
+{
+  "schema": "m970-repair-delivery-manifest/1",
+  "task": "M970-DATA",
+  "finding": "M965-OVERLAP-01",
+  "localDate": "2026-10-27",
+  "status": "dedup-repaired-and-six-source-candidates-complete-pending-review",
+  "candidateOnly": true,
+  "activation": "off",
+  "formalCoverageAdded": 0,
+  "files": [
+    {
+      "file": ".gitattributes",
+      "bytes": 53,
+      "sha256": "748e37bab883a653f9ea09903c7102d1c5e8fe6ef34aaf57766247de977e77a7"
+    },
+    {
+      "file": ".gitignore",
+      "bytes": 35,
+      "sha256": "6eb3e9554ab79576c07363d67497383064f2cc4284b8172e01cb297b29139960"
+    },
+    {
+      "file": "M959-RECLASSIFICATION.json",
+      "bytes": 4285,
+      "sha256": "f9052c3af98ff52ee43b194ea1126961615fd8d5305daf676924e2a40f768bfa"
+    },
+    {
+      "file": "README.md",
+      "bytes": 4597,
+      "sha256": "92fb891f093c31beee31b8e611ee007c6fb164a99696a505f9c54ecb06f6f5e8"
+    },
+    {
+      "file": "build-candidates.mjs",
+      "bytes": 8846,
+      "sha256": "97eb8292196a08008a1f5f710a4900b2bea8b162ea0aaaabeb57cfa3c4be2b35"
+    },
+    {
+      "file": "build-inventory.mjs",
+      "bytes": 7448,
+      "sha256": "10f62eb44b3895a8d895f5ee9bb06132e30816fe6e32ebbe6cc26e2afdc17118"
+    },
+    {
+      "file": "candidate-pins.mjs",
+      "bytes": 5211,
+      "sha256": "283a620ca16ac0c8276283ffe705189636ac4e61e4465c423899c025ab358f45"
+    },
+    {
+      "file": "candidate/admission.json",
+      "bytes": 1900,
+      "sha256": "88e12d0138df66b4e7514a2525e5262ee9c7d491e1a96b2d921391bc6bfa1258"
+    },
+    {
+      "file": "candidate/coverage-delta.json",
+      "bytes": 3392,
+      "sha256": "0cec6a5f0cc45483d6854e71db24812f8e0fa951d4e2809247b8a9c66d1996b3"
+    },
+    {
+      "file": "candidate/manifest.json",
+      "bytes": 2162,
+      "sha256": "7abf0b1b77a785ab6151cb918308d5d5bda1c687e10f22bb5a337f3f9fcca656"
+    },
+    {
+      "file": "candidate/profile.json",
+      "bytes": 19627,
+      "sha256": "016a3318e60f355d94b453bf7fe2b77b8c3ed44f86df4855329f2cb85b8bd108"
+    },
+    {
+      "file": "candidate/source-lock.json",
+      "bytes": 5954,
+      "sha256": "5b0ea090f02a7e7c0e3ad48a7b023d96317670f1634259ae59aaafb49e2af2fa"
+    },
+    {
+      "file": "candidate/source-subset.json",
+      "bytes": 32592,
+      "sha256": "721f1570e113c6ae005db6f5b38b8d1eed4b74f75a9c5eeb4236abbb5c5ea62f"
+    },
+    {
+      "file": "coverage.json",
+      "bytes": 50086,
+      "sha256": "15fed32c100653be87a26f0ca888189ae7d1a61d18973649d974f80f661b6cc4"
+    },
+    {
+      "file": "dedup.mjs",
+      "bytes": 6302,
+      "sha256": "5b755e145c91705273afb7261ee61a8042ebcdef42ccce8e0707f13bc39df86d"
+    },
+    {
+      "file": "evidence/preservation-result.json",
+      "bytes": 404,
+      "sha256": "29777bc711326bbdbc49fa6ab36badeeeaf699a88b305c5c53f52f88d06b92fc"
+    },
+    {
+      "file": "evidence/repair-checks.json",
+      "bytes": 481,
+      "sha256": "4d21f7ee351c0ca574b620688312a1db11d62296be860f1bacc853c529019dee"
+    },
+    {
+      "file": "evidence/repair-tests.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "evidence/repair-tests.tap",
+      "bytes": 3061,
+      "sha256": "6e5480710e2b082437e500c43078d6adba8e3e8806576171b60d900c90d9b652"
+    },
+    {
+      "file": "execution-ledger.json",
+      "bytes": 1677,
+      "sha256": "26e27231b52270f9040300fde839bf72e119b1a038163351b5e60c55e93b7125"
+    },
+    {
+      "file": "inputs.json",
+      "bytes": 8978,
+      "sha256": "8ddbf3bbfa8cda1b6a6eb4981d0371ed6f620c7b869ee1795d17019fe6f6b942"
+    },
+    {
+      "file": "inputs/M965-REVIEW.json",
+      "bytes": 7229,
+      "sha256": "23f5309363144350bdd1bc6c3c6da874b0e2fe65002305a9eb19cf5c93479b59"
+    },
+    {
+      "file": "inputs/M965-per-character-review.json",
+      "bytes": 35141,
+      "sha256": "d6bae7e79597de1c12ae4a7b46efaae738ca274da930d31a2d4d926f8eb5caa3"
+    },
+    {
+      "file": "inputs/baseline/data/dataset-v6.json",
+      "bytes": 1563457,
+      "sha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728"
+    },
+    {
+      "file": "inputs/baseline/data/naming-editorial-v4.json",
+      "bytes": 380418,
+      "sha256": "d24898eb63438d7b24262668eb3b36770f211fade015b28eeb361700a58ca6ce"
+    },
+    {
+      "file": "inputs/baseline/data/naming-editorial-v5.json",
+      "bytes": 65361,
+      "sha256": "bb8d3d255b42a6b67932988e13ceb2d7a7a1c6ef8fbbcc65312b9a50b5519da8"
+    },
+    {
+      "file": "inputs/baseline/data/naming-editorial-v6.json",
+      "bytes": 109426,
+      "sha256": "35de5f749f438e849543e5fde6e405b89ba01cba20597e82e7c4f518dd4363ab"
+    },
+    {
+      "file": "inputs/baseline/data/naming-editorial-v7.json",
+      "bytes": 1301005,
+      "sha256": "392fa47441a0c410b0903c3e85853081225a1a5e9f540b5467e4ea4e2151cc48"
+    },
+    {
+      "file": "inputs/m910-inherited-inventory.json",
+      "bytes": 10690,
+      "sha256": "09795bf02007ce100d8da41eb7f6cab68c9d74264302281ed152e4cdfe4a3228"
+    },
+    {
+      "file": "inputs/m959-selection-original.json",
+      "bytes": 40802,
+      "sha256": "c046b2bef7f605b60e3021e711211de3f754fedafbbff6a0d1e06b2f7eaac179"
+    },
+    {
+      "file": "inputs/reservations/B04.json",
+      "bytes": 9617,
+      "sha256": "98a516317585894c79b462bddec946f3597eede994812f0ba1d2ee2bffaf6a23"
+    },
+    {
+      "file": "inputs/reservations/B05.json",
+      "bytes": 8834,
+      "sha256": "7f5fc68b52396b479a8fe11f1c25aa404f6c8f35dd75082f61addaea020e093b"
+    },
+    {
+      "file": "inputs/reservations/M610.json",
+      "bytes": 1519,
+      "sha256": "fe640e4f9922040d0dbe837c7e5cbe78b05540e54f99cdd9b12f1576bf08ba4c"
+    },
+    {
+      "file": "inputs/reservations/M616-nondefault-char-reservation.json",
+      "bytes": 2722,
+      "sha256": "b04a39332842590a704bbb49bf086e0e865e4734c7b553965870d2241dff4add"
+    },
+    {
+      "file": "inputs/reservations/M690.json",
+      "bytes": 7988,
+      "sha256": "34d558fc14e849215bbaa3d0a4ad0ba60b159da1ccf3585011042ae65de2cd5a"
+    },
+    {
+      "file": "inputs/reservations/M740.json",
+      "bytes": 4417,
+      "sha256": "cb37e6d32afd84dcad963e7b7edd8ad2dbff5b7d19ac301196c66905c25bca1e"
+    },
+    {
+      "file": "inputs/reservations/M875.json",
+      "bytes": 12138,
+      "sha256": "7340f84f66378c69d571effa62c0fd50114b22022b6124f30e04e9ae09023a2e"
+    },
+    {
+      "file": "inputs/reservations/M910.json",
+      "bytes": 23959,
+      "sha256": "6019bf2c7bc170af093c5bf6458e798968f63a6c03dd09b24dc35abb6fd4948f"
+    },
+    {
+      "file": "inputs/reservations/M914.json",
+      "bytes": 66093,
+      "sha256": "b7e6d8bbf2ca13c086f781763e6b74ffb344f5585561be43b1a5705871e7bdf5"
+    },
+    {
+      "file": "inputs/reservations/context-v1.1.json",
+      "bytes": 403708,
+      "sha256": "424e8b6ca9a920c8b707ac267db9609bee900a5389b3659256b4c71ad71b378d"
+    },
+    {
+      "file": "inputs/reservations/family40.json",
+      "bytes": 306320,
+      "sha256": "a4d529327ab8a0245da15f9479644bb6bb391ed3dba1bbe56b4a525a2308f753"
+    },
+    {
+      "file": "inputs/reservations/on-demand60.json",
+      "bytes": 419345,
+      "sha256": "2c4be917bbfcdc3fec9279b2d9d928f5215e6ee1386d60e7d62265cd8e3eb2d1"
+    },
+    {
+      "file": "notices/CC-BY-ND-3.0-TW.html",
+      "bytes": 31775,
+      "sha256": "04e6ef69a223b6e13c93c97a918ad5fd0dbb9fc34ae307f4449ed264e2d4108f"
+    },
+    {
+      "file": "notices/moe-README.md",
+      "bytes": 1214,
+      "sha256": "a93321d9381bc1cf34b4ad844f71607fa748c86c0b228ae37d46720d6a659cb2"
+    },
+    {
+      "file": "plans.json",
+      "bytes": 2266,
+      "sha256": "a2f391aec1b92d95de8cfe43df89c146bcaa2b5f6aee7b51e9e4859bafb42503"
+    },
+    {
+      "file": "receipt.json",
+      "bytes": 1747,
+      "sha256": "ffd9deb222cd90b5b7038e4a99941d5696c96269feaf6370272af7edace412d1"
+    },
+    {
+      "file": "regression-proof.json",
+      "bytes": 2527,
+      "sha256": "4a5cde8dd6648ae27befff741b52598457a5b8f32cda323b99ba6d83bbbe5e9c"
+    },
+    {
+      "file": "remaining-source-screen.json",
+      "bytes": 63208,
+      "sha256": "49c54eff63a3d335cdd2b7a12b7ab06517b40416d0f13125c7b5a96475021c08"
+    },
+    {
+      "file": "run-checks.mjs",
+      "bytes": 1460,
+      "sha256": "39afb18bba0dda1f44b914cbf21ecb0aafd06c62dd247897cc98e310f67a2493"
+    },
+    {
+      "file": "seal.mjs",
+      "bytes": 5428,
+      "sha256": "b18b26a7f5ef4bbd2e6c2f11b6de28016a25405e9183d76327f22fb0cc06f00c"
+    },
+    {
+      "file": "tests/repair.test.mjs",
+      "bytes": 8311,
+      "sha256": "2b340871a098a02c37c374d3aab85249374313cb2ecee6b218331c4dabe244fc"
+    },
+    {
+      "file": "verify.mjs",
+      "bytes": 13719,
+      "sha256": "bbda7df21f2630fde713aad380f3956f34d835f953c6c12202f91fed93cd5603"
+    }
+  ],
+  "excluded": "Changed-byte test fixtures and .git metadata excluded. All old M959 files are external read-only inputs."
+}

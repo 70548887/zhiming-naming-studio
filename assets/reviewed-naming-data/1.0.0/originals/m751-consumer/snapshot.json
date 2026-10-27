@@ -1,0 +1,34 @@
+{
+  "schema": "m751-consumer-source-snapshot/1",
+  "originalCommit": "d80df63f0fee2ce27bdd33aa20963ac137820d65",
+  "integrationCommit": "dd19d38ef3902ee94f25cfbdbf5846c52666b15a",
+  "reviewStatus": "candidate-not-independently-reviewed",
+  "role": "archived-source-evidence-only",
+  "files": [
+    {
+      "file": "src/domain/naming-semantic-admission-v72.ts",
+      "bytes": 14132,
+      "sha256": "ad8f30794f58c65d2924d509772c10772c1f45ee1ee0b63fd5b4e119341d5e3f"
+    },
+    {
+      "file": "src/main/naming-semantic-admission-v72-data.ts",
+      "bytes": 14766,
+      "sha256": "3ee875decabc52c92d979d6ced5f64a8d00910bccbbdc7cff92b7093b3329d27"
+    },
+    {
+      "file": "src/main/naming-semantic-generation-v72.ts",
+      "bytes": 16218,
+      "sha256": "b64f495fb4cce436955d4aac2a6aaa470fbe8f2a6d2686b81c2c82eefa3bde35"
+    },
+    {
+      "file": "src/shared/naming-semantic-admission-v72.ts",
+      "bytes": 7253,
+      "sha256": "13ba389a0eda0bfcda935891d17eb105a1af0010cc7b975dbdfad00847b8cc0a"
+    },
+    {
+      "file": "tests/naming-semantic-admission-v72.test.ts",
+      "bytes": 21899,
+      "sha256": "ad94e589b074bec078468bbcec0d79b855743b6792cb2c0c52b5df448d78525b"
+    }
+  ]
+}

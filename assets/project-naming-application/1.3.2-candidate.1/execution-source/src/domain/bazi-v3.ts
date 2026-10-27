@@ -1,0 +1,14 @@
+import type { BaziAnalysis,BirthProfile } from '../shared/types';
+import { resolveBirthContext } from '../shared/civil-birth-v1';
+import { normalizeMonthAuthorityMethod } from '../shared/month-authority-method';
+import { normalizeSeasonalMethod } from '../shared/seasonal-method';
+import { calculateLegacyBazi } from './bazi-legacy';
+import { calculateBaziEvidence } from './bazi-evidence-v3';
+
+export const BAZI_V3_RULE_VERSION='civil-midnight-fuyi-candidate/1.3.0;lunar-typescript/1.8.6';
+
+/** Frozen1.3 retains the published minute summary and historical minute-scanned unknown-day endpoints. */
+export function calculateBaziV3(profile:BirthProfile):BaziAnalysis {
+  const context=resolveBirthContext(profile),base=calculateLegacyBazi(profile,context);
+  return {...base,version:BAZI_V3_RULE_VERSION,evidence:calculateBaziEvidence(base,{timezone:context.timezone,timeUnknown:profile.timeUnknown,ambiguous:context.ambiguous,monthAuthorityMethod:normalizeMonthAuthorityMethod(profile.monthAuthorityMethod),seasonalMethod:normalizeSeasonalMethod(profile.seasonalMethod),ranges:[{startEpoch:context.startEpoch,endEpoch:context.endEpoch}]})};
+}

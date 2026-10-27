@@ -1,0 +1,20 @@
+{
+  "schema": "m740-selection/1",
+  "batchId": "M740-D02",
+  "status": "selected-for-independent-candidate-review",
+  "defaultReadingsOnly": true,
+  "count": 10,
+  "formalCoverageAdded": 0,
+  "selected": [
+    {"char":"邦","pinyin":"bāng","tone":1,"rawEntryIndex":143600,"rawHeteronymIndex":0,"rawDefinitionIndex":1,"sourcePOS":"名","dictionarySense":"泛稱國家。","projectMeaning":"取国家这一文化主题意象。","limits":["家国主题须结合家庭意愿和完整姓名确认。","国家不是个人品质，不推定政治身份、公共成就或命运。"]},
+    {"char":"沫","pinyin":"mò","tone":4,"rawEntryIndex":83904,"rawHeteronymIndex":0,"rawDefinitionIndex":0,"sourcePOS":"名","dictionarySense":"液體形成而浮於表面的小泡。","projectMeaning":"取液体表面小泡这一具体自然意象。","limits":["原条另有口水与停止等义，须结合完整姓名消歧并确认小泡审美主题。","小泡意象不推定纯洁、性格、健康或人生结果。"]},
+    {"char":"纪","pinyin":"jì","tone":4,"rawEntryIndex":111076,"rawHeteronymIndex":0,"rawDefinitionIndex":0,"sourcePOS":"名","dictionarySense":"絲的頭緒、條理。","projectMeaning":"取丝线头绪与条理的字面意象。","limits":["采用默认 jì 与原词头紀，不混为其他读音。","头绪与条理是所选字义，不据名字推定自律、思维或学习能力。"]},
+    {"char":"纶","pinyin":"lún","tone":2,"rawEntryIndex":113321,"rawHeteronymIndex":0,"rawDefinitionIndex":0,"sourcePOS":"名","dictionarySense":"青色的絲帶。","projectMeaning":"取青色丝带这一具体织物意象。","limits":["只选默认 lún 的丝带义，不借 guān 读音或帝王旨意义。","织物与色彩主题须由家庭和全名确认，不推定气质、身份或才干。"]},
+    {"char":"年","pinyin":"nián","tone":2,"rawEntryIndex":49288,"rawHeteronymIndex":0,"rawDefinitionIndex":0,"sourcePOS":"名","dictionarySense":"地球環繞太陽一周所需的時間。","projectMeaning":"取一年这一时间周期意象。","limits":["时间纪念的具体主题须结合全名与家庭语境确认。","不从时间单位推导寿命、长寿、收成或未来结果。"]},
+    {"char":"农","pinyin":"nóng","tone":2,"rawEntryIndex":140081,"rawHeteronymIndex":0,"rawDefinitionIndex":2,"sourcePOS":"名","dictionarySense":"耕種事業。","projectMeaning":"取耕种事业这一农作主题意象。","limits":["本条采用耕种事业名词义，不把古义努力勤勉转成人格判断。","家庭是否采用农业主题仍待确认，不推定职业、收入或收获。"]},
+    {"char":"作","pinyin":"zuò","tone":4,"rawEntryIndex":10964,"rawHeteronymIndex":0,"rawDefinitionIndex":10,"sourcePOS":"名","dictionarySense":"詩文書畫與藝術品稱為「作」。","projectMeaning":"取诗文书画与艺术作品这一文化意象。","limits":["本条采用名词作品义，原条假装等其他义仍须结合完整姓名消歧。","作品主题不证明创造力、艺术天赋或未来成就，采用方向仍待家庭确认。"]},
+    {"char":"岁","pinyin":"suì","tone":4,"rawEntryIndex":80142,"rawHeteronymIndex":0,"rawDefinitionIndex":1,"sourcePOS":"名","dictionarySense":"時光。","projectMeaning":"取时光这一时间意象。","limits":["时间主题与纪念对象须由家庭和完整姓名确认。","时光不构成长寿、成熟程度、健康或命运预测。"]},
+    {"char":"叶","pinyin":"yè","tone":4,"rawEntryIndex":124301,"rawHeteronymIndex":0,"rawDefinitionIndex":0,"sourcePOS":"名","dictionarySense":"植物的一部分。生於枝幹上，專營呼吸、蒸發等作用，部分植物的葉子則因變態而具有貯藏、保護或捕食的功能。","projectMeaning":"取植物叶片这一具体自然意象。","limits":["本批仅记录叶到葉的固定 Unicode 字形关系与默认 yè 来源，不解除原审的来源身份待审状态。","叶片意象不推定生命力、健康、性格或五行，采用主题须结合完整姓名。"]},
+    {"char":"萧","pinyin":"xiāo","tone":1,"rawEntryIndex":125387,"rawHeteronymIndex":0,"rawDefinitionIndex":0,"sourcePOS":"名","dictionarySense":"一種香草。即艾蒿。","projectMeaning":"取艾蒿这一具体香草意象。","limits":["原条另有寂寥、冷清等义，完整姓名仍须消歧。","香草主题不推定品格、健康、药效或运势。"]}
+  ]
+}

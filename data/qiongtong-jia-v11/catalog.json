@@ -1,0 +1,6003 @@
+{
+  "schema": "qiongtong-jia-branch-catalog/1.1.0",
+  "version": "qiongtong-jia-literal-conditions/1.1.0",
+  "batch": "M588-CORE-batch-1",
+  "school": "qiongtong-wikisource-2294674",
+  "source": {
+    "id": "bazi-monthly-qiongtong-2294674",
+    "revision": "wikisource-revision/2294674",
+    "rawSha256": "8ba17242f116583de2e10172e006f5ce5f74b23ccfc0bd24b886be135e9f20bd",
+    "chapterSpan": {
+      "start": 1292,
+      "end": 5220,
+      "unit": "unicode-codepoint",
+      "interval": "[start,end)"
+    },
+    "chapterCodepoints": 3928,
+    "license": "CC-BY-SA-4.0",
+    "scanCollation": false
+  },
+  "coveragePolicy": {
+    "fullSourceAlignment": true,
+    "fullSemanticBranchClosure": false,
+    "firstBatchOnly": true,
+    "sharedParagraphsCountedInEachReferencedMonth": true,
+    "scopeUnresolvedParagraphsNotApplicabilityRules": true,
+    "sentenceLedger": "source-only evidence/full-sentence-ledger.json; all non-executable source text remains visible there, no historical outcome text returned by the evaluator"
+  },
+  "paragraphs": [
+    {
+      "id": "jia-paragraph-01",
+      "sourceSpan": {
+        "start": 1292,
+        "end": 1325,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sha256": "af24272c8fd27d54f38f30624bfcceac46d33aa0413d3d7228b91044a101424e",
+      "reviewMonthReferences": [],
+      "monthScope": "chapter-heading",
+      "semanticReview": "branch-anchors-reviewed; remainder-not-a-complete-rule",
+      "branchIds": []
+    },
+    {
+      "id": "jia-paragraph-02",
+      "sourceSpan": {
+        "start": 1327,
+        "end": 1489,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sha256": "9465a13e9baab1eef88a20e64c66b7086ff38a9718f293c97d6473f011139603",
+      "reviewMonthReferences": [
+        "寅",
+        "卯",
+        "辰"
+      ],
+      "monthScope": "shared-spring-context",
+      "semanticReview": "branch-anchors-reviewed; remainder-not-a-complete-rule",
+      "branchIds": [
+        "jia-paragraph-02-branch-01",
+        "jia-paragraph-02-branch-02",
+        "jia-paragraph-02-branch-03",
+        "jia-paragraph-02-branch-04",
+        "jia-paragraph-02-branch-05",
+        "jia-paragraph-02-branch-06"
+      ]
+    },
+    {
+      "id": "jia-paragraph-03",
+      "sourceSpan": {
+        "start": 1491,
+        "end": 1559,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sha256": "0a87929c6c80f37ba877bd730bfa1fd17755709cd430abb5fe257c43abb9e365",
+      "reviewMonthReferences": [
+        "寅"
+      ],
+      "monthScope": "explicit-month",
+      "semanticReview": "branch-anchors-reviewed; remainder-not-a-complete-rule",
+      "branchIds": [
+        "jia-paragraph-03-branch-01",
+        "jia-paragraph-03-branch-02",
+        "jia-paragraph-03-branch-03"
+      ]
+    },
+    {
+      "id": "jia-paragraph-04",
+      "sourceSpan": {
+        "start": 1561,
+        "end": 1761,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sha256": "75bccef303b75d4770ebe2f7353ec9fe58ca700e2437e4b2811ae1632539c688",
+      "reviewMonthReferences": [
+        "寅",
+        "卯"
+      ],
+      "monthScope": "explicit-shared-months",
+      "semanticReview": "branch-anchors-reviewed; remainder-not-a-complete-rule",
+      "branchIds": [
+        "jia-paragraph-04-branch-01",
+        "jia-paragraph-04-branch-02",
+        "jia-paragraph-04-branch-03",
+        "jia-paragraph-04-branch-04",
+        "jia-paragraph-04-branch-05",
+        "jia-paragraph-04-branch-06",
+        "jia-paragraph-04-branch-07",
+        "jia-paragraph-04-branch-08"
+      ]
+    },
+    {
+      "id": "jia-paragraph-05",
+      "sourceSpan": {
+        "start": 1763,
+        "end": 1813,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sha256": "a7c96f952ecf09aa44bc70414e38442638bbe39f99116d72e6e1952d7e419f9a",
+      "reviewMonthReferences": [
+        "寅",
+        "卯"
+      ],
+      "monthScope": "continuation-under-spring-shared-months",
+      "semanticReview": "branch-anchors-reviewed; remainder-not-a-complete-rule",
+      "branchIds": [
+        "jia-paragraph-05-branch-01",
+        "jia-paragraph-05-branch-02",
+        "jia-paragraph-05-branch-03"
+      ]
+    },
+    {
+      "id": "jia-paragraph-06",
+      "sourceSpan": {
+        "start": 1815,
+        "end": 1964,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sha256": "85d9089a8b70e7adc1ef68f649c2b2e03e1ac26b2452f24dbb4bc58f82d1cab3",
+      "reviewMonthReferences": [
+        "寅",
+        "卯",
+        "辰"
+      ],
+      "monthScope": "spring-continuation-month-scope-unresolved",
+      "semanticReview": "branch-anchors-reviewed; remainder-not-a-complete-rule",
+      "branchIds": [
+        "jia-paragraph-06-branch-01",
+        "jia-paragraph-06-branch-02",
+        "jia-paragraph-06-branch-03",
+        "jia-paragraph-06-branch-04",
+        "jia-paragraph-06-branch-05",
+        "jia-paragraph-06-branch-06"
+      ]
+    },
+    {
+      "id": "jia-paragraph-07",
+      "sourceSpan": {
+        "start": 1966,
+        "end": 1996,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sha256": "0ce503f14fc5faef63d480046184fe14bebd1f2ce6621636b4eaefe985ef18c9",
+      "reviewMonthReferences": [
+        "寅",
+        "卯",
+        "辰"
+      ],
+      "monthScope": "historical-kin-assertions-only",
+      "semanticReview": "branch-anchors-reviewed; remainder-not-a-complete-rule",
+      "branchIds": []
+    },
+    {
+      "id": "jia-paragraph-08",
+      "sourceSpan": {
+        "start": 1998,
+        "end": 2026,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sha256": "1a478fcbb6d1816e2a50827094c76f2a740f125d92177c286341a26b7fa997ed",
+      "reviewMonthReferences": [
+        "寅",
+        "卯"
+      ],
+      "monthScope": "explicit-shared-months",
+      "semanticReview": "branch-anchors-reviewed; remainder-not-a-complete-rule",
+      "branchIds": [
+        "jia-paragraph-08-branch-01",
+        "jia-paragraph-08-branch-02"
+      ]
+    },
+    {
+      "id": "jia-paragraph-09",
+      "sourceSpan": {
+        "start": 2028,
+        "end": 2150,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sha256": "57429b37dd1ac59536761e9310494b45e0bd7d0152fdff1eed9e535baef7cb96",
+      "reviewMonthReferences": [
+        "卯"
+      ],
+      "monthScope": "explicit-month",
+      "semanticReview": "branch-anchors-reviewed; remainder-not-a-complete-rule",
+      "branchIds": [
+        "jia-paragraph-09-branch-01",
+        "jia-paragraph-09-branch-02",
+        "jia-paragraph-09-branch-03",
+        "jia-paragraph-09-branch-04",
+        "jia-paragraph-09-branch-05"
+      ]
+    },
+    {
+      "id": "jia-paragraph-10",
+      "sourceSpan": {
+        "start": 2152,
+        "end": 2205,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sha256": "4b98b302bd2c50835cbb380fdc7526c14a7701a9a14ab1b998a3be43d3a6292f",
+      "reviewMonthReferences": [
+        "辰"
+      ],
+      "monthScope": "explicit-month",
+      "semanticReview": "branch-anchors-reviewed; remainder-not-a-complete-rule",
+      "branchIds": [
+        "jia-paragraph-10-branch-01",
+        "jia-paragraph-10-branch-02",
+        "jia-paragraph-10-branch-03"
+      ]
+    },
+    {
+      "id": "jia-paragraph-11",
+      "sourceSpan": {
+        "start": 2207,
+        "end": 2231,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sha256": "c74f2cf5f746166d11cb2590831d64aab9182e2772e942fadb17dab7fa123df5",
+      "reviewMonthReferences": [
+        "辰"
+      ],
+      "monthScope": "month-continuation",
+      "semanticReview": "branch-anchors-reviewed; remainder-not-a-complete-rule",
+      "branchIds": [
+        "jia-paragraph-11-branch-01",
+        "jia-paragraph-11-branch-02"
+      ]
+    },
+    {
+      "id": "jia-paragraph-12",
+      "sourceSpan": {
+        "start": 2233,
+        "end": 2269,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sha256": "25fc4568d85ca553b9ce40ac63f4eed3326190761085d842b453d7e0ea4bc7df",
+      "reviewMonthReferences": [
+        "辰"
+      ],
+      "monthScope": "month-continuation",
+      "semanticReview": "branch-anchors-reviewed; remainder-not-a-complete-rule",
+      "branchIds": [
+        "jia-paragraph-12-branch-01",
+        "jia-paragraph-12-branch-02"
+      ]
+    },
+    {
+      "id": "jia-paragraph-13",
+      "sourceSpan": {
+        "start": 2271,
+        "end": 2308,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sha256": "5a1f08648560e934762743c7847f089439f8a44a1f7735e34c29a84d2f6e3466",
+      "reviewMonthReferences": [
+        "辰"
+      ],
+      "monthScope": "month-continuation",
+      "semanticReview": "branch-anchors-reviewed; remainder-not-a-complete-rule",
+      "branchIds": [
+        "jia-paragraph-13-branch-01"
+      ]
+    },
+    {
+      "id": "jia-paragraph-14",
+      "sourceSpan": {
+        "start": 2310,
+        "end": 2367,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sha256": "906d6caf970fabbe0426f3920839f1ca9fe85f3f2d7d3d95cd619021ab8a0720",
+      "reviewMonthReferences": [
+        "辰"
+      ],
+      "monthScope": "month-continuation",
+      "semanticReview": "branch-anchors-reviewed; remainder-not-a-complete-rule",
+      "branchIds": [
+        "jia-paragraph-14-branch-01"
+      ]
+    },
+    {
+      "id": "jia-paragraph-15",
+      "sourceSpan": {
+        "start": 2369,
+        "end": 2400,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sha256": "3cfc8e58ece6991a68a961c286befd17d3f1b2f718c35986d942122ace229feb",
+      "reviewMonthReferences": [
+        "辰"
+      ],
+      "monthScope": "month-continuation",
+      "semanticReview": "branch-anchors-reviewed; remainder-not-a-complete-rule",
+      "branchIds": [
+        "jia-paragraph-15-branch-01",
+        "jia-paragraph-15-branch-02",
+        "jia-paragraph-15-branch-03"
+      ]
+    },
+    {
+      "id": "jia-paragraph-16",
+      "sourceSpan": {
+        "start": 2402,
+        "end": 2429,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sha256": "c7305c633ea2dea963a85034708809266978ea770849b8a5de128c6e7bcceeb4",
+      "reviewMonthReferences": [
+        "寅",
+        "卯"
+      ],
+      "monthScope": "cross-month-quoted-rule",
+      "semanticReview": "branch-anchors-reviewed; remainder-not-a-complete-rule",
+      "branchIds": [
+        "jia-paragraph-16-branch-01"
+      ]
+    },
+    {
+      "id": "jia-paragraph-17",
+      "sourceSpan": {
+        "start": 2431,
+        "end": 2467,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sha256": "cb8b8ed8a3d3a546b7d2d457086d48bee23aa1654ab219420d7911115a672930",
+      "reviewMonthReferences": [
+        "巳"
+      ],
+      "monthScope": "explicit-month",
+      "semanticReview": "branch-anchors-reviewed; remainder-not-a-complete-rule",
+      "branchIds": [
+        "jia-paragraph-17-branch-01",
+        "jia-paragraph-17-branch-02"
+      ]
+    },
+    {
+      "id": "jia-paragraph-18",
+      "sourceSpan": {
+        "start": 2469,
+        "end": 2530,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sha256": "87407dda869689126514556ecaab8d010c52239c29ce9cc6f387df9e1ff7fb24",
+      "reviewMonthReferences": [
+        "巳"
+      ],
+      "monthScope": "month-continuation",
+      "semanticReview": "branch-anchors-reviewed; remainder-not-a-complete-rule",
+      "branchIds": [
+        "jia-paragraph-18-branch-01",
+        "jia-paragraph-18-branch-02"
+      ]
+    },
+    {
+      "id": "jia-paragraph-19",
+      "sourceSpan": {
+        "start": 2532,
+        "end": 2553,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sha256": "feeaaab4db10f394dec9ffd7059eb1934cf7bae7e832ec282cef789392e88a01",
+      "reviewMonthReferences": [
+        "巳"
+      ],
+      "monthScope": "month-continuation",
+      "semanticReview": "branch-anchors-reviewed; remainder-not-a-complete-rule",
+      "branchIds": [
+        "jia-paragraph-19-branch-01",
+        "jia-paragraph-19-branch-02"
+      ]
+    },
+    {
+      "id": "jia-paragraph-20",
+      "sourceSpan": {
+        "start": 2555,
+        "end": 2642,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sha256": "1fa692d8a3a910121a048d84252d0cb8119b987b01c13b7a3e2807b0ab8906a7",
+      "reviewMonthReferences": [
+        "巳"
+      ],
+      "monthScope": "month-continuation",
+      "semanticReview": "branch-anchors-reviewed; remainder-not-a-complete-rule",
+      "branchIds": [
+        "jia-paragraph-20-branch-01",
+        "jia-paragraph-20-branch-02",
+        "jia-paragraph-20-branch-03",
+        "jia-paragraph-20-branch-04"
+      ]
+    },
+    {
+      "id": "jia-paragraph-21",
+      "sourceSpan": {
+        "start": 2644,
+        "end": 2718,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sha256": "7530ce604173aa82fd77e0ed69e79e20993e33fbe9d198691c0d8544a2caf0f0",
+      "reviewMonthReferences": [
+        "午",
+        "未"
+      ],
+      "monthScope": "explicit-shared-months",
+      "semanticReview": "branch-anchors-reviewed; remainder-not-a-complete-rule",
+      "branchIds": [
+        "jia-paragraph-21-branch-01",
+        "jia-paragraph-21-branch-02",
+        "jia-paragraph-21-branch-03"
+      ]
+    },
+    {
+      "id": "jia-paragraph-22",
+      "sourceSpan": {
+        "start": 2720,
+        "end": 2797,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sha256": "de6127115e218e8227da291228f09d6728fe7a0179c6ae66a8e45e3b13b53371",
+      "reviewMonthReferences": [
+        "午",
+        "未"
+      ],
+      "monthScope": "luck-cycle-claims-not-natal-rules",
+      "semanticReview": "branch-anchors-reviewed; remainder-not-a-complete-rule",
+      "branchIds": []
+    },
+    {
+      "id": "jia-paragraph-23",
+      "sourceSpan": {
+        "start": 2799,
+        "end": 2816,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sha256": "b2cc50463fa4c3271585653e8824ac576a4a34512e957c51d5cbe432f482268a",
+      "reviewMonthReferences": [
+        "午",
+        "未"
+      ],
+      "monthScope": "generic-advice-in-shared-month-context",
+      "semanticReview": "branch-anchors-reviewed; remainder-not-a-complete-rule",
+      "branchIds": [
+        "jia-paragraph-23-branch-01"
+      ]
+    },
+    {
+      "id": "jia-paragraph-24",
+      "sourceSpan": {
+        "start": 2818,
+        "end": 2894,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sha256": "673cde6ee0baedff48f1a79ce28cdb7b1f8b4d042ee024783c1e4b2f02ac5766",
+      "reviewMonthReferences": [
+        "午",
+        "未"
+      ],
+      "monthScope": "explicit-shared-months",
+      "semanticReview": "branch-anchors-reviewed; remainder-not-a-complete-rule",
+      "branchIds": [
+        "jia-paragraph-24-branch-01",
+        "jia-paragraph-24-branch-02",
+        "jia-paragraph-24-branch-03",
+        "jia-paragraph-24-branch-04"
+      ]
+    },
+    {
+      "id": "jia-paragraph-25",
+      "sourceSpan": {
+        "start": 2896,
+        "end": 2956,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sha256": "afe1746fddb2dfaed9a333804bc468587eff0be492d148a917a04ba9f10eaf7f",
+      "reviewMonthReferences": [
+        "午",
+        "未"
+      ],
+      "monthScope": "shared-month-continuation",
+      "semanticReview": "branch-anchors-reviewed; remainder-not-a-complete-rule",
+      "branchIds": [
+        "jia-paragraph-25-branch-01",
+        "jia-paragraph-25-branch-02"
+      ]
+    },
+    {
+      "id": "jia-paragraph-26",
+      "sourceSpan": {
+        "start": 2958,
+        "end": 3026,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sha256": "d6819897608df22807f08e62fa4c11aa96bd5796e0991bfe2d942659ce0e3394",
+      "reviewMonthReferences": [
+        "午",
+        "未"
+      ],
+      "monthScope": "shared-month-continuation",
+      "semanticReview": "branch-anchors-reviewed; remainder-not-a-complete-rule",
+      "branchIds": [
+        "jia-paragraph-26-branch-01",
+        "jia-paragraph-26-branch-02"
+      ]
+    },
+    {
+      "id": "jia-paragraph-27",
+      "sourceSpan": {
+        "start": 3028,
+        "end": 3074,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sha256": "5fc095c8c5eacf049a215f55b5fa6d0510d258db5fc77f1ab14272d4b56f1b60",
+      "reviewMonthReferences": [
+        "午",
+        "未"
+      ],
+      "monthScope": "historical-personality-assertions-only",
+      "semanticReview": "branch-anchors-reviewed; remainder-not-a-complete-rule",
+      "branchIds": []
+    },
+    {
+      "id": "jia-paragraph-28",
+      "sourceSpan": {
+        "start": 3076,
+        "end": 3096,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sha256": "1ec553184618978bccd45397c288abbcc45f4be0851de25bb6ee2e3c84eafe80",
+      "reviewMonthReferences": [
+        "午",
+        "未"
+      ],
+      "monthScope": "shared-month-continuation",
+      "semanticReview": "branch-anchors-reviewed; remainder-not-a-complete-rule",
+      "branchIds": [
+        "jia-paragraph-28-branch-01"
+      ]
+    },
+    {
+      "id": "jia-paragraph-29",
+      "sourceSpan": {
+        "start": 3098,
+        "end": 3161,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sha256": "7a826da572af4839e67d4159f737f7e549e084298240342a5765833f1bd658ae",
+      "reviewMonthReferences": [
+        "午",
+        "未"
+      ],
+      "monthScope": "shared-month-continuation",
+      "semanticReview": "branch-anchors-reviewed; remainder-not-a-complete-rule",
+      "branchIds": [
+        "jia-paragraph-29-branch-01",
+        "jia-paragraph-29-branch-02",
+        "jia-paragraph-29-branch-03"
+      ]
+    },
+    {
+      "id": "jia-paragraph-30",
+      "sourceSpan": {
+        "start": 3163,
+        "end": 3259,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sha256": "67b03853ab02e87b20242a2adc4d826fa67c11ea270d8ce318bc24530330c3af",
+      "reviewMonthReferences": [
+        "未"
+      ],
+      "monthScope": "explicit-june-plus-generic-kin-followup",
+      "semanticReview": "branch-anchors-reviewed; remainder-not-a-complete-rule",
+      "branchIds": [
+        "jia-paragraph-30-branch-01",
+        "jia-paragraph-30-branch-02"
+      ]
+    },
+    {
+      "id": "jia-paragraph-31",
+      "sourceSpan": {
+        "start": 3261,
+        "end": 3309,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sha256": "8d4c395540c4b3236edd549fc51f01f4b5c799d192adc48f87948874fbfa4a21",
+      "reviewMonthReferences": [
+        "午",
+        "未"
+      ],
+      "monthScope": "shared-month-continuation",
+      "semanticReview": "branch-anchors-reviewed; remainder-not-a-complete-rule",
+      "branchIds": [
+        "jia-paragraph-31-branch-01",
+        "jia-paragraph-31-branch-02",
+        "jia-paragraph-31-branch-03"
+      ]
+    },
+    {
+      "id": "jia-paragraph-32",
+      "sourceSpan": {
+        "start": 3311,
+        "end": 3471,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sha256": "9b9086aef95d88218f2517880ce32c738c31b91868a497e4fe02b16abe650e42",
+      "reviewMonthReferences": [
+        "申",
+        "酉",
+        "戌"
+      ],
+      "monthScope": "shared-autumn-context",
+      "semanticReview": "branch-anchors-reviewed; remainder-not-a-complete-rule",
+      "branchIds": [
+        "jia-paragraph-32-branch-01",
+        "jia-paragraph-32-branch-02",
+        "jia-paragraph-32-branch-03",
+        "jia-paragraph-32-branch-04",
+        "jia-paragraph-32-branch-05"
+      ]
+    },
+    {
+      "id": "jia-paragraph-33",
+      "sourceSpan": {
+        "start": 3473,
+        "end": 3501,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sha256": "0c0462290dafab2d231103633363979b3c6fbb18a57ac98ea9dc6af2db21c109",
+      "reviewMonthReferences": [
+        "申",
+        "酉",
+        "戌"
+      ],
+      "monthScope": "shared-autumn-context",
+      "semanticReview": "branch-anchors-reviewed; remainder-not-a-complete-rule",
+      "branchIds": [
+        "jia-paragraph-33-branch-01",
+        "jia-paragraph-33-branch-02"
+      ]
+    },
+    {
+      "id": "jia-paragraph-34",
+      "sourceSpan": {
+        "start": 3503,
+        "end": 3590,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sha256": "528e8f7ad70fd2bec334b57df38bacad05d629e054fea09289145416dd2bd252",
+      "reviewMonthReferences": [
+        "申",
+        "酉",
+        "戌"
+      ],
+      "monthScope": "shared-autumn-context",
+      "semanticReview": "branch-anchors-reviewed; remainder-not-a-complete-rule",
+      "branchIds": [
+        "jia-paragraph-34-branch-01",
+        "jia-paragraph-34-branch-02"
+      ]
+    },
+    {
+      "id": "jia-paragraph-35",
+      "sourceSpan": {
+        "start": 3592,
+        "end": 3638,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sha256": "f0e4fca39f0295934b699c8f7c630adf882b4263feb567ad117e346b48ccab2c",
+      "reviewMonthReferences": [
+        "申",
+        "酉",
+        "戌"
+      ],
+      "monthScope": "shared-autumn-context",
+      "semanticReview": "branch-anchors-reviewed; remainder-not-a-complete-rule",
+      "branchIds": [
+        "jia-paragraph-35-branch-01"
+      ]
+    },
+    {
+      "id": "jia-paragraph-36",
+      "sourceSpan": {
+        "start": 3640,
+        "end": 3701,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sha256": "d8c12aedd0bb3c3b02b36bc1dae3ae149a928db006c9651b38a9e0d9a2dd60c9",
+      "reviewMonthReferences": [
+        "申",
+        "酉",
+        "戌"
+      ],
+      "monthScope": "shared-autumn-context",
+      "semanticReview": "branch-anchors-reviewed; remainder-not-a-complete-rule",
+      "branchIds": [
+        "jia-paragraph-36-branch-01"
+      ]
+    },
+    {
+      "id": "jia-paragraph-37",
+      "sourceSpan": {
+        "start": 3703,
+        "end": 3791,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sha256": "f69055db245725c1ea5b93945c4f8d56e35fe9c4ff9d3144b1cc456bf536dafd",
+      "reviewMonthReferences": [
+        "申"
+      ],
+      "monthScope": "explicit-month",
+      "semanticReview": "branch-anchors-reviewed; remainder-not-a-complete-rule",
+      "branchIds": [
+        "jia-paragraph-37-branch-01",
+        "jia-paragraph-37-branch-02",
+        "jia-paragraph-37-branch-03",
+        "jia-paragraph-37-branch-04"
+      ]
+    },
+    {
+      "id": "jia-paragraph-38",
+      "sourceSpan": {
+        "start": 3793,
+        "end": 3824,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sha256": "19a4b5309eee544f0bf09c45bc6a29eb2298c79b075670dc950754a97bd46910",
+      "reviewMonthReferences": [
+        "酉"
+      ],
+      "monthScope": "explicit-month",
+      "semanticReview": "branch-anchors-reviewed; remainder-not-a-complete-rule",
+      "branchIds": [
+        "jia-paragraph-38-branch-01"
+      ]
+    },
+    {
+      "id": "jia-paragraph-39",
+      "sourceSpan": {
+        "start": 3826,
+        "end": 3846,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sha256": "fc03b5c4fdc6b960656eaaf192cdd5f029d0b65501bb610ec0f941b0f0b86693",
+      "reviewMonthReferences": [
+        "酉"
+      ],
+      "monthScope": "month-continuation",
+      "semanticReview": "branch-anchors-reviewed; remainder-not-a-complete-rule",
+      "branchIds": [
+        "jia-paragraph-39-branch-01",
+        "jia-paragraph-39-branch-02"
+      ]
+    },
+    {
+      "id": "jia-paragraph-40",
+      "sourceSpan": {
+        "start": 3848,
+        "end": 3868,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sha256": "4fbefddb61c1d95594b85e2ccfca0121f2166b3870576aab8039f8b60fd85b27",
+      "reviewMonthReferences": [
+        "酉"
+      ],
+      "monthScope": "month-continuation",
+      "semanticReview": "branch-anchors-reviewed; remainder-not-a-complete-rule",
+      "branchIds": [
+        "jia-paragraph-40-branch-01",
+        "jia-paragraph-40-branch-02"
+      ]
+    },
+    {
+      "id": "jia-paragraph-41",
+      "sourceSpan": {
+        "start": 3870,
+        "end": 3890,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sha256": "875e9cbf5dc7575d5ca210b6a2551c32c389114df3cadf187f4388fb67d00dba",
+      "reviewMonthReferences": [
+        "酉"
+      ],
+      "monthScope": "month-continuation",
+      "semanticReview": "branch-anchors-reviewed; remainder-not-a-complete-rule",
+      "branchIds": [
+        "jia-paragraph-41-branch-01",
+        "jia-paragraph-41-branch-02"
+      ]
+    },
+    {
+      "id": "jia-paragraph-42",
+      "sourceSpan": {
+        "start": 3892,
+        "end": 3912,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sha256": "29e5c4ef44c0e306f16b00c854d8787dd865ce0499802e1c82c1aa312eee4321",
+      "reviewMonthReferences": [
+        "酉"
+      ],
+      "monthScope": "month-continuation",
+      "semanticReview": "branch-anchors-reviewed; remainder-not-a-complete-rule",
+      "branchIds": [
+        "jia-paragraph-42-branch-01",
+        "jia-paragraph-42-branch-02"
+      ]
+    },
+    {
+      "id": "jia-paragraph-43",
+      "sourceSpan": {
+        "start": 3914,
+        "end": 3949,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sha256": "0f762100b0024e72b91deb7a73085c1261c226e918028782e6db3d6af2bf8d62",
+      "reviewMonthReferences": [
+        "酉"
+      ],
+      "monthScope": "month-continuation",
+      "semanticReview": "branch-anchors-reviewed; remainder-not-a-complete-rule",
+      "branchIds": [
+        "jia-paragraph-43-branch-01",
+        "jia-paragraph-43-branch-02"
+      ]
+    },
+    {
+      "id": "jia-paragraph-44",
+      "sourceSpan": {
+        "start": 3951,
+        "end": 3974,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sha256": "4649e93836265c13290004fe890bba2f7145c5beb900b4f61bce07e5c207613c",
+      "reviewMonthReferences": [
+        "酉"
+      ],
+      "monthScope": "month-continuation",
+      "semanticReview": "branch-anchors-reviewed; remainder-not-a-complete-rule",
+      "branchIds": [
+        "jia-paragraph-44-branch-01"
+      ]
+    },
+    {
+      "id": "jia-paragraph-45",
+      "sourceSpan": {
+        "start": 3976,
+        "end": 4034,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sha256": "15f8d7f11b1c25617b97ae3c3ffb17dde99587efd634aac36df7a475c432cb46",
+      "reviewMonthReferences": [
+        "戌"
+      ],
+      "monthScope": "explicit-month",
+      "semanticReview": "branch-anchors-reviewed; remainder-not-a-complete-rule",
+      "branchIds": [
+        "jia-paragraph-45-branch-01",
+        "jia-paragraph-45-branch-02",
+        "jia-paragraph-45-branch-03"
+      ]
+    },
+    {
+      "id": "jia-paragraph-46",
+      "sourceSpan": {
+        "start": 4036,
+        "end": 4143,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sha256": "a91bdb90d69917a6bb56fa5c90452c1ef920ef21ef85bd9ff8e92ba39fc0d866",
+      "reviewMonthReferences": [
+        "戌"
+      ],
+      "monthScope": "month-continuation",
+      "semanticReview": "branch-anchors-reviewed; remainder-not-a-complete-rule",
+      "branchIds": [
+        "jia-paragraph-46-branch-01",
+        "jia-paragraph-46-branch-02",
+        "jia-paragraph-46-branch-03"
+      ]
+    },
+    {
+      "id": "jia-paragraph-47",
+      "sourceSpan": {
+        "start": 4145,
+        "end": 4233,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sha256": "486af5d49a2be4cd901824be1b3134b48308deede218bac92d682206213ba90f",
+      "reviewMonthReferences": [
+        "戌"
+      ],
+      "monthScope": "month-plus-generic-seasonal-advice",
+      "semanticReview": "branch-anchors-reviewed; remainder-not-a-complete-rule",
+      "branchIds": [
+        "jia-paragraph-47-branch-01",
+        "jia-paragraph-47-branch-02"
+      ]
+    },
+    {
+      "id": "jia-paragraph-48",
+      "sourceSpan": {
+        "start": 4235,
+        "end": 4263,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sha256": "cfb9b64850e222e3ed2440edf40b11060f9beacdbd47042a4807a7e29423d2bd",
+      "reviewMonthReferences": [
+        "戌"
+      ],
+      "monthScope": "generic-claim-under-autumn-context",
+      "semanticReview": "branch-anchors-reviewed; remainder-not-a-complete-rule",
+      "branchIds": [
+        "jia-paragraph-48-branch-01"
+      ]
+    },
+    {
+      "id": "jia-paragraph-49",
+      "sourceSpan": {
+        "start": 4265,
+        "end": 4335,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sha256": "74a446efad894fd4c85256fc667551ee1f275ee79e6ca7f305fcf2df0e16c16a",
+      "reviewMonthReferences": [
+        "戌"
+      ],
+      "monthScope": "month-continuation",
+      "semanticReview": "branch-anchors-reviewed; remainder-not-a-complete-rule",
+      "branchIds": [
+        "jia-paragraph-49-branch-01",
+        "jia-paragraph-49-branch-02",
+        "jia-paragraph-49-branch-03"
+      ]
+    },
+    {
+      "id": "jia-paragraph-50",
+      "sourceSpan": {
+        "start": 4337,
+        "end": 4377,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sha256": "496b784ea1917ff78fb1a5d093c5174f2df9c298e8ac5a961b860c0589d8e9ba",
+      "reviewMonthReferences": [
+        "戌"
+      ],
+      "monthScope": "month-continuation",
+      "semanticReview": "branch-anchors-reviewed; remainder-not-a-complete-rule",
+      "branchIds": [
+        "jia-paragraph-50-branch-01"
+      ]
+    },
+    {
+      "id": "jia-paragraph-51",
+      "sourceSpan": {
+        "start": 4379,
+        "end": 4415,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sha256": "e5e5ad9a0713fefee22f9353afa0ae24a431ffe5c5f30fe4a17c0ca512b97569",
+      "reviewMonthReferences": [
+        "戌"
+      ],
+      "monthScope": "month-continuation",
+      "semanticReview": "branch-anchors-reviewed; remainder-not-a-complete-rule",
+      "branchIds": [
+        "jia-paragraph-51-branch-01"
+      ]
+    },
+    {
+      "id": "jia-paragraph-52",
+      "sourceSpan": {
+        "start": 4417,
+        "end": 4502,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sha256": "5dc99517f3d7bbd7672f9dc0d18a8b73c124f570fadccd4f420a368b7a6b6b59",
+      "reviewMonthReferences": [
+        "戌"
+      ],
+      "monthScope": "month-plus-generic-advice",
+      "semanticReview": "branch-anchors-reviewed; remainder-not-a-complete-rule",
+      "branchIds": [
+        "jia-paragraph-52-branch-01",
+        "jia-paragraph-52-branch-02",
+        "jia-paragraph-52-branch-03",
+        "jia-paragraph-52-branch-04"
+      ]
+    },
+    {
+      "id": "jia-paragraph-53",
+      "sourceSpan": {
+        "start": 4504,
+        "end": 4579,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sha256": "f4229a686c783b019b4a1de8daf962bf5e1bc8a9699f0b1136a42c4c412d069d",
+      "reviewMonthReferences": [
+        "戌"
+      ],
+      "monthScope": "month-continuation",
+      "semanticReview": "branch-anchors-reviewed; remainder-not-a-complete-rule",
+      "branchIds": [
+        "jia-paragraph-53-branch-01",
+        "jia-paragraph-53-branch-02",
+        "jia-paragraph-53-branch-03",
+        "jia-paragraph-53-branch-04"
+      ]
+    },
+    {
+      "id": "jia-paragraph-54",
+      "sourceSpan": {
+        "start": 4581,
+        "end": 4623,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sha256": "7c90efea33d0ffdd964d82587339b0aa4e842ce8d9526d9105d869002c594061",
+      "reviewMonthReferences": [
+        "寅",
+        "卯"
+      ],
+      "monthScope": "cross-month-luck-cycle-claims",
+      "semanticReview": "branch-anchors-reviewed; remainder-not-a-complete-rule",
+      "branchIds": [
+        "jia-paragraph-54-branch-01",
+        "jia-paragraph-54-branch-02"
+      ]
+    },
+    {
+      "id": "jia-paragraph-55",
+      "sourceSpan": {
+        "start": 4625,
+        "end": 4671,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sha256": "744dd1973ed26f5c485c44aedd4a7f7c8d8923fdcd8d835f93d8c1cb556b0b0a",
+      "reviewMonthReferences": [
+        "亥"
+      ],
+      "monthScope": "explicit-month",
+      "semanticReview": "branch-anchors-reviewed; remainder-not-a-complete-rule",
+      "branchIds": [
+        "jia-paragraph-55-branch-01",
+        "jia-paragraph-55-branch-02"
+      ]
+    },
+    {
+      "id": "jia-paragraph-56",
+      "sourceSpan": {
+        "start": 4673,
+        "end": 4740,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sha256": "6dac11b5fe73ace8e38f96844572a87dc3255459e3fad48d6cff7b7eed88445c",
+      "reviewMonthReferences": [
+        "亥"
+      ],
+      "monthScope": "month-continuation",
+      "semanticReview": "branch-anchors-reviewed; remainder-not-a-complete-rule",
+      "branchIds": [
+        "jia-paragraph-56-branch-01",
+        "jia-paragraph-56-branch-02",
+        "jia-paragraph-56-branch-03",
+        "jia-paragraph-56-branch-04"
+      ]
+    },
+    {
+      "id": "jia-paragraph-57",
+      "sourceSpan": {
+        "start": 4742,
+        "end": 4806,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sha256": "b6eddb3d0772b2fba8aa6463ef2a15654086b79e115c7023648847111adf9e9a",
+      "reviewMonthReferences": [
+        "亥"
+      ],
+      "monthScope": "month-continuation",
+      "semanticReview": "branch-anchors-reviewed; remainder-not-a-complete-rule",
+      "branchIds": [
+        "jia-paragraph-57-branch-01",
+        "jia-paragraph-57-branch-02",
+        "jia-paragraph-57-branch-03"
+      ]
+    },
+    {
+      "id": "jia-paragraph-58",
+      "sourceSpan": {
+        "start": 4808,
+        "end": 4824,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sha256": "aa10c2842ab4fc0208d7c22961bbbf1b00790a47813d20f71548c86214062db3",
+      "reviewMonthReferences": [
+        "亥"
+      ],
+      "monthScope": "historical-kin-assertions-only",
+      "semanticReview": "branch-anchors-reviewed; remainder-not-a-complete-rule",
+      "branchIds": []
+    },
+    {
+      "id": "jia-paragraph-59",
+      "sourceSpan": {
+        "start": 4826,
+        "end": 4927,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sha256": "7798b08a5db8c3fb47f2310800579c465c4459cc3eed01ccb2157efb60939c58",
+      "reviewMonthReferences": [
+        "子"
+      ],
+      "monthScope": "explicit-month",
+      "semanticReview": "branch-anchors-reviewed; remainder-not-a-complete-rule",
+      "branchIds": [
+        "jia-paragraph-59-branch-01",
+        "jia-paragraph-59-branch-02",
+        "jia-paragraph-59-branch-03",
+        "jia-paragraph-59-branch-04",
+        "jia-paragraph-59-branch-05",
+        "jia-paragraph-59-branch-06"
+      ]
+    },
+    {
+      "id": "jia-paragraph-60",
+      "sourceSpan": {
+        "start": 4929,
+        "end": 4952,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sha256": "2583459056917ba9a7023e0fb221b2ff7bf06a2b37cd14082f1b21f39e2f4714",
+      "reviewMonthReferences": [
+        "子"
+      ],
+      "monthScope": "month-continuation",
+      "semanticReview": "branch-anchors-reviewed; remainder-not-a-complete-rule",
+      "branchIds": [
+        "jia-paragraph-60-branch-01"
+      ]
+    },
+    {
+      "id": "jia-paragraph-61",
+      "sourceSpan": {
+        "start": 4954,
+        "end": 4995,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sha256": "91332c25f337204c8c72ff987e5392c86b469fb3bceda7de3394e811720426f2",
+      "reviewMonthReferences": [
+        "子"
+      ],
+      "monthScope": "month-summary",
+      "semanticReview": "branch-anchors-reviewed; remainder-not-a-complete-rule",
+      "branchIds": [
+        "jia-paragraph-61-branch-01",
+        "jia-paragraph-61-branch-02"
+      ]
+    },
+    {
+      "id": "jia-paragraph-62",
+      "sourceSpan": {
+        "start": 4997,
+        "end": 5013,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sha256": "5669f26c3212eb16e330aa506284f925a647ad8706d68119ae80d4817444d41f",
+      "reviewMonthReferences": [
+        "子"
+      ],
+      "monthScope": "historical-kin-assertions-only",
+      "semanticReview": "branch-anchors-reviewed; remainder-not-a-complete-rule",
+      "branchIds": []
+    },
+    {
+      "id": "jia-paragraph-63",
+      "sourceSpan": {
+        "start": 5015,
+        "end": 5068,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sha256": "78f9a845ff4baca442e56600d1b4cc7b1b989d1b77b9196f79e10c2af6a5588e",
+      "reviewMonthReferences": [
+        "丑"
+      ],
+      "monthScope": "explicit-month",
+      "semanticReview": "branch-anchors-reviewed; remainder-not-a-complete-rule",
+      "branchIds": [
+        "jia-paragraph-63-branch-01",
+        "jia-paragraph-63-branch-02"
+      ]
+    },
+    {
+      "id": "jia-paragraph-64",
+      "sourceSpan": {
+        "start": 5070,
+        "end": 5176,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sha256": "1b3a8e9150b7942a29f47470addf20982d0c855188f5c61ae26cbad5410ad783",
+      "reviewMonthReferences": [
+        "丑"
+      ],
+      "monthScope": "month-continuation",
+      "semanticReview": "branch-anchors-reviewed; remainder-not-a-complete-rule",
+      "branchIds": [
+        "jia-paragraph-64-branch-01",
+        "jia-paragraph-64-branch-02",
+        "jia-paragraph-64-branch-03",
+        "jia-paragraph-64-branch-04",
+        "jia-paragraph-64-branch-05",
+        "jia-paragraph-64-branch-06",
+        "jia-paragraph-64-branch-07",
+        "jia-paragraph-64-branch-08"
+      ]
+    },
+    {
+      "id": "jia-paragraph-65",
+      "sourceSpan": {
+        "start": 5178,
+        "end": 5218,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sha256": "3e10068d29238a6ec3cc8854a28891406f00c856352f6b8e162f0fda2af4dabd",
+      "reviewMonthReferences": [
+        "丑"
+      ],
+      "monthScope": "month-summary",
+      "semanticReview": "branch-anchors-reviewed; remainder-not-a-complete-rule",
+      "branchIds": [
+        "jia-paragraph-65-branch-01",
+        "jia-paragraph-65-branch-02",
+        "jia-paragraph-65-branch-03"
+      ]
+    }
+  ],
+  "branchAnchors": [
+    {
+      "id": "jia-paragraph-02-branch-01",
+      "paragraphId": "jia-paragraph-02",
+      "reviewMonthReferences": [
+        "寅",
+        "卯",
+        "辰"
+      ],
+      "scopeStatus": "shared-spring-context",
+      "sourceQuote": "初春犹有余寒",
+      "quoteSpan": {
+        "start": 1352,
+        "end": 1358,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 1327,
+        "end": 1489,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "9465a13e9baab1eef88a20e64c66b7086ff38a9718f293c97d6473f011139603",
+      "implementation": "unimplemented-definition",
+      "dependency": "初春取时边界与余寒没有操作定义。"
+    },
+    {
+      "id": "jia-paragraph-02-branch-02",
+      "paragraphId": "jia-paragraph-02",
+      "reviewMonthReferences": [
+        "寅",
+        "卯",
+        "辰"
+      ],
+      "scopeStatus": "shared-spring-context",
+      "sourceQuote": "水多变剋",
+      "quoteSpan": {
+        "start": 1372,
+        "end": 1376,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 1327,
+        "end": 1489,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "9465a13e9baab1eef88a20e64c66b7086ff38a9718f293c97d6473f011139603",
+      "implementation": "unimplemented-definition",
+      "dependency": "水多与实际变克无离散定义。"
+    },
+    {
+      "id": "jia-paragraph-02-branch-03",
+      "paragraphId": "jia-paragraph-02",
+      "reviewMonthReferences": [
+        "寅",
+        "卯",
+        "辰"
+      ],
+      "scopeStatus": "shared-spring-context",
+      "sourceQuote": "重见生旺",
+      "quoteSpan": {
+        "start": 1382,
+        "end": 1386,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 1327,
+        "end": 1489,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "9465a13e9baab1eef88a20e64c66b7086ff38a9718f293c97d6473f011139603",
+      "implementation": "unimplemented-definition",
+      "dependency": "生旺与重见不按出现数设阈值。"
+    },
+    {
+      "id": "jia-paragraph-02-branch-04",
+      "paragraphId": "jia-paragraph-02",
+      "reviewMonthReferences": [
+        "寅",
+        "卯",
+        "辰"
+      ],
+      "scopeStatus": "shared-spring-context",
+      "sourceQuote": "春末阳壮水渴",
+      "quoteSpan": {
+        "start": 1399,
+        "end": 1405,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 1327,
+        "end": 1489,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "9465a13e9baab1eef88a20e64c66b7086ff38a9718f293c97d6473f011139603",
+      "implementation": "unimplemented-definition",
+      "dependency": "春末区间、阳壮与水渴均未定义。"
+    },
+    {
+      "id": "jia-paragraph-02-branch-05",
+      "paragraphId": "jia-paragraph-02",
+      "reviewMonthReferences": [
+        "寅",
+        "卯",
+        "辰"
+      ],
+      "scopeStatus": "shared-spring-context",
+      "sourceQuote": "初春无火，增之以水",
+      "quoteSpan": {
+        "start": 1417,
+        "end": 1426,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 1327,
+        "end": 1489,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "9465a13e9baab1eef88a20e64c66b7086ff38a9718f293c97d6473f011139603",
+      "implementation": "unimplemented-definition",
+      "dependency": "无火作用域、初春与增水的有效作用未定义。"
+    },
+    {
+      "id": "jia-paragraph-02-branch-06",
+      "paragraphId": "jia-paragraph-02",
+      "reviewMonthReferences": [
+        "寅",
+        "卯",
+        "辰"
+      ],
+      "scopeStatus": "shared-spring-context",
+      "sourceQuote": "春末失水，增之以火",
+      "quoteSpan": {
+        "start": 1443,
+        "end": 1452,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 1327,
+        "end": 1489,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "9465a13e9baab1eef88a20e64c66b7086ff38a9718f293c97d6473f011139603",
+      "implementation": "unimplemented-definition",
+      "dependency": "失水作用域与有效火作用未定义。"
+    },
+    {
+      "id": "jia-paragraph-03-branch-01",
+      "paragraphId": "jia-paragraph-03",
+      "reviewMonthReferences": [
+        "寅"
+      ],
+      "scopeStatus": "explicit-month",
+      "sourceQuote": "得丙癸逢",
+      "quoteSpan": {
+        "start": 1509,
+        "end": 1513,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 1491,
+        "end": 1559,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "0a87929c6c80f37ba877bd730bfa1fd17755709cd430abb5fe257c43abb9e365",
+      "implementation": "unimplemented-definition",
+      "dependency": "逢的明藏范围未在本句固定。"
+    },
+    {
+      "id": "jia-paragraph-03-branch-02",
+      "paragraphId": "jia-paragraph-03",
+      "reviewMonthReferences": [
+        "寅"
+      ],
+      "scopeStatus": "explicit-month",
+      "sourceQuote": "癸藏丙透",
+      "quoteSpan": {
+        "start": 1519,
+        "end": 1523,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 1491,
+        "end": 1559,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "0a87929c6c80f37ba877bd730bfa1fd17755709cd430abb5fe257c43abb9e365",
+      "implementation": "first-batch-executable",
+      "dependency": "只核藏癸及明丙，非互斥明藏，未判温暖或取用。",
+      "ruleId": "jia-yin-gui-hidden-bing-exposed"
+    },
+    {
+      "id": "jia-paragraph-03-branch-03",
+      "paragraphId": "jia-paragraph-03",
+      "reviewMonthReferences": [
+        "寅"
+      ],
+      "scopeStatus": "explicit-month",
+      "sourceQuote": "如无丙癸",
+      "quoteSpan": {
+        "start": 1549,
+        "end": 1553,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 1491,
+        "end": 1559,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "0a87929c6c80f37ba877bd730bfa1fd17755709cd430abb5fe257c43abb9e365",
+      "implementation": "unimplemented-definition",
+      "dependency": "无的作用域、合取与后果不擅自解释。"
+    },
+    {
+      "id": "jia-paragraph-04-branch-01",
+      "paragraphId": "jia-paragraph-04",
+      "reviewMonthReferences": [
+        "寅",
+        "卯"
+      ],
+      "scopeStatus": "explicit-shared-months",
+      "sourceQuote": "素无取从才从杀从化之理",
+      "quoteSpan": {
+        "start": 1573,
+        "end": 1584,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 1561,
+        "end": 1761,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "75bccef303b75d4770ebe2f7353ec9fe58ca700e2437e4b2811ae1632539c688",
+      "implementation": "existing-version-only",
+      "dependency": "既有月别从格限制独立保留，不扩大到本批化气裁决。",
+      "ruleId": "jia-yin-mao-fixed-month-restriction"
+    },
+    {
+      "id": "jia-paragraph-04-branch-02",
+      "paragraphId": "jia-paragraph-04",
+      "reviewMonthReferences": [
+        "寅",
+        "卯"
+      ],
+      "scopeStatus": "explicit-shared-months",
+      "sourceQuote": "或一派庚辛",
+      "quoteSpan": {
+        "start": 1585,
+        "end": 1590,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 1561,
+        "end": 1761,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "75bccef303b75d4770ebe2f7353ec9fe58ca700e2437e4b2811ae1632539c688",
+      "implementation": "unimplemented-definition",
+      "dependency": "一派气势未定义。"
+    },
+    {
+      "id": "jia-paragraph-04-branch-03",
+      "paragraphId": "jia-paragraph-04",
+      "reviewMonthReferences": [
+        "寅",
+        "卯"
+      ],
+      "scopeStatus": "explicit-shared-months",
+      "sourceQuote": "再支会金局",
+      "quoteSpan": {
+        "start": 1602,
+        "end": 1607,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 1561,
+        "end": 1761,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "75bccef303b75d4770ebe2f7353ec9fe58ca700e2437e4b2811ae1632539c688",
+      "implementation": "unimplemented-definition",
+      "dependency": "支会成局资格未闭合，不以成员齐等同成局。"
+    },
+    {
+      "id": "jia-paragraph-04-branch-04",
+      "paragraphId": "jia-paragraph-04",
+      "reviewMonthReferences": [
+        "寅",
+        "卯"
+      ],
+      "scopeStatus": "explicit-shared-months",
+      "sourceQuote": "如无丙丁，一派壬癸，又无戊己制之",
+      "quoteSpan": {
+        "start": 1613,
+        "end": 1629,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 1561,
+        "end": 1761,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "75bccef303b75d4770ebe2f7353ec9fe58ca700e2437e4b2811ae1632539c688",
+      "implementation": "unimplemented-definition",
+      "dependency": "一派、无的范围及有效制化未闭合。"
+    },
+    {
+      "id": "jia-paragraph-04-branch-05",
+      "paragraphId": "jia-paragraph-04",
+      "reviewMonthReferences": [
+        "寅",
+        "卯"
+      ],
+      "scopeStatus": "explicit-shared-months",
+      "sourceQuote": "如一派戊己，支会金局",
+      "quoteSpan": {
+        "start": 1641,
+        "end": 1651,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 1561,
+        "end": 1761,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "75bccef303b75d4770ebe2f7353ec9fe58ca700e2437e4b2811ae1632539c688",
+      "implementation": "unimplemented-definition",
+      "dependency": "一派与支会成局未定义。"
+    },
+    {
+      "id": "jia-paragraph-04-branch-06",
+      "paragraphId": "jia-paragraph-04",
+      "reviewMonthReferences": [
+        "寅",
+        "卯"
+      ],
+      "scopeStatus": "explicit-shared-months",
+      "sourceQuote": "或无庚金，有丁透",
+      "quoteSpan": {
+        "start": 1673,
+        "end": 1681,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 1561,
+        "end": 1761,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "75bccef303b75d4770ebe2f7353ec9fe58ca700e2437e4b2811ae1632539c688",
+      "implementation": "unimplemented-definition",
+      "dependency": "有丁透可离散；无庚明藏范围及整体命名格局未定。"
+    },
+    {
+      "id": "jia-paragraph-04-branch-07",
+      "paragraphId": "jia-paragraph-04",
+      "reviewMonthReferences": [
+        "寅",
+        "卯"
+      ],
+      "scopeStatus": "explicit-shared-months",
+      "sourceQuote": "一见癸水伤丁",
+      "quoteSpan": {
+        "start": 1709,
+        "end": 1715,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 1561,
+        "end": 1761,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "75bccef303b75d4770ebe2f7353ec9fe58ca700e2437e4b2811ae1632539c688",
+      "implementation": "unimplemented-definition",
+      "dependency": "见癸不证明有效伤丁。"
+    },
+    {
+      "id": "jia-paragraph-04-branch-08",
+      "paragraphId": "jia-paragraph-04",
+      "reviewMonthReferences": [
+        "寅",
+        "卯"
+      ],
+      "scopeStatus": "explicit-shared-months",
+      "sourceQuote": "或柱中多癸",
+      "quoteSpan": {
+        "start": 1723,
+        "end": 1728,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 1561,
+        "end": 1761,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "75bccef303b75d4770ebe2f7353ec9fe58ca700e2437e4b2811ae1632539c688",
+      "implementation": "unimplemented-definition",
+      "dependency": "多与实际灭火作用未定义。"
+    },
+    {
+      "id": "jia-paragraph-05-branch-01",
+      "paragraphId": "jia-paragraph-05",
+      "reviewMonthReferences": [
+        "寅",
+        "卯"
+      ],
+      "scopeStatus": "continuation-under-spring-shared-months",
+      "sourceQuote": "若庚申、戊寅、甲寅、丙寅",
+      "quoteSpan": {
+        "start": 1763,
+        "end": 1775,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 1763,
+        "end": 1813,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "a7c96f952ecf09aa44bc70414e38442638bbe39f99116d72e6e1952d7e419f9a",
+      "implementation": "queued-discrete-review",
+      "dependency": "原四柱只可作原例匹配；不推广为一般条件。"
+    },
+    {
+      "id": "jia-paragraph-05-branch-02",
+      "paragraphId": "jia-paragraph-05",
+      "reviewMonthReferences": [
+        "寅",
+        "卯"
+      ],
+      "scopeStatus": "continuation-under-spring-shared-months",
+      "sourceQuote": "或甲午日庚午时",
+      "quoteSpan": {
+        "start": 1786,
+        "end": 1793,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 1763,
+        "end": 1813,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "a7c96f952ecf09aa44bc70414e38442638bbe39f99116d72e6e1952d7e419f9a",
+      "implementation": "queued-discrete-review",
+      "dependency": "日时离散组合可后续核对；不采纳历史结论。"
+    },
+    {
+      "id": "jia-paragraph-05-branch-03",
+      "paragraphId": "jia-paragraph-05",
+      "reviewMonthReferences": [
+        "寅",
+        "卯"
+      ],
+      "scopeStatus": "continuation-under-spring-shared-months",
+      "sourceQuote": "不宜制了庚丁",
+      "quoteSpan": {
+        "start": 1806,
+        "end": 1812,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 1763,
+        "end": 1813,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "a7c96f952ecf09aa44bc70414e38442638bbe39f99116d72e6e1952d7e419f9a",
+      "implementation": "unimplemented-definition",
+      "dependency": "须有效制化与岁运上下文。"
+    },
+    {
+      "id": "jia-paragraph-06-branch-01",
+      "paragraphId": "jia-paragraph-06",
+      "reviewMonthReferences": [
+        "寅",
+        "卯",
+        "辰"
+      ],
+      "scopeStatus": "spring-continuation-month-scope-unresolved",
+      "sourceQuote": "或支成金局，多透庚辛",
+      "quoteSpan": {
+        "start": 1815,
+        "end": 1825,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 1815,
+        "end": 1964,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "85d9089a8b70e7adc1ef68f649c2b2e03e1ac26b2452f24dbb4bc58f82d1cab3",
+      "implementation": "unimplemented-definition",
+      "dependency": "月份继承范围、成局、多透未定。"
+    },
+    {
+      "id": "jia-paragraph-06-branch-02",
+      "paragraphId": "jia-paragraph-06",
+      "reviewMonthReferences": [
+        "寅",
+        "卯",
+        "辰"
+      ],
+      "scopeStatus": "spring-continuation-month-scope-unresolved",
+      "sourceQuote": "若无丙丁破金",
+      "quoteSpan": {
+        "start": 1838,
+        "end": 1844,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 1815,
+        "end": 1964,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "85d9089a8b70e7adc1ef68f649c2b2e03e1ac26b2452f24dbb4bc58f82d1cab3",
+      "implementation": "unimplemented-definition",
+      "dependency": "无与有效破金未定。"
+    },
+    {
+      "id": "jia-paragraph-06-branch-03",
+      "paragraphId": "jia-paragraph-06",
+      "reviewMonthReferences": [
+        "寅",
+        "卯",
+        "辰"
+      ],
+      "scopeStatus": "spring-continuation-month-scope-unresolved",
+      "sourceQuote": "或支成火局，洩露太过",
+      "quoteSpan": {
+        "start": 1850,
+        "end": 1860,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 1815,
+        "end": 1964,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "85d9089a8b70e7adc1ef68f649c2b2e03e1ac26b2452f24dbb4bc58f82d1cab3",
+      "implementation": "unimplemented-definition",
+      "dependency": "成局和太过无定义。"
+    },
+    {
+      "id": "jia-paragraph-06-branch-04",
+      "paragraphId": "jia-paragraph-06",
+      "reviewMonthReferences": [
+        "寅",
+        "卯",
+        "辰"
+      ],
+      "scopeStatus": "spring-continuation-month-scope-unresolved",
+      "sourceQuote": "支成木局，得庚",
+      "quoteSpan": {
+        "start": 1880,
+        "end": 1887,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 1815,
+        "end": 1964,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "85d9089a8b70e7adc1ef68f649c2b2e03e1ac26b2452f24dbb4bc58f82d1cab3",
+      "implementation": "unimplemented-definition",
+      "dependency": "成局及得庚范围未定。"
+    },
+    {
+      "id": "jia-paragraph-06-branch-05",
+      "paragraphId": "jia-paragraph-06",
+      "reviewMonthReferences": [
+        "寅",
+        "卯",
+        "辰"
+      ],
+      "scopeStatus": "spring-continuation-month-scope-unresolved",
+      "sourceQuote": "支成水局，戊透",
+      "quoteSpan": {
+        "start": 1910,
+        "end": 1917,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 1815,
+        "end": 1964,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "85d9089a8b70e7adc1ef68f649c2b2e03e1ac26b2452f24dbb4bc58f82d1cab3",
+      "implementation": "unimplemented-definition",
+      "dependency": "可核戊透子集，不能代替成水局或有效制。"
+    },
+    {
+      "id": "jia-paragraph-06-branch-06",
+      "paragraphId": "jia-paragraph-06",
+      "reviewMonthReferences": [
+        "寅",
+        "卯",
+        "辰"
+      ],
+      "scopeStatus": "spring-continuation-month-scope-unresolved",
+      "sourceQuote": "甲木若无根，全赖申子辰",
+      "quoteSpan": {
+        "start": 1940,
+        "end": 1951,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 1815,
+        "end": 1964,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "85d9089a8b70e7adc1ef68f649c2b2e03e1ac26b2452f24dbb4bc58f82d1cab3",
+      "implementation": "unimplemented-definition",
+      "dependency": "无根和全赖不能由组合出现推出。"
+    },
+    {
+      "id": "jia-paragraph-08-branch-01",
+      "paragraphId": "jia-paragraph-08",
+      "reviewMonthReferences": [
+        "寅",
+        "卯"
+      ],
+      "scopeStatus": "explicit-shared-months",
+      "sourceQuote": "有庚戊者",
+      "quoteSpan": {
+        "start": 2006,
+        "end": 2010,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 1998,
+        "end": 2026,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "1a478fcbb6d1816e2a50827094c76f2a740f125d92177c286341a26b7fa997ed",
+      "implementation": "unimplemented-definition",
+      "dependency": "有的明藏范围不明确。"
+    },
+    {
+      "id": "jia-paragraph-08-branch-02",
+      "paragraphId": "jia-paragraph-08",
+      "reviewMonthReferences": [
+        "寅",
+        "卯"
+      ],
+      "scopeStatus": "explicit-shared-months",
+      "sourceQuote": "如有丁透",
+      "quoteSpan": {
+        "start": 2013,
+        "end": 2017,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 1998,
+        "end": 2026,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "1a478fcbb6d1816e2a50827094c76f2a740f125d92177c286341a26b7fa997ed",
+      "implementation": "queued-discrete-review",
+      "dependency": "明丁可核，整体取用与历史结论仍不实施。"
+    },
+    {
+      "id": "jia-paragraph-09-branch-01",
+      "paragraphId": "jia-paragraph-09",
+      "reviewMonthReferences": [
+        "卯"
+      ],
+      "scopeStatus": "explicit-month",
+      "sourceQuote": "庚金得所",
+      "quoteSpan": {
+        "start": 2039,
+        "end": 2043,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 2028,
+        "end": 2150,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "57429b37dd1ac59536761e9310494b45e0bd7d0152fdff1eed9e535baef7cb96",
+      "implementation": "unimplemented-definition",
+      "dependency": "得所、刃杀和财资条件未闭合。"
+    },
+    {
+      "id": "jia-paragraph-09-branch-02",
+      "paragraphId": "jia-paragraph-09",
+      "reviewMonthReferences": [
+        "卯"
+      ],
+      "scopeStatus": "explicit-month",
+      "sourceQuote": "柱中逢才",
+      "quoteSpan": {
+        "start": 2071,
+        "end": 2075,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 2028,
+        "end": 2150,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "57429b37dd1ac59536761e9310494b45e0bd7d0152fdff1eed9e535baef7cb96",
+      "implementation": "unimplemented-definition",
+      "dependency": "逢才作用域与有效性未定义。"
+    },
+    {
+      "id": "jia-paragraph-09-branch-03",
+      "paragraphId": "jia-paragraph-09",
+      "reviewMonthReferences": [
+        "卯"
+      ],
+      "scopeStatus": "explicit-month",
+      "sourceQuote": "若见癸水",
+      "quoteSpan": {
+        "start": 2083,
+        "end": 2087,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 2028,
+        "end": 2150,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "57429b37dd1ac59536761e9310494b45e0bd7d0152fdff1eed9e535baef7cb96",
+      "implementation": "unimplemented-definition",
+      "dependency": "只出现不证明困财杀。"
+    },
+    {
+      "id": "jia-paragraph-09-branch-04",
+      "paragraphId": "jia-paragraph-09",
+      "reviewMonthReferences": [
+        "卯"
+      ],
+      "scopeStatus": "explicit-month",
+      "sourceQuote": "重刃",
+      "quoteSpan": {
+        "start": 2098,
+        "end": 2100,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 2028,
+        "end": 2150,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "57429b37dd1ac59536761e9310494b45e0bd7d0152fdff1eed9e535baef7cb96",
+      "implementation": "unimplemented-definition",
+      "dependency": "不把数量当刃的作用力量。"
+    },
+    {
+      "id": "jia-paragraph-09-branch-05",
+      "paragraphId": "jia-paragraph-09",
+      "reviewMonthReferences": [
+        "卯"
+      ],
+      "scopeStatus": "explicit-month",
+      "sourceQuote": "日主无依",
+      "quoteSpan": {
+        "start": 2138,
+        "end": 2142,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 2028,
+        "end": 2150,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "57429b37dd1ac59536761e9310494b45e0bd7d0152fdff1eed9e535baef7cb96",
+      "implementation": "unimplemented-definition",
+      "dependency": "无依须有效扶助判断。"
+    },
+    {
+      "id": "jia-paragraph-10-branch-01",
+      "paragraphId": "jia-paragraph-10",
+      "reviewMonthReferences": [
+        "辰"
+      ],
+      "scopeStatus": "explicit-month",
+      "sourceQuote": "先取庚金，次用壬水",
+      "quoteSpan": {
+        "start": 2168,
+        "end": 2177,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 2152,
+        "end": 2205,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "4b98b302bd2c50835cbb380fdc7526c14a7701a9a14ab1b998a3be43d3a6292f",
+      "implementation": "recorded-text-only",
+      "dependency": "记录初始句，不作本批采用。"
+    },
+    {
+      "id": "jia-paragraph-10-branch-02",
+      "paragraphId": "jia-paragraph-10",
+      "reviewMonthReferences": [
+        "辰"
+      ],
+      "scopeStatus": "explicit-month",
+      "sourceQuote": "庚壬两透",
+      "quoteSpan": {
+        "start": 2178,
+        "end": 2182,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 2152,
+        "end": 2205,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "4b98b302bd2c50835cbb380fdc7526c14a7701a9a14ab1b998a3be43d3a6292f",
+      "implementation": "first-batch-executable",
+      "dependency": "仅明庚与明壬同见。",
+      "ruleId": "jia-chen-geng-ren-exposed"
+    },
+    {
+      "id": "jia-paragraph-10-branch-03",
+      "paragraphId": "jia-paragraph-10",
+      "reviewMonthReferences": [
+        "辰"
+      ],
+      "scopeStatus": "explicit-month",
+      "sourceQuote": "但要运用相生",
+      "quoteSpan": {
+        "start": 2188,
+        "end": 2194,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 2152,
+        "end": 2205,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "4b98b302bd2c50835cbb380fdc7526c14a7701a9a14ab1b998a3be43d3a6292f",
+      "implementation": "unimplemented-definition",
+      "dependency": "岁运与有效相生不属于本批事实谓词。"
+    },
+    {
+      "id": "jia-paragraph-11-branch-01",
+      "paragraphId": "jia-paragraph-11",
+      "reviewMonthReferences": [
+        "辰"
+      ],
+      "scopeStatus": "month-continuation",
+      "sourceQuote": "或见一二庚金",
+      "quoteSpan": {
+        "start": 2207,
+        "end": 2213,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 2207,
+        "end": 2231,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "c74f2cf5f746166d11cb2590831d64aab9182e2772e942fadb17dab7fa123df5",
+      "implementation": "unimplemented-definition",
+      "dependency": "一二可为数量字面，但见的明藏范围未定；不解释为力量。"
+    },
+    {
+      "id": "jia-paragraph-11-branch-02",
+      "paragraphId": "jia-paragraph-11",
+      "reviewMonthReferences": [
+        "辰"
+      ],
+      "scopeStatus": "month-continuation",
+      "sourceQuote": "壬透",
+      "quoteSpan": {
+        "start": 2219,
+        "end": 2221,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 2207,
+        "end": 2231,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "c74f2cf5f746166d11cb2590831d64aab9182e2772e942fadb17dab7fa123df5",
+      "implementation": "queued-discrete-review",
+      "dependency": "离散明壬条件排入后续批次。"
+    },
+    {
+      "id": "jia-paragraph-12-branch-01",
+      "paragraphId": "jia-paragraph-12",
+      "reviewMonthReferences": [
+        "辰"
+      ],
+      "scopeStatus": "month-continuation",
+      "sourceQuote": "或天干透出二丙，庚藏支下",
+      "quoteSpan": {
+        "start": 2233,
+        "end": 2245,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 2233,
+        "end": 2269,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "25fc4568d85ca553b9ce40ac63f4eed3326190761085d842b453d7e0ea4bc7df",
+      "implementation": "queued-discrete-review",
+      "dependency": "明二丙与藏庚为后续候选；精确二与至少二的采用口径须标注。"
+    },
+    {
+      "id": "jia-paragraph-12-branch-02",
+      "paragraphId": "jia-paragraph-12",
+      "reviewMonthReferences": [
+        "辰"
+      ],
+      "scopeStatus": "month-continuation",
+      "sourceQuote": "若有壬癸破火",
+      "quoteSpan": {
+        "start": 2257,
+        "end": 2263,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 2233,
+        "end": 2269,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "25fc4568d85ca553b9ce40ac63f4eed3326190761085d842b453d7e0ea4bc7df",
+      "implementation": "unimplemented-definition",
+      "dependency": "有水不等于有效破火。"
+    },
+    {
+      "id": "jia-paragraph-13-branch-01",
+      "paragraphId": "jia-paragraph-13",
+      "reviewMonthReferences": [
+        "辰"
+      ],
+      "scopeStatus": "month-continuation",
+      "sourceQuote": "或柱中全无一水，戊己透干，支成土局",
+      "quoteSpan": {
+        "start": 2271,
+        "end": 2288,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 2271,
+        "end": 2308,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "5a1f08648560e934762743c7847f089439f8a44a1f7735e34c29a84d2f6e3466",
+      "implementation": "unimplemented-definition",
+      "dependency": "库水有效范围、戊己并称及土局未定，不能重写旧从财待核。"
+    },
+    {
+      "id": "jia-paragraph-14-branch-01",
+      "paragraphId": "jia-paragraph-14",
+      "reviewMonthReferences": [
+        "辰"
+      ],
+      "scopeStatus": "month-continuation",
+      "sourceQuote": "或见戊己，及比劫多者",
+      "quoteSpan": {
+        "start": 2310,
+        "end": 2320,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 2310,
+        "end": 2367,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "906d6caf970fabbe0426f3920839f1ca9fe85f3f2d7d3d95cd619021ab8a0720",
+      "implementation": "unimplemented-definition",
+      "dependency": "见的明藏范围、多和实际争财未定义。"
+    },
+    {
+      "id": "jia-paragraph-15-branch-01",
+      "paragraphId": "jia-paragraph-15",
+      "reviewMonthReferences": [
+        "辰"
+      ],
+      "scopeStatus": "month-continuation",
+      "sourceQuote": "或支成金局，方可用丁",
+      "quoteSpan": {
+        "start": 2369,
+        "end": 2379,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 2369,
+        "end": 2400,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "3cfc8e58ece6991a68a961c286befd17d3f1b2f718c35986d942122ace229feb",
+      "implementation": "unimplemented-definition",
+      "dependency": "支成金局资格未闭合；不以金三合组出现代替。"
+    },
+    {
+      "id": "jia-paragraph-15-branch-02",
+      "paragraphId": "jia-paragraph-15",
+      "reviewMonthReferences": [
+        "辰"
+      ],
+      "scopeStatus": "month-continuation",
+      "sourceQuote": "不然，三月无用丁之法",
+      "quoteSpan": {
+        "start": 2380,
+        "end": 2390,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 2369,
+        "end": 2400,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "3cfc8e58ece6991a68a961c286befd17d3f1b2f718c35986d942122ace229feb",
+      "implementation": "unimplemented-definition",
+      "dependency": "排除分支依赖前述成局谓词，不能先行裁决。"
+    },
+    {
+      "id": "jia-paragraph-15-branch-03",
+      "paragraphId": "jia-paragraph-15",
+      "reviewMonthReferences": [
+        "辰"
+      ],
+      "scopeStatus": "month-continuation",
+      "sourceQuote": "惟有先庚后壬取用",
+      "quoteSpan": {
+        "start": 2391,
+        "end": 2399,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 2369,
+        "end": 2400,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "3cfc8e58ece6991a68a961c286befd17d3f1b2f718c35986d942122ace229feb",
+      "implementation": "recorded-text-only",
+      "dependency": "记录本段文本顺序，不覆盖其它条文或原初提。"
+    },
+    {
+      "id": "jia-paragraph-16-branch-01",
+      "paragraphId": "jia-paragraph-16",
+      "reviewMonthReferences": [
+        "寅",
+        "卯"
+      ],
+      "scopeStatus": "cross-month-quoted-rule",
+      "sourceQuote": "甲乙生寅卯，庚辛干上逢",
+      "quoteSpan": {
+        "start": 2405,
+        "end": 2416,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 2402,
+        "end": 2429,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "c7305c633ea2dea963a85034708809266978ea770849b8a5de128c6e7bcceeb4",
+      "implementation": "queued-discrete-review",
+      "dependency": "日干与月份范围明确；仍需逐干分开，后续只核位置不采纳运程结论。"
+    },
+    {
+      "id": "jia-paragraph-17-branch-01",
+      "paragraphId": "jia-paragraph-17",
+      "reviewMonthReferences": [
+        "巳"
+      ],
+      "scopeStatus": "explicit-month",
+      "sourceQuote": "先癸后丁",
+      "quoteSpan": {
+        "start": 2462,
+        "end": 2466,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 2431,
+        "end": 2467,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "cb8b8ed8a3d3a546b7d2d457086d48bee23aa1654ab219420d7911115a672930",
+      "implementation": "recorded-text-only",
+      "dependency": "初始文本顺序，不作采用。"
+    },
+    {
+      "id": "jia-paragraph-17-branch-02",
+      "paragraphId": "jia-paragraph-17",
+      "reviewMonthReferences": [
+        "巳"
+      ],
+      "scopeStatus": "explicit-month",
+      "sourceQuote": "退气，丙火司权",
+      "quoteSpan": {
+        "start": 2454,
+        "end": 2461,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 2431,
+        "end": 2467,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "cb8b8ed8a3d3a546b7d2d457086d48bee23aa1654ab219420d7911115a672930",
+      "implementation": "unimplemented-definition",
+      "dependency": "退气和司权不从计数推定。"
+    },
+    {
+      "id": "jia-paragraph-18-branch-01",
+      "paragraphId": "jia-paragraph-18",
+      "reviewMonthReferences": [
+        "巳"
+      ],
+      "scopeStatus": "month-continuation",
+      "sourceQuote": "庚金太多",
+      "quoteSpan": {
+        "start": 2469,
+        "end": 2473,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 2469,
+        "end": 2530,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "87407dda869689126514556ecaab8d010c52239c29ce9cc6f387df9e1ff7fb24",
+      "implementation": "unimplemented-definition",
+      "dependency": "太多无定义。"
+    },
+    {
+      "id": "jia-paragraph-18-branch-02",
+      "paragraphId": "jia-paragraph-18",
+      "reviewMonthReferences": [
+        "巳"
+      ],
+      "scopeStatus": "month-continuation",
+      "sourceQuote": "若得壬水",
+      "quoteSpan": {
+        "start": 2479,
+        "end": 2483,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 2469,
+        "end": 2530,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "87407dda869689126514556ecaab8d010c52239c29ce9cc6f387df9e1ff7fb24",
+      "implementation": "unimplemented-definition",
+      "dependency": "得的范围与调和有效性未定。"
+    },
+    {
+      "id": "jia-paragraph-19-branch-01",
+      "paragraphId": "jia-paragraph-19",
+      "reviewMonthReferences": [
+        "巳"
+      ],
+      "scopeStatus": "month-continuation",
+      "sourceQuote": "如一庚二丙",
+      "quoteSpan": {
+        "start": 2532,
+        "end": 2537,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 2532,
+        "end": 2553,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "feeaaab4db10f394dec9ffd7059eb1934cf7bae7e832ec282cef789392e88a01",
+      "implementation": "unimplemented-definition",
+      "dependency": "原句没有在本条明确明干或明藏计数范围，不能填力量。"
+    },
+    {
+      "id": "jia-paragraph-19-branch-02",
+      "paragraphId": "jia-paragraph-19",
+      "reviewMonthReferences": [
+        "巳"
+      ],
+      "scopeStatus": "month-continuation",
+      "sourceQuote": "金多火多",
+      "quoteSpan": {
+        "start": 2543,
+        "end": 2547,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 2532,
+        "end": 2553,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "feeaaab4db10f394dec9ffd7059eb1934cf7bae7e832ec282cef789392e88a01",
+      "implementation": "unimplemented-definition",
+      "dependency": "多不设自编阈值。"
+    },
+    {
+      "id": "jia-paragraph-20-branch-01",
+      "paragraphId": "jia-paragraph-20",
+      "reviewMonthReferences": [
+        "巳"
+      ],
+      "scopeStatus": "month-continuation",
+      "sourceQuote": "或癸丁与庚齐透天干",
+      "quoteSpan": {
+        "start": 2555,
+        "end": 2564,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 2555,
+        "end": 2642,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "1fa692d8a3a910121a048d84252d0cb8119b987b01c13b7a3e2807b0ab8906a7",
+      "implementation": "first-batch-executable",
+      "dependency": "仅三种指定明干同时出现；不是科甲或用神裁决。",
+      "ruleId": "jia-si-gui-ding-geng-exposed"
+    },
+    {
+      "id": "jia-paragraph-20-branch-02",
+      "paragraphId": "jia-paragraph-20",
+      "reviewMonthReferences": [
+        "巳"
+      ],
+      "scopeStatus": "month-continuation",
+      "sourceQuote": "癸水不出",
+      "quoteSpan": {
+        "start": 2585,
+        "end": 2589,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 2555,
+        "end": 2642,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "1fa692d8a3a910121a048d84252d0cb8119b987b01c13b7a3e2807b0ab8906a7",
+      "implementation": "queued-discrete-review",
+      "dependency": "仅出干缺失可后续核，保留相邻庚丁语境。"
+    },
+    {
+      "id": "jia-paragraph-20-branch-03",
+      "paragraphId": "jia-paragraph-20",
+      "reviewMonthReferences": [
+        "巳"
+      ],
+      "scopeStatus": "month-continuation",
+      "sourceQuote": "壬透",
+      "quoteSpan": {
+        "start": 2610,
+        "end": 2612,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 2555,
+        "end": 2642,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "1fa692d8a3a910121a048d84252d0cb8119b987b01c13b7a3e2807b0ab8906a7",
+      "implementation": "queued-discrete-review",
+      "dependency": "明壬离散子集后续核。"
+    },
+    {
+      "id": "jia-paragraph-20-branch-04",
+      "paragraphId": "jia-paragraph-20",
+      "reviewMonthReferences": [
+        "巳"
+      ],
+      "scopeStatus": "month-continuation",
+      "sourceQuote": "若全无点水，又无庚金丁火，一派丙戊",
+      "quoteSpan": {
+        "start": 2617,
+        "end": 2634,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 2555,
+        "end": 2642,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "1fa692d8a3a910121a048d84252d0cb8119b987b01c13b7a3e2807b0ab8906a7",
+      "implementation": "unimplemented-definition",
+      "dependency": "无水、无庚丁范围与一派气势未闭合。"
+    },
+    {
+      "id": "jia-paragraph-21-branch-01",
+      "paragraphId": "jia-paragraph-21",
+      "reviewMonthReferences": [
+        "午",
+        "未"
+      ],
+      "scopeStatus": "explicit-shared-months",
+      "sourceQuote": "五月先癸后丁庚金次之",
+      "quoteSpan": {
+        "start": 2666,
+        "end": 2676,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 2644,
+        "end": 2718,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "7530ce604173aa82fd77e0ed69e79e20993e33fbe9d198691c0d8544a2caf0f0",
+      "implementation": "recorded-text-only",
+      "dependency": "五月初提只录文本。"
+    },
+    {
+      "id": "jia-paragraph-21-branch-02",
+      "paragraphId": "jia-paragraph-21",
+      "reviewMonthReferences": [
+        "午",
+        "未"
+      ],
+      "scopeStatus": "explicit-shared-months",
+      "sourceQuote": "先丁后庚，无癸亦可",
+      "quoteSpan": {
+        "start": 2689,
+        "end": 2698,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 2644,
+        "end": 2718,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "7530ce604173aa82fd77e0ed69e79e20993e33fbe9d198691c0d8544a2caf0f0",
+      "implementation": "recorded-text-only",
+      "dependency": "六月初提，非一般缺癸判据。"
+    },
+    {
+      "id": "jia-paragraph-21-branch-03",
+      "paragraphId": "jia-paragraph-21",
+      "reviewMonthReferences": [
+        "午",
+        "未"
+      ],
+      "scopeStatus": "explicit-shared-months",
+      "sourceQuote": "或五月乏癸，用丁亦可",
+      "quoteSpan": {
+        "start": 2699,
+        "end": 2709,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 2644,
+        "end": 2718,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "7530ce604173aa82fd77e0ed69e79e20993e33fbe9d198691c0d8544a2caf0f0",
+      "implementation": "unimplemented-definition",
+      "dependency": "乏癸作用域与岁运必要条件未实现。"
+    },
+    {
+      "id": "jia-paragraph-23-branch-01",
+      "paragraphId": "jia-paragraph-23",
+      "reviewMonthReferences": [
+        "午",
+        "未"
+      ],
+      "scopeStatus": "generic-advice-in-shared-month-context",
+      "sourceQuote": "凡用神太多，不宜剋制，须洩之为妙",
+      "quoteSpan": {
+        "start": 2799,
+        "end": 2815,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 2799,
+        "end": 2816,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "b2cc50463fa4c3271585653e8824ac576a4a34512e957c51d5cbe432f482268a",
+      "implementation": "unimplemented-definition",
+      "dependency": "太多、有效制泄和用神身份未定义。"
+    },
+    {
+      "id": "jia-paragraph-24-branch-01",
+      "paragraphId": "jia-paragraph-24",
+      "reviewMonthReferences": [
+        "午",
+        "未"
+      ],
+      "scopeStatus": "explicit-shared-months",
+      "sourceQuote": "木盛先庚，庚盛先丁",
+      "quoteSpan": {
+        "start": 2824,
+        "end": 2833,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 2818,
+        "end": 2894,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "673cde6ee0baedff48f1a79ce28cdb7b1f8b4d042ee024783c1e4b2f02ac5766",
+      "implementation": "unimplemented-definition",
+      "dependency": "盛无可执行力量定义。"
+    },
+    {
+      "id": "jia-paragraph-24-branch-02",
+      "paragraphId": "jia-paragraph-24",
+      "reviewMonthReferences": [
+        "午",
+        "未"
+      ],
+      "scopeStatus": "explicit-shared-months",
+      "sourceQuote": "五月癸庚两透",
+      "quoteSpan": {
+        "start": 2834,
+        "end": 2840,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 2818,
+        "end": 2894,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "673cde6ee0baedff48f1a79ce28cdb7b1f8b4d042ee024783c1e4b2f02ac5766",
+      "implementation": "queued-discrete-review",
+      "dependency": "五月明癸庚条件后续单列。"
+    },
+    {
+      "id": "jia-paragraph-24-branch-03",
+      "paragraphId": "jia-paragraph-24",
+      "reviewMonthReferences": [
+        "午",
+        "未"
+      ],
+      "scopeStatus": "explicit-shared-months",
+      "sourceQuote": "六月庚丁两透",
+      "quoteSpan": {
+        "start": 2847,
+        "end": 2853,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 2818,
+        "end": 2894,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "673cde6ee0baedff48f1a79ce28cdb7b1f8b4d042ee024783c1e4b2f02ac5766",
+      "implementation": "queued-discrete-review",
+      "dependency": "六月明庚丁条件后续单列。"
+    },
+    {
+      "id": "jia-paragraph-24-branch-04",
+      "paragraphId": "jia-paragraph-24",
+      "reviewMonthReferences": [
+        "午",
+        "未"
+      ],
+      "scopeStatus": "explicit-shared-months",
+      "sourceQuote": "或丁火太多，癸水亦多",
+      "quoteSpan": {
+        "start": 2878,
+        "end": 2888,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 2818,
+        "end": 2894,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "673cde6ee0baedff48f1a79ce28cdb7b1f8b4d042ee024783c1e4b2f02ac5766",
+      "implementation": "unimplemented-definition",
+      "dependency": "多与太多均未定义。"
+    },
+    {
+      "id": "jia-paragraph-25-branch-01",
+      "paragraphId": "jia-paragraph-25",
+      "reviewMonthReferences": [
+        "午",
+        "未"
+      ],
+      "scopeStatus": "shared-month-continuation",
+      "sourceQuote": "若柱中多金",
+      "quoteSpan": {
+        "start": 2896,
+        "end": 2901,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 2896,
+        "end": 2956,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "afe1746fddb2dfaed9a333804bc468587eff0be492d148a917a04ba9f10eaf7f",
+      "implementation": "unimplemented-definition",
+      "dependency": "多金和身轻未定义。"
+    },
+    {
+      "id": "jia-paragraph-25-branch-02",
+      "paragraphId": "jia-paragraph-25",
+      "reviewMonthReferences": [
+        "午",
+        "未"
+      ],
+      "scopeStatus": "shared-month-continuation",
+      "sourceQuote": "或庚多，有一二丙丁制伏，又有壬癸透干",
+      "quoteSpan": {
+        "start": 2924,
+        "end": 2942,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 2896,
+        "end": 2956,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "afe1746fddb2dfaed9a333804bc468587eff0be492d148a917a04ba9f10eaf7f",
+      "implementation": "unimplemented-definition",
+      "dependency": "多庚、有效制伏和泄金未闭合；透壬癸只属子集。"
+    },
+    {
+      "id": "jia-paragraph-26-branch-01",
+      "paragraphId": "jia-paragraph-26",
+      "reviewMonthReferences": [
+        "午",
+        "未"
+      ],
+      "scopeStatus": "shared-month-continuation",
+      "sourceQuote": "或满柱丙火，又加丁火，不见官杀",
+      "quoteSpan": {
+        "start": 2958,
+        "end": 2973,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 2958,
+        "end": 3026,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "d6819897608df22807f08e62fa4c11aa96bd5796e0991bfe2d942659ce0e3394",
+      "implementation": "unimplemented-definition",
+      "dependency": "满柱作用域、不见范围与伤尽格局未定义。"
+    },
+    {
+      "id": "jia-paragraph-26-branch-02",
+      "paragraphId": "jia-paragraph-26",
+      "reviewMonthReferences": [
+        "午",
+        "未"
+      ],
+      "scopeStatus": "shared-month-continuation",
+      "sourceQuote": "若柱中有壬水，运又逢水",
+      "quoteSpan": {
+        "start": 3009,
+        "end": 3020,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 2958,
+        "end": 3026,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "d6819897608df22807f08e62fa4c11aa96bd5796e0991bfe2d942659ce0e3394",
+      "implementation": "unimplemented-definition",
+      "dependency": "岁运输入与有效作用不在本批。"
+    },
+    {
+      "id": "jia-paragraph-28-branch-01",
+      "paragraphId": "jia-paragraph-28",
+      "reviewMonthReferences": [
+        "午",
+        "未"
+      ],
+      "scopeStatus": "shared-month-continuation",
+      "sourceQuote": "或四柱多土，干上有乙木，切勿作弃命从才",
+      "quoteSpan": {
+        "start": 3076,
+        "end": 3095,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 3076,
+        "end": 3096,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "1ec553184618978bccd45397c288abbcc45f4be0851de25bb6ee2e3c84eafe80",
+      "implementation": "unimplemented-definition",
+      "dependency": "乙透可核，多土与格局前提未定，不能单乙就判不从。"
+    },
+    {
+      "id": "jia-paragraph-29-branch-01",
+      "paragraphId": "jia-paragraph-29",
+      "reviewMonthReferences": [
+        "午",
+        "未"
+      ],
+      "scopeStatus": "shared-month-continuation",
+      "sourceQuote": "时月两透己土",
+      "quoteSpan": {
+        "start": 3098,
+        "end": 3104,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 3098,
+        "end": 3161,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "7a826da572af4839e67d4159f737f7e549e084298240342a5765833f1bd658ae",
+      "implementation": "queued-discrete-review",
+      "dependency": "限定时月位置的事实后续核，不宣布争合有效。"
+    },
+    {
+      "id": "jia-paragraph-29-branch-02",
+      "paragraphId": "jia-paragraph-29",
+      "reviewMonthReferences": [
+        "午",
+        "未"
+      ],
+      "scopeStatus": "shared-month-continuation",
+      "sourceQuote": "见二甲则不争矣",
+      "quoteSpan": {
+        "start": 3121,
+        "end": 3128,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 3098,
+        "end": 3161,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "7a826da572af4839e67d4159f737f7e549e084298240342a5765833f1bd658ae",
+      "implementation": "unimplemented-definition",
+      "dependency": "二甲作用域与不争的净作用未定。"
+    },
+    {
+      "id": "jia-paragraph-29-branch-03",
+      "paragraphId": "jia-paragraph-29",
+      "reviewMonthReferences": [
+        "午",
+        "未"
+      ],
+      "scopeStatus": "shared-month-continuation",
+      "sourceQuote": "或四柱有辰，干见二己二甲",
+      "quoteSpan": {
+        "start": 3136,
+        "end": 3148,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 3098,
+        "end": 3161,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "7a826da572af4839e67d4159f737f7e549e084298240342a5765833f1bd658ae",
+      "implementation": "queued-discrete-review",
+      "dependency": "支辰与明干指定数可后续，但不能推出化合。"
+    },
+    {
+      "id": "jia-paragraph-30-branch-01",
+      "paragraphId": "jia-paragraph-30",
+      "reviewMonthReferences": [
+        "未"
+      ],
+      "scopeStatus": "explicit-june-plus-generic-kin-followup",
+      "sourceQuote": "若在六月，见辰支，名为逢时化合格",
+      "quoteSpan": {
+        "start": 3163,
+        "end": 3179,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 3163,
+        "end": 3259,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "67b03853ab02e87b20242a2adc4d826fa67c11ea270d8ce318bc24530330c3af",
+      "implementation": "unimplemented-definition",
+      "dependency": "六月见辰只支持事实，不足判化合。"
+    },
+    {
+      "id": "jia-paragraph-30-branch-02",
+      "paragraphId": "jia-paragraph-30",
+      "reviewMonthReferences": [
+        "未"
+      ],
+      "scopeStatus": "explicit-june-plus-generic-kin-followup",
+      "sourceQuote": "若二己一甲争合",
+      "quoteSpan": {
+        "start": 3191,
+        "end": 3198,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 3163,
+        "end": 3259,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "67b03853ab02e87b20242a2adc4d826fa67c11ea270d8ce318bc24530330c3af",
+      "implementation": "unimplemented-definition",
+      "dependency": "数量出现与有效争合分开，后者未定。"
+    },
+    {
+      "id": "jia-paragraph-31-branch-01",
+      "paragraphId": "jia-paragraph-31",
+      "reviewMonthReferences": [
+        "午",
+        "未"
+      ],
+      "scopeStatus": "shared-month-continuation",
+      "sourceQuote": "或是己土，不见戊土，乃为假从",
+      "quoteSpan": {
+        "start": 3261,
+        "end": 3275,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 3261,
+        "end": 3309,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "8d4c395540c4b3236edd549fc51f01f4b5c799d192adc48f87948874fbfa4a21",
+      "implementation": "unimplemented-definition",
+      "dependency": "是己土与不见戊的范围及假从条件未定。"
+    },
+    {
+      "id": "jia-paragraph-31-branch-02",
+      "paragraphId": "jia-paragraph-31",
+      "reviewMonthReferences": [
+        "午",
+        "未"
+      ],
+      "scopeStatus": "shared-month-continuation",
+      "sourceQuote": "若无印绶",
+      "quoteSpan": {
+        "start": 3288,
+        "end": 3292,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 3261,
+        "end": 3309,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "8d4c395540c4b3236edd549fc51f01f4b5c799d192adc48f87948874fbfa4a21",
+      "implementation": "unimplemented-definition",
+      "dependency": "无印明藏及有效扶助范围未定。"
+    },
+    {
+      "id": "jia-paragraph-31-branch-03",
+      "paragraphId": "jia-paragraph-31",
+      "reviewMonthReferences": [
+        "午",
+        "未"
+      ],
+      "scopeStatus": "shared-month-continuation",
+      "sourceQuote": "六月尤可，五月决不可",
+      "quoteSpan": {
+        "start": 3298,
+        "end": 3308,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 3261,
+        "end": 3309,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "8d4c395540c4b3236edd549fc51f01f4b5c799d192adc48f87948874fbfa4a21",
+      "implementation": "unimplemented-definition",
+      "dependency": "排除继承的完整前提未闭合，不单月判假从。"
+    },
+    {
+      "id": "jia-paragraph-32-branch-01",
+      "paragraphId": "jia-paragraph-32",
+      "reviewMonthReferences": [
+        "申",
+        "酉",
+        "戌"
+      ],
+      "scopeStatus": "shared-autumn-context",
+      "sourceQuote": "先丁后庚",
+      "quoteSpan": {
+        "start": 3345,
+        "end": 3349,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 3311,
+        "end": 3471,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "9b9086aef95d88218f2517880ce32c738c31b91868a497e4fe02b16abe650e42",
+      "implementation": "recorded-text-only",
+      "dependency": "共享初提只录文本。"
+    },
+    {
+      "id": "jia-paragraph-32-branch-02",
+      "paragraphId": "jia-paragraph-32",
+      "reviewMonthReferences": [
+        "申",
+        "酉",
+        "戌"
+      ],
+      "scopeStatus": "shared-autumn-context",
+      "sourceQuote": "丁庚两透",
+      "quoteSpan": {
+        "start": 3384,
+        "end": 3388,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 3311,
+        "end": 3471,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "9b9086aef95d88218f2517880ce32c738c31b91868a497e4fe02b16abe650e42",
+      "implementation": "queued-discrete-review",
+      "dependency": "三秋共有明丁庚待后续。"
+    },
+    {
+      "id": "jia-paragraph-32-branch-03",
+      "paragraphId": "jia-paragraph-32",
+      "reviewMonthReferences": [
+        "申",
+        "酉",
+        "戌"
+      ],
+      "scopeStatus": "shared-autumn-context",
+      "sourceQuote": "或庚透无丁",
+      "quoteSpan": {
+        "start": 3414,
+        "end": 3419,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 3311,
+        "end": 3471,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "9b9086aef95d88218f2517880ce32c738c31b91868a497e4fe02b16abe650e42",
+      "implementation": "unimplemented-definition",
+      "dependency": "无丁明藏范围未定。"
+    },
+    {
+      "id": "jia-paragraph-32-branch-04",
+      "paragraphId": "jia-paragraph-32",
+      "reviewMonthReferences": [
+        "申",
+        "酉",
+        "戌"
+      ],
+      "scopeStatus": "shared-autumn-context",
+      "sourceQuote": "或丁透庚藏",
+      "quoteSpan": {
+        "start": 3438,
+        "end": 3443,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 3311,
+        "end": 3471,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "9b9086aef95d88218f2517880ce32c738c31b91868a497e4fe02b16abe650e42",
+      "implementation": "queued-discrete-review",
+      "dependency": "明丁藏庚非互斥事实可后续。"
+    },
+    {
+      "id": "jia-paragraph-32-branch-05",
+      "paragraphId": "jia-paragraph-32",
+      "reviewMonthReferences": [
+        "申",
+        "酉",
+        "戌"
+      ],
+      "scopeStatus": "shared-autumn-context",
+      "sourceQuote": "或庚多无丁",
+      "quoteSpan": {
+        "start": 3451,
+        "end": 3456,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 3311,
+        "end": 3471,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "9b9086aef95d88218f2517880ce32c738c31b91868a497e4fe02b16abe650e42",
+      "implementation": "unimplemented-definition",
+      "dependency": "多与无丁范围未定。"
+    },
+    {
+      "id": "jia-paragraph-33-branch-01",
+      "paragraphId": "jia-paragraph-33",
+      "reviewMonthReferences": [
+        "申",
+        "酉",
+        "戌"
+      ],
+      "scopeStatus": "shared-autumn-context",
+      "sourceQuote": "或四柱庚旺，支内水多",
+      "quoteSpan": {
+        "start": 3473,
+        "end": 3483,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 3473,
+        "end": 3501,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "0c0462290dafab2d231103633363979b3c6fbb18a57ac98ea9dc6af2db21c109",
+      "implementation": "unimplemented-definition",
+      "dependency": "旺与多未定义，不能据此判从杀。"
+    },
+    {
+      "id": "jia-paragraph-33-branch-02",
+      "paragraphId": "jia-paragraph-33",
+      "reviewMonthReferences": [
+        "申",
+        "酉",
+        "戌"
+      ],
+      "scopeStatus": "shared-autumn-context",
+      "sourceQuote": "见土多可作从才而看",
+      "quoteSpan": {
+        "start": 3491,
+        "end": 3500,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 3473,
+        "end": 3501,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "0c0462290dafab2d231103633363979b3c6fbb18a57ac98ea9dc6af2db21c109",
+      "implementation": "unimplemented-definition",
+      "dependency": "多与从财完整前提未定。"
+    },
+    {
+      "id": "jia-paragraph-34-branch-01",
+      "paragraphId": "jia-paragraph-34",
+      "reviewMonthReferences": [
+        "申",
+        "酉",
+        "戌"
+      ],
+      "scopeStatus": "shared-autumn-context",
+      "sourceQuote": "庚多无癸，而壬水多，戊己亦多",
+      "quoteSpan": {
+        "start": 3503,
+        "end": 3517,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 3503,
+        "end": 3590,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "528e8f7ad70fd2bec334b57df38bacad05d629e054fea09289145416dd2bd252",
+      "implementation": "unimplemented-definition",
+      "dependency": "数量气势、无癸范围和有效作用未定。"
+    },
+    {
+      "id": "jia-paragraph-34-branch-02",
+      "paragraphId": "jia-paragraph-34",
+      "reviewMonthReferences": [
+        "申",
+        "酉",
+        "戌"
+      ],
+      "scopeStatus": "shared-autumn-context",
+      "sourceQuote": "得二丁，不坐死绝",
+      "quoteSpan": {
+        "start": 3556,
+        "end": 3564,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 3503,
+        "end": 3590,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "528e8f7ad70fd2bec334b57df38bacad05d629e054fea09289145416dd2bd252",
+      "implementation": "unimplemented-definition",
+      "dependency": "坐死绝的同载体与取法未固定，且继承前提未齐。"
+    },
+    {
+      "id": "jia-paragraph-35-branch-01",
+      "paragraphId": "jia-paragraph-35",
+      "reviewMonthReferences": [
+        "申",
+        "酉",
+        "戌"
+      ],
+      "scopeStatus": "shared-autumn-context",
+      "sourceQuote": "或癸叠叠制伏丁火",
+      "quoteSpan": {
+        "start": 3592,
+        "end": 3600,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 3592,
+        "end": 3638,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "f0e4fca39f0295934b699c8f7c630adf882b4263feb567ad117e346b48ccab2c",
+      "implementation": "unimplemented-definition",
+      "dependency": "叠叠与有效制伏无定义，运程不入本批。"
+    },
+    {
+      "id": "jia-paragraph-36-branch-01",
+      "paragraphId": "jia-paragraph-36",
+      "reviewMonthReferences": [
+        "申",
+        "酉",
+        "戌"
+      ],
+      "scopeStatus": "shared-autumn-context",
+      "sourceQuote": "支成水局，戊己透干，制去癸水",
+      "quoteSpan": {
+        "start": 3640,
+        "end": 3654,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 3640,
+        "end": 3701,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "d8c12aedd0bb3c3b02b36bc1dae3ae149a928db006c9651b38a9e0d9a2dd60c9",
+      "implementation": "unimplemented-definition",
+      "dependency": "成局和实际制去不能由透藏出现替代。"
+    },
+    {
+      "id": "jia-paragraph-37-branch-01",
+      "paragraphId": "jia-paragraph-37",
+      "reviewMonthReferences": [
+        "申"
+      ],
+      "scopeStatus": "explicit-month",
+      "sourceQuote": "丁火为尊，庚金次之，庚金不可少",
+      "quoteSpan": {
+        "start": 3714,
+        "end": 3729,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 3703,
+        "end": 3791,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "f69055db245725c1ea5b93945c4f8d56e35fe9c4ff9d3144b1cc456bf536dafd",
+      "implementation": "recorded-text-only",
+      "dependency": "只记录文本。"
+    },
+    {
+      "id": "jia-paragraph-37-branch-02",
+      "paragraphId": "jia-paragraph-37",
+      "reviewMonthReferences": [
+        "申"
+      ],
+      "scopeStatus": "explicit-month",
+      "sourceQuote": "火隔水不能镕金",
+      "quoteSpan": {
+        "start": 3730,
+        "end": 3737,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 3703,
+        "end": 3791,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "f69055db245725c1ea5b93945c4f8d56e35fe9c4ff9d3144b1cc456bf536dafd",
+      "implementation": "unimplemented-definition",
+      "dependency": "隔水、引助与有效镕金未定义。"
+    },
+    {
+      "id": "jia-paragraph-37-branch-03",
+      "paragraphId": "jia-paragraph-37",
+      "reviewMonthReferences": [
+        "申"
+      ],
+      "scopeStatus": "explicit-month",
+      "sourceQuote": "若有癸水阻隔",
+      "quoteSpan": {
+        "start": 3756,
+        "end": 3762,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 3703,
+        "end": 3791,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "f69055db245725c1ea5b93945c4f8d56e35fe9c4ff9d3144b1cc456bf536dafd",
+      "implementation": "unimplemented-definition",
+      "dependency": "见癸不等于有效阻隔。"
+    },
+    {
+      "id": "jia-paragraph-37-branch-04",
+      "paragraphId": "jia-paragraph-37",
+      "reviewMonthReferences": [
+        "申"
+      ],
+      "scopeStatus": "explicit-month",
+      "sourceQuote": "壬水无碍，且能合丁，但须见戊土",
+      "quoteSpan": {
+        "start": 3768,
+        "end": 3783,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 3703,
+        "end": 3791,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "f69055db245725c1ea5b93945c4f8d56e35fe9c4ff9d3144b1cc456bf536dafd",
+      "implementation": "unimplemented-definition",
+      "dependency": "无碍、合丁与制水存火属于有效作用判断，未闭合。"
+    },
+    {
+      "id": "jia-paragraph-38-branch-01",
+      "paragraphId": "jia-paragraph-38",
+      "reviewMonthReferences": [
+        "酉"
+      ],
+      "scopeStatus": "explicit-month",
+      "sourceQuote": "丁火为先，次用丙火，庚金再次",
+      "quoteSpan": {
+        "start": 3809,
+        "end": 3823,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 3793,
+        "end": 3824,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "19a4b5309eee544f0bf09c45bc6a29eb2298c79b075670dc950754a97bd46910",
+      "implementation": "recorded-text-only",
+      "dependency": "只记录初始文本顺序。"
+    },
+    {
+      "id": "jia-paragraph-39-branch-01",
+      "paragraphId": "jia-paragraph-39",
+      "reviewMonthReferences": [
+        "酉"
+      ],
+      "scopeStatus": "month-continuation",
+      "sourceQuote": "一丁一庚",
+      "quoteSpan": {
+        "start": 3826,
+        "end": 3830,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 3826,
+        "end": 3846,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "fc03b5c4fdc6b960656eaaf192cdd5f029d0b65501bb610ec0f941b0f0b86693",
+      "implementation": "unimplemented-definition",
+      "dependency": "一的范围未明确，不能假定全局或仅明干。"
+    },
+    {
+      "id": "jia-paragraph-39-branch-02",
+      "paragraphId": "jia-paragraph-39",
+      "reviewMonthReferences": [
+        "酉"
+      ],
+      "scopeStatus": "month-continuation",
+      "sourceQuote": "癸水一透",
+      "quoteSpan": {
+        "start": 3836,
+        "end": 3840,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 3826,
+        "end": 3846,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "fc03b5c4fdc6b960656eaaf192cdd5f029d0b65501bb610ec0f941b0f0b86693",
+      "implementation": "queued-discrete-review",
+      "dependency": "明癸子集可后续，不作科甲结论。"
+    },
+    {
+      "id": "jia-paragraph-40-branch-01",
+      "paragraphId": "jia-paragraph-40",
+      "reviewMonthReferences": [
+        "酉"
+      ],
+      "scopeStatus": "month-continuation",
+      "sourceQuote": "丙庚两透",
+      "quoteSpan": {
+        "start": 3848,
+        "end": 3852,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 3848,
+        "end": 3868,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "4fbefddb61c1d95594b85e2ccfca0121f2166b3870576aab8039f8b60fd85b27",
+      "implementation": "first-batch-executable",
+      "dependency": "只核明丙庚同见。",
+      "ruleId": "jia-you-bing-geng-exposed"
+    },
+    {
+      "id": "jia-paragraph-40-branch-02",
+      "paragraphId": "jia-paragraph-40",
+      "reviewMonthReferences": [
+        "酉"
+      ],
+      "scopeStatus": "month-continuation",
+      "sourceQuote": "丙丁全无",
+      "quoteSpan": {
+        "start": 3858,
+        "end": 3862,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 3848,
+        "end": 3868,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "4fbefddb61c1d95594b85e2ccfca0121f2166b3870576aab8039f8b60fd85b27",
+      "implementation": "unimplemented-definition",
+      "dependency": "全无作用域未固定。"
+    },
+    {
+      "id": "jia-paragraph-41-branch-01",
+      "paragraphId": "jia-paragraph-41",
+      "reviewMonthReferences": [
+        "酉"
+      ],
+      "scopeStatus": "month-continuation",
+      "sourceQuote": "丙透无癸",
+      "quoteSpan": {
+        "start": 3870,
+        "end": 3874,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 3870,
+        "end": 3890,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "875e9cbf5dc7575d5ca210b6a2551c32c389114df3cadf187f4388fb67d00dba",
+      "implementation": "unimplemented-definition",
+      "dependency": "明丙可核，无癸范围未定。"
+    },
+    {
+      "id": "jia-paragraph-41-branch-02",
+      "paragraphId": "jia-paragraph-41",
+      "reviewMonthReferences": [
+        "酉"
+      ],
+      "scopeStatus": "month-continuation",
+      "sourceQuote": "有癸制丙",
+      "quoteSpan": {
+        "start": 3880,
+        "end": 3884,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 3870,
+        "end": 3890,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "875e9cbf5dc7575d5ca210b6a2551c32c389114df3cadf187f4388fb67d00dba",
+      "implementation": "unimplemented-definition",
+      "dependency": "见癸不代表有效制丙。"
+    },
+    {
+      "id": "jia-paragraph-42-branch-01",
+      "paragraphId": "jia-paragraph-42",
+      "reviewMonthReferences": [
+        "酉"
+      ],
+      "scopeStatus": "month-continuation",
+      "sourceQuote": "支成火局",
+      "quoteSpan": {
+        "start": 3892,
+        "end": 3896,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 3892,
+        "end": 3912,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "29e5c4ef44c0e306f16b00c854d8787dd865ce0499802e1c82c1aa312eee4321",
+      "implementation": "unimplemented-definition",
+      "dependency": "成局未闭合。"
+    },
+    {
+      "id": "jia-paragraph-42-branch-02",
+      "paragraphId": "jia-paragraph-42",
+      "reviewMonthReferences": [
+        "酉"
+      ],
+      "scopeStatus": "month-continuation",
+      "sourceQuote": "戊己一透",
+      "quoteSpan": {
+        "start": 3902,
+        "end": 3906,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 3892,
+        "end": 3912,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "29e5c4ef44c0e306f16b00c854d8787dd865ce0499802e1c82c1aa312eee4321",
+      "implementation": "unimplemented-definition",
+      "dependency": "并称是任一或二者均需的范围未定。"
+    },
+    {
+      "id": "jia-paragraph-43-branch-01",
+      "paragraphId": "jia-paragraph-43",
+      "reviewMonthReferences": [
+        "酉"
+      ],
+      "scopeStatus": "month-continuation",
+      "sourceQuote": "或支成金局，干露庚金",
+      "quoteSpan": {
+        "start": 3914,
+        "end": 3924,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 3914,
+        "end": 3949,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "0f762100b0024e72b91deb7a73085c1261c226e918028782e6db3d6af2bf8d62",
+      "implementation": "unimplemented-definition",
+      "dependency": "明庚可核，成金局仍未定。"
+    },
+    {
+      "id": "jia-paragraph-43-branch-02",
+      "paragraphId": "jia-paragraph-43",
+      "reviewMonthReferences": [
+        "酉"
+      ],
+      "scopeStatus": "month-continuation",
+      "sourceQuote": "得丙丁破金",
+      "quoteSpan": {
+        "start": 3936,
+        "end": 3941,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 3914,
+        "end": 3949,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "0f762100b0024e72b91deb7a73085c1261c226e918028782e6db3d6af2bf8d62",
+      "implementation": "unimplemented-definition",
+      "dependency": "有效破金未定义。"
+    },
+    {
+      "id": "jia-paragraph-44-branch-01",
+      "paragraphId": "jia-paragraph-44",
+      "reviewMonthReferences": [
+        "酉"
+      ],
+      "scopeStatus": "month-continuation",
+      "sourceQuote": "或支成木局，干透比劫",
+      "quoteSpan": {
+        "start": 3951,
+        "end": 3961,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 3951,
+        "end": 3974,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "4649e93836265c13290004fe890bba2f7145c5beb900b4f61bce07e5c207613c",
+      "implementation": "unimplemented-definition",
+      "dependency": "成木局资格未闭合，不以完整木组直接判。"
+    },
+    {
+      "id": "jia-paragraph-45-branch-01",
+      "paragraphId": "jia-paragraph-45",
+      "reviewMonthReferences": [
+        "戌"
+      ],
+      "scopeStatus": "explicit-month",
+      "sourceQuote": "独爱丁火，壬癸滋扶",
+      "quoteSpan": {
+        "start": 3992,
+        "end": 4001,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 3976,
+        "end": 4034,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "15f8d7f11b1c25617b97ae3c3ffb17dde99587efd634aac36df7a475c432cb46",
+      "implementation": "recorded-text-only",
+      "dependency": "只记录原文初提，不推滋扶净效。"
+    },
+    {
+      "id": "jia-paragraph-45-branch-02",
+      "paragraphId": "jia-paragraph-45",
+      "reviewMonthReferences": [
+        "戌"
+      ],
+      "scopeStatus": "explicit-month",
+      "sourceQuote": "丁壬癸透，戊己亦透",
+      "quoteSpan": {
+        "start": 4002,
+        "end": 4011,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 3976,
+        "end": 4034,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "15f8d7f11b1c25617b97ae3c3ffb17dde99587efd634aac36df7a475c432cb46",
+      "implementation": "unimplemented-definition",
+      "dependency": "五干并称不能直接解释为四柱中五种明干齐透；分支语法范围需核。"
+    },
+    {
+      "id": "jia-paragraph-45-branch-03",
+      "paragraphId": "jia-paragraph-45",
+      "reviewMonthReferences": [
+        "戌"
+      ],
+      "scopeStatus": "explicit-month",
+      "sourceQuote": "庚金得所",
+      "quoteSpan": {
+        "start": 4024,
+        "end": 4028,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 3976,
+        "end": 4034,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "15f8d7f11b1c25617b97ae3c3ffb17dde99587efd634aac36df7a475c432cb46",
+      "implementation": "unimplemented-definition",
+      "dependency": "得所定义未闭合。"
+    },
+    {
+      "id": "jia-paragraph-46-branch-01",
+      "paragraphId": "jia-paragraph-46",
+      "reviewMonthReferences": [
+        "戌"
+      ],
+      "scopeStatus": "month-continuation",
+      "sourceQuote": "或见一二比肩，无庚金制之",
+      "quoteSpan": {
+        "start": 4036,
+        "end": 4048,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 4036,
+        "end": 4143,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "a91bdb90d69917a6bb56fa5c90452c1ef920ef21ef85bd9ff8e92ba39fc0d866",
+      "implementation": "unimplemented-definition",
+      "dependency": "比肩一二的范围和有效制未定。"
+    },
+    {
+      "id": "jia-paragraph-46-branch-02",
+      "paragraphId": "jia-paragraph-46",
+      "reviewMonthReferences": [
+        "戌"
+      ],
+      "scopeStatus": "month-continuation",
+      "sourceQuote": "甲辰、甲戌、甲辰、甲戌",
+      "quoteSpan": {
+        "start": 4068,
+        "end": 4079,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 4036,
+        "end": 4143,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "a91bdb90d69917a6bb56fa5c90452c1ef920ef21ef85bd9ff8e92ba39fc0d866",
+      "implementation": "queued-discrete-review",
+      "dependency": "仅原四柱实例待核，不当一般取用充分条件。"
+    },
+    {
+      "id": "jia-paragraph-46-branch-03",
+      "paragraphId": "jia-paragraph-46",
+      "reviewMonthReferences": [
+        "戌"
+      ],
+      "scopeStatus": "month-continuation",
+      "sourceQuote": "或见庚丙",
+      "quoteSpan": {
+        "start": 4114,
+        "end": 4118,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 4036,
+        "end": 4143,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "a91bdb90d69917a6bb56fa5c90452c1ef920ef21ef85bd9ff8e92ba39fc0d866",
+      "implementation": "unimplemented-definition",
+      "dependency": "见的明藏范围未明。"
+    },
+    {
+      "id": "jia-paragraph-47-branch-01",
+      "paragraphId": "jia-paragraph-47",
+      "reviewMonthReferences": [
+        "戌"
+      ],
+      "scopeStatus": "month-plus-generic-seasonal-advice",
+      "sourceQuote": "或四柱木多",
+      "quoteSpan": {
+        "start": 4145,
+        "end": 4150,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 4145,
+        "end": 4233,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "486af5d49a2be4cd901824be1b3134b48308deede218bac92d682206213ba90f",
+      "implementation": "unimplemented-definition",
+      "dependency": "木多不设阈值。"
+    },
+    {
+      "id": "jia-paragraph-47-branch-02",
+      "paragraphId": "jia-paragraph-47",
+      "reviewMonthReferences": [
+        "戌"
+      ],
+      "scopeStatus": "month-plus-generic-seasonal-advice",
+      "sourceQuote": "凡四季甲木，总不外乎庚金",
+      "quoteSpan": {
+        "start": 4168,
+        "end": 4180,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 4145,
+        "end": 4233,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "486af5d49a2be4cd901824be1b3134b48308deede218bac92d682206213ba90f",
+      "implementation": "recorded-text-only",
+      "dependency": "原文泛论只录文本，不当软件唯一用神。"
+    },
+    {
+      "id": "jia-paragraph-48-branch-01",
+      "paragraphId": "jia-paragraph-48",
+      "reviewMonthReferences": [
+        "戌"
+      ],
+      "scopeStatus": "generic-claim-under-autumn-context",
+      "sourceQuote": "凡甲木，多见戊己",
+      "quoteSpan": {
+        "start": 4235,
+        "end": 4243,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 4235,
+        "end": 4263,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "cfb9b64850e222e3ed2440edf40b11060f9beacdbd47042a4807a7e29423d2bd",
+      "implementation": "unimplemented-definition",
+      "dependency": "多和从财成格未定。"
+    },
+    {
+      "id": "jia-paragraph-49-branch-01",
+      "paragraphId": "jia-paragraph-49",
+      "reviewMonthReferences": [
+        "戌"
+      ],
+      "scopeStatus": "month-continuation",
+      "sourceQuote": "或见一派丙丁伤金",
+      "quoteSpan": {
+        "start": 4265,
+        "end": 4273,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 4265,
+        "end": 4335,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "74a446efad894fd4c85256fc667551ee1f275ee79e6ca7f305fcf2df0e16c16a",
+      "implementation": "unimplemented-definition",
+      "dependency": "一派和有效伤金未定。"
+    },
+    {
+      "id": "jia-paragraph-49-branch-02",
+      "paragraphId": "jia-paragraph-49",
+      "reviewMonthReferences": [
+        "戌"
+      ],
+      "scopeStatus": "month-continuation",
+      "sourceQuote": "有壬癸破了丙丁",
+      "quoteSpan": {
+        "start": 4281,
+        "end": 4288,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 4265,
+        "end": 4335,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "74a446efad894fd4c85256fc667551ee1f275ee79e6ca7f305fcf2df0e16c16a",
+      "implementation": "unimplemented-definition",
+      "dependency": "有效破火未定。"
+    },
+    {
+      "id": "jia-paragraph-49-branch-03",
+      "paragraphId": "jia-paragraph-49",
+      "reviewMonthReferences": [
+        "戌"
+      ],
+      "scopeStatus": "month-continuation",
+      "sourceQuote": "无壬癸破火，支又成火局",
+      "quoteSpan": {
+        "start": 4294,
+        "end": 4305,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 4265,
+        "end": 4335,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "74a446efad894fd4c85256fc667551ee1f275ee79e6ca7f305fcf2df0e16c16a",
+      "implementation": "unimplemented-definition",
+      "dependency": "无有效破火和成局未闭合。"
+    },
+    {
+      "id": "jia-paragraph-50-branch-01",
+      "paragraphId": "jia-paragraph-50",
+      "reviewMonthReferences": [
+        "戌"
+      ],
+      "scopeStatus": "month-continuation",
+      "sourceQuote": "或有假伤官，得地逢生",
+      "quoteSpan": {
+        "start": 4337,
+        "end": 4347,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 4337,
+        "end": 4377,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "496b784ea1917ff78fb1a5d093c5174f2df9c298e8ac5a961b860c0589d8e9ba",
+      "implementation": "unimplemented-definition",
+      "dependency": "假伤官、得地、逢生定义未闭合。"
+    },
+    {
+      "id": "jia-paragraph-51-branch-01",
+      "paragraphId": "jia-paragraph-51",
+      "reviewMonthReferences": [
+        "戌"
+      ],
+      "scopeStatus": "month-continuation",
+      "sourceQuote": "或丁戊俱多，总不见水",
+      "quoteSpan": {
+        "start": 4379,
+        "end": 4389,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 4379,
+        "end": 4415,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "e5e5ad9a0713fefee22f9353afa0ae24a431ffe5c5f30fe4a17c0ca512b97569",
+      "implementation": "unimplemented-definition",
+      "dependency": "多和不见范围未定，不能推出伤官生财。"
+    },
+    {
+      "id": "jia-paragraph-52-branch-01",
+      "paragraphId": "jia-paragraph-52",
+      "reviewMonthReferences": [
+        "戌"
+      ],
+      "scopeStatus": "month-plus-generic-advice",
+      "sourceQuote": "凡甲多庚透",
+      "quoteSpan": {
+        "start": 4417,
+        "end": 4422,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 4417,
+        "end": 4502,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "5dc99517f3d7bbd7672f9dc0d18a8b73c124f570fadccd4f420a368b7a6b6b59",
+      "implementation": "unimplemented-definition",
+      "dependency": "甲多未定。"
+    },
+    {
+      "id": "jia-paragraph-52-branch-02",
+      "paragraphId": "jia-paragraph-52",
+      "reviewMonthReferences": [
+        "戌"
+      ],
+      "scopeStatus": "month-plus-generic-advice",
+      "sourceQuote": "若柱中多庚",
+      "quoteSpan": {
+        "start": 4432,
+        "end": 4437,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 4417,
+        "end": 4502,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "5dc99517f3d7bbd7672f9dc0d18a8b73c124f570fadccd4f420a368b7a6b6b59",
+      "implementation": "unimplemented-definition",
+      "dependency": "多庚未定。"
+    },
+    {
+      "id": "jia-paragraph-52-branch-03",
+      "paragraphId": "jia-paragraph-52",
+      "reviewMonthReferences": [
+        "戌"
+      ],
+      "scopeStatus": "month-plus-generic-advice",
+      "sourceQuote": "庚申年、丙戌月、甲申日、壬申时",
+      "quoteSpan": {
+        "start": 4451,
+        "end": 4466,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 4417,
+        "end": 4502,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "5dc99517f3d7bbd7672f9dc0d18a8b73c124f570fadccd4f420a368b7a6b6b59",
+      "implementation": "queued-discrete-review",
+      "dependency": "原例四柱只作后续匹配。"
+    },
+    {
+      "id": "jia-paragraph-52-branch-04",
+      "paragraphId": "jia-paragraph-52",
+      "reviewMonthReferences": [
+        "戌"
+      ],
+      "scopeStatus": "month-plus-generic-advice",
+      "sourceQuote": "若无庚丙年月，又无火星出干",
+      "quoteSpan": {
+        "start": 4478,
+        "end": 4491,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 4417,
+        "end": 4502,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "5dc99517f3d7bbd7672f9dc0d18a8b73c124f570fadccd4f420a368b7a6b6b59",
+      "implementation": "queued-discrete-review",
+      "dependency": "位置范围有线索；庚丙否定组合、火星范围需明确，不先编码。"
+    },
+    {
+      "id": "jia-paragraph-53-branch-01",
+      "paragraphId": "jia-paragraph-53",
+      "reviewMonthReferences": [
+        "戌"
+      ],
+      "scopeStatus": "month-continuation",
+      "sourceQuote": "见戊透",
+      "quoteSpan": {
+        "start": 4514,
+        "end": 4517,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 4504,
+        "end": 4579,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "f4229a686c783b019b4a1de8daf962bf5e1bc8a9699f0b1136a42c4c412d069d",
+      "implementation": "queued-discrete-review",
+      "dependency": "明戊可作后续子集，不代表全段取用。"
+    },
+    {
+      "id": "jia-paragraph-53-branch-02",
+      "paragraphId": "jia-paragraph-53",
+      "reviewMonthReferences": [
+        "戌"
+      ],
+      "scopeStatus": "month-continuation",
+      "sourceQuote": "戊戌、壬戌、甲子、甲申",
+      "quoteSpan": {
+        "start": 4521,
+        "end": 4532,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 4504,
+        "end": 4579,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "f4229a686c783b019b4a1de8daf962bf5e1bc8a9699f0b1136a42c4c412d069d",
+      "implementation": "queued-discrete-review",
+      "dependency": "原例四柱只作后续匹配。"
+    },
+    {
+      "id": "jia-paragraph-53-branch-03",
+      "paragraphId": "jia-paragraph-53",
+      "reviewMonthReferences": [
+        "戌"
+      ],
+      "scopeStatus": "month-continuation",
+      "sourceQuote": "支成水局，干有壬水",
+      "quoteSpan": {
+        "start": 4533,
+        "end": 4542,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 4504,
+        "end": 4579,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "f4229a686c783b019b4a1de8daf962bf5e1bc8a9699f0b1136a42c4c412d069d",
+      "implementation": "unimplemented-definition",
+      "dependency": "成局未定。"
+    },
+    {
+      "id": "jia-paragraph-53-branch-04",
+      "paragraphId": "jia-paragraph-53",
+      "reviewMonthReferences": [
+        "戌"
+      ],
+      "scopeStatus": "month-continuation",
+      "sourceQuote": "但庚丁未透出干",
+      "quoteSpan": {
+        "start": 4566,
+        "end": 4573,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 4504,
+        "end": 4579,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "f4229a686c783b019b4a1de8daf962bf5e1bc8a9699f0b1136a42c4c412d069d",
+      "implementation": "unimplemented-definition",
+      "dependency": "未透两者的合取/析取语法需核。"
+    },
+    {
+      "id": "jia-paragraph-54-branch-01",
+      "paragraphId": "jia-paragraph-54",
+      "reviewMonthReferences": [
+        "寅",
+        "卯"
+      ],
+      "scopeStatus": "cross-month-luck-cycle-claims",
+      "sourceQuote": "甲乙比肩，又逢比劫运",
+      "quoteSpan": {
+        "start": 4581,
+        "end": 4591,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 4581,
+        "end": 4623,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "7c90efea33d0ffdd964d82587339b0aa4e842ce8d9526d9105d869002c594061",
+      "implementation": "unimplemented-definition",
+      "dependency": "运程输入不在原局事实合同。"
+    },
+    {
+      "id": "jia-paragraph-54-branch-02",
+      "paragraphId": "jia-paragraph-54",
+      "reviewMonthReferences": [
+        "寅",
+        "卯"
+      ],
+      "scopeStatus": "cross-month-luck-cycle-claims",
+      "sourceQuote": "甲乙生正二月，无制无洩",
+      "quoteSpan": {
+        "start": 4605,
+        "end": 4616,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 4581,
+        "end": 4623,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "7c90efea33d0ffdd964d82587339b0aa4e842ce8d9526d9105d869002c594061",
+      "implementation": "unimplemented-definition",
+      "dependency": "无制泄须有效作用判断。"
+    },
+    {
+      "id": "jia-paragraph-55-branch-01",
+      "paragraphId": "jia-paragraph-55",
+      "reviewMonthReferences": [
+        "亥"
+      ],
+      "scopeStatus": "explicit-month",
+      "sourceQuote": "庚丁为要，丙火次之",
+      "quoteSpan": {
+        "start": 4649,
+        "end": 4658,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 4625,
+        "end": 4671,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "744dd1973ed26f5c485c44aedd4a7f7c8d8923fdcd8d835f93d8c1cb556b0b0a",
+      "implementation": "recorded-text-only",
+      "dependency": "初提文本不当采用。"
+    },
+    {
+      "id": "jia-paragraph-55-branch-02",
+      "paragraphId": "jia-paragraph-55",
+      "reviewMonthReferences": [
+        "亥"
+      ],
+      "scopeStatus": "explicit-month",
+      "sourceQuote": "忌壬水泛身，须戊土制之",
+      "quoteSpan": {
+        "start": 4659,
+        "end": 4670,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 4625,
+        "end": 4671,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "744dd1973ed26f5c485c44aedd4a7f7c8d8923fdcd8d835f93d8c1cb556b0b0a",
+      "implementation": "unimplemented-definition",
+      "dependency": "泛水和有效制壬未定。"
+    },
+    {
+      "id": "jia-paragraph-56-branch-01",
+      "paragraphId": "jia-paragraph-56",
+      "reviewMonthReferences": [
+        "亥"
+      ],
+      "scopeStatus": "month-continuation",
+      "sourceQuote": "若庚丁两透，又加戊出干",
+      "quoteSpan": {
+        "start": 4673,
+        "end": 4684,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 4673,
+        "end": 4740,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "6dac11b5fe73ace8e38f96844572a87dc3255459e3fad48d6cff7b7eed88445c",
+      "implementation": "existing-version-only",
+      "dependency": "保持原1.0.1字面谓词，不重实现。",
+      "ruleId": "jia-hai-three-exposed"
+    },
+    {
+      "id": "jia-paragraph-56-branch-02",
+      "paragraphId": "jia-paragraph-56",
+      "reviewMonthReferences": [
+        "亥"
+      ],
+      "scopeStatus": "month-continuation",
+      "sourceQuote": "即乏丁火",
+      "quoteSpan": {
+        "start": 4697,
+        "end": 4701,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 4673,
+        "end": 4740,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "6dac11b5fe73ace8e38f96844572a87dc3255459e3fad48d6cff7b7eed88445c",
+      "implementation": "unimplemented-definition",
+      "dependency": "乏的明藏范围未明。"
+    },
+    {
+      "id": "jia-paragraph-56-branch-03",
+      "paragraphId": "jia-paragraph-56",
+      "reviewMonthReferences": [
+        "亥"
+      ],
+      "scopeStatus": "month-continuation",
+      "sourceQuote": "或甲多制戊，庚金无根",
+      "quoteSpan": {
+        "start": 4708,
+        "end": 4718,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 4673,
+        "end": 4740,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "6dac11b5fe73ace8e38f96844572a87dc3255459e3fad48d6cff7b7eed88445c",
+      "implementation": "unimplemented-definition",
+      "dependency": "多、有效制和无有效根未定。"
+    },
+    {
+      "id": "jia-paragraph-56-branch-04",
+      "paragraphId": "jia-paragraph-56",
+      "reviewMonthReferences": [
+        "亥"
+      ],
+      "scopeStatus": "month-continuation",
+      "sourceQuote": "庚戊若透",
+      "quoteSpan": {
+        "start": 4724,
+        "end": 4728,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 4673,
+        "end": 4740,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "6dac11b5fe73ace8e38f96844572a87dc3255459e3fad48d6cff7b7eed88445c",
+      "implementation": "queued-discrete-review",
+      "dependency": "明庚戊子集后续核。"
+    },
+    {
+      "id": "jia-paragraph-57-branch-01",
+      "paragraphId": "jia-paragraph-57",
+      "reviewMonthReferences": [
+        "亥"
+      ],
+      "scopeStatus": "month-continuation",
+      "sourceQuote": "或多比劫，只一庚出干，坐禄逢生",
+      "quoteSpan": {
+        "start": 4742,
+        "end": 4757,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 4742,
+        "end": 4806,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "b6eddb3d0772b2fba8aa6463ef2a15654086b79e115c7023648847111adf9e9a",
+      "implementation": "unimplemented-definition",
+      "dependency": "多比劫、坐禄逢生净效未闭合。"
+    },
+    {
+      "id": "jia-paragraph-57-branch-02",
+      "paragraphId": "jia-paragraph-57",
+      "reviewMonthReferences": [
+        "亥"
+      ],
+      "scopeStatus": "month-continuation",
+      "sourceQuote": "或支见申亥，戊己得所",
+      "quoteSpan": {
+        "start": 4768,
+        "end": 4778,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 4742,
+        "end": 4806,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "b6eddb3d0772b2fba8aa6463ef2a15654086b79e115c7023648847111adf9e9a",
+      "implementation": "unimplemented-definition",
+      "dependency": "支见的并称和得所未定。"
+    },
+    {
+      "id": "jia-paragraph-57-branch-03",
+      "paragraphId": "jia-paragraph-57",
+      "reviewMonthReferences": [
+        "亥"
+      ],
+      "scopeStatus": "month-continuation",
+      "sourceQuote": "若单己透",
+      "quoteSpan": {
+        "start": 4789,
+        "end": 4793,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 4742,
+        "end": 4806,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "b6eddb3d0772b2fba8aa6463ef2a15654086b79e115c7023648847111adf9e9a",
+      "implementation": "unimplemented-definition",
+      "dependency": "单透的互斥范围未明，力量结论不实施。"
+    },
+    {
+      "id": "jia-paragraph-59-branch-01",
+      "paragraphId": "jia-paragraph-59",
+      "reviewMonthReferences": [
+        "子"
+      ],
+      "scopeStatus": "explicit-month",
+      "sourceQuote": "丁先庚后，丙火佐之",
+      "quoteSpan": {
+        "start": 4843,
+        "end": 4852,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 4826,
+        "end": 4927,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "7798b08a5db8c3fb47f2310800579c465c4459cc3eed01ccb2157efb60939c58",
+      "implementation": "recorded-text-only",
+      "dependency": "文本初提不作采用。"
+    },
+    {
+      "id": "jia-paragraph-59-branch-02",
+      "paragraphId": "jia-paragraph-59",
+      "reviewMonthReferences": [
+        "子"
+      ],
+      "scopeStatus": "explicit-month",
+      "sourceQuote": "癸水司权",
+      "quoteSpan": {
+        "start": 4853,
+        "end": 4857,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 4826,
+        "end": 4927,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "7798b08a5db8c3fb47f2310800579c465c4459cc3eed01ccb2157efb60939c58",
+      "implementation": "unimplemented-definition",
+      "dependency": "司权取法未闭合。"
+    },
+    {
+      "id": "jia-paragraph-59-branch-03",
+      "paragraphId": "jia-paragraph-59",
+      "reviewMonthReferences": [
+        "子"
+      ],
+      "scopeStatus": "explicit-month",
+      "sourceQuote": "庚丁两透，支见巳寅",
+      "quoteSpan": {
+        "start": 4864,
+        "end": 4873,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 4826,
+        "end": 4927,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "7798b08a5db8c3fb47f2310800579c465c4459cc3eed01ccb2157efb60939c58",
+      "implementation": "unimplemented-definition",
+      "dependency": "两透可核，巳寅并称需明确全有或任一，后果不实施。"
+    },
+    {
+      "id": "jia-paragraph-59-branch-04",
+      "paragraphId": "jia-paragraph-59",
+      "reviewMonthReferences": [
+        "子"
+      ],
+      "scopeStatus": "explicit-month",
+      "sourceQuote": "若癸透伤丁",
+      "quoteSpan": {
+        "start": 4889,
+        "end": 4894,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 4826,
+        "end": 4927,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "7798b08a5db8c3fb47f2310800579c465c4459cc3eed01ccb2157efb60939c58",
+      "implementation": "unimplemented-definition",
+      "dependency": "有效伤丁未定。"
+    },
+    {
+      "id": "jia-paragraph-59-branch-05",
+      "paragraphId": "jia-paragraph-59",
+      "reviewMonthReferences": [
+        "子"
+      ],
+      "scopeStatus": "explicit-month",
+      "sourceQuote": "无戊己辅救",
+      "quoteSpan": {
+        "start": 4895,
+        "end": 4900,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 4826,
+        "end": 4927,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "7798b08a5db8c3fb47f2310800579c465c4459cc3eed01ccb2157efb60939c58",
+      "implementation": "unimplemented-definition",
+      "dependency": "辅救净效未定义。"
+    },
+    {
+      "id": "jia-paragraph-59-branch-06",
+      "paragraphId": "jia-paragraph-59",
+      "reviewMonthReferences": [
+        "子"
+      ],
+      "scopeStatus": "explicit-month",
+      "sourceQuote": "或壬水重出，丁火全无者",
+      "quoteSpan": {
+        "start": 4906,
+        "end": 4917,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 4826,
+        "end": 4927,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "7798b08a5db8c3fb47f2310800579c465c4459cc3eed01ccb2157efb60939c58",
+      "implementation": "unimplemented-definition",
+      "dependency": "重出、全无范围及丙的条件作用未定。"
+    },
+    {
+      "id": "jia-paragraph-60-branch-01",
+      "paragraphId": "jia-paragraph-60",
+      "reviewMonthReferences": [
+        "子"
+      ],
+      "scopeStatus": "month-continuation",
+      "sourceQuote": "或支成水局，加以壬透",
+      "quoteSpan": {
+        "start": 4929,
+        "end": 4939,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 4929,
+        "end": 4952,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "2583459056917ba9a7023e0fb221b2ff7bf06a2b37cd14082f1b21f39e2f4714",
+      "implementation": "unimplemented-definition",
+      "dependency": "成水局未闭合；不能因此判水泛木浮。"
+    },
+    {
+      "id": "jia-paragraph-61-branch-01",
+      "paragraphId": "jia-paragraph-61",
+      "reviewMonthReferences": [
+        "子"
+      ],
+      "scopeStatus": "month-summary",
+      "sourceQuote": "耑取庚丁",
+      "quoteSpan": {
+        "start": 4973,
+        "end": 4977,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 4954,
+        "end": 4995,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "91332c25f337204c8c72ff987e5392c86b469fb3bceda7de3394e811720426f2",
+      "implementation": "recorded-text-only",
+      "dependency": "文本总结。"
+    },
+    {
+      "id": "jia-paragraph-61-branch-02",
+      "paragraphId": "jia-paragraph-61",
+      "reviewMonthReferences": [
+        "子"
+      ],
+      "scopeStatus": "month-summary",
+      "sourceQuote": "透壬无丙",
+      "quoteSpan": {
+        "start": 4978,
+        "end": 4982,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 4954,
+        "end": 4995,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "91332c25f337204c8c72ff987e5392c86b469fb3bceda7de3394e811720426f2",
+      "implementation": "unimplemented-definition",
+      "dependency": "明壬可核，无丙的明藏范围未定。"
+    },
+    {
+      "id": "jia-paragraph-63-branch-01",
+      "paragraphId": "jia-paragraph-63",
+      "reviewMonthReferences": [
+        "丑"
+      ],
+      "scopeStatus": "explicit-month",
+      "sourceQuote": "先用庚噼甲",
+      "quoteSpan": {
+        "start": 5043,
+        "end": 5048,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 5015,
+        "end": 5068,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "78f9a845ff4baca442e56600d1b4cc7b1b989d1b77b9196f79e10c2af6a5588e",
+      "implementation": "recorded-text-only",
+      "dependency": "文本初提，不认定有效劈甲。"
+    },
+    {
+      "id": "jia-paragraph-63-branch-02",
+      "paragraphId": "jia-paragraph-63",
+      "reviewMonthReferences": [
+        "丑"
+      ],
+      "scopeStatus": "explicit-month",
+      "sourceQuote": "方引丁火始得木火有通明之象",
+      "quoteSpan": {
+        "start": 5049,
+        "end": 5062,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 5015,
+        "end": 5068,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "78f9a845ff4baca442e56600d1b4cc7b1b989d1b77b9196f79e10c2af6a5588e",
+      "implementation": "unimplemented-definition",
+      "dependency": "有效引助与通明未闭合。"
+    },
+    {
+      "id": "jia-paragraph-64-branch-01",
+      "paragraphId": "jia-paragraph-64",
+      "reviewMonthReferences": [
+        "丑"
+      ],
+      "scopeStatus": "month-continuation",
+      "sourceQuote": "庚丁两透",
+      "quoteSpan": {
+        "start": 5070,
+        "end": 5074,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 5070,
+        "end": 5176,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "1b3a8e9150b7942a29f47470addf20982d0c855188f5c61ae26cbad5410ad783",
+      "implementation": "queued-discrete-review",
+      "dependency": "两种明干可后续，非历史结论。"
+    },
+    {
+      "id": "jia-paragraph-64-branch-02",
+      "paragraphId": "jia-paragraph-64",
+      "reviewMonthReferences": [
+        "丑"
+      ],
+      "scopeStatus": "month-continuation",
+      "sourceQuote": "庚透丁藏",
+      "quoteSpan": {
+        "start": 5080,
+        "end": 5084,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 5070,
+        "end": 5176,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "1b3a8e9150b7942a29f47470addf20982d0c855188f5c61ae26cbad5410ad783",
+      "implementation": "existing-version-only",
+      "dependency": "保持已审非互斥存在语义，不添加无丁透条件。",
+      "ruleId": "jia-chou-geng-exposed-ding-hidden"
+    },
+    {
+      "id": "jia-paragraph-64-branch-03",
+      "paragraphId": "jia-paragraph-64",
+      "reviewMonthReferences": [
+        "丑"
+      ],
+      "scopeStatus": "month-continuation",
+      "sourceQuote": "丁透庚藏",
+      "quoteSpan": {
+        "start": 5088,
+        "end": 5092,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 5070,
+        "end": 5176,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "1b3a8e9150b7942a29f47470addf20982d0c855188f5c61ae26cbad5410ad783",
+      "implementation": "queued-discrete-review",
+      "dependency": "明丁藏庚可后续核；不添加互斥条件。"
+    },
+    {
+      "id": "jia-paragraph-64-branch-04",
+      "paragraphId": "jia-paragraph-64",
+      "reviewMonthReferences": [
+        "丑"
+      ],
+      "scopeStatus": "month-continuation",
+      "sourceQuote": "无庚者",
+      "quoteSpan": {
+        "start": 5097,
+        "end": 5100,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 5070,
+        "end": 5176,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "1b3a8e9150b7942a29f47470addf20982d0c855188f5c61ae26cbad5410ad783",
+      "implementation": "unimplemented-definition",
+      "dependency": "无的明藏范围未明。"
+    },
+    {
+      "id": "jia-paragraph-64-branch-05",
+      "paragraphId": "jia-paragraph-64",
+      "reviewMonthReferences": [
+        "丑"
+      ],
+      "scopeStatus": "month-continuation",
+      "sourceQuote": "无丁者",
+      "quoteSpan": {
+        "start": 5104,
+        "end": 5107,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 5070,
+        "end": 5176,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "1b3a8e9150b7942a29f47470addf20982d0c855188f5c61ae26cbad5410ad783",
+      "implementation": "unimplemented-definition",
+      "dependency": "无的明藏范围未明。"
+    },
+    {
+      "id": "jia-paragraph-64-branch-06",
+      "paragraphId": "jia-paragraph-64",
+      "reviewMonthReferences": [
+        "丑"
+      ],
+      "scopeStatus": "month-continuation",
+      "sourceQuote": "或有丁透重重",
+      "quoteSpan": {
+        "start": 5111,
+        "end": 5117,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 5070,
+        "end": 5176,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "1b3a8e9150b7942a29f47470addf20982d0c855188f5c61ae26cbad5410ad783",
+      "implementation": "unimplemented-definition",
+      "dependency": "重重与有效发焰未定。"
+    },
+    {
+      "id": "jia-paragraph-64-branch-07",
+      "paragraphId": "jia-paragraph-64",
+      "reviewMonthReferences": [
+        "丑"
+      ],
+      "scopeStatus": "month-continuation",
+      "sourceQuote": "但须比肩，能发丁之燄",
+      "quoteSpan": {
+        "start": 5125,
+        "end": 5135,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 5070,
+        "end": 5176,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "1b3a8e9150b7942a29f47470addf20982d0c855188f5c61ae26cbad5410ad783",
+      "implementation": "unimplemented-definition",
+      "dependency": "比肩作用范围与有效发焰未定。"
+    },
+    {
+      "id": "jia-paragraph-64-branch-08",
+      "paragraphId": "jia-paragraph-64",
+      "reviewMonthReferences": [
+        "丑"
+      ],
+      "scopeStatus": "month-continuation",
+      "sourceQuote": "或支多见水",
+      "quoteSpan": {
+        "start": 5160,
+        "end": 5165,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 5070,
+        "end": 5176,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "1b3a8e9150b7942a29f47470addf20982d0c855188f5c61ae26cbad5410ad783",
+      "implementation": "unimplemented-definition",
+      "dependency": "多水不设阈值。"
+    },
+    {
+      "id": "jia-paragraph-65-branch-01",
+      "paragraphId": "jia-paragraph-65",
+      "reviewMonthReferences": [
+        "丑"
+      ],
+      "scopeStatus": "month-summary",
+      "sourceQuote": "虽有庚金，丁不可少",
+      "quoteSpan": {
+        "start": 5185,
+        "end": 5194,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 5178,
+        "end": 5218,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "3e10068d29238a6ec3cc8854a28891406f00c856352f6b8e162f0fda2af4dabd",
+      "implementation": "recorded-text-only",
+      "dependency": "文本总结，不作全局补益。"
+    },
+    {
+      "id": "jia-paragraph-65-branch-02",
+      "paragraphId": "jia-paragraph-65",
+      "reviewMonthReferences": [
+        "丑"
+      ],
+      "scopeStatus": "month-summary",
+      "sourceQuote": "乏庚略可，乏丁无用",
+      "quoteSpan": {
+        "start": 5195,
+        "end": 5204,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 5178,
+        "end": 5218,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "3e10068d29238a6ec3cc8854a28891406f00c856352f6b8e162f0fda2af4dabd",
+      "implementation": "unimplemented-definition",
+      "dependency": "乏的范围和可用净效未定。"
+    },
+    {
+      "id": "jia-paragraph-65-branch-03",
+      "paragraphId": "jia-paragraph-65",
+      "reviewMonthReferences": [
+        "丑"
+      ],
+      "scopeStatus": "month-summary",
+      "sourceQuote": "甲木无根",
+      "quoteSpan": {
+        "start": 5208,
+        "end": 5212,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSpan": {
+        "start": 5178,
+        "end": 5218,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextSha256": "3e10068d29238a6ec3cc8854a28891406f00c856352f6b8e162f0fda2af4dabd",
+      "implementation": "unimplemented-definition",
+      "dependency": "无根须有效根气判断，不实施历史寿命断语。"
+    }
+  ],
+  "monthCoverage": [
+    {
+      "monthBranch": "寅",
+      "transcribedParagraphs": 9,
+      "sourceSentenceUnits": 34,
+      "identifiedBranchAnchors": 31,
+      "newExecutablePredicates": 1,
+      "existingVersionAnchors": 1,
+      "needsDefinition": 25,
+      "queuedDiscreteReview": 4,
+      "recordedTextOnly": 0,
+      "fullMonthDecisionImplemented": false,
+      "paragraphIds": [
+        "jia-paragraph-02",
+        "jia-paragraph-03",
+        "jia-paragraph-04",
+        "jia-paragraph-05",
+        "jia-paragraph-06",
+        "jia-paragraph-07",
+        "jia-paragraph-08",
+        "jia-paragraph-16",
+        "jia-paragraph-54"
+      ],
+      "actualUnimplementedSentenceIds": [
+        "jia-paragraph-02-sentence-01",
+        "jia-paragraph-02-sentence-02",
+        "jia-paragraph-02-sentence-03",
+        "jia-paragraph-02-sentence-04",
+        "jia-paragraph-02-sentence-05",
+        "jia-paragraph-02-sentence-06",
+        "jia-paragraph-02-sentence-07",
+        "jia-paragraph-03-sentence-01",
+        "jia-paragraph-03-sentence-02",
+        "jia-paragraph-03-sentence-03",
+        "jia-paragraph-03-sentence-04",
+        "jia-paragraph-04-sentence-01",
+        "jia-paragraph-04-sentence-02",
+        "jia-paragraph-04-sentence-03",
+        "jia-paragraph-04-sentence-04",
+        "jia-paragraph-04-sentence-05",
+        "jia-paragraph-04-sentence-06",
+        "jia-paragraph-04-sentence-07",
+        "jia-paragraph-05-sentence-01",
+        "jia-paragraph-05-sentence-02",
+        "jia-paragraph-05-sentence-03",
+        "jia-paragraph-05-sentence-04",
+        "jia-paragraph-06-sentence-01",
+        "jia-paragraph-06-sentence-02",
+        "jia-paragraph-06-sentence-03",
+        "jia-paragraph-06-sentence-04",
+        "jia-paragraph-06-sentence-05",
+        "jia-paragraph-08-sentence-01",
+        "jia-paragraph-08-sentence-02",
+        "jia-paragraph-16-sentence-01"
+      ]
+    },
+    {
+      "monthBranch": "卯",
+      "transcribedParagraphs": 9,
+      "sourceSentenceUnits": 37,
+      "identifiedBranchAnchors": 33,
+      "newExecutablePredicates": 0,
+      "existingVersionAnchors": 1,
+      "needsDefinition": 28,
+      "queuedDiscreteReview": 4,
+      "recordedTextOnly": 0,
+      "fullMonthDecisionImplemented": false,
+      "paragraphIds": [
+        "jia-paragraph-02",
+        "jia-paragraph-04",
+        "jia-paragraph-05",
+        "jia-paragraph-06",
+        "jia-paragraph-07",
+        "jia-paragraph-08",
+        "jia-paragraph-09",
+        "jia-paragraph-16",
+        "jia-paragraph-54"
+      ],
+      "actualUnimplementedSentenceIds": [
+        "jia-paragraph-02-sentence-01",
+        "jia-paragraph-02-sentence-02",
+        "jia-paragraph-02-sentence-03",
+        "jia-paragraph-02-sentence-04",
+        "jia-paragraph-02-sentence-05",
+        "jia-paragraph-02-sentence-06",
+        "jia-paragraph-02-sentence-07",
+        "jia-paragraph-04-sentence-01",
+        "jia-paragraph-04-sentence-02",
+        "jia-paragraph-04-sentence-03",
+        "jia-paragraph-04-sentence-04",
+        "jia-paragraph-04-sentence-05",
+        "jia-paragraph-04-sentence-06",
+        "jia-paragraph-04-sentence-07",
+        "jia-paragraph-05-sentence-01",
+        "jia-paragraph-05-sentence-02",
+        "jia-paragraph-05-sentence-03",
+        "jia-paragraph-05-sentence-04",
+        "jia-paragraph-06-sentence-01",
+        "jia-paragraph-06-sentence-02",
+        "jia-paragraph-06-sentence-03",
+        "jia-paragraph-06-sentence-04",
+        "jia-paragraph-06-sentence-05",
+        "jia-paragraph-08-sentence-01",
+        "jia-paragraph-08-sentence-02",
+        "jia-paragraph-09-sentence-01",
+        "jia-paragraph-09-sentence-02",
+        "jia-paragraph-09-sentence-03",
+        "jia-paragraph-09-sentence-04",
+        "jia-paragraph-09-sentence-05",
+        "jia-paragraph-09-sentence-06",
+        "jia-paragraph-09-sentence-07",
+        "jia-paragraph-16-sentence-01"
+      ]
+    },
+    {
+      "monthBranch": "辰",
+      "transcribedParagraphs": 9,
+      "sourceSentenceUnits": 27,
+      "identifiedBranchAnchors": 24,
+      "newExecutablePredicates": 1,
+      "existingVersionAnchors": 0,
+      "needsDefinition": 19,
+      "queuedDiscreteReview": 2,
+      "recordedTextOnly": 2,
+      "fullMonthDecisionImplemented": false,
+      "paragraphIds": [
+        "jia-paragraph-02",
+        "jia-paragraph-06",
+        "jia-paragraph-07",
+        "jia-paragraph-10",
+        "jia-paragraph-11",
+        "jia-paragraph-12",
+        "jia-paragraph-13",
+        "jia-paragraph-14",
+        "jia-paragraph-15"
+      ],
+      "actualUnimplementedSentenceIds": [
+        "jia-paragraph-02-sentence-01",
+        "jia-paragraph-02-sentence-02",
+        "jia-paragraph-02-sentence-03",
+        "jia-paragraph-02-sentence-04",
+        "jia-paragraph-02-sentence-05",
+        "jia-paragraph-02-sentence-06",
+        "jia-paragraph-02-sentence-07",
+        "jia-paragraph-06-sentence-01",
+        "jia-paragraph-06-sentence-02",
+        "jia-paragraph-06-sentence-03",
+        "jia-paragraph-06-sentence-04",
+        "jia-paragraph-06-sentence-05",
+        "jia-paragraph-10-sentence-01",
+        "jia-paragraph-10-sentence-02",
+        "jia-paragraph-10-sentence-03",
+        "jia-paragraph-10-sentence-04",
+        "jia-paragraph-11-sentence-01",
+        "jia-paragraph-11-sentence-02",
+        "jia-paragraph-12-sentence-01",
+        "jia-paragraph-12-sentence-02",
+        "jia-paragraph-13-sentence-01",
+        "jia-paragraph-14-sentence-01",
+        "jia-paragraph-14-sentence-02",
+        "jia-paragraph-15-sentence-01",
+        "jia-paragraph-15-sentence-02"
+      ]
+    },
+    {
+      "monthBranch": "巳",
+      "transcribedParagraphs": 4,
+      "sourceSentenceUnits": 10,
+      "identifiedBranchAnchors": 10,
+      "newExecutablePredicates": 1,
+      "existingVersionAnchors": 0,
+      "needsDefinition": 6,
+      "queuedDiscreteReview": 2,
+      "recordedTextOnly": 1,
+      "fullMonthDecisionImplemented": false,
+      "paragraphIds": [
+        "jia-paragraph-17",
+        "jia-paragraph-18",
+        "jia-paragraph-19",
+        "jia-paragraph-20"
+      ],
+      "actualUnimplementedSentenceIds": [
+        "jia-paragraph-17-sentence-01",
+        "jia-paragraph-18-sentence-01",
+        "jia-paragraph-18-sentence-02",
+        "jia-paragraph-18-sentence-03",
+        "jia-paragraph-18-sentence-04",
+        "jia-paragraph-19-sentence-01",
+        "jia-paragraph-19-sentence-02",
+        "jia-paragraph-20-sentence-01",
+        "jia-paragraph-20-sentence-02",
+        "jia-paragraph-20-sentence-03"
+      ]
+    },
+    {
+      "monthBranch": "午",
+      "transcribedParagraphs": 10,
+      "sourceSentenceUnits": 27,
+      "identifiedBranchAnchors": 19,
+      "newExecutablePredicates": 0,
+      "existingVersionAnchors": 0,
+      "needsDefinition": 13,
+      "queuedDiscreteReview": 4,
+      "recordedTextOnly": 2,
+      "fullMonthDecisionImplemented": false,
+      "paragraphIds": [
+        "jia-paragraph-21",
+        "jia-paragraph-22",
+        "jia-paragraph-23",
+        "jia-paragraph-24",
+        "jia-paragraph-25",
+        "jia-paragraph-26",
+        "jia-paragraph-27",
+        "jia-paragraph-28",
+        "jia-paragraph-29",
+        "jia-paragraph-31"
+      ],
+      "actualUnimplementedSentenceIds": [
+        "jia-paragraph-21-sentence-01",
+        "jia-paragraph-21-sentence-02",
+        "jia-paragraph-21-sentence-03",
+        "jia-paragraph-21-sentence-04",
+        "jia-paragraph-21-sentence-05",
+        "jia-paragraph-23-sentence-01",
+        "jia-paragraph-24-sentence-01",
+        "jia-paragraph-24-sentence-02",
+        "jia-paragraph-24-sentence-03",
+        "jia-paragraph-24-sentence-04",
+        "jia-paragraph-24-sentence-05",
+        "jia-paragraph-25-sentence-01",
+        "jia-paragraph-25-sentence-02",
+        "jia-paragraph-26-sentence-01",
+        "jia-paragraph-26-sentence-02",
+        "jia-paragraph-28-sentence-01",
+        "jia-paragraph-29-sentence-01",
+        "jia-paragraph-29-sentence-02",
+        "jia-paragraph-29-sentence-03",
+        "jia-paragraph-31-sentence-01",
+        "jia-paragraph-31-sentence-02",
+        "jia-paragraph-31-sentence-03"
+      ]
+    },
+    {
+      "monthBranch": "未",
+      "transcribedParagraphs": 11,
+      "sourceSentenceUnits": 36,
+      "identifiedBranchAnchors": 21,
+      "newExecutablePredicates": 0,
+      "existingVersionAnchors": 0,
+      "needsDefinition": 15,
+      "queuedDiscreteReview": 4,
+      "recordedTextOnly": 2,
+      "fullMonthDecisionImplemented": false,
+      "paragraphIds": [
+        "jia-paragraph-21",
+        "jia-paragraph-22",
+        "jia-paragraph-23",
+        "jia-paragraph-24",
+        "jia-paragraph-25",
+        "jia-paragraph-26",
+        "jia-paragraph-27",
+        "jia-paragraph-28",
+        "jia-paragraph-29",
+        "jia-paragraph-30",
+        "jia-paragraph-31"
+      ],
+      "actualUnimplementedSentenceIds": [
+        "jia-paragraph-21-sentence-01",
+        "jia-paragraph-21-sentence-02",
+        "jia-paragraph-21-sentence-03",
+        "jia-paragraph-21-sentence-04",
+        "jia-paragraph-21-sentence-05",
+        "jia-paragraph-23-sentence-01",
+        "jia-paragraph-24-sentence-01",
+        "jia-paragraph-24-sentence-02",
+        "jia-paragraph-24-sentence-03",
+        "jia-paragraph-24-sentence-04",
+        "jia-paragraph-24-sentence-05",
+        "jia-paragraph-25-sentence-01",
+        "jia-paragraph-25-sentence-02",
+        "jia-paragraph-26-sentence-01",
+        "jia-paragraph-26-sentence-02",
+        "jia-paragraph-28-sentence-01",
+        "jia-paragraph-29-sentence-01",
+        "jia-paragraph-29-sentence-02",
+        "jia-paragraph-29-sentence-03",
+        "jia-paragraph-30-sentence-01",
+        "jia-paragraph-30-sentence-02",
+        "jia-paragraph-30-sentence-03",
+        "jia-paragraph-30-sentence-04",
+        "jia-paragraph-30-sentence-05",
+        "jia-paragraph-30-sentence-06",
+        "jia-paragraph-30-sentence-07",
+        "jia-paragraph-30-sentence-08",
+        "jia-paragraph-30-sentence-09",
+        "jia-paragraph-31-sentence-01",
+        "jia-paragraph-31-sentence-02",
+        "jia-paragraph-31-sentence-03"
+      ]
+    },
+    {
+      "monthBranch": "申",
+      "transcribedParagraphs": 6,
+      "sourceSentenceUnits": 18,
+      "identifiedBranchAnchors": 15,
+      "newExecutablePredicates": 0,
+      "existingVersionAnchors": 0,
+      "needsDefinition": 11,
+      "queuedDiscreteReview": 2,
+      "recordedTextOnly": 2,
+      "fullMonthDecisionImplemented": false,
+      "paragraphIds": [
+        "jia-paragraph-32",
+        "jia-paragraph-33",
+        "jia-paragraph-34",
+        "jia-paragraph-35",
+        "jia-paragraph-36",
+        "jia-paragraph-37"
+      ],
+      "actualUnimplementedSentenceIds": [
+        "jia-paragraph-32-sentence-01",
+        "jia-paragraph-32-sentence-02",
+        "jia-paragraph-32-sentence-03",
+        "jia-paragraph-32-sentence-04",
+        "jia-paragraph-32-sentence-05",
+        "jia-paragraph-33-sentence-01",
+        "jia-paragraph-33-sentence-02",
+        "jia-paragraph-34-sentence-01",
+        "jia-paragraph-34-sentence-02",
+        "jia-paragraph-34-sentence-03",
+        "jia-paragraph-34-sentence-04",
+        "jia-paragraph-35-sentence-01",
+        "jia-paragraph-35-sentence-02",
+        "jia-paragraph-36-sentence-01",
+        "jia-paragraph-36-sentence-02",
+        "jia-paragraph-37-sentence-01",
+        "jia-paragraph-37-sentence-02",
+        "jia-paragraph-37-sentence-03"
+      ]
+    },
+    {
+      "monthBranch": "酉",
+      "transcribedParagraphs": 12,
+      "sourceSentenceUnits": 26,
+      "identifiedBranchAnchors": 23,
+      "newExecutablePredicates": 1,
+      "existingVersionAnchors": 0,
+      "needsDefinition": 17,
+      "queuedDiscreteReview": 3,
+      "recordedTextOnly": 2,
+      "fullMonthDecisionImplemented": false,
+      "paragraphIds": [
+        "jia-paragraph-32",
+        "jia-paragraph-33",
+        "jia-paragraph-34",
+        "jia-paragraph-35",
+        "jia-paragraph-36",
+        "jia-paragraph-38",
+        "jia-paragraph-39",
+        "jia-paragraph-40",
+        "jia-paragraph-41",
+        "jia-paragraph-42",
+        "jia-paragraph-43",
+        "jia-paragraph-44"
+      ],
+      "actualUnimplementedSentenceIds": [
+        "jia-paragraph-32-sentence-01",
+        "jia-paragraph-32-sentence-02",
+        "jia-paragraph-32-sentence-03",
+        "jia-paragraph-32-sentence-04",
+        "jia-paragraph-32-sentence-05",
+        "jia-paragraph-33-sentence-01",
+        "jia-paragraph-33-sentence-02",
+        "jia-paragraph-34-sentence-01",
+        "jia-paragraph-34-sentence-02",
+        "jia-paragraph-34-sentence-03",
+        "jia-paragraph-34-sentence-04",
+        "jia-paragraph-35-sentence-01",
+        "jia-paragraph-35-sentence-02",
+        "jia-paragraph-36-sentence-01",
+        "jia-paragraph-36-sentence-02",
+        "jia-paragraph-38-sentence-01",
+        "jia-paragraph-38-sentence-02",
+        "jia-paragraph-39-sentence-01",
+        "jia-paragraph-39-sentence-02",
+        "jia-paragraph-40-sentence-01",
+        "jia-paragraph-40-sentence-02",
+        "jia-paragraph-41-sentence-01",
+        "jia-paragraph-41-sentence-02",
+        "jia-paragraph-42-sentence-01",
+        "jia-paragraph-43-sentence-01",
+        "jia-paragraph-44-sentence-01"
+      ]
+    },
+    {
+      "monthBranch": "戌",
+      "transcribedParagraphs": 14,
+      "sourceSentenceUnits": 42,
+      "identifiedBranchAnchors": 33,
+      "newExecutablePredicates": 0,
+      "existingVersionAnchors": 0,
+      "needsDefinition": 23,
+      "queuedDiscreteReview": 7,
+      "recordedTextOnly": 3,
+      "fullMonthDecisionImplemented": false,
+      "paragraphIds": [
+        "jia-paragraph-32",
+        "jia-paragraph-33",
+        "jia-paragraph-34",
+        "jia-paragraph-35",
+        "jia-paragraph-36",
+        "jia-paragraph-45",
+        "jia-paragraph-46",
+        "jia-paragraph-47",
+        "jia-paragraph-48",
+        "jia-paragraph-49",
+        "jia-paragraph-50",
+        "jia-paragraph-51",
+        "jia-paragraph-52",
+        "jia-paragraph-53"
+      ],
+      "actualUnimplementedSentenceIds": [
+        "jia-paragraph-32-sentence-01",
+        "jia-paragraph-32-sentence-02",
+        "jia-paragraph-32-sentence-03",
+        "jia-paragraph-32-sentence-04",
+        "jia-paragraph-32-sentence-05",
+        "jia-paragraph-33-sentence-01",
+        "jia-paragraph-33-sentence-02",
+        "jia-paragraph-34-sentence-01",
+        "jia-paragraph-34-sentence-02",
+        "jia-paragraph-34-sentence-03",
+        "jia-paragraph-34-sentence-04",
+        "jia-paragraph-35-sentence-01",
+        "jia-paragraph-35-sentence-02",
+        "jia-paragraph-36-sentence-01",
+        "jia-paragraph-36-sentence-02",
+        "jia-paragraph-45-sentence-01",
+        "jia-paragraph-45-sentence-02",
+        "jia-paragraph-46-sentence-01",
+        "jia-paragraph-46-sentence-02",
+        "jia-paragraph-46-sentence-03",
+        "jia-paragraph-46-sentence-04",
+        "jia-paragraph-46-sentence-05",
+        "jia-paragraph-46-sentence-06",
+        "jia-paragraph-47-sentence-01",
+        "jia-paragraph-47-sentence-02",
+        "jia-paragraph-47-sentence-03",
+        "jia-paragraph-47-sentence-04",
+        "jia-paragraph-48-sentence-01",
+        "jia-paragraph-48-sentence-02",
+        "jia-paragraph-49-sentence-01",
+        "jia-paragraph-49-sentence-02",
+        "jia-paragraph-50-sentence-01",
+        "jia-paragraph-51-sentence-01",
+        "jia-paragraph-52-sentence-01",
+        "jia-paragraph-52-sentence-02",
+        "jia-paragraph-52-sentence-03",
+        "jia-paragraph-52-sentence-04",
+        "jia-paragraph-52-sentence-05",
+        "jia-paragraph-53-sentence-01",
+        "jia-paragraph-53-sentence-02",
+        "jia-paragraph-53-sentence-03",
+        "jia-paragraph-53-sentence-04"
+      ]
+    },
+    {
+      "monthBranch": "亥",
+      "transcribedParagraphs": 4,
+      "sourceSentenceUnits": 10,
+      "identifiedBranchAnchors": 9,
+      "newExecutablePredicates": 0,
+      "existingVersionAnchors": 1,
+      "needsDefinition": 6,
+      "queuedDiscreteReview": 1,
+      "recordedTextOnly": 1,
+      "fullMonthDecisionImplemented": false,
+      "paragraphIds": [
+        "jia-paragraph-55",
+        "jia-paragraph-56",
+        "jia-paragraph-57",
+        "jia-paragraph-58"
+      ],
+      "actualUnimplementedSentenceIds": [
+        "jia-paragraph-55-sentence-01",
+        "jia-paragraph-55-sentence-02",
+        "jia-paragraph-56-sentence-01",
+        "jia-paragraph-56-sentence-02",
+        "jia-paragraph-56-sentence-03",
+        "jia-paragraph-57-sentence-01",
+        "jia-paragraph-57-sentence-02",
+        "jia-paragraph-57-sentence-03"
+      ]
+    },
+    {
+      "monthBranch": "子",
+      "transcribedParagraphs": 4,
+      "sourceSentenceUnits": 11,
+      "identifiedBranchAnchors": 9,
+      "newExecutablePredicates": 0,
+      "existingVersionAnchors": 0,
+      "needsDefinition": 7,
+      "queuedDiscreteReview": 0,
+      "recordedTextOnly": 2,
+      "fullMonthDecisionImplemented": false,
+      "paragraphIds": [
+        "jia-paragraph-59",
+        "jia-paragraph-60",
+        "jia-paragraph-61",
+        "jia-paragraph-62"
+      ],
+      "actualUnimplementedSentenceIds": [
+        "jia-paragraph-59-sentence-01",
+        "jia-paragraph-59-sentence-02",
+        "jia-paragraph-59-sentence-03",
+        "jia-paragraph-59-sentence-04",
+        "jia-paragraph-59-sentence-05",
+        "jia-paragraph-59-sentence-06",
+        "jia-paragraph-60-sentence-01",
+        "jia-paragraph-61-sentence-01",
+        "jia-paragraph-61-sentence-02"
+      ]
+    },
+    {
+      "monthBranch": "丑",
+      "transcribedParagraphs": 3,
+      "sourceSentenceUnits": 12,
+      "identifiedBranchAnchors": 13,
+      "newExecutablePredicates": 0,
+      "existingVersionAnchors": 1,
+      "needsDefinition": 8,
+      "queuedDiscreteReview": 2,
+      "recordedTextOnly": 2,
+      "fullMonthDecisionImplemented": false,
+      "paragraphIds": [
+        "jia-paragraph-63",
+        "jia-paragraph-64",
+        "jia-paragraph-65"
+      ],
+      "actualUnimplementedSentenceIds": [
+        "jia-paragraph-63-sentence-01",
+        "jia-paragraph-64-sentence-01",
+        "jia-paragraph-64-sentence-02",
+        "jia-paragraph-64-sentence-03",
+        "jia-paragraph-64-sentence-04",
+        "jia-paragraph-64-sentence-05",
+        "jia-paragraph-64-sentence-06",
+        "jia-paragraph-64-sentence-07",
+        "jia-paragraph-64-sentence-08",
+        "jia-paragraph-65-sentence-01",
+        "jia-paragraph-65-sentence-02",
+        "jia-paragraph-65-sentence-03"
+      ]
+    }
+  ],
+  "executable": [
+    {
+      "id": "jia-yin-gui-hidden-bing-exposed",
+      "dayStem": "甲",
+      "monthBranch": "寅",
+      "label": "寅月：藏癸与明丙的非互斥存在",
+      "anchorId": "jia-paragraph-03-branch-02",
+      "predicate": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "stem",
+            "stem": "癸",
+            "scope": "hidden",
+            "includeDayMaster": false,
+            "present": true
+          },
+          {
+            "kind": "stem",
+            "stem": "丙",
+            "scope": "exposed",
+            "includeDayMaster": false,
+            "present": true
+          }
+        ]
+      },
+      "source": {
+        "sourceId": "bazi-monthly-qiongtong-2294674",
+        "revision": "wikisource-revision/2294674",
+        "rawSha256": "8ba17242f116583de2e10172e006f5ce5f74b23ccfc0bd24b886be135e9f20bd",
+        "quote": "癸藏丙透",
+        "quoteSpan": {
+          "start": 1519,
+          "end": 1523,
+          "unit": "unicode-codepoint",
+          "interval": "[start,end)"
+        },
+        "contextSpan": {
+          "start": 1491,
+          "end": 1559,
+          "unit": "unicode-codepoint",
+          "interval": "[start,end)"
+        },
+        "contextSha256": "0a87929c6c80f37ba877bd730bfa1fd17755709cd430abb5fe257c43abb9e365",
+        "locator": "oldid=2294674;论甲木;codepoint[1519,1523)",
+        "scanCollation": false
+      },
+      "unresolved": [
+        "本句未裁定寒暖有效作用或整体用神。",
+        "藏癸不排除同局另有癸透；丙透也不排除另支藏丙。"
+      ],
+      "decisionLevel": "selected-literal-subclause-only",
+      "actionEvaluation": "not-evaluated",
+      "usefulGodDecision": "not-evaluated"
+    },
+    {
+      "id": "jia-chen-geng-ren-exposed",
+      "dayStem": "甲",
+      "monthBranch": "辰",
+      "label": "辰月：明庚与明壬同见",
+      "anchorId": "jia-paragraph-10-branch-02",
+      "predicate": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "stem",
+            "stem": "庚",
+            "scope": "exposed",
+            "includeDayMaster": false,
+            "present": true
+          },
+          {
+            "kind": "stem",
+            "stem": "壬",
+            "scope": "exposed",
+            "includeDayMaster": false,
+            "present": true
+          }
+        ]
+      },
+      "source": {
+        "sourceId": "bazi-monthly-qiongtong-2294674",
+        "revision": "wikisource-revision/2294674",
+        "rawSha256": "8ba17242f116583de2e10172e006f5ce5f74b23ccfc0bd24b886be135e9f20bd",
+        "quote": "庚壬两透",
+        "quoteSpan": {
+          "start": 2178,
+          "end": 2182,
+          "unit": "unicode-codepoint",
+          "interval": "[start,end)"
+        },
+        "contextSpan": {
+          "start": 2152,
+          "end": 2205,
+          "unit": "unicode-codepoint",
+          "interval": "[start,end)"
+        },
+        "contextSha256": "4b98b302bd2c50835cbb380fdc7526c14a7701a9a14ab1b998a3be43d3a6292f",
+        "locator": "oldid=2294674;论甲木;codepoint[2178,2182)",
+        "scanCollation": false
+      },
+      "unresolved": [
+        "相生的实际作用未裁定。",
+        "庚壬明干同时出现不代表已有效取用。"
+      ],
+      "decisionLevel": "selected-literal-subclause-only",
+      "actionEvaluation": "not-evaluated",
+      "usefulGodDecision": "not-evaluated"
+    },
+    {
+      "id": "jia-si-gui-ding-geng-exposed",
+      "dayStem": "甲",
+      "monthBranch": "巳",
+      "label": "巳月：癸、丁、庚齐见明干",
+      "anchorId": "jia-paragraph-20-branch-01",
+      "predicate": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "stem",
+            "stem": "癸",
+            "scope": "exposed",
+            "includeDayMaster": false,
+            "present": true
+          },
+          {
+            "kind": "stem",
+            "stem": "丁",
+            "scope": "exposed",
+            "includeDayMaster": false,
+            "present": true
+          },
+          {
+            "kind": "stem",
+            "stem": "庚",
+            "scope": "exposed",
+            "includeDayMaster": false,
+            "present": true
+          }
+        ]
+      },
+      "source": {
+        "sourceId": "bazi-monthly-qiongtong-2294674",
+        "revision": "wikisource-revision/2294674",
+        "rawSha256": "8ba17242f116583de2e10172e006f5ce5f74b23ccfc0bd24b886be135e9f20bd",
+        "quote": "或癸丁与庚齐透天干",
+        "quoteSpan": {
+          "start": 2555,
+          "end": 2564,
+          "unit": "unicode-codepoint",
+          "interval": "[start,end)"
+        },
+        "contextSpan": {
+          "start": 2555,
+          "end": 2642,
+          "unit": "unicode-codepoint",
+          "interval": "[start,end)"
+        },
+        "contextSha256": "1fa692d8a3a910121a048d84252d0cb8119b987b01c13b7a3e2807b0ab8906a7",
+        "locator": "oldid=2294674;论甲木;codepoint[2555,2564)",
+        "scanCollation": false
+      },
+      "unresolved": [
+        "不从三干出现推断气势或相互作用。",
+        "同段癸水不出、全无水与一派丙戊等另有依赖，未因此闭合。"
+      ],
+      "decisionLevel": "selected-literal-subclause-only",
+      "actionEvaluation": "not-evaluated",
+      "usefulGodDecision": "not-evaluated"
+    },
+    {
+      "id": "jia-you-bing-geng-exposed",
+      "dayStem": "甲",
+      "monthBranch": "酉",
+      "label": "酉月：明丙与明庚同见",
+      "anchorId": "jia-paragraph-40-branch-01",
+      "predicate": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "stem",
+            "stem": "丙",
+            "scope": "exposed",
+            "includeDayMaster": false,
+            "present": true
+          },
+          {
+            "kind": "stem",
+            "stem": "庚",
+            "scope": "exposed",
+            "includeDayMaster": false,
+            "present": true
+          }
+        ]
+      },
+      "source": {
+        "sourceId": "bazi-monthly-qiongtong-2294674",
+        "revision": "wikisource-revision/2294674",
+        "rawSha256": "8ba17242f116583de2e10172e006f5ce5f74b23ccfc0bd24b886be135e9f20bd",
+        "quote": "丙庚两透",
+        "quoteSpan": {
+          "start": 3848,
+          "end": 3852,
+          "unit": "unicode-codepoint",
+          "interval": "[start,end)"
+        },
+        "contextSpan": {
+          "start": 3848,
+          "end": 3868,
+          "unit": "unicode-codepoint",
+          "interval": "[start,end)"
+        },
+        "contextSha256": "4fbefddb61c1d95594b85e2ccfca0121f2166b3870576aab8039f8b60fd85b27",
+        "locator": "oldid=2294674;论甲木;codepoint[3848,3852)",
+        "scanCollation": false
+      },
+      "unresolved": [
+        "不从明丙庚存在推断制化结果。",
+        "同段丙丁全无的范围等其它分支另待核定。"
+      ],
+      "decisionLevel": "selected-literal-subclause-only",
+      "actionEvaluation": "not-evaluated",
+      "usefulGodDecision": "not-evaluated"
+    }
+  ]
+}

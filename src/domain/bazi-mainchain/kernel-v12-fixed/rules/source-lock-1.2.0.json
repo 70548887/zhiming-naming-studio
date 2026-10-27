@@ -1,0 +1,58 @@
+{
+  "schema": "bazi-method144-source-lock/1",
+  "sources": [
+    {
+      "id": "lunar-typescript-1.8.6-facts",
+      "package": "lunar-typescript",
+      "version": "1.8.6",
+      "entrySha256": "76e490b74e9913ed94b49689b90abc688ed1e2b11456312b3eb081ec63cf2fbe",
+      "license": "MIT",
+      "scope": "Stem/branch fact tables only; no numerical strength or formation rule adopted."
+    },
+    {
+      "id": "ditian-ren-2600158-principles",
+      "url": "https://zh.wikisource.org/w/index.php?title=滴天髓闡微&oldid=2600158",
+      "sha256": "1d1a3d61c1b9a26618b41b8ead857a6b966992fdf2adabdc607a0c6cb4c8f04d",
+      "license": "CC-BY-SA-4.0",
+      "scope": "Fixed electronic transcription, principles and contexts; not scanned-edition collation."
+    },
+    {
+      "id": "qiongtong-2294674-initial-reference",
+      "url": "https://zh.wikisource.org/w/index.php?title=穷通宝鉴&oldid=2294674",
+      "rawSha256": "8ba17242f116583de2e10172e006f5ce5f74b23ccfc0bd24b886be135e9f20bd",
+      "structuredSha256": "71d58e5c547297feabbe44023cfb7ceed213f6582215ca21273076e98328ff48",
+      "license": "CC-BY-SA-4.0",
+      "scope": "Existing120 initial references,112 initial and8 needs-review; full conditional final use not asserted."
+    },
+    {
+      "id": "project-bazi-mainchain-144",
+      "origin": "project-proposal",
+      "author": "Naming Studio D01",
+      "scope": "All numerical parameters, application order, sufficient conditions and unresolved-branch policy."
+    }
+  ],
+  "dataSha256": "3d274b797503795b80f7acb13414db783df7e1ed4fc8c3c5ae29b148b495d647",
+  "previousRulesSha256": "3ca5cd8ecba31dc188e70a664fd9f3ba91bc0d2d67822e43f5b2f03e322394d0",
+  "revisionReason": "Independent fixed-capacity control budget before generation/root/strength/branch/use; conditional same-target protection interventions.",
+  "baselineManifestSha256": "3e8f152c18a6fd4900bf92e1d0870d5b973d67371451be68514bced2dc3f09e6",
+  "entryPolicySourceContext": {
+    "start": 106188,
+    "end": 106401,
+    "sourceRawSha256": "1d1a3d61c1b9a26618b41b8ead857a6b966992fdf2adabdc607a0c6cb4c8f04d"
+  },
+  "previousMethod": "project-bazi-mainchain-140/1.1.0",
+  "controlContract": {
+    "file": "E:/八卦周易/.local/team-144/decision/CORE-CONTRACT.md",
+    "sha256": "263340fa09d4b781bf068767f1549ecd3e575f6c24b0af90dc4cb5291cda9a57",
+    "status": "Project numerical contract, not classical sufficient rules"
+  },
+  "resourceProtectionSource": {
+    "sourceRawSha256": "1d1a3d61c1b9a26618b41b8ead857a6b966992fdf2adabdc607a0c6cb4c8f04d",
+    "codepointStart": 47174,
+    "codepointEnd": 47600,
+    "quoteSha256": "c9587a4473558c7abe844e04b151e8c25091f566484014663b13b80a278ff824",
+    "scope": "Object/order only, no numerical sufficiency"
+  },
+  "solverSourceSha256": "4862b961b49c43252853b9213410da5971d84c1a4c6ed3c781363a704f8468be",
+  "solverTypeSha256": "45416041eb15d31c4ba9398d2101b116f4d9562d152593f223a9bf0c27595e8b"
+}

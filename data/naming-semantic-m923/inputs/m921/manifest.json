@@ -1,0 +1,141 @@
+{
+  "schema": "m921-publication-manifest/1",
+  "version": "m921-character-meaning-publication/1.0.0-candidate.1",
+  "activation": "off",
+  "admissionGranted": false,
+  "productionApproved": false,
+  "formalCoverageAdded": 0,
+  "defaultAutomaticCoverageAdded": 0,
+  "files": [
+    {
+      "file": "inputs/m910-selection.json",
+      "bytes": 23959,
+      "sha256": "6019bf2c7bc170af093c5bf6458e798968f63a6c03dd09b24dc35abb6fd4948f"
+    },
+    {
+      "file": "inputs/m910-source-subset.json",
+      "bytes": 45689,
+      "sha256": "e9e096c203b8ae640fe9ae64f91ab25bbbe9c8fd62cf6ce36c8a8224dea17893"
+    },
+    {
+      "file": "inputs/m910-manifest.json",
+      "bytes": 1262,
+      "sha256": "a345d11b3f34cb5d4bc8b0a6de8453a2ff0cd68e559af5f0f48a215380da3e8c"
+    },
+    {
+      "file": "inputs/m910-source-lock.json",
+      "bytes": 5304,
+      "sha256": "fec799c8ac7848e9eb0360207931862a3a06eda7bcf7570282daef22fd1d7307"
+    },
+    {
+      "file": "inputs/m914-selection.json",
+      "bytes": 66093,
+      "sha256": "b7e6d8bbf2ca13c086f781763e6b74ffb344f5585561be43b1a5705871e7bdf5"
+    },
+    {
+      "file": "inputs/m914-source-subset.json",
+      "bytes": 106824,
+      "sha256": "8d76e27ad008ed92747ac19aa04563233a5479f215ba03743eff63d654c958ff"
+    },
+    {
+      "file": "inputs/m914-manifest.json",
+      "bytes": 1261,
+      "sha256": "1f599fb1dd014448674d39a95c1bc5c62372c1d80b9bf73de1d467ac9e00f6e8"
+    },
+    {
+      "file": "inputs/m914-source-lock.json",
+      "bytes": 2199,
+      "sha256": "93cbee88e96b9a4e95cc0c2d2e19f0288d85040cce53ce45c7c1ed8b7864ee48"
+    },
+    {
+      "file": "inputs/m916-review-input.json",
+      "bytes": 101050,
+      "sha256": "4c7f842b268943eab7d7207b5df2941ada3286d1558ad4eebc846830ce717291"
+    },
+    {
+      "file": "inputs/m916-semantic-review.json",
+      "bytes": 101720,
+      "sha256": "55c0a6f9fd33b61e4a219da6d30275b9001e8bf519a33daf525ff269006555cf"
+    },
+    {
+      "file": "inputs/m916-manifest.json",
+      "bytes": 1896,
+      "sha256": "d1c357985dcda8d74b063a05b2e06512a882f40ca573bb5a86db558a95cca2b1"
+    },
+    {
+      "file": "inputs/m917-decision-contract.json",
+      "bytes": 12087,
+      "sha256": "99e649b8db0ccb8ab2dd979807f05cf1991e836bd7b211e161ee13a3655f2bed"
+    },
+    {
+      "file": "inputs/m917-rows.jsonl",
+      "bytes": 145675,
+      "sha256": "20feda04fc9387b6fc20de641e4b38dc52a805236ebd96a7f80d2f5ba80ea17e"
+    },
+    {
+      "file": "publication.json",
+      "bytes": 612192,
+      "sha256": "315ea65ed78cf3b5b630a6dd8e525924f89b0355a98685d5503e02737aea7431"
+    },
+    {
+      "file": "lineage.json",
+      "bytes": 56224,
+      "sha256": "1bb823792457ac0a966896b094b4d4bbfe720dbbe1821c0b6b279d1e4c555af2"
+    },
+    {
+      "file": "revision-proposals.json",
+      "bytes": 3162,
+      "sha256": "b37708c5b2da686598c75d135c1fbd957740b2bbbf4899be48542319293277bc"
+    },
+    {
+      "file": "source-lock.json",
+      "bytes": 6207,
+      "sha256": "9261c3cc633802c41ecce826e175fab373dab461281525e6b78918284ae1c975"
+    },
+    {
+      "file": "convert.mjs",
+      "bytes": 17153,
+      "sha256": "3a1fe4e32df410e0cc42f08bdbb5c88e584f7b370749a65654a545ba9677aa14"
+    },
+    {
+      "file": "verify.mjs",
+      "bytes": 4787,
+      "sha256": "4c0681a4e357d39dcb42789be03a7ab2970fd31c289aa66bc999284e1a28905e"
+    },
+    {
+      "file": "pins.mjs",
+      "bytes": 4928,
+      "sha256": "c4f1e3fe1232a1613b35016b42c453496ebd670d4adf96517a2631015eb2edd6"
+    },
+    {
+      "file": "seal.mjs",
+      "bytes": 794,
+      "sha256": "ec2cc4ea2ffc3607d8ad5ce06939378e35a507ad9bc5ee16d63792ebb7fc8ffb"
+    },
+    {
+      "file": "tests.mjs",
+      "bytes": 23371,
+      "sha256": "25c3cc4696ef6fd136ba1e9492de7e390cea04e227b8d5cfe0f6e472f9664400"
+    },
+    {
+      "file": "interface-check.ts",
+      "bytes": 33893,
+      "sha256": "61c131809941c873d6e73fa1c43ad550039d103f443e1e3291273587f14cf725"
+    },
+    {
+      "file": "integration-contract.json",
+      "bytes": 20472,
+      "sha256": "f0da20efb2eb6e7ffac3e9f7dd40156e897766ff2268fb01e6cfcf62eea49524"
+    },
+    {
+      "file": "registration-hunk.txt",
+      "bytes": 8049,
+      "sha256": "bff927cdfdb0d9a1e19c068377125173b3846faf9e3b7a727d587a8a855867a5"
+    },
+    {
+      "file": "README.md",
+      "bytes": 2803,
+      "sha256": "007aab0d3ab63d3569a02e83be3ed2a3b4e1cfa287ab8f0ce92428da3bbe1b33"
+    }
+  ]
+}

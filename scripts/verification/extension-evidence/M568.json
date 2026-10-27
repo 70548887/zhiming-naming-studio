@@ -1,0 +1,89 @@
+{
+  "auditId": "M568-root-clause-integration-independent-audit",
+  "generatedAt": "2026-10-25",
+  "status": "root-composition-static-pass-runtime-consumer-pending",
+  "scope": {
+    "readOnly": true,
+    "productWrites": 0,
+    "network": 0,
+    "sql": 0,
+    "worker": 0,
+    "browser": 0,
+    "fullBuild": 0,
+    "fullRegression": 0,
+    "oldM530AndM561AuthorTestsRerun": false
+  },
+  "inputs": {
+    "worktree": "D:/Codex-NamingStudio-Evidence/m568-clause-integration",
+    "base": "f1f4f20ab4fa6d371bae34d7646ef2133f274342",
+    "preparation": {
+      "file": "D:/Codex-NamingStudio-Evidence/m568-integration-evidence/preparation.json",
+      "sha256": "6ede51f09485bb46caad3d6b1bd84f67e360360f05a448c933df6bee938232ab",
+      "bytes": 7379
+    },
+    "changedFiles": 23,
+    "composition": {
+      "apiFiles": 9,
+      "coreCopies": 4,
+      "uiFixtureTestFiles": 6,
+      "apiTestFiles": 2,
+      "rootSharedAndMount": 2
+    },
+    "typecheck": {
+      "pid": 39292,
+      "exitCode": 0,
+      "diagnostics": 0,
+      "sourceDrift": [],
+      "verifiedChangedFiles": 23
+    }
+  },
+  "staticChecks": {
+    "bytePins": "23/23 preparation identities present and matched",
+    "coreDependencies": "M565-approved CORE copies reused; no new CORE review claim",
+    "sharedTypes": "exact proposal copy; no compatibility union or replacement DTO authored by root",
+    "appMount": {
+      "import": "QiongtongClausePreviewPanel + hasQiongtongClauseReferenceApi",
+      "jsx": "one adjacent panel on page=bazi using window.studio and busy disable",
+      "route": "bazi page only",
+      "fallback": "missing API leaves panel unavailable/disabled"
+    },
+    "sourceScope": "no product/database/worker/source writes beyond prepared branch evidence",
+    "sourceDrift": "none"
+  },
+  "risksAndGaps": [
+    {
+      "id": "M568-R1",
+      "severity": "P1-integration",
+      "detail": "No actual API/UI/HTTP/App main/SQL/Worker runtime flow was executed; static mount and tsc do not establish consumer behavior."
+    },
+    {
+      "id": "M568-R2",
+      "severity": "P1-consumer",
+      "detail": "M566 consumer normal call is still pending; M560 utility isolated tests cannot serve as the consumer gate."
+    },
+    {
+      "id": "M568-R3",
+      "severity": "P2-scope",
+      "detail": "No commit exists for this integration branch; the preparation is reviewable evidence, not a merge or release artifact."
+    }
+  ],
+  "decisions": {
+    "staticComposition": "APPROVED-FOR-STATIC-COMPOSITION-SCOPE",
+    "appMount": "APPROVED-AS-STATIC-WIRING-ONLY",
+    "consumerRuntime": "PENDING-M566",
+    "wholeApp": "NOT-APPROVED",
+    "release": "NOT-APPROVED"
+  },
+  "limitations": [
+    "No actual new API/UI/SQL/Worker end-to-end flow was run.",
+    "No browser DOM/HTTP, installer, full build or regression was run.",
+    "M530 GengSi and M561 43 tests were not rerun per scope."
+  ],
+  "evidence": [
+    "D:/Codex-NamingStudio-Evidence/m568-integration-evidence/preparation.json",
+    "D:/Codex-NamingStudio-Evidence/m568-integration-evidence/type-check.json",
+    "D:/Codex-NamingStudio-Evidence/m568-clause-integration/src/renderer/main.tsx",
+    "D:/Codex-NamingStudio-Evidence/m568-clause-integration/src/renderer/QiongtongClausePreviewPanel.tsx",
+    "D:/Codex-NamingStudio-Evidence/m568-clause-integration/package.json"
+  ]
+}

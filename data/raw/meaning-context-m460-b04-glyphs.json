@@ -1,0 +1,554 @@
+{
+  "bindings": [
+    {
+      "caseId": "meaning-context-m460-b04:渤:87980:0:0",
+      "givenName": "渤海",
+      "sourceWord": "渤海",
+      "positions": [
+        {
+          "position": 0,
+          "character": "渤",
+          "sourceGlyph": "渤",
+          "kind": "exact-source-glyph",
+          "proof": []
+        },
+        {
+          "position": 1,
+          "character": "海",
+          "sourceGlyph": "海",
+          "kind": "exact-source-glyph",
+          "proof": []
+        }
+      ]
+    },
+    {
+      "caseId": "meaning-context-m460-b04:俐:11940:0:0",
+      "givenName": "俐亮",
+      "sourceWord": "俐亮",
+      "positions": [
+        {
+          "position": 0,
+          "character": "俐",
+          "sourceGlyph": "俐",
+          "kind": "exact-source-glyph",
+          "proof": []
+        },
+        {
+          "position": 1,
+          "character": "亮",
+          "sourceGlyph": "亮",
+          "kind": "exact-source-glyph",
+          "proof": []
+        }
+      ]
+    },
+    {
+      "caseId": "meaning-context-m460-b04:偲:13631:0:0",
+      "givenName": "偲偲",
+      "sourceWord": "偲偲",
+      "positions": [
+        {
+          "position": 0,
+          "character": "偲",
+          "sourceGlyph": "偲",
+          "kind": "exact-source-glyph",
+          "proof": []
+        },
+        {
+          "position": 1,
+          "character": "偲",
+          "sourceGlyph": "偲",
+          "kind": "exact-source-glyph",
+          "proof": []
+        }
+      ]
+    },
+    {
+      "caseId": "meaning-context-m460-b04:颍:89740:0:0",
+      "givenName": "颍河",
+      "sourceWord": "潁河",
+      "positions": [
+        {
+          "position": 0,
+          "character": "颍",
+          "sourceGlyph": "潁",
+          "kind": "unicode-two-way-fixed-lines",
+          "proof": [
+            {
+              "file": "data/raw/kTraditionalVariant.txt",
+              "line": 2380,
+              "text": "988D\tU+6F41",
+              "fileSha256": "4eca6285d45070548e6e6c06e4b48c3ca6866d4380e8cb980c512f5d1fc71895"
+            },
+            {
+              "file": "data/raw/kSimplifiedVariant.txt",
+              "line": 1950,
+              "text": "6F41\tU+988D",
+              "fileSha256": "a7f0c9dbbca85cffd90517fa6ea9be97d2e6f811328a59b6b303d58a418ac9be"
+            }
+          ]
+        },
+        {
+          "position": 1,
+          "character": "河",
+          "sourceGlyph": "河",
+          "kind": "exact-source-glyph",
+          "proof": []
+        }
+      ]
+    },
+    {
+      "caseId": "meaning-context-m460-b04:洛:85337:0:0",
+      "givenName": "洛阳",
+      "sourceWord": "洛陽",
+      "positions": [
+        {
+          "position": 0,
+          "character": "洛",
+          "sourceGlyph": "洛",
+          "kind": "exact-source-glyph",
+          "proof": []
+        },
+        {
+          "position": 1,
+          "character": "阳",
+          "sourceGlyph": "陽",
+          "kind": "unicode-two-way-fixed-lines",
+          "proof": [
+            {
+              "file": "data/raw/kTraditionalVariant.txt",
+              "line": 2314,
+              "text": "9633\tU+967D",
+              "fileSha256": "4eca6285d45070548e6e6c06e4b48c3ca6866d4380e8cb980c512f5d1fc71895"
+            },
+            {
+              "file": "data/raw/kSimplifiedVariant.txt",
+              "line": 4554,
+              "text": "967D\tU+9633",
+              "fileSha256": "a7f0c9dbbca85cffd90517fa6ea9be97d2e6f811328a59b6b303d58a418ac9be"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "caseId": "meaning-context-m460-b04:彭:51705:0:0",
+      "givenName": "彭泽",
+      "sourceWord": "彭澤",
+      "positions": [
+        {
+          "position": 0,
+          "character": "彭",
+          "sourceGlyph": "彭",
+          "kind": "exact-source-glyph",
+          "proof": []
+        },
+        {
+          "position": 1,
+          "character": "泽",
+          "sourceGlyph": "澤",
+          "kind": "unicode-two-way-fixed-lines",
+          "proof": [
+            {
+              "file": "data/raw/kTraditionalVariant.txt",
+              "line": 939,
+              "text": "6CFD\tU+6FA4",
+              "fileSha256": "4eca6285d45070548e6e6c06e4b48c3ca6866d4380e8cb980c512f5d1fc71895"
+            },
+            {
+              "file": "data/raw/kSimplifiedVariant.txt",
+              "line": 1975,
+              "text": "6FA4\tU+6CFD",
+              "fileSha256": "a7f0c9dbbca85cffd90517fa6ea9be97d2e6f811328a59b6b303d58a418ac9be"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "caseId": "meaning-context-m460-b04:湘:88314:0:1",
+      "givenName": "湘君",
+      "sourceWord": "湘君",
+      "positions": [
+        {
+          "position": 0,
+          "character": "湘",
+          "sourceGlyph": "湘",
+          "kind": "exact-source-glyph",
+          "proof": []
+        },
+        {
+          "position": 1,
+          "character": "君",
+          "sourceGlyph": "君",
+          "kind": "exact-source-glyph",
+          "proof": []
+        }
+      ]
+    },
+    {
+      "caseId": "meaning-context-m460-b04:奥:38682:0:0",
+      "givenName": "奥妙",
+      "sourceWord": "奧妙",
+      "positions": [
+        {
+          "position": 0,
+          "character": "奥",
+          "sourceGlyph": "奧",
+          "kind": "unicode-two-way-fixed-lines",
+          "proof": [
+            {
+              "file": "data/raw/kTraditionalVariant.txt",
+              "line": 490,
+              "text": "5965\tU+5967",
+              "fileSha256": "4eca6285d45070548e6e6c06e4b48c3ca6866d4380e8cb980c512f5d1fc71895"
+            },
+            {
+              "file": "data/raw/kSimplifiedVariant.txt",
+              "line": 1086,
+              "text": "5967\tU+5965",
+              "fileSha256": "a7f0c9dbbca85cffd90517fa6ea9be97d2e6f811328a59b6b303d58a418ac9be"
+            }
+          ]
+        },
+        {
+          "position": 1,
+          "character": "妙",
+          "sourceGlyph": "妙",
+          "kind": "exact-source-glyph",
+          "proof": []
+        }
+      ]
+    },
+    {
+      "caseId": "meaning-context-m460-b04:赫:136754:0:0",
+      "givenName": "赫然",
+      "sourceWord": "赫然",
+      "positions": [
+        {
+          "position": 0,
+          "character": "赫",
+          "sourceGlyph": "赫",
+          "kind": "exact-source-glyph",
+          "proof": []
+        },
+        {
+          "position": 1,
+          "character": "然",
+          "sourceGlyph": "然",
+          "kind": "exact-source-glyph",
+          "proof": []
+        }
+      ]
+    },
+    {
+      "caseId": "meaning-context-m460-b04:娇:40703:0:0",
+      "givenName": "娇美",
+      "sourceWord": "嬌美",
+      "positions": [
+        {
+          "position": 0,
+          "character": "娇",
+          "sourceGlyph": "嬌",
+          "kind": "unicode-two-way-fixed-lines",
+          "proof": [
+            {
+              "file": "data/raw/kTraditionalVariant.txt",
+              "line": 505,
+              "text": "5A07\tU+5A07 U+5B0C",
+              "fileSha256": "4eca6285d45070548e6e6c06e4b48c3ca6866d4380e8cb980c512f5d1fc71895"
+            },
+            {
+              "file": "data/raw/kSimplifiedVariant.txt",
+              "line": 1135,
+              "text": "5B0C\tU+5A07",
+              "fileSha256": "a7f0c9dbbca85cffd90517fa6ea9be97d2e6f811328a59b6b303d58a418ac9be"
+            }
+          ]
+        },
+        {
+          "position": 1,
+          "character": "美",
+          "sourceGlyph": "美",
+          "kind": "exact-source-glyph",
+          "proof": []
+        }
+      ]
+    },
+    {
+      "caseId": "meaning-context-m460-b04:孔:40943:0:1",
+      "givenName": "孔明",
+      "sourceWord": "孔明",
+      "positions": [
+        {
+          "position": 0,
+          "character": "孔",
+          "sourceGlyph": "孔",
+          "kind": "exact-source-glyph",
+          "proof": []
+        },
+        {
+          "position": 1,
+          "character": "明",
+          "sourceGlyph": "明",
+          "kind": "exact-source-glyph",
+          "proof": []
+        }
+      ]
+    },
+    {
+      "caseId": "meaning-context-m460-b04:灵:153037:0:0",
+      "givenName": "灵慧",
+      "sourceWord": "靈慧",
+      "positions": [
+        {
+          "position": 0,
+          "character": "灵",
+          "sourceGlyph": "靈",
+          "kind": "unicode-two-way-fixed-lines",
+          "proof": [
+            {
+              "file": "data/raw/kTraditionalVariant.txt",
+              "line": 1020,
+              "text": "7075\tU+9748",
+              "fileSha256": "4eca6285d45070548e6e6c06e4b48c3ca6866d4380e8cb980c512f5d1fc71895"
+            },
+            {
+              "file": "data/raw/kSimplifiedVariant.txt",
+              "line": 4599,
+              "text": "9748\tU+7075",
+              "fileSha256": "a7f0c9dbbca85cffd90517fa6ea9be97d2e6f811328a59b6b303d58a418ac9be"
+            }
+          ]
+        },
+        {
+          "position": 1,
+          "character": "慧",
+          "sourceGlyph": "慧",
+          "kind": "exact-source-glyph",
+          "proof": []
+        }
+      ]
+    },
+    {
+      "caseId": "meaning-context-m460-b04:姝:39944:0:0",
+      "givenName": "姝丽",
+      "sourceWord": "姝麗",
+      "positions": [
+        {
+          "position": 0,
+          "character": "姝",
+          "sourceGlyph": "姝",
+          "kind": "exact-source-glyph",
+          "proof": []
+        },
+        {
+          "position": 1,
+          "character": "丽",
+          "sourceGlyph": "麗",
+          "kind": "unicode-two-way-fixed-lines",
+          "proof": [
+            {
+              "file": "data/raw/kTraditionalVariant.txt",
+              "line": 166,
+              "text": "4E3D\tU+9E97",
+              "fileSha256": "4eca6285d45070548e6e6c06e4b48c3ca6866d4380e8cb980c512f5d1fc71895"
+            },
+            {
+              "file": "data/raw/kSimplifiedVariant.txt",
+              "line": 5521,
+              "text": "9E97\tU+4E3D",
+              "fileSha256": "a7f0c9dbbca85cffd90517fa6ea9be97d2e6f811328a59b6b303d58a418ac9be"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "caseId": "meaning-context-m460-b04:殊:80655:0:0",
+      "givenName": "殊荣",
+      "sourceWord": "殊榮",
+      "positions": [
+        {
+          "position": 0,
+          "character": "殊",
+          "sourceGlyph": "殊",
+          "kind": "exact-source-glyph",
+          "proof": []
+        },
+        {
+          "position": 1,
+          "character": "荣",
+          "sourceGlyph": "榮",
+          "kind": "unicode-two-way-fixed-lines",
+          "proof": [
+            {
+              "file": "data/raw/kTraditionalVariant.txt",
+              "line": 1515,
+              "text": "8363\tU+69AE U+8363",
+              "fileSha256": "4eca6285d45070548e6e6c06e4b48c3ca6866d4380e8cb980c512f5d1fc71895"
+            },
+            {
+              "file": "data/raw/kSimplifiedVariant.txt",
+              "line": 1712,
+              "text": "69AE\tU+8363",
+              "fileSha256": "a7f0c9dbbca85cffd90517fa6ea9be97d2e6f811328a59b6b303d58a418ac9be"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "caseId": "meaning-context-m460-b04:武:80086:0:0",
+      "givenName": "武艺",
+      "sourceWord": "武藝",
+      "positions": [
+        {
+          "position": 0,
+          "character": "武",
+          "sourceGlyph": "武",
+          "kind": "exact-source-glyph",
+          "proof": []
+        },
+        {
+          "position": 1,
+          "character": "艺",
+          "sourceGlyph": "藝",
+          "kind": "unicode-two-way-fixed-lines",
+          "proof": [
+            {
+              "file": "data/raw/kTraditionalVariant.txt",
+              "line": 1480,
+              "text": "827A\tU+85DD",
+              "fileSha256": "4eca6285d45070548e6e6c06e4b48c3ca6866d4380e8cb980c512f5d1fc71895"
+            },
+            {
+              "file": "data/raw/kSimplifiedVariant.txt",
+              "line": 3087,
+              "text": "85DD\tU+827A",
+              "fileSha256": "a7f0c9dbbca85cffd90517fa6ea9be97d2e6f811328a59b6b303d58a418ac9be"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "caseId": "meaning-context-m460-b04:仙:9504:0:0",
+      "givenName": "仙姿",
+      "sourceWord": "仙姿",
+      "positions": [
+        {
+          "position": 0,
+          "character": "仙",
+          "sourceGlyph": "仙",
+          "kind": "exact-source-glyph",
+          "proof": []
+        },
+        {
+          "position": 1,
+          "character": "姿",
+          "sourceGlyph": "姿",
+          "kind": "exact-source-glyph",
+          "proof": []
+        }
+      ]
+    },
+    {
+      "caseId": "meaning-context-m460-b04:玄:95742:0:0",
+      "givenName": "玄理",
+      "sourceWord": "玄理",
+      "positions": [
+        {
+          "position": 0,
+          "character": "玄",
+          "sourceGlyph": "玄",
+          "kind": "exact-source-glyph",
+          "proof": []
+        },
+        {
+          "position": 1,
+          "character": "理",
+          "sourceGlyph": "理",
+          "kind": "exact-source-glyph",
+          "proof": []
+        }
+      ]
+    },
+    {
+      "caseId": "meaning-context-m460-b04:幸:49468:0:0",
+      "givenName": "幸运",
+      "sourceWord": "幸運",
+      "positions": [
+        {
+          "position": 0,
+          "character": "幸",
+          "sourceGlyph": "幸",
+          "kind": "exact-source-glyph",
+          "proof": []
+        },
+        {
+          "position": 1,
+          "character": "运",
+          "sourceGlyph": "運",
+          "kind": "unicode-two-way-fixed-lines",
+          "proof": [
+            {
+              "file": "data/raw/kTraditionalVariant.txt",
+              "line": 1971,
+              "text": "8FD0\tU+904B",
+              "fileSha256": "4eca6285d45070548e6e6c06e4b48c3ca6866d4380e8cb980c512f5d1fc71895"
+            },
+            {
+              "file": "data/raw/kSimplifiedVariant.txt",
+              "line": 3923,
+              "text": "904B\tU+8FD0",
+              "fileSha256": "a7f0c9dbbca85cffd90517fa6ea9be97d2e6f811328a59b6b303d58a418ac9be"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "caseId": "meaning-context-m460-b04:寰:44106:0:0",
+      "givenName": "寰宇",
+      "sourceWord": "寰宇",
+      "positions": [
+        {
+          "position": 0,
+          "character": "寰",
+          "sourceGlyph": "寰",
+          "kind": "exact-source-glyph",
+          "proof": []
+        },
+        {
+          "position": 1,
+          "character": "宇",
+          "sourceGlyph": "宇",
+          "kind": "exact-source-glyph",
+          "proof": []
+        }
+      ]
+    },
+    {
+      "caseId": "meaning-context-m460-b04:深:87325:0:0",
+      "givenName": "深思",
+      "sourceWord": "深思",
+      "positions": [
+        {
+          "position": 0,
+          "character": "深",
+          "sourceGlyph": "深",
+          "kind": "exact-source-glyph",
+          "proof": []
+        },
+        {
+          "position": 1,
+          "character": "思",
+          "sourceGlyph": "思",
+          "kind": "exact-source-glyph",
+          "proof": []
+        }
+      ]
+    }
+  ]
+}

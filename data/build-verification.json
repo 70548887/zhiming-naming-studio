@@ -1,0 +1,41 @@
+{
+  "version": "2026.10.18.1",
+  "characters": 779,
+  "citations": 1833,
+  "knowledge": 433,
+  "sources": 6,
+  "hexagrams": 64,
+  "lineTexts": 384,
+  "poems": 305,
+  "allCharactersHaveChineseGloss": true,
+  "allGlossesMatchRaw": true,
+  "allReadingsMatchSource": true,
+  "allDefaultReadingsMatchGloss": true,
+  "allEditorialCitationsMatchSource": true,
+  "editorialCitationChecks": {
+    "rules": 40,
+    "names": 44,
+    "continuousNames": 34,
+    "recombinedNames": 10,
+    "canonicalIdentitiesMatched": true,
+    "excerptsAndReadingsMatched": true
+  },
+  "reviewedCitationRules": 40,
+  "polyphonicCharacters": 140,
+  "allCharactersHavePinyin": true,
+  "allCharactersHaveSource": true,
+  "allCharactersHaveRadical": true,
+  "sourceCounts": {
+    "zhouyi": 0,
+    "shijing": 0,
+    "unicode-17": 0,
+    "wiktionary-zh": 1,
+    "moe-revised": 778,
+    "editorial-rules": 0
+  },
+  "sha256": {
+    "json": "c5e6934fab8892e2f162cb584c0869c253b838b5f41d7087d9e7630f648fe6ae",
+    "sqlite": "f264eb26f631441a31324e9be14058f38d02d444070e00e9e0690b4f0b9ff7cc"
+  },
+  "expertReviewStatus": "Source-field and structure checks passed. Individual cultural-name suitability and school-specific rules remain subject to explicit reviewer judgement; no expert certification is asserted."
+}

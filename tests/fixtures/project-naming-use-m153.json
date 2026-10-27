@@ -1,0 +1,57 @@
+{
+  "methodId": "project-bazi-mainchain-145/1.3.1",
+  "positive": {
+    "profile": {
+      "id": "m153-expected-positive",
+      "customerName": "M153虚构出生样本",
+      "surname": "林",
+      "surnamePinyin": "lín",
+      "gender": "中性",
+      "calendar": "solar",
+      "birthDate": "2022-02-13",
+      "birthTime": "11:30",
+      "leapMonth": false,
+      "timeUnknown": false,
+      "birthPlace": "上海",
+      "timezone": "Asia/Shanghai",
+      "timeBasis": "civil",
+      "renMethod": "none",
+      "monthAuthorityMethod": "no-fixed-day/1.0.0",
+      "seasonalMethod": "no-monthly/1.0.0",
+      "notes": "只作项目算法正反验收，非真实客户。"
+    },
+    "expectedElements": [
+      "土",
+      "金"
+    ],
+    "legacyElements": [
+      "土",
+      "金",
+      "水"
+    ],
+    "givenName": "沐",
+    "expectedTraditional": 40,
+    "legacyTraditional": 100
+  },
+  "negative": {
+    "profile": {
+      "id": "m153-expected-blocked",
+      "customerName": "M153虚构出生样本",
+      "surname": "林",
+      "surnamePinyin": "lín",
+      "gender": "中性",
+      "calendar": "solar",
+      "birthDate": "2022-02-24",
+      "birthTime": "11:30",
+      "leapMonth": false,
+      "timeUnknown": false,
+      "birthPlace": "上海",
+      "timezone": "Asia/Shanghai",
+      "timeBasis": "civil",
+      "renMethod": "none",
+      "monthAuthorityMethod": "no-fixed-day/1.0.0",
+      "seasonalMethod": "no-monthly/1.0.0",
+      "notes": "只作项目算法正反验收，非真实客户。"
+    }
+  }
+}

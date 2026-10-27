@@ -1,0 +1,1000 @@
+{
+  "schema": "source-lock-maintenance/1",
+  "task": "M916-D03",
+  "createdAt": "2026-10-26",
+  "scope": "Explicit maintenance registration for six previously unregistered future source locks; legacy baseline pins/formats remain unchanged.",
+  "locks": {
+    "data/m460-lexical/naming-character-meanings-m393-source-lock.json": {
+      "profile": "m393",
+      "lockSha256": "f2f42e2370e4dce0b1701375764f5254493d0062c102bafe317129b84c017e76",
+      "schema": "naming-character-meanings-candidate-source-lock/1",
+      "sourceId": "naming-character-meanings-m393-candidate",
+      "version": "naming-character-meanings-candidate/M393.1",
+      "licenses": {
+        "MOE": "CC-BY-ND-3.0-TW",
+        "Unicode": "see fixed unicode-LICENSE",
+        "project": "CC0-1.0"
+      },
+      "document": {
+        "schema": "naming-character-meanings-candidate-source-lock/1",
+        "batchId": "M393-D02",
+        "sourceId": "naming-character-meanings-m393-candidate",
+        "version": "naming-character-meanings-candidate/M393.1",
+        "activation": "off",
+        "productionApproved": false,
+        "dispatchToLive": false,
+        "candidateOnly": true,
+        "generationAuthority": false,
+        "sourceAuthority": false,
+        "scope": "per-character-project-explanation-only",
+        "wholeNameAssessment": "not-assessed",
+        "wholeNameMeaning": null,
+        "automaticNameRecommendation": false,
+        "automaticSemanticCreditAllowed": false,
+        "scoreDelta": 0,
+        "originalFiles": {
+          "dataset-v6.json": {
+            "bytes": 1563457,
+            "sha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728"
+          },
+          "naming-editorial-v7.json": {
+            "bytes": 1301005,
+            "sha256": "392fa47441a0c410b0903c3e85853081225a1a5e9f540b5467e4ea4e2151cc48"
+          },
+          "raw/moe-revised.json.gz": {
+            "bytes": 20310688,
+            "sha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e"
+          },
+          "raw/kTraditionalVariant.txt": {
+            "bytes": 86288,
+            "sha256": "4eca6285d45070548e6e6c06e4b48c3ca6866d4380e8cb980c512f5d1fc71895"
+          },
+          "raw/kSimplifiedVariant.txt": {
+            "bytes": 88425,
+            "sha256": "a7f0c9dbbca85cffd90517fa6ea9be97d2e6f811328a59b6b303d58a418ac9be"
+          },
+          "raw/moe-README.md": {
+            "bytes": 1214,
+            "sha256": "a93321d9381bc1cf34b4ad844f71607fa748c86c0b228ae37d46720d6a659cb2"
+          },
+          "raw/CC-BY-ND-3.0-TW.html": {
+            "bytes": 31775,
+            "sha256": "04e6ef69a223b6e13c93c97a918ad5fd0dbb9fc34ae307f4449ed264e2d4108f"
+          },
+          "raw/unicode-LICENSE": {
+            "bytes": 2033,
+            "sha256": "fe5c62b543e287981db198f2acfa0ca732d12591a1024536dc8fd85dacd77104"
+          }
+        },
+        "candidateFiles": {
+          "naming-character-meanings-m393-profile.json": {
+            "bytes": 162031,
+            "sha256": "eee6a01e1d28a34c3992c8dd81d547352222caa62d04f363f3ec43edfcd5acd8"
+          },
+          "raw/naming-character-meanings-m393-subset.json": {
+            "bytes": 161637,
+            "sha256": "cbf3add7ab417a01a6d433723366608c31b61ae5d0ab3065504a4947fad85b86"
+          },
+          "naming-character-meanings-m393-admission.json": {
+            "bytes": 811,
+            "sha256": "5df9ef749c6aebdcaef4f8866930e1689a856db6115d8b837224a3ee2fe6bbc3"
+          },
+          "naming-character-meanings-m393-NOTICE.md": {
+            "bytes": 1396,
+            "sha256": "d1f21e9ffc7e207c816486ed74cb551b48a4c1ba46c49020f891a7cd290893c0"
+          }
+        },
+        "sourceHashConvention": "sha256 of exact file bytes; complete parsed MOE entry hash convention is separately declared per case",
+        "originalLicenses": {
+          "MOE": "CC-BY-ND-3.0-TW",
+          "Unicode": "see fixed unicode-LICENSE",
+          "project": "CC0-1.0"
+        }
+      },
+      "dependencies": {
+        "data/dataset-v6.json": {
+          "bytes": 1563457,
+          "sha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728"
+        },
+        "data/m460-lexical/naming-character-meanings-m393-admission.json": {
+          "bytes": 811,
+          "sha256": "5df9ef749c6aebdcaef4f8866930e1689a856db6115d8b837224a3ee2fe6bbc3"
+        },
+        "data/m460-lexical/naming-character-meanings-m393-NOTICE.md": {
+          "bytes": 1396,
+          "sha256": "d1f21e9ffc7e207c816486ed74cb551b48a4c1ba46c49020f891a7cd290893c0"
+        },
+        "data/m460-lexical/naming-character-meanings-m393-profile.json": {
+          "bytes": 162031,
+          "sha256": "eee6a01e1d28a34c3992c8dd81d547352222caa62d04f363f3ec43edfcd5acd8"
+        },
+        "data/m460-lexical/raw/naming-character-meanings-m393-subset.json": {
+          "bytes": 161637,
+          "sha256": "cbf3add7ab417a01a6d433723366608c31b61ae5d0ab3065504a4947fad85b86"
+        },
+        "data/naming-editorial-v7.json": {
+          "bytes": 1301005,
+          "sha256": "392fa47441a0c410b0903c3e85853081225a1a5e9f540b5467e4ea4e2151cc48"
+        },
+        "data/raw/CC-BY-ND-3.0-TW.html": {
+          "bytes": 31775,
+          "sha256": "04e6ef69a223b6e13c93c97a918ad5fd0dbb9fc34ae307f4449ed264e2d4108f"
+        },
+        "data/raw/kSimplifiedVariant.txt": {
+          "bytes": 88425,
+          "sha256": "a7f0c9dbbca85cffd90517fa6ea9be97d2e6f811328a59b6b303d58a418ac9be"
+        },
+        "data/raw/kTraditionalVariant.txt": {
+          "bytes": 86288,
+          "sha256": "4eca6285d45070548e6e6c06e4b48c3ca6866d4380e8cb980c512f5d1fc71895"
+        },
+        "data/raw/moe-README.md": {
+          "bytes": 1214,
+          "sha256": "a93321d9381bc1cf34b4ad844f71607fa748c86c0b228ae37d46720d6a659cb2"
+        },
+        "data/raw/moe-revised.json.gz": {
+          "bytes": 20310688,
+          "sha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e"
+        },
+        "data/raw/unicode-LICENSE": {
+          "bytes": 2033,
+          "sha256": "fe5c62b543e287981db198f2acfa0ca732d12591a1024536dc8fd85dacd77104"
+        }
+      },
+      "publicationFiles": {
+        "data/m460-lexical/naming-character-meanings-m393-manifest.json": {
+          "bytes": 2932,
+          "sha256": "23137c2c605a4807c603b9bdfcf7a2f7558872ac8d1661d0ff6b8a60a66332b4"
+        }
+      }
+    },
+    "data/meaning-context-m460-b04-source-lock.json": {
+      "profile": "m460-b04",
+      "lockSha256": "a184441ade3958e87e726ca57108e3b3a1f3292d8f9ce8bcdca9e2100b1b9931",
+      "schema": "meaning-context-source-lock/1",
+      "sourceId": "project-meaning-context-m460-b04-candidate",
+      "licenses": {
+        "source": "MOE CC-BY-ND-3.0-TW originals; Unicode retained; separate project notes CC0-1.0"
+      },
+      "document": {
+        "schema": "meaning-context-source-lock/1",
+        "hashConvention": "sha256(JSON.stringify(fileHashes)); sorted relative path keys",
+        "sources": [
+          {
+            "id": "project-meaning-context-m460-b04-candidate",
+            "name": "M460-B04固定完整词语语境候选20",
+            "url": "local:data/meaning-context-m460-b04.json",
+            "commit": "MOE a6dc997417507eb510fc29822bc514de2c92728c;M460-B04-candidate",
+            "license": "MOE CC-BY-ND-3.0-TW originals; Unicode retained; separate project notes CC0-1.0",
+            "files": [
+              "data/dataset-v6.json",
+              "data/knowledge-v6.sqlite",
+              "data/meaning-context-m460-b04-NOTICE.md",
+              "data/meaning-context-m460-b04.json",
+              "data/meaning-context-v1-1.json",
+              "data/naming-character-meanings-v7.1-profile.json",
+              "data/naming-editorial-v7.json",
+              "data/raw/CC-BY-ND-3.0-TW.html",
+              "data/raw/kSimplifiedVariant.txt",
+              "data/raw/kTraditionalVariant.txt",
+              "data/raw/meaning-context-m460-b04-exclusions.json",
+              "data/raw/meaning-context-m460-b04-glyphs.json",
+              "data/raw/meaning-context-m460-b04-originals.json",
+              "data/raw/meaning-context-m460-b04-review.json",
+              "data/raw/moe-README.md",
+              "data/raw/moe-revised.json.gz",
+              "data/raw/unicode-LICENSE"
+            ],
+            "fileHashes": {
+              "data/dataset-v6.json": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+              "data/knowledge-v6.sqlite": "1875aa49dcfaeca0f266a3be7578e4d4b2a9b2c9c1f59fd79699a3e26d5d6b8b",
+              "data/meaning-context-m460-b04-NOTICE.md": "a3135440873af944e970d18eca23adec6c71ccd83d0883dfa131a69ec731ccb5",
+              "data/meaning-context-m460-b04.json": "ecc4ca0edbe1a0a1b1f5e3f67ad0caef9bf1daa197e781f55484b33ebfc8ce82",
+              "data/meaning-context-v1-1.json": "424e8b6ca9a920c8b707ac267db9609bee900a5389b3659256b4c71ad71b378d",
+              "data/naming-character-meanings-v7.1-profile.json": "6e619be92c16dc018715fc77425f150b6a2c9af2e01be63b309035c81dd6a85b",
+              "data/naming-editorial-v7.json": "392fa47441a0c410b0903c3e85853081225a1a5e9f540b5467e4ea4e2151cc48",
+              "data/raw/CC-BY-ND-3.0-TW.html": "04e6ef69a223b6e13c93c97a918ad5fd0dbb9fc34ae307f4449ed264e2d4108f",
+              "data/raw/kSimplifiedVariant.txt": "a7f0c9dbbca85cffd90517fa6ea9be97d2e6f811328a59b6b303d58a418ac9be",
+              "data/raw/kTraditionalVariant.txt": "4eca6285d45070548e6e6c06e4b48c3ca6866d4380e8cb980c512f5d1fc71895",
+              "data/raw/meaning-context-m460-b04-exclusions.json": "0bb97a21865dfb65d898ffebff917793d8a55b7e04c022e00460c60a0407fa2c",
+              "data/raw/meaning-context-m460-b04-glyphs.json": "53fec93e8fc5a8c3770a51bd60fa0a0178723d529383110384afee8b5d699d36",
+              "data/raw/meaning-context-m460-b04-originals.json": "56fe16226922dca702417db2713ba09c939c8b100ce1f855cd73b6619dd6e188",
+              "data/raw/meaning-context-m460-b04-review.json": "7b1a513a517bf41c43db05ad0245db3c31656e0495687c29620f790cb9b89ece",
+              "data/raw/moe-README.md": "a93321d9381bc1cf34b4ad844f71607fa748c86c0b228ae37d46720d6a659cb2",
+              "data/raw/moe-revised.json.gz": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+              "data/raw/unicode-LICENSE": "fe5c62b543e287981db198f2acfa0ca732d12591a1024536dc8fd85dacd77104"
+            },
+            "sha256": "1b26aeba94c19a9cf2012ab28359d2dab49c9b443adde1b8d479bd0453168d29",
+            "note": "Candidate only; exact two-readings and explicit whole-word sense/context choice required; no standalone promotion, score, whole-name grant or historical backfill."
+          }
+        ]
+      },
+      "dependencies": {
+        "data/dataset-v6.json": {
+          "bytes": 1563457,
+          "sha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728"
+        },
+        "data/knowledge-v6.sqlite": {
+          "bytes": 1454080,
+          "sha256": "1875aa49dcfaeca0f266a3be7578e4d4b2a9b2c9c1f59fd79699a3e26d5d6b8b"
+        },
+        "data/meaning-context-m460-b04-NOTICE.md": {
+          "bytes": 846,
+          "sha256": "a3135440873af944e970d18eca23adec6c71ccd83d0883dfa131a69ec731ccb5"
+        },
+        "data/meaning-context-m460-b04.json": {
+          "bytes": 188891,
+          "sha256": "ecc4ca0edbe1a0a1b1f5e3f67ad0caef9bf1daa197e781f55484b33ebfc8ce82"
+        },
+        "data/meaning-context-v1-1.json": {
+          "bytes": 403708,
+          "sha256": "424e8b6ca9a920c8b707ac267db9609bee900a5389b3659256b4c71ad71b378d"
+        },
+        "data/naming-character-meanings-v7.1-profile.json": {
+          "bytes": 257013,
+          "sha256": "6e619be92c16dc018715fc77425f150b6a2c9af2e01be63b309035c81dd6a85b"
+        },
+        "data/naming-editorial-v7.json": {
+          "bytes": 1301005,
+          "sha256": "392fa47441a0c410b0903c3e85853081225a1a5e9f540b5467e4ea4e2151cc48"
+        },
+        "data/raw/CC-BY-ND-3.0-TW.html": {
+          "bytes": 31775,
+          "sha256": "04e6ef69a223b6e13c93c97a918ad5fd0dbb9fc34ae307f4449ed264e2d4108f"
+        },
+        "data/raw/kSimplifiedVariant.txt": {
+          "bytes": 88425,
+          "sha256": "a7f0c9dbbca85cffd90517fa6ea9be97d2e6f811328a59b6b303d58a418ac9be"
+        },
+        "data/raw/kTraditionalVariant.txt": {
+          "bytes": 86288,
+          "sha256": "4eca6285d45070548e6e6c06e4b48c3ca6866d4380e8cb980c512f5d1fc71895"
+        },
+        "data/raw/meaning-context-m460-b04-exclusions.json": {
+          "bytes": 2133,
+          "sha256": "0bb97a21865dfb65d898ffebff917793d8a55b7e04c022e00460c60a0407fa2c"
+        },
+        "data/raw/meaning-context-m460-b04-glyphs.json": {
+          "bytes": 15134,
+          "sha256": "53fec93e8fc5a8c3770a51bd60fa0a0178723d529383110384afee8b5d699d36"
+        },
+        "data/raw/meaning-context-m460-b04-originals.json": {
+          "bytes": 112377,
+          "sha256": "56fe16226922dca702417db2713ba09c939c8b100ce1f855cd73b6619dd6e188"
+        },
+        "data/raw/meaning-context-m460-b04-review.json": {
+          "bytes": 12139,
+          "sha256": "7b1a513a517bf41c43db05ad0245db3c31656e0495687c29620f790cb9b89ece"
+        },
+        "data/raw/moe-README.md": {
+          "bytes": 1214,
+          "sha256": "a93321d9381bc1cf34b4ad844f71607fa748c86c0b228ae37d46720d6a659cb2"
+        },
+        "data/raw/moe-revised.json.gz": {
+          "bytes": 20310688,
+          "sha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e"
+        },
+        "data/raw/unicode-LICENSE": {
+          "bytes": 2033,
+          "sha256": "fe5c62b543e287981db198f2acfa0ca732d12591a1024536dc8fd85dacd77104"
+        }
+      },
+      "publicationFiles": {
+        "data/meaning-context-m460-b04-manifest.json": {
+          "bytes": 3494,
+          "sha256": "1ea9c100f8dc07a774ce10fdc8155b79caced819ceea8039c8b3275cfc1b9d2d"
+        }
+      }
+    },
+    "data/naming-character-meanings-m610-source-lock.json": {
+      "profile": "m610",
+      "lockSha256": "151bdd9a0a62af5e5f26982d3087e870906d03cab9cea17f287008a1d6971c4a",
+      "schema": "naming-character-meanings-single-candidate-source-lock/1",
+      "sourceId": "naming-character-meanings-m610-candidate",
+      "version": "naming-character-meanings-candidate/M610.1",
+      "licenses": {
+        "source": null
+      },
+      "document": {
+        "schema": "naming-character-meanings-single-candidate-source-lock/1",
+        "batchId": "M610-D02",
+        "sourceId": "naming-character-meanings-m610-candidate",
+        "version": "naming-character-meanings-candidate/M610.1",
+        "hashConvention": "sha256(JSON.stringify(fileHashes)); sorted relative path keys",
+        "originalFiles": {
+          "data/dataset-v6.json": {
+            "bytes": 1563457,
+            "sha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728"
+          },
+          "data/naming-editorial-v7.json": {
+            "bytes": 1301005,
+            "sha256": "392fa47441a0c410b0903c3e85853081225a1a5e9f540b5467e4ea4e2151cc48"
+          },
+          "data/raw/moe-revised.json.gz": {
+            "bytes": 20310688,
+            "sha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e"
+          },
+          "data/raw/kTraditionalVariant.txt": {
+            "bytes": 86288,
+            "sha256": "4eca6285d45070548e6e6c06e4b48c3ca6866d4380e8cb980c512f5d1fc71895"
+          },
+          "data/raw/kSimplifiedVariant.txt": {
+            "bytes": 88425,
+            "sha256": "a7f0c9dbbca85cffd90517fa6ea9be97d2e6f811328a59b6b303d58a418ac9be"
+          },
+          "data/raw/moe-README.md": {
+            "bytes": 1214,
+            "sha256": "a93321d9381bc1cf34b4ad844f71607fa748c86c0b228ae37d46720d6a659cb2"
+          },
+          "data/raw/CC-BY-ND-3.0-TW.html": {
+            "bytes": 31775,
+            "sha256": "04e6ef69a223b6e13c93c97a918ad5fd0dbb9fc34ae307f4449ed264e2d4108f"
+          },
+          "data/raw/unicode-LICENSE": {
+            "bytes": 2033,
+            "sha256": "fe5c62b543e287981db198f2acfa0ca732d12591a1024536dc8fd85dacd77104"
+          }
+        },
+        "candidateFiles": {
+          "profile": {
+            "file": "data/naming-character-meanings-m610-profile.json",
+            "bytes": 147855,
+            "sha256": "501003d1322e7503426fda5198ccb7739ccffe9b353aa944a54abeee310e802a"
+          },
+          "subset": {
+            "file": "data/raw/naming-character-meanings-m610-subset.json",
+            "bytes": 147855,
+            "sha256": "a36296667430c7b4bf68af138a293d6cb12496d67b27f33cd2b1de50e1a1915c"
+          },
+          "admission": {
+            "file": "data/naming-character-meanings-m610-admission.json",
+            "bytes": 147980,
+            "sha256": "b5583f4334c350838d34a82fb793d2fdd63a24e03fe28028bdce1361b6a3a749"
+          },
+          "notice": {
+            "file": "data/naming-character-meanings-m610-NOTICE.md",
+            "bytes": 471,
+            "sha256": "929b44dc0ef9781f491f841c717cb259c043728569565ea42f58956c0702ce43"
+          }
+        },
+        "sourceScope": "MOE complete entries/default reading/definition/type plus Unicode/license source files; project text CC0"
+      },
+      "dependencies": {
+        "data/dataset-v6.json": {
+          "bytes": 1563457,
+          "sha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728"
+        },
+        "data/naming-character-meanings-m610-admission.json": {
+          "bytes": 147980,
+          "sha256": "b5583f4334c350838d34a82fb793d2fdd63a24e03fe28028bdce1361b6a3a749"
+        },
+        "data/naming-character-meanings-m610-NOTICE.md": {
+          "bytes": 471,
+          "sha256": "929b44dc0ef9781f491f841c717cb259c043728569565ea42f58956c0702ce43"
+        },
+        "data/naming-character-meanings-m610-profile.json": {
+          "bytes": 147855,
+          "sha256": "501003d1322e7503426fda5198ccb7739ccffe9b353aa944a54abeee310e802a"
+        },
+        "data/naming-editorial-v7.json": {
+          "bytes": 1301005,
+          "sha256": "392fa47441a0c410b0903c3e85853081225a1a5e9f540b5467e4ea4e2151cc48"
+        },
+        "data/raw/CC-BY-ND-3.0-TW.html": {
+          "bytes": 31775,
+          "sha256": "04e6ef69a223b6e13c93c97a918ad5fd0dbb9fc34ae307f4449ed264e2d4108f"
+        },
+        "data/raw/kSimplifiedVariant.txt": {
+          "bytes": 88425,
+          "sha256": "a7f0c9dbbca85cffd90517fa6ea9be97d2e6f811328a59b6b303d58a418ac9be"
+        },
+        "data/raw/kTraditionalVariant.txt": {
+          "bytes": 86288,
+          "sha256": "4eca6285d45070548e6e6c06e4b48c3ca6866d4380e8cb980c512f5d1fc71895"
+        },
+        "data/raw/moe-README.md": {
+          "bytes": 1214,
+          "sha256": "a93321d9381bc1cf34b4ad844f71607fa748c86c0b228ae37d46720d6a659cb2"
+        },
+        "data/raw/moe-revised.json.gz": {
+          "bytes": 20310688,
+          "sha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e"
+        },
+        "data/raw/naming-character-meanings-m610-subset.json": {
+          "bytes": 147855,
+          "sha256": "a36296667430c7b4bf68af138a293d6cb12496d67b27f33cd2b1de50e1a1915c"
+        },
+        "data/raw/unicode-LICENSE": {
+          "bytes": 2033,
+          "sha256": "fe5c62b543e287981db198f2acfa0ca732d12591a1024536dc8fd85dacd77104"
+        }
+      },
+      "publicationFiles": {
+        "data/naming-character-meanings-m610-manifest.json": {
+          "bytes": 2977,
+          "sha256": "0466fecbb1e86e3bfc499033df58a05ba21735834542bdaf19673d574fdbdb38"
+        }
+      }
+    },
+    "data/naming-character-meanings-m616-source-lock.json": {
+      "profile": "m616",
+      "lockSha256": "58e13c5f79d0bd3c66ba2a04e1e9584cc463d56532fa94b071006af23b4480d0",
+      "schema": "naming-character-meanings-single-nondefault-reading-source-lock/1",
+      "sourceId": "naming-character-meanings-m616-candidate",
+      "version": "naming-character-meanings-candidate/M616.1",
+      "licenses": {
+        "source": null
+      },
+      "document": {
+        "schema": "naming-character-meanings-single-nondefault-reading-source-lock/1",
+        "batchId": "M616-D02",
+        "sourceId": "naming-character-meanings-m616-candidate",
+        "version": "naming-character-meanings-candidate/M616.1",
+        "hashConvention": "sha256(file bytes); relative source keys",
+        "originalFiles": {
+          "dataset-v6.json": {
+            "bytes": 1563457,
+            "sha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728"
+          },
+          "naming-editorial-v7.json": {
+            "bytes": 1301005,
+            "sha256": "392fa47441a0c410b0903c3e85853081225a1a5e9f540b5467e4ea4e2151cc48"
+          },
+          "raw/moe-revised.json.gz": {
+            "bytes": 20310688,
+            "sha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e"
+          },
+          "raw/kTraditionalVariant.txt": {
+            "bytes": 86288,
+            "sha256": "4eca6285d45070548e6e6c06e4b48c3ca6866d4380e8cb980c512f5d1fc71895"
+          },
+          "raw/kSimplifiedVariant.txt": {
+            "bytes": 88425,
+            "sha256": "a7f0c9dbbca85cffd90517fa6ea9be97d2e6f811328a59b6b303d58a418ac9be"
+          },
+          "raw/moe-README.md": {
+            "bytes": 1214,
+            "sha256": "a93321d9381bc1cf34b4ad844f71607fa748c86c0b228ae37d46720d6a659cb2"
+          },
+          "raw/CC-BY-ND-3.0-TW.html": {
+            "bytes": 31775,
+            "sha256": "04e6ef69a223b6e13c93c97a918ad5fd0dbb9fc34ae307f4449ed264e2d4108f"
+          },
+          "raw/unicode-LICENSE": {
+            "bytes": 2033,
+            "sha256": "fe5c62b543e287981db198f2acfa0ca732d12591a1024536dc8fd85dacd77104"
+          }
+        },
+        "candidateFiles": {
+          "profile": {
+            "file": "naming-character-meanings-m616-profile.json",
+            "bytes": 86409,
+            "sha256": "a7036d60215c80b25e0e000aa40a193232370b70add708c1b4f79ec93dddf1fb"
+          },
+          "subset": {
+            "file": "raw/naming-character-meanings-m616-subset.json",
+            "bytes": 86409,
+            "sha256": "a7036d60215c80b25e0e000aa40a193232370b70add708c1b4f79ec93dddf1fb"
+          },
+          "admission": {
+            "file": "naming-character-meanings-m616-admission.json",
+            "bytes": 86534,
+            "sha256": "90fec0656f051ad6da627fa8250eb2c909c4eb382ec27f8ff5db9ac93bf49694"
+          },
+          "notice": {
+            "file": "naming-character-meanings-m616-NOTICE.md",
+            "bytes": 514,
+            "sha256": "602f61f8b5ae9f3877e6060ebd4b2f136515c8e281ea9285a56514faef6b9e29"
+          }
+        },
+        "m591Coverage": {
+          "summaryFile": "D:/Codex-NamingStudio-Evidence/m591-coverage-recount/summary.json",
+          "summarySha256": "35e1817c56b21b30a46e74fd32ae63dcfa4b748c8be89213a7e165019ff7aa15",
+          "inputContentIdentity": "7c6e5b16aa9f80690136fd42e2b0de6aae39b56e516053ecb7d6c6a7398b0d44"
+        },
+        "sourceScope": "MOE full entries/default and selected non-default reading/definition/type, Unicode/license sources, and filtered M591 direct-reading coverage evidence; project text CC0"
+      },
+      "dependencies": {
+        "data/dataset-v6.json": {
+          "bytes": 1563457,
+          "sha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728"
+        },
+        "data/naming-character-meanings-m616-admission.json": {
+          "bytes": 86534,
+          "sha256": "90fec0656f051ad6da627fa8250eb2c909c4eb382ec27f8ff5db9ac93bf49694"
+        },
+        "data/naming-character-meanings-m616-NOTICE.md": {
+          "bytes": 514,
+          "sha256": "602f61f8b5ae9f3877e6060ebd4b2f136515c8e281ea9285a56514faef6b9e29"
+        },
+        "data/naming-character-meanings-m616-profile.json": {
+          "bytes": 86409,
+          "sha256": "a7036d60215c80b25e0e000aa40a193232370b70add708c1b4f79ec93dddf1fb"
+        },
+        "data/naming-editorial-v7.json": {
+          "bytes": 1301005,
+          "sha256": "392fa47441a0c410b0903c3e85853081225a1a5e9f540b5467e4ea4e2151cc48"
+        },
+        "data/raw/CC-BY-ND-3.0-TW.html": {
+          "bytes": 31775,
+          "sha256": "04e6ef69a223b6e13c93c97a918ad5fd0dbb9fc34ae307f4449ed264e2d4108f"
+        },
+        "data/raw/kSimplifiedVariant.txt": {
+          "bytes": 88425,
+          "sha256": "a7f0c9dbbca85cffd90517fa6ea9be97d2e6f811328a59b6b303d58a418ac9be"
+        },
+        "data/raw/kTraditionalVariant.txt": {
+          "bytes": 86288,
+          "sha256": "4eca6285d45070548e6e6c06e4b48c3ca6866d4380e8cb980c512f5d1fc71895"
+        },
+        "data/raw/moe-README.md": {
+          "bytes": 1214,
+          "sha256": "a93321d9381bc1cf34b4ad844f71607fa748c86c0b228ae37d46720d6a659cb2"
+        },
+        "data/raw/moe-revised.json.gz": {
+          "bytes": 20310688,
+          "sha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e"
+        },
+        "data/raw/naming-character-meanings-m616-subset.json": {
+          "bytes": 86409,
+          "sha256": "a7036d60215c80b25e0e000aa40a193232370b70add708c1b4f79ec93dddf1fb"
+        },
+        "data/raw/unicode-LICENSE": {
+          "bytes": 2033,
+          "sha256": "fe5c62b543e287981db198f2acfa0ca732d12591a1024536dc8fd85dacd77104"
+        }
+      },
+      "publicationFiles": {
+        "data/naming-character-meanings-m616-manifest.json": {
+          "bytes": 3493,
+          "sha256": "500230c50d313a80422034116b4db288b1505a8bdf6b483a2e65a5d84e15d864"
+        }
+      }
+    },
+    "data/naming-character-meanings-v71-m460-b02-source-lock.json": {
+      "profile": "m460-b02",
+      "lockSha256": "4b928ca58557ec7516fea74f6c20760c7800b8f2f6f495683b5354b00d9ad67f",
+      "sourceId": "naming-character-meanings-v7.1-fixed",
+      "version": "naming-editorial-7.1.0",
+      "licenses": {
+        "source": "CC0-1.0 project explanations only; original MOE CC-BY-ND-3.0-TW and Unicode terms retained"
+      },
+      "document": {
+        "version": "naming-editorial-7.1.0",
+        "profileVersion": "naming-character-meanings-v7.1/1",
+        "hashConvention": "sha256(JSON.stringify(fileHashes)); sorted relative path keys",
+        "sources": [
+          {
+            "id": "naming-character-meanings-v7.1-fixed",
+            "name": "项目逐字说明7.1 · 已批准原40＋20位置说明",
+            "url": "local:data/naming-character-meanings-v71-m460-b02-profile.json",
+            "commit": "naming-editorial-7.1.0;M476-approved60;root-b5d447fd84cdd877f260b51735f097feb82c98dea032bfdfb45e75835756e894",
+            "license": "CC0-1.0 project explanations only; original MOE CC-BY-ND-3.0-TW and Unicode terms retained",
+            "files": [
+              "data/dataset-v6.json",
+              "data/knowledge-v6.sqlite",
+              "data/m460-lexical/naming-character-meanings-m393-NOTICE.md",
+              "data/m460-lexical/naming-character-meanings-m393-admission.json",
+              "data/m460-lexical/naming-character-meanings-m393-manifest.json",
+              "data/m460-lexical/naming-character-meanings-m393-profile.json",
+              "data/m460-lexical/naming-character-meanings-m393-source-lock.json",
+              "data/m460-lexical/raw/naming-character-meanings-m393-subset.json",
+              "data/m460-lexical/reviews/M412.json",
+              "data/m460-lexical/reviews/M418-r3.json",
+              "data/naming-character-meanings-v7.1-NOTICE.md",
+              "data/naming-character-meanings-v7.1-admission.json",
+              "data/naming-character-meanings-v7.1-profile.json",
+              "data/naming-character-meanings-v71-m460-b02-NOTICE.md",
+              "data/naming-character-meanings-v71-m460-b02-admission.json",
+              "data/naming-character-meanings-v71-m460-b02-profile.json",
+              "data/naming-character-meanings-v71-m460-b02-root-decision.json",
+              "data/naming-editorial-dictionary-v6-source-lock.json",
+              "data/naming-editorial-meanings-v7-source-lock.json",
+              "data/naming-editorial-v4.json",
+              "data/naming-editorial-v5.json",
+              "data/naming-editorial-v6.json",
+              "data/naming-editorial-v7-NOTICE.md",
+              "data/naming-editorial-v7.json",
+              "data/naming-editorial.json",
+              "data/raw/CC-BY-ND-3.0-TW.html",
+              "data/raw/kSimplifiedVariant.txt",
+              "data/raw/kTraditionalVariant.txt",
+              "data/raw/moe-README.md",
+              "data/raw/moe-revised.json.gz",
+              "data/raw/naming-character-meanings-v7.1-subset.json",
+              "data/raw/naming-character-meanings-v71-m460-b02-subset.json",
+              "data/raw/naming-citations-v7-errata-r2.json",
+              "data/raw/naming-citations-v7-review.json",
+              "data/raw/naming-meanings-v7-errata-r1.json",
+              "data/raw/naming-meanings-v7-review.json",
+              "data/raw/poetry-LICENSE",
+              "data/raw/shijing.json",
+              "data/raw/unicode-LICENSE",
+              "data/raw/zhouyi-LICENSE",
+              "data/raw/zhouyi.tar.gz",
+              "data/source-lock.json"
+            ],
+            "fileHashes": {
+              "data/dataset-v6.json": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+              "data/knowledge-v6.sqlite": "1875aa49dcfaeca0f266a3be7578e4d4b2a9b2c9c1f59fd79699a3e26d5d6b8b",
+              "data/m460-lexical/naming-character-meanings-m393-NOTICE.md": "d1f21e9ffc7e207c816486ed74cb551b48a4c1ba46c49020f891a7cd290893c0",
+              "data/m460-lexical/naming-character-meanings-m393-admission.json": "5df9ef749c6aebdcaef4f8866930e1689a856db6115d8b837224a3ee2fe6bbc3",
+              "data/m460-lexical/naming-character-meanings-m393-manifest.json": "23137c2c605a4807c603b9bdfcf7a2f7558872ac8d1661d0ff6b8a60a66332b4",
+              "data/m460-lexical/naming-character-meanings-m393-profile.json": "eee6a01e1d28a34c3992c8dd81d547352222caa62d04f363f3ec43edfcd5acd8",
+              "data/m460-lexical/naming-character-meanings-m393-source-lock.json": "f2f42e2370e4dce0b1701375764f5254493d0062c102bafe317129b84c017e76",
+              "data/m460-lexical/raw/naming-character-meanings-m393-subset.json": "cbf3add7ab417a01a6d433723366608c31b61ae5d0ab3065504a4947fad85b86",
+              "data/m460-lexical/reviews/M412.json": "2585b4c41defc938411b4128f8fe94aa9c990257c1ce5043ce0f92b0e8093159",
+              "data/m460-lexical/reviews/M418-r3.json": "71fe4fa10d7a0ac2b1bfd8f9baae201b4014c946fb75ec12457267da030afb06",
+              "data/naming-character-meanings-v7.1-NOTICE.md": "46d3fb85a1cf217a0b7e72c1002fb1c36dbbd3f34191306385388f4f14c7e243",
+              "data/naming-character-meanings-v7.1-admission.json": "425909be7aa94e251a37d45a77c759d0b3dfd323beef0af6882f3e0596b4d313",
+              "data/naming-character-meanings-v7.1-profile.json": "6e619be92c16dc018715fc77425f150b6a2c9af2e01be63b309035c81dd6a85b",
+              "data/naming-character-meanings-v71-m460-b02-NOTICE.md": "fdee9a0835dd391d106325cfd43ebeed580323d04d3538f995289b48f05330bc",
+              "data/naming-character-meanings-v71-m460-b02-admission.json": "cea582cc66ddc3adbd49d185edf0104cb829478b82312888bae1653ac471c98d",
+              "data/naming-character-meanings-v71-m460-b02-profile.json": "2c4be917bbfcdc3fec9279b2d9d928f5215e6ee1386d60e7d62265cd8e3eb2d1",
+              "data/naming-character-meanings-v71-m460-b02-root-decision.json": "b5d447fd84cdd877f260b51735f097feb82c98dea032bfdfb45e75835756e894",
+              "data/naming-editorial-dictionary-v6-source-lock.json": "06331d11a1c757a0245891fae357c7952db597d07c3c770d4052277c0bfac8da",
+              "data/naming-editorial-meanings-v7-source-lock.json": "2945297a7f4bca1489e12018cce2848909fc35716c999b7d309e9a79633f7476",
+              "data/naming-editorial-v4.json": "d24898eb63438d7b24262668eb3b36770f211fade015b28eeb361700a58ca6ce",
+              "data/naming-editorial-v5.json": "bb8d3d255b42a6b67932988e13ceb2d7a7a1c6ef8fbbcc65312b9a50b5519da8",
+              "data/naming-editorial-v6.json": "35de5f749f438e849543e5fde6e405b89ba01cba20597e82e7c4f518dd4363ab",
+              "data/naming-editorial-v7-NOTICE.md": "c7dc728945bf2ceed14feb23e1635a6e6fd3ce8e5a135489554ec075e963a1b3",
+              "data/naming-editorial-v7.json": "392fa47441a0c410b0903c3e85853081225a1a5e9f540b5467e4ea4e2151cc48",
+              "data/naming-editorial.json": "97c3162238c9493174544580a338fb0852d2784fbeac712fbd8e234f99945195",
+              "data/raw/CC-BY-ND-3.0-TW.html": "04e6ef69a223b6e13c93c97a918ad5fd0dbb9fc34ae307f4449ed264e2d4108f",
+              "data/raw/kSimplifiedVariant.txt": "a7f0c9dbbca85cffd90517fa6ea9be97d2e6f811328a59b6b303d58a418ac9be",
+              "data/raw/kTraditionalVariant.txt": "4eca6285d45070548e6e6c06e4b48c3ca6866d4380e8cb980c512f5d1fc71895",
+              "data/raw/moe-README.md": "a93321d9381bc1cf34b4ad844f71607fa748c86c0b228ae37d46720d6a659cb2",
+              "data/raw/moe-revised.json.gz": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+              "data/raw/naming-character-meanings-v7.1-subset.json": "59be39f7d9cbed1db5220721c015445546a19aa9967e59d4db0f820f3bcee8c1",
+              "data/raw/naming-character-meanings-v71-m460-b02-subset.json": "f009bf99327d964371b0e11b305e041215c88d1f067f583b18d6d63953c7a545",
+              "data/raw/naming-citations-v7-errata-r2.json": "e61707d9e3ac04110cdcaa924dd53a32b8bcc0ae8a0d0b0cbf9016a83108b945",
+              "data/raw/naming-citations-v7-review.json": "e5d3909b04812c418feffbbb34cdecd3224527130a4ddfa91b62432e7ef59cc3",
+              "data/raw/naming-meanings-v7-errata-r1.json": "e0bafe66312b98df77a367402915da57a3d5fa2c43ce56ca6af85a41cb4c3c0a",
+              "data/raw/naming-meanings-v7-review.json": "8bdf895484e9b88daaa822fdd873901ee3dba994f23961cc836692f340446b1c",
+              "data/raw/poetry-LICENSE": "c195319aeaa3ffcbe16aa5d26eec19eae5a42f84337dd2b3dc3c9d5ccbbd6507",
+              "data/raw/shijing.json": "3c7ca54d59424542ada99adfcc85420287fbbd5c8a511e9baf705cb2b04051e7",
+              "data/raw/unicode-LICENSE": "fe5c62b543e287981db198f2acfa0ca732d12591a1024536dc8fd85dacd77104",
+              "data/raw/zhouyi-LICENSE": "0506d67239c89a3d3b14e253ed29e20e2e9259b41c4b32031eab5ac22ed2811f",
+              "data/raw/zhouyi.tar.gz": "0a847c0b9b876f9926e4896399e31ee44f88292db107bc865d70e2d7308b15a0",
+              "data/source-lock.json": "b1d206cdcfa2da184009442ba705d2231d8f0a43c2f5a9885a122a3e5d353bba"
+            },
+            "sha256": "870846c44faa368c913536467cf62b60cf5a96d43256f796644856dc1ae007a4",
+            "note": "Actual root approved per-character-position notes only. Whole-name meaning/recommendation/semantic credit/rank remain unchanged; lexical sidecar stays candidate-only."
+          }
+        ]
+      },
+      "dependencies": {
+        "data/dataset-v6.json": {
+          "bytes": 1563457,
+          "sha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728"
+        },
+        "data/knowledge-v6.sqlite": {
+          "bytes": 1454080,
+          "sha256": "1875aa49dcfaeca0f266a3be7578e4d4b2a9b2c9c1f59fd79699a3e26d5d6b8b"
+        },
+        "data/m460-lexical/naming-character-meanings-m393-admission.json": {
+          "bytes": 811,
+          "sha256": "5df9ef749c6aebdcaef4f8866930e1689a856db6115d8b837224a3ee2fe6bbc3"
+        },
+        "data/m460-lexical/naming-character-meanings-m393-manifest.json": {
+          "bytes": 2932,
+          "sha256": "23137c2c605a4807c603b9bdfcf7a2f7558872ac8d1661d0ff6b8a60a66332b4"
+        },
+        "data/m460-lexical/naming-character-meanings-m393-NOTICE.md": {
+          "bytes": 1396,
+          "sha256": "d1f21e9ffc7e207c816486ed74cb551b48a4c1ba46c49020f891a7cd290893c0"
+        },
+        "data/m460-lexical/naming-character-meanings-m393-profile.json": {
+          "bytes": 162031,
+          "sha256": "eee6a01e1d28a34c3992c8dd81d547352222caa62d04f363f3ec43edfcd5acd8"
+        },
+        "data/m460-lexical/naming-character-meanings-m393-source-lock.json": {
+          "bytes": 2727,
+          "sha256": "f2f42e2370e4dce0b1701375764f5254493d0062c102bafe317129b84c017e76"
+        },
+        "data/m460-lexical/raw/naming-character-meanings-m393-subset.json": {
+          "bytes": 161637,
+          "sha256": "cbf3add7ab417a01a6d433723366608c31b61ae5d0ab3065504a4947fad85b86"
+        },
+        "data/m460-lexical/reviews/M412.json": {
+          "bytes": 13128,
+          "sha256": "2585b4c41defc938411b4128f8fe94aa9c990257c1ce5043ce0f92b0e8093159"
+        },
+        "data/m460-lexical/reviews/M418-r3.json": {
+          "bytes": 6077,
+          "sha256": "71fe4fa10d7a0ac2b1bfd8f9baae201b4014c946fb75ec12457267da030afb06"
+        },
+        "data/naming-character-meanings-v7.1-admission.json": {
+          "bytes": 4760,
+          "sha256": "425909be7aa94e251a37d45a77c759d0b3dfd323beef0af6882f3e0596b4d313"
+        },
+        "data/naming-character-meanings-v7.1-NOTICE.md": {
+          "bytes": 1435,
+          "sha256": "46d3fb85a1cf217a0b7e72c1002fb1c36dbbd3f34191306385388f4f14c7e243"
+        },
+        "data/naming-character-meanings-v7.1-profile.json": {
+          "bytes": 257013,
+          "sha256": "6e619be92c16dc018715fc77425f150b6a2c9af2e01be63b309035c81dd6a85b"
+        },
+        "data/naming-character-meanings-v71-m460-b02-admission.json": {
+          "bytes": 7207,
+          "sha256": "cea582cc66ddc3adbd49d185edf0104cb829478b82312888bae1653ac471c98d"
+        },
+        "data/naming-character-meanings-v71-m460-b02-NOTICE.md": {
+          "bytes": 1315,
+          "sha256": "fdee9a0835dd391d106325cfd43ebeed580323d04d3538f995289b48f05330bc"
+        },
+        "data/naming-character-meanings-v71-m460-b02-profile.json": {
+          "bytes": 419345,
+          "sha256": "2c4be917bbfcdc3fec9279b2d9d928f5215e6ee1386d60e7d62265cd8e3eb2d1"
+        },
+        "data/naming-character-meanings-v71-m460-b02-root-decision.json": {
+          "bytes": 4718,
+          "sha256": "b5d447fd84cdd877f260b51735f097feb82c98dea032bfdfb45e75835756e894"
+        },
+        "data/naming-editorial-dictionary-v6-source-lock.json": {
+          "bytes": 4919,
+          "sha256": "06331d11a1c757a0245891fae357c7952db597d07c3c770d4052277c0bfac8da"
+        },
+        "data/naming-editorial-meanings-v7-source-lock.json": {
+          "bytes": 3979,
+          "sha256": "2945297a7f4bca1489e12018cce2848909fc35716c999b7d309e9a79633f7476"
+        },
+        "data/naming-editorial-v4.json": {
+          "bytes": 380418,
+          "sha256": "d24898eb63438d7b24262668eb3b36770f211fade015b28eeb361700a58ca6ce"
+        },
+        "data/naming-editorial-v5.json": {
+          "bytes": 65361,
+          "sha256": "bb8d3d255b42a6b67932988e13ceb2d7a7a1c6ef8fbbcc65312b9a50b5519da8"
+        },
+        "data/naming-editorial-v6.json": {
+          "bytes": 109426,
+          "sha256": "35de5f749f438e849543e5fde6e405b89ba01cba20597e82e7c4f518dd4363ab"
+        },
+        "data/naming-editorial-v7-NOTICE.md": {
+          "bytes": 2380,
+          "sha256": "c7dc728945bf2ceed14feb23e1635a6e6fd3ce8e5a135489554ec075e963a1b3"
+        },
+        "data/naming-editorial-v7.json": {
+          "bytes": 1301005,
+          "sha256": "392fa47441a0c410b0903c3e85853081225a1a5e9f540b5467e4ea4e2151cc48"
+        },
+        "data/naming-editorial.json": {
+          "bytes": 31147,
+          "sha256": "97c3162238c9493174544580a338fb0852d2784fbeac712fbd8e234f99945195"
+        },
+        "data/raw/CC-BY-ND-3.0-TW.html": {
+          "bytes": 31775,
+          "sha256": "04e6ef69a223b6e13c93c97a918ad5fd0dbb9fc34ae307f4449ed264e2d4108f"
+        },
+        "data/raw/kSimplifiedVariant.txt": {
+          "bytes": 88425,
+          "sha256": "a7f0c9dbbca85cffd90517fa6ea9be97d2e6f811328a59b6b303d58a418ac9be"
+        },
+        "data/raw/kTraditionalVariant.txt": {
+          "bytes": 86288,
+          "sha256": "4eca6285d45070548e6e6c06e4b48c3ca6866d4380e8cb980c512f5d1fc71895"
+        },
+        "data/raw/moe-README.md": {
+          "bytes": 1214,
+          "sha256": "a93321d9381bc1cf34b4ad844f71607fa748c86c0b228ae37d46720d6a659cb2"
+        },
+        "data/raw/moe-revised.json.gz": {
+          "bytes": 20310688,
+          "sha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e"
+        },
+        "data/raw/naming-character-meanings-v7.1-subset.json": {
+          "bytes": 259062,
+          "sha256": "59be39f7d9cbed1db5220721c015445546a19aa9967e59d4db0f820f3bcee8c1"
+        },
+        "data/raw/naming-character-meanings-v71-m460-b02-subset.json": {
+          "bytes": 422594,
+          "sha256": "f009bf99327d964371b0e11b305e041215c88d1f067f583b18d6d63953c7a545"
+        },
+        "data/raw/naming-citations-v7-errata-r2.json": {
+          "bytes": 10617,
+          "sha256": "e61707d9e3ac04110cdcaa924dd53a32b8bcc0ae8a0d0b0cbf9016a83108b945"
+        },
+        "data/raw/naming-citations-v7-review.json": {
+          "bytes": 70982,
+          "sha256": "e5d3909b04812c418feffbbb34cdecd3224527130a4ddfa91b62432e7ef59cc3"
+        },
+        "data/raw/naming-meanings-v7-errata-r1.json": {
+          "bytes": 2174,
+          "sha256": "e0bafe66312b98df77a367402915da57a3d5fa2c43ce56ca6af85a41cb4c3c0a"
+        },
+        "data/raw/naming-meanings-v7-review.json": {
+          "bytes": 692058,
+          "sha256": "8bdf895484e9b88daaa822fdd873901ee3dba994f23961cc836692f340446b1c"
+        },
+        "data/raw/poetry-LICENSE": {
+          "bytes": 1076,
+          "sha256": "c195319aeaa3ffcbe16aa5d26eec19eae5a42f84337dd2b3dc3c9d5ccbbd6507"
+        },
+        "data/raw/shijing.json": {
+          "bytes": 156972,
+          "sha256": "3c7ca54d59424542ada99adfcc85420287fbbd5c8a511e9baf705cb2b04051e7"
+        },
+        "data/raw/unicode-LICENSE": {
+          "bytes": 2033,
+          "sha256": "fe5c62b543e287981db198f2acfa0ca732d12591a1024536dc8fd85dacd77104"
+        },
+        "data/raw/zhouyi-LICENSE": {
+          "bytes": 1070,
+          "sha256": "0506d67239c89a3d3b14e253ed29e20e2e9259b41c4b32031eab5ac22ed2811f"
+        },
+        "data/raw/zhouyi.tar.gz": {
+          "bytes": 123007,
+          "sha256": "0a847c0b9b876f9926e4896399e31ee44f88292db107bc865d70e2d7308b15a0"
+        },
+        "data/source-lock.json": {
+          "bytes": 5953,
+          "sha256": "b1d206cdcfa2da184009442ba705d2231d8f0a43c2f5a9885a122a3e5d353bba"
+        }
+      },
+      "publicationFiles": {
+        "data/naming-character-meanings-v71-m460-b02-manifest.json": {
+          "bytes": 8115,
+          "sha256": "f0b8db3f8edb64796687b57627c3fd4a306dd710b1fdad3c91338cbe43a51cb0"
+        }
+      }
+    },
+    "data/element-imagery-m754/source-lock.json": {
+      "profile": "m754",
+      "lockSha256": "e33287aac335327e58f772def9c7f8064abed174d7988b4ac6f452eba68ada72",
+      "schema": "m754-element-imagery-lock/1.0.0",
+      "sourceId": "project-dictionary-object-elements/2.0.0-m754-candidate",
+      "version": "project-dictionary-object-elements/2.0.0-m754-candidate",
+      "licenses": {
+        "source": null
+      },
+      "document": {
+        "schemaVersion": "m754-element-imagery-lock/1.0.0",
+        "profileId": "project-dictionary-object-elements/2.0.0-m754-candidate",
+        "baseline": {
+          "path": "data/dataset-v6.json",
+          "version": "2026.10.20.2",
+          "sha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+          "characters": 779,
+          "emptyCharacters": 522
+        },
+        "rawSources": [
+          {
+            "path": "data/raw/moe-revised.json.gz",
+            "url": "https://raw.githubusercontent.com/g0v/moedict-data/a6dc997417507eb510fc29822bc514de2c92728c/dict-revised_bkup.json",
+            "sha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "bytes": 20310688,
+            "retrievedAt": "2026-10-17T11:31:21.371Z",
+            "encoding": "gzip of original UTF-8 response, no content edits"
+          },
+          {
+            "path": "data/raw/moe-README.md",
+            "url": "https://raw.githubusercontent.com/g0v/moedict-data/a6dc997417507eb510fc29822bc514de2c92728c/README.md",
+            "sha256": "a93321d9381bc1cf34b4ad844f71607fa748c86c0b228ae37d46720d6a659cb2",
+            "bytes": 1214,
+            "retrievedAt": "2026-10-17T11:31:21.372Z",
+            "encoding": "original response"
+          },
+          {
+            "path": "data/raw/CC-BY-ND-3.0-TW.html",
+            "url": "https://creativecommons.org/licenses/by-nd/3.0/tw/legalcode.zh-hant",
+            "sha256": "04e6ef69a223b6e13c93c97a918ad5fd0dbb9fc34ae307f4449ed264e2d4108f",
+            "bytes": 31775,
+            "retrievedAt": "2026-10-17T11:31:24.023Z",
+            "encoding": "original response"
+          },
+          {
+            "path": "data/raw/kTraditionalVariant.txt",
+            "url": "https://raw.githubusercontent.com/unicode-org/unicodetools/4fd8eca90b30aa4c72543ccddb4c15d05becdf8d/unicodetools/data/ucd/17.0.0/Unihan/kTraditionalVariant.txt",
+            "sha256": "4eca6285d45070548e6e6c06e4b48c3ca6866d4380e8cb980c512f5d1fc71895",
+            "bytes": 86288,
+            "retrievedAt": "2026-10-17T11:21:31.745Z",
+            "encoding": "original response"
+          },
+          {
+            "path": "data/raw/kSimplifiedVariant.txt",
+            "url": "https://raw.githubusercontent.com/unicode-org/unicodetools/4fd8eca90b30aa4c72543ccddb4c15d05becdf8d/unicodetools/data/ucd/17.0.0/Unihan/kSimplifiedVariant.txt",
+            "sha256": "a7f0c9dbbca85cffd90517fa6ea9be97d2e6f811328a59b6b303d58a418ac9be",
+            "bytes": 88425,
+            "retrievedAt": "2026-10-17T11:21:31.742Z",
+            "encoding": "original response"
+          },
+          {
+            "path": "data/raw/kMandarin.txt",
+            "url": "https://raw.githubusercontent.com/unicode-org/unicodetools/4fd8eca90b30aa4c72543ccddb4c15d05becdf8d/unicodetools/data/ucd/17.0.0/Unihan/kMandarin.txt",
+            "sha256": "e549450d76b4f7f79dcf3c928f17f62dc7dcfda904dd4db983a18d4afab221e3",
+            "bytes": 462072,
+            "retrievedAt": "2026-10-17T11:21:31.866Z",
+            "encoding": "original response"
+          },
+          {
+            "path": "data/raw/unicode-LICENSE",
+            "url": "https://raw.githubusercontent.com/unicode-org/unicodetools/4fd8eca90b30aa4c72543ccddb4c15d05becdf8d/LICENSE",
+            "sha256": "fe5c62b543e287981db198f2acfa0ca732d12591a1024536dc8fd85dacd77104",
+            "bytes": 2033,
+            "retrievedAt": "2026-10-17T11:21:31.572Z",
+            "encoding": "original response"
+          }
+        ],
+        "projectFiles": {
+          "admission-template.json": "2aaaab2b7da0dea29a4430a8241f166e23df1ad2761a307ea0edf2fb5ed35c36",
+          "convention-candidates.json": "28c423f31cb106964f2ed01bfcdd3139f16eae6af14317ba45623781b4e3de1c",
+          "coverage.json": "750b27cc6e59eb0bdc7dcfa86e7b71e5da958d88359721507c9cc308dee2131b",
+          "dictionary-facts.json": "40c3a919c02a1cf1eeaa056f4de2af3f6e6c0825c6c061a1c8911afdc2af46d5",
+          "editorial-input.json": "a9ee9581e89db0963306fe6a08b7b62fcfa6a224f07a5e77ce858850f2aad581",
+          "source-pins.json": "e3326102cf608e62719d84b75244de07784fdacfbcd3bd0bea2c617ae8938cca"
+        },
+        "aggregateSha256": "421810288606e31e717bc11e707df53395b2f8642f080f7884723cc8d2a2bd75"
+      },
+      "dependencies": {
+        "data/dataset-v6.json": {
+          "bytes": 1563457,
+          "sha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728"
+        },
+        "data/element-imagery-m754/admission-template.json": {
+          "bytes": 2764,
+          "sha256": "2aaaab2b7da0dea29a4430a8241f166e23df1ad2761a307ea0edf2fb5ed35c36"
+        },
+        "data/element-imagery-m754/convention-candidates.json": {
+          "bytes": 10755,
+          "sha256": "28c423f31cb106964f2ed01bfcdd3139f16eae6af14317ba45623781b4e3de1c"
+        },
+        "data/element-imagery-m754/coverage.json": {
+          "bytes": 8954,
+          "sha256": "750b27cc6e59eb0bdc7dcfa86e7b71e5da958d88359721507c9cc308dee2131b"
+        },
+        "data/element-imagery-m754/dictionary-facts.json": {
+          "bytes": 20758,
+          "sha256": "40c3a919c02a1cf1eeaa056f4de2af3f6e6c0825c6c061a1c8911afdc2af46d5"
+        },
+        "data/element-imagery-m754/editorial-input.json": {
+          "bytes": 4988,
+          "sha256": "a9ee9581e89db0963306fe6a08b7b62fcfa6a224f07a5e77ce858850f2aad581"
+        },
+        "data/element-imagery-m754/source-pins.json": {
+          "bytes": 3764,
+          "sha256": "e3326102cf608e62719d84b75244de07784fdacfbcd3bd0bea2c617ae8938cca"
+        },
+        "data/raw/CC-BY-ND-3.0-TW.html": {
+          "bytes": 31775,
+          "sha256": "04e6ef69a223b6e13c93c97a918ad5fd0dbb9fc34ae307f4449ed264e2d4108f"
+        },
+        "data/raw/kMandarin.txt": {
+          "bytes": 462072,
+          "sha256": "e549450d76b4f7f79dcf3c928f17f62dc7dcfda904dd4db983a18d4afab221e3"
+        },
+        "data/raw/kSimplifiedVariant.txt": {
+          "bytes": 88425,
+          "sha256": "a7f0c9dbbca85cffd90517fa6ea9be97d2e6f811328a59b6b303d58a418ac9be"
+        },
+        "data/raw/kTraditionalVariant.txt": {
+          "bytes": 86288,
+          "sha256": "4eca6285d45070548e6e6c06e4b48c3ca6866d4380e8cb980c512f5d1fc71895"
+        },
+        "data/raw/moe-README.md": {
+          "bytes": 1214,
+          "sha256": "a93321d9381bc1cf34b4ad844f71607fa748c86c0b228ae37d46720d6a659cb2"
+        },
+        "data/raw/moe-revised.json.gz": {
+          "bytes": 20310688,
+          "sha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e"
+        },
+        "data/raw/unicode-LICENSE": {
+          "bytes": 2033,
+          "sha256": "fe5c62b543e287981db198f2acfa0ca732d12591a1024536dc8fd85dacd77104"
+        }
+      },
+      "publicationFiles": {
+        "data/element-imagery-m754/README.md": {
+          "bytes": 2188,
+          "sha256": "8a06a0202cc226f78c612bcc06cf93098f16627f3984e04c327ee777e7e28638"
+        },
+        "data/element-imagery-m754/admission-template.json": {
+          "bytes": 2764,
+          "sha256": "2aaaab2b7da0dea29a4430a8241f166e23df1ad2761a307ea0edf2fb5ed35c36"
+        }
+      }
+    }
+  }
+}

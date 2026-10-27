@@ -1,0 +1,25 @@
+{
+  "version": "noaa-julian-century-apparent-solar/1.0.0",
+  "hashConvention": "sha256(JSON.stringify(fileHashes)); sorted relative path keys",
+  "sources": [
+    {
+      "id": "solar-time-noaa-julian-century",
+      "name": "NOAA/Meeus 儒略世纪均时差与真太阳时（固定公式）",
+      "url": "https://gml.noaa.gov/grad/solcalc/main.js",
+      "commit": "noaa-main-js/3832956f24724eafacf9e18173b9299b1554d6252bed0784d9c9aca6d9f54856",
+      "license": "Public domain — U.S. Government material (NOAA GML disclaimer)",
+      "files": [
+        "data/raw/solar-time-NOTICE.md",
+        "data/raw/solar-time-independent-reference.json",
+        "data/raw/solar-time-noaa-excerpts.json"
+      ],
+      "fileHashes": {
+        "data/raw/solar-time-NOTICE.md": "f6d632782addd74b4f71f8b529d03483e3f5466468016a82f500e1c7fa74db15",
+        "data/raw/solar-time-independent-reference.json": "7b6c31b27a6be7e8352a6389fa0a89dea2203c5d7c6c8566682f253774511f3c",
+        "data/raw/solar-time-noaa-excerpts.json": "f2f17e818089d7a81e458c143218c5d46b33cec0889dbedfdbace5de53968c8f"
+      },
+      "sha256": "fb2868c38fd9e1ff5def672ba6934d6a6b3c4ae12edb150e6c9c8da1e26401f7",
+      "note": "逐实际时刻计算EOT；东经为正；以IANA实际偏移解释民用钟校正，含DST一次；1900–2100民用年份。60秒为复核窗口非误差保证。36个NOAA官方源独立对照与4个pvlib/NREL SPA跨模型数值。"
+    }
+  ]
+}

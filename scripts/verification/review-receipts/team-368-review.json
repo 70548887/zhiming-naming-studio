@@ -1,0 +1,378 @@
+{
+  "schema": "M368-independent-raw-notice-source-review/1",
+  "task": "M368",
+  "sealedAt": "2026-10-23T20:59:38.5170231+08:00",
+  "conclusion": "LIMITED-RAW-NOTICE-SOURCE-PASS",
+  "newP1": 0,
+  "newP2": 0,
+  "findings": [],
+  "input": {
+    "readyManifest": {
+      "file": "E:/八卦周易/.local/team-364/dev07/ready-manifest.json",
+      "sha256": "df8d0083096472d24884fc64fbf3143d2ae94e758561ebd32e91b662df1c790f",
+      "bytes": 11071
+    },
+    "status": "SOURCE_AND_MINIMAL_TYPES_PASSED_REAL_RAW_HTTP_AND_03_TEST_ADAPTATION_PENDING",
+    "actualRoot": "C:/Users/Administrator/.codex/worktrees/naming-core-preview/八卦周易",
+    "actualHead": "c30edcfce673c25cc92ab609a92697cf3264414e",
+    "patch": {
+      "file": "E:\\八卦周易\\.local\\team-364\\dev07\\raw38-notice-only.patch",
+      "sha256": "0cb47bcedcc228f1942854a35e89eafd98c1a06695bf51db5d122d42991c1387",
+      "bytes": 20600
+    },
+    "logicalEdits": 12,
+    "roles": [
+      {
+        "relative": "src/main/main.ts",
+        "before": "dcb209631068ba95db2721829f815c20b8548504f1021e8d713246c46cf128d8",
+        "after": "12d912aa46f847a72e89ad344b75dfca77ba4e5e9904ff5c35316022f2226afe",
+        "beforeBytes": 73931,
+        "afterBytes": 74250
+      },
+      {
+        "relative": "src/main/preload.ts",
+        "before": "764b5413e4cc53316447437dc763942e45d8adfc4ff3a4850266ab58dde04a3c",
+        "after": "7ef940138999a92e503ff4695c004d0129630cfcec2fb589fa6b6c178c337b5b",
+        "beforeBytes": 2883,
+        "afterBytes": 3085
+      },
+      {
+        "relative": "src/shared/browser-api.ts",
+        "before": "819771547c7219b2cb269592014e904154186c2240b86e25d88ceea76adf0452",
+        "after": "b9863071f9df5186b98daa013f61b458b538e3d185957b3ae2b4ac5316ac8ab8",
+        "beforeBytes": 1494,
+        "afterBytes": 1634
+      },
+      {
+        "relative": "scripts/dev-plugin.ts",
+        "before": "6432bc2f3069e6b95af0af7758c62af25ac05dab9aec1187dac9ce742a72d2b5",
+        "after": "4153c7f7b002255afee1f3ab00da2416f6ee0d68d16633bed535fd8c98a6a690",
+        "beforeBytes": 3507,
+        "afterBytes": 3800
+      },
+      {
+        "relative": "src/renderer/main.tsx",
+        "before": "92bbe1eeeaea364d04ad155cc098e8336b107b6d996c7b09bbb5eefbb319c521",
+        "after": "7224959945a1486f04fe939f8187df386e1d9b92bcbf947a278719f434c35e9d",
+        "beforeBytes": 107423,
+        "afterBytes": 107522
+      }
+    ],
+    "sourceRuntime": [
+      {
+        "relative": "src/main/customer-write-notice-invocation.ts",
+        "sha256": "c4d0782ff3294010f2af0d032983a6724ba536c930d69369fcd16f984f1740c7",
+        "bytes": 1037
+      },
+      {
+        "relative": "src/main/customer-write-notice-transport.ts",
+        "sha256": "f13f0cdc7317a8415de3164650fb8f18f583d97268e899d05371483e4067426a",
+        "bytes": 1418
+      },
+      {
+        "relative": "src/renderer/customer-write-notice-feed.ts",
+        "sha256": "cc250335df3548beb0c142ec81b73450047d527fe153cd4062b6f400d0b41f6e",
+        "bytes": 2866
+      },
+      {
+        "relative": "src/renderer/CustomerWriteNoticeBanner.css",
+        "sha256": "07489b164f10fab6cf2bd01bb92078eb2a26517e366f8d4c24d9183ef0a485fc",
+        "bytes": 1182
+      },
+      {
+        "relative": "src/renderer/CustomerWriteNoticeBanner.tsx",
+        "sha256": "6249626f225a4b724d11996ab5dc554148b11325e9913c9c35ef9d8c98bef7ba",
+        "bytes": 1694
+      },
+      {
+        "relative": "src/shared/customer-write-notice-delivery.ts",
+        "sha256": "94333db8aadd9dd2a4710d454ab2cf967fb995672e725c989b1c153c04a6ce98",
+        "bytes": 3165
+      }
+    ],
+    "initialPins": {
+      "count": 35,
+      "allMatch": true
+    },
+    "closingPins": {
+      "count": 28,
+      "allMatch": true
+    }
+  },
+  "sourceConclusions": [
+    {
+      "id": "S1",
+      "files": [
+        "src/main/main.ts",
+        "src/main/preload.ts",
+        "src/shared/browser-api.ts",
+        "scripts/dev-plugin.ts",
+        "src/renderer/main.tsx"
+      ],
+      "result": "独立按 delivery-hunks 正向套入实际 raw，及从候选逆转，12 edit 都唯一命中。五份候选全文等于正向结果、逆向全文等于实际 raw/original 前图；混合 CRLF/LF/loneCR 与 manifest 数量精确一致。main 四处 inverse JSON 的固定身份为7a9ffd…，实际四块与 delivery-hunks 相同。没有整文件引入 F139 storage、M272、next API、140 hook 或新 StudioAPI 方法。",
+      "reconstruction": [
+        {
+          "relative": "src/main/main.ts",
+          "counts": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "inverseCounts": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "forwardEqualsSaved": true,
+          "inverseEqualsCurrent": true,
+          "originalEqualsCurrent": true,
+          "beforeEol": {
+            "CRLF": 10,
+            "LF": 450,
+            "loneCR": 0
+          },
+          "afterEol": {
+            "CRLF": 10,
+            "LF": 452,
+            "loneCR": 0
+          }
+        },
+        {
+          "relative": "src/main/preload.ts",
+          "counts": [
+            1,
+            1
+          ],
+          "inverseCounts": [
+            1,
+            1
+          ],
+          "forwardEqualsSaved": true,
+          "inverseEqualsCurrent": true,
+          "originalEqualsCurrent": true,
+          "beforeEol": {
+            "CRLF": 0,
+            "LF": 25,
+            "loneCR": 0
+          },
+          "afterEol": {
+            "CRLF": 0,
+            "LF": 27,
+            "loneCR": 0
+          }
+        },
+        {
+          "relative": "src/shared/browser-api.ts",
+          "counts": [
+            1,
+            1
+          ],
+          "inverseCounts": [
+            1,
+            1
+          ],
+          "forwardEqualsSaved": true,
+          "inverseEqualsCurrent": true,
+          "originalEqualsCurrent": true,
+          "beforeEol": {
+            "CRLF": 0,
+            "LF": 14,
+            "loneCR": 0
+          },
+          "afterEol": {
+            "CRLF": 0,
+            "LF": 16,
+            "loneCR": 0
+          }
+        },
+        {
+          "relative": "scripts/dev-plugin.ts",
+          "counts": [
+            1,
+            1
+          ],
+          "inverseCounts": [
+            1,
+            1
+          ],
+          "forwardEqualsSaved": true,
+          "inverseEqualsCurrent": true,
+          "originalEqualsCurrent": true,
+          "beforeEol": {
+            "CRLF": 0,
+            "LF": 33,
+            "loneCR": 0
+          },
+          "afterEol": {
+            "CRLF": 0,
+            "LF": 36,
+            "loneCR": 0
+          }
+        },
+        {
+          "relative": "src/renderer/main.tsx",
+          "counts": [
+            1,
+            1
+          ],
+          "inverseCounts": [
+            1,
+            1
+          ],
+          "forwardEqualsSaved": true,
+          "inverseEqualsCurrent": true,
+          "originalEqualsCurrent": true,
+          "beforeEol": {
+            "CRLF": 1,
+            "LF": 387,
+            "loneCR": 0
+          },
+          "afterEol": {
+            "CRLF": 1,
+            "LF": 388,
+            "loneCR": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "S2",
+      "file": "src/main/main.ts",
+      "lines": [
+        91,
+        93,
+        95,
+        117
+      ],
+      "result": "通用 loop 和 register 两入口均先验证 event.sender===window.webContents，再过 desktop176 phase，之后才调用包裹器取得 service.store/create scope/action。service 原 this/.apply 与 register 原 closure/args 保留。通知只发该单主窗口 webContents；本源码唯一 main window 赋值，printWindow 独立，关闭走既有退出逻辑。无广播或按全局 last result 发送。",
+      "limit": "source 可达顺序与当前单窗口生命周期审查；未执行 Electron/IPC。"
+    },
+    {
+      "id": "S3",
+      "file": "src/main/customer-write-notice-transport.ts",
+      "result": "六份 runtime 与已审 M300 原件 byte-exact。transport 只 createScope(owner)→await run(scope, action)→read(scope, same owner)；不看 result/error JSON 的 committed/verified/adopted 字段，不制造 recovery 或来源/评分/certificate authority。raw writer63a 的 notice scope 段全文等于 M318 已审 f479 段；真实 AsyncLocalStorage 每调用状态、WeakMap scope 与 owner 检查、closed 后拒记录保留，无 last-global-notice fallback。",
+      "related": {
+        "file": "src/main/writer-finalization.ts",
+        "lines": [
+          8,
+          33
+        ]
+      }
+    },
+    {
+      "id": "S4",
+      "file": "src/main/customer-write-notice-invocation.ts",
+      "result": "同步 throw 与 Promise rejection 的原值沿原路径再抛；success 的原值返回。scope lookup/DTO validation 与 publisher 都是 best effort，publish 同步异常及异步 rejection 被隔离，不遮盖 Service 主结果或错误。Service2127 对真实 finalized committed 错误的恢复仍由其自身 private issuer/owner 校验负责；本桥不据普通 JSON 推导落盘成功。"
+    },
+    {
+      "id": "S5",
+      "files": [
+        "scripts/dev-plugin.ts",
+        "src/shared/browser-api.ts",
+        "src/shared/customer-write-notice-delivery.ts"
+      ],
+      "result": "raw dev 原方法白名单、origin/POST/header/body/JSON 检查、原 CMN 构建与关闭保持；只包观察调用并写 HTTP sideband header。成功 result??null 与错误 status400/{error} 原 body 语义保留。browser 对每个实际 response 独立解 header，然后走原 response.ok/error JSON/成功 JSON 路径；坏 header/查找/编码/发布错误不改主流程，无跨请求 latest slot。没有 M272 静态 import 或额外启动 hook。",
+      "limit": "源码保留合同，未作 raw HTTP/Store cleanup fault 真实验证。"
+    },
+    {
+      "id": "S6",
+      "files": [
+        "src/main/preload.ts",
+        "src/renderer/customer-write-notice-feed.ts",
+        "src/renderer/CustomerWriteNoticeBanner.tsx",
+        "src/shared/customer-write-notice.ts"
+      ],
+      "result": "native receiver 只把 IPC notice 投到当前窗口；feed 要求 event.source 是该 window 且 origin 相同（file: 仅接受 null），校验精确 envelope 和六字段固定 DTO，再按 UUID 去重。React 显示固定 notice 文本，唯一动作是 dismiss；没有 adoption、评分、命名或存储写入。DTO 不携异常/message自由文本、cause、客户资料或来源认证字段。",
+      "qualification": "window message/DTO 仅供只读提醒显示，不能当提交、来源或 adopted 身份证明。"
+    }
+  ],
+  "actualDependencies": [
+    {
+      "file": "C:/Users/Administrator/.codex/worktrees/naming-core-preview/八卦周易/src/main/service.ts",
+      "sha256": "2127a3356008e1e9ddc9ff242fe5fd4b8d9111de13418c60dd8afe15045a0a38",
+      "bytes": 48344
+    },
+    {
+      "file": "C:/Users/Administrator/.codex/worktrees/naming-core-preview/八卦周易/src/main/store.ts",
+      "sha256": "6ac0045fbf109e03738cbf243b2e0fc06541e775733f6d2396fe7643a6276569",
+      "bytes": 68288
+    },
+    {
+      "file": "C:/Users/Administrator/.codex/worktrees/naming-core-preview/八卦周易/src/main/writer-finalization.ts",
+      "sha256": "63a117ade3b6236dd9cdc6fc3d23f0233ea42563ad4191ac63cbaf3df9b52ab6",
+      "bytes": 7748
+    },
+    {
+      "file": "C:/Users/Administrator/.codex/worktrees/naming-core-preview/八卦周易/src/shared/customer-write-notice.ts",
+      "sha256": "0f0c401c19fbef8590933d90fbee0e58f91c115f43a3b98790120ce28bc49b93",
+      "bytes": 2333
+    },
+    {
+      "file": "C:\\Users\\Administrator\\.codex\\worktrees\\naming-core-preview\\八卦周易\\src\\main\\customer-atomic-write.ts",
+      "sha256": "841ad0dc9e8c01bead15355e804be7e619fc5f3008c10f2f85d2b54f1535d264",
+      "bytes": 2774
+    }
+  ],
+  "preservedProof": {
+    "patchCheck": {
+      "file": "E:\\八卦周易\\.local\\team-364\\dev07\\checkproof.json",
+      "sha256": "0fdbcadc0e015de043c5efa96e015c4ca01cf0d7923636a45e3c8b1b5e2ad154",
+      "bytes": 13453
+    },
+    "mainFourInverse": {
+      "file": "E:\\八卦周易\\.local\\team-364\\dev07\\main-inverse-edits.json",
+      "sha256": "7a9ffd0fd06ef671800e42e3231e8fc33f5c473b1ffc238c8a0262abbae52375",
+      "bytes": 2850
+    },
+    "existingGit": {
+      "coreAutocrlf": false,
+      "forwardCheckExit": 0,
+      "reverseCheckExit": 0,
+      "replayAfterBytesExact": true,
+      "whitespaceCheckExit": 0
+    },
+    "interpretation": "只核读既有 core.autocrlf=false 正反向与字节回放证据，本轮未运行 git apply 或其 Node 静态检查器。"
+  },
+  "existingTypeEvidence": {
+    "file": "E:\\八卦周易\\.local\\team-364\\dev07\\evidence\\affected-types-result.json",
+    "sha256": "77986d423848b23ca86a51653e366b963c0566739ed33e1814300ad131951f76",
+    "bytes": 3217,
+    "programSourceCount": 224,
+    "actualReadInputs": 217,
+    "diagnostics": [],
+    "syntaxDiagnostics": [],
+    "actualDrift": [],
+    "overlayDrift": [],
+    "scope": "Affected TypeScript graph only: new runtime TS5 plus candidate preload/browser; candidate main/dev-plugin/App AST parsed. Raw C actual baseline and explicit Service2127 identity pinned. No full tree copy, full project type rerun, emit, DB, Worker, AI, HTTP or build.",
+    "qualification": "新 runtime TS5 + preload/browser 的最小图；main/dev/App 仅语法。不是 whole config、完整 App 或实际 HTTP/Electron/DB。"
+  },
+  "priorSourceGate": {
+    "file": "E:/八卦周易/.local/team-318/independent-review/independent-review.json",
+    "sha256": "9c3f6ee0925b9aa776252d63b9fcd0ee4264647faf89a0a1860e92e0d18d6ddd",
+    "reuse": "仅 notice runtime 源身份与已审链模式；未重复旧 VM，未把 F139/M311 结果当 raw 通过。"
+  },
+  "pending": [
+    "sourceprofile138 更新/正式门禁仍必需。",
+    "03 负责 raw harness/projection 适配；main 四块 inverse 在原投影前按 exact 块处理，不把旧37/golden 重解释为已过。",
+    "真实 raw notice HTTP＋Store cleanup fault、Electron 通知和DOM/App尚未执行。",
+    "最小类型与源码通过不表示整体 writer/recovery、命名来源、真实生成、release/ASAR/安装通过。"
+  ],
+  "execution": {
+    "tests": 0,
+    "types": 0,
+    "HTTP": 0,
+    "SQL": 0,
+    "Worker": 0,
+    "moduleEval": 0,
+    "App": 0,
+    "build": 0,
+    "children": 0,
+    "CWrites": 0,
+    "candidateWrites": 0,
+    "runtimeTestDataReads": 0,
+    "method": "仅候选/实际源码和 M364 既有检查 JSON 的文件读取、SHA 与缓存文本比较；未触及 M362 运行数据或目标目录。"
+  },
+  "releaseAccepted": false
+}

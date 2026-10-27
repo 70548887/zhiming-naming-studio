@@ -1,0 +1,334 @@
+{
+  "schema": "M752-generation-admission-contract/2",
+  "decisionId": "M752",
+  "date": "2026-10-25",
+  "baselineCommit": "9ac38f2285f928c451caa10bad41ca226f7f5f51",
+  "targetRuleVersion": "naming-editorial-7.2.0",
+  "productFilesWritten": 0,
+  "externalAcquisitions": 0,
+  "purpose": "让已审的自足单字取意进入自动选字，同时不把单字准入升级为整名结论。",
+  "fourLayers": [
+    {
+      "id": "dictionary-fact",
+      "authority": "fixed-source",
+      "permits": [
+        "原条/读音/词性/义项和字形证据展示"
+      ],
+      "doesNotPermit": [
+        "自动起名许可",
+        "人格判断",
+        "整名吉利"
+      ]
+    },
+    {
+      "id": "project-intent",
+      "authority": "project-editorial",
+      "permits": [
+        "原创单字选义与意象说明"
+      ],
+      "doesNotPermit": [
+        "伪装辞典引文",
+        "保证孩子品格或运势"
+      ]
+    },
+    {
+      "id": "generation-admission",
+      "authority": "versioned-project-review",
+      "permits": [
+        "通用/条件性进入新版本选字和逐字解释"
+      ],
+      "doesNotPermit": [
+        "单字自动分数奖励",
+        "整名语法/典故认可",
+        "调用者自称审核通过"
+      ]
+    },
+    {
+      "id": "whole-name-family-use",
+      "authority": "separate-claim-specific-input-or-review",
+      "permits": [
+        "有证据时的特定组合说明",
+        "真实家庭偏好和纪念事实"
+      ],
+      "doesNotPermit": [
+        "倒置成所有单字的逐家庭签字前提",
+        "空白全名审核阻塞已批准中性逐字选材"
+      ]
+    }
+  ],
+  "evidenceGates": [
+    {
+      "id": "E1-fixed-source",
+      "required": "loader authenticates expected file/manifest/source locks plus dictionary entry, reading, POS and sense; no caller boolean or re-hashed self-signed substitute"
+    },
+    {
+      "id": "E2-identity",
+      "required": "exact char, source word, default selected reading/tone, baseline record, readings, definition and fixed glyph relation; 叶 stays pending"
+    },
+    {
+      "id": "E3-editorial-scope",
+      "required": "one reusable project review with caseId, reviewId, exact new project text/limits, authority separated from dictionary"
+    },
+    {
+      "id": "E4-machine-conditions",
+      "required": "Execute only explicit machineConditions: exact reading/tone/sense, namePart, allowed length, explicit theme IDs, and pending source identity. conditionIds label these fields; conflictIds are classified in conflict-registry.json, not an unspecified semantic predicate."
+    },
+    {
+      "id": "E5-output",
+      "required": "only pinned character-level intent and limits; wholeNameMeaning=null absent separately admitted whole-name rule; no template turns objects into personality"
+    },
+    {
+      "id": "E6-runtime",
+      "required": "one assess gate for pool/required/local/AI and saved receipt validation; source/identity failure cannot fall back"
+    },
+    {
+      "id": "E7-version-and-coverage",
+      "required": "new publication/source/version IDs; old bytes and history frozen; coverage based on actual loaded eligible sets and real consumers, not row count"
+    }
+  ],
+  "minimalSufficientRule": "E1 & E2 & E3 & decision=allow-single-character-generation & E4. This is sufficient for per-character automatic eligibility without family signature or per-future-name manual approval. E5/E6/E7 govern actual delivery and activation.",
+  "recordArtifact": "m740-generation-admission.json",
+  "themeArtifact": "theme-registry.json",
+  "decisions": {
+    "allow": "allow-single-character-generation",
+    "other": [
+      "manual-only",
+      "pending",
+      "reject"
+    ]
+  },
+  "runtimeStates": [
+    "eligible",
+    "needs-theme",
+    "pending-source-identity",
+    "manual-only",
+    "not-admitted",
+    "reading-mismatch",
+    "candidate-scope-mismatch",
+    "source-unavailable",
+    "rejected-integrity",
+    "condition-not-supported",
+    "blocked-existing-constraints"
+  ],
+  "assertionKinds": [
+    "reject-semantic-credit",
+    "reject-unreviewed-claim",
+    "preserve-legacy"
+  ],
+  "stages": [
+    "pool",
+    "required",
+    "local",
+    "ai",
+    "save",
+    "restore"
+  ],
+  "stageChangesEligibility": false,
+  "contextRules": {
+    "themeIds": "explicit known enum list, no free-text inference or gender/surname/industry guess",
+    "givenNameLengths": "validate candidate occurrence; pool must receive requested given-name length",
+    "namePart": "given-name only; surname does not consume these rows",
+    "perFamilySignatureRequired": false,
+    "emptyWholeNameReview": "does not block characterwise-only mode",
+    "truePersonalDedication": "requires actual provided event only when making a dedication claim",
+    "falseContext": "must fail identical to absent condition"
+  },
+  "consumerRules": [
+    "M751 may implement opt-in 7.2 module/facade; CURRENT/service/store registration is a separate integration task.",
+    "At pool stage preserve legacyEligiblePool union newlyAdmittedEligibleSet; never label all old generator characters admitted by 521. Required chars cannot bypass new row pending/theme/reading/source gates.",
+    "If legacy evaluator returns a candidate, v72 finalizer must verify every claimed adopted row and replace only its unreviewed-character warning with exact scoped explanation/limits. Other warnings remain.",
+    "Old whole-name output, currentCharacterWarning manual wording, reason/themes and score credit cannot smuggle a new row into a confirmed whole-name statement. Explicitly scoped changed fields must be versioned and replayable.",
+    "Preserve existing score algorithm; new admission metadata cannot set semanticTags/elements/citations or add +score. Keep old numeric evaluation if facade reuses the old evaluator; different candidate population may naturally change relative results.",
+    "AI may suggest character strings, but receives no source/admission authority. Final eligibility and explanation rendered from trusted records; reject unverified whole-name assertions.",
+    "Save receipt binds version, base pack, publication, exact candidate/full-name and per-occurrence reading/sense/project hashes and theme context. Recompute on read/restore; absent optional fields in legacy sessions remain absent.",
+    "No exhaustion fallback to pending/unadmitted rows to reach twelve names. Return actual fewer names or a scoped explanation.",
+    "Existing avoidance, parent-name, phonetic and required-character constraints still apply; not claiming exhaustive naturalness or oral-error detection."
+  ],
+  "knownSenseConflictPolicy": {
+    "registry": "conflict-registry.json",
+    "freeTextMayDefinePredicate": false,
+    "unimplementedDeclaredPredicate": "condition-not-supported",
+    "nonPredicateConflictLabels": "Do not block all names merely because a warning label exists. Keep pinned limitations and no alternate whole-name claim.",
+    "wholeNameClaims": "Separate approved rule required only when actually making a whole-name claim; no claim => no per-future-name signature requirement.",
+    "scope": "Existing product hard constraints continue outside the new addition; this contract adds no unseen matcher/score."
+  },
+  "historicalPolicy": {
+    "m740Bytes": "unchanged",
+    "m744Audit": "retained-source-audit-only",
+    "changedSensesReapproved": [
+      "纪",
+      "年",
+      "农",
+      "作"
+    ],
+    "manualScopeRevision": "M752 newly grants reusable characterwise policy; M744 did not grant generation and its manual requirements are not silently rewritten",
+    "leafIdentity": "叶 pending until separate identity audit"
+  },
+  "coverage": {
+    "observed": {
+      "universe": 779,
+      "baseExplanation": 217,
+      "supplementalAutomaticExplanation": 304,
+      "automaticExplanationUnion": 521,
+      "standaloneDisplayOnly": 60,
+      "uncoveredDisplay": 198
+    },
+    "semantics": "521 counts default automatically usable meanings, not an exclusive generator whitelist or full-name approvals",
+    "newPolicy": {
+      "general": [
+        "纪",
+        "年",
+        "岁"
+      ],
+      "conditional": [
+        "邦",
+        "沫",
+        "纶",
+        "农",
+        "作",
+        "萧"
+      ],
+      "pending": [
+        "叶"
+      ],
+      "potentialNoThemeAdded": 3,
+      "potentialThemeAdded": 6
+    },
+    "projectedSetArithmeticOnly": {
+      "automaticExplanationNoTheme": 524,
+      "displayUnionNoTheme": 584,
+      "uncoveredDisplayNoTheme": 195,
+      "automaticExplanationAllSixThemes": 530,
+      "displayUnionAllSixThemes": 590,
+      "uncoveredDisplayAllSixThemes": 189
+    },
+    "activatedNow": 0,
+    "productionGenerationCoverageVerified": false,
+    "mustReport": [
+      "eligibleAnyContext unique characters",
+      "eligibleForRequest unique characters by actual context",
+      "standaloneOnly minus admitted overlap",
+      "pendingIdentity",
+      "runtime local/AI positive receipt counts"
+    ],
+    "neverCount": [
+      "package rows",
+      "candidate occupancy",
+      "on-request display as generation",
+      "all6themes union as default"
+    ]
+  },
+  "traditionalBoundary": {
+    "category": "traditional-cultural-reference-not-scientific-prediction",
+    "newElementAssignments": 0,
+    "newScores": 0,
+    "personalityOrFortuneGuarantee": false
+  },
+  "verificationScope": "decision contract and pinned-source correspondence only; product generator, UI, persistence and installer acceptance belong to M751/root and are not run by M752",
+  "revision": "r2",
+  "supersedes": "r1 machine fixture dispatch only; original artifacts remain immutable",
+  "admissionRowsChanged": false,
+  "formalCoverageAdded": 0,
+  "operations": {
+    "assess": {
+      "stageValues": [
+        "pool",
+        "required",
+        "local",
+        "ai",
+        "save",
+        "restore"
+      ],
+      "returns": {
+        "discriminator": "status",
+        "enum": [
+          "eligible",
+          "needs-theme",
+          "pending-source-identity",
+          "manual-only",
+          "not-admitted",
+          "reading-mismatch",
+          "candidate-scope-mismatch",
+          "source-unavailable",
+          "rejected-integrity",
+          "condition-not-supported",
+          "blocked-existing-constraints"
+        ]
+      },
+      "neverReturns": [
+        "reject-semantic-credit",
+        "reject-unreviewed-claim",
+        "preserve-legacy"
+      ]
+    },
+    "output-assertion": {
+      "stageValues": [
+        "local",
+        "ai"
+      ],
+      "returns": {
+        "discriminator": "assertionKind",
+        "enum": [
+          null,
+          "reject-semantic-credit",
+          "reject-unreviewed-claim"
+        ],
+        "success": {
+          "ok": true,
+          "assertionKind": null
+        },
+        "failure": {
+          "ok": false,
+          "assertionKind": "reject-semantic-credit|reject-unreviewed-claim"
+        }
+      },
+      "purpose": "inspect candidate output; a rejected output is not a new eligibility status"
+    },
+    "legacy-replay": {
+      "stageValues": [
+        "restore"
+      ],
+      "returns": {
+        "discriminator": "assertionKind",
+        "enum": [
+          "preserve-legacy"
+        ]
+      },
+      "purpose": "legacy7.1 remains byte-equivalent and has no new receipt; do not route to v72 assess"
+    }
+  },
+  "validationOrder": [
+    "plain context schema incl. valid theme enum and exact known caseId",
+    "trusted source/identity checks; if a receipt is supplied or required by receipt-validation, validate it",
+    "decision pending/manual/reject",
+    "exact selected reading/sense/name-part/length",
+    "theme constraints",
+    "existing hard candidate constraints"
+  ],
+  "assessScopes": {
+    "qualification": "Run the same eligibility policy at all six caller stages, before attempting receipt issue. Pending and no-theme cases need no successful receipt. These tests do not perform actual persistence.",
+    "receipt-validation": "Actual eligible producer receipt is required. Tampered context/reading/sense/name/position is rejected-integrity, never needs-theme. Actual save/restore success requires this check in addition to qualification."
+  },
+  "leafRule": {
+    "validCaseId": "single-meaning-m740:叶:124301:0:0",
+    "themeIds": [],
+    "allValidStages": "pending-source-identity",
+    "invalidThemeOrCaseId": "rejected-integrity",
+    "requiresTheme": false
+  },
+  "fixturePolicy": {
+    "baselineFile": "acceptance-cases.json#/baselines",
+    "baselineResolution": "recordRef resolves exact pinned M752 row; entryRef resolves M740 baselineCharacter by candidateCaseId; resource handle is actual fixed loader result, not a constructed object",
+    "patchMerge": "shallow top-level context field replacement; arrays fully replaced; null is literal and not deletion; absent preserves baseline; no implicit deletion or source mutation; fixtures explicitly update givenName/fullName when length/surname changes",
+    "faultInjection": "harness-only alteration of source reads or receipt after obtaining actual trusted baseline; never expose as app API",
+    "trustedHandle": "M751 fixed loader must create actual verified handle; string labels confer no authority",
+    "saveRestore": "qualification-only stage templates are NOT storage success; actual save/restore needs eligible producer receipt and receipt-validation; missing legacy runtime receipt means not-executed",
+    "assertedCountsAreExpectations": true,
+    "productTestsExecuted": false
+  },
+  "auditIssuesAddressed": [
+    "M762-P2-LEAF-STAGE-CONTRADICTION",
+    "M762-P2-ASSERTION-DISPATCH",
+    "M762-P3-CONFLICT-CONTRACT"
+  ]
+}

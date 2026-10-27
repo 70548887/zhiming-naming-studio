@@ -1,0 +1,2901 @@
+{
+  "schema": "M752-acceptance-cases/2",
+  "revision": "r2",
+  "baselines": [
+    {
+      "id": "baseline:single-meaning-m740:邦:143600:0:1",
+      "recordRef": "m740-generation-admission.json#/records/0",
+      "verifiedPublicationRef": "fixed-source-loader-result",
+      "recordId": "single-meaning-m740:邦:143600:0:1",
+      "entryRef": "exact-baseline-record-from-M740",
+      "context": {
+        "candidateId": "m752-r2-case-0",
+        "namePart": "given-name",
+        "selectedPinyin": "bāng",
+        "tone": 1,
+        "senseId": "moe-revised:143600:0:1",
+        "themeIds": [
+          "civic-homeland"
+        ],
+        "requestedGivenNameLength": 1,
+        "surname": "林",
+        "givenName": "邦",
+        "fullName": "林邦",
+        "position": 0
+      },
+      "receiptPreparation": "Qualification-only assess needs no receipt and can return pending/needs-theme at every caller stage. Receipt-validation cases require an actual eligible producer receipt; a pending row can never supply one. Actual storage/restore success additionally requires the receipt-validation gate."
+    },
+    {
+      "id": "baseline:single-meaning-m740:沫:83904:0:0",
+      "recordRef": "m740-generation-admission.json#/records/1",
+      "verifiedPublicationRef": "fixed-source-loader-result",
+      "recordId": "single-meaning-m740:沫:83904:0:0",
+      "entryRef": "exact-baseline-record-from-M740",
+      "context": {
+        "candidateId": "m752-r2-case-1",
+        "namePart": "given-name",
+        "selectedPinyin": "mò",
+        "tone": 4,
+        "senseId": "moe-revised:83904:0:0",
+        "themeIds": [
+          "water-bubbles"
+        ],
+        "requestedGivenNameLength": 1,
+        "surname": "林",
+        "givenName": "沫",
+        "fullName": "林沫",
+        "position": 0
+      },
+      "receiptPreparation": "Qualification-only assess needs no receipt and can return pending/needs-theme at every caller stage. Receipt-validation cases require an actual eligible producer receipt; a pending row can never supply one. Actual storage/restore success additionally requires the receipt-validation gate."
+    },
+    {
+      "id": "baseline:single-meaning-m740:纪:111076:0:0",
+      "recordRef": "m740-generation-admission.json#/records/2",
+      "verifiedPublicationRef": "fixed-source-loader-result",
+      "recordId": "single-meaning-m740:纪:111076:0:0",
+      "entryRef": "exact-baseline-record-from-M740",
+      "context": {
+        "candidateId": "m752-r2-case-2",
+        "namePart": "given-name",
+        "selectedPinyin": "jì",
+        "tone": 4,
+        "senseId": "moe-revised:111076:0:0",
+        "themeIds": [],
+        "requestedGivenNameLength": 1,
+        "surname": "林",
+        "givenName": "纪",
+        "fullName": "林纪",
+        "position": 0
+      },
+      "receiptPreparation": "Qualification-only assess needs no receipt and can return pending/needs-theme at every caller stage. Receipt-validation cases require an actual eligible producer receipt; a pending row can never supply one. Actual storage/restore success additionally requires the receipt-validation gate."
+    },
+    {
+      "id": "baseline:single-meaning-m740:纶:113321:0:0",
+      "recordRef": "m740-generation-admission.json#/records/3",
+      "verifiedPublicationRef": "fixed-source-loader-result",
+      "recordId": "single-meaning-m740:纶:113321:0:0",
+      "entryRef": "exact-baseline-record-from-M740",
+      "context": {
+        "candidateId": "m752-r2-case-3",
+        "namePart": "given-name",
+        "selectedPinyin": "lún",
+        "tone": 2,
+        "senseId": "moe-revised:113321:0:0",
+        "themeIds": [
+          "textile-ribbon"
+        ],
+        "requestedGivenNameLength": 2,
+        "surname": "林",
+        "givenName": "纶年",
+        "fullName": "林纶年",
+        "position": 0
+      },
+      "receiptPreparation": "Qualification-only assess needs no receipt and can return pending/needs-theme at every caller stage. Receipt-validation cases require an actual eligible producer receipt; a pending row can never supply one. Actual storage/restore success additionally requires the receipt-validation gate."
+    },
+    {
+      "id": "baseline:single-meaning-m740:年:49288:0:0",
+      "recordRef": "m740-generation-admission.json#/records/4",
+      "verifiedPublicationRef": "fixed-source-loader-result",
+      "recordId": "single-meaning-m740:年:49288:0:0",
+      "entryRef": "exact-baseline-record-from-M740",
+      "context": {
+        "candidateId": "m752-r2-case-4",
+        "namePart": "given-name",
+        "selectedPinyin": "nián",
+        "tone": 2,
+        "senseId": "moe-revised:49288:0:0",
+        "themeIds": [],
+        "requestedGivenNameLength": 1,
+        "surname": "林",
+        "givenName": "年",
+        "fullName": "林年",
+        "position": 0
+      },
+      "receiptPreparation": "Qualification-only assess needs no receipt and can return pending/needs-theme at every caller stage. Receipt-validation cases require an actual eligible producer receipt; a pending row can never supply one. Actual storage/restore success additionally requires the receipt-validation gate."
+    },
+    {
+      "id": "baseline:single-meaning-m740:农:140081:0:2",
+      "recordRef": "m740-generation-admission.json#/records/5",
+      "verifiedPublicationRef": "fixed-source-loader-result",
+      "recordId": "single-meaning-m740:农:140081:0:2",
+      "entryRef": "exact-baseline-record-from-M740",
+      "context": {
+        "candidateId": "m752-r2-case-5",
+        "namePart": "given-name",
+        "selectedPinyin": "nóng",
+        "tone": 2,
+        "senseId": "moe-revised:140081:0:2",
+        "themeIds": [
+          "agriculture"
+        ],
+        "requestedGivenNameLength": 1,
+        "surname": "林",
+        "givenName": "农",
+        "fullName": "林农",
+        "position": 0
+      },
+      "receiptPreparation": "Qualification-only assess needs no receipt and can return pending/needs-theme at every caller stage. Receipt-validation cases require an actual eligible producer receipt; a pending row can never supply one. Actual storage/restore success additionally requires the receipt-validation gate."
+    },
+    {
+      "id": "baseline:single-meaning-m740:作:10964:0:10",
+      "recordRef": "m740-generation-admission.json#/records/6",
+      "verifiedPublicationRef": "fixed-source-loader-result",
+      "recordId": "single-meaning-m740:作:10964:0:10",
+      "entryRef": "exact-baseline-record-from-M740",
+      "context": {
+        "candidateId": "m752-r2-case-6",
+        "namePart": "given-name",
+        "selectedPinyin": "zuò",
+        "tone": 4,
+        "senseId": "moe-revised:10964:0:10",
+        "themeIds": [
+          "literary-artwork"
+        ],
+        "requestedGivenNameLength": 2,
+        "surname": "林",
+        "givenName": "作年",
+        "fullName": "林作年",
+        "position": 0
+      },
+      "receiptPreparation": "Qualification-only assess needs no receipt and can return pending/needs-theme at every caller stage. Receipt-validation cases require an actual eligible producer receipt; a pending row can never supply one. Actual storage/restore success additionally requires the receipt-validation gate."
+    },
+    {
+      "id": "baseline:single-meaning-m740:岁:80142:0:1",
+      "recordRef": "m740-generation-admission.json#/records/7",
+      "verifiedPublicationRef": "fixed-source-loader-result",
+      "recordId": "single-meaning-m740:岁:80142:0:1",
+      "entryRef": "exact-baseline-record-from-M740",
+      "context": {
+        "candidateId": "m752-r2-case-7",
+        "namePart": "given-name",
+        "selectedPinyin": "suì",
+        "tone": 4,
+        "senseId": "moe-revised:80142:0:1",
+        "themeIds": [],
+        "requestedGivenNameLength": 1,
+        "surname": "林",
+        "givenName": "岁",
+        "fullName": "林岁",
+        "position": 0
+      },
+      "receiptPreparation": "Qualification-only assess needs no receipt and can return pending/needs-theme at every caller stage. Receipt-validation cases require an actual eligible producer receipt; a pending row can never supply one. Actual storage/restore success additionally requires the receipt-validation gate."
+    },
+    {
+      "id": "baseline:single-meaning-m740:叶:124301:0:0",
+      "recordRef": "m740-generation-admission.json#/records/8",
+      "verifiedPublicationRef": "fixed-source-loader-result",
+      "recordId": "single-meaning-m740:叶:124301:0:0",
+      "entryRef": "exact-baseline-record-from-M740",
+      "context": {
+        "candidateId": "m752-r2-case-8",
+        "namePart": "given-name",
+        "selectedPinyin": "yè",
+        "tone": 4,
+        "senseId": "moe-revised:124301:0:0",
+        "themeIds": [],
+        "requestedGivenNameLength": 2,
+        "surname": "林",
+        "givenName": "叶年",
+        "fullName": "林叶年",
+        "position": 0
+      },
+      "receiptPreparation": "Qualification-only assess needs no receipt and can return pending/needs-theme at every caller stage. Receipt-validation cases require an actual eligible producer receipt; a pending row can never supply one. Actual storage/restore success additionally requires the receipt-validation gate."
+    },
+    {
+      "id": "baseline:single-meaning-m740:萧:125387:0:0",
+      "recordRef": "m740-generation-admission.json#/records/9",
+      "verifiedPublicationRef": "fixed-source-loader-result",
+      "recordId": "single-meaning-m740:萧:125387:0:0",
+      "entryRef": "exact-baseline-record-from-M740",
+      "context": {
+        "candidateId": "m752-r2-case-9",
+        "namePart": "given-name",
+        "selectedPinyin": "xiāo",
+        "tone": 1,
+        "senseId": "moe-revised:125387:0:0",
+        "themeIds": [
+          "herb-plant"
+        ],
+        "requestedGivenNameLength": 2,
+        "surname": "林",
+        "givenName": "萧年",
+        "fullName": "林萧年",
+        "position": 0
+      },
+      "receiptPreparation": "Qualification-only assess needs no receipt and can return pending/needs-theme at every caller stage. Receipt-validation cases require an actual eligible producer receipt; a pending row can never supply one. Actual storage/restore success additionally requires the receipt-validation gate."
+    }
+  ],
+  "dependencies": {
+    "legacyReplay": {
+      "status": "depends-on-M751-actual-replay",
+      "input": {
+        "path": "D:/Codex-NamingStudio-Evidence/m751-meaning-admission/tests/fixtures/naming71-accepted40.json",
+        "sha256": "58a6d9d57f672a9da46ea5f6f55f9c6f54caab613677105942702b386a8aed3c",
+        "kind": "fixed40-golden-input-not-full-NameCandidate"
+      },
+      "method": "M751 actual fixed loader -> evaluateNameForRuleVersionWithContext(7.0) -> finalize(7.1); generate 南安/南木 and compare before/after JSON bytes plus receipt; separate runtime receipt required",
+      "executedHere": false
+    }
+  },
+  "fixtures": [
+    {
+      "id": "ROW-邦",
+      "action": "assess",
+      "baselineRef": "baseline:single-meaning-m740:邦:143600:0:1",
+      "description": "固定义项及M752范围",
+      "productExecution": "not-run",
+      "assessmentScope": "qualification",
+      "stage": "local",
+      "inputPatch": {
+        "selectedPinyin": "bāng",
+        "tone": 1,
+        "namePart": "given-name",
+        "themeIds": [
+          "civic-homeland"
+        ],
+        "requestedGivenNameLength": 1,
+        "givenName": "邦",
+        "fullName": "林邦"
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      }
+    },
+    {
+      "id": "ROW-沫",
+      "action": "assess",
+      "baselineRef": "baseline:single-meaning-m740:沫:83904:0:0",
+      "description": "固定义项及M752范围",
+      "productExecution": "not-run",
+      "assessmentScope": "qualification",
+      "stage": "local",
+      "inputPatch": {
+        "selectedPinyin": "mò",
+        "tone": 4,
+        "namePart": "given-name",
+        "themeIds": [
+          "water-bubbles"
+        ],
+        "requestedGivenNameLength": 1,
+        "givenName": "沫",
+        "fullName": "林沫"
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      }
+    },
+    {
+      "id": "ROW-纪",
+      "action": "assess",
+      "baselineRef": "baseline:single-meaning-m740:纪:111076:0:0",
+      "description": "固定义项及M752范围",
+      "productExecution": "not-run",
+      "assessmentScope": "qualification",
+      "stage": "local",
+      "inputPatch": {
+        "selectedPinyin": "jì",
+        "tone": 4,
+        "namePart": "given-name",
+        "themeIds": [],
+        "requestedGivenNameLength": 1,
+        "givenName": "纪",
+        "fullName": "林纪"
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      }
+    },
+    {
+      "id": "ROW-纶",
+      "action": "assess",
+      "baselineRef": "baseline:single-meaning-m740:纶:113321:0:0",
+      "description": "固定义项及M752范围",
+      "productExecution": "not-run",
+      "assessmentScope": "qualification",
+      "stage": "local",
+      "inputPatch": {
+        "selectedPinyin": "lún",
+        "tone": 2,
+        "namePart": "given-name",
+        "themeIds": [
+          "textile-ribbon"
+        ],
+        "requestedGivenNameLength": 2,
+        "givenName": "纶年",
+        "fullName": "林纶年"
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      }
+    },
+    {
+      "id": "ROW-年",
+      "action": "assess",
+      "baselineRef": "baseline:single-meaning-m740:年:49288:0:0",
+      "description": "固定义项及M752范围",
+      "productExecution": "not-run",
+      "assessmentScope": "qualification",
+      "stage": "local",
+      "inputPatch": {
+        "selectedPinyin": "nián",
+        "tone": 2,
+        "namePart": "given-name",
+        "themeIds": [],
+        "requestedGivenNameLength": 1,
+        "givenName": "年",
+        "fullName": "林年"
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      }
+    },
+    {
+      "id": "ROW-农",
+      "action": "assess",
+      "baselineRef": "baseline:single-meaning-m740:农:140081:0:2",
+      "description": "固定义项及M752范围",
+      "productExecution": "not-run",
+      "assessmentScope": "qualification",
+      "stage": "local",
+      "inputPatch": {
+        "selectedPinyin": "nóng",
+        "tone": 2,
+        "namePart": "given-name",
+        "themeIds": [
+          "agriculture"
+        ],
+        "requestedGivenNameLength": 1,
+        "givenName": "农",
+        "fullName": "林农"
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      }
+    },
+    {
+      "id": "ROW-作",
+      "action": "assess",
+      "baselineRef": "baseline:single-meaning-m740:作:10964:0:10",
+      "description": "固定义项及M752范围",
+      "productExecution": "not-run",
+      "assessmentScope": "qualification",
+      "stage": "local",
+      "inputPatch": {
+        "selectedPinyin": "zuò",
+        "tone": 4,
+        "namePart": "given-name",
+        "themeIds": [
+          "literary-artwork"
+        ],
+        "requestedGivenNameLength": 2,
+        "givenName": "作年",
+        "fullName": "林作年"
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      }
+    },
+    {
+      "id": "ROW-岁",
+      "action": "assess",
+      "baselineRef": "baseline:single-meaning-m740:岁:80142:0:1",
+      "description": "固定义项及M752范围",
+      "productExecution": "not-run",
+      "assessmentScope": "qualification",
+      "stage": "local",
+      "inputPatch": {
+        "selectedPinyin": "suì",
+        "tone": 4,
+        "namePart": "given-name",
+        "themeIds": [],
+        "requestedGivenNameLength": 1,
+        "givenName": "岁",
+        "fullName": "林岁"
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      }
+    },
+    {
+      "id": "ROW-叶",
+      "action": "assess",
+      "baselineRef": "baseline:single-meaning-m740:叶:124301:0:0",
+      "description": "固定义项及M752范围",
+      "productExecution": "not-run",
+      "assessmentScope": "qualification",
+      "stage": "local",
+      "inputPatch": {
+        "selectedPinyin": "yè",
+        "tone": 4,
+        "namePart": "given-name",
+        "themeIds": [],
+        "requestedGivenNameLength": 2,
+        "givenName": "叶年",
+        "fullName": "林叶年"
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "pending-source-identity"
+      }
+    },
+    {
+      "id": "ROW-萧",
+      "action": "assess",
+      "baselineRef": "baseline:single-meaning-m740:萧:125387:0:0",
+      "description": "固定义项及M752范围",
+      "productExecution": "not-run",
+      "assessmentScope": "qualification",
+      "stage": "local",
+      "inputPatch": {
+        "selectedPinyin": "xiāo",
+        "tone": 1,
+        "namePart": "given-name",
+        "themeIds": [
+          "herb-plant"
+        ],
+        "requestedGivenNameLength": 2,
+        "givenName": "萧年",
+        "fullName": "林萧年"
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      }
+    },
+    {
+      "id": "NO-THEME-邦",
+      "action": "assess",
+      "baselineRef": "baseline:single-meaning-m740:邦:143600:0:1",
+      "description": "字典有此义不等于默认采用该文化主题",
+      "productExecution": "not-run",
+      "assessmentScope": "qualification",
+      "stage": "local",
+      "inputPatch": {
+        "selectedPinyin": "bāng",
+        "themeIds": [],
+        "requestedGivenNameLength": 2,
+        "givenName": "邦年",
+        "fullName": "林邦年"
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "needs-theme"
+      }
+    },
+    {
+      "id": "NO-THEME-沫",
+      "action": "assess",
+      "baselineRef": "baseline:single-meaning-m740:沫:83904:0:0",
+      "description": "字典有此义不等于默认采用该文化主题",
+      "productExecution": "not-run",
+      "assessmentScope": "qualification",
+      "stage": "local",
+      "inputPatch": {
+        "selectedPinyin": "mò",
+        "themeIds": [],
+        "requestedGivenNameLength": 2,
+        "givenName": "沫年",
+        "fullName": "林沫年"
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "needs-theme"
+      }
+    },
+    {
+      "id": "NO-THEME-纶",
+      "action": "assess",
+      "baselineRef": "baseline:single-meaning-m740:纶:113321:0:0",
+      "description": "字典有此义不等于默认采用该文化主题",
+      "productExecution": "not-run",
+      "assessmentScope": "qualification",
+      "stage": "local",
+      "inputPatch": {
+        "selectedPinyin": "lún",
+        "themeIds": [],
+        "requestedGivenNameLength": 2,
+        "givenName": "纶年",
+        "fullName": "林纶年"
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "needs-theme"
+      }
+    },
+    {
+      "id": "NO-THEME-农",
+      "action": "assess",
+      "baselineRef": "baseline:single-meaning-m740:农:140081:0:2",
+      "description": "字典有此义不等于默认采用该文化主题",
+      "productExecution": "not-run",
+      "assessmentScope": "qualification",
+      "stage": "local",
+      "inputPatch": {
+        "selectedPinyin": "nóng",
+        "themeIds": [],
+        "requestedGivenNameLength": 2,
+        "givenName": "农年",
+        "fullName": "林农年"
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "needs-theme"
+      }
+    },
+    {
+      "id": "NO-THEME-作",
+      "action": "assess",
+      "baselineRef": "baseline:single-meaning-m740:作:10964:0:10",
+      "description": "字典有此义不等于默认采用该文化主题",
+      "productExecution": "not-run",
+      "assessmentScope": "qualification",
+      "stage": "local",
+      "inputPatch": {
+        "selectedPinyin": "zuò",
+        "themeIds": [],
+        "requestedGivenNameLength": 2,
+        "givenName": "作年",
+        "fullName": "林作年"
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "needs-theme"
+      }
+    },
+    {
+      "id": "NO-THEME-萧",
+      "action": "assess",
+      "baselineRef": "baseline:single-meaning-m740:萧:125387:0:0",
+      "description": "字典有此义不等于默认采用该文化主题",
+      "productExecution": "not-run",
+      "assessmentScope": "qualification",
+      "stage": "local",
+      "inputPatch": {
+        "selectedPinyin": "xiāo",
+        "themeIds": [],
+        "requestedGivenNameLength": 2,
+        "givenName": "萧年",
+        "fullName": "林萧年"
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "needs-theme"
+      }
+    },
+    {
+      "id": "FREE-TEXT",
+      "action": "assess",
+      "baselineRef": "baseline:single-meaning-m740:邦:143600:0:1",
+      "description": "不从自由文本猜已选择的枚举",
+      "productExecution": "not-run",
+      "assessmentScope": "qualification",
+      "stage": "local",
+      "inputPatch": {
+        "themeIds": [],
+        "freeText": "喜欢自然与家国"
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "needs-theme"
+      }
+    },
+    {
+      "id": "FAMILY-PROFESSION",
+      "action": "assess",
+      "baselineRef": "baseline:single-meaning-m740:农:140081:0:2",
+      "description": "行业事实不自动变为命名主题选择",
+      "productExecution": "not-run",
+      "assessmentScope": "qualification",
+      "stage": "local",
+      "inputPatch": {
+        "themeIds": [],
+        "familyIndustry": "农业"
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "needs-theme"
+      }
+    },
+    {
+      "id": "MISSING-SIGNATURE",
+      "action": "assess",
+      "baselineRef": "baseline:single-meaning-m740:年:49288:0:0",
+      "description": "周期单字取意无需逐家庭签字或整名断语",
+      "productExecution": "not-run",
+      "assessmentScope": "qualification",
+      "stage": "local",
+      "inputPatch": {
+        "selectedPinyin": "nián",
+        "themeIds": [],
+        "familySignature": null,
+        "requestedGivenNameLength": 1,
+        "givenName": "年",
+        "fullName": "林年"
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      }
+    },
+    {
+      "id": "NO-MEMORIAL",
+      "action": "assess",
+      "baselineRef": "baseline:single-meaning-m740:岁:80142:0:1",
+      "description": "时光意象不自动声称纪念具体事件",
+      "productExecution": "not-run",
+      "assessmentScope": "qualification",
+      "stage": "local",
+      "inputPatch": {
+        "selectedPinyin": "suì",
+        "themeIds": [],
+        "memorialEvent": null,
+        "requestedGivenNameLength": 2,
+        "givenName": "岁年",
+        "fullName": "林岁年"
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      }
+    },
+    {
+      "id": "JI-READING",
+      "action": "assess",
+      "baselineRef": "baseline:single-meaning-m740:纪:111076:0:0",
+      "description": "给名字义不借姓氏或又音",
+      "productExecution": "not-run",
+      "assessmentScope": "qualification",
+      "stage": "local",
+      "inputPatch": {
+        "selectedPinyin": "jǐ"
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "reading-mismatch"
+      }
+    },
+    {
+      "id": "LUN-READING",
+      "action": "assess",
+      "baselineRef": "baseline:single-meaning-m740:纶:113321:0:0",
+      "description": "guān不可借lún丝带义",
+      "productExecution": "not-run",
+      "assessmentScope": "qualification",
+      "stage": "local",
+      "inputPatch": {
+        "selectedPinyin": "guān",
+        "themeIds": [
+          "textile-ribbon"
+        ]
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "reading-mismatch"
+      }
+    },
+    {
+      "id": "ZUO-READING",
+      "action": "assess",
+      "baselineRef": "baseline:single-meaning-m740:作:10964:0:10",
+      "description": "非默认读音不能借作品名词义",
+      "productExecution": "not-run",
+      "assessmentScope": "qualification",
+      "stage": "local",
+      "inputPatch": {
+        "selectedPinyin": "zuō",
+        "themeIds": [
+          "literary-artwork"
+        ]
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "reading-mismatch"
+      }
+    },
+    {
+      "id": "ONE-CHAR-纶",
+      "action": "assess",
+      "baselineRef": "baseline:single-meaning-m740:纶:113321:0:0",
+      "description": "本次只批准两字给名的此字位用法",
+      "productExecution": "not-run",
+      "assessmentScope": "qualification",
+      "stage": "local",
+      "inputPatch": {
+        "themeIds": [
+          "textile-ribbon"
+        ],
+        "requestedGivenNameLength": 1,
+        "givenName": "纶",
+        "fullName": "林纶"
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "candidate-scope-mismatch"
+      }
+    },
+    {
+      "id": "ONE-CHAR-作",
+      "action": "assess",
+      "baselineRef": "baseline:single-meaning-m740:作:10964:0:10",
+      "description": "本次只批准两字给名的此字位用法",
+      "productExecution": "not-run",
+      "assessmentScope": "qualification",
+      "stage": "local",
+      "inputPatch": {
+        "themeIds": [
+          "literary-artwork"
+        ],
+        "requestedGivenNameLength": 1,
+        "givenName": "作",
+        "fullName": "林作"
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "candidate-scope-mismatch"
+      }
+    },
+    {
+      "id": "ONE-CHAR-萧",
+      "action": "assess",
+      "baselineRef": "baseline:single-meaning-m740:萧:125387:0:0",
+      "description": "本次只批准两字给名的此字位用法",
+      "productExecution": "not-run",
+      "assessmentScope": "qualification",
+      "stage": "local",
+      "inputPatch": {
+        "themeIds": [
+          "herb-plant"
+        ],
+        "requestedGivenNameLength": 1,
+        "givenName": "萧",
+        "fullName": "林萧"
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "candidate-scope-mismatch"
+      }
+    },
+    {
+      "id": "OLD-SENSE",
+      "action": "assess",
+      "baselineRef": "baseline:single-meaning-m740:纪:111076:0:0",
+      "description": "旧法度义不能套新def0许可",
+      "productExecution": "not-run",
+      "assessmentScope": "qualification",
+      "stage": "local",
+      "inputPatch": {},
+      "faultInjection": {
+        "rawDefinitionIndex": 1
+      },
+      "expected": {
+        "status": "rejected-integrity"
+      }
+    },
+    {
+      "id": "NEW-SENSE",
+      "action": "assess",
+      "baselineRef": "baseline:single-meaning-m740:农:140081:0:2",
+      "description": "不能套用历史勤勉义许可",
+      "productExecution": "not-run",
+      "assessmentScope": "qualification",
+      "stage": "local",
+      "inputPatch": {
+        "themeIds": [
+          "agriculture"
+        ]
+      },
+      "faultInjection": {
+        "rawDefinitionIndex": 1
+      },
+      "expected": {
+        "status": "rejected-integrity"
+      }
+    },
+    {
+      "id": "FORCE-YE",
+      "action": "assess",
+      "baselineRef": "baseline:single-meaning-m740:叶:124301:0:0",
+      "description": "必用字、签字、主题均不能解除来源身份待定",
+      "productExecution": "not-run",
+      "assessmentScope": "qualification",
+      "stage": "required",
+      "inputPatch": {
+        "themeIds": [
+          "herb-plant"
+        ],
+        "requiredChars": "叶",
+        "familySignature": "已同意"
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "pending-source-identity"
+      }
+    },
+    {
+      "id": "SURNAME-YE",
+      "action": "assess",
+      "baselineRef": "baseline:single-meaning-m740:年:49288:0:0",
+      "description": "叶姓不消费给名叶的待审规则；全名音韵另按现有规则",
+      "productExecution": "not-run",
+      "assessmentScope": "qualification",
+      "stage": "local",
+      "inputPatch": {
+        "selectedPinyin": "nián",
+        "themeIds": [],
+        "surname": "叶",
+        "givenName": "年",
+        "requestedGivenNameLength": 1,
+        "fullName": "叶年"
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      }
+    },
+    {
+      "id": "missing-source",
+      "action": "assess",
+      "baselineRef": "baseline:single-meaning-m740:岁:80142:0:1",
+      "description": "禁止自签来源、调用者声明和缺失回退",
+      "productExecution": "not-run",
+      "assessmentScope": "qualification",
+      "stage": "local",
+      "inputPatch": {},
+      "faultInjection": {
+        "source": "missing-source"
+      },
+      "expected": {
+        "status": "source-unavailable"
+      }
+    },
+    {
+      "id": "tampered-source",
+      "action": "assess",
+      "baselineRef": "baseline:single-meaning-m740:岁:80142:0:1",
+      "description": "禁止自签来源、调用者声明和缺失回退",
+      "productExecution": "not-run",
+      "assessmentScope": "qualification",
+      "stage": "local",
+      "inputPatch": {},
+      "faultInjection": {
+        "source": "tampered-source"
+      },
+      "expected": {
+        "status": "rejected-integrity"
+      }
+    },
+    {
+      "id": "tampered-project",
+      "action": "assess",
+      "baselineRef": "baseline:single-meaning-m740:岁:80142:0:1",
+      "description": "禁止自签来源、调用者声明和缺失回退",
+      "productExecution": "not-run",
+      "assessmentScope": "qualification",
+      "stage": "local",
+      "inputPatch": {},
+      "faultInjection": {
+        "source": "tampered-project"
+      },
+      "expected": {
+        "status": "rejected-integrity"
+      }
+    },
+    {
+      "id": "tampered-context",
+      "action": "assess",
+      "baselineRef": "baseline:single-meaning-m740:岁:80142:0:1",
+      "description": "禁止自签来源、调用者声明和缺失回退",
+      "productExecution": "not-run",
+      "assessmentScope": "qualification",
+      "stage": "local",
+      "inputPatch": {},
+      "faultInjection": {
+        "source": "tampered-context"
+      },
+      "expected": {
+        "status": "rejected-integrity"
+      }
+    },
+    {
+      "id": "forged-reviewed-boolean",
+      "action": "assess",
+      "baselineRef": "baseline:single-meaning-m740:岁:80142:0:1",
+      "description": "禁止自签来源、调用者声明和缺失回退",
+      "productExecution": "not-run",
+      "assessmentScope": "qualification",
+      "stage": "local",
+      "inputPatch": {},
+      "faultInjection": {
+        "source": "forged-reviewed-boolean"
+      },
+      "expected": {
+        "status": "rejected-integrity"
+      }
+    },
+    {
+      "id": "changed-baseline-readings",
+      "action": "assess",
+      "baselineRef": "baseline:single-meaning-m740:岁:80142:0:1",
+      "description": "禁止自签来源、调用者声明和缺失回退",
+      "productExecution": "not-run",
+      "assessmentScope": "qualification",
+      "stage": "local",
+      "inputPatch": {},
+      "faultInjection": {
+        "source": "changed-baseline-readings"
+      },
+      "expected": {
+        "status": "rejected-integrity"
+      }
+    },
+    {
+      "id": "NO-BONUS",
+      "action": "output-assertion",
+      "baselineRef": "baseline:single-meaning-m740:纪:111076:0:0",
+      "description": "许可是布尔资格，不是新分数",
+      "productExecution": "not-run",
+      "stage": "local",
+      "candidateOutputPatch": {
+        "scoreDelta": 10
+      },
+      "expected": {
+        "assertionKind": "reject-semantic-credit",
+        "ok": false
+      },
+      "prerequisite": "Assess result may be eligible; these assertions inspect output and never add assess statuses."
+    },
+    {
+      "id": "FULL-NAME-CLAIM",
+      "action": "output-assertion",
+      "baselineRef": "baseline:single-meaning-m740:年:49288:0:0",
+      "description": "即使逐字eligible，整名人格运势断语仍拒绝",
+      "productExecution": "not-run",
+      "stage": "local",
+      "candidateOutputPatch": {
+        "wholeNameMeaning": "孩子必定长寿"
+      },
+      "expected": {
+        "assertionKind": "reject-unreviewed-claim",
+        "ok": false
+      },
+      "prerequisite": "Assess result may be eligible; these assertions inspect output and never add assess statuses."
+    },
+    {
+      "id": "PAST-SNAPSHOT",
+      "action": "legacy-replay",
+      "baselineRef": "baseline:single-meaning-m740:岁:80142:0:1",
+      "description": "不回填新receipt、不改旧文本分数",
+      "productExecution": "not-run",
+      "stage": "restore",
+      "legacyFixtureRef": "dependencies.legacyReplay",
+      "dependencyStatus": "depends-on-M751-actual-replay",
+      "mutation": {
+        "admissionRecordWouldNowBeAvailable": true
+      },
+      "expected": {
+        "assertionKind": "preserve-legacy",
+        "ok": true,
+        "oldBytesUnchanged": true,
+        "noNewReceipt": true
+      }
+    },
+    {
+      "id": "AI-CLAIM",
+      "action": "assess",
+      "baselineRef": "baseline:single-meaning-m740:萧:125387:0:0",
+      "description": "AI不能授予证据身份",
+      "productExecution": "not-run",
+      "assessmentScope": "qualification",
+      "stage": "ai",
+      "inputPatch": {
+        "themeIds": [
+          "herb-plant"
+        ],
+        "requestedGivenNameLength": 2,
+        "givenName": "萧年",
+        "fullName": "林萧年"
+      },
+      "faultInjection": {
+        "source": "unverified",
+        "callerApproved": true
+      },
+      "expected": {
+        "status": "rejected-integrity"
+      }
+    },
+    {
+      "id": "BLOCKED-PARENT",
+      "action": "assess",
+      "baselineRef": "baseline:single-meaning-m740:纪:111076:0:0",
+      "description": "新单字许可不越过父母避讳",
+      "productExecution": "not-run",
+      "assessmentScope": "qualification",
+      "stage": "local",
+      "inputPatch": {
+        "existingParentAvoidanceHit": true
+      },
+      "faultInjection": {
+        "existingConstraintResult": "blocked"
+      },
+      "expected": {
+        "status": "blocked-existing-constraints"
+      }
+    },
+    {
+      "id": "WHOLE-NAME-NOT-REVIEWED",
+      "action": "assess",
+      "baselineRef": "baseline:single-meaning-m740:纪:111076:0:0",
+      "description": "无需对未来每个组合人工签字才能选已审单字",
+      "productExecution": "not-run",
+      "assessmentScope": "qualification",
+      "stage": "local",
+      "inputPatch": {
+        "selectedPinyin": "jì",
+        "themeIds": [],
+        "wholeNameReview": null,
+        "requestedGivenNameLength": 2,
+        "givenName": "纪年",
+        "fullName": "林纪年"
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      }
+    },
+    {
+      "id": "OUTPUT-VALID",
+      "action": "output-assertion",
+      "stage": "local",
+      "baselineRef": "baseline:single-meaning-m740:纪:111076:0:0",
+      "candidateOutputPatch": {
+        "scoreDelta": 0,
+        "wholeNameMeaning": null,
+        "projectTextRef": "admitted-record-exact-project-text"
+      },
+      "expected": {
+        "assertionKind": null,
+        "ok": true
+      },
+      "productExecution": "not-run"
+    }
+  ],
+  "stageAssertions": [
+    {
+      "id": "STAGE-邦-pool",
+      "action": "assess",
+      "stage": "pool",
+      "baselineRef": "baseline:single-meaning-m740:邦:143600:0:1",
+      "inputPatch": {},
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-邦-pool-no-theme",
+      "action": "assess",
+      "stage": "pool",
+      "baselineRef": "baseline:single-meaning-m740:邦:143600:0:1",
+      "inputPatch": {
+        "themeIds": []
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "needs-theme"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-邦-required",
+      "action": "assess",
+      "stage": "required",
+      "baselineRef": "baseline:single-meaning-m740:邦:143600:0:1",
+      "inputPatch": {},
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-邦-required-no-theme",
+      "action": "assess",
+      "stage": "required",
+      "baselineRef": "baseline:single-meaning-m740:邦:143600:0:1",
+      "inputPatch": {
+        "themeIds": []
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "needs-theme"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-邦-local",
+      "action": "assess",
+      "stage": "local",
+      "baselineRef": "baseline:single-meaning-m740:邦:143600:0:1",
+      "inputPatch": {},
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-邦-local-no-theme",
+      "action": "assess",
+      "stage": "local",
+      "baselineRef": "baseline:single-meaning-m740:邦:143600:0:1",
+      "inputPatch": {
+        "themeIds": []
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "needs-theme"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-邦-ai",
+      "action": "assess",
+      "stage": "ai",
+      "baselineRef": "baseline:single-meaning-m740:邦:143600:0:1",
+      "inputPatch": {},
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-邦-ai-no-theme",
+      "action": "assess",
+      "stage": "ai",
+      "baselineRef": "baseline:single-meaning-m740:邦:143600:0:1",
+      "inputPatch": {
+        "themeIds": []
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "needs-theme"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-邦-save",
+      "action": "assess",
+      "stage": "save",
+      "baselineRef": "baseline:single-meaning-m740:邦:143600:0:1",
+      "inputPatch": {},
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-邦-save-no-theme",
+      "action": "assess",
+      "stage": "save",
+      "baselineRef": "baseline:single-meaning-m740:邦:143600:0:1",
+      "inputPatch": {
+        "themeIds": []
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "needs-theme"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-邦-restore",
+      "action": "assess",
+      "stage": "restore",
+      "baselineRef": "baseline:single-meaning-m740:邦:143600:0:1",
+      "inputPatch": {},
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-邦-restore-no-theme",
+      "action": "assess",
+      "stage": "restore",
+      "baselineRef": "baseline:single-meaning-m740:邦:143600:0:1",
+      "inputPatch": {
+        "themeIds": []
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "needs-theme"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-沫-pool",
+      "action": "assess",
+      "stage": "pool",
+      "baselineRef": "baseline:single-meaning-m740:沫:83904:0:0",
+      "inputPatch": {},
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-沫-pool-no-theme",
+      "action": "assess",
+      "stage": "pool",
+      "baselineRef": "baseline:single-meaning-m740:沫:83904:0:0",
+      "inputPatch": {
+        "themeIds": []
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "needs-theme"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-沫-required",
+      "action": "assess",
+      "stage": "required",
+      "baselineRef": "baseline:single-meaning-m740:沫:83904:0:0",
+      "inputPatch": {},
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-沫-required-no-theme",
+      "action": "assess",
+      "stage": "required",
+      "baselineRef": "baseline:single-meaning-m740:沫:83904:0:0",
+      "inputPatch": {
+        "themeIds": []
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "needs-theme"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-沫-local",
+      "action": "assess",
+      "stage": "local",
+      "baselineRef": "baseline:single-meaning-m740:沫:83904:0:0",
+      "inputPatch": {},
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-沫-local-no-theme",
+      "action": "assess",
+      "stage": "local",
+      "baselineRef": "baseline:single-meaning-m740:沫:83904:0:0",
+      "inputPatch": {
+        "themeIds": []
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "needs-theme"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-沫-ai",
+      "action": "assess",
+      "stage": "ai",
+      "baselineRef": "baseline:single-meaning-m740:沫:83904:0:0",
+      "inputPatch": {},
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-沫-ai-no-theme",
+      "action": "assess",
+      "stage": "ai",
+      "baselineRef": "baseline:single-meaning-m740:沫:83904:0:0",
+      "inputPatch": {
+        "themeIds": []
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "needs-theme"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-沫-save",
+      "action": "assess",
+      "stage": "save",
+      "baselineRef": "baseline:single-meaning-m740:沫:83904:0:0",
+      "inputPatch": {},
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-沫-save-no-theme",
+      "action": "assess",
+      "stage": "save",
+      "baselineRef": "baseline:single-meaning-m740:沫:83904:0:0",
+      "inputPatch": {
+        "themeIds": []
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "needs-theme"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-沫-restore",
+      "action": "assess",
+      "stage": "restore",
+      "baselineRef": "baseline:single-meaning-m740:沫:83904:0:0",
+      "inputPatch": {},
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-沫-restore-no-theme",
+      "action": "assess",
+      "stage": "restore",
+      "baselineRef": "baseline:single-meaning-m740:沫:83904:0:0",
+      "inputPatch": {
+        "themeIds": []
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "needs-theme"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-纪-pool",
+      "action": "assess",
+      "stage": "pool",
+      "baselineRef": "baseline:single-meaning-m740:纪:111076:0:0",
+      "inputPatch": {},
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-纪-required",
+      "action": "assess",
+      "stage": "required",
+      "baselineRef": "baseline:single-meaning-m740:纪:111076:0:0",
+      "inputPatch": {},
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-纪-local",
+      "action": "assess",
+      "stage": "local",
+      "baselineRef": "baseline:single-meaning-m740:纪:111076:0:0",
+      "inputPatch": {},
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-纪-ai",
+      "action": "assess",
+      "stage": "ai",
+      "baselineRef": "baseline:single-meaning-m740:纪:111076:0:0",
+      "inputPatch": {},
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-纪-save",
+      "action": "assess",
+      "stage": "save",
+      "baselineRef": "baseline:single-meaning-m740:纪:111076:0:0",
+      "inputPatch": {},
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-纪-restore",
+      "action": "assess",
+      "stage": "restore",
+      "baselineRef": "baseline:single-meaning-m740:纪:111076:0:0",
+      "inputPatch": {},
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-纶-pool",
+      "action": "assess",
+      "stage": "pool",
+      "baselineRef": "baseline:single-meaning-m740:纶:113321:0:0",
+      "inputPatch": {},
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-纶-pool-no-theme",
+      "action": "assess",
+      "stage": "pool",
+      "baselineRef": "baseline:single-meaning-m740:纶:113321:0:0",
+      "inputPatch": {
+        "themeIds": []
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "needs-theme"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-纶-required",
+      "action": "assess",
+      "stage": "required",
+      "baselineRef": "baseline:single-meaning-m740:纶:113321:0:0",
+      "inputPatch": {},
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-纶-required-no-theme",
+      "action": "assess",
+      "stage": "required",
+      "baselineRef": "baseline:single-meaning-m740:纶:113321:0:0",
+      "inputPatch": {
+        "themeIds": []
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "needs-theme"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-纶-local",
+      "action": "assess",
+      "stage": "local",
+      "baselineRef": "baseline:single-meaning-m740:纶:113321:0:0",
+      "inputPatch": {},
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-纶-local-no-theme",
+      "action": "assess",
+      "stage": "local",
+      "baselineRef": "baseline:single-meaning-m740:纶:113321:0:0",
+      "inputPatch": {
+        "themeIds": []
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "needs-theme"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-纶-ai",
+      "action": "assess",
+      "stage": "ai",
+      "baselineRef": "baseline:single-meaning-m740:纶:113321:0:0",
+      "inputPatch": {},
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-纶-ai-no-theme",
+      "action": "assess",
+      "stage": "ai",
+      "baselineRef": "baseline:single-meaning-m740:纶:113321:0:0",
+      "inputPatch": {
+        "themeIds": []
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "needs-theme"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-纶-save",
+      "action": "assess",
+      "stage": "save",
+      "baselineRef": "baseline:single-meaning-m740:纶:113321:0:0",
+      "inputPatch": {},
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-纶-save-no-theme",
+      "action": "assess",
+      "stage": "save",
+      "baselineRef": "baseline:single-meaning-m740:纶:113321:0:0",
+      "inputPatch": {
+        "themeIds": []
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "needs-theme"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-纶-restore",
+      "action": "assess",
+      "stage": "restore",
+      "baselineRef": "baseline:single-meaning-m740:纶:113321:0:0",
+      "inputPatch": {},
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-纶-restore-no-theme",
+      "action": "assess",
+      "stage": "restore",
+      "baselineRef": "baseline:single-meaning-m740:纶:113321:0:0",
+      "inputPatch": {
+        "themeIds": []
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "needs-theme"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-年-pool",
+      "action": "assess",
+      "stage": "pool",
+      "baselineRef": "baseline:single-meaning-m740:年:49288:0:0",
+      "inputPatch": {},
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-年-required",
+      "action": "assess",
+      "stage": "required",
+      "baselineRef": "baseline:single-meaning-m740:年:49288:0:0",
+      "inputPatch": {},
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-年-local",
+      "action": "assess",
+      "stage": "local",
+      "baselineRef": "baseline:single-meaning-m740:年:49288:0:0",
+      "inputPatch": {},
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-年-ai",
+      "action": "assess",
+      "stage": "ai",
+      "baselineRef": "baseline:single-meaning-m740:年:49288:0:0",
+      "inputPatch": {},
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-年-save",
+      "action": "assess",
+      "stage": "save",
+      "baselineRef": "baseline:single-meaning-m740:年:49288:0:0",
+      "inputPatch": {},
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-年-restore",
+      "action": "assess",
+      "stage": "restore",
+      "baselineRef": "baseline:single-meaning-m740:年:49288:0:0",
+      "inputPatch": {},
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-农-pool",
+      "action": "assess",
+      "stage": "pool",
+      "baselineRef": "baseline:single-meaning-m740:农:140081:0:2",
+      "inputPatch": {},
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-农-pool-no-theme",
+      "action": "assess",
+      "stage": "pool",
+      "baselineRef": "baseline:single-meaning-m740:农:140081:0:2",
+      "inputPatch": {
+        "themeIds": []
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "needs-theme"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-农-required",
+      "action": "assess",
+      "stage": "required",
+      "baselineRef": "baseline:single-meaning-m740:农:140081:0:2",
+      "inputPatch": {},
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-农-required-no-theme",
+      "action": "assess",
+      "stage": "required",
+      "baselineRef": "baseline:single-meaning-m740:农:140081:0:2",
+      "inputPatch": {
+        "themeIds": []
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "needs-theme"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-农-local",
+      "action": "assess",
+      "stage": "local",
+      "baselineRef": "baseline:single-meaning-m740:农:140081:0:2",
+      "inputPatch": {},
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-农-local-no-theme",
+      "action": "assess",
+      "stage": "local",
+      "baselineRef": "baseline:single-meaning-m740:农:140081:0:2",
+      "inputPatch": {
+        "themeIds": []
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "needs-theme"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-农-ai",
+      "action": "assess",
+      "stage": "ai",
+      "baselineRef": "baseline:single-meaning-m740:农:140081:0:2",
+      "inputPatch": {},
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-农-ai-no-theme",
+      "action": "assess",
+      "stage": "ai",
+      "baselineRef": "baseline:single-meaning-m740:农:140081:0:2",
+      "inputPatch": {
+        "themeIds": []
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "needs-theme"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-农-save",
+      "action": "assess",
+      "stage": "save",
+      "baselineRef": "baseline:single-meaning-m740:农:140081:0:2",
+      "inputPatch": {},
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-农-save-no-theme",
+      "action": "assess",
+      "stage": "save",
+      "baselineRef": "baseline:single-meaning-m740:农:140081:0:2",
+      "inputPatch": {
+        "themeIds": []
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "needs-theme"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-农-restore",
+      "action": "assess",
+      "stage": "restore",
+      "baselineRef": "baseline:single-meaning-m740:农:140081:0:2",
+      "inputPatch": {},
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-农-restore-no-theme",
+      "action": "assess",
+      "stage": "restore",
+      "baselineRef": "baseline:single-meaning-m740:农:140081:0:2",
+      "inputPatch": {
+        "themeIds": []
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "needs-theme"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-作-pool",
+      "action": "assess",
+      "stage": "pool",
+      "baselineRef": "baseline:single-meaning-m740:作:10964:0:10",
+      "inputPatch": {},
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-作-pool-no-theme",
+      "action": "assess",
+      "stage": "pool",
+      "baselineRef": "baseline:single-meaning-m740:作:10964:0:10",
+      "inputPatch": {
+        "themeIds": []
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "needs-theme"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-作-required",
+      "action": "assess",
+      "stage": "required",
+      "baselineRef": "baseline:single-meaning-m740:作:10964:0:10",
+      "inputPatch": {},
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-作-required-no-theme",
+      "action": "assess",
+      "stage": "required",
+      "baselineRef": "baseline:single-meaning-m740:作:10964:0:10",
+      "inputPatch": {
+        "themeIds": []
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "needs-theme"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-作-local",
+      "action": "assess",
+      "stage": "local",
+      "baselineRef": "baseline:single-meaning-m740:作:10964:0:10",
+      "inputPatch": {},
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-作-local-no-theme",
+      "action": "assess",
+      "stage": "local",
+      "baselineRef": "baseline:single-meaning-m740:作:10964:0:10",
+      "inputPatch": {
+        "themeIds": []
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "needs-theme"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-作-ai",
+      "action": "assess",
+      "stage": "ai",
+      "baselineRef": "baseline:single-meaning-m740:作:10964:0:10",
+      "inputPatch": {},
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-作-ai-no-theme",
+      "action": "assess",
+      "stage": "ai",
+      "baselineRef": "baseline:single-meaning-m740:作:10964:0:10",
+      "inputPatch": {
+        "themeIds": []
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "needs-theme"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-作-save",
+      "action": "assess",
+      "stage": "save",
+      "baselineRef": "baseline:single-meaning-m740:作:10964:0:10",
+      "inputPatch": {},
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-作-save-no-theme",
+      "action": "assess",
+      "stage": "save",
+      "baselineRef": "baseline:single-meaning-m740:作:10964:0:10",
+      "inputPatch": {
+        "themeIds": []
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "needs-theme"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-作-restore",
+      "action": "assess",
+      "stage": "restore",
+      "baselineRef": "baseline:single-meaning-m740:作:10964:0:10",
+      "inputPatch": {},
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-作-restore-no-theme",
+      "action": "assess",
+      "stage": "restore",
+      "baselineRef": "baseline:single-meaning-m740:作:10964:0:10",
+      "inputPatch": {
+        "themeIds": []
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "needs-theme"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-岁-pool",
+      "action": "assess",
+      "stage": "pool",
+      "baselineRef": "baseline:single-meaning-m740:岁:80142:0:1",
+      "inputPatch": {},
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-岁-required",
+      "action": "assess",
+      "stage": "required",
+      "baselineRef": "baseline:single-meaning-m740:岁:80142:0:1",
+      "inputPatch": {},
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-岁-local",
+      "action": "assess",
+      "stage": "local",
+      "baselineRef": "baseline:single-meaning-m740:岁:80142:0:1",
+      "inputPatch": {},
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-岁-ai",
+      "action": "assess",
+      "stage": "ai",
+      "baselineRef": "baseline:single-meaning-m740:岁:80142:0:1",
+      "inputPatch": {},
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-岁-save",
+      "action": "assess",
+      "stage": "save",
+      "baselineRef": "baseline:single-meaning-m740:岁:80142:0:1",
+      "inputPatch": {},
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-岁-restore",
+      "action": "assess",
+      "stage": "restore",
+      "baselineRef": "baseline:single-meaning-m740:岁:80142:0:1",
+      "inputPatch": {},
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-叶-pool",
+      "action": "assess",
+      "stage": "pool",
+      "baselineRef": "baseline:single-meaning-m740:叶:124301:0:0",
+      "inputPatch": {},
+      "faultInjection": {},
+      "expected": {
+        "status": "pending-source-identity"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-叶-required",
+      "action": "assess",
+      "stage": "required",
+      "baselineRef": "baseline:single-meaning-m740:叶:124301:0:0",
+      "inputPatch": {},
+      "faultInjection": {},
+      "expected": {
+        "status": "pending-source-identity"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-叶-local",
+      "action": "assess",
+      "stage": "local",
+      "baselineRef": "baseline:single-meaning-m740:叶:124301:0:0",
+      "inputPatch": {},
+      "faultInjection": {},
+      "expected": {
+        "status": "pending-source-identity"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-叶-ai",
+      "action": "assess",
+      "stage": "ai",
+      "baselineRef": "baseline:single-meaning-m740:叶:124301:0:0",
+      "inputPatch": {},
+      "faultInjection": {},
+      "expected": {
+        "status": "pending-source-identity"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-叶-save",
+      "action": "assess",
+      "stage": "save",
+      "baselineRef": "baseline:single-meaning-m740:叶:124301:0:0",
+      "inputPatch": {},
+      "faultInjection": {},
+      "expected": {
+        "status": "pending-source-identity"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-叶-restore",
+      "action": "assess",
+      "stage": "restore",
+      "baselineRef": "baseline:single-meaning-m740:叶:124301:0:0",
+      "inputPatch": {},
+      "faultInjection": {},
+      "expected": {
+        "status": "pending-source-identity"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-萧-pool",
+      "action": "assess",
+      "stage": "pool",
+      "baselineRef": "baseline:single-meaning-m740:萧:125387:0:0",
+      "inputPatch": {},
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-萧-pool-no-theme",
+      "action": "assess",
+      "stage": "pool",
+      "baselineRef": "baseline:single-meaning-m740:萧:125387:0:0",
+      "inputPatch": {
+        "themeIds": []
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "needs-theme"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-萧-required",
+      "action": "assess",
+      "stage": "required",
+      "baselineRef": "baseline:single-meaning-m740:萧:125387:0:0",
+      "inputPatch": {},
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-萧-required-no-theme",
+      "action": "assess",
+      "stage": "required",
+      "baselineRef": "baseline:single-meaning-m740:萧:125387:0:0",
+      "inputPatch": {
+        "themeIds": []
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "needs-theme"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-萧-local",
+      "action": "assess",
+      "stage": "local",
+      "baselineRef": "baseline:single-meaning-m740:萧:125387:0:0",
+      "inputPatch": {},
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-萧-local-no-theme",
+      "action": "assess",
+      "stage": "local",
+      "baselineRef": "baseline:single-meaning-m740:萧:125387:0:0",
+      "inputPatch": {
+        "themeIds": []
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "needs-theme"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-萧-ai",
+      "action": "assess",
+      "stage": "ai",
+      "baselineRef": "baseline:single-meaning-m740:萧:125387:0:0",
+      "inputPatch": {},
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-萧-ai-no-theme",
+      "action": "assess",
+      "stage": "ai",
+      "baselineRef": "baseline:single-meaning-m740:萧:125387:0:0",
+      "inputPatch": {
+        "themeIds": []
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "needs-theme"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-萧-save",
+      "action": "assess",
+      "stage": "save",
+      "baselineRef": "baseline:single-meaning-m740:萧:125387:0:0",
+      "inputPatch": {},
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-萧-save-no-theme",
+      "action": "assess",
+      "stage": "save",
+      "baselineRef": "baseline:single-meaning-m740:萧:125387:0:0",
+      "inputPatch": {
+        "themeIds": []
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "needs-theme"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-萧-restore",
+      "action": "assess",
+      "stage": "restore",
+      "baselineRef": "baseline:single-meaning-m740:萧:125387:0:0",
+      "inputPatch": {},
+      "faultInjection": {},
+      "expected": {
+        "status": "eligible"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "STAGE-萧-restore-no-theme",
+      "action": "assess",
+      "stage": "restore",
+      "baselineRef": "baseline:single-meaning-m740:萧:125387:0:0",
+      "inputPatch": {
+        "themeIds": []
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "needs-theme"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "LEAF-BAD-THEME-pool",
+      "action": "assess",
+      "stage": "pool",
+      "baselineRef": "baseline:single-meaning-m740:叶:124301:0:0",
+      "inputPatch": {
+        "themeIds": [
+          null
+        ]
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "rejected-integrity"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "LEAF-BAD-ID-pool",
+      "action": "assess",
+      "stage": "pool",
+      "baselineRef": "baseline:single-meaning-m740:叶:124301:0:0",
+      "inputPatch": {},
+      "faultInjection": {
+        "candidateCaseId": "pending"
+      },
+      "expected": {
+        "status": "rejected-integrity"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "LEAF-BAD-THEME-required",
+      "action": "assess",
+      "stage": "required",
+      "baselineRef": "baseline:single-meaning-m740:叶:124301:0:0",
+      "inputPatch": {
+        "themeIds": [
+          null
+        ]
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "rejected-integrity"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "LEAF-BAD-ID-required",
+      "action": "assess",
+      "stage": "required",
+      "baselineRef": "baseline:single-meaning-m740:叶:124301:0:0",
+      "inputPatch": {},
+      "faultInjection": {
+        "candidateCaseId": "pending"
+      },
+      "expected": {
+        "status": "rejected-integrity"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "LEAF-BAD-THEME-local",
+      "action": "assess",
+      "stage": "local",
+      "baselineRef": "baseline:single-meaning-m740:叶:124301:0:0",
+      "inputPatch": {
+        "themeIds": [
+          null
+        ]
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "rejected-integrity"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "LEAF-BAD-ID-local",
+      "action": "assess",
+      "stage": "local",
+      "baselineRef": "baseline:single-meaning-m740:叶:124301:0:0",
+      "inputPatch": {},
+      "faultInjection": {
+        "candidateCaseId": "pending"
+      },
+      "expected": {
+        "status": "rejected-integrity"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "LEAF-BAD-THEME-ai",
+      "action": "assess",
+      "stage": "ai",
+      "baselineRef": "baseline:single-meaning-m740:叶:124301:0:0",
+      "inputPatch": {
+        "themeIds": [
+          null
+        ]
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "rejected-integrity"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "LEAF-BAD-ID-ai",
+      "action": "assess",
+      "stage": "ai",
+      "baselineRef": "baseline:single-meaning-m740:叶:124301:0:0",
+      "inputPatch": {},
+      "faultInjection": {
+        "candidateCaseId": "pending"
+      },
+      "expected": {
+        "status": "rejected-integrity"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "LEAF-BAD-THEME-save",
+      "action": "assess",
+      "stage": "save",
+      "baselineRef": "baseline:single-meaning-m740:叶:124301:0:0",
+      "inputPatch": {
+        "themeIds": [
+          null
+        ]
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "rejected-integrity"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "LEAF-BAD-ID-save",
+      "action": "assess",
+      "stage": "save",
+      "baselineRef": "baseline:single-meaning-m740:叶:124301:0:0",
+      "inputPatch": {},
+      "faultInjection": {
+        "candidateCaseId": "pending"
+      },
+      "expected": {
+        "status": "rejected-integrity"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "LEAF-BAD-THEME-restore",
+      "action": "assess",
+      "stage": "restore",
+      "baselineRef": "baseline:single-meaning-m740:叶:124301:0:0",
+      "inputPatch": {
+        "themeIds": [
+          null
+        ]
+      },
+      "faultInjection": {},
+      "expected": {
+        "status": "rejected-integrity"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "LEAF-BAD-ID-restore",
+      "action": "assess",
+      "stage": "restore",
+      "baselineRef": "baseline:single-meaning-m740:叶:124301:0:0",
+      "inputPatch": {},
+      "faultInjection": {
+        "candidateCaseId": "pending"
+      },
+      "expected": {
+        "status": "rejected-integrity"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "qualification"
+    },
+    {
+      "id": "RECEIPT-TAMPER-纪-save",
+      "action": "assess",
+      "stage": "save",
+      "baselineRef": "baseline:single-meaning-m740:纪:111076:0:0",
+      "inputPatch": {},
+      "faultInjection": {
+        "receiptContextDigest": "changed"
+      },
+      "expected": {
+        "status": "rejected-integrity"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "receipt-validation"
+    },
+    {
+      "id": "RECEIPT-TAMPER-纪-restore",
+      "action": "assess",
+      "stage": "restore",
+      "baselineRef": "baseline:single-meaning-m740:纪:111076:0:0",
+      "inputPatch": {},
+      "faultInjection": {
+        "receiptContextDigest": "changed"
+      },
+      "expected": {
+        "status": "rejected-integrity"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "receipt-validation"
+    },
+    {
+      "id": "RECEIPT-TAMPER-邦-save",
+      "action": "assess",
+      "stage": "save",
+      "baselineRef": "baseline:single-meaning-m740:邦:143600:0:1",
+      "inputPatch": {},
+      "faultInjection": {
+        "receiptContextDigest": "changed"
+      },
+      "expected": {
+        "status": "rejected-integrity"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "receipt-validation"
+    },
+    {
+      "id": "RECEIPT-TAMPER-邦-restore",
+      "action": "assess",
+      "stage": "restore",
+      "baselineRef": "baseline:single-meaning-m740:邦:143600:0:1",
+      "inputPatch": {},
+      "faultInjection": {
+        "receiptContextDigest": "changed"
+      },
+      "expected": {
+        "status": "rejected-integrity"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "receipt-validation"
+    },
+    {
+      "id": "RECEIPT-missing-source-save",
+      "action": "assess",
+      "stage": "save",
+      "baselineRef": "baseline:single-meaning-m740:纪:111076:0:0",
+      "inputPatch": {},
+      "faultInjection": {
+        "receiptOrSource": "missing-source"
+      },
+      "expected": {
+        "status": "source-unavailable"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "receipt-validation"
+    },
+    {
+      "id": "RECEIPT-missing-source-restore",
+      "action": "assess",
+      "stage": "restore",
+      "baselineRef": "baseline:single-meaning-m740:纪:111076:0:0",
+      "inputPatch": {},
+      "faultInjection": {
+        "receiptOrSource": "missing-source"
+      },
+      "expected": {
+        "status": "source-unavailable"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "receipt-validation"
+    },
+    {
+      "id": "RECEIPT-changed-selected-reading-save",
+      "action": "assess",
+      "stage": "save",
+      "baselineRef": "baseline:single-meaning-m740:纪:111076:0:0",
+      "inputPatch": {},
+      "faultInjection": {
+        "receiptOrSource": "changed-selected-reading"
+      },
+      "expected": {
+        "status": "rejected-integrity"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "receipt-validation"
+    },
+    {
+      "id": "RECEIPT-changed-selected-reading-restore",
+      "action": "assess",
+      "stage": "restore",
+      "baselineRef": "baseline:single-meaning-m740:纪:111076:0:0",
+      "inputPatch": {},
+      "faultInjection": {
+        "receiptOrSource": "changed-selected-reading"
+      },
+      "expected": {
+        "status": "rejected-integrity"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "receipt-validation"
+    },
+    {
+      "id": "RECEIPT-changed-senseId-save",
+      "action": "assess",
+      "stage": "save",
+      "baselineRef": "baseline:single-meaning-m740:纪:111076:0:0",
+      "inputPatch": {},
+      "faultInjection": {
+        "receiptOrSource": "changed-senseId"
+      },
+      "expected": {
+        "status": "rejected-integrity"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "receipt-validation"
+    },
+    {
+      "id": "RECEIPT-changed-senseId-restore",
+      "action": "assess",
+      "stage": "restore",
+      "baselineRef": "baseline:single-meaning-m740:纪:111076:0:0",
+      "inputPatch": {},
+      "faultInjection": {
+        "receiptOrSource": "changed-senseId"
+      },
+      "expected": {
+        "status": "rejected-integrity"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "receipt-validation"
+    },
+    {
+      "id": "RECEIPT-changed-fullName-save",
+      "action": "assess",
+      "stage": "save",
+      "baselineRef": "baseline:single-meaning-m740:纪:111076:0:0",
+      "inputPatch": {},
+      "faultInjection": {
+        "receiptOrSource": "changed-fullName"
+      },
+      "expected": {
+        "status": "rejected-integrity"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "receipt-validation"
+    },
+    {
+      "id": "RECEIPT-changed-fullName-restore",
+      "action": "assess",
+      "stage": "restore",
+      "baselineRef": "baseline:single-meaning-m740:纪:111076:0:0",
+      "inputPatch": {},
+      "faultInjection": {
+        "receiptOrSource": "changed-fullName"
+      },
+      "expected": {
+        "status": "rejected-integrity"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "receipt-validation"
+    },
+    {
+      "id": "RECEIPT-changed-position-save",
+      "action": "assess",
+      "stage": "save",
+      "baselineRef": "baseline:single-meaning-m740:纪:111076:0:0",
+      "inputPatch": {},
+      "faultInjection": {
+        "receiptOrSource": "changed-position"
+      },
+      "expected": {
+        "status": "rejected-integrity"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "receipt-validation"
+    },
+    {
+      "id": "RECEIPT-changed-position-restore",
+      "action": "assess",
+      "stage": "restore",
+      "baselineRef": "baseline:single-meaning-m740:纪:111076:0:0",
+      "inputPatch": {},
+      "faultInjection": {
+        "receiptOrSource": "changed-position"
+      },
+      "expected": {
+        "status": "rejected-integrity"
+      },
+      "productExecution": "not-run",
+      "assessmentScope": "receipt-validation"
+    }
+  ],
+  "operations": {
+    "assess": {
+      "stageValues": [
+        "pool",
+        "required",
+        "local",
+        "ai",
+        "save",
+        "restore"
+      ],
+      "returns": {
+        "discriminator": "status",
+        "enum": [
+          "eligible",
+          "needs-theme",
+          "pending-source-identity",
+          "manual-only",
+          "not-admitted",
+          "reading-mismatch",
+          "candidate-scope-mismatch",
+          "source-unavailable",
+          "rejected-integrity",
+          "condition-not-supported",
+          "blocked-existing-constraints"
+        ]
+      },
+      "neverReturns": [
+        "reject-semantic-credit",
+        "reject-unreviewed-claim",
+        "preserve-legacy"
+      ]
+    },
+    "output-assertion": {
+      "stageValues": [
+        "local",
+        "ai"
+      ],
+      "returns": {
+        "discriminator": "assertionKind",
+        "enum": [
+          null,
+          "reject-semantic-credit",
+          "reject-unreviewed-claim"
+        ],
+        "success": {
+          "ok": true,
+          "assertionKind": null
+        },
+        "failure": {
+          "ok": false,
+          "assertionKind": "reject-semantic-credit|reject-unreviewed-claim"
+        }
+      },
+      "purpose": "inspect candidate output; a rejected output is not a new eligibility status"
+    },
+    "legacy-replay": {
+      "stageValues": [
+        "restore"
+      ],
+      "returns": {
+        "discriminator": "assertionKind",
+        "enum": [
+          "preserve-legacy"
+        ]
+      },
+      "purpose": "legacy7.1 remains byte-equivalent and has no new receipt; do not route to v72 assess"
+    }
+  },
+  "mergePolicy": {
+    "baselineFile": "acceptance-cases.json#/baselines",
+    "baselineResolution": "recordRef resolves exact pinned M752 row; entryRef resolves M740 baselineCharacter by candidateCaseId; resource handle is actual fixed loader result, not a constructed object",
+    "patchMerge": "shallow top-level context field replacement; arrays fully replaced; null is literal and not deletion; absent preserves baseline; no implicit deletion or source mutation; fixtures explicitly update givenName/fullName when length/surname changes",
+    "faultInjection": "harness-only alteration of source reads or receipt after obtaining actual trusted baseline; never expose as app API",
+    "trustedHandle": "M751 fixed loader must create actual verified handle; string labels confer no authority",
+    "saveRestore": "qualification-only stage templates are NOT storage success; actual save/restore needs eligible producer receipt and receipt-validation; missing legacy runtime receipt means not-executed",
+    "assertedCountsAreExpectations": true,
+    "productTestsExecuted": false
+  },
+  "originalExpectedCounts": {
+    "fixtures": 42,
+    "stageAssertions": 49
+  },
+  "currentExpectedCounts": {
+    "fixtures": 43,
+    "stageAssertions": 122
+  },
+  "productTestsExecuted": false
+}

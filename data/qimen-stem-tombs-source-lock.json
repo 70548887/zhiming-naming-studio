@@ -1,0 +1,27 @@
+{
+  "version": "qimen-go-explicit-stem-tombs/1.0.0",
+  "hashConvention": "sha256(JSON.stringify(fileHashes)); keys sorted by relative path",
+  "sources": [
+    {
+      "id": "qimen-go-stem-tombs",
+      "name": "qimen-go固定十干墓支表：独立显式天盘参考",
+      "url": "https://github.com/deminzhang/qimen-go",
+      "commit": "4d3f58fa0f401b5b3a337f119138e99e90685dda",
+      "license": "MIT",
+      "files": [
+        "data/raw/qimen-stem-tombs-go-defs.go",
+        "data/raw/qimen-stem-tombs-go-ganzhi.go",
+        "data/raw/qimen-stem-tombs-go-LICENSE.txt",
+        "data/qimen-stem-tombs-table.json"
+      ],
+      "note": "xuan/qimen_defs.go QMTomb全10项和HideJia六甲身份表；xuan/ganzhi.go ZhiGong9宫支。来源查表不提供古籍师承背书。产品仅外八宫显式乙至癸天盘主/寄干核对，甲不直接观测，地盘不核；与旧三奇乙坤二/丁艮八独立，不覆盖或混表。",
+      "fileHashes": {
+        "data/qimen-stem-tombs-table.json": "56ae5cd8e7b9cae39d49f0f4eae0da38f0995b00b5354b5ac91061a3fa8405e2",
+        "data/raw/qimen-stem-tombs-go-LICENSE.txt": "cfdb13c1a086ecc3f498b6a75a65d1dab3d93072c58efd26d383db776749b996",
+        "data/raw/qimen-stem-tombs-go-defs.go": "bacb7684160cb0d4297e1a13fb3674c7eebf56183fea2e7a5c12bb18a7dd47ac",
+        "data/raw/qimen-stem-tombs-go-ganzhi.go": "0dd04c5c2f290e87822ff85770f203467c1a7a69ced56990d808c718aa14b401"
+      },
+      "sha256": "bb44d814453cfb66b0cc955188505fb8ccf0cf3c8327eafec7bb70987d098379"
+    }
+  ]
+}

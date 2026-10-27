@@ -1,0 +1,31 @@
+{
+  "version": "sanming-first-paragraph/1.0.0",
+  "hashConvention": "sha256(JSON.stringify(fileHashes)); keys sorted by relative path",
+  "sources": [
+    {
+      "id": "bazi-month-authority-sanming-v1",
+      "name": "三命通会四库卷二首段月令人元分日：固定电子转录",
+      "url": "https://github.com/mikkokotila/Sanming-Tongshui",
+      "commit": "eb3cacbf4b41a4fe8fc3c0e77e0d12b5bd17c079",
+      "license": "原典公有领域；电子转录、转换及本项目结构化映射 CC-BY-SA-4.0",
+      "files": [
+        "data/raw/month-authority-sanming-excerpt.md",
+        "data/raw/month-authority-sanming-LICENSE.md",
+        "data/raw/month-authority-sanming-SOURCE_MANIFEST.json",
+        "data/raw/month-authority-ATTRIBUTION.md",
+        "data/raw/CC-BY-SA-4.0.txt",
+        "data/month-authority-table.json"
+      ],
+      "note": "只节录論人元司事该节并逐字定位。固定Wikisource卷二oldid761691及贡献者历史；首段12月32段，保留艮土/坤土/巳土等原词，未映射成戊己。玉井异表和醉醒子反固定日限意见原文并列，不运行；未校勘影印原页。软件按实际24h区间定位且不延长30日尾段，不作为唯一司权或喜用判断。",
+      "fileHashes": {
+        "data/month-authority-table.json": "af3fc3fad4ba4a698b452750f7ce543429cc26710d773a895160e6b5aff61ba7",
+        "data/raw/CC-BY-SA-4.0.txt": "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5",
+        "data/raw/month-authority-ATTRIBUTION.md": "3ad3624670494d148c5eb797e64c9b2430d61ceb52b33964064f51558ae033ac",
+        "data/raw/month-authority-sanming-LICENSE.md": "3d7fb0b7c5ac2f9b377edaee6a5182cfd016dc5102af279628354591132772f6",
+        "data/raw/month-authority-sanming-SOURCE_MANIFEST.json": "cbb2536294fac611b6cd08a12ce235a61056be105f07bc77806949df02ea7a75",
+        "data/raw/month-authority-sanming-excerpt.md": "3797e7c831b963193a6247fae362088bb80fad99a8e2944b1ee4819b5daf109e"
+      },
+      "sha256": "70440bcc7e558e64ed9ddcb244662d04c2fdb652c0cfd1fb0fb665a40fc357cf"
+    }
+  ]
+}

@@ -1,0 +1,286 @@
+{
+  "schema": "published-naming-session-fixture/1",
+  "capturedFromRelease": "1.0.34",
+  "sourceDatabaseSha256": "4b59b59967c9774c8e2064aff2cab6a4e705856c907c0e69cf4e8c8b077bf3f7",
+  "sourceDatabaseBytes": 11005952,
+  "fixture": "tests/fixtures/naming-session-1.0.34.sqlite",
+  "publishedSqlProof": {
+    "file": ".local/continuation-136/popularity-134-final-verified-runtime-sql-verification.json",
+    "sha256": "cd23075bcde9ee73f3bee6882790071e6d4e893fb1e1b66228a395abb9e757a5"
+  },
+  "sourceInstallerSha256": "7770e958ce608b1281429537853f71e5966a2f8fa64867d9cb5f9aecdbeb41d1",
+  "normalCustomerData": false,
+  "derivation": "Exact unchanged bytes from the isolated actual installed134 smoke database; no new-code reconstruction or row edits",
+  "sessions": [
+    {
+      "id": "70e7f920-9df1-4f28-ad14-3a21e2a76b07",
+      "version": "naming-editorial-5.0.0",
+      "dataVersion": "21bcc3b2e60f",
+      "profileId": "smoke-ren-joint-battle",
+      "candidateNames": [
+        "文"
+      ],
+      "rawSha256": "febf53a2a90b99841adb1a865574b0ddff5b72e427c4f5fe2a03d553685d44dd"
+    },
+    {
+      "id": "6195e9fc-795a-47f4-986e-28a4b1d29202",
+      "version": "naming-editorial-5.0.0",
+      "dataVersion": "21bcc3b2e60f",
+      "profileId": "smoke-naming5-yang-shan",
+      "candidateNames": [
+        "扬善"
+      ],
+      "rawSha256": "52641583b7c4e565030e6a45bb8a98d4e1f70d02d26578962628a732c194032c"
+    },
+    {
+      "id": "dcc074df-d69f-412e-af78-65d51ea17868",
+      "version": "naming-editorial-5.0.0",
+      "dataVersion": "21bcc3b2e60f",
+      "profileId": "smoke-naming5-sui-zhi",
+      "candidateNames": [
+        "遂志"
+      ],
+      "rawSha256": "9c8f4285ef14b631502645a39b427dab9f1e050e6a7697c05022df3cc044ec2d"
+    },
+    {
+      "id": "5ac012bf-36d9-4cee-b7de-bb2e3d9c1aff",
+      "version": "naming-editorial-5.0.0",
+      "dataVersion": "21bcc3b2e60f",
+      "profileId": "smoke-naming5-jia-yi",
+      "candidateNames": [
+        "家宜"
+      ],
+      "rawSha256": "c06207ba1aac68bc84c823f4a93a7d26ac6a3a28f8803a1a105aa44977d57c4c"
+    },
+    {
+      "id": "657cfcc1-6cb7-4246-a5fe-ebf91a63cb76",
+      "version": "naming-editorial-5.0.0",
+      "dataVersion": "f02b8aa8201a",
+      "profileId": "smoke-naming5-changed-citation",
+      "candidateNames": [
+        "扬善"
+      ],
+      "rawSha256": "5b7cb63340521a8c7a39d6ac0f75e1c380e3a051b91301f3bf3cac3a90eff025"
+    },
+    {
+      "id": "dd0616f5-73b4-4450-a83e-6e607024fcbc",
+      "version": "naming-editorial-5.0.0",
+      "dataVersion": "f264eb26f631",
+      "profileId": "smoke-naming5-old-zhi",
+      "candidateNames": [
+        "遂志"
+      ],
+      "rawSha256": "99bceab239ca73d6b46141562a3b3c39a8a2cbba96bc138a97beeec1f58f04cb"
+    },
+    {
+      "id": "ea45a7bb-02ac-42b5-9c89-2783ccdce14f",
+      "version": "naming-editorial-5.0.0",
+      "dataVersion": "f264eb26f631",
+      "profileId": "smoke-naming5-old-house",
+      "candidateNames": [
+        "家宜"
+      ],
+      "rawSha256": "2683d83c02ef168a79244c9fd373e38beb4d3c12436d7c6d392058d5a2534877"
+    },
+    {
+      "id": "571da8bd-ce0c-45ff-b830-6ce14664a318",
+      "version": "naming-editorial-5.0.0",
+      "dataVersion": "21bcc3b2e60f",
+      "profileId": "dictionary-word-probe-0",
+      "candidateNames": [
+        "才"
+      ],
+      "rawSha256": "035333a88f9781e6672e2493363c13ea0c0ac3e29a7a2c89182e71256c4f2f14"
+    },
+    {
+      "id": "b9497c47-1629-4bad-93ca-5e56a0f0f4f5",
+      "version": "naming-editorial-5.0.0",
+      "dataVersion": "21bcc3b2e60f",
+      "profileId": "dictionary-word-probe-1",
+      "candidateNames": [
+        "冬"
+      ],
+      "rawSha256": "7dd63a532885082f805b864c4623c388e127e690483fbdfbdcb069cdbc51a179"
+    },
+    {
+      "id": "55b7577c-8b17-48c0-aac4-177d0a2a482e",
+      "version": "naming-editorial-5.0.0",
+      "dataVersion": "21bcc3b2e60f",
+      "profileId": "dictionary-word-probe-2",
+      "candidateNames": [
+        "千"
+      ],
+      "rawSha256": "6f57a6022e6f3128f5afde7019855b5fbcb012828a50b0875c02041850bb6c33"
+    },
+    {
+      "id": "67c60f9f-105f-42c4-a6d4-4193e62dc141",
+      "version": "naming-editorial-5.0.0",
+      "dataVersion": "21bcc3b2e60f",
+      "profileId": "dictionary-word-probe-3",
+      "candidateNames": [
+        "秋"
+      ],
+      "rawSha256": "a16087fce14227608786ac7265a9b3f2106a2cb8e424b8838ffe88b3d2256a96"
+    },
+    {
+      "id": "d512bb6f-0263-4282-88f4-99011af78bc1",
+      "version": "naming-editorial-5.0.0",
+      "dataVersion": "21bcc3b2e60f",
+      "profileId": "dictionary-word-probe-4",
+      "candidateNames": [
+        "沈"
+      ],
+      "rawSha256": "9c69529b5cebd378c1d45d08c0b6d7ca629d991048aa7f7bae7b7495431b4d52"
+    },
+    {
+      "id": "88462429-7119-4f8b-b254-f2b1b8264fce",
+      "version": "naming-editorial-5.0.0",
+      "dataVersion": "21bcc3b2e60f",
+      "profileId": "dictionary-word-probe-5",
+      "candidateNames": [
+        "咸"
+      ],
+      "rawSha256": "9bd4b51c874e2c68508fe071e77d4106899bb7cb594ec0e03d8062bf03c81e18"
+    },
+    {
+      "id": "b6572095-99e7-4595-8159-0f631c80db3f",
+      "version": "naming-editorial-5.0.0",
+      "dataVersion": "21bcc3b2e60f",
+      "profileId": "dictionary-word-probe-6",
+      "candidateNames": [
+        "旋"
+      ],
+      "rawSha256": "e9f501aa9077e43d13120f698e43dd4eba6fd6bbe86ed663b72726b4804abe8a"
+    },
+    {
+      "id": "0aa0f522-2d78-4e22-b2d5-de3ebaf0546f",
+      "version": "naming-editorial-5.0.0",
+      "dataVersion": "21bcc3b2e60f",
+      "profileId": "dictionary-word-probe-7",
+      "candidateNames": [
+        "郁"
+      ],
+      "rawSha256": "cceb4e08c97f4f70e613f50985b6fafd00231b245a57c3749b432cef0b6b64c9"
+    },
+    {
+      "id": "6224b1e2-5325-4514-91ed-6812041dd7fc",
+      "version": "naming-editorial-5.0.0",
+      "dataVersion": "21bcc3b2e60f",
+      "profileId": "dictionary-word-probe-8",
+      "candidateNames": [
+        "致"
+      ],
+      "rawSha256": "31a66d79fa2060c08e2028adfde1e39ce2263d6ab097376756eff65b8d0842e0"
+    },
+    {
+      "id": "38623bcf-935f-4ec8-ad0b-855e3c281833",
+      "version": "naming-editorial-6.0.0",
+      "dataVersion": "1875aa49dcfa",
+      "profileId": "smoke-naming6-cai",
+      "candidateNames": [
+        "才"
+      ],
+      "rawSha256": "76076511e844132e618fd80b54932c806ed1317e379b09bac3a9ca20e9eb7b1d"
+    },
+    {
+      "id": "bde23b01-6b88-442f-9438-8f135364c410",
+      "version": "naming-editorial-6.0.0",
+      "dataVersion": "1875aa49dcfa",
+      "profileId": "smoke-naming6-dong",
+      "candidateNames": [
+        "冬"
+      ],
+      "rawSha256": "e215ca0aad6d1e193bc176bb44d92a5de6d03ca224781da30a47a5035ae43401"
+    },
+    {
+      "id": "c10c39de-d303-47e3-815d-7972b6822ae3",
+      "version": "naming-editorial-6.0.0",
+      "dataVersion": "1875aa49dcfa",
+      "profileId": "smoke-naming6-qian",
+      "candidateNames": [
+        "千"
+      ],
+      "rawSha256": "3ae26de1c5566b747117e6f443f9b72559b4eca4f762fec2863a0d2ba598b6b3"
+    },
+    {
+      "id": "edc8b7e5-7ddb-4719-8c41-b346f3197ffe",
+      "version": "naming-editorial-6.0.0",
+      "dataVersion": "1875aa49dcfa",
+      "profileId": "smoke-naming6-qiu",
+      "candidateNames": [
+        "秋"
+      ],
+      "rawSha256": "35d9389e3610f3640ccefde3fb4c0077e67259f3d0631d2a0807d73209a557aa"
+    },
+    {
+      "id": "3dd44f30-ff28-48c8-8f72-d2cd1bb7e83f",
+      "version": "naming-editorial-6.0.0",
+      "dataVersion": "1875aa49dcfa",
+      "profileId": "smoke-naming6-shen",
+      "candidateNames": [
+        "沈"
+      ],
+      "rawSha256": "ab911fb0f0714078df908a59337c2215e579f45485711e6f8d6484c897a22d68"
+    },
+    {
+      "id": "d87e53f3-3011-447d-b7c8-be73d1cd097f",
+      "version": "naming-editorial-6.0.0",
+      "dataVersion": "1875aa49dcfa",
+      "profileId": "smoke-naming6-xian",
+      "candidateNames": [
+        "咸"
+      ],
+      "rawSha256": "1997bad0210a1e4630185229abcf3e781897729b201e0a94bc73060c41944b01"
+    },
+    {
+      "id": "1211a285-5ded-4c58-a14e-81af768b9b51",
+      "version": "naming-editorial-6.0.0",
+      "dataVersion": "1875aa49dcfa",
+      "profileId": "smoke-naming6-xuan",
+      "candidateNames": [
+        "旋"
+      ],
+      "rawSha256": "d2c052f32a4e4f1b7c2431197a1b2e0c38675b4c48ed42b50bae4d525c84c293"
+    },
+    {
+      "id": "2e8296d8-3bbd-48f6-b06c-31c1894ab005",
+      "version": "naming-editorial-6.0.0",
+      "dataVersion": "1875aa49dcfa",
+      "profileId": "smoke-naming6-yu",
+      "candidateNames": [
+        "郁"
+      ],
+      "rawSha256": "3aaba1ef1acc0ec971ad0f821b356f22f3f02883537a277b7d4eea1a5ab25315"
+    },
+    {
+      "id": "4c3f1804-e8a6-40f4-b30d-743b1e6857ef",
+      "version": "naming-editorial-6.0.0",
+      "dataVersion": "1875aa49dcfa",
+      "profileId": "smoke-naming6-zhi",
+      "candidateNames": [
+        "致"
+      ],
+      "rawSha256": "695d31cf8331a8609d6436cfad97487728e7458cda6a77595b6a843c96459cd7"
+    },
+    {
+      "id": "6ed32904-2ac1-4fd9-8797-b8d032d58e96",
+      "version": "naming-editorial-6.0.0",
+      "dataVersion": "1875aa49dcfa",
+      "profileId": "smoke-naming6-zhi-yuan",
+      "candidateNames": [
+        "致远"
+      ],
+      "rawSha256": "383b818cdb25f101a8924dc3c47c70437f6a6f3b50a02138cecc4bf12b0b298f"
+    },
+    {
+      "id": "758d845c-31a7-4548-a0e5-9831deb27ce1",
+      "version": "naming-editorial-6.0.0",
+      "dataVersion": "21bcc3b2e60f",
+      "profileId": "smoke-naming6-old-pack-dong",
+      "candidateNames": [
+        "冬"
+      ],
+      "rawSha256": "ca355de7f864aee0f67cc14c1e52bd44b48916fb2e6e2af28b8327e93011c535"
+    }
+  ]
+}

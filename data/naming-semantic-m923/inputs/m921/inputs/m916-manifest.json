@@ -1,0 +1,52 @@
+{
+  "schema": "m916-meaning-semantic-review-manifest/1",
+  "reviewId": "M916-D01",
+  "files": {
+    "review-input.json": {
+      "bytes": 101050,
+      "sha256": "4c7f842b268943eab7d7207b5df2941ada3286d1558ad4eebc846830ce717291"
+    },
+    "meaning-semantic-review.json": {
+      "bytes": 101720,
+      "sha256": "55c0a6f9fd33b61e4a219da6d30275b9001e8bf519a33daf525ff269006555cf"
+    },
+    "REVIEW.md": {
+      "bytes": 892,
+      "sha256": "19d5e41eeb0c4c08a7fe043d72e34e41de7d15785bbd9091f71088d29bc01ccb"
+    },
+    "verify.cjs": {
+      "bytes": 4306,
+      "sha256": "311faaea2ebcdffa3d98acdc5361c91d6d2e5ca1f6a39371cddfcf884ba08b63"
+    }
+  },
+  "sourceBindings": {
+    "m910": {
+      "commit": "ed99b83f7545481425b32b30d20bc0480bcf3758",
+      "batchId": "M910-DATA",
+      "count": 20,
+      "manifestSHA256": "a345d11b3f34cb5d4bc8b0a6de8453a2ff0cd68e559af5f0f48a215380da3e8c",
+      "selectionSHA256": "6019bf2c7bc170af093c5bf6458e798968f63a6c03dd09b24dc35abb6fd4948f",
+      "sourceSubsetSHA256": "e9e096c203b8ae640fe9ae64f91ab25bbbe9c8fd62cf6ce36c8a8224dea17893",
+      "rawFileSHA256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e"
+    },
+    "m914": {
+      "commit": "f5ac307ac9201e38e8030313818c2f020587fa0b",
+      "batchId": "M914-D01",
+      "count": 20,
+      "manifestSHA256": "1f599fb1dd014448674d39a95c1bc5c62372c1d80b9bf73de1d467ac9e00f6e8",
+      "selectionSHA256": "b7e6d8bbf2ca13c086f781763e6b74ffb344f5585561be43b1a5705871e7bdf5",
+      "sourceSubsetSHA256": "8d76e27ad008ed92747ac19aa04563233a5479f215ba03743eff63d654c958ff",
+      "rawFileSHA256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e"
+    }
+  },
+  "coverage": {
+    "rows": 40,
+    "general": 38,
+    "explicitTheme": 0,
+    "pending": 2
+  },
+  "activation": "off",
+  "productionApproved": false,
+  "formalCoverageAdded": 0,
+  "defaultAutomaticCoverageAdded": 0
+}

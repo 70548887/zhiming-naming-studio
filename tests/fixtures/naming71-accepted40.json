@@ -1,0 +1,839 @@
+{
+  "task": "M148-DECISION",
+  "status": "accepted-inventory-for-next-publication-not-runtime-admission",
+  "scope": "per-character-project-explanation-only",
+  "wholeNameAssessment": "not-assessed",
+  "automaticNameRecommendation": false,
+  "scoreDelta": 0,
+  "base": {
+    "datasetSha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+    "namingV7Sha256": "392fa47441a0c410b0903c3e85853081225a1a5e9f540b5467e4ea4e2151cc48",
+    "packSha256": "1875aa49dcfaeca0f266a3be7578e4d4b2a9b2c9c1f59fd79699a3e26d5d6b8b",
+    "activeVersion": "1875aa49dcfa",
+    "rawMoeCommit": "a6dc997417507eb510fc29822bc514de2c92728c"
+  },
+  "coverage": {
+    "frozenV7AutomaticCharacters": 304,
+    "newUniqueReviewedCharacters": 40,
+    "overlapWith304": 0,
+    "prospectiveConditionalCharacterCoverage": 344,
+    "currentNewAdoptions": 0,
+    "remainingOriginalManualOrPendingAfterActual40Adoption": 203,
+    "doNotReport344BeforeRealRuntimeActivation": true
+  },
+  "upstream": {
+    "firstManifest": "fe8ea3fc0c39d8423a41cd9789dfbf2a3a4e3bfb7c5b3b2a222a9b47579ff8fb",
+    "secondManifest": "aca8762eac8f39fa98288c0db2451bdd8ce8387532bfe9f5474d81092910d078",
+    "sixCorrectionManifest": "b7b5d183d49ed4df3d57b52955025c6188cefc13e75df65400e1184bdcb42934",
+    "requiredOutputScopeAudit": "956bd1475a1fe19115447ca42c9ffb99f39b22f9f3fe738d474e38520c7ef41c"
+  },
+  "rows": [
+    {
+      "batch": 1,
+      "caseId": "single-meaning-next:静:153292:0:4",
+      "char": "静",
+      "pinyin": "jìng",
+      "tone": 4,
+      "priorStatus": "pending",
+      "acceptedScope": "per-character-project-explanation-only",
+      "editorial": {
+        "meaning": "取恬淡、平和之意。",
+        "projectWish": "项目创作：愿你在生活变化中保有从容与平和。",
+        "reason": "本字原条明确为靜的异体字，结合双向Unicode字形与当前jìng读音，可直接引用靜的独立平和形容义。",
+        "limits": [
+          "不把平和等同沉默、服从或必须压抑情绪。",
+          "不采用贞烈义约束性别或人格。",
+          "愿望是项目创作，不是性格测定。"
+        ]
+      },
+      "sourceIdentity": "fe8 frozen first publication; exact dictionary original and glyph proof retained there"
+    },
+    {
+      "batch": 1,
+      "caseId": "single-meaning-next:碧:105031:0:1",
+      "char": "碧",
+      "pinyin": "bì",
+      "tone": 4,
+      "priorStatus": "approved",
+      "acceptedScope": "per-character-project-explanation-only",
+      "editorial": {
+        "meaning": "取青绿色的自然色彩之意。",
+        "projectWish": "项目创作：愿生活保有清新而丰富的色彩。",
+        "reason": "选择直接颜色形容义，区别美石实体义，不依赖碧云等复词。",
+        "limits": [
+          "不由颜色推导五行、健康或命运。",
+          "不把青绿色改写为人格纯洁的原典定义。",
+          "色彩联想不证明任何具体景物出处。"
+        ]
+      },
+      "sourceIdentity": "fe8 frozen first publication; exact dictionary original and glyph proof retained there"
+    },
+    {
+      "batch": 1,
+      "caseId": "single-meaning-next:理:96624:0:7",
+      "char": "理",
+      "pinyin": "lǐ",
+      "tone": 3,
+      "priorStatus": "approved",
+      "acceptedScope": "per-character-project-explanation-only",
+      "editorial": {
+        "meaning": "取顺序、层次之意。",
+        "projectWish": "项目创作：愿你学习与表达时条理清楚。",
+        "reason": "顺序层次是独立名词义，可表达条理概念，不借事物规律义直接推定聪慧。",
+        "limits": [
+          "不以名字断定逻辑能力或智力。",
+          "不把项目学习愿望冒作词典原义。",
+          "不采用姓氏或学科简称义。"
+        ]
+      },
+      "sourceIdentity": "fe8 frozen first publication; exact dictionary original and glyph proof retained there"
+    },
+    {
+      "batch": 1,
+      "caseId": "single-meaning-next:奕:38570:0:1",
+      "char": "奕",
+      "pinyin": "yì",
+      "tone": 4,
+      "priorStatus": "approved",
+      "acceptedScope": "per-character-project-explanation-only",
+      "editorial": {
+        "meaning": "取美好样态之意。",
+        "projectWish": "项目创作：愿你以自己的方式呈现生活的美好。",
+        "reason": "默认yì下直接解释美好的样子，独立于古舞娴熟义和围棋义。",
+        "limits": [
+          "不把奕混成弈的棋艺释义。",
+          "不要求孩子符合外貌或性别标准。",
+          "不声称词典释为神采奕奕整个复词。"
+        ]
+      },
+      "sourceIdentity": "fe8 frozen first publication; exact dictionary original and glyph proof retained there"
+    },
+    {
+      "batch": 1,
+      "caseId": "single-meaning-next:墨:34262:0:0",
+      "char": "墨",
+      "pinyin": "mò",
+      "tone": 4,
+      "priorStatus": "approved",
+      "acceptedScope": "per-character-project-explanation-only",
+      "editorial": {
+        "meaning": "取书画所用黑色颜料的器物文化意象。",
+        "projectWish": "项目创作：愿你亲近书写与艺术，留下自己的表达。",
+        "reason": "书画颜料是完整实体名词义，不借文字知识义推定学识。",
+        "limits": [
+          "不把颜料本义直接说成文采或学识。",
+          "同字另有肉刑及贪污义，仍须另做整名音义检查。",
+          "不保证艺术能力或学业成就。"
+        ]
+      },
+      "sourceIdentity": "fe8 frozen first publication; exact dictionary original and glyph proof retained there"
+    },
+    {
+      "batch": 1,
+      "caseId": "single-meaning-next:青:153099:0:6",
+      "char": "青",
+      "pinyin": "qīng",
+      "tone": 1,
+      "priorStatus": "approved",
+      "acceptedScope": "per-character-project-explanation-only",
+      "editorial": {
+        "meaning": "取蓝色的色彩之意。",
+        "projectWish": "项目创作：愿你对广阔世界保持好奇。",
+        "reason": "选择qīng下独立蓝色形容义，不混用绿色草木、黑色或其他读音。",
+        "limits": [
+          "本条选蓝色，不声称青只有一种颜色义。",
+          "不将广阔好奇等项目联想当作原典释义。",
+          "不用颜色推导年龄、五行或命运。"
+        ]
+      },
+      "sourceIdentity": "fe8 frozen first publication; exact dictionary original and glyph proof retained there"
+    },
+    {
+      "batch": 1,
+      "caseId": "single-meaning-next:冰:17833:0:0",
+      "char": "冰",
+      "pinyin": "bīng",
+      "tone": 1,
+      "priorStatus": "approved",
+      "acceptedScope": "per-character-project-explanation-only",
+      "editorial": {
+        "meaning": "取凝结之水的自然物象。",
+        "projectWish": "项目创作：愿你留心自然变化，保持澄澈的观察。",
+        "reason": "选独立冰实体定义，避开需人格评价的纯洁义；完整原定义连同其温度表述原样保留。",
+        "limits": [
+          "词典温度表述为原文，不据此生成科学实验建议。",
+          "不把冰物象认定为孩子冷淡或纯洁。",
+          "不保证健康、品格或人生效果。"
+        ]
+      },
+      "sourceIdentity": "fe8 frozen first publication; exact dictionary original and glyph proof retained there"
+    },
+    {
+      "batch": 1,
+      "caseId": "single-meaning-next:朋:73620:0:0",
+      "char": "朋",
+      "pinyin": "péng",
+      "tone": 2,
+      "priorStatus": "approved",
+      "acceptedScope": "per-character-project-explanation-only",
+      "editorial": {
+        "meaning": "取朋友、友人之意。",
+        "projectWish": "项目创作：愿你珍惜平等相待的友谊。",
+        "reason": "友人为可独立指称的名词，不把结党或古货币单位义当作人际优势。",
+        "limits": [
+          "不保证社交能力或朋友数量。",
+          "不把友人概念直接评定孩子的性格。",
+          "不采用货币单位或党派联想。"
+        ]
+      },
+      "sourceIdentity": "fe8 frozen first publication; exact dictionary original and glyph proof retained there"
+    },
+    {
+      "batch": 1,
+      "caseId": "single-meaning-next:遥:142679:0:0",
+      "char": "遥",
+      "pinyin": "yáo",
+      "tone": 2,
+      "priorStatus": "approved",
+      "acceptedScope": "per-character-project-explanation-only",
+      "editorial": {
+        "meaning": "取远的空间意象。",
+        "projectWish": "项目创作：愿你看见更广的世界，也记得脚下的路。",
+        "reason": "远是独立形容义，不需由寻求、达到等动词补全对象。",
+        "limits": [
+          "远不自动等于志向远大或前程成功。",
+          "不预测距离、迁居或离别。",
+          "广阔世界为项目取意，不是原典附加定义。"
+        ]
+      },
+      "sourceIdentity": "fe8 frozen first publication; exact dictionary original and glyph proof retained there"
+    },
+    {
+      "batch": 1,
+      "caseId": "single-meaning-next:峻:46828:0:1",
+      "char": "峻",
+      "pinyin": "jùn",
+      "tone": 4,
+      "priorStatus": "approved",
+      "acceptedScope": "per-character-project-explanation-only",
+      "editorial": {
+        "meaning": "取伟大、宏大的文化赞许之意。",
+        "projectWish": "项目创作：愿你认真对待自己认可的价值。",
+        "reason": "选择jùn下独立伟大形容义，与高峭实体和严厉苛刻义明确分开。",
+        "limits": [
+          "不以伟大要求孩子承担成就压力。",
+          "不将严厉、苛刻包装为品德要求。",
+          "愿望不是名望或职业结果预测。"
+        ]
+      },
+      "sourceIdentity": "fe8 frozen first publication; exact dictionary original and glyph proof retained there"
+    },
+    {
+      "batch": 1,
+      "caseId": "single-meaning-next:肃:117686:0:1",
+      "char": "肃",
+      "pinyin": "sù",
+      "tone": 4,
+      "priorStatus": "approved",
+      "acceptedScope": "per-character-project-explanation-only",
+      "editorial": {
+        "meaning": "取庄严、郑重的态度之意。",
+        "projectWish": "项目创作：愿你对人和事认真而有分寸。",
+        "reason": "庄严是独立形容义，区别肃清动作、书信敬词或急迫严峻用法。",
+        "limits": [
+          "不把庄严等同冷漠或压抑情绪。",
+          "不推导纪律、权威或官位。",
+          "认真有分寸为项目愿望，不是人格鉴定。"
+        ]
+      },
+      "sourceIdentity": "fe8 frozen first publication; exact dictionary original and glyph proof retained there"
+    },
+    {
+      "batch": 1,
+      "caseId": "single-meaning-next:仪:14591:0:0",
+      "char": "仪",
+      "pinyin": "yí",
+      "tone": 2,
+      "priorStatus": "approved",
+      "acceptedScope": "per-character-project-explanation-only",
+      "editorial": {
+        "meaning": "取法则、标准之意。",
+        "projectWish": "项目创作：愿你建立清楚的原则，也尊重他人。",
+        "reason": "选择独立法则标准名词义，不借典范表率义直接断言完美德行。",
+        "limits": [
+          "不强迫孩子成为他人的标准。",
+          "不把仪解释为本条未选择的仪容或仪器义。",
+          "原则尊重为项目创作，不是词典原句。"
+        ]
+      },
+      "sourceIdentity": "fe8 frozen first publication; exact dictionary original and glyph proof retained there"
+    },
+    {
+      "batch": 1,
+      "caseId": "single-meaning-next:庆:56503:0:2",
+      "char": "庆",
+      "pinyin": "qìng",
+      "tone": 4,
+      "priorStatus": "approved",
+      "acceptedScope": "per-character-project-explanation-only",
+      "editorial": {
+        "meaning": "取德、善的文化概念。",
+        "projectWish": "项目创作：愿你在日常选择中体会善意。",
+        "reason": "qìng下原条直接有德善名词义，独立于喜事、福泽及贺喜动作。",
+        "limits": [
+          "不把善的概念当作孩子已有品德的证明。",
+          "不预测福泽、吉凶或庆贺事件。",
+          "保留原典历史引文，不移植帝王身份。"
+        ]
+      },
+      "sourceIdentity": "fe8 frozen first publication; exact dictionary original and glyph proof retained there"
+    },
+    {
+      "batch": 1,
+      "caseId": "single-meaning-next:惠:55334:0:4",
+      "char": "惠",
+      "pinyin": "huì",
+      "tone": 4,
+      "priorStatus": "approved",
+      "acceptedScope": "per-character-project-explanation-only",
+      "editorial": {
+        "meaning": "取和顺、温和之意。",
+        "projectWish": "项目创作：愿你温和待人，也保有自己的界限。",
+        "reason": "同音条独立形容义柔顺和顺，不需借施恩受惠的对象关系成立。",
+        "limits": [
+          "不把柔顺要求为服从或性别角色。",
+          "不使用恩惠义推导受人帮助的运势。",
+          "自我界限是项目取意，不是原文释义。"
+        ]
+      },
+      "sourceIdentity": "fe8 frozen first publication; exact dictionary original and glyph proof retained there"
+    },
+    {
+      "batch": 1,
+      "caseId": "single-meaning-next:元:14888:0:8",
+      "char": "元",
+      "pinyin": "yuán",
+      "tone": 2,
+      "priorStatus": "approved",
+      "acceptedScope": "per-character-project-explanation-only",
+      "editorial": {
+        "meaning": "取善的独立形容义。",
+        "projectWish": "项目创作：愿你从平常的小事中坚持善意。",
+        "reason": "原单字yuán条有善的独立定义，不借第一、钱币或朝代义。",
+        "limits": [
+          "不把善意愿望作为现实品德评定。",
+          "不预测财富、领先地位或命运。",
+          "不将此义冒称所有元字用法的唯一解释。"
+        ]
+      },
+      "sourceIdentity": "fe8 frozen first publication; exact dictionary original and glyph proof retained there"
+    },
+    {
+      "batch": 1,
+      "caseId": "single-meaning-next:彰:51723:0:0",
+      "char": "彰",
+      "pinyin": "zhāng",
+      "tone": 1,
+      "priorStatus": "approved",
+      "acceptedScope": "per-character-project-explanation-only",
+      "editorial": {
+        "meaning": "取清楚、明显之意。",
+        "projectWish": "项目创作：愿你清楚表达，也让行动与想法相互印证。",
+        "reason": "明显为独立形容义，区别需要宾语的表露宣扬动作，不自动添名声显赫。",
+        "limits": [
+          "不把明显直接解释为名声或官位显赫。",
+          "不要求孩子必须引人注目。",
+          "清楚表达为项目创作，不是词典心理结论。"
+        ]
+      },
+      "sourceIdentity": "fe8 frozen first publication; exact dictionary original and glyph proof retained there"
+    },
+    {
+      "batch": 1,
+      "caseId": "single-meaning-next:欢:79612:0:1",
+      "char": "欢",
+      "pinyin": "huān",
+      "tone": 1,
+      "priorStatus": "approved",
+      "acceptedScope": "per-character-project-explanation-only",
+      "editorial": {
+        "meaning": "取友好的态度之意。",
+        "projectWish": "项目创作：愿你与人相处时真诚而友好。",
+        "reason": "独立形容义友好，不借情人称谓，也不把喜乐解释成终身情绪保证。",
+        "limits": [
+          "不采用对情人的称呼义。",
+          "不保证人际关系或快乐程度。",
+          "不把友好要求为迎合所有人。"
+        ]
+      },
+      "sourceIdentity": "fe8 frozen first publication; exact dictionary original and glyph proof retained there"
+    },
+    {
+      "batch": 1,
+      "caseId": "single-meaning-next:豪:134656:0:6",
+      "char": "豪",
+      "pinyin": "háo",
+      "tone": 2,
+      "priorStatus": "approved",
+      "acceptedScope": "per-character-project-explanation-only",
+      "editorial": {
+        "meaning": "取爽快、舒展的态度之意。",
+        "projectWish": "项目创作：愿你坦然表达，也尊重彼此的边界。",
+        "reason": "同音条独立形容义爽快没有拘束，区别才德人物称谓、奢华及强横义。",
+        "limits": [
+          "不将没有拘束理解为不受规则约束。",
+          "不采用豪横、仗势或奢华评价。",
+          "不保证才能、财富或领导地位。"
+        ]
+      },
+      "sourceIdentity": "fe8 frozen first publication; exact dictionary original and glyph proof retained there"
+    },
+    {
+      "batch": 1,
+      "caseId": "single-meaning-next:纾:111486:0:1",
+      "char": "纾",
+      "pinyin": "shū",
+      "tone": 1,
+      "priorStatus": "approved",
+      "acceptedScope": "per-character-project-explanation-only",
+      "editorial": {
+        "meaning": "取宽缓、从容的意象。",
+        "projectWish": "项目创作：愿你在需要时给自己留出余地。",
+        "reason": "独立形容义宽缓宽裕，与需说明解除对象的动词义分开。",
+        "limits": [
+          "宽裕不构成财富或资源保障。",
+          "不把本义解释为终身无忧。",
+          "从容意象是项目取意，原文仍为宽缓宽裕。"
+        ]
+      },
+      "sourceIdentity": "fe8 frozen first publication; exact dictionary original and glyph proof retained there"
+    },
+    {
+      "batch": 1,
+      "caseId": "single-meaning-next:贵:135430:0:2",
+      "char": "贵",
+      "pinyin": "guì",
+      "tone": 4,
+      "priorStatus": "approved",
+      "acceptedScope": "per-character-project-explanation-only",
+      "editorial": {
+        "meaning": "取品质高的价值取向。",
+        "projectWish": "项目创作：愿你珍惜做事的品质，而不只看外在价格。",
+        "reason": "原单字guì下直接有品质高形容义，不借价钱、地位或重视动作填补对象。",
+        "limits": [
+          "不把品质高等同家境、阶层或人的身价。",
+          "不预测财富、地位或外界评价。",
+          "价值取向为项目创作，不能评定孩子高低。"
+        ]
+      },
+      "sourceIdentity": "fe8 frozen first publication; exact dictionary original and glyph proof retained there"
+    },
+    {
+      "batch": 2,
+      "caseId": "single-meaning-next:木:74035:0:0",
+      "char": "木",
+      "pinyin": "mù",
+      "tone": 4,
+      "priorStatus": "approved",
+      "acceptedScope": "per-character-project-explanation-only",
+      "editorial": {
+        "meaning": "取树与木本植物的自然物象。",
+        "projectWish": "项目创作：愿你亲近自然，留心生命的生长。",
+        "reason": "选树木实体名词，独立于朴实性情、失去知觉等人物评价，也不借五行名词解释。",
+        "limits": [
+          "不把树木物象当作性格朴实或呆笨的判断。",
+          "不由名字推定五行补缺或生长健康。",
+          "同字棺材及负面用法仍需整名使用检查。"
+        ]
+      },
+      "sourceIdentity": "aca original dictionary/glyph and unchanged accepted editorial"
+    },
+    {
+      "batch": 2,
+      "caseId": "single-meaning-next:南:23414:0:0",
+      "char": "南",
+      "pinyin": "nán",
+      "tone": 2,
+      "priorStatus": "approved",
+      "acceptedScope": "per-character-project-explanation-only",
+      "editorial": {
+        "meaning": "取与北相对的南方方位意象。",
+        "projectWish": "项目创作：愿你在探索生活时逐渐找到自己的方向。",
+        "reason": "方位名可独立解释，不借南行的动作补全对象，也不把地理方向包装为优秀品质。",
+        "limits": [
+          "不由名字认定出生地、祖籍或迁居方向。",
+          "不把方向意象说成性格温暖或人生顺利。",
+          "寻找方向是项目愿望，不是原典定义。"
+        ]
+      },
+      "sourceIdentity": "aca original dictionary/glyph and unchanged accepted editorial"
+    },
+    {
+      "batch": 2,
+      "caseId": "single-meaning-next:绿:113006:0:1",
+      "char": "绿",
+      "pinyin": "lǜ",
+      "tone": 4,
+      "priorStatus": "approved",
+      "acceptedScope": "per-character-project-explanation-only",
+      "editorial": {
+        "meaning": "取绿色的自然色彩。",
+        "projectWish": "项目创作：愿你的生活保有清新与多样的色彩。",
+        "reason": "选lǜ下直接绿色形容义，字形綠以固定双向Unicode字段核对；不借脸部表情或改变颜色的动词义。",
+        "limits": [
+          "不由颜色断言健康、生命力或环境效果。",
+          "不混用生气、着急或惊吓的表情义。",
+          "当前采用lǜ，不擅自替换为其他读音。"
+        ]
+      },
+      "sourceIdentity": "aca original dictionary/glyph and unchanged accepted editorial"
+    },
+    {
+      "batch": 2,
+      "caseId": "single-meaning-next:萍:123879:0:0",
+      "char": "萍",
+      "pinyin": "píng",
+      "tone": 2,
+      "priorStatus": "approved",
+      "acceptedScope": "per-character-project-explanation-only",
+      "editorial": {
+        "meaning": "取浮生水面的草本植物意象。",
+        "projectWish": "项目创作：愿你观察细小生命，也珍惜相遇。",
+        "reason": "本字完整植物实体定义可独立引用，不将漂动的习性改写为人格或命运。",
+        "limits": [
+          "不把水生植物意象判为漂泊或身不由己。",
+          "不承诺适应力、关系或人生安定。",
+          "不从浮生水面推导五行、生肖或吉凶。"
+        ]
+      },
+      "sourceIdentity": "aca original dictionary/glyph and unchanged accepted editorial"
+    },
+    {
+      "batch": 2,
+      "caseId": "single-meaning-next:情:55118:0:0",
+      "char": "情",
+      "pinyin": "qíng",
+      "tone": 2,
+      "priorStatus": "approved",
+      "acceptedScope": "per-character-project-explanation-only",
+      "editorial": {
+        "meaning": "取自然意念与感受的心理概念。",
+        "projectWish": "项目创作：愿你认真认识自己的感受，也理解他人。",
+        "reason": "原条为意念和心理状态的独立名词定义，本解释引用该概念，不限定为两性恋爱或友谊关系。",
+        "limits": [
+          "不将情感概念当作孩子已有心理特征的测定。",
+          "不采用两性间的爱或恋情形容义。",
+          "理解他人的愿望不构成共情能力或心理健康保证。"
+        ]
+      },
+      "sourceIdentity": "aca original dictionary/glyph and unchanged accepted editorial"
+    },
+    {
+      "batch": 2,
+      "caseId": "single-meaning-next:绪:113522:0:2",
+      "char": "绪",
+      "pinyin": "xù",
+      "tone": 4,
+      "priorStatus": "approved",
+      "acceptedScope": "per-character-project-explanation-only",
+      "editorial": {
+        "meaning": "取次序之意。",
+        "projectWish": "项目创作：愿你处理事情时渐渐建立自己的条理。",
+        "reason": "选择次序这一独立名词义，区别开端、事业和心境，不将其说成已具成就。",
+        "limits": [
+          "不把次序概念当作纪律、性格或智力评定。",
+          "不将绪解释为事业成功的原典承诺。",
+          "建立条理是项目愿望，不是孩子的既有事实。"
+        ]
+      },
+      "sourceIdentity": "aca original dictionary/glyph; b7b5 six-row editorial correction accepted by six-row audit"
+    },
+    {
+      "batch": 2,
+      "caseId": "single-meaning-next:朔:73727:0:0",
+      "char": "朔",
+      "pinyin": "shuò",
+      "tone": 4,
+      "priorStatus": "approved",
+      "acceptedScope": "per-character-project-explanation-only",
+      "editorial": {
+        "meaning": "取农历每月初一的历法意象。",
+        "projectWish": "项目创作：愿你珍惜重新开始和整理生活的机会。",
+        "reason": "农历每月初一为本字独立时间名词，取意不依赖未指定的开始对象。",
+        "limits": [
+          "名字不证明孩子实际出生在农历每月初一。",
+          "不把农历每月初一的意象作为时运或命局判断。",
+          "重新开始为项目联想，不声称是全部原义。"
+        ]
+      },
+      "sourceIdentity": "aca original dictionary/glyph; b7b5 six-row editorial correction accepted by six-row audit"
+    },
+    {
+      "batch": 2,
+      "caseId": "single-meaning-next:霆:152712:0:1",
+      "char": "霆",
+      "pinyin": "tíng",
+      "tone": 2,
+      "priorStatus": "approved",
+      "acceptedScope": "per-character-project-explanation-only",
+      "editorial": {
+        "meaning": "取闪电的自然现象意象。",
+        "projectWish": "项目创作：愿你对自然保持好奇，表达时清楚有力。",
+        "reason": "按本固定辞典所列的闪电义取意，原条引《玉篇》「霆，電也」及《淮南子》古籍用例；此处保留古籍用字背景，不把该义说成现代日常的默认用法，也不改作突然雷声义。",
+        "limits": [
+          "本条采用固定辞典及所引古籍的闪电义，不声称现代日常默认把霆单独用作闪电。",
+          "不把闪电意象推作权力、威严或性格强横。",
+          "不预测雷电、灾害或任何人生事件。",
+          "清楚表达属于项目取意，不是原典能力判断。"
+        ]
+      },
+      "sourceIdentity": "aca original dictionary/glyph; b7b5 six-row editorial correction accepted by six-row audit"
+    },
+    {
+      "batch": 2,
+      "caseId": "single-meaning-next:黛:161987:0:3",
+      "char": "黛",
+      "pinyin": "dài",
+      "tone": 4,
+      "priorStatus": "approved",
+      "acceptedScope": "per-character-project-explanation-only",
+      "editorial": {
+        "meaning": "取青黑色的色彩之意。",
+        "projectWish": "项目创作：愿你欣赏细致而各不相同的色彩。",
+        "reason": "选择独立颜色形容义，区别古代画眉颜料、妇女眉与美女称谓，避免性别身份作为采用条件。",
+        "limits": [
+          "不以颜色词要求外貌或性别角色。",
+          "不将黛的此义改写为美女或才女身份。",
+          "不由颜色推导心理特征、五行或运势。"
+        ]
+      },
+      "sourceIdentity": "aca original dictionary/glyph and unchanged accepted editorial"
+    },
+    {
+      "batch": 2,
+      "caseId": "single-meaning-next:格:76502:0:4",
+      "char": "格",
+      "pinyin": "gé",
+      "tone": 2,
+      "priorStatus": "approved",
+      "acceptedScope": "per-character-project-explanation-only",
+      "editorial": {
+        "meaning": "取标准、法式的概念。",
+        "projectWish": "项目创作：愿你形成做事的原则，也尊重不同的方式。",
+        "reason": "标准法式为独立名词，不借人品范畴补上优秀评价，也不从改正动作推造品格。",
+        "limits": [
+          "不认定孩子品格高于他人。",
+          "不要求以唯一标准评判自己或别人。",
+          "原则尊重是项目取意，不冒充原文。"
+        ]
+      },
+      "sourceIdentity": "aca original dictionary/glyph and unchanged accepted editorial"
+    },
+    {
+      "batch": 2,
+      "caseId": "single-meaning-next:中:6025:0:0",
+      "char": "中",
+      "pinyin": "zhōng",
+      "tone": 1,
+      "priorStatus": "pending",
+      "acceptedScope": "per-character-project-explanation-only",
+      "editorial": {
+        "meaning": "取距离四方或两端相等的部位之意。",
+        "projectWish": "项目创作：愿你看清不同位置，寻找适合自己的平衡。",
+        "reason": "当前zhōng的原义明确为距离四方或两端相等的部位，保留相等这一条件，不把任意两端之间的位置都算作中；不借中庸、中正等完整词语制造品格义。",
+        "limits": [
+          "空间中心不等于中庸、中正或公正的词典证明。",
+          "不由名字判定孩子应处在人群中心。",
+          "平衡为项目愿望，不是命局或心理测量结果。"
+        ]
+      },
+      "sourceIdentity": "aca original dictionary/glyph; b7b5 six-row editorial correction accepted by six-row audit"
+    },
+    {
+      "batch": 2,
+      "caseId": "single-meaning-next:黎:161706:0:1",
+      "char": "黎",
+      "pinyin": "lí",
+      "tone": 2,
+      "priorStatus": "pending",
+      "acceptedScope": "per-character-project-explanation-only",
+      "editorial": {
+        "meaning": "取黑色的色彩意象。",
+        "projectWish": "项目创作：愿你欣赏深浅不同的世界，并保有自己的观察。",
+        "reason": "按固定辞典lí下黑色形容义取意，原定义附「通『梨』『黧』」并引《荀子》「颜色黎黑」的古籍用字；保留通用字及古籍语境，不借黎明的晨光，也不采用民族或国名指称。",
+        "limits": [
+          "本条黑色义保留通「梨」、「黧」及古籍「颜色黎黑」的背景，不泛化为现代任意黑色事物的默认称呼。",
+          "不把本义改写为黎明、晨光或希望。",
+          "不以色彩评价肤色、族群或人的价值。",
+          "深浅世界是项目联想，不推定命运吉凶。"
+        ]
+      },
+      "sourceIdentity": "aca original dictionary/glyph; b7b5 six-row editorial correction accepted by six-row audit"
+    },
+    {
+      "batch": 2,
+      "caseId": "single-meaning-next:楚:77603:0:2",
+      "char": "楚",
+      "pinyin": "chǔ",
+      "tone": 3,
+      "priorStatus": "approved",
+      "acceptedScope": "per-character-project-explanation-only",
+      "editorial": {
+        "meaning": "取鲜明、华丽的样态之意。",
+        "projectWish": "项目创作：愿你发现生活的丰富，也保留自己的表达。",
+        "reason": "采用独立鲜明华丽形容义，不拆楚楚等复词，不借地域或古国名给予身份。",
+        "limits": [
+          "不以华丽要求外貌、消费或生活阶层。",
+          "同字痛苦及责打用法仍保留并另查整名。",
+          "不声称拥有某古国、地域或人物的品德。"
+        ]
+      },
+      "sourceIdentity": "aca original dictionary/glyph and unchanged accepted editorial"
+    },
+    {
+      "batch": 2,
+      "caseId": "single-meaning-next:空:107834:0:2",
+      "char": "空",
+      "pinyin": "kōng",
+      "tone": 1,
+      "priorStatus": "approved",
+      "acceptedScope": "per-character-project-explanation-only",
+      "editorial": {
+        "meaning": "取广阔、高旷的空间意象。",
+        "projectWish": "项目创作：愿你给思考留出余地，接纳新的可能。",
+        "reason": "kōng下有独立空间形容义，区别虚无、徒然及佛教概念，不依赖借用天空复词。",
+        "limits": [
+          "不把广阔意象写成空想、不切实际或虚无的要求。",
+          "不借宗教义宣称精神修为或超自然效果。",
+          "思考余地是项目联想，不是能力结论。"
+        ]
+      },
+      "sourceIdentity": "aca original dictionary/glyph and unchanged accepted editorial"
+    },
+    {
+      "batch": 2,
+      "caseId": "single-meaning-next:普:71655:0:0",
+      "char": "普",
+      "pinyin": "pǔ",
+      "tone": 3,
+      "priorStatus": "approved",
+      "acceptedScope": "per-character-project-explanation-only",
+      "editorial": {
+        "meaning": "取广大而周遍之意。",
+        "projectWish": "项目创作：愿你对更广的生活保持关心。",
+        "reason": "原单字直接为广大周遍的形容义，不从国名简称或姓氏借义，不添人人受惠等行为结果。",
+        "limits": [
+          "不把周遍概念夸为普度、普及能力或必然影响他人。",
+          "不赋予宗教、权力或救世身份。",
+          "关心生活属于项目愿望，不是已有品德的证明。"
+        ]
+      },
+      "sourceIdentity": "aca original dictionary/glyph and unchanged accepted editorial"
+    },
+    {
+      "batch": 2,
+      "caseId": "single-meaning-next:高:158594:0:0",
+      "char": "高",
+      "pinyin": "gāo",
+      "tone": 1,
+      "priorStatus": "approved",
+      "acceptedScope": "per-character-project-explanation-only",
+      "editorial": {
+        "meaning": "取上下距离较大的空间意象。",
+        "projectWish": "项目创作：愿你探索不同的视野，也踏实看待眼前。",
+        "reason": "选择高低相对的直接空间形容义，完整保留本条原例，不把比较位置等同人的等级。",
+        "limits": [
+          "不由空间高低判断人的优劣或社会地位。",
+          "不承诺身高、价格、学业或职业成就。",
+          "视野探索是项目取意，不是词典人格义。"
+        ]
+      },
+      "sourceIdentity": "aca original dictionary/glyph and unchanged accepted editorial"
+    },
+    {
+      "batch": 2,
+      "caseId": "single-meaning-next:程:107277:0:2",
+      "char": "程",
+      "pinyin": "chéng",
+      "tone": 2,
+      "priorStatus": "approved",
+      "acceptedScope": "per-character-project-explanation-only",
+      "editorial": {
+        "meaning": "取法式、规范的概念。",
+        "projectWish": "项目创作：愿你在尝试中形成可靠而灵活的做事方法。",
+        "reason": "法式规范为独立名词，区别行程距离与一定进度，不把规范等同官位或成功路径。",
+        "limits": [
+          "不保证发展进度、职业或人生道路。",
+          "不以规范要求机械服从或唯一成长路线。",
+          "做事方法是项目愿望，不是本字的能力断言。"
+        ]
+      },
+      "sourceIdentity": "aca original dictionary/glyph and unchanged accepted editorial"
+    },
+    {
+      "batch": 2,
+      "caseId": "single-meaning-next:境:34131:0:1",
+      "char": "境",
+      "pinyin": "jìng",
+      "tone": 4,
+      "priorStatus": "pending",
+      "acceptedScope": "per-character-project-explanation-only",
+      "editorial": {
+        "meaning": "取地方、区域的空间意象。",
+        "projectWish": "项目创作：愿你关心身边的环境，也认识更大的世界。",
+        "reason": "地方区域为当前jìng下独立实体范围名词，不借意境等复词制造艺术修养义。",
+        "limits": [
+          "不由名字推定祖籍、地域身份或生活条件。",
+          "不把区域义改写为心境、境界或艺术才能。",
+          "关心环境为项目取意，不构成环保效果保证。"
+        ]
+      },
+      "sourceIdentity": "aca original dictionary/glyph and unchanged accepted editorial"
+    },
+    {
+      "batch": 2,
+      "caseId": "single-meaning-next:翠:115840:0:6",
+      "char": "翠",
+      "pinyin": "cuì",
+      "tone": 4,
+      "priorStatus": "approved",
+      "acceptedScope": "per-character-project-explanation-only",
+      "editorial": {
+        "meaning": "取青绿色的色彩意象。",
+        "projectWish": "项目创作：愿你留心草木与水色，珍惜生活中的细节。",
+        "reason": "选择直接颜色形容义，区别翠鸟简称、参见翡翠及人物比喻，不从复词拆美玉义。",
+        "limits": [
+          "不把青绿色本义写成财富、美玉品质或外貌评定。",
+          "不采用美女、妓女等人物比喻义。",
+          "草木水色是项目联想，不证明某首诗的完整出处。"
+        ]
+      },
+      "sourceIdentity": "aca original dictionary/glyph and unchanged accepted editorial"
+    },
+    {
+      "batch": 2,
+      "caseId": "single-meaning-next:彩:51603:0:1",
+      "char": "彩",
+      "pinyin": "cǎi",
+      "tone": 3,
+      "priorStatus": "approved",
+      "acceptedScope": "per-character-project-explanation-only",
+      "editorial": {
+        "meaning": "取颜色与颜料的色彩意象。",
+        "projectWish": "项目创作：愿你保有自己的表达，欣赏多样的色彩。",
+        "reason": "颜色颜料是独立名词定义，区别奖项、伤及喝彩，不把彩云等完整词义拆用。",
+        "limits": [
+          "不由颜色意象许诺获奖、发财或好运。",
+          "不把色彩多样等同人格或能力优越。",
+          "表达愿望属于项目创作，不是原典断语。"
+        ]
+      },
+      "sourceIdentity": "aca original dictionary/glyph; b7b5 six-row editorial correction accepted by six-row audit"
+    }
+  ],
+  "limits": [
+    "No original-source hash review repeated.",
+    "This file is decision inventory, not a main-loadable admission or code activation.",
+    "Only the independently accepted exact senses and editorial rows may enter the next immutable publication."
+  ]
+}

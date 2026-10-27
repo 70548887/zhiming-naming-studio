@@ -1,0 +1,48 @@
+{
+  "version": "yue-homophone-review/1.0.0",
+  "hashConvention": "sha256(JSON.stringify(fileHashes)); sorted relative path keys",
+  "sources": [
+    {
+      "id": "yue-homophones-wiktionary-fixed",
+      "name": "固定中文维基词典12词义及粤语审阅规则",
+      "url": "https://zh.wiktionary.org/",
+      "commit": "snapshot-sha256:3c9fa2e012e6c257b7a0789b581cadc3f19fd8316118dc48235b1eb4ccbd2d10",
+      "license": "CC-BY-SA-4.0",
+      "files": [
+        "data/raw/yue-homophone-CC-BY-SA-4.0.txt",
+        "data/raw/yue-homophone-wiktionary-NOTICE.md",
+        "data/raw/yue-homophone-wiktionary-excerpts.json",
+        "data/yue-homophone-rules.json"
+      ],
+      "sha256": "9193719485cd87c9f4fe4ba95b04ee3295f31fda62fe7e08b980076ec21054cd",
+      "note": "中文维基词典贡献者／Kaikki；保留原义、行号和语域；仅有限词汇联想，不评价姓名持有人。",
+      "fileHashes": {
+        "data/raw/yue-homophone-CC-BY-SA-4.0.txt": "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5",
+        "data/raw/yue-homophone-wiktionary-NOTICE.md": "0b31ee6c31ecdd6aed4de4be6fee56f561505d01bd87f0ee73a5cd04c5841090",
+        "data/raw/yue-homophone-wiktionary-excerpts.json": "8a76ed5b74961fca2a9054bfd250c4eb10a6382af338d4c4c6a607c709ff21a1",
+        "data/yue-homophone-rules.json": "a36bb8178264cb0555531295e7afb061b4a4d67bf7585bf3c07a72aa44bf9023"
+      }
+    },
+    {
+      "id": "yue-homophones-rime-fixed",
+      "name": "Rime固定粤拼12词音原行节录",
+      "url": "https://github.com/rime/rime-cantonese/tree/259f0e48bba840c3a2e0d117539e96937f3d89bc",
+      "commit": "259f0e48bba840c3a2e0d117539e96937f3d89bc",
+      "license": "CC-BY-4.0",
+      "files": [
+        "data/raw/yue-homophone-CC-BY-4.0.txt",
+        "data/raw/yue-homophone-rime-NOTICE.md",
+        "data/raw/yue-homophone-rime-README-cmn.md",
+        "data/raw/yue-homophone-rime-excerpts.json"
+      ],
+      "sha256": "276412770b920627919b81cdce53baf254744b0fefbb73af97f647ca32e7af23",
+      "note": "CanCLID及Rime Cantonese contributors；仅12显式词音行，不含maps或phrase，不改变旧字音源。",
+      "fileHashes": {
+        "data/raw/yue-homophone-CC-BY-4.0.txt": "97d24386ff776d7160b87031b259a942bd03c9939796cab6724ad5d17d2cf785",
+        "data/raw/yue-homophone-rime-NOTICE.md": "b7b26a7f518b167cee58c05af24d2e07f873f87c52f9a6b6011c364bc1bb5338",
+        "data/raw/yue-homophone-rime-README-cmn.md": "ca0783ce0a7eaa6560e7718d50ed2f7db2488d1b73eb5c3f82cf116ba2831d56",
+        "data/raw/yue-homophone-rime-excerpts.json": "4654a8c39cf903b4535c1110499ab56c1a73bf3dc24b84f0f400b5b8bc453538"
+      }
+    }
+  ]
+}

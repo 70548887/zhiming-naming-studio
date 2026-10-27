@@ -1,0 +1,33 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {execFileSync} from 'node:child_process';
+import {ROOT,PRODUCT_ROOT,BASE_HEAD,BOUNDARY,readJson,filePin,hash,need,sourceSpecs,readInputs,coverageInventory,makeCases,atomicWrite} from './lib.mjs';
+
+const currentHead=execFileSync('git',['-C',PRODUCT_ROOT,'rev-parse','HEAD'],{encoding:'utf8'}).trim();
+need(currentHead===BASE_HEAD,'product HEAD differs from fixed M740 baseline');
+const specs=sourceSpecs(), input=readInputs(specs), selection=readJson(path.join(ROOT,'selection.json'));
+need(selection.count===10&&selection.selected.length===10&&new Set(selection.selected.map(r=>r.char)).size===10,'exact 10 selection');
+const before=specs.map(spec=>({root:spec.root,file:spec.file,absolute:spec.absolute,...filePin(spec.absolute)}));
+const inventory=coverageInventory(input),cases=makeCases(input,selection,inventory);
+const profile={schema:'m740-default-meaning-profile/1',batchId:'M740-D02',version:'m740-default-meanings/1.0.0',sourceId:'naming-character-meanings-m740-candidate',count:10,scope:'on-request-supplement-only',defaultDatasetChanged:false,generationAuthority:false,sourceAuthority:false,...BOUNDARY,cases};
+const selected=cases.map(r=>r.char);
+const coverage={...inventory,baseline:{productRoot:PRODUCT_ROOT,head:BASE_HEAD,sourceContentIdentity:hash(JSON.stringify(before))},
+ selected:{count:cases.length,characters:selected,priorManual:cases.filter(r=>r.priorV7Status==='manual-confirmation-required').length,priorPending:cases.filter(r=>r.priorV7Review.status==='pending').length,alreadySelectedOverlap:[],automaticCoverageOverlap:[]},
+ delta:{candidateDefaultDirectRows:10,candidateDefaultDirectCharacters:10,formalCoverageAdded:0,automaticDefaultCoverageAdded:0,standaloneAdmittedCoverageAdded:0,wholeWordCoverageAdded:0,existingCandidateOccupancyBefore:inventory.existingCandidateOccupancy.allSelectedCharacters.count,existingCandidateOccupancyAfter:inventory.existingCandidateOccupancy.allSelectedCharacters.count+10,remainingUnselectedDefaultPoolBefore:inventory.remainingUnselectedDefaultPool.count,remainingUnselectedDefaultPoolAfter:inventory.remainingUnselectedDefaultPool.count-10},
+ reviewGate:{status:'pending-independent-review',actualQueryWiring:'not-executed',actualGenerationWiring:'not-executed',rootOwnsFinalRegistration:true}};
+const pending={schema:'m740-per-row-review-queue/1',batchId:profile.batchId,status:'pending-independent-review',formalCoverageAdded:0,rows:cases.map(row=>({caseId:row.caseId,char:row.char,pinyin:row.pinyin,tone:row.tone,dictionaryWord:row.source.word,dictionarySense:row.source.definition.def,sourcePOS:row.source.sourcePOS,projectMeaning:row.project.meaning,historicalStatus:row.priorV7Review.status,historicalApplicability:row.priorV7Status,historicalReason:row.priorV7Review.applicability.reason,glyphKind:row.glyph.kind,glyphReview:'pending',senseReview:'pending',projectReview:'pending',wholeNameReview:'not-assessed',limits:row.project.limits,unknowns:row.review.unknowns,requiredChecks:row.review.requiredChecks}))};
+atomicWrite('data/profile.json',profile);
+atomicWrite('data/rows.jsonl',cases.map(row=>JSON.stringify(row)).join('\n')+'\n');
+atomicWrite('data/coverage.json',coverage);
+atomicWrite('data/pending-review.json',pending);
+atomicWrite('data/NOTICE.md','# M740-D02 默认读音单字说明候选10\n\nMOE《重編國語辭典修訂本》原著作者为教育部国语推行委员会，发行单位为中华民国教育部，现维护单位为国家教育研究院。词典本文按 CC-BY-ND-3.0-TW 保留；固定原件来自原项目记录的 kcwu/moedict-data 修订本 a6dc997417507eb510fc29822bc514de2c92728c。原条 title、heteronyms、definition、type、例句及引文完整保留，不改写辞典原句，不将原文重新授权为 CC0。完整原始许可由 source-lock 中 raw/CC-BY-ND-3.0-TW.html 与 raw/moe-README.md 固定。\n\nUnicode 字形关系只引用固定 raw/kTraditionalVariant.txt、raw/kSimplifiedVariant.txt 的原行，按原 Unicode License V3 许可；完整许可 raw/unicode-LICENSE 由 source-lock 固定。字形关系不证明所有语义等价，不批准户籍用字。\n\nproject.meaning、limits、review 和接口结构为独立项目创作，按 CC0-1.0；不得冒称辞典原义、原典引文、人格或心理测量、运势判断。词典原文位于 source，项目取意位于 project。\n\ncandidate/off，仅为后续独审及 query/generation 接线准备。productionApproved=false、formalCoverageAdded=0、wholeNameMeaning=null、automaticSemanticCreditAllowed=false、scoreDelta=0。全部历史 manual/pending 状态保留。没有复制完整压缩辞典，没有改动旧批次、主产品或客户数据。\n');
+const dataFiles=['data/profile.json','data/rows.jsonl','data/coverage.json','data/pending-review.json','data/NOTICE.md','selection.json','inventory-sources.json'];
+const candidates=dataFiles.map(file=>({file,...filePin(path.join(ROOT,file))}));
+const sourceFiles=before.map(({root,file,absolute,bytes,sha256})=>({root,file,absolute,bytes,sha256}));
+atomicWrite('data/source-lock.json',{schema:'m740-source-lock/1',batchId:profile.batchId,version:profile.version,sourceFiles,candidateFiles:candidates,dictionaryLicense:'CC-BY-ND-3.0-TW',projectLicense:'CC0-1.0',unicodeLicense:'Unicode-License-V3',sourceStorage:'external-read-only-reuse-no-gzip-copy',baselineHead:BASE_HEAD});
+const manifestFiles=[...candidates,{file:'data/source-lock.json',...filePin(path.join(ROOT,'data/source-lock.json'))}];
+atomicWrite('data/manifest.json',{schema:'m740-candidate-manifest/1',batchId:profile.batchId,version:profile.version,count:10,state:'candidate-source-bound-not-admitted',...BOUNDARY,sourceFiles,candidateFiles:manifestFiles,selections:cases.map(({char,pinyin,tone})=>({char,pinyin,tone})),defaultDatasetChanged:false,independentReviewStatus:'pending',queryWiring:'not-executed',generationWiring:'not-executed'});
+atomicWrite('pins.mjs',`// Generated from the M740 fixed source closure; no query caller supplies these values.\nexport const MANIFEST_SHA256='${filePin(path.join(ROOT,'data/manifest.json')).sha256}';\nexport const SOURCE_LOCK_SHA256='${filePin(path.join(ROOT,'data/source-lock.json')).sha256}';\nexport const EXPECTED_CHARACTERS=Object.freeze(${JSON.stringify(selected)});\n`);
+for(const spec of before)need(filePin(spec.absolute).sha256===spec.sha256,'protected source changed '+spec.file);
+atomicWrite('validation/build-receipt.json',{schema:'m740-build-receipt/1',status:'passed',baselineHead:BASE_HEAD,candidateRows:10,sourceFiles:before.length,protectedSourceBytesUnchanged:true,compressedDictionaryCopies:0,outputBoundary:ROOT,formalCoverageAdded:0,manifestSha256:filePin(path.join(ROOT,'data/manifest.json')).sha256});
+console.log(JSON.stringify({status:'built',count:10,selected,baseline:{base:inventory.baseProjectMeanings.count,v7Automatic:inventory.supplementalAutomatic.count,m460:inventory.standaloneOnRequest.count,automaticUnion:inventory.automaticDefaultUnion.count,automaticOrStandalone:inventory.currentAutomaticOrStandaloneUnion.count,outstanding:inventory.outstandingDefault.count,occupied:inventory.existingCandidateOccupancy.allSelectedCharacters.count,remaining:inventory.remainingUnselectedDefaultPool.count},formalCoverageAdded:0,sourceFiles:before.length}));

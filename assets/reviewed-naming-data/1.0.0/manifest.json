@@ -1,0 +1,606 @@
+{
+  "schemaVersion": "reviewed-naming-data-manifest/1.0.0",
+  "publicationId": "reviewed-naming-data/1.0.0",
+  "evidence": {
+    "m751": {
+      "originalCommit": "d80df63f0fee2ce27bdd33aa20963ac137820d65",
+      "integrationCommit": "dd19d38ef3902ee94f25cfbdbf5846c52666b15a",
+      "reviewStatus": "candidate-not-independently-reviewed",
+      "snapshotSha256": "5560b2f2fa6f6ead7d87561e1d699617d5359189eeaf7a2e68ffb6bb00da1881"
+    },
+    "m752": {
+      "manifestSha256": "5f4b29d9a5cd13c2d0496fd84172823e551be0221cdc52c83d95d933e1e79969",
+      "decisionSha256": "ecfb610b2c3467b9326e45c25fa4581870f6b3a2087b6490af08bd77d39ccbe6"
+    },
+    "m740": {
+      "deliverySha256": "0290ada57d4e87386e224d6be33901e0f626d3530c74e9d48611f046a6252f23",
+      "manifestSha256": "c1fd08a128672f0515e94e1729a5bc5bdc2756941d23f4e6353fe3dacee3c81a",
+      "lockSha256": "560d89b2652a622b1efa438330e2ab4be135e5ab0502f1ad14aa9d026fb2b21c"
+    },
+    "m744": {
+      "auditSha256": "8b272e6062254fe3f112a19ee6a1f31a086ca56dc5964e21eb45fae8bc59b157"
+    }
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 771,
+      "sha256": "bff6fcad7249a3fc3207d1f557682c4bcf5d779ab39ef1392d523eb6bc27702a"
+    },
+    {
+      "path": "originals/m740/M740-CONTRACT.json",
+      "bytes": 1334,
+      "sha256": "794825abaab112e9c3474b0e738de488504f6c43fcc050313e0001d5ecb1deae"
+    },
+    {
+      "path": "originals/m740/M740-MANIFEST.json",
+      "bytes": 3529,
+      "sha256": "0290ada57d4e87386e224d6be33901e0f626d3530c74e9d48611f046a6252f23"
+    },
+    {
+      "path": "originals/m740/README.md",
+      "bytes": 1658,
+      "sha256": "41546a2013832dccd053b2433a684a26b84c27245c21fadd7294a450be4ad557"
+    },
+    {
+      "path": "originals/m740/build.mjs",
+      "bytes": 7321,
+      "sha256": "d508f206bbe10dca731a05456a51e1d48d0abfa0f350b924157f73c3d8102b0c"
+    },
+    {
+      "path": "originals/m740/data/NOTICE.md",
+      "bytes": 1411,
+      "sha256": "6eeda546ec8b62c2785b62146a158f0445a3eb722a63553eadae7ed33d980ade"
+    },
+    {
+      "path": "originals/m740/data/coverage.json",
+      "bytes": 45421,
+      "sha256": "a28a43c3c671dafc39a3fd4e485a2cc0f295928589af4b6be8c3a69af9fb874f"
+    },
+    {
+      "path": "originals/m740/data/manifest.json",
+      "bytes": 11588,
+      "sha256": "c1fd08a128672f0515e94e1729a5bc5bdc2756941d23f4e6353fe3dacee3c81a"
+    },
+    {
+      "path": "originals/m740/data/pending-review.json",
+      "bytes": 12282,
+      "sha256": "e2a4777ac12aa144fc36d0750061934048d0d192d386bf9c190b84cec3c6c879"
+    },
+    {
+      "path": "originals/m740/data/profile.json",
+      "bytes": 94920,
+      "sha256": "9e9b54ec980a0edf023963a95b721ae91212a5b06d9121873cd2e9d6f7f3e397"
+    },
+    {
+      "path": "originals/m740/data/rows.jsonl",
+      "bytes": 63025,
+      "sha256": "1d96bcdc11a9f1b6108397a5510af05f40084262e95e07d228727f208aeec34b"
+    },
+    {
+      "path": "originals/m740/data/source-lock.json",
+      "bytes": 10410,
+      "sha256": "560d89b2652a622b1efa438330e2ab4be135e5ab0502f1ad14aa9d026fb2b21c"
+    },
+    {
+      "path": "originals/m740/execution-ledger.json",
+      "bytes": 4839,
+      "sha256": "5a0ff57d8437d85d1a552d4aeb2f7d7b2ebaed4a39480755a1190897de6ec50c"
+    },
+    {
+      "path": "originals/m740/inventory-sources.json",
+      "bytes": 1145,
+      "sha256": "e77f5375219690c3b36f956d96133102332e356f529de81d978d6421c0dff171"
+    },
+    {
+      "path": "originals/m740/lib.mjs",
+      "bytes": 14167,
+      "sha256": "970e8f7fa24b3f4cdd5b790fe1356ce61455d2581118e4e1f2b8cf32865a5454"
+    },
+    {
+      "path": "originals/m740/package.json",
+      "bytes": 218,
+      "sha256": "5b881d3809e85327f2e6e45c21ebe7a6c5140d22c53bfc66cf0f26c217eec62c"
+    },
+    {
+      "path": "originals/m740/pins.mjs",
+      "bytes": 396,
+      "sha256": "66257006ba23d7811b56ecf39a3c25bcd8def519de8fc0d3b5edf8fd0d3998ea"
+    },
+    {
+      "path": "originals/m740/selection.json",
+      "bytes": 4417,
+      "sha256": "cb37e6d32afd84dcad963e7b7edd8ad2dbff5b7d19ac301196c66905c25bca1e"
+    },
+    {
+      "path": "originals/m740/tests/data.test.mjs",
+      "bytes": 6982,
+      "sha256": "04d221fd03381d2b08c4a917849e9f6e921a71bdb73807785b901fa190b3788b"
+    },
+    {
+      "path": "originals/m740/validate.mjs",
+      "bytes": 6336,
+      "sha256": "0517588cbbaf8f3ddbf07ab2b28aef92a101b9c52674c7635efec1715747cc9b"
+    },
+    {
+      "path": "originals/m740/validation/build-receipt.json",
+      "bytes": 439,
+      "sha256": "cc3daa8d36a44777a3173a7385f83fdd004cc1eb7fbb7623b5e93602a843bdd8"
+    },
+    {
+      "path": "originals/m740/validation/test-receipt.json",
+      "bytes": 446,
+      "sha256": "30f42c71675f057937996d5d614ebef1a9fda7a2106b3f0b6ed0c1bb30583b74"
+    },
+    {
+      "path": "originals/m740/validation/verify-receipt.json",
+      "bytes": 627,
+      "sha256": "35c479102788b84187a856bd06d5af8bdb9bdd1baa99a5f4a3db4541f6490d1b"
+    },
+    {
+      "path": "originals/m744/M744-DATA-AUDIT.json",
+      "bytes": 16357,
+      "sha256": "8b272e6062254fe3f112a19ee6a1f31a086ca56dc5964e21eb45fae8bc59b157"
+    },
+    {
+      "path": "originals/m744/M744-DATA-AUDIT.md",
+      "bytes": 7614,
+      "sha256": "b4cf2ca2ccb09c24cdd98348497eaf70ea7703e1d3bef918dd3ad680721101f9"
+    },
+    {
+      "path": "originals/m744/M744-DATA-manifest.json",
+      "bytes": 2738,
+      "sha256": "d0222e113f95d50c85f0e405475eda020e4d6f22825c0246328e394f4f62ee98"
+    },
+    {
+      "path": "originals/m744/coverage-integrity.json",
+      "bytes": 22487,
+      "sha256": "b2dc2310575613beb123fe2937295b6f7138dd71a8397e7dbdf6bb3bcfbc1a62"
+    },
+    {
+      "path": "originals/m744/coverage-probes/actual-semantics-v6.cjs",
+      "bytes": 641550,
+      "sha256": "009a588676b1e8f369090095ef5e37df0c65ff60b6073f012f7c1218a0b07574"
+    },
+    {
+      "path": "originals/m744/coverage-probes/execution-ledger.json",
+      "bytes": 4156,
+      "sha256": "8c9449e29bde88b4250b3b7bd3c5048cd9750df1dbe3115157cbc317bc278cba"
+    },
+    {
+      "path": "originals/m744/coverage-probes/independent-coverage-audit.mjs",
+      "bytes": 13039,
+      "sha256": "6ffcfebf142f3190c99577d0760093299ad6a9a86761f1256200ad33490286d6"
+    },
+    {
+      "path": "originals/m744/coverage-probes/recomputed-sets.json",
+      "bytes": 32338,
+      "sha256": "d58838bf158133cd10192110449c46bfb2d9d040e90f029a5b06d95fb13c04a1"
+    },
+    {
+      "path": "originals/m744/execution-ledger.json",
+      "bytes": 2198,
+      "sha256": "b73ec886387d5f1c530ae1a5876b0aa1e5c2e5bc5a18cf43616710c47be1b363"
+    },
+    {
+      "path": "originals/m744/input-integrity.json",
+      "bytes": 21353,
+      "sha256": "ab5fc7dcee485b2841f57646dbee1cbfcd7b4c96d0555e0278d6ab49e23d8d95"
+    },
+    {
+      "path": "originals/m744/rows-a.json",
+      "bytes": 16185,
+      "sha256": "35609399a5d0fbe94276e9c797d4c392346a6f8f73acf99e2088513ee7c8452b"
+    },
+    {
+      "path": "originals/m744/rows-b.json",
+      "bytes": 19637,
+      "sha256": "f690d6cfb9f13ea3d2d9ead7b94e774fc78e78ba473f1145be8698ead04f1978"
+    },
+    {
+      "path": "originals/m751-consumer/snapshot.json",
+      "bytes": 1195,
+      "sha256": "5560b2f2fa6f6ead7d87561e1d699617d5359189eeaf7a2e68ffb6bb00da1881"
+    },
+    {
+      "path": "originals/m751-consumer/src/domain/naming-semantic-admission-v72.ts",
+      "bytes": 14132,
+      "sha256": "ad8f30794f58c65d2924d509772c10772c1f45ee1ee0b63fd5b4e119341d5e3f"
+    },
+    {
+      "path": "originals/m751-consumer/src/main/naming-semantic-admission-v72-data.ts",
+      "bytes": 14766,
+      "sha256": "3ee875decabc52c92d979d6ced5f64a8d00910bccbbdc7cff92b7093b3329d27"
+    },
+    {
+      "path": "originals/m751-consumer/src/main/naming-semantic-generation-v72.ts",
+      "bytes": 16218,
+      "sha256": "b64f495fb4cce436955d4aac2a6aaa470fbe8f2a6d2686b81c2c82eefa3bde35"
+    },
+    {
+      "path": "originals/m751-consumer/src/shared/naming-semantic-admission-v72.ts",
+      "bytes": 7253,
+      "sha256": "13ba389a0eda0bfcda935891d17eb105a1af0010cc7b975dbdfad00847b8cc0a"
+    },
+    {
+      "path": "originals/m751-consumer/tests/naming-semantic-admission-v72.test.ts",
+      "bytes": 21899,
+      "sha256": "ad94e589b074bec078468bbcec0d79b855743b6792cb2c0c52b5df448d78525b"
+    },
+    {
+      "path": "originals/m752-r2/M752-R2-DECISION.md",
+      "bytes": 1241,
+      "sha256": "6e08fd5083c7cda9200faa59b03e5e1ef5c0c217f1364b9b63d687aeb171ea5a"
+    },
+    {
+      "path": "originals/m752-r2/acceptance-cases.json",
+      "bytes": 84512,
+      "sha256": "e87d6111d901e63df44693263618d7c74f5e0e043805f26b021378f4579dd556"
+    },
+    {
+      "path": "originals/m752-r2/build-r2.mjs",
+      "bytes": 18123,
+      "sha256": "27263618fbda7a6cddbe74005667f6a313f8d6ee4992588846781f6284810803"
+    },
+    {
+      "path": "originals/m752-r2/conflict-registry.json",
+      "bytes": 5232,
+      "sha256": "84bc15c8561bd0ffe4860720bbbdfd0c653c0c84ea290499fc8ef005ebbcadb9"
+    },
+    {
+      "path": "originals/m752-r2/execution-ledger.json",
+      "bytes": 979,
+      "sha256": "96e2c9cf3dfffb387311a5f1ddf494ef5896687cc820c447a2cbcb80e8c856c4"
+    },
+    {
+      "path": "originals/m752-r2/generation-admission-contract.json",
+      "bytes": 13667,
+      "sha256": "660087ff57c5de26e4990a3c52a0c35f14180716fc2baaeac9f607ccb5573d06"
+    },
+    {
+      "path": "originals/m752-r2/generation-admission-v72.d.ts",
+      "bytes": 2957,
+      "sha256": "b673278a88ee94b812e5c90d240584343b0d724948f886fe845b93ca22cf9cdd"
+    },
+    {
+      "path": "originals/m752-r2/input-pins.json",
+      "bytes": 1201,
+      "sha256": "7e4ec90b5eea9e8975f1cb87ea68370b96311395b94d851043ee6854eab18ef4"
+    },
+    {
+      "path": "originals/m752-r2/m740-generation-admission.json",
+      "bytes": 54345,
+      "sha256": "ecfb610b2c3467b9326e45c25fa4581870f6b3a2087b6490af08bd77d39ccbe6"
+    },
+    {
+      "path": "originals/m752-r2/manifest.json",
+      "bytes": 1948,
+      "sha256": "5f4b29d9a5cd13c2d0496fd84172823e551be0221cdc52c83d95d933e1e79969"
+    },
+    {
+      "path": "originals/m752-r2/theme-registry.json",
+      "bytes": 1599,
+      "sha256": "70af9e1f5932b68a9ad7b615459cc955335f62d0453ca0344888051ffca82171"
+    },
+    {
+      "path": "originals/m752-r2/verification.json",
+      "bytes": 634,
+      "sha256": "329e545e2fc255de56be19a3a7966cb7ba410ba479bf2fd4c803dfdfc83f22f2"
+    },
+    {
+      "path": "originals/m752-r2/verify-r2.mjs",
+      "bytes": 4818,
+      "sha256": "61f3a1bd0969dd86043d8d148ffc545ecfe8d75101befb471e81c7bbb81564a2"
+    },
+    {
+      "path": "originals/upstream-provenance.json",
+      "bytes": 9332,
+      "sha256": "6ae336b758fa10245323bd60b8dfbc65a8f9a6cfc23a167b35000121dd3c47ae"
+    },
+    {
+      "path": "product/data/dataset-v6.json",
+      "bytes": 1563457,
+      "sha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728"
+    },
+    {
+      "path": "product/data/knowledge-v6.sqlite",
+      "bytes": 1454080,
+      "sha256": "1875aa49dcfaeca0f266a3be7578e4d4b2a9b2c9c1f59fd79699a3e26d5d6b8b"
+    },
+    {
+      "path": "product/data/m460-lexical/naming-character-meanings-m393-NOTICE.md",
+      "bytes": 1396,
+      "sha256": "d1f21e9ffc7e207c816486ed74cb551b48a4c1ba46c49020f891a7cd290893c0"
+    },
+    {
+      "path": "product/data/m460-lexical/naming-character-meanings-m393-admission.json",
+      "bytes": 811,
+      "sha256": "5df9ef749c6aebdcaef4f8866930e1689a856db6115d8b837224a3ee2fe6bbc3"
+    },
+    {
+      "path": "product/data/m460-lexical/naming-character-meanings-m393-manifest.json",
+      "bytes": 2932,
+      "sha256": "23137c2c605a4807c603b9bdfcf7a2f7558872ac8d1661d0ff6b8a60a66332b4"
+    },
+    {
+      "path": "product/data/m460-lexical/naming-character-meanings-m393-profile.json",
+      "bytes": 162031,
+      "sha256": "eee6a01e1d28a34c3992c8dd81d547352222caa62d04f363f3ec43edfcd5acd8"
+    },
+    {
+      "path": "product/data/m460-lexical/naming-character-meanings-m393-source-lock.json",
+      "bytes": 2727,
+      "sha256": "f2f42e2370e4dce0b1701375764f5254493d0062c102bafe317129b84c017e76"
+    },
+    {
+      "path": "product/data/m460-lexical/raw/naming-character-meanings-m393-subset.json",
+      "bytes": 161637,
+      "sha256": "cbf3add7ab417a01a6d433723366608c31b61ae5d0ab3065504a4947fad85b86"
+    },
+    {
+      "path": "product/data/m460-lexical/reviews/M412.json",
+      "bytes": 13128,
+      "sha256": "2585b4c41defc938411b4128f8fe94aa9c990257c1ce5043ce0f92b0e8093159"
+    },
+    {
+      "path": "product/data/m460-lexical/reviews/M418-r3.json",
+      "bytes": 6077,
+      "sha256": "71fe4fa10d7a0ac2b1bfd8f9baae201b4014c946fb75ec12457267da030afb06"
+    },
+    {
+      "path": "product/data/meaning-context-m460-b04.json",
+      "bytes": 188891,
+      "sha256": "ecc4ca0edbe1a0a1b1f5e3f67ad0caef9bf1daa197e781f55484b33ebfc8ce82"
+    },
+    {
+      "path": "product/data/meaning-context-v1-1.json",
+      "bytes": 403708,
+      "sha256": "424e8b6ca9a920c8b707ac267db9609bee900a5389b3659256b4c71ad71b378d"
+    },
+    {
+      "path": "product/data/naming-character-meanings-m610-profile.json",
+      "bytes": 147855,
+      "sha256": "501003d1322e7503426fda5198ccb7739ccffe9b353aa944a54abeee310e802a"
+    },
+    {
+      "path": "product/data/naming-character-meanings-m616-profile.json",
+      "bytes": 86409,
+      "sha256": "a7036d60215c80b25e0e000aa40a193232370b70add708c1b4f79ec93dddf1fb"
+    },
+    {
+      "path": "product/data/naming-character-meanings-v7.1-NOTICE.md",
+      "bytes": 1435,
+      "sha256": "46d3fb85a1cf217a0b7e72c1002fb1c36dbbd3f34191306385388f4f14c7e243"
+    },
+    {
+      "path": "product/data/naming-character-meanings-v7.1-admission.json",
+      "bytes": 4760,
+      "sha256": "425909be7aa94e251a37d45a77c759d0b3dfd323beef0af6882f3e0596b4d313"
+    },
+    {
+      "path": "product/data/naming-character-meanings-v7.1-manifest.json",
+      "bytes": 5609,
+      "sha256": "51277c6deca9d7177d41518b76740077938030e847ad72464f343c6e98b880fb"
+    },
+    {
+      "path": "product/data/naming-character-meanings-v7.1-profile.json",
+      "bytes": 257013,
+      "sha256": "6e619be92c16dc018715fc77425f150b6a2c9af2e01be63b309035c81dd6a85b"
+    },
+    {
+      "path": "product/data/naming-character-meanings-v7.1-source-lock.json",
+      "bytes": 5440,
+      "sha256": "d8e1c6c278090d290b5792e31dc5187df5ad290b97e7ccdbce58dcbd285d793a"
+    },
+    {
+      "path": "product/data/naming-character-meanings-v71-m460-b02-NOTICE.md",
+      "bytes": 1315,
+      "sha256": "fdee9a0835dd391d106325cfd43ebeed580323d04d3538f995289b48f05330bc"
+    },
+    {
+      "path": "product/data/naming-character-meanings-v71-m460-b02-admission.json",
+      "bytes": 7207,
+      "sha256": "cea582cc66ddc3adbd49d185edf0104cb829478b82312888bae1653ac471c98d"
+    },
+    {
+      "path": "product/data/naming-character-meanings-v71-m460-b02-manifest.json",
+      "bytes": 8115,
+      "sha256": "f0b8db3f8edb64796687b57627c3fd4a306dd710b1fdad3c91338cbe43a51cb0"
+    },
+    {
+      "path": "product/data/naming-character-meanings-v71-m460-b02-profile.json",
+      "bytes": 419345,
+      "sha256": "2c4be917bbfcdc3fec9279b2d9d928f5215e6ee1386d60e7d62265cd8e3eb2d1"
+    },
+    {
+      "path": "product/data/naming-character-meanings-v71-m460-b02-root-decision.json",
+      "bytes": 4718,
+      "sha256": "b5d447fd84cdd877f260b51735f097feb82c98dea032bfdfb45e75835756e894"
+    },
+    {
+      "path": "product/data/naming-character-meanings-v71-m460-b02-source-lock.json",
+      "bytes": 8225,
+      "sha256": "4b928ca58557ec7516fea74f6c20760c7800b8f2f6f495683b5354b00d9ad67f"
+    },
+    {
+      "path": "product/data/naming-editorial-dictionary-v6-source-lock.json",
+      "bytes": 4919,
+      "sha256": "06331d11a1c757a0245891fae357c7952db597d07c3c770d4052277c0bfac8da"
+    },
+    {
+      "path": "product/data/naming-editorial-meanings-v7-source-lock.json",
+      "bytes": 3979,
+      "sha256": "2945297a7f4bca1489e12018cce2848909fc35716c999b7d309e9a79633f7476"
+    },
+    {
+      "path": "product/data/naming-editorial-v4.json",
+      "bytes": 380418,
+      "sha256": "d24898eb63438d7b24262668eb3b36770f211fade015b28eeb361700a58ca6ce"
+    },
+    {
+      "path": "product/data/naming-editorial-v5.json",
+      "bytes": 65361,
+      "sha256": "bb8d3d255b42a6b67932988e13ceb2d7a7a1c6ef8fbbcc65312b9a50b5519da8"
+    },
+    {
+      "path": "product/data/naming-editorial-v6.json",
+      "bytes": 109426,
+      "sha256": "35de5f749f438e849543e5fde6e405b89ba01cba20597e82e7c4f518dd4363ab"
+    },
+    {
+      "path": "product/data/naming-editorial-v7-NOTICE.md",
+      "bytes": 2380,
+      "sha256": "c7dc728945bf2ceed14feb23e1635a6e6fd3ce8e5a135489554ec075e963a1b3"
+    },
+    {
+      "path": "product/data/naming-editorial-v7.json",
+      "bytes": 1301005,
+      "sha256": "392fa47441a0c410b0903c3e85853081225a1a5e9f540b5467e4ea4e2151cc48"
+    },
+    {
+      "path": "product/data/naming-editorial.json",
+      "bytes": 31147,
+      "sha256": "97c3162238c9493174544580a338fb0852d2784fbeac712fbd8e234f99945195"
+    },
+    {
+      "path": "product/data/raw/CC-BY-ND-3.0-TW.html",
+      "bytes": 31775,
+      "sha256": "04e6ef69a223b6e13c93c97a918ad5fd0dbb9fc34ae307f4449ed264e2d4108f"
+    },
+    {
+      "path": "product/data/raw/kSimplifiedVariant.txt",
+      "bytes": 88425,
+      "sha256": "a7f0c9dbbca85cffd90517fa6ea9be97d2e6f811328a59b6b303d58a418ac9be"
+    },
+    {
+      "path": "product/data/raw/kTraditionalVariant.txt",
+      "bytes": 86288,
+      "sha256": "4eca6285d45070548e6e6c06e4b48c3ca6866d4380e8cb980c512f5d1fc71895"
+    },
+    {
+      "path": "product/data/raw/moe-README.md",
+      "bytes": 1214,
+      "sha256": "a93321d9381bc1cf34b4ad844f71607fa748c86c0b228ae37d46720d6a659cb2"
+    },
+    {
+      "path": "product/data/raw/moe-revised.json.gz",
+      "bytes": 20310688,
+      "sha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e"
+    },
+    {
+      "path": "product/data/raw/naming-character-meanings-v7.1-subset.json",
+      "bytes": 259062,
+      "sha256": "59be39f7d9cbed1db5220721c015445546a19aa9967e59d4db0f820f3bcee8c1"
+    },
+    {
+      "path": "product/data/raw/naming-character-meanings-v71-m460-b02-subset.json",
+      "bytes": 422594,
+      "sha256": "f009bf99327d964371b0e11b305e041215c88d1f067f583b18d6d63953c7a545"
+    },
+    {
+      "path": "product/data/raw/naming-citations-v7-errata-r2.json",
+      "bytes": 10617,
+      "sha256": "e61707d9e3ac04110cdcaa924dd53a32b8bcc0ae8a0d0b0cbf9016a83108b945"
+    },
+    {
+      "path": "product/data/raw/naming-citations-v7-review.json",
+      "bytes": 70982,
+      "sha256": "e5d3909b04812c418feffbbb34cdecd3224527130a4ddfa91b62432e7ef59cc3"
+    },
+    {
+      "path": "product/data/raw/naming-meanings-v7-errata-r1.json",
+      "bytes": 2174,
+      "sha256": "e0bafe66312b98df77a367402915da57a3d5fa2c43ce56ca6af85a41cb4c3c0a"
+    },
+    {
+      "path": "product/data/raw/naming-meanings-v7-review.json",
+      "bytes": 692058,
+      "sha256": "8bdf895484e9b88daaa822fdd873901ee3dba994f23961cc836692f340446b1c"
+    },
+    {
+      "path": "product/data/raw/poetry-LICENSE",
+      "bytes": 1076,
+      "sha256": "c195319aeaa3ffcbe16aa5d26eec19eae5a42f84337dd2b3dc3c9d5ccbbd6507"
+    },
+    {
+      "path": "product/data/raw/shijing.json",
+      "bytes": 156972,
+      "sha256": "3c7ca54d59424542ada99adfcc85420287fbbd5c8a511e9baf705cb2b04051e7"
+    },
+    {
+      "path": "product/data/raw/unicode-LICENSE",
+      "bytes": 2033,
+      "sha256": "fe5c62b543e287981db198f2acfa0ca732d12591a1024536dc8fd85dacd77104"
+    },
+    {
+      "path": "product/data/raw/zhouyi-LICENSE",
+      "bytes": 1070,
+      "sha256": "0506d67239c89a3d3b14e253ed29e20e2e9259b41c4b32031eab5ac22ed2811f"
+    },
+    {
+      "path": "product/data/raw/zhouyi.tar.gz",
+      "bytes": 123007,
+      "sha256": "0a847c0b9b876f9926e4896399e31ee44f88292db107bc865d70e2d7308b15a0"
+    },
+    {
+      "path": "product/data/source-lock.json",
+      "bytes": 5953,
+      "sha256": "b1d206cdcfa2da184009442ba705d2231d8f0a43c2f5a9885a122a3e5d353bba"
+    },
+    {
+      "path": "product/src/domain/naming-semantics-v5.ts",
+      "bytes": 6301,
+      "sha256": "241aeb762281c16a9c948bdd419e6cc75b1b4a25bfd2c15341ba930d650db90b"
+    },
+    {
+      "path": "product/src/domain/naming-semantics-v6.ts",
+      "bytes": 6623,
+      "sha256": "b352c901910ab480d581ab4f57f3703e5bb219dfe8648c135e6ca43e0b872e19"
+    },
+    {
+      "path": "product/src/shared/character-reading.ts",
+      "bytes": 606,
+      "sha256": "717aac3c5f8c56abcbfcec4eef786dedac6c21a28c734561201b6b5a36f26a07"
+    },
+    {
+      "path": "upstream/m690/data/profile.json",
+      "bytes": 132661,
+      "sha256": "3c19e745c3fd65ee0b96b6b672e52dcc41051721c4ce909b8b7056b64fa06c40"
+    },
+    {
+      "path": "upstream/m690/selection.json",
+      "bytes": 7988,
+      "sha256": "34d558fc14e849215bbaa3d0a4ad0ba60b159da1ccf3585011042ae65de2cd5a"
+    },
+    {
+      "path": "upstream/old-batch-occupancy/B01/candidate/data/naming-character-meanings-m393-profile.json",
+      "bytes": 162031,
+      "sha256": "eee6a01e1d28a34c3992c8dd81d547352222caa62d04f363f3ec43edfcd5acd8"
+    },
+    {
+      "path": "upstream/old-batch-occupancy/B02/stage/data/naming-character-meanings-v71-m460-b02-profile.json",
+      "bytes": 419345,
+      "sha256": "2c4be917bbfcdc3fec9279b2d9d928f5215e6ee1386d60e7d62265cd8e3eb2d1"
+    },
+    {
+      "path": "upstream/old-batch-occupancy/B03/stage/data/naming-character-meanings-v71-m460-b02-profile.json",
+      "bytes": 419345,
+      "sha256": "2c4be917bbfcdc3fec9279b2d9d928f5215e6ee1386d60e7d62265cd8e3eb2d1"
+    },
+    {
+      "path": "upstream/old-batch-occupancy/B04/plans.json",
+      "bytes": 9617,
+      "sha256": "98a516317585894c79b462bddec946f3597eede994812f0ba1d2ee2bffaf6a23"
+    },
+    {
+      "path": "upstream/old-batch-occupancy/B05/plans.json",
+      "bytes": 8834,
+      "sha256": "7f5fc68b52396b479a8fe11f1c25aa404f6c8f35dd75082f61addaea020e093b"
+    }
+  ]
+}

@@ -1,0 +1,371 @@
+{
+  "version": "ren-capacities-source-goldens/1.0.0",
+  "purpose": "独立手录的原典正反/边界，不调用产品能力引擎反生成期望，也不冒造历史例日期",
+  "source": {
+    "title": "滴天髓闡微",
+    "revision": 2600158,
+    "url": "https://zh.wikisource.org/w/index.php?title=%E6%BB%B4%E5%A4%A9%E9%AB%93%E9%97%A1%E5%BE%AE&oldid=2600158",
+    "fullWikitextSha256": "1d1a3d61c1b9a26618b41b8ead857a6b966992fdf2adabdc607a0c6cb4c8f04d",
+    "fullWikitextCodepoints": 143701,
+    "license": "CC-BY-SA-4.0",
+    "licenseText": "data/raw/CC-BY-SA-4.0.txt",
+    "contributors": "https://zh.wikisource.org/w/index.php?title=%E6%BB%B4%E5%A4%A9%E9%AB%93%E9%97%A1%E5%BE%AE&action=history",
+    "localOriginal": ".local/cong-116/ditiansuichanwei-2600158.wiki"
+  },
+  "cases": [
+    {
+      "id": "no-fire-follow-strong",
+      "pillars": [
+        "甲寅",
+        "乙亥",
+        "乙卯",
+        "癸未"
+      ],
+      "role": "positive-author-classification",
+      "assertion": "此木局全，混一寅字，然四柱无金，其势从强",
+      "supports": [
+        "木局加寅、全明干木水的正面从强原例"
+      ],
+      "doesNotProve": [
+        "任意木局的每条根都有效",
+        "藏丁不存在",
+        "完整喜用或运势算法"
+      ],
+      "chart": {
+        "quote": "甲寅\n\n乙亥\n\n乙卯\n\n癸未",
+        "start": 29711,
+        "end": 29725,
+        "sha256": "2e6cafc02c30fca00b99dcdac25331322fbde2c3af299ef6dc3c3804ac6a4c8c",
+        "locator": "oldid=2600158;codepoint[29711,29725)",
+        "interval": "[start,end)"
+      },
+      "context": {
+        "quote": "此木局全，混一寅字，然四柱无金，其势从强，谓深得一方秀气。少年科第，惟庚辰辛巳运，虽有癸水之化，仍不免刑丧起倒，仕路蹭蹬。至六旬外，运走壬午癸未，由县令而迁司马。履黄堂而升观察，直如扬帆大海，谁能御之！由此观之，从强之木局，东南北运皆利，惟忌西方金运克破耳。",
+        "start": 29757,
+        "end": 29886,
+        "sha256": "7622f17dc604be308b9be599b9bbdbef4de9074a390fc32e567adcd0f4523cc7",
+        "locator": "oldid=2600158;codepoint[29757,29886)",
+        "interval": "[start,end)"
+      },
+      "authorAssertion": {
+        "quote": "此木局全，混一寅字，然四柱无金，其势从强",
+        "start": 29757,
+        "end": 29777,
+        "sha256": "c8332548bf2c0f1ceac2f2350cf74fb27616bb40c5d8cea02131c8cc3f5e5154",
+        "locator": "oldid=2600158;codepoint[29757,29777)",
+        "interval": "[start,end)"
+      },
+      "authority": "author-exact-case-and-project-manual-interpretation",
+      "gregorianDatePolicy": "原例未给公历，不伪造；另由独立真实历法新盘证明合同非空"
+    },
+    {
+      "id": "fire-output-different-treatment",
+      "pillars": [
+        "甲寅",
+        "丁卯",
+        "乙未",
+        "丁亥"
+      ],
+      "role": "scope-negative",
+      "assertion": "此亦木局全，混一寅字，取丁火食神秀气，非前造从强论也",
+      "supports": [
+        "同样木局加寅仍须保留火输出意向，不能把前例标签扩到有火干"
+      ],
+      "doesNotProve": [
+        "该盘木不旺",
+        "木局或辰的生助能力不存在"
+      ],
+      "chart": {
+        "quote": "甲寅\n\n丁卯\n\n乙未\n\n丁亥",
+        "start": 29888,
+        "end": 29902,
+        "sha256": "04d874cc822b635a58ef96347af6d28da31dfda48d70adb75a08fad6d8ef8555",
+        "locator": "oldid=2600158;codepoint[29888,29902)",
+        "interval": "[start,end)"
+      },
+      "context": {
+        "quote": "此亦木局全，混一寅字，取丁火食神秀气，非前造从强论也。至巳运，丁火临官，登科发甲；庚午辛未，南方金败之地，不伤体用，仕途平坦；壬申，木火皆伤，破局，死于军中。前则从强，南北皆利；此则木火，西北有害。由此两造观之，局混方之无害也。",
+        "start": 29926,
+        "end": 30040,
+        "sha256": "66e1c070d3d8e712218e9fe0845203f6b49e18098941e55126f3a8f257bf70cf",
+        "locator": "oldid=2600158;codepoint[29926,30040)",
+        "interval": "[start,end)"
+      },
+      "authorAssertion": {
+        "quote": "此亦木局全，混一寅字，取丁火食神秀气，非前造从强论也",
+        "start": 29926,
+        "end": 29952,
+        "sha256": "0bb4995f6d319eaae77c94dbb2bcb93a36f847a6496d1c8729051b54cfa02daa",
+        "locator": "oldid=2600158;codepoint[29926,29952)",
+        "interval": "[start,end)"
+      },
+      "authority": "author-exact-case-and-project-manual-interpretation",
+      "gregorianDatePolicy": "原例未给公历，不伪造；另由独立真实历法新盘证明合同非空"
+    },
+    {
+      "id": "water-harms-specific-fire-not-all-wood",
+      "pillars": [
+        "甲寅",
+        "丁卯",
+        "乙亥",
+        "癸未"
+      ],
+      "role": "interference-boundary",
+      "assertion": "惜乎时干癸水透露，通根亥支，紧伤丁火秀气，谓干头反复",
+      "supports": [
+        "水为木之印成员也可能伤具体丁火输出，必须区分靶标"
+      ],
+      "doesNotProve": [
+        "印成员一出现就所有木根有效",
+        "本局木无势"
+      ],
+      "chart": {
+        "quote": "甲寅\n\n丁卯\n\n乙亥\n\n癸未",
+        "start": 30459,
+        "end": 30473,
+        "sha256": "9999477ebfc9b7f948a061a4effda3250403e68f7eb9fa93b9b5cd3611224381",
+        "locator": "oldid=2600158;codepoint[30459,30473)",
+        "interval": "[start,end)"
+      },
+      "context": {
+        "quote": "此方局齐来，得月干丁火独透，发泄菁英，何其妙也。惜乎时干癸水透露，通根亥支，紧伤丁火秀气，谓干头反复，所以一衿尚不能博，贫乏无子。设使癸水换一火土，名利皆遂矣。",
+        "start": 30497,
+        "end": 30577,
+        "sha256": "214b36fbc7f4ed297a000bb5b0cf1d2eb97e43449e1d71f04dd0a8d0893c107b",
+        "locator": "oldid=2600158;codepoint[30497,30577)",
+        "interval": "[start,end)"
+      },
+      "authorAssertion": {
+        "quote": "惜乎时干癸水透露，通根亥支，紧伤丁火秀气，谓干头反复",
+        "start": 30521,
+        "end": 30547,
+        "sha256": "317567b2e298657a365602b70c8cd05efb7dd2da3bf969835730a15a7660db4e",
+        "locator": "oldid=2600158;codepoint[30521,30547)",
+        "interval": "[start,end)"
+      },
+      "authority": "author-exact-case-and-project-manual-interpretation",
+      "gregorianDatePolicy": "原例未给公历，不伪造；另由独立真实历法新盘证明合同非空"
+    },
+    {
+      "id": "chen-month-metal-can-control-wood",
+      "pillars": [
+        "庚寅",
+        "庚辰",
+        "甲寅",
+        "丁卯"
+      ],
+      "role": "season-and-control-boundary",
+      "assertion": "辰土归垣，庚金得载，力量足以克木",
+      "supports": [
+        "完整木方不允许在任意月、带有庚金时强推木不可克"
+      ],
+      "doesNotProve": [
+        "本条新卯月、全明干木水子域已失败",
+        "单由辰支成员就能宣布庚必有效"
+      ],
+      "chart": {
+        "quote": "庚寅\n\n庚辰\n\n甲寅\n\n丁卯",
+        "start": 18014,
+        "end": 18028,
+        "sha256": "e6194f77017acb257da90ea1e0643a086dad41e2834ef8a80cce0c61791286d7",
+        "locator": "oldid=2600158;codepoint[18014,18028)",
+        "interval": "[start,end)"
+      },
+      "context": {
+        "quote": "此亦寅、卯、辰东方。旺神不是提纲，辰土归垣，庚金得载，力量足以克木，丁火虽透，非庚金之敌，用杀明矣。至甲申运，庚金禄旺暗冲寅木，科甲联登，仕至郡守；一交丙运制杀，降职归田。",
+        "start": 18052,
+        "end": 18138,
+        "sha256": "767a7b0e432cf807c56602064f536d8dd8d332c257784eda7de58889089e446c",
+        "locator": "oldid=2600158;codepoint[18052,18138)",
+        "interval": "[start,end)"
+      },
+      "authorAssertion": {
+        "quote": "辰土归垣，庚金得载，力量足以克木",
+        "start": 18069,
+        "end": 18085,
+        "sha256": "7796a19d5d840a99c6e974ebcb2a24f0d74d91cf5c85339a5fe2a53ee9f6ab8c",
+        "locator": "oldid=2600158;codepoint[18069,18085)",
+        "interval": "[start,end)"
+      },
+      "authority": "author-exact-case-and-project-manual-interpretation",
+      "gregorianDatePolicy": "原例未给公历，不伪造；另由独立真实历法新盘证明合同非空"
+    },
+    {
+      "id": "wood-overgrowth-does-not-prove-fire-support",
+      "pillars": [
+        "癸卯",
+        "甲寅",
+        "丁卯",
+        "甲辰"
+      ],
+      "role": "target-boundary",
+      "assertion": "地支寅、卯、辰全，木多火熄",
+      "supports": [
+        "木方旺势或木神生助不能自动推出木生丁火的有效性"
+      ],
+      "doesNotProve": [
+        "木神不旺",
+        "所有水木印比域都不提供局部木生助能力"
+      ],
+      "chart": {
+        "quote": "癸卯\n\n甲寅\n\n丁卯\n\n甲辰",
+        "start": 108890,
+        "end": 108904,
+        "sha256": "ad35362f1889d23b304be1b81bd780e8f35aa6ace7d8956830d74c50bc1e3d08",
+        "locator": "oldid=2600158;codepoint[108890,108904)",
+        "interval": "[start,end)"
+      },
+      "context": {
+        "quote": "此造俗谓杀印相生，身强杀浅，金水运名利双收，不知癸水之气，尽归甲木，地支寅、卯、辰全，木多火熄，初运癸丑壬子，生木克火，刑伤破耗；辛亥、庚戌、巳酉、戊申，土生金旺，触卯木之旺神，颠沛异常，夫存生之地，是以六旬以前，一事无成。丁未运助起日元，顺母这性，得际遇，娶妾连生两子：及丙午二十年，发财数万，寿至九旬外。",
+        "start": 108936,
+        "end": 109090,
+        "sha256": "b2c0486208332c6ff0647a5e9baf82cf5471a4e158b09816c7a0b1e90dbfae70",
+        "locator": "oldid=2600158;codepoint[108936,109090)",
+        "interval": "[start,end)"
+      },
+      "authorAssertion": {
+        "quote": "地支寅、卯、辰全，木多火熄",
+        "start": 108970,
+        "end": 108983,
+        "sha256": "586bb657341edd3ae1fbf7a0c8479a763672e11a8adf6bba7d6b64e62054ee7a",
+        "locator": "oldid=2600158;codepoint[108970,108983)",
+        "interval": "[start,end)"
+      },
+      "authority": "author-exact-case-and-project-manual-interpretation",
+      "gregorianDatePolicy": "原例未给公历，不伪造；另由独立真实历法新盘证明合同非空"
+    },
+    {
+      "id": "wood-source-no-clash-no-count",
+      "pillars": [
+        "癸卯",
+        "乙卯",
+        "甲寅",
+        "乙亥"
+      ],
+      "role": "hidden-scope-boundary",
+      "assertion": "此造四支皆木，又逢水生，六木两水，别无他气",
+      "supports": [
+        "作者四支皆木、别无他气不是所选藏干五行逐成员计数"
+      ],
+      "doesNotProve": [
+        "寅中丙戊不存在",
+        "亥不是水支",
+        "源文已定义了通用有效性过滤器"
+      ],
+      "chart": {
+        "quote": "癸卯\n\n乙卯\n\n甲寅\n\n乙亥",
+        "start": 41501,
+        "end": 41515,
+        "sha256": "2636ae57788e6a82e9cb3f2a4d88725872b190ffedd00563267f48d4eebb2d75",
+        "locator": "oldid=2600158;codepoint[41501,41515)",
+        "interval": "[start,end)"
+      },
+      "context": {
+        "quote": "此造四支皆木，又逢水生，六木两水，别无他气。木旺极者，似火也，出身祖业本丰。惟丑运刑伤，壬子水势乘旺，辛亥金不通根，支逢水旺，此二十年经营，获利数万；一交庚戌，土金并旺，破财而亡。",
+        "start": 41539,
+        "end": 41629,
+        "sha256": "0295744f8b163ae9d780778c539ced5adb28001e64f5b2d85648ef9a8baf3011",
+        "locator": "oldid=2600158;codepoint[41539,41629)",
+        "interval": "[start,end)"
+      },
+      "authorAssertion": {
+        "quote": "此造四支皆木，又逢水生，六木两水，别无他气",
+        "start": 41539,
+        "end": 41560,
+        "sha256": "6ab39bd21823f20231afbf7767f982dbb7e28bbf99f0e9e14c777c503a3e0179",
+        "locator": "oldid=2600158;codepoint[41539,41560)",
+        "interval": "[start,end)"
+      },
+      "authority": "author-exact-case-and-project-manual-interpretation",
+      "gregorianDatePolicy": "原例未给公历，不伪造；另由独立真实历法新盘证明合同非空"
+    },
+    {
+      "id": "earth-fire-no-drain-has-hidden-metal",
+      "pillars": [
+        "戊戌",
+        "丙辰",
+        "己巳",
+        "己巳"
+      ],
+      "role": "hidden-scope-boundary",
+      "assertion": "此造四柱火土，全无克泄。土旺极者，似金也",
+      "supports": [
+        "全无克泄不可机械翻译成所有已选藏干无金木"
+      ],
+      "doesNotProve": [
+        "巳中庚、辰中乙癸、戌中辛不存在",
+        "作者提供了任意火土盘的无克泄判据"
+      ],
+      "chart": {
+        "quote": "戊戌\n\n丙辰\n\n己巳\n\n己巳",
+        "start": 42572,
+        "end": 42586,
+        "sha256": "81aa948b851c32cd2450c1f36ae36ffffbdc288578697f52c2111678f270d98e",
+        "locator": "oldid=2600158;codepoint[42572,42586)",
+        "interval": "[start,end)"
+      },
+      "context": {
+        "quote": "此造四柱火土，全无克泄。土旺极者，似金也。初运南方，遗业丰盈，午运入泮，己未棘闱，拔而不举；一交庚申，青蚨化蝶，家业渐消；辛酉财若春后霜雪，事业萧条；壬运克丙不禄。",
+        "start": 42610,
+        "end": 42692,
+        "sha256": "0057e7d50f214d6d9e9d551960e5b5b57a235439dd0b7190ef8e268ebc2e60e8",
+        "locator": "oldid=2600158;codepoint[42610,42692)",
+        "interval": "[start,end)"
+      },
+      "authorAssertion": {
+        "quote": "此造四柱火土，全无克泄。土旺极者，似金也",
+        "start": 42610,
+        "end": 42630,
+        "sha256": "1d97bb352c1944220d36889f58cff19f9eefef458715cfbd13d6682506b34baa",
+        "locator": "oldid=2600158;codepoint[42610,42630)",
+        "interval": "[start,end)"
+      },
+      "authority": "author-exact-case-and-project-manual-interpretation",
+      "gregorianDatePolicy": "原例未给公历，不伪造；另由独立真实历法新盘证明合同非空"
+    },
+    {
+      "id": "water-flood-chen-not-wu-root",
+      "pillars": [
+        "壬戌",
+        "壬子",
+        "甲子",
+        "戊辰"
+      ],
+      "role": "target-and-medium-boundary",
+      "assertion": "若有辰而无戌，辰乃湿土，见水则荡，戊土不能植根而虚矣",
+      "supports": [
+        "辰能生助木神不等于辰能在任何水局中给戊土强根"
+      ],
+      "doesNotProve": [
+        "木局加辰的特定木方向能力不存在",
+        "有戌即可对任意水局机械定止水成功"
+      ],
+      "chart": {
+        "quote": "壬戌\n\n壬子\n\n甲子\n\n戊辰",
+        "start": 25111,
+        "end": 25125,
+        "sha256": "cc56f68701c881f62cdacb6e51eacfcf6c43e5e7f0485705e00d511cb85b6f65",
+        "locator": "oldid=2600158;codepoint[25111,25125)",
+        "interval": "[start,end)"
+      },
+      "context": {
+        "quote": "此造水势猖狂，独戊土以培之，以作砥柆之功，不致浮泛也。然戊土亦赖有戌土而根固，若有辰而无戌，辰乃湿土，见水则荡，戊土不能植根而虚矣。无根之土，岂能止百川之源？故此造所重者，戌之燥土也。但寒木无阳，必须火以温之，则木方可发荣，所以运至南方火旺之乡，发财数万，名成异路也。",
+        "start": 25153,
+        "end": 25287,
+        "sha256": "d4ef3d0c41988602f37b87c7c366bf57abc900cafde637bdcd4fa7c8afa26b43",
+        "locator": "oldid=2600158;codepoint[25153,25287)",
+        "interval": "[start,end)"
+      },
+      "authorAssertion": {
+        "quote": "若有辰而无戌，辰乃湿土，见水则荡，戊土不能植根而虚矣",
+        "start": 25192,
+        "end": 25218,
+        "sha256": "090b30ee35a9b87ab3660a76aa2663a535794f4abcabfc65ee2acd440483aeb3",
+        "locator": "oldid=2600158;codepoint[25192,25218)",
+        "interval": "[start,end)"
+      },
+      "authority": "author-exact-case-and-project-manual-interpretation",
+      "gregorianDatePolicy": "原例未给公历，不伪造；另由独立真实历法新盘证明合同非空"
+    }
+  ]
+}

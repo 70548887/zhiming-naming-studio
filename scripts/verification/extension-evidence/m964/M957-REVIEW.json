@@ -1,0 +1,412 @@
+{
+  "schema": "M957-consumer-source-review/1",
+  "task": "M957-CONSUMER-SOURCE-REVIEW",
+  "repository": "D:/Codex-NamingStudio-Evidence/m768-next-integration",
+  "fixedHead": "f8e272b1b0d077019ca2d267709378df17e405d9",
+  "map": {
+    "file": "D:/Codex-NamingStudio-Evidence/m944-next-consumer-group-map/consumer-group-map.json",
+    "sha256": "2d0f7e5a9158f818fac72335dc92f1be8ab819d3b1d36049d71ee93da1b40c5d",
+    "changed": false
+  },
+  "verdict": "pass-bounded-exact8-source-review",
+  "decision": "未发现exact8已检查范围内的有效新缺陷；可作为这8个精确源码身份的来源登记依据。登记、构建和发行各自另行判断。",
+  "severityCounts": {
+    "P1": 0,
+    "P2": 0,
+    "P3": 0
+  },
+  "findings": [],
+  "scope": {
+    "total": 8,
+    "foundation": 6,
+    "support": 2,
+    "allEightIndependentlyRead": true,
+    "externalDependencyApproval": false
+  },
+  "boundaryConclusions": [
+    {
+      "id": "project-rule-not-complete-tradition",
+      "observation": "仅为项目candidate.2，传统状态仍unknown。7.1逐字补充不提升整名评价、评分或传统用神结论。",
+      "references": [
+        "src/main/candidate2-naming-consumer-v1.ts:82",
+        "src/main/candidate2-naming-consumer-v1.ts:86",
+        "src/main/candidate2-naming-eligibility-response-v1.ts:18",
+        "src/main/naming-meaning-review.ts:77"
+      ]
+    },
+    {
+      "id": "input-refusal-versus-source-completeness",
+      "observation": "输入拥有化/冲突拒绝与资源字节/来源闭包验证分开。输入拒绝和诊断错误分类不是来源完整性证明；loader通过也不认证传统知识完备。",
+      "references": [
+        "src/main/project-application-v132-r2-json.ts:10",
+        "src/main/candidate2-naming-eligibility-response-v1.ts:50",
+        "src/main/candidate2-naming-data-v1.ts:58"
+      ]
+    },
+    {
+      "id": "zero-adoption-and-replay",
+      "observation": "默认关闭或resolve非applicable时不签发本consumer活生成；eligibility不求值候选。真实生成与saved replay重算都必须非空，不能由零采用/待定/空结果制造generated记录。回放仍无新生成权限。",
+      "references": [
+        "src/main/candidate2-naming-consumer-v1.ts:69",
+        "src/main/candidate2-naming-consumer-v1.ts:77",
+        "src/main/candidate2-naming-consumer-v1.ts:111",
+        "src/main/candidate2-naming-consumer-v1.ts:114",
+        "src/main/candidate2-naming-consumer-v1.ts:119",
+        "src/main/candidate2-naming-consumer-v1.ts:143",
+        "src/main/candidate2-naming-consumer-v1.ts:146"
+      ]
+    },
+    {
+      "id": "default-off-and-no-save-authority",
+      "observation": "完整显式opt-in才进入新流程；eligible、DTO、clone、回放报告不入私有WeakSet。createSaved仅捕获本factory活生成，此捕获不是Store持久化/输出发行许可。",
+      "references": [
+        "src/main/candidate2-naming-consumer-v1.ts:24",
+        "src/main/candidate2-naming-consumer-v1.ts:123",
+        "src/main/candidate2-naming-consumer-v1.ts:125"
+      ]
+    },
+    {
+      "id": "fixed-core-versus-current-consumer",
+      "observation": "固定906仍按原SHA加载；旧e01消费者版本不同于当前main。本结论只绑定f8 exact8，不能在旧e01身份下接纳或重建当前main。",
+      "references": [
+        "src/main/candidate2-naming-runtime-v1.ts:7"
+      ]
+    }
+  ],
+  "authority": {
+    "exact8SourceReviewGranted": true,
+    "mayReferenceForExact8SourceRegistration": true,
+    "sourceRegistrationPerformed": false,
+    "activeGateChanged": false,
+    "sourceBuildApproved": false,
+    "wholeClosureApproved": false,
+    "fixedCoreEfficacyApproved": false,
+    "oldE01Or906IdentityChanged": false,
+    "productionAdmission": false,
+    "StoreSaveAuthority": false,
+    "packagingApproved": false,
+    "releaseApproved": false,
+    "completeTraditionalInterpretationCertified": false
+  },
+  "notExecuted": [
+    "Store/init/generate/native/E2E：未执行",
+    "full tsc/build/package/release：未执行",
+    "资源整库重件与旧业务测试：未执行",
+    "5173、客户数据和外网：未执行"
+  ],
+  "preserved": {
+    "productSourceEdited": false,
+    "assetsOrSourceProfileEdited": false,
+    "gateRegistrationEdited": false,
+    "oldOriginalsEdited": false
+  },
+  "reproduce": "node D:/Codex-NamingStudio-Evidence/m957-consumer-source-review/source-check.mjs",
+  "createdAt": "2026-10-26T15:44:03.8047033Z",
+  "observedHeadAtFinalSourceCheck": "02ee6b5d890d9104d76d559c5d5c1f1a08b29b94",
+  "files": [
+    {
+      "file": "src/domain/candidate2-naming-consumer-v1.ts",
+      "subgroup": "consumer-foundation",
+      "bytes": 1173,
+      "sha256": "ab0cdf1e41189f61684b87faebf319761e15f6cc038492d8a81d5863de767a91",
+      "gitBlob": "f9f8aaf82ea906807f6b36f09d144226623ad6e5",
+      "matchesMap": true,
+      "judgment": "pass-bounded-source-review",
+      "findings": [],
+      "rationale": "纯计算桥在 L8 拒绝人工元素/旧项目冲突，以复制偏好和 applied 建立临时投影，L10 明确进入 naming-editorial-7.1.0。没有签发、持久化或修改原偏好/基础分析的路径。",
+      "locations": [
+        {
+          "start": 4,
+          "end": 11
+        }
+      ],
+      "priorEvidenceTreatment": "M803/M842/e01 身份相同；本次阅读全文。",
+      "limits": "调用前能力认证属于 main；领域算法本身和候选功效不在 exact8 范围。avoid 不是硬过滤。"
+    },
+    {
+      "file": "src/shared/candidate2-naming-consumer-v1.ts",
+      "subgroup": "consumer-foundation",
+      "bytes": 2730,
+      "sha256": "5f56f306bb45e47e0c9d0186f477a216878790d741a1b8677deeb8c2ee1d948b",
+      "gitBlob": "066c889e242a703e6bcba9a652bbeb98d896148f",
+      "matchesMap": true,
+      "judgment": "pass-bounded-source-review",
+      "findings": [],
+      "rationale": "固定 consumer 版本、完整选择 tuple 和原始请求字段；生成、disabled、回放 DTO 分开。回放类型明确 generationAuthority=false 与 saved-replay，未授保存权。",
+      "locations": [
+        {
+          "start": 3,
+          "end": 9
+        },
+        {
+          "start": 10,
+          "end": 20
+        },
+        {
+          "start": 22,
+          "end": 34
+        }
+      ],
+      "priorEvidenceTreatment": "M803/M842/e01 身份相同；当前字节重新独立阅读。",
+      "limits": "类型与相同 JSON 不能代替运行时能力或 Store 保存授权。"
+    },
+    {
+      "file": "src/main/candidate2-naming-consumer-v1.ts",
+      "subgroup": "consumer-foundation",
+      "bytes": 15408,
+      "sha256": "022f821df5ccff91d06b699002055ed1cb8e256adc045f45b8610365a8e82966",
+      "gitBlob": "a8545dcb6a0d8d674127ffb70ef5bf363e57ba72",
+      "matchesMap": true,
+      "judgment": "pass-bounded-source-review",
+      "findings": [],
+      "rationale": "外来输入先拥有化冻结；默认关闭且仅精确完整选择进入新流程。prepareInput 对齐偏好与 profile，prepareAuthority 重新 resolve 固定应用并读取认证数据。生成经真实命名能力认证；eligibility 不生成。私有 WeakSet 只接受本实例活生成。回放要求独立上下文、完整 envelope、应用验证、重新载入数据和重算候选/消息/投影/摘要；生成与回放共用非空断言。",
+      "locations": [
+        {
+          "start": 19,
+          "end": 49
+        },
+        {
+          "start": 51,
+          "end": 79
+        },
+        {
+          "start": 80,
+          "end": 106
+        },
+        {
+          "start": 108,
+          "end": 127
+        },
+        {
+          "start": 129,
+          "end": 146
+        }
+      ],
+      "priorEvidenceTreatment": "当前15408B/022f821d与M855精确相同，非旧e01的12332B/d6639a17。M821-P2-01由M842关闭；当前L119/L143仍双向调用非空断言。M855 receipt缺陷由M866在独立helper关闭，不扩大为本次构建批准。",
+      "limits": "disabled、非applicable、空候选不构成可保存生成；eligible不保证候选可得。host仍须独立提供可信生成时回放上下文；本次未执行任何生成或回放业务。"
+    },
+    {
+      "file": "src/main/candidate2-naming-data-v1.ts",
+      "subgroup": "consumer-foundation",
+      "bytes": 5634,
+      "sha256": "1d877f3a08609906e8836f4c73af6f670a6757f7296978c1f54d021dd46e8dc2",
+      "gitBlob": "e877aa4e2a01f50fedd4dc0258598966c1cb5743",
+      "matchesMap": true,
+      "judgment": "pass-bounded-source-review",
+      "findings": [],
+      "rationale": "规范物理目录、逃逸/非文件拒绝及固定SQL/JSON摘要在解析前检查。委托v7/v7.1 loaders验证固定来源闭包，要求当前60字审阅摘要；数据身份绑定包字节、数据集、语义表、版本、审阅身份及唯一source ID。每次重读，调用者自报数据不提供来源权。",
+      "locations": [
+        {
+          "start": 44,
+          "end": 60
+        },
+        {
+          "start": 62,
+          "end": 76
+        },
+        {
+          "start": 77,
+          "end": 82
+        }
+      ],
+      "priorEvidenceTreatment": "与M803/M842/e01身份相同；已读M821数据子审，仅作旧证据。",
+      "limits": "只审loader及必要依赖语义，未重验整个资源库、SQLite表或古典来源完整性，未重新批准数据内容。"
+    },
+    {
+      "file": "src/main/candidate2-naming-runtime-v1.ts",
+      "subgroup": "consumer-foundation",
+      "bytes": 1594,
+      "sha256": "e3d0f649a3ecaa615a2950728d7f5fc4407562e82eeeefee9025389f05541b99",
+      "gitBlob": "946a2b28497450607ba7457fcbc5e5e1f0b6c857",
+      "matchesMap": true,
+      "judgment": "pass-bounded-source-review",
+      "findings": [],
+      "rationale": "只接受绝对路径；读取同一buffer后在执行前核对固定906 SHA。私有模块实例不采require cache伪API，动态依赖仅准node:内建模块。固定应用与当前consumer源码身份分开。",
+      "locations": [
+        {
+          "start": 7,
+          "end": 18
+        }
+      ],
+      "priorEvidenceTreatment": "与M803/M842/e01身份相同；未重建或重发906/e01。",
+      "limits": "固定可信代码加载器不构成任意代码沙箱；未复审底层数学、whole closure或构建配对。"
+    },
+    {
+      "file": "src/main/project-application-v132-r2-json.ts",
+      "subgroup": "consumer-foundation",
+      "bytes": 3085,
+      "sha256": "0df7cb5f70ed9ed648ef3c2f5d95b22b3dfd5994d039876f53cecc4893d07f29",
+      "gitBlob": "d7f18c0653cdfa7435c57733c4c849ce35712534",
+      "matchesMap": true,
+      "judgment": "pass-bounded-source-review",
+      "findings": [],
+      "rationale": "先拒绝Proxy，再检普通原型/循环/字符串键与数据描述符。拒绝稀疏或额外数组字段、accessor、hidden、symbol、非有限数和非JSON值，限制深度/节点/文本；defineProperty将__proto__等保留为惰性数据并递归冻结独立树。",
+      "locations": [
+        {
+          "start": 3,
+          "end": 24
+        },
+        {
+          "start": 26,
+          "end": 37
+        },
+        {
+          "start": 38,
+          "end": 51
+        }
+      ],
+      "priorEvidenceTreatment": "M842/e01身份相同；当前全文已读。",
+      "limits": "输入拒绝不代表来源完整性；未重复旧Proxy/getter/循环等既有运行时测试。"
+    },
+    {
+      "file": "src/main/candidate2-naming-eligibility-response-v1.ts",
+      "subgroup": "current-direct-support",
+      "bytes": 5846,
+      "sha256": "1dfde15f030ca7ef1f0f43dc90bdb560286e5526e6f5be0e50ac5417f2ccbae9",
+      "gitBlob": "6fc724b7bc659a20bdafcc688bb6ab3ec8c94577",
+      "matchesMap": true,
+      "judgment": "pass-bounded-source-review",
+      "findings": [],
+      "rationale": "区分省略选择与显式null，绑定原始请求、规范输入及真实资源身份。响应明确无generationAuthority、候选未求值、传统状态unknown。输入/冲突归blocked，固定资源/执行失败归unavailable，失败不会返回eligible。",
+      "locations": [
+        {
+          "start": 9,
+          "end": 20
+        },
+        {
+          "start": 22,
+          "end": 49
+        },
+        {
+          "start": 50,
+          "end": 56
+        }
+      ],
+      "priorEvidenceTreatment": "与M855当前响应helper精确一致。",
+      "limits": "错误分类本身不是来源证明；DTO不提供能力。host stale-request与路由属于别组。"
+    },
+    {
+      "file": "src/shared/candidate2-naming-eligibility-v1.ts",
+      "subgroup": "current-direct-support",
+      "bytes": 2192,
+      "sha256": "a63f1d5994623afdd280bdca21a24219a5d9d8f496e6110353c2727a807de15f",
+      "gitBlob": "1c2ca300b77f1357c19fa330f5efe5c37c515e6f",
+      "matchesMap": true,
+      "judgment": "pass-bounded-source-review",
+      "findings": [],
+      "rationale": "将四类诊断状态、原始请求、版本/资源身份与generationAuthority=false、candidateAvailability=not-evaluated、traditionalStatus=unknown分开。新增只读API仅返回Promise<诊断DTO>，没有生成/保存方法。",
+      "locations": [
+        {
+          "start": 5,
+          "end": 22
+        },
+        {
+          "start": 24,
+          "end": 27
+        }
+      ],
+      "priorEvidenceTreatment": "当前2192B/a63f1d59不同于M855的1867B/df21952f。独立diff和AST确认仅在未改旧全文后增加注释/interface，runtime statements相同；新增字节已明确审阅。",
+      "limits": "本结论不批准Service/preload/browser/App的实际传输路由。"
+    }
+  ],
+  "validation": {
+    "total": 7,
+    "passed": 7,
+    "checks": [
+      {
+        "id": "exact8-identity-and-imports",
+        "pass": true
+      },
+      {
+        "id": "exact8-parse-only",
+        "pass": true,
+        "qualification": "TypeScript parser only; no emit, no typecheck, no bundle and no product import/evaluation."
+      },
+      {
+        "id": "shared-eligibility-interface-only-delta",
+        "pass": true
+      },
+      {
+        "id": "nonempty-shared-helper-static-live-and-replay",
+        "pass": true,
+        "qualification": "AST callsite observation only; old business tests were not rerun."
+      },
+      {
+        "id": "eligibility-static-no-domain-finalizer-save-call",
+        "pass": true,
+        "qualification": "Checks this method body only; prepareAuthority source was independently read."
+      },
+      {
+        "id": "fixed-external-context-identities",
+        "pass": true,
+        "qualification": "Identity inventory of 9 direct external context files, not approval of their code or transitive closure."
+      },
+      {
+        "id": "old-review-byte-identities",
+        "pass": true
+      }
+    ],
+    "syntaxOnly": true,
+    "typecheck": false,
+    "productModuleEvaluation": false,
+    "evidence": "source-check.json"
+  },
+  "history": {
+    "oldReviews": [
+      {
+        "id": "M821-review",
+        "file": "D:/Codex-NamingStudio-Evidence/m821-core-consumer-audit/M821-RESULT.json",
+        "bytes": 6699,
+        "sha256": "c7440cc514efef9365c2f8586d60c33b0ed8189d637b788d4ec39e7d5d2a97b7",
+        "matchesMap": true
+      },
+      {
+        "id": "M821-data-review",
+        "file": "D:/Codex-NamingStudio-Evidence/m821-core-consumer-audit/data-binding-review.json",
+        "bytes": 5640,
+        "sha256": "6f6ea4954bdb8d5749a773bec6bcfe2c63ad4778cd62ca87cb158a83efcfabb4",
+        "matchesMap": true
+      },
+      {
+        "id": "M842-review",
+        "file": "D:/Codex-NamingStudio-Evidence/m842-core-saved-invariant-recheck/REVIEW.json",
+        "bytes": 4213,
+        "sha256": "50b3cbe905cbd22588ea2c98e80d3caec3856fd4b20508ff4a38d53c9dfaecb6",
+        "matchesMap": true
+      },
+      {
+        "id": "M855-review",
+        "file": "D:/Codex-NamingStudio-Evidence/m855-core-eligibility-audit/REVIEW.json",
+        "bytes": 12341,
+        "sha256": "8363e757f9ed55a11af65e37eecea31d09cc0839ed62d77570a0ae21d25a49ed",
+        "matchesMap": true
+      },
+      {
+        "id": "M866-review",
+        "file": "D:/Codex-NamingStudio-Evidence/m866-core-receipt-recheck/REVIEW.json",
+        "bytes": 12027,
+        "sha256": "7e4b4f61807411a5ef72ac9378fa588e4e606e3087d211dc0bf86056b0a476bd",
+        "matchesMap": true
+      }
+    ],
+    "sharedEligibilityDelta": {
+      "file": "src/shared/candidate2-naming-eligibility-v1.ts",
+      "oldCommit": "0e8e3caa6e6c2a6a7189b05aec8e19ad45396c33",
+      "oldBytes": 1867,
+      "oldSha256": "df21952fe5961f6c6782c939ee029125f1e9f60e8df6768ea38da2fe50882e98",
+      "currentBytes": 2192,
+      "currentSha256": "a63f1d5994623afdd280bdca21a24219a5d9d8f496e6110353c2727a807de15f",
+      "oldTextIsUnchangedPrefix": true,
+      "addedText": "\n/** Public read-only diagnostics; original inputs are sent again for any future generation. */\nexport interface Candidate2NamingEligibilityApi {\n checkCandidate2NamingEligibility(profile:BirthProfile,preferences:NamingPreferences,selection?:Candidate2NamingSelection|{enabled:false}):Promise<Candidate2NamingEligibility>;\n}\n",
+      "runtimeStatementsUnchanged": true
+    },
+    "priorResultsAreNotFreshExecution": true,
+    "headMovement": {
+      "initial": "f8e272b1b0d077019ca2d267709378df17e405d9",
+      "later": "02ee6b5d890d9104d76d559c5d5c1f1a08b29b94",
+      "initialCheckStopped": true,
+      "exact8DiffEmpty": true,
+      "resolution": "显式从f8 Git对象解析；另记录工作区匹配，未改map或扩大固定对象。"
+    }
+  }
+}

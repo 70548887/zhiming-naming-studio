@@ -1,0 +1,1371 @@
+{
+  "schema": "m910-source-subset/1",
+  "batchId": "M910-DATA",
+  "rawFile": "m909-cultural-store-integration/data/raw/moe-revised.json.gz",
+  "rawFileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+  "originalAttribution": "教育部《重編國語辭典修訂本》",
+  "dictionaryLicense": "CC-BY-ND-3.0-TW; verbatim source definition and complete original entry",
+  "formatConversionLicense": "kcwu JSON format conversion CC0",
+  "projectEditorialLicense": "CC0-1.0; project meaning, wishes, limits and labels",
+  "entries": [
+    {
+      "char": "安",
+      "sourceId": "moe-revised",
+      "dictionaryWord": "安",
+      "pinyin": "ān",
+      "tone": 1,
+      "rawEntryIndex": 41748,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 0,
+      "sourceDefinition": {
+        "def": "平穩、安全、舒適的狀況或環境。",
+        "example": [
+          "如：「居安思危」、「轉危為安」、「苟且偷安」。"
+        ],
+        "quote": [
+          "《論語．學而》：「君子食無求飽，居無求安。」"
+        ],
+        "type": "名"
+      },
+      "completeOriginalEntry": {
+        "heteronyms": [
+          {
+            "bopomofo": "ㄢ",
+            "definitions": [
+              {
+                "def": "平穩、安全、舒適的狀況或環境。",
+                "example": [
+                  "如：「居安思危」、「轉危為安」、「苟且偷安」。"
+                ],
+                "quote": [
+                  "《論語．學而》：「君子食無求飽，居無求安。」"
+                ],
+                "type": "名"
+              },
+              {
+                "def": "安非他命的簡稱。",
+                "example": [
+                  "如：「吸安」、「安毒」。"
+                ],
+                "type": "名"
+              },
+              {
+                "def": "量詞。安培的簡稱。參見「安培」條。",
+                "type": "名"
+              },
+              {
+                "def": "姓。如漢代有安成。",
+                "type": "名"
+              },
+              {
+                "def": "平靜、恬適。",
+                "example": [
+                  "如：「安寧」、「坐立不安」。"
+                ],
+                "quote": [
+                  "《漢書．卷六四下．嚴安傳》：「心既和平，其性恬安。」"
+                ],
+                "type": "形"
+              },
+              {
+                "def": "穩定的、靜止的。",
+                "example": [
+                  "如：「生活安穩」。"
+                ],
+                "quote": [
+                  "唐．楊烱〈渾天賦〉：「故知天常安而不動，地極深而不測。」"
+                ],
+                "type": "形"
+              },
+              {
+                "def": "使穩定。",
+                "example": [
+                  "如：「除暴安良」、「安民」。"
+                ],
+                "type": "動"
+              },
+              {
+                "def": "裝置、設置。",
+                "example": [
+                  "如：「安電燈」、「安門窗」。"
+                ],
+                "type": "動"
+              },
+              {
+                "def": "加上。",
+                "example": [
+                  "如：「安罪名」。"
+                ],
+                "type": "動"
+              },
+              {
+                "def": "存、懷、居。",
+                "example": [
+                  "如：「你安的是什麼心？」"
+                ],
+                "type": "動"
+              },
+              {
+                "def": "習慣、熟悉。",
+                "quote": [
+                  "《呂氏春秋．先識覽．樂成》：「舟車之始見也，三世然後安之。」"
+                ],
+                "type": "動"
+              },
+              {
+                "def": "豈、怎麼。用於文言文。",
+                "example": [
+                  "如：「安能如此？」"
+                ],
+                "quote": [
+                  "《左傳．宣公十二年》：「暴而不戢，安能保大？」"
+                ],
+                "type": "副"
+              },
+              {
+                "def": "何處、那裡。用於文言文。",
+                "example": [
+                  "如：「而今安在？」"
+                ],
+                "quote": [
+                  "《史記．卷七．項羽本紀》：「項王曰：『沛公安在？』良曰：『聞大王有意督過之，脫身獨去，已至軍矣。』」"
+                ],
+                "type": "代"
+              },
+              {
+                "def": "如何。",
+                "quote": [
+                  "《禮記．檀弓上》：「泰山其頹，則吾將安仰？」"
+                ],
+                "type": "代"
+              },
+              {
+                "def": "乃、於是。",
+                "quote": [
+                  "《荀子．仲尼》：「委然成文，以示之天下，而暴國安自化矣。」"
+                ],
+                "type": "連"
+              }
+            ],
+            "pinyin": "ān"
+          }
+        ],
+        "non_radical_stroke_count": 3,
+        "radical": "宀",
+        "stroke_count": 6,
+        "title": "安"
+      },
+      "sourceIdentity": "fixed-local-moe-revised-original"
+    },
+    {
+      "char": "晨",
+      "sourceId": "moe-revised",
+      "dictionaryWord": "晨",
+      "pinyin": "chén",
+      "tone": 2,
+      "rawEntryIndex": 71627,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 0,
+      "sourceDefinition": {
+        "def": "早上太陽剛出來的時候。",
+        "example": [
+          "如：「清晨」、「一日之計在於晨」。"
+        ],
+        "type": "名"
+      },
+      "completeOriginalEntry": {
+        "heteronyms": [
+          {
+            "bopomofo": "ㄔㄣˊ",
+            "definitions": [
+              {
+                "def": "早上太陽剛出來的時候。",
+                "example": [
+                  "如：「清晨」、「一日之計在於晨」。"
+                ],
+                "type": "名"
+              },
+              {
+                "def": "雞鳴報曉。",
+                "quote": [
+                  "《書經．牧誓》：「古人有言曰：『牝雞無晨。』」",
+                  "唐．孔穎達．正義：「言無晨鳴之道。」"
+                ],
+                "type": "動"
+              }
+            ],
+            "pinyin": "chén"
+          }
+        ],
+        "non_radical_stroke_count": 7,
+        "radical": "日",
+        "stroke_count": 11,
+        "title": "晨"
+      },
+      "sourceIdentity": "fixed-local-moe-revised-original"
+    },
+    {
+      "char": "承",
+      "sourceId": "moe-revised",
+      "dictionaryWord": "承",
+      "pinyin": "chéng",
+      "tone": 2,
+      "rawEntryIndex": 59613,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 1,
+      "sourceDefinition": {
+        "def": "蒙受、接受。",
+        "example": [
+          "如：「承蒙」、「承贈」。"
+        ],
+        "quote": [
+          "《左傳．僖公十五年》：「君之未入，寡人懼之；入而未定列，猶吾憂也；苟列定矣，敢不承命。」"
+        ],
+        "type": "動"
+      },
+      "completeOriginalEntry": {
+        "heteronyms": [
+          {
+            "bopomofo": "ㄔㄥˊ",
+            "definitions": [
+              {
+                "def": "奉。",
+                "quote": [
+                  "《左傳．成公十六年》：「承寡君之命以請。」"
+                ],
+                "type": "動"
+              },
+              {
+                "def": "蒙受、接受。",
+                "example": [
+                  "如：「承蒙」、「承贈」。"
+                ],
+                "quote": [
+                  "《左傳．僖公十五年》：「君之未入，寡人懼之；入而未定列，猶吾憂也；苟列定矣，敢不承命。」"
+                ],
+                "type": "動"
+              },
+              {
+                "def": "擔當、負責。",
+                "example": [
+                  "如：「承擔」、「這件事情由你來承辦。」"
+                ],
+                "type": "動"
+              },
+              {
+                "def": "繼續、繼承。",
+                "quote": [
+                  "《詩經．小雅．天保》：「如松柏之茂，無不爾或承。」",
+                  "《三國志．卷五四．吳書．魯肅傳》：「孤承父兄餘業，思有桓文之功。」"
+                ],
+                "type": "動"
+              },
+              {
+                "def": "姓。如漢代有承宮。",
+                "type": "名"
+              }
+            ],
+            "pinyin": "chéng"
+          }
+        ],
+        "non_radical_stroke_count": 4,
+        "radical": "手",
+        "stroke_count": 8,
+        "title": "承"
+      },
+      "sourceIdentity": "fixed-local-moe-revised-original"
+    },
+    {
+      "char": "诚",
+      "sourceId": "moe-revised",
+      "dictionaryWord": "誠",
+      "pinyin": "chéng",
+      "tone": 2,
+      "rawEntryIndex": 132515,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 1,
+      "sourceDefinition": {
+        "def": "真實無妄、忠實不欺。",
+        "example": [
+          "如：「誠摯」、「誠樸」。"
+        ],
+        "quote": [
+          "《管子．乘馬》：「故非誠賈，不得食于賈；非誠工，不得食于工。」"
+        ],
+        "type": "形"
+      },
+      "completeOriginalEntry": {
+        "heteronyms": [
+          {
+            "bopomofo": "ㄔㄥˊ",
+            "definitions": [
+              {
+                "def": "真心真意。",
+                "quote": [
+                  "《新唐書．卷一九二．忠義傳中．張巡傳》：「士感其誠，皆一當百。」"
+                ],
+                "type": "名"
+              },
+              {
+                "def": "真實無妄、忠實不欺。",
+                "example": [
+                  "如：「誠摯」、「誠樸」。"
+                ],
+                "quote": [
+                  "《管子．乘馬》：「故非誠賈，不得食于賈；非誠工，不得食于工。」"
+                ],
+                "type": "形"
+              },
+              {
+                "def": "的確、確實。",
+                "quote": [
+                  "《史記．卷七八．春申君傳》：「於是黃歇乃說應侯曰：『相國誠善楚太子乎？』」"
+                ],
+                "type": "副"
+              }
+            ],
+            "pinyin": "chéng"
+          }
+        ],
+        "non_radical_stroke_count": 6,
+        "radical": "言",
+        "stroke_count": 13,
+        "title": "誠"
+      },
+      "sourceIdentity": "fixed-local-moe-revised-original"
+    },
+    {
+      "char": "慈",
+      "sourceId": "moe-revised",
+      "dictionaryWord": "慈",
+      "pinyin": "cí",
+      "tone": 2,
+      "rawEntryIndex": 56151,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 2,
+      "sourceDefinition": {
+        "def": "深篤的愛。",
+        "quote": [
+          "《左傳．莊公二十七年》：「夫禮樂慈愛，戰所畜也。」",
+          "唐．孔穎達．正義：「慈謂愛之深也。」",
+          "《禮記．曲禮上》：「兄弟親戚稱其慈也，僚友稱其弟也。」"
+        ],
+        "type": "名"
+      },
+      "completeOriginalEntry": {
+        "heteronyms": [
+          {
+            "bopomofo": "ㄘˊ",
+            "definitions": [
+              {
+                "def": "愛憐。",
+                "quote": [
+                  "《史記．卷四．周本紀》：「則古公、公季之法，篤仁，敬老，慈少。」"
+                ],
+                "type": "動"
+              },
+              {
+                "def": "父母對子女的愛稱為「慈」。",
+                "quote": [
+                  "北齊．顏之推《顏氏家訓．教子》：「父母威嚴而有慈，則子女畏慎而生孝矣。」"
+                ],
+                "type": "名"
+              },
+              {
+                "def": "深篤的愛。",
+                "quote": [
+                  "《左傳．莊公二十七年》：「夫禮樂慈愛，戰所畜也。」",
+                  "唐．孔穎達．正義：「慈謂愛之深也。」",
+                  "《禮記．曲禮上》：「兄弟親戚稱其慈也，僚友稱其弟也。」"
+                ],
+                "type": "名"
+              },
+              {
+                "def": "稱謂。用以尊稱母親。",
+                "example": [
+                  "如：「令慈」、「家慈」。"
+                ],
+                "type": "名"
+              },
+              {
+                "def": "吸鐵。",
+                "example": [
+                  "如：「慈石」。"
+                ],
+                "link": [
+                  "通「磁」。"
+                ],
+                "type": "名"
+              },
+              {
+                "def": "姓。如漢代有慈仁。",
+                "type": "名"
+              }
+            ],
+            "pinyin": "cí"
+          }
+        ],
+        "non_radical_stroke_count": 9,
+        "radical": "心",
+        "stroke_count": 13,
+        "title": "慈"
+      },
+      "sourceIdentity": "fixed-local-moe-revised-original"
+    },
+    {
+      "char": "芳",
+      "sourceId": "moe-revised",
+      "dictionaryWord": "芳",
+      "pinyin": "fāng",
+      "tone": 1,
+      "rawEntryIndex": 122175,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 0,
+      "sourceDefinition": {
+        "def": "花草的香氣。",
+        "quote": [
+          "《說文解字．艸部》：「芳，香艸。」",
+          "清．段玉裁．注：「香艸當作艸香。」",
+          "漢．武帝〈秋風辭〉：「蘭有秀兮菊有芳，懷佳人兮不能忘。」",
+          "唐．柳宗元〈南中榮橘柚〉詩：「密林耀朱綠，晚歲有餘芳。」"
+        ],
+        "type": "名"
+      },
+      "completeOriginalEntry": {
+        "heteronyms": [
+          {
+            "bopomofo": "ㄈㄤ",
+            "definitions": [
+              {
+                "def": "花草的香氣。",
+                "quote": [
+                  "《說文解字．艸部》：「芳，香艸。」",
+                  "清．段玉裁．注：「香艸當作艸香。」",
+                  "漢．武帝〈秋風辭〉：「蘭有秀兮菊有芳，懷佳人兮不能忘。」",
+                  "唐．柳宗元〈南中榮橘柚〉詩：「密林耀朱綠，晚歲有餘芳。」"
+                ],
+                "type": "名"
+              },
+              {
+                "def": "香草、花草。",
+                "example": [
+                  "如：「孤芳自賞」。"
+                ],
+                "quote": [
+                  "唐．白居易〈賦得古原草送別〉詩：「遠芳侵古道，晴翠連荒城。」",
+                  "宋．羅願《爾雅翼．卷二．茞》：「王逸章句曰：『行清潔者佩芳。』」"
+                ],
+                "type": "名"
+              },
+              {
+                "def": "比喻美好的德性或聲譽。",
+                "example": [
+                  "如：「流芳百世」。"
+                ],
+                "type": "名"
+              },
+              {
+                "def": "對人的敬稱。",
+                "example": [
+                  "如：「芳翰」、「芳儀」、「芳名」。"
+                ],
+                "type": "形"
+              },
+              {
+                "def": "美好的。",
+                "example": [
+                  "如：「芳姿」、「芳辰」。"
+                ],
+                "quote": [
+                  "南朝宋．劉鑠〈擬行行重行行詩〉：「芳年有華月，佳人無還期。」"
+                ],
+                "type": "形"
+              }
+            ],
+            "pinyin": "fāng"
+          }
+        ],
+        "non_radical_stroke_count": 4,
+        "radical": "艸",
+        "stroke_count": 8,
+        "title": "芳"
+      },
+      "sourceIdentity": "fixed-local-moe-revised-original"
+    },
+    {
+      "char": "枫",
+      "sourceId": "moe-revised",
+      "dictionaryWord": "楓",
+      "pinyin": "fēng",
+      "tone": 1,
+      "rawEntryIndex": 77587,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 0,
+      "sourceDefinition": {
+        "def": "植物名。金縷梅科楓香屬，落葉大喬木。葉互生，菱形，掌狀分裂為三，邊緣有細鋸齒。單性花，雌雄同株。春季抽新葉並開黃褐色花。蒴果集生。木材可供建築箱櫃之用。秋間葉落前，葉色由黃而紅，甚為美觀，故常栽培為庭園樹。",
+        "link": [
+          "俗稱為「楓樹」。"
+        ],
+        "type": "名"
+      },
+      "completeOriginalEntry": {
+        "heteronyms": [
+          {
+            "bopomofo": "ㄈㄥ",
+            "definitions": [
+              {
+                "def": "植物名。金縷梅科楓香屬，落葉大喬木。葉互生，菱形，掌狀分裂為三，邊緣有細鋸齒。單性花，雌雄同株。春季抽新葉並開黃褐色花。蒴果集生。木材可供建築箱櫃之用。秋間葉落前，葉色由黃而紅，甚為美觀，故常栽培為庭園樹。",
+                "link": [
+                  "俗稱為「楓樹」。"
+                ],
+                "type": "名"
+              }
+            ],
+            "pinyin": "fēng"
+          }
+        ],
+        "non_radical_stroke_count": 9,
+        "radical": "木",
+        "stroke_count": 13,
+        "title": "楓"
+      },
+      "sourceIdentity": "fixed-local-moe-revised-original"
+    },
+    {
+      "char": "福",
+      "sourceId": "moe-revised",
+      "dictionaryWord": "福",
+      "pinyin": "fú",
+      "tone": 2,
+      "rawEntryIndex": 106369,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 0,
+      "sourceDefinition": {
+        "def": "富貴壽考的統稱。或泛稱吉祥幸運的事。",
+        "example": [
+          "如：「享福」、「迎春納福」、「造福人群」。"
+        ],
+        "quote": [
+          "《韓非子．解老》：「必成功則富與貴，全壽富貴之謂福。」"
+        ],
+        "type": "名"
+      },
+      "completeOriginalEntry": {
+        "heteronyms": [
+          {
+            "bopomofo": "ㄈㄨˊ",
+            "definitions": [
+              {
+                "def": "富貴壽考的統稱。或泛稱吉祥幸運的事。",
+                "example": [
+                  "如：「享福」、「迎春納福」、「造福人群」。"
+                ],
+                "quote": [
+                  "《韓非子．解老》：「必成功則富與貴，全壽富貴之謂福。」"
+                ],
+                "type": "名"
+              },
+              {
+                "def": "運氣、機會。",
+                "example": [
+                  "如：「口福」、「眼福」、「耳福」。"
+                ],
+                "type": "名"
+              },
+              {
+                "def": "祭祀用的酒或肉。",
+                "quote": [
+                  "《國語．晉語二》：「驪姬受福，乃{[93f8]}鴆于酒。」"
+                ],
+                "type": "名"
+              },
+              {
+                "def": "姓。如唐代有福信。",
+                "type": "名"
+              },
+              {
+                "def": "神佑、佑助。",
+                "quote": [
+                  "《左傳．莊公十年》：「小信未孚，神弗福也。」"
+                ],
+                "type": "動"
+              },
+              {
+                "def": "古代婦女行禮時，將手放在腰部合拳敬拜稱為「福」。",
+                "quote": [
+                  "《喻世明言．卷一．蔣興哥重會珍珠衫》：「婆子千恩萬謝的福了一回，便道：『今日老身偶有盃水酒，將來與大娘消遣。』」"
+                ],
+                "type": "動"
+              },
+              {
+                "def": "幸運的。",
+                "example": [
+                  "如：「福星福將」。"
+                ],
+                "type": "形"
+              }
+            ],
+            "pinyin": "fú"
+          }
+        ],
+        "non_radical_stroke_count": 9,
+        "radical": "示",
+        "stroke_count": 14,
+        "title": "福"
+      },
+      "sourceIdentity": "fixed-local-moe-revised-original"
+    },
+    {
+      "char": "涵",
+      "sourceId": "moe-revised",
+      "dictionaryWord": "涵",
+      "pinyin": "hán",
+      "tone": 2,
+      "rawEntryIndex": 86829,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 2,
+      "sourceDefinition": {
+        "def": "包容、容納。",
+        "example": [
+          "如：「包涵」、「海涵」。"
+        ],
+        "quote": [
+          "唐．孟浩然〈望洞庭湖贈張丞相〉詩：「八月湖水平，涵虛混太清。」",
+          "唐．杜牧〈九日齊安登高〉詩：「江涵秋影雁初飛，與客攜壺上翠微。」"
+        ],
+        "type": "動"
+      },
+      "completeOriginalEntry": {
+        "heteronyms": [
+          {
+            "bopomofo": "ㄏㄢˊ",
+            "definitions": [
+              {
+                "def": "水澤多。",
+                "example": [
+                  "如：「涵澤」。"
+                ],
+                "quote": [
+                  "《說文解字．水部》：「涵，水澤多也。」"
+                ],
+                "type": "形"
+              },
+              {
+                "def": "浸潤、溼潤。",
+                "quote": [
+                  "《說文解字．水部》「涵」字．清．段玉裁．注：「涵，所受潤澤多也。」",
+                  "宋．王安石〈送江寧彭給事赴闕〉詩：「威加諸部風霜肅，惠浸連營雨露涵。」"
+                ],
+                "type": "動"
+              },
+              {
+                "def": "包容、容納。",
+                "example": [
+                  "如：「包涵」、「海涵」。"
+                ],
+                "quote": [
+                  "唐．孟浩然〈望洞庭湖贈張丞相〉詩：「八月湖水平，涵虛混太清。」",
+                  "唐．杜牧〈九日齊安登高〉詩：「江涵秋影雁初飛，與客攜壺上翠微。」"
+                ],
+                "type": "動"
+              },
+              {
+                "def": "沉潛、潛水。參見「涵淹」、「涵泳」等條。",
+                "type": "動"
+              },
+              {
+                "def": "涵洞的簡稱。",
+                "example": [
+                  "如：「橋涵」。"
+                ],
+                "type": "名"
+              }
+            ],
+            "pinyin": "hán"
+          }
+        ],
+        "non_radical_stroke_count": 8,
+        "radical": "水",
+        "stroke_count": 11,
+        "title": "涵"
+      },
+      "sourceIdentity": "fixed-local-moe-revised-original"
+    },
+    {
+      "char": "昊",
+      "sourceId": "moe-revised",
+      "dictionaryWord": "昊",
+      "pinyin": "hào",
+      "tone": 4,
+      "rawEntryIndex": 70453,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 0,
+      "sourceDefinition": {
+        "def": "廣大無邊際的天。",
+        "quote": [
+          "《梁書．卷一．武帝本紀上》：「上達蒼昊，下及川泉。」",
+          "宋．蘇軾〈再和潛師〉詩：「且撼長條餐落英，忍飢未擬窮呼昊。」"
+        ],
+        "type": "名"
+      },
+      "completeOriginalEntry": {
+        "heteronyms": [
+          {
+            "bopomofo": "ㄏㄠˋ",
+            "definitions": [
+              {
+                "def": "廣大無邊際的天。",
+                "quote": [
+                  "《梁書．卷一．武帝本紀上》：「上達蒼昊，下及川泉。」",
+                  "宋．蘇軾〈再和潛師〉詩：「且撼長條餐落英，忍飢未擬窮呼昊。」"
+                ],
+                "type": "名"
+              },
+              {
+                "def": "姓。如明代有昊十九。",
+                "type": "名"
+              },
+              {
+                "def": "廣大。",
+                "example": [
+                  "如：「昊天罔極」。"
+                ],
+                "type": "形"
+              }
+            ],
+            "pinyin": "hào"
+          }
+        ],
+        "non_radical_stroke_count": 4,
+        "radical": "日",
+        "stroke_count": 8,
+        "title": "昊"
+      },
+      "sourceIdentity": "fixed-local-moe-revised-original"
+    },
+    {
+      "char": "泓",
+      "sourceId": "moe-revised",
+      "dictionaryWord": "泓",
+      "pinyin": "hóng",
+      "tone": 2,
+      "rawEntryIndex": 84419,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 0,
+      "sourceDefinition": {
+        "def": "水深廣的樣子。",
+        "quote": [
+          "《說文解字．水部》：「泓，下深貌。」",
+          "唐．張又新〈青嶴山〉詩：「靈海泓澄匝翠峰，昔賢心賞已成空。」"
+        ],
+        "type": "形"
+      },
+      "completeOriginalEntry": {
+        "heteronyms": [
+          {
+            "bopomofo": "ㄏㄨㄥˊ",
+            "definitions": [
+              {
+                "def": "水深廣的樣子。",
+                "quote": [
+                  "《說文解字．水部》：「泓，下深貌。」",
+                  "唐．張又新〈青嶴山〉詩：「靈海泓澄匝翠峰，昔賢心賞已成空。」"
+                ],
+                "type": "形"
+              }
+            ],
+            "pinyin": "hóng"
+          }
+        ],
+        "non_radical_stroke_count": 5,
+        "radical": "水",
+        "stroke_count": 8,
+        "title": "泓"
+      },
+      "sourceIdentity": "fixed-local-moe-revised-original"
+    },
+    {
+      "char": "嘉",
+      "sourceId": "moe-revised",
+      "dictionaryWord": "嘉",
+      "pinyin": "jiā",
+      "tone": 1,
+      "rawEntryIndex": 30135,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 0,
+      "sourceDefinition": {
+        "def": "美好的。",
+        "example": [
+          "如：「嘉名」、「嘉賓」。"
+        ],
+        "quote": [
+          "《詩經．豳風．東山》：「其新孔嘉，其舊如之何？」",
+          "唐．柳宗元〈永州韋使君新堂記〉：「茂樹惡木，嘉葩毒卉，亂雜而爭植。」"
+        ],
+        "type": "形"
+      },
+      "completeOriginalEntry": {
+        "heteronyms": [
+          {
+            "bopomofo": "ㄐㄧㄚ",
+            "definitions": [
+              {
+                "def": "美好的。",
+                "example": [
+                  "如：「嘉名」、「嘉賓」。"
+                ],
+                "quote": [
+                  "《詩經．豳風．東山》：「其新孔嘉，其舊如之何？」",
+                  "唐．柳宗元〈永州韋使君新堂記〉：「茂樹惡木，嘉葩毒卉，亂雜而爭植。」"
+                ],
+                "type": "形"
+              },
+              {
+                "def": "讚美、誇獎。",
+                "example": [
+                  "如：「嘉獎」、「嘉許」、「其志可嘉」。"
+                ],
+                "quote": [
+                  "《論語．子張》：「嘉善而矜不能。」",
+                  "唐．韓愈〈師說〉：「余嘉其能行古道，作師說以貽之。」"
+                ],
+                "type": "動"
+              },
+              {
+                "def": "姓。如元代有嘉兆。",
+                "type": "名"
+              }
+            ],
+            "pinyin": "jiā"
+          }
+        ],
+        "non_radical_stroke_count": 11,
+        "radical": "口",
+        "stroke_count": 14,
+        "title": "嘉"
+      },
+      "sourceIdentity": "fixed-local-moe-revised-original"
+    },
+    {
+      "char": "朗",
+      "sourceId": "moe-revised",
+      "dictionaryWord": "朗",
+      "pinyin": "lǎng",
+      "tone": 3,
+      "rawEntryIndex": 73745,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 0,
+      "sourceDefinition": {
+        "def": "明亮。",
+        "example": [
+          "如：「明朗」、「晴朗」。"
+        ],
+        "quote": [
+          "晉．王羲之〈三月三日蘭亭詩序〉：「天朗氣清，惠風和暢。」"
+        ],
+        "type": "形"
+      },
+      "completeOriginalEntry": {
+        "heteronyms": [
+          {
+            "bopomofo": "ㄌㄤˇ",
+            "definitions": [
+              {
+                "def": "明亮。",
+                "example": [
+                  "如：「明朗」、「晴朗」。"
+                ],
+                "quote": [
+                  "晉．王羲之〈三月三日蘭亭詩序〉：「天朗氣清，惠風和暢。」"
+                ],
+                "type": "形"
+              },
+              {
+                "def": "響亮。",
+                "example": [
+                  "如：「朗誦」、「朗讀」。"
+                ],
+                "quote": [
+                  "《文選．孫綽．遊天台山賦》：「凝思幽巖，朗詠長川。」"
+                ],
+                "type": "副"
+              }
+            ],
+            "pinyin": "lǎng"
+          }
+        ],
+        "non_radical_stroke_count": 6,
+        "radical": "月",
+        "stroke_count": 10,
+        "title": "朗"
+      },
+      "sourceIdentity": "fixed-local-moe-revised-original"
+    },
+    {
+      "char": "宁",
+      "sourceId": "moe-revised",
+      "dictionaryWord": "寧",
+      "pinyin": "níng",
+      "tone": 2,
+      "rawEntryIndex": 43912,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 0,
+      "sourceDefinition": {
+        "def": "安定。",
+        "example": [
+          "如：「安寧」。"
+        ],
+        "quote": [
+          "《詩經．小雅．常棣》：「喪亂既平，既安且寧。」",
+          "《遼史．卷三一．營衛志上》：「隨陽遷徙，歲無寧居。」"
+        ],
+        "type": "形"
+      },
+      "completeOriginalEntry": {
+        "heteronyms": [
+          {
+            "bopomofo": "ㄋㄧㄥˊ",
+            "definitions": [
+              {
+                "def": "安定。",
+                "example": [
+                  "如：「安寧」。"
+                ],
+                "quote": [
+                  "《詩經．小雅．常棣》：「喪亂既平，既安且寧。」",
+                  "《遼史．卷三一．營衛志上》：「隨陽遷徙，歲無寧居。」"
+                ],
+                "type": "形"
+              },
+              {
+                "def": "省視、問安。",
+                "example": [
+                  "如：「歸寧」。"
+                ],
+                "quote": [
+                  "唐．韓愈〈贈張童子序〉：「童子請於其官之長，隨父而寧母。」"
+                ],
+                "type": "動"
+              },
+              {
+                "def": "回家。",
+                "quote": [
+                  "《喻世明言．卷二六．沈小官一鳥害七命》：「沈昱并原告人，寧家聽候。」"
+                ],
+                "type": "動"
+              },
+              {
+                "def": "平息。",
+                "quote": [
+                  "唐．李嶠〈為水潦災異陳情表〉：「以寧眾口之囂謗，以答三靈之譴咎。」"
+                ],
+                "type": "動"
+              },
+              {
+                "def": "情願、寧願。表示選擇後的結果。",
+                "example": [
+                  "如：「寧可」、「寧死不屈」、「寧缺毋濫」。"
+                ],
+                "quote": [
+                  "《論語．八佾》：「禮與其奢也，寧儉。」",
+                  "《史記．卷七．項羽本紀》：「吾寧鬥智，不能鬥力。」"
+                ],
+                "type": "副"
+              },
+              {
+                "def": "豈、難道。",
+                "quote": [
+                  "《戰國策．趙策三》：「十人而從一人者，寧力不勝，智不若耶？」",
+                  "唐．王勃〈滕王閣序〉：「老當益壯，寧移白首之心？」"
+                ],
+                "type": "副"
+              },
+              {
+                "def": "乃、竟然。",
+                "quote": [
+                  "《詩經．大雅．瞻卬》：「心之憂矣，寧自今矣。」",
+                  "《三國志．卷二七．魏書．徐胡二王傳．胡質》：「胡通達，長者也，寧有子孫不？」"
+                ],
+                "type": "副"
+              },
+              {
+                "def": "清朝以南京為江寧府治，故簡稱為「寧」。如：「寧漢分裂」。今稱為「京」。",
+                "type": "名"
+              },
+              {
+                "def": "大陸地區寧夏省的簡稱。",
+                "type": "名"
+              },
+              {
+                "def": "語氣助詞，無義。",
+                "example": [
+                  "如：「寧耐」。"
+                ],
+                "quote": [
+                  "《左傳．襄公三十一年》：「賓至如歸，無寧菑害。」"
+                ],
+                "type": "助"
+              }
+            ],
+            "pinyin": "níng"
+          },
+          {
+            "bopomofo": "ㄋㄧㄥˋ",
+            "definitions": [
+              {
+                "def": "姓。如漢代有寧成。",
+                "type": "名"
+              }
+            ],
+            "pinyin": "nìng"
+          }
+        ],
+        "non_radical_stroke_count": 11,
+        "radical": "宀",
+        "stroke_count": 14,
+        "title": "寧"
+      },
+      "sourceIdentity": "fixed-local-moe-revised-original"
+    },
+    {
+      "char": "霖",
+      "sourceId": "moe-revised",
+      "dictionaryWord": "霖",
+      "pinyin": "lín",
+      "tone": 2,
+      "rawEntryIndex": 152818,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 0,
+      "sourceDefinition": {
+        "def": "連續下三天以上的雨稱為「霖」。",
+        "example": [
+          "如：「久旱逢甘霖」。"
+        ],
+        "quote": [
+          "《說文解字．雨部》：「霖，凡雨，三日已往為霖。」",
+          "唐．元稹〈桐花〉詩：「商弦廉以臣，臣作旱天霖。」"
+        ],
+        "type": "名"
+      },
+      "completeOriginalEntry": {
+        "heteronyms": [
+          {
+            "bopomofo": "ㄌㄧㄣˊ",
+            "definitions": [
+              {
+                "def": "連續下三天以上的雨稱為「霖」。",
+                "example": [
+                  "如：「久旱逢甘霖」。"
+                ],
+                "quote": [
+                  "《說文解字．雨部》：「霖，凡雨，三日已往為霖。」",
+                  "唐．元稹〈桐花〉詩：「商弦廉以臣，臣作旱天霖。」"
+                ],
+                "type": "名"
+              }
+            ],
+            "pinyin": "lín"
+          }
+        ],
+        "non_radical_stroke_count": 8,
+        "radical": "雨",
+        "stroke_count": 16,
+        "title": "霖"
+      },
+      "sourceIdentity": "fixed-local-moe-revised-original"
+    },
+    {
+      "char": "昭",
+      "sourceId": "moe-revised",
+      "dictionaryWord": "昭",
+      "pinyin": "zhāo",
+      "tone": 1,
+      "rawEntryIndex": 71207,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 0,
+      "sourceDefinition": {
+        "def": "明亮、光明。",
+        "quote": [
+          "《詩經．大雅．抑》：「昊天孔昭，我生靡樂。」"
+        ],
+        "type": "形"
+      },
+      "completeOriginalEntry": {
+        "heteronyms": [
+          {
+            "bopomofo": "ㄓㄠ",
+            "definitions": [
+              {
+                "def": "明亮、光明。",
+                "quote": [
+                  "《詩經．大雅．抑》：「昊天孔昭，我生靡樂。」"
+                ],
+                "type": "形"
+              },
+              {
+                "def": "明顯的。",
+                "example": [
+                  "如：「天理昭昭」。"
+                ],
+                "type": "形"
+              },
+              {
+                "def": "光線。",
+                "quote": [
+                  "《呂氏春秋．審分覽．任數》：「目之見也藉於昭，心之知也藉於理。」"
+                ],
+                "type": "名"
+              },
+              {
+                "def": "古代祖先宗廟的排列次序。始祖廟居中，左為昭，右為穆。",
+                "quote": [
+                  "《左傳．僖公五年》：「大伯、虞仲，大王之昭也。」"
+                ],
+                "type": "名"
+              },
+              {
+                "def": "姓。如戰國時楚國有昭奚恤。",
+                "type": "名"
+              },
+              {
+                "def": "顯揚、使彰明。",
+                "quote": [
+                  "《左傳．定公四年》：「以昭周公之明德。」",
+                  "《文選．諸葛亮．出師表》：「論其刑賞，以昭陛下平明之理。」"
+                ],
+                "type": "動"
+              }
+            ],
+            "pinyin": "zhāo"
+          }
+        ],
+        "non_radical_stroke_count": 5,
+        "radical": "日",
+        "stroke_count": 9,
+        "title": "昭"
+      },
+      "sourceIdentity": "fixed-local-moe-revised-original"
+    },
+    {
+      "char": "秋",
+      "sourceId": "moe-revised",
+      "dictionaryWord": "秋",
+      "pinyin": "qiū",
+      "tone": 1,
+      "rawEntryIndex": 106848,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 0,
+      "sourceDefinition": {
+        "def": "一年四季中的第三季。農曆為七、八、九月，陽曆為九、十、十一月。",
+        "example": [
+          "如：「秋天」、「秋季」、「中秋」、「深秋」、「一葉知秋」。"
+        ],
+        "quote": [
+          "唐．杜甫〈登高〉詩：「萬里悲秋常作客，百年多病獨登臺。」"
+        ],
+        "type": "名"
+      },
+      "completeOriginalEntry": {
+        "heteronyms": [
+          {
+            "bopomofo": "ㄑㄧㄡ",
+            "definitions": [
+              {
+                "def": "一年四季中的第三季。農曆為七、八、九月，陽曆為九、十、十一月。",
+                "example": [
+                  "如：「秋天」、「秋季」、「中秋」、「深秋」、「一葉知秋」。"
+                ],
+                "quote": [
+                  "唐．杜甫〈登高〉詩：「萬里悲秋常作客，百年多病獨登臺。」"
+                ],
+                "type": "名"
+              },
+              {
+                "def": "年。古代年的長度以二次秋收為準，故以秋代表年。",
+                "example": [
+                  "如：「千秋萬世」、「一日不見，如隔三秋。」"
+                ],
+                "quote": [
+                  "唐．劉禹錫〈蜀先主廟〉詩：「天地英雄氣，千秋尚凜然。」"
+                ],
+                "type": "名"
+              },
+              {
+                "def": "時候。",
+                "example": [
+                  "如：「多事之秋」。"
+                ],
+                "quote": [
+                  "《文選．諸葛亮．出師表》：「此誠危急存亡之秋也。」"
+                ],
+                "type": "名"
+              },
+              {
+                "def": "姓。如清代有秋瑾。",
+                "type": "名"
+              },
+              {
+                "def": "喻衰老。",
+                "quote": [
+                  "宋．陸游〈南鄉子．早歲入皇州〉詞：「三十年來真一夢，堪愁。客路蕭蕭兩鬢秋。」"
+                ],
+                "type": "形"
+              }
+            ],
+            "pinyin": "qiū"
+          }
+        ],
+        "non_radical_stroke_count": 4,
+        "radical": "禾",
+        "stroke_count": 9,
+        "title": "秋"
+      },
+      "sourceIdentity": "fixed-local-moe-revised-original"
+    },
+    {
+      "char": "松",
+      "sourceId": "moe-revised",
+      "dictionaryWord": "松",
+      "pinyin": "sōng",
+      "tone": 1,
+      "rawEntryIndex": 75337,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 0,
+      "sourceDefinition": {
+        "def": "松科植物的總稱。種類極多，一般為常綠喬木。幹聳直，皮粗厚，葉如針，花單性，結毬果，木材用途甚廣，可供醫藥和工藝用。",
+        "type": "名"
+      },
+      "completeOriginalEntry": {
+        "heteronyms": [
+          {
+            "bopomofo": "ㄙㄨㄥ",
+            "definitions": [
+              {
+                "def": "松科植物的總稱。種類極多，一般為常綠喬木。幹聳直，皮粗厚，葉如針，花單性，結毬果，木材用途甚廣，可供醫藥和工藝用。",
+                "type": "名"
+              },
+              {
+                "def": "姓。如隋代有松贇。",
+                "type": "名"
+              }
+            ],
+            "pinyin": "sōng"
+          }
+        ],
+        "non_radical_stroke_count": 4,
+        "radical": "木",
+        "stroke_count": 8,
+        "title": "松"
+      },
+      "sourceIdentity": "fixed-local-moe-revised-original"
+    },
+    {
+      "char": "哲",
+      "sourceId": "moe-revised",
+      "dictionaryWord": "哲",
+      "pinyin": "zhé",
+      "tone": 2,
+      "rawEntryIndex": 28713,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 0,
+      "sourceDefinition": {
+        "def": "明智。",
+        "quote": [
+          "《書經．皋陶謨》：「知人則哲，能官人。」",
+          "《文選．王延壽．魯靈光殿賦》：「粵若稽古帝漢，祖宗濬哲欽明。」"
+        ],
+        "type": "形"
+      },
+      "completeOriginalEntry": {
+        "heteronyms": [
+          {
+            "bopomofo": "ㄓㄜˊ",
+            "definitions": [
+              {
+                "def": "明智。",
+                "quote": [
+                  "《書經．皋陶謨》：「知人則哲，能官人。」",
+                  "《文選．王延壽．魯靈光殿賦》：「粵若稽古帝漢，祖宗濬哲欽明。」"
+                ],
+                "type": "形"
+              },
+              {
+                "def": "賢能明智的人。",
+                "quote": [
+                  "《左傳．成公八年》：「夫豈無辟王？賴前哲以免也。」",
+                  "唐．徐賢妃〈諫太宗息兵罷役疏〉：「然黷武翫兵，先哲所戒。」"
+                ],
+                "type": "名"
+              }
+            ],
+            "pinyin": "zhé"
+          }
+        ],
+        "non_radical_stroke_count": 7,
+        "radical": "口",
+        "stroke_count": 10,
+        "title": "哲"
+      },
+      "sourceIdentity": "fixed-local-moe-revised-original"
+    },
+    {
+      "char": "瑞",
+      "sourceId": "moe-revised",
+      "dictionaryWord": "瑞",
+      "pinyin": "ruì",
+      "tone": 4,
+      "rawEntryIndex": 96869,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 2,
+      "sourceDefinition": {
+        "def": "吉祥的。",
+        "example": [
+          "如：「瑞兆」、「瑞雲」。"
+        ],
+        "quote": [
+          "唐．杜甫〈鳳凰臺〉詩：「自天銜瑞圖，飛下十二樓。」"
+        ],
+        "type": "形"
+      },
+      "completeOriginalEntry": {
+        "heteronyms": [
+          {
+            "bopomofo": "ㄖㄨㄟˋ",
+            "definitions": [
+              {
+                "def": "古代用玉做成的信物，諸侯持以朝祭或作為符節。",
+                "quote": [
+                  "《說文解字．玉部》：「瑞，以玉為信也。」"
+                ],
+                "type": "名"
+              },
+              {
+                "def": "吉祥的徵兆。",
+                "quote": [
+                  "《鏡花緣．第八三回》：「野人晝見蟢子者，……以為有喜樂之瑞。」"
+                ],
+                "type": "名"
+              },
+              {
+                "def": "吉祥的。",
+                "example": [
+                  "如：「瑞兆」、「瑞雲」。"
+                ],
+                "quote": [
+                  "唐．杜甫〈鳳凰臺〉詩：「自天銜瑞圖，飛下十二樓。」"
+                ],
+                "type": "形"
+              }
+            ],
+            "pinyin": "ruì"
+          }
+        ],
+        "non_radical_stroke_count": 9,
+        "radical": "玉",
+        "stroke_count": 13,
+        "title": "瑞"
+      },
+      "sourceIdentity": "fixed-local-moe-revised-original"
+    }
+  ]
+}

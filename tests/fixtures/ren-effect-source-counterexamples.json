@@ -1,0 +1,512 @@
+{
+  "version": "ren-effect-source-counterexamples/1.0.0",
+  "purpose": "独立原例研究金标，用于淘汰错误快捷算法；不作为产品自动判格规则。",
+  "source": {
+    "title": "滴天髓闡微",
+    "revision": 2600158,
+    "url": "https://zh.wikisource.org/w/index.php?title=%E6%BB%B4%E5%A4%A9%E9%AB%93%E9%97%A1%E5%BE%AE&oldid=2600158",
+    "fullWikitextSha256": "1d1a3d61c1b9a26618b41b8ead857a6b966992fdf2adabdc607a0c6cb4c8f04d",
+    "fullWikitextCodepoints": 143701,
+    "layer": "任氏评注及其原例",
+    "license": "CC-BY-SA-4.0",
+    "ancientTextStatus": "历史原书为公版；电子转录及依其整理的本研究保留 CC BY-SA 4.0。",
+    "attribution": "中文维基文库《滴天髓闡微》固定修订 2600158 及贡献者；本项目按原字节录、加码点、四柱和研究语义边界。",
+    "contributors": "https://zh.wikisource.org/w/index.php?title=%E6%BB%B4%E5%A4%A9%E9%AB%93%E9%97%A1%E5%BE%AE&action=history",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "licenseText": "data/raw/CC-BY-SA-4.0.txt"
+  },
+  "policy": {
+    "expectedValues": "期望由研究者手录原句含义；未调用本应用任注或八字引擎生成。",
+    "missingInput": "缺少被核对柱位或日期证据时不自动填入；不足以完成四柱反例匹配。",
+    "chartDates": "四柱来自原书，不推造公历生辰，不把大运当第五柱。",
+    "lifePredictions": "上下文原样保留用于文本核验；不采纳或输出其人事、寿命、疾病、性别品行断语。",
+    "sourcePolicy": "不替换固定电子本原字，不修改既有 source lock、产品规则或历史结果。"
+  },
+  "reversalClauseContext": {
+    "quote": "{{annotate|任氏曰：十二支相冲，各支中所藏互相冲克，在原局为明冲，在岁运为暗冲。得令者冲衰则拔，失时者冲旺无伤。冲之者有力，则能去之，去凶神则利，去吉神则不利；冲之者无力，则反激之，激凶神则为祸，激吉神虽不为祸，亦不能获福也。如日主是午，或喜神是午，支中有寅卯巳未戌之类，遇子冲谓衰神冲旺，无伤；日主午，或喜神是午，支中有申酉亥子丑辰之类，遇子冲，谓旺者冲衰则拔。余支皆然。然以子、卯、午、酉、寅、申、巳、亥八支为重，辰、戌、丑、未较轻。如子午冲，子中癸水冲午中丁火，如午旺提纲，四柱无金而有木，则午能冲子；卯酉冲，酉中辛金，冲卯中乙木，如卯旺提纲，四柱有火而无土，则卯亦能冲酉；寅申冲，寅中甲木丙火，被申中庚金壬水所克，然寅旺提纲，四柱有火，则寅亦能冲申矣；巳亥冲，巳中丙火戊土，被亥中甲木壬水所克，然巳旺提纲，四柱有木，则巳亦能冲亥矣。必先察其衰旺，四柱有无解救，或抑冲，或助泄，观其大势，究其喜忌，则吉凶自验矣。至于四库兄弟之冲，其蓄藏之物，看其四柱干支，有无引出。如四柱之干支，无所引出，及司令之神，又不关切，虽冲无害，合而得用亦为喜。原局与岁运皆同此论。}}",
+    "start": 13593,
+    "end": 14082,
+    "unit": "unicode-codepoint",
+    "interval": "[start,end)",
+    "sha256": "c067afabfb8de2ae7377ee2b8036ac991b738db87137bde96d0b2a78abb81099",
+    "locator": "oldid=2600158;codepoint[13593,14082)",
+    "section": "八、地支",
+    "layer": "ren-commentary"
+  },
+  "cases": [
+    {
+      "id": "yin-month-fire-does-not-prove-reversal",
+      "group": "month-and-member-not-sufficient",
+      "pillars": [
+        "丁丑",
+        "壬寅",
+        "丙申",
+        "壬辰"
+      ],
+      "facts": {
+        "monthBranch": "寅",
+        "exposedFire": [
+          "year:丁",
+          "day:丙"
+        ],
+        "hiddenFire": [
+          "month:寅:丙"
+        ],
+        "sameElementRootBranch": "寅",
+        "opposingClashBranch": "申"
+      },
+      "manualExpected": {
+        "authorEffect": "原字说嫩木逢金、紧贴相冲、运根拔尽，并说申另得辰土生扶。",
+        "role": "negative",
+        "effectTarget": "本段寅木与申金的相冲作用；运根为电子疑字，原样保留，不擅改为某个现代标签。",
+        "sourceVariant": "运根二字原样保留；句在本局解释中、后文另起运走西北金水。未借后文生涯结果反推本局力量，也未据此新增一条通用拔根算法。",
+        "blocks": [
+          "month-branch-equality-plus-fire-implies-yin-defeats-shen"
+        ],
+        "doesNotProve": [
+          "寅月不能反冲申",
+          "所有火都无效",
+          "作者本例成格标签能推广到新盘"
+        ]
+      },
+      "section": "六亲论 十四、假从",
+      "layer": "ren-case-commentary",
+      "chart": {
+        "quote": "丁丑\n\n壬寅\n\n丙申\n\n壬辰",
+        "start": 103232,
+        "end": 103246,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)",
+        "sha256": "8b3e367c88490d325657ce0dece7f92eb14566b6ab53b833a20fa31a42e6f149",
+        "locator": "oldid=2600158;codepoint[103232,103246)"
+      },
+      "context": {
+        "quote": "丙火生于初春，火虚木嫩，嫩木逢金，紧贴相冲，运根拔尽，申金又辰土生扶，杀势愈旺，格成从杀，用财更妙。年支丑土，生金晦火，故身出官家 ，早登科甲；运走西北金水，仕至观察，虽逢土运，仍得金以化之，所以无险阻也。",
+        "start": 103270,
+        "end": 103373,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)",
+        "sha256": "c352ba69992135b12e8af64e0fc95e8c0005f0b388f7955c0d3772296d5d26e5",
+        "locator": "oldid=2600158;codepoint[103270,103373)"
+      },
+      "authorAssertion": {
+        "quote": "嫩木逢金，紧贴相冲，运根拔尽，申金又辰土生扶",
+        "start": 103282,
+        "end": 103304,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)",
+        "sha256": "00096187c54086c3e1d3540619e5aa5e41886a6453039e39da17af2080ddf36a",
+        "locator": "oldid=2600158;codepoint[103282,103304)"
+      },
+      "existingArchive": {
+        "file": "data/raw/ditian-ren-excerpts.json",
+        "collection": "caseParagraphs",
+        "id": "false-sha-pulled-root",
+        "field": "paragraph"
+      },
+      "interpretation": {
+        "authority": "project-research-inference-not-author-algorithm",
+        "text": "寅在月支且年丁日丙明见、寅中亦藏丙，仍不能直接把寅旺提纲替换成月支等于寅。运根疑字不擅校，反例保留整个嫩木、紧冲、辰扶金上下文，未以后文运势为力量真值。"
+      }
+    },
+    {
+      "id": "si-month-wood-does-not-prove-reversal",
+      "group": "month-and-member-not-sufficient",
+      "pillars": [
+        "乙亥",
+        "辛巳",
+        "丙辰",
+        "癸巳"
+      ],
+      "facts": {
+        "monthBranch": "巳",
+        "exposedWood": [
+          "year:乙"
+        ],
+        "hiddenWood": [
+          "year:亥:甲",
+          "day:辰:乙"
+        ],
+        "opposingClashBranch": "亥"
+      },
+      "manualExpected": {
+        "authorEffect": "巳亥冲在作者本例去火；另述财坏印、辰泄、癸盖头。",
+        "role": "negative",
+        "effectTarget": "巳火禄根",
+        "blocks": [
+          "month-branch-equality-plus-wood-implies-si-defeats-hai"
+        ],
+        "doesNotProve": [
+          "巳月不能反冲亥",
+          "单见亥就能拔巳根",
+          "只由一条相冲决定日主强弱"
+        ]
+      },
+      "section": "六亲论 三、父母",
+      "layer": "ren-case-commentary",
+      "chart": {
+        "quote": "乙亥\n\n辛巳\n\n丙辰\n\n癸巳",
+        "start": 75608,
+        "end": 75622,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)",
+        "sha256": "2b66a71b71345dd92774d1d58da16121694e0235aaf434caaa69a70bd2433e09",
+        "locator": "oldid=2600158;codepoint[75608,75622)"
+      },
+      "context": {
+        "quote": "此造支逢两禄乘权，年干印透通根，凡推命者，作旺论用，以财星断其名利双收，然丙火生孟夏，火气方进，年干印绶 ，被月干财星所坏，巳亥逢冲，破禄去火，则金反得生扶，木火失势。又坐下辰土，窃去命主无神，时癸盖头，巳火亦伤，必作弱推，用以巳火，初运东方木土，出身遣业丰百姓；丙子火不通根，官得地，家多破耗；丑运生金泄火，刑克异常，家业十去八九，夫妇皆亡。",
+        "start": 75646,
+        "end": 75818,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)",
+        "sha256": "aaac9d57cf627709813623747048b056b7bb3dee84b7d9f04a9dc800b2194373",
+        "locator": "oldid=2600158;codepoint[75646,75818)"
+      },
+      "authorAssertion": {
+        "quote": "巳亥逢冲，破禄去火，则金反得生扶，木火失势",
+        "start": 75708,
+        "end": 75729,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)",
+        "sha256": "cb3cd0bb88965b3a11400ebb5155c1117ecb1d1231ee2b3c70d7f83207f61e1f",
+        "locator": "oldid=2600158;codepoint[75708,75729)"
+      },
+      "existingArchive": {
+        "file": "data/raw/ditian-ren-excerpts.json",
+        "collection": "graphCaseParagraphs",
+        "id": "resource-wealth-damage",
+        "field": "sourceParagraph"
+      },
+      "interpretation": {
+        "authority": "project-research-inference-not-author-algorithm",
+        "text": "巳在提纲、有木，且本例原称两禄乘权，仍需核印受损和生扶、盖头等作用。"
+      }
+    },
+    {
+      "id": "cai-root-absence-is-not-all-hidden-absence",
+      "group": "author-absence-not-hidden-count",
+      "pillars": [
+        "戊戌",
+        "丙辰",
+        "乙未",
+        "丙戌"
+      ],
+      "facts": {
+        "hiddenMetal": [
+          "year:戌:辛",
+          "hour:戌:辛"
+        ],
+        "hiddenWater": [
+          "month:辰:癸"
+        ]
+      },
+      "manualExpected": {
+        "authorEffect": "原作者称无金以泄、无水以靡，同时明言未根及辰余气。",
+        "role": "boundary",
+        "effectTarget": "金之泄土、水之靡木的实际作用",
+        "blocks": [
+          "author-no-metal-implies-no-hidden-metal",
+          "author-no-water-implies-no-hidden-water",
+          "any-root-vetoes-following"
+        ],
+        "doesNotProve": [
+          "戌藏辛永久无效",
+          "辰藏癸永久无效",
+          "所有相同分布皆从财"
+        ]
+      },
+      "section": "六亲论 十二、从象",
+      "layer": "ren-case-commentary",
+      "chart": {
+        "quote": "戊戌\n\n丙辰\n\n乙未\n\n丙戌",
+        "start": 99410,
+        "end": 99424,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)",
+        "sha256": "c9b57f21331e8943eb691aa0d314da681ab5ed13c7ef5b0f254c04864fadda90",
+        "locator": "oldid=2600158;codepoint[99410,99424)"
+      },
+      "context": {
+        "quote": "乙木生于季春，蟠根在未，余气在辰，似乎财多身弱，但四柱皆财，其势必从。春土气虚，得丙火发实之，且火乃木之秀气，土乃火之秀气，三者为全，无金以泄之，无水以靡之。更喜运走南方火地，秀气流行，所以第发丹墀，鸿笔奏三千之绩，名题金榜，鳌头冠五百之仙也，志有为也。",
+        "start": 99448,
+        "end": 99575,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)",
+        "sha256": "359d152faff51529781df1de23e385f88a1c7b18264cf58a4907a8bb0614edbd",
+        "locator": "oldid=2600158;codepoint[99448,99575)"
+      },
+      "authorAssertion": {
+        "quote": "无金以泄之，无水以靡之",
+        "start": 99515,
+        "end": 99526,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)",
+        "sha256": "16e28466ab1668ea050b9a8109fd59e6a39bab8e29467f65500ec45f7f27466e",
+        "locator": "oldid=2600158;codepoint[99515,99526)"
+      },
+      "existingArchive": {
+        "file": "data/raw/ditian-ren-excerpts.json",
+        "collection": "caseParagraphs",
+        "id": "cai-root",
+        "field": "paragraph"
+      },
+      "interpretation": {
+        "authority": "project-research-inference-not-author-algorithm",
+        "text": "无金以泄、无水以靡是带作用语境的作者断语，不能直接采用全藏干零计数作为等价定义。"
+      }
+    },
+    {
+      "id": "summer-no-earth-is-not-all-hidden-absence",
+      "group": "author-absence-not-hidden-count",
+      "pillars": [
+        "甲寅",
+        "庚午",
+        "乙卯",
+        "丙子"
+      ],
+      "facts": {
+        "hiddenEarth": [
+          "year:寅:戊",
+          "month:午:己"
+        ],
+        "exposedEarth": []
+      },
+      "manualExpected": {
+        "authorEffect": "原作者用庚金语境称火旺无土，但寅午在所选藏干词汇中有戊己。",
+        "role": "boundary",
+        "effectTarget": "可用于火金通关的土",
+        "blocks": [
+          "author-no-earth-implies-no-hidden-earth"
+        ],
+        "doesNotProve": [
+          "所有未透藏土都无作用",
+          "无土一定只指天干",
+          "本例能反证所有藏干表"
+        ]
+      },
+      "section": "通神论 九、干支总论",
+      "layer": "ren-case-commentary",
+      "chart": {
+        "quote": "甲寅\n\n庚午\n\n乙卯\n\n丙子",
+        "start": 22164,
+        "end": 22178,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)",
+        "sha256": "fa1e31e4e9b8fc8fd59e32ec53e22b92281551851ca6226f35d31fa97245b0d0",
+        "locator": "oldid=2600158;codepoint[22164,22178)"
+      },
+      "context": {
+        "quote": "专禄日主，时支子水生之，年干甲木，亦坐禄旺，用庚金则火旺无土，坐干火地，用丙火则子冲去其旺支，即或用火，亦无安顿之运。所以一败如灰，至乙亥运，水木齐来，竟为乞丐。",
+        "start": 22202,
+        "end": 22283,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)",
+        "sha256": "9ad08fc9ba6f95fd0cdfee281891f8b1dd5d6c4cbe544a3d0a3fce808c4792a8",
+        "locator": "oldid=2600158;codepoint[22202,22283)"
+      },
+      "authorAssertion": {
+        "quote": "用庚金则火旺无土，坐干火地",
+        "start": 22224,
+        "end": 22237,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)",
+        "sha256": "500f5921446982b60938199d54fda207f3f196b8c90225b1656ddade374a7da3",
+        "locator": "oldid=2600158;codepoint[22224,22237)"
+      },
+      "interpretation": {
+        "authority": "project-research-inference-not-author-algorithm",
+        "text": "本例使原文无土与所选全藏干无土发生明确分离；仅用明干计数也不是已证通则。"
+      }
+    },
+    {
+      "id": "yin-reversal-author-positive",
+      "group": "independent-action-examples",
+      "pillars": [
+        "戊申",
+        "甲寅",
+        "壬寅",
+        "丁未"
+      ],
+      "facts": {
+        "monthBranch": "寅",
+        "exposedFire": [
+          "hour:丁"
+        ],
+        "opposingClashBranch": "申"
+      },
+      "manualExpected": {
+        "authorEffect": "本例原作者明确说金反被伤。",
+        "role": "positive",
+        "effectTarget": "申金",
+        "blocks": [
+          "metal-water-always-win-branch-clash"
+        ],
+        "doesNotProve": [
+          "所有寅月有火都胜申",
+          "原作者人事断语应作为产品输出"
+        ]
+      },
+      "section": "六亲论 六、女命章",
+      "layer": "ren-case-commentary",
+      "chart": {
+        "quote": "戊申\n\n甲寅\n\n壬寅\n\n丁未",
+        "start": 86769,
+        "end": 86783,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)",
+        "sha256": "be20e252e91a820b22a3c0696459646e1b19e8217adee08a39d589f937f95887",
+        "locator": "oldid=2600158;codepoint[86769,86783)"
+      },
+      "context": {
+        "quote": "壬水生于孟春 ，土虚木盛。制杀太过。寅申逢冲，本是克木，不知木旺金缺。金反被伤，则戊土无根依抚，而日主之壬水，可任性而行，见其财星有势，自然从财而去，以致伤夫败业，弃子从人也。",
+        "start": 86815,
+        "end": 86903,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)",
+        "sha256": "7e5dff09cd2df76a84bdbdd712d283936e499fd2067ed8c86df515b8d597914f",
+        "locator": "oldid=2600158;codepoint[86815,86903)"
+      },
+      "authorAssertion": {
+        "quote": "寅申逢冲，本是克木，不知木旺金缺。金反被伤",
+        "start": 86833,
+        "end": 86854,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)",
+        "sha256": "038e60e33284d16f5e2ae9015e4e2927277ea6d76d553a866c005718126e8d31",
+        "locator": "oldid=2600158;codepoint[86833,86854)"
+      },
+      "interpretation": {
+        "authority": "project-research-inference-not-author-algorithm",
+        "text": "这是同一固定任注里反冲确有主张的独立原例，可校验新模型不能永远默认金克木获胜。"
+      }
+    },
+    {
+      "id": "si-hai-source-command-boundary",
+      "group": "independent-action-examples",
+      "pillars": [
+        "乙亥",
+        "辛巳",
+        "戊申",
+        "甲寅"
+      ],
+      "facts": {
+        "monthBranch": "巳",
+        "exposedWood": [
+          "year:乙",
+          "hour:甲"
+        ],
+        "opposingClashBranch": "亥",
+        "authorDaysAfterSolarTerm": 10,
+        "authorCommandStem": "戊"
+      },
+      "manualExpected": {
+        "authorEffect": "作者另给立夏后十天、戊土司令前提，并称亥受制而巳火不伤。",
+        "role": "boundary",
+        "effectTarget": "亥水对巳火的损伤",
+        "blocks": [
+          "same-month-implies-same-effective-clash",
+          "replace-author-command-with-main-qi-equality"
+        ],
+        "doesNotProve": [
+          "可由四柱反推精确出生日期",
+          "同一巳月所有日期戊司令",
+          "其他典籍司令表可无标记合入任注"
+        ]
+      },
+      "section": "六亲论 十八、战局",
+      "layer": "ren-case-commentary",
+      "chart": {
+        "quote": "乙亥\n\n辛巳\n\n戊申\n\n甲寅",
+        "start": 111771,
+        "end": 111785,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)",
+        "sha256": "427be3541bbbe13ee482bc184c0bb31ec149500a86fea4d0daba74b4a31640f3",
+        "locator": "oldid=2600158;codepoint[111771,111785)"
+      },
+      "context": {
+        "quote": "天干乙辛甲戊，地支寅申巳亥，天地交战，似乎不美。然喜天干乙辛去官星之混杀，地支寅申，制杀之肆逞。巳亥逢冲，坏印本属不喜，喜在立夏后十天，戊土司令，则亥水受制而巳火不伤。中年运途，木火助印扶身，联登甲第，仕至郡守；至子运，扶起亥水，生煞坏印，不禄。",
+        "start": 111809,
+        "end": 111932,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)",
+        "sha256": "489e2ef9a70dcfa1d833315991f479d8b2cd1de4c8199627f80082ee644e1b8e",
+        "locator": "oldid=2600158;codepoint[111809,111932)"
+      },
+      "authorAssertion": {
+        "quote": "喜在立夏后十天，戊土司令，则亥水受制而巳火不伤",
+        "start": 111869,
+        "end": 111892,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)",
+        "sha256": "511439fc5b3163a89f2ecae871bd88c79d233bd1cc296650a37de12bc6c1cab4",
+        "locator": "oldid=2600158;codepoint[111869,111892)"
+      },
+      "interpretation": {
+        "authority": "project-research-inference-not-author-algorithm",
+        "text": "这里的司令信息不是四柱中月支相等能够恢复的；不得捏造公历或借别派日数表冒充同书。"
+      }
+    },
+    {
+      "id": "wu-can-prevail-without-wood",
+      "group": "independent-action-examples",
+      "pillars": [
+        "戊子",
+        "戊午",
+        "戊戌",
+        "戊午"
+      ],
+      "facts": {
+        "monthBranch": "午",
+        "allSelectedWoodAbsent": true,
+        "opposingClashBranch": "子"
+      },
+      "manualExpected": {
+        "authorEffect": "本例作者明确称子衰午旺且冲则午发；所选四柱明藏无木。",
+        "role": "boundary",
+        "effectTarget": "午火",
+        "blocks": [
+          "no-wood-means-wu-cannot-prevail",
+          "sufficient-rule-failure-implies-opposite-effect"
+        ],
+        "doesNotProve": [
+          "四条有源反冲句为必要且充分条件",
+          "所有午月无木皆能伤子"
+        ]
+      },
+      "section": "通神论 九、干支总论",
+      "layer": "ren-case-commentary",
+      "chart": {
+        "quote": "戊子\n\n戊午\n\n戊戌\n\n戊午",
+        "start": 17036,
+        "end": 17050,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)",
+        "sha256": "4d97b91e00738aa392a059a534400b36f1be2dcb6b089ce7c5da2d9c2de170a6",
+        "locator": "oldid=2600158;codepoint[17036,17050)"
+      },
+      "context": {
+        "quote": "此满局火土，子衰午旺，冲则午发而愈烈，熬干滴水，是谓天干不覆。初交已未，孤苦万状；至庚申辛酉运，引通戊土之性，大得际遇，娶妻生子，立业成家；一交壬戌，水不通根，暗拱火局，遭祝融之变，一家五口皆亡。如天干透一庚辛，或地支藏一申酉，岂至若是之结局乎？",
+        "start": 17074,
+        "end": 17197,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)",
+        "sha256": "e26ca786ed10851fda9bc9ea65970f8fddd191b76363291d6f6afd99ecc6b304",
+        "locator": "oldid=2600158;codepoint[17074,17197)"
+      },
+      "authorAssertion": {
+        "quote": "子衰午旺，冲则午发而愈烈，熬干滴水",
+        "start": 17080,
+        "end": 17097,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)",
+        "sha256": "79657c68edd471934dd19ca6a7099af1d9e5d907306c04ef520448cc98fbba22",
+        "locator": "oldid=2600158;codepoint[17080,17097)"
+      },
+      "interpretation": {
+        "authority": "project-research-inference-not-author-algorithm",
+        "text": "四条如…则…反冲例示不能反向变成无木即无能力，更不能把子午水火传统相克当无条件净效果。"
+      }
+    }
+  ]
+}

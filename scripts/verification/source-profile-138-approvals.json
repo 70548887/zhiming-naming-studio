@@ -1,0 +1,5 @@
+{
+  "schema": "naming-outer-source-admission-registry/1",
+  "scope": "production",
+  "admissions": []
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "b04-word-context-options/1",
+  "char": "渤",
+  "pinyin": "bo",
+  "status": "not-covered",
+  "activation": "off",
+  "wholeWordOnly": true,
+  "sourcePOS": "unknown",
+  "options": [],
+  "sourceAnchors": [],
+  "productionApproved": false,
+  "automaticNameRecommendation": false,
+  "automaticSemanticCreditAllowed": false,
+  "wholeNameApproved": false,
+  "wholeNameMeaning": null,
+  "scoreDelta": 0
+}

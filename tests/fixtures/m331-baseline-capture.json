@@ -1,0 +1,219 @@
+{
+  "schema": "m331-pinned-before-domain-capture/1",
+  "commit": "d881e0df43d82f626f7f664e10874416fc624a17",
+  "baselinePins": {
+    "src/domain/naming-v7.ts": "fb726c2d32c844be877a39b98abadc34c59c2cf2b1cbfa8e7f6880645b1dc9cf",
+    "src/domain/naming.ts": "a23b7f0d554a3c64254136d977798b8fa4307c1dd170fdf52cce34ae70f62d75",
+    "src/main/candidate-facts.ts": "dc46daea405d1a72a82feadd539a5dca215c9e41ff11d29fb770b327c26e1e8c"
+  },
+  "files": [
+    {
+      "original": "src/domain/naming.ts",
+      "target": "tests/helpers/m331-baseline/naming.ts",
+      "originalBytes": 13457,
+      "originalSha256": "a23b7f0d554a3c64254136d977798b8fa4307c1dd170fdf52cce34ae70f62d75",
+      "capturedBytes": 13652,
+      "capturedSha256": "a0eef34a6909bb69333c500e5e49e8572ac3bf151450f25706bcbc6273fae4a4",
+      "onlyImportSpecifierRewrites": true,
+      "rewrites": [
+        {
+          "specifier": "./naming-v6",
+          "resolved": "src/domain/naming-v6.ts",
+          "replacement": "../../../src/domain/naming-v6",
+          "sharedOriginalModule": true
+        },
+        {
+          "specifier": "./naming-v4",
+          "resolved": "src/domain/naming-v4.ts",
+          "replacement": "../../../src/domain/naming-v4",
+          "sharedOriginalModule": true
+        },
+        {
+          "specifier": "./naming-v5",
+          "resolved": "src/domain/naming-v5.ts",
+          "replacement": "../../../src/domain/naming-v5",
+          "sharedOriginalModule": true
+        },
+        {
+          "specifier": "./naming-v7",
+          "resolved": "src/domain/naming-v7.ts",
+          "replacement": "./naming-v7",
+          "sharedOriginalModule": false
+        },
+        {
+          "specifier": "../../data/naming-editorial-v7.json",
+          "resolved": "data/naming-editorial-v7.json",
+          "replacement": "../../../data/naming-editorial-v7.json",
+          "sharedOriginalModule": true
+        },
+        {
+          "specifier": "./naming-review-v7.mjs",
+          "resolved": "src/domain/naming-review-v7.mjs",
+          "replacement": "../../../src/domain/naming-review-v7.mjs",
+          "sharedOriginalModule": true
+        },
+        {
+          "specifier": "../shared/types",
+          "resolved": "src/shared/types.ts",
+          "replacement": "../../../src/shared/types",
+          "sharedOriginalModule": true
+        },
+        {
+          "specifier": "./naming-element-basis",
+          "resolved": "src/domain/naming-element-basis.ts",
+          "replacement": "../../../src/domain/naming-element-basis",
+          "sharedOriginalModule": true
+        },
+        {
+          "specifier": "../shared/naming-element-application",
+          "resolved": "src/shared/naming-element-application.ts",
+          "replacement": "../../../src/shared/naming-element-application",
+          "sharedOriginalModule": true
+        },
+        {
+          "specifier": "../shared/naming-rules",
+          "resolved": "src/shared/naming-rules.ts",
+          "replacement": "../../../src/shared/naming-rules",
+          "sharedOriginalModule": true
+        }
+      ]
+    },
+    {
+      "original": "src/domain/naming-v7.ts",
+      "target": "tests/helpers/m331-baseline/naming-v7.ts",
+      "originalBytes": 51733,
+      "originalSha256": "fb726c2d32c844be877a39b98abadc34c59c2cf2b1cbfa8e7f6880645b1dc9cf",
+      "capturedBytes": 51869,
+      "capturedSha256": "7d3aa6c69fd619cea929f18964630408baa81dca97facd30cf536fb11ec4de52",
+      "onlyImportSpecifierRewrites": true,
+      "rewrites": [
+        {
+          "specifier": "../shared/types",
+          "resolved": "src/shared/types.ts",
+          "replacement": "../../../src/shared/types",
+          "sharedOriginalModule": true
+        },
+        {
+          "specifier": "../../data/naming-editorial.json",
+          "resolved": "data/naming-editorial.json",
+          "replacement": "../../../data/naming-editorial.json",
+          "sharedOriginalModule": true
+        },
+        {
+          "specifier": "./naming-element-basis",
+          "resolved": "src/domain/naming-element-basis.ts",
+          "replacement": "../../../src/domain/naming-element-basis",
+          "sharedOriginalModule": true
+        },
+        {
+          "specifier": "../shared/naming-rules",
+          "resolved": "src/shared/naming-rules.ts",
+          "replacement": "../../../src/shared/naming-rules",
+          "sharedOriginalModule": true
+        },
+        {
+          "specifier": "../shared/naming-element-application",
+          "resolved": "src/shared/naming-element-application.ts",
+          "replacement": "../../../src/shared/naming-element-application",
+          "sharedOriginalModule": true
+        },
+        {
+          "specifier": "../../data/naming-editorial-v7.json",
+          "resolved": "data/naming-editorial-v7.json",
+          "replacement": "../../../data/naming-editorial-v7.json",
+          "sharedOriginalModule": true
+        },
+        {
+          "specifier": "./naming-review-v7.mjs",
+          "resolved": "src/domain/naming-review-v7.mjs",
+          "replacement": "../../../src/domain/naming-review-v7.mjs",
+          "sharedOriginalModule": true
+        },
+        {
+          "specifier": "./naming-semantics-v6",
+          "resolved": "src/domain/naming-semantics-v6.ts",
+          "replacement": "../../../src/domain/naming-semantics-v6",
+          "sharedOriginalModule": true
+        },
+        {
+          "specifier": "./naming-name-rules-v6",
+          "resolved": "src/domain/naming-name-rules-v6.ts",
+          "replacement": "../../../src/domain/naming-name-rules-v6",
+          "sharedOriginalModule": true
+        },
+        {
+          "specifier": "../shared/character-reading-reference",
+          "resolved": "src/shared/character-reading-reference.ts",
+          "replacement": "../../../src/shared/character-reading-reference",
+          "sharedOriginalModule": true
+        }
+      ]
+    },
+    {
+      "original": "src/main/candidate-facts.ts",
+      "target": "tests/helpers/m331-baseline/candidate-facts.ts",
+      "originalBytes": 8028,
+      "originalSha256": "dc46daea405d1a72a82feadd539a5dca215c9e41ff11d29fb770b327c26e1e8c",
+      "capturedBytes": 8112,
+      "capturedSha256": "277fc98f9958f73b0a72b43b0dbd38757fe9efbdaa46e013641fb185aa4239d1",
+      "onlyImportSpecifierRewrites": true,
+      "rewrites": [
+        {
+          "specifier": "../domain/naming",
+          "resolved": "src/domain/naming.ts",
+          "replacement": "./naming",
+          "sharedOriginalModule": false
+        },
+        {
+          "specifier": "../domain/naming-element-basis",
+          "resolved": "src/domain/naming-element-basis.ts",
+          "replacement": "../../../src/domain/naming-element-basis",
+          "sharedOriginalModule": true
+        },
+        {
+          "specifier": "./verify-project-naming-use",
+          "resolved": "src/main/verify-project-naming-use.ts",
+          "replacement": "../../../src/main/verify-project-naming-use",
+          "sharedOriginalModule": true
+        },
+        {
+          "specifier": "./naming-meaning-review",
+          "resolved": "src/main/naming-meaning-review.ts",
+          "replacement": "../../../src/main/naming-meaning-review",
+          "sharedOriginalModule": true
+        },
+        {
+          "specifier": "../shared/candidate-facts",
+          "resolved": "src/shared/candidate-facts.ts",
+          "replacement": "../../../src/shared/candidate-facts",
+          "sharedOriginalModule": true
+        },
+        {
+          "specifier": "../shared/naming-rules",
+          "resolved": "src/shared/naming-rules.ts",
+          "replacement": "../../../src/shared/naming-rules",
+          "sharedOriginalModule": true
+        },
+        {
+          "specifier": "../shared/character-reading",
+          "resolved": "src/shared/character-reading.ts",
+          "replacement": "../../../src/shared/character-reading",
+          "sharedOriginalModule": true
+        },
+        {
+          "specifier": "../shared/character-reading-reference",
+          "resolved": "src/shared/character-reading-reference.ts",
+          "replacement": "../../../src/shared/character-reading-reference",
+          "sharedOriginalModule": true
+        },
+        {
+          "specifier": "../shared/types",
+          "resolved": "src/shared/types.ts",
+          "replacement": "../../../src/shared/types",
+          "sharedOriginalModule": true
+        }
+      ]
+    }
+  ],
+  "scope": "Original three modules; only import specifiers point to captured peer or actual unchanged repo dependency. Same main project-basis WeakSet module is shared, no Store/Service/Worker imported."
+}

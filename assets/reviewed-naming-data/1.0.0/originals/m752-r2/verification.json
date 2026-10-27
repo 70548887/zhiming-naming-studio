@@ -1,0 +1,22 @@
+{
+  "schema": "M752-r2-verification/1",
+  "at": "2026-10-25T09:26:20.350Z",
+  "checksPassed": 223,
+  "issues": [],
+  "originalManifestFilesUnchanged": 30,
+  "sourceFilesChanged": 0,
+  "productFilesWritten": 0,
+  "productTestsExecuted": false,
+  "contractFixtures": 43,
+  "stageExpectations": 122,
+  "rebuiltArtifactsByteIdentical": true,
+  "recordPackageSha256": "ecfb610b2c3467b9326e45c25fa4581870f6b3a2087b6490af08bd77d39ccbe6",
+  "formalCoverageAdded": 0,
+  "unexecuted": [
+    "M751 assess execution",
+    "actual output rejection",
+    "legacy7.1 runtime replay",
+    "product generation/save/restore",
+    "build/install"
+  ]
+}

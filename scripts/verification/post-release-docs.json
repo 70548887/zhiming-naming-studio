@@ -1,0 +1,13 @@
+{
+  "schema": "naming-studio-post-release-docs/1",
+  "releaseVersion": "1.0.34",
+  "approvedCommit": "0b85290",
+  "sourceFreezeSha256": "189897c62b0c9ec023cfd744aedf9470575625c85cc0f4a65dd40ee4d7f46eb1",
+  "statusFacts": { "regressionFiles": 192, "regressionTests": 2343, "frozenInputFiles": 790, "historicalGivenNameRows": 20 },
+  "files": {
+    "README.md": { "releaseSha256": "d19593cbdd3a0886ee10e7015948c442b3e62e1dfaf9681d79fa35d2147a07c0", "approvedSha256": "8a86e7c768b3e99e638a4326ac6270292bc8e746933bcbf0c26beda069315385" },
+    "docs/CURRENT-STATUS.md": { "releaseSha256": null, "approvedSha256": "cce501d2bf0b3bffcdca08e9656d958e63f51900e0c0894f80f837b57673c4ef" },
+    "docs/NAMING-DICTIONARY-V6.md": { "releaseSha256": "57780470567ca1fd56ef5726af3a54b2ac2b8f5691276b75bf90302106bc471a", "approvedSha256": "511424037233470e7c6b7440b61ede398065bb73847cd63e7eca6de85d8e4239" },
+    "docs/UI-DETAILS-PLAN.md": { "releaseSha256": "2c22702bfbb35fbe0a787a93b0e2fd48518045e99ffd529eff4e01fb44ec083a", "approvedSha256": "e83338876e04d45e15c2e8e2d5d1d3001cd06337216b02237a847d55c1872980" }
+  }
+}

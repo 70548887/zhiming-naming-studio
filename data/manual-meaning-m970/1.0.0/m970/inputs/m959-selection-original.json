@@ -1,0 +1,1124 @@
+{
+  "schema": "m959-selection/1",
+  "batchId": "M959-DATA",
+  "version": "1.0.0-candidate.1",
+  "status": "pending-independent-review",
+  "count": 10,
+  "usage": "explicit-character-query-only",
+  "defaultReadingsOnly": true,
+  "formalCoverageAdded": 0,
+  "selected": [
+    {
+      "candidateId": "m959-naming-data:衡:128496:0:1",
+      "char": "衡",
+      "pinyin": "héng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "衡",
+      "rawEntryIndex": 128496,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 1,
+      "dictionarySense": "秤，量輕重的器具。",
+      "sourcePOS": "名",
+      "meaning": "取称量轻重的器具这一字面意象。",
+      "projectWish": null,
+      "limits": [
+        "本条只解释秤这一器具，不把衡量或考量的其他动作义混作本义。",
+        "器具意象不证明公平、自律、判断力或个人能力；具体姓名语境仍待审。",
+        "只供明确查询时的候选字义说明，姓名用途、整名关系及家庭接受度仍待独立审阅。"
+      ],
+      "editorialAttribution": "M959 project-authored explanation; not an MOE quotation or admission decision",
+      "editorialLicense": "CC0-1.0",
+      "glyphBinding": {
+        "kind": "exact-source-glyph",
+        "character": "衡",
+        "dictionaryWord": "衡"
+      },
+      "baselineCharacter": {
+        "char": "衡",
+        "pinyin": "héng",
+        "tone": 2,
+        "meaning": "置於車轅前端的橫木。；秤，量輕重的器具。；眉目之間。",
+        "traditional": "衡",
+        "strokes": 16,
+        "radical": "行",
+        "elements": [],
+        "elementBasis": "五行属性待起名师指定；不从普通笔画数推定五行",
+        "tags": [
+          "自然草木"
+        ],
+        "warning": "本表按字典中文义项与 Unicode 字形字段核对；仍需结合全名检查谐音。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "héng",
+            "tone": 2,
+            "meanings": [
+              "置於車轅前端的橫木。",
+              "秤，量輕重的器具。",
+              "眉目之間。",
+              "星名。北斗七星的第五星。因位於魁與斗杓之間，故以為斗的中央。",
+              "大陸地區衡山的簡稱。為五嶽之一。",
+              "姓。如漢代有衡咸。",
+              "量輕重。",
+              "斟酌、考量。",
+              "違抗、拂逆。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "衡"
+          }
+        ],
+        "polyphonic": false,
+        "variants": [
+          "衡"
+        ]
+      },
+      "baselineCharacterSha256": "a2b0e2755db15b369fd8af61c4c5dc8e212f2faadca82cfe93c067298696d152",
+      "alternativeReadings": [
+        {
+          "index": 0,
+          "pinyin": "héng",
+          "tone": null,
+          "definitions": [
+            {
+              "def": "置於車轅前端的橫木。",
+              "quote": [
+                "《論語．衛靈公》：「在輿，則見其倚於衡也。」",
+                "唐．陸德明《經典釋文．卷二七．莊子音義中》：「衡，轅前橫木，縛軛者也。」"
+              ],
+              "type": "名"
+            },
+            {
+              "def": "秤，量輕重的器具。",
+              "quote": [
+                "《荀子．禮論》：「衡誠縣矣，則不可欺以輕重。」",
+                "《文選．張衡．東京賦》：「同衡律而壹軌量，齊急舒於寒燠。」",
+                "三國吳．薛綜．注：「衡，稱也。軌，法。」"
+              ],
+              "type": "名"
+            },
+            {
+              "def": "眉目之間。",
+              "quote": [
+                "《後漢書．卷六○下．蔡邕傳》：「胡老乃揚衡含笑，援琴而歌。」",
+                "《文選．劉孝標．廣絕交論》：「見一善則盱衡扼腕，遇一才則揚眉抵掌。」"
+              ],
+              "type": "名"
+            },
+            {
+              "def": "星名。北斗七星的第五星。因位於魁與斗杓之間，故以為斗的中央。",
+              "quote": [
+                "《文選．張衡．東京賦》：「攝提揮衡，徐至於射宮。」",
+                "三國吳．薛綜．注：「攝提有六星，玉衡，北斗中星，主迴轉。」"
+              ],
+              "type": "名"
+            },
+            {
+              "def": "大陸地區衡山的簡稱。為五嶽之一。",
+              "quote": [
+                "唐．王勃〈滕王閣序〉：「星分翼、軫，地接衡、廬。」"
+              ],
+              "type": "名"
+            },
+            {
+              "def": "姓。如漢代有衡咸。",
+              "type": "名"
+            },
+            {
+              "def": "量輕重。",
+              "quote": [
+                "《墨子．經說下》：「衡，加重於其一旁，必捶。」",
+                "《文選．陸機．演連珠五○首之二》：「物勝權而衡殆，形過鏡則照窮。」"
+              ],
+              "type": "動"
+            },
+            {
+              "def": "斟酌、考量。",
+              "example": [
+                "如：「衡情度理」、「權衡得失」。"
+              ],
+              "type": "動"
+            },
+            {
+              "def": "違抗、拂逆。",
+              "quote": [
+                "《史記．卷六二．管晏傳》：「國有道，即順命；無道，即衡命。」",
+                "《警世通言．卷九．李謫仙醉草嚇蠻書》：「豈非逆天之咎徵，衡大之明鑒與！」"
+              ],
+              "type": "動"
+            }
+          ]
+        }
+      ],
+      "status": "pending-independent-review",
+      "admissionStatus": "candidate-only",
+      "admissionGranted": false,
+      "automaticMeaningAllowed": false,
+      "productionApproved": false,
+      "wholeNameMeaning": null,
+      "scoreDelta": 0
+    },
+    {
+      "candidateId": "m959-naming-data:景:71745:0:0",
+      "char": "景",
+      "pinyin": "jǐng",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "景",
+      "rawEntryIndex": 71745,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 0,
+      "dictionarySense": "日光。",
+      "sourcePOS": "名",
+      "meaning": "取日光这一自然光线意象。",
+      "projectWish": null,
+      "limits": [
+        "只采用默认 jǐng 的日光义，不借 yǐng 读音及景大的古义。",
+        "日光不表示前程、声名、心境或命运保证。",
+        "只供明确查询时的候选字义说明，姓名用途、整名关系及家庭接受度仍待独立审阅。"
+      ],
+      "editorialAttribution": "M959 project-authored explanation; not an MOE quotation or admission decision",
+      "editorialLicense": "CC0-1.0",
+      "glyphBinding": {
+        "kind": "exact-source-glyph",
+        "character": "景",
+        "dictionaryWord": "景"
+      },
+      "baselineCharacter": {
+        "char": "景",
+        "pinyin": "jǐng",
+        "tone": 3,
+        "meaning": "日光。；時光。；可供玩賞的形色。",
+        "traditional": "景",
+        "strokes": 12,
+        "radical": "日",
+        "elements": [
+          "火"
+        ],
+        "elementBasis": "字形／字义意象参考 v1（项目自编标签，非唯一汉字五行定论；不得当作康熙笔画五行）",
+        "tags": [
+          "明朗"
+        ],
+        "warning": "多音字：本方案采用 jǐng，请按姓名用法确认；各读音义项分别保存。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "jǐng",
+            "tone": 3,
+            "meanings": [
+              "日光。",
+              "時光。",
+              "可供玩賞的形色。",
+              "情況、境遇。",
+              "戲劇中因布幕不同而畫分的段落。",
+              "姓。如戰國時楚國有景差。",
+              "仰慕。",
+              "大。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "景"
+          },
+          {
+            "pinyin": "yǐng",
+            "tone": 3,
+            "meanings": [
+              "物體的形影、陰影。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "景"
+          }
+        ],
+        "polyphonic": true,
+        "variants": [
+          "景"
+        ]
+      },
+      "baselineCharacterSha256": "6673f8b73272fe6a5191486e5613505f9a63d32b9c3b191585a537d376c86127",
+      "alternativeReadings": [
+        {
+          "index": 0,
+          "pinyin": "jǐng",
+          "tone": null,
+          "definitions": [
+            {
+              "def": "日光。",
+              "quote": [
+                "《文選．張載．七哀詩二首之二》：「朱光馳北陸，浮景忽西沉。」",
+                "文選．陶淵明〈歸去來辭〉：「景翳翳以將入，撫孤松而盤桓。」"
+              ],
+              "type": "名"
+            },
+            {
+              "def": "時光。",
+              "quote": [
+                "《文選．謝靈運．登江中孤嶼詩》：「懷雜道轉迥，尋異景不延。」"
+              ],
+              "type": "名"
+            },
+            {
+              "def": "可供玩賞的形色。",
+              "example": [
+                "如：「風景」、「山景」、「景物依舊，人事全非。」"
+              ],
+              "type": "名"
+            },
+            {
+              "def": "情況、境遇。",
+              "example": [
+                "如：「晚景淒涼」。"
+              ],
+              "quote": [
+                "宋．蘇軾〈西山戲題武昌王居士〉詩：「解襟顧景各箕踞，擊劍賡歌幾舉觥。」",
+                "《紅樓夢．第四六回》：「率性把方才鳳姐過去回來所有的形景言詞，始末原由，告訴與他。」"
+              ],
+              "type": "名"
+            },
+            {
+              "def": "戲劇中因布幕不同而畫分的段落。",
+              "example": [
+                "如：「第一幕第三景」。"
+              ],
+              "type": "名"
+            },
+            {
+              "def": "姓。如戰國時楚國有景差。",
+              "type": "名"
+            },
+            {
+              "def": "仰慕。",
+              "example": [
+                "如：「景仰」。"
+              ],
+              "quote": [
+                "《後漢書．卷三九．劉般傳》：「今愷景仰前脩，有伯夷之節。」",
+                "唐．李白〈與韓荊州書〉：「何令人之景慕一至於此耶！」"
+              ],
+              "type": "動"
+            },
+            {
+              "def": "大。",
+              "quote": [
+                "《詩經．小雅．小明》：「神之聽之，介爾景福。」",
+                "《隋書．卷三．煬帝紀上》：「朕嗣膺景業，傍求雅訓，有一弘益，欽若令典。」"
+              ],
+              "type": "形"
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "pinyin": "yǐng",
+          "tone": null,
+          "definitions": [
+            {
+              "def": "物體的形影、陰影。",
+              "link": [
+                "同「影」。"
+              ],
+              "quote": [
+                "《周禮．地官．大司徒》：「以土圭之法測土深，正日景以求地中。」"
+              ],
+              "type": "名"
+            }
+          ]
+        }
+      ],
+      "status": "pending-independent-review",
+      "admissionStatus": "candidate-only",
+      "admissionGranted": false,
+      "automaticMeaningAllowed": false,
+      "productionApproved": false,
+      "wholeNameMeaning": null,
+      "scoreDelta": 0
+    },
+    {
+      "candidateId": "m959-naming-data:菁:123514:0:1",
+      "char": "菁",
+      "pinyin": "jīng",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "菁",
+      "rawEntryIndex": 123514,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 1,
+      "dictionarySense": "泛指花朵。",
+      "sourcePOS": "名",
+      "meaning": "取花朵这一植物意象。",
+      "projectWish": null,
+      "limits": [
+        "所选为泛指花朵义，区别韭菜花及芜菁的其他具体植物义。",
+        "不由菁英等复词反推才智、品格或出众能力。",
+        "只供明确查询时的候选字义说明，姓名用途、整名关系及家庭接受度仍待独立审阅。"
+      ],
+      "editorialAttribution": "M959 project-authored explanation; not an MOE quotation or admission decision",
+      "editorialLicense": "CC0-1.0",
+      "glyphBinding": {
+        "kind": "exact-source-glyph",
+        "character": "菁",
+        "dictionaryWord": "菁"
+      },
+      "baselineCharacter": {
+        "char": "菁",
+        "pinyin": "jīng",
+        "tone": 1,
+        "meaning": "韭菜花。；泛指花朵。；植物名。即蕪菁。十字花科蕓薹屬，一年生或兩年生草本。春季開黃色十字花，總狀花序，葉抱莖而生，邊緣有鋸齒，根呈扁球形，可食。",
+        "traditional": "菁",
+        "strokes": 11,
+        "radical": "艸",
+        "elements": [
+          "木"
+        ],
+        "elementBasis": "字形／字义意象参考 v1（项目自编标签，非唯一汉字五行定论；不得当作康熙笔画五行）",
+        "tags": [
+          "自然草木"
+        ],
+        "warning": "本表按字典中文义项与 Unicode 字形字段核对；仍需结合全名检查谐音。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "jīng",
+            "tone": 1,
+            "meanings": [
+              "韭菜花。",
+              "泛指花朵。",
+              "植物名。即蕪菁。十字花科蕓薹屬，一年生或兩年生草本。春季開黃色十字花，總狀花序，葉抱莖而生，邊緣有鋸齒，根呈扁球形，可食。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "菁"
+          }
+        ],
+        "polyphonic": false,
+        "variants": [
+          "菁"
+        ]
+      },
+      "baselineCharacterSha256": "994af67f07a4b04d3008796da5a89634c4e4ed434af53fb89e4cd5755bffc1ad",
+      "alternativeReadings": [
+        {
+          "index": 0,
+          "pinyin": "jīng",
+          "tone": null,
+          "definitions": [
+            {
+              "def": "韭菜花。",
+              "quote": [
+                "《說文解字．艸部》：「菁，韭華也。」"
+              ],
+              "type": "名"
+            },
+            {
+              "def": "泛指花朵。",
+              "quote": [
+                "《文選．宋玉．高唐賦》：「秋蘭茝蕙，江離載菁。」"
+              ],
+              "type": "名"
+            },
+            {
+              "def": "植物名。即蕪菁。十字花科蕓薹屬，一年生或兩年生草本。春季開黃色十字花，總狀花序，葉抱莖而生，邊緣有鋸齒，根呈扁球形，可食。",
+              "link": [
+                "俗稱為「大頭菜」。"
+              ],
+              "type": "名"
+            }
+          ]
+        }
+      ],
+      "status": "pending-independent-review",
+      "admissionStatus": "candidate-only",
+      "admissionGranted": false,
+      "automaticMeaningAllowed": false,
+      "productionApproved": false,
+      "wholeNameMeaning": null,
+      "scoreDelta": 0
+    },
+    {
+      "candidateId": "m959-naming-data:琳:96773:0:0",
+      "char": "琳",
+      "pinyin": "lín",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "琳",
+      "rawEntryIndex": 96773,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 0,
+      "dictionarySense": "美玉。",
+      "sourcePOS": "名",
+      "meaning": "取美玉这一物象参考。",
+      "projectWish": null,
+      "limits": [
+        "美玉是所选辞书物象，不推定孩子的身份、价值或德行。",
+        "不据玉石物象确定传统五行、财富、健康或人生结果。",
+        "只供明确查询时的候选字义说明，姓名用途、整名关系及家庭接受度仍待独立审阅。"
+      ],
+      "editorialAttribution": "M959 project-authored explanation; not an MOE quotation or admission decision",
+      "editorialLicense": "CC0-1.0",
+      "glyphBinding": {
+        "kind": "exact-source-glyph",
+        "character": "琳",
+        "dictionaryWord": "琳"
+      },
+      "baselineCharacter": {
+        "char": "琳",
+        "pinyin": "lín",
+        "tone": 2,
+        "meaning": "美玉。",
+        "traditional": "琳",
+        "strokes": 12,
+        "radical": "玉",
+        "elements": [
+          "土"
+        ],
+        "elementBasis": "字形／字义意象参考 v1（项目自编标签，非唯一汉字五行定论；不得当作康熙笔画五行）",
+        "tags": [
+          "玉石珍宝",
+          "美德"
+        ],
+        "warning": "本表按字典中文义项与 Unicode 字形字段核对；仍需结合全名检查谐音。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "lín",
+            "tone": 2,
+            "meanings": [
+              "美玉。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "琳"
+          }
+        ],
+        "polyphonic": false,
+        "variants": [
+          "琳"
+        ]
+      },
+      "baselineCharacterSha256": "b96da42282dd1557656aac46ee74b0957a5cfdd29b8e70e2aebdbe6509bd478a",
+      "alternativeReadings": [
+        {
+          "index": 0,
+          "pinyin": "lín",
+          "tone": null,
+          "definitions": [
+            {
+              "def": "美玉。",
+              "quote": [
+                "《說文解字．玉部》：「琳，美玉也。」",
+                "《文選．司馬相如．上林賦》：「玫瑰碧琳，珊瑚叢生。」"
+              ],
+              "type": "名"
+            }
+          ]
+        }
+      ],
+      "status": "pending-independent-review",
+      "admissionStatus": "candidate-only",
+      "admissionGranted": false,
+      "automaticMeaningAllowed": false,
+      "productionApproved": false,
+      "wholeNameMeaning": null,
+      "scoreDelta": 0
+    },
+    {
+      "candidateId": "m959-naming-data:林:75576:0:0",
+      "char": "林",
+      "pinyin": "lín",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "林",
+      "rawEntryIndex": 75576,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 0,
+      "dictionarySense": "樹木或竹子叢生一處。",
+      "sourcePOS": "名",
+      "meaning": "取树木或竹子丛生一处的自然景象。",
+      "projectWish": null,
+      "limits": [
+        "本条保留树木与竹子两类对象，不把丛生意象改为人数众多或姓氏义。",
+        "不由自然景象推断成长、生命力、性格或元素归属。",
+        "只供明确查询时的候选字义说明，姓名用途、整名关系及家庭接受度仍待独立审阅。"
+      ],
+      "editorialAttribution": "M959 project-authored explanation; not an MOE quotation or admission decision",
+      "editorialLicense": "CC0-1.0",
+      "glyphBinding": {
+        "kind": "exact-source-glyph",
+        "character": "林",
+        "dictionaryWord": "林"
+      },
+      "baselineCharacter": {
+        "char": "林",
+        "pinyin": "lín",
+        "tone": 2,
+        "meaning": "樹木或竹子叢生一處。；泛指同類的人或事物薈聚之所。；姓。如清代有林則徐。",
+        "traditional": "林",
+        "strokes": 8,
+        "radical": "木",
+        "elements": [
+          "木"
+        ],
+        "elementBasis": "字形／字义意象参考 v1（项目自编标签，非唯一汉字五行定论；不得当作康熙笔画五行）",
+        "tags": [
+          "自然草木"
+        ],
+        "warning": "本表按字典中文义项与 Unicode 字形字段核对；仍需结合全名检查谐音。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "lín",
+            "tone": 2,
+            "meanings": [
+              "樹木或竹子叢生一處。",
+              "泛指同類的人或事物薈聚之所。",
+              "姓。如清代有林則徐。",
+              "眾多。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "林"
+          }
+        ],
+        "polyphonic": false,
+        "variants": [
+          "林"
+        ]
+      },
+      "baselineCharacterSha256": "3f607588554ad303f39100f68be1e6f51961324b96f61b78247ce8f019afe630",
+      "alternativeReadings": [
+        {
+          "index": 0,
+          "pinyin": "lín",
+          "tone": null,
+          "definitions": [
+            {
+              "def": "樹木或竹子叢生一處。",
+              "example": [
+                "如：「竹林」、「山林」、「松林」、「防風林」。"
+              ],
+              "type": "名"
+            },
+            {
+              "def": "泛指同類的人或事物薈聚之所。",
+              "example": [
+                "如：「碑林」、「儒林」、「藝林」。"
+              ],
+              "quote": [
+                "《文選．司馬遷．報任少卿書》：「士有此五者，然後可以託於世而列於君子之林矣。」"
+              ],
+              "type": "名"
+            },
+            {
+              "def": "姓。如清代有林則徐。",
+              "type": "名"
+            },
+            {
+              "def": "眾多。",
+              "example": [
+                "如：「工廠林立」。"
+              ],
+              "type": "副"
+            }
+          ]
+        }
+      ],
+      "status": "pending-independent-review",
+      "admissionStatus": "candidate-only",
+      "admissionGranted": false,
+      "automaticMeaningAllowed": false,
+      "productionApproved": false,
+      "wholeNameMeaning": null,
+      "scoreDelta": 0
+    },
+    {
+      "candidateId": "m959-naming-data:宙:42414:0:0",
+      "char": "宙",
+      "pinyin": "zhòu",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "宙",
+      "rawEntryIndex": 42414,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 0,
+      "dictionarySense": "古往今來無限的時間。",
+      "sourcePOS": "名",
+      "meaning": "取古往今来的时间这一字面意象。",
+      "projectWish": null,
+      "limits": [
+        "原义中的无限修辞属于时间范围，不是个人寿命或关系长久的承诺。",
+        "不把天空的另一义项与本条时间义混合采用。",
+        "只供明确查询时的候选字义说明，姓名用途、整名关系及家庭接受度仍待独立审阅。"
+      ],
+      "editorialAttribution": "M959 project-authored explanation; not an MOE quotation or admission decision",
+      "editorialLicense": "CC0-1.0",
+      "glyphBinding": {
+        "kind": "exact-source-glyph",
+        "character": "宙",
+        "dictionaryWord": "宙"
+      },
+      "baselineCharacter": {
+        "char": "宙",
+        "pinyin": "zhòu",
+        "tone": 4,
+        "meaning": "古往今來無限的時間。；天空。",
+        "traditional": "宙",
+        "strokes": 8,
+        "radical": "宀",
+        "elements": [],
+        "elementBasis": "五行属性待起名师指定；不从普通笔画数推定五行",
+        "tags": [
+          "常用命名字候选"
+        ],
+        "warning": "本表按字典中文义项与 Unicode 字形字段核对；仍需结合全名检查谐音。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "zhòu",
+            "tone": 4,
+            "meanings": [
+              "古往今來無限的時間。",
+              "天空。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "宙"
+          }
+        ],
+        "polyphonic": false,
+        "variants": [
+          "宙"
+        ]
+      },
+      "baselineCharacterSha256": "505a7c84475d94ea1265ae5906c822aa689c6be4a78adc1d04b3ed84d1503756",
+      "alternativeReadings": [
+        {
+          "index": 0,
+          "pinyin": "zhòu",
+          "tone": null,
+          "definitions": [
+            {
+              "def": "古往今來無限的時間。",
+              "example": [
+                "如：「宇宙」。"
+              ],
+              "quote": [
+                "《淮南子．齊俗》：「往古來今謂之宙。」",
+                "宋．蘇軾〈次韻答章傳道見贈〉詩：「並生天地宇，同閱古今宙。」"
+              ],
+              "type": "名"
+            },
+            {
+              "def": "天空。",
+              "quote": [
+                "唐．王勃〈七夕賦〉：「霜凝碧宙，水瑩丹霄。」"
+              ],
+              "type": "名"
+            }
+          ]
+        }
+      ],
+      "status": "pending-independent-review",
+      "admissionStatus": "candidate-only",
+      "admissionGranted": false,
+      "automaticMeaningAllowed": false,
+      "productionApproved": false,
+      "wholeNameMeaning": null,
+      "scoreDelta": 0
+    },
+    {
+      "candidateId": "m959-naming-data:珠:96373:0:0",
+      "char": "珠",
+      "pinyin": "zhū",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "珠",
+      "rawEntryIndex": 96373,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 0,
+      "dictionarySense": "蚌殼內所生的圓形物質。當砂粒竄進蚌殼內，蚌體受到刺激，常用膜緣摩擦，而所分泌的珍珠質，就附在物體表面，漸久漸大，即形成珠。",
+      "sourcePOS": "名",
+      "meaning": "取蚌壳内所生珠体这一物象参考。",
+      "projectWish": null,
+      "limits": [
+        "形成过程原文完整保留，项目概述不代替原文或补充生物学结论。",
+        "不从珠体物象推导珍贵身份、财富、品格或五行定论。",
+        "只供明确查询时的候选字义说明，姓名用途、整名关系及家庭接受度仍待独立审阅。"
+      ],
+      "editorialAttribution": "M959 project-authored explanation; not an MOE quotation or admission decision",
+      "editorialLicense": "CC0-1.0",
+      "glyphBinding": {
+        "kind": "exact-source-glyph",
+        "character": "珠",
+        "dictionaryWord": "珠"
+      },
+      "baselineCharacter": {
+        "char": "珠",
+        "pinyin": "zhū",
+        "tone": 1,
+        "meaning": "蚌殼內所生的圓形物質。當砂粒竄進蚌殼內，蚌體受到刺激，常用膜緣摩擦，而所分泌的珍珠質，就附在物體表面，漸久漸大，即形成珠。；泛稱圓形的顆粒。",
+        "traditional": "珠",
+        "strokes": 10,
+        "radical": "玉",
+        "elements": [
+          "土"
+        ],
+        "elementBasis": "字形／字义意象参考 v1（项目自编标签，非唯一汉字五行定论；不得当作康熙笔画五行）",
+        "tags": [
+          "自然草木"
+        ],
+        "warning": "本表按字典中文义项与 Unicode 字形字段核对；仍需结合全名检查谐音。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "zhū",
+            "tone": 1,
+            "meanings": [
+              "蚌殼內所生的圓形物質。當砂粒竄進蚌殼內，蚌體受到刺激，常用膜緣摩擦，而所分泌的珍珠質，就附在物體表面，漸久漸大，即形成珠。",
+              "泛稱圓形的顆粒。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "珠"
+          }
+        ],
+        "polyphonic": false,
+        "variants": [
+          "珠"
+        ]
+      },
+      "baselineCharacterSha256": "517978cb62e0fe64c04b198239efaaad1b0099b89a63d9231662439d4b12a0ee",
+      "alternativeReadings": [
+        {
+          "index": 0,
+          "pinyin": "zhū",
+          "tone": null,
+          "definitions": [
+            {
+              "def": "蚌殼內所生的圓形物質。當砂粒竄進蚌殼內，蚌體受到刺激，常用膜緣摩擦，而所分泌的珍珠質，就附在物體表面，漸久漸大，即形成珠。",
+              "quote": [
+                "《書經．禹貢》：「泗濱浮磬，淮、夷蠙珠暨魚。」"
+              ],
+              "type": "名"
+            },
+            {
+              "def": "泛稱圓形的顆粒。",
+              "example": [
+                "如：「彈珠」、「眼珠」。"
+              ],
+              "quote": [
+                "北周．庾信〈和靈法師遊昆明池〉詩二首之二：「碎珠縈斷菊，殘絲繞折蓮。」"
+              ],
+              "type": "名"
+            }
+          ]
+        }
+      ],
+      "status": "pending-independent-review",
+      "admissionStatus": "candidate-only",
+      "admissionGranted": false,
+      "automaticMeaningAllowed": false,
+      "productionApproved": false,
+      "wholeNameMeaning": null,
+      "scoreDelta": 0
+    },
+    {
+      "candidateId": "m959-naming-data:竹:108931:0:0",
+      "char": "竹",
+      "pinyin": "zhú",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "竹",
+      "rawEntryIndex": 108931,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 0,
+      "dictionarySense": "植物名。多年生常綠植物。莖木質，有隆起之節，節間部中空，細長作管狀，色綠。竹莖堅韌，可供建築製器之用。",
+      "sourcePOS": "名",
+      "meaning": "取竹这一植物的自然意象。",
+      "projectWish": null,
+      "limits": [
+        "保留原条的植物描述，不将乐器、简册或姓氏等其他义项一并采用。",
+        "竹节、木质等特征不自动等于气节、坚韧人格、健康或命运。",
+        "只供明确查询时的候选字义说明，姓名用途、整名关系及家庭接受度仍待独立审阅。"
+      ],
+      "editorialAttribution": "M959 project-authored explanation; not an MOE quotation or admission decision",
+      "editorialLicense": "CC0-1.0",
+      "glyphBinding": {
+        "kind": "exact-source-glyph",
+        "character": "竹",
+        "dictionaryWord": "竹"
+      },
+      "baselineCharacter": {
+        "char": "竹",
+        "pinyin": "zhú",
+        "tone": 2,
+        "meaning": "植物名。多年生常綠植物。莖木質，有隆起之節，節間部中空，細長作管狀，色綠。竹莖堅韌，可供建築製器之用。；樂器名。笛、簫之屬。；簡冊。",
+        "traditional": "竹",
+        "strokes": 6,
+        "radical": "竹",
+        "elements": [
+          "木"
+        ],
+        "elementBasis": "字形／字义意象参考 v1（项目自编标签，非唯一汉字五行定论；不得当作康熙笔画五行）",
+        "tags": [
+          "自然草木"
+        ],
+        "warning": "本表按字典中文义项与 Unicode 字形字段核对；仍需结合全名检查谐音。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "zhú",
+            "tone": 2,
+            "meanings": [
+              "植物名。多年生常綠植物。莖木質，有隆起之節，節間部中空，細長作管狀，色綠。竹莖堅韌，可供建築製器之用。",
+              "樂器名。笛、簫之屬。",
+              "簡冊。",
+              "姓。如漢代有竹多同。",
+              "二一四部首之一。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "竹"
+          }
+        ],
+        "polyphonic": false,
+        "variants": [
+          "竹"
+        ]
+      },
+      "baselineCharacterSha256": "2767a78c591b500e4dff55031e00262903106be5ee0f0c534455f6eefb6fa224",
+      "alternativeReadings": [
+        {
+          "index": 0,
+          "pinyin": "zhú",
+          "tone": null,
+          "definitions": [
+            {
+              "def": "植物名。多年生常綠植物。莖木質，有隆起之節，節間部中空，細長作管狀，色綠。竹莖堅韌，可供建築製器之用。",
+              "type": "名"
+            },
+            {
+              "def": "樂器名。笛、簫之屬。",
+              "quote": [
+                "《周禮．春官．大師》：「皆播之以八音：金、石、土、革、絲、木、匏、竹。」",
+                "晉．王羲之〈三月三日蘭亭詩序〉：「雖無絲竹管絃之盛，一觴一詠，亦足以暢敘幽情。」"
+              ],
+              "type": "名"
+            },
+            {
+              "def": "簡冊。",
+              "example": [
+                "如：「竹帛」、「竹簡」。"
+              ],
+              "quote": [
+                "漢．桓寬《鹽鐵論．利議》：「明枯竹，守空言，不知趨舍之宜，時世之變。」"
+              ],
+              "type": "名"
+            },
+            {
+              "def": "姓。如漢代有竹多同。",
+              "type": "名"
+            },
+            {
+              "def": "二一四部首之一。",
+              "type": "名"
+            }
+          ]
+        }
+      ],
+      "status": "pending-independent-review",
+      "admissionStatus": "candidate-only",
+      "admissionGranted": false,
+      "automaticMeaningAllowed": false,
+      "productionApproved": false,
+      "wholeNameMeaning": null,
+      "scoreDelta": 0
+    },
+    {
+      "candidateId": "m959-naming-data:梓:76956:0:0",
+      "char": "梓",
+      "pinyin": "zǐ",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "梓",
+      "rawEntryIndex": 76956,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 0,
+      "dictionarySense": "植物名。紫葳科梓屬，落葉喬木。葉對生，呈掌狀淺裂。夏日開淡黃色而帶有暗紫斑點的花。木材供建築及製作器具。",
+      "sourcePOS": "名",
+      "meaning": "取梓树这一落叶乔木的自然意象。",
+      "projectWish": null,
+      "limits": [
+        "本条选择植物义，不借故乡、木工或出版的其他义项补造含义。",
+        "不从树木用途或生长描写推断人的能力、成就、寿命或五行。",
+        "只供明确查询时的候选字义说明，姓名用途、整名关系及家庭接受度仍待独立审阅。"
+      ],
+      "editorialAttribution": "M959 project-authored explanation; not an MOE quotation or admission decision",
+      "editorialLicense": "CC0-1.0",
+      "glyphBinding": {
+        "kind": "exact-source-glyph",
+        "character": "梓",
+        "dictionaryWord": "梓"
+      },
+      "baselineCharacter": {
+        "char": "梓",
+        "pinyin": "zǐ",
+        "tone": 3,
+        "meaning": "植物名。紫葳科梓屬，落葉喬木。葉對生，呈掌狀淺裂。夏日開淡黃色而帶有暗紫斑點的花。木材供建築及製作器具。；製作木器的工匠。；故鄉。",
+        "traditional": "梓",
+        "strokes": 11,
+        "radical": "木",
+        "elements": [
+          "木"
+        ],
+        "elementBasis": "字形／字义意象参考 v1（项目自编标签，非唯一汉字五行定论；不得当作康熙笔画五行）",
+        "tags": [
+          "自然草木",
+          "明朗"
+        ],
+        "warning": "本表按字典中文义项与 Unicode 字形字段核对；仍需结合全名检查谐音。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "zǐ",
+            "tone": 3,
+            "meanings": [
+              "植物名。紫葳科梓屬，落葉喬木。葉對生，呈掌狀淺裂。夏日開淡黃色而帶有暗紫斑點的花。木材供建築及製作器具。",
+              "製作木器的工匠。",
+              "故鄉。",
+              "姓。如春秋時鄭國有梓慎。",
+              "出版。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "梓"
+          }
+        ],
+        "polyphonic": false,
+        "variants": [
+          "梓"
+        ]
+      },
+      "baselineCharacterSha256": "73210a12e51c1337575a5269c0274c446b27cd5325f4e644cf574aa8825265b1",
+      "alternativeReadings": [
+        {
+          "index": 0,
+          "pinyin": "zǐ",
+          "tone": null,
+          "definitions": [
+            {
+              "def": "植物名。紫葳科梓屬，落葉喬木。葉對生，呈掌狀淺裂。夏日開淡黃色而帶有暗紫斑點的花。木材供建築及製作器具。",
+              "type": "名"
+            },
+            {
+              "def": "製作木器的工匠。",
+              "quote": [
+                "《孟子．盡心下》：「梓、匠、輪、輿，能與人規矩，不能使人巧。」"
+              ],
+              "type": "名"
+            },
+            {
+              "def": "故鄉。",
+              "quote": [
+                "《文選．張衡．南都賦》：「永世克孝，懷桑梓焉，真人南巡，睹舊里焉。」"
+              ],
+              "type": "名"
+            },
+            {
+              "def": "姓。如春秋時鄭國有梓慎。",
+              "type": "名"
+            },
+            {
+              "def": "出版。",
+              "quote": [
+                "明．袁宏道〈敘咼氏家繩集〉：「近者吳川公梓其家集，始獲盡公及咼氏三世之藏。」"
+              ],
+              "type": "動"
+            }
+          ]
+        }
+      ],
+      "status": "pending-independent-review",
+      "admissionStatus": "candidate-only",
+      "admissionGranted": false,
+      "automaticMeaningAllowed": false,
+      "productionApproved": false,
+      "wholeNameMeaning": null,
+      "scoreDelta": 0
+    },
+    {
+      "candidateId": "m959-naming-data:熹:92952:0:0",
+      "char": "熹",
+      "pinyin": "xī",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "熹",
+      "rawEntryIndex": 92952,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 0,
+      "dictionarySense": "微明的。",
+      "sourcePOS": "形",
+      "meaning": "取微明这一光线状态。",
+      "projectWish": null,
+      "limits": [
+        "仅依微明原义，不扩张为显赫、辉煌或确定的人生前景。",
+        "光线状态不构成乐观、聪慧、品格或命运事实。",
+        "只供明确查询时的候选字义说明，姓名用途、整名关系及家庭接受度仍待独立审阅。"
+      ],
+      "editorialAttribution": "M959 project-authored explanation; not an MOE quotation or admission decision",
+      "editorialLicense": "CC0-1.0",
+      "glyphBinding": {
+        "kind": "exact-source-glyph",
+        "character": "熹",
+        "dictionaryWord": "熹"
+      },
+      "baselineCharacter": {
+        "char": "熹",
+        "pinyin": "xī",
+        "tone": 1,
+        "meaning": "微明的。",
+        "traditional": "熹",
+        "strokes": 16,
+        "radical": "火",
+        "elements": [
+          "火"
+        ],
+        "elementBasis": "字形／字义意象参考 v1（项目自编标签，非唯一汉字五行定论；不得当作康熙笔画五行）",
+        "tags": [
+          "明朗"
+        ],
+        "warning": "本表按字典中文义项与 Unicode 字形字段核对；仍需结合全名检查谐音。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "xī",
+            "tone": 1,
+            "meanings": [
+              "微明的。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "熹"
+          }
+        ],
+        "polyphonic": false,
+        "variants": [
+          "熹"
+        ]
+      },
+      "baselineCharacterSha256": "8cb15ef27a260b67770c070d82308ecbfa829d141c2be16ff6d7434d50c83ed2",
+      "alternativeReadings": [
+        {
+          "index": 0,
+          "pinyin": "xī",
+          "tone": null,
+          "definitions": [
+            {
+              "def": "微明的。",
+              "quote": [
+                "《文選．陶淵明．歸去來辭》：「問征夫以前路，恨晨光之熹微。」"
+              ],
+              "type": "形"
+            }
+          ]
+        }
+      ],
+      "status": "pending-independent-review",
+      "admissionStatus": "candidate-only",
+      "admissionGranted": false,
+      "automaticMeaningAllowed": false,
+      "productionApproved": false,
+      "wholeNameMeaning": null,
+      "scoreDelta": 0
+    }
+  ]
+}

@@ -1,0 +1,1677 @@
+{
+  "version": "naming-citation-review/7.0.0",
+  "rules": [
+    {
+      "name": "宜家",
+      "ruleId": "meaning137-name-宜家",
+      "citation": {
+        "id": "shijing-6-3",
+        "title": "诗经",
+        "chapter": "国风·周南·桃夭 第3章",
+        "text": "桃之夭夭，其叶蓁蓁。之子于归，宜其家人。",
+        "sourceId": "shijing"
+      },
+      "excerpt": "之子于归，宜其家人。",
+      "extraction": "recombined",
+      "context": "全篇三章都以婚嫁归家为背景；命名仅借家庭和顺的期许，不将古代性别角色强加给孩子。 名字为同句选字重组，并非原文连续词； 原文语义与项目家庭期许分开，原句不作孩子属性或命运保证。",
+      "meaning": "原句关联：《桃夭》是婚嫁祝辞，此处祝新妇与家人相处和顺；宜取相安和顺、家取共同生活的家人。 项目家庭期许：愿重视家人、学习彼此体谅，家人和睦。",
+      "sourceMeaning": "《桃夭》是婚嫁祝辞，此处祝新妇与家人相处和顺；宜取相安和顺、家取共同生活的家人。",
+      "projectWish": "项目创作：愿重视家人、学习彼此体谅，家人和睦。",
+      "readings": [
+        {
+          "char": "宜",
+          "pinyin": "yí",
+          "tone": 2,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "宜",
+          "rawEntryIndex": 42549,
+          "rawHeteronymIndex": 0,
+          "rawDefinitionIndex": 0,
+          "dictionarySense": "相安、和順。"
+        },
+        {
+          "char": "家",
+          "pinyin": "jiā",
+          "tone": 1,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "家",
+          "rawEntryIndex": 42901,
+          "rawHeteronymIndex": 0,
+          "rawDefinitionIndex": 1,
+          "dictionarySense": "一門之內共同生活的人。"
+        }
+      ],
+      "wholeContext": {
+        "title": "桃夭",
+        "chapter": "国风",
+        "section": "周南",
+        "content": [
+          "桃之夭夭，灼灼其华。之子于归，宜其室家。",
+          "桃之夭夭，有蕡其实。之子于归，宜其家室。",
+          "桃之夭夭，其叶蓁蓁。之子于归，宜其家人。"
+        ],
+        "matchedBlockIndexOneBased": 3
+      },
+      "reviewWarnings": [
+        "婚嫁语境保留；已有家宜为另一顺序，此条不覆盖它。"
+      ],
+      "licensing": {
+        "dictionary": "CC-BY-ND-3.0-TW;verbatim source definition",
+        "editorial": "CC0-1.0;project review and wishes only",
+        "citation": "MIT;fixed-source original text only"
+      }
+    },
+    {
+      "name": "家邦",
+      "ruleId": "meaning137-name-家邦",
+      "citation": {
+        "id": "shijing-172-2",
+        "title": "诗经",
+        "chapter": "小雅·南有嘉鱼之什·南山有台 第2章",
+        "text": "南山有桑，北山有杨。乐只君子，邦家之光。乐只君子，万寿无疆。",
+        "sourceId": "shijing"
+      },
+      "excerpt": "乐只君子，邦家之光。",
+      "extraction": "recombined",
+      "context": "保留《南山有台》宴乐祝颂语境及原诗寿考祝辞，家庭期许不包含寿命或仕途断言。 名字为同句选字重组，并非原文连续词； 原文语义与项目家庭期许分开，原句不作孩子属性或命运保证。",
+      "meaning": "原句关联：原诗以山木兴起对君子的称颂，邦家指国家共同体；此名将邦、家改换次序。 项目家庭期许：愿珍惜家庭与共同生活的社会，踏实尽责。",
+      "sourceMeaning": "原诗以山木兴起对君子的称颂，邦家指国家共同体；此名将邦、家改换次序。",
+      "projectWish": "项目创作：愿珍惜家庭与共同生活的社会，踏实尽责。",
+      "readings": [
+        {
+          "char": "家",
+          "pinyin": "jiā",
+          "tone": 1,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "家",
+          "rawEntryIndex": 42901,
+          "rawHeteronymIndex": 0,
+          "rawDefinitionIndex": 1,
+          "dictionarySense": "一門之內共同生活的人。"
+        },
+        {
+          "char": "邦",
+          "pinyin": "bāng",
+          "tone": 1,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "邦",
+          "rawEntryIndex": 143600,
+          "rawHeteronymIndex": 0,
+          "rawDefinitionIndex": 1,
+          "dictionarySense": "泛稱國家。"
+        }
+      ],
+      "wholeContext": {
+        "title": "南山有台",
+        "chapter": "小雅",
+        "section": "南有嘉鱼之什",
+        "content": [
+          "南山有台，北山有莱。乐只君子，邦家之基。乐只君子，万寿无期。",
+          "南山有桑，北山有杨。乐只君子，邦家之光。乐只君子，万寿无疆。",
+          "南山有杞，北山有李。乐只君子，民之父母。乐只君子，德音不已。",
+          "南山有栲，北山有杻。乐只君子，遐不眉寿。乐只君子，德音是茂。",
+          "南山有枸，北山有楰。乐只君子，遐不黄耇。乐只君子，保艾尔后。"
+        ],
+        "matchedBlockIndexOneBased": 2
+      },
+      "reviewWarnings": [
+        "家邦是由邦家重组，不称原文连续词。"
+      ],
+      "licensing": {
+        "dictionary": "CC-BY-ND-3.0-TW;verbatim source definition",
+        "editorial": "CC0-1.0;project review and wishes only",
+        "citation": "MIT;fixed-source original text only"
+      }
+    },
+    {
+      "name": "令闻",
+      "ruleId": "meaning137-name-令闻",
+      "citation": {
+        "id": "shijing-235-2",
+        "title": "诗经",
+        "chapter": "大雅·文王之什·文王 第2章",
+        "text": "亹亹文王，令闻不已。陈锡哉周，侯文王孙子。文王孙子，本支百世，凡周之士，不显亦世。",
+        "sourceId": "shijing"
+      },
+      "excerpt": "亹亹文王，令闻不已。",
+      "extraction": "continuous",
+      "context": "全篇为文王颂歌，涉及王朝与天命；命名只取修为与声誉的期许，不继承天命或身份。 两字在原句连续出现，连续取字不等于现代固定词。 原文语义与项目家庭期许分开，原句不作孩子属性或命运保证。",
+      "meaning": "原句关联：原句赞文王的善美声誉传布不止；令取好的善的，闻取著称。 项目家庭期许：愿用真实行动积累值得信赖的声誉。",
+      "sourceMeaning": "原句赞文王的善美声誉传布不止；令取好的善的，闻取著称。",
+      "projectWish": "项目创作：愿用真实行动积累值得信赖的声誉。",
+      "readings": [
+        {
+          "char": "令",
+          "pinyin": "lìng",
+          "tone": 4,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "令",
+          "rawEntryIndex": 9655,
+          "rawHeteronymIndex": 0,
+          "rawDefinitionIndex": 6,
+          "dictionarySense": "好的、善的。"
+        },
+        {
+          "char": "闻",
+          "pinyin": "wén",
+          "tone": 2,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "聞",
+          "rawEntryIndex": 117266,
+          "rawHeteronymIndex": 0,
+          "rawDefinitionIndex": 2,
+          "dictionarySense": "著稱。"
+        }
+      ],
+      "wholeContext": {
+        "title": "文王",
+        "chapter": "大雅",
+        "section": "文王之什",
+        "content": [
+          "文王在上，于昭于天。周虽旧邦，其命维新。有周不显，帝命不时。文王陟降，在帝左右。",
+          "亹亹文王，令闻不已。陈锡哉周，侯文王孙子。文王孙子，本支百世，凡周之士，不显亦世。",
+          "世之不显，厥犹翼翼。思皇多士，生此王国。王国克生，维周之桢；济济多士，文王以宁。",
+          "穆穆文王，于缉熙敬止。假哉天命。有商孙子。商之孙子，其丽不亿。上帝既命，侯于周服。",
+          "侯服于周，天命靡常。殷士肤敏。裸将于京。厥作裸将，常服黼冔。王之荩臣。无念尔祖。",
+          "无念尔祖，聿修厥德。永言配命，自求多福。殷之未丧师，克配上帝。宜鉴于殷，骏命不易！",
+          "命之不易，无遏尔躬。宣昭义问，有虞殷自天。上天之载，无声无臭。仪刑文王，万邦作孚。"
+        ],
+        "matchedBlockIndexOneBased": 2
+      },
+      "reviewWarnings": [
+        "令还有命令义；此完整组合锁定善美义，不向其他令字组合泛授信用。"
+      ],
+      "licensing": {
+        "dictionary": "CC-BY-ND-3.0-TW;verbatim source definition",
+        "editorial": "CC0-1.0;project review and wishes only",
+        "citation": "MIT;fixed-source original text only"
+      }
+    },
+    {
+      "name": "维翰",
+      "ruleId": "meaning137-name-维翰",
+      "citation": {
+        "id": "shijing-254-13",
+        "title": "诗经",
+        "chapter": "大雅·生民之什·板 第13章",
+        "text": "价人维藩，大师维垣，大邦维屏，大宗维翰，",
+        "sourceId": "shijing"
+      },
+      "excerpt": "大宗维翰，",
+      "extraction": "continuous",
+      "context": "全篇是时局劝谏，非单纯祝福；这里保存栋梁比喻的原位置，期许为现代创作。 两字在原句连续出现，连续取字不等于现代固定词。 原文语义与项目家庭期许分开，原句不作孩子属性或命运保证。",
+      "meaning": "原句关联：《板》以屏障、垣墙、栋梁比喻维系共同体的角色；维为句中语气词，翰取栋梁。 项目家庭期许：愿成为能担当、能支持他人的人。",
+      "sourceMeaning": "《板》以屏障、垣墙、栋梁比喻维系共同体的角色；维为句中语气词，翰取栋梁。",
+      "projectWish": "项目创作：愿成为能担当、能支持他人的人。",
+      "readings": [
+        {
+          "char": "维",
+          "pinyin": "wéi",
+          "tone": 2,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "維",
+          "rawEntryIndex": 113123,
+          "rawHeteronymIndex": 0,
+          "rawDefinitionIndex": 8,
+          "dictionarySense": "置於句首或句中的語氣詞，無義。"
+        },
+        {
+          "char": "翰",
+          "pinyin": "hàn",
+          "tone": 4,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "翰",
+          "rawEntryIndex": 115911,
+          "rawHeteronymIndex": 0,
+          "rawDefinitionIndex": 6,
+          "dictionarySense": "棟梁。"
+        }
+      ],
+      "wholeContext": {
+        "title": "板",
+        "chapter": "大雅",
+        "section": "生民之什",
+        "content": [
+          "上帝板板，下民卒瘅。出话不然，为犹不远。",
+          "靡圣管管。不实于亶。犹之未远，是用大谏。",
+          "天之方难，无然宪宪。天之方蹶，无然泄泄。",
+          "辞之辑矣，民之洽矣。辞之怿矣，民之莫矣。",
+          "我虽异事，及尔同僚。我即尔谋，听我嚣嚣。",
+          "我言维服，勿以为笑。先民有言，询于刍荛。",
+          "天之方虐，无然谑谑。老夫灌灌，小子蹻蹻。",
+          "匪我言耄，尔用忧谑。多将熇熇，不可救药。",
+          "天之方懠。无为夸毗。威仪卒迷，善人载尸。",
+          "民之方殿屎，则莫我敢葵？丧乱蔑资，曾莫惠我师？",
+          "天之牖民，如埙如篪，如璋如圭，如取如携。",
+          "携无曰益，牖民孔易。民之多辟，无自立辟。",
+          "价人维藩，大师维垣，大邦维屏，大宗维翰，",
+          "怀德维宁，宗子维城。无俾城坏，无独斯畏。",
+          "敬天之怒，无敢戏豫。敬天之渝，无敢驰驱。",
+          "昊天曰明，及尔出王。昊天曰旦，及尔游衍。"
+        ],
+        "matchedBlockIndexOneBased": 13
+      },
+      "reviewWarnings": [
+        "不把维虚词解释成维持，也不把翰在本句误解成飞翔或文章。"
+      ],
+      "licensing": {
+        "dictionary": "CC-BY-ND-3.0-TW;verbatim source definition",
+        "editorial": "CC0-1.0;project review and wishes only",
+        "citation": "MIT;fixed-source original text only"
+      }
+    },
+    {
+      "name": "巧倩",
+      "ruleId": "meaning137-name-巧倩",
+      "citation": {
+        "id": "shijing-57-2",
+        "title": "诗经",
+        "chapter": "国风·卫风·硕人 第2章",
+        "text": "手如柔荑，肤如凝脂，领如蝤蛴，齿如瓠犀，螓首蛾眉，巧笑倩兮，美目盼兮。",
+        "sourceId": "shijing"
+      },
+      "excerpt": "巧笑倩兮，美目盼兮。",
+      "extraction": "recombined",
+      "context": "《硕人》全篇含婚嫁和容貌描写，命名保留这一语境；期许不评价容貌或规定性别气质。 名字为同句选字重组，并非原文连续词； 原文语义与项目家庭期许分开，原句不作孩子属性或命运保证。",
+      "meaning": "原句关联：原句描写女子的笑容和眼睛之美，巧与倩各有美好义；二字从巧笑倩兮选取。 项目家庭期许：愿待人自然明朗，也尊重自己的表达。",
+      "sourceMeaning": "原句描写女子的笑容和眼睛之美，巧与倩各有美好义；二字从巧笑倩兮选取。",
+      "projectWish": "项目创作：愿待人自然明朗，也尊重自己的表达。",
+      "readings": [
+        {
+          "char": "巧",
+          "pinyin": "qiǎo",
+          "tone": 3,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "巧",
+          "rawEntryIndex": 47600,
+          "rawHeteronymIndex": 0,
+          "rawDefinitionIndex": 1,
+          "dictionarySense": "美好。"
+        },
+        {
+          "char": "倩",
+          "pinyin": "qiàn",
+          "tone": 4,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "倩",
+          "rawEntryIndex": 13053,
+          "rawHeteronymIndex": 0,
+          "rawDefinitionIndex": 2,
+          "dictionarySense": "美好。"
+        }
+      ],
+      "wholeContext": {
+        "title": "硕人",
+        "chapter": "国风",
+        "section": "卫风",
+        "content": [
+          "硕人其颀，衣锦褧衣。齐侯之子，卫侯之妻。东宫之妹，邢侯之姨，谭公维私。",
+          "手如柔荑，肤如凝脂，领如蝤蛴，齿如瓠犀，螓首蛾眉，巧笑倩兮，美目盼兮。",
+          "硕人敖敖，说于农郊。四牡有骄，朱幩镳镳。翟茀以朝。大夫夙退，无使君劳。",
+          "河水洋洋，北流活活。施罛濊濊，鳣鲔发发。葭菼揭揭，庶姜孽孽，庶士有朅。"
+        ],
+        "matchedBlockIndexOneBased": 2
+      },
+      "reviewWarnings": [
+        "原句不是智慧成就的断言；不把巧的狡诈等其他义混入此组合。"
+      ],
+      "licensing": {
+        "dictionary": "CC-BY-ND-3.0-TW;verbatim source definition",
+        "editorial": "CC0-1.0;project review and wishes only",
+        "citation": "MIT;fixed-source original text only"
+      }
+    },
+    {
+      "name": "美盼",
+      "ruleId": "meaning137-name-美盼",
+      "citation": {
+        "id": "shijing-57-2",
+        "title": "诗经",
+        "chapter": "国风·卫风·硕人 第2章",
+        "text": "手如柔荑，肤如凝脂，领如蝤蛴，齿如瓠犀，螓首蛾眉，巧笑倩兮，美目盼兮。",
+        "sourceId": "shijing"
+      },
+      "excerpt": "美目盼兮。",
+      "extraction": "recombined",
+      "context": "保留原诗容貌与婚嫁语境，期许为现代原创，不把外貌描写转换成孩子必须达到的标准。 名字为同句选字重组，并非原文连续词； 原文语义与项目家庭期许分开，原句不作孩子属性或命运保证。",
+      "meaning": "原句关联：原句说眼睛漂亮且黑白分明；盼在本句不是盼望。 项目家庭期许：愿认真观察世界，以友善的目光对待他人。",
+      "sourceMeaning": "原句说眼睛漂亮且黑白分明；盼在本句不是盼望。",
+      "projectWish": "项目创作：愿认真观察世界，以友善的目光对待他人。",
+      "readings": [
+        {
+          "char": "美",
+          "pinyin": "měi",
+          "tone": 3,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "美",
+          "rawEntryIndex": 115242,
+          "rawHeteronymIndex": 0,
+          "rawDefinitionIndex": 0,
+          "dictionarySense": "漂亮、好看。"
+        },
+        {
+          "char": "盼",
+          "pinyin": "pàn",
+          "tone": 4,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "盼",
+          "rawEntryIndex": 102726,
+          "rawHeteronymIndex": 0,
+          "rawDefinitionIndex": 0,
+          "dictionarySense": "眼睛黑白分明。"
+        }
+      ],
+      "wholeContext": {
+        "title": "硕人",
+        "chapter": "国风",
+        "section": "卫风",
+        "content": [
+          "硕人其颀，衣锦褧衣。齐侯之子，卫侯之妻。东宫之妹，邢侯之姨，谭公维私。",
+          "手如柔荑，肤如凝脂，领如蝤蛴，齿如瓠犀，螓首蛾眉，巧笑倩兮，美目盼兮。",
+          "硕人敖敖，说于农郊。四牡有骄，朱幩镳镳。翟茀以朝。大夫夙退，无使君劳。",
+          "河水洋洋，北流活活。施罛濊濊，鳣鲔发发。葭菼揭揭，庶姜孽孽，庶士有朅。"
+        ],
+        "matchedBlockIndexOneBased": 2
+      },
+      "reviewWarnings": [
+        "拒绝把本句盼偷换成希望义，虽该义也在同音字典内。"
+      ],
+      "licensing": {
+        "dictionary": "CC-BY-ND-3.0-TW;verbatim source definition",
+        "editorial": "CC0-1.0;project review and wishes only",
+        "citation": "MIT;fixed-source original text only"
+      }
+    },
+    {
+      "name": "琼华",
+      "ruleId": "meaning137-name-琼华",
+      "citation": {
+        "id": "shijing-98-1",
+        "title": "诗经",
+        "chapter": "国风·齐风·着 第1章",
+        "text": "俟我于着乎而，充耳以素乎而，尚之以琼华乎而。",
+        "sourceId": "shijing"
+      },
+      "excerpt": "尚之以琼华乎而。",
+      "extraction": "continuous",
+      "context": "全篇属于迎候与佩饰描写，期许只借具体玉饰形象，不作财富与地位保证。 两字在原句连续出现，连续取字不等于现代固定词。 原文语义与项目家庭期许分开，原句不作孩子属性或命运保证。",
+      "meaning": "原句关联：《着》三章在不同位置描绘佩饰，琼华在此关联美玉装饰及光彩。 项目家庭期许：愿珍惜自身的价值，表达清朗而有分寸。",
+      "sourceMeaning": "《着》三章在不同位置描绘佩饰，琼华在此关联美玉装饰及光彩。",
+      "projectWish": "项目创作：愿珍惜自身的价值，表达清朗而有分寸。",
+      "readings": [
+        {
+          "char": "琼",
+          "pinyin": "qióng",
+          "tone": 2,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "瓊",
+          "rawEntryIndex": 97123,
+          "rawHeteronymIndex": 0,
+          "rawDefinitionIndex": 0,
+          "dictionarySense": "一種美玉。"
+        },
+        {
+          "char": "华",
+          "pinyin": "huá",
+          "tone": 2,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "華",
+          "rawEntryIndex": 123658,
+          "rawHeteronymIndex": 0,
+          "rawDefinitionIndex": 1,
+          "dictionarySense": "光彩、光澤。"
+        }
+      ],
+      "wholeContext": {
+        "title": "着",
+        "chapter": "国风",
+        "section": "齐风",
+        "content": [
+          "俟我于着乎而，充耳以素乎而，尚之以琼华乎而。",
+          "俟我于庭乎而，充耳以青乎而，尚之以琼莹乎而。",
+          "俟我于堂乎而，充耳以黄乎而，尚之以琼英乎而。"
+        ],
+        "matchedBlockIndexOneBased": 1
+      },
+      "reviewWarnings": [
+        "不采用琼的骰子义；不由玉饰自动证明现实品格。"
+      ],
+      "licensing": {
+        "dictionary": "CC-BY-ND-3.0-TW;verbatim source definition",
+        "editorial": "CC0-1.0;project review and wishes only",
+        "citation": "MIT;fixed-source original text only"
+      }
+    },
+    {
+      "name": "琼莹",
+      "ruleId": "meaning137-name-琼莹",
+      "citation": {
+        "id": "shijing-98-2",
+        "title": "诗经",
+        "chapter": "国风·齐风·着 第2章",
+        "text": "俟我于庭乎而，充耳以青乎而，尚之以琼莹乎而。",
+        "sourceId": "shijing"
+      },
+      "excerpt": "尚之以琼莹乎而。",
+      "extraction": "continuous",
+      "context": "同篇三章的充耳与玉饰语境完整保留；本句采用美石名物义，清楚坦诚等家庭期许是项目现代创作，不当作原诗字义。两字在原句连续出现，连续取字不等于现代固定词。原文语义与项目家庭期许分开，原句不作孩子属性或命运保证。",
+      "meaning": "原句关联：《著》本章描写充耳佩饰；“莹”在所选诗句中是名物词“美石”，固定词典该义项直接引用“尚之以瓊瑩乎而”，不以一般透明光洁义代替。 项目家庭期许：愿保持清楚坦诚的表达，珍惜细致之美。",
+      "sourceMeaning": "《著》本章描写充耳佩饰；“莹”在所选诗句中是名物词“美石”，固定词典该义项直接引用“尚之以瓊瑩乎而”，不以一般透明光洁义代替。",
+      "projectWish": "项目创作：愿保持清楚坦诚的表达，珍惜细致之美。",
+      "readings": [
+        {
+          "char": "琼",
+          "pinyin": "qióng",
+          "tone": 2,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "瓊",
+          "rawEntryIndex": 97123,
+          "rawHeteronymIndex": 0,
+          "rawDefinitionIndex": 0,
+          "dictionarySense": "一種美玉。"
+        },
+        {
+          "char": "莹",
+          "pinyin": "yíng",
+          "tone": 2,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "瑩",
+          "rawEntryIndex": 96948,
+          "rawHeteronymIndex": 0,
+          "rawDefinitionIndex": 1,
+          "dictionarySense": "美石。"
+        }
+      ],
+      "wholeContext": {
+        "title": "着",
+        "chapter": "国风",
+        "section": "齐风",
+        "content": [
+          "俟我于着乎而，充耳以素乎而，尚之以琼华乎而。",
+          "俟我于庭乎而，充耳以青乎而，尚之以琼莹乎而。",
+          "俟我于堂乎而，充耳以黄乎而，尚之以琼英乎而。"
+        ],
+        "matchedBlockIndexOneBased": 2
+      },
+      "reviewWarnings": [
+        "本句“莹”绑定固定词条瑩96948/0/1“美石。”；不借同音透明光洁或琢磨义作原句释义。"
+      ],
+      "licensing": {
+        "dictionary": "CC-BY-ND-3.0-TW;verbatim source definition",
+        "editorial": "CC0-1.0;project review and wishes only",
+        "citation": "MIT;fixed-source original text only"
+      }
+    },
+    {
+      "name": "维岳",
+      "ruleId": "meaning137-name-维岳",
+      "citation": {
+        "id": "shijing-259-1",
+        "title": "诗经",
+        "chapter": "大雅·荡之什·崧高 第1章",
+        "text": "崧高维岳，骏极于天。维岳降神，生甫及申。维申及甫，维周之翰。四国于蕃。四方于宣。",
+        "sourceId": "shijing"
+      },
+      "excerpt": "崧高维岳，骏极于天。",
+      "extraction": "continuous",
+      "context": "原篇的降神、封邑与王室叙述保留为历史语境；家庭期许不包含神授才能或政治身份。 两字在原句连续出现，连续取字不等于现代固定词。 原文语义与项目家庭期许分开，原句不作孩子属性或命运保证。",
+      "meaning": "原句关联：《崧高》先描写高山，再展开对申伯的颂赞；维为语气词，岳为高大的山。 项目家庭期许：愿立足踏实，面对长远目标保持耐心。",
+      "sourceMeaning": "《崧高》先描写高山，再展开对申伯的颂赞；维为语气词，岳为高大的山。",
+      "projectWish": "项目创作：愿立足踏实，面对长远目标保持耐心。",
+      "readings": [
+        {
+          "char": "维",
+          "pinyin": "wéi",
+          "tone": 2,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "維",
+          "rawEntryIndex": 113123,
+          "rawHeteronymIndex": 0,
+          "rawDefinitionIndex": 8,
+          "dictionarySense": "置於句首或句中的語氣詞，無義。"
+        },
+        {
+          "char": "岳",
+          "pinyin": "yuè",
+          "tone": 4,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "岳",
+          "rawEntryIndex": 46744,
+          "rawHeteronymIndex": 0,
+          "rawDefinitionIndex": 0,
+          "dictionarySense": "高大的山。"
+        }
+      ],
+      "wholeContext": {
+        "title": "崧高",
+        "chapter": "大雅",
+        "section": "荡之什",
+        "content": [
+          "崧高维岳，骏极于天。维岳降神，生甫及申。维申及甫，维周之翰。四国于蕃。四方于宣。",
+          "亹亹申伯，王缵之事。于邑于谢，南国是式。王命召伯，定申伯之宅。登是南邦，世执其功。",
+          "王命申伯，式是南邦。因是谢人，以作尔庸。王命召伯，彻申伯土田。王命傅御，迁其私人。",
+          "申伯之功，召伯是营。有俶其城，寝庙既成。既成藐藐，王锡申伯。四牡蹻蹻，钩膺濯濯。",
+          "王遣申伯，路车乘马。我图尔居，莫如南土。锡尔介圭，以作尔宝。往近王舅，南土是保。",
+          "申伯信迈，王饯于郿。申伯还南，谢于诚归。王命召伯，彻申伯土疆。以峙其粻，式遄其行。",
+          "申伯番番，既入于谢。徒御啴啴。周邦咸喜，戎有良翰。不显申伯，王之元舅，文武是宪。",
+          "申伯之德，柔惠且直。揉此万邦，闻于四国。吉甫作诵，其诗孔硕。其风四好，以赠申伯。"
+        ],
+        "matchedBlockIndexOneBased": 1
+      },
+      "reviewWarnings": [
+        "不把维虚词释为坚持，也不把山岳物象当作天赋保证。"
+      ],
+      "licensing": {
+        "dictionary": "CC-BY-ND-3.0-TW;verbatim source definition",
+        "editorial": "CC0-1.0;project review and wishes only",
+        "citation": "MIT;fixed-source original text only"
+      }
+    },
+    {
+      "name": "维清",
+      "ruleId": "meaning137-name-维清",
+      "citation": {
+        "id": "shijing-268-1",
+        "title": "诗经",
+        "chapter": "周颂·清庙之什·维清 第1章",
+        "text": "维清缉熙，文王之典。肇禋，迄用有成，维周之祯。",
+        "sourceId": "shijing"
+      },
+      "excerpt": "维清缉熙，文王之典。",
+      "extraction": "continuous",
+      "context": "全篇祭祀与典则语境保留；高洁是此名采用的字典义关联，具体家庭期许为项目创作。 两字在原句连续出现，连续取字不等于现代固定词。 原文语义与项目家庭期许分开，原句不作孩子属性或命运保证。",
+      "meaning": "原句关联：《维清》是祭祀颂歌，称颂文王典则的清明光显；维作语气词，清取高洁义作命名关联。 项目家庭期许：愿守住清正的原则，待事认真。",
+      "sourceMeaning": "《维清》是祭祀颂歌，称颂文王典则的清明光显；维作语气词，清取高洁义作命名关联。",
+      "projectWish": "项目创作：愿守住清正的原则，待事认真。",
+      "readings": [
+        {
+          "char": "维",
+          "pinyin": "wéi",
+          "tone": 2,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "維",
+          "rawEntryIndex": 113123,
+          "rawHeteronymIndex": 0,
+          "rawDefinitionIndex": 8,
+          "dictionarySense": "置於句首或句中的語氣詞，無義。"
+        },
+        {
+          "char": "清",
+          "pinyin": "qīng",
+          "tone": 1,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "清",
+          "rawEntryIndex": 87624,
+          "rawHeteronymIndex": 0,
+          "rawDefinitionIndex": 1,
+          "dictionarySense": "高潔、廉潔。"
+        }
+      ],
+      "wholeContext": {
+        "title": "维清",
+        "chapter": "周颂",
+        "section": "清庙之什",
+        "content": [
+          "维清缉熙，文王之典。肇禋，迄用有成，维周之祯。"
+        ],
+        "matchedBlockIndexOneBased": 1
+      },
+      "reviewWarnings": [
+        "不把维解释为维持，也不作祭祀成效或品德预言。"
+      ],
+      "licensing": {
+        "dictionary": "CC-BY-ND-3.0-TW;verbatim source definition",
+        "editorial": "CC0-1.0;project review and wishes only",
+        "citation": "MIT;fixed-source original text only"
+      }
+    },
+    {
+      "name": "明昭",
+      "ruleId": "meaning137-name-明昭",
+      "citation": {
+        "id": "shijing-273-2",
+        "title": "诗经",
+        "chapter": "周颂·清庙之什·时迈 第2章",
+        "text": "明昭有周，式序在位。载戢干戈，载橐弓矢。我求懿德，四于时夏，允王保之。",
+        "sourceId": "shijing"
+      },
+      "excerpt": "明昭有周，式序在位。",
+      "extraction": "continuous",
+      "context": "历史颂诗的王朝语境与止兵背景保留，命名期许不继承政治权力或天命。 两字在原句连续出现，连续取字不等于现代固定词。 原文语义与项目家庭期许分开，原句不作孩子属性或命运保证。",
+      "meaning": "原句关联：《时迈》这一段颂周德显明并叙述止兵、求德；明取才德高显，昭取显扬彰明。 项目家庭期许：愿将真实的善意落实为可见行动。",
+      "sourceMeaning": "《时迈》这一段颂周德显明并叙述止兵、求德；明取才德高显，昭取显扬彰明。",
+      "projectWish": "项目创作：愿将真实的善意落实为可见行动。",
+      "readings": [
+        {
+          "char": "明",
+          "pinyin": "míng",
+          "tone": 2,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "明",
+          "rawEntryIndex": 70477,
+          "rawHeteronymIndex": 0,
+          "rawDefinitionIndex": 8,
+          "dictionarySense": "才德高顯的。"
+        },
+        {
+          "char": "昭",
+          "pinyin": "zhāo",
+          "tone": 1,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "昭",
+          "rawEntryIndex": 71207,
+          "rawHeteronymIndex": 0,
+          "rawDefinitionIndex": 5,
+          "dictionarySense": "顯揚、使彰明。"
+        }
+      ],
+      "wholeContext": {
+        "title": "时迈",
+        "chapter": "周颂",
+        "section": "清庙之什",
+        "content": [
+          "时迈其邦，昊天其子之，实右序有周。薄言震之，莫不震叠。怀柔百神，及河乔岳，允王维后。",
+          "明昭有周，式序在位。载戢干戈，载橐弓矢。我求懿德，四于时夏，允王保之。"
+        ],
+        "matchedBlockIndexOneBased": 2
+      },
+      "reviewWarnings": [
+        "此条为明昭，旧昭明为另一组合，不重写原规则。"
+      ],
+      "licensing": {
+        "dictionary": "CC-BY-ND-3.0-TW;verbatim source definition",
+        "editorial": "CC0-1.0;project review and wishes only",
+        "citation": "MIT;fixed-source original text only"
+      }
+    },
+    {
+      "name": "维祯",
+      "ruleId": "meaning137-name-维祯",
+      "citation": {
+        "id": "shijing-268-1",
+        "title": "诗经",
+        "chapter": "周颂·清庙之什·维清 第1章",
+        "text": "维清缉熙，文王之典。肇禋，迄用有成，维周之祯。",
+        "sourceId": "shijing"
+      },
+      "excerpt": "迄用有成，维周之祯。",
+      "extraction": "recombined",
+      "context": "全篇祭祀颂歌语境保留；维祯跨越维周之祯选字重组，期许不作现实吉凶承诺。 名字为同句选字重组，并非原文连续词； 原文语义与项目家庭期许分开，原句不作孩子属性或命运保证。",
+      "meaning": "原句关联：原句将礼典有成视为周的吉兆，维作语气词，祯为吉祥吉兆。 项目家庭期许：愿珍惜家人寄托的祝福，认真过好每一天。",
+      "sourceMeaning": "原句将礼典有成视为周的吉兆，维作语气词，祯为吉祥吉兆。",
+      "projectWish": "项目创作：愿珍惜家人寄托的祝福，认真过好每一天。",
+      "readings": [
+        {
+          "char": "维",
+          "pinyin": "wéi",
+          "tone": 2,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "維",
+          "rawEntryIndex": 113123,
+          "rawHeteronymIndex": 0,
+          "rawDefinitionIndex": 8,
+          "dictionarySense": "置於句首或句中的語氣詞，無義。"
+        },
+        {
+          "char": "祯",
+          "pinyin": "zhēn",
+          "tone": 1,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "禎",
+          "rawEntryIndex": 106366,
+          "rawHeteronymIndex": 0,
+          "rawDefinitionIndex": 0,
+          "dictionarySense": "吉祥、吉兆。"
+        }
+      ],
+      "wholeContext": {
+        "title": "维清",
+        "chapter": "周颂",
+        "section": "清庙之什",
+        "content": [
+          "维清缉熙，文王之典。肇禋，迄用有成，维周之祯。"
+        ],
+        "matchedBlockIndexOneBased": 1
+      },
+      "reviewWarnings": [
+        "明确为重组，不删周之后称原文连续词。"
+      ],
+      "licensing": {
+        "dictionary": "CC-BY-ND-3.0-TW;verbatim source definition",
+        "editorial": "CC0-1.0;project review and wishes only",
+        "citation": "MIT;fixed-source original text only"
+      }
+    },
+    {
+      "name": "容保",
+      "ruleId": "meaning137-name-容保",
+      "citation": {
+        "id": "zhouyi-19-xiang",
+        "title": "周易·象传",
+        "chapter": "第19卦·地泽临·大象",
+        "text": "泽上有地，临。君子以教思无穷，容保民无疆。",
+        "sourceId": "zhouyi"
+      },
+      "excerpt": "君子以教思无穷，容保民无疆。",
+      "extraction": "continuous",
+      "context": "全卦仍有时位、吉凶和八月有凶等条件；命名只取大象行为主题的期许，不据名字作占断。 两字在原句连续出现，连续取字不等于现代固定词。 原文语义与项目家庭期许分开，原句不作孩子属性或命运保证。",
+      "meaning": "原句关联：临卦大象说君子以宽容含纳和养护守卫关照民众，容与保在本句连续相连。 项目家庭期许：愿有包容之心，并在能力范围内照顾需要帮助的人。",
+      "sourceMeaning": "临卦大象说君子以宽容含纳和养护守卫关照民众，容与保在本句连续相连。",
+      "projectWish": "项目创作：愿有包容之心，并在能力范围内照顾需要帮助的人。",
+      "readings": [
+        {
+          "char": "容",
+          "pinyin": "róng",
+          "tone": 2,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "容",
+          "rawEntryIndex": 43171,
+          "rawHeteronymIndex": 0,
+          "rawDefinitionIndex": 0,
+          "dictionarySense": "含納。"
+        },
+        {
+          "char": "保",
+          "pinyin": "bǎo",
+          "tone": 3,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "保",
+          "rawEntryIndex": 12010,
+          "rawHeteronymIndex": 0,
+          "rawDefinitionIndex": 0,
+          "dictionarySense": "養護、守衛、不使受損。"
+        }
+      ],
+      "wholeContext": {
+        "citations": [
+          {
+            "id": "zhouyi-19-gua",
+            "title": "周易",
+            "chapter": "第19卦·地泽临·卦辞",
+            "text": "元亨利贞。至于八月有凶。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-19-xiang",
+            "title": "周易·象传",
+            "chapter": "第19卦·地泽临·大象",
+            "text": "泽上有地，临。君子以教思无穷，容保民无疆。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-19-yao-1",
+            "title": "周易",
+            "chapter": "第19卦·地泽临·初九",
+            "text": "咸临，贞吉。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-19-yao-2",
+            "title": "周易",
+            "chapter": "第19卦·地泽临·九二",
+            "text": "咸临，吉，无不利。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-19-yao-3",
+            "title": "周易",
+            "chapter": "第19卦·地泽临·六三",
+            "text": "甘临，无攸利。既忧之，无咎。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-19-yao-4",
+            "title": "周易",
+            "chapter": "第19卦·地泽临·六四",
+            "text": "至临，无咎。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-19-yao-5",
+            "title": "周易",
+            "chapter": "第19卦·地泽临·六五",
+            "text": "知临，大君之宜，吉。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-19-yao-6",
+            "title": "周易",
+            "chapter": "第19卦·地泽临·上六",
+            "text": "敦临，吉，无咎。",
+            "sourceId": "zhouyi"
+          }
+        ]
+      },
+      "reviewWarnings": [
+        "不把容保解释为结果必然安全。"
+      ],
+      "licensing": {
+        "dictionary": "CC-BY-ND-3.0-TW;verbatim source definition",
+        "editorial": "CC0-1.0;project review and wishes only",
+        "citation": "MIT;fixed-source original text only"
+      }
+    },
+    {
+      "name": "直方",
+      "ruleId": "meaning137-name-直方",
+      "citation": {
+        "id": "zhouyi-2-yao-2",
+        "title": "周易",
+        "chapter": "第2卦·坤为地·六二",
+        "text": "直方大，不习无不利。",
+        "sourceId": "zhouyi"
+      },
+      "excerpt": "直方大，不习无不利。",
+      "extraction": "continuous",
+      "context": "保存全卦及本爻位置；期许属于现代价值选择，不把无不利当作姓名效果。 两字在原句连续出现，连续取字不等于现代固定词。 原文语义与项目家庭期许分开，原句不作孩子属性或命运保证。",
+      "meaning": "原句关联：坤卦六二以直、方、大描述德性，直取不邪曲无私心，方取正直。 项目家庭期许：愿处事坦诚、遵守分寸，兼顾自身与他人。",
+      "sourceMeaning": "坤卦六二以直、方、大描述德性，直取不邪曲无私心，方取正直。",
+      "projectWish": "项目创作：愿处事坦诚、遵守分寸，兼顾自身与他人。",
+      "readings": [
+        {
+          "char": "直",
+          "pinyin": "zhí",
+          "tone": 2,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "直",
+          "rawEntryIndex": 102273,
+          "rawHeteronymIndex": 0,
+          "rawDefinitionIndex": 1,
+          "dictionarySense": "不邪曲，沒有私心的。"
+        },
+        {
+          "char": "方",
+          "pinyin": "fāng",
+          "tone": 1,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "方",
+          "rawEntryIndex": 69546,
+          "rawHeteronymIndex": 0,
+          "rawDefinitionIndex": 12,
+          "dictionarySense": "正直。"
+        }
+      ],
+      "wholeContext": {
+        "citations": [
+          {
+            "id": "zhouyi-2-gua",
+            "title": "周易",
+            "chapter": "第2卦·坤为地·卦辞",
+            "text": "元亨，利牝马之贞。君子有攸往，先迷后得主，利。西南得朋，东北丧朋。安贞吉。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-2-xiang",
+            "title": "周易·象传",
+            "chapter": "第2卦·坤为地·大象",
+            "text": "地势坤，君子以厚德载物。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-2-yao-1",
+            "title": "周易",
+            "chapter": "第2卦·坤为地·初六",
+            "text": "履霜，坚冰至。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-2-yao-2",
+            "title": "周易",
+            "chapter": "第2卦·坤为地·六二",
+            "text": "直方大，不习无不利。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-2-yao-3",
+            "title": "周易",
+            "chapter": "第2卦·坤为地·六三",
+            "text": "含章可贞。或从王事，无成有终。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-2-yao-4",
+            "title": "周易",
+            "chapter": "第2卦·坤为地·六四",
+            "text": "括囊，无咎无誉。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-2-yao-5",
+            "title": "周易",
+            "chapter": "第2卦·坤为地·六五",
+            "text": "黄裳，元吉。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-2-yao-6",
+            "title": "周易",
+            "chapter": "第2卦·坤为地·上六",
+            "text": "龙战于野，其血玄黄。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-2-yong",
+            "title": "周易",
+            "chapter": "第2卦·坤为地·用六",
+            "text": "利永贞。",
+            "sourceId": "zhouyi"
+          }
+        ]
+      },
+      "reviewWarnings": [
+        "方在此不采用几何四边形义来替代品格语境。"
+      ],
+      "licensing": {
+        "dictionary": "CC-BY-ND-3.0-TW;verbatim source definition",
+        "editorial": "CC0-1.0;project review and wishes only",
+        "citation": "MIT;fixed-source original text only"
+      }
+    },
+    {
+      "name": "乾乾",
+      "ruleId": "meaning137-name-乾乾",
+      "citation": {
+        "id": "zhouyi-1-yao-3",
+        "title": "周易",
+        "chapter": "第1卦·乾为天·九三",
+        "text": "君子终日乾乾，夕惕若厉，无咎。",
+        "sourceId": "zhouyi"
+      },
+      "excerpt": "君子终日乾乾，夕惕若厉，无咎。",
+      "extraction": "continuous",
+      "context": "保留九三勤勉与警惕并存的语境，期许不要求无休止劳动，不借无咎推断名字结果。 两字在原句连续出现，连续取字不等于现代固定词。 原文语义与项目家庭期许分开，原句不作孩子属性或命运保证。",
+      "meaning": "原句关联：乾卦九三描写君子终日勤勉、入夜仍警惕反省；qián音原词条也明示自强不息的象征义。 项目家庭期许：愿持续学习、劳逸有度，保持自我检查的习惯。",
+      "sourceMeaning": "乾卦九三描写君子终日勤勉、入夜仍警惕反省；qián音原词条也明示自强不息的象征义。",
+      "projectWish": "项目创作：愿持续学习、劳逸有度，保持自我检查的习惯。",
+      "readings": [
+        {
+          "char": "乾",
+          "pinyin": "qián",
+          "tone": 2,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "乾",
+          "rawEntryIndex": 7273,
+          "rawHeteronymIndex": 0,
+          "rawDefinitionIndex": 0,
+          "dictionarySense": "《易經》卦名：(1)八卦之一。卦形是☰，代表天、陽等之義。(2)六十四卦之一。乾（☰）下乾（☰）上。象徵君子應自強不息，努力永不懈怠之義。"
+        },
+        {
+          "char": "乾",
+          "pinyin": "qián",
+          "tone": 2,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "乾",
+          "rawEntryIndex": 7273,
+          "rawHeteronymIndex": 0,
+          "rawDefinitionIndex": 0,
+          "dictionarySense": "《易經》卦名：(1)八卦之一。卦形是☰，代表天、陽等之義。(2)六十四卦之一。乾（☰）下乾（☰）上。象徵君子應自強不息，努力永不懈怠之義。"
+        }
+      ],
+      "wholeContext": {
+        "citations": [
+          {
+            "id": "zhouyi-1-gua",
+            "title": "周易",
+            "chapter": "第1卦·乾为天·卦辞",
+            "text": "乾。元亨，利贞。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-1-xiang",
+            "title": "周易·象传",
+            "chapter": "第1卦·乾为天·大象",
+            "text": "天行健，君子以自强不息。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-1-yao-1",
+            "title": "周易",
+            "chapter": "第1卦·乾为天·初九",
+            "text": "潜龙勿用。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-1-yao-2",
+            "title": "周易",
+            "chapter": "第1卦·乾为天·九二",
+            "text": "见龙在田，利见大人。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-1-yao-3",
+            "title": "周易",
+            "chapter": "第1卦·乾为天·九三",
+            "text": "君子终日乾乾，夕惕若厉，无咎。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-1-yao-4",
+            "title": "周易",
+            "chapter": "第1卦·乾为天·九四",
+            "text": "或跃在渊，无咎。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-1-yao-5",
+            "title": "周易",
+            "chapter": "第1卦·乾为天·九五",
+            "text": "飞龙在天，利见大人。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-1-yao-6",
+            "title": "周易",
+            "chapter": "第1卦·乾为天·上九",
+            "text": "亢龙有悔。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-1-yong",
+            "title": "周易",
+            "chapter": "第1卦·乾为天·用九",
+            "text": "见群龙无首，吉。",
+            "sourceId": "zhouyi"
+          }
+        ]
+      },
+      "reviewWarnings": [
+        "乾均读qián；不得用gān干燥义匹配此出处。"
+      ],
+      "licensing": {
+        "dictionary": "CC-BY-ND-3.0-TW;verbatim source definition",
+        "editorial": "CC0-1.0;project review and wishes only",
+        "citation": "MIT;fixed-source original text only"
+      }
+    },
+    {
+      "name": "观光",
+      "ruleId": "meaning137-name-观光",
+      "citation": {
+        "id": "zhouyi-20-yao-4",
+        "title": "周易",
+        "chapter": "第20卦·风地观·六四",
+        "text": "观国之光，利用宾于王。",
+        "sourceId": "zhouyi"
+      },
+      "excerpt": "观国之光，利用宾于王。",
+      "extraction": "recombined",
+      "context": "观光是从观国之光选字重组，不等于现代旅游词的古典解释；家庭期许不包含入仕成功保证。 名字为同句选字重组，并非原文连续词； 原文语义与项目家庭期许分开，原句不作孩子属性或命运保证。",
+      "meaning": "原句关联：观卦六四说观察一国的光华与礼治表现，并涉及作为王宾的处境；观取察看，光取荣耀名誉。 项目家庭期许：愿开阔见闻、观察他人长处并保持独立思考。",
+      "sourceMeaning": "观卦六四说观察一国的光华与礼治表现，并涉及作为王宾的处境；观取察看，光取荣耀名誉。",
+      "projectWish": "项目创作：愿开阔见闻、观察他人长处并保持独立思考。",
+      "readings": [
+        {
+          "char": "观",
+          "pinyin": "guān",
+          "tone": 1,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "觀",
+          "rawEntryIndex": 130676,
+          "rawHeteronymIndex": 0,
+          "rawDefinitionIndex": 0,
+          "dictionarySense": "察看、審視。"
+        },
+        {
+          "char": "光",
+          "pinyin": "guāng",
+          "tone": 1,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "光",
+          "rawEntryIndex": 15172,
+          "rawHeteronymIndex": 0,
+          "rawDefinitionIndex": 1,
+          "dictionarySense": "榮耀、名譽。"
+        }
+      ],
+      "wholeContext": {
+        "citations": [
+          {
+            "id": "zhouyi-20-gua",
+            "title": "周易",
+            "chapter": "第20卦·风地观·卦辞",
+            "text": "观。盥而不荐，有孚颙若。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-20-xiang",
+            "title": "周易·象传",
+            "chapter": "第20卦·风地观·大象",
+            "text": "风行地上，观。先王以省方观民设教。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-20-yao-1",
+            "title": "周易",
+            "chapter": "第20卦·风地观·初六",
+            "text": "童观，小人无咎，君子吝。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-20-yao-2",
+            "title": "周易",
+            "chapter": "第20卦·风地观·六二",
+            "text": "窥观，利女贞。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-20-yao-3",
+            "title": "周易",
+            "chapter": "第20卦·风地观·六三",
+            "text": "观我生，进退。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-20-yao-4",
+            "title": "周易",
+            "chapter": "第20卦·风地观·六四",
+            "text": "观国之光，利用宾于王。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-20-yao-5",
+            "title": "周易",
+            "chapter": "第20卦·风地观·九五",
+            "text": "观我生，君子无咎。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-20-yao-6",
+            "title": "周易",
+            "chapter": "第20卦·风地观·上九",
+            "text": "观其生，君子无咎。",
+            "sourceId": "zhouyi"
+          }
+        ]
+      },
+      "reviewWarnings": [
+        "明确不是原文连续词，也不是证明现代旅游义源于本句的词源论文。"
+      ],
+      "licensing": {
+        "dictionary": "CC-BY-ND-3.0-TW;verbatim source definition",
+        "editorial": "CC0-1.0;project review and wishes only",
+        "citation": "MIT;fixed-source original text only"
+      }
+    },
+    {
+      "name": "安贞",
+      "ruleId": "meaning137-name-安贞",
+      "citation": {
+        "id": "zhouyi-2-gua",
+        "title": "周易",
+        "chapter": "第2卦·坤为地·卦辞",
+        "text": "元亨，利牝马之贞。君子有攸往，先迷后得主，利。西南得朋，东北丧朋。安贞吉。",
+        "sourceId": "zhouyi"
+      },
+      "excerpt": "安贞吉。",
+      "extraction": "continuous",
+      "context": "全卦的牝马、往来与得朋丧朋语境保留；本名采用守正义，不沿用对女性婚姻贞节的规训。 两字在原句连续出现，连续取字不等于现代固定词。 原文语义与项目家庭期许分开，原句不作孩子属性或命运保证。",
+      "meaning": "原句关联：坤卦卦辞以安于守正为一条条件性表达；此名安取平静恬适，贞取守正道。 项目家庭期许：愿从容守正，遇事审慎而有原则。",
+      "sourceMeaning": "坤卦卦辞以安于守正为一条条件性表达；此名安取平静恬适，贞取守正道。",
+      "projectWish": "项目创作：愿从容守正，遇事审慎而有原则。",
+      "readings": [
+        {
+          "char": "安",
+          "pinyin": "ān",
+          "tone": 1,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "安",
+          "rawEntryIndex": 41748,
+          "rawHeteronymIndex": 0,
+          "rawDefinitionIndex": 4,
+          "dictionarySense": "平靜、恬適。"
+        },
+        {
+          "char": "贞",
+          "pinyin": "zhēn",
+          "tone": 1,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "貞",
+          "rawEntryIndex": 134935,
+          "rawHeteronymIndex": 0,
+          "rawDefinitionIndex": 2,
+          "dictionarySense": "守正道的、效忠的。"
+        }
+      ],
+      "wholeContext": {
+        "citations": [
+          {
+            "id": "zhouyi-2-gua",
+            "title": "周易",
+            "chapter": "第2卦·坤为地·卦辞",
+            "text": "元亨，利牝马之贞。君子有攸往，先迷后得主，利。西南得朋，东北丧朋。安贞吉。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-2-xiang",
+            "title": "周易·象传",
+            "chapter": "第2卦·坤为地·大象",
+            "text": "地势坤，君子以厚德载物。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-2-yao-1",
+            "title": "周易",
+            "chapter": "第2卦·坤为地·初六",
+            "text": "履霜，坚冰至。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-2-yao-2",
+            "title": "周易",
+            "chapter": "第2卦·坤为地·六二",
+            "text": "直方大，不习无不利。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-2-yao-3",
+            "title": "周易",
+            "chapter": "第2卦·坤为地·六三",
+            "text": "含章可贞。或从王事，无成有终。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-2-yao-4",
+            "title": "周易",
+            "chapter": "第2卦·坤为地·六四",
+            "text": "括囊，无咎无誉。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-2-yao-5",
+            "title": "周易",
+            "chapter": "第2卦·坤为地·六五",
+            "text": "黄裳，元吉。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-2-yao-6",
+            "title": "周易",
+            "chapter": "第2卦·坤为地·上六",
+            "text": "龙战于野，其血玄黄。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-2-yong",
+            "title": "周易",
+            "chapter": "第2卦·坤为地·用六",
+            "text": "利永贞。",
+            "sourceId": "zhouyi"
+          }
+        ]
+      },
+      "reviewWarnings": [
+        "吉属于原卦辞，不宣称名字具有吉凶效力。"
+      ],
+      "licensing": {
+        "dictionary": "CC-BY-ND-3.0-TW;verbatim source definition",
+        "editorial": "CC0-1.0;project review and wishes only",
+        "citation": "MIT;fixed-source original text only"
+      }
+    },
+    {
+      "name": "怀德",
+      "ruleId": "meaning137-name-怀德",
+      "citation": {
+        "id": "shijing-254-14",
+        "title": "诗经",
+        "chapter": "大雅·生民之什·板 第14章",
+        "text": "怀德维宁，宗子维城。无俾城坏，无独斯畏。",
+        "sourceId": "shijing"
+      },
+      "excerpt": "怀德维宁，宗子维城。",
+      "extraction": "continuous",
+      "context": "全篇为动荡中的劝谏；期许为现代创作，不把宁与城的政治比喻改成孩子必获安稳。 两字在原句连续出现，连续取字不等于现代固定词。 原文语义与项目家庭期许分开，原句不作孩子属性或命运保证。",
+      "meaning": "原句关联：《板》以怀德而安宁及宗子如城作劝诫；此名怀取存有抱着，德取品行。 项目家庭期许：愿把德行落实于日常选择，尊重共同生活的人。",
+      "sourceMeaning": "《板》以怀德而安宁及宗子如城作劝诫；此名怀取存有抱着，德取品行。",
+      "projectWish": "项目创作：愿把德行落实于日常选择，尊重共同生活的人。",
+      "readings": [
+        {
+          "char": "怀",
+          "pinyin": "huái",
+          "tone": 2,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "懷",
+          "rawEntryIndex": 57058,
+          "rawHeteronymIndex": 0,
+          "rawDefinitionIndex": 5,
+          "dictionarySense": "存有、抱著。"
+        },
+        {
+          "char": "德",
+          "pinyin": "dé",
+          "tone": 2,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "德",
+          "rawEntryIndex": 52821,
+          "rawHeteronymIndex": 0,
+          "rawDefinitionIndex": 1,
+          "dictionarySense": "品行、作風。"
+        }
+      ],
+      "wholeContext": {
+        "title": "板",
+        "chapter": "大雅",
+        "section": "生民之什",
+        "content": [
+          "上帝板板，下民卒瘅。出话不然，为犹不远。",
+          "靡圣管管。不实于亶。犹之未远，是用大谏。",
+          "天之方难，无然宪宪。天之方蹶，无然泄泄。",
+          "辞之辑矣，民之洽矣。辞之怿矣，民之莫矣。",
+          "我虽异事，及尔同僚。我即尔谋，听我嚣嚣。",
+          "我言维服，勿以为笑。先民有言，询于刍荛。",
+          "天之方虐，无然谑谑。老夫灌灌，小子蹻蹻。",
+          "匪我言耄，尔用忧谑。多将熇熇，不可救药。",
+          "天之方懠。无为夸毗。威仪卒迷，善人载尸。",
+          "民之方殿屎，则莫我敢葵？丧乱蔑资，曾莫惠我师？",
+          "天之牖民，如埙如篪，如璋如圭，如取如携。",
+          "携无曰益，牖民孔易。民之多辟，无自立辟。",
+          "价人维藩，大师维垣，大邦维屏，大宗维翰，",
+          "怀德维宁，宗子维城。无俾城坏，无独斯畏。",
+          "敬天之怒，无敢戏豫。敬天之渝，无敢驰驱。",
+          "昊天曰明，及尔出王。昊天曰旦，及尔游衍。"
+        ],
+        "matchedBlockIndexOneBased": 14
+      },
+      "reviewWarnings": [
+        "不以仅同字出现跨章补出处；取本章连续怀德。"
+      ],
+      "licensing": {
+        "dictionary": "CC-BY-ND-3.0-TW;verbatim source definition",
+        "editorial": "CC0-1.0;project review and wishes only",
+        "citation": "MIT;fixed-source original text only"
+      }
+    },
+    {
+      "name": "果行",
+      "ruleId": "meaning137-name-果行",
+      "citation": {
+        "id": "zhouyi-4-xiang",
+        "title": "周易·象传",
+        "chapter": "第4卦·山水蒙·大象",
+        "text": "山下出泉，蒙。君子以果行育德。",
+        "sourceId": "zhouyi"
+      },
+      "excerpt": "君子以果行育德。",
+      "extraction": "continuous",
+      "context": "保留蒙卦启蒙、请问与学习语境；家长期许不等于鼓励鲁莽或保证无错。 两字在原句连续出现，连续取字不等于现代固定词。 原文语义与项目家庭期许分开，原句不作孩子属性或命运保证。",
+      "meaning": "原句关联：蒙卦大象由山下出泉引出果断实行与培育德行；果取坚决，行取做从事。 项目家庭期许：愿思考后认真行动，并在行动中学习反省。",
+      "sourceMeaning": "蒙卦大象由山下出泉引出果断实行与培育德行；果取坚决，行取做从事。",
+      "projectWish": "项目创作：愿思考后认真行动，并在行动中学习反省。",
+      "readings": [
+        {
+          "char": "果",
+          "pinyin": "guǒ",
+          "tone": 3,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "果",
+          "rawEntryIndex": 75656,
+          "rawHeteronymIndex": 0,
+          "rawDefinitionIndex": 5,
+          "dictionarySense": "堅決。"
+        },
+        {
+          "char": "行",
+          "pinyin": "xíng",
+          "tone": 2,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "行",
+          "rawEntryIndex": 127980,
+          "rawHeteronymIndex": 0,
+          "rawDefinitionIndex": 4,
+          "dictionarySense": "做、從事。"
+        }
+      ],
+      "wholeContext": {
+        "citations": [
+          {
+            "id": "zhouyi-4-gua",
+            "title": "周易",
+            "chapter": "第4卦·山水蒙·卦辞",
+            "text": "亨。匪我求童蒙，童蒙求我。初筮告，再三渎，渎则不告。利贞。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-4-xiang",
+            "title": "周易·象传",
+            "chapter": "第4卦·山水蒙·大象",
+            "text": "山下出泉，蒙。君子以果行育德。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-4-yao-1",
+            "title": "周易",
+            "chapter": "第4卦·山水蒙·初六",
+            "text": "发蒙，利用刑人，用说桎梏，以往吝。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-4-yao-2",
+            "title": "周易",
+            "chapter": "第4卦·山水蒙·九二",
+            "text": "包蒙，吉。纳妇，吉。子克家。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-4-yao-3",
+            "title": "周易",
+            "chapter": "第4卦·山水蒙·六三",
+            "text": "勿用取女，见金夫，不有躬，无攸利。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-4-yao-4",
+            "title": "周易",
+            "chapter": "第4卦·山水蒙·六四",
+            "text": "困蒙，吝。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-4-yao-5",
+            "title": "周易",
+            "chapter": "第4卦·山水蒙·六五",
+            "text": "童蒙，吉。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-4-yao-6",
+            "title": "周易",
+            "chapter": "第4卦·山水蒙·上九",
+            "text": "击蒙，不利为寇，利御寇。",
+            "sourceId": "zhouyi"
+          }
+        ]
+      },
+      "reviewWarnings": [
+        "行读xíng；不能换作háng行列义仍借此规则。"
+      ],
+      "licensing": {
+        "dictionary": "CC-BY-ND-3.0-TW;verbatim source definition",
+        "editorial": "CC0-1.0;project review and wishes only",
+        "citation": "MIT;fixed-source original text only"
+      }
+    },
+    {
+      "name": "明慎",
+      "ruleId": "meaning137-name-明慎",
+      "citation": {
+        "id": "zhouyi-56-xiang",
+        "title": "周易·象传",
+        "chapter": "第56卦·火山旅·大象",
+        "text": "山上有火，旅。君子以明慎用刑而不留狱。",
+        "sourceId": "zhouyi"
+      },
+      "excerpt": "君子以明慎用刑而不留狱。",
+      "extraction": "continuous",
+      "context": "刑狱与执事背景完整保留；仅把明察审慎作为现代家庭期许，不预测职业或司法权力。 两字在原句连续出现，连续取字不等于现代固定词。 原文语义与项目家庭期许分开，原句不作孩子属性或命运保证。",
+      "meaning": "原句关联：旅卦大象原论明察慎重用刑与及时处理狱事；明取通晓，慎取小心。 项目家庭期许：愿判断之前先了解事实，做决定时审慎负责。",
+      "sourceMeaning": "旅卦大象原论明察慎重用刑与及时处理狱事；明取通晓，慎取小心。",
+      "projectWish": "项目创作：愿判断之前先了解事实，做决定时审慎负责。",
+      "readings": [
+        {
+          "char": "明",
+          "pinyin": "míng",
+          "tone": 2,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "明",
+          "rawEntryIndex": 70477,
+          "rawHeteronymIndex": 0,
+          "rawDefinitionIndex": 0,
+          "dictionarySense": "通曉。"
+        },
+        {
+          "char": "慎",
+          "pinyin": "shèn",
+          "tone": 4,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "慎",
+          "rawEntryIndex": 56233,
+          "rawHeteronymIndex": 0,
+          "rawDefinitionIndex": 0,
+          "dictionarySense": "小心。"
+        }
+      ],
+      "wholeContext": {
+        "citations": [
+          {
+            "id": "zhouyi-56-gua",
+            "title": "周易",
+            "chapter": "第56卦·火山旅·卦辞",
+            "text": "小亨，旅贞吉。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-56-xiang",
+            "title": "周易·象传",
+            "chapter": "第56卦·火山旅·大象",
+            "text": "山上有火，旅。君子以明慎用刑而不留狱。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-56-yao-1",
+            "title": "周易",
+            "chapter": "第56卦·火山旅·初六",
+            "text": "旅琐琐，斯其所取灾。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-56-yao-2",
+            "title": "周易",
+            "chapter": "第56卦·火山旅·六二",
+            "text": "旅即次，怀其资，得童仆贞。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-56-yao-3",
+            "title": "周易",
+            "chapter": "第56卦·火山旅·九三",
+            "text": "旅焚其次，丧其童仆，贞厉。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-56-yao-4",
+            "title": "周易",
+            "chapter": "第56卦·火山旅·九四",
+            "text": "旅于处，得其资斧，我心不快。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-56-yao-5",
+            "title": "周易",
+            "chapter": "第56卦·火山旅·六五",
+            "text": "射雉一矢亡，终以誉命。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-56-yao-6",
+            "title": "周易",
+            "chapter": "第56卦·火山旅·上九",
+            "text": "鸟焚其巢，旅人先笑后号啕。丧牛于易，凶。",
+            "sourceId": "zhouyi"
+          }
+        ]
+      },
+      "reviewWarnings": [
+        "原句不只泛泛聪明；此名不包含任何职业适性断言。"
+      ],
+      "licensing": {
+        "dictionary": "CC-BY-ND-3.0-TW;verbatim source definition",
+        "editorial": "CC0-1.0;project review and wishes only",
+        "citation": "MIT;fixed-source original text only"
+      }
+    }
+  ],
+  "rejectedCandidates": [
+    {
+      "name": "采薇",
+      "status": "pending",
+      "reason": "采当前选中採而存在本字采；且原篇为戍役思归，先解决精确词条身份与词语义审阅，不把戍役忧伤泛写成清新快乐。"
+    },
+    {
+      "name": "依依",
+      "status": "pending",
+      "reason": "原篇依依为叠词状貌，当前单字依的靠著等义不足以独立证明该叠词语义；未读取并审定原MOE复词义前不授组合信用。"
+    },
+    {
+      "name": "柳依",
+      "status": "pending",
+      "reason": "杨柳依依中的柳依虽字符串连续却跨词边界，不把相邻字符冒充古典固定连词；未建立独立组合语义链。"
+    },
+    {
+      "name": "子宁",
+      "status": "not-approved",
+      "reason": "子衿的宁不嗣音/宁不来是反问用法，不能借同音安宁义重写成孩子平安祝福。"
+    },
+    {
+      "name": "恒德",
+      "status": "not-approved",
+      "reason": "九三原句不恒其德为否定劝戒，六五又有具体性别吉凶条件；本轮不删否定/条件包装为完整正面姓名出处。"
+    },
+    {
+      "name": "惠然",
+      "status": "pending",
+      "reason": "终风全篇含暴谑与往来不定的情感语境；在没有独立固定释义与完整用途合同前，不直接从惠然肯来改写温柔幸福。"
+    },
+    {
+      "name": "天锡",
+      "status": "pending",
+      "reason": "锡默认xí为金属等义，本句赐予用法的古音/通假与默认字典读音需独立核定；不得把cì义借给默认xí。"
+    },
+    {
+      "name": "青衿",
+      "status": "pending",
+      "reason": "衿未在当前779字集合内；新增用字需独立源字库版本，本任务只覆盖现有资料。"
+    },
+    {
+      "name": "崇德",
+      "status": "pending",
+      "reason": "当前779字缺崇，虽大象有作乐崇德不能直接绕过字库约束。"
+    },
+    {
+      "name": "平施",
+      "status": "pending",
+      "reason": "裒多益寡称物平施的分配语境尚未作独立审阅，不仅凭平/施同句共现授予组合信用。"
+    },
+    {
+      "name": "琼英",
+      "status": "pending",
+      "reason": "固定MOE复词瓊英97152/0/0以所选诗句释为“如玉一般的美石”，并说明也作瓊瑩。单字英的通用“美好的”不能证明本句名物义；当前完整姓名合同只支持单字义项绑定，先待组合级原义证据合同完成，不授本批新增出处信用。",
+      "scope": "no-automatic-combination-credit",
+      "citation": {
+        "id": "shijing-98-3",
+        "title": "诗经",
+        "chapter": "国风·齐风·着 第3章",
+        "text": "俟我于堂乎而，充耳以黄乎而，尚之以琼英乎而。",
+        "sourceId": "shijing"
+      },
+      "sourceEvidence": {
+        "sourceId": "moe-revised",
+        "dictionaryWord": "瓊英",
+        "rawEntryIndex": 97152,
+        "rawHeteronymIndex": 0,
+        "rawDefinitionIndex": 0,
+        "pinyin": "qióng yīng",
+        "dictionarySense": "如玉一般的美石。《詩經．齊風．著》：「俟我於堂乎而，充耳以黃乎而，尚之以瓊英乎而。」漢．毛亨．傳：「瓊英，美石似玉者，人君之服也。」也作「瓊瑩」。"
+      }
+    }
+  ]
+}

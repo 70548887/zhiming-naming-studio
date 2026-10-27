@@ -1,0 +1,394 @@
+{
+  "schema": "m1025-exact3-source-review/1",
+  "reviewId": "M1025-SEMANTIC-EXACT3",
+  "date": "2026-10-27",
+  "result": "accepted-bounded-exact3-source-scope",
+  "sourceCommit": "c86600dcb9f51e02aeffa48ec74922fe983d6121",
+  "groupMapSha256": "dcf6b457762126e97d55970b0f1bf934a29cd8e5f75c4e8de1d3c4e14740b191",
+  "mapReceiptSha256": "67561498de7053fe6ac90d3f2d31b4c942b013d31b2b4c9f272a574e3a6c4f45",
+  "scope": {
+    "exactSourceFiles": 3,
+    "runtimeSourceFiles": 3,
+    "typeOnlySourceFiles": 0,
+    "mainCapabilitySeparateFromStructuralHandle": true
+  },
+  "rows": [
+    {
+      "file": "src/domain/naming-semantic-admission-v72.ts",
+      "bytes": 15942,
+      "sha256": "26eeb2959d9ff815c625a2da6c0c8524ecd381f6d00cc3abf50ac974f9e2e808",
+      "gitBlob": "2f745ce43726895ca5ed0eebf1770b7f6d1aa435",
+      "scope": "subject-exact3",
+      "sourceCommit": "c86600dcb9f51e02aeffa48ec74922fe983d6121",
+      "subgroup": "policy-domain",
+      "reviewId": "M1025-SEMANTIC-EXACT3",
+      "storeRequiredSourceRole": false,
+      "role": "Pure policy/context/occurrence-identity domain library",
+      "readerClass": "pure-rule-or-rule-data",
+      "compileScope": "main-service-bundle",
+      "reviewedLines": [
+        7,
+        55,
+        57,
+        123,
+        125,
+        156
+      ],
+      "judgment": "accepted-for-bounded-exact-source-registration",
+      "verified": [
+        "Plain JSON rejects Proxy before reflection and descriptor traversal; exact own field capture precedes pool iteration or shortcuts.",
+        "Private fixed theme enumeration is independent of the public shared array. Safe normalization retains unknown IDs and produces ok:false; strict path still throws.",
+        "A domain-created frozen handle is recognized only by the module structural WeakSet, not the main authenticated registry.",
+        "Assessment binds complete baseline character/readings, given-name occurrence, fixed sense/decision, allowed length/theme and supported predicates; stage does not relax conditions.",
+        "叶 remains pending; 纪/年/岁 use any-context, six others explicit themes, 纶/作/萧 require two-character given names.",
+        "Occurrence receipt is recomputed from exact policy/source/project/context identities; stage is intentionally absent from occurrence identity so the same occurrence can be checked at save/restore.",
+        "Output assertions require score0, null wholeName and exact expected characterwise text; legacy comparison refuses a newsemanticAdoption72 field."
+      ],
+      "limits": [
+        "Pure factory accepts structural publication input and does not authenticate source files. Its receipt is content correspondence, not a main signature, native Store authority or standalone approval.",
+        "The pool helper preserves caller-established legacy eligible rows rather than revalidating them; callers must own that prior pool. It does not define521 as a whitelist.",
+        "Freeze assumes trusted/owned input. Hash/canonical/output helpers cannot replace external provenance authentication.",
+        "No current generator, AI, save/restore service, family40 or renderer integration is newly reviewed."
+      ]
+    },
+    {
+      "file": "src/shared/naming-semantic-admission-v72.ts",
+      "bytes": 7470,
+      "sha256": "d36c063bb549c354627e37858f62aa8dd8263d3c47566882581b2817ff9fde15",
+      "gitBlob": "a494a9137f0a1e12b5b017c1171561897ae91f11",
+      "scope": "subject-exact3",
+      "sourceCommit": "c86600dcb9f51e02aeffa48ec74922fe983d6121",
+      "subgroup": "runtime-and-type-contract",
+      "reviewId": "M1025-SEMANTIC-EXACT3",
+      "storeRequiredSourceRole": false,
+      "role": "Runtime rule/source/theme constants plus typed policy and occurrence contracts",
+      "readerClass": "pure-rule-or-rule-data",
+      "compileScope": "main-service-bundle",
+      "reviewedLines": [
+        1,
+        79
+      ],
+      "judgment": "accepted-runtime-contract-not-type-only",
+      "verified": [
+        "Exports exactly three runtime constants: NAMING_EDITORIAL_V72_VERSION, NAMING_EDITORIAL_V72_SOURCE_ID and SEMANTIC_THEMES_V72.",
+        "Interfaces separate structural handles, source identities, explicit context/status, project-only intent and zero-credit/no-whole-name results.",
+        "The runtime theme array is public; actual domain normalization uses its own private frozen enum."
+      ],
+      "limits": [
+        "as const does not freeze the public theme array at runtime and does not erase values; never register this whole file as type-only.",
+        "Renderer imports of the public constants remain external composition context, not new renderer authority.",
+        "Types do not authenticate caller handles or publication material."
+      ]
+    },
+    {
+      "file": "src/main/naming-semantic-admission-v72-data.ts",
+      "bytes": 15541,
+      "sha256": "ab9132a1801f1cec905e4f3afc02c43a6d05cb3fdcbf57ce95f61f71766c989e",
+      "gitBlob": "b2bc905880ce1d86095017219396551511e954d1",
+      "scope": "subject-exact3",
+      "sourceCommit": "c86600dcb9f51e02aeffa48ec74922fe983d6121",
+      "subgroup": "authenticated-resource-owner",
+      "reviewId": "M1025-SEMANTIC-EXACT3",
+      "storeRequiredSourceRole": false,
+      "role": "Main fixed-source publication verifier and private capability owner",
+      "readerClass": "service-fixed-source-reader",
+      "compileScope": "main-service-bundle",
+      "reviewedLines": [
+        12,
+        25,
+        31,
+        85,
+        87,
+        133
+      ],
+      "judgment": "accepted-for-trusted-owner-fixed-resource-source-scope",
+      "verified": [
+        "Captures exact plain config and optional known root overrides as detached frozen data; overrides alter addresses, not fixed hashes.",
+        "Verifies fixed M752-r2 manifest/policy/contracts/conflicts and M744 no-generation audit, then M740 delivery/candidate/source closures, fixed dataset and pack bytes.",
+        "Per-record checks cover complete original entry, pinyin/tone/source-word/POS/sense, baseline/default readings, raw/Unicode proof lines, source/project hashes and separated reviews.",
+        "All policy, candidate and upstream source byte reads plus pack validation precede cache lookup. Cache holds only immutable parsed publication/dataset derived from the same fixed pins.",
+        "Only successful main loading registers a fresh handle in private WeakMap. structural/copy/foreign handles cannot access authenticated data/source directory or refresh.",
+        "refresh reloads with its private owned config; no callback/approved flag can authorize or register CURRENT."
+      ],
+      "limits": [
+        "No full source loading, rawMOE decompression or SQLite/pack processing executed by this review; positive resource acceptance reuses bounded prior evidence with newly inspected source logic.",
+        "readFileSync and digests do not ban physical aliases or create an atomic multi-file transaction; roots are trusted main-owned configuration.",
+        "validatedCache reuses parsed semantic facts only after all pinned byte reads. It is not a filesystem verdict cache or continuous freshness guarantee.",
+        "semanticAdmissionDatasetV72/sourceDirectory are private-capability reads but do not themselves refresh; operation owners must call refresh at the appropriate boundary.",
+        "Fallback absolute upstream addresses are existing addressing behavior; this review does not certify new portable packaging or whole source closure."
+      ]
+    }
+  ],
+  "findings": [],
+  "newP1": 0,
+  "newP2": 0,
+  "policyScope": {
+    "dataReview": "M744 original9 manual-reference suitability,叶pending; no generation/source/automatic/default permission from data review.",
+    "editorialPolicy": "Separate fixedM752-r2 project editorial intent decisions; nine conditional/reusable single-character intents, not dictionary authority or whole-name endorsement.",
+    "general": [
+      "纪",
+      "年",
+      "岁"
+    ],
+    "explicitTheme": {
+      "邦": "civic-homeland",
+      "沫": "water-bubbles",
+      "纶": "textile-ribbon",
+      "农": "agriculture",
+      "作": "literary-artwork",
+      "萧": "herb-plant"
+    },
+    "requiresDoubleGivenName": [
+      "纶",
+      "作",
+      "萧"
+    ],
+    "pending": [
+      "叶"
+    ],
+    "scoreDelta": 0,
+    "wholeNameMeaning": null,
+    "traditionalAuthority": false,
+    "automaticRecommendation": false,
+    "newCoverage": 0,
+    "currentActivation": "not-current",
+    "productionApproved": false
+  },
+  "historicalReuse": {
+    "M751": "Author original23 tests only; no28/28 evidence is adopted.",
+    "M810": "Original twoP2 hold retained in chronology; not retroactively green.",
+    "M839": "Original P2 pool raw-context and unknown-theme boundaries closed in exact incremental review. Current loader bytes identical; current domain/shared include separately reviewedM910delta.",
+    "M910": "Current domain/shared identical to abd2e704b19f6ce83be819792b48e6b58ac8694a; reuse safe-context delta only, not earlier source-family judgment.",
+    "M842": "Contains none of this exact3; no approval borrowed.",
+    "M1003": "Existing external editorial reader evidence is context only, not semantic-v72 approval."
+  },
+  "independentChecks": {
+    "pureGroups": [
+      {
+        "id": "domain-structural-handle-not-main-private-capability",
+        "passed": true,
+        "realAuthenticatedLoaderRun": false
+      },
+      {
+        "id": "raw-context-validated-before-pool-shortcut-getter-and-proxy-traps-zero",
+        "passed": true
+      },
+      {
+        "id": "unknown-theme-preserved-and-rejected-even-without-policy-row-or-public-array-change",
+        "passed": true
+      },
+      {
+        "id": "three-general-six-themes-three-double-name-and-leaf-pending",
+        "passed": true,
+        "noThemePool": [
+          "纪",
+          "年",
+          "岁"
+        ],
+        "allThemePool": [
+          "邦",
+          "沫",
+          "纪",
+          "纶",
+          "年",
+          "农",
+          "作",
+          "岁",
+          "萧"
+        ],
+        "restricted": [
+          "纶",
+          "作",
+          "萧"
+        ],
+        "coverageRecount": false
+      },
+      {
+        "id": "exact-reading-record-and-per-occurrence-receipt-binding-stage-independent",
+        "passed": true
+      },
+      {
+        "id": "zero-credit-character-only-and-no-legacy-backfill",
+        "passed": true
+      }
+    ],
+    "passed": 6,
+    "failed": 0,
+    "structuralHandleIsNotMainCapability": true,
+    "realMainSourceLoadExecuted": false,
+    "oldSuitesRerun": false
+  },
+  "sourceBoundary": {
+    "cachedSemanticFacts": "FixedManifest+profile/dataset parsed facts reused only after every required current byte pin read and knowledge pack check.",
+    "sourceFreshness": "Per load/refresh only, no concurrent-writer or atomic snapshot guarantee.",
+    "privateRegistry": "WeakMap authenticates exact issued handle identity; domainWeakSet is only structural membership.",
+    "claimSeparation": "Public receipt/hash/helper output is evidence of exact content only, not an issuer signature or permission to persist."
+  },
+  "adjacent": {
+    "file": "src/main/naming-semantic-generation-v72.ts",
+    "bytes": 16218,
+    "sha256": "b64f495fb4cce436955d4aac2a6aaa470fbe8f2a6d2686b81c2c82eefa3bde35",
+    "gitBlob": "a394b67660e06c7a1aa996bcde893198720f0c18",
+    "sourceCommit": "c86600dcb9f51e02aeffa48ec74922fe983d6121",
+    "baseMatchesCurrent442": true,
+    "subgroup": "generation-facade",
+    "purpose": "Authenticated owner facade connecting pool/required/local/AI/save/restore to one policy with exact characterwise explanation",
+    "suggestedReaderClass": "service-fixed-source-reader",
+    "suggestedCompileScope": "main-service-bundle",
+    "suggestedStoreRequiredSourceRole": false,
+    "classificationStatus": "context-only-not-proposed-for-registration",
+    "runtimeExports": [
+      {
+        "name": "createNamingSemanticGenerationV72",
+        "mode": "runtime",
+        "line": 100
+      }
+    ],
+    "typeOnlyExports": [],
+    "reason": "Current consumers own separate Service/Store/source gates; importing this pure family does not pull the old unused generation facade into the new registration.",
+    "postimage": "fixed/src/main/naming-semantic-generation-v72.ts",
+    "additionalSourceReview": null,
+    "legacyFacadeTypecheckOrBusinessRerun": false,
+    "reviewedAsNewSubject": false,
+    "registrationGranted": false,
+    "actualSrcImporterFound": false,
+    "staticSearch": "Only its own export and four named test modules reference it in fixedsrc/tests; no productsrc import found."
+  },
+  "externalContext": {
+    "directType": [
+      {
+        "file": "src/shared/types.ts",
+        "bytes": 33408,
+        "sha256": "1cd8e614a9409e37b780010a65ce905197d8df28409fccaaa95f977b650cd3b9",
+        "gitBlob": "6c40afd273f593b6a5d10bc005475cb2217133af",
+        "modes": [
+          "type-only"
+        ],
+        "newReviewAuthority": false
+      }
+    ],
+    "legacyRuntimeSupport": [
+      {
+        "file": "src/domain/naming.ts",
+        "bytes": 15695,
+        "sha256": "24c2060217b26ff78aa05c61d9a09bc83952bb71aeca357ce0acfe6bd0900ef8",
+        "gitBlob": "60f2f06685940ef19e9dfd0f3df27b0eff59b1d3",
+        "modes": [
+          "runtime"
+        ],
+        "newReviewAuthority": false
+      },
+      {
+        "file": "src/domain/naming-v7.ts",
+        "bytes": 72291,
+        "sha256": "ad68953bfa561be6c49bed55be44616d7e5df20f9eee6f8fc6e46af3df635156",
+        "gitBlob": "5ef7d8ce0e000a238bad2e6ac57091d01a15119c",
+        "modes": [
+          "runtime"
+        ],
+        "newReviewAuthority": false
+      },
+      {
+        "file": "src/main/naming-editorial-v7-data.ts",
+        "bytes": 22824,
+        "sha256": "9afe6ab29ae8087fffc1cd032d4117d23072968b4ae8a046a9f435fc1f803b29",
+        "gitBlob": "ec24ee0aec43b1e407ba7e48328de36542a1f781",
+        "modes": [
+          "runtime"
+        ],
+        "newReviewAuthority": false
+      },
+      {
+        "file": "src/main/naming-meaning-review.ts",
+        "bytes": 12122,
+        "sha256": "e08ca7b614aa4c92a0621d393821a493574e1e3c8213b20dacaf87435719e17a",
+        "gitBlob": "6a4021660b8bc3f6589ac9e0abecabc0681ecb71",
+        "modes": [
+          "runtime"
+        ],
+        "newReviewAuthority": false
+      },
+      {
+        "file": "src/shared/naming-rules.ts",
+        "bytes": 4524,
+        "sha256": "3509c9531246e776638444d7dac3ab4a49cc2e822bd414dbdb66a936842054c7",
+        "gitBlob": "d1b41d54fa4c9c0f114c03126dd5a20129459d9f",
+        "modes": [
+          "runtime"
+        ],
+        "newReviewAuthority": false
+      }
+    ],
+    "reverseCallers": [
+      "src/main/naming-semantic-generation-v72.ts",
+      "src/main/naming-semantic-generation-m923.ts",
+      "src/main/naming-semantic-m923.ts",
+      "src/main/reviewed-naming-data-generation.ts",
+      "src/main/reviewed-naming-data-resources.ts",
+      "src/main/reviewed-naming-data-verification.ts",
+      "src/renderer/SemanticCharacterEvidenceView.tsx",
+      "src/shared/candidate2-semantic-composition-v1.ts",
+      "src/shared/naming-semantic-m923.ts",
+      "src/shared/reviewed-naming-data.ts"
+    ],
+    "reverseCallerCount": 10,
+    "newlyApprovedFiles": 0,
+    "fullTransitiveCompositionApproved": false
+  },
+  "countSeparation": {
+    "M1003": {
+      "default521": 521,
+      "onRequest60": 60,
+      "displayUnion581": 581
+    },
+    "oldCompatibilityPools": {
+      "withoutThemes": 524,
+      "allThemes": 530,
+      "basis": "old policy-pool checks with supplied legacy521, not current default coverage or a fresh generator allowlist"
+    },
+    "currentAudit": {
+      "policyOnlyEmptyPoolNoThemes": 3,
+      "policyOnlyEmptyPoolAllThemes": 9,
+      "defaultCoverageAdded": 0
+    },
+    "family40Included": false
+  },
+  "limits": [
+    "Registration may cite only these exact3 postimages and scopes; no src/profile/registry changed by this audit.",
+    "The fixed manual/reference source data and separate project-intent policy are not newly re-approved wholesale.",
+    "The shared3 runtime constants require runtime role registration even though many import edges are type-only.",
+    "Actual main loader success, raw dictionary original closure, pack validity and physical original-file changes were not re-executed.",
+    "No broaderService/Store/AI/renderer behavior, native generation/replay, installed package, traditional-system correctness or release acceptance."
+  ],
+  "authority": {
+    "exact3MayBeReferencedBySeparateSourceRegistration": true,
+    "registrationPerformed": false,
+    "adjacentFacadeRegistration": false,
+    "externalContextApproval": false,
+    "wholeSourceClosureApproved": false,
+    "sourceBuildApproved": false,
+    "StoreSaveApproved": false,
+    "automaticRecommendationsApproved": false,
+    "traditionalAuthority": false,
+    "formalCoverageAdded": 0,
+    "family40Approval": false,
+    "releaseApproved": false
+  },
+  "execution": {
+    "productWrites": 0,
+    "rawMOEParsed": false,
+    "SQLiteOpened": false,
+    "StoreExecuted": false,
+    "mainLoaderExecuted": false,
+    "old23Rerun": false,
+    "old28ClaimAccepted": false,
+    "old49Rerun": false,
+    "fullTypecheck": false,
+    "largeHashClosure": false,
+    "network": 0
+  },
+  "evidence": {
+    "fixedIdentitySha256": "49f48b38de1f7028c2eeb2eac8d02c7095a380641bebd00db5b7628f93a669b7",
+    "pureResultSha256": "e3029643a950967bba40312075b081610f20a9507d8596f6868581cd21118835"
+  }
+}

@@ -1,0 +1,13 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {spawn} from 'node:child_process';
+const [rootArg,bundleArg,id]=process.argv.slice(2);if(!rootArg||!bundleArg||!id)throw Error('root bundle runId required');
+const root=path.resolve(rootArg),file=path.join(root,id+'-watchdog.json');if(fs.existsSync(file))throw Error('Never overwrite watchdog');
+const logs=[fs.openSync(path.join(root,id+'.log'),'wx'),fs.openSync(path.join(root,id+'-error.log'),'wx')],events=[],startedUtc=new Date().toISOString();let timer,killed=false;
+const child=spawn(process.execPath,[path.resolve(bundleArg),root,id],{cwd:process.cwd(),env:{...process.env,TEMP:path.join(root,'tmp'),TMP:path.join(root,'tmp')},stdio:['ignore',...logs,'ipc'],windowsHide:true});
+const write=value=>{fs.writeFileSync(file+'.tmp',JSON.stringify(value,null,2)+'\n');fs.renameSync(file+'.tmp',file);};
+const stop=()=>{killed=true;child.kill('SIGKILL');};timer=setTimeout(stop,120000);
+process.send?.({phase:'actual-child-started',id,pid:child.pid});
+child.on('message',event=>{events.push(event);process.send?.(event);write({status:'running',id,startedUtc,parentPid:process.pid,childPid:child.pid,events});});
+child.on('exit',(code,signal)=>{clearTimeout(timer);for(const log of logs)fs.closeSync(log);const value={id,status:code===0&&!killed?'passed':'failed',startedUtc,finishedUtc:new Date().toISOString(),parentPid:process.pid,childPid:child.pid,code,signal,watchdogKilled:killed,events};write(value);console.log(JSON.stringify(value));process.exitCode=code===0&&!killed?0:1;});
+write({status:'running',id,startedUtc,parentPid:process.pid,childPid:child.pid,events});

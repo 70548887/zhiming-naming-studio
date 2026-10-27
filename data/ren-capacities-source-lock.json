@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "profileId": "ren-source-wood-capacities/1.0.0",
+  "hashConvention": "sha256(JSON.stringify(fileHashes)); sorted relative path keys",
+  "sources": [
+    {
+      "id": "bazi-ditian-ren-capacities-2600158",
+      "name": "滴天髓阐微任注 · 木局局部旺势与辰生助能力固定节录",
+      "url": "https://zh.wikisource.org/w/index.php?title=%E6%BB%B4%E5%A4%A9%E9%AB%93%E9%97%A1%E5%BE%AE&oldid=2600158",
+      "commit": "wikisource-oldid/2600158;source-wood-capacities/1.0.0",
+      "license": "CC-BY-SA-4.0",
+      "files": [
+        "data/raw/CC-BY-SA-4.0.txt",
+        "data/raw/ren-capacities-NOTICE.md",
+        "data/raw/ren-capacities-excerpts.json",
+        "data/ren-capacities-rules.json"
+      ],
+      "sha256": "f859797a9d093e5bbf7f5ae8fecd9103cb7f5049ad776f73ae1929f4518990fe",
+      "note": "同一固定任注原文；卯月、明干木水、完整亥卯未辰的保守充分子域，仅正判局部木势与辰生助能力，实际净作用与完整判格保留待核。",
+      "fileHashes": {
+        "data/raw/CC-BY-SA-4.0.txt": "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5",
+        "data/raw/ren-capacities-NOTICE.md": "3691ef8e9c59bbcfc9c86b35e1cd490823c9510b6ce925be1be457a4473da100",
+        "data/raw/ren-capacities-excerpts.json": "1dd3de7c225017674e67dd101f0e8c1f8ca67c1d862211244eb5f7d155eb6b54",
+        "data/ren-capacities-rules.json": "65099326ddf83842d2459c005f932878a3dbbf3b41a20cdca8a02148601f3052"
+      }
+    }
+  ]
+}

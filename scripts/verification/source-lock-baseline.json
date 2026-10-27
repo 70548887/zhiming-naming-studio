@@ -1,0 +1,936 @@
+{
+  "schemaVersion": 1,
+  "baselineVersion": "1.0.38",
+  "purpose": "Reviewed fixed lock bytes. Adding or changing source locks requires reviewing this manifest and its convention support.",
+  "locks": {
+    "data/bazi-evidence-source-lock.json": "4c0a03716599878e4d1fcc3f6f3f207c2a469cdcc041955fe3c31cae24b68b50",
+    "data/classics-source-lock.json": "0d639eaae8c5d91ee8252627a01c2387e96745f8fe6b770f48cf67c1b9508014",
+    "data/cong-sha-source-lock.json": "3788916bc73d5336a40aaebdd09a7231233c0ee22e8d3eff1e631f59c72581f2",
+    "data/cong-wealth-source-lock.json": "8ba224dfecaac8f40866ce5703310bb43f9bf35c7f2a3467c4ee18406c675fb7",
+    "data/ditian-ren-source-lock.json": "7f24f1417dbd102bf608a4caf8e62f04f89cc9d0193f2bacbd7a69b3928f6037",
+    "data/element-object/source-lock.json": "9c42d9649c3a07cf94a690b1d4059b30352f85eb84cb902fc3ccd67ac49c221f",
+    "data/following-restrictions-source-lock.json": "76be2f952f95ebb8f25a1c8b9a63d00a33c21cf7bd291bd3975a9ef3877ab3cf",
+    "data/meaning-context-next-source-lock.json": "cdc25bbb48fe24d84413e71ead37a07fe633ba8758c991c6b481924c7838eb72",
+    "data/meaning-context-v1-1-source-lock.json": "473b1fb377bfeeb07c3cea800450e2ec88532b1678c9c590dcad650d8e3dd964",
+    "data/month-authority-source-lock.json": "c01a9345e2b773b4c231c041af525456f2110638f850cc0768b194efdde603d8",
+    "data/monthly-seasonal-source-lock.json": "370c78f396a86df0e07cc4cc50f95b4afaad2ecb61399a359001a68c9b424290",
+    "data/name-imagery-source-lock.json": "d1c074aea2fe08ee0542ff06eecfddbd1a5638c1e8ac142e41196c58b772ec65",
+    "data/name-phonetic/source-lock.json": "0a170e50e46d63f8d4d13396eba93155cb615aabafd16d839de6c63ec8f9b440",
+    "data/name-word-pronunciation/word-source-lock.json": "23b218e227cd102c2b0ddef1dd8258fd4a87b2a0b8019f4413dae8f84abea07c",
+    "data/naming-character-meanings-v7.1-source-lock.json": "d8e1c6c278090d290b5792e31dc5187df5ad290b97e7ccdbce58dcbd285d793a",
+    "data/naming-editorial-dictionary-v6-source-lock.json": "06331d11a1c757a0245891fae357c7952db597d07c3c770d4052277c0bfac8da",
+    "data/naming-editorial-meanings-v7-source-lock.json": "2945297a7f4bca1489e12018cce2848909fc35716c999b7d309e9a79633f7476",
+    "data/naming-editorial-names-v5-source-lock.json": "e277c927f24f059e9be1fede52be6be327fb287c27276663711b5834d10d4981",
+    "data/naming-editorial-readings-source-lock.json": "33d1cac2da2ec2dc6705ecbaa160900f20e6c71ec10c52d065a0b631199f6d43",
+    "data/numerology-history/kangxi-20261018-v1/numerology-source-lock.json": "3ca6e9b84ecd3e4a1d0141b84450f433ab2cd75255ffb5544a29b7fbfcb90e98",
+    "data/numerology-source-lock.json": "600feb5251986fe5e91c82d27bc1503e9626f4c1f78be61f8f1a4bcc51b2ab02",
+    "data/official-name-popularity-source-lock.json": "42c2b7169edfe0ae1557068196488139d3bca48d4cde147d6eb1caf43f5680db",
+    "data/qimen-markers-source-lock.json": "921d35d90b3dcc8d3ae1c1cc6befc7748036b5c58b9dd6852a821f4a27827dae",
+    "data/qimen-patterns-source-lock.json": "d620d224f56ef9815030174c49351bb71855cb4a2f267ebe4712c548c78edb37",
+    "data/qimen-stem-tombs-source-lock.json": "406779b1d83236c8c8dde89b1def7dd18caf81fee981904b45d45655daf5d9e8",
+    "data/ren-actions-source-lock.json": "4ca534d772d32accee374adf41ed420262a9c050055884ccfe692a94186db4ad",
+    "data/ren-capacities-source-lock.json": "77b3f5ba7ba89e6d697f4c22dc554e831499aae689be58a40465b6cf94f3cd15",
+    "data/ren-directions-source-lock.json": "bed3390ab9664536f3537d9aa8b791ea0d656b435c34e7ee8f39a9fe1d4adad6",
+    "data/ren-joint-battle-source-lock.json": "297c175fc3d20073f6ec39e0173852119e2e80f8a85cd67a09809cc631bcc8b9",
+    "data/ren-necessary-source-lock.json": "fe44c12900437b6a3a4e7731b29ea4b7eafd5c21929534ce232e9d2e52b463a1",
+    "data/seasonal-condition-source-lock.json": "0810183cdddc2ac86cef2f9da0e00a54fed3e52cb95316b7b832ef14de01337e",
+    "data/solar-time-source-lock.json": "09c7946574ce37f0b2ee5204f76e61167a8001614157c2238b2e80658f383481",
+    "data/source-lock.json": "b1d206cdcfa2da184009442ba705d2231d8f0a43c2f5a9885a122a3e5d353bba",
+    "data/yue-homophone-expanded-source-lock.json": "1cfe317145772e4df393f54039c99cb831ced1f8c89eba00340a4db098a47349",
+    "data/yue-homophone-source-lock.json": "6deabda4ca04b476d649a0ec28e226cb4bbde78dd8119e56aeb125ccbefda77c",
+    "data/yue-reading-source-lock.json": "e5a593195a4fbc0fcce98b7f11e535aca7754f68f02d8d2ae45715d15a4acf25"
+  },
+  "reviewedExtensions": {
+    "contractFile": "scripts/verification/review-resources-137.json",
+    "contractSha256": "7b8230d86e3ac29b0122dd4e2bdc82ea5fa5705829648419478484fd57ace19b",
+    "deliveryManifestSha256": "525f662fb61cbe16cb4ea2756db52fa8d4e2df4ef20fb16cd77612e90bff5c7b"
+  },
+  "formats": {
+    "data/element-object/source-lock.json": {
+      "kind": "elements",
+      "topKeys": [
+        "profileId",
+        "baseline",
+        "hashConvention",
+        "rawSources",
+        "projectFiles",
+        "aggregateSha256",
+        "licensing",
+        "networkRequests",
+        "sharedFilesWritten"
+      ],
+      "runtimeFiles": {
+        "data/dataset-v6.json": {
+          "sha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+          "bytes": 1563457
+        },
+        "data/element-object/README.md": {
+          "sha256": "265416ec8c91902b18eeb0830929b48bd31578e592a992a2b627b1fff1277d68",
+          "bytes": 4860
+        },
+        "data/element-object/build.mjs": {
+          "sha256": "bc5d84eb360466dcafd0b4cc297791fe1d6ea9bb19c6d1d67818d59359ff966d",
+          "bytes": 13993
+        },
+        "data/element-object/element-overlay.json": {
+          "sha256": "dc440d8b699e59d5548bbae225f11a1b2bb0a14e9232b426893acb4562d314b8",
+          "bytes": 933100
+        },
+        "data/element-object/evidence-selections.txt": {
+          "sha256": "d54b146ea7d32d6c93acf6e41bfd8c70e7028367f19512ac4c94e2f4a9aec2bb",
+          "bytes": 5088
+        },
+        "data/element-object/load-verified-element-package.d.mts": {
+          "sha256": "c3cbb085cb427b49faa3e775ac87a617fa687930ece3c3c353bc52f128d3bbb0",
+          "bytes": 198
+        },
+        "data/element-object/load-verified-element-package.mjs": {
+          "sha256": "9d02d449687d232efe62160a0f817495d17bd60000025a23f8c9150bad179a63",
+          "bytes": 2550
+        },
+        "data/element-object/lookup-element-assessment.d.mts": {
+          "sha256": "973a44a95a72d4bc35994e52ea9db608c02f468d9f5b1533fc94ce25584b445a",
+          "bytes": 2710
+        },
+        "data/element-object/lookup-element-assessment.mjs": {
+          "sha256": "408a7bc509325f3bcc5912eeaae954c3b386256fb41929149081ac4ed92c6fbf",
+          "bytes": 8314
+        },
+        "data/element-object/profile.json": {
+          "sha256": "c1288f65a1ca9fd4cdf04260481be4e4676f69dffb56159ee3816c5d42fbe5b0",
+          "bytes": 3000
+        },
+        "data/element-object/review-manifest.json": {
+          "sha256": "a2ec768a126c3d9fcbdd9b564a6f76012f37a5afc0cd932cb6320407912f6c1f",
+          "bytes": 3584853
+        },
+        "data/element-object/review-notes.txt": {
+          "sha256": "09e847817715bd1c154be7d56cc0ad2672eed6853047ad20794fbc5a9a5021d8",
+          "bytes": 18022
+        },
+        "data/element-object/source-excerpts.json": {
+          "sha256": "80c0b6c9bcf2f7e090e59e89309c4e622c7a5386817dbe8da3d10f7ab22ea8e8",
+          "bytes": 1311087
+        },
+        "data/element-object/source-lock.json": {
+          "sha256": "9c42d9649c3a07cf94a690b1d4059b30352f85eb84cb902fc3ccd67ac49c221f",
+          "bytes": 4835
+        },
+        "data/element-object/verify.mjs": {
+          "sha256": "f824520657997086d41aa22eddc2f57f505b25e10d0b316bbedca9e95c8e357c",
+          "bytes": 18804
+        },
+        "data/raw/CC-BY-ND-3.0-TW.html": {
+          "sha256": "04e6ef69a223b6e13c93c97a918ad5fd0dbb9fc34ae307f4449ed264e2d4108f",
+          "bytes": 31775
+        },
+        "data/raw/kMandarin.txt": {
+          "sha256": "e549450d76b4f7f79dcf3c928f17f62dc7dcfda904dd4db983a18d4afab221e3",
+          "bytes": 462072
+        },
+        "data/raw/kSimplifiedVariant.txt": {
+          "sha256": "a7f0c9dbbca85cffd90517fa6ea9be97d2e6f811328a59b6b303d58a418ac9be",
+          "bytes": 88425
+        },
+        "data/raw/kTraditionalVariant.txt": {
+          "sha256": "4eca6285d45070548e6e6c06e4b48c3ca6866d4380e8cb980c512f5d1fc71895",
+          "bytes": 86288
+        },
+        "data/raw/moe-README.md": {
+          "sha256": "a93321d9381bc1cf34b4ad844f71607fa748c86c0b228ae37d46720d6a659cb2",
+          "bytes": 1214
+        },
+        "data/raw/moe-revised.json.gz": {
+          "sha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+          "bytes": 20310688
+        },
+        "data/raw/unicode-LICENSE": {
+          "sha256": "fe5c62b543e287981db198f2acfa0ca732d12591a1024536dc8fd85dacd77104",
+          "bytes": 2033
+        }
+      },
+      "profileId": "project-dictionary-object-elements/1.0.0",
+      "hashConvention": "sha256(original file bytes); per-entry hashes documented in each sourceBinding; aggregate sha256(JSON.stringify(sorted fileHashes))",
+      "baseline": {
+        "path": "data/dataset-v6.json",
+        "version": "2026.10.20.2",
+        "sha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+        "characters": 779,
+        "emptyCharacters": 522
+      },
+      "projectFiles": {
+        "build.mjs": "bc5d84eb360466dcafd0b4cc297791fe1d6ea9bb19c6d1d67818d59359ff966d",
+        "element-overlay.json": "dc440d8b699e59d5548bbae225f11a1b2bb0a14e9232b426893acb4562d314b8",
+        "evidence-selections.txt": "d54b146ea7d32d6c93acf6e41bfd8c70e7028367f19512ac4c94e2f4a9aec2bb",
+        "load-verified-element-package.d.mts": "c3cbb085cb427b49faa3e775ac87a617fa687930ece3c3c353bc52f128d3bbb0",
+        "load-verified-element-package.mjs": "9d02d449687d232efe62160a0f817495d17bd60000025a23f8c9150bad179a63",
+        "lookup-element-assessment.d.mts": "973a44a95a72d4bc35994e52ea9db608c02f468d9f5b1533fc94ce25584b445a",
+        "lookup-element-assessment.mjs": "408a7bc509325f3bcc5912eeaae954c3b386256fb41929149081ac4ed92c6fbf",
+        "profile.json": "c1288f65a1ca9fd4cdf04260481be4e4676f69dffb56159ee3816c5d42fbe5b0",
+        "README.md": "265416ec8c91902b18eeb0830929b48bd31578e592a992a2b627b1fff1277d68",
+        "review-manifest.json": "a2ec768a126c3d9fcbdd9b564a6f76012f37a5afc0cd932cb6320407912f6c1f",
+        "review-notes.txt": "09e847817715bd1c154be7d56cc0ad2672eed6853047ad20794fbc5a9a5021d8",
+        "source-excerpts.json": "80c0b6c9bcf2f7e090e59e89309c4e622c7a5386817dbe8da3d10f7ab22ea8e8",
+        "verify.mjs": "f824520657997086d41aa22eddc2f57f505b25e10d0b316bbedca9e95c8e357c"
+      },
+      "rawSources": [
+        {
+          "path": "data/raw/moe-revised.json.gz",
+          "url": "https://raw.githubusercontent.com/g0v/moedict-data/a6dc997417507eb510fc29822bc514de2c92728c/dict-revised_bkup.json",
+          "sha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+          "bytes": 20310688,
+          "retrievedAt": "2026-10-17T11:31:21.371Z",
+          "encoding": "gzip of original UTF-8 response, no content edits"
+        },
+        {
+          "path": "data/raw/moe-README.md",
+          "url": "https://raw.githubusercontent.com/g0v/moedict-data/a6dc997417507eb510fc29822bc514de2c92728c/README.md",
+          "sha256": "a93321d9381bc1cf34b4ad844f71607fa748c86c0b228ae37d46720d6a659cb2",
+          "bytes": 1214,
+          "retrievedAt": "2026-10-17T11:31:21.372Z",
+          "encoding": "original response"
+        },
+        {
+          "path": "data/raw/CC-BY-ND-3.0-TW.html",
+          "url": "https://creativecommons.org/licenses/by-nd/3.0/tw/legalcode.zh-hant",
+          "sha256": "04e6ef69a223b6e13c93c97a918ad5fd0dbb9fc34ae307f4449ed264e2d4108f",
+          "bytes": 31775,
+          "retrievedAt": "2026-10-17T11:31:24.023Z",
+          "encoding": "original response"
+        },
+        {
+          "path": "data/raw/kTraditionalVariant.txt",
+          "url": "https://raw.githubusercontent.com/unicode-org/unicodetools/4fd8eca90b30aa4c72543ccddb4c15d05becdf8d/unicodetools/data/ucd/17.0.0/Unihan/kTraditionalVariant.txt",
+          "sha256": "4eca6285d45070548e6e6c06e4b48c3ca6866d4380e8cb980c512f5d1fc71895",
+          "bytes": 86288,
+          "retrievedAt": "2026-10-17T11:21:31.745Z",
+          "encoding": "original response"
+        },
+        {
+          "path": "data/raw/kSimplifiedVariant.txt",
+          "url": "https://raw.githubusercontent.com/unicode-org/unicodetools/4fd8eca90b30aa4c72543ccddb4c15d05becdf8d/unicodetools/data/ucd/17.0.0/Unihan/kSimplifiedVariant.txt",
+          "sha256": "a7f0c9dbbca85cffd90517fa6ea9be97d2e6f811328a59b6b303d58a418ac9be",
+          "bytes": 88425,
+          "retrievedAt": "2026-10-17T11:21:31.742Z",
+          "encoding": "original response"
+        },
+        {
+          "path": "data/raw/kMandarin.txt",
+          "url": "https://raw.githubusercontent.com/unicode-org/unicodetools/4fd8eca90b30aa4c72543ccddb4c15d05becdf8d/unicodetools/data/ucd/17.0.0/Unihan/kMandarin.txt",
+          "sha256": "e549450d76b4f7f79dcf3c928f17f62dc7dcfda904dd4db983a18d4afab221e3",
+          "bytes": 462072,
+          "retrievedAt": "2026-10-17T11:21:31.866Z",
+          "encoding": "original response"
+        },
+        {
+          "path": "data/raw/unicode-LICENSE",
+          "url": "https://raw.githubusercontent.com/unicode-org/unicodetools/4fd8eca90b30aa4c72543ccddb4c15d05becdf8d/LICENSE",
+          "sha256": "fe5c62b543e287981db198f2acfa0ca732d12591a1024536dc8fd85dacd77104",
+          "bytes": 2033,
+          "retrievedAt": "2026-10-17T11:21:31.572Z",
+          "encoding": "original response"
+        }
+      ]
+    },
+    "data/name-phonetic/source-lock.json": {
+      "kind": "phonetic",
+      "topKeys": [
+        "schema",
+        "profileVersions",
+        "originals",
+        "wiktionarySnapshot",
+        "rimeCommit",
+        "licenses",
+        "fileHashes",
+        "aggregateConvention",
+        "sha256"
+      ],
+      "runtimeFiles": {
+        "data/name-phonetic/CC-BY-4.0.txt": {
+          "sha256": "97d24386ff776d7160b87031b259a942bd03c9939796cab6724ad5d17d2cf785",
+          "bytes": 18657
+        },
+        "data/name-phonetic/CC-BY-SA-4.0.txt": {
+          "sha256": "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5",
+          "bytes": 20138
+        },
+        "data/name-phonetic/NOTICE.md": {
+          "sha256": "e671d6285a210e011bb98ca560a9a76452fc576ac05057695ac9ccf9a1483279",
+          "bytes": 3633
+        },
+        "data/name-phonetic/name-phonetic-engine.mjs": {
+          "sha256": "e70c49edf1ca863b827fbdac8504faa2070c55e0944c3b9d1715d59e73086a4f",
+          "bytes": 9969
+        },
+        "data/name-phonetic/name-phonetic-profile.json": {
+          "sha256": "f75434d1b53e4a0083bc8519ca7758b31b414774633848796e20a07efd986756",
+          "bytes": 391117
+        },
+        "data/name-phonetic/name-reading-fixture-evidence.json": {
+          "sha256": "5897c649bf2a98a877a1b1548fd0343a7b6c221b782d32fc0798100415e05a1b",
+          "bytes": 4085
+        },
+        "data/name-phonetic/package-pins.mjs": {
+          "sha256": "f928262c0c0158f8befb7ac7a9652902bd951e6be4c287f000af91b985abc1d3",
+          "bytes": 403
+        },
+        "data/name-phonetic/profile-source-loader.mjs": {
+          "sha256": "67865d84b0733f68bd0c6227c32a66f2c3a25df4ba1d01eeba33ee762ce3e2b7",
+          "bytes": 2476
+        },
+        "data/name-phonetic/reviewed-selection.mjs": {
+          "sha256": "01b7fba8885fb2f79bee59ccddcaee281719a55c6b436b3633b1eebb72e41fce",
+          "bytes": 6574
+        },
+        "data/name-phonetic/rime-excerpts.json": {
+          "sha256": "e21e300ab33df7a63b1c8c1112d6b2034175d9cd8c2f1dd4d0fd087afc81e583",
+          "bytes": 18330
+        },
+        "data/name-phonetic/selection-audit.json": {
+          "sha256": "b09dee2e94c6acdfc157df0712e99e58097d4e2d7cef90a145e3967b7dd12809",
+          "bytes": 31767
+        },
+        "data/name-phonetic/source-lock.json": {
+          "sha256": "0a170e50e46d63f8d4d13396eba93155cb615aabafd16d839de6c63ec8f9b440",
+          "bytes": 2066
+        },
+        "data/name-phonetic/wiktionary-excerpts.json": {
+          "sha256": "520d64fb1079340aa6f6bd1e453802252e1602024455a4f5ad30e3e22524039f",
+          "bytes": 1743729
+        }
+      },
+      "schema": "name-phonetic-source-lock/1.0.0",
+      "profileVersions": {
+        "cmn": "cmn-homophone-review/1.0.0",
+        "yue": "yue-homophone-review/1.2.0"
+      },
+      "aggregateConvention": "sha256(JSON.stringify(sorted fileHashes))",
+      "fileHashes": {
+        "CC-BY-4.0.txt": "97d24386ff776d7160b87031b259a942bd03c9939796cab6724ad5d17d2cf785",
+        "CC-BY-SA-4.0.txt": "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5",
+        "NOTICE.md": "e671d6285a210e011bb98ca560a9a76452fc576ac05057695ac9ccf9a1483279",
+        "name-phonetic-profile.json": "f75434d1b53e4a0083bc8519ca7758b31b414774633848796e20a07efd986756",
+        "name-reading-fixture-evidence.json": "5897c649bf2a98a877a1b1548fd0343a7b6c221b782d32fc0798100415e05a1b",
+        "reviewed-selection.mjs": "01b7fba8885fb2f79bee59ccddcaee281719a55c6b436b3633b1eebb72e41fce",
+        "rime-excerpts.json": "e21e300ab33df7a63b1c8c1112d6b2034175d9cd8c2f1dd4d0fd087afc81e583",
+        "selection-audit.json": "b09dee2e94c6acdfc157df0712e99e58097d4e2d7cef90a145e3967b7dd12809",
+        "wiktionary-excerpts.json": "520d64fb1079340aa6f6bd1e453802252e1602024455a4f5ad30e3e22524039f"
+      },
+      "originals": {
+        "data/raw/zhwiktionary-Chinese.jsonl.gz": "3c9fa2e012e6c257b7a0789b581cadc3f19fd8316118dc48235b1eb4ccbd2d10",
+        "data/raw/yue-reading-words.dict.yaml": "54d174ad2bb997e4a678b7b076b84e4dc5914481b32467cdea3b43e88b7d5474",
+        "data/raw/yue-reading-chars.dict.yaml": "9b053a594c80eae76545bcdd83239884a49b1ba48b89ca0ab9e8daac79f33013",
+        "data/raw/yue-homophone-CC-BY-SA-4.0.txt": "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5",
+        "data/raw/yue-reading-CC-BY-4.0.txt": "97d24386ff776d7160b87031b259a942bd03c9939796cab6724ad5d17d2cf785"
+      },
+      "licenses": {
+        "phonetic-wiktionary-fixed-137": "CC-BY-SA-4.0",
+        "phonetic-rime-fixed-137": "CC-BY-4.0"
+      },
+      "rimeCommit": "259f0e48bba840c3a2e0d117539e96937f3d89bc",
+      "wiktionarySnapshot": "snapshot-sha256:3c9fa2e012e6c257b7a0789b581cadc3f19fd8316118dc48235b1eb4ccbd2d10"
+    },
+    "data/name-word-pronunciation/word-source-lock.json": {
+      "kind": "word",
+      "topKeys": [
+        "version",
+        "sourceIds",
+        "sources",
+        "files"
+      ],
+      "runtimeFiles": {
+        "data/name-word-pronunciation/CC-BY-4.0.txt": {
+          "sha256": "97d24386ff776d7160b87031b259a942bd03c9939796cab6724ad5d17d2cf785",
+          "bytes": 18657
+        },
+        "data/name-word-pronunciation/CC-BY-ND-3.0-TW.html": {
+          "sha256": "04e6ef69a223b6e13c93c97a918ad5fd0dbb9fc34ae307f4449ed264e2d4108f",
+          "bytes": 31775
+        },
+        "data/name-word-pronunciation/NOTICE.md": {
+          "sha256": "363f599871237f1cdfd3621e21ce96aa25c79f48fff9310c8d0e5550af0f6149",
+          "bytes": 1444
+        },
+        "data/name-word-pronunciation/selection-review.json": {
+          "sha256": "d5c9aebebfad06ffda80a105725022b63f251b40883bb275e13b5c0e841537a9",
+          "bytes": 2901
+        },
+        "data/name-word-pronunciation/source-excerpts.json": {
+          "sha256": "282e6e1f5950f8f0dab30d0b927da477a7a5b1743666ff39ba26ce327ec8b353",
+          "bytes": 17888
+        },
+        "data/name-word-pronunciation/unicode-LICENSE": {
+          "sha256": "fe5c62b543e287981db198f2acfa0ca732d12591a1024536dc8fd85dacd77104",
+          "bytes": 2033
+        },
+        "data/name-word-pronunciation/word-engine.d.mts": {
+          "sha256": "afcac7c38a8a29fea76663e9efe47a87745a08c34129759bd13e73e33079cecf",
+          "bytes": 1056
+        },
+        "data/name-word-pronunciation/word-engine.mjs": {
+          "sha256": "85d94e08029cf9c68913242d4daf2c43d2def4a7e72e31dc8ff45940a27fae7f",
+          "bytes": 2971
+        },
+        "data/name-word-pronunciation/word-pins.mjs": {
+          "sha256": "806b4480130a8bd08f04ae3c6f5e361a083f4e685acf479e9e73e370f3219e9e",
+          "bytes": 199
+        },
+        "data/name-word-pronunciation/word-profile.json": {
+          "sha256": "630dd1db9838c3d7af0168158d7fe3a4c2bd45fb36c3d5578a3c8c9efd0a4843",
+          "bytes": 28406
+        },
+        "data/name-word-pronunciation/word-source-loader.d.mts": {
+          "sha256": "3f536c08476dc18b9ee1cc980cb2395521ff2c2bdbd6bd106ccaba46bf14733f",
+          "bytes": 225
+        },
+        "data/name-word-pronunciation/word-source-loader.mjs": {
+          "sha256": "078ec6fc9807f06ecd9bad629944099b2c67dc401eddd4c874e7ba02c631ee76",
+          "bytes": 1600
+        },
+        "data/name-word-pronunciation/word-source-lock.json": {
+          "sha256": "23b218e227cd102c2b0ddef1dd8258fd4a87b2a0b8019f4413dae8f84abea07c",
+          "bytes": 1964
+        }
+      },
+      "version": "name-word-pronunciation/1.0.0",
+      "sourceIds": [
+        "word-pronunciation-moe-137-v1",
+        "word-pronunciation-rime-137-v1",
+        "word-pronunciation-unicode-137-v1"
+      ],
+      "sources": {
+        "moe": {
+          "file": "data/raw/moe-revised.json.gz",
+          "sha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+          "commit": "a6dc997417507eb510fc29822bc514de2c92728c",
+          "license": "CC-BY-ND-3.0-TW"
+        },
+        "rime": {
+          "file": "data/raw/yue-reading-words.dict.yaml",
+          "sha256": "54d174ad2bb997e4a678b7b076b84e4dc5914481b32467cdea3b43e88b7d5474",
+          "commit": "259f0e48bba840c3a2e0d117539e96937f3d89bc",
+          "license": "CC-BY-4.0"
+        },
+        "unicode": {
+          "file": "data/raw/kTraditionalVariant.txt",
+          "sha256": "4eca6285d45070548e6e6c06e4b48c3ca6866d4380e8cb980c512f5d1fc71895",
+          "version": "17.0.0",
+          "license": "Unicode License"
+        }
+      },
+      "files": {
+        "CC-BY-4.0.txt": "97d24386ff776d7160b87031b259a942bd03c9939796cab6724ad5d17d2cf785",
+        "CC-BY-ND-3.0-TW.html": "04e6ef69a223b6e13c93c97a918ad5fd0dbb9fc34ae307f4449ed264e2d4108f",
+        "NOTICE.md": "363f599871237f1cdfd3621e21ce96aa25c79f48fff9310c8d0e5550af0f6149",
+        "selection-review.json": "d5c9aebebfad06ffda80a105725022b63f251b40883bb275e13b5c0e841537a9",
+        "source-excerpts.json": "282e6e1f5950f8f0dab30d0b927da477a7a5b1743666ff39ba26ce327ec8b353",
+        "unicode-LICENSE": "fe5c62b543e287981db198f2acfa0ca732d12591a1024536dc8fd85dacd77104",
+        "word-engine.d.mts": "afcac7c38a8a29fea76663e9efe47a87745a08c34129759bd13e73e33079cecf",
+        "word-engine.mjs": "85d94e08029cf9c68913242d4daf2c43d2def4a7e72e31dc8ff45940a27fae7f",
+        "word-profile.json": "630dd1db9838c3d7af0168158d7fe3a4c2bd45fb36c3d5578a3c8c9efd0a4843",
+        "word-source-loader.d.mts": "3f536c08476dc18b9ee1cc980cb2395521ff2c2bdbd6bd106ccaba46bf14733f",
+        "word-source-loader.mjs": "078ec6fc9807f06ecd9bad629944099b2c67dc401eddd4c874e7ba02c631ee76"
+      }
+    },
+    "data/meaning-context-next-source-lock.json": {
+      "kind": "meaning-v1",
+      "topKeys": [
+        "schema",
+        "hashConvention",
+        "sources"
+      ],
+      "runtimeFiles": {
+        "data/dataset-v6.json": {
+          "sha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+          "bytes": 1563457
+        },
+        "data/meaning-context-next-NOTICE.md": {
+          "sha256": "93f7dd60d3dcc09dbf2221f365f0ee0c7cfe757266f2485ac63e7c4b07c719f7",
+          "bytes": 1377
+        },
+        "data/meaning-context-next-manifest.json": {
+          "sha256": "f5c7664b661229f39919f8b10afe482b3aab65836e1fcc6a674d86296e870371",
+          "bytes": 10317
+        },
+        "data/meaning-context-next-source-lock.json": {
+          "sha256": "cdc25bbb48fe24d84413e71ead37a07fe633ba8758c991c6b481924c7838eb72",
+          "bytes": 2287
+        },
+        "data/meaning-context-next.json": {
+          "sha256": "3dc77f55dca1516ae3cb4231a022a58aca1874189da6ea99c101c6931b7a1877",
+          "bytes": 187497
+        },
+        "data/meaning-gap-classification.json": {
+          "sha256": "1be67b4d4a9f02ef38697d1fca8b4385b5eb2ef9abe54ef78dfe962a94615ccc",
+          "bytes": 292514
+        },
+        "data/naming-editorial-v7.json": {
+          "sha256": "392fa47441a0c410b0903c3e85853081225a1a5e9f540b5467e4ea4e2151cc48",
+          "bytes": 1301005
+        },
+        "data/raw/CC-BY-ND-3.0-TW.html": {
+          "sha256": "04e6ef69a223b6e13c93c97a918ad5fd0dbb9fc34ae307f4449ed264e2d4108f",
+          "bytes": 31775
+        },
+        "data/raw/meaning-context-batch1-review.json": {
+          "sha256": "01df11ddaf15780cb472533114ac4175e718ce80b6f1f090d79603c1cdfd3b0c",
+          "bytes": 11584
+        },
+        "data/raw/meaning-context-gap-policy.json": {
+          "sha256": "949297c14cba5f56014b8003311bbbe5aa4837a99ddb57529b428f7330f85a04",
+          "bytes": 3144
+        },
+        "data/raw/moe-README.md": {
+          "sha256": "a93321d9381bc1cf34b4ad844f71607fa748c86c0b228ae37d46720d6a659cb2",
+          "bytes": 1214
+        },
+        "data/raw/moe-revised.json.gz": {
+          "sha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+          "bytes": 20310688
+        }
+      },
+      "schema": "meaning-context-source-lock/1",
+      "hashConvention": "sha256(JSON.stringify(fileHashes));sorted relative paths",
+      "sourceId": "project-meaning-context-next-137",
+      "files": [
+        "data/dataset-v6.json",
+        "data/meaning-context-next-NOTICE.md",
+        "data/meaning-context-next.json",
+        "data/meaning-gap-classification.json",
+        "data/naming-editorial-v7.json",
+        "data/raw/CC-BY-ND-3.0-TW.html",
+        "data/raw/meaning-context-batch1-review.json",
+        "data/raw/meaning-context-gap-policy.json",
+        "data/raw/moe-README.md",
+        "data/raw/moe-revised.json.gz"
+      ],
+      "fileHashes": {
+        "data/dataset-v6.json": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+        "data/meaning-context-next-NOTICE.md": "93f7dd60d3dcc09dbf2221f365f0ee0c7cfe757266f2485ac63e7c4b07c719f7",
+        "data/meaning-context-next.json": "3dc77f55dca1516ae3cb4231a022a58aca1874189da6ea99c101c6931b7a1877",
+        "data/meaning-gap-classification.json": "1be67b4d4a9f02ef38697d1fca8b4385b5eb2ef9abe54ef78dfe962a94615ccc",
+        "data/naming-editorial-v7.json": "392fa47441a0c410b0903c3e85853081225a1a5e9f540b5467e4ea4e2151cc48",
+        "data/raw/CC-BY-ND-3.0-TW.html": "04e6ef69a223b6e13c93c97a918ad5fd0dbb9fc34ae307f4449ed264e2d4108f",
+        "data/raw/meaning-context-batch1-review.json": "01df11ddaf15780cb472533114ac4175e718ce80b6f1f090d79603c1cdfd3b0c",
+        "data/raw/meaning-context-gap-policy.json": "949297c14cba5f56014b8003311bbbe5aa4837a99ddb57529b428f7330f85a04",
+        "data/raw/moe-README.md": "a93321d9381bc1cf34b4ad844f71607fa748c86c0b228ae37d46720d6a659cb2",
+        "data/raw/moe-revised.json.gz": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e"
+      }
+    },
+    "data/meaning-context-v1-1-source-lock.json": {
+      "kind": "meaning-v1.1",
+      "topKeys": [
+        "schema",
+        "hashConvention",
+        "sources"
+      ],
+      "runtimeFiles": {
+        "data/dataset-v6.json": {
+          "sha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+          "bytes": 1563457
+        },
+        "data/meaning-context-next-NOTICE.md": {
+          "sha256": "93f7dd60d3dcc09dbf2221f365f0ee0c7cfe757266f2485ac63e7c4b07c719f7",
+          "bytes": 1377
+        },
+        "data/meaning-context-next-manifest.json": {
+          "sha256": "f5c7664b661229f39919f8b10afe482b3aab65836e1fcc6a674d86296e870371",
+          "bytes": 10317
+        },
+        "data/meaning-context-next-source-lock.json": {
+          "sha256": "cdc25bbb48fe24d84413e71ead37a07fe633ba8758c991c6b481924c7838eb72",
+          "bytes": 2287
+        },
+        "data/meaning-context-next.json": {
+          "sha256": "3dc77f55dca1516ae3cb4231a022a58aca1874189da6ea99c101c6931b7a1877",
+          "bytes": 187497
+        },
+        "data/meaning-context-v1-1-NOTICE.md": {
+          "sha256": "65c1093c15c1a5d13d5fd390a90c1546730689a3c7dc21843fbbdba95d05733c",
+          "bytes": 1267
+        },
+        "data/meaning-context-v1-1-manifest.json": {
+          "sha256": "c5ac43e96b59beafaf54bce6a504ef9d97c0b59afd0687eaa7daa64ad9378ac9",
+          "bytes": 3086
+        },
+        "data/meaning-context-v1-1-source-lock.json": {
+          "sha256": "473b1fb377bfeeb07c3cea800450e2ec88532b1678c9c590dcad650d8e3dd964",
+          "bytes": 3162
+        },
+        "data/meaning-context-v1-1.json": {
+          "sha256": "424e8b6ca9a920c8b707ac267db9609bee900a5389b3659256b4c71ad71b378d",
+          "bytes": 403708
+        },
+        "data/meaning-gap-classification-v1-1.json": {
+          "sha256": "480b10cf542d20a583f1bf78ce8c4da7dc31bd0b66565d46e6335e658fc839f2",
+          "bytes": 301791
+        },
+        "data/meaning-gap-classification.json": {
+          "sha256": "1be67b4d4a9f02ef38697d1fca8b4385b5eb2ef9abe54ef78dfe962a94615ccc",
+          "bytes": 292514
+        },
+        "data/naming-editorial-v7.json": {
+          "sha256": "392fa47441a0c410b0903c3e85853081225a1a5e9f540b5467e4ea4e2151cc48",
+          "bytes": 1301005
+        },
+        "data/raw/CC-BY-ND-3.0-TW.html": {
+          "sha256": "04e6ef69a223b6e13c93c97a918ad5fd0dbb9fc34ae307f4449ed264e2d4108f",
+          "bytes": 31775
+        },
+        "data/raw/meaning-context-batch1-review.json": {
+          "sha256": "01df11ddaf15780cb472533114ac4175e718ce80b6f1f090d79603c1cdfd3b0c",
+          "bytes": 11584
+        },
+        "data/raw/meaning-context-batch2-review.json": {
+          "sha256": "f0412a83c596f81dbb26d5dce98985c8f9eab415a25ab49fb1e4e1d1761ee18a",
+          "bytes": 11333
+        },
+        "data/raw/meaning-context-gap-policy.json": {
+          "sha256": "949297c14cba5f56014b8003311bbbe5aa4837a99ddb57529b428f7330f85a04",
+          "bytes": 3144
+        },
+        "data/raw/moe-README.md": {
+          "sha256": "a93321d9381bc1cf34b4ad844f71607fa748c86c0b228ae37d46720d6a659cb2",
+          "bytes": 1214
+        },
+        "data/raw/moe-revised.json.gz": {
+          "sha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+          "bytes": 20310688
+        }
+      },
+      "schema": "meaning-context-source-lock/1",
+      "hashConvention": "sha256(JSON.stringify(fileHashes));sorted relative paths",
+      "sourceId": "project-meaning-context-next-138-v1-1",
+      "files": [
+        "data/dataset-v6.json",
+        "data/meaning-context-next-manifest.json",
+        "data/meaning-context-next-source-lock.json",
+        "data/meaning-context-next.json",
+        "data/meaning-context-v1-1-NOTICE.md",
+        "data/meaning-context-v1-1.json",
+        "data/meaning-gap-classification-v1-1.json",
+        "data/meaning-gap-classification.json",
+        "data/naming-editorial-v7.json",
+        "data/raw/CC-BY-ND-3.0-TW.html",
+        "data/raw/meaning-context-batch1-review.json",
+        "data/raw/meaning-context-batch2-review.json",
+        "data/raw/meaning-context-gap-policy.json",
+        "data/raw/moe-README.md",
+        "data/raw/moe-revised.json.gz"
+      ],
+      "fileHashes": {
+        "data/dataset-v6.json": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+        "data/meaning-context-next-manifest.json": "f5c7664b661229f39919f8b10afe482b3aab65836e1fcc6a674d86296e870371",
+        "data/meaning-context-next-source-lock.json": "cdc25bbb48fe24d84413e71ead37a07fe633ba8758c991c6b481924c7838eb72",
+        "data/meaning-context-next.json": "3dc77f55dca1516ae3cb4231a022a58aca1874189da6ea99c101c6931b7a1877",
+        "data/meaning-context-v1-1-NOTICE.md": "65c1093c15c1a5d13d5fd390a90c1546730689a3c7dc21843fbbdba95d05733c",
+        "data/meaning-context-v1-1.json": "424e8b6ca9a920c8b707ac267db9609bee900a5389b3659256b4c71ad71b378d",
+        "data/meaning-gap-classification-v1-1.json": "480b10cf542d20a583f1bf78ce8c4da7dc31bd0b66565d46e6335e658fc839f2",
+        "data/meaning-gap-classification.json": "1be67b4d4a9f02ef38697d1fca8b4385b5eb2ef9abe54ef78dfe962a94615ccc",
+        "data/naming-editorial-v7.json": "392fa47441a0c410b0903c3e85853081225a1a5e9f540b5467e4ea4e2151cc48",
+        "data/raw/CC-BY-ND-3.0-TW.html": "04e6ef69a223b6e13c93c97a918ad5fd0dbb9fc34ae307f4449ed264e2d4108f",
+        "data/raw/meaning-context-batch1-review.json": "01df11ddaf15780cb472533114ac4175e718ce80b6f1f090d79603c1cdfd3b0c",
+        "data/raw/meaning-context-batch2-review.json": "f0412a83c596f81dbb26d5dce98985c8f9eab415a25ab49fb1e4e1d1761ee18a",
+        "data/raw/meaning-context-gap-policy.json": "949297c14cba5f56014b8003311bbbe5aa4837a99ddb57529b428f7330f85a04",
+        "data/raw/moe-README.md": "a93321d9381bc1cf34b4ad844f71607fa748c86c0b228ae37d46720d6a659cb2",
+        "data/raw/moe-revised.json.gz": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e"
+      }
+    },
+    "data/naming-character-meanings-v7.1-source-lock.json": {
+      "kind": "naming-character-meanings-v7.1",
+      "topKeys": [
+        "version",
+        "profileVersion",
+        "hashConvention",
+        "sources"
+      ],
+      "runtimeFiles": {
+        "data/dataset-v6.json": {
+          "sha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+          "bytes": 1563457
+        },
+        "data/knowledge-v6.sqlite": {
+          "sha256": "1875aa49dcfaeca0f266a3be7578e4d4b2a9b2c9c1f59fd79699a3e26d5d6b8b",
+          "bytes": 1454080
+        },
+        "data/naming-character-meanings-v7.1-admission.json": {
+          "sha256": "425909be7aa94e251a37d45a77c759d0b3dfd323beef0af6882f3e0596b4d313",
+          "bytes": 4760
+        },
+        "data/naming-character-meanings-v7.1-manifest.json": {
+          "sha256": "51277c6deca9d7177d41518b76740077938030e847ad72464f343c6e98b880fb",
+          "bytes": 5609
+        },
+        "data/naming-character-meanings-v7.1-NOTICE.md": {
+          "sha256": "46d3fb85a1cf217a0b7e72c1002fb1c36dbbd3f34191306385388f4f14c7e243",
+          "bytes": 1435
+        },
+        "data/naming-character-meanings-v7.1-profile.json": {
+          "sha256": "6e619be92c16dc018715fc77425f150b6a2c9af2e01be63b309035c81dd6a85b",
+          "bytes": 257013
+        },
+        "data/naming-character-meanings-v7.1-source-lock.json": {
+          "sha256": "d8e1c6c278090d290b5792e31dc5187df5ad290b97e7ccdbce58dcbd285d793a",
+          "bytes": 5440
+        },
+        "data/naming-editorial-dictionary-v6-source-lock.json": {
+          "sha256": "06331d11a1c757a0245891fae357c7952db597d07c3c770d4052277c0bfac8da",
+          "bytes": 4919
+        },
+        "data/naming-editorial-meanings-v7-source-lock.json": {
+          "sha256": "2945297a7f4bca1489e12018cce2848909fc35716c999b7d309e9a79633f7476",
+          "bytes": 3979
+        },
+        "data/naming-editorial-v4.json": {
+          "sha256": "d24898eb63438d7b24262668eb3b36770f211fade015b28eeb361700a58ca6ce",
+          "bytes": 380418
+        },
+        "data/naming-editorial-v5.json": {
+          "sha256": "bb8d3d255b42a6b67932988e13ceb2d7a7a1c6ef8fbbcc65312b9a50b5519da8",
+          "bytes": 65361
+        },
+        "data/naming-editorial-v6.json": {
+          "sha256": "35de5f749f438e849543e5fde6e405b89ba01cba20597e82e7c4f518dd4363ab",
+          "bytes": 109426
+        },
+        "data/naming-editorial-v7-NOTICE.md": {
+          "sha256": "c7dc728945bf2ceed14feb23e1635a6e6fd3ce8e5a135489554ec075e963a1b3",
+          "bytes": 2380
+        },
+        "data/naming-editorial-v7.json": {
+          "sha256": "392fa47441a0c410b0903c3e85853081225a1a5e9f540b5467e4ea4e2151cc48",
+          "bytes": 1301005
+        },
+        "data/naming-editorial.json": {
+          "sha256": "97c3162238c9493174544580a338fb0852d2784fbeac712fbd8e234f99945195",
+          "bytes": 31147
+        },
+        "data/raw/CC-BY-ND-3.0-TW.html": {
+          "sha256": "04e6ef69a223b6e13c93c97a918ad5fd0dbb9fc34ae307f4449ed264e2d4108f",
+          "bytes": 31775
+        },
+        "data/raw/kSimplifiedVariant.txt": {
+          "sha256": "a7f0c9dbbca85cffd90517fa6ea9be97d2e6f811328a59b6b303d58a418ac9be",
+          "bytes": 88425
+        },
+        "data/raw/kTraditionalVariant.txt": {
+          "sha256": "4eca6285d45070548e6e6c06e4b48c3ca6866d4380e8cb980c512f5d1fc71895",
+          "bytes": 86288
+        },
+        "data/raw/moe-README.md": {
+          "sha256": "a93321d9381bc1cf34b4ad844f71607fa748c86c0b228ae37d46720d6a659cb2",
+          "bytes": 1214
+        },
+        "data/raw/moe-revised.json.gz": {
+          "sha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+          "bytes": 20310688
+        },
+        "data/raw/naming-character-meanings-v7.1-subset.json": {
+          "sha256": "59be39f7d9cbed1db5220721c015445546a19aa9967e59d4db0f820f3bcee8c1",
+          "bytes": 259062
+        },
+        "data/raw/naming-citations-v7-errata-r2.json": {
+          "sha256": "e61707d9e3ac04110cdcaa924dd53a32b8bcc0ae8a0d0b0cbf9016a83108b945",
+          "bytes": 10617
+        },
+        "data/raw/naming-citations-v7-review.json": {
+          "sha256": "e5d3909b04812c418feffbbb34cdecd3224527130a4ddfa91b62432e7ef59cc3",
+          "bytes": 70982
+        },
+        "data/raw/naming-meanings-v7-errata-r1.json": {
+          "sha256": "e0bafe66312b98df77a367402915da57a3d5fa2c43ce56ca6af85a41cb4c3c0a",
+          "bytes": 2174
+        },
+        "data/raw/naming-meanings-v7-review.json": {
+          "sha256": "8bdf895484e9b88daaa822fdd873901ee3dba994f23961cc836692f340446b1c",
+          "bytes": 692058
+        },
+        "data/raw/poetry-LICENSE": {
+          "sha256": "c195319aeaa3ffcbe16aa5d26eec19eae5a42f84337dd2b3dc3c9d5ccbbd6507",
+          "bytes": 1076
+        },
+        "data/raw/shijing.json": {
+          "sha256": "3c7ca54d59424542ada99adfcc85420287fbbd5c8a511e9baf705cb2b04051e7",
+          "bytes": 156972
+        },
+        "data/raw/unicode-LICENSE": {
+          "sha256": "fe5c62b543e287981db198f2acfa0ca732d12591a1024536dc8fd85dacd77104",
+          "bytes": 2033
+        },
+        "data/raw/zhouyi-LICENSE": {
+          "sha256": "0506d67239c89a3d3b14e253ed29e20e2e9259b41c4b32031eab5ac22ed2811f",
+          "bytes": 1070
+        },
+        "data/raw/zhouyi.tar.gz": {
+          "sha256": "0a847c0b9b876f9926e4896399e31ee44f88292db107bc865d70e2d7308b15a0",
+          "bytes": 123007
+        },
+        "data/source-lock.json": {
+          "sha256": "b1d206cdcfa2da184009442ba705d2231d8f0a43c2f5a9885a122a3e5d353bba",
+          "bytes": 5953
+        }
+      },
+      "version": "naming-editorial-7.1.0",
+      "profileVersion": "naming-character-meanings-v7.1/1",
+      "hashConvention": "sha256(JSON.stringify(fileHashes)); sorted relative path keys",
+      "sourceId": "naming-character-meanings-v7.1-fixed",
+      "files": [
+        "data/dataset-v6.json",
+        "data/knowledge-v6.sqlite",
+        "data/naming-character-meanings-v7.1-NOTICE.md",
+        "data/naming-character-meanings-v7.1-admission.json",
+        "data/naming-character-meanings-v7.1-profile.json",
+        "data/naming-editorial-dictionary-v6-source-lock.json",
+        "data/naming-editorial-meanings-v7-source-lock.json",
+        "data/naming-editorial-v4.json",
+        "data/naming-editorial-v5.json",
+        "data/naming-editorial-v6.json",
+        "data/naming-editorial-v7-NOTICE.md",
+        "data/naming-editorial-v7.json",
+        "data/naming-editorial.json",
+        "data/raw/CC-BY-ND-3.0-TW.html",
+        "data/raw/kSimplifiedVariant.txt",
+        "data/raw/kTraditionalVariant.txt",
+        "data/raw/moe-README.md",
+        "data/raw/moe-revised.json.gz",
+        "data/raw/naming-character-meanings-v7.1-subset.json",
+        "data/raw/naming-citations-v7-errata-r2.json",
+        "data/raw/naming-citations-v7-review.json",
+        "data/raw/naming-meanings-v7-errata-r1.json",
+        "data/raw/naming-meanings-v7-review.json",
+        "data/raw/poetry-LICENSE",
+        "data/raw/shijing.json",
+        "data/raw/unicode-LICENSE",
+        "data/raw/zhouyi-LICENSE",
+        "data/raw/zhouyi.tar.gz",
+        "data/source-lock.json"
+      ],
+      "fileHashes": {
+        "data/dataset-v6.json": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+        "data/knowledge-v6.sqlite": "1875aa49dcfaeca0f266a3be7578e4d4b2a9b2c9c1f59fd79699a3e26d5d6b8b",
+        "data/naming-character-meanings-v7.1-NOTICE.md": "46d3fb85a1cf217a0b7e72c1002fb1c36dbbd3f34191306385388f4f14c7e243",
+        "data/naming-character-meanings-v7.1-admission.json": "425909be7aa94e251a37d45a77c759d0b3dfd323beef0af6882f3e0596b4d313",
+        "data/naming-character-meanings-v7.1-profile.json": "6e619be92c16dc018715fc77425f150b6a2c9af2e01be63b309035c81dd6a85b",
+        "data/naming-editorial-dictionary-v6-source-lock.json": "06331d11a1c757a0245891fae357c7952db597d07c3c770d4052277c0bfac8da",
+        "data/naming-editorial-meanings-v7-source-lock.json": "2945297a7f4bca1489e12018cce2848909fc35716c999b7d309e9a79633f7476",
+        "data/naming-editorial-v4.json": "d24898eb63438d7b24262668eb3b36770f211fade015b28eeb361700a58ca6ce",
+        "data/naming-editorial-v5.json": "bb8d3d255b42a6b67932988e13ceb2d7a7a1c6ef8fbbcc65312b9a50b5519da8",
+        "data/naming-editorial-v6.json": "35de5f749f438e849543e5fde6e405b89ba01cba20597e82e7c4f518dd4363ab",
+        "data/naming-editorial-v7-NOTICE.md": "c7dc728945bf2ceed14feb23e1635a6e6fd3ce8e5a135489554ec075e963a1b3",
+        "data/naming-editorial-v7.json": "392fa47441a0c410b0903c3e85853081225a1a5e9f540b5467e4ea4e2151cc48",
+        "data/naming-editorial.json": "97c3162238c9493174544580a338fb0852d2784fbeac712fbd8e234f99945195",
+        "data/raw/CC-BY-ND-3.0-TW.html": "04e6ef69a223b6e13c93c97a918ad5fd0dbb9fc34ae307f4449ed264e2d4108f",
+        "data/raw/kSimplifiedVariant.txt": "a7f0c9dbbca85cffd90517fa6ea9be97d2e6f811328a59b6b303d58a418ac9be",
+        "data/raw/kTraditionalVariant.txt": "4eca6285d45070548e6e6c06e4b48c3ca6866d4380e8cb980c512f5d1fc71895",
+        "data/raw/moe-README.md": "a93321d9381bc1cf34b4ad844f71607fa748c86c0b228ae37d46720d6a659cb2",
+        "data/raw/moe-revised.json.gz": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "data/raw/naming-character-meanings-v7.1-subset.json": "59be39f7d9cbed1db5220721c015445546a19aa9967e59d4db0f820f3bcee8c1",
+        "data/raw/naming-citations-v7-errata-r2.json": "e61707d9e3ac04110cdcaa924dd53a32b8bcc0ae8a0d0b0cbf9016a83108b945",
+        "data/raw/naming-citations-v7-review.json": "e5d3909b04812c418feffbbb34cdecd3224527130a4ddfa91b62432e7ef59cc3",
+        "data/raw/naming-meanings-v7-errata-r1.json": "e0bafe66312b98df77a367402915da57a3d5fa2c43ce56ca6af85a41cb4c3c0a",
+        "data/raw/naming-meanings-v7-review.json": "8bdf895484e9b88daaa822fdd873901ee3dba994f23961cc836692f340446b1c",
+        "data/raw/poetry-LICENSE": "c195319aeaa3ffcbe16aa5d26eec19eae5a42f84337dd2b3dc3c9d5ccbbd6507",
+        "data/raw/shijing.json": "3c7ca54d59424542ada99adfcc85420287fbbd5c8a511e9baf705cb2b04051e7",
+        "data/raw/unicode-LICENSE": "fe5c62b543e287981db198f2acfa0ca732d12591a1024536dc8fd85dacd77104",
+        "data/raw/zhouyi-LICENSE": "0506d67239c89a3d3b14e253ed29e20e2e9259b41c4b32031eab5ac22ed2811f",
+        "data/raw/zhouyi.tar.gz": "0a847c0b9b876f9926e4896399e31ee44f88292db107bc865d70e2d7308b15a0",
+        "data/source-lock.json": "b1d206cdcfa2da184009442ba705d2231d8f0a43c2f5a9885a122a3e5d353bba"
+      },
+      "sourceAggregateSha256": "01adfb9e007c441469c28b101e51bf43f72afc49fe3ad2a68614babce9fa0fe1",
+      "publication": {
+        "notice": {
+          "file": "data/naming-character-meanings-v7.1-NOTICE.md",
+          "sha256": "46d3fb85a1cf217a0b7e72c1002fb1c36dbbd3f34191306385388f4f14c7e243",
+          "bytes": 1435
+        },
+        "admission": {
+          "file": "data/naming-character-meanings-v7.1-admission.json",
+          "sha256": "425909be7aa94e251a37d45a77c759d0b3dfd323beef0af6882f3e0596b4d313",
+          "bytes": 4760
+        },
+        "manifest": {
+          "file": "data/naming-character-meanings-v7.1-manifest.json",
+          "sha256": "51277c6deca9d7177d41518b76740077938030e847ad72464f343c6e98b880fb",
+          "bytes": 5609
+        },
+        "profile": {
+          "file": "data/naming-character-meanings-v7.1-profile.json",
+          "sha256": "6e619be92c16dc018715fc77425f150b6a2c9af2e01be63b309035c81dd6a85b",
+          "bytes": 257013
+        },
+        "subset": {
+          "file": "data/raw/naming-character-meanings-v7.1-subset.json",
+          "sha256": "59be39f7d9cbed1db5220721c015445546a19aa9967e59d4db0f820f3bcee8c1",
+          "bytes": 259062
+        }
+      }
+    }
+  },
+  "reviewedCandidateExtensions": {
+    "applicationVersion": "1.0.38",
+    "contractFile": "scripts/verification/review-resources-138.json",
+    "contractSha256": "4f6d0a34aea97c63cf8a603f0c9314ba52de4b988b47a7de89ee831bda83b182",
+    "sourceLockVerifierSha256": "64d961faf1d8e2341d3f00bf44e8678cbfeea778e0e27bd332a579888de0e521",
+    "baseContractFile": "scripts/verification/review-resources-137.json",
+    "baseContractSha256": "60e0367eba9b531d0dce93a9015049f6ff62046892a6d08055c1fd1863e435d7",
+    "immutableLegacyContractFiles": [
+      "scripts/verification/review-resources-136.json",
+      "scripts/verification/review-resources-137.json"
+    ],
+    "archivedNamingSourceMaintenance": [
+      {
+        "version": "naming-editorial-7.0.0",
+        "sourceId": "naming-editorial-meanings-v7-fixed",
+        "sourceSha256": "c8ab117059d68c26180c6de68b84032cd498fd8714cf5ee5b8df945c1205f676",
+        "sourceLockFile": "data/naming-editorial-meanings-v7-source-lock.json",
+        "sourceLockSha256": "2945297a7f4bca1489e12018cce2848909fc35716c999b7d309e9a79633f7476",
+        "policy": "preserve exact saved70 source and output; never replace with current71 metadata"
+      },
+      {
+        "version": "naming-editorial-7.1.0",
+        "profileVersion": "naming-character-meanings-v7.1/1",
+        "sourceId": "naming-character-meanings-v7.1-fixed",
+        "sourceSha256": "01adfb9e007c441469c28b101e51bf43f72afc49fe3ad2a68614babce9fa0fe1",
+        "sourceLockFile": "data/naming-character-meanings-v7.1-source-lock.json",
+        "sourceLockSha256": "d8e1c6c278090d290b5792e31dc5187df5ad290b97e7ccdbce58dcbd285d793a",
+        "manifestFile": "data/naming-character-meanings-v7.1-manifest.json",
+        "manifestSha256": "51277c6deca9d7177d41518b76740077938030e847ad72464f343c6e98b880fb",
+        "runtimeClosureFiles": [
+          "data/dataset-v6.json",
+          "data/knowledge-v6.sqlite",
+          "data/naming-character-meanings-v7.1-NOTICE.md",
+          "data/naming-character-meanings-v7.1-admission.json",
+          "data/naming-character-meanings-v7.1-manifest.json",
+          "data/naming-character-meanings-v7.1-profile.json",
+          "data/naming-character-meanings-v7.1-source-lock.json",
+          "data/naming-editorial-dictionary-v6-source-lock.json",
+          "data/naming-editorial-meanings-v7-source-lock.json",
+          "data/naming-editorial-v4.json",
+          "data/naming-editorial-v5.json",
+          "data/naming-editorial-v6.json",
+          "data/naming-editorial-v7-NOTICE.md",
+          "data/naming-editorial-v7.json",
+          "data/naming-editorial.json",
+          "data/raw/CC-BY-ND-3.0-TW.html",
+          "data/raw/kSimplifiedVariant.txt",
+          "data/raw/kTraditionalVariant.txt",
+          "data/raw/moe-README.md",
+          "data/raw/moe-revised.json.gz",
+          "data/raw/naming-character-meanings-v7.1-subset.json",
+          "data/raw/naming-citations-v7-errata-r2.json",
+          "data/raw/naming-citations-v7-review.json",
+          "data/raw/naming-meanings-v7-errata-r1.json",
+          "data/raw/naming-meanings-v7-review.json",
+          "data/raw/poetry-LICENSE",
+          "data/raw/shijing.json",
+          "data/raw/unicode-LICENSE",
+          "data/raw/zhouyi-LICENSE",
+          "data/raw/zhouyi.tar.gz",
+          "data/source-lock.json"
+        ],
+        "policy": "one active dedicated source per saved rule version;70 originals remain dependency bytes only"
+      }
+    ],
+    "legacyFullSourcePackageClosure": "existing nine build-only source omissions remain pending; no blanket full-original-source shipping claim"
+  }
+}

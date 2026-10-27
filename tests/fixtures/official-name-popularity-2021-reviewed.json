@@ -1,0 +1,128 @@
+{
+  "provenance": {
+    "reviewer": "/root/yue128_engine",
+    "method": "Independent visual manual transcription: table2 preview first, table3 preview in a separate image call. All20 rows were sent to the requesting agent before its comparison/transcription was read. Local official HTML was read afterward to verify scope and dates. No OCR or application engine supplied expected values.",
+    "independentRecordSha256": "4880bf9bf9c21358ae1d8d65efb633baf706b8e2309596cd0d395ab073161815",
+    "sourceHtmlSha256": "ba66436cb672da2f428b5f201a380049f9c445bb70ccdace84f50592129f18d8",
+    "reviewBeforeComparison": true,
+    "originalSourceUrl": "https://gat.hunan.gov.cn/gat/jwgk/jwzx/gabyw/202201/t20220126_22471460.html"
+  },
+  "tables": [
+    {
+      "tableNumber": 2,
+      "sexCohort": "male",
+      "title": "2021年男性新生儿使用最多的10个名字",
+      "sourceImageSha256": "00316307dab01f199e816e8a13815fca6b30ce704dcd9747be09f8d19d0ed08c",
+      "rows": [
+        {
+          "rank": 1,
+          "givenName": "沐宸",
+          "reportedPeople": 22958
+        },
+        {
+          "rank": 2,
+          "givenName": "浩宇",
+          "reportedPeople": 15722
+        },
+        {
+          "rank": 3,
+          "givenName": "沐辰",
+          "reportedPeople": 15660
+        },
+        {
+          "rank": 4,
+          "givenName": "茗泽",
+          "reportedPeople": 13175
+        },
+        {
+          "rank": 5,
+          "givenName": "奕辰",
+          "reportedPeople": 12583
+        },
+        {
+          "rank": 6,
+          "givenName": "宇泽",
+          "reportedPeople": 12191
+        },
+        {
+          "rank": 7,
+          "givenName": "浩然",
+          "reportedPeople": 11808
+        },
+        {
+          "rank": 8,
+          "givenName": "奕泽",
+          "reportedPeople": 10899
+        },
+        {
+          "rank": 9,
+          "givenName": "宇轩",
+          "reportedPeople": 10825
+        },
+        {
+          "rank": 10,
+          "givenName": "沐阳",
+          "reportedPeople": 10212
+        }
+      ]
+    },
+    {
+      "tableNumber": 3,
+      "sexCohort": "female",
+      "title": "2021年女性新生儿使用最多的10个名字",
+      "sourceImageSha256": "19fbc16a5e7f3924b510cff237e52a55c81cc2dea4416a3ae20ab6acac0a9685",
+      "rows": [
+        {
+          "rank": 1,
+          "givenName": "若汐",
+          "reportedPeople": 18293
+        },
+        {
+          "rank": 2,
+          "givenName": "一诺",
+          "reportedPeople": 16884
+        },
+        {
+          "rank": 3,
+          "givenName": "艺涵",
+          "reportedPeople": 15388
+        },
+        {
+          "rank": 4,
+          "givenName": "依诺",
+          "reportedPeople": 15208
+        },
+        {
+          "rank": 5,
+          "givenName": "梓涵",
+          "reportedPeople": 14221
+        },
+        {
+          "rank": 6,
+          "givenName": "苡沫",
+          "reportedPeople": 13352
+        },
+        {
+          "rank": 7,
+          "givenName": "雨桐",
+          "reportedPeople": 11916
+        },
+        {
+          "rank": 8,
+          "givenName": "欣怡",
+          "reportedPeople": 11742
+        },
+        {
+          "rank": 9,
+          "givenName": "语桐",
+          "reportedPeople": 10795
+        },
+        {
+          "rank": 10,
+          "givenName": "语汐",
+          "reportedPeople": 10573
+        }
+      ]
+    }
+  ]
+}

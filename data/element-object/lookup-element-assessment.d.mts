@@ -1,0 +1,13 @@
+export type ProjectElement='木'|'水'|'火'|'金'|'土';
+export interface ObjectEvidence {evidenceId:string;senseIndex:number;elements:ProjectElement[];activation:'sense-confirmation-required';scope:string;condition:string;sourceId:string;sourceRecordId:string;sourceEntrySha256:string;sourceReadingSha256:string;defaultPinyin:string;rawPinyin:string;quote:string;originDefinitionIndex:number;projectRuleId:string;}
+export interface ObjectOverlayRow {char:string;defaultPinyin:string;word:string;sourceBinding:{sourceEntrySha256:string;sourceReadingSha256:string;[key:string]:unknown};coverageTier:string;activation:string;availableElements:ProjectElement[];evidenceBySense:ObjectEvidence[];correspondenceEvidence:unknown[];reasonCategory:string;reason:string;traditionalAssessment:{status:string;elements:ProjectElement[];reason?:string};}
+export interface ObjectOverlay {profileId:string;rows:ObjectOverlayRow[];[key:string]:unknown;}
+export interface ObjectLookupInput {char:string;pinyin:string;sourceEntrySha256:string;sourceReadingSha256?:string;profileOptIn?:boolean;confirmedEvidenceIds?:string[];}
+export interface ObjectAssessment {profileId:string;authority?:string;status:string;coverageTier?:string;scope?:string;activation?:string;sourceBinding?:ObjectOverlayRow['sourceBinding'];matchingSourceCandidates:ObjectEvidence[];conditionalAssessment:null|{availableElements:ProjectElement[];evidenceBySense:ObjectEvidence[];requiresProfileOptIn:true;requiresSenseConfirmation:true};effectiveElements:ProjectElement[];activeEvidenceIds?:string[];selectionStatus?:'sense-confirmed'|'not-selected';confirmedEvidenceIds?:string[];correspondenceEvidence?:unknown[];reasonCategory?:string;reason:string;traditionalAssessment:{status:string;elements:ProjectElement[];reason?:string};}
+export interface ElementPlanBinding {planScope:string;char:string;pinyin:string;sourceEntrySha256:string;sourceReadingSha256:string;}
+export interface ElementSenseChoice extends ElementPlanBinding {profileId:'project-dictionary-object-elements/1.0.0';confirmedEvidenceIds:string[];}
+export interface PlanElementAssessment extends ObjectAssessment {planScope:string;methodSelected:boolean;}
+export function lookupElementAssessment(overlay:ObjectOverlay,input:ObjectLookupInput):ObjectAssessment;
+export function canonicalPlainJson(value:unknown,depth?:number):string;
+export function confirmElementAssessment(verifiedOverlay:ObjectOverlay,expectedBinding:ElementPlanBinding,selection:ElementSenseChoice|null):PlanElementAssessment;
+export function isCanonicalElementAssessment(value:unknown,verifiedOverlay:ObjectOverlay,expectedBinding:ElementPlanBinding,selection:ElementSenseChoice|null):value is PlanElementAssessment;

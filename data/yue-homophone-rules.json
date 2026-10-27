@@ -1,0 +1,991 @@
+{
+  "version": "yue-homophone-review/1.0.0",
+  "sourceIds": [
+    "yue-homophones-wiktionary-fixed",
+    "yue-homophones-rime-fixed"
+  ],
+  "sourceReferences": [
+    {
+      "id": "yue-homophones-wiktionary-fixed",
+      "version": "snapshot-sha256:3c9fa2e012e6c257b7a0789b581cadc3f19fd8316118dc48235b1eb4ccbd2d10",
+      "license": "CC-BY-SA-4.0",
+      "file": "zhwiktionary-Chinese.jsonl.gz",
+      "line": 248352,
+      "locator": "JSONL:248352;senses:0;sounds:2",
+      "word": "衛生巾",
+      "quote": "女性經期使用的一種衛生用品，用於吸收流出的經血。",
+      "url": "https://zh.wiktionary.org/wiki/%E8%A1%9B%E7%94%9F%E5%B7%BE"
+    },
+    {
+      "id": "yue-homophones-rime-fixed",
+      "version": "259f0e48bba840c3a2e0d117539e96937f3d89bc",
+      "license": "CC-BY-4.0",
+      "file": "jyut6ping3.words.dict.yaml",
+      "line": 70365,
+      "locator": "jyut6ping3.words.dict.yaml:70365",
+      "word": "衛生巾",
+      "quote": "衛生巾\twai6 sang1 gan1",
+      "url": "https://github.com/rime/rime-cantonese/blob/259f0e48bba840c3a2e0d117539e96937f3d89bc/jyut6ping3.words.dict.yaml#L70365"
+    },
+    {
+      "id": "yue-homophones-wiktionary-fixed",
+      "version": "snapshot-sha256:3c9fa2e012e6c257b7a0789b581cadc3f19fd8316118dc48235b1eb4ccbd2d10",
+      "license": "CC-BY-SA-4.0",
+      "file": "zhwiktionary-Chinese.jsonl.gz",
+      "line": 71054,
+      "locator": "JSONL:71054;senses:0,1;sounds:2",
+      "word": "狐狸精",
+      "quote": "狐仙；妖豔淫蕩的女子；狡猾奸詐的人",
+      "url": "https://zh.wiktionary.org/wiki/%E7%8B%90%E7%8B%B8%E7%B2%BE"
+    },
+    {
+      "id": "yue-homophones-rime-fixed",
+      "version": "259f0e48bba840c3a2e0d117539e96937f3d89bc",
+      "license": "CC-BY-4.0",
+      "file": "jyut6ping3.words.dict.yaml",
+      "line": 70729,
+      "locator": "jyut6ping3.words.dict.yaml:70729",
+      "word": "狐狸精",
+      "quote": "狐狸精\twu4 lei4 zing1",
+      "url": "https://github.com/rime/rime-cantonese/blob/259f0e48bba840c3a2e0d117539e96937f3d89bc/jyut6ping3.words.dict.yaml#L70729"
+    },
+    {
+      "id": "yue-homophones-wiktionary-fixed",
+      "version": "snapshot-sha256:3c9fa2e012e6c257b7a0789b581cadc3f19fd8316118dc48235b1eb4ccbd2d10",
+      "license": "CC-BY-SA-4.0",
+      "file": "zhwiktionary-Chinese.jsonl.gz",
+      "line": 23731,
+      "locator": "JSONL:23731;senses:0,1,3;sounds:2",
+      "word": "變態",
+      "quote": "生物在出生或者孵化後，形態或結構上產生顯著相對的急劇變化的過程。；不正常的狀態；心靈扭曲者；怪人",
+      "url": "https://zh.wiktionary.org/wiki/%E8%AE%8A%E6%85%8B"
+    },
+    {
+      "id": "yue-homophones-rime-fixed",
+      "version": "259f0e48bba840c3a2e0d117539e96937f3d89bc",
+      "license": "CC-BY-4.0",
+      "file": "jyut6ping3.words.dict.yaml",
+      "line": 1804,
+      "locator": "jyut6ping3.words.dict.yaml:1804",
+      "word": "變態",
+      "quote": "變態\tbin3 taai3",
+      "url": "https://github.com/rime/rime-cantonese/blob/259f0e48bba840c3a2e0d117539e96937f3d89bc/jyut6ping3.words.dict.yaml#L1804"
+    },
+    {
+      "id": "yue-homophones-wiktionary-fixed",
+      "version": "snapshot-sha256:3c9fa2e012e6c257b7a0789b581cadc3f19fd8316118dc48235b1eb4ccbd2d10",
+      "license": "CC-BY-SA-4.0",
+      "file": "zhwiktionary-Chinese.jsonl.gz",
+      "line": 118096,
+      "locator": "JSONL:118096;senses:0,1,2;sounds:3",
+      "word": "死人",
+      "quote": "死者；屍體；罵人呆板",
+      "url": "https://zh.wiktionary.org/wiki/%E6%AD%BB%E4%BA%BA"
+    },
+    {
+      "id": "yue-homophones-rime-fixed",
+      "version": "259f0e48bba840c3a2e0d117539e96937f3d89bc",
+      "license": "CC-BY-4.0",
+      "file": "jyut6ping3.words.dict.yaml",
+      "line": 36262,
+      "locator": "jyut6ping3.words.dict.yaml:36262",
+      "word": "死人",
+      "quote": "死人\tsei2 jan4",
+      "url": "https://github.com/rime/rime-cantonese/blob/259f0e48bba840c3a2e0d117539e96937f3d89bc/jyut6ping3.words.dict.yaml#L36262"
+    },
+    {
+      "id": "yue-homophones-wiktionary-fixed",
+      "version": "snapshot-sha256:3c9fa2e012e6c257b7a0789b581cadc3f19fd8316118dc48235b1eb4ccbd2d10",
+      "license": "CC-BY-SA-4.0",
+      "file": "zhwiktionary-Chinese.jsonl.gz",
+      "line": 250087,
+      "locator": "JSONL:250087;senses:0,1;sounds:2",
+      "word": "賤人",
+      "quote": "辱罵他人用的稱呼；社會地位低下的人",
+      "url": "https://zh.wiktionary.org/wiki/%E8%B3%A4%E4%BA%BA"
+    },
+    {
+      "id": "yue-homophones-rime-fixed",
+      "version": "259f0e48bba840c3a2e0d117539e96937f3d89bc",
+      "license": "CC-BY-4.0",
+      "file": "jyut6ping3.words.dict.yaml",
+      "line": 46166,
+      "locator": "jyut6ping3.words.dict.yaml:46166",
+      "word": "賤人",
+      "quote": "賤人\tzin6 jan4",
+      "url": "https://github.com/rime/rime-cantonese/blob/259f0e48bba840c3a2e0d117539e96937f3d89bc/jyut6ping3.words.dict.yaml#L46166"
+    },
+    {
+      "id": "yue-homophones-wiktionary-fixed",
+      "version": "snapshot-sha256:3c9fa2e012e6c257b7a0789b581cadc3f19fd8316118dc48235b1eb4ccbd2d10",
+      "license": "CC-BY-SA-4.0",
+      "file": "zhwiktionary-Chinese.jsonl.gz",
+      "line": 260091,
+      "locator": "JSONL:260091;senses:0;sounds:0",
+      "word": "衰人",
+      "quote": "壞人",
+      "url": "https://zh.wiktionary.org/wiki/%E8%A1%B0%E4%BA%BA"
+    },
+    {
+      "id": "yue-homophones-rime-fixed",
+      "version": "259f0e48bba840c3a2e0d117539e96937f3d89bc",
+      "license": "CC-BY-4.0",
+      "file": "jyut6ping3.words.dict.yaml",
+      "line": 36451,
+      "locator": "jyut6ping3.words.dict.yaml:36451",
+      "word": "衰人",
+      "quote": "衰人\tseoi1 jan4",
+      "url": "https://github.com/rime/rime-cantonese/blob/259f0e48bba840c3a2e0d117539e96937f3d89bc/jyut6ping3.words.dict.yaml#L36451"
+    },
+    {
+      "id": "yue-homophones-wiktionary-fixed",
+      "version": "snapshot-sha256:3c9fa2e012e6c257b7a0789b581cadc3f19fd8316118dc48235b1eb4ccbd2d10",
+      "license": "CC-BY-SA-4.0",
+      "file": "zhwiktionary-Chinese.jsonl.gz",
+      "line": 15082,
+      "locator": "JSONL:15082;senses:0,1;sounds:2",
+      "word": "傻瓜",
+      "quote": "傻子；甜心；寶貝",
+      "url": "https://zh.wiktionary.org/wiki/%E5%82%BB%E7%93%9C"
+    },
+    {
+      "id": "yue-homophones-rime-fixed",
+      "version": "259f0e48bba840c3a2e0d117539e96937f3d89bc",
+      "license": "CC-BY-4.0",
+      "file": "jyut6ping3.words.dict.yaml",
+      "line": 38553,
+      "locator": "jyut6ping3.words.dict.yaml:38553",
+      "word": "傻瓜",
+      "quote": "傻瓜\tso4 gwaa1",
+      "url": "https://github.com/rime/rime-cantonese/blob/259f0e48bba840c3a2e0d117539e96937f3d89bc/jyut6ping3.words.dict.yaml#L38553"
+    },
+    {
+      "id": "yue-homophones-wiktionary-fixed",
+      "version": "snapshot-sha256:3c9fa2e012e6c257b7a0789b581cadc3f19fd8316118dc48235b1eb4ccbd2d10",
+      "license": "CC-BY-SA-4.0",
+      "file": "zhwiktionary-Chinese.jsonl.gz",
+      "line": 261124,
+      "locator": "JSONL:261124;senses:0,1;sounds:2",
+      "word": "廢柴",
+      "quote": "（源自粵語） 無用的人；（网络用语） 没有特殊才能的普通人",
+      "url": "https://zh.wiktionary.org/wiki/%E5%BB%A2%E6%9F%B4"
+    },
+    {
+      "id": "yue-homophones-rime-fixed",
+      "version": "259f0e48bba840c3a2e0d117539e96937f3d89bc",
+      "license": "CC-BY-4.0",
+      "file": "jyut6ping3.words.dict.yaml",
+      "line": 10739,
+      "locator": "jyut6ping3.words.dict.yaml:10739",
+      "word": "廢柴",
+      "quote": "廢柴\tfai3 caai4",
+      "url": "https://github.com/rime/rime-cantonese/blob/259f0e48bba840c3a2e0d117539e96937f3d89bc/jyut6ping3.words.dict.yaml#L10739"
+    },
+    {
+      "id": "yue-homophones-wiktionary-fixed",
+      "version": "snapshot-sha256:3c9fa2e012e6c257b7a0789b581cadc3f19fd8316118dc48235b1eb4ccbd2d10",
+      "license": "CC-BY-SA-4.0",
+      "file": "zhwiktionary-Chinese.jsonl.gz",
+      "line": 21734,
+      "locator": "JSONL:21734;senses:0;sounds:3",
+      "word": "鼻涕",
+      "quote": "指鼻中的黏液。由鼻腔黏膜的杯狀細胞分泌，功能為保護呼吸道。",
+      "url": "https://zh.wiktionary.org/wiki/%E9%BC%BB%E6%B6%95"
+    },
+    {
+      "id": "yue-homophones-rime-fixed",
+      "version": "259f0e48bba840c3a2e0d117539e96937f3d89bc",
+      "license": "CC-BY-4.0",
+      "file": "jyut6ping3.words.dict.yaml",
+      "line": 1560,
+      "locator": "jyut6ping3.words.dict.yaml:1560",
+      "word": "鼻涕",
+      "quote": "鼻涕\tbei6 tai3",
+      "url": "https://github.com/rime/rime-cantonese/blob/259f0e48bba840c3a2e0d117539e96937f3d89bc/jyut6ping3.words.dict.yaml#L1560"
+    },
+    {
+      "id": "yue-homophones-wiktionary-fixed",
+      "version": "snapshot-sha256:3c9fa2e012e6c257b7a0789b581cadc3f19fd8316118dc48235b1eb4ccbd2d10",
+      "license": "CC-BY-SA-4.0",
+      "file": "zhwiktionary-Chinese.jsonl.gz",
+      "line": 179776,
+      "locator": "JSONL:179776;senses:0;sounds:2",
+      "word": "瘟疫",
+      "quote": "流行性烈性传染病，如天花、霍乱、鼠疫等。",
+      "url": "https://zh.wiktionary.org/wiki/%E7%98%9F%E7%96%AB"
+    },
+    {
+      "id": "yue-homophones-rime-fixed",
+      "version": "259f0e48bba840c3a2e0d117539e96937f3d89bc",
+      "license": "CC-BY-4.0",
+      "file": "jyut6ping3.words.dict.yaml",
+      "line": 42627,
+      "locator": "jyut6ping3.words.dict.yaml:42627",
+      "word": "瘟疫",
+      "quote": "瘟疫\twan1 jik6",
+      "url": "https://github.com/rime/rime-cantonese/blob/259f0e48bba840c3a2e0d117539e96937f3d89bc/jyut6ping3.words.dict.yaml#L42627"
+    },
+    {
+      "id": "yue-homophones-wiktionary-fixed",
+      "version": "snapshot-sha256:3c9fa2e012e6c257b7a0789b581cadc3f19fd8316118dc48235b1eb4ccbd2d10",
+      "license": "CC-BY-SA-4.0",
+      "file": "zhwiktionary-Chinese.jsonl.gz",
+      "line": 250775,
+      "locator": "JSONL:250775;senses:0,1,2;sounds:2",
+      "word": "豬頭",
+      "quote": "豬的頭；愚蠢的人；公豬（種豬）",
+      "url": "https://zh.wiktionary.org/wiki/%E8%B1%AC%E9%A0%AD"
+    },
+    {
+      "id": "yue-homophones-rime-fixed",
+      "version": "259f0e48bba840c3a2e0d117539e96937f3d89bc",
+      "license": "CC-BY-4.0",
+      "file": "jyut6ping3.words.dict.yaml",
+      "line": 48184,
+      "locator": "jyut6ping3.words.dict.yaml:48184",
+      "word": "豬頭",
+      "quote": "豬頭\tzyu1 tau4",
+      "url": "https://github.com/rime/rime-cantonese/blob/259f0e48bba840c3a2e0d117539e96937f3d89bc/jyut6ping3.words.dict.yaml#L48184"
+    },
+    {
+      "id": "yue-homophones-wiktionary-fixed",
+      "version": "snapshot-sha256:3c9fa2e012e6c257b7a0789b581cadc3f19fd8316118dc48235b1eb4ccbd2d10",
+      "license": "CC-BY-SA-4.0",
+      "file": "zhwiktionary-Chinese.jsonl.gz",
+      "line": 445,
+      "locator": "JSONL:445;senses:0;sounds:0",
+      "word": "仆街",
+      "quote": "詈詞，稱呼對方為品德很差或者做了壞事的人。",
+      "url": "https://zh.wiktionary.org/wiki/%E4%BB%86%E8%A1%97"
+    },
+    {
+      "id": "yue-homophones-rime-fixed",
+      "version": "259f0e48bba840c3a2e0d117539e96937f3d89bc",
+      "license": "CC-BY-4.0",
+      "file": "jyut6ping3.words.dict.yaml",
+      "line": 33994,
+      "locator": "jyut6ping3.words.dict.yaml:33994",
+      "word": "仆街",
+      "quote": "仆街\tpuk1 gaai1",
+      "url": "https://github.com/rime/rime-cantonese/blob/259f0e48bba840c3a2e0d117539e96937f3d89bc/jyut6ping3.words.dict.yaml#L33994"
+    }
+  ],
+  "rules": [
+    {
+      "id": "yue-review-hygiene-pad",
+      "term": "衛生巾",
+      "tokens": [
+        "wai6",
+        "sang1",
+        "gan1"
+      ],
+      "category": "hygiene-object",
+      "register": [
+        "Mainland-China"
+      ],
+      "glosses": [
+        {
+          "senseIndex": 0,
+          "quotes": [
+            "女性經期使用的一種衛生用品，用於吸收流出的經血。"
+          ],
+          "tags": [
+            "Mainland-China"
+          ]
+        }
+      ],
+      "scopes": [
+        "whole-full-name",
+        "whole-given-name",
+        "cross-surname-given"
+      ],
+      "sourceRefs": [
+        {
+          "id": "yue-homophones-wiktionary-fixed",
+          "version": "snapshot-sha256:3c9fa2e012e6c257b7a0789b581cadc3f19fd8316118dc48235b1eb4ccbd2d10",
+          "license": "CC-BY-SA-4.0",
+          "file": "zhwiktionary-Chinese.jsonl.gz",
+          "line": 248352,
+          "locator": "JSONL:248352;senses:0;sounds:2",
+          "word": "衛生巾",
+          "quote": "女性經期使用的一種衛生用品，用於吸收流出的經血。",
+          "url": "https://zh.wiktionary.org/wiki/%E8%A1%9B%E7%94%9F%E5%B7%BE"
+        },
+        {
+          "id": "yue-homophones-rime-fixed",
+          "version": "259f0e48bba840c3a2e0d117539e96937f3d89bc",
+          "license": "CC-BY-4.0",
+          "file": "jyut6ping3.words.dict.yaml",
+          "line": 70365,
+          "locator": "jyut6ping3.words.dict.yaml:70365",
+          "word": "衛生巾",
+          "quote": "衛生巾\twai6 sang1 gan1",
+          "url": "https://github.com/rime/rime-cantonese/blob/259f0e48bba840c3a2e0d117539e96937f3d89bc/jyut6ping3.words.dict.yaml#L70365"
+        }
+      ],
+      "notice": "原词是正常卫生用品名称，不是辱词；只提示姓名读音可能被理解为该用品。 原词条义项带 Mainland-China 标签；本研究不据此推断香港或所有粤语地区的频率。"
+    },
+    {
+      "id": "yue-review-fox-spirit",
+      "term": "狐狸精",
+      "tokens": [
+        "wu4",
+        "lei4",
+        "zing1"
+      ],
+      "category": "contextual-insult",
+      "register": [
+        "derogatory",
+        "figuratively"
+      ],
+      "glosses": [
+        {
+          "senseIndex": 0,
+          "quotes": [
+            "狐仙"
+          ],
+          "tags": []
+        },
+        {
+          "senseIndex": 1,
+          "quotes": [
+            "妖豔淫蕩的女子；狡猾奸詐的人"
+          ],
+          "tags": [
+            "derogatory",
+            "figuratively"
+          ]
+        }
+      ],
+      "scopes": [
+        "whole-full-name",
+        "whole-given-name",
+        "cross-surname-given"
+      ],
+      "sourceRefs": [
+        {
+          "id": "yue-homophones-wiktionary-fixed",
+          "version": "snapshot-sha256:3c9fa2e012e6c257b7a0789b581cadc3f19fd8316118dc48235b1eb4ccbd2d10",
+          "license": "CC-BY-SA-4.0",
+          "file": "zhwiktionary-Chinese.jsonl.gz",
+          "line": 71054,
+          "locator": "JSONL:71054;senses:0,1;sounds:2",
+          "word": "狐狸精",
+          "quote": "狐仙；妖豔淫蕩的女子；狡猾奸詐的人",
+          "url": "https://zh.wiktionary.org/wiki/%E7%8B%90%E7%8B%B8%E7%B2%BE"
+        },
+        {
+          "id": "yue-homophones-rime-fixed",
+          "version": "259f0e48bba840c3a2e0d117539e96937f3d89bc",
+          "license": "CC-BY-4.0",
+          "file": "jyut6ping3.words.dict.yaml",
+          "line": 70729,
+          "locator": "jyut6ping3.words.dict.yaml:70729",
+          "word": "狐狸精",
+          "quote": "狐狸精\twu4 lei4 zing1",
+          "url": "https://github.com/rime/rime-cantonese/blob/259f0e48bba840c3a2e0d117539e96937f3d89bc/jyut6ping3.words.dict.yaml#L70729"
+        }
+      ],
+      "notice": "原词有狐仙本义和贬义比喻。仅展示词典义项作语境复核，不对姓名持有人作性格、性别或道德归类。"
+    },
+    {
+      "id": "yue-review-metamorphosis",
+      "term": "變態",
+      "tokens": [
+        "bin3",
+        "taai3"
+      ],
+      "category": "contextual-insult",
+      "register": [
+        "colloquial"
+      ],
+      "glosses": [
+        {
+          "senseIndex": 0,
+          "quotes": [
+            "生物在出生或者孵化後，形態或結構上產生顯著相對的急劇變化的過程。"
+          ],
+          "tags": []
+        },
+        {
+          "senseIndex": 1,
+          "quotes": [
+            "不正常的狀態"
+          ],
+          "tags": []
+        },
+        {
+          "senseIndex": 3,
+          "quotes": [
+            "心靈扭曲者；怪人"
+          ],
+          "tags": [
+            "colloquial"
+          ]
+        }
+      ],
+      "scopes": [
+        "whole-full-name",
+        "whole-given-name",
+        "cross-surname-given"
+      ],
+      "sourceRefs": [
+        {
+          "id": "yue-homophones-wiktionary-fixed",
+          "version": "snapshot-sha256:3c9fa2e012e6c257b7a0789b581cadc3f19fd8316118dc48235b1eb4ccbd2d10",
+          "license": "CC-BY-SA-4.0",
+          "file": "zhwiktionary-Chinese.jsonl.gz",
+          "line": 23731,
+          "locator": "JSONL:23731;senses:0,1,3;sounds:2",
+          "word": "變態",
+          "quote": "生物在出生或者孵化後，形態或結構上產生顯著相對的急劇變化的過程。；不正常的狀態；心靈扭曲者；怪人",
+          "url": "https://zh.wiktionary.org/wiki/%E8%AE%8A%E6%85%8B"
+        },
+        {
+          "id": "yue-homophones-rime-fixed",
+          "version": "259f0e48bba840c3a2e0d117539e96937f3d89bc",
+          "license": "CC-BY-4.0",
+          "file": "jyut6ping3.words.dict.yaml",
+          "line": 1804,
+          "locator": "jyut6ping3.words.dict.yaml:1804",
+          "word": "變態",
+          "quote": "變態\tbin3 taai3",
+          "url": "https://github.com/rime/rime-cantonese/blob/259f0e48bba840c3a2e0d117539e96937f3d89bc/jyut6ping3.words.dict.yaml#L1804"
+        }
+      ],
+      "notice": "原词有正常生物学义项，也有口语称人义项；不能把所有该词都标为不雅。"
+    },
+    {
+      "id": "yue-review-dead-person",
+      "term": "死人",
+      "tokens": [
+        "sei2",
+        "jan4"
+      ],
+      "category": "death-context",
+      "register": [
+        "colloquial"
+      ],
+      "glosses": [
+        {
+          "senseIndex": 0,
+          "quotes": [
+            "死者"
+          ],
+          "tags": []
+        },
+        {
+          "senseIndex": 1,
+          "quotes": [
+            "屍體"
+          ],
+          "tags": []
+        },
+        {
+          "senseIndex": 2,
+          "quotes": [
+            "罵人呆板"
+          ],
+          "tags": [
+            "colloquial"
+          ]
+        }
+      ],
+      "scopes": [
+        "whole-full-name",
+        "whole-given-name",
+        "cross-surname-given"
+      ],
+      "sourceRefs": [
+        {
+          "id": "yue-homophones-wiktionary-fixed",
+          "version": "snapshot-sha256:3c9fa2e012e6c257b7a0789b581cadc3f19fd8316118dc48235b1eb4ccbd2d10",
+          "license": "CC-BY-SA-4.0",
+          "file": "zhwiktionary-Chinese.jsonl.gz",
+          "line": 118096,
+          "locator": "JSONL:118096;senses:0,1,2;sounds:3",
+          "word": "死人",
+          "quote": "死者；屍體；罵人呆板",
+          "url": "https://zh.wiktionary.org/wiki/%E6%AD%BB%E4%BA%BA"
+        },
+        {
+          "id": "yue-homophones-rime-fixed",
+          "version": "259f0e48bba840c3a2e0d117539e96937f3d89bc",
+          "license": "CC-BY-4.0",
+          "file": "jyut6ping3.words.dict.yaml",
+          "line": 36262,
+          "locator": "jyut6ping3.words.dict.yaml:36262",
+          "word": "死人",
+          "quote": "死人\tsei2 jan4",
+          "url": "https://github.com/rime/rime-cantonese/blob/259f0e48bba840c3a2e0d117539e96937f3d89bc/jyut6ping3.words.dict.yaml#L36262"
+        }
+      ],
+      "notice": "原词可指死者或尸体，另有口语责骂义；不把同音当作对姓名持有人的判断。"
+    },
+    {
+      "id": "yue-review-insult-person",
+      "term": "賤人",
+      "tokens": [
+        "zin6",
+        "jan4"
+      ],
+      "category": "explicit-insult",
+      "register": [
+        "derogatory",
+        "offensive",
+        "vulgar",
+        "archaic"
+      ],
+      "glosses": [
+        {
+          "senseIndex": 0,
+          "quotes": [
+            "辱罵他人用的稱呼"
+          ],
+          "tags": [
+            "derogatory",
+            "offensive",
+            "vulgar"
+          ]
+        },
+        {
+          "senseIndex": 1,
+          "quotes": [
+            "社會地位低下的人"
+          ],
+          "tags": [
+            "archaic"
+          ]
+        }
+      ],
+      "scopes": [
+        "whole-full-name",
+        "whole-given-name",
+        "cross-surname-given"
+      ],
+      "sourceRefs": [
+        {
+          "id": "yue-homophones-wiktionary-fixed",
+          "version": "snapshot-sha256:3c9fa2e012e6c257b7a0789b581cadc3f19fd8316118dc48235b1eb4ccbd2d10",
+          "license": "CC-BY-SA-4.0",
+          "file": "zhwiktionary-Chinese.jsonl.gz",
+          "line": 250087,
+          "locator": "JSONL:250087;senses:0,1;sounds:2",
+          "word": "賤人",
+          "quote": "辱罵他人用的稱呼；社會地位低下的人",
+          "url": "https://zh.wiktionary.org/wiki/%E8%B3%A4%E4%BA%BA"
+        },
+        {
+          "id": "yue-homophones-rime-fixed",
+          "version": "259f0e48bba840c3a2e0d117539e96937f3d89bc",
+          "license": "CC-BY-4.0",
+          "file": "jyut6ping3.words.dict.yaml",
+          "line": 46166,
+          "locator": "jyut6ping3.words.dict.yaml:46166",
+          "word": "賤人",
+          "quote": "賤人\tzin6 jan4",
+          "url": "https://github.com/rime/rime-cantonese/blob/259f0e48bba840c3a2e0d117539e96937f3d89bc/jyut6ping3.words.dict.yaml#L46166"
+        }
+      ],
+      "notice": "当前提醒只依据词典明确的辱称义，另保留历史社会身份义作区别；不沿用历史歧视性评价。"
+    },
+    {
+      "id": "yue-review-bad-person",
+      "term": "衰人",
+      "tokens": [
+        "seoi1",
+        "jan4"
+      ],
+      "category": "negative-person-term",
+      "register": [],
+      "glosses": [
+        {
+          "senseIndex": 0,
+          "quotes": [
+            "壞人"
+          ],
+          "tags": []
+        }
+      ],
+      "scopes": [
+        "whole-full-name",
+        "whole-given-name",
+        "cross-surname-given"
+      ],
+      "sourceRefs": [
+        {
+          "id": "yue-homophones-wiktionary-fixed",
+          "version": "snapshot-sha256:3c9fa2e012e6c257b7a0789b581cadc3f19fd8316118dc48235b1eb4ccbd2d10",
+          "license": "CC-BY-SA-4.0",
+          "file": "zhwiktionary-Chinese.jsonl.gz",
+          "line": 260091,
+          "locator": "JSONL:260091;senses:0;sounds:0",
+          "word": "衰人",
+          "quote": "壞人",
+          "url": "https://zh.wiktionary.org/wiki/%E8%A1%B0%E4%BA%BA"
+        },
+        {
+          "id": "yue-homophones-rime-fixed",
+          "version": "259f0e48bba840c3a2e0d117539e96937f3d89bc",
+          "license": "CC-BY-4.0",
+          "file": "jyut6ping3.words.dict.yaml",
+          "line": 36451,
+          "locator": "jyut6ping3.words.dict.yaml:36451",
+          "word": "衰人",
+          "quote": "衰人\tseoi1 jan4",
+          "url": "https://github.com/rime/rime-cantonese/blob/259f0e48bba840c3a2e0d117539e96937f3d89bc/jyut6ping3.words.dict.yaml#L36451"
+        }
+      ],
+      "notice": "词典释为坏人；这只是词条含义，不对同音姓名作人格评价。"
+    },
+    {
+      "id": "yue-review-fool-endearment",
+      "term": "傻瓜",
+      "tokens": [
+        "so4",
+        "gwaa1"
+      ],
+      "category": "contextual-address",
+      "register": [
+        "endearing"
+      ],
+      "glosses": [
+        {
+          "senseIndex": 0,
+          "quotes": [
+            "傻子"
+          ],
+          "tags": []
+        },
+        {
+          "senseIndex": 1,
+          "quotes": [
+            "甜心；寶貝"
+          ],
+          "tags": [
+            "endearing"
+          ]
+        }
+      ],
+      "scopes": [
+        "whole-full-name",
+        "whole-given-name",
+        "cross-surname-given"
+      ],
+      "sourceRefs": [
+        {
+          "id": "yue-homophones-wiktionary-fixed",
+          "version": "snapshot-sha256:3c9fa2e012e6c257b7a0789b581cadc3f19fd8316118dc48235b1eb4ccbd2d10",
+          "license": "CC-BY-SA-4.0",
+          "file": "zhwiktionary-Chinese.jsonl.gz",
+          "line": 15082,
+          "locator": "JSONL:15082;senses:0,1;sounds:2",
+          "word": "傻瓜",
+          "quote": "傻子；甜心；寶貝",
+          "url": "https://zh.wiktionary.org/wiki/%E5%82%BB%E7%93%9C"
+        },
+        {
+          "id": "yue-homophones-rime-fixed",
+          "version": "259f0e48bba840c3a2e0d117539e96937f3d89bc",
+          "license": "CC-BY-4.0",
+          "file": "jyut6ping3.words.dict.yaml",
+          "line": 38553,
+          "locator": "jyut6ping3.words.dict.yaml:38553",
+          "word": "傻瓜",
+          "quote": "傻瓜\tso4 gwaa1",
+          "url": "https://github.com/rime/rime-cantonese/blob/259f0e48bba840c3a2e0d117539e96937f3d89bc/jyut6ping3.words.dict.yaml#L38553"
+        }
+      ],
+      "notice": "词典同时收傻子和亲昵称呼义，需连同语境展示，不能只贴负面标签。"
+    },
+    {
+      "id": "yue-review-useless-person",
+      "term": "廢柴",
+      "tokens": [
+        "fai3",
+        "caai4"
+      ],
+      "category": "negative-person-term",
+      "register": [],
+      "glosses": [
+        {
+          "senseIndex": 0,
+          "quotes": [
+            "（源自粵語） 無用的人"
+          ],
+          "tags": []
+        },
+        {
+          "senseIndex": 1,
+          "quotes": [
+            "（网络用语） 没有特殊才能的普通人"
+          ],
+          "tags": []
+        }
+      ],
+      "scopes": [
+        "whole-full-name",
+        "whole-given-name",
+        "cross-surname-given"
+      ],
+      "sourceRefs": [
+        {
+          "id": "yue-homophones-wiktionary-fixed",
+          "version": "snapshot-sha256:3c9fa2e012e6c257b7a0789b581cadc3f19fd8316118dc48235b1eb4ccbd2d10",
+          "license": "CC-BY-SA-4.0",
+          "file": "zhwiktionary-Chinese.jsonl.gz",
+          "line": 261124,
+          "locator": "JSONL:261124;senses:0,1;sounds:2",
+          "word": "廢柴",
+          "quote": "（源自粵語） 無用的人；（网络用语） 没有特殊才能的普通人",
+          "url": "https://zh.wiktionary.org/wiki/%E5%BB%A2%E6%9F%B4"
+        },
+        {
+          "id": "yue-homophones-rime-fixed",
+          "version": "259f0e48bba840c3a2e0d117539e96937f3d89bc",
+          "license": "CC-BY-4.0",
+          "file": "jyut6ping3.words.dict.yaml",
+          "line": 10739,
+          "locator": "jyut6ping3.words.dict.yaml:10739",
+          "word": "廢柴",
+          "quote": "廢柴\tfai3 caai4",
+          "url": "https://github.com/rime/rime-cantonese/blob/259f0e48bba840c3a2e0d117539e96937f3d89bc/jyut6ping3.words.dict.yaml#L10739"
+        }
+      ],
+      "notice": "词典列源自粤语的贬称和网络引申，提醒仅供审阅，不向孩子附加能力判断。"
+    },
+    {
+      "id": "yue-review-nasal-mucus",
+      "term": "鼻涕",
+      "tokens": [
+        "bei6",
+        "tai3"
+      ],
+      "category": "body-object",
+      "register": [],
+      "glosses": [
+        {
+          "senseIndex": 0,
+          "quotes": [
+            "指鼻中的黏液。由鼻腔黏膜的杯狀細胞分泌，功能為保護呼吸道。"
+          ],
+          "tags": []
+        }
+      ],
+      "scopes": [
+        "whole-full-name",
+        "whole-given-name",
+        "cross-surname-given"
+      ],
+      "sourceRefs": [
+        {
+          "id": "yue-homophones-wiktionary-fixed",
+          "version": "snapshot-sha256:3c9fa2e012e6c257b7a0789b581cadc3f19fd8316118dc48235b1eb4ccbd2d10",
+          "license": "CC-BY-SA-4.0",
+          "file": "zhwiktionary-Chinese.jsonl.gz",
+          "line": 21734,
+          "locator": "JSONL:21734;senses:0;sounds:3",
+          "word": "鼻涕",
+          "quote": "指鼻中的黏液。由鼻腔黏膜的杯狀細胞分泌，功能為保護呼吸道。",
+          "url": "https://zh.wiktionary.org/wiki/%E9%BC%BB%E6%B6%95"
+        },
+        {
+          "id": "yue-homophones-rime-fixed",
+          "version": "259f0e48bba840c3a2e0d117539e96937f3d89bc",
+          "license": "CC-BY-4.0",
+          "file": "jyut6ping3.words.dict.yaml",
+          "line": 1560,
+          "locator": "jyut6ping3.words.dict.yaml:1560",
+          "word": "鼻涕",
+          "quote": "鼻涕\tbei6 tai3",
+          "url": "https://github.com/rime/rime-cantonese/blob/259f0e48bba840c3a2e0d117539e96937f3d89bc/jyut6ping3.words.dict.yaml#L1560"
+        }
+      ],
+      "notice": "正常身体分泌物名词，不是辱词；仅提示可能的具体词汇联想。"
+    },
+    {
+      "id": "yue-review-epidemic",
+      "term": "瘟疫",
+      "tokens": [
+        "wan1",
+        "jik6"
+      ],
+      "category": "illness-term",
+      "register": [],
+      "glosses": [
+        {
+          "senseIndex": 0,
+          "quotes": [
+            "流行性烈性传染病，如天花、霍乱、鼠疫等。"
+          ],
+          "tags": []
+        }
+      ],
+      "scopes": [
+        "whole-full-name",
+        "whole-given-name",
+        "cross-surname-given"
+      ],
+      "sourceRefs": [
+        {
+          "id": "yue-homophones-wiktionary-fixed",
+          "version": "snapshot-sha256:3c9fa2e012e6c257b7a0789b581cadc3f19fd8316118dc48235b1eb4ccbd2d10",
+          "license": "CC-BY-SA-4.0",
+          "file": "zhwiktionary-Chinese.jsonl.gz",
+          "line": 179776,
+          "locator": "JSONL:179776;senses:0;sounds:2",
+          "word": "瘟疫",
+          "quote": "流行性烈性传染病，如天花、霍乱、鼠疫等。",
+          "url": "https://zh.wiktionary.org/wiki/%E7%98%9F%E7%96%AB"
+        },
+        {
+          "id": "yue-homophones-rime-fixed",
+          "version": "259f0e48bba840c3a2e0d117539e96937f3d89bc",
+          "license": "CC-BY-4.0",
+          "file": "jyut6ping3.words.dict.yaml",
+          "line": 42627,
+          "locator": "jyut6ping3.words.dict.yaml:42627",
+          "word": "瘟疫",
+          "quote": "瘟疫\twan1 jik6",
+          "url": "https://github.com/rime/rime-cantonese/blob/259f0e48bba840c3a2e0d117539e96937f3d89bc/jyut6ping3.words.dict.yaml#L42627"
+        }
+      ],
+      "notice": "原词为疾病相关名词；不据姓名同音预测或暗示健康风险。"
+    },
+    {
+      "id": "yue-review-pig-head",
+      "term": "豬頭",
+      "tokens": [
+        "zyu1",
+        "tau4"
+      ],
+      "category": "contextual-address",
+      "register": [
+        "derogatory",
+        "endearing",
+        "dialectal"
+      ],
+      "glosses": [
+        {
+          "senseIndex": 0,
+          "quotes": [
+            "豬的頭"
+          ],
+          "tags": []
+        },
+        {
+          "senseIndex": 1,
+          "quotes": [
+            "愚蠢的人"
+          ],
+          "tags": [
+            "derogatory",
+            "endearing"
+          ]
+        },
+        {
+          "senseIndex": 2,
+          "quotes": [
+            "公豬（種豬）"
+          ],
+          "tags": [
+            "dialectal"
+          ]
+        }
+      ],
+      "scopes": [
+        "whole-full-name",
+        "whole-given-name",
+        "cross-surname-given"
+      ],
+      "sourceRefs": [
+        {
+          "id": "yue-homophones-wiktionary-fixed",
+          "version": "snapshot-sha256:3c9fa2e012e6c257b7a0789b581cadc3f19fd8316118dc48235b1eb4ccbd2d10",
+          "license": "CC-BY-SA-4.0",
+          "file": "zhwiktionary-Chinese.jsonl.gz",
+          "line": 250775,
+          "locator": "JSONL:250775;senses:0,1,2;sounds:2",
+          "word": "豬頭",
+          "quote": "豬的頭；愚蠢的人；公豬（種豬）",
+          "url": "https://zh.wiktionary.org/wiki/%E8%B1%AC%E9%A0%AD"
+        },
+        {
+          "id": "yue-homophones-rime-fixed",
+          "version": "259f0e48bba840c3a2e0d117539e96937f3d89bc",
+          "license": "CC-BY-4.0",
+          "file": "jyut6ping3.words.dict.yaml",
+          "line": 48184,
+          "locator": "jyut6ping3.words.dict.yaml:48184",
+          "word": "豬頭",
+          "quote": "豬頭\tzyu1 tau4",
+          "url": "https://github.com/rime/rime-cantonese/blob/259f0e48bba840c3a2e0d117539e96937f3d89bc/jyut6ping3.words.dict.yaml#L48184"
+        }
+      ],
+      "notice": "词典有动物部位本义、可贬可亲昵的称人义及方言义，必须保留多义语境。"
+    },
+    {
+      "id": "yue-review-puk-gaai",
+      "term": "仆街",
+      "tokens": [
+        "puk1",
+        "gaai1"
+      ],
+      "category": "explicit-insult",
+      "register": [
+        "Cantonese",
+        "vulgar"
+      ],
+      "glosses": [
+        {
+          "senseIndex": 0,
+          "quotes": [
+            "詈詞，稱呼對方為品德很差或者做了壞事的人。"
+          ],
+          "tags": [
+            "Cantonese",
+            "vulgar"
+          ]
+        }
+      ],
+      "scopes": [
+        "whole-full-name",
+        "whole-given-name",
+        "cross-surname-given"
+      ],
+      "sourceRefs": [
+        {
+          "id": "yue-homophones-wiktionary-fixed",
+          "version": "snapshot-sha256:3c9fa2e012e6c257b7a0789b581cadc3f19fd8316118dc48235b1eb4ccbd2d10",
+          "license": "CC-BY-SA-4.0",
+          "file": "zhwiktionary-Chinese.jsonl.gz",
+          "line": 445,
+          "locator": "JSONL:445;senses:0;sounds:0",
+          "word": "仆街",
+          "quote": "詈詞，稱呼對方為品德很差或者做了壞事的人。",
+          "url": "https://zh.wiktionary.org/wiki/%E4%BB%86%E8%A1%97"
+        },
+        {
+          "id": "yue-homophones-rime-fixed",
+          "version": "259f0e48bba840c3a2e0d117539e96937f3d89bc",
+          "license": "CC-BY-4.0",
+          "file": "jyut6ping3.words.dict.yaml",
+          "line": 33994,
+          "locator": "jyut6ping3.words.dict.yaml:33994",
+          "word": "仆街",
+          "quote": "仆街\tpuk1 gaai1",
+          "url": "https://github.com/rime/rime-cantonese/blob/259f0e48bba840c3a2e0d117539e96937f3d89bc/jyut6ping3.words.dict.yaml#L33994"
+        }
+      ],
+      "notice": "原词典明确标粤语粗俗詈词；界面应收起显示原词及释义，不将匹配转成称呼用户的句子。"
+    }
+  ],
+  "limitations": [
+    "仅核对本版12个明确词义及粤拼词条；未命中不表示没有其他谐音或没有语境风险。",
+    "只有姓氏及全部名字字音明确确认后才核对；只用已选音节，不枚举多音候选，不推断连读音变。",
+    "严格比对保留声调；忽略声调是另选模式，并逐项标明声调差异，不合并其他音值差异。",
+    "卫生、身体、疾病词是具体词汇联想，不默认归为辱词；多义词保留本义及语境，不评价孩子的人格、能力或健康。",
+    "只给审阅提醒，不自动排除、降分、改名或调整排序，不提供人口重名率或心理测量结论。",
+    "只比对完整全名、完整给名或连续跨姓与名片段；不单独标记姓氏内部片段，也不跳过中间字拼音。"
+  ]
+}

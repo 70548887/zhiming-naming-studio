@@ -1,0 +1,53 @@
+{
+  "version": "dev03-editorial-errata/137.r1",
+  "source": "audit/dev03-batches-preliminary/batch3-review/findings.json",
+  "policy": "Apply only these explicit editorial metadata changes during staged merge; original batch JSON and source definitions remain unchanged.",
+  "corrections": [
+    {
+      "pendingIndex": 410,
+      "char": "宜",
+      "originalSource": {
+        "rawEntryIndex": 42549,
+        "rawHeteronymIndex": 0,
+        "rawDefinitionIndex": 0,
+        "dictionaryWord": "宜",
+        "dictionarySense": "相安、和順。",
+        "type": "動"
+      },
+      "before": {
+        "useKind": "literal-quality",
+        "reason": "本条有直接相安和顺形容义，适用范围明确。"
+      },
+      "after": {
+        "useKind": "literal-action",
+        "reason": "固定原条将“相安、和順。”标作動词；本用途限于和顺相处的行为关联，不把原条说成形容词。"
+      },
+      "automaticReasonAfter": "原条“相安、和順。”为動词义，可展示为和顺相处的行为说明。只展示已审原义与明示项目创作的家庭期许，不据此判断个人品格或加分。",
+      "dictionaryDefinitionChanged": false,
+      "approvalChanged": false
+    },
+    {
+      "pendingIndex": 425,
+      "char": "寅",
+      "originalSource": {
+        "rawEntryIndex": 43363,
+        "rawHeteronymIndex": 0,
+        "rawDefinitionIndex": 4,
+        "dictionaryWord": "寅",
+        "dictionarySense": "恭敬。",
+        "type": "副"
+      },
+      "before": {
+        "useKind": "literal-action",
+        "reason": "默认音有独立恭敬动词义，礼敬用途有词典依据。"
+      },
+      "after": {
+        "useKind": "literal-manner",
+        "reason": "固定原条将“恭敬。”标作副词；本用途只关联恭敬行事的方式，不把原条说成动词。"
+      },
+      "automaticReasonAfter": "原条“恭敬。”为副词义，可展示其恭敬行事的方式关联。只展示已审原义与明示项目创作的家庭期许，不从地支或时辰推断人格命运。",
+      "dictionaryDefinitionChanged": false,
+      "approvalChanged": false
+    }
+  ]
+}

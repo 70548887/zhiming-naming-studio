@@ -1,0 +1,2183 @@
+{
+  "version": "sanming-first-paragraph/1.0.0",
+  "method": "fixed-upstream-literal-first-prose-table-plus-manual12row-transcriptions; no application/calendar import",
+  "scope": "Software table-location boundaries only, not astronomical Jie time accuracy or traditional judgment validity.",
+  "sourceId": "bazi-month-authority-sanming-v1",
+  "commit": "eb3cacbf4b41a4fe8fc3c0e77e0d12b5bd17c079",
+  "definitions": [
+    {
+      "sourceTerm": "艮土",
+      "days": 5,
+      "fromDay": 0,
+      "toDay": 5,
+      "element": "土",
+      "monthBranch": "寅"
+    },
+    {
+      "sourceTerm": "丙火",
+      "days": 5,
+      "fromDay": 5,
+      "toDay": 10,
+      "element": "火",
+      "normalizedStem": "丙",
+      "monthBranch": "寅"
+    },
+    {
+      "sourceTerm": "甲木",
+      "days": 20,
+      "fromDay": 10,
+      "toDay": 30,
+      "element": "木",
+      "normalizedStem": "甲",
+      "monthBranch": "寅"
+    },
+    {
+      "sourceTerm": "甲木",
+      "days": 7,
+      "fromDay": 0,
+      "toDay": 7,
+      "element": "木",
+      "normalizedStem": "甲",
+      "monthBranch": "卯"
+    },
+    {
+      "sourceTerm": "乙木",
+      "days": 23,
+      "fromDay": 7,
+      "toDay": 30,
+      "element": "木",
+      "normalizedStem": "乙",
+      "monthBranch": "卯"
+    },
+    {
+      "sourceTerm": "乙木",
+      "days": 7,
+      "fromDay": 0,
+      "toDay": 7,
+      "element": "木",
+      "normalizedStem": "乙",
+      "monthBranch": "辰"
+    },
+    {
+      "sourceTerm": "壬水",
+      "days": 5,
+      "fromDay": 7,
+      "toDay": 12,
+      "element": "水",
+      "normalizedStem": "壬",
+      "monthBranch": "辰"
+    },
+    {
+      "sourceTerm": "戊土",
+      "days": 18,
+      "fromDay": 12,
+      "toDay": 30,
+      "element": "土",
+      "normalizedStem": "戊",
+      "monthBranch": "辰"
+    },
+    {
+      "sourceTerm": "戊土",
+      "days": 7,
+      "fromDay": 0,
+      "toDay": 7,
+      "element": "土",
+      "normalizedStem": "戊",
+      "monthBranch": "巳"
+    },
+    {
+      "sourceTerm": "庚金",
+      "days": 5,
+      "fromDay": 7,
+      "toDay": 12,
+      "element": "金",
+      "normalizedStem": "庚",
+      "monthBranch": "巳"
+    },
+    {
+      "sourceTerm": "丙火",
+      "days": 18,
+      "fromDay": 12,
+      "toDay": 30,
+      "element": "火",
+      "normalizedStem": "丙",
+      "monthBranch": "巳"
+    },
+    {
+      "sourceTerm": "丙火",
+      "days": 7,
+      "fromDay": 0,
+      "toDay": 7,
+      "element": "火",
+      "normalizedStem": "丙",
+      "monthBranch": "午"
+    },
+    {
+      "sourceTerm": "丁火",
+      "days": 23,
+      "fromDay": 7,
+      "toDay": 30,
+      "element": "火",
+      "normalizedStem": "丁",
+      "monthBranch": "午"
+    },
+    {
+      "sourceTerm": "丁火",
+      "days": 7,
+      "fromDay": 0,
+      "toDay": 7,
+      "element": "火",
+      "normalizedStem": "丁",
+      "monthBranch": "未"
+    },
+    {
+      "sourceTerm": "甲木",
+      "days": 5,
+      "fromDay": 7,
+      "toDay": 12,
+      "element": "木",
+      "normalizedStem": "甲",
+      "monthBranch": "未"
+    },
+    {
+      "sourceTerm": "巳土",
+      "days": 18,
+      "fromDay": 12,
+      "toDay": 30,
+      "element": "土",
+      "monthBranch": "未"
+    },
+    {
+      "sourceTerm": "坤土",
+      "days": 5,
+      "fromDay": 0,
+      "toDay": 5,
+      "element": "土",
+      "monthBranch": "申"
+    },
+    {
+      "sourceTerm": "壬水",
+      "days": 5,
+      "fromDay": 5,
+      "toDay": 10,
+      "element": "水",
+      "normalizedStem": "壬",
+      "monthBranch": "申"
+    },
+    {
+      "sourceTerm": "庚金",
+      "days": 20,
+      "fromDay": 10,
+      "toDay": 30,
+      "element": "金",
+      "normalizedStem": "庚",
+      "monthBranch": "申"
+    },
+    {
+      "sourceTerm": "庚金",
+      "days": 7,
+      "fromDay": 0,
+      "toDay": 7,
+      "element": "金",
+      "normalizedStem": "庚",
+      "monthBranch": "酉"
+    },
+    {
+      "sourceTerm": "辛金",
+      "days": 23,
+      "fromDay": 7,
+      "toDay": 30,
+      "element": "金",
+      "normalizedStem": "辛",
+      "monthBranch": "酉"
+    },
+    {
+      "sourceTerm": "辛金",
+      "days": 7,
+      "fromDay": 0,
+      "toDay": 7,
+      "element": "金",
+      "normalizedStem": "辛",
+      "monthBranch": "戌"
+    },
+    {
+      "sourceTerm": "丙火",
+      "days": 5,
+      "fromDay": 7,
+      "toDay": 12,
+      "element": "火",
+      "normalizedStem": "丙",
+      "monthBranch": "戌"
+    },
+    {
+      "sourceTerm": "戊土",
+      "days": 18,
+      "fromDay": 12,
+      "toDay": 30,
+      "element": "土",
+      "normalizedStem": "戊",
+      "monthBranch": "戌"
+    },
+    {
+      "sourceTerm": "戊土",
+      "days": 5,
+      "fromDay": 0,
+      "toDay": 5,
+      "element": "土",
+      "normalizedStem": "戊",
+      "monthBranch": "亥"
+    },
+    {
+      "sourceTerm": "甲木",
+      "days": 5,
+      "fromDay": 5,
+      "toDay": 10,
+      "element": "木",
+      "normalizedStem": "甲",
+      "monthBranch": "亥"
+    },
+    {
+      "sourceTerm": "壬水",
+      "days": 20,
+      "fromDay": 10,
+      "toDay": 30,
+      "element": "水",
+      "normalizedStem": "壬",
+      "monthBranch": "亥"
+    },
+    {
+      "sourceTerm": "壬水",
+      "days": 7,
+      "fromDay": 0,
+      "toDay": 7,
+      "element": "水",
+      "normalizedStem": "壬",
+      "monthBranch": "子"
+    },
+    {
+      "sourceTerm": "癸水",
+      "days": 23,
+      "fromDay": 7,
+      "toDay": 30,
+      "element": "水",
+      "normalizedStem": "癸",
+      "monthBranch": "子"
+    },
+    {
+      "sourceTerm": "癸水",
+      "days": 7,
+      "fromDay": 0,
+      "toDay": 7,
+      "element": "水",
+      "normalizedStem": "癸",
+      "monthBranch": "丑"
+    },
+    {
+      "sourceTerm": "庚金",
+      "days": 5,
+      "fromDay": 7,
+      "toDay": 12,
+      "element": "金",
+      "normalizedStem": "庚",
+      "monthBranch": "丑"
+    },
+    {
+      "sourceTerm": "巳土",
+      "days": 18,
+      "fromDay": 12,
+      "toDay": 30,
+      "element": "土",
+      "monthBranch": "丑"
+    }
+  ],
+  "boundaries": [
+    {
+      "id": "寅-0d--1s",
+      "monthBranch": "寅",
+      "elapsedSeconds": -1,
+      "boundaryDay": 0,
+      "deltaSeconds": -1,
+      "status": "outside-table",
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[154,178)"
+    },
+    {
+      "id": "寅-0d-0s",
+      "monthBranch": "寅",
+      "elapsedSeconds": 0,
+      "boundaryDay": 0,
+      "deltaSeconds": 0,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "艮土",
+        "element": "土",
+        "fromDay": 0,
+        "toDay": 5
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[154,178)"
+    },
+    {
+      "id": "寅-0d-1s",
+      "monthBranch": "寅",
+      "elapsedSeconds": 1,
+      "boundaryDay": 0,
+      "deltaSeconds": 1,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "艮土",
+        "element": "土",
+        "fromDay": 0,
+        "toDay": 5
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[154,178)"
+    },
+    {
+      "id": "寅-5d--1s",
+      "monthBranch": "寅",
+      "elapsedSeconds": 431999,
+      "boundaryDay": 5,
+      "deltaSeconds": -1,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "艮土",
+        "element": "土",
+        "fromDay": 0,
+        "toDay": 5
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[154,178)"
+    },
+    {
+      "id": "寅-5d-0s",
+      "monthBranch": "寅",
+      "elapsedSeconds": 432000,
+      "boundaryDay": 5,
+      "deltaSeconds": 0,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "丙火",
+        "element": "火",
+        "normalizedStem": "丙",
+        "fromDay": 5,
+        "toDay": 10
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[154,178)"
+    },
+    {
+      "id": "寅-5d-1s",
+      "monthBranch": "寅",
+      "elapsedSeconds": 432001,
+      "boundaryDay": 5,
+      "deltaSeconds": 1,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "丙火",
+        "element": "火",
+        "normalizedStem": "丙",
+        "fromDay": 5,
+        "toDay": 10
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[154,178)"
+    },
+    {
+      "id": "寅-10d--1s",
+      "monthBranch": "寅",
+      "elapsedSeconds": 863999,
+      "boundaryDay": 10,
+      "deltaSeconds": -1,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "丙火",
+        "element": "火",
+        "normalizedStem": "丙",
+        "fromDay": 5,
+        "toDay": 10
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[154,178)"
+    },
+    {
+      "id": "寅-10d-0s",
+      "monthBranch": "寅",
+      "elapsedSeconds": 864000,
+      "boundaryDay": 10,
+      "deltaSeconds": 0,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "甲木",
+        "element": "木",
+        "normalizedStem": "甲",
+        "fromDay": 10,
+        "toDay": 30
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[154,178)"
+    },
+    {
+      "id": "寅-10d-1s",
+      "monthBranch": "寅",
+      "elapsedSeconds": 864001,
+      "boundaryDay": 10,
+      "deltaSeconds": 1,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "甲木",
+        "element": "木",
+        "normalizedStem": "甲",
+        "fromDay": 10,
+        "toDay": 30
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[154,178)"
+    },
+    {
+      "id": "寅-30d--1s",
+      "monthBranch": "寅",
+      "elapsedSeconds": 2591999,
+      "boundaryDay": 30,
+      "deltaSeconds": -1,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "甲木",
+        "element": "木",
+        "normalizedStem": "甲",
+        "fromDay": 10,
+        "toDay": 30
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[154,178)"
+    },
+    {
+      "id": "寅-30d-0s",
+      "monthBranch": "寅",
+      "elapsedSeconds": 2592000,
+      "boundaryDay": 30,
+      "deltaSeconds": 0,
+      "status": "outside-table",
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[154,178)"
+    },
+    {
+      "id": "寅-30d-1s",
+      "monthBranch": "寅",
+      "elapsedSeconds": 2592001,
+      "boundaryDay": 30,
+      "deltaSeconds": 1,
+      "status": "outside-table",
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[154,178)"
+    },
+    {
+      "id": "卯-0d--1s",
+      "monthBranch": "卯",
+      "elapsedSeconds": -1,
+      "boundaryDay": 0,
+      "deltaSeconds": -1,
+      "status": "outside-table",
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[178,197)"
+    },
+    {
+      "id": "卯-0d-0s",
+      "monthBranch": "卯",
+      "elapsedSeconds": 0,
+      "boundaryDay": 0,
+      "deltaSeconds": 0,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "甲木",
+        "element": "木",
+        "normalizedStem": "甲",
+        "fromDay": 0,
+        "toDay": 7
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[178,197)"
+    },
+    {
+      "id": "卯-0d-1s",
+      "monthBranch": "卯",
+      "elapsedSeconds": 1,
+      "boundaryDay": 0,
+      "deltaSeconds": 1,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "甲木",
+        "element": "木",
+        "normalizedStem": "甲",
+        "fromDay": 0,
+        "toDay": 7
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[178,197)"
+    },
+    {
+      "id": "卯-7d--1s",
+      "monthBranch": "卯",
+      "elapsedSeconds": 604799,
+      "boundaryDay": 7,
+      "deltaSeconds": -1,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "甲木",
+        "element": "木",
+        "normalizedStem": "甲",
+        "fromDay": 0,
+        "toDay": 7
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[178,197)"
+    },
+    {
+      "id": "卯-7d-0s",
+      "monthBranch": "卯",
+      "elapsedSeconds": 604800,
+      "boundaryDay": 7,
+      "deltaSeconds": 0,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "乙木",
+        "element": "木",
+        "normalizedStem": "乙",
+        "fromDay": 7,
+        "toDay": 30
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[178,197)"
+    },
+    {
+      "id": "卯-7d-1s",
+      "monthBranch": "卯",
+      "elapsedSeconds": 604801,
+      "boundaryDay": 7,
+      "deltaSeconds": 1,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "乙木",
+        "element": "木",
+        "normalizedStem": "乙",
+        "fromDay": 7,
+        "toDay": 30
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[178,197)"
+    },
+    {
+      "id": "卯-30d--1s",
+      "monthBranch": "卯",
+      "elapsedSeconds": 2591999,
+      "boundaryDay": 30,
+      "deltaSeconds": -1,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "乙木",
+        "element": "木",
+        "normalizedStem": "乙",
+        "fromDay": 7,
+        "toDay": 30
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[178,197)"
+    },
+    {
+      "id": "卯-30d-0s",
+      "monthBranch": "卯",
+      "elapsedSeconds": 2592000,
+      "boundaryDay": 30,
+      "deltaSeconds": 0,
+      "status": "outside-table",
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[178,197)"
+    },
+    {
+      "id": "卯-30d-1s",
+      "monthBranch": "卯",
+      "elapsedSeconds": 2592001,
+      "boundaryDay": 30,
+      "deltaSeconds": 1,
+      "status": "outside-table",
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[178,197)"
+    },
+    {
+      "id": "辰-0d--1s",
+      "monthBranch": "辰",
+      "elapsedSeconds": -1,
+      "boundaryDay": 0,
+      "deltaSeconds": -1,
+      "status": "outside-table",
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[197,222)"
+    },
+    {
+      "id": "辰-0d-0s",
+      "monthBranch": "辰",
+      "elapsedSeconds": 0,
+      "boundaryDay": 0,
+      "deltaSeconds": 0,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "乙木",
+        "element": "木",
+        "normalizedStem": "乙",
+        "fromDay": 0,
+        "toDay": 7
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[197,222)"
+    },
+    {
+      "id": "辰-0d-1s",
+      "monthBranch": "辰",
+      "elapsedSeconds": 1,
+      "boundaryDay": 0,
+      "deltaSeconds": 1,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "乙木",
+        "element": "木",
+        "normalizedStem": "乙",
+        "fromDay": 0,
+        "toDay": 7
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[197,222)"
+    },
+    {
+      "id": "辰-7d--1s",
+      "monthBranch": "辰",
+      "elapsedSeconds": 604799,
+      "boundaryDay": 7,
+      "deltaSeconds": -1,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "乙木",
+        "element": "木",
+        "normalizedStem": "乙",
+        "fromDay": 0,
+        "toDay": 7
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[197,222)"
+    },
+    {
+      "id": "辰-7d-0s",
+      "monthBranch": "辰",
+      "elapsedSeconds": 604800,
+      "boundaryDay": 7,
+      "deltaSeconds": 0,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "壬水",
+        "element": "水",
+        "normalizedStem": "壬",
+        "fromDay": 7,
+        "toDay": 12
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[197,222)"
+    },
+    {
+      "id": "辰-7d-1s",
+      "monthBranch": "辰",
+      "elapsedSeconds": 604801,
+      "boundaryDay": 7,
+      "deltaSeconds": 1,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "壬水",
+        "element": "水",
+        "normalizedStem": "壬",
+        "fromDay": 7,
+        "toDay": 12
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[197,222)"
+    },
+    {
+      "id": "辰-12d--1s",
+      "monthBranch": "辰",
+      "elapsedSeconds": 1036799,
+      "boundaryDay": 12,
+      "deltaSeconds": -1,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "壬水",
+        "element": "水",
+        "normalizedStem": "壬",
+        "fromDay": 7,
+        "toDay": 12
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[197,222)"
+    },
+    {
+      "id": "辰-12d-0s",
+      "monthBranch": "辰",
+      "elapsedSeconds": 1036800,
+      "boundaryDay": 12,
+      "deltaSeconds": 0,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "戊土",
+        "element": "土",
+        "normalizedStem": "戊",
+        "fromDay": 12,
+        "toDay": 30
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[197,222)"
+    },
+    {
+      "id": "辰-12d-1s",
+      "monthBranch": "辰",
+      "elapsedSeconds": 1036801,
+      "boundaryDay": 12,
+      "deltaSeconds": 1,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "戊土",
+        "element": "土",
+        "normalizedStem": "戊",
+        "fromDay": 12,
+        "toDay": 30
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[197,222)"
+    },
+    {
+      "id": "辰-30d--1s",
+      "monthBranch": "辰",
+      "elapsedSeconds": 2591999,
+      "boundaryDay": 30,
+      "deltaSeconds": -1,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "戊土",
+        "element": "土",
+        "normalizedStem": "戊",
+        "fromDay": 12,
+        "toDay": 30
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[197,222)"
+    },
+    {
+      "id": "辰-30d-0s",
+      "monthBranch": "辰",
+      "elapsedSeconds": 2592000,
+      "boundaryDay": 30,
+      "deltaSeconds": 0,
+      "status": "outside-table",
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[197,222)"
+    },
+    {
+      "id": "辰-30d-1s",
+      "monthBranch": "辰",
+      "elapsedSeconds": 2592001,
+      "boundaryDay": 30,
+      "deltaSeconds": 1,
+      "status": "outside-table",
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[197,222)"
+    },
+    {
+      "id": "巳-0d--1s",
+      "monthBranch": "巳",
+      "elapsedSeconds": -1,
+      "boundaryDay": 0,
+      "deltaSeconds": -1,
+      "status": "outside-table",
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[222,245)"
+    },
+    {
+      "id": "巳-0d-0s",
+      "monthBranch": "巳",
+      "elapsedSeconds": 0,
+      "boundaryDay": 0,
+      "deltaSeconds": 0,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "戊土",
+        "element": "土",
+        "normalizedStem": "戊",
+        "fromDay": 0,
+        "toDay": 7
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[222,245)"
+    },
+    {
+      "id": "巳-0d-1s",
+      "monthBranch": "巳",
+      "elapsedSeconds": 1,
+      "boundaryDay": 0,
+      "deltaSeconds": 1,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "戊土",
+        "element": "土",
+        "normalizedStem": "戊",
+        "fromDay": 0,
+        "toDay": 7
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[222,245)"
+    },
+    {
+      "id": "巳-7d--1s",
+      "monthBranch": "巳",
+      "elapsedSeconds": 604799,
+      "boundaryDay": 7,
+      "deltaSeconds": -1,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "戊土",
+        "element": "土",
+        "normalizedStem": "戊",
+        "fromDay": 0,
+        "toDay": 7
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[222,245)"
+    },
+    {
+      "id": "巳-7d-0s",
+      "monthBranch": "巳",
+      "elapsedSeconds": 604800,
+      "boundaryDay": 7,
+      "deltaSeconds": 0,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "庚金",
+        "element": "金",
+        "normalizedStem": "庚",
+        "fromDay": 7,
+        "toDay": 12
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[222,245)"
+    },
+    {
+      "id": "巳-7d-1s",
+      "monthBranch": "巳",
+      "elapsedSeconds": 604801,
+      "boundaryDay": 7,
+      "deltaSeconds": 1,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "庚金",
+        "element": "金",
+        "normalizedStem": "庚",
+        "fromDay": 7,
+        "toDay": 12
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[222,245)"
+    },
+    {
+      "id": "巳-12d--1s",
+      "monthBranch": "巳",
+      "elapsedSeconds": 1036799,
+      "boundaryDay": 12,
+      "deltaSeconds": -1,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "庚金",
+        "element": "金",
+        "normalizedStem": "庚",
+        "fromDay": 7,
+        "toDay": 12
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[222,245)"
+    },
+    {
+      "id": "巳-12d-0s",
+      "monthBranch": "巳",
+      "elapsedSeconds": 1036800,
+      "boundaryDay": 12,
+      "deltaSeconds": 0,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "丙火",
+        "element": "火",
+        "normalizedStem": "丙",
+        "fromDay": 12,
+        "toDay": 30
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[222,245)"
+    },
+    {
+      "id": "巳-12d-1s",
+      "monthBranch": "巳",
+      "elapsedSeconds": 1036801,
+      "boundaryDay": 12,
+      "deltaSeconds": 1,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "丙火",
+        "element": "火",
+        "normalizedStem": "丙",
+        "fromDay": 12,
+        "toDay": 30
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[222,245)"
+    },
+    {
+      "id": "巳-30d--1s",
+      "monthBranch": "巳",
+      "elapsedSeconds": 2591999,
+      "boundaryDay": 30,
+      "deltaSeconds": -1,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "丙火",
+        "element": "火",
+        "normalizedStem": "丙",
+        "fromDay": 12,
+        "toDay": 30
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[222,245)"
+    },
+    {
+      "id": "巳-30d-0s",
+      "monthBranch": "巳",
+      "elapsedSeconds": 2592000,
+      "boundaryDay": 30,
+      "deltaSeconds": 0,
+      "status": "outside-table",
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[222,245)"
+    },
+    {
+      "id": "巳-30d-1s",
+      "monthBranch": "巳",
+      "elapsedSeconds": 2592001,
+      "boundaryDay": 30,
+      "deltaSeconds": 1,
+      "status": "outside-table",
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[222,245)"
+    },
+    {
+      "id": "午-0d--1s",
+      "monthBranch": "午",
+      "elapsedSeconds": -1,
+      "boundaryDay": 0,
+      "deltaSeconds": -1,
+      "status": "outside-table",
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[245,263)"
+    },
+    {
+      "id": "午-0d-0s",
+      "monthBranch": "午",
+      "elapsedSeconds": 0,
+      "boundaryDay": 0,
+      "deltaSeconds": 0,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "丙火",
+        "element": "火",
+        "normalizedStem": "丙",
+        "fromDay": 0,
+        "toDay": 7
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[245,263)"
+    },
+    {
+      "id": "午-0d-1s",
+      "monthBranch": "午",
+      "elapsedSeconds": 1,
+      "boundaryDay": 0,
+      "deltaSeconds": 1,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "丙火",
+        "element": "火",
+        "normalizedStem": "丙",
+        "fromDay": 0,
+        "toDay": 7
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[245,263)"
+    },
+    {
+      "id": "午-7d--1s",
+      "monthBranch": "午",
+      "elapsedSeconds": 604799,
+      "boundaryDay": 7,
+      "deltaSeconds": -1,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "丙火",
+        "element": "火",
+        "normalizedStem": "丙",
+        "fromDay": 0,
+        "toDay": 7
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[245,263)"
+    },
+    {
+      "id": "午-7d-0s",
+      "monthBranch": "午",
+      "elapsedSeconds": 604800,
+      "boundaryDay": 7,
+      "deltaSeconds": 0,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "丁火",
+        "element": "火",
+        "normalizedStem": "丁",
+        "fromDay": 7,
+        "toDay": 30
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[245,263)"
+    },
+    {
+      "id": "午-7d-1s",
+      "monthBranch": "午",
+      "elapsedSeconds": 604801,
+      "boundaryDay": 7,
+      "deltaSeconds": 1,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "丁火",
+        "element": "火",
+        "normalizedStem": "丁",
+        "fromDay": 7,
+        "toDay": 30
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[245,263)"
+    },
+    {
+      "id": "午-30d--1s",
+      "monthBranch": "午",
+      "elapsedSeconds": 2591999,
+      "boundaryDay": 30,
+      "deltaSeconds": -1,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "丁火",
+        "element": "火",
+        "normalizedStem": "丁",
+        "fromDay": 7,
+        "toDay": 30
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[245,263)"
+    },
+    {
+      "id": "午-30d-0s",
+      "monthBranch": "午",
+      "elapsedSeconds": 2592000,
+      "boundaryDay": 30,
+      "deltaSeconds": 0,
+      "status": "outside-table",
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[245,263)"
+    },
+    {
+      "id": "午-30d-1s",
+      "monthBranch": "午",
+      "elapsedSeconds": 2592001,
+      "boundaryDay": 30,
+      "deltaSeconds": 1,
+      "status": "outside-table",
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[245,263)"
+    },
+    {
+      "id": "未-0d--1s",
+      "monthBranch": "未",
+      "elapsedSeconds": -1,
+      "boundaryDay": 0,
+      "deltaSeconds": -1,
+      "status": "outside-table",
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[263,288)"
+    },
+    {
+      "id": "未-0d-0s",
+      "monthBranch": "未",
+      "elapsedSeconds": 0,
+      "boundaryDay": 0,
+      "deltaSeconds": 0,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "丁火",
+        "element": "火",
+        "normalizedStem": "丁",
+        "fromDay": 0,
+        "toDay": 7
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[263,288)"
+    },
+    {
+      "id": "未-0d-1s",
+      "monthBranch": "未",
+      "elapsedSeconds": 1,
+      "boundaryDay": 0,
+      "deltaSeconds": 1,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "丁火",
+        "element": "火",
+        "normalizedStem": "丁",
+        "fromDay": 0,
+        "toDay": 7
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[263,288)"
+    },
+    {
+      "id": "未-7d--1s",
+      "monthBranch": "未",
+      "elapsedSeconds": 604799,
+      "boundaryDay": 7,
+      "deltaSeconds": -1,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "丁火",
+        "element": "火",
+        "normalizedStem": "丁",
+        "fromDay": 0,
+        "toDay": 7
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[263,288)"
+    },
+    {
+      "id": "未-7d-0s",
+      "monthBranch": "未",
+      "elapsedSeconds": 604800,
+      "boundaryDay": 7,
+      "deltaSeconds": 0,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "甲木",
+        "element": "木",
+        "normalizedStem": "甲",
+        "fromDay": 7,
+        "toDay": 12
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[263,288)"
+    },
+    {
+      "id": "未-7d-1s",
+      "monthBranch": "未",
+      "elapsedSeconds": 604801,
+      "boundaryDay": 7,
+      "deltaSeconds": 1,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "甲木",
+        "element": "木",
+        "normalizedStem": "甲",
+        "fromDay": 7,
+        "toDay": 12
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[263,288)"
+    },
+    {
+      "id": "未-12d--1s",
+      "monthBranch": "未",
+      "elapsedSeconds": 1036799,
+      "boundaryDay": 12,
+      "deltaSeconds": -1,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "甲木",
+        "element": "木",
+        "normalizedStem": "甲",
+        "fromDay": 7,
+        "toDay": 12
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[263,288)"
+    },
+    {
+      "id": "未-12d-0s",
+      "monthBranch": "未",
+      "elapsedSeconds": 1036800,
+      "boundaryDay": 12,
+      "deltaSeconds": 0,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "巳土",
+        "element": "土",
+        "fromDay": 12,
+        "toDay": 30
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[263,288)"
+    },
+    {
+      "id": "未-12d-1s",
+      "monthBranch": "未",
+      "elapsedSeconds": 1036801,
+      "boundaryDay": 12,
+      "deltaSeconds": 1,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "巳土",
+        "element": "土",
+        "fromDay": 12,
+        "toDay": 30
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[263,288)"
+    },
+    {
+      "id": "未-30d--1s",
+      "monthBranch": "未",
+      "elapsedSeconds": 2591999,
+      "boundaryDay": 30,
+      "deltaSeconds": -1,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "巳土",
+        "element": "土",
+        "fromDay": 12,
+        "toDay": 30
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[263,288)"
+    },
+    {
+      "id": "未-30d-0s",
+      "monthBranch": "未",
+      "elapsedSeconds": 2592000,
+      "boundaryDay": 30,
+      "deltaSeconds": 0,
+      "status": "outside-table",
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[263,288)"
+    },
+    {
+      "id": "未-30d-1s",
+      "monthBranch": "未",
+      "elapsedSeconds": 2592001,
+      "boundaryDay": 30,
+      "deltaSeconds": 1,
+      "status": "outside-table",
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[263,288)"
+    },
+    {
+      "id": "申-0d--1s",
+      "monthBranch": "申",
+      "elapsedSeconds": -1,
+      "boundaryDay": 0,
+      "deltaSeconds": -1,
+      "status": "outside-table",
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[288,312)"
+    },
+    {
+      "id": "申-0d-0s",
+      "monthBranch": "申",
+      "elapsedSeconds": 0,
+      "boundaryDay": 0,
+      "deltaSeconds": 0,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "坤土",
+        "element": "土",
+        "fromDay": 0,
+        "toDay": 5
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[288,312)"
+    },
+    {
+      "id": "申-0d-1s",
+      "monthBranch": "申",
+      "elapsedSeconds": 1,
+      "boundaryDay": 0,
+      "deltaSeconds": 1,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "坤土",
+        "element": "土",
+        "fromDay": 0,
+        "toDay": 5
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[288,312)"
+    },
+    {
+      "id": "申-5d--1s",
+      "monthBranch": "申",
+      "elapsedSeconds": 431999,
+      "boundaryDay": 5,
+      "deltaSeconds": -1,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "坤土",
+        "element": "土",
+        "fromDay": 0,
+        "toDay": 5
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[288,312)"
+    },
+    {
+      "id": "申-5d-0s",
+      "monthBranch": "申",
+      "elapsedSeconds": 432000,
+      "boundaryDay": 5,
+      "deltaSeconds": 0,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "壬水",
+        "element": "水",
+        "normalizedStem": "壬",
+        "fromDay": 5,
+        "toDay": 10
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[288,312)"
+    },
+    {
+      "id": "申-5d-1s",
+      "monthBranch": "申",
+      "elapsedSeconds": 432001,
+      "boundaryDay": 5,
+      "deltaSeconds": 1,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "壬水",
+        "element": "水",
+        "normalizedStem": "壬",
+        "fromDay": 5,
+        "toDay": 10
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[288,312)"
+    },
+    {
+      "id": "申-10d--1s",
+      "monthBranch": "申",
+      "elapsedSeconds": 863999,
+      "boundaryDay": 10,
+      "deltaSeconds": -1,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "壬水",
+        "element": "水",
+        "normalizedStem": "壬",
+        "fromDay": 5,
+        "toDay": 10
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[288,312)"
+    },
+    {
+      "id": "申-10d-0s",
+      "monthBranch": "申",
+      "elapsedSeconds": 864000,
+      "boundaryDay": 10,
+      "deltaSeconds": 0,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "庚金",
+        "element": "金",
+        "normalizedStem": "庚",
+        "fromDay": 10,
+        "toDay": 30
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[288,312)"
+    },
+    {
+      "id": "申-10d-1s",
+      "monthBranch": "申",
+      "elapsedSeconds": 864001,
+      "boundaryDay": 10,
+      "deltaSeconds": 1,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "庚金",
+        "element": "金",
+        "normalizedStem": "庚",
+        "fromDay": 10,
+        "toDay": 30
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[288,312)"
+    },
+    {
+      "id": "申-30d--1s",
+      "monthBranch": "申",
+      "elapsedSeconds": 2591999,
+      "boundaryDay": 30,
+      "deltaSeconds": -1,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "庚金",
+        "element": "金",
+        "normalizedStem": "庚",
+        "fromDay": 10,
+        "toDay": 30
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[288,312)"
+    },
+    {
+      "id": "申-30d-0s",
+      "monthBranch": "申",
+      "elapsedSeconds": 2592000,
+      "boundaryDay": 30,
+      "deltaSeconds": 0,
+      "status": "outside-table",
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[288,312)"
+    },
+    {
+      "id": "申-30d-1s",
+      "monthBranch": "申",
+      "elapsedSeconds": 2592001,
+      "boundaryDay": 30,
+      "deltaSeconds": 1,
+      "status": "outside-table",
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[288,312)"
+    },
+    {
+      "id": "酉-0d--1s",
+      "monthBranch": "酉",
+      "elapsedSeconds": -1,
+      "boundaryDay": 0,
+      "deltaSeconds": -1,
+      "status": "outside-table",
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[312,331)"
+    },
+    {
+      "id": "酉-0d-0s",
+      "monthBranch": "酉",
+      "elapsedSeconds": 0,
+      "boundaryDay": 0,
+      "deltaSeconds": 0,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "庚金",
+        "element": "金",
+        "normalizedStem": "庚",
+        "fromDay": 0,
+        "toDay": 7
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[312,331)"
+    },
+    {
+      "id": "酉-0d-1s",
+      "monthBranch": "酉",
+      "elapsedSeconds": 1,
+      "boundaryDay": 0,
+      "deltaSeconds": 1,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "庚金",
+        "element": "金",
+        "normalizedStem": "庚",
+        "fromDay": 0,
+        "toDay": 7
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[312,331)"
+    },
+    {
+      "id": "酉-7d--1s",
+      "monthBranch": "酉",
+      "elapsedSeconds": 604799,
+      "boundaryDay": 7,
+      "deltaSeconds": -1,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "庚金",
+        "element": "金",
+        "normalizedStem": "庚",
+        "fromDay": 0,
+        "toDay": 7
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[312,331)"
+    },
+    {
+      "id": "酉-7d-0s",
+      "monthBranch": "酉",
+      "elapsedSeconds": 604800,
+      "boundaryDay": 7,
+      "deltaSeconds": 0,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "辛金",
+        "element": "金",
+        "normalizedStem": "辛",
+        "fromDay": 7,
+        "toDay": 30
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[312,331)"
+    },
+    {
+      "id": "酉-7d-1s",
+      "monthBranch": "酉",
+      "elapsedSeconds": 604801,
+      "boundaryDay": 7,
+      "deltaSeconds": 1,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "辛金",
+        "element": "金",
+        "normalizedStem": "辛",
+        "fromDay": 7,
+        "toDay": 30
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[312,331)"
+    },
+    {
+      "id": "酉-30d--1s",
+      "monthBranch": "酉",
+      "elapsedSeconds": 2591999,
+      "boundaryDay": 30,
+      "deltaSeconds": -1,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "辛金",
+        "element": "金",
+        "normalizedStem": "辛",
+        "fromDay": 7,
+        "toDay": 30
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[312,331)"
+    },
+    {
+      "id": "酉-30d-0s",
+      "monthBranch": "酉",
+      "elapsedSeconds": 2592000,
+      "boundaryDay": 30,
+      "deltaSeconds": 0,
+      "status": "outside-table",
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[312,331)"
+    },
+    {
+      "id": "酉-30d-1s",
+      "monthBranch": "酉",
+      "elapsedSeconds": 2592001,
+      "boundaryDay": 30,
+      "deltaSeconds": 1,
+      "status": "outside-table",
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[312,331)"
+    },
+    {
+      "id": "戌-0d--1s",
+      "monthBranch": "戌",
+      "elapsedSeconds": -1,
+      "boundaryDay": 0,
+      "deltaSeconds": -1,
+      "status": "outside-table",
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[331,356)"
+    },
+    {
+      "id": "戌-0d-0s",
+      "monthBranch": "戌",
+      "elapsedSeconds": 0,
+      "boundaryDay": 0,
+      "deltaSeconds": 0,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "辛金",
+        "element": "金",
+        "normalizedStem": "辛",
+        "fromDay": 0,
+        "toDay": 7
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[331,356)"
+    },
+    {
+      "id": "戌-0d-1s",
+      "monthBranch": "戌",
+      "elapsedSeconds": 1,
+      "boundaryDay": 0,
+      "deltaSeconds": 1,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "辛金",
+        "element": "金",
+        "normalizedStem": "辛",
+        "fromDay": 0,
+        "toDay": 7
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[331,356)"
+    },
+    {
+      "id": "戌-7d--1s",
+      "monthBranch": "戌",
+      "elapsedSeconds": 604799,
+      "boundaryDay": 7,
+      "deltaSeconds": -1,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "辛金",
+        "element": "金",
+        "normalizedStem": "辛",
+        "fromDay": 0,
+        "toDay": 7
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[331,356)"
+    },
+    {
+      "id": "戌-7d-0s",
+      "monthBranch": "戌",
+      "elapsedSeconds": 604800,
+      "boundaryDay": 7,
+      "deltaSeconds": 0,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "丙火",
+        "element": "火",
+        "normalizedStem": "丙",
+        "fromDay": 7,
+        "toDay": 12
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[331,356)"
+    },
+    {
+      "id": "戌-7d-1s",
+      "monthBranch": "戌",
+      "elapsedSeconds": 604801,
+      "boundaryDay": 7,
+      "deltaSeconds": 1,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "丙火",
+        "element": "火",
+        "normalizedStem": "丙",
+        "fromDay": 7,
+        "toDay": 12
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[331,356)"
+    },
+    {
+      "id": "戌-12d--1s",
+      "monthBranch": "戌",
+      "elapsedSeconds": 1036799,
+      "boundaryDay": 12,
+      "deltaSeconds": -1,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "丙火",
+        "element": "火",
+        "normalizedStem": "丙",
+        "fromDay": 7,
+        "toDay": 12
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[331,356)"
+    },
+    {
+      "id": "戌-12d-0s",
+      "monthBranch": "戌",
+      "elapsedSeconds": 1036800,
+      "boundaryDay": 12,
+      "deltaSeconds": 0,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "戊土",
+        "element": "土",
+        "normalizedStem": "戊",
+        "fromDay": 12,
+        "toDay": 30
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[331,356)"
+    },
+    {
+      "id": "戌-12d-1s",
+      "monthBranch": "戌",
+      "elapsedSeconds": 1036801,
+      "boundaryDay": 12,
+      "deltaSeconds": 1,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "戊土",
+        "element": "土",
+        "normalizedStem": "戊",
+        "fromDay": 12,
+        "toDay": 30
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[331,356)"
+    },
+    {
+      "id": "戌-30d--1s",
+      "monthBranch": "戌",
+      "elapsedSeconds": 2591999,
+      "boundaryDay": 30,
+      "deltaSeconds": -1,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "戊土",
+        "element": "土",
+        "normalizedStem": "戊",
+        "fromDay": 12,
+        "toDay": 30
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[331,356)"
+    },
+    {
+      "id": "戌-30d-0s",
+      "monthBranch": "戌",
+      "elapsedSeconds": 2592000,
+      "boundaryDay": 30,
+      "deltaSeconds": 0,
+      "status": "outside-table",
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[331,356)"
+    },
+    {
+      "id": "戌-30d-1s",
+      "monthBranch": "戌",
+      "elapsedSeconds": 2592001,
+      "boundaryDay": 30,
+      "deltaSeconds": 1,
+      "status": "outside-table",
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[331,356)"
+    },
+    {
+      "id": "亥-0d--1s",
+      "monthBranch": "亥",
+      "elapsedSeconds": -1,
+      "boundaryDay": 0,
+      "deltaSeconds": -1,
+      "status": "outside-table",
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[356,380)"
+    },
+    {
+      "id": "亥-0d-0s",
+      "monthBranch": "亥",
+      "elapsedSeconds": 0,
+      "boundaryDay": 0,
+      "deltaSeconds": 0,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "戊土",
+        "element": "土",
+        "normalizedStem": "戊",
+        "fromDay": 0,
+        "toDay": 5
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[356,380)"
+    },
+    {
+      "id": "亥-0d-1s",
+      "monthBranch": "亥",
+      "elapsedSeconds": 1,
+      "boundaryDay": 0,
+      "deltaSeconds": 1,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "戊土",
+        "element": "土",
+        "normalizedStem": "戊",
+        "fromDay": 0,
+        "toDay": 5
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[356,380)"
+    },
+    {
+      "id": "亥-5d--1s",
+      "monthBranch": "亥",
+      "elapsedSeconds": 431999,
+      "boundaryDay": 5,
+      "deltaSeconds": -1,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "戊土",
+        "element": "土",
+        "normalizedStem": "戊",
+        "fromDay": 0,
+        "toDay": 5
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[356,380)"
+    },
+    {
+      "id": "亥-5d-0s",
+      "monthBranch": "亥",
+      "elapsedSeconds": 432000,
+      "boundaryDay": 5,
+      "deltaSeconds": 0,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "甲木",
+        "element": "木",
+        "normalizedStem": "甲",
+        "fromDay": 5,
+        "toDay": 10
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[356,380)"
+    },
+    {
+      "id": "亥-5d-1s",
+      "monthBranch": "亥",
+      "elapsedSeconds": 432001,
+      "boundaryDay": 5,
+      "deltaSeconds": 1,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "甲木",
+        "element": "木",
+        "normalizedStem": "甲",
+        "fromDay": 5,
+        "toDay": 10
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[356,380)"
+    },
+    {
+      "id": "亥-10d--1s",
+      "monthBranch": "亥",
+      "elapsedSeconds": 863999,
+      "boundaryDay": 10,
+      "deltaSeconds": -1,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "甲木",
+        "element": "木",
+        "normalizedStem": "甲",
+        "fromDay": 5,
+        "toDay": 10
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[356,380)"
+    },
+    {
+      "id": "亥-10d-0s",
+      "monthBranch": "亥",
+      "elapsedSeconds": 864000,
+      "boundaryDay": 10,
+      "deltaSeconds": 0,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "壬水",
+        "element": "水",
+        "normalizedStem": "壬",
+        "fromDay": 10,
+        "toDay": 30
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[356,380)"
+    },
+    {
+      "id": "亥-10d-1s",
+      "monthBranch": "亥",
+      "elapsedSeconds": 864001,
+      "boundaryDay": 10,
+      "deltaSeconds": 1,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "壬水",
+        "element": "水",
+        "normalizedStem": "壬",
+        "fromDay": 10,
+        "toDay": 30
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[356,380)"
+    },
+    {
+      "id": "亥-30d--1s",
+      "monthBranch": "亥",
+      "elapsedSeconds": 2591999,
+      "boundaryDay": 30,
+      "deltaSeconds": -1,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "壬水",
+        "element": "水",
+        "normalizedStem": "壬",
+        "fromDay": 10,
+        "toDay": 30
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[356,380)"
+    },
+    {
+      "id": "亥-30d-0s",
+      "monthBranch": "亥",
+      "elapsedSeconds": 2592000,
+      "boundaryDay": 30,
+      "deltaSeconds": 0,
+      "status": "outside-table",
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[356,380)"
+    },
+    {
+      "id": "亥-30d-1s",
+      "monthBranch": "亥",
+      "elapsedSeconds": 2592001,
+      "boundaryDay": 30,
+      "deltaSeconds": 1,
+      "status": "outside-table",
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[356,380)"
+    },
+    {
+      "id": "子-0d--1s",
+      "monthBranch": "子",
+      "elapsedSeconds": -1,
+      "boundaryDay": 0,
+      "deltaSeconds": -1,
+      "status": "outside-table",
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[380,400)"
+    },
+    {
+      "id": "子-0d-0s",
+      "monthBranch": "子",
+      "elapsedSeconds": 0,
+      "boundaryDay": 0,
+      "deltaSeconds": 0,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "壬水",
+        "element": "水",
+        "normalizedStem": "壬",
+        "fromDay": 0,
+        "toDay": 7
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[380,400)"
+    },
+    {
+      "id": "子-0d-1s",
+      "monthBranch": "子",
+      "elapsedSeconds": 1,
+      "boundaryDay": 0,
+      "deltaSeconds": 1,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "壬水",
+        "element": "水",
+        "normalizedStem": "壬",
+        "fromDay": 0,
+        "toDay": 7
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[380,400)"
+    },
+    {
+      "id": "子-7d--1s",
+      "monthBranch": "子",
+      "elapsedSeconds": 604799,
+      "boundaryDay": 7,
+      "deltaSeconds": -1,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "壬水",
+        "element": "水",
+        "normalizedStem": "壬",
+        "fromDay": 0,
+        "toDay": 7
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[380,400)"
+    },
+    {
+      "id": "子-7d-0s",
+      "monthBranch": "子",
+      "elapsedSeconds": 604800,
+      "boundaryDay": 7,
+      "deltaSeconds": 0,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "癸水",
+        "element": "水",
+        "normalizedStem": "癸",
+        "fromDay": 7,
+        "toDay": 30
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[380,400)"
+    },
+    {
+      "id": "子-7d-1s",
+      "monthBranch": "子",
+      "elapsedSeconds": 604801,
+      "boundaryDay": 7,
+      "deltaSeconds": 1,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "癸水",
+        "element": "水",
+        "normalizedStem": "癸",
+        "fromDay": 7,
+        "toDay": 30
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[380,400)"
+    },
+    {
+      "id": "子-30d--1s",
+      "monthBranch": "子",
+      "elapsedSeconds": 2591999,
+      "boundaryDay": 30,
+      "deltaSeconds": -1,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "癸水",
+        "element": "水",
+        "normalizedStem": "癸",
+        "fromDay": 7,
+        "toDay": 30
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[380,400)"
+    },
+    {
+      "id": "子-30d-0s",
+      "monthBranch": "子",
+      "elapsedSeconds": 2592000,
+      "boundaryDay": 30,
+      "deltaSeconds": 0,
+      "status": "outside-table",
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[380,400)"
+    },
+    {
+      "id": "子-30d-1s",
+      "monthBranch": "子",
+      "elapsedSeconds": 2592001,
+      "boundaryDay": 30,
+      "deltaSeconds": 1,
+      "status": "outside-table",
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[380,400)"
+    },
+    {
+      "id": "丑-0d--1s",
+      "monthBranch": "丑",
+      "elapsedSeconds": -1,
+      "boundaryDay": 0,
+      "deltaSeconds": -1,
+      "status": "outside-table",
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[400,426)"
+    },
+    {
+      "id": "丑-0d-0s",
+      "monthBranch": "丑",
+      "elapsedSeconds": 0,
+      "boundaryDay": 0,
+      "deltaSeconds": 0,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "癸水",
+        "element": "水",
+        "normalizedStem": "癸",
+        "fromDay": 0,
+        "toDay": 7
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[400,426)"
+    },
+    {
+      "id": "丑-0d-1s",
+      "monthBranch": "丑",
+      "elapsedSeconds": 1,
+      "boundaryDay": 0,
+      "deltaSeconds": 1,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "癸水",
+        "element": "水",
+        "normalizedStem": "癸",
+        "fromDay": 0,
+        "toDay": 7
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[400,426)"
+    },
+    {
+      "id": "丑-7d--1s",
+      "monthBranch": "丑",
+      "elapsedSeconds": 604799,
+      "boundaryDay": 7,
+      "deltaSeconds": -1,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "癸水",
+        "element": "水",
+        "normalizedStem": "癸",
+        "fromDay": 0,
+        "toDay": 7
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[400,426)"
+    },
+    {
+      "id": "丑-7d-0s",
+      "monthBranch": "丑",
+      "elapsedSeconds": 604800,
+      "boundaryDay": 7,
+      "deltaSeconds": 0,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "庚金",
+        "element": "金",
+        "normalizedStem": "庚",
+        "fromDay": 7,
+        "toDay": 12
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[400,426)"
+    },
+    {
+      "id": "丑-7d-1s",
+      "monthBranch": "丑",
+      "elapsedSeconds": 604801,
+      "boundaryDay": 7,
+      "deltaSeconds": 1,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "庚金",
+        "element": "金",
+        "normalizedStem": "庚",
+        "fromDay": 7,
+        "toDay": 12
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[400,426)"
+    },
+    {
+      "id": "丑-12d--1s",
+      "monthBranch": "丑",
+      "elapsedSeconds": 1036799,
+      "boundaryDay": 12,
+      "deltaSeconds": -1,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "庚金",
+        "element": "金",
+        "normalizedStem": "庚",
+        "fromDay": 7,
+        "toDay": 12
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[400,426)"
+    },
+    {
+      "id": "丑-12d-0s",
+      "monthBranch": "丑",
+      "elapsedSeconds": 1036800,
+      "boundaryDay": 12,
+      "deltaSeconds": 0,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "巳土",
+        "element": "土",
+        "fromDay": 12,
+        "toDay": 30
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[400,426)"
+    },
+    {
+      "id": "丑-12d-1s",
+      "monthBranch": "丑",
+      "elapsedSeconds": 1036801,
+      "boundaryDay": 12,
+      "deltaSeconds": 1,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "巳土",
+        "element": "土",
+        "fromDay": 12,
+        "toDay": 30
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[400,426)"
+    },
+    {
+      "id": "丑-30d--1s",
+      "monthBranch": "丑",
+      "elapsedSeconds": 2591999,
+      "boundaryDay": 30,
+      "deltaSeconds": -1,
+      "status": "covered",
+      "expected": {
+        "sourceTerm": "巳土",
+        "element": "土",
+        "fromDay": 12,
+        "toDay": 30
+      },
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[400,426)"
+    },
+    {
+      "id": "丑-30d-0s",
+      "monthBranch": "丑",
+      "elapsedSeconds": 2592000,
+      "boundaryDay": 30,
+      "deltaSeconds": 0,
+      "status": "outside-table",
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[400,426)"
+    },
+    {
+      "id": "丑-30d-1s",
+      "monthBranch": "丑",
+      "elapsedSeconds": 2592001,
+      "boundaryDay": 30,
+      "deltaSeconds": 1,
+      "status": "outside-table",
+      "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[400,426)"
+    }
+  ],
+  "monthLengthCases": [
+    {
+      "id": "short-month-yin",
+      "monthBranch": "寅",
+      "actualMonthSeconds": 2545600,
+      "elapsedSeconds": 2545599,
+      "status": "covered",
+      "expectedSourceTerm": "甲木",
+      "note": "Next Jie is exclusive; this instant remains in original30-day table."
+    },
+    {
+      "id": "short-month-next-jie-exclusive",
+      "monthBranch": "寅",
+      "actualMonthSeconds": 2545600,
+      "elapsedSeconds": 2545600,
+      "status": "outside-month",
+      "note": "Must move to the next actual month before table lookup."
+    },
+    {
+      "id": "long-month-tail-uncovered",
+      "monthBranch": "寅",
+      "actualMonthSeconds": 2678400,
+      "elapsedSeconds": 2592100,
+      "status": "uncovered-tail",
+      "note": "Do not extend the last source segment past30 elapsed24h days."
+    },
+    {
+      "id": "long-month-next-jie-exclusive",
+      "monthBranch": "寅",
+      "actualMonthSeconds": 2678400,
+      "elapsedSeconds": 2678400,
+      "status": "outside-month",
+      "note": "An actual next Jie excludes the old month even if table is already uncovered."
+    }
+  ],
+  "unresolvedTerms": [
+    "艮土",
+    "巳土",
+    "坤土"
+  ]
+}

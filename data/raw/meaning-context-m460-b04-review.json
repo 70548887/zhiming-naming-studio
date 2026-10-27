@@ -1,0 +1,326 @@
+{
+  "task": "M460-DATA-B04",
+  "status": "authored-candidate-not-independent-approval",
+  "rows": [
+    {
+      "char": "渤",
+      "givenName": "渤海",
+      "word": "渤海",
+      "entry": 87980,
+      "reading": 0,
+      "sense": 0,
+      "contextKey": "bohai-sea-only",
+      "contextLabel": "渤海海域的整词地理参考",
+      "grammar": "完整海洋名称；仅取海域义。",
+      "reason": "原字渤仍保留参见状态；完整渤海可引用海域原条，不把海名拆成渤的浩瀚品格义。",
+      "limits": [
+        "不采用同条郡名、国名或渤海国参照义。",
+        "地域关联和家庭接受度仍待人工确认。"
+      ]
+    },
+    {
+      "char": "俐",
+      "givenName": "俐亮",
+      "word": "俐亮",
+      "entry": 11940,
+      "reading": 0,
+      "sense": 0,
+      "contextKey": "liliang-expression-only",
+      "contextLabel": "俐亮整词的爽快利落用法",
+      "grammar": "完整词语的状态描述，不从俐单字补出聪慧。",
+      "reason": "本字俐只有参见；所选整词原条有爽快利落释义，须以完整俐亮及两个对应读音为条件。",
+      "limits": [
+        "不借用俐落的不同末字或轻声记录。",
+        "原词形容用法不证明孩子的实际能力或行为。"
+      ]
+    },
+    {
+      "char": "偲",
+      "givenName": "偲偲",
+      "word": "偲偲",
+      "entry": 13631,
+      "reading": 0,
+      "sense": 0,
+      "contextKey": "reciprocal-encouragement",
+      "contextLabel": "偲偲整词的互相责勉义",
+      "grammar": "完整叠词表达互相责勉，两个字均须读sī。",
+      "reason": "独立偲的默认sī条仍是参见；仅以偲偲原条解释完整叠词。",
+      "limits": [
+        "不移用偲的非默认sāi读音及其能力义。",
+        "互相责勉不是聪颖、才思或成就的事实判断。"
+      ]
+    },
+    {
+      "char": "颍",
+      "givenName": "颍河",
+      "word": "潁河",
+      "entry": 89740,
+      "reading": 0,
+      "sense": 0,
+      "contextKey": "ying-river-geography",
+      "contextLabel": "潁河完整河名的地理参考",
+      "grammar": "完整河川名称，颍与潁仅按固定双向字形证据对应。",
+      "reason": "本字颍的选定原词条潁只提供河名参照；完整颍河才引用该河的原条。",
+      "limits": [
+        "不借形近颖字解释为聪颖。",
+        "不从河名直接生成水元素或清澈品格标签。"
+      ]
+    },
+    {
+      "char": "洛",
+      "givenName": "洛阳",
+      "word": "洛陽",
+      "entry": 85337,
+      "reading": 0,
+      "sense": 0,
+      "contextKey": "luoyang-city-only",
+      "contextLabel": "洛陽城市名称的整词参考",
+      "grammar": "完整城市名称，阳与陽的对应独立保留。",
+      "reason": "所选义为洛阳城市原条，不能把洛水参照或阳光寓意拼为这条原义。",
+      "limits": [
+        "不把城市历史推为孩子的身份或功业。",
+        "地缘纪念须由家庭明确确认，本批不代为确认。"
+      ]
+    },
+    {
+      "char": "彭",
+      "givenName": "彭泽",
+      "word": "彭澤",
+      "entry": 51705,
+      "reading": 0,
+      "sense": 0,
+      "contextKey": "pengze-lake-only",
+      "contextLabel": "彭澤湖泊名称的限定参考",
+      "grammar": "完整湖泊名称，仅选原条的湖泊义。",
+      "reason": "彭本字的古地名与姓氏不作为品格义；此条仅解释彭泽整词所选湖名。",
+      "limits": [
+        "不采用同词的县名参照义。",
+        "不把人名典故或仕途联想补成原条内容。"
+      ]
+    },
+    {
+      "char": "湘",
+      "givenName": "湘君",
+      "word": "湘君",
+      "entry": 88314,
+      "reading": 0,
+      "sense": 1,
+      "contextKey": "xiangjun-chapter-title-only",
+      "contextLabel": "《楚辭·九歌》篇名的词条参考",
+      "grammar": "完整篇名的词典说明，与同词神祇义分开。",
+      "reason": "选择的是词典关于篇名的说明，不以多种湘水之神说法批准湘的独立命名义。",
+      "limits": [
+        "不采用同条第一个神祇义项。",
+        "此词条说明不等于已核定本名取字原句或授予出处信用。"
+      ]
+    },
+    {
+      "char": "奥",
+      "givenName": "奥妙",
+      "word": "奧妙",
+      "entry": 38682,
+      "reading": 0,
+      "sense": 0,
+      "contextKey": "aomiao-subtlety",
+      "contextLabel": "奧妙整词的精微神奇用法",
+      "grammar": "完整词语描述精微神奇，不作能力或神秘力量判断。",
+      "reason": "奥本字的精深义有使用范围；本条另外绑定奧妙原条，不能由复词反向解除单字限制。",
+      "limits": [
+        "不移用奧的其他读音。",
+        "不把神奇修辞解释为超自然能力。"
+      ]
+    },
+    {
+      "char": "赫",
+      "givenName": "赫然",
+      "word": "赫然",
+      "entry": 136754,
+      "reading": 0,
+      "sense": 0,
+      "contextKey": "heran-brightness-only",
+      "contextLabel": "赫然的光明显耀样貌义",
+      "grammar": "所选完整词语的样貌描述，与发怒和惊心用法分开。",
+      "reason": "固定选择第一个光明显耀义项，完整赫然和该义项须同时确认。",
+      "limits": [
+        "不采用同条发怒、生气或令人怵目惊心的义项。",
+        "显耀是所选词义，不能作为身份、名望或命运保证。"
+      ]
+    },
+    {
+      "char": "娇",
+      "givenName": "娇美",
+      "word": "嬌美",
+      "entry": 40703,
+      "reading": 0,
+      "sense": 0,
+      "contextKey": "jiaomei-appearance",
+      "contextLabel": "嬌美整词的轻柔美丽样貌义",
+      "grammar": "完整词语的样貌表达，不转写为贤德或能力。",
+      "reason": "固定保留嬌美的轻柔美丽原义，项目说明不向孩子施加外貌或性格标准。",
+      "limits": [
+        "不把娇弱、过度宠爱或其他同字义项合并采用。",
+        "不据词义推定孩子的性别、实际外貌或人格。"
+      ]
+    },
+    {
+      "char": "孔",
+      "givenName": "孔明",
+      "word": "孔明",
+      "entry": 40943,
+      "reading": 0,
+      "sense": 1,
+      "contextKey": "kongming-bright-clean-only",
+      "contextLabel": "孔明的非常明亮洁净义",
+      "grammar": "选择完整词语的明亮洁净义，不采用人物字称义。",
+      "reason": "原条先有人物字称，后有非常明亮洁净义；本条明确选第二义。",
+      "limits": [
+        "不采用诸葛亮字称及参见条作为本条选义。",
+        "不借历史人物声望推断智慧、谋略或成就。"
+      ]
+    },
+    {
+      "char": "灵",
+      "givenName": "灵慧",
+      "word": "靈慧",
+      "entry": 153037,
+      "reading": 0,
+      "sense": 0,
+      "contextKey": "linghui-dictionary-description",
+      "contextLabel": "靈慧整词的聪明颖悟描述",
+      "grammar": "完整词语的词典描述，不是儿童能力测定。",
+      "reason": "本条只给出靈慧原词的释义，不据此认定实际孩子具备对应能力，也不解除灵的其他义项限制。",
+      "limits": [
+        "不采用鬼神、灵验或神佑等其他语境。",
+        "不新增心理、智力、命运或五行事实。"
+      ]
+    },
+    {
+      "char": "姝",
+      "givenName": "姝丽",
+      "word": "姝麗",
+      "entry": 39944,
+      "reading": 0,
+      "sense": 0,
+      "contextKey": "shuli-beauty-quality-only",
+      "contextLabel": "姝麗整词的美丽义",
+      "grammar": "仅选美丽描述义，与同条美女称人义分开。",
+      "reason": "所选是第一个美丽义项，不将第二个称人名词义或道德品质合并。",
+      "limits": [
+        "不采用同条美女称人义作为身份判断。",
+        "不把外貌修辞改写为贤德或对孩子的外貌要求。"
+      ]
+    },
+    {
+      "char": "殊",
+      "givenName": "殊荣",
+      "word": "殊榮",
+      "entry": 80655,
+      "reading": 0,
+      "sense": 0,
+      "contextKey": "shurong-distinct-honor",
+      "contextLabel": "殊榮整词的特殊光荣义",
+      "grammar": "完整词语指特殊的光荣，不拆作每字已获荣誉。",
+      "reason": "以固定殊榮原条作词义参考；命名期许与实际获得荣誉保持区分。",
+      "limits": [
+        "不宣称孩子已获或必将取得荣誉。",
+        "不增加职业、品格或辨识评分。"
+      ]
+    },
+    {
+      "char": "武",
+      "givenName": "武艺",
+      "word": "武藝",
+      "entry": 80086,
+      "reading": 0,
+      "sense": 0,
+      "contextKey": "wuyi-martial-arts-only",
+      "contextLabel": "武藝完整词语的武术技艺义",
+      "grammar": "完整技艺名称，原条列举的技艺对象保持原文。",
+      "reason": "只取武藝原条所述技艺范围，不把武的勇猛义扩大成行为或能力结论。",
+      "limits": [
+        "不把所列技艺视为孩子已具备的事实。",
+        "不从本条生成暴力、武力等级或成就保证。"
+      ]
+    },
+    {
+      "char": "仙",
+      "givenName": "仙姿",
+      "word": "仙姿",
+      "entry": 9504,
+      "reading": 0,
+      "sense": 0,
+      "contextKey": "xianzi-literary-appearance",
+      "contextLabel": "仙姿整词的秀逸面貌修辞",
+      "grammar": "完整词语的形容表达，不作神仙身份判断。",
+      "reason": "依原条保留秀逸面貌的修辞范围，不把仙字其他宗教、长生或婉辞义混入。",
+      "limits": [
+        "不作神仙、超自然能力或长生断言。",
+        "不据修辞评价孩子实际外貌或价值。"
+      ]
+    },
+    {
+      "char": "玄",
+      "givenName": "玄理",
+      "word": "玄理",
+      "entry": 95742,
+      "reading": 0,
+      "sense": 0,
+      "contextKey": "xuanli-philosophical-reason",
+      "contextLabel": "玄理整词的深远奥妙道理义",
+      "grammar": "完整词语的哲理参考，保留原条关于道家思想的限定。",
+      "reason": "只解释玄理的深远奥妙道理范围，不由玄字推定聪明、神秘力量或姓名效果。",
+      "limits": [
+        "不将哲学文字变成命运或超自然结论。",
+        "不混入玄字其他黑色、虚伪等义项。"
+      ]
+    },
+    {
+      "char": "幸",
+      "givenName": "幸运",
+      "word": "幸運",
+      "entry": 49468,
+      "reading": 0,
+      "sense": 0,
+      "contextKey": "xingyun-luck-word-only",
+      "contextLabel": "幸運整词的好运气词义",
+      "grammar": "完整词语的原义参考，区分词义与未来事实。",
+      "reason": "固定保留好運氣原文，但不据名字预测是否幸运或保证未来结果。",
+      "limits": [
+        "不承诺命运、财富、健康或成功。",
+        "不将愿望当作已经验证的个人事实。"
+      ]
+    },
+    {
+      "char": "寰",
+      "givenName": "寰宇",
+      "word": "寰宇",
+      "entry": 44106,
+      "reading": 0,
+      "sense": 0,
+      "contextKey": "huanyu-world-reference",
+      "contextLabel": "寰宇整词的全宇宙全天下义",
+      "grammar": "完整空间范围词语，保留原条语义。",
+      "reason": "所选是完整寰宇原条；广阔范围不等于个人的支配地位或必然成就。",
+      "limits": [
+        "不由原条例句补造孩子声名或功业。",
+        "不将整词空间意象转为单字五行或评分。"
+      ]
+    },
+    {
+      "char": "深",
+      "givenName": "深思",
+      "word": "深思",
+      "entry": 87325,
+      "reading": 0,
+      "sense": 0,
+      "contextKey": "shensi-thinking-only",
+      "contextLabel": "深思整词的深远思考义",
+      "grammar": "完整思考活动词语，不把思考程度当作已测能力。",
+      "reason": "以深思原词和两个默认读音绑定，不借其他复词或思的其他读音补义。",
+      "limits": [
+        "不判定孩子实际智力、性格或思考能力。",
+        "不从原条引文直接授予本名出处信用。"
+      ]
+    }
+  ]
+}

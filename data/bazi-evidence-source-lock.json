@@ -1,0 +1,60 @@
+{
+  "version": "bazi-evidence-profile/1.0.0",
+  "hashConvention": "sha256(JSON.stringify(fileHashes)); fileHashes keys sorted by relative path",
+  "scope": "Deterministic stem/branch memberships and source-order hidden stems. Does not modify legacy fuyi weights.",
+  "sources": [
+    {
+      "id": "bazi-evidence-lunar186",
+      "name": "八字关系表与既有交节区间接口：6tail/lunar-typescript 1.8.6",
+      "url": "https://github.com/6tail/lunar-typescript",
+      "commit": "0f3e95d15e31f1a7c7b93d624542649347328a20",
+      "license": "MIT",
+      "files": [
+        "data/raw/bazi-evidence-lunar-LunarUtil.ts",
+        "data/raw/bazi-evidence-lunar-Lunar.ts",
+        "data/raw/bazi-evidence-lunar-LICENSE.txt"
+      ],
+      "note": "固定v1.8.6原文件LunarUtil.ts的ZHI_HIDE_GAN、SHI_SHEN、HE_GAN_5、HE_ZHI_6，以及Lunar.ts的getPrevJie/getNextJie既有历算接口实现；归档实现不表示天文交节精度已经独立验证。源巳藏干列序丙、庚、戊仅为事实列序，不改写旧扶抑丙、戊、庚及其权重。只展示关系出现，不据此判化气、吉凶或用神。",
+      "fileHashes": {
+        "data/raw/bazi-evidence-lunar-LICENSE.txt": "097ec7989106eb9a27b6eff71dbaf1cd6bb04a9b35b6c94b54fff0829a041a8c",
+        "data/raw/bazi-evidence-lunar-Lunar.ts": "91217f0d1e12dab85fd6b785a0b3a96e45fbfabd04982df04a7ff48c3d9f2362",
+        "data/raw/bazi-evidence-lunar-LunarUtil.ts": "bf42bab2a158dcbe59112111b097104574b5df5bfd5d27b8b63b7782f9403e1c"
+      },
+      "sha256": "3be58ca4b75c28a7470f1a25199e2d2f1c704a9eaf6d0b4fc93ab61d44ad858a"
+    },
+    {
+      "id": "bazi-evidence-go-ganzhi",
+      "name": "干支合冲与三合三会组：deminzhang/qimen-go固定表",
+      "url": "https://github.com/deminzhang/qimen-go",
+      "commit": "4d3f58fa0f401b5b3a337f119138e99e90685dda",
+      "license": "MIT",
+      "files": [
+        "data/raw/bazi-evidence-go-ganzhi.go",
+        "data/raw/bazi-evidence-go-LICENSE.txt"
+      ],
+      "note": "xuan/ganzhi.go的HeGan、HeZhi、ChongZhi、He3Zhi、Hui3Zhi；与LunarUtil字面成员表交叉。不引入源码中的神煞、五行纯格或关系强弱判断；六合化行注释有不同读法，本版只采用成员，不输出六合或五合化气结论。无此源六害显式表，六害暂不启用。",
+      "fileHashes": {
+        "data/raw/bazi-evidence-go-LICENSE.txt": "cfdb13c1a086ecc3f498b6a75a65d1dab3d93072c58efd26d383db776749b996",
+        "data/raw/bazi-evidence-go-ganzhi.go": "0dd04c5c2f290e87822ff85770f203467c1a7a69ced56990d808c718aa14b401"
+      },
+      "sha256": "5671210f0b35ef35a2790cdfc15e23f036ac11daebc99a72d394cf55325c1f8b"
+    },
+    {
+      "id": "bazi-evidence-project-heuristic",
+      "name": "本产品既有扶抑与季节意象启发式",
+      "url": "local:data/bazi-evidence-project-profile.json",
+      "commit": "project-fuyi-seasonal/1.0.0",
+      "license": "MIT（仅本项目原创规则资料与说明）",
+      "files": [
+        "data/bazi-evidence-project-profile.json",
+        "data/raw/bazi-evidence-project-NOTICE.md"
+      ],
+      "note": "稳定规则资料记录本产品既有扶抑权重和季节参考，与源码格式无关；这是项目自编口径，不是古籍公式或穷通逐月调候，不支持从格合化裁决。",
+      "fileHashes": {
+        "data/bazi-evidence-project-profile.json": "b0df93b0b9d7e78809391acd8d99829b50d32f6ef31ce4535f1ca3f7096b131b",
+        "data/raw/bazi-evidence-project-NOTICE.md": "a4b5ea5b6b78eed80bc0df35b099a83e9f8fbcaef689193cd30d724a0285a2e8"
+      },
+      "sha256": "d8e4d7a2bff7ab732938001841ca87fbdbe0f4db8517502fffc0e507664e8340"
+    }
+  ]
+}

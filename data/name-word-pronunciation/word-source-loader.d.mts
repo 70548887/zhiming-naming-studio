@@ -1,0 +1,1 @@
+export function verifyWordPronunciationPackage(directory:string):{status:'passed';version:string;profileSha256:string;sourceLockSha256:string;actualProfileObjectSha256:string;filesVerified:number;engineProfileMatched:true;};

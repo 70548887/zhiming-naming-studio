@@ -1,0 +1,211 @@
+{
+  "version": "1.0.0",
+  "profileId": "ren-source-wood-direction-joint-battle/1.0.0",
+  "methodVersion": "ditian-ren-commentary-2600158/1.5.0",
+  "sourceId": "bazi-ditian-ren-joint-battle-2600158",
+  "source": {
+    "revision": 2600158,
+    "title": "滴天髓闡微",
+    "authority": "ren-commentary;original-commentary-separated",
+    "fullWikitextSha256": "1d1a3d61c1b9a26618b41b8ead857a6b966992fdf2adabdc607a0c6cb4c8f04d",
+    "fullWikitextCodepoints": 143701,
+    "url": "https://zh.wikisource.org/w/index.php?title=%E6%BB%B4%E5%A4%A9%E9%AB%93%E9%97%A1%E5%BE%AE&oldid=2600158"
+  },
+  "clauses": [
+    {
+      "id": "ren-effective-quieting-qualification",
+      "sourceId": "bazi-ditian-ren-joint-battle-2600158",
+      "section": "六亲论 十八、战局",
+      "layer": "ren-commentary;joint-battle-limited-domain",
+      "quote": "必得合神有力，会神成局，息其动气，或库神收其动神，安其静神，谓动中助静，以凶化吉。",
+      "locator": "oldid=2600158;codepoint[111005,111046)",
+      "sourceSpan": {
+        "start": 111005,
+        "end": 111046,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextId": "ren-joint-battle-full",
+      "scope": "完整保留前句资格；本包不据成员齐全证明所有合会已有力或所有救法有效。",
+      "use": "qualification-context"
+    },
+    {
+      "id": "ren-four-joint-pillar-pairs",
+      "sourceId": "bazi-ditian-ren-joint-battle-2600158",
+      "section": "六亲论 十八、战局",
+      "layer": "ren-commentary;joint-battle-limited-domain",
+      "quote": "如甲寅、庚申、乙卯、辛酉、丙寅、壬申、丁卯、癸酉之类，天地交战",
+      "locator": "oldid=2600158;codepoint[111046,111077)",
+      "sourceSpan": {
+        "start": 111046,
+        "end": 111077,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextId": "ren-joint-battle-full",
+      "scope": "四组真实同柱干支对子；不拆干支重拼，不加原文未说的相邻门槛。",
+      "use": "operative-pattern"
+    },
+    {
+      "id": "ren-joint-not-fully-quiet",
+      "sourceId": "bazi-ditian-ren-joint-battle-2600158",
+      "section": "六亲论 十八、战局",
+      "layer": "ren-commentary;joint-battle-limited-domain",
+      "quote": "虽有合神会神，亦不息其动气",
+      "locator": "oldid=2600158;codepoint[111078,111091)",
+      "sourceSpan": {
+        "start": 111078,
+        "end": 111091,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextId": "ren-joint-battle-full",
+      "scope": "在采用的同一木方、同一柱对、同一会边子域，联合冲突未由所指方会全静；不分派到每条冲克或根。",
+      "use": "operative-consequence"
+    },
+    {
+      "id": "ren-movement-can-activate-use",
+      "sourceId": "bazi-ditian-ren-joint-battle-2600158",
+      "section": "六亲论 十八、战局",
+      "layer": "ren-commentary;joint-battle-limited-domain",
+      "quote": "至于用神伏藏或用神被合，柱中无引用之神，反宜冲而动之，方能发用。",
+      "locator": "oldid=2600158;codepoint[111173,111205)",
+      "sourceSpan": {
+        "start": 111173,
+        "end": 111205,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextId": "ren-joint-battle-full",
+      "scope": "动不等于受损或凶；本层不自动识别伏藏用神或补足引用资格。",
+      "use": "non-conclusion-boundary"
+    },
+    {
+      "id": "ren-combination-and-clash-qualified",
+      "sourceId": "bazi-ditian-ren-joint-battle-2600158",
+      "section": "六亲论 十八、战局",
+      "layer": "ren-commentary;joint-battle-limited-domain",
+      "quote": "故合有宜不宜，冲亦有且不宜也，须深究之。",
+      "locator": "oldid=2600158;codepoint[111205,111225)",
+      "sourceSpan": {
+        "start": 111205,
+        "end": 111225,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextId": "ren-joint-battle-full",
+      "scope": "保留电子本“且”字，不校改；不由动气未息推出个人结局。",
+      "use": "non-conclusion-boundary"
+    },
+    {
+      "id": "original-outcomes-not-motion-equivalence",
+      "sourceId": "bazi-ditian-ren-joint-battle-2600158",
+      "section": "六亲论 十八、战局",
+      "layer": "original-commentary;context-only",
+      "quote": "遇岁运合之会之，视其胜负，亦有可存可发者。",
+      "locator": "oldid=2600158;codepoint[110814,110835)",
+      "sourceSpan": {
+        "start": 110814,
+        "end": 110835,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextId": "original-battle-full",
+      "scope": "原注是另一作者层且谈岁运与结局；可存可发不等于联合动气已全静，不并入本任注规则。",
+      "use": "context-only"
+    },
+    {
+      "id": "original-powerful-helper-context",
+      "sourceId": "bazi-ditian-ren-joint-battle-2600158",
+      "section": "六亲论 十八、战局",
+      "layer": "original-commentary;context-only",
+      "quote": "只得一个合神有力，或无库神贵神，以收其动气，息其争气，亦有佳者。",
+      "locator": "oldid=2600158;codepoint[110843,110875)",
+      "sourceSpan": {
+        "start": 110843,
+        "end": 110875,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextId": "original-battle-full",
+      "scope": "保留电子本“或无”；不改字、不与任注合成一条自动救应规则。",
+      "use": "context-only"
+    }
+  ],
+  "patterns": [
+    {
+      "id": "jia-yin-geng-shen",
+      "targetGanzhi": "甲寅",
+      "attackerGanzhi": "庚申",
+      "sourceClauseIds": [
+        "ren-four-joint-pillar-pairs",
+        "ren-joint-not-fully-quiet"
+      ]
+    },
+    {
+      "id": "yi-mao-xin-you",
+      "targetGanzhi": "乙卯",
+      "attackerGanzhi": "辛酉",
+      "sourceClauseIds": [
+        "ren-four-joint-pillar-pairs",
+        "ren-joint-not-fully-quiet"
+      ]
+    },
+    {
+      "id": "bing-yin-ren-shen",
+      "targetGanzhi": "丙寅",
+      "attackerGanzhi": "壬申",
+      "sourceClauseIds": [
+        "ren-four-joint-pillar-pairs",
+        "ren-joint-not-fully-quiet"
+      ]
+    },
+    {
+      "id": "ding-mao-gui-you",
+      "targetGanzhi": "丁卯",
+      "attackerGanzhi": "癸酉",
+      "sourceClauseIds": [
+        "ren-four-joint-pillar-pairs",
+        "ren-joint-not-fully-quiet"
+      ]
+    }
+  ],
+  "adoption": {
+    "scope": "original-chart;validated-ren14-wood-direction;same-pillar-pair;same-meeting-and-clash-intersection",
+    "requiredBaseMethod": "ditian-ren-commentary-2600158/1.4.0",
+    "requiredDirectionKind": "wood-direction-strength",
+    "requiredDirectionCapability": "met",
+    "meetingEdgeKind": "branch-sanhui",
+    "meetingElement": "木",
+    "targetBranches": [
+      "寅",
+      "卯"
+    ],
+    "bridges": [
+      {
+        "id": "adoption-selected-wood-direction-meeting",
+        "name": "所指会神的有限图映射",
+        "statement": "只以通过冻结1.4完整校验、木方局部充分证明为met的同一寅卯辰branch-sanhui边作为本包所指会神；木方成员与所选柱对冲支必须真实交集。原句没有软件node或edge术语，这是项目采用约定。",
+        "authority": "project-adoption"
+      },
+      {
+        "id": "adoption-joint-motion-not-fully-quiet",
+        "name": "联合动气结果的对象限定",
+        "statement": "将“亦不息其动气”采用为所选同柱对子中天干克与地支冲的联合动气，未被所指木方会完全平息；不把联合仍动分配为某一支冲有效、某一干有效制伏、根已受损或其他救法皆无效。",
+        "authority": "project-adoption"
+      }
+    ],
+    "consequence": "所选天地交战的联合动气，未由本次所指木方会完全平息。",
+    "nonConclusions": [
+      "本层只论原局已知柱，不推岁运胜负。",
+      "动气未全静不等于凶，也不等于哪方攻击已有效。",
+      "地支冲净效、单条根生扶或受损、所有救应是否已尽仍待核。",
+      "不修改原1.4节点、边、根联系、木火局部能力或姓名评分排序。",
+      "完整强弱、从强成格与喜用神不在本层判定。",
+      "丁卯不含同柱丁火藏根；不得把卯上其他木根移作丁根。"
+    ],
+    "adjacencyRequired": false,
+    "completeInputIsMetadataOnly": true,
+    "otherRescueMechanisms": "unknown"
+  }
+}

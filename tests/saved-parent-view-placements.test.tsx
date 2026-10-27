@@ -1,0 +1,7 @@
+import {readFileSync} from 'node:fs';import {resolve} from 'node:path';import ts from 'typescript';import {it,expect} from 'vitest';
+it('four saved view slots bind only the saved current candidate, never live profile/preferences',()=>{
+ const source=ts.createSourceFile('main.tsx',readFileSync(resolve('src/renderer/main.tsx'),'utf8'),ts.ScriptTarget.Latest,true,ts.ScriptKind.TSX),slots:{owner:string|null;candidate:string|undefined;summary:boolean;props:string[]}[]=[];
+ const owner=(node:ts.Node)=>{let p:ts.Node|undefined=node;while(p){if(ts.isFunctionDeclaration(p)&&p.name)return p.name.text;p=p.parent;}return null;};
+ const walk=(node:ts.Node)=>{if(ts.isJsxSelfClosingElement(node)&&node.tagName.getText(source)==='SavedParentNamePhoneticsView'){const attrs=node.attributes.properties.filter(ts.isJsxAttribute),c=attrs.find(p=>p.name.getText(source)==='candidate');slots.push({owner:owner(node),candidate:c?.initializer?.getText(source),summary:attrs.some(p=>p.name.getText(source)==='summary'),props:attrs.map(p=>p.name.getText(source))});}ts.forEachChild(node,walk);};walk(source);
+ expect(slots).toHaveLength(4);expect(slots.filter(slot=>slot.summary)).toHaveLength(3);for(const slot of slots){expect(slot.candidate).toBe('{c}');expect(slot.props.every(p=>p==='candidate'||p==='summary')).toBe(true);}expect(slots.map(slot=>slot.owner)).toEqual(expect.arrayContaining(['App','CandidateDetail','Comparison']));expect(slots.some(slot=>slot.owner?.includes('History'))).toBe(true);
+});

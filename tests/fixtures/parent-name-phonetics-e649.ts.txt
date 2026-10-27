@@ -1,0 +1,94 @@
+import type {CmnReadingOption,CmnReadingQuery,CmnReadingSourceIdentity} from './cmn-reading';
+import {canonicalPlainJson} from './plain-json';
+import {normalizeSelectedPinyin} from '../../data/name-phonetic/name-phonetic-engine.mjs';
+
+export const PARENT_NAME_READING_VERSION='parent-name-reading/1.0.0' as const;
+export const PARENT_NAME_PHONETICS_VERSION='parent-name-phonetics/1.0.0' as const;
+export type ParentRole='father'|'mother';
+export type ParentNamePhoneticsMode='none'|'strict'|'ignore-tone';
+export interface ParentNameBinding {fatherName?:string;motherName?:string;}
+interface ConfirmedParentGivenUnit {index:number;char:string;confirmed:true;token:string;}
+export type ParentGivenReading=(ConfirmedParentGivenUnit&{origin:'family-confirmed'})|(ConfirmedParentGivenUnit&{origin:'dictionary';optionId:string;source:CmnReadingSourceIdentity});
+/** Only complete explicit confirmation creates this record. Incomplete UI drafts stay separate. */
+export interface ParentNameReading {
+ version:typeof PARENT_NAME_READING_VERSION;role:ParentRole;fullName:string;surnameLength:number;givenName:string;readings:ParentGivenReading[];
+}
+export type ParentNameReadings=ParentNameReading[];
+export type ParentGivenReadingIntent={position:number;char:string;origin:'family-confirmed';pinyin:string}|{position:number;char:string;origin:'dictionary';option:CmnReadingOption};
+export interface ParentNameReadingConfirmIntent {role:ParentRole;fullName:string;surnameLength:number;readings:ParentGivenReadingIntent[];}
+/** Main must supply queries obtained from the real fixed-source adapter/worker.
+ * Never accept this map from an IPC request. It is an external dependency for this
+ * pure validator, not a caller-provided verified flag or a second dictionary.
+ */
+export type TrustedParentCmnQueries=ReadonlyMap<string,CmnReadingQuery>;
+
+function fact(condition:unknown,message:string):asserts condition{if(!condition)throw new Error('家庭给名读音：'+message);}
+const object=(v:unknown):v is Record<string,unknown>=>!!v&&typeof v==='object'&&!Array.isArray(v)&&[Object.prototype,null].includes(Object.getPrototypeOf(v));
+const exact=(v:Record<string,unknown>,keys:string[])=>Object.keys(v).sort().join('\0')===[...keys].sort().join('\0');
+function plain(value:unknown){const text=canonicalPlainJson(value);fact(text.length<=60000,'确认资料过大。');return text;}
+function nameText(value:unknown,label:string):asserts value is string{fact(typeof value==='string'&&/^\p{Script=Han}{1,40}$/u.test(value),label+'须为完整汉字姓名；不支持的原姓名仍可另行保存，但此项不猜读音。');}
+/** Syntax normalization only, never evidence that a family actually uses this sound. */
+export function normalizeParentCmnToken(input:string):string{
+ const token=normalizeSelectedPinyin(input,1)[0],body=token.slice(0,-1);
+ // Reject obvious non-syllable strings while retaining the existing explicit
+ // selected-Pinyin semantics. This is format validation, not dictionary certification.
+ const initial=/^(zh|ch|sh|[bpmfdtnlgkhjqxzcsrwy])/.exec(body)?.[0]??'',final=body.slice(initial.length);
+ fact(/^(?:a|ai|an|ang|ao|e|ei|en|eng|er|o|ong|ou|i|ia|ian|iang|iao|ie|in|ing|iong|iu|u|ua|uai|uan|uang|ui|un|uo|v|ve|van|vn)$/.test(final)||['m','n','ng','hm'].includes(body),'请输入一个明确标调的普通话音节；不从字形或缺少的声调推测。');
+ return token;
+}
+export function parentFullName(binding:ParentNameBinding,role:ParentRole):string{
+ fact(object(binding),'姓名绑定对象无效。');const key=role==='father'?'fatherName':'motherName',descriptor=Object.getOwnPropertyDescriptor(binding,key);fact(!descriptor||Object.hasOwn(descriptor,'value')&&descriptor.enumerable,'父母原姓名不得是访问器或隐藏字段。');const value=descriptor?.value;fact(value===undefined||typeof value==='string','父母原姓名格式无效。');return value??'';
+}
+/** Unicode code-point slicing, no surname-table inference and no trim/variant rewriting. */
+export function parentGivenNameFromBoundary(fullName:string,surnameLength:number):string{
+ nameText(fullName,'原姓名');const chars=[...fullName];fact(Number.isInteger(surnameLength)&&surnameLength>=1&&surnameLength<=4&&surnameLength<chars.length,'请明确姓氏与给名的边界。');const given=chars.slice(surnameLength).join('');fact([...given].length>=1&&[...given].length<=4,'本比较支持1至4字父母给名；较长原姓名仍可保存，但此项不截短。');return given;
+}
+function actualDictionaryOption(char:string,id:string,queries:TrustedParentCmnQueries|undefined):CmnReadingOption{
+ const query=queries?.get(char);fact(query,'词典确认需要后台实际取得的本字固定来源查询。');plain(query);fact(query.char===char&&query.status==='available'&&query.source.profile==='cmn-character-source/1.0.0'&&query.source.profileSha256==='bea3067ebffc763904d4ef3d2629a2c86fcb1fa8fd3a4a57d32ff4bee6d96270'&&query.source.sourceId==='moe-revised'&&query.source.standard==='MOE-Revised-Taiwan-fixed-snapshot','不支持或不一致的词典来源。');const option=query.options.find(r=>r.optionId===id);fact(option&&option.char===char&&option.glyph.inputChar===char&&canonicalPlainJson(option.source)===canonicalPlainJson(query.source),'字典候选不属于该字和固定来源。');return option;
+}
+/** Descriptor-first server boundary. Invalid confirmed records are rejected;
+ * an absent record is normal and leaves that parent not-assessed.
+ */
+export function validateParentNameReadings(value:unknown,binding:ParentNameBinding,queries?:TrustedParentCmnQueries):ParentNameReadings{
+ if(value===undefined)return[];plain(value);fact(Array.isArray(value)&&value.length<=2,'至多确认爸爸、妈妈各一组给名读音。');const roles=new Set<string>();
+ const result=value.map((raw):ParentNameReading=>{
+  fact(object(raw)&&exact(raw,['version','role','fullName','surnameLength','givenName','readings']),'确认记录字段不完整或含额外字段。');fact(raw.version===PARENT_NAME_READING_VERSION&&(raw.role==='father'||raw.role==='mother')&&!roles.has(raw.role),'确认版本、父母角色或重复角色无效。');const role:ParentRole=raw.role;roles.add(role);nameText(raw.fullName,'确认原姓名');fact(raw.fullName===parentFullName(binding,role),'确认读音绑定的原姓名已改变，请重新确认。');fact(typeof raw.surnameLength==='number','分界须使用Unicode码点数。');const given=parentGivenNameFromBoundary(raw.fullName,raw.surnameLength);fact(raw.givenName===given&&Array.isArray(raw.readings)&&raw.readings.length===[...given].length,'给名须严格按原姓名分界取出，并逐字确认完整音节。');
+  const readings=raw.readings.map((unit,index):ParentGivenReading=>{
+   fact(object(unit)&&unit.index===index&&unit.char===[...given][index]&&unit.confirmed===true&&typeof unit.token==='string','给名字位、顺序或显式确认无效。');fact(normalizeParentCmnToken(unit.token)===unit.token,'保存音节须已规范化为小写数字调。');
+   if(unit.origin==='family-confirmed'){fact(exact(unit,['index','char','confirmed','token','origin']),'家庭录入不得附加字典来源或候选ID。');return structuredClone(unit) as unknown as ParentGivenReading;}
+   fact(unit.origin==='dictionary'&&exact(unit,['index','char','confirmed','token','origin','optionId','source'])&&typeof unit.optionId==='string','字典确认缺少精确候选ID/来源或含额外字段。');const option=actualDictionaryOption(unit.char,unit.optionId,queries);fact(unit.token===normalizeParentCmnToken(option.pinyin)&&canonicalPlainJson(unit.source)===canonicalPlainJson(option.source),'字典确认的音节或来源被替换。');return structuredClone(unit) as unknown as ParentGivenReading;
+  });
+  return{version:PARENT_NAME_READING_VERSION,role,fullName:raw.fullName,surnameLength:raw.surnameLength,givenName:given,readings};
+ });
+ return result.sort((a,b)=>['father','mother'].indexOf(a.role)-['father','mother'].indexOf(b.role));
+}
+/** Thin Panel intent adapter. Main reruns this with real fixed-source queries;
+ * client option objects are never treated as authenticated evidence.
+ */
+export function parentNameReadingFromIntent(intent:ParentNameReadingConfirmIntent,binding:ParentNameBinding,queries?:TrustedParentCmnQueries):ParentNameReading{
+ plain(intent);fact(object(intent)&&exact(intent as unknown as Record<string,unknown>,['role','fullName','surnameLength','readings'])&&(intent.role==='father'||intent.role==='mother')&&Array.isArray(intent.readings),'确认意图无效。');const given=parentGivenNameFromBoundary(intent.fullName,intent.surnameLength);
+ const readings=intent.readings.map((r,index):ParentGivenReading=>{
+  fact(object(r)&&r.position===index&&r.char===[...given][index],'确认意图的字位或原名分界不符。');
+  if(r.origin==='family-confirmed'){fact(exact(r as unknown as Record<string,unknown>,['position','char','origin','pinyin'])&&typeof r.pinyin==='string','家庭确认音节意图无效。');return{index,char:r.char,confirmed:true,origin:'family-confirmed',token:normalizeParentCmnToken(r.pinyin)};}
+  fact(r.origin==='dictionary'&&exact(r as unknown as Record<string,unknown>,['position','char','origin','option'])&&object(r.option)&&typeof r.option.optionId==='string','字典确认意图无效。');const option=actualDictionaryOption(r.char,r.option.optionId,queries);fact(canonicalPlainJson(r.option)===canonicalPlainJson(option),'提交候选不等于后台固定来源候选。');return{index,char:r.char,confirmed:true,origin:'dictionary',token:normalizeParentCmnToken(option.pinyin),optionId:option.optionId,source:structuredClone(option.source)};
+ });
+ const record:ParentNameReading={version:PARENT_NAME_READING_VERSION,role:intent.role,fullName:intent.fullName,surnameLength:intent.surnameLength,givenName:given,readings};return validateParentNameReadings([record],binding,queries)[0];
+}
+/** Panel invalidation only: changing a name or split discards confirmation rather
+ * than carrying the old reading into a new identity. Main still rejects stale data.
+ */
+export function invalidateParentNameReading(value:ParentNameReading|undefined,fullName:string,surnameLength:number):ParentNameReading|undefined{
+ if(!value)return undefined;try{plain(value);if(value.fullName!==fullName||value.surnameLength!==surnameLength||value.givenName!==parentGivenNameFromBoundary(fullName,surnameLength))return undefined;return structuredClone(value);}catch{return undefined;}
+}
+
+export interface ParentNamePhoneticChild {surname:string;surnamePinyin:string;givenName:string;characters:Array<{char:string;pinyin:string;tone:number;sourceId:string}>;}
+export interface ParentNamePhoneticInput {mode:ParentNamePhoneticsMode;profile:ParentNameBinding;child:ParentNamePhoneticChild;readings?:ParentNameReadings;}
+export interface ParentNamePhoneticComparison {
+ role:ParentRole;status:'matched'|'no-match'|'not-assessed';comparison:'exact'|'tone-only'|null;
+ parentFullName:string;parentGivenName:string|null;childGivenName:string;actualChildTokens:string[]|null;parentTokens:string[]|null;differentTonePositions:number[];reason:string;confirmedParentReading:ParentNameReading|null;
+}
+export interface ParentNamePhoneticResult {
+ version:typeof PARENT_NAME_PHONETICS_VERSION;mode:ParentNamePhoneticsMode;scope:'whole-given-name-syllables-only';childFullName:string;childGivenName:string;
+ comparisons:ParentNamePhoneticComparison[];readingOrigins:{dictionarySourceIds:string[];hasFamilyConfirmedInput:boolean};
+ notice:string;limitations:string[];scoreDelta:0;automaticRejection:false;wholeNameSuitability:'not-assessed';
+}

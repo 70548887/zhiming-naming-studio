@@ -1,0 +1,11 @@
+{
+  "schema": "m458-actual-tables-predicate-inputs/1",
+  "mainSHA256": "07d9557408be354fa858b2f0cbf9a7d0a728f601516e180da134920630540520",
+  "fixtureSHA256": "29f5a0b022e4250a37bf115666c865c3df5dc6bd2ac619997919bf331edc3134",
+  "regionSHA256": "eddbc676145baba056230b4878ae40c0789cc250654f2b1d4881bb6cf23dd8b2",
+  "functionName": "prepareReplayOperationBatch",
+  "source": "../src/main/candidate-facts.ts",
+  "regionChars": 256,
+  "sourceAuthentication": false,
+  "status": "authored-unexecuted"
+}

@@ -1,0 +1,473 @@
+{
+  "schema": "bazi-root-feedback-resource-manifest/2",
+  "methodId": "project-bazi-mainchain-145/1.3.2",
+  "applicationPolicyVersion": "naming-element-preview/1.3.2",
+  "publicationId": "bazi-root-feedback/1.3.2;preview-publication-r1",
+  "implementationSha256": "9512e67d41065be238356b55005c7ad0f079acff82858055d29510d42be7d0ef",
+  "kernel": {
+    "methodId": "project-bazi-mainchain-144/1.2.0",
+    "sourceRevision": "c73c53b4558dc5b4e339fe84e930d08695a4df5865147e422d7295a7822cc685"
+  },
+  "files": [
+    {
+      "path": "NOTICE.md",
+      "bytes": 343,
+      "sha256": "6be0c2c2a8a6a00c6a0b49f51b11d4d71372e4d422d38b73bc721b27b4bc4aa2",
+      "kind": "notice"
+    },
+    {
+      "path": "licenses/CC-BY-SA-4.0.txt",
+      "bytes": 20137,
+      "sha256": "23ee78c8bae49cf08ea2f0c84945c66b987ebe4520881fb51b3dad4fb43d07c2",
+      "kind": "license"
+    },
+    {
+      "path": "licenses/lunar-typescript-LICENSE.txt",
+      "bytes": 1062,
+      "sha256": "097ec7989106eb9a27b6eff71dbaf1cd6bb04a9b35b6c94b54fff0829a041a8c",
+      "kind": "license"
+    },
+    {
+      "path": "publication/method-publication.json",
+      "bytes": 5465,
+      "sha256": "aed686d7fa465acb26daaacdf9bcf07877843122d04c6a20bbd356a12ca1128a",
+      "kind": "publication"
+    },
+    {
+      "path": "rules/project-mainchain-1.3.2.json",
+      "bytes": 29731,
+      "sha256": "6991753b498f57bd09d1bdbe7795c8cf437a2c4b6720c2039799d5afac7456f3",
+      "kind": "rule"
+    },
+    {
+      "path": "rules/source-lock-1.3.2.json",
+      "bytes": 5372,
+      "sha256": "647f4e4b6ace4e65aca7d811c9cb7bb2071d0dbb7f91a7d4d258a4925b03e2ca",
+      "kind": "source-lock"
+    },
+    {
+      "path": "runtime-source/src/domain/bazi-mainchain/kernel-v12-fixed/branch-intervals.ts",
+      "bytes": 5390,
+      "sha256": "f351e56258c0ac5eaac0c4c77f175c6a2856c35f26a80a57d4bd8e8d40c2b129",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "runtime-source/src/domain/bazi-mainchain/kernel-v12-fixed/control-budget-types.ts",
+      "bytes": 3192,
+      "sha256": "45416041eb15d31c4ba9398d2101b116f4d9562d152593f223a9bf0c27595e8b",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "runtime-source/src/domain/bazi-mainchain/kernel-v12-fixed/control-budget.ts",
+      "bytes": 16206,
+      "sha256": "4862b961b49c43252853b9213410da5971d84c1a4c6ed3c781363a704f8468be",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "runtime-source/src/domain/bazi-mainchain/kernel-v12-fixed/numeric-interval.ts",
+      "bytes": 2011,
+      "sha256": "5ae55a799c489ed51b459b77a96f8d14cbe2ae05c165d868aaf09bedc80b7a79",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "runtime-source/src/domain/bazi-mainchain/kernel-v12-fixed/numeric-review.ts",
+      "bytes": 4280,
+      "sha256": "8afe0e5405a51bc2e30484f57cf2c4325bc152695d9f7af5d37bf106db2bd930",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "runtime-source/src/domain/bazi-mainchain/kernel-v12-fixed/resource-protection.ts",
+      "bytes": 8403,
+      "sha256": "ba22b4e8b13e39d0d07de14e28da79473b59f8d6bb0661a6ed42b5b0f378db62",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "runtime-source/src/domain/bazi-mainchain/kernel-v12-fixed/rules/project-mainchain-1.2.0.json",
+      "bytes": 25809,
+      "sha256": "3d274b797503795b80f7acb13414db783df7e1ed4fc8c3c5ae29b148b495d647",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "runtime-source/src/domain/bazi-mainchain/kernel-v12-fixed/rules/source-lock-1.2.0.json",
+      "bytes": 2917,
+      "sha256": "2928eff87b5ab147e4ce23349c2d1ab47845b45cab1f75be043075836e0f4892",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "runtime-source/src/domain/bazi-mainchain/kernel-v12-fixed/settled-flows.ts",
+      "bytes": 6476,
+      "sha256": "9dc98729555abab4cca1e26d1adf22b07e93bff21d0d269f8f3f285c08a8d318",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "runtime-source/src/domain/bazi-mainchain/kernel-v12-fixed/types-v12.ts",
+      "bytes": 2457,
+      "sha256": "3c35f79ccb54eb739814d939d388aabafffdbba362aa105a1a6f6b219f97eacd",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "runtime-source/src/domain/bazi-mainchain/project-v132/consumers.ts",
+      "bytes": 37864,
+      "sha256": "9fc27fd796503c2f07b4b0d814adb25f48a71b20793e7d2b43a0813205752c00",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "runtime-source/src/domain/bazi-mainchain/project-v132/index.ts",
+      "bytes": 7361,
+      "sha256": "7479171a0ca50de436de987e6f31b1b8884c619955ea53d7f3bd19c7d4b09d23",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "runtime-source/src/domain/bazi-mainchain/project-v132/intervention.ts",
+      "bytes": 4950,
+      "sha256": "478743a9336f18de082effb837d7f55706367843a345bec62ad29d2eb0c9c153",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "runtime-source/src/domain/bazi-mainchain/project-v132/presentation.ts",
+      "bytes": 10867,
+      "sha256": "82f3f2626241749216d3b67c6511b07f42a26af66f55e48afc729bec33e9890e",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "runtime-source/src/domain/bazi-mainchain/project-v132/regime-protection.ts",
+      "bytes": 1405,
+      "sha256": "c8772637d2440a2781fb174fb8ff4f1cc8164f6e708a987afec92adf21971989",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "runtime-source/src/domain/bazi-mainchain/project-v132/root-feedback-types.ts",
+      "bytes": 4781,
+      "sha256": "a3bfb200f3e37046d955b72b1d0c6f95e9e89d29d36185c0c908f31beab1dac3",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "runtime-source/src/domain/bazi-mainchain/project-v132/root-feedback.ts",
+      "bytes": 16800,
+      "sha256": "74ba6990d716900488ded56e3cb838e026cd516ef03aa10071a940aeba8b2675",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "runtime-source/src/domain/bazi-mainchain/project-v132/rules/project-mainchain-1.3.2.json",
+      "bytes": 29731,
+      "sha256": "6991753b498f57bd09d1bdbe7795c8cf437a2c4b6720c2039799d5afac7456f3",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "runtime-source/src/domain/bazi-mainchain/project-v132/rules/qiongtong-initial-reference.json",
+      "bytes": 172719,
+      "sha256": "71d58e5c547297feabbe44023cfb7ceed213f6582215ca21273076e98328ff48",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "runtime-source/src/domain/bazi-mainchain/project-v132/rules/source-lock-1.3.2.json",
+      "bytes": 5372,
+      "sha256": "647f4e4b6ace4e65aca7d811c9cb7bb2071d0dbb7f91a7d4d258a4925b03e2ca",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "runtime-source/src/domain/bazi-mainchain/project-v132/settled-flows.ts",
+      "bytes": 6726,
+      "sha256": "471ac93789932ede398bd16b8d764e2cee8a549e839f3a3e523f3d568a985394",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "runtime-source/src/domain/bazi-mainchain/project-v132/types-v13-consumers.ts",
+      "bytes": 2530,
+      "sha256": "9d2a81040f403e55886c8a12b35c1974ececd6f2eeac0ca547f9fe5933d8f96c",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "runtime-source/src/domain/bazi-root-calendar-branches.ts",
+      "bytes": 5558,
+      "sha256": "fd9a633c3fbb09703a8f954446e1dda47813dbad9d42f914f73df1bc764c9f11",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "runtime-source/src/main/bazi-root-feedback-v132-bundle.ts",
+      "bytes": 398,
+      "sha256": "d8ca9040a5f5243a75a0037a81ed2d4fccf6917d1d2d8975e66d5be5275fabb6",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "runtime-source/src/main/bazi-root-feedback-v132-engine.ts",
+      "bytes": 2061,
+      "sha256": "635700e61425cc3288e1ca1f4593c070e14f18e2ffe120dda484c298aa206316",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "runtime-source/src/main/bazi-root-feedback-v132-facade.ts",
+      "bytes": 2716,
+      "sha256": "d17a9bf9f41367609665152d24784a780668661d0d9b02951a560e42e9cbb358",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "runtime-source/src/main/bazi-root-feedback-v132-resources.ts",
+      "bytes": 7232,
+      "sha256": "1466974faa2b8d92711f49df3cd074d7888bf590877bef6c0d5320ecfba62204",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "runtime-source/src/main/bazi-root-feedback-versioned.ts",
+      "bytes": 1458,
+      "sha256": "ea095ec2d0ff0a1d299ffbc9b95eac7bb87014d70fee8ec3ec83e2549e513231",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "runtime-source/src/shared/bazi-mainchain-method-types.ts",
+      "bytes": 3942,
+      "sha256": "281bf82dc3ce4bb443adaf5cd349cc09edd6186e7c78ac35aab4ef8fb26896df",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "runtime-source/src/shared/bazi-root-feedback-v132-facade.ts",
+      "bytes": 1680,
+      "sha256": "526286aa22db882bc7e5387efb1a662ec212a8fd159f1f1a181a69f4197c5402",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "runtime-source/src/shared/bazi-root-feedback-v132.ts",
+      "bytes": 4115,
+      "sha256": "9f2529b1410da3212be3d310933427028fc8475c965a8bed269e4aef24dffe5f",
+      "kind": "runtime-source"
+    }
+  ],
+  "sources": [
+    {
+      "id": "project-bazi-mainchain-145-v132-preview",
+      "name": "Root feedback 1.3.2 independent project preview publication",
+      "url": "project://bazi-root-feedback/1.3.2",
+      "commit": "9512e67d41065be238356b55005c7ad0f079acff82858055d29510d42be7d0ef",
+      "license": "Project proposal; MIT and CC-BY-SA-4.0 source licenses preserved",
+      "files": [
+        "NOTICE.md",
+        "licenses/CC-BY-SA-4.0.txt",
+        "licenses/lunar-typescript-LICENSE.txt",
+        "publication/method-publication.json",
+        "rules/project-mainchain-1.3.2.json",
+        "rules/source-lock-1.3.2.json",
+        "runtime-source/src/domain/bazi-mainchain/kernel-v12-fixed/branch-intervals.ts",
+        "runtime-source/src/domain/bazi-mainchain/kernel-v12-fixed/control-budget-types.ts",
+        "runtime-source/src/domain/bazi-mainchain/kernel-v12-fixed/control-budget.ts",
+        "runtime-source/src/domain/bazi-mainchain/kernel-v12-fixed/numeric-interval.ts",
+        "runtime-source/src/domain/bazi-mainchain/kernel-v12-fixed/numeric-review.ts",
+        "runtime-source/src/domain/bazi-mainchain/kernel-v12-fixed/resource-protection.ts",
+        "runtime-source/src/domain/bazi-mainchain/kernel-v12-fixed/rules/project-mainchain-1.2.0.json",
+        "runtime-source/src/domain/bazi-mainchain/kernel-v12-fixed/rules/source-lock-1.2.0.json",
+        "runtime-source/src/domain/bazi-mainchain/kernel-v12-fixed/settled-flows.ts",
+        "runtime-source/src/domain/bazi-mainchain/kernel-v12-fixed/types-v12.ts",
+        "runtime-source/src/domain/bazi-mainchain/project-v132/consumers.ts",
+        "runtime-source/src/domain/bazi-mainchain/project-v132/index.ts",
+        "runtime-source/src/domain/bazi-mainchain/project-v132/intervention.ts",
+        "runtime-source/src/domain/bazi-mainchain/project-v132/presentation.ts",
+        "runtime-source/src/domain/bazi-mainchain/project-v132/regime-protection.ts",
+        "runtime-source/src/domain/bazi-mainchain/project-v132/root-feedback-types.ts",
+        "runtime-source/src/domain/bazi-mainchain/project-v132/root-feedback.ts",
+        "runtime-source/src/domain/bazi-mainchain/project-v132/rules/project-mainchain-1.3.2.json",
+        "runtime-source/src/domain/bazi-mainchain/project-v132/rules/qiongtong-initial-reference.json",
+        "runtime-source/src/domain/bazi-mainchain/project-v132/rules/source-lock-1.3.2.json",
+        "runtime-source/src/domain/bazi-mainchain/project-v132/settled-flows.ts",
+        "runtime-source/src/domain/bazi-mainchain/project-v132/types-v13-consumers.ts",
+        "runtime-source/src/domain/bazi-root-calendar-branches.ts",
+        "runtime-source/src/main/bazi-root-feedback-v132-bundle.ts",
+        "runtime-source/src/main/bazi-root-feedback-v132-engine.ts",
+        "runtime-source/src/main/bazi-root-feedback-v132-facade.ts",
+        "runtime-source/src/main/bazi-root-feedback-v132-resources.ts",
+        "runtime-source/src/main/bazi-root-feedback-versioned.ts",
+        "runtime-source/src/shared/bazi-mainchain-method-types.ts",
+        "runtime-source/src/shared/bazi-root-feedback-v132-facade.ts",
+        "runtime-source/src/shared/bazi-root-feedback-v132.ts"
+      ],
+      "sha256": "aed686d7fa465acb26daaacdf9bcf07877843122d04c6a20bbd356a12ca1128a",
+      "note": "Independent fixed implementation; preview only, no admitted naming application or new saved certificate."
+    }
+  ],
+  "executionSources": [
+    {
+      "sourcePath": "src/domain/bazi-mainchain/kernel-v12-fixed/branch-intervals.ts",
+      "resourcePath": "runtime-source/src/domain/bazi-mainchain/kernel-v12-fixed/branch-intervals.ts",
+      "bytes": 5390,
+      "sha256": "f351e56258c0ac5eaac0c4c77f175c6a2856c35f26a80a57d4bd8e8d40c2b129"
+    },
+    {
+      "sourcePath": "src/domain/bazi-mainchain/kernel-v12-fixed/control-budget-types.ts",
+      "resourcePath": "runtime-source/src/domain/bazi-mainchain/kernel-v12-fixed/control-budget-types.ts",
+      "bytes": 3192,
+      "sha256": "45416041eb15d31c4ba9398d2101b116f4d9562d152593f223a9bf0c27595e8b"
+    },
+    {
+      "sourcePath": "src/domain/bazi-mainchain/kernel-v12-fixed/control-budget.ts",
+      "resourcePath": "runtime-source/src/domain/bazi-mainchain/kernel-v12-fixed/control-budget.ts",
+      "bytes": 16206,
+      "sha256": "4862b961b49c43252853b9213410da5971d84c1a4c6ed3c781363a704f8468be"
+    },
+    {
+      "sourcePath": "src/domain/bazi-mainchain/kernel-v12-fixed/numeric-interval.ts",
+      "resourcePath": "runtime-source/src/domain/bazi-mainchain/kernel-v12-fixed/numeric-interval.ts",
+      "bytes": 2011,
+      "sha256": "5ae55a799c489ed51b459b77a96f8d14cbe2ae05c165d868aaf09bedc80b7a79"
+    },
+    {
+      "sourcePath": "src/domain/bazi-mainchain/kernel-v12-fixed/numeric-review.ts",
+      "resourcePath": "runtime-source/src/domain/bazi-mainchain/kernel-v12-fixed/numeric-review.ts",
+      "bytes": 4280,
+      "sha256": "8afe0e5405a51bc2e30484f57cf2c4325bc152695d9f7af5d37bf106db2bd930"
+    },
+    {
+      "sourcePath": "src/domain/bazi-mainchain/kernel-v12-fixed/resource-protection.ts",
+      "resourcePath": "runtime-source/src/domain/bazi-mainchain/kernel-v12-fixed/resource-protection.ts",
+      "bytes": 8403,
+      "sha256": "ba22b4e8b13e39d0d07de14e28da79473b59f8d6bb0661a6ed42b5b0f378db62"
+    },
+    {
+      "sourcePath": "src/domain/bazi-mainchain/kernel-v12-fixed/rules/project-mainchain-1.2.0.json",
+      "resourcePath": "runtime-source/src/domain/bazi-mainchain/kernel-v12-fixed/rules/project-mainchain-1.2.0.json",
+      "bytes": 25809,
+      "sha256": "3d274b797503795b80f7acb13414db783df7e1ed4fc8c3c5ae29b148b495d647"
+    },
+    {
+      "sourcePath": "src/domain/bazi-mainchain/kernel-v12-fixed/rules/source-lock-1.2.0.json",
+      "resourcePath": "runtime-source/src/domain/bazi-mainchain/kernel-v12-fixed/rules/source-lock-1.2.0.json",
+      "bytes": 2917,
+      "sha256": "2928eff87b5ab147e4ce23349c2d1ab47845b45cab1f75be043075836e0f4892"
+    },
+    {
+      "sourcePath": "src/domain/bazi-mainchain/kernel-v12-fixed/settled-flows.ts",
+      "resourcePath": "runtime-source/src/domain/bazi-mainchain/kernel-v12-fixed/settled-flows.ts",
+      "bytes": 6476,
+      "sha256": "9dc98729555abab4cca1e26d1adf22b07e93bff21d0d269f8f3f285c08a8d318"
+    },
+    {
+      "sourcePath": "src/domain/bazi-mainchain/kernel-v12-fixed/types-v12.ts",
+      "resourcePath": "runtime-source/src/domain/bazi-mainchain/kernel-v12-fixed/types-v12.ts",
+      "bytes": 2457,
+      "sha256": "3c35f79ccb54eb739814d939d388aabafffdbba362aa105a1a6f6b219f97eacd"
+    },
+    {
+      "sourcePath": "src/domain/bazi-mainchain/project-v132/consumers.ts",
+      "resourcePath": "runtime-source/src/domain/bazi-mainchain/project-v132/consumers.ts",
+      "bytes": 37864,
+      "sha256": "9fc27fd796503c2f07b4b0d814adb25f48a71b20793e7d2b43a0813205752c00"
+    },
+    {
+      "sourcePath": "src/domain/bazi-mainchain/project-v132/index.ts",
+      "resourcePath": "runtime-source/src/domain/bazi-mainchain/project-v132/index.ts",
+      "bytes": 7361,
+      "sha256": "7479171a0ca50de436de987e6f31b1b8884c619955ea53d7f3bd19c7d4b09d23"
+    },
+    {
+      "sourcePath": "src/domain/bazi-mainchain/project-v132/intervention.ts",
+      "resourcePath": "runtime-source/src/domain/bazi-mainchain/project-v132/intervention.ts",
+      "bytes": 4950,
+      "sha256": "478743a9336f18de082effb837d7f55706367843a345bec62ad29d2eb0c9c153"
+    },
+    {
+      "sourcePath": "src/domain/bazi-mainchain/project-v132/presentation.ts",
+      "resourcePath": "runtime-source/src/domain/bazi-mainchain/project-v132/presentation.ts",
+      "bytes": 10867,
+      "sha256": "82f3f2626241749216d3b67c6511b07f42a26af66f55e48afc729bec33e9890e"
+    },
+    {
+      "sourcePath": "src/domain/bazi-mainchain/project-v132/regime-protection.ts",
+      "resourcePath": "runtime-source/src/domain/bazi-mainchain/project-v132/regime-protection.ts",
+      "bytes": 1405,
+      "sha256": "c8772637d2440a2781fb174fb8ff4f1cc8164f6e708a987afec92adf21971989"
+    },
+    {
+      "sourcePath": "src/domain/bazi-mainchain/project-v132/root-feedback-types.ts",
+      "resourcePath": "runtime-source/src/domain/bazi-mainchain/project-v132/root-feedback-types.ts",
+      "bytes": 4781,
+      "sha256": "a3bfb200f3e37046d955b72b1d0c6f95e9e89d29d36185c0c908f31beab1dac3"
+    },
+    {
+      "sourcePath": "src/domain/bazi-mainchain/project-v132/root-feedback.ts",
+      "resourcePath": "runtime-source/src/domain/bazi-mainchain/project-v132/root-feedback.ts",
+      "bytes": 16800,
+      "sha256": "74ba6990d716900488ded56e3cb838e026cd516ef03aa10071a940aeba8b2675"
+    },
+    {
+      "sourcePath": "src/domain/bazi-mainchain/project-v132/rules/project-mainchain-1.3.2.json",
+      "resourcePath": "runtime-source/src/domain/bazi-mainchain/project-v132/rules/project-mainchain-1.3.2.json",
+      "bytes": 29731,
+      "sha256": "6991753b498f57bd09d1bdbe7795c8cf437a2c4b6720c2039799d5afac7456f3"
+    },
+    {
+      "sourcePath": "src/domain/bazi-mainchain/project-v132/rules/qiongtong-initial-reference.json",
+      "resourcePath": "runtime-source/src/domain/bazi-mainchain/project-v132/rules/qiongtong-initial-reference.json",
+      "bytes": 172719,
+      "sha256": "71d58e5c547297feabbe44023cfb7ceed213f6582215ca21273076e98328ff48"
+    },
+    {
+      "sourcePath": "src/domain/bazi-mainchain/project-v132/rules/source-lock-1.3.2.json",
+      "resourcePath": "runtime-source/src/domain/bazi-mainchain/project-v132/rules/source-lock-1.3.2.json",
+      "bytes": 5372,
+      "sha256": "647f4e4b6ace4e65aca7d811c9cb7bb2071d0dbb7f91a7d4d258a4925b03e2ca"
+    },
+    {
+      "sourcePath": "src/domain/bazi-mainchain/project-v132/settled-flows.ts",
+      "resourcePath": "runtime-source/src/domain/bazi-mainchain/project-v132/settled-flows.ts",
+      "bytes": 6726,
+      "sha256": "471ac93789932ede398bd16b8d764e2cee8a549e839f3a3e523f3d568a985394"
+    },
+    {
+      "sourcePath": "src/domain/bazi-mainchain/project-v132/types-v13-consumers.ts",
+      "resourcePath": "runtime-source/src/domain/bazi-mainchain/project-v132/types-v13-consumers.ts",
+      "bytes": 2530,
+      "sha256": "9d2a81040f403e55886c8a12b35c1974ececd6f2eeac0ca547f9fe5933d8f96c"
+    },
+    {
+      "sourcePath": "src/domain/bazi-root-calendar-branches.ts",
+      "resourcePath": "runtime-source/src/domain/bazi-root-calendar-branches.ts",
+      "bytes": 5558,
+      "sha256": "fd9a633c3fbb09703a8f954446e1dda47813dbad9d42f914f73df1bc764c9f11"
+    },
+    {
+      "sourcePath": "src/main/bazi-root-feedback-v132-bundle.ts",
+      "resourcePath": "runtime-source/src/main/bazi-root-feedback-v132-bundle.ts",
+      "bytes": 398,
+      "sha256": "d8ca9040a5f5243a75a0037a81ed2d4fccf6917d1d2d8975e66d5be5275fabb6"
+    },
+    {
+      "sourcePath": "src/main/bazi-root-feedback-v132-engine.ts",
+      "resourcePath": "runtime-source/src/main/bazi-root-feedback-v132-engine.ts",
+      "bytes": 2061,
+      "sha256": "635700e61425cc3288e1ca1f4593c070e14f18e2ffe120dda484c298aa206316"
+    },
+    {
+      "sourcePath": "src/main/bazi-root-feedback-v132-facade.ts",
+      "resourcePath": "runtime-source/src/main/bazi-root-feedback-v132-facade.ts",
+      "bytes": 2716,
+      "sha256": "d17a9bf9f41367609665152d24784a780668661d0d9b02951a560e42e9cbb358"
+    },
+    {
+      "sourcePath": "src/main/bazi-root-feedback-v132-resources.ts",
+      "resourcePath": "runtime-source/src/main/bazi-root-feedback-v132-resources.ts",
+      "bytes": 7232,
+      "sha256": "1466974faa2b8d92711f49df3cd074d7888bf590877bef6c0d5320ecfba62204"
+    },
+    {
+      "sourcePath": "src/main/bazi-root-feedback-versioned.ts",
+      "resourcePath": "runtime-source/src/main/bazi-root-feedback-versioned.ts",
+      "bytes": 1458,
+      "sha256": "ea095ec2d0ff0a1d299ffbc9b95eac7bb87014d70fee8ec3ec83e2549e513231"
+    },
+    {
+      "sourcePath": "src/shared/bazi-mainchain-method-types.ts",
+      "resourcePath": "runtime-source/src/shared/bazi-mainchain-method-types.ts",
+      "bytes": 3942,
+      "sha256": "281bf82dc3ce4bb443adaf5cd349cc09edd6186e7c78ac35aab4ef8fb26896df"
+    },
+    {
+      "sourcePath": "src/shared/bazi-root-feedback-v132-facade.ts",
+      "resourcePath": "runtime-source/src/shared/bazi-root-feedback-v132-facade.ts",
+      "bytes": 1680,
+      "sha256": "526286aa22db882bc7e5387efb1a662ec212a8fd159f1f1a181a69f4197c5402"
+    },
+    {
+      "sourcePath": "src/shared/bazi-root-feedback-v132.ts",
+      "resourcePath": "runtime-source/src/shared/bazi-root-feedback-v132.ts",
+      "bytes": 4115,
+      "sha256": "9f2529b1410da3212be3d310933427028fc8475c965a8bed269e4aef24dffe5f"
+    }
+  ]
+}

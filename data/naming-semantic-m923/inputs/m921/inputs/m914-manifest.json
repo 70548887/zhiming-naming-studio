@@ -1,0 +1,44 @@
+{
+  "schema": "m914-naming-data-manifest/1",
+  "batchId": "M914-D01",
+  "version": "1.0.0-candidate.1",
+  "candidateOnly": true,
+  "activation": "off",
+  "productionApproved": false,
+  "formalCoverageAdded": 0,
+  "defaultAutomaticCoverageAdded": 0,
+  "defaultDatasetChanged": false,
+  "automaticSemanticCreditAllowed": false,
+  "automaticNameRecommendation": false,
+  "wholeNameAssessment": "not-assessed",
+  "wholeNameReviewRequired": true,
+  "sourceCount": 20,
+  "caseCount": 20,
+  "files": [
+    {
+      "file": "selection.json",
+      "bytes": 66093,
+      "sha256": "b7e6d8bbf2ca13c086f781763e6b74ffb344f5585561be43b1a5705871e7bdf5"
+    },
+    {
+      "file": "source-subset.json",
+      "bytes": 106824,
+      "sha256": "8d76e27ad008ed92747ac19aa04563233a5479f215ba03743eff63d654c958ff"
+    },
+    {
+      "file": "source-lock.json",
+      "bytes": 2199,
+      "sha256": "93cbee88e96b9a4e95cc0c2d2e19f0288d85040cce53ce45c7c1ed8b7864ee48"
+    },
+    {
+      "file": "admission.json",
+      "bytes": 4465,
+      "sha256": "baa36147c836fea0f16b9e84e26475a9b718cfd5fa2079641484a878d803550f"
+    },
+    {
+      "file": "baseline-overlap.json",
+      "bytes": 7201,
+      "sha256": "95bb9aef12293bf81a7170c507b0d81ba09471eb7094e834e6faf5d2fbcf7753"
+    }
+  ]
+}

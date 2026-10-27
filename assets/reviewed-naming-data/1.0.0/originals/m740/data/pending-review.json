@@ -1,0 +1,300 @@
+{
+  "schema": "m740-per-row-review-queue/1",
+  "batchId": "M740-D02",
+  "status": "pending-independent-review",
+  "formalCoverageAdded": 0,
+  "rows": [
+    {
+      "caseId": "single-meaning-m740:邦:143600:0:1",
+      "char": "邦",
+      "pinyin": "bāng",
+      "tone": 1,
+      "dictionaryWord": "邦",
+      "dictionarySense": "泛稱國家。",
+      "sourcePOS": "名",
+      "projectMeaning": "取国家这一文化主题意象。",
+      "historicalStatus": "approved",
+      "historicalApplicability": "manual-confirmation-required",
+      "historicalReason": "须由家庭确认家国主题和完整姓名语境，国家本身不直接构成人的品质。",
+      "glyphKind": "exact-source-glyph",
+      "glyphReview": "pending",
+      "senseReview": "pending",
+      "projectReview": "pending",
+      "wholeNameReview": "not-assessed",
+      "limits": [
+        "家国主题须结合家庭意愿和完整姓名确认。",
+        "国家不是个人品质，不推定政治身份、公共成就或命运。"
+      ],
+      "unknowns": [],
+      "requiredChecks": [
+        "独立核对单字原义及默认读音",
+        "确认项目取意与原文分栏",
+        "保留历史 manual/pending 及完整姓名消歧",
+        "实际 query/generation 接线由 root 后续安排"
+      ]
+    },
+    {
+      "caseId": "single-meaning-m740:沫:83904:0:0",
+      "char": "沫",
+      "pinyin": "mò",
+      "tone": 4,
+      "dictionaryWord": "沫",
+      "dictionarySense": "液體形成而浮於表面的小泡。",
+      "sourcePOS": "名",
+      "projectMeaning": "取液体表面小泡这一具体自然意象。",
+      "historicalStatus": "approved",
+      "historicalApplicability": "manual-confirmation-required",
+      "historicalReason": "现审限小泡审美并要求接受口水和易散联想。",
+      "glyphKind": "exact-source-glyph",
+      "glyphReview": "pending",
+      "senseReview": "pending",
+      "projectReview": "pending",
+      "wholeNameReview": "not-assessed",
+      "limits": [
+        "原条另有口水与停止等义，须结合完整姓名消歧并确认小泡审美主题。",
+        "小泡意象不推定纯洁、性格、健康或人生结果。"
+      ],
+      "unknowns": [],
+      "requiredChecks": [
+        "独立核对单字原义及默认读音",
+        "确认项目取意与原文分栏",
+        "保留历史 manual/pending 及完整姓名消歧",
+        "实际 query/generation 接线由 root 后续安排"
+      ]
+    },
+    {
+      "caseId": "single-meaning-m740:纪:111076:0:0",
+      "char": "纪",
+      "pinyin": "jì",
+      "tone": 4,
+      "dictionaryWord": "紀",
+      "dictionarySense": "絲的頭緒、條理。",
+      "sourcePOS": "名",
+      "projectMeaning": "取丝线头绪与条理的字面意象。",
+      "historicalStatus": "approved",
+      "historicalApplicability": "manual-confirmation-required",
+      "historicalReason": "原审为context-bound，法度准则需明确采用语境及jì读音。",
+      "glyphKind": "fixed-unicode-traditional-simplified-relation",
+      "glyphReview": "pending",
+      "senseReview": "pending",
+      "projectReview": "pending",
+      "wholeNameReview": "not-assessed",
+      "limits": [
+        "采用默认 jì 与原词头紀，不混为其他读音。",
+        "头绪与条理是所选字义，不据名字推定自律、思维或学习能力。"
+      ],
+      "unknowns": [],
+      "requiredChecks": [
+        "独立核对单字原义及默认读音",
+        "确认项目取意与原文分栏",
+        "保留历史 manual/pending 及完整姓名消歧",
+        "实际 query/generation 接线由 root 后续安排"
+      ]
+    },
+    {
+      "caseId": "single-meaning-m740:纶:113321:0:0",
+      "char": "纶",
+      "pinyin": "lún",
+      "tone": 2,
+      "dictionaryWord": "綸",
+      "dictionarySense": "青色的絲帶。",
+      "sourcePOS": "名",
+      "projectMeaning": "取青色丝带这一具体织物意象。",
+      "historicalStatus": "approved",
+      "historicalApplicability": "manual-confirmation-required",
+      "historicalReason": "原审只允许明确的复名织物意象，青丝带与其他綸义需人工固定。",
+      "glyphKind": "fixed-unicode-traditional-simplified-relation",
+      "glyphReview": "pending",
+      "senseReview": "pending",
+      "projectReview": "pending",
+      "wholeNameReview": "not-assessed",
+      "limits": [
+        "只选默认 lún 的丝带义，不借 guān 读音或帝王旨意义。",
+        "织物与色彩主题须由家庭和全名确认，不推定气质、身份或才干。"
+      ],
+      "unknowns": [],
+      "requiredChecks": [
+        "独立核对单字原义及默认读音",
+        "确认项目取意与原文分栏",
+        "保留历史 manual/pending 及完整姓名消歧",
+        "实际 query/generation 接线由 root 后续安排"
+      ]
+    },
+    {
+      "caseId": "single-meaning-m740:年:49288:0:0",
+      "char": "年",
+      "pinyin": "nián",
+      "tone": 2,
+      "dictionaryWord": "年",
+      "dictionarySense": "地球環繞太陽一周所需的時間。",
+      "sourcePOS": "名",
+      "projectMeaning": "取一年这一时间周期意象。",
+      "historicalStatus": "approved",
+      "historicalApplicability": "manual-confirmation-required",
+      "historicalReason": "原审为时间纪念语境，须核全名或家庭时间主题。",
+      "glyphKind": "exact-source-glyph",
+      "glyphReview": "pending",
+      "senseReview": "pending",
+      "projectReview": "pending",
+      "wholeNameReview": "not-assessed",
+      "limits": [
+        "时间纪念的具体主题须结合全名与家庭语境确认。",
+        "不从时间单位推导寿命、长寿、收成或未来结果。"
+      ],
+      "unknowns": [],
+      "requiredChecks": [
+        "独立核对单字原义及默认读音",
+        "确认项目取意与原文分栏",
+        "保留历史 manual/pending 及完整姓名消歧",
+        "实际 query/generation 接线由 root 后续安排"
+      ]
+    },
+    {
+      "caseId": "single-meaning-m740:农:140081:0:2",
+      "char": "农",
+      "pinyin": "nóng",
+      "tone": 2,
+      "dictionaryWord": "農",
+      "dictionarySense": "耕種事業。",
+      "sourcePOS": "名",
+      "projectMeaning": "取耕种事业这一农作主题意象。",
+      "historicalStatus": "approved",
+      "historicalApplicability": "manual-confirmation-required",
+      "historicalReason": "勤勉义属于古文用法，现代农业指向强，原审要求明确复名语境。",
+      "glyphKind": "fixed-unicode-traditional-simplified-relation",
+      "glyphReview": "pending",
+      "senseReview": "pending",
+      "projectReview": "pending",
+      "wholeNameReview": "not-assessed",
+      "limits": [
+        "本条采用耕种事业名词义，不把古义努力勤勉转成人格判断。",
+        "家庭是否采用农业主题仍待确认，不推定职业、收入或收获。"
+      ],
+      "unknowns": [],
+      "requiredChecks": [
+        "独立核对单字原义及默认读音",
+        "确认项目取意与原文分栏",
+        "保留历史 manual/pending 及完整姓名消歧",
+        "实际 query/generation 接线由 root 后续安排"
+      ]
+    },
+    {
+      "caseId": "single-meaning-m740:作:10964:0:10",
+      "char": "作",
+      "pinyin": "zuò",
+      "tone": 4,
+      "dictionaryWord": "作",
+      "dictionarySense": "詩文書畫與藝術品稱為「作」。",
+      "sourcePOS": "名",
+      "projectMeaning": "取诗文书画与艺术作品这一文化意象。",
+      "historicalStatus": "approved",
+      "historicalApplicability": "manual-confirmation-required",
+      "historicalReason": "创作需明确所作与默认zuò语境，原审要求复名并排除假装等义。",
+      "glyphKind": "exact-source-glyph",
+      "glyphReview": "pending",
+      "senseReview": "pending",
+      "projectReview": "pending",
+      "wholeNameReview": "not-assessed",
+      "limits": [
+        "本条采用名词作品义，原条假装等其他义仍须结合完整姓名消歧。",
+        "作品主题不证明创造力、艺术天赋或未来成就，采用方向仍待家庭确认。"
+      ],
+      "unknowns": [],
+      "requiredChecks": [
+        "独立核对单字原义及默认读音",
+        "确认项目取意与原文分栏",
+        "保留历史 manual/pending 及完整姓名消歧",
+        "实际 query/generation 接线由 root 后续安排"
+      ]
+    },
+    {
+      "caseId": "single-meaning-m740:岁:80142:0:1",
+      "char": "岁",
+      "pinyin": "suì",
+      "tone": 4,
+      "dictionaryWord": "歲",
+      "dictionarySense": "時光。",
+      "sourcePOS": "名",
+      "projectMeaning": "取时光这一时间意象。",
+      "historicalStatus": "approved",
+      "historicalApplicability": "manual-confirmation-required",
+      "historicalReason": "时间意象依赖全名或家庭纪念主题，不能自动许诺长寿。",
+      "glyphKind": "fixed-unicode-traditional-simplified-relation",
+      "glyphReview": "pending",
+      "senseReview": "pending",
+      "projectReview": "pending",
+      "wholeNameReview": "not-assessed",
+      "limits": [
+        "时间主题与纪念对象须由家庭和完整姓名确认。",
+        "时光不构成长寿、成熟程度、健康或命运预测。"
+      ],
+      "unknowns": [],
+      "requiredChecks": [
+        "独立核对单字原义及默认读音",
+        "确认项目取意与原文分栏",
+        "保留历史 manual/pending 及完整姓名消歧",
+        "实际 query/generation 接线由 root 后续安排"
+      ]
+    },
+    {
+      "caseId": "single-meaning-m740:叶:124301:0:0",
+      "char": "叶",
+      "pinyin": "yè",
+      "tone": 4,
+      "dictionaryWord": "葉",
+      "dictionarySense": "植物的一部分。生於枝幹上，專營呼吸、蒸發等作用，部分植物的葉子則因變態而具有貯藏、保護或捕食的功能。",
+      "sourcePOS": "名",
+      "projectMeaning": "取植物叶片这一具体自然意象。",
+      "historicalStatus": "pending",
+      "historicalApplicability": "not-approved",
+      "historicalReason": "原审待定：叶与葉的本字词条映射未闭合。",
+      "glyphKind": "fixed-unicode-traditional-simplified-relation",
+      "glyphReview": "pending",
+      "senseReview": "pending",
+      "projectReview": "pending",
+      "wholeNameReview": "not-assessed",
+      "limits": [
+        "本批仅记录叶到葉的固定 Unicode 字形关系与默认 yè 来源，不解除原审的来源身份待审状态。",
+        "叶片意象不推定生命力、健康、性格或五行，采用主题须结合完整姓名。"
+      ],
+      "unknowns": [
+        "原来源身份待审结论保留；当前字形关系证据不构成准入。"
+      ],
+      "requiredChecks": [
+        "独立核对单字原义及默认读音",
+        "确认项目取意与原文分栏",
+        "保留历史 manual/pending 及完整姓名消歧",
+        "实际 query/generation 接线由 root 后续安排"
+      ]
+    },
+    {
+      "caseId": "single-meaning-m740:萧:125387:0:0",
+      "char": "萧",
+      "pinyin": "xiāo",
+      "tone": 1,
+      "dictionaryWord": "蕭",
+      "dictionarySense": "一種香草。即艾蒿。",
+      "sourcePOS": "名",
+      "projectMeaning": "取艾蒿这一具体香草意象。",
+      "historicalStatus": "approved",
+      "historicalApplicability": "manual-confirmation-required",
+      "historicalReason": "香草艾蒿义需复名明确，单用兼萧条萧瑟等负向语境。",
+      "glyphKind": "fixed-unicode-traditional-simplified-relation",
+      "glyphReview": "pending",
+      "senseReview": "pending",
+      "projectReview": "pending",
+      "wholeNameReview": "not-assessed",
+      "limits": [
+        "原条另有寂寥、冷清等义，完整姓名仍须消歧。",
+        "香草主题不推定品格、健康、药效或运势。"
+      ],
+      "unknowns": [],
+      "requiredChecks": [
+        "独立核对单字原义及默认读音",
+        "确认项目取意与原文分栏",
+        "保留历史 manual/pending 及完整姓名消歧",
+        "实际 query/generation 接线由 root 后续安排"
+      ]
+    }
+  ]
+}

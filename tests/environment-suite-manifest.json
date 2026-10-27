@@ -1,0 +1,519 @@
+{
+  "schema": "naming-test-environment-partition/1",
+  "baseCommit": "289228dd9d8b4f2dd24ff57f7314dcb98d51f709",
+  "exclusionMeaning": "Not collected by default; never a pass or skipped acceptance. Explicit groups fail on missing prerequisite files/materials.",
+  "entries": [
+    {
+      "file": "tests/ai-capability-ui-handlers.test.ts",
+      "group": "legacy-external-environment",
+      "requires": ".local/seasonal-115/ai-ui-handler-results.json",
+      "status": "not-run-by-portable-suite",
+      "origin": {
+        "commit": "57acb6d5c3d8fcd002ea028890aa227dbbd87ede",
+        "file": "tests/environment-suite-manifest.json"
+      }
+    },
+    {
+      "file": "tests/favorable-async-handlers.test.ts",
+      "group": "legacy-external-environment",
+      "requires": ".local/fix-113/favorable-handler-results.json",
+      "status": "not-run-by-portable-suite",
+      "origin": {
+        "commit": "57acb6d5c3d8fcd002ea028890aa227dbbd87ede",
+        "file": "tests/environment-suite-manifest.json"
+      }
+    },
+    {
+      "file": "tests/m601-compact-store-flow.test.ts",
+      "group": "legacy-external-environment",
+      "requires": "D:/Codex-NamingStudio-Evidence/m601-current-compact",
+      "status": "not-run-by-portable-suite",
+      "origin": {
+        "commit": "57acb6d5c3d8fcd002ea028890aa227dbbd87ede",
+        "file": "tests/environment-suite-manifest.json"
+      }
+    },
+    {
+      "file": "tests/m814-semantic-input-boundary.test.ts",
+      "group": "legacy-external-environment",
+      "requires": "M740/M744/M751/M752 external fixed publications",
+      "status": "not-run-by-portable-suite",
+      "origin": {
+        "commit": "57acb6d5c3d8fcd002ea028890aa227dbbd87ede",
+        "file": "tests/environment-suite-manifest.json"
+      }
+    },
+    {
+      "file": "tests/m882-compact-validation-negative.test.ts",
+      "group": "legacy-external-environment",
+      "requires": "M804 external storage scale snapshot",
+      "status": "not-run-by-portable-suite",
+      "origin": {
+        "commit": "57acb6d5c3d8fcd002ea028890aa227dbbd87ede",
+        "file": "tests/environment-suite-manifest.json"
+      }
+    },
+    {
+      "file": "tests/m899-c2-contract.test.ts",
+      "group": "legacy-external-environment",
+      "requires": "M873 source closure and M803 compiled consumer",
+      "status": "not-run-by-portable-suite",
+      "origin": {
+        "commit": "57acb6d5c3d8fcd002ea028890aa227dbbd87ede",
+        "file": "tests/environment-suite-manifest.json"
+      }
+    },
+    {
+      "file": "tests/m910-d02-semantic-context-normalization.test.ts",
+      "group": "legacy-external-environment",
+      "requires": "M740/M744/M752 external fixed publications",
+      "status": "not-run-by-portable-suite",
+      "origin": {
+        "commit": "57acb6d5c3d8fcd002ea028890aa227dbbd87ede",
+        "file": "tests/environment-suite-manifest.json"
+      }
+    },
+    {
+      "file": "tests/m919-cultural-replay-operation.test.ts",
+      "group": "legacy-external-environment",
+      "requires": "sealed nonempty cultural NSBK+identity (existing optional-skip behavior; environment runner requires fixture)",
+      "status": "not-run-by-portable-suite",
+      "origin": {
+        "commit": "57acb6d5c3d8fcd002ea028890aa227dbbd87ede",
+        "file": "tests/environment-suite-manifest.json"
+      }
+    },
+    {
+      "file": "tests/m921-candidate2-generation.test.ts",
+      "group": "c2-fixed-core-environment",
+      "requires": "Fixed M873 official runtime+57-source publication",
+      "status": "separate-required-acceptance",
+      "origin": {
+        "commit": "57acb6d5c3d8fcd002ea028890aa227dbbd87ede",
+        "file": "tests/environment-suite-manifest.json"
+      }
+    },
+    {
+      "file": "tests/m924-candidate2-owned-mechanics.test.ts",
+      "group": "c2-fixed-core-environment",
+      "requires": "Fixed M873 official runtime+57-source publication",
+      "status": "separate-required-acceptance",
+      "origin": {
+        "commit": "57acb6d5c3d8fcd002ea028890aa227dbbd87ede",
+        "file": "tests/environment-suite-manifest.json"
+      }
+    },
+    {
+      "file": "tests/m924-semantic-family.test.ts",
+      "group": "legacy-external-environment",
+      "requires": "L05/L06/L07 actually load fixed M740/M744/M752 external publications; other tests in this file remain grouped until independently split",
+      "status": "not-executed-by-portable",
+      "origin": {
+        "commit": "289228dd9d8b4f2dd24ff57f7314dcb98d51f709",
+        "file": "tests/m924-semantic-family.test.ts",
+        "line": 180
+      }
+    },
+    {
+      "file": "tests/m924-zero-adoption-binding.test.ts",
+      "group": "explicit-output-environment",
+      "requires": "Default evidence output is an absolute D task directory; require existing explicit M924_ZERO_ADOPTION_TEST_EVIDENCE_DIR",
+      "status": "not-executed-by-portable",
+      "outputEnvironment": "M924_ZERO_ADOPTION_TEST_EVIDENCE_DIR",
+      "origin": {
+        "commit": "289228dd9d8b4f2dd24ff57f7314dcb98d51f709",
+        "file": "tests/m924-zero-adoption-binding.test.ts",
+        "line": 15
+      }
+    },
+    {
+      "file": "tests/m925-cultural-source-forgery.test.ts",
+      "group": "cultural-fixed-source-environment",
+      "requires": "Requires M925_REAL_RESTORE_CASE/fixture/synthetic-three-revisions.nsbk; default test condition otherwise skips",
+      "status": "not-executed-by-portable",
+      "origin": {
+        "commit": "289228dd9d8b4f2dd24ff57f7314dcb98d51f709",
+        "file": "tests/m925-cultural-source-forgery.test.ts",
+        "line": 18
+      }
+    },
+    {
+      "file": "tests/m928-semantic-character-evidence-dom.test.ts",
+      "group": "desktop-runtime-environment",
+      "requires": "Real isolated Electron plus default absolute D evidence directory; explicit existing output root required",
+      "status": "not-executed-by-portable",
+      "outputEnvironment": "M928_TEST_EVIDENCE_DIR",
+      "origin": {
+        "commit": "289228dd9d8b4f2dd24ff57f7314dcb98d51f709",
+        "file": "tests/m928-semantic-character-evidence-dom.test.ts",
+        "line": 10
+      }
+    },
+    {
+      "file": "tests/m936-candidate2-generation-panel-dom.test.ts",
+      "group": "desktop-runtime-environment",
+      "requires": "Real isolated Electron plus default absolute D evidence directory; explicit existing output root required",
+      "status": "not-executed-by-portable",
+      "outputEnvironment": "M936_TEST_EVIDENCE_DIR",
+      "origin": {
+        "commit": "289228dd9d8b4f2dd24ff57f7314dcb98d51f709",
+        "file": "tests/m936-candidate2-generation-panel-dom.test.ts",
+        "line": 8
+      }
+    },
+    {
+      "file": "tests/m938-candidate2-physical-paths.test.ts",
+      "group": "windows-path-environment",
+      "requires": "Windows, explicit absolute dedicated M938_PATH_TEST_ROOT, fixed physical path test from scoped cb57 publication",
+      "status": "not-executed-by-portable",
+      "origin": {
+        "commit": "d946e4dea819eff1437fe0df0f2b37544378dc29",
+        "file": "tests/environment-suite-manifest.json"
+      }
+    },
+    {
+      "file": "tests/m950-candidate2-review-feedback-dom.test.ts",
+      "group": "desktop-runtime-environment",
+      "requires": "Real isolated Electron plus default absolute D evidence directory; explicit existing output root required",
+      "status": "not-executed-by-portable",
+      "outputEnvironment": "M950_TEST_EVIDENCE_DIR",
+      "origin": {
+        "commit": "289228dd9d8b4f2dd24ff57f7314dcb98d51f709",
+        "file": "tests/m950-candidate2-review-feedback-dom.test.ts",
+        "line": 8
+      }
+    },
+    {
+      "file": "tests/maintenance-ui-handlers.test.ts",
+      "group": "legacy-external-environment",
+      "requires": ".local/expand-114/maintenance-handler-results.json",
+      "status": "not-run-by-portable-suite",
+      "origin": {
+        "commit": "57acb6d5c3d8fcd002ea028890aa227dbbd87ede",
+        "file": "tests/environment-suite-manifest.json"
+      }
+    },
+    {
+      "file": "tests/naming-semantic-admission-v72.test.ts",
+      "group": "legacy-external-environment",
+      "requires": "M740/M744/M751/M752 external fixed publications",
+      "status": "not-run-by-portable-suite",
+      "origin": {
+        "commit": "57acb6d5c3d8fcd002ea028890aa227dbbd87ede",
+        "file": "tests/environment-suite-manifest.json"
+      }
+    },
+    {
+      "file": "tests/official-name-popularity-handlers.test.ts",
+      "group": "legacy-external-environment",
+      "requires": ".local/m916-tests/official-popularity-handler-results.json",
+      "status": "not-run-by-portable-suite",
+      "origin": {
+        "commit": "57acb6d5c3d8fcd002ea028890aa227dbbd87ede",
+        "file": "tests/environment-suite-manifest.json"
+      }
+    }
+  ],
+  "integrationDependencies": [
+    {
+      "file": "tests/m925-candidate2-native-backup-phase.test.ts",
+      "group": "c2-native-environment",
+      "requires": "Fixed M873 official runtime+57-source publication; some phases additionally require exact immutable successful native SQLite/NSBK seed, as documented",
+      "status": "separate-required-acceptance",
+      "origin": {
+        "commit": "57acb6d5c3d8fcd002ea028890aa227dbbd87ede",
+        "file": "tests/environment-suite-manifest.json"
+      },
+      "state": "not-installed-at-base; required-regular-file-before-group-collection"
+    },
+    {
+      "file": "tests/m925-candidate2-native-corruption-phase.test.ts",
+      "group": "c2-native-environment",
+      "requires": "Fixed M873 official runtime+57-source publication; some phases additionally require exact immutable successful native SQLite/NSBK seed, as documented",
+      "status": "separate-required-acceptance",
+      "origin": {
+        "commit": "57acb6d5c3d8fcd002ea028890aa227dbbd87ede",
+        "file": "tests/environment-suite-manifest.json"
+      },
+      "state": "not-installed-at-base; required-regular-file-before-group-collection"
+    },
+    {
+      "file": "tests/m925-candidate2-native-nsbk-export.test.ts",
+      "group": "c2-native-environment",
+      "requires": "Fixed M873 official runtime+57-source publication; some phases additionally require exact immutable successful native SQLite/NSBK seed, as documented",
+      "status": "separate-required-acceptance",
+      "origin": {
+        "commit": "57acb6d5c3d8fcd002ea028890aa227dbbd87ede",
+        "file": "tests/environment-suite-manifest.json"
+      },
+      "state": "not-installed-at-base; required-regular-file-before-group-collection"
+    },
+    {
+      "file": "tests/m925-candidate2-native-nsbk-restore.test.ts",
+      "group": "c2-native-environment",
+      "requires": "Fixed M873 official runtime+57-source publication; some phases additionally require exact immutable successful native SQLite/NSBK seed, as documented",
+      "status": "separate-required-acceptance",
+      "origin": {
+        "commit": "57acb6d5c3d8fcd002ea028890aa227dbbd87ede",
+        "file": "tests/environment-suite-manifest.json"
+      },
+      "state": "not-installed-at-base; required-regular-file-before-group-collection"
+    },
+    {
+      "file": "tests/m925-candidate2-native-review-phase.test.ts",
+      "group": "c2-native-environment",
+      "requires": "Fixed M873 official runtime+57-source publication; some phases additionally require exact immutable successful native SQLite/NSBK seed, as documented",
+      "status": "separate-required-acceptance",
+      "origin": {
+        "commit": "57acb6d5c3d8fcd002ea028890aa227dbbd87ede",
+        "file": "tests/environment-suite-manifest.json"
+      },
+      "state": "not-installed-at-base; required-regular-file-before-group-collection"
+    },
+    {
+      "file": "tests/m925-candidate2-native-rollback-phase.test.ts",
+      "group": "c2-native-environment",
+      "requires": "Fixed M873 official runtime+57-source publication; some phases additionally require exact immutable successful native SQLite/NSBK seed, as documented",
+      "status": "separate-required-acceptance",
+      "origin": {
+        "commit": "57acb6d5c3d8fcd002ea028890aa227dbbd87ede",
+        "file": "tests/environment-suite-manifest.json"
+      },
+      "state": "not-installed-at-base; required-regular-file-before-group-collection"
+    },
+    {
+      "file": "tests/m925-candidate2-native-second-phase.test.ts",
+      "group": "c2-native-environment",
+      "requires": "Fixed M873 official runtime+57-source publication; some phases additionally require exact immutable successful native SQLite/NSBK seed, as documented",
+      "status": "separate-required-acceptance",
+      "origin": {
+        "commit": "57acb6d5c3d8fcd002ea028890aa227dbbd87ede",
+        "file": "tests/environment-suite-manifest.json"
+      },
+      "state": "not-installed-at-base; required-regular-file-before-group-collection"
+    },
+    {
+      "file": "tests/m925-candidate2-native-shared-recovery.test.ts",
+      "group": "c2-native-environment",
+      "requires": "Exact preserved already-committed shared B database and root-approved fixed cb57 native-path resource version",
+      "status": "prepared-independent-readback-not-a-relabelled-generation-pass",
+      "state": "not-installed-at-base; required-regular-file-before-group-collection",
+      "origin": {
+        "commit": "d946e4dea819eff1437fe0df0f2b37544378dc29",
+        "file": "tests/environment-suite-manifest.json"
+      }
+    },
+    {
+      "file": "tests/m925-candidate2-native-store.test.ts",
+      "group": "c2-native-environment",
+      "requires": "Fixed M873 official runtime+57-source publication; some phases additionally require exact immutable successful native SQLite/NSBK seed, as documented",
+      "status": "separate-required-acceptance",
+      "origin": {
+        "commit": "57acb6d5c3d8fcd002ea028890aa227dbbd87ede",
+        "file": "tests/environment-suite-manifest.json"
+      },
+      "state": "not-installed-at-base; required-regular-file-before-group-collection"
+    },
+    {
+      "file": "tests/m925-candidate2-single-native.test.ts",
+      "group": "c2-native-environment",
+      "requires": "Fixed M873 official runtime+57-source publication; some phases additionally require exact immutable successful native SQLite/NSBK seed, as documented",
+      "status": "separate-required-acceptance",
+      "origin": {
+        "commit": "57acb6d5c3d8fcd002ea028890aa227dbbd87ede",
+        "file": "tests/environment-suite-manifest.json"
+      },
+      "state": "not-installed-at-base; required-regular-file-before-group-collection"
+    },
+    {
+      "file": "tests/m925-candidate2-storage-codec.test.ts",
+      "group": "c2-native-environment",
+      "requires": "Fixed M873 official runtime+57-source publication; some phases additionally require exact immutable successful native SQLite/NSBK seed, as documented",
+      "status": "separate-required-acceptance",
+      "origin": {
+        "commit": "57acb6d5c3d8fcd002ea028890aa227dbbd87ede",
+        "file": "tests/environment-suite-manifest.json"
+      },
+      "state": "not-installed-at-base; required-regular-file-before-group-collection"
+    },
+    {
+      "file": "tests/m926-candidate2-native-delete-protected.test.ts",
+      "group": "c2-native-environment",
+      "requires": "Fixed M873 official runtime+57-source publication; some phases additionally require exact immutable successful native SQLite/NSBK seed, as documented",
+      "status": "separate-required-acceptance",
+      "origin": {
+        "commit": "57acb6d5c3d8fcd002ea028890aa227dbbd87ede",
+        "file": "tests/environment-suite-manifest.json"
+      },
+      "state": "not-installed-at-base; required-regular-file-before-group-collection"
+    },
+    {
+      "file": "tests/m926-candidate2-native-delete-single.test.ts",
+      "group": "c2-native-environment",
+      "requires": "Fixed M873 official runtime+57-source publication; some phases additionally require exact immutable successful native SQLite/NSBK seed, as documented",
+      "status": "separate-required-acceptance",
+      "origin": {
+        "commit": "57acb6d5c3d8fcd002ea028890aa227dbbd87ede",
+        "file": "tests/environment-suite-manifest.json"
+      },
+      "state": "not-installed-at-base; required-regular-file-before-group-collection"
+    },
+    {
+      "file": "tests/m926-candidate2-native-shared-delete-first.test.ts",
+      "group": "c2-native-environment",
+      "requires": "Fixed M873 official runtime; exact chain of reviewed native database, actual second profile generation and preceding deletion output",
+      "status": "prepared-not-executed",
+      "origin": {
+        "commit": "57acb6d5c3d8fcd002ea028890aa227dbbd87ede",
+        "file": "tests/environment-suite-manifest.json"
+      },
+      "state": "not-installed-at-base; required-regular-file-before-group-collection"
+    },
+    {
+      "file": "tests/m926-candidate2-native-shared-delete-last.test.ts",
+      "group": "c2-native-environment",
+      "requires": "Fixed M873 official runtime; exact chain of reviewed native database, actual second profile generation and preceding deletion output",
+      "status": "prepared-not-executed",
+      "origin": {
+        "commit": "57acb6d5c3d8fcd002ea028890aa227dbbd87ede",
+        "file": "tests/environment-suite-manifest.json"
+      },
+      "state": "not-installed-at-base; required-regular-file-before-group-collection"
+    },
+    {
+      "file": "tests/m926-candidate2-native-shared-generate.test.ts",
+      "group": "c2-native-environment",
+      "requires": "Fixed M873 official runtime; exact chain of reviewed native database, actual second profile generation and preceding deletion output",
+      "status": "prepared-not-executed",
+      "origin": {
+        "commit": "57acb6d5c3d8fcd002ea028890aa227dbbd87ede",
+        "file": "tests/environment-suite-manifest.json"
+      },
+      "state": "not-installed-at-base; required-regular-file-before-group-collection"
+    },
+    {
+      "file": "tests/m926-candidate2-native-shared-prepare.test.ts",
+      "group": "c2-native-environment",
+      "requires": "Fixed M873 official runtime; exact chain of reviewed native database, actual second profile generation and preceding deletion output",
+      "status": "prepared-not-executed",
+      "origin": {
+        "commit": "57acb6d5c3d8fcd002ea028890aa227dbbd87ede",
+        "file": "tests/environment-suite-manifest.json"
+      },
+      "state": "not-installed-at-base; required-regular-file-before-group-collection"
+    },
+    {
+      "file": "tests/m931-candidate2-locator-regression.test.ts",
+      "group": "c2-native-environment",
+      "requires": "Fixed M873 official runtime+57-source publication; some phases additionally require exact immutable successful native SQLite/NSBK seed, as documented",
+      "status": "separate-required-acceptance",
+      "origin": {
+        "commit": "57acb6d5c3d8fcd002ea028890aa227dbbd87ede",
+        "file": "tests/environment-suite-manifest.json"
+      },
+      "state": "not-installed-at-base; required-regular-file-before-group-collection"
+    },
+    {
+      "file": "tests/m931-candidate2-native-locator-duplicates.test.ts",
+      "group": "c2-native-environment",
+      "requires": "Fixed M873 official runtime+57-source publication; some phases additionally require exact immutable successful native SQLite/NSBK seed, as documented",
+      "status": "separate-required-acceptance",
+      "origin": {
+        "commit": "57acb6d5c3d8fcd002ea028890aa227dbbd87ede",
+        "file": "tests/environment-suite-manifest.json"
+      },
+      "state": "not-installed-at-base; required-regular-file-before-group-collection"
+    },
+    {
+      "file": "tests/m931-candidate2-native-locator-seal.test.ts",
+      "group": "c2-native-environment",
+      "requires": "Fixed M873 official runtime+57-source publication; some phases additionally require exact immutable successful native SQLite/NSBK seed, as documented",
+      "status": "separate-required-acceptance",
+      "origin": {
+        "commit": "57acb6d5c3d8fcd002ea028890aa227dbbd87ede",
+        "file": "tests/environment-suite-manifest.json"
+      },
+      "state": "not-installed-at-base; required-regular-file-before-group-collection"
+    },
+    {
+      "file": "tests/m931-candidate2-native-postcommit-changed.test.ts",
+      "group": "c2-native-environment",
+      "requires": "Fixed M873 official runtime+57-source publication; some phases additionally require exact immutable successful native SQLite/NSBK seed, as documented",
+      "status": "separate-required-acceptance",
+      "origin": {
+        "commit": "57acb6d5c3d8fcd002ea028890aa227dbbd87ede",
+        "file": "tests/environment-suite-manifest.json"
+      },
+      "state": "not-installed-at-base; required-regular-file-before-group-collection"
+    },
+    {
+      "file": "tests/m931-candidate2-native-postcommit-nochange.test.ts",
+      "group": "c2-native-environment",
+      "requires": "Fixed M873 official runtime+57-source publication; some phases additionally require exact immutable successful native SQLite/NSBK seed, as documented",
+      "status": "separate-required-acceptance",
+      "origin": {
+        "commit": "57acb6d5c3d8fcd002ea028890aa227dbbd87ede",
+        "file": "tests/environment-suite-manifest.json"
+      },
+      "state": "not-installed-at-base; required-regular-file-before-group-collection"
+    },
+    {
+      "file": "tests/m931-candidate2-native-prewriter-fault.test.ts",
+      "group": "c2-native-environment",
+      "requires": "Fixed M873 official runtime+57-source publication; some phases additionally require exact immutable successful native SQLite/NSBK seed, as documented",
+      "status": "separate-required-acceptance",
+      "origin": {
+        "commit": "57acb6d5c3d8fcd002ea028890aa227dbbd87ede",
+        "file": "tests/environment-suite-manifest.json"
+      },
+      "state": "not-installed-at-base; required-regular-file-before-group-collection"
+    },
+    {
+      "file": "tests/m931-locator-sql-probe.test.ts",
+      "group": "c2-native-environment",
+      "requires": "Fixed M873 official runtime+57-source publication; some phases additionally require exact immutable successful native SQLite/NSBK seed, as documented",
+      "status": "separate-required-acceptance",
+      "origin": {
+        "commit": "57acb6d5c3d8fcd002ea028890aa227dbbd87ede",
+        "file": "tests/environment-suite-manifest.json"
+      },
+      "state": "not-installed-at-base; required-regular-file-before-group-collection"
+    },
+    {
+      "file": "tests/m937-candidate2-semantic-composition.test.ts",
+      "group": "c2-fixed-core-environment",
+      "requires": "Fixed aeac source + 31b split actual C2 test layout and fixed M873 materials; actual cases are not portable input tests; explicit M937_ACTUAL_CPU_WINDOW=1 is required, never enabled by the runner",
+      "state": "required-integration-dependency; absent-at-base289",
+      "origin": {
+        "commit": "d946e4dea819eff1437fe0df0f2b37544378dc29",
+        "file": "tests/environment-suite-manifest.json"
+      },
+      "layoutCommit": "31b79233e652b03a194c7550c1f93de334c22421",
+      "cpuWindowFlag": "M937_ACTUAL_CPU_WINDOW"
+    },
+    {
+      "file": "tests/m937-semantic-composition-replay.test.ts",
+      "group": "c2-fixed-core-environment",
+      "requires": "Fixed M968 replay test 6a50 from original2b838; actual M921 fixture/fixed owner and sealed phase1/phase2 records; explicit M937_REPLAY_CPU_WINDOW=1",
+      "cpuWindowFlag": "M937_REPLAY_CPU_WINDOW",
+      "state": "required-integration-dependency; absent-at-base289",
+      "origin": {
+        "commit": "6a50a47a98b013d740e77dc8379ae1b9073c5e3d",
+        "originalCommit": "2b83842b1ce858ddf9c5ac38bcc433f63e82c6ff",
+        "file": "tests/m937-semantic-composition-replay.test.ts"
+      }
+    }
+  ],
+  "portableCompanions": [
+    {
+      "file": "tests/m937-candidate2-semantic-input.test.ts",
+      "layoutCommit": "31b79233e652b03a194c7550c1f93de334c22421",
+      "policy": "never excluded; no M873 import or external result directory"
+    }
+  ],
+  "toolDependencies": {
+    "checker9624": "not required by configuration; not imported or copied",
+    "runner3c6": "not required by collection/preflight; not imported or copied",
+    "acceptanceAuthority": false
+  }
+}

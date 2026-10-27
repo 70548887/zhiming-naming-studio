@@ -1,0 +1,26 @@
+{
+  "version": "project-fuyi-seasonal/1.0.0",
+  "author": "Naming Studio",
+  "kind": "project-authored-reference",
+  "notice": "本产品自编启发式，不是古籍定量公式、唯一喜用神或已校勘的流派调候表。证据模块记录此意见，不用新事实列序改写既有扶抑计算。",
+  "legacyFuyi": {
+    "exposedStemWeight": 1,
+    "hiddenStemWeightsByCount": {"1": [1], "2": [0.7, 0.3], "3": [0.6, 0.25, 0.15]},
+    "monthBranchMultiplier": 2,
+    "legacyHiddenStemOrder": {"子": ["癸"], "丑": ["己", "癸", "辛"], "寅": ["甲", "丙", "戊"], "卯": ["乙"], "辰": ["戊", "乙", "癸"], "巳": ["丙", "戊", "庚"], "午": ["丁", "己"], "未": ["己", "丁", "乙"], "申": ["庚", "壬", "戊"], "酉": ["辛"], "戌": ["戊", "辛", "丁"], "亥": ["壬", "甲"]},
+    "supportShare": "(日主同类加权数 + 生助日主元素加权数) / 全部元素加权数",
+    "weakWhenBelow": 0.38,
+    "strongWhenAbove": 0.55,
+    "weakCandidates": ["生助日主元素", "日主元素"],
+    "strongCandidates": ["日主所生元素", "日主所克元素", "克制日主元素"],
+    "otherwise": "保留多解；月柱待定不输出扶抑元素候选。"
+  },
+  "seasonalImagery": {
+    "profile": "project-seasonal-imagery/1.0.0",
+    "winterBranches": ["亥", "子", "丑"], "winterReferenceElements": ["火"],
+    "summerBranches": ["巳", "午", "未"], "summerReferenceElements": ["水"],
+    "springAutumn": "春秋不机械指定元素；保留具体组合和人工审阅。",
+    "limitations": ["不是《穷通宝鉴》的十日干×十二月用神表", "未评估完整寒暖燥湿、通关和各日干条件", "季节意见与扶抑意见并列，不合并为唯一用神，不改现有姓名排序"]
+  },
+  "factOrderDifference": "来源事实层采用LunarUtil巳藏干丙、庚、戊的原列序；既有扶抑独立保留丙、戊、庚与原权重。两者用途和版本不同，不能以列序替代司权或月令分日比例。"
+}

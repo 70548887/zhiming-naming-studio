@@ -1,0 +1,69 @@
+{
+  "schema": "naming-character-meanings-single-nondefault-reading-source-lock/1",
+  "batchId": "M616-D02",
+  "sourceId": "naming-character-meanings-m616-candidate",
+  "version": "naming-character-meanings-candidate/M616.1",
+  "hashConvention": "sha256(file bytes); relative source keys",
+  "originalFiles": {
+    "dataset-v6.json": {
+      "bytes": 1563457,
+      "sha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728"
+    },
+    "naming-editorial-v7.json": {
+      "bytes": 1301005,
+      "sha256": "392fa47441a0c410b0903c3e85853081225a1a5e9f540b5467e4ea4e2151cc48"
+    },
+    "raw/moe-revised.json.gz": {
+      "bytes": 20310688,
+      "sha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e"
+    },
+    "raw/kTraditionalVariant.txt": {
+      "bytes": 86288,
+      "sha256": "4eca6285d45070548e6e6c06e4b48c3ca6866d4380e8cb980c512f5d1fc71895"
+    },
+    "raw/kSimplifiedVariant.txt": {
+      "bytes": 88425,
+      "sha256": "a7f0c9dbbca85cffd90517fa6ea9be97d2e6f811328a59b6b303d58a418ac9be"
+    },
+    "raw/moe-README.md": {
+      "bytes": 1214,
+      "sha256": "a93321d9381bc1cf34b4ad844f71607fa748c86c0b228ae37d46720d6a659cb2"
+    },
+    "raw/CC-BY-ND-3.0-TW.html": {
+      "bytes": 31775,
+      "sha256": "04e6ef69a223b6e13c93c97a918ad5fd0dbb9fc34ae307f4449ed264e2d4108f"
+    },
+    "raw/unicode-LICENSE": {
+      "bytes": 2033,
+      "sha256": "fe5c62b543e287981db198f2acfa0ca732d12591a1024536dc8fd85dacd77104"
+    }
+  },
+  "candidateFiles": {
+    "profile": {
+      "file": "naming-character-meanings-m616-profile.json",
+      "bytes": 86409,
+      "sha256": "a7036d60215c80b25e0e000aa40a193232370b70add708c1b4f79ec93dddf1fb"
+    },
+    "subset": {
+      "file": "raw/naming-character-meanings-m616-subset.json",
+      "bytes": 86409,
+      "sha256": "a7036d60215c80b25e0e000aa40a193232370b70add708c1b4f79ec93dddf1fb"
+    },
+    "admission": {
+      "file": "naming-character-meanings-m616-admission.json",
+      "bytes": 86534,
+      "sha256": "90fec0656f051ad6da627fa8250eb2c909c4eb382ec27f8ff5db9ac93bf49694"
+    },
+    "notice": {
+      "file": "naming-character-meanings-m616-NOTICE.md",
+      "bytes": 514,
+      "sha256": "602f61f8b5ae9f3877e6060ebd4b2f136515c8e281ea9285a56514faef6b9e29"
+    }
+  },
+  "m591Coverage": {
+    "summaryFile": "D:/Codex-NamingStudio-Evidence/m591-coverage-recount/summary.json",
+    "summarySha256": "35e1817c56b21b30a46e74fd32ae63dcfa4b748c8be89213a7e165019ff7aa15",
+    "inputContentIdentity": "7c6e5b16aa9f80690136fd42e2b0de6aae39b56e516053ecb7d6c6a7398b0d44"
+  },
+  "sourceScope": "MOE full entries/default and selected non-default reading/definition/type, Unicode/license sources, and filtered M591 direct-reading coverage evidence; project text CC0"
+}

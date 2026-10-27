@@ -1,0 +1,66 @@
+{
+  "schema": "M752-r2-manifest/1",
+  "revision": "r2",
+  "files": [
+    {
+      "file": "M752-R2-DECISION.md",
+      "bytes": 1241,
+      "sha256": "6e08fd5083c7cda9200faa59b03e5e1ef5c0c217f1364b9b63d687aeb171ea5a"
+    },
+    {
+      "file": "acceptance-cases.json",
+      "bytes": 84512,
+      "sha256": "e87d6111d901e63df44693263618d7c74f5e0e043805f26b021378f4579dd556"
+    },
+    {
+      "file": "build-r2.mjs",
+      "bytes": 18123,
+      "sha256": "27263618fbda7a6cddbe74005667f6a313f8d6ee4992588846781f6284810803"
+    },
+    {
+      "file": "conflict-registry.json",
+      "bytes": 5232,
+      "sha256": "84bc15c8561bd0ffe4860720bbbdfd0c653c0c84ea290499fc8ef005ebbcadb9"
+    },
+    {
+      "file": "execution-ledger.json",
+      "bytes": 979,
+      "sha256": "96e2c9cf3dfffb387311a5f1ddf494ef5896687cc820c447a2cbcb80e8c856c4"
+    },
+    {
+      "file": "generation-admission-contract.json",
+      "bytes": 13667,
+      "sha256": "660087ff57c5de26e4990a3c52a0c35f14180716fc2baaeac9f607ccb5573d06"
+    },
+    {
+      "file": "generation-admission-v72.d.ts",
+      "bytes": 2957,
+      "sha256": "b673278a88ee94b812e5c90d240584343b0d724948f886fe845b93ca22cf9cdd"
+    },
+    {
+      "file": "input-pins.json",
+      "bytes": 1201,
+      "sha256": "7e4ec90b5eea9e8975f1cb87ea68370b96311395b94d851043ee6854eab18ef4"
+    },
+    {
+      "file": "m740-generation-admission.json",
+      "bytes": 54345,
+      "sha256": "ecfb610b2c3467b9326e45c25fa4581870f6b3a2087b6490af08bd77d39ccbe6"
+    },
+    {
+      "file": "theme-registry.json",
+      "bytes": 1599,
+      "sha256": "70af9e1f5932b68a9ad7b615459cc955335f62d0453ca0344888051ffca82171"
+    },
+    {
+      "file": "verification.json",
+      "bytes": 634,
+      "sha256": "329e545e2fc255de56be19a3a7966cb7ba410ba479bf2fd4c803dfdfc83f22f2"
+    },
+    {
+      "file": "verify-r2.mjs",
+      "bytes": 4818,
+      "sha256": "61f3a1bd0969dd86043d8d148ffc545ecfe8d75101befb471e81c7bbb81564a2"
+    }
+  ]
+}

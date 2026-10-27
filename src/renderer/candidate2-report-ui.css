@@ -1,0 +1,4 @@
+.c2-report-export{padding:18px;margin:18px 0;border:1px solid var(--border,#dce3dc);border-radius:12px;background:var(--panel,#fff)}
+.c2-report-export h3{margin:0 0 10px}.c2-report-export p{line-height:1.65;overflow-wrap:anywhere}.c2-report-export button{font:inherit;padding:10px 16px;border:1px solid #456d58;border-radius:8px;background:#456d58;color:#fff;cursor:pointer}.c2-report-export button:disabled{opacity:.5;cursor:default}
+.c2-report-owner-actions{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:16px}.c2-report-preview-frame{width:100%;height:min(72vh,900px);min-height:340px;border:1px solid #dce3dc;background:#fff}.c2-report-dirty-confirm p{line-height:1.7}.c2-report-dirty-confirm .button-row{display:flex;gap:10px;flex-wrap:wrap}
+@media(max-width:420px){.c2-report-export{padding:13px}.c2-report-owner-actions>.button,.c2-report-dirty-confirm .button-row>.button{width:100%}.c2-report-preview-frame{min-height:280px}}

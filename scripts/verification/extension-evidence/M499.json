@@ -1,0 +1,569 @@
+{
+  "schema": "m499-b04-independent-semantic-review/1",
+  "task": "M499-B04-INDEPENDENT-SEMANTIC-REVIEW",
+  "startedAt": "2026-10-24T14:58:40.903Z",
+  "endedAt": "2026-10-24T14:58:43.187Z",
+  "reviewer": "independent subagent /root/m499_b04_semantics",
+  "deliveryRoot": "E:\\八卦周易\\.local\\longterm-groups\\naming-data\\M460-b04",
+  "deliveryManifestSha256": "538c314744a135f20f3ed6cb08f9788dc4539b388e07d5a7d63914f95a00b07e",
+  "conclusion": "limited-scope-pass",
+  "reviewScope": "20 B04 full-word context candidates, fixed local source closure, exact selected senses, glyph/reading/default identities, license attribution separation, pure candidate query and existing old40 boundary",
+  "productionAdmission": false,
+  "rootFinalAdmission": false,
+  "activation": "off",
+  "formalCoverageAdded": 0,
+  "findings": [],
+  "checks": [
+    {
+      "name": "all delivery manifest rows match actual bytes and hashes",
+      "status": "pass",
+      "details": {
+        "files": 42
+      }
+    },
+    {
+      "name": "patch adds exactly the eleven declared files with exact stage bytes",
+      "status": "pass",
+      "details": {
+        "files": 11,
+        "actualApplication": "未执行",
+        "readOnlyGitApplyCheck": "未执行（只核补丁结构与精确 postimage）"
+      }
+    },
+    {
+      "name": "candidate source closure is fixed to actual local originals, including licenses",
+      "status": "pass",
+      "details": {
+        "sourceFiles": 17,
+        "publicationFiles": 18,
+        "originalGzipSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "upstreamNetworkVerification": "未执行；使用已提供的固定本地原件"
+      }
+    },
+    {
+      "name": "staged context engine and declarations are unchanged from base and actual frozen baseline",
+      "status": "pass",
+      "details": {
+        "files": 2
+      }
+    },
+    {
+      "name": "all twenty sources, selected senses, defaults, readings, glyph positions and absent POS agree independently",
+      "status": "pass",
+      "details": {
+        "rows": 20,
+        "sourcePOSUnknown": 20,
+        "old40TargetOverlap": 0,
+        "old40FullWordOverlap": 0
+      }
+    },
+    {
+      "name": "real fixed candidate loader authenticates this unadmitted instance",
+      "status": "pass",
+      "details": {
+        "formalCoverageAdded": 0,
+        "activation": "off",
+        "productionApproved": false
+      }
+    },
+    {
+      "name": "all twenty ready results return exact sources with no credit or scoring and reject scope substitutions",
+      "status": "pass",
+      "details": {
+        "readyQueries": 20,
+        "negativeQueries": 180,
+        "untrustedCapsuleRejected": true
+      }
+    },
+    {
+      "name": "same semantic gate rejects re-sealed POS, wrong-sense, license, glyph and authority mutations",
+      "status": "pass",
+      "details": {
+        "semanticMutationsRejected": 10,
+        "fixedFileHashGateBypassedOnlyForThisPureNegativePhase": true
+      }
+    },
+    {
+      "name": "actual frozen registry remains 1.0/1.1 and B04 cannot resolve; old40 outputs remain exact",
+      "status": "pass",
+      "details": {
+        "registrySourceSha256": "aa2a38805e37a33de28301a17c3040ef20a12c542cb045b2867227be935c401c",
+        "old40QueriesCompared": 40,
+        "b04InFrozenSourceRegistry": false,
+        "b04CandidateRejectsOld40": true,
+        "runtimeRegistryScope": "provided compiled helper, checked against actual local registry allowlist and exact old40 publication; no Store/Worker"
+      }
+    }
+  ],
+  "rows": [
+    {
+      "caseId": "meaning-context-m460-b04:渤:87980:0:0",
+      "givenName": "渤海",
+      "word": "渤海",
+      "pinyin": "bó hǎi",
+      "selectedDefinitionIndex": 0,
+      "selectedDefinition": "海洋名。在我國東北，以山東、遼東兩半島環抱而成，其外為黃海。遼寧、河北兩省及山東省北部都瀕臨此海。",
+      "sourcePOS": "unknown",
+      "sourcePOSStoredAs": "absent-original-type-field",
+      "fullOriginalAndSelectedDefinitionExact": true,
+      "pronunciationAndTwoPositionsVerified": true,
+      "glyphEvidenceVerified": true,
+      "semanticResult": "pass-within-full-word-context-only",
+      "reviewNote": "海域地名；完整保留地域说明，未拆成渤的浩瀚品格义。"
+    },
+    {
+      "caseId": "meaning-context-m460-b04:俐:11940:0:0",
+      "givenName": "俐亮",
+      "word": "俐亮",
+      "pinyin": "lì liàng",
+      "selectedDefinitionIndex": 0,
+      "selectedDefinition": "爽快、利落。《醒世姻緣傳．第一○回》：「他得了地，拿一半地賣了，作了繳紙價，他到俐亮！」也作「利亮」。",
+      "sourcePOS": "unknown",
+      "sourcePOSStoredAs": "absent-original-type-field",
+      "fullOriginalAndSelectedDefinitionExact": true,
+      "pronunciationAndTwoPositionsVerified": true,
+      "glyphEvidenceVerified": true,
+      "semanticResult": "pass-within-full-word-context-only",
+      "reviewNote": "爽快、利落；未借俐落词形、轻声或聪慧义替代。"
+    },
+    {
+      "caseId": "meaning-context-m460-b04:偲:13631:0:0",
+      "givenName": "偲偲",
+      "word": "偲偲",
+      "pinyin": "sī sī",
+      "selectedDefinitionIndex": 0,
+      "selectedDefinition": "互相責勉。",
+      "sourcePOS": "unknown",
+      "sourcePOSStoredAs": "absent-original-type-field",
+      "fullOriginalAndSelectedDefinitionExact": true,
+      "pronunciationAndTwoPositionsVerified": true,
+      "glyphEvidenceVerified": true,
+      "semanticResult": "pass-within-full-word-context-only",
+      "reviewNote": "互相责勉；绑定 sī sī 与两个位置，未移用 sāi 能力义。"
+    },
+    {
+      "caseId": "meaning-context-m460-b04:颍:89740:0:0",
+      "givenName": "颍河",
+      "word": "潁河",
+      "pinyin": "yǐng hé",
+      "selectedDefinitionIndex": 0,
+      "selectedDefinition": "源於豫西山地中的河川，東南流入安徽省，經潁上，至正陽關流入淮河。",
+      "sourcePOS": "unknown",
+      "sourcePOSStoredAs": "absent-original-type-field",
+      "fullOriginalAndSelectedDefinitionExact": true,
+      "pronunciationAndTwoPositionsVerified": true,
+      "glyphEvidenceVerified": true,
+      "semanticResult": "pass-within-full-word-context-only",
+      "reviewNote": "潁河河名；字形凭固定双向行，未混入穎或水元素品格。"
+    },
+    {
+      "caseId": "meaning-context-m460-b04:洛:85337:0:0",
+      "givenName": "洛阳",
+      "word": "洛陽",
+      "pinyin": "luò yáng",
+      "selectedDefinitionIndex": 0,
+      "selectedDefinition": "城市名。位於河南省西部的洛陽盆地內。地勢優越，東控中原，西據崤函，自古為兵家必爭之地，且東周、東漢、魏、西晉、後魏、後唐皆曾於此建都，故也稱為「洛京」、「京洛」。為河南省第二大城，清光緒三十四年（西元1908）自行開為商埠。",
+      "sourcePOS": "unknown",
+      "sourcePOSStoredAs": "absent-original-type-field",
+      "fullOriginalAndSelectedDefinitionExact": true,
+      "pronunciationAndTwoPositionsVerified": true,
+      "glyphEvidenceVerified": true,
+      "semanticResult": "pass-within-full-word-context-only",
+      "reviewNote": "洛陽城市名；未用洛水或阳光解释替代。"
+    },
+    {
+      "caseId": "meaning-context-m460-b04:彭:51705:0:0",
+      "givenName": "彭泽",
+      "word": "彭澤",
+      "pinyin": "péng zé",
+      "selectedDefinitionIndex": 0,
+      "selectedDefinition": "湖泊名。在江西省北部。即今鄱陽湖。",
+      "sourcePOS": "unknown",
+      "sourcePOSStoredAs": "absent-original-type-field",
+      "fullOriginalAndSelectedDefinitionExact": true,
+      "pronunciationAndTwoPositionsVerified": true,
+      "glyphEvidenceVerified": true,
+      "semanticResult": "pass-within-full-word-context-only",
+      "reviewNote": "只选湖泊名，不采用县名参照或人物典故。"
+    },
+    {
+      "caseId": "meaning-context-m460-b04:湘:88314:0:1",
+      "givenName": "湘君",
+      "word": "湘君",
+      "pinyin": "xiāng jūn",
+      "selectedDefinitionIndex": 1,
+      "selectedDefinition": "《楚辭．九歌》的篇名。戰國屈原所作，為楚人祭祀湘水神的樂歌。",
+      "sourcePOS": "unknown",
+      "sourcePOSStoredAs": "absent-original-type-field",
+      "fullOriginalAndSelectedDefinitionExact": true,
+      "pronunciationAndTwoPositionsVerified": true,
+      "glyphEvidenceVerified": true,
+      "semanticResult": "pass-within-full-word-context-only",
+      "reviewNote": "只选《楚辞·九歌》篇名说明；原文祭祀神内容保留，未将神祇身份或出处信用授给名字。"
+    },
+    {
+      "caseId": "meaning-context-m460-b04:奥:38682:0:0",
+      "givenName": "奥妙",
+      "word": "奧妙",
+      "pinyin": "ào miào",
+      "selectedDefinitionIndex": 0,
+      "selectedDefinition": "精微神奇。",
+      "sourcePOS": "unknown",
+      "sourcePOSStoredAs": "absent-original-type-field",
+      "fullOriginalAndSelectedDefinitionExact": true,
+      "pronunciationAndTwoPositionsVerified": true,
+      "glyphEvidenceVerified": true,
+      "semanticResult": "pass-within-full-word-context-only",
+      "reviewNote": "精微神奇；未推定儿童能力、力量或解除奥的单字限制。"
+    },
+    {
+      "caseId": "meaning-context-m460-b04:赫:136754:0:0",
+      "givenName": "赫然",
+      "word": "赫然",
+      "pinyin": "hè rán",
+      "selectedDefinitionIndex": 0,
+      "selectedDefinition": "光明、顯耀的樣子。",
+      "sourcePOS": "unknown",
+      "sourcePOSStoredAs": "absent-original-type-field",
+      "fullOriginalAndSelectedDefinitionExact": true,
+      "pronunciationAndTwoPositionsVerified": true,
+      "glyphEvidenceVerified": true,
+      "semanticResult": "pass-within-full-word-context-only",
+      "reviewNote": "光明、显耀的样子；明确排除发怒、惊心，未承诺名望。"
+    },
+    {
+      "caseId": "meaning-context-m460-b04:娇:40703:0:0",
+      "givenName": "娇美",
+      "word": "嬌美",
+      "pinyin": "jiāo měi",
+      "selectedDefinitionIndex": 0,
+      "selectedDefinition": "輕柔美麗的樣子。",
+      "sourcePOS": "unknown",
+      "sourcePOSStoredAs": "absent-original-type-field",
+      "fullOriginalAndSelectedDefinitionExact": true,
+      "pronunciationAndTwoPositionsVerified": true,
+      "glyphEvidenceVerified": true,
+      "semanticResult": "pass-within-full-word-context-only",
+      "reviewNote": "轻柔美丽的样子；未转换贤德、能力、性别或实际外貌结论。"
+    },
+    {
+      "caseId": "meaning-context-m460-b04:孔:40943:0:1",
+      "givenName": "孔明",
+      "word": "孔明",
+      "pinyin": "kǒng míng",
+      "selectedDefinitionIndex": 1,
+      "selectedDefinition": "非常明亮潔淨。",
+      "sourcePOS": "unknown",
+      "sourcePOSStoredAs": "absent-original-type-field",
+      "fullOriginalAndSelectedDefinitionExact": true,
+      "pronunciationAndTwoPositionsVerified": true,
+      "glyphEvidenceVerified": true,
+      "semanticResult": "pass-within-full-word-context-only",
+      "reviewNote": "只选非常明亮洁净；未借诸葛亮字称与声望授予才智。"
+    },
+    {
+      "caseId": "meaning-context-m460-b04:灵:153037:0:0",
+      "givenName": "灵慧",
+      "word": "靈慧",
+      "pinyin": "líng huì",
+      "selectedDefinitionIndex": 0,
+      "selectedDefinition": "聰明穎悟。",
+      "sourcePOS": "unknown",
+      "sourcePOSStoredAs": "absent-original-type-field",
+      "fullOriginalAndSelectedDefinitionExact": true,
+      "pronunciationAndTwoPositionsVerified": true,
+      "glyphEvidenceVerified": true,
+      "semanticResult": "pass-within-full-word-context-only",
+      "reviewNote": "聪明颖悟作为词典描述；未认定儿童能力或移入神佑语境。"
+    },
+    {
+      "caseId": "meaning-context-m460-b04:姝:39944:0:0",
+      "givenName": "姝丽",
+      "word": "姝麗",
+      "pinyin": "shū lì",
+      "selectedDefinitionIndex": 0,
+      "selectedDefinition": "美麗。",
+      "sourcePOS": "unknown",
+      "sourcePOSStoredAs": "absent-original-type-field",
+      "fullOriginalAndSelectedDefinitionExact": true,
+      "pronunciationAndTwoPositionsVerified": true,
+      "glyphEvidenceVerified": true,
+      "semanticResult": "pass-within-full-word-context-only",
+      "reviewNote": "只选美丽描述义；未合并美女称人义或道德品质。"
+    },
+    {
+      "caseId": "meaning-context-m460-b04:殊:80655:0:0",
+      "givenName": "殊荣",
+      "word": "殊榮",
+      "pinyin": "shū róng",
+      "selectedDefinitionIndex": 0,
+      "selectedDefinition": "特殊的光榮。",
+      "sourcePOS": "unknown",
+      "sourcePOSStoredAs": "absent-original-type-field",
+      "fullOriginalAndSelectedDefinitionExact": true,
+      "pronunciationAndTwoPositionsVerified": true,
+      "glyphEvidenceVerified": true,
+      "semanticResult": "pass-within-full-word-context-only",
+      "reviewNote": "特殊的光荣作为整词参考；未宣称已获或必获荣誉。"
+    },
+    {
+      "caseId": "meaning-context-m460-b04:武:80086:0:0",
+      "givenName": "武艺",
+      "word": "武藝",
+      "pinyin": "wǔ yì",
+      "selectedDefinitionIndex": 0,
+      "selectedDefinition": "關於擊刺等武術方面的技藝。如長拳、太極拳、劍術、刀術、槍術、棍術等。",
+      "sourcePOS": "unknown",
+      "sourcePOSStoredAs": "absent-original-type-field",
+      "fullOriginalAndSelectedDefinitionExact": true,
+      "pronunciationAndTwoPositionsVerified": true,
+      "glyphEvidenceVerified": true,
+      "semanticResult": "pass-within-full-word-context-only",
+      "reviewNote": "武术方面的技艺及原列举对象完整；未宣称儿童已具备能力。"
+    },
+    {
+      "caseId": "meaning-context-m460-b04:仙:9504:0:0",
+      "givenName": "仙姿",
+      "word": "仙姿",
+      "pinyin": "xiān zī",
+      "selectedDefinitionIndex": 0,
+      "selectedDefinition": "形容秀逸的面貌。",
+      "sourcePOS": "unknown",
+      "sourcePOSStoredAs": "absent-original-type-field",
+      "fullOriginalAndSelectedDefinitionExact": true,
+      "pronunciationAndTwoPositionsVerified": true,
+      "glyphEvidenceVerified": true,
+      "semanticResult": "pass-within-full-word-context-only",
+      "reviewNote": "秀逸面貌的修辞；未推成神仙身份、长生或外貌评价。"
+    },
+    {
+      "caseId": "meaning-context-m460-b04:玄:95742:0:0",
+      "givenName": "玄理",
+      "word": "玄理",
+      "pinyin": "xuán lǐ",
+      "selectedDefinitionIndex": 0,
+      "selectedDefinition": "深遠奧妙的道理。常指發揮道家思想的哲理。",
+      "sourcePOS": "unknown",
+      "sourcePOSStoredAs": "absent-original-type-field",
+      "fullOriginalAndSelectedDefinitionExact": true,
+      "pronunciationAndTwoPositionsVerified": true,
+      "glyphEvidenceVerified": true,
+      "semanticResult": "pass-within-full-word-context-only",
+      "reviewNote": "深远奥妙道理并保留道家哲理限定；未转成命运或超自然能力。"
+    },
+    {
+      "caseId": "meaning-context-m460-b04:幸:49468:0:0",
+      "givenName": "幸运",
+      "word": "幸運",
+      "pinyin": "xìng yùn",
+      "selectedDefinitionIndex": 0,
+      "selectedDefinition": "好運氣。",
+      "sourcePOS": "unknown",
+      "sourcePOSStoredAs": "absent-original-type-field",
+      "fullOriginalAndSelectedDefinitionExact": true,
+      "pronunciationAndTwoPositionsVerified": true,
+      "glyphEvidenceVerified": true,
+      "semanticResult": "pass-within-full-word-context-only",
+      "reviewNote": "好运气词义；未将愿望当成未来预测或保证。"
+    },
+    {
+      "caseId": "meaning-context-m460-b04:寰:44106:0:0",
+      "givenName": "寰宇",
+      "word": "寰宇",
+      "pinyin": "huán yǔ",
+      "selectedDefinitionIndex": 0,
+      "selectedDefinition": "全宇宙、全天下。",
+      "sourcePOS": "unknown",
+      "sourcePOSStoredAs": "absent-original-type-field",
+      "fullOriginalAndSelectedDefinitionExact": true,
+      "pronunciationAndTwoPositionsVerified": true,
+      "glyphEvidenceVerified": true,
+      "semanticResult": "pass-within-full-word-context-only",
+      "reviewNote": "全宇宙、全天下；未借例句授予支配地位、声望或功业。"
+    },
+    {
+      "caseId": "meaning-context-m460-b04:深:87325:0:0",
+      "givenName": "深思",
+      "word": "深思",
+      "pinyin": "shēn sī",
+      "selectedDefinitionIndex": 0,
+      "selectedDefinition": "深遠的思考。",
+      "sourcePOS": "unknown",
+      "sourcePOSStoredAs": "absent-original-type-field",
+      "fullOriginalAndSelectedDefinitionExact": true,
+      "pronunciationAndTwoPositionsVerified": true,
+      "glyphEvidenceVerified": true,
+      "semanticResult": "pass-within-full-word-context-only",
+      "reviewNote": "深远的思考；未当成已测智力、性格或本名出处信用。"
+    }
+  ],
+  "queryEvidence": [
+    {
+      "givenName": "渤海",
+      "ready": "explanation-ready",
+      "dictionaryOriginalExact": true,
+      "scoreDelta": 0,
+      "automaticSemanticCreditAllowed": false,
+      "negativeVariants": 9
+    },
+    {
+      "givenName": "俐亮",
+      "ready": "explanation-ready",
+      "dictionaryOriginalExact": true,
+      "scoreDelta": 0,
+      "automaticSemanticCreditAllowed": false,
+      "negativeVariants": 9
+    },
+    {
+      "givenName": "偲偲",
+      "ready": "explanation-ready",
+      "dictionaryOriginalExact": true,
+      "scoreDelta": 0,
+      "automaticSemanticCreditAllowed": false,
+      "negativeVariants": 9
+    },
+    {
+      "givenName": "颍河",
+      "ready": "explanation-ready",
+      "dictionaryOriginalExact": true,
+      "scoreDelta": 0,
+      "automaticSemanticCreditAllowed": false,
+      "negativeVariants": 9
+    },
+    {
+      "givenName": "洛阳",
+      "ready": "explanation-ready",
+      "dictionaryOriginalExact": true,
+      "scoreDelta": 0,
+      "automaticSemanticCreditAllowed": false,
+      "negativeVariants": 9
+    },
+    {
+      "givenName": "彭泽",
+      "ready": "explanation-ready",
+      "dictionaryOriginalExact": true,
+      "scoreDelta": 0,
+      "automaticSemanticCreditAllowed": false,
+      "negativeVariants": 9
+    },
+    {
+      "givenName": "湘君",
+      "ready": "explanation-ready",
+      "dictionaryOriginalExact": true,
+      "scoreDelta": 0,
+      "automaticSemanticCreditAllowed": false,
+      "negativeVariants": 9
+    },
+    {
+      "givenName": "奥妙",
+      "ready": "explanation-ready",
+      "dictionaryOriginalExact": true,
+      "scoreDelta": 0,
+      "automaticSemanticCreditAllowed": false,
+      "negativeVariants": 9
+    },
+    {
+      "givenName": "赫然",
+      "ready": "explanation-ready",
+      "dictionaryOriginalExact": true,
+      "scoreDelta": 0,
+      "automaticSemanticCreditAllowed": false,
+      "negativeVariants": 9
+    },
+    {
+      "givenName": "娇美",
+      "ready": "explanation-ready",
+      "dictionaryOriginalExact": true,
+      "scoreDelta": 0,
+      "automaticSemanticCreditAllowed": false,
+      "negativeVariants": 9
+    },
+    {
+      "givenName": "孔明",
+      "ready": "explanation-ready",
+      "dictionaryOriginalExact": true,
+      "scoreDelta": 0,
+      "automaticSemanticCreditAllowed": false,
+      "negativeVariants": 9
+    },
+    {
+      "givenName": "灵慧",
+      "ready": "explanation-ready",
+      "dictionaryOriginalExact": true,
+      "scoreDelta": 0,
+      "automaticSemanticCreditAllowed": false,
+      "negativeVariants": 9
+    },
+    {
+      "givenName": "姝丽",
+      "ready": "explanation-ready",
+      "dictionaryOriginalExact": true,
+      "scoreDelta": 0,
+      "automaticSemanticCreditAllowed": false,
+      "negativeVariants": 9
+    },
+    {
+      "givenName": "殊荣",
+      "ready": "explanation-ready",
+      "dictionaryOriginalExact": true,
+      "scoreDelta": 0,
+      "automaticSemanticCreditAllowed": false,
+      "negativeVariants": 9
+    },
+    {
+      "givenName": "武艺",
+      "ready": "explanation-ready",
+      "dictionaryOriginalExact": true,
+      "scoreDelta": 0,
+      "automaticSemanticCreditAllowed": false,
+      "negativeVariants": 9
+    },
+    {
+      "givenName": "仙姿",
+      "ready": "explanation-ready",
+      "dictionaryOriginalExact": true,
+      "scoreDelta": 0,
+      "automaticSemanticCreditAllowed": false,
+      "negativeVariants": 9
+    },
+    {
+      "givenName": "玄理",
+      "ready": "explanation-ready",
+      "dictionaryOriginalExact": true,
+      "scoreDelta": 0,
+      "automaticSemanticCreditAllowed": false,
+      "negativeVariants": 9
+    },
+    {
+      "givenName": "幸运",
+      "ready": "explanation-ready",
+      "dictionaryOriginalExact": true,
+      "scoreDelta": 0,
+      "automaticSemanticCreditAllowed": false,
+      "negativeVariants": 9
+    },
+    {
+      "givenName": "寰宇",
+      "ready": "explanation-ready",
+      "dictionaryOriginalExact": true,
+      "scoreDelta": 0,
+      "automaticSemanticCreditAllowed": false,
+      "negativeVariants": 9
+    },
+    {
+      "givenName": "深思",
+      "ready": "explanation-ready",
+      "dictionaryOriginalExact": true,
+      "scoreDelta": 0,
+      "automaticSemanticCreditAllowed": false,
+      "negativeVariants": 9
+    }
+  ],
+  "limits": [
+    "Upstream fresh network verification 未执行；使用提供的固定本地 MOE/Unicode 原件。",
+    "Actual patch application / independent git apply --check 未执行；已独立核对11个新增postimage与stage字节。",
+    "Store、Worker、SQL、生产注册、正式激活、全量回归、性能、App/DOM及产品构建 未执行。",
+    "不重审B01–B03；未使用b5根decision或任何根最终decision为B04批准。"
+  ],
+  "candidateUnchanged": true
+}

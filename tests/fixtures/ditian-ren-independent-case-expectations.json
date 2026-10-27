@@ -1,0 +1,509 @@
+{
+  "method": "Copied from pre-product source research catalogue; original author categories are source assertions, not generated from production evaluator or scientific ground truth.",
+  "cases": [
+    {
+      "caseId": "cai-root",
+      "pillars": [
+        "戊戌",
+        "丙辰",
+        "乙未",
+        "丙戌"
+      ],
+      "authorAssertion": "从财（其势必从）",
+      "classificationEvidence": "asserted",
+      "quarantined": false
+    },
+    {
+      "caseId": "cai-resource",
+      "pillars": [
+        "壬寅",
+        "壬寅",
+        "庚寅",
+        "戊寅"
+      ],
+      "authorAssertion": "从财",
+      "classificationEvidence": "asserted",
+      "quarantined": false
+    },
+    {
+      "caseId": "cai-true",
+      "pillars": [
+        "丙寅",
+        "庚寅",
+        "壬午",
+        "乙巳"
+      ],
+      "authorAssertion": "从财格真",
+      "classificationEvidence": "explicit-true",
+      "quarantined": false
+    },
+    {
+      "caseId": "sha-true-fire",
+      "pillars": [
+        "丁卯",
+        "壬寅",
+        "庚午",
+        "丙戌"
+      ],
+      "authorAssertion": "从象斯真（从杀）",
+      "classificationEvidence": "explicit-true",
+      "quarantined": false
+    },
+    {
+      "caseId": "sha-true-metal",
+      "pillars": [
+        "辛巳",
+        "辛丑",
+        "乙酉",
+        "乙酉"
+      ],
+      "authorAssertion": "从杀斯真",
+      "classificationEvidence": "explicit-true",
+      "quarantined": false
+    },
+    {
+      "caseId": "wang-wood",
+      "pillars": [
+        "癸卯",
+        "乙卯",
+        "甲寅",
+        "乙亥"
+      ],
+      "authorAssertion": "从旺（从其旺神）",
+      "classificationEvidence": "asserted",
+      "quarantined": false
+    },
+    {
+      "caseId": "extreme-fire",
+      "pillars": [
+        "丙午",
+        "甲午",
+        "丙午",
+        "甲午"
+      ],
+      "authorAssertion": "强旺极矣（未明分从旺或从强）",
+      "classificationEvidence": "not-specific",
+      "quarantined": false
+    },
+    {
+      "caseId": "qi-metal-water",
+      "pillars": [
+        "癸酉",
+        "癸亥",
+        "庚申",
+        "丁亥"
+      ],
+      "authorAssertion": "从金水",
+      "classificationEvidence": "asserted",
+      "quarantined": false
+    },
+    {
+      "caseId": "shi-guishui",
+      "pillars": [
+        "丙戌",
+        "壬辰",
+        "癸巳",
+        "甲寅"
+      ],
+      "authorAssertion": "从官星之势",
+      "classificationEvidence": "asserted",
+      "quarantined": false
+    },
+    {
+      "caseId": "shi-binghuo",
+      "pillars": [
+        "癸酉",
+        "乙丑",
+        "丙申",
+        "丙申"
+      ],
+      "authorAssertion": "从化金水之势",
+      "classificationEvidence": "asserted",
+      "quarantined": false
+    },
+    {
+      "caseId": "hua-jia-1",
+      "pillars": [
+        "乙丑",
+        "甲申",
+        "甲辰",
+        "己巳"
+      ],
+      "authorAssertion": "甲己真化土",
+      "classificationEvidence": "explicit-true",
+      "quarantined": false
+    },
+    {
+      "caseId": "hua-jia-2",
+      "pillars": [
+        "戊辰",
+        "壬戌",
+        "甲辰",
+        "己巳"
+      ],
+      "authorAssertion": "甲己合神更真、化气有余",
+      "classificationEvidence": "explicit-true",
+      "quarantined": false
+    },
+    {
+      "caseId": "hua-ren-1",
+      "pillars": [
+        "己卯",
+        "丁卯",
+        "壬午",
+        "甲辰"
+      ],
+      "authorAssertion": "丁壬化木斯真",
+      "classificationEvidence": "explicit-true",
+      "quarantined": false
+    },
+    {
+      "caseId": "hua-ren-2",
+      "pillars": [
+        "己卯",
+        "丁卯",
+        "壬午",
+        "癸卯"
+      ],
+      "authorAssertion": "丁壬化象更真",
+      "classificationEvidence": "explicit-true",
+      "quarantined": false
+    },
+    {
+      "caseId": "hua-gui",
+      "pillars": [
+        "丙戌",
+        "戊戌",
+        "癸巳",
+        "壬戌"
+      ],
+      "authorAssertion": "戊癸化火斯真",
+      "classificationEvidence": "explicit-true",
+      "quarantined": false
+    },
+    {
+      "caseId": "false-sha-explicit",
+      "pillars": [
+        "癸巳",
+        "乙卯",
+        "己亥",
+        "癸酉"
+      ],
+      "authorAssertion": "从杀、不作真从",
+      "classificationEvidence": "explicit-false",
+      "quarantined": false
+    },
+    {
+      "caseId": "false-sha-pulled-root",
+      "pillars": [
+        "丁丑",
+        "壬寅",
+        "丙申",
+        "壬辰"
+      ],
+      "authorAssertion": "格成从杀（置假从章）",
+      "classificationEvidence": "chapter-only-false",
+      "quarantined": false
+    },
+    {
+      "caseId": "false-guan-earth",
+      "pillars": [
+        "乙卯",
+        "己卯",
+        "戊辰",
+        "癸亥"
+      ],
+      "authorAssertion": "格取从官（置假从章）",
+      "classificationEvidence": "chapter-only-false",
+      "quarantined": false
+    },
+    {
+      "caseId": "false-sha-xin",
+      "pillars": [
+        "丁卯",
+        "丙寅",
+        "辛亥",
+        "庚寅"
+      ],
+      "authorAssertion": "格取从杀（置假从章）",
+      "classificationEvidence": "chapter-only-false",
+      "quarantined": true
+    },
+    {
+      "caseId": "false-sha-ding",
+      "pillars": [
+        "癸亥",
+        "乙卯",
+        "己未",
+        "丁卯"
+      ],
+      "authorAssertion": "不得不从杀（置假从章）",
+      "classificationEvidence": "chapter-only-false",
+      "quarantined": false
+    },
+    {
+      "caseId": "false-hua-jia-1",
+      "pillars": [
+        "己卯",
+        "甲戌",
+        "甲子",
+        "己巳"
+      ],
+      "authorAssertion": "假化、有情而不悖",
+      "classificationEvidence": "explicit-false",
+      "quarantined": false
+    },
+    {
+      "caseId": "false-hua-jia-2",
+      "pillars": [
+        "甲子",
+        "丙子",
+        "甲申",
+        "己巳"
+      ],
+      "authorAssertion": "化神假而不清",
+      "classificationEvidence": "explicit-false",
+      "quarantined": false
+    },
+    {
+      "caseId": "false-hua-jia-3",
+      "pillars": [
+        "甲寅",
+        "丁丑",
+        "甲戌",
+        "己巳"
+      ],
+      "authorAssertion": "虽是假化",
+      "classificationEvidence": "explicit-false",
+      "quarantined": false
+    },
+    {
+      "caseId": "false-hua-gui-contradiction",
+      "pillars": [
+        "甲寅",
+        "辛未",
+        "癸亥",
+        "戊午"
+      ],
+      "authorAssertion": "日主不能从合矣（与章节/解释待校）",
+      "classificationEvidence": "quarantined",
+      "quarantined": true
+    },
+    {
+      "caseId": "false-hua-ren",
+      "pillars": [
+        "甲辰",
+        "丁卯",
+        "壬辰",
+        "辛亥"
+      ],
+      "authorAssertion": "日干不得不从合而化（置假化章）",
+      "classificationEvidence": "chapter-only-false",
+      "quarantined": false
+    },
+    {
+      "caseId": "child-gui-spring-1",
+      "pillars": [
+        "丁卯",
+        "壬寅",
+        "癸卯",
+        "丙辰"
+      ],
+      "authorAssertion": "格成水木从儿",
+      "classificationEvidence": "asserted",
+      "quarantined": false
+    },
+    {
+      "caseId": "child-gui-spring-2",
+      "pillars": [
+        "丁巳",
+        "癸卯",
+        "癸卯",
+        "丙辰"
+      ],
+      "authorAssertion": "亦水木从儿",
+      "classificationEvidence": "asserted",
+      "quarantined": false
+    },
+    {
+      "caseId": "child-bing-chou",
+      "pillars": [
+        "己未",
+        "丁丑",
+        "丙戌",
+        "戊戌"
+      ],
+      "authorAssertion": "格成火土从儿",
+      "classificationEvidence": "asserted",
+      "quarantined": false
+    },
+    {
+      "caseId": "child-bing-wei",
+      "pillars": [
+        "己未",
+        "辛未",
+        "丙戌",
+        "戊戌"
+      ],
+      "authorAssertion": "格取从儿",
+      "classificationEvidence": "asserted",
+      "quarantined": false
+    },
+    {
+      "caseId": "child-jia-chou",
+      "pillars": [
+        "甲午",
+        "丁丑",
+        "甲午",
+        "丙寅"
+      ],
+      "authorAssertion": "格取从儿、非身弱论",
+      "classificationEvidence": "asserted",
+      "quarantined": false
+    },
+    {
+      "caseId": "child-wu-chou",
+      "pillars": [
+        "辛丑",
+        "辛丑",
+        "戊申",
+        "壬子"
+      ],
+      "authorAssertion": "顺局章同前后比较、未重写从儿标签",
+      "classificationEvidence": "chapter-only",
+      "quarantined": false
+    },
+    {
+      "caseId": "child-wu-chen",
+      "pillars": [
+        "庚子",
+        "庚辰",
+        "戊申",
+        "辛酉"
+      ],
+      "authorAssertion": "格取从儿",
+      "classificationEvidence": "asserted",
+      "quarantined": false
+    },
+    {
+      "caseId": "child-xin-winter-1",
+      "pillars": [
+        "壬寅",
+        "辛亥",
+        "辛亥",
+        "壬辰"
+      ],
+      "authorAssertion": "格取从儿",
+      "classificationEvidence": "asserted",
+      "quarantined": false
+    },
+    {
+      "caseId": "child-xin-winter-2",
+      "pillars": [
+        "壬子",
+        "辛亥",
+        "辛卯",
+        "辛卯"
+      ],
+      "authorAssertion": "格取从儿",
+      "classificationEvidence": "asserted",
+      "quarantined": false
+    },
+    {
+      "caseId": "strong-wood-yes",
+      "pillars": [
+        "甲寅",
+        "乙亥",
+        "乙卯",
+        "癸未"
+      ],
+      "authorAssertion": "其势从强",
+      "classificationEvidence": "asserted",
+      "quarantined": false
+    },
+    {
+      "caseId": "strong-wood-no",
+      "pillars": [
+        "甲寅",
+        "丁卯",
+        "乙未",
+        "丁亥"
+      ],
+      "authorAssertion": "非前造从强论",
+      "classificationEvidence": "explicit-negative",
+      "quarantined": false
+    },
+    {
+      "caseId": "child-not-wei",
+      "pillars": [
+        "戊申",
+        "己未",
+        "丙戌",
+        "己丑"
+      ],
+      "authorAssertion": "实际未月不用从儿、取未中丁火",
+      "classificationEvidence": "explicit-negative-counterfactual",
+      "quarantined": false
+    },
+    {
+      "caseId": "combine-nontransform",
+      "pillars": [
+        "癸丑",
+        "戊午",
+        "丙午",
+        "壬辰"
+      ],
+      "authorAssertion": "戊癸合而不化",
+      "classificationEvidence": "explicit-negative-relation",
+      "quarantined": false
+    },
+    {
+      "caseId": "combine-transform",
+      "pillars": [
+        "癸巳",
+        "戊午",
+        "丙午",
+        "壬辰"
+      ],
+      "authorAssertion": "戊癸合而必化",
+      "classificationEvidence": "asserted-relation",
+      "quarantined": false
+    },
+    {
+      "caseId": "child-alternative-resource",
+      "pillars": [
+        "丁亥",
+        "丁未",
+        "乙亥",
+        "己卯"
+      ],
+      "authorAssertion": "格取食神用印",
+      "classificationEvidence": "explicit-alternative",
+      "quarantined": false
+    },
+    {
+      "caseId": "child-wood-fire",
+      "pillars": [
+        "丙戌",
+        "乙未",
+        "乙巳",
+        "丁亥"
+      ],
+      "authorAssertion": "格成顺局从儿",
+      "classificationEvidence": "asserted",
+      "quarantined": false
+    },
+    {
+      "caseId": "false-cai-explicit",
+      "pillars": [
+        "庚辰",
+        "己丑",
+        "己亥",
+        "壬申"
+      ],
+      "authorAssertion": "格成假从财",
+      "classificationEvidence": "explicit-false",
+      "quarantined": false
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "schema": "m1051-exact15-source-pins/1",
+  "reviewId": "M1051-QIMEN-CULTURAL-EXACT15",
+  "sourceCommit": "1e2d737f9c03c28184e8ec89ad2755a0f22ba8d4",
+  "currentCheckedCommit": "ad7e0b2f02992d0837c6a6ab0ea24c7816afd828",
+  "files": [
+    {
+      "file": "src/domain/qimen-cultural-comparison-canonical.ts",
+      "bytes": 3904,
+      "sha256": "e77d8412572153599efd7f8cfaf005e73c61ec70daf604eb3a8c03b976a4e196",
+      "gitBlob": "a3debd53c4c341e8ffa6de634976756c777efd46",
+      "role": "qimen-cultural-canonical-data",
+      "readerClass": "pure-rule-or-rule-data",
+      "compileScope": "main-service-bundle",
+      "judgment": "accepted-for-bounded-trusted-internal-source-registration"
+    },
+    {
+      "file": "src/domain/qimen-cultural-comparison.ts",
+      "bytes": 16190,
+      "sha256": "2f368913ce28ee4867b09dcc01a399cb00f67d0dcc0cf9fcd2aeee9b9dd643c1",
+      "gitBlob": "e011846e5b2a30ef63fa31d923f5697e446e1c02",
+      "role": "qimen-cultural-comparison-domain",
+      "readerClass": "pure-rule-or-rule-data",
+      "compileScope": "main-service-bundle",
+      "judgment": "accepted-for-bounded-trusted-internal-source-registration"
+    },
+    {
+      "file": "src/main/qimen-cultural-offline-birth-v1.ts",
+      "bytes": 6255,
+      "sha256": "a93fd21467648564af77dd364af7bdf6b5f797d0845a09d058e0523c7b626b0c",
+      "gitBlob": "1857453750a20272ac5d7b563b7ff9a72b432bd6",
+      "role": "qimen-cultural-offline-birth-check",
+      "readerClass": "pure-rule-or-rule-data",
+      "compileScope": "main-service-bundle",
+      "judgment": "accepted-for-bounded-trusted-internal-source-registration"
+    },
+    {
+      "file": "src/main/qimen-cultural-offline-input-v1.ts",
+      "bytes": 6158,
+      "sha256": "51f667f9b849aab9ce6e7f1088afff7db2ee14b40291ec6d4c150cdc9022a119",
+      "gitBlob": "ca5401501137356170662f96eb1e10393ba64a96",
+      "role": "qimen-cultural-offline-input-capture",
+      "readerClass": "pure-rule-or-rule-data",
+      "compileScope": "main-service-bundle",
+      "judgment": "accepted-for-bounded-trusted-internal-source-registration"
+    },
+    {
+      "file": "src/main/qimen-cultural-offline-pack-v1.ts",
+      "bytes": 7638,
+      "sha256": "0a6dd0e81f903c0be1065e6df78558cb2652b0236be28bc09daad8deb1aee723",
+      "gitBlob": "f7ca9056b5d43d7437d299f44f9c97fda5bf202f",
+      "role": "qimen-cultural-offline-pack-reader",
+      "readerClass": "service-fixed-source-reader",
+      "compileScope": "main-service-bundle",
+      "judgment": "accepted-for-bounded-trusted-internal-source-registration"
+    },
+    {
+      "file": "src/main/qimen-cultural-offline-projection-v1.ts",
+      "bytes": 15718,
+      "sha256": "240124120758d2863530df7c5e18fd617ee708248d8621c7f00ddeebb3319ace",
+      "gitBlob": "c9f32256221f4d88bf021451cadabdf6027300d2",
+      "role": "qimen-cultural-offline-projection-check",
+      "readerClass": "pure-rule-or-rule-data",
+      "compileScope": "main-service-bundle",
+      "judgment": "accepted-for-bounded-trusted-internal-source-registration"
+    },
+    {
+      "file": "src/main/qimen-cultural-offline-sources-v1.ts",
+      "bytes": 18223,
+      "sha256": "2248d7288680ff80960f15802f8ebcfb98a6cf7ec5e9aff24eeb186ad9c76dbb",
+      "gitBlob": "9cc8f8c53d40dfeeb274c117bc0bb98cd4606bc6",
+      "role": "qimen-cultural-offline-fixed-source-reader",
+      "readerClass": "service-fixed-source-reader",
+      "compileScope": "main-service-bundle",
+      "judgment": "accepted-for-bounded-trusted-internal-source-registration"
+    },
+    {
+      "file": "src/main/qimen-cultural-offline-v1.ts",
+      "bytes": 6760,
+      "sha256": "2073ed355b59f239e55e944220c5c92217470a97eb98a08fa1624f2c5fb5ca59",
+      "gitBlob": "664af0a2be895523c7d441ab274358d261d41b14",
+      "role": "qimen-cultural-offline-replay-owner",
+      "readerClass": "service-fixed-source-reader",
+      "compileScope": "main-service-bundle",
+      "judgment": "accepted-for-bounded-trusted-internal-source-registration"
+    },
+    {
+      "file": "src/main/qimen-cultural-provider-profile-v1.ts",
+      "bytes": 4539,
+      "sha256": "816251d15f17958c1c0fb6bce63421afae277ec398283946fc959b6931196c30",
+      "gitBlob": "1192d53918cec089f29e696770a7866fb0bd8d83",
+      "role": "qimen-cultural-stored-profile-gate",
+      "readerClass": "pure-rule-or-rule-data",
+      "compileScope": "main-service-bundle",
+      "judgment": "accepted-for-bounded-trusted-internal-source-registration"
+    },
+    {
+      "file": "src/main/qimen-cultural-provider-sources-v1.ts",
+      "bytes": 15524,
+      "sha256": "8d2def0ed964f1293cfe4b1eb1a51ed90807202869e485383057063ce0e24ccf",
+      "gitBlob": "ecbe03e16f40509de74d86953fc994011d508294",
+      "role": "qimen-cultural-live-fixed-source-reader",
+      "readerClass": "service-fixed-source-reader",
+      "compileScope": "main-service-bundle",
+      "judgment": "accepted-for-bounded-trusted-internal-source-registration"
+    },
+    {
+      "file": "src/main/qimen-cultural-provider-v1.ts",
+      "bytes": 31395,
+      "sha256": "9e80378d992db577c7f5f7df98da7898c5ba84055f51f593a0f9cdd1775e7998",
+      "gitBlob": "2c0642835be0add4de6a1091a6c0e4c6944f7082",
+      "role": "qimen-cultural-live-provider-owner",
+      "readerClass": "service-fixed-source-reader",
+      "compileScope": "main-service-bundle",
+      "judgment": "accepted-for-bounded-trusted-internal-source-registration"
+    },
+    {
+      "file": "src/shared/qimen-cultural-comparison-rules.ts",
+      "bytes": 1974,
+      "sha256": "785e92d8c9a28c6d45e099c94b5b1289d922d9d27433768bb409bc61198a3c09",
+      "gitBlob": "baccc0b3963448eec17c5ff1a5f0e6279f721b97",
+      "role": "qimen-cultural-outer-palace-rules",
+      "readerClass": "pure-rule-or-rule-data",
+      "compileScope": "main-service-bundle",
+      "judgment": "accepted-for-bounded-trusted-internal-source-registration"
+    },
+    {
+      "file": "src/shared/qimen-cultural-comparison.ts",
+      "bytes": 7187,
+      "sha256": "6aa7bbca7db128ac69fe25379d95c19c833d1e0382950aa97cb8b1f56f6efe9d",
+      "gitBlob": "cc5ac4555e505066b0d6478cf16db7bb7715d99a",
+      "role": "qimen-cultural-comparison-runtime-contract",
+      "readerClass": "pure-rule-or-rule-data",
+      "compileScope": "main-service-bundle",
+      "judgment": "accepted-for-bounded-trusted-internal-source-registration"
+    },
+    {
+      "file": "src/shared/qimen-cultural-offline-v1.ts",
+      "bytes": 1956,
+      "sha256": "2fe13e24254dd5c13a7ff5975acdca7abacf92a2770f80f0fb9918fbbbfa6461",
+      "gitBlob": "6180f0e31f33ad0f5130f5333bfea10f80357805",
+      "role": "qimen-cultural-offline-runtime-contract",
+      "readerClass": "pure-rule-or-rule-data",
+      "compileScope": "main-service-bundle",
+      "judgment": "accepted-for-bounded-trusted-internal-source-registration"
+    },
+    {
+      "file": "src/shared/qimen-cultural-provider-v1.ts",
+      "bytes": 4224,
+      "sha256": "c1d24f3052ed3b9a30bcdf3dbc21146aeae1c24e9fff095be275014d4b5880a1",
+      "gitBlob": "2f56048f7c89f2d81c1cf77da3af3c2f82b8cc47",
+      "role": "qimen-cultural-provider-runtime-contract",
+      "readerClass": "pure-rule-or-rule-data",
+      "compileScope": "main-service-bundle",
+      "judgment": "accepted-for-bounded-trusted-internal-source-registration"
+    }
+  ]
+}

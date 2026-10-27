@@ -1,0 +1,289 @@
+{
+  "schema": "M777-project-object-mapping-admission/1",
+  "auditId": "M777-element-admission-audit/1.0.0",
+  "reviewerId": "M777-INDEPENDENT-AUDIT",
+  "decision": "approve-exact-M770-review-for-trusted-main-mapping-pin",
+  "reviewedInput": {
+    "path": "D:/Codex-NamingStudio-Evidence/m770-element-mapping-decision/independent-review.json",
+    "sha256": "89ad0ade1a15adb0f801649b650888f376d84f51c469de4f1455bf42a4280509",
+    "reviewId": "M770-object-element-review/1.0.0",
+    "reviewerId": "M770-DECISION",
+    "authorId": "M754-DATA",
+    "profileId": "project-dictionary-object-elements/2.0.0-m754-candidate",
+    "packageLockSha256": "e33287aac335327e58f772def9c7f8064abed174d7988b4ac6f452eba68ada72",
+    "candidateCodeCommit": "82a089e0592e2e7b6cbfa1c8e15ab36f5f77a04b"
+  },
+  "authority": "project-convention",
+  "rows": [
+    {
+      "char": "枫",
+      "decision": "approved",
+      "candidateSha256": "3c96d4a6b3e7c0efdf40149bf6fc65e14fe88bddc2cf83102b61ee6f453156a2",
+      "scope": "default-reading-direct-object",
+      "themeId": null,
+      "defaultPinyin": "fēng",
+      "sourceWord": "楓",
+      "factId": "m754-67ab",
+      "senseRecordId": "moe-revised@a6dc997417507eb510fc29822bc514de2c92728c/entry/77587/heteronyms/0/definitions/0",
+      "index": [
+        77587,
+        0,
+        0
+      ],
+      "sourceDefinitionSha256": "62caa9be03d4d5536059c5079463f0a09a97fdec92ff7c8138aeee856c196514",
+      "objectClass": "tree",
+      "element": "木",
+      "independentReason": "固定 fēng/楓 原条的所指明确为乔木，直接落入 tree 类；tree→木是公开项目约定，与原条所指一致。默认读音在固定原条没有异类义，通用范围合适。",
+      "approvedBoundary": "只取固定楓原条的树木对象；简繁证据仅绑定字形。黄叶、红叶不增加土或火，也不外推其他同名植物种属。",
+      "namingIntentBoundary": "树木舒展、叶色鲜明保留为项目画面，不承诺个人性情或人生发展。",
+      "blockingIssues": []
+    },
+    {
+      "char": "卉",
+      "decision": "approved",
+      "candidateSha256": "af99f36d8ad5023f3c425f91986829d747ed064d706cd5be6f31b7f7150c7475",
+      "scope": "default-reading-direct-object",
+      "themeId": null,
+      "defaultPinyin": "huì",
+      "sourceWord": "卉",
+      "factId": "m754-5349",
+      "senseRecordId": "moe-revised@a6dc997417507eb510fc29822bc514de2c92728c/entry/23092/heteronyms/0/definitions/0",
+      "index": [
+        23092,
+        0,
+        0
+      ],
+      "sourceDefinitionSha256": "f224e6d08940f1cb2f9d5f4f0564923746ee3c39f7ac3d7a212123e36e95b898",
+      "objectClass": "plant",
+      "element": "木",
+      "independentReason": "固定 huì 原条的实质定义为草类植物总称，类别层级足以支持 plant→木，不需要替它挑选具体花种。通用范围没有把其他读音或异类义合并。",
+      "approvedBoundary": "保留草类植物总称；不扩大为某一花种、全部花色、药效或其他植物的详细属性。",
+      "namingIntentBoundary": "生长、百卉相映是原创画面，不是辞书对人格或吉凶的定义。",
+      "blockingIssues": []
+    },
+    {
+      "char": "麓",
+      "decision": "approved",
+      "candidateSha256": "5c0b0e498af033e40327d7e50b21d48190273cb2b8945372841f27a46c143c3f",
+      "scope": "default-reading-direct-object",
+      "themeId": null,
+      "defaultPinyin": "lù",
+      "sourceWord": "麓",
+      "factId": "m754-9e93",
+      "senseRecordId": "moe-revised@a6dc997417507eb510fc29822bc514de2c92728c/entry/161127/heteronyms/0/definitions/0",
+      "index": [
+        161127,
+        0,
+        0
+      ],
+      "sourceDefinitionSha256": "cb5fccb887b6a219bfe354e04b44bb82313427ceb74cbe216270ec9272ff8272",
+      "objectClass": "landform",
+      "element": "土",
+      "independentReason": "固定 lù 原条仅指山脚；山脚是地形对象，按本项目 landform→土分类自洽，不依赖字形中的林，也不要求证明它全部由土壤组成。",
+      "approvedBoundary": "批准山脚地形的项目分类，不批准林部件→木、人体脚部分类、地质稳定或命局安稳。",
+      "namingIntentBoundary": "安稳、山林相接仅可作为已明确标注的项目取景；固定辞书没有证明必然有林或地质安全。",
+      "blockingIssues": []
+    },
+    {
+      "char": "菘",
+      "decision": "approved",
+      "candidateSha256": "09d53e7686b1affc248513017b4fdcff86186af695b3fa8c5ef7c5fd363a0a32",
+      "scope": "default-reading-direct-object",
+      "themeId": null,
+      "defaultPinyin": "sōng",
+      "sourceWord": "菘",
+      "factId": "m754-83d8",
+      "senseRecordId": "moe-revised@a6dc997417507eb510fc29822bc514de2c92728c/entry/123575/heteronyms/0/definitions/0",
+      "index": [
+        123575,
+        0,
+        0
+      ],
+      "sourceDefinitionSha256": "a5a61683765a568dd65923966cc351f470db43bc4cfb37a6601c6ff562b40db3",
+      "objectClass": "plant",
+      "element": "木",
+      "independentReason": "固定 sōng 原条直接记载草本植物并明确通称白菜，所指落入 plant→木。家庭是否喜欢蔬菜意象是后续选名偏好，不改变此单字固定对象分类的有效性。",
+      "approvedBoundary": "必须保留白菜植物所指，不换成同音松，不扩大至全部蔬菜，不推导营养、疗效或常青性质。",
+      "namingIntentBoundary": "田园清新和自然生长属于项目审美；不能以文案隐藏实际词义，不能自动取得 M752 命名义权限。",
+      "blockingIssues": []
+    },
+    {
+      "char": "珉",
+      "decision": "approved",
+      "candidateSha256": "7a378b028407bf7220f21b91bc89998739613271984dcbeaa81394bafeab3bbb",
+      "scope": "default-reading-direct-object",
+      "themeId": null,
+      "defaultPinyin": "mín",
+      "sourceWord": "珉",
+      "factId": "m754-73c9",
+      "senseRecordId": "moe-revised@a6dc997417507eb510fc29822bc514de2c92728c/entry/96309/heteronyms/0/definitions/0",
+      "index": [
+        96309,
+        0,
+        0
+      ],
+      "sourceDefinitionSha256": "83d9ccab70e83b332b81ed63139096b1a82aca7f1b6553e78dd8266341434b33",
+      "objectClass": "stone",
+      "element": "土",
+      "independentReason": "固定 mín 原条直接指似玉美石，stone→土与本批石的材料分类一致。字旁与似玉比拟均不提供金属标签，单一实质义足以支持通用范围。",
+      "approvedBoundary": "似玉不等于玉；不证明矿物品种、成分、价额、品级或道德品质。",
+      "namingIntentBoundary": "温润、质朴、有光只保留为原创画面，不能改写为经辞书验证的材料测量或人物性质。",
+      "blockingIssues": []
+    },
+    {
+      "char": "川",
+      "decision": "approved",
+      "candidateSha256": "f5d1d4488609ad5ac1cae5da4da71f5c3d53a228f2a413c13e507c25c4d7df07",
+      "scope": "explicit-naming-theme",
+      "themeId": "river-object",
+      "defaultPinyin": "chuān",
+      "sourceWord": "川",
+      "factId": "m754-5ddd",
+      "senseRecordId": "moe-revised@a6dc997417507eb510fc29822bc514de2c92728c/entry/47214/heteronyms/0/definitions/0",
+      "index": [
+        47214,
+        0,
+        0
+      ],
+      "sourceDefinitionSha256": "a4b51c7c4a111570671734a160e04bfba8c87400bb9039005986007097998fbe",
+      "objectClass": "river",
+      "element": "水",
+      "independentReason": "固定 chuān/47214/0/0 是河流名词义；river-object 精确选择该实体，river→水自洽。同音省名简称与烹饪动词使无主题通用采用不合适。",
+      "approvedBoundary": "须显式自有 river-object 主题，缺少或其他主题不得出有效标签；四川简称或烹饪中用了水均不构成本映射证据。",
+      "namingIntentBoundary": "清流向前为原创取景，不保证水质、财富流入或人生顺遂。",
+      "blockingIssues": []
+    },
+    {
+      "char": "石",
+      "decision": "approved",
+      "candidateSha256": "131ffc5746ce3512111e5eab202cc4ced8c69571fa8f823cf9fca9e106f6f179",
+      "scope": "explicit-naming-theme",
+      "themeId": "mineral-stone-object",
+      "defaultPinyin": "shí",
+      "sourceWord": "石",
+      "factId": "m754-77f3",
+      "senseRecordId": "moe-revised@a6dc997417507eb510fc29822bc514de2c92728c/entry/104223/heteronyms/0/definitions/0",
+      "index": [
+        104223,
+        0,
+        0
+      ],
+      "sourceDefinitionSha256": "0106b82a6832e18d9112b711a660c006e4418e01f0e91eb08a4ddba1c0616c6f",
+      "objectClass": "stone",
+      "element": "土",
+      "independentReason": "固定 shí/104223/0/0 是矿物聚成块状物的材料定义，mineral-stone-object 选择该实体后按 stone→土处理，与珉一致，不把矿物等同金属。",
+      "approvedBoundary": "须显式 mineral-stone-object；不包含 dàn 量词及 shí 的姓、部首、药石或碑碣义，姓石不会自动取得给名项目分类。",
+      "namingIntentBoundary": "坚实对象的画面不推导人的坚毅、骨骼健康、财富或其他作用。",
+      "blockingIssues": []
+    },
+    {
+      "char": "枝",
+      "decision": "approved",
+      "candidateSha256": "19b297c331823162eb177fb24f4a295978754cee9089c3156239bde4fe713479",
+      "scope": "explicit-naming-theme",
+      "themeId": "tree-branch-object",
+      "defaultPinyin": "zhī",
+      "sourceWord": "枝",
+      "factId": "m754-679d",
+      "senseRecordId": "moe-revised@a6dc997417507eb510fc29822bc514de2c92728c/entry/75727/heteronyms/0/definitions/0",
+      "index": [
+        75727,
+        0,
+        0
+      ],
+      "sourceDefinitionSha256": "7f252b873a93f73350d8e32cae06629a61f51282f3333f2564f16dd8d317c9c1",
+      "objectClass": "plant-part",
+      "element": "木",
+      "independentReason": "固定 zhī/75727/0/0 指树干旁生枝条，是植物部位，tree-branch-object 与 plant-part→木精确相容。其他同音义及 qí 读音没有参与推导。",
+      "approvedBoundary": "须显式 tree-branch-object；不纳入支系、四肢、量词、姓氏、不中肯/不一致形容义或 qí 多趾义。",
+      "namingIntentBoundary": "舒展、生长相续仅是项目画面，不保证身体、子孙或人生发展。",
+      "blockingIssues": []
+    },
+    {
+      "char": "棉",
+      "decision": "approved",
+      "candidateSha256": "d87f0385ba765aa0bad9430854e6d8a32f717b81b7529d8c0e50b5c82ca4acdf",
+      "scope": "explicit-naming-theme",
+      "themeId": "cotton-plant-object",
+      "defaultPinyin": "mián",
+      "sourceWord": "棉",
+      "factId": "m754-68c9",
+      "senseRecordId": "moe-revised@a6dc997417507eb510fc29822bc514de2c92728c/entry/77186/heteronyms/0/definitions/0",
+      "index": [
+        77186,
+        0,
+        0
+      ],
+      "sourceDefinitionSha256": "2a917ef731bbd57804a0c45a61a381549eb2312c29552c6531b8c20c8f210f67",
+      "objectClass": "plant",
+      "element": "木",
+      "independentReason": "固定 mián/77186/0/0 的首句已给出木棉与草棉统称，不是空的参见跳转。采用宽泛植物对象类即可支持 plant→木，cotton-plant-object 选择与该义匹配。",
+      "approvedBoundary": "须显式 cotton-plant-object；不读取未审参见条来补具体种属，不纳入棉絮制品性质或微薄义，不推广为全部纺织材料属木。",
+      "namingIntentBoundary": "柔和清新仅为原创建景，不证明织物性能、温柔人格或健康效应。",
+      "blockingIssues": []
+    },
+    {
+      "char": "蕤",
+      "decision": "approved",
+      "candidateSha256": "1e699c3a69c837e575709c000d414dcd1496091c5c2459852cfd760c96009bc0",
+      "scope": "explicit-naming-theme",
+      "themeId": "hanging-flower-object",
+      "defaultPinyin": "ruí",
+      "sourceWord": "蕤",
+      "factId": "m754-8564",
+      "senseRecordId": "moe-revised@a6dc997417507eb510fc29822bc514de2c92728c/entry/125341/heteronyms/0/definitions/1",
+      "index": [
+        125341,
+        0,
+        1
+      ],
+      "sourceDefinitionSha256": "f054ed2aac0e126338a3780edcc849d548a785f77438ef160887c9f5043f22ea",
+      "objectClass": "plant-part",
+      "element": "木",
+      "independentReason": "固定 ruí/125341/0/1 是草木垂结之花的名词义，花属于植物部位，hanging-flower-object 与 plant-part→木相容。主题及索引明确，非首项并不导致对象无效。",
+      "approvedBoundary": "须显式 hanging-flower-object 且保持 definitionIndex=1；不得回退首项形容义、采用帽饰或葳蕤参见义，也不借艹偏旁分类。",
+      "namingIntentBoundary": "芳华舒展只是原创图景，不保证美貌、人生盛衰或运势。",
+      "blockingIssues": []
+    }
+  ],
+  "summary": {
+    "approved": 10,
+    "general": 5,
+    "explicitTheme": 5,
+    "pending": 0,
+    "rejected": 0,
+    "blockingSemanticIssues": 0
+  },
+  "trustedMainPin": {
+    "relativePath": "data/element-imagery-m754/m770-independent-review.json",
+    "expectedSha256": "89ad0ade1a15adb0f801649b650888f376d84f51c469de4f1455bf42a4280509"
+  },
+  "trustedMainPinMayBeRegistered": true,
+  "pinInstalledByThisAudit": false,
+  "limits": {
+    "traditionalUniqueElementApproved": false,
+    "wholeNameMeaningApproved": false,
+    "namingMeaningPermissionGranted": false,
+    "newScoringWeightsApproved": false,
+    "fortuneOrPersonalityClaimsApproved": false,
+    "productReleaseApproved": false,
+    "storedDatasetWriteApproved": false
+  },
+  "coverage": {
+    "actualFormalKnown": 257,
+    "actualFormalUnknown": 522,
+    "actualFormalNew": 0,
+    "recomputeOnlyAfterRootConsumerIntegration": true,
+    "isolatedProjectionOnly": {
+      "withoutThemeKnown": 262,
+      "withAllFiveThemesKnown": 267
+    }
+  },
+  "evidence": {
+    "sourceAndConsumerAudit": "D:/Codex-NamingStudio-Evidence/m761-m754-audit/r2/report.md",
+    "binding": "binding-review/binding-result.json",
+    "bindingSha256": "75f1ea6562484c4baf7acd43bd539e965a733ec3f9367f59e55526507ab5543b",
+    "loader": "loader-probe-result.json"
+  },
+  "testSuitesRerun": false
+}

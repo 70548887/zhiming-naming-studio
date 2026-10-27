@@ -1,0 +1,39 @@
+{
+  "schema": "m1051-exact15-source-review-receipt/1",
+  "reviewId": "M1051-QIMEN-CULTURAL-EXACT15",
+  "result": "accepted-with-trusted-internal-source-scope",
+  "sourceCommit": "1e2d737f9c03c28184e8ec89ad2755a0f22ba8d4",
+  "currentCheckedCommit": "ad7e0b2f02992d0837c6a6ab0ea24c7816afd828",
+  "files": 15,
+  "pure": 10,
+  "fixedReader": 5,
+  "reviewSha256": "241bd575f44e90d1fe155579b3e2f46e40f155f64b8e8f5337301654d124f835",
+  "newP1": 0,
+  "newP2": 0,
+  "authority": {
+    "exact15MayBeReferencedForSeparateSourceRegistration": true,
+    "registrationApplied": false,
+    "profileModified": false,
+    "srcModified": false,
+    "dataModified": false,
+    "wholeSourceClosureApproved": false,
+    "sourceBuildApproved": false,
+    "standardElectronOrPdfApproved": false,
+    "dataSemanticsNewlyApproved": false,
+    "generationAuthority": false,
+    "automaticNameRecommendation": false,
+    "storageAuthority": false,
+    "StoreOrCASApproved": false,
+    "ServiceOrUIApproved": false,
+    "traditionalNameMethodEstablished": false,
+    "formalCoverageAdded": 0,
+    "defaultCoverageAdded": 0,
+    "releaseApproved": false
+  },
+  "verification": {
+    "staticChecks": 36,
+    "pureChecks": 12,
+    "IOorStoreorSQL": 0,
+    "oldTestsRerun": 0
+  }
+}

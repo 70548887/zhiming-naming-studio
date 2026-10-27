@@ -1,0 +1,57 @@
+{
+  "schema": "m707-modern-indicator-ui/1",
+  "task": "M707-D07",
+  "base": "04c527eb37c4ff017681bcbccac112af01af4e44",
+  "branch": "codex/m707-modern-indicator-ui",
+  "worktree": "D:/Codex-NamingStudio-Evidence/m707-modern-indicator-ui",
+  "implementation": {
+    "consumer": "existing ModernNamePopularityReferencePanel result area",
+    "newFields": [
+      "evidence state",
+      "statistical year",
+      "sample range",
+      "current national full-name duplicate-rate/frequency cannot be inferred"
+    ],
+    "api": "unchanged StudioAPI.getOfficialNamePopularity()",
+    "writesDatabase": false,
+    "changesScore": false,
+    "changesSort": false
+  },
+  "files": {
+    "src/renderer/ModernNamePopularityReferencePanel.tsx": {
+      "bytes": 6778,
+      "sha256": "04560b9253e31a4148d518c003ea8ba2c1473eab0550d92e87a9fa52a3ea2483"
+    },
+    "src/renderer/modern-name-popularity-reference.css": {
+      "bytes": 2737,
+      "sha256": "e84c676a8525c2d722cad72f7179a6b73bdf0a34c562da224be82159391635d3"
+    },
+    "tests/modern-name-popularity-reference-panel.test.tsx": {
+      "bytes": 12467,
+      "sha256": "efb590401bc6b267bd3aa63d5397803fb7dde6f2772daa2c69cb368d92a3e0db"
+    },
+    "M707-UI-ACCEPTANCE.md": {
+      "bytes": 1309,
+      "sha256": "59560e60875b35e90bec13b9f12e877aa9e758f344b02814fff50e6e28461d54"
+    }
+  },
+  "m670DtoSha256": "5b506dbadb7073885dafbae184359d6e3d3f112e1860c4c1f8a3b9a6a462f637",
+  "m670DtoTestSha256": "d9f4071a60cfb55afeb3af7fab32e338b152857373c09bb0c36f3eb469425509",
+  "validation": {
+    "focusedPanelTests": "8/8 passed",
+    "typecheck": "passed",
+    "textAcceptance": "M707-UI-ACCEPTANCE.md",
+    "gitDiffCheck": "passed"
+  },
+  "unexecuted": [
+    "full suite",
+    "browser/native screenshot",
+    "SQL",
+    "Worker",
+    "server",
+    "fullbuild",
+    "desktop runtime",
+    "external AI"
+  ],
+  "commit": "3c75baac27a0942439c288afa33708c0693a3a11"
+}

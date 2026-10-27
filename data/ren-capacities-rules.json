@@ -1,0 +1,208 @@
+{
+  "version": "1.0.0",
+  "profileId": "ren-source-wood-capacities/1.0.0",
+  "methodVersion": "ditian-ren-commentary-2600158/1.3.0",
+  "sourceId": "bazi-ditian-ren-capacities-2600158",
+  "source": {
+    "revision": 2600158,
+    "title": "滴天髓闡微",
+    "authority": "ren-commentary",
+    "fullWikitextSha256": "1d1a3d61c1b9a26618b41b8ead857a6b966992fdf2adabdc607a0c6cb4c8f04d",
+    "fullWikitextCodepoints": 143701,
+    "url": "https://zh.wikisource.org/w/index.php?title=%E6%BB%B4%E5%A4%A9%E9%AB%93%E9%97%A1%E5%BE%AE&oldid=2600158"
+  },
+  "clauses": [
+    {
+      "id": "wood-group-chen-vigour",
+      "sourceId": "bazi-ditian-ren-capacities-2600158",
+      "section": "通神论 十一、方局",
+      "layer": "ren-commentary;source-sufficient-local-capacity",
+      "quote": "如地支亥卯未，日主是木，或再逢寅之禄、辰之余，旺之极矣，非金所能克也",
+      "locator": "oldid=2600158;codepoint[30246,30280)",
+      "sourceSpan": {
+        "start": 30246,
+        "end": 30280,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextId": "capacity-context-2",
+      "scope": "木局加辰、木日之局部旺势明示；并非任意原局的每条根或完整格局结论。"
+    },
+    {
+      "id": "chen-supports-wood-group",
+      "sourceId": "bazi-ditian-ren-capacities-2600158",
+      "section": "通神论 十一、方局",
+      "layer": "ren-commentary;source-sufficient-local-capacity",
+      "quote": "见寅字是谓同气，见辰字是谓余气，又是东方湿土，能生助木神，又何损累耶？",
+      "locator": "oldid=2600158;codepoint[29569,29604)",
+      "sourceSpan": {
+        "start": 29569,
+        "end": 29604,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextId": "capacity-context-1",
+      "scope": "辰为余气与东方湿土，在所指木局中能生助木神；输出为具体方向能力，不等于实际净作用。"
+    },
+    {
+      "id": "wood-combination-members",
+      "sourceId": "bazi-ditian-ren-capacities-2600158",
+      "section": "通神论 十一、方局",
+      "layer": "ren-commentary;source-sufficient-local-capacity",
+      "quote": "地支有三位相合而成局者，亥卯未木局，寅午戌火局，巳酉丑金局，申子辰水局，皆取征旺墓，一气始终也。",
+      "locator": "oldid=2600158;codepoint[29331,29379)",
+      "sourceSpan": {
+        "start": 29331,
+        "end": 29379,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextId": "capacity-context-1",
+      "scope": "原文明列三位木局；只出现二支不借作完整本条充分条件。"
+    },
+    {
+      "id": "wood-combination-clash-guard",
+      "sourceId": "bazi-ditian-ren-capacities-2600158",
+      "section": "通神论 十一、方局",
+      "layer": "ren-commentary;source-sufficient-local-capacity",
+      "quote": "凡会忌冲，如亥卯未木局，杂一酉丑字于其中，而以与所冲之神紧贴，是为破局。",
+      "locator": "oldid=2600158;codepoint[29425,29461)",
+      "sourceSpan": {
+        "start": 29425,
+        "end": 29461,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextId": "capacity-context-1",
+      "scope": "冲会与破局须另证；本采用域恰有亥卯未辰四支，不把有酉丑的盘并入。"
+    },
+    {
+      "id": "wood-visible-fire-water-reflection",
+      "sourceId": "bazi-ditian-ren-capacities-2600158",
+      "section": "通神论 十一、方局",
+      "layer": "ren-commentary;source-sufficient-local-capacity",
+      "quote": "苟有火而见水，或无火而见金，此谓干头反复",
+      "locator": "oldid=2600158;codepoint[30337,30357)",
+      "sourceSpan": {
+        "start": 30337,
+        "end": 30357,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextId": "capacity-context-2",
+      "scope": "干头反复提醒；本次保守域排除所有明干火金土，不借印成员自动保护丁火。"
+    },
+    {
+      "id": "wood-direction-day-force",
+      "sourceId": "bazi-ditian-ren-capacities-2600158",
+      "section": "通神论 十一、方局",
+      "layer": "ren-commentary;source-sufficient-local-capacity",
+      "quote": "成方透元神，旺可知矣",
+      "locator": "oldid=2600158;codepoint[30882,30892)",
+      "sourceSpan": {
+        "start": 30882,
+        "end": 30892,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextId": "capacity-context-3",
+      "scope": "木方透出同气日干的正面旺势原句；本次不扩成第三条全方判断。"
+    },
+    {
+      "id": "wood-follow-strong-visible-scope",
+      "sourceId": "bazi-ditian-ren-capacities-2600158",
+      "section": "通神论 十一、方局",
+      "layer": "ren-commentary;source-sufficient-local-capacity",
+      "quote": "倘年月时干不杂财官，又有劫印，谓之从强，则生地库地，亦能发福",
+      "locator": "oldid=2600158;codepoint[30908,30938)",
+      "sourceSpan": {
+        "start": 30908,
+        "end": 30938,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextId": "capacity-context-3",
+      "scope": "年月时干不杂财官的原文明干范围；完整从强及行运不是本条能力输出。"
+    }
+  ],
+  "adoption": {
+    "authority": "project-conservative-sufficient-subdomain-from-ren-commentary",
+    "sourceIsNotSoftwareAlgorithm": true,
+    "policy": "sufficient-only; a missing premise does not establish the opposite capacity",
+    "scope": "仅所选四柱原局，不纳入大运流年；证明所指木局局部旺势及辰向木神的生助能力。",
+    "premises": [
+      {
+        "id": "complete-four-pillars",
+        "kind": "input-completeness",
+        "label": "完整且已知的年月日时四柱"
+      },
+      {
+        "id": "mao-month",
+        "kind": "project-conservative-restriction",
+        "label": "月支限定卯；原文旺极句没有单独写死卯月"
+      },
+      {
+        "id": "wood-day-stem",
+        "kind": "source-explicit-condition",
+        "label": "日干甲或乙，所指日主是木"
+      },
+      {
+        "id": "exact-wood-combination-plus-chen",
+        "kind": "source-selected-branch-condition",
+        "label": "四支恰为亥、卯、未、辰各一支；辰取原文额外余气分支"
+      },
+      {
+        "id": "visible-wood-water-only",
+        "kind": "project-conservative-restriction",
+        "label": "四个明干仅甲乙壬癸；保守排除明干食伤火、财土与官杀金"
+      }
+    ],
+    "branchSet": [
+      "亥",
+      "卯",
+      "未",
+      "辰"
+    ],
+    "monthBranch": "卯",
+    "dayStems": [
+      "甲",
+      "乙"
+    ],
+    "visibleStems": [
+      "甲",
+      "乙",
+      "壬",
+      "癸"
+    ],
+    "hiddenStemPolicy": "retain-all-selected-hidden-stems; never translate source absence into raw zero counts",
+    "checks": [
+      {
+        "kind": "wood-group-strength",
+        "clauseIds": [
+          "wood-group-chen-vigour"
+        ],
+        "conclusion": "所指木局局部旺势有正面原文依据"
+      },
+      {
+        "kind": "chen-wood-support-capacity",
+        "clauseIds": [
+          "chen-supports-wood-group"
+        ],
+        "conclusion": "所指辰向本木局木神具生助能力"
+      }
+    ],
+    "doesNotProve": [
+      "根已实际加强或根存续结论",
+      "所有生克边的净作用",
+      "藏干消失、全部藏财无效或全部藏火无效",
+      "完整真假从、从强、喜用神或行运结论",
+      "从木势直接推出木生丁火有效",
+      "未匹配采用域时能力必不存在"
+    ],
+    "futureInterference": [
+      "扩大到明干火金土、其他月或其他第四支须新增原文合同",
+      "加入岁运须另证干头反复、冲会和破局",
+      "“辰能生助木神”不可扩为“辰给任何戊土强根”"
+    ]
+  }
+}

@@ -1,0 +1,370 @@
+{
+  "version": "1.0.0",
+  "profileId": "ren-source-direction-capacities/1.0.0",
+  "methodVersion": "ditian-ren-commentary-2600158/1.4.0",
+  "sourceId": "bazi-ditian-ren-directions-2600158",
+  "source": {
+    "revision": 2600158,
+    "title": "滴天髓闡微",
+    "authority": "ren-commentary",
+    "fullWikitextSha256": "1d1a3d61c1b9a26618b41b8ead857a6b966992fdf2adabdc607a0c6cb4c8f04d",
+    "fullWikitextCodepoints": 143701,
+    "url": "https://zh.wikisource.org/w/index.php?title=%E6%BB%B4%E5%A4%A9%E9%AB%93%E9%97%A1%E5%BE%AE&oldid=2600158"
+  },
+  "clauses": [
+    {
+      "id": "all-three-defines-direction",
+      "sourceId": "bazi-ditian-ren-directions-2600158",
+      "section": "通神论 十一、方局",
+      "layer": "ren-commentary;source-sufficient-direction-capacity",
+      "quote": "凡三字全为成方，如寅、卯、辰全，其力量较胜于亥、卯、未木局",
+      "locator": "oldid=2600158;codepoint[28762,28791)",
+      "sourceSpan": {
+        "start": 28762,
+        "end": 28791,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextId": "four-directions-definition",
+      "scope": "原文明定三方向支全为成方；不是任意二支拼成方，也不以净胜负先行注销成员。"
+    },
+    {
+      "id": "same-day-element-defines-original-stem",
+      "sourceId": "bazi-ditian-ren-directions-2600158",
+      "section": "通神论 十一、方局",
+      "layer": "ren-commentary;source-sufficient-direction-capacity",
+      "quote": "成方干透元神者，日主即方之气也。",
+      "locator": "oldid=2600158;codepoint[30811,30827)",
+      "sourceSpan": {
+        "start": 30811,
+        "end": 30827,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextId": "direction-original-stem-strong",
+      "scope": "日主与方同气即为本句元神透出；不是其他任意明干出现即代替日主。"
+    },
+    {
+      "id": "wood-and-fire-explicit",
+      "sourceId": "bazi-ditian-ren-directions-2600158",
+      "section": "通神论 十一、方局",
+      "layer": "ren-commentary;source-sufficient-direction-capacity",
+      "quote": "如木方日主是木，火方日主是火，即为元神透出也。",
+      "locator": "oldid=2600158;codepoint[30827,30850)",
+      "sourceSpan": {
+        "start": 30827,
+        "end": 30850,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextId": "direction-original-stem-strong",
+      "scope": "木方木日、火方火日均为任氏明确例示，不以木局规则静默五行类推。"
+    },
+    {
+      "id": "direction-sufficient-strength",
+      "sourceId": "bazi-ditian-ren-directions-2600158",
+      "section": "通神论 十一、方局",
+      "layer": "ren-commentary;source-sufficient-direction-capacity",
+      "quote": "成方透元神，旺可知矣",
+      "locator": "oldid=2600158;codepoint[30882,30892)",
+      "sourceSpan": {
+        "start": 30882,
+        "end": 30892,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextId": "direction-original-stem-strong",
+      "scope": "成方并透同气日干给出本条局部旺势；不直接裁定全局净强弱、根的实际生扶、成格或喜用。"
+    },
+    {
+      "id": "three-members-strength",
+      "sourceId": "bazi-ditian-ren-directions-2600158",
+      "section": "通神论 九、干支总论",
+      "layer": "ren-commentary;source-sufficient-direction-capacity",
+      "quote": "大凡支全三物，其势旺盛。",
+      "locator": "oldid=2600158;codepoint[17665,17677)",
+      "sourceSpan": {
+        "start": 17665,
+        "end": 17677,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextId": "three-members-strength-and-month-boundary",
+      "scope": "完整三物的局部势；后文另分当令/他支及制泄，是净作用与取用层。"
+    },
+    {
+      "id": "wood-strong-month",
+      "sourceId": "bazi-ditian-ren-directions-2600158",
+      "section": "通神论 九、干支总论",
+      "layer": "ren-commentary;source-sufficient-direction-capacity",
+      "quote": "旺神者，木方提纲得寅卯也是也",
+      "locator": "oldid=2600158;codepoint[17766,17780)",
+      "sourceSpan": {
+        "start": 17766,
+        "end": 17780,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextId": "three-members-strength-and-month-boundary",
+      "scope": "寅卯在提纲的原文特例；不是本条局部方旺必须寅卯月的全局必要条件。"
+    },
+    {
+      "id": "chen-metal-scope",
+      "sourceId": "bazi-ditian-ren-directions-2600158",
+      "section": "通神论 九、干支总论",
+      "layer": "ren-commentary;source-sufficient-direction-capacity",
+      "quote": "如辰在提纲，四柱干支又有庚辛之助，方可制矣。",
+      "locator": "oldid=2600158;codepoint[17800,17822)",
+      "sourceSpan": {
+        "start": 17800,
+        "end": 17822,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextId": "three-members-strength-and-month-boundary",
+      "scope": "辰月庚辛有助可制木，说明木方全不等于金永远无力；不能由可制反推本条方旺原势不存在。"
+    },
+    {
+      "id": "hai-wood-nourishing-member",
+      "sourceId": "bazi-ditian-ren-directions-2600158",
+      "section": "通神论 十一、方局",
+      "layer": "ren-commentary;source-sufficient-direction-capacity",
+      "quote": "且如木而见亥字，为生旺之神",
+      "locator": "oldid=2600158;codepoint[28876,28889)",
+      "sourceSpan": {
+        "start": 28876,
+        "end": 28889,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextId": "four-directions-definition",
+      "scope": "任氏不以混一亥便机械否定木方；本条不把亥作强制第四支。"
+    },
+    {
+      "id": "fire-water-competition",
+      "sourceId": "bazi-ditian-ren-directions-2600158",
+      "section": "通神论 十一、方局",
+      "layer": "ren-commentary;source-sufficient-direction-capacity",
+      "quote": "苟有火而见水，或无火而见金，此谓干头反复",
+      "locator": "oldid=2600158;codepoint[30337,30357)",
+      "sourceSpan": {
+        "start": 30337,
+        "end": 30357,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextId": "direction-and-group-warned-heads",
+      "scope": "火水及金木干头反复须按实际靶标另核；不从一项明干存在直接取消局部方旺。"
+    },
+    {
+      "id": "follow-strong-additional-conditions",
+      "sourceId": "bazi-ditian-ren-directions-2600158",
+      "section": "通神论 十一、方局",
+      "layer": "ren-commentary;source-sufficient-direction-capacity",
+      "quote": "倘年月时干不杂财官，又有劫印，谓之从强",
+      "locator": "oldid=2600158;codepoint[30908,30927)",
+      "sourceSpan": {
+        "start": 30908,
+        "end": 30927,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextId": "direction-original-stem-strong",
+      "scope": "从强另有条件和气势范围；本条局部旺势不升级从强或把明干无财官等同全无其气。"
+    },
+    {
+      "id": "opposition-force-dependent",
+      "sourceId": "bazi-ditian-ren-directions-2600158",
+      "section": "通神论 八、地支",
+      "layer": "ren-commentary;source-sufficient-direction-capacity",
+      "quote": "冲之者有力，则能去之",
+      "locator": "oldid=2600158;codepoint[13654,13664)",
+      "sourceSpan": {
+        "start": 13654,
+        "end": 13664,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextId": "opposition-context",
+      "scope": "冲能否实际去神取决于作用力，结构相冲不是破方已证。"
+    },
+    {
+      "id": "opposition-not-automatic-damage",
+      "sourceId": "bazi-ditian-ren-directions-2600158",
+      "section": "通神论 八、地支",
+      "layer": "ren-commentary;source-sufficient-direction-capacity",
+      "quote": "得令者冲衰则拔，失时者冲旺无伤。",
+      "locator": "oldid=2600158;codepoint[13638,13654)",
+      "sourceSpan": {
+        "start": 13638,
+        "end": 13654,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextId": "opposition-context",
+      "scope": "冲旺可以无伤，反对以有冲自动断不旺或删除方向支。"
+    },
+    {
+      "id": "opposition-requires-strength-and-rescue",
+      "sourceId": "bazi-ditian-ren-directions-2600158",
+      "section": "通神论 八、地支",
+      "layer": "ren-commentary;source-sufficient-direction-capacity",
+      "quote": "必先察其衰旺，四柱有无解救，或抑冲，或助泄，观其大势，究其喜忌，则吉凶自验矣。",
+      "locator": "oldid=2600158;codepoint[13968,14007)",
+      "sourceSpan": {
+        "start": 13968,
+        "end": 14007,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "contextId": "opposition-context",
+      "scope": "衰旺与解救是实际冲作用的输入；不得倒用尚未完成的冲胜负阻断前已成立的局部方旺，造成循环。"
+    }
+  ],
+  "adoption": {
+    "authority": "source-sufficient-direction-premises; project-known-input-protocol",
+    "sourceIsNotSoftwareAlgorithm": true,
+    "policy": "sufficient-only; a missing premise does not establish the opposite capacity",
+    "scope": "仅木方与火方的局部旺势正判，非全局旺衰/有效作用模型。",
+    "contracts": [
+      {
+        "id": "wood-direction-strength",
+        "kind": "wood-direction-strength",
+        "element": "木",
+        "directionBranches": [
+          "寅",
+          "卯",
+          "辰"
+        ],
+        "dayStems": [
+          "甲",
+          "乙"
+        ],
+        "sourceClauseIds": [
+          "all-three-defines-direction",
+          "same-day-element-defines-original-stem",
+          "wood-and-fire-explicit",
+          "direction-sufficient-strength",
+          "three-members-strength"
+        ],
+        "premises": [
+          {
+            "id": "complete-direction",
+            "kind": "source-premise",
+            "requiredForProof": true,
+            "label": "寅、卯、辰三方向支在已知柱齐全",
+            "sourceClauseIds": [
+              "all-three-defines-direction",
+              "three-members-strength"
+            ],
+            "basis": "已知成员见齐即成立，不要求不参与本组三字的第四柱先被确定。缺成员且全柱已知则本路径不符；缺成员且缺柱则待核。"
+          },
+          {
+            "id": "same-element-day-stem",
+            "kind": "source-premise",
+            "requiredForProof": true,
+            "label": "已知日干与本方同气",
+            "sourceClauseIds": [
+              "same-day-element-defines-original-stem",
+              "wood-and-fire-explicit"
+            ],
+            "basis": "已知同气成立，已知异气仅本句不适用；日干未定则未知，不补造日主。"
+          },
+          {
+            "id": "input-completeness",
+            "kind": "input-fact",
+            "requiredForProof": false,
+            "label": "四柱输入完整性（仅元数据）",
+            "sourceClauseIds": [],
+            "basis": "记录缺失，不参与本条充分证明依赖；前三已知柱齐方且日干同气时，缺时仍可得到局部正判。"
+          }
+        ],
+        "scope": "本条木方局部旺势；只用已定柱和已知日干，不纳入岁运，也不裁定实际净作用。",
+        "consequence": "木方三字在已知柱齐全，已知日干同气；本条局部方旺获任氏原句支持。",
+        "nonConclusions": [
+          "不由本条推全局净强弱或生克胜负。",
+          "不由本条推各根实际有效、木生火或火生土必然有效。",
+          "不由本条推从强、从旺、从儿、真假从或合化。",
+          "不由本条改写完整调候、喜用、姓名评分、命运或后运吉凶。"
+        ]
+      },
+      {
+        "id": "fire-direction-strength",
+        "kind": "fire-direction-strength",
+        "element": "火",
+        "directionBranches": [
+          "巳",
+          "午",
+          "未"
+        ],
+        "dayStems": [
+          "丙",
+          "丁"
+        ],
+        "sourceClauseIds": [
+          "all-three-defines-direction",
+          "same-day-element-defines-original-stem",
+          "wood-and-fire-explicit",
+          "direction-sufficient-strength",
+          "three-members-strength"
+        ],
+        "premises": [
+          {
+            "id": "complete-direction",
+            "kind": "source-premise",
+            "requiredForProof": true,
+            "label": "巳、午、未三方向支在已知柱齐全",
+            "sourceClauseIds": [
+              "all-three-defines-direction",
+              "three-members-strength"
+            ],
+            "basis": "已知成员见齐即成立，不要求不参与本组三字的第四柱先被确定。缺成员且全柱已知则本路径不符；缺成员且缺柱则待核。"
+          },
+          {
+            "id": "same-element-day-stem",
+            "kind": "source-premise",
+            "requiredForProof": true,
+            "label": "已知日干与本方同气",
+            "sourceClauseIds": [
+              "same-day-element-defines-original-stem",
+              "wood-and-fire-explicit"
+            ],
+            "basis": "已知同气成立，已知异气仅本句不适用；日干未定则未知，不补造日主。"
+          },
+          {
+            "id": "input-completeness",
+            "kind": "input-fact",
+            "requiredForProof": false,
+            "label": "四柱输入完整性（仅元数据）",
+            "sourceClauseIds": [],
+            "basis": "记录缺失，不参与本条充分证明依赖；前三已知柱齐方且日干同气时，缺时仍可得到局部正判。"
+          }
+        ],
+        "scope": "本条火方局部旺势；只用已定柱和已知日干，不纳入岁运，也不裁定实际净作用。",
+        "consequence": "火方三字在已知柱齐全，已知日干同气；本条局部方旺获任氏原句支持。",
+        "nonConclusions": [
+          "不由本条推全局净强弱或生克胜负。",
+          "不由本条推各根实际有效、木生火或火生土必然有效。",
+          "不由本条推从强、从旺、从儿、真假从或合化。",
+          "不由本条改写完整调候、喜用、姓名评分、命运或后运吉凶。"
+        ]
+      }
+    ],
+    "knownInputPolicy": "只在已确定柱中找成员；日干必须已知同气。未确定日/时不得补造。",
+    "inputCompletenessPolicy": "metadata-only; never a proof gate. Known three-direction members plus known same-element day stem may prove local capacity despite missing fourth pillar.",
+    "hiddenStemPolicy": "retain-all-selected-hidden-stems; no implicit removal of roots, clashes, combinations or repeated branches",
+    "potentialOppositionPolicy": "Retain structural opposition and actual nodes; unresolved net force or rescue does not negate the already established local source premise. No adopted general rule says any opposition automatically destroys a direction.",
+    "retiredResearchRestrictions": [
+      "月份白名单已撤销；原句局部旺势不要求限定月。",
+      "第四支白名单已撤销；不强制亥、卯或重复午。",
+      "明干白名单已撤销；财官、泄秀或金水明见不自动排除局部旺势。",
+      "四柱全部已知屏障已撤销；完整性仅元数据。"
+    ],
+    "nonConclusions": [
+      "不由本条推全局净强弱或生克胜负。",
+      "不由本条推各根实际有效、木生火或火生土必然有效。",
+      "不由本条推从强、从旺、从儿、真假从或合化。",
+      "不由本条改写完整调候、喜用、姓名评分、命运或后运吉凶。"
+    ]
+  }
+}

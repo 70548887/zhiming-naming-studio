@@ -1,0 +1,24 @@
+{
+  "schema": "m976-audit-receipt/1",
+  "reviewId": "M976-DATA-DELTA-REVIEW",
+  "result": "dedup-repair-accepted-six-literal-references-verified-manual-only",
+  "head": "dd54e0be89f4d8c71b65369c2b337e3410a61b7e",
+  "closedP2": [
+    "M965-OVERLAP-01"
+  ],
+  "newP1": 0,
+  "newP2": 0,
+  "nonBlockingP3": [
+    "M976-DOC-SENSE-CHANGE"
+  ],
+  "fixedPayloadsVerified": 52,
+  "staticSetAssertions": 82,
+  "sixSourceRowsChecked": 6,
+  "originalM959FilesUnchanged": 27,
+  "formalCoverageAdded": 0,
+  "automaticCoverageAdded": 0,
+  "activation": "off",
+  "reviewSha256": "2b3b937f806d9f2e18506881b8055a5cf4bf38ceee63efea60b5125813dab220",
+  "manifestSha256": "98df55c465c12d377278238ada9669b82adff3f5ea548703b76dbb00c01a8740",
+  "root": "D:/Codex-NamingStudio-Evidence/m976-data-dedup-audit"
+}

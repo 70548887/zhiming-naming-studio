@@ -1,0 +1,61 @@
+{
+  "version": "qiongtong-2294674-monthly-following-restrictions/1.0.0",
+  "source": {
+    "title": "穷通宝鉴",
+    "revisionId": 2294674,
+    "revisionTimestamp": "2023-06-14T13:49:39Z",
+    "url": "https://zh.wikisource.org/w/index.php?title=穷通宝鉴&oldid=2294674",
+    "rawSha256": "8ba17242f116583de2e10172e006f5ce5f74b23ccfc0bd24b886be135e9f20bd",
+    "rawCharacters": 36746,
+    "license": "CC-BY-SA-4.0 fixed Wikisource transcription; scanCollation:false",
+    "scanCollation": false
+  },
+  "excerpts": [
+    {
+      "id": "jia-yin-mao-fixed-month-restriction",
+      "sourceQuote": "'''正二月甲木'''，素无取从才从杀从化之理。",
+      "sourceSpan": {
+        "start": 1561,
+        "end": 1585,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;codepoint[1561,1585)"
+    },
+    {
+      "id": "gui-wei-fixed-month-restriction",
+      "sourceQuote": "因未中有乙己同宫，破而不破，故癸水不能从杀，所以专用庚辛。",
+      "sourceSpan": {
+        "start": 35080,
+        "end": 35109,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;codepoint[35080,35109)"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "jia-yin-mao-fixed-month-restriction-context",
+      "sourceQuote": "'''正二月甲木'''，素无取从才从杀从化之理。或一派庚辛，主一生劳苦，剋子刑妻，再支会金局，非贫即夭。如无丙丁，一派壬癸，又无戊己制之，名水泛木浮，死无棺椁。如一派戊己，支会金局，为财多身弱，富屋贫人，终生劳苦，妻晚子迟。或无庚金，有丁透，亦属文星，为木火通明之象，又名伤官生财格，主聪明雅秀。一见癸水伤丁，但作厚道迂儒。或柱中多癸，滋助木神，伤灭丁火，其人奸雄枭险，曹操之徒，言清行浊，笑里藏刀。",
+      "sourceSpan": {
+        "start": 1561,
+        "end": 1761,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;codepoint[1561,1761)"
+    },
+    {
+      "id": "gui-wei-fixed-month-restriction-context",
+      "sourceQuote": "'''六月癸水'''，有上下月之分。下半月庚辛有气，上半月庚辛休囚。凡六癸日、多不验者，何也？俗士不知此理。因未中有乙己同宫，破而不破，故癸水不能从杀，所以专用庚辛。如上半月金神衰弱，火气炎烈，宜比劫助身，可云富贵。与五月一理。下半月庚辛有气，即无比劫亦可，又忌丁透，即丁在支亦不吉。其生剋制化，与五月略同。",
+      "sourceSpan": {
+        "start": 35026,
+        "end": 35180,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;codepoint[35026,35180)"
+    }
+  ]
+}

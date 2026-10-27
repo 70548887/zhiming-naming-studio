@@ -1,0 +1,41 @@
+{
+  "version": "name-word-pronunciation/1.0.0",
+  "sourceIds": [
+    "word-pronunciation-moe-137-v1",
+    "word-pronunciation-rime-137-v1",
+    "word-pronunciation-unicode-137-v1"
+  ],
+  "sources": {
+    "moe": {
+      "file": "data/raw/moe-revised.json.gz",
+      "sha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+      "commit": "a6dc997417507eb510fc29822bc514de2c92728c",
+      "license": "CC-BY-ND-3.0-TW"
+    },
+    "rime": {
+      "file": "data/raw/yue-reading-words.dict.yaml",
+      "sha256": "54d174ad2bb997e4a678b7b076b84e4dc5914481b32467cdea3b43e88b7d5474",
+      "commit": "259f0e48bba840c3a2e0d117539e96937f3d89bc",
+      "license": "CC-BY-4.0"
+    },
+    "unicode": {
+      "file": "data/raw/kTraditionalVariant.txt",
+      "sha256": "4eca6285d45070548e6e6c06e4b48c3ca6866d4380e8cb980c512f5d1fc71895",
+      "version": "17.0.0",
+      "license": "Unicode License"
+    }
+  },
+  "files": {
+    "CC-BY-4.0.txt": "97d24386ff776d7160b87031b259a942bd03c9939796cab6724ad5d17d2cf785",
+    "CC-BY-ND-3.0-TW.html": "04e6ef69a223b6e13c93c97a918ad5fd0dbb9fc34ae307f4449ed264e2d4108f",
+    "NOTICE.md": "363f599871237f1cdfd3621e21ce96aa25c79f48fff9310c8d0e5550af0f6149",
+    "selection-review.json": "d5c9aebebfad06ffda80a105725022b63f251b40883bb275e13b5c0e841537a9",
+    "source-excerpts.json": "282e6e1f5950f8f0dab30d0b927da477a7a5b1743666ff39ba26ce327ec8b353",
+    "unicode-LICENSE": "fe5c62b543e287981db198f2acfa0ca732d12591a1024536dc8fd85dacd77104",
+    "word-engine.d.mts": "afcac7c38a8a29fea76663e9efe47a87745a08c34129759bd13e73e33079cecf",
+    "word-engine.mjs": "85d94e08029cf9c68913242d4daf2c43d2def4a7e72e31dc8ff45940a27fae7f",
+    "word-profile.json": "630dd1db9838c3d7af0168158d7fe3a4c2bd45fb36c3d5578a3c8c9efd0a4843",
+    "word-source-loader.d.mts": "3f536c08476dc18b9ee1cc980cb2395521ff2c2bdbd6bd106ccaba46bf14733f",
+    "word-source-loader.mjs": "078ec6fc9807f06ecd9bad629944099b2c67dc401eddd4c874e7ba02c631ee76"
+  }
+}

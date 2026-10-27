@@ -1,0 +1,53 @@
+{
+  "schema": "meaning-context-source-lock/1",
+  "hashConvention": "sha256(JSON.stringify(fileHashes)); sorted relative path keys",
+  "sources": [
+    {
+      "id": "project-meaning-context-m460-b04-candidate",
+      "name": "M460-B04固定完整词语语境候选20",
+      "url": "local:data/meaning-context-m460-b04.json",
+      "commit": "MOE a6dc997417507eb510fc29822bc514de2c92728c;M460-B04-candidate",
+      "license": "MOE CC-BY-ND-3.0-TW originals; Unicode retained; separate project notes CC0-1.0",
+      "files": [
+        "data/dataset-v6.json",
+        "data/knowledge-v6.sqlite",
+        "data/meaning-context-m460-b04-NOTICE.md",
+        "data/meaning-context-m460-b04.json",
+        "data/meaning-context-v1-1.json",
+        "data/naming-character-meanings-v7.1-profile.json",
+        "data/naming-editorial-v7.json",
+        "data/raw/CC-BY-ND-3.0-TW.html",
+        "data/raw/kSimplifiedVariant.txt",
+        "data/raw/kTraditionalVariant.txt",
+        "data/raw/meaning-context-m460-b04-exclusions.json",
+        "data/raw/meaning-context-m460-b04-glyphs.json",
+        "data/raw/meaning-context-m460-b04-originals.json",
+        "data/raw/meaning-context-m460-b04-review.json",
+        "data/raw/moe-README.md",
+        "data/raw/moe-revised.json.gz",
+        "data/raw/unicode-LICENSE"
+      ],
+      "fileHashes": {
+        "data/dataset-v6.json": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+        "data/knowledge-v6.sqlite": "1875aa49dcfaeca0f266a3be7578e4d4b2a9b2c9c1f59fd79699a3e26d5d6b8b",
+        "data/meaning-context-m460-b04-NOTICE.md": "a3135440873af944e970d18eca23adec6c71ccd83d0883dfa131a69ec731ccb5",
+        "data/meaning-context-m460-b04.json": "ecc4ca0edbe1a0a1b1f5e3f67ad0caef9bf1daa197e781f55484b33ebfc8ce82",
+        "data/meaning-context-v1-1.json": "424e8b6ca9a920c8b707ac267db9609bee900a5389b3659256b4c71ad71b378d",
+        "data/naming-character-meanings-v7.1-profile.json": "6e619be92c16dc018715fc77425f150b6a2c9af2e01be63b309035c81dd6a85b",
+        "data/naming-editorial-v7.json": "392fa47441a0c410b0903c3e85853081225a1a5e9f540b5467e4ea4e2151cc48",
+        "data/raw/CC-BY-ND-3.0-TW.html": "04e6ef69a223b6e13c93c97a918ad5fd0dbb9fc34ae307f4449ed264e2d4108f",
+        "data/raw/kSimplifiedVariant.txt": "a7f0c9dbbca85cffd90517fa6ea9be97d2e6f811328a59b6b303d58a418ac9be",
+        "data/raw/kTraditionalVariant.txt": "4eca6285d45070548e6e6c06e4b48c3ca6866d4380e8cb980c512f5d1fc71895",
+        "data/raw/meaning-context-m460-b04-exclusions.json": "0bb97a21865dfb65d898ffebff917793d8a55b7e04c022e00460c60a0407fa2c",
+        "data/raw/meaning-context-m460-b04-glyphs.json": "53fec93e8fc5a8c3770a51bd60fa0a0178723d529383110384afee8b5d699d36",
+        "data/raw/meaning-context-m460-b04-originals.json": "56fe16226922dca702417db2713ba09c939c8b100ce1f855cd73b6619dd6e188",
+        "data/raw/meaning-context-m460-b04-review.json": "7b1a513a517bf41c43db05ad0245db3c31656e0495687c29620f790cb9b89ece",
+        "data/raw/moe-README.md": "a93321d9381bc1cf34b4ad844f71607fa748c86c0b228ae37d46720d6a659cb2",
+        "data/raw/moe-revised.json.gz": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "data/raw/unicode-LICENSE": "fe5c62b543e287981db198f2acfa0ca732d12591a1024536dc8fd85dacd77104"
+      },
+      "sha256": "1b26aeba94c19a9cf2012ab28359d2dab49c9b443adde1b8d479bd0453168d29",
+      "note": "Candidate only; exact two-readings and explicit whole-word sense/context choice required; no standalone promotion, score, whole-name grant or historical backfill."
+    }
+  ]
+}

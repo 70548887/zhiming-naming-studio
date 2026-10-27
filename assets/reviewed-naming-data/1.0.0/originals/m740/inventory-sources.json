@@ -1,0 +1,26 @@
+{
+  "schema": "m740-prior-batch-inputs/1",
+  "purpose": "read-only occupied target characters; whole words never promote standalone coverage",
+  "files": [
+    {
+      "file": "B01/candidate/data/naming-character-meanings-m393-profile.json",
+      "absolute": "E:/八卦周易/.local/longterm-groups/naming-data/M460-b01/candidate/data/naming-character-meanings-m393-profile.json"
+    },
+    {
+      "file": "B02/stage/data/naming-character-meanings-v71-m460-b02-profile.json",
+      "absolute": "E:/八卦周易/.local/longterm-groups/naming-data/M460-b02/stage/data/naming-character-meanings-v71-m460-b02-profile.json"
+    },
+    {
+      "file": "B03/stage/data/naming-character-meanings-v71-m460-b02-profile.json",
+      "absolute": "E:/八卦周易/.local/longterm-groups/naming-data/M460-b03/stage/data/naming-character-meanings-v71-m460-b02-profile.json"
+    },
+    {
+      "file": "B04/plans.json",
+      "absolute": "E:/八卦周易/.local/longterm-groups/naming-data/M460-b04/plans.json"
+    },
+    {
+      "file": "B05/plans.json",
+      "absolute": "E:/八卦周易/.local/longterm-groups/naming-data/M460-b05/plans.json"
+    }
+  ]
+}

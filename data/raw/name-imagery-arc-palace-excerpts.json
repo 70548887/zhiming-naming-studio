@@ -1,0 +1,25 @@
+{
+  "version": "arc-palace-elements-excerpt/1.0.0",
+  "source": {
+    "id": "name-imagery-arc-palace-elements",
+    "url": "https://github.com/arc119226/qimen_dunjia",
+    "commit": "7d941031d685d818d9fd234edf891dba5bd6a323",
+    "originalFile": "constants.js",
+    "cachedFile": "data/raw/qimen-patterns-arc-constants.js",
+    "sha256": "7dc6e2470862c5bf418020ac3aeb771936abb7e47549b426892578656ad86592",
+    "license": "MIT"
+  },
+  "excerpts": [
+    {
+      "id": "palace-elements",
+      "quote": " * 九宮五行（按洛書九宮順序）\n *\n * 《奇門遁甲秘笈大全》：「坎，水；坤，土；震，木；巽，木；中五，土；\n * 乾，金；兌，金；艮，土；離，火。」\n */\nexport const PALACE_ELEMENTS = deepFreeze([\n    '木', '火', '土',\n    '木', '土', '金',\n    '土', '水', '金'\n]);",
+      "locator": "constants.js:L526–L535"
+    },
+    {
+      "id": "palace-index-order",
+      "quote": "export const PALACE = deepFreeze({\n    XUN: 0,    // 巽宮 - 東南\n    LI: 1,     // 離宮 - 南\n    KUN: 2,    // 坤宮 - 西南\n    ZHEN: 3,   // 震宮 - 東\n    ZHONG: 4,  // 中宮 - 中央\n    DUI: 5,    // 兌宮 - 西\n    GEN: 6,    // 艮宮 - 東北\n    KAN: 7,    // 坎宮 - 北\n    QIAN: 8    // 乾宮 - 西北\n});",
+      "locator": "constants.js:L176–L186"
+    }
+  ],
+  "mappingScope": "Arcindexorderis巽4離9坤2震3中5兌7艮8坎1乾6;projectprojectsselectedcharacterlabelsontoallouterpalacesofsameelement;notanArcnamealgorithm."
+}

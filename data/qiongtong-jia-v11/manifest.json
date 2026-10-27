@@ -1,0 +1,48 @@
+{
+  "schema": "qiongtong-jia-managed-inputs/1.0.0",
+  "version": "qiongtong-jia-literal-conditions/1.1.0",
+  "school": "qiongtong-wikisource-2294674",
+  "revision": "wikisource-revision/2294674",
+  "rawSha256": "8ba17242f116583de2e10172e006f5ce5f74b23ccfc0bd24b886be135e9f20bd",
+  "chapterSpan": {
+    "start": 1292,
+    "end": 5220,
+    "unit": "unicode-codepoint",
+    "interval": "[start,end)"
+  },
+  "chapterSha256": "7d45c15e1e17a4cdb6fd46f0d469ef1802bf374c063a22fe057741e3aa257a6a",
+  "inputs": [
+    {
+      "file": "catalog.json",
+      "role": "catalog",
+      "sha256": "6863e37c83b2bf0b6275a020d9353e102ca96e9fbb5334c52cc040756861d9b9",
+      "bytes": 184842
+    },
+    {
+      "file": "rule-input.ts",
+      "role": "rule-input",
+      "sha256": "dcff10cae02e4c2387d08e7ed8d0ebb53710489a08efbd7cc8e51cf18d8c3cef",
+      "bytes": 9703
+    },
+    {
+      "file": "types-input.ts",
+      "role": "types-input",
+      "sha256": "dcbf41c326a82e6b5016244b82ec67d41b2d38ca6ddbeb5a1d94967345af508f",
+      "bytes": 2490
+    },
+    {
+      "file": "ATTRIBUTION.md",
+      "role": "attribution",
+      "sha256": "245910a75c5590657a082b2d3eb1e56624d6fc308150dc2197d2dfda2dd07541",
+      "bytes": 2751
+    },
+    {
+      "file": "CC-BY-SA-4.0.txt",
+      "role": "license",
+      "sha256": "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5",
+      "bytes": 20138
+    }
+  ],
+  "originalM588ManifestSha256": "a70876ac60dc8bbebec4a1ddb7526435f12d4805f6190cb3cd0291646908f13d",
+  "m599ReviewSha256": "637380e050c06d4a8d32c3f4a864fcf9cf05c5663483d97b22a94e8129d057a1"
+}

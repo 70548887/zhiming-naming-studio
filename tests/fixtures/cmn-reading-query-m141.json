@@ -1,0 +1,1389 @@
+{
+  "task": "M141-D04",
+  "profile": "cmn-character-source/1.0.0",
+  "generatedFrom": "unmodified fixed originals through actual adapter",
+  "queries": [
+    {
+      "profile": "cmn-character-source/1.0.0",
+      "source": {
+        "profile": "cmn-character-source/1.0.0",
+        "profileSha256": "bea3067ebffc763904d4ef3d2629a2c86fcb1fa8fd3a4a57d32ff4bee6d96270",
+        "language": "cmn",
+        "standard": "MOE-Revised-Taiwan-fixed-snapshot",
+        "sourceId": "moe-revised",
+        "commit": "a6dc997417507eb510fc29822bc514de2c92728c",
+        "rawFile": "data/raw/moe-revised.json.gz",
+        "rawSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "rawJsonSha256": "ea767109dfb04f838900b7462ebf6977f344f592e1dd745a204cbe3327ef8fe3",
+        "datasetFile": "data/dataset-v6.json",
+        "datasetSha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+        "datasetVersion": "2026.10.20.2",
+        "license": "CC-BY-ND-3.0-TW",
+        "url": "https://github.com/g0v/moedict-data/blob/a6dc997417507eb510fc29822bc514de2c92728c/dict-revised_bkup.json"
+      },
+      "char": "长",
+      "status": "available",
+      "unavailableReason": null,
+      "characterIdentitySha256": "f6827091ec189c5fcf76c9283219d05648f431903b2e375b9bf49109739eb16d",
+      "currentDefault": {
+        "pinyin": "cháng",
+        "tone": 2,
+        "recordedTraditional": "長",
+        "sourceId": "moe-revised"
+      },
+      "defaultOptionIds": [
+        "cmnr1-3ba1055c8fd578f5a1b5d5c4539e18fedf42d73d285501c445a3127169ac6754"
+      ],
+      "options": [
+        {
+          "optionId": "cmnr1-3ba1055c8fd578f5a1b5d5c4539e18fedf42d73d285501c445a3127169ac6754",
+          "char": "长",
+          "characterIdentitySha256": "f6827091ec189c5fcf76c9283219d05648f431903b2e375b9bf49109739eb16d",
+          "source": {
+            "profile": "cmn-character-source/1.0.0",
+            "profileSha256": "bea3067ebffc763904d4ef3d2629a2c86fcb1fa8fd3a4a57d32ff4bee6d96270",
+            "language": "cmn",
+            "standard": "MOE-Revised-Taiwan-fixed-snapshot",
+            "sourceId": "moe-revised",
+            "commit": "a6dc997417507eb510fc29822bc514de2c92728c",
+            "rawFile": "data/raw/moe-revised.json.gz",
+            "rawSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "rawJsonSha256": "ea767109dfb04f838900b7462ebf6977f344f592e1dd745a204cbe3327ef8fe3",
+            "datasetFile": "data/dataset-v6.json",
+            "datasetSha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+            "datasetVersion": "2026.10.20.2",
+            "license": "CC-BY-ND-3.0-TW",
+            "url": "https://github.com/g0v/moedict-data/blob/a6dc997417507eb510fc29822bc514de2c92728c/dict-revised_bkup.json"
+          },
+          "glyph": {
+            "inputChar": "长",
+            "recordedTraditional": "長",
+            "dictionaryWord": "長",
+            "kind": "unicode-traditional-variant",
+            "characterReadingIndices": [
+              0,
+              1,
+              2
+            ],
+            "variantEvidence": {
+              "file": "data/raw/kTraditionalVariant.txt",
+              "sha256": "4eca6285d45070548e6e6c06e4b48c3ca6866d4380e8cb980c512f5d1fc71895",
+              "line": 2260,
+              "text": "957F\tU+9577"
+            }
+          },
+          "entry": {
+            "index": 147806,
+            "path": "/147806",
+            "title": "長",
+            "sha256": "055136351cea0abe70cb309bbec0fe1264ef3b28c3fa1485078b1dc400d85113"
+          },
+          "heteronym": {
+            "index": 0,
+            "path": "/147806/heteronyms/0",
+            "sha256": "70e15bd31cfce9dd1a4f52209679ca84a8de2e4e45b85f9baa52c5faf74ddc5e",
+            "rawPinyin": "cháng",
+            "rawBopomofo": "ㄔㄤˊ"
+          },
+          "pinyin": "cháng",
+          "tone": 2,
+          "label": null,
+          "isCurrentDefault": true,
+          "definitions": [
+            {
+              "definitionId": "cmnd1-9e99709f69cc6ce23e6fc45a3d25e2afe8a68c1dccf902119fb0dd3a8b0708fe",
+              "path": "/147806/heteronyms/0/definitions/0",
+              "index": 0,
+              "original": {
+                "def": "兩端點之間的距離。",
+                "example": [
+                  "如：「這條河全長三十里。」"
+                ],
+                "type": "名"
+              },
+              "kind": "definition"
+            },
+            {
+              "definitionId": "cmnd1-6170bfaf320984c68d5f88f7a21a8978f61e1b7acafbd484884441454e111ed3",
+              "path": "/147806/heteronyms/0/definitions/1",
+              "index": 1,
+              "original": {
+                "def": "優點、長處。",
+                "example": [
+                  "如：「各有所長」、「截長補短」。"
+                ],
+                "quote": [
+                  "《戰國策．齊策三》：「請掩足下之短者，誦足下之長。」"
+                ],
+                "type": "名"
+              },
+              "kind": "definition"
+            },
+            {
+              "definitionId": "cmnd1-6de5a028baf2496daff1c81ac157f8d39da3d029c1bce43f141d9d3320624715",
+              "path": "/147806/heteronyms/0/definitions/2",
+              "index": 2,
+              "original": {
+                "def": "專精的技能。",
+                "example": [
+                  "如：「專長」、「特長」。"
+                ],
+                "type": "名"
+              },
+              "kind": "definition"
+            },
+            {
+              "definitionId": "cmnd1-6a1fe2e65487c046132a52ea163ae3b787feb74d2363db9d1315a66c833493f3",
+              "path": "/147806/heteronyms/0/definitions/3",
+              "index": 3,
+              "original": {
+                "def": "姓。如春秋時楚國有長沮。",
+                "type": "名"
+              },
+              "kind": "definition"
+            },
+            {
+              "definitionId": "cmnd1-bbc40f1a645dd5f6fccbea1431aa887e3d2220dc4ec560479fe8761812ee67cb",
+              "path": "/147806/heteronyms/0/definitions/4",
+              "index": 4,
+              "original": {
+                "def": "二一四部首之一。",
+                "type": "名"
+              },
+              "kind": "definition"
+            },
+            {
+              "definitionId": "cmnd1-829884efb589dae2c8dd0e6c721a191e2ca8c79d30495037612e2efc7988adcb",
+              "path": "/147806/heteronyms/0/definitions/5",
+              "index": 5,
+              "original": {
+                "def": "空間、距離大。與「短」相對。",
+                "example": [
+                  "如：「長橋臥波」。"
+                ],
+                "quote": [
+                  "《楚辭．屈原．九歌．國殤》：「帶長劍兮挾秦弓，首身離兮心不懲。」"
+                ],
+                "type": "形"
+              },
+              "kind": "definition"
+            },
+            {
+              "definitionId": "cmnd1-2f97279ffa21952ecc1be41734cc6f23d14b1923139baaf73047ba3b60c4f39c",
+              "path": "/147806/heteronyms/0/definitions/6",
+              "index": 6,
+              "original": {
+                "def": "時間久遠。與「短」相對。",
+                "quote": [
+                  "晉．陶淵明〈飲酒詩〉二○首之一六：「披褐守長夜，晨雞不肯鳴。」"
+                ],
+                "type": "形"
+              },
+              "kind": "definition"
+            },
+            {
+              "definitionId": "cmnd1-7904632e2e3e89791193104308c90baecb7f4f44398f84f83e375225324f6ec0",
+              "path": "/147806/heteronyms/0/definitions/7",
+              "index": 7,
+              "original": {
+                "def": "遠。",
+                "quote": [
+                  "唐．王昌齡〈出塞〉詩二首之一：「秦時明月漢時關，萬里長征人未還。」"
+                ],
+                "type": "副"
+              },
+              "kind": "definition"
+            },
+            {
+              "definitionId": "cmnd1-e6f25003f21c349443b15075bb50d671eb689f26fbba853236d6a68e8456a7e0",
+              "path": "/147806/heteronyms/0/definitions/8",
+              "index": 8,
+              "original": {
+                "def": "永久。",
+                "quote": [
+                  "漢．桓寬《鹽鐵論．繇役》：「夫文猶可長用，而武難久行也。」"
+                ],
+                "type": "副"
+              },
+              "kind": "definition"
+            },
+            {
+              "definitionId": "cmnd1-6cbb593336f909711cdea2830ef07fef34a865ec4718ba755d47248ad6a76d14",
+              "path": "/147806/heteronyms/0/definitions/9",
+              "index": 9,
+              "original": {
+                "def": "專精、擅於。",
+                "example": [
+                  "如：「長於寫作」。"
+                ],
+                "quote": [
+                  "南朝宋．劉義慶《世說新語．文學》：「樂令善於清言，而不長於手筆。」"
+                ],
+                "type": "動"
+              },
+              "kind": "definition"
+            }
+          ],
+          "suitabilityForPersonalName": "not-assessed"
+        },
+        {
+          "optionId": "cmnr1-1ed657f0af89c9b624758c1780857a938ad2353fa902b9e3df44b84ed62d0696",
+          "char": "长",
+          "characterIdentitySha256": "f6827091ec189c5fcf76c9283219d05648f431903b2e375b9bf49109739eb16d",
+          "source": {
+            "profile": "cmn-character-source/1.0.0",
+            "profileSha256": "bea3067ebffc763904d4ef3d2629a2c86fcb1fa8fd3a4a57d32ff4bee6d96270",
+            "language": "cmn",
+            "standard": "MOE-Revised-Taiwan-fixed-snapshot",
+            "sourceId": "moe-revised",
+            "commit": "a6dc997417507eb510fc29822bc514de2c92728c",
+            "rawFile": "data/raw/moe-revised.json.gz",
+            "rawSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "rawJsonSha256": "ea767109dfb04f838900b7462ebf6977f344f592e1dd745a204cbe3327ef8fe3",
+            "datasetFile": "data/dataset-v6.json",
+            "datasetSha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+            "datasetVersion": "2026.10.20.2",
+            "license": "CC-BY-ND-3.0-TW",
+            "url": "https://github.com/g0v/moedict-data/blob/a6dc997417507eb510fc29822bc514de2c92728c/dict-revised_bkup.json"
+          },
+          "glyph": {
+            "inputChar": "长",
+            "recordedTraditional": "長",
+            "dictionaryWord": "長",
+            "kind": "unicode-traditional-variant",
+            "characterReadingIndices": [
+              0,
+              1,
+              2
+            ],
+            "variantEvidence": {
+              "file": "data/raw/kTraditionalVariant.txt",
+              "sha256": "4eca6285d45070548e6e6c06e4b48c3ca6866d4380e8cb980c512f5d1fc71895",
+              "line": 2260,
+              "text": "957F\tU+9577"
+            }
+          },
+          "entry": {
+            "index": 147806,
+            "path": "/147806",
+            "title": "長",
+            "sha256": "055136351cea0abe70cb309bbec0fe1264ef3b28c3fa1485078b1dc400d85113"
+          },
+          "heteronym": {
+            "index": 1,
+            "path": "/147806/heteronyms/1",
+            "sha256": "0b311c5a6d0b65e1afa9665b6893bb4089f9038de3c7d86e4a670cf8a5577b5b",
+            "rawPinyin": "zhàng",
+            "rawBopomofo": "ㄓㄤˋ"
+          },
+          "pinyin": "zhàng",
+          "tone": 4,
+          "label": null,
+          "isCurrentDefault": false,
+          "definitions": [
+            {
+              "definitionId": "cmnd1-1b6f9eb71b14345b4c27000a58fe2edf3271d274cdc62e2b89c7400b661f0806",
+              "path": "/147806/heteronyms/1/definitions/0",
+              "index": 0,
+              "original": {
+                "def": "多餘的。",
+                "example": [
+                  "如：「身無長物」。"
+                ],
+                "quote": [
+                  "唐．白居易〈無長物〉詩：「只緣無長物，始得作閒人。」"
+                ],
+                "type": "形"
+              },
+              "kind": "definition"
+            },
+            {
+              "definitionId": "cmnd1-b8257a57e91f27587b5b1b2c7fe08b1ac5e96e41c5d42f020c1bc49235fe0ab8",
+              "path": "/147806/heteronyms/1/definitions/1",
+              "index": 1,
+              "original": {
+                "def": "強盛。",
+                "quote": [
+                  "《呂氏春秋．審分覽．知度》：「此神農之所以長，而堯舜之所以章也。」"
+                ],
+                "type": "動"
+              },
+              "kind": "definition"
+            }
+          ],
+          "suitabilityForPersonalName": "not-assessed"
+        },
+        {
+          "optionId": "cmnr1-5fc7d2ea4025d42deab2c8b5356665f3dc9979c90458a0924d544d56ba341a16",
+          "char": "长",
+          "characterIdentitySha256": "f6827091ec189c5fcf76c9283219d05648f431903b2e375b9bf49109739eb16d",
+          "source": {
+            "profile": "cmn-character-source/1.0.0",
+            "profileSha256": "bea3067ebffc763904d4ef3d2629a2c86fcb1fa8fd3a4a57d32ff4bee6d96270",
+            "language": "cmn",
+            "standard": "MOE-Revised-Taiwan-fixed-snapshot",
+            "sourceId": "moe-revised",
+            "commit": "a6dc997417507eb510fc29822bc514de2c92728c",
+            "rawFile": "data/raw/moe-revised.json.gz",
+            "rawSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "rawJsonSha256": "ea767109dfb04f838900b7462ebf6977f344f592e1dd745a204cbe3327ef8fe3",
+            "datasetFile": "data/dataset-v6.json",
+            "datasetSha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+            "datasetVersion": "2026.10.20.2",
+            "license": "CC-BY-ND-3.0-TW",
+            "url": "https://github.com/g0v/moedict-data/blob/a6dc997417507eb510fc29822bc514de2c92728c/dict-revised_bkup.json"
+          },
+          "glyph": {
+            "inputChar": "长",
+            "recordedTraditional": "長",
+            "dictionaryWord": "長",
+            "kind": "unicode-traditional-variant",
+            "characterReadingIndices": [
+              0,
+              1,
+              2
+            ],
+            "variantEvidence": {
+              "file": "data/raw/kTraditionalVariant.txt",
+              "sha256": "4eca6285d45070548e6e6c06e4b48c3ca6866d4380e8cb980c512f5d1fc71895",
+              "line": 2260,
+              "text": "957F\tU+9577"
+            }
+          },
+          "entry": {
+            "index": 147806,
+            "path": "/147806",
+            "title": "長",
+            "sha256": "055136351cea0abe70cb309bbec0fe1264ef3b28c3fa1485078b1dc400d85113"
+          },
+          "heteronym": {
+            "index": 2,
+            "path": "/147806/heteronyms/2",
+            "sha256": "691021f008702aa37bda0d4ffa23c14b7754c7db6572ee2e469aaa14a9158041",
+            "rawPinyin": "zhǎng",
+            "rawBopomofo": "ㄓㄤˇ"
+          },
+          "pinyin": "zhǎng",
+          "tone": 3,
+          "label": null,
+          "isCurrentDefault": false,
+          "definitions": [
+            {
+              "definitionId": "cmnd1-07fe47c2b259dcd29b10b7cf465bfcc0b530ca13101816ea1a759bf3586e2f35",
+              "path": "/147806/heteronyms/2/definitions/0",
+              "index": 0,
+              "original": {
+                "def": "年紀大、輩分高的人。",
+                "example": [
+                  "如：「尊長」、「師長」、「兄長」。"
+                ],
+                "quote": [
+                  "《莊子．天道》：「君先而臣從，父先而子從，兄先而弟從，長先而少從。」",
+                  "《後漢書．卷七○．孔融傳》：「 吏問其母，母曰：『家事任長，妾當其辜。』」"
+                ],
+                "type": "名"
+              },
+              "kind": "definition"
+            },
+            {
+              "definitionId": "cmnd1-10d80ebe1cb627de1b15ad8571863aa4ffbeb53eb1c202b46d6f78e66f0b1353",
+              "path": "/147806/heteronyms/2/definitions/1",
+              "index": 1,
+              "original": {
+                "def": "主管、領導人。",
+                "example": [
+                  "如：「部長」、「首長」。"
+                ],
+                "type": "名"
+              },
+              "kind": "definition"
+            },
+            {
+              "definitionId": "cmnd1-a45172b4f77c88a0e052ee6e7324af3d13ee00dc43b7b0a5c60865b58b87a14c",
+              "path": "/147806/heteronyms/2/definitions/2",
+              "index": 2,
+              "original": {
+                "def": "年齡稍大。",
+                "example": [
+                  "如：「他比我長三歲。」"
+                ],
+                "quote": [
+                  "《公羊傳．隱公三年》：「桓幼而貴，隱長而卑。」"
+                ],
+                "type": "形"
+              },
+              "kind": "definition"
+            },
+            {
+              "definitionId": "cmnd1-0c5b40d053d6510474169574bbf1843756c2ed7539b0ef84391a7758a30f2252",
+              "path": "/147806/heteronyms/2/definitions/3",
+              "index": 3,
+              "original": {
+                "def": "排行第一。",
+                "example": [
+                  "如：「長女」、「長子」。"
+                ],
+                "quote": [
+                  "《易經．說卦》：「震一索而得男，故謂之長男。」"
+                ],
+                "type": "形"
+              },
+              "kind": "definition"
+            },
+            {
+              "definitionId": "cmnd1-9161e56388946dc39afcd422189ed63f03ecac679c72798831bfc0d455b98f5b",
+              "path": "/147806/heteronyms/2/definitions/4",
+              "index": 4,
+              "original": {
+                "def": "老。",
+                "quote": [
+                  "《莊子．大宗師》：「子之年長矣，而色若孺子，何也？」",
+                  "《國語．晉語四》：「齊侯長矣，而欲親晉。」"
+                ],
+                "type": "形"
+              },
+              "kind": "definition"
+            },
+            {
+              "definitionId": "cmnd1-8edae5901cae1ab0ab03535bec748baa1780b72a5388677889a7ab70ddae23f4",
+              "path": "/147806/heteronyms/2/definitions/5",
+              "index": 5,
+              "original": {
+                "def": "出生。",
+                "quote": [
+                  "漢．桓寬《鹽鐵論．和親》：「范蠡出於越，由余長於胡，皆為霸王賢佐。」",
+                  "《西遊記．第一回》：「我雖不是樹上生，卻是石裡長的。」"
+                ],
+                "type": "動"
+              },
+              "kind": "definition"
+            },
+            {
+              "definitionId": "cmnd1-7c024895bc2fc5760dea6310192d2444c8d31643d446e63cb96be146bf70b33e",
+              "path": "/147806/heteronyms/2/definitions/6",
+              "index": 6,
+              "original": {
+                "def": "生長、發育。",
+                "quote": [
+                  "《孟子．告子上》：「苟得其養，無物不長。」",
+                  "《呂氏春秋．季春紀．圜道 》：「物動則萌，萌而生，生而長，長而大。」"
+                ],
+                "type": "動"
+              },
+              "kind": "definition"
+            },
+            {
+              "definitionId": "cmnd1-5b812e8178162264b8ab672a7297e55bfec013079e61ef738d5147a6302d963a",
+              "path": "/147806/heteronyms/2/definitions/7",
+              "index": 7,
+              "original": {
+                "def": "生、顯。",
+                "example": [
+                  "如：「他長得很俊美。」"
+                ],
+                "type": "動"
+              },
+              "kind": "definition"
+            },
+            {
+              "definitionId": "cmnd1-ee0a607754c59d7242b182a3731f519b204d5172c13d705407cbe28eda523382",
+              "path": "/147806/heteronyms/2/definitions/8",
+              "index": 8,
+              "original": {
+                "def": "養育。",
+                "quote": [
+                  "《詩經．小雅．蓼莪》：「父兮生我，母兮鞠我，拊我畜我，長我育我。」",
+                  "《左傳．昭公十四年》：「長孤幼，養老疾。」"
+                ],
+                "type": "動"
+              },
+              "kind": "definition"
+            },
+            {
+              "definitionId": "cmnd1-0dd01f057157ef4a051ed125b3d0a18d238aca7d252c188430d91d9b5d607aa3",
+              "path": "/147806/heteronyms/2/definitions/9",
+              "index": 9,
+              "original": {
+                "def": "增進、增加。",
+                "example": [
+                  "如：「長他人志氣，滅自己威風。」"
+                ],
+                "quote": [
+                  "《易經．泰卦》：「君子道長，小人道消也。」"
+                ],
+                "type": "動"
+              },
+              "kind": "definition"
+            },
+            {
+              "definitionId": "cmnd1-73fee8e15f0aa35c84b0bb549ea81ed4144713e8076287e2e210af1ab4bd8587",
+              "path": "/147806/heteronyms/2/definitions/10",
+              "index": 10,
+              "original": {
+                "def": "執掌。",
+                "quote": [
+                  "漢．王充《論衡．感虛》：「使一郡皆寒，賢者長一縣，一縣之界能獨溫乎？」"
+                ],
+                "type": "動"
+              },
+              "kind": "definition"
+            },
+            {
+              "definitionId": "cmnd1-be3c5bb6cdee6b5a6f91d2cedd988a8d82f866c0a50e1e022b578a374cf55250",
+              "path": "/147806/heteronyms/2/definitions/11",
+              "index": 11,
+              "original": {
+                "def": "尊重。",
+                "quote": [
+                  "《書經．牧誓》：「乃惟四方之多罪逋逃，是崇是長，是信是使。」"
+                ],
+                "type": "動"
+              },
+              "kind": "definition"
+            }
+          ],
+          "suitabilityForPersonalName": "not-assessed"
+        }
+      ],
+      "references": [],
+      "limitations": [
+        "固定MOE臺灣國語辭典來源；未將各地或大陸普通話讀音差異自動統一。",
+        "僅返回現779字條已登記的單字詞條身份；Unicode字形對應不等於每個義項均適用於簡體字。",
+        "原語音／讀音／又音、文言、姓氏、地名與參見提示原樣保留；未判定適合人名。",
+        "未拆分多字詞讀音，未將參見詞條或其他異讀的釋義借入當前讀音。",
+        "選擇校驗只證明固定來源及所選原義項一致；不修改現有默認音、評分、方案或歷史。"
+      ]
+    },
+    {
+      "profile": "cmn-character-source/1.0.0",
+      "source": {
+        "profile": "cmn-character-source/1.0.0",
+        "profileSha256": "bea3067ebffc763904d4ef3d2629a2c86fcb1fa8fd3a4a57d32ff4bee6d96270",
+        "language": "cmn",
+        "standard": "MOE-Revised-Taiwan-fixed-snapshot",
+        "sourceId": "moe-revised",
+        "commit": "a6dc997417507eb510fc29822bc514de2c92728c",
+        "rawFile": "data/raw/moe-revised.json.gz",
+        "rawSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "rawJsonSha256": "ea767109dfb04f838900b7462ebf6977f344f592e1dd745a204cbe3327ef8fe3",
+        "datasetFile": "data/dataset-v6.json",
+        "datasetSha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+        "datasetVersion": "2026.10.20.2",
+        "license": "CC-BY-ND-3.0-TW",
+        "url": "https://github.com/g0v/moedict-data/blob/a6dc997417507eb510fc29822bc514de2c92728c/dict-revised_bkup.json"
+      },
+      "char": "重",
+      "status": "unavailable",
+      "unavailableReason": "not-in-fixed-character-set",
+      "characterIdentitySha256": null,
+      "currentDefault": null,
+      "defaultOptionIds": [],
+      "options": [],
+      "references": [],
+      "limitations": [
+        "固定MOE臺灣國語辭典來源；未將各地或大陸普通話讀音差異自動統一。",
+        "僅返回現779字條已登記的單字詞條身份；Unicode字形對應不等於每個義項均適用於簡體字。",
+        "原語音／讀音／又音、文言、姓氏、地名與參見提示原樣保留；未判定適合人名。",
+        "未拆分多字詞讀音，未將參見詞條或其他異讀的釋義借入當前讀音。",
+        "選擇校驗只證明固定來源及所選原義項一致；不修改現有默認音、評分、方案或歷史。"
+      ]
+    },
+    {
+      "profile": "cmn-character-source/1.0.0",
+      "source": {
+        "profile": "cmn-character-source/1.0.0",
+        "profileSha256": "bea3067ebffc763904d4ef3d2629a2c86fcb1fa8fd3a4a57d32ff4bee6d96270",
+        "language": "cmn",
+        "standard": "MOE-Revised-Taiwan-fixed-snapshot",
+        "sourceId": "moe-revised",
+        "commit": "a6dc997417507eb510fc29822bc514de2c92728c",
+        "rawFile": "data/raw/moe-revised.json.gz",
+        "rawSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "rawJsonSha256": "ea767109dfb04f838900b7462ebf6977f344f592e1dd745a204cbe3327ef8fe3",
+        "datasetFile": "data/dataset-v6.json",
+        "datasetSha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+        "datasetVersion": "2026.10.20.2",
+        "license": "CC-BY-ND-3.0-TW",
+        "url": "https://github.com/g0v/moedict-data/blob/a6dc997417507eb510fc29822bc514de2c92728c/dict-revised_bkup.json"
+      },
+      "char": "行",
+      "status": "available",
+      "unavailableReason": null,
+      "characterIdentitySha256": "a5d4ac79c8c3649eb7677027a9d922d47077c48ba0892bc9e43f8da5c4122862",
+      "currentDefault": {
+        "pinyin": "xíng",
+        "tone": 2,
+        "recordedTraditional": "行",
+        "sourceId": "moe-revised"
+      },
+      "defaultOptionIds": [
+        "cmnr1-d51e0b22d7f7bc039188ce7a0572f1d32f62b4c8d879fbea9996517ce8aee3aa"
+      ],
+      "options": [
+        {
+          "optionId": "cmnr1-d51e0b22d7f7bc039188ce7a0572f1d32f62b4c8d879fbea9996517ce8aee3aa",
+          "char": "行",
+          "characterIdentitySha256": "a5d4ac79c8c3649eb7677027a9d922d47077c48ba0892bc9e43f8da5c4122862",
+          "source": {
+            "profile": "cmn-character-source/1.0.0",
+            "profileSha256": "bea3067ebffc763904d4ef3d2629a2c86fcb1fa8fd3a4a57d32ff4bee6d96270",
+            "language": "cmn",
+            "standard": "MOE-Revised-Taiwan-fixed-snapshot",
+            "sourceId": "moe-revised",
+            "commit": "a6dc997417507eb510fc29822bc514de2c92728c",
+            "rawFile": "data/raw/moe-revised.json.gz",
+            "rawSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "rawJsonSha256": "ea767109dfb04f838900b7462ebf6977f344f592e1dd745a204cbe3327ef8fe3",
+            "datasetFile": "data/dataset-v6.json",
+            "datasetSha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+            "datasetVersion": "2026.10.20.2",
+            "license": "CC-BY-ND-3.0-TW",
+            "url": "https://github.com/g0v/moedict-data/blob/a6dc997417507eb510fc29822bc514de2c92728c/dict-revised_bkup.json"
+          },
+          "glyph": {
+            "inputChar": "行",
+            "recordedTraditional": "行",
+            "dictionaryWord": "行",
+            "kind": "same-character",
+            "characterReadingIndices": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "variantEvidence": null
+          },
+          "entry": {
+            "index": 127980,
+            "path": "/127980",
+            "title": "行",
+            "sha256": "42c29d5562cc607edf45071096d277c22f1017893a6b494b96a89b1041785e5e"
+          },
+          "heteronym": {
+            "index": 0,
+            "path": "/127980/heteronyms/0",
+            "sha256": "e0a1d125c5dfb3abf80a00ee720d63d450a40283ba19152f8fcdfd14cb3bd621",
+            "rawPinyin": "xíng",
+            "rawBopomofo": "ㄒㄧㄥˊ"
+          },
+          "pinyin": "xíng",
+          "tone": 2,
+          "label": null,
+          "isCurrentDefault": true,
+          "definitions": [
+            {
+              "definitionId": "cmnd1-fdab55732263ca68dc3ba7e1981c11449e856ca28db13b0c4efe8f02f734b17a",
+              "path": "/127980/heteronyms/0/definitions/0",
+              "index": 0,
+              "original": {
+                "def": "走、走路。",
+                "example": [
+                  "如：「直行」、「寸步難行」、「錦衣夜行」。"
+                ],
+                "quote": [
+                  "《論語．述而》：「三人行，必有我師焉？」",
+                  "唐．王維〈終南別業〉詩：「行到水窮處，坐看雲起時。」"
+                ],
+                "type": "動"
+              },
+              "kind": "definition"
+            },
+            {
+              "definitionId": "cmnd1-66223666af9aedef077594fd32ce2fd0eb8b6774e083b10373e53d6019882379",
+              "path": "/127980/heteronyms/0/definitions/1",
+              "index": 1,
+              "original": {
+                "def": "往。",
+                "quote": [
+                  "《詩經．秦風．無衣》：「脩我甲兵，與子偕行。」",
+                  "唐．杜甫〈奉濟驛重送嚴公四 韻〉：「幾時杯重把，昨夜月同行。」"
+                ],
+                "type": "動"
+              },
+              "kind": "definition"
+            },
+            {
+              "definitionId": "cmnd1-78ff2a6ff69ca01a842fb037b36f07321a43f5f62537ee778d65bc2be5688cbd",
+              "path": "/127980/heteronyms/0/definitions/2",
+              "index": 2,
+              "original": {
+                "def": "移動、流動。",
+                "example": [
+                  "如：「運行」。"
+                ],
+                "quote": [
+                  "《易經．乾卦．象曰》：「天行健，君子以自強不息。」",
+                  "唐．杜甫〈夢李白〉詩二首之二：「浮雲終日行，游子久不至。」"
+                ],
+                "type": "動"
+              },
+              "kind": "definition"
+            },
+            {
+              "definitionId": "cmnd1-e262c61592889e95b87ed72a04a2fabe2de698fa992d0e679bb53422cc158952",
+              "path": "/127980/heteronyms/0/definitions/3",
+              "index": 3,
+              "original": {
+                "def": "流通。",
+                "example": [
+                  "如：「流行」、「風行一時」、「通行全國」、「發行報刊」。"
+                ],
+                "quote": [
+                  "《左傳．襄公二十五年》：「言之無文，行而不遠。」"
+                ],
+                "type": "動"
+              },
+              "kind": "definition"
+            },
+            {
+              "definitionId": "cmnd1-b5af7f11b871aabf704fcd1438bf1de54414b52b6845cb6a0e25993da8f583fe",
+              "path": "/127980/heteronyms/0/definitions/4",
+              "index": 4,
+              "original": {
+                "def": "做、從事。",
+                "example": [
+                  "如：「行醫」、「行善」。"
+                ],
+                "quote": [
+                  "《左傳．隱公元年》：「多行不義必自斃。」"
+                ],
+                "type": "動"
+              },
+              "kind": "definition"
+            },
+            {
+              "definitionId": "cmnd1-d0db0cf4c6ba4f2a478f14c7e361dd1cc03fd384abf7255aba515fe3495d1d64",
+              "path": "/127980/heteronyms/0/definitions/5",
+              "index": 5,
+              "original": {
+                "def": "實施。",
+                "quote": [
+                  "《易經．繫辭上》：「推而行之謂之通。」",
+                  "唐．孔穎達．正義：「因推此以可變而施行之，謂之通也。」"
+                ],
+                "type": "動"
+              },
+              "kind": "definition"
+            },
+            {
+              "definitionId": "cmnd1-20add6eb1d9e3841f0d211e109e3b6a84c3b116f3bc49c54e73cfc13e5a67d33",
+              "path": "/127980/heteronyms/0/definitions/6",
+              "index": 6,
+              "original": {
+                "def": "經歷。",
+                "quote": [
+                  "《聊齋志異．卷二．俠女》：「行年二十有五，伉儷猶虛。」"
+                ],
+                "type": "動"
+              },
+              "kind": "definition"
+            },
+            {
+              "definitionId": "cmnd1-ec6c5dd6b8bb20e0559b5517f412588823e6fc39652c2b56f483566cb6af9bf0",
+              "path": "/127980/heteronyms/0/definitions/7",
+              "index": 7,
+              "original": {
+                "def": "可以。",
+                "example": [
+                  "如：「行不行？」、「行！放手去做吧！」、「做事只要盡心盡力就行了。」"
+                ],
+                "type": "動"
+              },
+              "kind": "definition"
+            },
+            {
+              "definitionId": "cmnd1-2b7ce940769a641a3fd85435c835dc7b450cbf98ef2a0f47908e392e9955d1d1",
+              "path": "/127980/heteronyms/0/definitions/8",
+              "index": 8,
+              "original": {
+                "def": "道路。",
+                "quote": [
+                  "《詩經．小雅．小弁》：「行有死人，尚或墐之。」"
+                ],
+                "type": "名"
+              },
+              "kind": "definition"
+            },
+            {
+              "definitionId": "cmnd1-10a3665a3816c0572989be917818720ff7b51297c22d2eb1ff4faaec64f17363",
+              "path": "/127980/heteronyms/0/definitions/9",
+              "index": 9,
+              "original": {
+                "def": "行書的簡稱。",
+                "example": [
+                  "如：「行草」、「行楷」。"
+                ],
+                "type": "名"
+              },
+              "kind": "definition"
+            },
+            {
+              "definitionId": "cmnd1-cc57f3500516d0d3803b4d7ec717fa1e8a428137c0ba2a54aff93220ab018917",
+              "path": "/127980/heteronyms/0/definitions/10",
+              "index": 10,
+              "original": {
+                "def": "一種樂府和古詩的體裁。如：〈短歌行〉、〈琵琶行〉、〈飲馬長城窟行〉。",
+                "type": "名"
+              },
+              "kind": "definition"
+            },
+            {
+              "definitionId": "cmnd1-78148101025cb97266c22978247217f267f891e9e2bc9a9f5fde45d29490e9b0",
+              "path": "/127980/heteronyms/0/definitions/11",
+              "index": 11,
+              "original": {
+                "def": "量詞。計算酌酒奉客的單位。",
+                "quote": [
+                  "漢．揚雄《法言．修身》：「賓主百拜，而酒三行。」",
+                  "宋．司馬光〈訓儉示康〉：「客至未嘗不置酒，或三行五行，多不過七行。」"
+                ],
+                "type": "名"
+              },
+              "kind": "definition"
+            },
+            {
+              "definitionId": "cmnd1-1c62b3b0c8fef4981711c40d9f7661358007cbef1580a3c69ebc1c4b7695dbc7",
+              "path": "/127980/heteronyms/0/definitions/12",
+              "index": 12,
+              "original": {
+                "def": "姓。如漢代有行宏。",
+                "type": "名"
+              },
+              "kind": "definition"
+            },
+            {
+              "definitionId": "cmnd1-318870d5172764f9d6d0e437a40597ed814102758d54e3cbd5b514061eff565d",
+              "path": "/127980/heteronyms/0/definitions/13",
+              "index": 13,
+              "original": {
+                "def": "二一四部首之一。",
+                "type": "名"
+              },
+              "kind": "definition"
+            },
+            {
+              "definitionId": "cmnd1-67d665663af1b7f14d3ba5afa0af28b6ef1d7b5c6ff8b78dc0682c41ed29ddbb",
+              "path": "/127980/heteronyms/0/definitions/14",
+              "index": 14,
+              "original": {
+                "def": "能幹、幹練。",
+                "example": [
+                  "如：「你真行。」、「他在這方面行得很。」"
+                ],
+                "type": "形"
+              },
+              "kind": "definition"
+            },
+            {
+              "definitionId": "cmnd1-0ac20455f2a3ab95f4ffdeb2d9dab1e908e64b7639c4c63824a87ade5ec125d0",
+              "path": "/127980/heteronyms/0/definitions/15",
+              "index": 15,
+              "original": {
+                "def": "不久、將要。",
+                "example": [
+                  "如：「行將就木」。"
+                ],
+                "quote": [
+                  "唐．元稹〈遣悲懷〉詩三首之二：「衣裳已施行看盡，針線猶存未忍開。」"
+                ],
+                "type": "副"
+              },
+              "kind": "definition"
+            },
+            {
+              "definitionId": "cmnd1-8a63db8df8dec55282e644e9fdb05b291188451f6c54ab859f9cf37e233907df",
+              "path": "/127980/heteronyms/0/definitions/16",
+              "index": 16,
+              "original": {
+                "def": "且。",
+                "quote": [
+                  "《史記．卷五五．留侯世家》：「乃使良還，行燒絕棧道。」",
+                  "《文選．曹丕．與吳質書》：「既痛逝者，行自念也。」"
+                ],
+                "type": "連"
+              },
+              "kind": "definition"
+            }
+          ],
+          "suitabilityForPersonalName": "not-assessed"
+        },
+        {
+          "optionId": "cmnr1-8d95dba1cc5fdb679c4f178a71a85e234efe707bd53f7b470c6c0abe7839ac6f",
+          "char": "行",
+          "characterIdentitySha256": "a5d4ac79c8c3649eb7677027a9d922d47077c48ba0892bc9e43f8da5c4122862",
+          "source": {
+            "profile": "cmn-character-source/1.0.0",
+            "profileSha256": "bea3067ebffc763904d4ef3d2629a2c86fcb1fa8fd3a4a57d32ff4bee6d96270",
+            "language": "cmn",
+            "standard": "MOE-Revised-Taiwan-fixed-snapshot",
+            "sourceId": "moe-revised",
+            "commit": "a6dc997417507eb510fc29822bc514de2c92728c",
+            "rawFile": "data/raw/moe-revised.json.gz",
+            "rawSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "rawJsonSha256": "ea767109dfb04f838900b7462ebf6977f344f592e1dd745a204cbe3327ef8fe3",
+            "datasetFile": "data/dataset-v6.json",
+            "datasetSha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+            "datasetVersion": "2026.10.20.2",
+            "license": "CC-BY-ND-3.0-TW",
+            "url": "https://github.com/g0v/moedict-data/blob/a6dc997417507eb510fc29822bc514de2c92728c/dict-revised_bkup.json"
+          },
+          "glyph": {
+            "inputChar": "行",
+            "recordedTraditional": "行",
+            "dictionaryWord": "行",
+            "kind": "same-character",
+            "characterReadingIndices": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "variantEvidence": null
+          },
+          "entry": {
+            "index": 127980,
+            "path": "/127980",
+            "title": "行",
+            "sha256": "42c29d5562cc607edf45071096d277c22f1017893a6b494b96a89b1041785e5e"
+          },
+          "heteronym": {
+            "index": 1,
+            "path": "/127980/heteronyms/1",
+            "sha256": "0512bd0937036a3b0425c7e4c77aa2cacfc638345534371d069d87ca80f2c6fa",
+            "rawPinyin": "háng",
+            "rawBopomofo": "ㄏㄤˊ"
+          },
+          "pinyin": "háng",
+          "tone": 2,
+          "label": null,
+          "isCurrentDefault": false,
+          "definitions": [
+            {
+              "definitionId": "cmnd1-855618acf2b973b93e3d0421c7384ce5ac5b4231692bfdc7152a9952afe1368f",
+              "path": "/127980/heteronyms/1/definitions/0",
+              "index": 0,
+              "original": {
+                "def": "行列。直列為行，橫排為列。",
+                "quote": [
+                  "《左傳．成公二年》：「屬當戎行，無所逃隱。」",
+                  "唐．杜甫〈贈衛八處士〉詩：「昔別君未婚，兒女忽成行。」"
+                ],
+                "type": "名"
+              },
+              "kind": "definition"
+            },
+            {
+              "definitionId": "cmnd1-20eff0e2d27be5acd3c1427a2d23e5880617c861236b3c0581b2667caf10fe22",
+              "path": "/127980/heteronyms/1/definitions/1",
+              "index": 1,
+              "original": {
+                "def": "兄弟姐妹長幼的次序。",
+                "example": [
+                  "如：「排行老三。」"
+                ],
+                "type": "名"
+              },
+              "kind": "definition"
+            },
+            {
+              "definitionId": "cmnd1-a4f05216abe4789854ca9ec6c07004a70d0d6923fd4377699eaa87a4ed7f14a1",
+              "path": "/127980/heteronyms/1/definitions/2",
+              "index": 2,
+              "original": {
+                "def": "量詞。計算成排東西的單位。",
+                "example": [
+                  "如：「一行樹」、「一目十行」。"
+                ],
+                "quote": [
+                  "唐．杜甫〈絕句〉四首之三：「兩個黃鸝鳴翠柳，一行白鷺上青天。」"
+                ],
+                "type": "名"
+              },
+              "kind": "definition"
+            },
+            {
+              "definitionId": "cmnd1-b5513aeea40edb3e8a97e004419dda09052be4a6a577d07f53f51d2e50b25e1e",
+              "path": "/127980/heteronyms/1/definitions/3",
+              "index": 3,
+              "original": {
+                "def": "營業交易的機構。",
+                "example": [
+                  "如：「銀行」、「洋行」、「分行」、「商行」、「行庫」。"
+                ],
+                "type": "名"
+              },
+              "kind": "definition"
+            },
+            {
+              "definitionId": "cmnd1-db99c66ec1ca733ff89a1c04b4644f0710252a917095c51869854099f8c21e92",
+              "path": "/127980/heteronyms/1/definitions/4",
+              "index": 4,
+              "original": {
+                "def": "職業。",
+                "example": [
+                  "如：「各行各業」、「行行出狀元」、「三句話不離本行」。"
+                ],
+                "type": "名"
+              },
+              "kind": "definition"
+            },
+            {
+              "definitionId": "cmnd1-bbf9e632525c84f5520ec2a4e2768d83711c9f9c0c09615d18c5fb9fd7164a7e",
+              "path": "/127980/heteronyms/1/definitions/5",
+              "index": 5,
+              "original": {
+                "def": "表處所，用於人稱之後。",
+                "quote": [
+                  "宋．周邦彥〈風流子．新綠小池塘〉詞：「最苦夢魂，今宵不到伊行。」",
+                  "《水滸傳．第一四回》：「你這等賊心賊肝，我行須使不得！」"
+                ],
+                "type": "名"
+              },
+              "kind": "definition"
+            },
+            {
+              "definitionId": "cmnd1-a43795e9d4d0a54c6ecab0d32300eaa43445fc2859ecf2ebf7079ff62c0b4ea4",
+              "path": "/127980/heteronyms/1/definitions/6",
+              "index": 6,
+              "original": {
+                "def": "二一四部首之一。",
+                "type": "名"
+              },
+              "kind": "definition"
+            }
+          ],
+          "suitabilityForPersonalName": "not-assessed"
+        },
+        {
+          "optionId": "cmnr1-f06e6c2f65187246bb10a56373fb4d498fe49ae301787eaf29d6377a3506a55e",
+          "char": "行",
+          "characterIdentitySha256": "a5d4ac79c8c3649eb7677027a9d922d47077c48ba0892bc9e43f8da5c4122862",
+          "source": {
+            "profile": "cmn-character-source/1.0.0",
+            "profileSha256": "bea3067ebffc763904d4ef3d2629a2c86fcb1fa8fd3a4a57d32ff4bee6d96270",
+            "language": "cmn",
+            "standard": "MOE-Revised-Taiwan-fixed-snapshot",
+            "sourceId": "moe-revised",
+            "commit": "a6dc997417507eb510fc29822bc514de2c92728c",
+            "rawFile": "data/raw/moe-revised.json.gz",
+            "rawSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "rawJsonSha256": "ea767109dfb04f838900b7462ebf6977f344f592e1dd745a204cbe3327ef8fe3",
+            "datasetFile": "data/dataset-v6.json",
+            "datasetSha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+            "datasetVersion": "2026.10.20.2",
+            "license": "CC-BY-ND-3.0-TW",
+            "url": "https://github.com/g0v/moedict-data/blob/a6dc997417507eb510fc29822bc514de2c92728c/dict-revised_bkup.json"
+          },
+          "glyph": {
+            "inputChar": "行",
+            "recordedTraditional": "行",
+            "dictionaryWord": "行",
+            "kind": "same-character",
+            "characterReadingIndices": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "variantEvidence": null
+          },
+          "entry": {
+            "index": 127980,
+            "path": "/127980",
+            "title": "行",
+            "sha256": "42c29d5562cc607edf45071096d277c22f1017893a6b494b96a89b1041785e5e"
+          },
+          "heteronym": {
+            "index": 2,
+            "path": "/127980/heteronyms/2",
+            "sha256": "33ef453e0d513af3dde1c11eabb8f2c542075fbb72aea939207587f17639d6bf",
+            "rawPinyin": "xìng",
+            "rawBopomofo": "ㄒㄧㄥˋ"
+          },
+          "pinyin": "xìng",
+          "tone": 4,
+          "label": null,
+          "isCurrentDefault": false,
+          "definitions": [
+            {
+              "definitionId": "cmnd1-b4e072141b8d6abbea9c9f04f0fe13c1d47786862ec19eec7d9374e80ff389d2",
+              "path": "/127980/heteronyms/2/definitions/0",
+              "index": 0,
+              "original": {
+                "def": "行為舉止。",
+                "example": [
+                  "如：「品行」、「操行」、「獸行」、「德行」。"
+                ],
+                "quote": [
+                  "《論語．公冶長》：「聽其言而觀其行。」"
+                ],
+                "type": "名"
+              },
+              "kind": "definition"
+            }
+          ],
+          "suitabilityForPersonalName": "not-assessed"
+        },
+        {
+          "optionId": "cmnr1-59c09fc77a8af8097bd0146fce9bb1e1c1efd37d09f1fd62f7bc5f4cd5d4f910",
+          "char": "行",
+          "characterIdentitySha256": "a5d4ac79c8c3649eb7677027a9d922d47077c48ba0892bc9e43f8da5c4122862",
+          "source": {
+            "profile": "cmn-character-source/1.0.0",
+            "profileSha256": "bea3067ebffc763904d4ef3d2629a2c86fcb1fa8fd3a4a57d32ff4bee6d96270",
+            "language": "cmn",
+            "standard": "MOE-Revised-Taiwan-fixed-snapshot",
+            "sourceId": "moe-revised",
+            "commit": "a6dc997417507eb510fc29822bc514de2c92728c",
+            "rawFile": "data/raw/moe-revised.json.gz",
+            "rawSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "rawJsonSha256": "ea767109dfb04f838900b7462ebf6977f344f592e1dd745a204cbe3327ef8fe3",
+            "datasetFile": "data/dataset-v6.json",
+            "datasetSha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+            "datasetVersion": "2026.10.20.2",
+            "license": "CC-BY-ND-3.0-TW",
+            "url": "https://github.com/g0v/moedict-data/blob/a6dc997417507eb510fc29822bc514de2c92728c/dict-revised_bkup.json"
+          },
+          "glyph": {
+            "inputChar": "行",
+            "recordedTraditional": "行",
+            "dictionaryWord": "行",
+            "kind": "same-character",
+            "characterReadingIndices": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "variantEvidence": null
+          },
+          "entry": {
+            "index": 127980,
+            "path": "/127980",
+            "title": "行",
+            "sha256": "42c29d5562cc607edf45071096d277c22f1017893a6b494b96a89b1041785e5e"
+          },
+          "heteronym": {
+            "index": 3,
+            "path": "/127980/heteronyms/3",
+            "sha256": "f2284b5c7e54a3d9bc7ff96d50e48a31edb9f1c25591076675b6f77695201673",
+            "rawPinyin": "hàng",
+            "rawBopomofo": "ㄏㄤˋ"
+          },
+          "pinyin": "hàng",
+          "tone": 4,
+          "label": null,
+          "isCurrentDefault": false,
+          "definitions": [
+            {
+              "definitionId": "cmnd1-c7714683d12b9f056fdcaedb6f74a0d8740ef1a5df5a8a503f5a009fb51f71f8",
+              "path": "/127980/heteronyms/3/definitions/0",
+              "index": 0,
+              "original": {
+                "def": "參見「行行」、「樹行子」等條。"
+              },
+              "kind": "dictionary-reference"
+            }
+          ],
+          "suitabilityForPersonalName": "not-assessed"
+        }
+      ],
+      "references": [],
+      "limitations": [
+        "固定MOE臺灣國語辭典來源；未將各地或大陸普通話讀音差異自動統一。",
+        "僅返回現779字條已登記的單字詞條身份；Unicode字形對應不等於每個義項均適用於簡體字。",
+        "原語音／讀音／又音、文言、姓氏、地名與參見提示原樣保留；未判定適合人名。",
+        "未拆分多字詞讀音，未將參見詞條或其他異讀的釋義借入當前讀音。",
+        "選擇校驗只證明固定來源及所選原義項一致；不修改現有默認音、評分、方案或歷史。"
+      ]
+    },
+    {
+      "profile": "cmn-character-source/1.0.0",
+      "source": {
+        "profile": "cmn-character-source/1.0.0",
+        "profileSha256": "bea3067ebffc763904d4ef3d2629a2c86fcb1fa8fd3a4a57d32ff4bee6d96270",
+        "language": "cmn",
+        "standard": "MOE-Revised-Taiwan-fixed-snapshot",
+        "sourceId": "moe-revised",
+        "commit": "a6dc997417507eb510fc29822bc514de2c92728c",
+        "rawFile": "data/raw/moe-revised.json.gz",
+        "rawSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "rawJsonSha256": "ea767109dfb04f838900b7462ebf6977f344f592e1dd745a204cbe3327ef8fe3",
+        "datasetFile": "data/dataset-v6.json",
+        "datasetSha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+        "datasetVersion": "2026.10.20.2",
+        "license": "CC-BY-ND-3.0-TW",
+        "url": "https://github.com/g0v/moedict-data/blob/a6dc997417507eb510fc29822bc514de2c92728c/dict-revised_bkup.json"
+      },
+      "char": "沈",
+      "status": "available",
+      "unavailableReason": null,
+      "characterIdentitySha256": "8e80d6dfddeb0fb3bae847d5dd4ab253ec57ec866163c0753b6bf14af6e5b93d",
+      "currentDefault": {
+        "pinyin": "shěn",
+        "tone": 3,
+        "recordedTraditional": "沈",
+        "sourceId": "moe-revised"
+      },
+      "defaultOptionIds": [
+        "cmnr1-721e186546fb7d20e7007490468d1ff434a3ce12e27a99b69896b9749fc30876"
+      ],
+      "options": [
+        {
+          "optionId": "cmnr1-721e186546fb7d20e7007490468d1ff434a3ce12e27a99b69896b9749fc30876",
+          "char": "沈",
+          "characterIdentitySha256": "8e80d6dfddeb0fb3bae847d5dd4ab253ec57ec866163c0753b6bf14af6e5b93d",
+          "source": {
+            "profile": "cmn-character-source/1.0.0",
+            "profileSha256": "bea3067ebffc763904d4ef3d2629a2c86fcb1fa8fd3a4a57d32ff4bee6d96270",
+            "language": "cmn",
+            "standard": "MOE-Revised-Taiwan-fixed-snapshot",
+            "sourceId": "moe-revised",
+            "commit": "a6dc997417507eb510fc29822bc514de2c92728c",
+            "rawFile": "data/raw/moe-revised.json.gz",
+            "rawSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "rawJsonSha256": "ea767109dfb04f838900b7462ebf6977f344f592e1dd745a204cbe3327ef8fe3",
+            "datasetFile": "data/dataset-v6.json",
+            "datasetSha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+            "datasetVersion": "2026.10.20.2",
+            "license": "CC-BY-ND-3.0-TW",
+            "url": "https://github.com/g0v/moedict-data/blob/a6dc997417507eb510fc29822bc514de2c92728c/dict-revised_bkup.json"
+          },
+          "glyph": {
+            "inputChar": "沈",
+            "recordedTraditional": "沈",
+            "dictionaryWord": "沈",
+            "kind": "same-character",
+            "characterReadingIndices": [
+              0,
+              1
+            ],
+            "variantEvidence": null
+          },
+          "entry": {
+            "index": 83184,
+            "path": "/83184",
+            "title": "沈",
+            "sha256": "bdfb4da924ac91df10718d0373cd3129bcd33dacb9d4b97c22df1172bf392192"
+          },
+          "heteronym": {
+            "index": 1,
+            "path": "/83184/heteronyms/1",
+            "sha256": "5ec665f5264bd192bc15f748bb71a6721003d9eb73251f9a98e680abf25b28eb",
+            "rawPinyin": "shěn",
+            "rawBopomofo": "ㄕㄣˇ"
+          },
+          "pinyin": "shěn",
+          "tone": 3,
+          "label": null,
+          "isCurrentDefault": true,
+          "definitions": [
+            {
+              "definitionId": "cmnd1-aaa5261193085779497d2f5e816a9d251708d849bcce01fd058d406f3e8db9dc",
+              "path": "/83184/heteronyms/1/definitions/0",
+              "index": 0,
+              "original": {
+                "def": "姓。如宋代有沈括。",
+                "type": "名"
+              },
+              "kind": "definition"
+            }
+          ],
+          "suitabilityForPersonalName": "not-assessed"
+        }
+      ],
+      "references": [
+        {
+          "char": "沈",
+          "glyph": {
+            "inputChar": "沈",
+            "recordedTraditional": "沈",
+            "dictionaryWord": "沈",
+            "kind": "same-character",
+            "characterReadingIndices": [
+              0,
+              1
+            ],
+            "variantEvidence": null
+          },
+          "entry": {
+            "index": 83184,
+            "path": "/83184",
+            "title": "沈",
+            "sha256": "bdfb4da924ac91df10718d0373cd3129bcd33dacb9d4b97c22df1172bf392192"
+          },
+          "heteronym": {
+            "index": 0,
+            "path": "/83184/heteronyms/0",
+            "sha256": "18e1254071fc299cccdd5a2d769c97d27980e3594bfb4366a435703da1b21aab",
+            "original": {
+              "bopomofo": "ㄔㄣˊ",
+              "definitions": [
+                {
+                  "def": "",
+                  "link": [
+                    "同「沉」。"
+                  ]
+                }
+              ],
+              "pinyin": "chén"
+            }
+          },
+          "reason": "empty-definition-reference",
+          "selectable": false
+        }
+      ],
+      "limitations": [
+        "固定MOE臺灣國語辭典來源；未將各地或大陸普通話讀音差異自動統一。",
+        "僅返回現779字條已登記的單字詞條身份；Unicode字形對應不等於每個義項均適用於簡體字。",
+        "原語音／讀音／又音、文言、姓氏、地名與參見提示原樣保留；未判定適合人名。",
+        "未拆分多字詞讀音，未將參見詞條或其他異讀的釋義借入當前讀音。",
+        "選擇校驗只證明固定來源及所選原義項一致；不修改現有默認音、評分、方案或歷史。"
+      ]
+    },
+    {
+      "profile": "cmn-character-source/1.0.0",
+      "source": {
+        "profile": "cmn-character-source/1.0.0",
+        "profileSha256": "bea3067ebffc763904d4ef3d2629a2c86fcb1fa8fd3a4a57d32ff4bee6d96270",
+        "language": "cmn",
+        "standard": "MOE-Revised-Taiwan-fixed-snapshot",
+        "sourceId": "moe-revised",
+        "commit": "a6dc997417507eb510fc29822bc514de2c92728c",
+        "rawFile": "data/raw/moe-revised.json.gz",
+        "rawSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "rawJsonSha256": "ea767109dfb04f838900b7462ebf6977f344f592e1dd745a204cbe3327ef8fe3",
+        "datasetFile": "data/dataset-v6.json",
+        "datasetSha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+        "datasetVersion": "2026.10.20.2",
+        "license": "CC-BY-ND-3.0-TW",
+        "url": "https://github.com/g0v/moedict-data/blob/a6dc997417507eb510fc29822bc514de2c92728c/dict-revised_bkup.json"
+      },
+      "char": "燚",
+      "status": "unavailable",
+      "unavailableReason": "no-moe-reading-identity",
+      "characterIdentitySha256": "f65b5758dec4e98b069f13d5eb6d461915553db19b62e578e5c9d09f7a51c035",
+      "currentDefault": {
+        "pinyin": "yì",
+        "tone": 4,
+        "recordedTraditional": "燚",
+        "sourceId": "wiktionary-zh"
+      },
+      "defaultOptionIds": [],
+      "options": [],
+      "references": [],
+      "limitations": [
+        "固定MOE臺灣國語辭典來源；未將各地或大陸普通話讀音差異自動統一。",
+        "僅返回現779字條已登記的單字詞條身份；Unicode字形對應不等於每個義項均適用於簡體字。",
+        "原語音／讀音／又音、文言、姓氏、地名與參見提示原樣保留；未判定適合人名。",
+        "未拆分多字詞讀音，未將參見詞條或其他異讀的釋義借入當前讀音。",
+        "選擇校驗只證明固定來源及所選原義項一致；不修改現有默認音、評分、方案或歷史。"
+      ]
+    }
+  ],
+  "apiErrors": {
+    "invalidChar": "请输入一个完整的汉字。",
+    "sourceUnavailable": "普通话读音来源不可用或校验失败，请恢复内置资料后重试。"
+  },
+  "scope": "No real whole-character reference-only query exists in current 779; 沈 contains an unselectable chén reference alongside available shěn"
+}

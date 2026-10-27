@@ -1,0 +1,169 @@
+{
+  "schema": "m355-limited-raw-service-source-gate/1",
+  "date": "2026-10-23",
+  "decision": "PASS_LIMITED_RAW_SERVICE_CANONICAL_SECRET_SOURCE_WITH_COMBINED_TYPES_AND_RAW4_PENDING",
+  "preparation": {
+    "file": "E:/八卦周易/.local/team-302/dev01/raw38-preparation/source-preparation-manifest.json",
+    "sha256": "b311b53b69ec723dda8aca379fb8ad4451c0b770e27e49a7a4aa7925b4b0194a",
+    "bytes": 1406
+  },
+  "supplement": {
+    "file": "E:/八卦周易/.local/team-302/dev01/raw38-preparation/preparation-supplement.json",
+    "sha256": "c806575211b7fcc98a589a6d9a6be0d634507f1dc231e2bd43a4967f5fefd966",
+    "bytes": 2358
+  },
+  "source": {
+    "parent": {
+      "sha256": "4a65cfa8e35ea3711e3e4079f4cae8fa9fcc47b233b2562a22492f99e13ef108",
+      "bytes": 45572
+    },
+    "candidate": {
+      "sha256": "2127a3356008e1e9ddc9ff242fe5fd4b8d9111de13418c60dd8afe15045a0a38",
+      "bytes": 48344
+    },
+    "patch": {
+      "file": "E:/八卦周易/.local/team-302/dev01/raw38-preparation/raw38-service-recovery.patch",
+      "sha256": "0dc07bdb7ecc7f9d1aff33fb58045dbbaecd6674e1b0c0383ddc639f5ecdd6f1",
+      "bytes": 15199
+    },
+    "groups": 13,
+    "sites": 16
+  },
+  "scope": "Actual rawService return/recovery and secret compensation source delta paired with root-integrated rawStore6ac/shared63a/841/0f0. No compact/paging/M229next imports. Limited source gate only.",
+  "findings": {
+    "P1": [],
+    "P2": []
+  },
+  "observations": [
+    {
+      "lines": "97-114",
+      "fact": "Only isCustomerWriteCommittedError(error,this.store) && resultFinalized===true enters recovery. Recovery failure records main-only secondary then rethrows original error; no write retry. Session readVerifiedSession and settings activeStore full JSON-equivalent comparisons are mandatory before normal recovery."
+    },
+    {
+      "lines": "197-198",
+      "fact": "Profile validation occurs once, with same ID and full matching canonical profile required after commit. Delete preserves void and verifies no profile/currentsessions remain; original Store delete mutation removes associated revisions."
+    },
+    {
+      "lines": "249-253",
+      "fact": "Generation retains its original UUID/session and commit attempt. Recovery only rereads full canonical session after CAS finalization and appends one fixed warning to original messages. It does not rerun naming/AI, issue UUIDs or grant source facts."
+    },
+    {
+      "lines": "292,300,307,318,324,342,356,366",
+      "fact": "Ordinary review, modern evidence, history/meaning-context, elements, Yue reading and numerology keep original validation/CAS/source and authorization logic, then wrap their original normal save call with canonical verified recovery."
+    },
+    {
+      "lines": "396-405",
+      "fact": "Credentials are normalized and new endpoint envelope is written before settings persistence. Any same-owner genuine commit, including resultFinalized=false or failed canonical recovery, prevents compensating to old endpoint. Noncommitted errors retain preexisting compensation path and original error unless that compensation itself fails."
+    },
+    {
+      "lines": "96",
+      "fact": "Notice getter accepts exact scope and passes actual Store owner; existing six-field DTO remains metadata only. No rawError/customer/secret transport payload or naming/source authority is added."
+    }
+  ],
+  "evidence": {
+    "identity": {
+      "file": "E:/八卦周易/.local/team-355/audit/artifact-identity.json",
+      "sha256": "adc8d7b5357a3be41af62dabd30a7b7ad7417b52cf4288e983640c7c6a74b80d",
+      "bytes": 4715,
+      "occurrences": 15,
+      "unique": 11,
+      "allMatch": true
+    },
+    "support": {
+      "file": "E:/八卦周易/.local/team-355/audit/current-support-identity.json",
+      "sha256": "b7fd4c18a5f34ff0e3516ce6ee42d568dfc76ae05ea738d2fa91d86f8f55e370",
+      "bytes": 2457,
+      "actualPinsMatched": 5
+    },
+    "priorM317": {
+      "file": "E:/八卦周易/.local/team-317/independent-review/independent-review.json",
+      "sha256": "f1181cab47e1c816849347ef8da42e5f630cd5430a58e286e68197715c047dad",
+      "bytes": 5015,
+      "reuse": "Owner/finalized canonical/secret source logic only. Old sourceF139490849 with e22/f479 is not this raw source orM308 runtime."
+    },
+    "dataSourceReuse": {
+      "M343": "9b32713477960d68324fe2bc495f4a3925fea74defbe03f548571d44851ccc01",
+      "M333": "65498368543cbcb9a14447501577a7054d7d046dcd18e22ee89baf589bdf4aa0",
+      "scope": "Exact integrated6ac/63a/841/0f0 actualcurrentbytes observed; no old20/F13912/Service12 runtime borrowed."
+    },
+    "packetPeer": {
+      "file": "E:/八卦周易/.local/team-355/audit/raw-service-packet-review.json",
+      "sha256": "7ba9cff25a1a87789547df59040104263f8fe908f16846b5fb7fb58c439cb83a",
+      "bytes": 3765
+    },
+    "selectedRuntimeBoundary": {
+      "file": "E:/八卦周易/.local/team-355/audit/selected-runtime-boundary.json",
+      "sha256": "db71223038817dcf0930f4eaf25dd381e1fe1ad538e0bf9f550c8c2611e27391",
+      "bytes": 2214
+    },
+    "canonicalPeer": {
+      "file": "E:/八卦周易/.local/team-355/audit/raw-service-canonical-review.json",
+      "sha256": "18e9cd0b589ffdd2acef45e511a8b2c272a128dd24aa5d36230ff8a3e5f133e1",
+      "bytes": 9484
+    },
+    "closing": {
+      "file": "E:/八卦周易/.local/team-355/audit/closing-identity.json",
+      "sha256": "76091af38de507a9a553393eadb2c42c3018447c2879c8f6fbf41ea85876a467",
+      "bytes": 2774,
+      "refs": 7,
+      "allMatch": true
+    },
+    "secretPeer": {
+      "file": "E:/八卦周易/.local/team-355/audit/raw-service-secret-contract-review.json",
+      "sha256": "1d02d751b04dfdb131afb9d9d71470157bc9bd7355c696ab03011ed755515f0b",
+      "bytes": 7742
+    }
+  },
+  "supportState": {
+    "coordinatorReportedHead": "467aa59da8e9b95cac3071c1f22e1bff4f18109a",
+    "receipt": "E:/八卦周易/.local/team-356/integration.json",
+    "actualSourcePresenceChecked": true,
+    "headIndependentlyQueried": false,
+    "ServiceStillParentAtObservation": true,
+    "prepWaitingField": "Historical source-prep status captured before data integration; it is not rewritten or misrepresented as current absence."
+  },
+  "pending": [
+    "Precise combined rawService2127 +Store6ac type check",
+    "Selected actualrawA1/A2/C1-settings/C3 and necessary rawdata cases",
+    "Actualgeneration observation and later freshfull as separately owned",
+    "HTTP/IPC/UI,current sourceprofile22,rawprofile138/SQLreaderclosure,build/installer/release"
+  ],
+  "limits": [
+    "Recovery reads current active Store snapshot, not an independent cold-disk reopen or completeApp restart.",
+    "A semantic source pass does not prove actual rawSQL behavior; selected raw4case plan remains unexecuted.",
+    "Secret and SQLite remain separate files; crash durability or two-file atomic transaction is not established by this delta.",
+    "Existing compensation-failure message, genericatomic and error-diagnostic limits are preserved; no adversarial shared-directory/fsync guarantee is added.",
+    "OriginalM3439b and r1c95e failure remain unchanged. Actual type graph for the next run must be recorded; historicald881 plan labels are not an instruction to revert currenttests."
+  ],
+  "approvals": {
+    "sourceOnly": true,
+    "rootIntegration": false,
+    "combinedTypes": false,
+    "rawRuntime": false,
+    "profile22": false,
+    "release": false,
+    "releaseStatus": "HOLD",
+    "projectComplete": false
+  },
+  "executedByAuditor": {
+    "productWrites": 0,
+    "candidateModules": 0,
+    "tests": 0,
+    "DB": 0,
+    "SQL": 0,
+    "types": 0,
+    "Worker": 0,
+    "App": 0,
+    "build": 0,
+    "gitApply": 0
+  },
+  "modelSteering": {
+    "requested": "gpt-6.1-sol",
+    "reasoning": "ultra",
+    "noRestart": true,
+    "noRepeatedChecksForModelChange": true
+  },
+  "completedAt": "2026-10-23T12:32:10.779Z",
+  "closure": "Exact rawService4a65→2127 source delta is compatible with observed root-integrated rawStore6ac/63a/841/0f0 and preserves genuine owner/finalized canonical return and committed credential semantics. This permits a source-only handoff to the coordinator for precise integration/validation; it grants no runtime, profile or release acceptance.",
+  "finalContext": "Coordinator subsequently reports rawHEADac08edd7d92f4bd99491a71e3af7181091f1960f from separate performance integration, with Store6ac and Service4a65 unchanged. This audit does not reapprove that performance delta or rerun prior types."
+}

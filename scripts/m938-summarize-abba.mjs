@@ -1,0 +1,21 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {createHash} from 'node:crypto';
+const root=path.resolve(process.argv[2]??'');if(!process.argv[2])throw Error('Evidence root required');
+const output=path.join(root,'abba-comparison.json');if(fs.existsSync(output))throw Error('Never replace comparison');
+const hash=bytes=>createHash('sha256').update(bytes).digest('hex'),parent=JSON.parse(fs.readFileSync(path.join(root,'abba-parent.json'),'utf8')),order=['a1','b1','b2','a2'];
+if(parent.status!=='passed'||parent.globalTimedOut||JSON.stringify(parent.order)!==JSON.stringify(order))throw Error('Real ordered ABBA incomplete');
+const rows=order.map(id=>{const folder=path.join(root,'runs',id),run=JSON.parse(fs.readFileSync(path.join(folder,'run.json'),'utf8')),watchdog=JSON.parse(fs.readFileSync(path.join(root,id+'-watchdog.json'),'utf8')),full=fs.readFileSync(path.join(folder,'full-return.json')),verification=JSON.parse(fs.readFileSync(path.join(folder,'verification.json'),'utf8'));
+ if(run.status!=='passed'||run.verifyCallCount!==1||watchdog.code!==0||watchdog.watchdogKilled)throw Error('Failed/multiple actual call '+id);
+ return{...run,wholeCaseMs:Date.parse(watchdog.finishedUtc)-Date.parse(watchdog.startedUtc),fullReturnSha256:hash(full),inputEnvelopeSha256:verification.inputEnvelopeSha256,sessionSha256:verification.sessionSha256,watchdog};});
+if(new Set(rows.map(row=>row.pid)).size!==4||new Set(rows.map(row=>row.inputEnvelopeSha256)).size!==1||new Set(rows.map(row=>row.fullReturnSha256)).size!==1||new Set(rows.map(row=>row.sessionSha256)).size!==1)throw Error('Fresh processes or exact input/return equality failed');
+for(let i=1;i<rows.length;i++)if(Date.parse(rows[i].startedUtc)<Date.parse(rows[i-1].finishedUtc))throw Error('ABBA overlapped');
+const fixture=JSON.parse(fs.readFileSync(path.join(root,'official-fixture.json'),'utf8'));
+for(const entry of fixture.resources){const bytes=fs.readFileSync(path.join(fixture.root,entry.path));if(bytes.length!==entry.bytes||hash(bytes)!==entry.sha256)throw Error('Terminal resource drift '+entry.path);}
+if(hash(fs.readFileSync(fixture.database.copy))!==fixture.database.sha256||hash(fs.readFileSync(fixture.database.original))!==fixture.database.sha256)throw Error('Input database drift');
+const paths=JSON.parse(fs.readFileSync(path.join(root,'paths-r2/path-boundary-results.json'),'utf8'));
+for(const item of paths.cases.filter(row=>row.baseline))if(JSON.stringify(item.baseline)!==JSON.stringify(item.candidate))throw Error('Legacy rejection metadata changed in '+item.name);
+const compare=key=>{const values=rows.map(row=>key==='wholeCaseMs'?row.wholeCaseMs:row.phases.find(item=>item.phase===key).elapsedMs),a=(values[0]+values[3])/2,b=(values[1]+values[2])/2;return{phase:key,valuesMs:values,baselineMeanMs:a,candidateMeanMs:b,reductionPercent:(1-b/a)*100,candidateBothUnder15s:values[1]<=15000&&values[2]<=15000};};
+const comparisons=['public-native-envelope','create-owner','owner.verifySaved','wholeCaseMs'].map(compare);
+const result={schema:'m938-actual-readonly-owner-abba/1',order,wholeParentMs:Date.parse(parent.finishedUtc)-Date.parse(parent.startedUtc),comparisons,exactInputEnvelopeEqual:true,exactSessionEqual:true,exactFullReturnBytesEqual:true,sourceResourcesRehashed:fixture.resources.length,sourceFilesUnchanged:true,noCrossRunParsedCache:true,profilersUsed:false,nodeProcesses:4,ownerVerifyCalls:4,performanceGate15sPassed:comparisons.find(row=>row.phase==='owner.verifySaved').candidateBothUnder15s,sourceAdmissionGranted:false,sharedHostLoadUncontrolled:true,coldDiskClaim:false,statisticalSignificanceClaim:false,rows};
+fs.writeFileSync(output+'.tmp',JSON.stringify(result,null,2)+'\n');fs.renameSync(output+'.tmp',output);console.log(JSON.stringify({output,wholeParentMs:result.wholeParentMs,comparisons,performanceGate15sPassed:result.performanceGate15sPassed,exactFullReturnBytesEqual:true,sourceResourcesRehashed:fixture.resources.length}));

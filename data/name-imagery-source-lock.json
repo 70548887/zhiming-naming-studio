@@ -1,0 +1,40 @@
+{
+  "version": "project-character-imagery-outer-palace-set/1.0.0",
+  "hashConvention": "sha256(JSON.stringify(fileHashes)); sorted relative path keys",
+  "sources": [
+    {
+      "id": "project-name-imagery-outer-palaces-v1",
+      "name": "项目文化意象到外八宫集合的独立实验约定",
+      "url": "local:data/name-imagery-profile.json",
+      "commit": "project-character-imagery-outer-palace-set/1.0.0",
+      "license": "CC0-1.0",
+      "files": [
+        "data/name-imagery-profile.json",
+        "data/raw/name-imagery-NOTICE.md"
+      ],
+      "note": "项目自编集合投影，非传统验名法；不打分、不替代既有出生盘，不判断名字效果。",
+      "sha256": "eff4c14a5c963b42c698915a91d91a0cdd6d398ad8e793f4e641c0cf556f73c7",
+      "fileHashes": {
+        "data/name-imagery-profile.json": "578051fdef91ce0a4615c63dd28b2cf1fe7a3fefcd50203ee7451fb8c7deab8c",
+        "data/raw/name-imagery-NOTICE.md": "581a3d7a2750702bf2b23f93cf25048bdc23c6da9606698019d1aacd9d039d34"
+      }
+    },
+    {
+      "id": "name-imagery-arc-palace-elements",
+      "name": "Arc固定宫元素与索引表（非姓名映射）",
+      "url": "https://github.com/arc119226/qimen_dunjia",
+      "commit": "7d941031d685d818d9fd234edf891dba5bd6a323",
+      "license": "MIT",
+      "files": [
+        "data/raw/name-imagery-arc-palace-excerpts.json",
+        "data/raw/name-imagery-arc-LICENSE.txt"
+      ],
+      "note": "只采用固定宫元素和数组索引必要节录；Copyright (c) 2026 Arc，完整MIT；未采用上游姓名算法或断语。",
+      "sha256": "f5f510bafbab5348cf0aa0752df9fbbe99cf05a7555a1491f228f4b6f807f9f0",
+      "fileHashes": {
+        "data/raw/name-imagery-arc-LICENSE.txt": "755492b998c35531be98e6af2f8f0ec8ff11281568b3d3a319d43f246f998147",
+        "data/raw/name-imagery-arc-palace-excerpts.json": "60657fbb06309edc16257138789ca38af66b0332ee892c7d79e59fa04daa85a8"
+      }
+    }
+  ]
+}

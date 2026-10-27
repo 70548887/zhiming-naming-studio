@@ -1,0 +1,20 @@
+@media screen {
+  .current-session-label { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 14px; padding: 10px 0; margin-bottom: 3px; color: #5c6e54; font-size: 11px; overflow-wrap: anywhere; }
+  .current-session-label strong { font-size: 13px; color: #314e3b; }
+  .candidate-display-toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; margin: 0 0 14px; padding: 12px 14px; background: #fbfcf8; border: 1px solid #dce4d5; border-radius: 6px; }
+  .candidate-display-toolbar label { font-size: 12px; color: #4c6243; }
+  .candidate-display-toolbar select { width: auto; min-width: 160px; max-width: 100%; font-size: 12px; }
+  .candidate-display-toolbar p { flex-basis: 100%; font-size: 11px; line-height: 1.7; color: #63745a; }
+  .report-batch { font-size: 11px; color: #697b5d; margin: 0 0 12px; overflow-wrap: anywhere; }
+  .report-layout { grid-template-columns: minmax(300px, 370px) minmax(0, 1fr); }
+  .topbar-right { flex-wrap: wrap; }
+  .comparison-grid > article { min-width: 0; overflow-wrap: anywhere; }
+}
+@media screen and (max-width: 1200px) {
+  .report-layout { grid-template-columns: minmax(270px, 315px) minmax(0, 1fr); gap: 20px; }
+}
+@media screen and (max-width: 780px) {
+  .report-layout { grid-template-columns: minmax(0, 1fr); }
+  .candidate-display-toolbar { align-items: stretch; }
+  .candidate-display-toolbar select { flex: 1; min-width: 0; }
+}

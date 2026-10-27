@@ -1,0 +1,104 @@
+{
+  "provenance": {
+    "version": "ren13-parent-report-published127-freeze/1.0.0",
+    "sourceFixture": "tests/fixtures/ren-session-1.3-saved.json",
+    "sourceFixtureSha256": "9e9a39c08039f927faf231e28b9860434bcdc063a29c6d1f8202e61732cfa8f1",
+    "actualSavedRelease": "1.0.26",
+    "published127Asar": {
+      "path": ".local/yue-127-final-verified/installed-app/resources/app.asar",
+      "sha256": "42a3cdeead5821082558850b5938c92c532a5cf08e2f482796fd5a814ce58158",
+      "installerSha256": "c9e97364ac45f4b6368d4abcbb0b1badccdea11971dc36f396571b8d88df7c8f"
+    },
+    "originalEntry": "src/main/ditian-ren-report.ts",
+    "originalModules": [
+      {
+        "path": "src/main/ditian-ren-report.ts",
+        "sha256": "5e8195ef98e9a5aa2cf8b618dbd203c0860e4e808b75dfee13ad2113c2e689c1"
+      },
+      {
+        "path": "src/main/ren-actions-report.ts",
+        "sha256": "2f0e1d436825e0839f38ad726e326ba72c81ac938374beb4b0102b3264aa44e5"
+      },
+      {
+        "path": "src/main/ren-capacities-report.ts",
+        "sha256": "061509b4ca233d4ff8114fc6bbe82f31f9fc7451e32e5cb4e448f8e2c747a239"
+      },
+      {
+        "path": "src/shared/classic-display.ts",
+        "sha256": "1cc2d4b15f17ddf8e9f8f10e152bb95f9208684c87d76fc54bab9a5d42ad944b"
+      },
+      {
+        "path": "src/shared/ren-capacities-presentation.ts",
+        "sha256": "08552e520508703b718a31b9e028c6fe3cb072ca4d374b32aa4cdfc2e7b7036e"
+      },
+      {
+        "path": "src/shared/ren-presentation.ts",
+        "sha256": "59d2b5105a3e7aeb94b3b48104fe0cd9bb12eeedd2bbdc3be5a73bda56e70fd7"
+      }
+    ],
+    "compiledModuleSha256": "d05e2895377586b11cbb43b9165d5e0bc2ceebeabf6b5fafd7932fc7aa2c5f99",
+    "scope": "Only the parent ditianRenReport component and its original published dependencies. Input is six actual saved1.3 current/history records. No new evaluator or current report module used for expected HTML; no whole-PDF freeze claim."
+  },
+  "records": [
+    {
+      "key": "sessions-known-da9301a8-795e-4398-af0b-d9128e7b7176",
+      "table": "sessions",
+      "rowId": "da9301a8-795e-4398-af0b-d9128e7b7176",
+      "sessionJsonSha256": "267456e4eb3dc0d3761c6820538adebc1f42f03c6cc02d7b5ff1e4cfdf885269",
+      "analysisJsonSha256": "92c9ec28050172d5461688f35108d5ee4ce1a4dfd464688f39be5caa5ebfdb1f",
+      "renJsonSha256": "0a65ca1ee380e5bac782abf5f552a2ded98f1e979e26969eabffef8c08205fd5",
+      "htmlBytes": 153419,
+      "htmlSha256": "c1afa7ab321c3e0657ec7f80dfb3ea1d353ec89f48808814110848244ebd6b30"
+    },
+    {
+      "key": "sessions-outside-ed65243f-c127-4eb1-96e7-826a5863f7df",
+      "table": "sessions",
+      "rowId": "ed65243f-c127-4eb1-96e7-826a5863f7df",
+      "sessionJsonSha256": "c1566ecce4d7371a21784785e427297b7478acdfc3f63d7c79b2de10efe315af",
+      "analysisJsonSha256": "a5e73f9a1902d0a75b62da8c6ce60c9b2a3a8f5a54c5476131d5056bbf393791",
+      "renJsonSha256": "f43c395745de52a7e4c5a9513ef0c812898a2dbeb7aa6aa56f1e5e360ad28d63",
+      "htmlBytes": 156893,
+      "htmlSha256": "3e3d7b7f1f54a30d56804821923af0a428b106e9974d9f9b870d70f21710bc18"
+    },
+    {
+      "key": "sessions-unknown-980ce83e-8252-43d4-a383-843024520aae",
+      "table": "sessions",
+      "rowId": "980ce83e-8252-43d4-a383-843024520aae",
+      "sessionJsonSha256": "a6418025a4f6c23e394be085a3818c61c2ab8719173240825f63feb5bd1d8690",
+      "analysisJsonSha256": "0ede7ba3648dcc758c36d44d93ed6278556b273b2190907a8304a2adb25a5698",
+      "renJsonSha256": "6754d0ccae002df297818bf139318a13ecc53dc94dc676bed14da920f37a90bc",
+      "htmlBytes": 125265,
+      "htmlSha256": "5aa88e6a5350236e4599f674828664f2cc9dd1708bf0cb3946180009c487fd78"
+    },
+    {
+      "key": "revisions-known-1",
+      "table": "revisions",
+      "rowId": "1",
+      "sessionJsonSha256": "e1179e2feada00709857069bb8e3ad4f3b42c94b7dd1b3003d6d215266e5ffb7",
+      "analysisJsonSha256": "92c9ec28050172d5461688f35108d5ee4ce1a4dfd464688f39be5caa5ebfdb1f",
+      "renJsonSha256": "0a65ca1ee380e5bac782abf5f552a2ded98f1e979e26969eabffef8c08205fd5",
+      "htmlBytes": 153419,
+      "htmlSha256": "c1afa7ab321c3e0657ec7f80dfb3ea1d353ec89f48808814110848244ebd6b30"
+    },
+    {
+      "key": "revisions-outside-3",
+      "table": "revisions",
+      "rowId": "3",
+      "sessionJsonSha256": "d5534fe79a540592c610cadfec8a8c102f0ae625ca77c9626c4ad54786f16a22",
+      "analysisJsonSha256": "a5e73f9a1902d0a75b62da8c6ce60c9b2a3a8f5a54c5476131d5056bbf393791",
+      "renJsonSha256": "f43c395745de52a7e4c5a9513ef0c812898a2dbeb7aa6aa56f1e5e360ad28d63",
+      "htmlBytes": 156893,
+      "htmlSha256": "3e3d7b7f1f54a30d56804821923af0a428b106e9974d9f9b870d70f21710bc18"
+    },
+    {
+      "key": "revisions-unknown-4",
+      "table": "revisions",
+      "rowId": "4",
+      "sessionJsonSha256": "1c172898f8ec4ccdc715221a764c01ff7df4a429dae283a17d98e95a25207cc4",
+      "analysisJsonSha256": "0ede7ba3648dcc758c36d44d93ed6278556b273b2190907a8304a2adb25a5698",
+      "renJsonSha256": "6754d0ccae002df297818bf139318a13ecc53dc94dc676bed14da920f37a90bc",
+      "htmlBytes": 125265,
+      "htmlSha256": "5aa88e6a5350236e4599f674828664f2cc9dd1708bf0cb3946180009c487fd78"
+    }
+  ]
+}

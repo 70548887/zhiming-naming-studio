@@ -1,0 +1,5406 @@
+{
+  "version": "qimen-go-explicit-stem-tombs/1.0.0",
+  "method": "literal-Go-source-table plus already independently archived external1080platearrays; no production engine import",
+  "externalPlateFile": "tests/fixtures/qimen-patterns-examples.json",
+  "externalPlateSha256": "06d587ec94a8d1fa177e463ed3532e12772c7f7e92efd5b80b0c9d0c46adec0e",
+  "tableChecks": [
+    {
+      "id": "甲-positive-0",
+      "stem": "甲",
+      "palace": 2,
+      "expected": true,
+      "scope": "literal-table-only;甲不表示真实盘可观测"
+    },
+    {
+      "id": "甲-negative-0",
+      "stem": "甲",
+      "palace": 1,
+      "expected": false,
+      "scope": "literal-table-only"
+    },
+    {
+      "id": "甲-positive-1",
+      "stem": "甲",
+      "palace": 2,
+      "expected": true,
+      "scope": "literal-table-only;甲不表示真实盘可观测"
+    },
+    {
+      "id": "甲-negative-1",
+      "stem": "甲",
+      "palace": 3,
+      "expected": false,
+      "scope": "literal-table-only"
+    },
+    {
+      "id": "甲-positive-2",
+      "stem": "甲",
+      "palace": 2,
+      "expected": true,
+      "scope": "literal-table-only;甲不表示真实盘可观测"
+    },
+    {
+      "id": "甲-negative-2",
+      "stem": "甲",
+      "palace": 7,
+      "expected": false,
+      "scope": "literal-table-only"
+    },
+    {
+      "id": "乙-positive-0",
+      "stem": "乙",
+      "palace": 6,
+      "expected": true,
+      "scope": "literal-table-only;甲不表示真实盘可观测"
+    },
+    {
+      "id": "乙-negative-0",
+      "stem": "乙",
+      "palace": 1,
+      "expected": false,
+      "scope": "literal-table-only"
+    },
+    {
+      "id": "乙-positive-1",
+      "stem": "乙",
+      "palace": 6,
+      "expected": true,
+      "scope": "literal-table-only;甲不表示真实盘可观测"
+    },
+    {
+      "id": "乙-negative-1",
+      "stem": "乙",
+      "palace": 3,
+      "expected": false,
+      "scope": "literal-table-only"
+    },
+    {
+      "id": "乙-positive-2",
+      "stem": "乙",
+      "palace": 6,
+      "expected": true,
+      "scope": "literal-table-only;甲不表示真实盘可观测"
+    },
+    {
+      "id": "乙-negative-2",
+      "stem": "乙",
+      "palace": 7,
+      "expected": false,
+      "scope": "literal-table-only"
+    },
+    {
+      "id": "丙-positive-0",
+      "stem": "丙",
+      "palace": 6,
+      "expected": true,
+      "scope": "literal-table-only;甲不表示真实盘可观测"
+    },
+    {
+      "id": "丙-negative-0",
+      "stem": "丙",
+      "palace": 1,
+      "expected": false,
+      "scope": "literal-table-only"
+    },
+    {
+      "id": "丙-positive-1",
+      "stem": "丙",
+      "palace": 6,
+      "expected": true,
+      "scope": "literal-table-only;甲不表示真实盘可观测"
+    },
+    {
+      "id": "丙-negative-1",
+      "stem": "丙",
+      "palace": 3,
+      "expected": false,
+      "scope": "literal-table-only"
+    },
+    {
+      "id": "丙-positive-2",
+      "stem": "丙",
+      "palace": 6,
+      "expected": true,
+      "scope": "literal-table-only;甲不表示真实盘可观测"
+    },
+    {
+      "id": "丙-negative-2",
+      "stem": "丙",
+      "palace": 7,
+      "expected": false,
+      "scope": "literal-table-only"
+    },
+    {
+      "id": "丁-positive-0",
+      "stem": "丁",
+      "palace": 8,
+      "expected": true,
+      "scope": "literal-table-only;甲不表示真实盘可观测"
+    },
+    {
+      "id": "丁-negative-0",
+      "stem": "丁",
+      "palace": 1,
+      "expected": false,
+      "scope": "literal-table-only"
+    },
+    {
+      "id": "丁-positive-1",
+      "stem": "丁",
+      "palace": 8,
+      "expected": true,
+      "scope": "literal-table-only;甲不表示真实盘可观测"
+    },
+    {
+      "id": "丁-negative-1",
+      "stem": "丁",
+      "palace": 3,
+      "expected": false,
+      "scope": "literal-table-only"
+    },
+    {
+      "id": "丁-positive-2",
+      "stem": "丁",
+      "palace": 8,
+      "expected": true,
+      "scope": "literal-table-only;甲不表示真实盘可观测"
+    },
+    {
+      "id": "丁-negative-2",
+      "stem": "丁",
+      "palace": 7,
+      "expected": false,
+      "scope": "literal-table-only"
+    },
+    {
+      "id": "戊-positive-0",
+      "stem": "戊",
+      "palace": 6,
+      "expected": true,
+      "scope": "literal-table-only;甲不表示真实盘可观测"
+    },
+    {
+      "id": "戊-negative-0",
+      "stem": "戊",
+      "palace": 1,
+      "expected": false,
+      "scope": "literal-table-only"
+    },
+    {
+      "id": "戊-positive-1",
+      "stem": "戊",
+      "palace": 6,
+      "expected": true,
+      "scope": "literal-table-only;甲不表示真实盘可观测"
+    },
+    {
+      "id": "戊-negative-1",
+      "stem": "戊",
+      "palace": 3,
+      "expected": false,
+      "scope": "literal-table-only"
+    },
+    {
+      "id": "戊-positive-2",
+      "stem": "戊",
+      "palace": 6,
+      "expected": true,
+      "scope": "literal-table-only;甲不表示真实盘可观测"
+    },
+    {
+      "id": "戊-negative-2",
+      "stem": "戊",
+      "palace": 7,
+      "expected": false,
+      "scope": "literal-table-only"
+    },
+    {
+      "id": "己-positive-0",
+      "stem": "己",
+      "palace": 8,
+      "expected": true,
+      "scope": "literal-table-only;甲不表示真实盘可观测"
+    },
+    {
+      "id": "己-negative-0",
+      "stem": "己",
+      "palace": 1,
+      "expected": false,
+      "scope": "literal-table-only"
+    },
+    {
+      "id": "己-positive-1",
+      "stem": "己",
+      "palace": 8,
+      "expected": true,
+      "scope": "literal-table-only;甲不表示真实盘可观测"
+    },
+    {
+      "id": "己-negative-1",
+      "stem": "己",
+      "palace": 3,
+      "expected": false,
+      "scope": "literal-table-only"
+    },
+    {
+      "id": "己-positive-2",
+      "stem": "己",
+      "palace": 8,
+      "expected": true,
+      "scope": "literal-table-only;甲不表示真实盘可观测"
+    },
+    {
+      "id": "己-negative-2",
+      "stem": "己",
+      "palace": 7,
+      "expected": false,
+      "scope": "literal-table-only"
+    },
+    {
+      "id": "庚-positive-0",
+      "stem": "庚",
+      "palace": 8,
+      "expected": true,
+      "scope": "literal-table-only;甲不表示真实盘可观测"
+    },
+    {
+      "id": "庚-negative-0",
+      "stem": "庚",
+      "palace": 1,
+      "expected": false,
+      "scope": "literal-table-only"
+    },
+    {
+      "id": "庚-positive-1",
+      "stem": "庚",
+      "palace": 8,
+      "expected": true,
+      "scope": "literal-table-only;甲不表示真实盘可观测"
+    },
+    {
+      "id": "庚-negative-1",
+      "stem": "庚",
+      "palace": 3,
+      "expected": false,
+      "scope": "literal-table-only"
+    },
+    {
+      "id": "庚-positive-2",
+      "stem": "庚",
+      "palace": 8,
+      "expected": true,
+      "scope": "literal-table-only;甲不表示真实盘可观测"
+    },
+    {
+      "id": "庚-negative-2",
+      "stem": "庚",
+      "palace": 7,
+      "expected": false,
+      "scope": "literal-table-only"
+    },
+    {
+      "id": "辛-positive-0",
+      "stem": "辛",
+      "palace": 4,
+      "expected": true,
+      "scope": "literal-table-only;甲不表示真实盘可观测"
+    },
+    {
+      "id": "辛-negative-0",
+      "stem": "辛",
+      "palace": 1,
+      "expected": false,
+      "scope": "literal-table-only"
+    },
+    {
+      "id": "辛-positive-1",
+      "stem": "辛",
+      "palace": 4,
+      "expected": true,
+      "scope": "literal-table-only;甲不表示真实盘可观测"
+    },
+    {
+      "id": "辛-negative-1",
+      "stem": "辛",
+      "palace": 3,
+      "expected": false,
+      "scope": "literal-table-only"
+    },
+    {
+      "id": "辛-positive-2",
+      "stem": "辛",
+      "palace": 4,
+      "expected": true,
+      "scope": "literal-table-only;甲不表示真实盘可观测"
+    },
+    {
+      "id": "辛-negative-2",
+      "stem": "辛",
+      "palace": 7,
+      "expected": false,
+      "scope": "literal-table-only"
+    },
+    {
+      "id": "壬-positive-0",
+      "stem": "壬",
+      "palace": 4,
+      "expected": true,
+      "scope": "literal-table-only;甲不表示真实盘可观测"
+    },
+    {
+      "id": "壬-negative-0",
+      "stem": "壬",
+      "palace": 1,
+      "expected": false,
+      "scope": "literal-table-only"
+    },
+    {
+      "id": "壬-positive-1",
+      "stem": "壬",
+      "palace": 4,
+      "expected": true,
+      "scope": "literal-table-only;甲不表示真实盘可观测"
+    },
+    {
+      "id": "壬-negative-1",
+      "stem": "壬",
+      "palace": 3,
+      "expected": false,
+      "scope": "literal-table-only"
+    },
+    {
+      "id": "壬-positive-2",
+      "stem": "壬",
+      "palace": 4,
+      "expected": true,
+      "scope": "literal-table-only;甲不表示真实盘可观测"
+    },
+    {
+      "id": "壬-negative-2",
+      "stem": "壬",
+      "palace": 7,
+      "expected": false,
+      "scope": "literal-table-only"
+    },
+    {
+      "id": "癸-positive-0",
+      "stem": "癸",
+      "palace": 2,
+      "expected": true,
+      "scope": "literal-table-only;甲不表示真实盘可观测"
+    },
+    {
+      "id": "癸-negative-0",
+      "stem": "癸",
+      "palace": 1,
+      "expected": false,
+      "scope": "literal-table-only"
+    },
+    {
+      "id": "癸-positive-1",
+      "stem": "癸",
+      "palace": 2,
+      "expected": true,
+      "scope": "literal-table-only;甲不表示真实盘可观测"
+    },
+    {
+      "id": "癸-negative-1",
+      "stem": "癸",
+      "palace": 3,
+      "expected": false,
+      "scope": "literal-table-only"
+    },
+    {
+      "id": "癸-positive-2",
+      "stem": "癸",
+      "palace": 2,
+      "expected": true,
+      "scope": "literal-table-only;甲不表示真实盘可观测"
+    },
+    {
+      "id": "癸-negative-2",
+      "stem": "癸",
+      "palace": 7,
+      "expected": false,
+      "scope": "literal-table-only"
+    }
+  ],
+  "coverage": {
+    "乙": {
+      "matched": 134,
+      "notMatched": 946
+    },
+    "丙": {
+      "matched": 136,
+      "notMatched": 944
+    },
+    "丁": {
+      "matched": 136,
+      "notMatched": 944
+    },
+    "戊": {
+      "matched": 132,
+      "notMatched": 948
+    },
+    "己": {
+      "matched": 132,
+      "notMatched": 948
+    },
+    "庚": {
+      "matched": 132,
+      "notMatched": 948
+    },
+    "辛": {
+      "matched": 134,
+      "notMatched": 946
+    },
+    "壬": {
+      "matched": 132,
+      "notMatched": 948
+    },
+    "癸": {
+      "matched": 152,
+      "notMatched": 928
+    }
+  },
+  "plateCases": [
+    {
+      "id": "yang-1-辛未",
+      "input": {
+        "dayGanzhi": "甲子",
+        "hourGanzhi": "辛未",
+        "solarTerm": "冬至"
+      },
+      "suppliedJu": {
+        "yang": true,
+        "ju": 1,
+        "yuan": 0
+      },
+      "palaces": [
+        {
+          "number": 4,
+          "earth": "辛",
+          "heaven": "戊",
+          "star": "天蓬",
+          "door": "伤门"
+        },
+        {
+          "number": 9,
+          "earth": "乙",
+          "heaven": "丙",
+          "star": "天任",
+          "door": "杜门"
+        },
+        {
+          "number": 2,
+          "earth": "己",
+          "heaven": "庚",
+          "star": "天冲",
+          "door": "景门"
+        },
+        {
+          "number": 3,
+          "earth": "庚",
+          "heaven": "癸",
+          "star": "天心",
+          "door": "生门"
+        },
+        {
+          "number": 5,
+          "earth": "壬",
+          "heaven": "",
+          "star": "",
+          "door": ""
+        },
+        {
+          "number": 7,
+          "earth": "丁",
+          "heaven": "辛",
+          "star": "天辅",
+          "door": "死门"
+        },
+        {
+          "number": 8,
+          "earth": "丙",
+          "heaven": "丁",
+          "star": "天柱",
+          "door": "休门"
+        },
+        {
+          "number": 1,
+          "earth": "戊",
+          "heaven": "己（寄壬）",
+          "star": "天芮、天禽",
+          "door": "开门"
+        },
+        {
+          "number": 6,
+          "earth": "癸",
+          "heaven": "乙",
+          "star": "天英",
+          "door": "惊门"
+        }
+      ],
+      "checks": [
+        {
+          "stem": "甲",
+          "status": "not-directly-observed",
+          "targetBranch": "未",
+          "targetPalace": 2
+        },
+        {
+          "stem": "乙",
+          "status": "matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 6,
+          "lodged": false
+        },
+        {
+          "stem": "丙",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 9,
+          "lodged": false
+        },
+        {
+          "stem": "丁",
+          "status": "matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 8,
+          "lodged": false
+        },
+        {
+          "stem": "戊",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 4,
+          "lodged": false
+        },
+        {
+          "stem": "己",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 1,
+          "lodged": false
+        },
+        {
+          "stem": "庚",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 2,
+          "lodged": false
+        },
+        {
+          "stem": "辛",
+          "status": "not-matched",
+          "targetBranch": "辰",
+          "targetPalace": 4,
+          "actualPalace": 7,
+          "lodged": false
+        },
+        {
+          "stem": "壬",
+          "status": "not-matched",
+          "targetBranch": "辰",
+          "targetPalace": 4,
+          "actualPalace": 1,
+          "lodged": true
+        },
+        {
+          "stem": "癸",
+          "status": "not-matched",
+          "targetBranch": "未",
+          "targetPalace": 2,
+          "actualPalace": 3,
+          "lodged": false
+        }
+      ],
+      "tags": [
+        "yang",
+        "supplied-ju",
+        "center-hosted"
+      ],
+      "evidence": "External fixed Arc plate array retained from existing1080collection; only new墓表lookup derived from literal fixedGo QMTomb/ZhiGong9. No application function called."
+    },
+    {
+      "id": "yang-1-戊寅",
+      "input": {
+        "dayGanzhi": "甲子",
+        "hourGanzhi": "戊寅",
+        "solarTerm": "冬至"
+      },
+      "suppliedJu": {
+        "yang": true,
+        "ju": 1,
+        "yuan": 0
+      },
+      "palaces": [
+        {
+          "number": 4,
+          "earth": "辛",
+          "heaven": "戊",
+          "star": "天蓬",
+          "door": "生门"
+        },
+        {
+          "number": 9,
+          "earth": "乙",
+          "heaven": "丙",
+          "star": "天任",
+          "door": "伤门"
+        },
+        {
+          "number": 2,
+          "earth": "己",
+          "heaven": "庚",
+          "star": "天冲",
+          "door": "杜门"
+        },
+        {
+          "number": 3,
+          "earth": "庚",
+          "heaven": "癸",
+          "star": "天心",
+          "door": "休门"
+        },
+        {
+          "number": 5,
+          "earth": "壬",
+          "heaven": "",
+          "star": "",
+          "door": ""
+        },
+        {
+          "number": 7,
+          "earth": "丁",
+          "heaven": "辛",
+          "star": "天辅",
+          "door": "景门"
+        },
+        {
+          "number": 8,
+          "earth": "丙",
+          "heaven": "丁",
+          "star": "天柱",
+          "door": "开门"
+        },
+        {
+          "number": 1,
+          "earth": "戊",
+          "heaven": "己（寄壬）",
+          "star": "天芮、天禽",
+          "door": "惊门"
+        },
+        {
+          "number": 6,
+          "earth": "癸",
+          "heaven": "乙",
+          "star": "天英",
+          "door": "死门"
+        }
+      ],
+      "checks": [
+        {
+          "stem": "甲",
+          "status": "not-directly-observed",
+          "targetBranch": "未",
+          "targetPalace": 2
+        },
+        {
+          "stem": "乙",
+          "status": "matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 6,
+          "lodged": false
+        },
+        {
+          "stem": "丙",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 9,
+          "lodged": false
+        },
+        {
+          "stem": "丁",
+          "status": "matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 8,
+          "lodged": false
+        },
+        {
+          "stem": "戊",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 4,
+          "lodged": false
+        },
+        {
+          "stem": "己",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 1,
+          "lodged": false
+        },
+        {
+          "stem": "庚",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 2,
+          "lodged": false
+        },
+        {
+          "stem": "辛",
+          "status": "not-matched",
+          "targetBranch": "辰",
+          "targetPalace": 4,
+          "actualPalace": 7,
+          "lodged": false
+        },
+        {
+          "stem": "壬",
+          "status": "not-matched",
+          "targetBranch": "辰",
+          "targetPalace": 4,
+          "actualPalace": 1,
+          "lodged": true
+        },
+        {
+          "stem": "癸",
+          "status": "not-matched",
+          "targetBranch": "未",
+          "targetPalace": 2,
+          "actualPalace": 3,
+          "lodged": false
+        }
+      ],
+      "tags": [
+        "yang",
+        "supplied-ju",
+        "center-hosted"
+      ],
+      "evidence": "External fixed Arc plate array retained from existing1080collection; only new墓表lookup derived from literal fixedGo QMTomb/ZhiGong9. No application function called."
+    },
+    {
+      "id": "yang-1-己丑",
+      "input": {
+        "dayGanzhi": "甲子",
+        "hourGanzhi": "己丑",
+        "solarTerm": "冬至"
+      },
+      "suppliedJu": {
+        "yang": true,
+        "ju": 1,
+        "yuan": 0
+      },
+      "palaces": [
+        {
+          "number": 4,
+          "earth": "辛",
+          "heaven": "戊",
+          "star": "天蓬",
+          "door": "景门"
+        },
+        {
+          "number": 9,
+          "earth": "乙",
+          "heaven": "丙",
+          "star": "天任",
+          "door": "死门"
+        },
+        {
+          "number": 2,
+          "earth": "己",
+          "heaven": "庚",
+          "star": "天冲",
+          "door": "惊门"
+        },
+        {
+          "number": 3,
+          "earth": "庚",
+          "heaven": "癸",
+          "star": "天心",
+          "door": "杜门"
+        },
+        {
+          "number": 5,
+          "earth": "壬",
+          "heaven": "",
+          "star": "",
+          "door": ""
+        },
+        {
+          "number": 7,
+          "earth": "丁",
+          "heaven": "辛",
+          "star": "天辅",
+          "door": "开门"
+        },
+        {
+          "number": 8,
+          "earth": "丙",
+          "heaven": "丁",
+          "star": "天柱",
+          "door": "伤门"
+        },
+        {
+          "number": 1,
+          "earth": "戊",
+          "heaven": "己（寄壬）",
+          "star": "天芮、天禽",
+          "door": "生门"
+        },
+        {
+          "number": 6,
+          "earth": "癸",
+          "heaven": "乙",
+          "star": "天英",
+          "door": "休门"
+        }
+      ],
+      "checks": [
+        {
+          "stem": "甲",
+          "status": "not-directly-observed",
+          "targetBranch": "未",
+          "targetPalace": 2
+        },
+        {
+          "stem": "乙",
+          "status": "matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 6,
+          "lodged": false
+        },
+        {
+          "stem": "丙",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 9,
+          "lodged": false
+        },
+        {
+          "stem": "丁",
+          "status": "matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 8,
+          "lodged": false
+        },
+        {
+          "stem": "戊",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 4,
+          "lodged": false
+        },
+        {
+          "stem": "己",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 1,
+          "lodged": false
+        },
+        {
+          "stem": "庚",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 2,
+          "lodged": false
+        },
+        {
+          "stem": "辛",
+          "status": "not-matched",
+          "targetBranch": "辰",
+          "targetPalace": 4,
+          "actualPalace": 7,
+          "lodged": false
+        },
+        {
+          "stem": "壬",
+          "status": "not-matched",
+          "targetBranch": "辰",
+          "targetPalace": 4,
+          "actualPalace": 1,
+          "lodged": true
+        },
+        {
+          "stem": "癸",
+          "status": "not-matched",
+          "targetBranch": "未",
+          "targetPalace": 2,
+          "actualPalace": 3,
+          "lodged": false
+        }
+      ],
+      "tags": [
+        "yang",
+        "supplied-ju",
+        "center-hosted"
+      ],
+      "evidence": "External fixed Arc plate array retained from existing1080collection; only new墓表lookup derived from literal fixedGo QMTomb/ZhiGong9. No application function called."
+    },
+    {
+      "id": "yang-1-甲子",
+      "input": {
+        "dayGanzhi": "甲子",
+        "hourGanzhi": "甲子",
+        "solarTerm": "冬至"
+      },
+      "suppliedJu": {
+        "yang": true,
+        "ju": 1,
+        "yuan": 0
+      },
+      "palaces": [
+        {
+          "number": 4,
+          "earth": "辛",
+          "heaven": "辛",
+          "star": "天辅",
+          "door": "杜门"
+        },
+        {
+          "number": 9,
+          "earth": "乙",
+          "heaven": "乙",
+          "star": "天英",
+          "door": "景门"
+        },
+        {
+          "number": 2,
+          "earth": "己",
+          "heaven": "己（寄壬）",
+          "star": "天芮、天禽",
+          "door": "死门"
+        },
+        {
+          "number": 3,
+          "earth": "庚",
+          "heaven": "庚",
+          "star": "天冲",
+          "door": "伤门"
+        },
+        {
+          "number": 5,
+          "earth": "壬",
+          "heaven": "",
+          "star": "",
+          "door": ""
+        },
+        {
+          "number": 7,
+          "earth": "丁",
+          "heaven": "丁",
+          "star": "天柱",
+          "door": "惊门"
+        },
+        {
+          "number": 8,
+          "earth": "丙",
+          "heaven": "丙",
+          "star": "天任",
+          "door": "生门"
+        },
+        {
+          "number": 1,
+          "earth": "戊",
+          "heaven": "戊",
+          "star": "天蓬",
+          "door": "休门"
+        },
+        {
+          "number": 6,
+          "earth": "癸",
+          "heaven": "癸",
+          "star": "天心",
+          "door": "开门"
+        }
+      ],
+      "checks": [
+        {
+          "stem": "甲",
+          "status": "not-directly-observed",
+          "targetBranch": "未",
+          "targetPalace": 2
+        },
+        {
+          "stem": "乙",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 9,
+          "lodged": false
+        },
+        {
+          "stem": "丙",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 8,
+          "lodged": false
+        },
+        {
+          "stem": "丁",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 7,
+          "lodged": false
+        },
+        {
+          "stem": "戊",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 1,
+          "lodged": false
+        },
+        {
+          "stem": "己",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 2,
+          "lodged": false
+        },
+        {
+          "stem": "庚",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 3,
+          "lodged": false
+        },
+        {
+          "stem": "辛",
+          "status": "matched",
+          "targetBranch": "辰",
+          "targetPalace": 4,
+          "actualPalace": 4,
+          "lodged": false
+        },
+        {
+          "stem": "壬",
+          "status": "not-matched",
+          "targetBranch": "辰",
+          "targetPalace": 4,
+          "actualPalace": 2,
+          "lodged": true
+        },
+        {
+          "stem": "癸",
+          "status": "not-matched",
+          "targetBranch": "未",
+          "targetPalace": 2,
+          "actualPalace": 6,
+          "lodged": false
+        }
+      ],
+      "tags": [
+        "yang",
+        "supplied-ju",
+        "center-hosted"
+      ],
+      "evidence": "External fixed Arc plate array retained from existing1080collection; only new墓表lookup derived from literal fixedGo QMTomb/ZhiGong9. No application function called."
+    },
+    {
+      "id": "yang-1-乙丑",
+      "input": {
+        "dayGanzhi": "甲子",
+        "hourGanzhi": "乙丑",
+        "solarTerm": "冬至"
+      },
+      "suppliedJu": {
+        "yang": true,
+        "ju": 1,
+        "yuan": 0
+      },
+      "palaces": [
+        {
+          "number": 4,
+          "earth": "辛",
+          "heaven": "癸",
+          "star": "天心",
+          "door": "惊门"
+        },
+        {
+          "number": 9,
+          "earth": "乙",
+          "heaven": "戊",
+          "star": "天蓬",
+          "door": "开门"
+        },
+        {
+          "number": 2,
+          "earth": "己",
+          "heaven": "丙",
+          "star": "天任",
+          "door": "休门"
+        },
+        {
+          "number": 3,
+          "earth": "庚",
+          "heaven": "丁",
+          "star": "天柱",
+          "door": "死门"
+        },
+        {
+          "number": 5,
+          "earth": "壬",
+          "heaven": "",
+          "star": "",
+          "door": ""
+        },
+        {
+          "number": 7,
+          "earth": "丁",
+          "heaven": "庚",
+          "star": "天冲",
+          "door": "生门"
+        },
+        {
+          "number": 8,
+          "earth": "丙",
+          "heaven": "己（寄壬）",
+          "star": "天芮、天禽",
+          "door": "景门"
+        },
+        {
+          "number": 1,
+          "earth": "戊",
+          "heaven": "乙",
+          "star": "天英",
+          "door": "杜门"
+        },
+        {
+          "number": 6,
+          "earth": "癸",
+          "heaven": "辛",
+          "star": "天辅",
+          "door": "伤门"
+        }
+      ],
+      "checks": [
+        {
+          "stem": "甲",
+          "status": "not-directly-observed",
+          "targetBranch": "未",
+          "targetPalace": 2
+        },
+        {
+          "stem": "乙",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 1,
+          "lodged": false
+        },
+        {
+          "stem": "丙",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 2,
+          "lodged": false
+        },
+        {
+          "stem": "丁",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 3,
+          "lodged": false
+        },
+        {
+          "stem": "戊",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 9,
+          "lodged": false
+        },
+        {
+          "stem": "己",
+          "status": "matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 8,
+          "lodged": false
+        },
+        {
+          "stem": "庚",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 7,
+          "lodged": false
+        },
+        {
+          "stem": "辛",
+          "status": "not-matched",
+          "targetBranch": "辰",
+          "targetPalace": 4,
+          "actualPalace": 6,
+          "lodged": false
+        },
+        {
+          "stem": "壬",
+          "status": "not-matched",
+          "targetBranch": "辰",
+          "targetPalace": 4,
+          "actualPalace": 8,
+          "lodged": true
+        },
+        {
+          "stem": "癸",
+          "status": "not-matched",
+          "targetBranch": "未",
+          "targetPalace": 2,
+          "actualPalace": 4,
+          "lodged": false
+        }
+      ],
+      "tags": [
+        "yang",
+        "supplied-ju",
+        "center-hosted",
+        "colocated-patterns"
+      ],
+      "evidence": "External fixed Arc plate array retained from existing1080collection; only new墓表lookup derived from literal fixedGo QMTomb/ZhiGong9. No application function called."
+    },
+    {
+      "id": "yang-1-丙寅",
+      "input": {
+        "dayGanzhi": "甲子",
+        "hourGanzhi": "丙寅",
+        "solarTerm": "冬至"
+      },
+      "suppliedJu": {
+        "yang": true,
+        "ju": 1,
+        "yuan": 0
+      },
+      "palaces": [
+        {
+          "number": 4,
+          "earth": "辛",
+          "heaven": "庚",
+          "star": "天冲",
+          "door": "生门"
+        },
+        {
+          "number": 9,
+          "earth": "乙",
+          "heaven": "辛",
+          "star": "天辅",
+          "door": "伤门"
+        },
+        {
+          "number": 2,
+          "earth": "己",
+          "heaven": "乙",
+          "star": "天英",
+          "door": "杜门"
+        },
+        {
+          "number": 3,
+          "earth": "庚",
+          "heaven": "丙",
+          "star": "天任",
+          "door": "休门"
+        },
+        {
+          "number": 5,
+          "earth": "壬",
+          "heaven": "",
+          "star": "",
+          "door": ""
+        },
+        {
+          "number": 7,
+          "earth": "丁",
+          "heaven": "己（寄壬）",
+          "star": "天芮、天禽",
+          "door": "景门"
+        },
+        {
+          "number": 8,
+          "earth": "丙",
+          "heaven": "戊",
+          "star": "天蓬",
+          "door": "开门"
+        },
+        {
+          "number": 1,
+          "earth": "戊",
+          "heaven": "癸",
+          "star": "天心",
+          "door": "惊门"
+        },
+        {
+          "number": 6,
+          "earth": "癸",
+          "heaven": "丁",
+          "star": "天柱",
+          "door": "死门"
+        }
+      ],
+      "checks": [
+        {
+          "stem": "甲",
+          "status": "not-directly-observed",
+          "targetBranch": "未",
+          "targetPalace": 2
+        },
+        {
+          "stem": "乙",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 2,
+          "lodged": false
+        },
+        {
+          "stem": "丙",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 3,
+          "lodged": false
+        },
+        {
+          "stem": "丁",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 6,
+          "lodged": false
+        },
+        {
+          "stem": "戊",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 8,
+          "lodged": false
+        },
+        {
+          "stem": "己",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 7,
+          "lodged": false
+        },
+        {
+          "stem": "庚",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 4,
+          "lodged": false
+        },
+        {
+          "stem": "辛",
+          "status": "not-matched",
+          "targetBranch": "辰",
+          "targetPalace": 4,
+          "actualPalace": 9,
+          "lodged": false
+        },
+        {
+          "stem": "壬",
+          "status": "not-matched",
+          "targetBranch": "辰",
+          "targetPalace": 4,
+          "actualPalace": 7,
+          "lodged": true
+        },
+        {
+          "stem": "癸",
+          "status": "not-matched",
+          "targetBranch": "未",
+          "targetPalace": 2,
+          "actualPalace": 1,
+          "lodged": false
+        }
+      ],
+      "tags": [
+        "yang",
+        "supplied-ju",
+        "center-hosted"
+      ],
+      "evidence": "External fixed Arc plate array retained from existing1080collection; only new墓表lookup derived from literal fixedGo QMTomb/ZhiGong9. No application function called."
+    },
+    {
+      "id": "yang-6-庚午",
+      "input": {
+        "dayGanzhi": "甲戌",
+        "hourGanzhi": "庚午",
+        "solarTerm": "大寒"
+      },
+      "suppliedJu": {
+        "yang": true,
+        "ju": 6,
+        "yuan": 2
+      },
+      "palaces": [
+        {
+          "number": 4,
+          "earth": "丙",
+          "heaven": "庚",
+          "star": "天任",
+          "door": "休门"
+        },
+        {
+          "number": 9,
+          "earth": "辛",
+          "heaven": "丁",
+          "star": "天冲",
+          "door": "生门"
+        },
+        {
+          "number": 2,
+          "earth": "癸",
+          "heaven": "丙",
+          "star": "天辅",
+          "door": "伤门"
+        },
+        {
+          "number": 3,
+          "earth": "丁",
+          "heaven": "壬",
+          "star": "天蓬",
+          "door": "开门"
+        },
+        {
+          "number": 5,
+          "earth": "乙",
+          "heaven": "",
+          "star": "",
+          "door": ""
+        },
+        {
+          "number": 7,
+          "earth": "己",
+          "heaven": "辛",
+          "star": "天英",
+          "door": "杜门"
+        },
+        {
+          "number": 8,
+          "earth": "庚",
+          "heaven": "戊",
+          "star": "天心",
+          "door": "惊门"
+        },
+        {
+          "number": 1,
+          "earth": "壬",
+          "heaven": "己",
+          "star": "天柱",
+          "door": "死门"
+        },
+        {
+          "number": 6,
+          "earth": "戊",
+          "heaven": "癸（寄乙）",
+          "star": "天芮、天禽",
+          "door": "景门"
+        }
+      ],
+      "checks": [
+        {
+          "stem": "甲",
+          "status": "not-directly-observed",
+          "targetBranch": "未",
+          "targetPalace": 2
+        },
+        {
+          "stem": "乙",
+          "status": "matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 6,
+          "lodged": true
+        },
+        {
+          "stem": "丙",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 2,
+          "lodged": false
+        },
+        {
+          "stem": "丁",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 9,
+          "lodged": false
+        },
+        {
+          "stem": "戊",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 8,
+          "lodged": false
+        },
+        {
+          "stem": "己",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 1,
+          "lodged": false
+        },
+        {
+          "stem": "庚",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 4,
+          "lodged": false
+        },
+        {
+          "stem": "辛",
+          "status": "not-matched",
+          "targetBranch": "辰",
+          "targetPalace": 4,
+          "actualPalace": 7,
+          "lodged": false
+        },
+        {
+          "stem": "壬",
+          "status": "not-matched",
+          "targetBranch": "辰",
+          "targetPalace": 4,
+          "actualPalace": 3,
+          "lodged": false
+        },
+        {
+          "stem": "癸",
+          "status": "not-matched",
+          "targetBranch": "未",
+          "targetPalace": 2,
+          "actualPalace": 6,
+          "lodged": false
+        }
+      ],
+      "tags": [
+        "yang",
+        "supplied-ju",
+        "center-hosted"
+      ],
+      "evidence": "External fixed Arc plate array retained from existing1080collection; only new墓表lookup derived from literal fixedGo QMTomb/ZhiGong9. No application function called."
+    },
+    {
+      "id": "yin-1-丙寅",
+      "input": {
+        "dayGanzhi": "己巳",
+        "hourGanzhi": "丙寅",
+        "solarTerm": "大暑"
+      },
+      "suppliedJu": {
+        "yang": false,
+        "ju": 1,
+        "yuan": 1
+      },
+      "palaces": [
+        {
+          "number": 4,
+          "earth": "丁",
+          "heaven": "庚",
+          "star": "天任",
+          "door": "伤门"
+        },
+        {
+          "number": 9,
+          "earth": "己",
+          "heaven": "丙",
+          "star": "天冲",
+          "door": "杜门"
+        },
+        {
+          "number": 2,
+          "earth": "乙",
+          "heaven": "丁",
+          "star": "天辅",
+          "door": "景门"
+        },
+        {
+          "number": 3,
+          "earth": "丙",
+          "heaven": "戊",
+          "star": "天蓬",
+          "door": "生门"
+        },
+        {
+          "number": 5,
+          "earth": "癸",
+          "heaven": "",
+          "star": "",
+          "door": ""
+        },
+        {
+          "number": 7,
+          "earth": "辛",
+          "heaven": "己",
+          "star": "天英",
+          "door": "死门"
+        },
+        {
+          "number": 8,
+          "earth": "庚",
+          "heaven": "壬",
+          "star": "天心",
+          "door": "休门"
+        },
+        {
+          "number": 1,
+          "earth": "戊",
+          "heaven": "辛",
+          "star": "天柱",
+          "door": "开门"
+        },
+        {
+          "number": 6,
+          "earth": "壬",
+          "heaven": "乙（寄癸）",
+          "star": "天芮、天禽",
+          "door": "惊门"
+        }
+      ],
+      "checks": [
+        {
+          "stem": "甲",
+          "status": "not-directly-observed",
+          "targetBranch": "未",
+          "targetPalace": 2
+        },
+        {
+          "stem": "乙",
+          "status": "matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 6,
+          "lodged": false
+        },
+        {
+          "stem": "丙",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 9,
+          "lodged": false
+        },
+        {
+          "stem": "丁",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 2,
+          "lodged": false
+        },
+        {
+          "stem": "戊",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 3,
+          "lodged": false
+        },
+        {
+          "stem": "己",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 7,
+          "lodged": false
+        },
+        {
+          "stem": "庚",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 4,
+          "lodged": false
+        },
+        {
+          "stem": "辛",
+          "status": "not-matched",
+          "targetBranch": "辰",
+          "targetPalace": 4,
+          "actualPalace": 1,
+          "lodged": false
+        },
+        {
+          "stem": "壬",
+          "status": "not-matched",
+          "targetBranch": "辰",
+          "targetPalace": 4,
+          "actualPalace": 8,
+          "lodged": false
+        },
+        {
+          "stem": "癸",
+          "status": "not-matched",
+          "targetBranch": "未",
+          "targetPalace": 2,
+          "actualPalace": 6,
+          "lodged": true
+        }
+      ],
+      "tags": [
+        "yin",
+        "supplied-ju",
+        "center-hosted"
+      ],
+      "evidence": "External fixed Arc plate array retained from existing1080collection; only new墓表lookup derived from literal fixedGo QMTomb/ZhiGong9. No application function called."
+    },
+    {
+      "id": "yang-1-丁卯",
+      "input": {
+        "dayGanzhi": "甲子",
+        "hourGanzhi": "丁卯",
+        "solarTerm": "冬至"
+      },
+      "suppliedJu": {
+        "yang": true,
+        "ju": 1,
+        "yuan": 0
+      },
+      "palaces": [
+        {
+          "number": 4,
+          "earth": "辛",
+          "heaven": "己（寄壬）",
+          "star": "天芮、天禽",
+          "door": "休门"
+        },
+        {
+          "number": 9,
+          "earth": "乙",
+          "heaven": "丁",
+          "star": "天柱",
+          "door": "生门"
+        },
+        {
+          "number": 2,
+          "earth": "己",
+          "heaven": "癸",
+          "star": "天心",
+          "door": "伤门"
+        },
+        {
+          "number": 3,
+          "earth": "庚",
+          "heaven": "乙",
+          "star": "天英",
+          "door": "开门"
+        },
+        {
+          "number": 5,
+          "earth": "壬",
+          "heaven": "",
+          "star": "",
+          "door": ""
+        },
+        {
+          "number": 7,
+          "earth": "丁",
+          "heaven": "戊",
+          "star": "天蓬",
+          "door": "杜门"
+        },
+        {
+          "number": 8,
+          "earth": "丙",
+          "heaven": "辛",
+          "star": "天辅",
+          "door": "惊门"
+        },
+        {
+          "number": 1,
+          "earth": "戊",
+          "heaven": "庚",
+          "star": "天冲",
+          "door": "死门"
+        },
+        {
+          "number": 6,
+          "earth": "癸",
+          "heaven": "丙",
+          "star": "天任",
+          "door": "景门"
+        }
+      ],
+      "checks": [
+        {
+          "stem": "甲",
+          "status": "not-directly-observed",
+          "targetBranch": "未",
+          "targetPalace": 2
+        },
+        {
+          "stem": "乙",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 3,
+          "lodged": false
+        },
+        {
+          "stem": "丙",
+          "status": "matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 6,
+          "lodged": false
+        },
+        {
+          "stem": "丁",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 9,
+          "lodged": false
+        },
+        {
+          "stem": "戊",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 7,
+          "lodged": false
+        },
+        {
+          "stem": "己",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 4,
+          "lodged": false
+        },
+        {
+          "stem": "庚",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 1,
+          "lodged": false
+        },
+        {
+          "stem": "辛",
+          "status": "not-matched",
+          "targetBranch": "辰",
+          "targetPalace": 4,
+          "actualPalace": 8,
+          "lodged": false
+        },
+        {
+          "stem": "壬",
+          "status": "matched",
+          "targetBranch": "辰",
+          "targetPalace": 4,
+          "actualPalace": 4,
+          "lodged": true
+        },
+        {
+          "stem": "癸",
+          "status": "matched",
+          "targetBranch": "未",
+          "targetPalace": 2,
+          "actualPalace": 2,
+          "lodged": false
+        }
+      ],
+      "tags": [
+        "yang",
+        "supplied-ju",
+        "center-hosted",
+        "hosted-jixing"
+      ],
+      "evidence": "External fixed Arc plate array retained from existing1080collection; only new墓表lookup derived from literal fixedGo QMTomb/ZhiGong9. No application function called."
+    },
+    {
+      "id": "yang-1-辛巳",
+      "input": {
+        "dayGanzhi": "甲子",
+        "hourGanzhi": "辛巳",
+        "solarTerm": "冬至"
+      },
+      "suppliedJu": {
+        "yang": true,
+        "ju": 1,
+        "yuan": 0
+      },
+      "palaces": [
+        {
+          "number": 4,
+          "earth": "辛",
+          "heaven": "己（寄壬）",
+          "star": "天芮、天禽",
+          "door": "景门"
+        },
+        {
+          "number": 9,
+          "earth": "乙",
+          "heaven": "丁",
+          "star": "天柱",
+          "door": "死门"
+        },
+        {
+          "number": 2,
+          "earth": "己",
+          "heaven": "癸",
+          "star": "天心",
+          "door": "惊门"
+        },
+        {
+          "number": 3,
+          "earth": "庚",
+          "heaven": "乙",
+          "star": "天英",
+          "door": "杜门"
+        },
+        {
+          "number": 5,
+          "earth": "壬",
+          "heaven": "",
+          "star": "",
+          "door": ""
+        },
+        {
+          "number": 7,
+          "earth": "丁",
+          "heaven": "戊",
+          "star": "天蓬",
+          "door": "开门"
+        },
+        {
+          "number": 8,
+          "earth": "丙",
+          "heaven": "辛",
+          "star": "天辅",
+          "door": "伤门"
+        },
+        {
+          "number": 1,
+          "earth": "戊",
+          "heaven": "庚",
+          "star": "天冲",
+          "door": "生门"
+        },
+        {
+          "number": 6,
+          "earth": "癸",
+          "heaven": "丙",
+          "star": "天任",
+          "door": "休门"
+        }
+      ],
+      "checks": [
+        {
+          "stem": "甲",
+          "status": "not-directly-observed",
+          "targetBranch": "未",
+          "targetPalace": 2
+        },
+        {
+          "stem": "乙",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 3,
+          "lodged": false
+        },
+        {
+          "stem": "丙",
+          "status": "matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 6,
+          "lodged": false
+        },
+        {
+          "stem": "丁",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 9,
+          "lodged": false
+        },
+        {
+          "stem": "戊",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 7,
+          "lodged": false
+        },
+        {
+          "stem": "己",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 4,
+          "lodged": false
+        },
+        {
+          "stem": "庚",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 1,
+          "lodged": false
+        },
+        {
+          "stem": "辛",
+          "status": "not-matched",
+          "targetBranch": "辰",
+          "targetPalace": 4,
+          "actualPalace": 8,
+          "lodged": false
+        },
+        {
+          "stem": "壬",
+          "status": "matched",
+          "targetBranch": "辰",
+          "targetPalace": 4,
+          "actualPalace": 4,
+          "lodged": true
+        },
+        {
+          "stem": "癸",
+          "status": "matched",
+          "targetBranch": "未",
+          "targetPalace": 2,
+          "actualPalace": 2,
+          "lodged": false
+        }
+      ],
+      "tags": [
+        "yang",
+        "supplied-ju",
+        "center-hosted",
+        "hosted-jixing"
+      ],
+      "evidence": "External fixed Arc plate array retained from existing1080collection; only new墓表lookup derived from literal fixedGo QMTomb/ZhiGong9. No application function called."
+    },
+    {
+      "id": "yang-1-戊子",
+      "input": {
+        "dayGanzhi": "甲子",
+        "hourGanzhi": "戊子",
+        "solarTerm": "冬至"
+      },
+      "suppliedJu": {
+        "yang": true,
+        "ju": 1,
+        "yuan": 0
+      },
+      "palaces": [
+        {
+          "number": 4,
+          "earth": "辛",
+          "heaven": "己（寄壬）",
+          "star": "天芮、天禽",
+          "door": "开门"
+        },
+        {
+          "number": 9,
+          "earth": "乙",
+          "heaven": "丁",
+          "star": "天柱",
+          "door": "休门"
+        },
+        {
+          "number": 2,
+          "earth": "己",
+          "heaven": "癸",
+          "star": "天心",
+          "door": "生门"
+        },
+        {
+          "number": 3,
+          "earth": "庚",
+          "heaven": "乙",
+          "star": "天英",
+          "door": "惊门"
+        },
+        {
+          "number": 5,
+          "earth": "壬",
+          "heaven": "",
+          "star": "",
+          "door": ""
+        },
+        {
+          "number": 7,
+          "earth": "丁",
+          "heaven": "戊",
+          "star": "天蓬",
+          "door": "伤门"
+        },
+        {
+          "number": 8,
+          "earth": "丙",
+          "heaven": "辛",
+          "star": "天辅",
+          "door": "死门"
+        },
+        {
+          "number": 1,
+          "earth": "戊",
+          "heaven": "庚",
+          "star": "天冲",
+          "door": "景门"
+        },
+        {
+          "number": 6,
+          "earth": "癸",
+          "heaven": "丙",
+          "star": "天任",
+          "door": "杜门"
+        }
+      ],
+      "checks": [
+        {
+          "stem": "甲",
+          "status": "not-directly-observed",
+          "targetBranch": "未",
+          "targetPalace": 2
+        },
+        {
+          "stem": "乙",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 3,
+          "lodged": false
+        },
+        {
+          "stem": "丙",
+          "status": "matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 6,
+          "lodged": false
+        },
+        {
+          "stem": "丁",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 9,
+          "lodged": false
+        },
+        {
+          "stem": "戊",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 7,
+          "lodged": false
+        },
+        {
+          "stem": "己",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 4,
+          "lodged": false
+        },
+        {
+          "stem": "庚",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 1,
+          "lodged": false
+        },
+        {
+          "stem": "辛",
+          "status": "not-matched",
+          "targetBranch": "辰",
+          "targetPalace": 4,
+          "actualPalace": 8,
+          "lodged": false
+        },
+        {
+          "stem": "壬",
+          "status": "matched",
+          "targetBranch": "辰",
+          "targetPalace": 4,
+          "actualPalace": 4,
+          "lodged": true
+        },
+        {
+          "stem": "癸",
+          "status": "matched",
+          "targetBranch": "未",
+          "targetPalace": 2,
+          "actualPalace": 2,
+          "lodged": false
+        }
+      ],
+      "tags": [
+        "yang",
+        "supplied-ju",
+        "center-hosted",
+        "hosted-jixing",
+        "colocated-patterns"
+      ],
+      "evidence": "External fixed Arc plate array retained from existing1080collection; only new墓表lookup derived from literal fixedGo QMTomb/ZhiGong9. No application function called."
+    },
+    {
+      "id": "yang-7-辛未",
+      "input": {
+        "dayGanzhi": "己巳",
+        "hourGanzhi": "辛未",
+        "solarTerm": "冬至"
+      },
+      "suppliedJu": {
+        "yang": true,
+        "ju": 7,
+        "yuan": 1
+      },
+      "palaces": [
+        {
+          "number": 4,
+          "earth": "丁",
+          "heaven": "己",
+          "star": "天任",
+          "door": "景门"
+        },
+        {
+          "number": 9,
+          "earth": "庚",
+          "heaven": "癸",
+          "star": "天冲",
+          "door": "死门"
+        },
+        {
+          "number": 2,
+          "earth": "壬",
+          "heaven": "丁",
+          "star": "天辅",
+          "door": "惊门"
+        },
+        {
+          "number": 3,
+          "earth": "癸",
+          "heaven": "辛",
+          "star": "天蓬",
+          "door": "杜门"
+        },
+        {
+          "number": 5,
+          "earth": "丙",
+          "heaven": "",
+          "star": "",
+          "door": ""
+        },
+        {
+          "number": 7,
+          "earth": "戊",
+          "heaven": "庚",
+          "star": "天英",
+          "door": "开门"
+        },
+        {
+          "number": 8,
+          "earth": "己",
+          "heaven": "乙",
+          "star": "天心",
+          "door": "伤门"
+        },
+        {
+          "number": 1,
+          "earth": "辛",
+          "heaven": "戊",
+          "star": "天柱",
+          "door": "生门"
+        },
+        {
+          "number": 6,
+          "earth": "乙",
+          "heaven": "壬（寄丙）",
+          "star": "天芮、天禽",
+          "door": "休门"
+        }
+      ],
+      "checks": [
+        {
+          "stem": "甲",
+          "status": "not-directly-observed",
+          "targetBranch": "未",
+          "targetPalace": 2
+        },
+        {
+          "stem": "乙",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 8,
+          "lodged": false
+        },
+        {
+          "stem": "丙",
+          "status": "matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 6,
+          "lodged": true
+        },
+        {
+          "stem": "丁",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 2,
+          "lodged": false
+        },
+        {
+          "stem": "戊",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 1,
+          "lodged": false
+        },
+        {
+          "stem": "己",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 4,
+          "lodged": false
+        },
+        {
+          "stem": "庚",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 7,
+          "lodged": false
+        },
+        {
+          "stem": "辛",
+          "status": "not-matched",
+          "targetBranch": "辰",
+          "targetPalace": 4,
+          "actualPalace": 3,
+          "lodged": false
+        },
+        {
+          "stem": "壬",
+          "status": "not-matched",
+          "targetBranch": "辰",
+          "targetPalace": 4,
+          "actualPalace": 6,
+          "lodged": false
+        },
+        {
+          "stem": "癸",
+          "status": "not-matched",
+          "targetBranch": "未",
+          "targetPalace": 2,
+          "actualPalace": 9,
+          "lodged": false
+        }
+      ],
+      "tags": [
+        "yang",
+        "supplied-ju",
+        "center-hosted",
+        "center-door",
+        "hosted-rumu"
+      ],
+      "evidence": "External fixed Arc plate array retained from existing1080collection; only new墓表lookup derived from literal fixedGo QMTomb/ZhiGong9. No application function called."
+    },
+    {
+      "id": "yin-1-乙丑",
+      "input": {
+        "dayGanzhi": "己巳",
+        "hourGanzhi": "乙丑",
+        "solarTerm": "大暑"
+      },
+      "suppliedJu": {
+        "yang": false,
+        "ju": 1,
+        "yuan": 1
+      },
+      "palaces": [
+        {
+          "number": 4,
+          "earth": "丁",
+          "heaven": "辛",
+          "star": "天柱",
+          "door": "开门"
+        },
+        {
+          "number": 9,
+          "earth": "己",
+          "heaven": "壬",
+          "star": "天心",
+          "door": "休门"
+        },
+        {
+          "number": 2,
+          "earth": "乙",
+          "heaven": "戊",
+          "star": "天蓬",
+          "door": "生门"
+        },
+        {
+          "number": 3,
+          "earth": "丙",
+          "heaven": "乙（寄癸）",
+          "star": "天芮、天禽",
+          "door": "惊门"
+        },
+        {
+          "number": 5,
+          "earth": "癸",
+          "heaven": "",
+          "star": "",
+          "door": ""
+        },
+        {
+          "number": 7,
+          "earth": "辛",
+          "heaven": "庚",
+          "star": "天任",
+          "door": "伤门"
+        },
+        {
+          "number": 8,
+          "earth": "庚",
+          "heaven": "己",
+          "star": "天英",
+          "door": "死门"
+        },
+        {
+          "number": 1,
+          "earth": "戊",
+          "heaven": "丁",
+          "star": "天辅",
+          "door": "景门"
+        },
+        {
+          "number": 6,
+          "earth": "壬",
+          "heaven": "丙",
+          "star": "天冲",
+          "door": "杜门"
+        }
+      ],
+      "checks": [
+        {
+          "stem": "甲",
+          "status": "not-directly-observed",
+          "targetBranch": "未",
+          "targetPalace": 2
+        },
+        {
+          "stem": "乙",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 3,
+          "lodged": false
+        },
+        {
+          "stem": "丙",
+          "status": "matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 6,
+          "lodged": false
+        },
+        {
+          "stem": "丁",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 1,
+          "lodged": false
+        },
+        {
+          "stem": "戊",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 2,
+          "lodged": false
+        },
+        {
+          "stem": "己",
+          "status": "matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 8,
+          "lodged": false
+        },
+        {
+          "stem": "庚",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 7,
+          "lodged": false
+        },
+        {
+          "stem": "辛",
+          "status": "matched",
+          "targetBranch": "辰",
+          "targetPalace": 4,
+          "actualPalace": 4,
+          "lodged": false
+        },
+        {
+          "stem": "壬",
+          "status": "not-matched",
+          "targetBranch": "辰",
+          "targetPalace": 4,
+          "actualPalace": 9,
+          "lodged": false
+        },
+        {
+          "stem": "癸",
+          "status": "not-matched",
+          "targetBranch": "未",
+          "targetPalace": 2,
+          "actualPalace": 3,
+          "lodged": true
+        }
+      ],
+      "tags": [
+        "yin",
+        "supplied-ju",
+        "center-hosted"
+      ],
+      "evidence": "External fixed Arc plate array retained from existing1080collection; only new墓表lookup derived from literal fixedGo QMTomb/ZhiGong9. No application function called."
+    },
+    {
+      "id": "yang-8-丁卯",
+      "input": {
+        "dayGanzhi": "己巳",
+        "hourGanzhi": "丁卯",
+        "solarTerm": "小寒"
+      },
+      "suppliedJu": {
+        "yang": true,
+        "ju": 8,
+        "yuan": 1
+      },
+      "palaces": [
+        {
+          "number": 4,
+          "earth": "癸",
+          "heaven": "丙",
+          "star": "天心",
+          "door": "开门"
+        },
+        {
+          "number": 9,
+          "earth": "己",
+          "heaven": "庚",
+          "star": "天蓬",
+          "door": "休门"
+        },
+        {
+          "number": 2,
+          "earth": "辛",
+          "heaven": "戊",
+          "star": "天任",
+          "door": "生门"
+        },
+        {
+          "number": 3,
+          "earth": "壬",
+          "heaven": "乙",
+          "star": "天柱",
+          "door": "惊门"
+        },
+        {
+          "number": 5,
+          "earth": "丁",
+          "heaven": "",
+          "star": "",
+          "door": ""
+        },
+        {
+          "number": 7,
+          "earth": "乙",
+          "heaven": "壬",
+          "star": "天冲",
+          "door": "伤门"
+        },
+        {
+          "number": 8,
+          "earth": "戊",
+          "heaven": "辛（寄丁）",
+          "star": "天芮、天禽",
+          "door": "死门"
+        },
+        {
+          "number": 1,
+          "earth": "庚",
+          "heaven": "己",
+          "star": "天英",
+          "door": "景门"
+        },
+        {
+          "number": 6,
+          "earth": "丙",
+          "heaven": "癸",
+          "star": "天辅",
+          "door": "杜门"
+        }
+      ],
+      "checks": [
+        {
+          "stem": "甲",
+          "status": "not-directly-observed",
+          "targetBranch": "未",
+          "targetPalace": 2
+        },
+        {
+          "stem": "乙",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 3,
+          "lodged": false
+        },
+        {
+          "stem": "丙",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 4,
+          "lodged": false
+        },
+        {
+          "stem": "丁",
+          "status": "matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 8,
+          "lodged": true
+        },
+        {
+          "stem": "戊",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 2,
+          "lodged": false
+        },
+        {
+          "stem": "己",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 1,
+          "lodged": false
+        },
+        {
+          "stem": "庚",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 9,
+          "lodged": false
+        },
+        {
+          "stem": "辛",
+          "status": "not-matched",
+          "targetBranch": "辰",
+          "targetPalace": 4,
+          "actualPalace": 8,
+          "lodged": false
+        },
+        {
+          "stem": "壬",
+          "status": "not-matched",
+          "targetBranch": "辰",
+          "targetPalace": 4,
+          "actualPalace": 7,
+          "lodged": false
+        },
+        {
+          "stem": "癸",
+          "status": "not-matched",
+          "targetBranch": "未",
+          "targetPalace": 2,
+          "actualPalace": 6,
+          "lodged": false
+        }
+      ],
+      "tags": [
+        "yang",
+        "supplied-ju",
+        "center-hosted",
+        "center-hour",
+        "hosted-rumu"
+      ],
+      "evidence": "External fixed Arc plate array retained from existing1080collection; only new墓表lookup derived from literal fixedGo QMTomb/ZhiGong9. No application function called."
+    },
+    {
+      "id": "yin-1-辛未",
+      "input": {
+        "dayGanzhi": "己巳",
+        "hourGanzhi": "辛未",
+        "solarTerm": "大暑"
+      },
+      "suppliedJu": {
+        "yang": false,
+        "ju": 1,
+        "yuan": 1
+      },
+      "palaces": [
+        {
+          "number": 4,
+          "earth": "丁",
+          "heaven": "乙（寄癸）",
+          "star": "天芮、天禽",
+          "door": "生门"
+        },
+        {
+          "number": 9,
+          "earth": "己",
+          "heaven": "辛",
+          "star": "天柱",
+          "door": "伤门"
+        },
+        {
+          "number": 2,
+          "earth": "乙",
+          "heaven": "壬",
+          "star": "天心",
+          "door": "杜门"
+        },
+        {
+          "number": 3,
+          "earth": "丙",
+          "heaven": "己",
+          "star": "天英",
+          "door": "休门"
+        },
+        {
+          "number": 5,
+          "earth": "癸",
+          "heaven": "",
+          "star": "",
+          "door": ""
+        },
+        {
+          "number": 7,
+          "earth": "辛",
+          "heaven": "戊",
+          "star": "天蓬",
+          "door": "景门"
+        },
+        {
+          "number": 8,
+          "earth": "庚",
+          "heaven": "丁",
+          "star": "天辅",
+          "door": "开门"
+        },
+        {
+          "number": 1,
+          "earth": "戊",
+          "heaven": "丙",
+          "star": "天冲",
+          "door": "惊门"
+        },
+        {
+          "number": 6,
+          "earth": "壬",
+          "heaven": "庚",
+          "star": "天任",
+          "door": "死门"
+        }
+      ],
+      "checks": [
+        {
+          "stem": "甲",
+          "status": "not-directly-observed",
+          "targetBranch": "未",
+          "targetPalace": 2
+        },
+        {
+          "stem": "乙",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 4,
+          "lodged": false
+        },
+        {
+          "stem": "丙",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 1,
+          "lodged": false
+        },
+        {
+          "stem": "丁",
+          "status": "matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 8,
+          "lodged": false
+        },
+        {
+          "stem": "戊",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 7,
+          "lodged": false
+        },
+        {
+          "stem": "己",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 3,
+          "lodged": false
+        },
+        {
+          "stem": "庚",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 6,
+          "lodged": false
+        },
+        {
+          "stem": "辛",
+          "status": "not-matched",
+          "targetBranch": "辰",
+          "targetPalace": 4,
+          "actualPalace": 9,
+          "lodged": false
+        },
+        {
+          "stem": "壬",
+          "status": "not-matched",
+          "targetBranch": "辰",
+          "targetPalace": 4,
+          "actualPalace": 2,
+          "lodged": false
+        },
+        {
+          "stem": "癸",
+          "status": "not-matched",
+          "targetBranch": "未",
+          "targetPalace": 2,
+          "actualPalace": 4,
+          "lodged": true
+        }
+      ],
+      "tags": [
+        "yin",
+        "supplied-ju",
+        "center-hosted",
+        "hosted-jixing"
+      ],
+      "evidence": "External fixed Arc plate array retained from existing1080collection; only new墓表lookup derived from literal fixedGo QMTomb/ZhiGong9. No application function called."
+    },
+    {
+      "id": "yang-1-癸酉",
+      "input": {
+        "dayGanzhi": "甲子",
+        "hourGanzhi": "癸酉",
+        "solarTerm": "冬至"
+      },
+      "suppliedJu": {
+        "yang": true,
+        "ju": 1,
+        "yuan": 0
+      },
+      "palaces": [
+        {
+          "number": 4,
+          "earth": "辛",
+          "heaven": "乙",
+          "star": "天英",
+          "door": "杜门"
+        },
+        {
+          "number": 9,
+          "earth": "乙",
+          "heaven": "己（寄壬）",
+          "star": "天芮、天禽",
+          "door": "景门"
+        },
+        {
+          "number": 2,
+          "earth": "己",
+          "heaven": "丁",
+          "star": "天柱",
+          "door": "死门"
+        },
+        {
+          "number": 3,
+          "earth": "庚",
+          "heaven": "辛",
+          "star": "天辅",
+          "door": "伤门"
+        },
+        {
+          "number": 5,
+          "earth": "壬",
+          "heaven": "",
+          "star": "",
+          "door": ""
+        },
+        {
+          "number": 7,
+          "earth": "丁",
+          "heaven": "癸",
+          "star": "天心",
+          "door": "惊门"
+        },
+        {
+          "number": 8,
+          "earth": "丙",
+          "heaven": "庚",
+          "star": "天冲",
+          "door": "生门"
+        },
+        {
+          "number": 1,
+          "earth": "戊",
+          "heaven": "丙",
+          "star": "天任",
+          "door": "休门"
+        },
+        {
+          "number": 6,
+          "earth": "癸",
+          "heaven": "戊",
+          "star": "天蓬",
+          "door": "开门"
+        }
+      ],
+      "checks": [
+        {
+          "stem": "甲",
+          "status": "not-directly-observed",
+          "targetBranch": "未",
+          "targetPalace": 2
+        },
+        {
+          "stem": "乙",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 4,
+          "lodged": false
+        },
+        {
+          "stem": "丙",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 1,
+          "lodged": false
+        },
+        {
+          "stem": "丁",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 2,
+          "lodged": false
+        },
+        {
+          "stem": "戊",
+          "status": "matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 6,
+          "lodged": false
+        },
+        {
+          "stem": "己",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 9,
+          "lodged": false
+        },
+        {
+          "stem": "庚",
+          "status": "matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 8,
+          "lodged": false
+        },
+        {
+          "stem": "辛",
+          "status": "not-matched",
+          "targetBranch": "辰",
+          "targetPalace": 4,
+          "actualPalace": 3,
+          "lodged": false
+        },
+        {
+          "stem": "壬",
+          "status": "not-matched",
+          "targetBranch": "辰",
+          "targetPalace": 4,
+          "actualPalace": 9,
+          "lodged": true
+        },
+        {
+          "stem": "癸",
+          "status": "not-matched",
+          "targetBranch": "未",
+          "targetPalace": 2,
+          "actualPalace": 7,
+          "lodged": false
+        }
+      ],
+      "tags": [
+        "yang",
+        "supplied-ju",
+        "center-hosted"
+      ],
+      "evidence": "External fixed Arc plate array retained from existing1080collection; only new墓表lookup derived from literal fixedGo QMTomb/ZhiGong9. No application function called."
+    },
+    {
+      "id": "yang-1-乙亥",
+      "input": {
+        "dayGanzhi": "甲子",
+        "hourGanzhi": "乙亥",
+        "solarTerm": "冬至"
+      },
+      "suppliedJu": {
+        "yang": true,
+        "ju": 1,
+        "yuan": 0
+      },
+      "palaces": [
+        {
+          "number": 4,
+          "earth": "辛",
+          "heaven": "乙",
+          "star": "天英",
+          "door": "惊门"
+        },
+        {
+          "number": 9,
+          "earth": "乙",
+          "heaven": "己（寄壬）",
+          "star": "天芮、天禽",
+          "door": "开门"
+        },
+        {
+          "number": 2,
+          "earth": "己",
+          "heaven": "丁",
+          "star": "天柱",
+          "door": "休门"
+        },
+        {
+          "number": 3,
+          "earth": "庚",
+          "heaven": "辛",
+          "star": "天辅",
+          "door": "死门"
+        },
+        {
+          "number": 5,
+          "earth": "壬",
+          "heaven": "",
+          "star": "",
+          "door": ""
+        },
+        {
+          "number": 7,
+          "earth": "丁",
+          "heaven": "癸",
+          "star": "天心",
+          "door": "生门"
+        },
+        {
+          "number": 8,
+          "earth": "丙",
+          "heaven": "庚",
+          "star": "天冲",
+          "door": "景门"
+        },
+        {
+          "number": 1,
+          "earth": "戊",
+          "heaven": "丙",
+          "star": "天任",
+          "door": "杜门"
+        },
+        {
+          "number": 6,
+          "earth": "癸",
+          "heaven": "戊",
+          "star": "天蓬",
+          "door": "伤门"
+        }
+      ],
+      "checks": [
+        {
+          "stem": "甲",
+          "status": "not-directly-observed",
+          "targetBranch": "未",
+          "targetPalace": 2
+        },
+        {
+          "stem": "乙",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 4,
+          "lodged": false
+        },
+        {
+          "stem": "丙",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 1,
+          "lodged": false
+        },
+        {
+          "stem": "丁",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 2,
+          "lodged": false
+        },
+        {
+          "stem": "戊",
+          "status": "matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 6,
+          "lodged": false
+        },
+        {
+          "stem": "己",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 9,
+          "lodged": false
+        },
+        {
+          "stem": "庚",
+          "status": "matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 8,
+          "lodged": false
+        },
+        {
+          "stem": "辛",
+          "status": "not-matched",
+          "targetBranch": "辰",
+          "targetPalace": 4,
+          "actualPalace": 3,
+          "lodged": false
+        },
+        {
+          "stem": "壬",
+          "status": "not-matched",
+          "targetBranch": "辰",
+          "targetPalace": 4,
+          "actualPalace": 9,
+          "lodged": true
+        },
+        {
+          "stem": "癸",
+          "status": "not-matched",
+          "targetBranch": "未",
+          "targetPalace": 2,
+          "actualPalace": 7,
+          "lodged": false
+        }
+      ],
+      "tags": [
+        "yang",
+        "supplied-ju",
+        "center-hosted"
+      ],
+      "evidence": "External fixed Arc plate array retained from existing1080collection; only new墓表lookup derived from literal fixedGo QMTomb/ZhiGong9. No application function called."
+    },
+    {
+      "id": "yang-1-丙戌",
+      "input": {
+        "dayGanzhi": "甲子",
+        "hourGanzhi": "丙戌",
+        "solarTerm": "冬至"
+      },
+      "suppliedJu": {
+        "yang": true,
+        "ju": 1,
+        "yuan": 0
+      },
+      "palaces": [
+        {
+          "number": 4,
+          "earth": "辛",
+          "heaven": "乙",
+          "star": "天英",
+          "door": "休门"
+        },
+        {
+          "number": 9,
+          "earth": "乙",
+          "heaven": "己（寄壬）",
+          "star": "天芮、天禽",
+          "door": "生门"
+        },
+        {
+          "number": 2,
+          "earth": "己",
+          "heaven": "丁",
+          "star": "天柱",
+          "door": "伤门"
+        },
+        {
+          "number": 3,
+          "earth": "庚",
+          "heaven": "辛",
+          "star": "天辅",
+          "door": "开门"
+        },
+        {
+          "number": 5,
+          "earth": "壬",
+          "heaven": "",
+          "star": "",
+          "door": ""
+        },
+        {
+          "number": 7,
+          "earth": "丁",
+          "heaven": "癸",
+          "star": "天心",
+          "door": "杜门"
+        },
+        {
+          "number": 8,
+          "earth": "丙",
+          "heaven": "庚",
+          "star": "天冲",
+          "door": "惊门"
+        },
+        {
+          "number": 1,
+          "earth": "戊",
+          "heaven": "丙",
+          "star": "天任",
+          "door": "死门"
+        },
+        {
+          "number": 6,
+          "earth": "癸",
+          "heaven": "戊",
+          "star": "天蓬",
+          "door": "景门"
+        }
+      ],
+      "checks": [
+        {
+          "stem": "甲",
+          "status": "not-directly-observed",
+          "targetBranch": "未",
+          "targetPalace": 2
+        },
+        {
+          "stem": "乙",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 4,
+          "lodged": false
+        },
+        {
+          "stem": "丙",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 1,
+          "lodged": false
+        },
+        {
+          "stem": "丁",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 2,
+          "lodged": false
+        },
+        {
+          "stem": "戊",
+          "status": "matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 6,
+          "lodged": false
+        },
+        {
+          "stem": "己",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 9,
+          "lodged": false
+        },
+        {
+          "stem": "庚",
+          "status": "matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 8,
+          "lodged": false
+        },
+        {
+          "stem": "辛",
+          "status": "not-matched",
+          "targetBranch": "辰",
+          "targetPalace": 4,
+          "actualPalace": 3,
+          "lodged": false
+        },
+        {
+          "stem": "壬",
+          "status": "not-matched",
+          "targetBranch": "辰",
+          "targetPalace": 4,
+          "actualPalace": 9,
+          "lodged": true
+        },
+        {
+          "stem": "癸",
+          "status": "not-matched",
+          "targetBranch": "未",
+          "targetPalace": 2,
+          "actualPalace": 7,
+          "lodged": false
+        }
+      ],
+      "tags": [
+        "yang",
+        "supplied-ju",
+        "center-hosted",
+        "center-door"
+      ],
+      "evidence": "External fixed Arc plate array retained from existing1080collection; only new墓表lookup derived from literal fixedGo QMTomb/ZhiGong9. No application function called."
+    },
+    {
+      "id": "yang-5-己巳",
+      "input": {
+        "dayGanzhi": "甲戌",
+        "hourGanzhi": "己巳",
+        "solarTerm": "小寒"
+      },
+      "suppliedJu": {
+        "yang": true,
+        "ju": 5,
+        "yuan": 2
+      },
+      "palaces": [
+        {
+          "number": 4,
+          "earth": "乙",
+          "heaven": "辛",
+          "star": "天任",
+          "door": "休门"
+        },
+        {
+          "number": 9,
+          "earth": "壬",
+          "heaven": "丙",
+          "star": "天冲",
+          "door": "生门"
+        },
+        {
+          "number": 2,
+          "earth": "丁",
+          "heaven": "乙",
+          "star": "天辅",
+          "door": "伤门"
+        },
+        {
+          "number": 3,
+          "earth": "丙",
+          "heaven": "癸",
+          "star": "天蓬",
+          "door": "开门"
+        },
+        {
+          "number": 5,
+          "earth": "戊",
+          "heaven": "",
+          "star": "",
+          "door": ""
+        },
+        {
+          "number": 7,
+          "earth": "庚",
+          "heaven": "壬",
+          "star": "天英",
+          "door": "杜门"
+        },
+        {
+          "number": 8,
+          "earth": "辛",
+          "heaven": "己",
+          "star": "天心",
+          "door": "惊门"
+        },
+        {
+          "number": 1,
+          "earth": "癸",
+          "heaven": "庚",
+          "star": "天柱",
+          "door": "死门"
+        },
+        {
+          "number": 6,
+          "earth": "己",
+          "heaven": "丁（寄戊）",
+          "star": "天芮、天禽",
+          "door": "景门"
+        }
+      ],
+      "checks": [
+        {
+          "stem": "甲",
+          "status": "not-directly-observed",
+          "targetBranch": "未",
+          "targetPalace": 2
+        },
+        {
+          "stem": "乙",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 2,
+          "lodged": false
+        },
+        {
+          "stem": "丙",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 9,
+          "lodged": false
+        },
+        {
+          "stem": "丁",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 6,
+          "lodged": false
+        },
+        {
+          "stem": "戊",
+          "status": "matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 6,
+          "lodged": true
+        },
+        {
+          "stem": "己",
+          "status": "matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 8,
+          "lodged": false
+        },
+        {
+          "stem": "庚",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 1,
+          "lodged": false
+        },
+        {
+          "stem": "辛",
+          "status": "matched",
+          "targetBranch": "辰",
+          "targetPalace": 4,
+          "actualPalace": 4,
+          "lodged": false
+        },
+        {
+          "stem": "壬",
+          "status": "not-matched",
+          "targetBranch": "辰",
+          "targetPalace": 4,
+          "actualPalace": 7,
+          "lodged": false
+        },
+        {
+          "stem": "癸",
+          "status": "not-matched",
+          "targetBranch": "未",
+          "targetPalace": 2,
+          "actualPalace": 3,
+          "lodged": false
+        }
+      ],
+      "tags": [
+        "yang",
+        "supplied-ju",
+        "center-hosted",
+        "center-chief"
+      ],
+      "evidence": "External fixed Arc plate array retained from existing1080collection; only new墓表lookup derived from literal fixedGo QMTomb/ZhiGong9. No application function called."
+    },
+    {
+      "id": "yin-1-壬申",
+      "input": {
+        "dayGanzhi": "己巳",
+        "hourGanzhi": "壬申",
+        "solarTerm": "大暑"
+      },
+      "suppliedJu": {
+        "yang": false,
+        "ju": 1,
+        "yuan": 1
+      },
+      "palaces": [
+        {
+          "number": 4,
+          "earth": "丁",
+          "heaven": "己",
+          "star": "天英",
+          "door": "惊门"
+        },
+        {
+          "number": 9,
+          "earth": "己",
+          "heaven": "乙（寄癸）",
+          "star": "天芮、天禽",
+          "door": "开门"
+        },
+        {
+          "number": 2,
+          "earth": "乙",
+          "heaven": "辛",
+          "star": "天柱",
+          "door": "休门"
+        },
+        {
+          "number": 3,
+          "earth": "丙",
+          "heaven": "丁",
+          "star": "天辅",
+          "door": "死门"
+        },
+        {
+          "number": 5,
+          "earth": "癸",
+          "heaven": "",
+          "star": "",
+          "door": ""
+        },
+        {
+          "number": 7,
+          "earth": "辛",
+          "heaven": "壬",
+          "star": "天心",
+          "door": "生门"
+        },
+        {
+          "number": 8,
+          "earth": "庚",
+          "heaven": "丙",
+          "star": "天冲",
+          "door": "景门"
+        },
+        {
+          "number": 1,
+          "earth": "戊",
+          "heaven": "庚",
+          "star": "天任",
+          "door": "杜门"
+        },
+        {
+          "number": 6,
+          "earth": "壬",
+          "heaven": "戊",
+          "star": "天蓬",
+          "door": "伤门"
+        }
+      ],
+      "checks": [
+        {
+          "stem": "甲",
+          "status": "not-directly-observed",
+          "targetBranch": "未",
+          "targetPalace": 2
+        },
+        {
+          "stem": "乙",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 9,
+          "lodged": false
+        },
+        {
+          "stem": "丙",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 8,
+          "lodged": false
+        },
+        {
+          "stem": "丁",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 3,
+          "lodged": false
+        },
+        {
+          "stem": "戊",
+          "status": "matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 6,
+          "lodged": false
+        },
+        {
+          "stem": "己",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 4,
+          "lodged": false
+        },
+        {
+          "stem": "庚",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 1,
+          "lodged": false
+        },
+        {
+          "stem": "辛",
+          "status": "not-matched",
+          "targetBranch": "辰",
+          "targetPalace": 4,
+          "actualPalace": 2,
+          "lodged": false
+        },
+        {
+          "stem": "壬",
+          "status": "not-matched",
+          "targetBranch": "辰",
+          "targetPalace": 4,
+          "actualPalace": 7,
+          "lodged": false
+        },
+        {
+          "stem": "癸",
+          "status": "not-matched",
+          "targetBranch": "未",
+          "targetPalace": 2,
+          "actualPalace": 9,
+          "lodged": true
+        }
+      ],
+      "tags": [
+        "yin",
+        "supplied-ju",
+        "center-hosted"
+      ],
+      "evidence": "External fixed Arc plate array retained from existing1080collection; only new墓表lookup derived from literal fixedGo QMTomb/ZhiGong9. No application function called."
+    },
+    {
+      "id": "yang-1-丙子",
+      "input": {
+        "dayGanzhi": "甲子",
+        "hourGanzhi": "丙子",
+        "solarTerm": "冬至"
+      },
+      "suppliedJu": {
+        "yang": true,
+        "ju": 1,
+        "yuan": 0
+      },
+      "palaces": [
+        {
+          "number": 4,
+          "earth": "辛",
+          "heaven": "癸",
+          "star": "天心",
+          "door": "死门"
+        },
+        {
+          "number": 9,
+          "earth": "乙",
+          "heaven": "戊",
+          "star": "天蓬",
+          "door": "惊门"
+        },
+        {
+          "number": 2,
+          "earth": "己",
+          "heaven": "丙",
+          "star": "天任",
+          "door": "开门"
+        },
+        {
+          "number": 3,
+          "earth": "庚",
+          "heaven": "丁",
+          "star": "天柱",
+          "door": "景门"
+        },
+        {
+          "number": 5,
+          "earth": "壬",
+          "heaven": "",
+          "star": "",
+          "door": ""
+        },
+        {
+          "number": 7,
+          "earth": "丁",
+          "heaven": "庚",
+          "star": "天冲",
+          "door": "休门"
+        },
+        {
+          "number": 8,
+          "earth": "丙",
+          "heaven": "己（寄壬）",
+          "star": "天芮、天禽",
+          "door": "杜门"
+        },
+        {
+          "number": 1,
+          "earth": "戊",
+          "heaven": "乙",
+          "star": "天英",
+          "door": "伤门"
+        },
+        {
+          "number": 6,
+          "earth": "癸",
+          "heaven": "辛",
+          "star": "天辅",
+          "door": "生门"
+        }
+      ],
+      "checks": [
+        {
+          "stem": "甲",
+          "status": "not-directly-observed",
+          "targetBranch": "未",
+          "targetPalace": 2
+        },
+        {
+          "stem": "乙",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 1,
+          "lodged": false
+        },
+        {
+          "stem": "丙",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 2,
+          "lodged": false
+        },
+        {
+          "stem": "丁",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 3,
+          "lodged": false
+        },
+        {
+          "stem": "戊",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 9,
+          "lodged": false
+        },
+        {
+          "stem": "己",
+          "status": "matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 8,
+          "lodged": false
+        },
+        {
+          "stem": "庚",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 7,
+          "lodged": false
+        },
+        {
+          "stem": "辛",
+          "status": "not-matched",
+          "targetBranch": "辰",
+          "targetPalace": 4,
+          "actualPalace": 6,
+          "lodged": false
+        },
+        {
+          "stem": "壬",
+          "status": "not-matched",
+          "targetBranch": "辰",
+          "targetPalace": 4,
+          "actualPalace": 8,
+          "lodged": true
+        },
+        {
+          "stem": "癸",
+          "status": "not-matched",
+          "targetBranch": "未",
+          "targetPalace": 2,
+          "actualPalace": 4,
+          "lodged": false
+        }
+      ],
+      "tags": [
+        "yang",
+        "supplied-ju",
+        "center-hosted"
+      ],
+      "evidence": "External fixed Arc plate array retained from existing1080collection; only new墓表lookup derived from literal fixedGo QMTomb/ZhiGong9. No application function called."
+    },
+    {
+      "id": "yang-1-丁亥",
+      "input": {
+        "dayGanzhi": "甲子",
+        "hourGanzhi": "丁亥",
+        "solarTerm": "冬至"
+      },
+      "suppliedJu": {
+        "yang": true,
+        "ju": 1,
+        "yuan": 0
+      },
+      "palaces": [
+        {
+          "number": 4,
+          "earth": "辛",
+          "heaven": "癸",
+          "star": "天心",
+          "door": "惊门"
+        },
+        {
+          "number": 9,
+          "earth": "乙",
+          "heaven": "戊",
+          "star": "天蓬",
+          "door": "开门"
+        },
+        {
+          "number": 2,
+          "earth": "己",
+          "heaven": "丙",
+          "star": "天任",
+          "door": "休门"
+        },
+        {
+          "number": 3,
+          "earth": "庚",
+          "heaven": "丁",
+          "star": "天柱",
+          "door": "死门"
+        },
+        {
+          "number": 5,
+          "earth": "壬",
+          "heaven": "",
+          "star": "",
+          "door": ""
+        },
+        {
+          "number": 7,
+          "earth": "丁",
+          "heaven": "庚",
+          "star": "天冲",
+          "door": "生门"
+        },
+        {
+          "number": 8,
+          "earth": "丙",
+          "heaven": "己（寄壬）",
+          "star": "天芮、天禽",
+          "door": "景门"
+        },
+        {
+          "number": 1,
+          "earth": "戊",
+          "heaven": "乙",
+          "star": "天英",
+          "door": "杜门"
+        },
+        {
+          "number": 6,
+          "earth": "癸",
+          "heaven": "辛",
+          "star": "天辅",
+          "door": "伤门"
+        }
+      ],
+      "checks": [
+        {
+          "stem": "甲",
+          "status": "not-directly-observed",
+          "targetBranch": "未",
+          "targetPalace": 2
+        },
+        {
+          "stem": "乙",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 1,
+          "lodged": false
+        },
+        {
+          "stem": "丙",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 2,
+          "lodged": false
+        },
+        {
+          "stem": "丁",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 3,
+          "lodged": false
+        },
+        {
+          "stem": "戊",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 9,
+          "lodged": false
+        },
+        {
+          "stem": "己",
+          "status": "matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 8,
+          "lodged": false
+        },
+        {
+          "stem": "庚",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 7,
+          "lodged": false
+        },
+        {
+          "stem": "辛",
+          "status": "not-matched",
+          "targetBranch": "辰",
+          "targetPalace": 4,
+          "actualPalace": 6,
+          "lodged": false
+        },
+        {
+          "stem": "壬",
+          "status": "not-matched",
+          "targetBranch": "辰",
+          "targetPalace": 4,
+          "actualPalace": 8,
+          "lodged": true
+        },
+        {
+          "stem": "癸",
+          "status": "not-matched",
+          "targetBranch": "未",
+          "targetPalace": 2,
+          "actualPalace": 4,
+          "lodged": false
+        }
+      ],
+      "tags": [
+        "yang",
+        "supplied-ju",
+        "center-hosted",
+        "colocated-patterns"
+      ],
+      "evidence": "External fixed Arc plate array retained from existing1080collection; only new墓表lookup derived from literal fixedGo QMTomb/ZhiGong9. No application function called."
+    },
+    {
+      "id": "yang-4-庚午",
+      "input": {
+        "dayGanzhi": "甲戌",
+        "hourGanzhi": "庚午",
+        "solarTerm": "冬至"
+      },
+      "suppliedJu": {
+        "yang": true,
+        "ju": 4,
+        "yuan": 2
+      },
+      "palaces": [
+        {
+          "number": 4,
+          "earth": "戊",
+          "heaven": "庚",
+          "star": "天心",
+          "door": "惊门"
+        },
+        {
+          "number": 9,
+          "earth": "癸",
+          "heaven": "丁",
+          "star": "天蓬",
+          "door": "开门"
+        },
+        {
+          "number": 2,
+          "earth": "丙",
+          "heaven": "壬",
+          "star": "天任",
+          "door": "休门"
+        },
+        {
+          "number": 3,
+          "earth": "乙",
+          "heaven": "辛",
+          "star": "天柱",
+          "door": "死门"
+        },
+        {
+          "number": 5,
+          "earth": "己",
+          "heaven": "",
+          "star": "",
+          "door": ""
+        },
+        {
+          "number": 7,
+          "earth": "辛",
+          "heaven": "乙",
+          "star": "天冲",
+          "door": "生门"
+        },
+        {
+          "number": 8,
+          "earth": "壬",
+          "heaven": "丙（寄己）",
+          "star": "天芮、天禽",
+          "door": "景门"
+        },
+        {
+          "number": 1,
+          "earth": "丁",
+          "heaven": "癸",
+          "star": "天英",
+          "door": "杜门"
+        },
+        {
+          "number": 6,
+          "earth": "庚",
+          "heaven": "戊",
+          "star": "天辅",
+          "door": "伤门"
+        }
+      ],
+      "checks": [
+        {
+          "stem": "甲",
+          "status": "not-directly-observed",
+          "targetBranch": "未",
+          "targetPalace": 2
+        },
+        {
+          "stem": "乙",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 7,
+          "lodged": false
+        },
+        {
+          "stem": "丙",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 8,
+          "lodged": false
+        },
+        {
+          "stem": "丁",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 9,
+          "lodged": false
+        },
+        {
+          "stem": "戊",
+          "status": "matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 6,
+          "lodged": false
+        },
+        {
+          "stem": "己",
+          "status": "matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 8,
+          "lodged": true
+        },
+        {
+          "stem": "庚",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 4,
+          "lodged": false
+        },
+        {
+          "stem": "辛",
+          "status": "not-matched",
+          "targetBranch": "辰",
+          "targetPalace": 4,
+          "actualPalace": 3,
+          "lodged": false
+        },
+        {
+          "stem": "壬",
+          "status": "not-matched",
+          "targetBranch": "辰",
+          "targetPalace": 4,
+          "actualPalace": 2,
+          "lodged": false
+        },
+        {
+          "stem": "癸",
+          "status": "not-matched",
+          "targetBranch": "未",
+          "targetPalace": 2,
+          "actualPalace": 1,
+          "lodged": false
+        }
+      ],
+      "tags": [
+        "yang",
+        "supplied-ju",
+        "center-hosted"
+      ],
+      "evidence": "External fixed Arc plate array retained from existing1080collection; only new墓表lookup derived from literal fixedGo QMTomb/ZhiGong9. No application function called."
+    },
+    {
+      "id": "yang-3-壬申",
+      "input": {
+        "dayGanzhi": "甲子",
+        "hourGanzhi": "壬申",
+        "solarTerm": "大寒"
+      },
+      "suppliedJu": {
+        "yang": true,
+        "ju": 3,
+        "yuan": 0
+      },
+      "palaces": [
+        {
+          "number": 4,
+          "earth": "己",
+          "heaven": "辛",
+          "star": "天心",
+          "door": "休门"
+        },
+        {
+          "number": 9,
+          "earth": "丁",
+          "heaven": "丙",
+          "star": "天蓬",
+          "door": "生门"
+        },
+        {
+          "number": 2,
+          "earth": "乙",
+          "heaven": "癸",
+          "star": "天任",
+          "door": "伤门"
+        },
+        {
+          "number": 3,
+          "earth": "戊",
+          "heaven": "壬",
+          "star": "天柱",
+          "door": "开门"
+        },
+        {
+          "number": 5,
+          "earth": "庚",
+          "heaven": "",
+          "star": "",
+          "door": ""
+        },
+        {
+          "number": 7,
+          "earth": "壬",
+          "heaven": "戊",
+          "star": "天冲",
+          "door": "杜门"
+        },
+        {
+          "number": 8,
+          "earth": "癸",
+          "heaven": "乙（寄庚）",
+          "star": "天芮、天禽",
+          "door": "惊门"
+        },
+        {
+          "number": 1,
+          "earth": "丙",
+          "heaven": "丁",
+          "star": "天英",
+          "door": "死门"
+        },
+        {
+          "number": 6,
+          "earth": "辛",
+          "heaven": "己",
+          "star": "天辅",
+          "door": "景门"
+        }
+      ],
+      "checks": [
+        {
+          "stem": "甲",
+          "status": "not-directly-observed",
+          "targetBranch": "未",
+          "targetPalace": 2
+        },
+        {
+          "stem": "乙",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 8,
+          "lodged": false
+        },
+        {
+          "stem": "丙",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 9,
+          "lodged": false
+        },
+        {
+          "stem": "丁",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 1,
+          "lodged": false
+        },
+        {
+          "stem": "戊",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 7,
+          "lodged": false
+        },
+        {
+          "stem": "己",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 6,
+          "lodged": false
+        },
+        {
+          "stem": "庚",
+          "status": "matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 8,
+          "lodged": true
+        },
+        {
+          "stem": "辛",
+          "status": "matched",
+          "targetBranch": "辰",
+          "targetPalace": 4,
+          "actualPalace": 4,
+          "lodged": false
+        },
+        {
+          "stem": "壬",
+          "status": "not-matched",
+          "targetBranch": "辰",
+          "targetPalace": 4,
+          "actualPalace": 3,
+          "lodged": false
+        },
+        {
+          "stem": "癸",
+          "status": "matched",
+          "targetBranch": "未",
+          "targetPalace": 2,
+          "actualPalace": 2,
+          "lodged": false
+        }
+      ],
+      "tags": [
+        "yang",
+        "supplied-ju",
+        "center-hosted",
+        "hosted-jixing"
+      ],
+      "evidence": "External fixed Arc plate array retained from existing1080collection; only new墓表lookup derived from literal fixedGo QMTomb/ZhiGong9. No application function called."
+    },
+    {
+      "id": "yin-1-甲子",
+      "input": {
+        "dayGanzhi": "己巳",
+        "hourGanzhi": "甲子",
+        "solarTerm": "大暑"
+      },
+      "suppliedJu": {
+        "yang": false,
+        "ju": 1,
+        "yuan": 1
+      },
+      "palaces": [
+        {
+          "number": 4,
+          "earth": "丁",
+          "heaven": "丁",
+          "star": "天辅",
+          "door": "杜门"
+        },
+        {
+          "number": 9,
+          "earth": "己",
+          "heaven": "己",
+          "star": "天英",
+          "door": "景门"
+        },
+        {
+          "number": 2,
+          "earth": "乙",
+          "heaven": "乙（寄癸）",
+          "star": "天芮、天禽",
+          "door": "死门"
+        },
+        {
+          "number": 3,
+          "earth": "丙",
+          "heaven": "丙",
+          "star": "天冲",
+          "door": "伤门"
+        },
+        {
+          "number": 5,
+          "earth": "癸",
+          "heaven": "",
+          "star": "",
+          "door": ""
+        },
+        {
+          "number": 7,
+          "earth": "辛",
+          "heaven": "辛",
+          "star": "天柱",
+          "door": "惊门"
+        },
+        {
+          "number": 8,
+          "earth": "庚",
+          "heaven": "庚",
+          "star": "天任",
+          "door": "生门"
+        },
+        {
+          "number": 1,
+          "earth": "戊",
+          "heaven": "戊",
+          "star": "天蓬",
+          "door": "休门"
+        },
+        {
+          "number": 6,
+          "earth": "壬",
+          "heaven": "壬",
+          "star": "天心",
+          "door": "开门"
+        }
+      ],
+      "checks": [
+        {
+          "stem": "甲",
+          "status": "not-directly-observed",
+          "targetBranch": "未",
+          "targetPalace": 2
+        },
+        {
+          "stem": "乙",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 2,
+          "lodged": false
+        },
+        {
+          "stem": "丙",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 3,
+          "lodged": false
+        },
+        {
+          "stem": "丁",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 4,
+          "lodged": false
+        },
+        {
+          "stem": "戊",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 1,
+          "lodged": false
+        },
+        {
+          "stem": "己",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 9,
+          "lodged": false
+        },
+        {
+          "stem": "庚",
+          "status": "matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 8,
+          "lodged": false
+        },
+        {
+          "stem": "辛",
+          "status": "not-matched",
+          "targetBranch": "辰",
+          "targetPalace": 4,
+          "actualPalace": 7,
+          "lodged": false
+        },
+        {
+          "stem": "壬",
+          "status": "not-matched",
+          "targetBranch": "辰",
+          "targetPalace": 4,
+          "actualPalace": 6,
+          "lodged": false
+        },
+        {
+          "stem": "癸",
+          "status": "matched",
+          "targetBranch": "未",
+          "targetPalace": 2,
+          "actualPalace": 2,
+          "lodged": true
+        }
+      ],
+      "tags": [
+        "yin",
+        "supplied-ju",
+        "center-hosted"
+      ],
+      "evidence": "External fixed Arc plate array retained from existing1080collection; only new墓表lookup derived from literal fixedGo QMTomb/ZhiGong9. No application function called."
+    },
+    {
+      "id": "yang-1-戊辰",
+      "input": {
+        "dayGanzhi": "甲子",
+        "hourGanzhi": "戊辰",
+        "solarTerm": "冬至"
+      },
+      "suppliedJu": {
+        "yang": true,
+        "ju": 1,
+        "yuan": 0
+      },
+      "palaces": [
+        {
+          "number": 4,
+          "earth": "辛",
+          "heaven": "辛",
+          "star": "天辅",
+          "door": "惊门"
+        },
+        {
+          "number": 9,
+          "earth": "乙",
+          "heaven": "乙",
+          "star": "天英",
+          "door": "开门"
+        },
+        {
+          "number": 2,
+          "earth": "己",
+          "heaven": "己（寄壬）",
+          "star": "天芮、天禽",
+          "door": "休门"
+        },
+        {
+          "number": 3,
+          "earth": "庚",
+          "heaven": "庚",
+          "star": "天冲",
+          "door": "死门"
+        },
+        {
+          "number": 5,
+          "earth": "壬",
+          "heaven": "",
+          "star": "",
+          "door": ""
+        },
+        {
+          "number": 7,
+          "earth": "丁",
+          "heaven": "丁",
+          "star": "天柱",
+          "door": "生门"
+        },
+        {
+          "number": 8,
+          "earth": "丙",
+          "heaven": "丙",
+          "star": "天任",
+          "door": "景门"
+        },
+        {
+          "number": 1,
+          "earth": "戊",
+          "heaven": "戊",
+          "star": "天蓬",
+          "door": "杜门"
+        },
+        {
+          "number": 6,
+          "earth": "癸",
+          "heaven": "癸",
+          "star": "天心",
+          "door": "伤门"
+        }
+      ],
+      "checks": [
+        {
+          "stem": "甲",
+          "status": "not-directly-observed",
+          "targetBranch": "未",
+          "targetPalace": 2
+        },
+        {
+          "stem": "乙",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 9,
+          "lodged": false
+        },
+        {
+          "stem": "丙",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 8,
+          "lodged": false
+        },
+        {
+          "stem": "丁",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 7,
+          "lodged": false
+        },
+        {
+          "stem": "戊",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 1,
+          "lodged": false
+        },
+        {
+          "stem": "己",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 2,
+          "lodged": false
+        },
+        {
+          "stem": "庚",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 3,
+          "lodged": false
+        },
+        {
+          "stem": "辛",
+          "status": "matched",
+          "targetBranch": "辰",
+          "targetPalace": 4,
+          "actualPalace": 4,
+          "lodged": false
+        },
+        {
+          "stem": "壬",
+          "status": "not-matched",
+          "targetBranch": "辰",
+          "targetPalace": 4,
+          "actualPalace": 2,
+          "lodged": true
+        },
+        {
+          "stem": "癸",
+          "status": "not-matched",
+          "targetBranch": "未",
+          "targetPalace": 2,
+          "actualPalace": 6,
+          "lodged": false
+        }
+      ],
+      "tags": [
+        "yang",
+        "supplied-ju",
+        "center-hosted",
+        "center-door"
+      ],
+      "evidence": "External fixed Arc plate array retained from existing1080collection; only new墓表lookup derived from literal fixedGo QMTomb/ZhiGong9. No application function called."
+    },
+    {
+      "id": "yang-1-甲戌",
+      "input": {
+        "dayGanzhi": "甲子",
+        "hourGanzhi": "甲戌",
+        "solarTerm": "冬至"
+      },
+      "suppliedJu": {
+        "yang": true,
+        "ju": 1,
+        "yuan": 0
+      },
+      "palaces": [
+        {
+          "number": 4,
+          "earth": "辛",
+          "heaven": "辛",
+          "star": "天辅",
+          "door": "杜门"
+        },
+        {
+          "number": 9,
+          "earth": "乙",
+          "heaven": "乙",
+          "star": "天英",
+          "door": "景门"
+        },
+        {
+          "number": 2,
+          "earth": "己",
+          "heaven": "己（寄壬）",
+          "star": "天芮、天禽",
+          "door": "死门"
+        },
+        {
+          "number": 3,
+          "earth": "庚",
+          "heaven": "庚",
+          "star": "天冲",
+          "door": "伤门"
+        },
+        {
+          "number": 5,
+          "earth": "壬",
+          "heaven": "",
+          "star": "",
+          "door": ""
+        },
+        {
+          "number": 7,
+          "earth": "丁",
+          "heaven": "丁",
+          "star": "天柱",
+          "door": "惊门"
+        },
+        {
+          "number": 8,
+          "earth": "丙",
+          "heaven": "丙",
+          "star": "天任",
+          "door": "生门"
+        },
+        {
+          "number": 1,
+          "earth": "戊",
+          "heaven": "戊",
+          "star": "天蓬",
+          "door": "休门"
+        },
+        {
+          "number": 6,
+          "earth": "癸",
+          "heaven": "癸",
+          "star": "天心",
+          "door": "开门"
+        }
+      ],
+      "checks": [
+        {
+          "stem": "甲",
+          "status": "not-directly-observed",
+          "targetBranch": "未",
+          "targetPalace": 2
+        },
+        {
+          "stem": "乙",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 9,
+          "lodged": false
+        },
+        {
+          "stem": "丙",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 8,
+          "lodged": false
+        },
+        {
+          "stem": "丁",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 7,
+          "lodged": false
+        },
+        {
+          "stem": "戊",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 1,
+          "lodged": false
+        },
+        {
+          "stem": "己",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 2,
+          "lodged": false
+        },
+        {
+          "stem": "庚",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 3,
+          "lodged": false
+        },
+        {
+          "stem": "辛",
+          "status": "matched",
+          "targetBranch": "辰",
+          "targetPalace": 4,
+          "actualPalace": 4,
+          "lodged": false
+        },
+        {
+          "stem": "壬",
+          "status": "not-matched",
+          "targetBranch": "辰",
+          "targetPalace": 4,
+          "actualPalace": 2,
+          "lodged": true
+        },
+        {
+          "stem": "癸",
+          "status": "not-matched",
+          "targetBranch": "未",
+          "targetPalace": 2,
+          "actualPalace": 6,
+          "lodged": false
+        }
+      ],
+      "tags": [
+        "yang",
+        "supplied-ju",
+        "center-hosted"
+      ],
+      "evidence": "External fixed Arc plate array retained from existing1080collection; only new墓表lookup derived from literal fixedGo QMTomb/ZhiGong9. No application function called."
+    },
+    {
+      "id": "yang-2-庚午",
+      "input": {
+        "dayGanzhi": "甲子",
+        "hourGanzhi": "庚午",
+        "solarTerm": "小寒"
+      },
+      "suppliedJu": {
+        "yang": true,
+        "ju": 2,
+        "yuan": 0
+      },
+      "palaces": [
+        {
+          "number": 4,
+          "earth": "庚",
+          "heaven": "戊（寄辛）",
+          "star": "天芮、天禽",
+          "door": "开门"
+        },
+        {
+          "number": 9,
+          "earth": "丙",
+          "heaven": "癸",
+          "star": "天柱",
+          "door": "休门"
+        },
+        {
+          "number": 2,
+          "earth": "戊",
+          "heaven": "壬",
+          "star": "天心",
+          "door": "生门"
+        },
+        {
+          "number": 3,
+          "earth": "己",
+          "heaven": "丙",
+          "star": "天英",
+          "door": "惊门"
+        },
+        {
+          "number": 5,
+          "earth": "辛",
+          "heaven": "",
+          "star": "",
+          "door": ""
+        },
+        {
+          "number": 7,
+          "earth": "癸",
+          "heaven": "乙",
+          "star": "天蓬",
+          "door": "伤门"
+        },
+        {
+          "number": 8,
+          "earth": "丁",
+          "heaven": "庚",
+          "star": "天辅",
+          "door": "死门"
+        },
+        {
+          "number": 1,
+          "earth": "乙",
+          "heaven": "己",
+          "star": "天冲",
+          "door": "景门"
+        },
+        {
+          "number": 6,
+          "earth": "壬",
+          "heaven": "丁",
+          "star": "天任",
+          "door": "杜门"
+        }
+      ],
+      "checks": [
+        {
+          "stem": "甲",
+          "status": "not-directly-observed",
+          "targetBranch": "未",
+          "targetPalace": 2
+        },
+        {
+          "stem": "乙",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 7,
+          "lodged": false
+        },
+        {
+          "stem": "丙",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 3,
+          "lodged": false
+        },
+        {
+          "stem": "丁",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 6,
+          "lodged": false
+        },
+        {
+          "stem": "戊",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 4,
+          "lodged": false
+        },
+        {
+          "stem": "己",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 1,
+          "lodged": false
+        },
+        {
+          "stem": "庚",
+          "status": "matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 8,
+          "lodged": false
+        },
+        {
+          "stem": "辛",
+          "status": "matched",
+          "targetBranch": "辰",
+          "targetPalace": 4,
+          "actualPalace": 4,
+          "lodged": true
+        },
+        {
+          "stem": "壬",
+          "status": "not-matched",
+          "targetBranch": "辰",
+          "targetPalace": 4,
+          "actualPalace": 2,
+          "lodged": false
+        },
+        {
+          "stem": "癸",
+          "status": "not-matched",
+          "targetBranch": "未",
+          "targetPalace": 2,
+          "actualPalace": 9,
+          "lodged": false
+        }
+      ],
+      "tags": [
+        "yang",
+        "supplied-ju",
+        "center-hosted"
+      ],
+      "evidence": "External fixed Arc plate array retained from existing1080collection; only new墓表lookup derived from literal fixedGo QMTomb/ZhiGong9. No application function called."
+    },
+    {
+      "id": "yin-1-己巳",
+      "input": {
+        "dayGanzhi": "己巳",
+        "hourGanzhi": "己巳",
+        "solarTerm": "大暑"
+      },
+      "suppliedJu": {
+        "yang": false,
+        "ju": 1,
+        "yuan": 1
+      },
+      "palaces": [
+        {
+          "number": 4,
+          "earth": "丁",
+          "heaven": "壬",
+          "star": "天心",
+          "door": "惊门"
+        },
+        {
+          "number": 9,
+          "earth": "己",
+          "heaven": "戊",
+          "star": "天蓬",
+          "door": "开门"
+        },
+        {
+          "number": 2,
+          "earth": "乙",
+          "heaven": "庚",
+          "star": "天任",
+          "door": "休门"
+        },
+        {
+          "number": 3,
+          "earth": "丙",
+          "heaven": "辛",
+          "star": "天柱",
+          "door": "死门"
+        },
+        {
+          "number": 5,
+          "earth": "癸",
+          "heaven": "",
+          "star": "",
+          "door": ""
+        },
+        {
+          "number": 7,
+          "earth": "辛",
+          "heaven": "丙",
+          "star": "天冲",
+          "door": "生门"
+        },
+        {
+          "number": 8,
+          "earth": "庚",
+          "heaven": "乙（寄癸）",
+          "star": "天芮、天禽",
+          "door": "景门"
+        },
+        {
+          "number": 1,
+          "earth": "戊",
+          "heaven": "己",
+          "star": "天英",
+          "door": "杜门"
+        },
+        {
+          "number": 6,
+          "earth": "壬",
+          "heaven": "丁",
+          "star": "天辅",
+          "door": "伤门"
+        }
+      ],
+      "checks": [
+        {
+          "stem": "甲",
+          "status": "not-directly-observed",
+          "targetBranch": "未",
+          "targetPalace": 2
+        },
+        {
+          "stem": "乙",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 8,
+          "lodged": false
+        },
+        {
+          "stem": "丙",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 7,
+          "lodged": false
+        },
+        {
+          "stem": "丁",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 6,
+          "lodged": false
+        },
+        {
+          "stem": "戊",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 9,
+          "lodged": false
+        },
+        {
+          "stem": "己",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 1,
+          "lodged": false
+        },
+        {
+          "stem": "庚",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 2,
+          "lodged": false
+        },
+        {
+          "stem": "辛",
+          "status": "not-matched",
+          "targetBranch": "辰",
+          "targetPalace": 4,
+          "actualPalace": 3,
+          "lodged": false
+        },
+        {
+          "stem": "壬",
+          "status": "matched",
+          "targetBranch": "辰",
+          "targetPalace": 4,
+          "actualPalace": 4,
+          "lodged": false
+        },
+        {
+          "stem": "癸",
+          "status": "not-matched",
+          "targetBranch": "未",
+          "targetPalace": 2,
+          "actualPalace": 8,
+          "lodged": true
+        }
+      ],
+      "tags": [
+        "yin",
+        "supplied-ju",
+        "center-hosted",
+        "center-door",
+        "colocated-patterns"
+      ],
+      "evidence": "External fixed Arc plate array retained from existing1080collection; only new墓表lookup derived from literal fixedGo QMTomb/ZhiGong9. No application function called."
+    },
+    {
+      "id": "yang-9-甲子",
+      "input": {
+        "dayGanzhi": "己巳",
+        "hourGanzhi": "甲子",
+        "solarTerm": "大寒"
+      },
+      "suppliedJu": {
+        "yang": true,
+        "ju": 9,
+        "yuan": 1
+      },
+      "palaces": [
+        {
+          "number": 4,
+          "earth": "壬",
+          "heaven": "壬",
+          "star": "天辅",
+          "door": "杜门"
+        },
+        {
+          "number": 9,
+          "earth": "戊",
+          "heaven": "戊",
+          "star": "天英",
+          "door": "景门"
+        },
+        {
+          "number": 2,
+          "earth": "庚",
+          "heaven": "庚（寄癸）",
+          "star": "天芮、天禽",
+          "door": "死门"
+        },
+        {
+          "number": 3,
+          "earth": "辛",
+          "heaven": "辛",
+          "star": "天冲",
+          "door": "伤门"
+        },
+        {
+          "number": 5,
+          "earth": "癸",
+          "heaven": "",
+          "star": "",
+          "door": ""
+        },
+        {
+          "number": 7,
+          "earth": "丙",
+          "heaven": "丙",
+          "star": "天柱",
+          "door": "惊门"
+        },
+        {
+          "number": 8,
+          "earth": "乙",
+          "heaven": "乙",
+          "star": "天任",
+          "door": "生门"
+        },
+        {
+          "number": 1,
+          "earth": "己",
+          "heaven": "己",
+          "star": "天蓬",
+          "door": "休门"
+        },
+        {
+          "number": 6,
+          "earth": "丁",
+          "heaven": "丁",
+          "star": "天心",
+          "door": "开门"
+        }
+      ],
+      "checks": [
+        {
+          "stem": "甲",
+          "status": "not-directly-observed",
+          "targetBranch": "未",
+          "targetPalace": 2
+        },
+        {
+          "stem": "乙",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 8,
+          "lodged": false
+        },
+        {
+          "stem": "丙",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 7,
+          "lodged": false
+        },
+        {
+          "stem": "丁",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 6,
+          "lodged": false
+        },
+        {
+          "stem": "戊",
+          "status": "not-matched",
+          "targetBranch": "戌",
+          "targetPalace": 6,
+          "actualPalace": 9,
+          "lodged": false
+        },
+        {
+          "stem": "己",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 1,
+          "lodged": false
+        },
+        {
+          "stem": "庚",
+          "status": "not-matched",
+          "targetBranch": "丑",
+          "targetPalace": 8,
+          "actualPalace": 2,
+          "lodged": false
+        },
+        {
+          "stem": "辛",
+          "status": "not-matched",
+          "targetBranch": "辰",
+          "targetPalace": 4,
+          "actualPalace": 3,
+          "lodged": false
+        },
+        {
+          "stem": "壬",
+          "status": "matched",
+          "targetBranch": "辰",
+          "targetPalace": 4,
+          "actualPalace": 4,
+          "lodged": false
+        },
+        {
+          "stem": "癸",
+          "status": "matched",
+          "targetBranch": "未",
+          "targetPalace": 2,
+          "actualPalace": 2,
+          "lodged": true
+        }
+      ],
+      "tags": [
+        "yang",
+        "supplied-ju",
+        "center-hosted"
+      ],
+      "evidence": "External fixed Arc plate array retained from existing1080collection; only new墓表lookup derived from literal fixedGo QMTomb/ZhiGong9. No application function called."
+    }
+  ],
+  "甲": "All real plate cases must preserve not-directly-observed; pure table positives are not chart observations."
+}

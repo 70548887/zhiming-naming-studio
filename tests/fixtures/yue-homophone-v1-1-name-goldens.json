@@ -1,0 +1,1524 @@
+{
+  "version": "yue-homophone-1.1-name-goldens/1.0.0",
+  "fixturePolicy": "All names and surname splits are artificial software verification inputs, not proposed baby names, real people, proven surname-specific readings or connected-speech recordings. Proof only establishes that the currently shipped finite reading table and full original character file explicitly contain each selected glyph reading; family confirmation is still required. 劉文 as a compound surname is a parser-scope fixture, not a claim it is an attested surname.",
+  "provenance": "Research assertions and original character-row evidence from independently verified 28-term package; expected values copied without invoking product evaluator.",
+  "cases": [
+    {
+      "id": "downstream-cross",
+      "surname": "夏",
+      "given": "柳安",
+      "tokens": [
+        "haa6",
+        "lau5",
+        "on1"
+      ],
+      "unconfirmedPositions": [],
+      "expectedStatus": "assessed",
+      "expected": [
+        [
+          "下流",
+          "tone-only",
+          "cross-surname-given"
+        ]
+      ],
+      "strictExpected": [],
+      "sourceProof": [
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 10820,
+          "readingId": "rime-yue:char:10820",
+          "glyph": "夏",
+          "token": "haa6",
+          "rawLine": "夏\thaa6",
+          "sha256": "b2ea975f19310636fa3ecc1b75366bc1c9ec269de5cb1c0bf06f1c5e6e1e9d02"
+        },
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 18788,
+          "readingId": "rime-yue:char:18788",
+          "glyph": "柳",
+          "token": "lau5",
+          "rawLine": "柳\tlau5",
+          "sha256": "ce6d3b2fc2e4eef399763af20b1de90a86eaeb092b113e4158191db5a404261a"
+        },
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 23926,
+          "readingId": "rime-yue:char:23926",
+          "glyph": "安",
+          "token": "on1",
+          "rawLine": "安\ton1",
+          "sha256": "3a7fd5cb820ccde262bc5e7ecc65aa69190d2d52c98dd5d8a27d1ca8301abb30"
+        }
+      ]
+    },
+    {
+      "id": "downstream-selected-other-surname-reading",
+      "surname": "夏",
+      "given": "柳安",
+      "tokens": [
+        "gaa2",
+        "lau5",
+        "on1"
+      ],
+      "unconfirmedPositions": [],
+      "expectedStatus": "assessed",
+      "expected": [],
+      "strictExpected": [],
+      "sourceProof": [
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 7823,
+          "readingId": "rime-yue:char:7823",
+          "glyph": "夏",
+          "token": "gaa2",
+          "rawLine": "夏\tgaa2\t3%",
+          "sha256": "33efe54469d19034041be343f41e7c81b1bb6742a156471253e1af234812d578"
+        },
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 18788,
+          "readingId": "rime-yue:char:18788",
+          "glyph": "柳",
+          "token": "lau5",
+          "rawLine": "柳\tlau5",
+          "sha256": "ce6d3b2fc2e4eef399763af20b1de90a86eaeb092b113e4158191db5a404261a"
+        },
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 23926,
+          "readingId": "rime-yue:char:23926",
+          "glyph": "安",
+          "token": "on1",
+          "rawLine": "安\ton1",
+          "sha256": "3a7fd5cb820ccde262bc5e7ecc65aa69190d2d52c98dd5d8a27d1ca8301abb30"
+        }
+      ]
+    },
+    {
+      "id": "fraud-whole",
+      "surname": "盧",
+      "given": "千",
+      "tokens": [
+        "lou4",
+        "cin1"
+      ],
+      "unconfirmedPositions": [],
+      "expectedStatus": "assessed",
+      "expected": [
+        [
+          "老千",
+          "tone-only",
+          "whole-full-name"
+        ]
+      ],
+      "strictExpected": [],
+      "sourceProof": [
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 20314,
+          "readingId": "rime-yue:char:20314",
+          "glyph": "盧",
+          "token": "lou4",
+          "rawLine": "盧\tlou4",
+          "sha256": "744909ba69e3e0cb1341a1167e4b6be912029949ec9fdf8a397159a1090b8c1e"
+        },
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 3431,
+          "readingId": "rime-yue:char:3431",
+          "glyph": "千",
+          "token": "cin1",
+          "rawLine": "千\tcin1",
+          "sha256": "dd9426ae3f33ad73c247300d2c16cd5c4b2d66b82b5f300eefd8a4f695cfb47d"
+        }
+      ]
+    },
+    {
+      "id": "fraud-other-selected-surname-reading",
+      "surname": "盧",
+      "given": "千",
+      "tokens": [
+        "leoi4",
+        "cin1"
+      ],
+      "unconfirmedPositions": [],
+      "expectedStatus": "assessed",
+      "expected": [],
+      "strictExpected": [],
+      "sourceProof": [
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 19048,
+          "readingId": "rime-yue:char:19048",
+          "glyph": "盧",
+          "token": "leoi4",
+          "rawLine": "盧\tleoi4\t3%",
+          "sha256": "90c6cf473d2a6bc483c8249471a890c06b62e37cbdf13d8e0ecc0340ab566308"
+        },
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 3431,
+          "readingId": "rime-yue:char:3431",
+          "glyph": "千",
+          "token": "cin1",
+          "rawLine": "千\tcin1",
+          "sha256": "dd9426ae3f33ad73c247300d2c16cd5c4b2d66b82b5f300eefd8a4f695cfb47d"
+        }
+      ]
+    },
+    {
+      "id": "hoodlum-man-strict",
+      "surname": "劉",
+      "given": "文",
+      "tokens": [
+        "lau4",
+        "man4"
+      ],
+      "unconfirmedPositions": [],
+      "expectedStatus": "assessed",
+      "expected": [
+        [
+          "流氓",
+          "exact",
+          "whole-full-name"
+        ]
+      ],
+      "strictExpected": [
+        [
+          "流氓",
+          "exact",
+          "whole-full-name"
+        ]
+      ],
+      "sourceProof": [
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 18701,
+          "readingId": "rime-yue:char:18701",
+          "glyph": "劉",
+          "token": "lau4",
+          "rawLine": "劉\tlau4",
+          "sha256": "47eaf5a2a1f55670769ac3c390dfb05a73916c24a7a35eefca10f7c1bb13b744"
+        },
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 21106,
+          "readingId": "rime-yue:char:21106",
+          "glyph": "文",
+          "token": "man4",
+          "rawLine": "文\tman4",
+          "sha256": "96701564ea533f367e83bd8b033bec7d7ad3a28b9c8fbf82753e4b31be3f983e"
+        }
+      ]
+    },
+    {
+      "id": "hoodlum-cross-strict",
+      "surname": "劉",
+      "given": "文安",
+      "tokens": [
+        "lau4",
+        "man4",
+        "on1"
+      ],
+      "unconfirmedPositions": [],
+      "expectedStatus": "assessed",
+      "expected": [
+        [
+          "流氓",
+          "exact",
+          "cross-surname-given"
+        ]
+      ],
+      "strictExpected": [
+        [
+          "流氓",
+          "exact",
+          "cross-surname-given"
+        ]
+      ],
+      "sourceProof": [
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 18701,
+          "readingId": "rime-yue:char:18701",
+          "glyph": "劉",
+          "token": "lau4",
+          "rawLine": "劉\tlau4",
+          "sha256": "47eaf5a2a1f55670769ac3c390dfb05a73916c24a7a35eefca10f7c1bb13b744"
+        },
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 21106,
+          "readingId": "rime-yue:char:21106",
+          "glyph": "文",
+          "token": "man4",
+          "rawLine": "文\tman4",
+          "sha256": "96701564ea533f367e83bd8b033bec7d7ad3a28b9c8fbf82753e4b31be3f983e"
+        },
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 23926,
+          "readingId": "rime-yue:char:23926",
+          "glyph": "安",
+          "token": "on1",
+          "rawLine": "安\ton1",
+          "sha256": "3a7fd5cb820ccde262bc5e7ecc65aa69190d2d52c98dd5d8a27d1ca8301abb30"
+        }
+      ]
+    },
+    {
+      "id": "hoodlum-mong-strict",
+      "surname": "劉",
+      "given": "望",
+      "tokens": [
+        "lau4",
+        "mong4"
+      ],
+      "unconfirmedPositions": [],
+      "expectedStatus": "assessed",
+      "expected": [
+        [
+          "流氓",
+          "exact",
+          "whole-full-name"
+        ]
+      ],
+      "strictExpected": [
+        [
+          "流氓",
+          "exact",
+          "whole-full-name"
+        ]
+      ],
+      "sourceProof": [
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 18701,
+          "readingId": "rime-yue:char:18701",
+          "glyph": "劉",
+          "token": "lau4",
+          "rawLine": "劉\tlau4",
+          "sha256": "47eaf5a2a1f55670769ac3c390dfb05a73916c24a7a35eefca10f7c1bb13b744"
+        },
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 21842,
+          "readingId": "rime-yue:char:21842",
+          "glyph": "望",
+          "token": "mong4",
+          "rawLine": "望\tmong4\t0%",
+          "sha256": "b083d4468bc45500f0fb67e9e74e55528d2660e114f93115df750d9f61627b0c"
+        }
+      ]
+    },
+    {
+      "id": "hoodlum-mong-tone",
+      "surname": "劉",
+      "given": "望",
+      "tokens": [
+        "lau4",
+        "mong6"
+      ],
+      "unconfirmedPositions": [],
+      "expectedStatus": "assessed",
+      "expected": [
+        [
+          "流氓",
+          "tone-only",
+          "whole-full-name"
+        ]
+      ],
+      "strictExpected": [],
+      "sourceProof": [
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 18701,
+          "readingId": "rime-yue:char:18701",
+          "glyph": "劉",
+          "token": "lau4",
+          "rawLine": "劉\tlau4",
+          "sha256": "47eaf5a2a1f55670769ac3c390dfb05a73916c24a7a35eefca10f7c1bb13b744"
+        },
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 21910,
+          "readingId": "rime-yue:char:21910",
+          "glyph": "望",
+          "token": "mong6",
+          "rawLine": "望\tmong6",
+          "sha256": "bf09747d9bef35a8260a5b3684d61b13b020537d82584ef8e20bbef05a74106d"
+        }
+      ]
+    },
+    {
+      "id": "hoodlum-other-surname-vowel",
+      "surname": "林",
+      "given": "文",
+      "tokens": [
+        "lam4",
+        "man4"
+      ],
+      "unconfirmedPositions": [],
+      "expectedStatus": "assessed",
+      "expected": [],
+      "strictExpected": [],
+      "sourceProof": [
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 18608,
+          "readingId": "rime-yue:char:18608",
+          "glyph": "林",
+          "token": "lam4",
+          "rawLine": "林\tlam4",
+          "sha256": "a6edfe56f9fd9f633d9b73492b98955823703e9774da390778261ff7464a7e61"
+        },
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 21106,
+          "readingId": "rime-yue:char:21106",
+          "glyph": "文",
+          "token": "man4",
+          "rawLine": "文\tman4",
+          "sha256": "96701564ea533f367e83bd8b033bec7d7ad3a28b9c8fbf82753e4b31be3f983e"
+        }
+      ]
+    },
+    {
+      "id": "stingy-given",
+      "surname": "陳",
+      "given": "果翰",
+      "tokens": [
+        "can4",
+        "gu2",
+        "hon6"
+      ],
+      "unconfirmedPositions": [],
+      "expectedStatus": "assessed",
+      "expected": [
+        [
+          "孤寒",
+          "tone-only",
+          "whole-given-name"
+        ]
+      ],
+      "strictExpected": [],
+      "sourceProof": [
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 2468,
+          "readingId": "rime-yue:char:2468",
+          "glyph": "陳",
+          "token": "can4",
+          "rawLine": "陳\tcan4",
+          "sha256": "f5cfe1a6ab3c8290196215e9295d06a40217ed7f37d603c8952550e0da2e61d4"
+        },
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 9793,
+          "readingId": "rime-yue:char:9793",
+          "glyph": "果",
+          "token": "gu2",
+          "rawLine": "果\tgu2\t3%",
+          "sha256": "7f7f089bd31cc22541b1f2576371bbed9b30c33d0ec1b51fd2458fd0e3d780af"
+        },
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 12585,
+          "readingId": "rime-yue:char:12585",
+          "glyph": "翰",
+          "token": "hon6",
+          "rawLine": "翰\thon6",
+          "sha256": "daf801d2b3e5e76f65e67aae40e6b0ca623b03bb916364d2dbb55e740f48432d"
+        }
+      ]
+    },
+    {
+      "id": "corruption-whole",
+      "surname": "譚",
+      "given": "於",
+      "tokens": [
+        "taam4",
+        "wu1"
+      ],
+      "unconfirmedPositions": [],
+      "expectedStatus": "assessed",
+      "expected": [
+        [
+          "貪污",
+          "tone-only",
+          "whole-full-name"
+        ]
+      ],
+      "strictExpected": [],
+      "sourceProof": [
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 28048,
+          "readingId": "rime-yue:char:28048",
+          "glyph": "譚",
+          "token": "taam4",
+          "rawLine": "譚\ttaam4",
+          "sha256": "0e981a4aa88eb4e040ae9875211b09583d50ece9782c0dacaa3d81fdc61b8948"
+        },
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 30532,
+          "readingId": "rime-yue:char:30532",
+          "glyph": "於",
+          "token": "wu1",
+          "rawLine": "於\twu1\t3%",
+          "sha256": "2a1e3a7940a27a5fe9475fa0025214e72a8454513ea5f2f7d65eb3a1e15da400"
+        }
+      ]
+    },
+    {
+      "id": "corruption-other-selected-given-reading",
+      "surname": "譚",
+      "given": "於",
+      "tokens": [
+        "taam4",
+        "jyu1"
+      ],
+      "unconfirmedPositions": [],
+      "expectedStatus": "assessed",
+      "expected": [],
+      "strictExpected": [],
+      "sourceProof": [
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 28048,
+          "readingId": "rime-yue:char:28048",
+          "glyph": "譚",
+          "token": "taam4",
+          "rawLine": "譚\ttaam4",
+          "sha256": "0e981a4aa88eb4e040ae9875211b09583d50ece9782c0dacaa3d81fdc61b8948"
+        },
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 15917,
+          "readingId": "rime-yue:char:15917",
+          "glyph": "於",
+          "token": "jyu1",
+          "rawLine": "於\tjyu1",
+          "sha256": "845cc4a664685853b9f71f28b9c1642c35ee76f401a64b4417aa8b3953be15ac"
+        }
+      ]
+    },
+    {
+      "id": "misfortune-whole",
+      "surname": "杜",
+      "given": "梅",
+      "tokens": [
+        "dou6",
+        "mui4"
+      ],
+      "unconfirmedPositions": [],
+      "expectedStatus": "assessed",
+      "expected": [
+        [
+          "倒霉",
+          "tone-only",
+          "whole-full-name"
+        ]
+      ],
+      "strictExpected": [],
+      "sourceProof": [
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 6064,
+          "readingId": "rime-yue:char:6064",
+          "glyph": "杜",
+          "token": "dou6",
+          "rawLine": "杜\tdou6",
+          "sha256": "2b4dd490ad22a19512967a6732f7e0bd01675e7fc0f0bf3305f62948488a47c8"
+        },
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 22086,
+          "readingId": "rime-yue:char:22086",
+          "glyph": "梅",
+          "token": "mui4",
+          "rawLine": "梅\tmui4",
+          "sha256": "139db3be26f37dee53b81f13f232950ac157b4200012323054af944b9fb3cfee"
+        }
+      ]
+    },
+    {
+      "id": "misfortune-initial-diff",
+      "surname": "陶",
+      "given": "梅",
+      "tokens": [
+        "tou4",
+        "mui4"
+      ],
+      "unconfirmedPositions": [],
+      "expectedStatus": "assessed",
+      "expected": [],
+      "strictExpected": [],
+      "sourceProof": [
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 29214,
+          "readingId": "rime-yue:char:29214",
+          "glyph": "陶",
+          "token": "tou4",
+          "rawLine": "陶\ttou4",
+          "sha256": "769b19dcba9bc34a39960ae2192975833047392d798af6ebaf460c7bc8dc512d"
+        },
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 22086,
+          "readingId": "rime-yue:char:22086",
+          "glyph": "梅",
+          "token": "mui4",
+          "rawLine": "梅\tmui4",
+          "sha256": "139db3be26f37dee53b81f13f232950ac157b4200012323054af944b9fb3cfee"
+        }
+      ]
+    },
+    {
+      "id": "arrogant-given",
+      "surname": "陳",
+      "given": "曉章",
+      "tokens": [
+        "can4",
+        "hiu2",
+        "zoeng1"
+      ],
+      "unconfirmedPositions": [],
+      "expectedStatus": "assessed",
+      "expected": [
+        [
+          "囂張",
+          "tone-only",
+          "whole-given-name"
+        ]
+      ],
+      "strictExpected": [],
+      "sourceProof": [
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 2468,
+          "readingId": "rime-yue:char:2468",
+          "glyph": "陳",
+          "token": "can4",
+          "rawLine": "陳\tcan4",
+          "sha256": "f5cfe1a6ab3c8290196215e9295d06a40217ed7f37d603c8952550e0da2e61d4"
+        },
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 12263,
+          "readingId": "rime-yue:char:12263",
+          "glyph": "曉",
+          "token": "hiu2",
+          "rawLine": "曉\thiu2",
+          "sha256": "91602ee36ead4269d03a9cbd1ffa6f4e3911e4d3eecd1bd03629aac782259c3d"
+        },
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 33523,
+          "readingId": "rime-yue:char:33523",
+          "glyph": "章",
+          "token": "zoeng1",
+          "rawLine": "章\tzoeng1",
+          "sha256": "7686532b8f08a8245980aa2b84bcf6f496681503f691402c8fa4ee79a1f6d8bc"
+        }
+      ]
+    },
+    {
+      "id": "arrogant-initial-diff",
+      "surname": "陳",
+      "given": "曉祥",
+      "tokens": [
+        "can4",
+        "hiu2",
+        "coeng4"
+      ],
+      "unconfirmedPositions": [],
+      "expectedStatus": "assessed",
+      "expected": [],
+      "strictExpected": [],
+      "sourceProof": [
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 2468,
+          "readingId": "rime-yue:char:2468",
+          "glyph": "陳",
+          "token": "can4",
+          "rawLine": "陳\tcan4",
+          "sha256": "f5cfe1a6ab3c8290196215e9295d06a40217ed7f37d603c8952550e0da2e61d4"
+        },
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 12263,
+          "readingId": "rime-yue:char:12263",
+          "glyph": "曉",
+          "token": "hiu2",
+          "rawLine": "曉\thiu2",
+          "sha256": "91602ee36ead4269d03a9cbd1ffa6f4e3911e4d3eecd1bd03629aac782259c3d"
+        },
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 3948,
+          "readingId": "rime-yue:char:3948",
+          "glyph": "祥",
+          "token": "coeng4",
+          "rawLine": "祥\tcoeng4",
+          "sha256": "3e4db76cdc4dfa4f08d16af485ac7328e0bf5e7fddb7045ba5e19bf703bd5c4f"
+        }
+      ]
+    },
+    {
+      "id": "profiteer-whole",
+      "surname": "簡",
+      "given": "湘",
+      "tokens": [
+        "gaan2",
+        "soeng1"
+      ],
+      "unconfirmedPositions": [],
+      "expectedStatus": "assessed",
+      "expected": [
+        [
+          "奸商",
+          "tone-only",
+          "whole-full-name"
+        ]
+      ],
+      "strictExpected": [],
+      "sourceProof": [
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 8042,
+          "readingId": "rime-yue:char:8042",
+          "glyph": "簡",
+          "token": "gaan2",
+          "rawLine": "簡\tgaan2",
+          "sha256": "361ee9a949c9130bde972f0b4cd2104ea7582f105c1b3cbad2a634f7b2a036ec"
+        },
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 27367,
+          "readingId": "rime-yue:char:27367",
+          "glyph": "湘",
+          "token": "soeng1",
+          "rawLine": "湘\tsoeng1",
+          "sha256": "07c55787c3c6a955d40ade3010615471ee82df38731399e2ec313a155e26e091"
+        }
+      ]
+    },
+    {
+      "id": "profiteer-initial-diff",
+      "surname": "簡",
+      "given": "祥",
+      "tokens": [
+        "gaan2",
+        "coeng4"
+      ],
+      "unconfirmedPositions": [],
+      "expectedStatus": "assessed",
+      "expected": [],
+      "strictExpected": [],
+      "sourceProof": [
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 8042,
+          "readingId": "rime-yue:char:8042",
+          "glyph": "簡",
+          "token": "gaan2",
+          "rawLine": "簡\tgaan2",
+          "sha256": "361ee9a949c9130bde972f0b4cd2104ea7582f105c1b3cbad2a634f7b2a036ec"
+        },
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 3948,
+          "readingId": "rime-yue:char:3948",
+          "glyph": "祥",
+          "token": "coeng4",
+          "rawLine": "祥\tcoeng4",
+          "sha256": "3e4db76cdc4dfa4f08d16af485ac7328e0bf5e7fddb7045ba5e19bf703bd5c4f"
+        }
+      ]
+    },
+    {
+      "id": "gambling-whole",
+      "surname": "蘭",
+      "given": "道",
+      "tokens": [
+        "laan4",
+        "dou6"
+      ],
+      "unconfirmedPositions": [],
+      "expectedStatus": "assessed",
+      "expected": [
+        [
+          "爛賭",
+          "tone-only",
+          "whole-full-name"
+        ]
+      ],
+      "strictExpected": [],
+      "sourceProof": [
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 18355,
+          "readingId": "rime-yue:char:18355",
+          "glyph": "蘭",
+          "token": "laan4",
+          "rawLine": "蘭\tlaan4",
+          "sha256": "8ae06e0ddf305b2cfb9f8a8b8a70a455d78367b1ae2dca427af4672686313259"
+        },
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 6086,
+          "readingId": "rime-yue:char:6086",
+          "glyph": "道",
+          "token": "dou6",
+          "rawLine": "道\tdou6",
+          "sha256": "379e42e7a3d34731503a433d968ed6b0b49db67737298a6fee90373d317371f6"
+        }
+      ]
+    },
+    {
+      "id": "gambling-final-diff",
+      "surname": "藍",
+      "given": "道",
+      "tokens": [
+        "laam4",
+        "dou6"
+      ],
+      "unconfirmedPositions": [],
+      "expectedStatus": "assessed",
+      "expected": [],
+      "strictExpected": [],
+      "sourceProof": [
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 18308,
+          "readingId": "rime-yue:char:18308",
+          "glyph": "藍",
+          "token": "laam4",
+          "rawLine": "藍\tlaam4",
+          "sha256": "36fd347f9e43095a1afc3e20e99c374410cedefdde3b1361509ad4af993f3c78"
+        },
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 6086,
+          "readingId": "rime-yue:char:6086",
+          "glyph": "道",
+          "token": "dou6",
+          "rawLine": "道\tdou6",
+          "sha256": "379e42e7a3d34731503a433d968ed6b0b49db67737298a6fee90373d317371f6"
+        }
+      ]
+    },
+    {
+      "id": "lazy-given",
+      "surname": "陳",
+      "given": "蘭朵",
+      "tokens": [
+        "can4",
+        "laan4",
+        "do2"
+      ],
+      "unconfirmedPositions": [],
+      "expectedStatus": "assessed",
+      "expected": [
+        [
+          "懶惰",
+          "tone-only",
+          "whole-given-name"
+        ]
+      ],
+      "strictExpected": [],
+      "sourceProof": [
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 2468,
+          "readingId": "rime-yue:char:2468",
+          "glyph": "陳",
+          "token": "can4",
+          "rawLine": "陳\tcan4",
+          "sha256": "f5cfe1a6ab3c8290196215e9295d06a40217ed7f37d603c8952550e0da2e61d4"
+        },
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 18355,
+          "readingId": "rime-yue:char:18355",
+          "glyph": "蘭",
+          "token": "laan4",
+          "rawLine": "蘭\tlaan4",
+          "sha256": "8ae06e0ddf305b2cfb9f8a8b8a70a455d78367b1ae2dca427af4672686313259"
+        },
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 5817,
+          "readingId": "rime-yue:char:5817",
+          "glyph": "朵",
+          "token": "do2",
+          "rawLine": "朵\tdo2",
+          "sha256": "2a73e8f5a6e9f94b495d5e0e629cba47bf422324f33f0b81d3e598609588b3d5"
+        }
+      ]
+    },
+    {
+      "id": "lazy-other-selected-given-reading",
+      "surname": "陳",
+      "given": "蘭朵",
+      "tokens": [
+        "can4",
+        "laan4",
+        "doe2"
+      ],
+      "unconfirmedPositions": [],
+      "expectedStatus": "assessed",
+      "expected": [],
+      "strictExpected": [],
+      "sourceProof": [
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 2468,
+          "readingId": "rime-yue:char:2468",
+          "glyph": "陳",
+          "token": "can4",
+          "rawLine": "陳\tcan4",
+          "sha256": "f5cfe1a6ab3c8290196215e9295d06a40217ed7f37d603c8952550e0da2e61d4"
+        },
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 18355,
+          "readingId": "rime-yue:char:18355",
+          "glyph": "蘭",
+          "token": "laan4",
+          "rawLine": "蘭\tlaan4",
+          "sha256": "8ae06e0ddf305b2cfb9f8a8b8a70a455d78367b1ae2dca427af4672686313259"
+        },
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 5857,
+          "readingId": "rime-yue:char:5857",
+          "glyph": "朵",
+          "token": "doe2",
+          "rawLine": "朵\tdoe2\t5%",
+          "sha256": "c5fa8331e158c8e05bdb88913f9e9f6207758e70b1f626c904e977ae4f3039fb"
+        }
+      ]
+    },
+    {
+      "id": "lie-whole",
+      "surname": "戴",
+      "given": "華",
+      "tokens": [
+        "daai3",
+        "waa4"
+      ],
+      "unconfirmedPositions": [],
+      "expectedStatus": "assessed",
+      "expected": [
+        [
+          "大話",
+          "tone-only",
+          "whole-full-name"
+        ]
+      ],
+      "strictExpected": [],
+      "sourceProof": [
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 4666,
+          "readingId": "rime-yue:char:4666",
+          "glyph": "戴",
+          "token": "daai3",
+          "rawLine": "戴\tdaai3",
+          "sha256": "bb167c92bfbd77b47bd1ce236eb304ef7152d86c1d01c969db75b1ff3a2423c6"
+        },
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 29456,
+          "readingId": "rime-yue:char:29456",
+          "glyph": "華",
+          "token": "waa4",
+          "rawLine": "華\twaa4",
+          "sha256": "aa97b3e8523c64fa89dca8cdb7cddb6fa82a735b4213d30634292ed1bc422449"
+        }
+      ]
+    },
+    {
+      "id": "lie-other-selected-given-reading",
+      "surname": "戴",
+      "given": "華",
+      "tokens": [
+        "daai3",
+        "faa1"
+      ],
+      "unconfirmedPositions": [],
+      "expectedStatus": "assessed",
+      "expected": [],
+      "strictExpected": [],
+      "sourceProof": [
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 4666,
+          "readingId": "rime-yue:char:4666",
+          "glyph": "戴",
+          "token": "daai3",
+          "rawLine": "戴\tdaai3",
+          "sha256": "bb167c92bfbd77b47bd1ce236eb304ef7152d86c1d01c969db75b1ff3a2423c6"
+        },
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 6299,
+          "readingId": "rime-yue:char:6299",
+          "glyph": "華",
+          "token": "faa1",
+          "rawLine": "華\tfaa1\t3%",
+          "sha256": "89288fd5f7634bcf048ae25aa8115325139146d9315fab0f5528ee0a6267302e"
+        }
+      ]
+    },
+    {
+      "id": "coarse-speech-whole",
+      "surname": "曹",
+      "given": "厚",
+      "tokens": [
+        "cou4",
+        "hau5"
+      ],
+      "unconfirmedPositions": [],
+      "expectedStatus": "assessed",
+      "expected": [
+        [
+          "粗口",
+          "tone-only",
+          "whole-full-name"
+        ]
+      ],
+      "strictExpected": [],
+      "sourceProof": [
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 4154,
+          "readingId": "rime-yue:char:4154",
+          "glyph": "曹",
+          "token": "cou4",
+          "rawLine": "曹\tcou4",
+          "sha256": "e0af56bec61e234dc72d644a316545df4a37fe81530d54c064b5458dd884bb52"
+        },
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 11698,
+          "readingId": "rime-yue:char:11698",
+          "glyph": "厚",
+          "token": "hau5",
+          "rawLine": "厚\thau5",
+          "sha256": "c912af5f06a00ec463218a22490979901ecec927c45e7222ad0754c89a0c8c00"
+        }
+      ]
+    },
+    {
+      "id": "coarse-speech-vowel-diff",
+      "surname": "曹",
+      "given": "皓",
+      "tokens": [
+        "cou4",
+        "hou6"
+      ],
+      "unconfirmedPositions": [],
+      "expectedStatus": "assessed",
+      "expected": [],
+      "strictExpected": [],
+      "sourceProof": [
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 4154,
+          "readingId": "rime-yue:char:4154",
+          "glyph": "曹",
+          "token": "cou4",
+          "rawLine": "曹\tcou4",
+          "sha256": "e0af56bec61e234dc72d644a316545df4a37fe81530d54c064b5458dd884bb52"
+        },
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 12820,
+          "readingId": "rime-yue:char:12820",
+          "glyph": "皓",
+          "token": "hou6",
+          "rawLine": "皓\thou6",
+          "sha256": "56d282d91f7b0442ecc4aa690cd5070dc12d8183dd66f7ade2e0111dc99124c9"
+        }
+      ]
+    },
+    {
+      "id": "mislead-whole",
+      "surname": "吳",
+      "given": "道",
+      "tokens": [
+        "ng4",
+        "dou6"
+      ],
+      "unconfirmedPositions": [],
+      "expectedStatus": "assessed",
+      "expected": [
+        [
+          "誤導",
+          "tone-only",
+          "whole-full-name"
+        ]
+      ],
+      "strictExpected": [],
+      "sourceProof": [
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 22718,
+          "readingId": "rime-yue:char:22718",
+          "glyph": "吳",
+          "token": "ng4",
+          "rawLine": "吳\tng4",
+          "sha256": "f7b415a675b0a41c2f8c88fd4f4b6031e914b67c6abc4e06e3a57727458b0b7c"
+        },
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 6086,
+          "readingId": "rime-yue:char:6086",
+          "glyph": "道",
+          "token": "dou6",
+          "rawLine": "道\tdou6",
+          "sha256": "379e42e7a3d34731503a433d968ed6b0b49db67737298a6fee90373d317371f6"
+        }
+      ]
+    },
+    {
+      "id": "mislead-onset-diff",
+      "surname": "吳",
+      "given": "陶",
+      "tokens": [
+        "ng4",
+        "tou4"
+      ],
+      "unconfirmedPositions": [],
+      "expectedStatus": "assessed",
+      "expected": [],
+      "strictExpected": [],
+      "sourceProof": [
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 22718,
+          "readingId": "rime-yue:char:22718",
+          "glyph": "吳",
+          "token": "ng4",
+          "rawLine": "吳\tng4",
+          "sha256": "f7b415a675b0a41c2f8c88fd4f4b6031e914b67c6abc4e06e3a57727458b0b7c"
+        },
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 29214,
+          "readingId": "rime-yue:char:29214",
+          "glyph": "陶",
+          "token": "tou4",
+          "rawLine": "陶\ttou4",
+          "sha256": "769b19dcba9bc34a39960ae2192975833047392d798af6ebaf460c7bc8dc512d"
+        }
+      ]
+    },
+    {
+      "id": "impolite-given",
+      "surname": "陳",
+      "given": "實禮",
+      "tokens": [
+        "can4",
+        "sat6",
+        "lai5"
+      ],
+      "unconfirmedPositions": [],
+      "expectedStatus": "assessed",
+      "expected": [
+        [
+          "失禮",
+          "tone-only",
+          "whole-given-name"
+        ]
+      ],
+      "strictExpected": [],
+      "sourceProof": [
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 2468,
+          "readingId": "rime-yue:char:2468",
+          "glyph": "陳",
+          "token": "can4",
+          "rawLine": "陳\tcan4",
+          "sha256": "f5cfe1a6ab3c8290196215e9295d06a40217ed7f37d603c8952550e0da2e61d4"
+        },
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 25740,
+          "readingId": "rime-yue:char:25740",
+          "glyph": "實",
+          "token": "sat6",
+          "rawLine": "實\tsat6",
+          "sha256": "239ad0088b5c09018777e314811e167547bf9ec2174ade4131ffa370144bc0be"
+        },
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 18494,
+          "readingId": "rime-yue:char:18494",
+          "glyph": "禮",
+          "token": "lai5",
+          "rawLine": "禮\tlai5",
+          "sha256": "3020e741e0ddb0bde3ef1c4f364fdc304a2b6e37f3e77906b50f03df3bf730bc"
+        }
+      ]
+    },
+    {
+      "id": "dislike-whole",
+      "surname": "嚴",
+      "given": "熙",
+      "tokens": [
+        "jim4",
+        "hei1"
+      ],
+      "unconfirmedPositions": [],
+      "expectedStatus": "assessed",
+      "expected": [
+        [
+          "嫌棄",
+          "tone-only",
+          "whole-full-name"
+        ]
+      ],
+      "strictExpected": [],
+      "sourceProof": [
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 14555,
+          "readingId": "rime-yue:char:14555",
+          "glyph": "嚴",
+          "token": "jim4",
+          "rawLine": "嚴\tjim4",
+          "sha256": "a12160fbfd7a6ab4e1fd77b42db1261ccde508ddb94ec652e2328327e4674ad4"
+        },
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 11778,
+          "readingId": "rime-yue:char:11778",
+          "glyph": "熙",
+          "token": "hei1",
+          "rawLine": "熙\thei1",
+          "sha256": "18446581cf6624d8d4de0b6697cfb8df8b4f06d25d3d1586e66cae35fb699e60"
+        }
+      ]
+    },
+    {
+      "id": "unfeeling-whole",
+      "surname": "武",
+      "given": "晴",
+      "tokens": [
+        "mou5",
+        "cing4"
+      ],
+      "unconfirmedPositions": [],
+      "expectedStatus": "assessed",
+      "expected": [
+        [
+          "無情",
+          "tone-only",
+          "whole-full-name"
+        ]
+      ],
+      "strictExpected": [],
+      "sourceProof": [
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 21996,
+          "readingId": "rime-yue:char:21996",
+          "glyph": "武",
+          "token": "mou5",
+          "rawLine": "武\tmou5",
+          "sha256": "c3335a63bd0c0e919c9274ebde992500fe49760e8ceadb9489e04e96816ae387"
+        },
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 3580,
+          "readingId": "rime-yue:char:3580",
+          "glyph": "晴",
+          "token": "cing4",
+          "rawLine": "晴\tcing4",
+          "sha256": "7bdb359cb0bb11d017bdb12cb3fc04732ee3babb12bf75655b415bf17a437fe2"
+        }
+      ]
+    },
+    {
+      "id": "unfeeling-onset-diff",
+      "surname": "吳",
+      "given": "晴",
+      "tokens": [
+        "ng4",
+        "cing4"
+      ],
+      "unconfirmedPositions": [],
+      "expectedStatus": "assessed",
+      "expected": [],
+      "strictExpected": [],
+      "sourceProof": [
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 22718,
+          "readingId": "rime-yue:char:22718",
+          "glyph": "吳",
+          "token": "ng4",
+          "rawLine": "吳\tng4",
+          "sha256": "f7b415a675b0a41c2f8c88fd4f4b6031e914b67c6abc4e06e3a57727458b0b7c"
+        },
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 3580,
+          "readingId": "rime-yue:char:3580",
+          "glyph": "晴",
+          "token": "cing4",
+          "rawLine": "晴\tcing4",
+          "sha256": "7bdb359cb0bb11d017bdb12cb3fc04732ee3babb12bf75655b415bf17a437fe2"
+        }
+      ]
+    },
+    {
+      "id": "nonadjacent-not-joined",
+      "surname": "劉",
+      "given": "安文",
+      "tokens": [
+        "lau4",
+        "on1",
+        "man4"
+      ],
+      "unconfirmedPositions": [],
+      "expectedStatus": "assessed",
+      "expected": [],
+      "strictExpected": [],
+      "sourceProof": [
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 18701,
+          "readingId": "rime-yue:char:18701",
+          "glyph": "劉",
+          "token": "lau4",
+          "rawLine": "劉\tlau4",
+          "sha256": "47eaf5a2a1f55670769ac3c390dfb05a73916c24a7a35eefca10f7c1bb13b744"
+        },
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 23926,
+          "readingId": "rime-yue:char:23926",
+          "glyph": "安",
+          "token": "on1",
+          "rawLine": "安\ton1",
+          "sha256": "3a7fd5cb820ccde262bc5e7ecc65aa69190d2d52c98dd5d8a27d1ca8301abb30"
+        },
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 21106,
+          "readingId": "rime-yue:char:21106",
+          "glyph": "文",
+          "token": "man4",
+          "rawLine": "文\tman4",
+          "sha256": "96701564ea533f367e83bd8b033bec7d7ad3a28b9c8fbf82753e4b31be3f983e"
+        }
+      ]
+    },
+    {
+      "id": "no-surname-internal-only",
+      "surname": "劉文",
+      "given": "安",
+      "tokens": [
+        "lau4",
+        "man4",
+        "on1"
+      ],
+      "unconfirmedPositions": [],
+      "expectedStatus": "assessed",
+      "expected": [],
+      "strictExpected": [],
+      "sourceProof": [
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 18701,
+          "readingId": "rime-yue:char:18701",
+          "glyph": "劉",
+          "token": "lau4",
+          "rawLine": "劉\tlau4",
+          "sha256": "47eaf5a2a1f55670769ac3c390dfb05a73916c24a7a35eefca10f7c1bb13b744"
+        },
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 21106,
+          "readingId": "rime-yue:char:21106",
+          "glyph": "文",
+          "token": "man4",
+          "rawLine": "文\tman4",
+          "sha256": "96701564ea533f367e83bd8b033bec7d7ad3a28b9c8fbf82753e4b31be3f983e"
+        },
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 23926,
+          "readingId": "rime-yue:char:23926",
+          "glyph": "安",
+          "token": "on1",
+          "rawLine": "安\ton1",
+          "sha256": "3a7fd5cb820ccde262bc5e7ecc65aa69190d2d52c98dd5d8a27d1ca8301abb30"
+        }
+      ]
+    },
+    {
+      "id": "hoodlum-man-strict-unconfirmed",
+      "surname": "劉",
+      "given": "文",
+      "tokens": [
+        "lau4",
+        "man4"
+      ],
+      "unconfirmedPositions": [
+        0
+      ],
+      "expectedStatus": "not-assessed",
+      "expected": [],
+      "strictExpected": [],
+      "sourceProof": [
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 18701,
+          "readingId": "rime-yue:char:18701",
+          "glyph": "劉",
+          "token": "lau4",
+          "rawLine": "劉\tlau4",
+          "sha256": "47eaf5a2a1f55670769ac3c390dfb05a73916c24a7a35eefca10f7c1bb13b744"
+        },
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 21106,
+          "readingId": "rime-yue:char:21106",
+          "glyph": "文",
+          "token": "man4",
+          "rawLine": "文\tman4",
+          "sha256": "96701564ea533f367e83bd8b033bec7d7ad3a28b9c8fbf82753e4b31be3f983e"
+        }
+      ]
+    },
+    {
+      "id": "fraud-whole-unconfirmed",
+      "surname": "盧",
+      "given": "千",
+      "tokens": [
+        "lou4",
+        "cin1"
+      ],
+      "unconfirmedPositions": [
+        0
+      ],
+      "expectedStatus": "not-assessed",
+      "expected": [],
+      "strictExpected": [],
+      "sourceProof": [
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 20314,
+          "readingId": "rime-yue:char:20314",
+          "glyph": "盧",
+          "token": "lou4",
+          "rawLine": "盧\tlou4",
+          "sha256": "744909ba69e3e0cb1341a1167e4b6be912029949ec9fdf8a397159a1090b8c1e"
+        },
+        {
+          "sourceId": "rime-cantonese-jyutping",
+          "sourceFile": "jyut6ping3.chars.dict.yaml",
+          "sourceLine": 3431,
+          "readingId": "rime-yue:char:3431",
+          "glyph": "千",
+          "token": "cin1",
+          "rawLine": "千\tcin1",
+          "sha256": "dd9426ae3f33ad73c247300d2c16cd5c4b2d66b82b5f300eefd8a4f695cfb47d"
+        }
+      ]
+    }
+  ]
+}

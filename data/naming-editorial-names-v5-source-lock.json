@@ -1,0 +1,57 @@
+{
+  "version": "naming-editorial-5.0.0",
+  "hashConvention": "sha256(JSON.stringify(fileHashes)); sorted relative path keys",
+  "sources": [
+    {
+      "id": "naming-editorial-names-v5-fixed",
+      "name": "项目命名出处5.0 · 27名逐条语境与两字原词条纠正",
+      "url": "local:data/naming-editorial-v5.json",
+      "commit": "naming-editorial-5.0.0;2026.10.20.1",
+      "license": "CC0-1.0 (project review only; original dictionary CC-BY-ND-3.0-TW and source MIT retained)",
+      "files": [
+        "data/dataset-v5.json",
+        "data/dataset.json",
+        "data/knowledge-v5.sqlite",
+        "data/knowledge.sqlite",
+        "data/naming-editorial-readings-source-lock.json",
+        "data/naming-editorial-v4-baseline.json",
+        "data/naming-editorial-v4.json",
+        "data/naming-editorial-v5-NOTICE.md",
+        "data/naming-editorial-v5.json",
+        "data/naming-editorial.json",
+        "data/raw/CC-BY-ND-3.0-TW.html",
+        "data/raw/moe-README.md",
+        "data/raw/moe-revised.json.gz",
+        "data/raw/naming-editorial-v5-character-overrides.json",
+        "data/raw/naming-editorial-v5-name-review.json",
+        "data/raw/poetry-LICENSE",
+        "data/raw/shijing.json",
+        "data/raw/zhouyi-LICENSE",
+        "data/raw/zhouyi.tar.gz"
+      ],
+      "sha256": "c743b14409601f9947b89cbb3015f64652a987aff8946e89e841b830dbdd94c1",
+      "note": "27新增名逐条绑定完整引文、同句摘录、默认读音word及原义；仅志/家原词条纠正。旧3/4和原字库保留，不向779字泛称专家审定，不把新增名义泛化给单字。",
+      "fileHashes": {
+        "data/dataset-v5.json": "0799bd0b5088bb99f3ab34ac02340fbcfc5a8a4072cee46caa41ab963b1d56af",
+        "data/dataset.json": "c5e6934fab8892e2f162cb584c0869c253b838b5f41d7087d9e7630f648fe6ae",
+        "data/knowledge-v5.sqlite": "21bcc3b2e60f4051bdb220c126db6121259ead36947109974b01cc386d87c1df",
+        "data/knowledge.sqlite": "f264eb26f631441a31324e9be14058f38d02d444070e00e9e0690b4f0b9ff7cc",
+        "data/naming-editorial-readings-source-lock.json": "33d1cac2da2ec2dc6705ecbaa160900f20e6c71ec10c52d065a0b631199f6d43",
+        "data/naming-editorial-v4-baseline.json": "3cb4dde1150ef79076e9ea230272db532d08737fb4fb2e61b95bb707bc9f97fe",
+        "data/naming-editorial-v4.json": "d24898eb63438d7b24262668eb3b36770f211fade015b28eeb361700a58ca6ce",
+        "data/naming-editorial-v5-NOTICE.md": "14e6f31747ff0d86221b6aedc109917c63bc615e12d24e2a2a0e8fb5c45bceda",
+        "data/naming-editorial-v5.json": "bb8d3d255b42a6b67932988e13ceb2d7a7a1c6ef8fbbcc65312b9a50b5519da8",
+        "data/naming-editorial.json": "97c3162238c9493174544580a338fb0852d2784fbeac712fbd8e234f99945195",
+        "data/raw/CC-BY-ND-3.0-TW.html": "04e6ef69a223b6e13c93c97a918ad5fd0dbb9fc34ae307f4449ed264e2d4108f",
+        "data/raw/moe-README.md": "a93321d9381bc1cf34b4ad844f71607fa748c86c0b228ae37d46720d6a659cb2",
+        "data/raw/moe-revised.json.gz": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "data/raw/naming-editorial-v5-character-overrides.json": "6cbc8488bd9d1dc90f2054bbe3df3cc2dc5a82f735112102fbc8fffc2926e037",
+        "data/raw/naming-editorial-v5-name-review.json": "27bc7df6f1d7267ae9bef094e6cbfe0b8685d1265755b82d99b34bc0ec2978a2",
+        "data/raw/poetry-LICENSE": "c195319aeaa3ffcbe16aa5d26eec19eae5a42f84337dd2b3dc3c9d5ccbbd6507",
+        "data/raw/shijing.json": "3c7ca54d59424542ada99adfcc85420287fbbd5c8a511e9baf705cb2b04051e7",
+        "data/raw/zhouyi-LICENSE": "0506d67239c89a3d3b14e253ed29e20e2e9259b41c4b32031eab5ac22ed2811f",
+        "data/raw/zhouyi.tar.gz": "0a847c0b9b876f9926e4896399e31ee44f88292db107bc865d70e2d7308b15a0"
+      }
+    }
+  ]
+}

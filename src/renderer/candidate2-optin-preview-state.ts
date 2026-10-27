@@ -1,0 +1,7 @@
+import type {Candidate2NamingEligibility} from '../shared/candidate2-naming-eligibility-v1';
+import type {NamingPreferences} from '../shared/types';
+import type {Candidate2OptInChoice,Candidate2OptInIntent} from './Candidate2OptInPanel';
+import type {Candidate2ReadonlyPreview} from './Candidate2OptInPreviewContainer';
+export interface Candidate2OptInPreviewContext {preferences:NamingPreferences;contextKey:string;choice:Candidate2OptInChoice;eligibility?:Candidate2NamingEligibility;preview?:Candidate2ReadonlyPreview;}
+export interface Candidate2OptInPreviewState {contextKey:string;choice:Candidate2OptInChoice;eligibility?:Candidate2NamingEligibility;preview?:Candidate2ReadonlyPreview;}
+export function createCandidate2OptInPreviewState({getContext,onIntent}:{getContext:()=>Candidate2OptInPreviewContext;onIntent?:(intent:Candidate2OptInIntent)=>void}){let state:Candidate2OptInPreviewState={...getContext()};return{getSnapshot:()=>state,refresh:()=>{const c=getContext();state=c.contextKey===state.contextKey?{...state,...c}:{contextKey:c.contextKey,choice:'legacy',eligibility:c.eligibility,preview:c.preview};},choose:(choice:Candidate2OptInChoice)=>{const c=getContext();if(choice===state.choice)return;state={...state,choice,contextKey:c.contextKey};const intent={choice,contextKey:c.contextKey,source:'explicit-user-opt-in' as const};onIntent?.(intent);return intent;},setPreview:(preview:Candidate2ReadonlyPreview|undefined)=>{state={...state,preview};}};}

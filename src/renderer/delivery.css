@@ -1,0 +1,33 @@
+.export-confirmation { color: #51664a; font-size: 13px; line-height: 1.8; }
+.export-identity { display: grid; grid-template-columns: 1fr 1fr; gap: 18px 24px; padding: 24px 0; margin: 0; }
+.export-identity > div { min-width: 0; }
+.export-identity dt { color: #7c8b6e; font-size: 12px; }
+.export-identity dd { margin: 5px 0 0; color: #354e38; overflow-wrap: anywhere; }
+.export-identity dd small { display: block; font-size: 11px; color: #7c8b6e; }
+.export-confirm-section { border-top: 1px solid #e3e9dc; padding: 21px 0; }
+.export-confirm-section h3 { font-size: 14px; font-weight: 600; color: #36583f; margin: 0; }
+.export-confirm-section p { margin: 9px 0 0; }
+.export-section-heading { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.export-section-heading .tag { flex-shrink: 0; }
+.export-candidate-list { display: grid; grid-template-columns: 1fr 1fr; gap: 10px 28px; list-style-position: inside; margin: 16px 0 0; padding: 14px 18px; background: #f4f7ee; border-radius: 6px; }
+.export-candidate-list li { min-width: 0; font-size: 12px; color: #7d8c6f; overflow-wrap: anywhere; }
+.export-candidate-list strong { font: 20px var(--serif); letter-spacing: 1px; margin-left: 3px; color: #416342; }
+.export-candidate-list span { display: block; margin-left: 22px; font-size: 11px; }
+.export-notice { display: flex; align-items: flex-start; gap: 8px; padding: 11px 13px; border-radius: 5px; background: #fff8e9; color: #856333; font-size: 12px; }
+.export-notice svg { flex-shrink: 0; margin-top: 3px; }
+.export-review-copy { white-space: pre-wrap; overflow-wrap: anywhere; max-height: 180px; overflow-y: auto; }
+.export-brand-summary { display: flex; align-items: center; gap: 14px; margin-top: 13px; overflow-wrap: anywhere; }
+.export-brand-summary img { width: 52px; height: 52px; border-radius: 5px; object-fit: contain; flex-shrink: 0; }
+.export-brand-summary > div { min-width: 0; }
+.export-brand-summary strong { font-family: var(--serif); font-size: 18px; color: #3d6043; }
+.export-brand-summary p { margin-top: 3px; }
+.export-brand-summary small { color: #7c8b6e; font-size: 11px; }
+.export-failure { padding: 12px; border: 1px solid #e9c5bc; border-radius: 5px; background: #fff7f4; }
+.export-confirm-actions { display: flex; justify-content: flex-end; flex-wrap: wrap; gap: 10px; padding-top: 13px; }
+.export-busy { margin-top: 10px; text-align: right; }
+@media (max-width: 520px) {
+  .export-identity { grid-template-columns: 1fr; gap: 13px; }
+  .export-candidate-list { column-gap: 14px; padding: 12px; }
+  .export-candidate-list strong { font-size: 18px; }
+  .export-confirm-actions .button { flex: 1; }
+}

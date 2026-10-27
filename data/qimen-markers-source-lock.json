@@ -1,0 +1,42 @@
+{
+  "version": "hour-xunkong-yima/1.0.0",
+  "hashConvention": "sha256(JSON.stringify(fileHashes)); fileHashes keys sorted by relative path",
+  "sources": [
+    {
+      "id": "qimen-arc-markers",
+      "name": "时旬空表：arc119226/qimen_dunjia 固定源码",
+      "url": "https://github.com/arc119226/qimen_dunjia",
+      "commit": "7d941031d685d818d9fd234edf891dba5bd6a323",
+      "license": "MIT",
+      "files": [
+        "data/raw/qimen-markers-arc-constants.js",
+        "data/raw/qimen-markers-arc-LICENSE.txt"
+      ],
+      "note": "仅引用constants.js六旬干支及空亡地支表；该项目三元定法与本应用不同，未采用其定元或整盘作为同流派标准。",
+      "sha256": "690b01fff721104d8b06935ccfb4ea2d5144f90852ea99340ac06c3d54c51d50",
+      "fileHashes": {
+        "data/raw/qimen-markers-arc-LICENSE.txt": "755492b998c35531be98e6af2f8f0ec8ff11281568b3d3a319d43f246f998147",
+        "data/raw/qimen-markers-arc-constants.js": "7dc6e2470862c5bf418020ac3aeb771936abb7e47549b426892578656ad86592"
+      }
+    },
+    {
+      "id": "qimen-go-markers",
+      "name": "时旬空、时驿马及地支洛书宫：deminzhang/qimen-go 固定源码",
+      "url": "https://github.com/deminzhang/qimen-go",
+      "commit": "4d3f58fa0f401b5b3a337f119138e99e90685dda",
+      "license": "MIT",
+      "files": [
+        "data/raw/qimen-markers-go-ganzhi.go",
+        "data/raw/qimen-markers-go-qimen.go",
+        "data/raw/qimen-markers-go-LICENSE.txt"
+      ],
+      "note": "xuan/ganzhi.go KongWang、ZhiGong9、Horse三表及xuan/qimen.go时家取时旬空/时支马；多流派工程的这几项通用表作为辅助规则交叉来源，不宣称其整盘等同本应用。",
+      "sha256": "89e9fc466d809d05b82f294540165475cb692ee5e2657cb1ff6874866c418f83",
+      "fileHashes": {
+        "data/raw/qimen-markers-go-LICENSE.txt": "cfdb13c1a086ecc3f498b6a75a65d1dab3d93072c58efd26d383db776749b996",
+        "data/raw/qimen-markers-go-ganzhi.go": "0dd04c5c2f290e87822ff85770f203467c1a7a69ced56990d808c718aa14b401",
+        "data/raw/qimen-markers-go-qimen.go": "93ba61a632af3d402bfd65754d1adeb74b937f87b40e62fc50adc15a1d4bd350"
+      }
+    }
+  ]
+}

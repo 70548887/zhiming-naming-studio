@@ -1,0 +1,23 @@
+{
+  "schema": "naming-character-meanings-candidate-admission/1",
+  "batchId": "M393-D02",
+  "sourceId": "naming-character-meanings-m393-candidate",
+  "version": "naming-character-meanings-candidate/M393.1",
+  "activation": "off",
+  "productionApproved": false,
+  "dispatchToLive": false,
+  "candidateOnly": true,
+  "generationAuthority": false,
+  "sourceAuthority": false,
+  "scope": "per-character-project-explanation-only",
+  "wholeNameAssessment": "not-assessed",
+  "wholeNameMeaning": null,
+  "automaticNameRecommendation": false,
+  "automaticSemanticCreditAllowed": false,
+  "scoreDelta": 0,
+  "decision": "candidate-awaiting-independent-review",
+  "approvedCaseIds": [],
+  "profileSha256": "eee6a01e1d28a34c3992c8dd81d547352222caa62d04f363f3ec43edfcd5acd8",
+  "testOnly": true,
+  "oldV71Changed": false
+}

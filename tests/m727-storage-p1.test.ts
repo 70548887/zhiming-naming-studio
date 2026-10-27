@@ -1,0 +1,16 @@
+import{afterEach,describe,expect,it}from'vitest';
+import{mkdtempSync,rmSync,writeFileSync,readFileSync}from'node:fs';import{tmpdir}from'node:os';import{join,resolve}from'node:path';import initSqlJs from'sql.js';
+import{Store,defaults}from'../src/main/store';import{StudioService}from'../src/main/service';import{normalizePreferences}from'../src/shared/workflow';import type{BirthProfile}from'../src/shared/types';
+const wasm=resolve('node_modules/sql.js/dist/sql-wasm.wasm'),data=resolve('data'),dirs:string[]=[],stores:Store[]=[];
+const profile=(id:string,surname='林'):BirthProfile=>({id,customerName:id,surname,surnamePinyin:surname==='林'?'lín':'zhāng',gender:'中性',calendar:'solar',birthDate:'2024-02-10',birthTime:'09:30',timeUnknown:false,leapMonth:false,birthPlace:'杭州',timezone:'Asia/Shanghai',notes:''});
+afterEach(()=>{for(const store of stores.splice(0))store.db.close();for(const dir of dirs.splice(0))rmSync(dir,{recursive:true,force:true});});
+async function open(dir?:string){const root=dir??mkdtempSync(join(tmpdir(),'m727-storage-p1-'));if(!dir)dirs.push(root);const store=await new Store(root,data,wasm).init();stores.push(store);return store;}
+
+describe('M727 storage P1',()=>{
+ it('keeps a raw legacy database read-only until explicit migration',async()=>{
+  const dir=mkdtempSync(join(tmpdir(),'m727-raw-'));dirs.push(dir);const SQL=await initSqlJs({locateFile:()=>wasm}),db=new SQL.Database();db.run('CREATE TABLE profiles(id TEXT PRIMARY KEY,json TEXT NOT NULL);CREATE TABLE sessions(id TEXT PRIMARY KEY,json TEXT NOT NULL);CREATE TABLE settings(id TEXT PRIMARY KEY,json TEXT NOT NULL);CREATE TABLE revisions(id INTEGER PRIMARY KEY AUTOINCREMENT,session_id TEXT,created_at TEXT,json TEXT);CREATE TABLE profile_versions(id TEXT PRIMARY KEY,token TEXT NOT NULL);CREATE TABLE knowledge_archives(sha256 TEXT PRIMARY KEY,version TEXT UNIQUE NOT NULL,pack BLOB NOT NULL)');writeFileSync(join(dir,'customers.sqlite'),db.export());db.close();const store=await open(dir),before=readFileSync(join(dir,'customers.sqlite'));expect(store.storageState()).toMatchObject({version:'raw-sqlite',migrationRequired:true});expect(()=>store.put('settings','main',defaults)).toThrow('只读');expect(readFileSync(join(dir,'customers.sqlite')).equals(before)).toBe(true);store.migrateCustomerStorage();expect(store.storageState().migrationRequired).toBe(false);expect(()=>store.put('settings','main',defaults)).not.toThrow();
+ });
+ it('provides bounded summary pagination with on-demand verified detail',async()=>{
+  const a=await open(),service=new StudioService(a,{read:()=>'',write:()=>{}},false);const first=(await service.generate(profile('m727-a'),normalizePreferences({length:1,requiredChars:'安',zodiacRules:false,numerology:false}))).session;service.saveSession(first);const second=(await service.generate(profile('m727-b','张'),normalizePreferences({length:1,requiredChars:'宁',zodiacRules:false,numerology:false}))).session;service.saveSession(second);const page=a.listSessionSummaries(1);expect(page.items).toHaveLength(1);expect(page.nextCursor).toBeDefined();const next=a.listSessionSummaries(1,page.nextCursor);expect(next.items).toHaveLength(1);expect(new Set([page.items[0].id,next.items[0].id]).size).toBe(2);expect(a.readVerifiedSession(page.items[0].id)?.id).toBe(page.items[0].id);
+ },30000);
+});

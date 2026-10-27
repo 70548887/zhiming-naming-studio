@@ -1,0 +1,12 @@
+{
+  "schema": "m740-build-receipt/1",
+  "status": "passed",
+  "baselineHead": "9ac38f2285f928c451caa10bad41ca226f7f5f51",
+  "candidateRows": 10,
+  "sourceFiles": 28,
+  "protectedSourceBytesUnchanged": true,
+  "compressedDictionaryCopies": 0,
+  "outputBoundary": "D:\\Codex-NamingStudio-Evidence\\m740-character-meanings",
+  "formalCoverageAdded": 0,
+  "manifestSha256": "c1fd08a128672f0515e94e1729a5bc5bdc2756941d23f4e6353fe3dacee3c81a"
+}

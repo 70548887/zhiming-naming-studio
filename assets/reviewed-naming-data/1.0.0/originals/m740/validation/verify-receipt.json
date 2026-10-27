@@ -1,0 +1,18 @@
+{
+  "schema": "m740-validation-receipt/1",
+  "status": "passed",
+  "rowCount": 10,
+  "directSingleCharacterTitles": 10,
+  "allSourcePOSPreserved": true,
+  "completeOriginalEntriesPreserved": true,
+  "allHistoricalStatusesRetained": true,
+  "sourceFileCount": 28,
+  "sourceHashesVerified": true,
+  "candidateHashesVerified": true,
+  "noExistingSelectedOverlap": true,
+  "sourceSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+  "baselineHead": "9ac38f2285f928c451caa10bad41ca226f7f5f51",
+  "formalCoverageAdded": 0,
+  "actualQueryWiring": "not-executed",
+  "actualGenerationWiring": "not-executed"
+}

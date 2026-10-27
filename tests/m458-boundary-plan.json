@@ -1,0 +1,358 @@
+{
+  "schema": "m458-authored-boundary-plan/1",
+  "status": "source-authored-unexecuted",
+  "decisions": {
+    "contractSHA256": "ca900cafc68b0756bd96a88a0cfdff806f3fa904b08e99859d8edd5d32926bce",
+    "matrixSHA256": "97b28668d039a2d310b7df62baccce1cc8ff3a46460450b4e272f04a828a1947",
+    "override": "Root requires complete authenticated receipt SHA sampling every batch, plus successful return/precommit seal. The decision text's initial+final-only alternative is superseded for these tests. No claim of detecting changes wholly between all discrete observation points."
+  },
+  "groups": [
+    {
+      "file": "m458-store-operation-boundaries.test.ts",
+      "cases": 15,
+      "authority": "Real Store + full Service constructor + genuine71 generation; independent explicit V7 generation/finalizer + complete genuine source registration + normal Store save/read. No operation/capsule/fast flag supplied."
+    },
+    {
+      "file": "m458-actual-table-predicate.test.ts",
+      "cases": 2,
+      "authority": "None. Exact operation ifstatement extracted into ordinary TS fixture. Pure full-array comparison only; not Store or source authentication proof."
+    }
+  ],
+  "acceptance": [
+    {
+      "id": "A01",
+      "tests": [
+        "public rows V7/V71 current records + genuine V7 history; complete output",
+        "read/listRevisions/public-entry/backup case"
+      ],
+      "rootEvidence": "Precise actual loader/snapshot/batch/candidate coverage counts must prove semantic auth once per API and actual/live/per-candidate checks each batch. FS counts only prove physical reads, never cache hits."
+    },
+    {
+      "id": "A02",
+      "tests": [
+        "clean public read -> source deleted -> failure -> restored bytes -> independent next read"
+      ],
+      "rootEvidence": "Fresh semantic authentication per separate operation requires root actual coverage; no cross-API operation object is exposed or supplied."
+    },
+    {
+      "id": "A03",
+      "tests": [
+        "native FS callback calls same Store read",
+        "native FS callback calls distinct Store read"
+      ],
+      "must": "Inner genuine output succeeds; outer fails after a calibrated late native source callback without result. Root coverage proves authenticating/used state and independent inner auth; warm/ordinal alone does not."
+    },
+    {
+      "id": "A04",
+      "tests": [
+        "late source remains changed through a later actual native read",
+        "source deletion across calls",
+        "restore precommit source failure"
+      ],
+      "must": "Observed bad bytes fail without partial result/atomic write; files restored finally and next call succeeds."
+    },
+    {
+      "id": "A05",
+      "tests": [
+        "late native read actually returns changed bytes, file restored before caller receives them, outer still fails"
+      ],
+      "qualification": "A read ordinal identifies a late observation only; root coverage distinguishes later-batch receipt sampling from final seal. An unobserved change-and-restore gap is not claimed detectable."
+    },
+    {
+      "id": "A06",
+      "tests": [
+        "V7 independent row + only V7 history before V71 row",
+        "first real V71 profile source failure",
+        "late V4 lock/V5 lock/V6-only input failures"
+      ],
+      "must": "No V71 method label edits; real lock sources[0].fileHashes schema; root coverage proves 35-base first use followed by V71 extension. Returned row order alone is not authentication-order proof."
+    },
+    {
+      "id": "A07",
+      "tests": [
+        "actual knowledge_archives BLOB changed through native SQL while claimed SHA/version unchanged"
+      ],
+      "must": "Real native byte/hash rejection; original SQL restored and disk buffer equals prior native bytes. No readPack/SQL exec mock."
+    },
+    {
+      "id": "A08",
+      "tests": [
+        "exact actual-operation ifstatement pure fixture: positive archive version/full arrays",
+        "every characters/citations/knowledge/sources nested-field and row-order alteration"
+      ],
+      "qualification": "Genuine Store BLOB negative fails SHA before this predicate. Pure cases prove the exact algorithm's deep/ordered comparison, while root coverage on a genuine positive proves production invocation. No impossible forged same-SHA archive is manufactured."
+    },
+    {
+      "id": "A09",
+      "tests": [
+        "same Map identity/size, value replaced during a late real source callback; no mixed output; restore original then fresh success"
+      ],
+      "qualification": "Root coverage confirms owned computation had begun. Before-owned fallback compatibility remains an original R3 guard and separate coverage requirement."
+    },
+    {
+      "id": "A10",
+      "tests": [
+        "late source callback replaces push with forwarding wrapper; result rejected; exact descriptor restored and fresh next read succeeds"
+      ],
+      "qualification": "Clean-trace ordinals are not alone proof of final-seal phase. Root coverage pins the actual callback/check location; no new observer flag."
+    },
+    {
+      "id": "A11",
+      "tests": [
+        "this genuine SQL database runs its original export then throws the exact body primary; no gratuitous naming seal afterward",
+        "light empty reads and settings",
+        "this genuine SQL database runs original export then returns an own-then-getter object; getter0, synchronous rejection, exact export descriptor restoration and fresh normal backup"
+      ],
+      "must": "No typed/fake operation, no candidate verdict fake, no async lifetime. Only explicitly authorized current public db.export return fault is changed."
+    },
+    {
+      "id": "A12",
+      "tests": [
+        "native session row/id mismatch",
+        "genuine stale review CAS",
+        "unchanged original project authority suite"
+      ],
+      "originalReference": {
+        "path": "C:/Users/Administrator/.codex/worktrees/naming-core-preview/八卦周易/tests/project-naming-store-boundaries-m157.test.ts",
+        "sha256": "129df953fe87a301e5f2ab58cbbe3379091b8d4d341c0ddadea23f5e8755a2ac",
+        "bytes": 19999
+      },
+      "qualification": "The new ordinary fixture explicitly has no project/modern/meaning-context footprint; it never pretends to grant projectBasis. Root reuses the real project suite and original authority-body exactness."
+    },
+    {
+      "id": "A13",
+      "tests": [
+        "real copy plus writer-lock presence -> seal primary -> atomicRenames0/full DB bytes unchanged",
+        "real restore commit -> actual lock unlink -> injected cleanup failure -> committed code, changed disk and restored current state; no naming read after cleanup"
+      ],
+      "must": "Native filesystem action happens first for cleanup fault; no false zero-write report; no postcommit authentication."
+    },
+    {
+      "id": "A14",
+      "originalReference": {
+        "path": "E:/八卦周易/.local/team-452/dev01/tests/m452-batch-untrusted-contract.test.ts",
+        "sha256": "63efa5f8c9391c44c10f92c659a91e6975fcc23e6f627336ab0754c7d049f62c",
+        "bytes": 8557
+      },
+      "must": "Original W1/W2 text and before endpoint unchanged; root links existing public Proxy/accessor/reentry/order regressions. The new genuine seed also uses ordinary direct public save/generation without operation authority."
+    },
+    {
+      "id": "A15",
+      "originalReference": {
+        "path": "E:/八卦周易/tests/solar-storage.test.ts",
+        "sha256": "3ccfa44d2a74ebaf65482db3bc4f4bae828fd9069d3bbb91410b78598d8fb69b",
+        "bytes": 7305
+      },
+      "must": "Original15_000 suite and explicit15000 first case unchanged; native Buffer.equals retains complete bytes. Only actual root unprofiled run/terminal evidence can establish performance."
+    }
+  ],
+  "fixtureRequirements": {
+    "environment": [
+      "No M458 variables are required: each standard Vitest file creates a unique native temporary root below actual RUNNER_TEMP, falling back to native OS temp",
+      "Checkout data is copied into that private root before any mutation; optional absolute M458_TEST_DATA_DIR is read-only source input, and optional M458_TEST_OWNED_ROOT selects only an actual existing parent for a fresh child",
+      "sql-wasm.wasm is resolved from the installed sql.js package; an optional M458_SQL_WASM must identify an actual absolute regular file"
+    ],
+    "noWrites": "Only freshly created owned children on the selected temporary drive are writable; no outward link, source checkout or user DB writes. Native source faults stay in each file's private copy. Exact root identity and link-free contents are checked before cleanup; failed or timed-out suites retain their owned roots.",
+    "versionPremise": "Current71 is actual Service.generate without review history; distinct new V7 profile/session is publicly recalculated/finalized with complete source registration, saved normally and legitimately reviewed once. Only V7 history exists. Actual no-project/modern/meaning-context footprint checks are explicit. Ordinary history is not assumed always to replay facts; root coverage proves first-auth order."
+  },
+  "measurements": "All new sources unexecuted. No profiling, probe, AST, types, SQL, Worker, test process or performance claim.",
+  "ledger": [
+    {
+      "step": "locate-M458-contract-boundary-documents",
+      "kind": "static-path-search",
+      "runtime": false
+    },
+    {
+      "step": "read-CONTRACT-full-and-15-boundary-matrix",
+      "kind": "static-read",
+      "runtime": false
+    },
+    {
+      "step": "read-original-Solar-provenance-history-fixture-methods-and-M458-candidate-inventory",
+      "kind": "static-read",
+      "runtime": false
+    },
+    {
+      "step": "read-M458-draft-public-API-lifecycle-and-native-writer-fault-seams",
+      "kind": "static-read",
+      "runtime": false
+    },
+    {
+      "step": "check-actual-generate-version-route-and-existing-genuine-SQL-fixtures",
+      "kind": "static-read",
+      "runtime": false
+    },
+    {
+      "step": "missing-customer-writer-optional-search",
+      "kind": "nonblocking-partial-search-failure",
+      "note": "Prior rg named a nonexistent customer-writer.ts; actual Store withWriter and atomic helper source already supplied required native-fs seams. No retry/no execution.",
+      "runtime": false
+    },
+    {
+      "step": "read-generation-version-selection-preconditions",
+      "kind": "static-read",
+      "runtime": false
+    },
+    {
+      "step": "read-existing-genuine-capture-provenance-for-V7-fixture-availability",
+      "kind": "static-read",
+      "runtime": false
+    },
+    {
+      "step": "author-genuine-fixture-and-scoped-native-fs-helper",
+      "kind": "atomic-E-test-helper-write",
+      "note": "Requires actual E-owned data/wasm inputs; future seed comes from full Service.generate + legal review + SQL Store. No operation/capsule manufactured. No runtime.",
+      "runtime": false
+    },
+    {
+      "step": "read-exact-Service-source-registration-and-existing-explicit-V7-generation-constructs",
+      "kind": "static-read",
+      "runtime": false
+    },
+    {
+      "step": "resolve-V7-builder-reference-on-actualC-and-source-loader-signatures",
+      "kind": "static-read",
+      "note": "Prior E-root reference missing; actual C explicit source reference used instead. No test-module import.",
+      "runtime": false
+    },
+    {
+      "step": "author-independent-public-V7-builder-full-source-registration",
+      "kind": "atomic-E-test-helper-write",
+      "note": "Explicit V7 generation/finalizer and real loaders, normal Store saves/read. No V71 label edits, no source-worker/operation/capsule manufacture; no runtime.",
+      "runtime": false
+    },
+    {
+      "step": "wire-genuine-71-plus-independent-V7-seed",
+      "kind": "atomic-E-test-helper-write",
+      "note": "Seed DB contains genuine Service71 + separate explicit V7 new profile/session; old helper bytes kept as .txt; no execution.",
+      "runtime": false
+    },
+    {
+      "step": "locate-real-V71-receipt-target-and-manual-resolver-precondition",
+      "kind": "static-read",
+      "note": "Inspect optional absent path results; no source module import.",
+      "runtime": false
+    },
+    {
+      "step": "read-exported-V71-pinned-path-fields",
+      "kind": "static-read",
+      "runtime": false
+    },
+    {
+      "step": "author-genuine-public-operation-boundary-integration-source",
+      "kind": "atomic-E-test-write",
+      "note": "No runtime. Uses real Store/Service/public V7builder/native SQL+ownedFS. No new authority API imports/cap/op; no budget overrides. Precise batch/auth counts left to root coverage.",
+      "runtime": false
+    },
+    {
+      "step": "add-V6-only-receipt-target-and-explicit-manual-builder-premise",
+      "kind": "atomic-E-test-revisions",
+      "note": "Old df4/bf7 sources preserved as .txt. Actual lock difference selects a concrete E-owned source input; builder rejects project or optional feature paths rather than inventing omitted sources. No runtime.",
+      "runtime": false
+    },
+    {
+      "step": "pin-original-W1W2-and-Solar-and-static-case-scope-count",
+      "kind": "static-text-hash-check",
+      "note": "No modules/tests; unchanged original sources only hash read. No budgets or operation/capsule imports in new integration file.",
+      "runtime": false
+    },
+    {
+      "step": "complete-persistent-source-and-restore-lock-postcommit-observations",
+      "kind": "atomic-E-test-revision",
+      "note": "Same case count/budgets. Persistent source remains changed through a later native sample then restored; precommit lock presence and no postcommit naming-read are explicit. No runtime.",
+      "runtime": false
+    },
+    {
+      "step": "locate-original-project-authority-regressions-for-A12-reference",
+      "kind": "static-path-search",
+      "runtime": false
+    },
+    {
+      "step": "pin-original-project-Store-authority-regression-cases",
+      "kind": "static-read",
+      "runtime": false
+    },
+    {
+      "step": "index-final-authored-case-and-builder-lines",
+      "kind": "static-text-read",
+      "runtime": false
+    },
+    {
+      "step": "read-actual-M458-four-array-ifstatement-for-exact-pure-fixture",
+      "kind": "static-source-read",
+      "runtime": false
+    },
+    {
+      "step": "restrict-A08-source-extraction-to-prepareReplayOperationBatch",
+      "kind": "static-read",
+      "note": "Initial broad marker located the identical legacy predicate first and emitted an oversized contextual slice; no file written. Corrected function-scoped markers return only actual operation ifstatement.",
+      "runtime": false
+    },
+    {
+      "step": "capture-exact-operation-four-array-predicate-fixture",
+      "kind": "atomic-E-pure-fixture-write",
+      "note": "Actualmain07d955 inside prepareReplayOperationBatch; source substring exact, not hand-copied. No VM/eval/authority export.",
+      "runtime": false
+    },
+    {
+      "step": "author-actual-predicate-2it-and-source-hash-metadata",
+      "kind": "atomic-E-pure-test-write",
+      "note": "Actual ifstatement fixture only, no evaluator/Store/authority; metadata binds fullmain/region/fixture.",
+      "runtime": false
+    },
+    {
+      "step": "add-authorized-this-db-export-thenable-to-existing-body-it",
+      "kind": "atomic-E-integration-revision",
+      "note": "No extra it/budget; only current public db.export return changed after actual facts path, own then getter must not execute, exact descriptor restored and real backup recovered.",
+      "runtime": false
+    },
+    {
+      "step": "read-real-four-lock-schema-and-correct-V5-V6-filenames",
+      "kind": "static-JSON-read",
+      "note": "Root caught initial test assumption of top-level fileHashes and two wrong filenames. No tests were run; correcting exact schema instead of casts.",
+      "runtime": false
+    },
+    {
+      "step": "schema-history-author-orchestration-failed",
+      "kind": "failure",
+      "message": "functions JS local binding named text shadowed output function; underlying first source write may have completed. Read-only file-state audit before dependent work. No runtime/test/module execution.",
+      "runtime": false
+    },
+    {
+      "step": "check-actual-history-footprint-predicates-for-genuine-fixture-premises",
+      "kind": "static-source-read",
+      "runtime": false
+    },
+    {
+      "step": "complete-real-lock-schema-and-V7-only-history-premises",
+      "kind": "atomic-E-test-helper-correction",
+      "note": "Boundary already1df4 from interrupted orchestration; helper now updated from known2476. No assumption that ordinary history necessarily authenticates first; root precise coverage required. No runtime.",
+      "runtime": false
+    },
+    {
+      "step": "narrow-late-reentry-and-actual-export-body-error-seams",
+      "kind": "atomic-E-test-revision",
+      "note": "Late native-read point is calibrated but not treated as a batch identity. Body fault runs actual this-DB export then throws exact primary; own-then test also runs actual export first. Only authorized public export return/failure seam changed, exec/close/privateop untouched. No runtime.",
+      "runtime": false
+    },
+    {
+      "step": "stabilize-clean-traces-with-warm-and-two-fresh-public-calls",
+      "kind": "atomic-E-test-revisions",
+      "note": "Late ordinal cases use warm API then two identical native path traces. No cache-hit or phase claim; no fewer fault calls/budget changes. Prior sources preserved.",
+      "runtime": false
+    },
+    {
+      "step": "preserve-upstream-FS-hooks-in-test-interposition",
+      "kind": "atomic-E-test-helper-revision",
+      "note": "Actual Store I/O wrapper invokes the saved current own data FS slot, preserving preexisting root hooks. Module-captured FS methods remain only for test-owned file backup/restoration, never a production trust gate. No runtime.",
+      "runtime": false
+    },
+    {
+      "step": "preserve-actual-FS-caller-receiver-as-well-as-current-slot",
+      "kind": "atomic-E-test-helper-revision",
+      "note": "Current upstream FS callback receives original caller this. No source/budget/scenario changes; no runtime.",
+      "runtime": false
+    }
+  ],
+  "traceCalibration": "All late ordinal tests first warm the same real public API, then collect two fresh public calls whose complete native path sequence must match. Warm does not establish semantic reuse. Only after stable trace is a native fault injected; no fault call is removed and no budget is raised. Actual Store I/O forwards the current installation-time FS data slot with its original receiver, preserving upstream hooks; module-start FS captures are only for test-owned file maintenance."
+}

@@ -1,0 +1,474 @@
+{
+  "schema": "m744-input-integrity-license-audit/1",
+  "at": "2026-10-25T07:18:10.063Z",
+  "deliveryManifest": {
+    "path": "D:\\Codex-NamingStudio-Evidence\\m740-character-meanings\\M740-MANIFEST.json",
+    "sha256": "0290ada57d4e87386e224d6be33901e0f626d3530c74e9d48611f046a6252f23"
+  },
+  "deliveryFiles": [
+    {
+      "path": "D:\\Codex-NamingStudio-Evidence\\m740-character-meanings\\M740-CONTRACT.json",
+      "expectedSha256": "794825abaab112e9c3474b0e738de488504f6c43fcc050313e0001d5ecb1deae",
+      "sha256": "794825abaab112e9c3474b0e738de488504f6c43fcc050313e0001d5ecb1deae",
+      "bytes": 1334,
+      "matches": true
+    },
+    {
+      "path": "D:\\Codex-NamingStudio-Evidence\\m740-character-meanings\\README.md",
+      "expectedSha256": "41546a2013832dccd053b2433a684a26b84c27245c21fadd7294a450be4ad557",
+      "sha256": "41546a2013832dccd053b2433a684a26b84c27245c21fadd7294a450be4ad557",
+      "bytes": 1658,
+      "matches": true
+    },
+    {
+      "path": "D:\\Codex-NamingStudio-Evidence\\m740-character-meanings\\package.json",
+      "expectedSha256": "5b881d3809e85327f2e6e45c21ebe7a6c5140d22c53bfc66cf0f26c217eec62c",
+      "sha256": "5b881d3809e85327f2e6e45c21ebe7a6c5140d22c53bfc66cf0f26c217eec62c",
+      "bytes": 218,
+      "matches": true
+    },
+    {
+      "path": "D:\\Codex-NamingStudio-Evidence\\m740-character-meanings\\build.mjs",
+      "expectedSha256": "d508f206bbe10dca731a05456a51e1d48d0abfa0f350b924157f73c3d8102b0c",
+      "sha256": "d508f206bbe10dca731a05456a51e1d48d0abfa0f350b924157f73c3d8102b0c",
+      "bytes": 7321,
+      "matches": true
+    },
+    {
+      "path": "D:\\Codex-NamingStudio-Evidence\\m740-character-meanings\\lib.mjs",
+      "expectedSha256": "970e8f7fa24b3f4cdd5b790fe1356ce61455d2581118e4e1f2b8cf32865a5454",
+      "sha256": "970e8f7fa24b3f4cdd5b790fe1356ce61455d2581118e4e1f2b8cf32865a5454",
+      "bytes": 14167,
+      "matches": true
+    },
+    {
+      "path": "D:\\Codex-NamingStudio-Evidence\\m740-character-meanings\\validate.mjs",
+      "expectedSha256": "0517588cbbaf8f3ddbf07ab2b28aef92a101b9c52674c7635efec1715747cc9b",
+      "sha256": "0517588cbbaf8f3ddbf07ab2b28aef92a101b9c52674c7635efec1715747cc9b",
+      "bytes": 6336,
+      "matches": true
+    },
+    {
+      "path": "D:\\Codex-NamingStudio-Evidence\\m740-character-meanings\\pins.mjs",
+      "expectedSha256": "66257006ba23d7811b56ecf39a3c25bcd8def519de8fc0d3b5edf8fd0d3998ea",
+      "sha256": "66257006ba23d7811b56ecf39a3c25bcd8def519de8fc0d3b5edf8fd0d3998ea",
+      "bytes": 396,
+      "matches": true
+    },
+    {
+      "path": "D:\\Codex-NamingStudio-Evidence\\m740-character-meanings\\selection.json",
+      "expectedSha256": "cb37e6d32afd84dcad963e7b7edd8ad2dbff5b7d19ac301196c66905c25bca1e",
+      "sha256": "cb37e6d32afd84dcad963e7b7edd8ad2dbff5b7d19ac301196c66905c25bca1e",
+      "bytes": 4417,
+      "matches": true
+    },
+    {
+      "path": "D:\\Codex-NamingStudio-Evidence\\m740-character-meanings\\inventory-sources.json",
+      "expectedSha256": "e77f5375219690c3b36f956d96133102332e356f529de81d978d6421c0dff171",
+      "sha256": "e77f5375219690c3b36f956d96133102332e356f529de81d978d6421c0dff171",
+      "bytes": 1145,
+      "matches": true
+    },
+    {
+      "path": "D:\\Codex-NamingStudio-Evidence\\m740-character-meanings\\tests\\data.test.mjs",
+      "expectedSha256": "04d221fd03381d2b08c4a917849e9f6e921a71bdb73807785b901fa190b3788b",
+      "sha256": "04d221fd03381d2b08c4a917849e9f6e921a71bdb73807785b901fa190b3788b",
+      "bytes": 6982,
+      "matches": true
+    },
+    {
+      "path": "D:\\Codex-NamingStudio-Evidence\\m740-character-meanings\\data\\profile.json",
+      "expectedSha256": "9e9b54ec980a0edf023963a95b721ae91212a5b06d9121873cd2e9d6f7f3e397",
+      "sha256": "9e9b54ec980a0edf023963a95b721ae91212a5b06d9121873cd2e9d6f7f3e397",
+      "bytes": 94920,
+      "matches": true
+    },
+    {
+      "path": "D:\\Codex-NamingStudio-Evidence\\m740-character-meanings\\data\\rows.jsonl",
+      "expectedSha256": "1d96bcdc11a9f1b6108397a5510af05f40084262e95e07d228727f208aeec34b",
+      "sha256": "1d96bcdc11a9f1b6108397a5510af05f40084262e95e07d228727f208aeec34b",
+      "bytes": 63025,
+      "matches": true
+    },
+    {
+      "path": "D:\\Codex-NamingStudio-Evidence\\m740-character-meanings\\data\\coverage.json",
+      "expectedSha256": "a28a43c3c671dafc39a3fd4e485a2cc0f295928589af4b6be8c3a69af9fb874f",
+      "sha256": "a28a43c3c671dafc39a3fd4e485a2cc0f295928589af4b6be8c3a69af9fb874f",
+      "bytes": 45421,
+      "matches": true
+    },
+    {
+      "path": "D:\\Codex-NamingStudio-Evidence\\m740-character-meanings\\data\\pending-review.json",
+      "expectedSha256": "e2a4777ac12aa144fc36d0750061934048d0d192d386bf9c190b84cec3c6c879",
+      "sha256": "e2a4777ac12aa144fc36d0750061934048d0d192d386bf9c190b84cec3c6c879",
+      "bytes": 12282,
+      "matches": true
+    },
+    {
+      "path": "D:\\Codex-NamingStudio-Evidence\\m740-character-meanings\\data\\NOTICE.md",
+      "expectedSha256": "6eeda546ec8b62c2785b62146a158f0445a3eb722a63553eadae7ed33d980ade",
+      "sha256": "6eeda546ec8b62c2785b62146a158f0445a3eb722a63553eadae7ed33d980ade",
+      "bytes": 1411,
+      "matches": true
+    },
+    {
+      "path": "D:\\Codex-NamingStudio-Evidence\\m740-character-meanings\\data\\source-lock.json",
+      "expectedSha256": "560d89b2652a622b1efa438330e2ab4be135e5ab0502f1ad14aa9d026fb2b21c",
+      "sha256": "560d89b2652a622b1efa438330e2ab4be135e5ab0502f1ad14aa9d026fb2b21c",
+      "bytes": 10410,
+      "matches": true
+    },
+    {
+      "path": "D:\\Codex-NamingStudio-Evidence\\m740-character-meanings\\data\\manifest.json",
+      "expectedSha256": "c1fd08a128672f0515e94e1729a5bc5bdc2756941d23f4e6353fe3dacee3c81a",
+      "sha256": "c1fd08a128672f0515e94e1729a5bc5bdc2756941d23f4e6353fe3dacee3c81a",
+      "bytes": 11588,
+      "matches": true
+    },
+    {
+      "path": "D:\\Codex-NamingStudio-Evidence\\m740-character-meanings\\validation\\build-receipt.json",
+      "expectedSha256": "cc3daa8d36a44777a3173a7385f83fdd004cc1eb7fbb7623b5e93602a843bdd8",
+      "sha256": "cc3daa8d36a44777a3173a7385f83fdd004cc1eb7fbb7623b5e93602a843bdd8",
+      "bytes": 439,
+      "matches": true
+    },
+    {
+      "path": "D:\\Codex-NamingStudio-Evidence\\m740-character-meanings\\validation\\verify-receipt.json",
+      "expectedSha256": "35c479102788b84187a856bd06d5af8bdb9bdd1baa99a5f4a3db4541f6490d1b",
+      "sha256": "35c479102788b84187a856bd06d5af8bdb9bdd1baa99a5f4a3db4541f6490d1b",
+      "bytes": 627,
+      "matches": true
+    },
+    {
+      "path": "D:\\Codex-NamingStudio-Evidence\\m740-character-meanings\\validation\\test-receipt.json",
+      "expectedSha256": "30f42c71675f057937996d5d614ebef1a9fda7a2106b3f0b6ed0c1bb30583b74",
+      "sha256": "30f42c71675f057937996d5d614ebef1a9fda7a2106b3f0b6ed0c1bb30583b74",
+      "bytes": 446,
+      "matches": true
+    },
+    {
+      "path": "D:\\Codex-NamingStudio-Evidence\\m740-character-meanings\\execution-ledger.json",
+      "expectedSha256": "5a0ff57d8437d85d1a552d4aeb2f7d7b2ebaed4a39480755a1190897de6ec50c",
+      "sha256": "5a0ff57d8437d85d1a552d4aeb2f7d7b2ebaed4a39480755a1190897de6ec50c",
+      "bytes": 4839,
+      "matches": true
+    }
+  ],
+  "sourceFiles": [
+    {
+      "path": "D:\\Codex-NamingStudio-Evidence\\m587-product-integration\\work\\data\\dataset-v6.json",
+      "expectedSha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+      "sha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+      "bytes": 1563457,
+      "matches": true
+    },
+    {
+      "path": "D:\\Codex-NamingStudio-Evidence\\m587-product-integration\\work\\data\\naming-editorial-v4.json",
+      "expectedSha256": "d24898eb63438d7b24262668eb3b36770f211fade015b28eeb361700a58ca6ce",
+      "sha256": "d24898eb63438d7b24262668eb3b36770f211fade015b28eeb361700a58ca6ce",
+      "bytes": 380418,
+      "matches": true
+    },
+    {
+      "path": "D:\\Codex-NamingStudio-Evidence\\m587-product-integration\\work\\data\\naming-editorial-v5.json",
+      "expectedSha256": "bb8d3d255b42a6b67932988e13ceb2d7a7a1c6ef8fbbcc65312b9a50b5519da8",
+      "sha256": "bb8d3d255b42a6b67932988e13ceb2d7a7a1c6ef8fbbcc65312b9a50b5519da8",
+      "bytes": 65361,
+      "matches": true
+    },
+    {
+      "path": "D:\\Codex-NamingStudio-Evidence\\m587-product-integration\\work\\data\\naming-editorial-v6.json",
+      "expectedSha256": "35de5f749f438e849543e5fde6e405b89ba01cba20597e82e7c4f518dd4363ab",
+      "sha256": "35de5f749f438e849543e5fde6e405b89ba01cba20597e82e7c4f518dd4363ab",
+      "bytes": 109426,
+      "matches": true
+    },
+    {
+      "path": "D:\\Codex-NamingStudio-Evidence\\m587-product-integration\\work\\data\\naming-editorial-v7.json",
+      "expectedSha256": "392fa47441a0c410b0903c3e85853081225a1a5e9f540b5467e4ea4e2151cc48",
+      "sha256": "392fa47441a0c410b0903c3e85853081225a1a5e9f540b5467e4ea4e2151cc48",
+      "bytes": 1301005,
+      "matches": true
+    },
+    {
+      "path": "D:\\Codex-NamingStudio-Evidence\\m587-product-integration\\work\\data\\meaning-context-v1-1.json",
+      "expectedSha256": "424e8b6ca9a920c8b707ac267db9609bee900a5389b3659256b4c71ad71b378d",
+      "sha256": "424e8b6ca9a920c8b707ac267db9609bee900a5389b3659256b4c71ad71b378d",
+      "bytes": 403708,
+      "matches": true
+    },
+    {
+      "path": "D:\\Codex-NamingStudio-Evidence\\m587-product-integration\\work\\data\\meaning-context-m460-b04.json",
+      "expectedSha256": "ecc4ca0edbe1a0a1b1f5e3f67ad0caef9bf1daa197e781f55484b33ebfc8ce82",
+      "sha256": "ecc4ca0edbe1a0a1b1f5e3f67ad0caef9bf1daa197e781f55484b33ebfc8ce82",
+      "bytes": 188891,
+      "matches": true
+    },
+    {
+      "path": "D:\\Codex-NamingStudio-Evidence\\m587-product-integration\\work\\data\\naming-character-meanings-v7.1-profile.json",
+      "expectedSha256": "6e619be92c16dc018715fc77425f150b6a2c9af2e01be63b309035c81dd6a85b",
+      "sha256": "6e619be92c16dc018715fc77425f150b6a2c9af2e01be63b309035c81dd6a85b",
+      "bytes": 257013,
+      "matches": true
+    },
+    {
+      "path": "D:\\Codex-NamingStudio-Evidence\\m587-product-integration\\work\\data\\naming-character-meanings-v71-m460-b02-profile.json",
+      "expectedSha256": "2c4be917bbfcdc3fec9279b2d9d928f5215e6ee1386d60e7d62265cd8e3eb2d1",
+      "sha256": "2c4be917bbfcdc3fec9279b2d9d928f5215e6ee1386d60e7d62265cd8e3eb2d1",
+      "bytes": 419345,
+      "matches": true
+    },
+    {
+      "path": "D:\\Codex-NamingStudio-Evidence\\m587-product-integration\\work\\data\\m460-lexical\\naming-character-meanings-m393-profile.json",
+      "expectedSha256": "eee6a01e1d28a34c3992c8dd81d547352222caa62d04f363f3ec43edfcd5acd8",
+      "sha256": "eee6a01e1d28a34c3992c8dd81d547352222caa62d04f363f3ec43edfcd5acd8",
+      "bytes": 162031,
+      "matches": true
+    },
+    {
+      "path": "D:\\Codex-NamingStudio-Evidence\\m587-product-integration\\work\\data\\naming-character-meanings-m610-profile.json",
+      "expectedSha256": "501003d1322e7503426fda5198ccb7739ccffe9b353aa944a54abeee310e802a",
+      "sha256": "501003d1322e7503426fda5198ccb7739ccffe9b353aa944a54abeee310e802a",
+      "bytes": 147855,
+      "matches": true
+    },
+    {
+      "path": "D:\\Codex-NamingStudio-Evidence\\m587-product-integration\\work\\data\\naming-character-meanings-m616-profile.json",
+      "expectedSha256": "a7036d60215c80b25e0e000aa40a193232370b70add708c1b4f79ec93dddf1fb",
+      "sha256": "a7036d60215c80b25e0e000aa40a193232370b70add708c1b4f79ec93dddf1fb",
+      "bytes": 86409,
+      "matches": true
+    },
+    {
+      "path": "D:\\Codex-NamingStudio-Evidence\\m587-product-integration\\work\\data\\raw\\moe-revised.json.gz",
+      "expectedSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+      "sha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+      "bytes": 20310688,
+      "matches": true
+    },
+    {
+      "path": "D:\\Codex-NamingStudio-Evidence\\m587-product-integration\\work\\data\\raw\\kTraditionalVariant.txt",
+      "expectedSha256": "4eca6285d45070548e6e6c06e4b48c3ca6866d4380e8cb980c512f5d1fc71895",
+      "sha256": "4eca6285d45070548e6e6c06e4b48c3ca6866d4380e8cb980c512f5d1fc71895",
+      "bytes": 86288,
+      "matches": true
+    },
+    {
+      "path": "D:\\Codex-NamingStudio-Evidence\\m587-product-integration\\work\\data\\raw\\kSimplifiedVariant.txt",
+      "expectedSha256": "a7f0c9dbbca85cffd90517fa6ea9be97d2e6f811328a59b6b303d58a418ac9be",
+      "sha256": "a7f0c9dbbca85cffd90517fa6ea9be97d2e6f811328a59b6b303d58a418ac9be",
+      "bytes": 88425,
+      "matches": true
+    },
+    {
+      "path": "D:\\Codex-NamingStudio-Evidence\\m587-product-integration\\work\\data\\raw\\moe-README.md",
+      "expectedSha256": "a93321d9381bc1cf34b4ad844f71607fa748c86c0b228ae37d46720d6a659cb2",
+      "sha256": "a93321d9381bc1cf34b4ad844f71607fa748c86c0b228ae37d46720d6a659cb2",
+      "bytes": 1214,
+      "matches": true
+    },
+    {
+      "path": "D:\\Codex-NamingStudio-Evidence\\m587-product-integration\\work\\data\\raw\\CC-BY-ND-3.0-TW.html",
+      "expectedSha256": "04e6ef69a223b6e13c93c97a918ad5fd0dbb9fc34ae307f4449ed264e2d4108f",
+      "sha256": "04e6ef69a223b6e13c93c97a918ad5fd0dbb9fc34ae307f4449ed264e2d4108f",
+      "bytes": 31775,
+      "matches": true
+    },
+    {
+      "path": "D:\\Codex-NamingStudio-Evidence\\m587-product-integration\\work\\data\\raw\\unicode-LICENSE",
+      "expectedSha256": "fe5c62b543e287981db198f2acfa0ca732d12591a1024536dc8fd85dacd77104",
+      "sha256": "fe5c62b543e287981db198f2acfa0ca732d12591a1024536dc8fd85dacd77104",
+      "bytes": 2033,
+      "matches": true
+    },
+    {
+      "path": "D:\\Codex-NamingStudio-Evidence\\m587-product-integration\\work\\src\\domain\\naming-semantics-v5.ts",
+      "expectedSha256": "241aeb762281c16a9c948bdd419e6cc75b1b4a25bfd2c15341ba930d650db90b",
+      "sha256": "241aeb762281c16a9c948bdd419e6cc75b1b4a25bfd2c15341ba930d650db90b",
+      "bytes": 6301,
+      "matches": true
+    },
+    {
+      "path": "D:\\Codex-NamingStudio-Evidence\\m587-product-integration\\work\\src\\domain\\naming-semantics-v6.ts",
+      "expectedSha256": "b352c901910ab480d581ab4f57f3703e5bb219dfe8648c135e6ca43e0b872e19",
+      "sha256": "b352c901910ab480d581ab4f57f3703e5bb219dfe8648c135e6ca43e0b872e19",
+      "bytes": 6623,
+      "matches": true
+    },
+    {
+      "path": "D:\\Codex-NamingStudio-Evidence\\m587-product-integration\\work\\src\\shared\\character-reading.ts",
+      "expectedSha256": "717aac3c5f8c56abcbfcec4eef786dedac6c21a28c734561201b6b5a36f26a07",
+      "sha256": "717aac3c5f8c56abcbfcec4eef786dedac6c21a28c734561201b6b5a36f26a07",
+      "bytes": 606,
+      "matches": true
+    },
+    {
+      "path": "D:/Codex-NamingStudio-Evidence/m690-meanings-batch-next/data/profile.json",
+      "expectedSha256": "3c19e745c3fd65ee0b96b6b672e52dcc41051721c4ce909b8b7056b64fa06c40",
+      "sha256": "3c19e745c3fd65ee0b96b6b672e52dcc41051721c4ce909b8b7056b64fa06c40",
+      "bytes": 132661,
+      "matches": true
+    },
+    {
+      "path": "D:/Codex-NamingStudio-Evidence/m690-meanings-batch-next/selection.json",
+      "expectedSha256": "34d558fc14e849215bbaa3d0a4ad0ba60b159da1ccf3585011042ae65de2cd5a",
+      "sha256": "34d558fc14e849215bbaa3d0a4ad0ba60b159da1ccf3585011042ae65de2cd5a",
+      "bytes": 7988,
+      "matches": true
+    },
+    {
+      "path": "E:/八卦周易/.local/longterm-groups/naming-data/M460-b01/candidate/data/naming-character-meanings-m393-profile.json",
+      "expectedSha256": "eee6a01e1d28a34c3992c8dd81d547352222caa62d04f363f3ec43edfcd5acd8",
+      "sha256": "eee6a01e1d28a34c3992c8dd81d547352222caa62d04f363f3ec43edfcd5acd8",
+      "bytes": 162031,
+      "matches": true
+    },
+    {
+      "path": "E:/八卦周易/.local/longterm-groups/naming-data/M460-b02/stage/data/naming-character-meanings-v71-m460-b02-profile.json",
+      "expectedSha256": "2c4be917bbfcdc3fec9279b2d9d928f5215e6ee1386d60e7d62265cd8e3eb2d1",
+      "sha256": "2c4be917bbfcdc3fec9279b2d9d928f5215e6ee1386d60e7d62265cd8e3eb2d1",
+      "bytes": 419345,
+      "matches": true
+    },
+    {
+      "path": "E:/八卦周易/.local/longterm-groups/naming-data/M460-b03/stage/data/naming-character-meanings-v71-m460-b02-profile.json",
+      "expectedSha256": "2c4be917bbfcdc3fec9279b2d9d928f5215e6ee1386d60e7d62265cd8e3eb2d1",
+      "sha256": "2c4be917bbfcdc3fec9279b2d9d928f5215e6ee1386d60e7d62265cd8e3eb2d1",
+      "bytes": 419345,
+      "matches": true
+    },
+    {
+      "path": "E:/八卦周易/.local/longterm-groups/naming-data/M460-b04/plans.json",
+      "expectedSha256": "98a516317585894c79b462bddec946f3597eede994812f0ba1d2ee2bffaf6a23",
+      "sha256": "98a516317585894c79b462bddec946f3597eede994812f0ba1d2ee2bffaf6a23",
+      "bytes": 9617,
+      "matches": true
+    },
+    {
+      "path": "E:/八卦周易/.local/longterm-groups/naming-data/M460-b05/plans.json",
+      "expectedSha256": "7f5fc68b52396b479a8fe11f1c25aa404f6c8f35dd75082f61addaea020e093b",
+      "sha256": "7f5fc68b52396b479a8fe11f1c25aa404f6c8f35dd75082f61addaea020e093b",
+      "bytes": 8834,
+      "matches": true
+    }
+  ],
+  "allDeliveryFilesMatch": true,
+  "allSourceFilesMatch": true,
+  "innerSourceListEqualsLock": true,
+  "rowCount": 10,
+  "jsonlCount": 10,
+  "sourceLicenses": [
+    "CC-BY-ND-3.0-TW"
+  ],
+  "projectLicenses": [
+    "CC0-1.0"
+  ],
+  "rowChecks": [
+    {
+      "char": "邦",
+      "jsonlEqualsProfile": true,
+      "sourceLicense": "CC-BY-ND-3.0-TW",
+      "projectLicense": "CC0-1.0",
+      "sourceSeparate": true,
+      "dictionaryAttribution": null,
+      "originalFile": "raw/moe-revised.json.gz",
+      "projectAttribution": "M740-D02 project-authored single-character explanation; not a dictionary quotation or measured child trait"
+    },
+    {
+      "char": "沫",
+      "jsonlEqualsProfile": true,
+      "sourceLicense": "CC-BY-ND-3.0-TW",
+      "projectLicense": "CC0-1.0",
+      "sourceSeparate": true,
+      "dictionaryAttribution": null,
+      "originalFile": "raw/moe-revised.json.gz",
+      "projectAttribution": "M740-D02 project-authored single-character explanation; not a dictionary quotation or measured child trait"
+    },
+    {
+      "char": "纪",
+      "jsonlEqualsProfile": true,
+      "sourceLicense": "CC-BY-ND-3.0-TW",
+      "projectLicense": "CC0-1.0",
+      "sourceSeparate": true,
+      "dictionaryAttribution": null,
+      "originalFile": "raw/moe-revised.json.gz",
+      "projectAttribution": "M740-D02 project-authored single-character explanation; not a dictionary quotation or measured child trait"
+    },
+    {
+      "char": "纶",
+      "jsonlEqualsProfile": true,
+      "sourceLicense": "CC-BY-ND-3.0-TW",
+      "projectLicense": "CC0-1.0",
+      "sourceSeparate": true,
+      "dictionaryAttribution": null,
+      "originalFile": "raw/moe-revised.json.gz",
+      "projectAttribution": "M740-D02 project-authored single-character explanation; not a dictionary quotation or measured child trait"
+    },
+    {
+      "char": "年",
+      "jsonlEqualsProfile": true,
+      "sourceLicense": "CC-BY-ND-3.0-TW",
+      "projectLicense": "CC0-1.0",
+      "sourceSeparate": true,
+      "dictionaryAttribution": null,
+      "originalFile": "raw/moe-revised.json.gz",
+      "projectAttribution": "M740-D02 project-authored single-character explanation; not a dictionary quotation or measured child trait"
+    },
+    {
+      "char": "农",
+      "jsonlEqualsProfile": true,
+      "sourceLicense": "CC-BY-ND-3.0-TW",
+      "projectLicense": "CC0-1.0",
+      "sourceSeparate": true,
+      "dictionaryAttribution": null,
+      "originalFile": "raw/moe-revised.json.gz",
+      "projectAttribution": "M740-D02 project-authored single-character explanation; not a dictionary quotation or measured child trait"
+    },
+    {
+      "char": "作",
+      "jsonlEqualsProfile": true,
+      "sourceLicense": "CC-BY-ND-3.0-TW",
+      "projectLicense": "CC0-1.0",
+      "sourceSeparate": true,
+      "dictionaryAttribution": null,
+      "originalFile": "raw/moe-revised.json.gz",
+      "projectAttribution": "M740-D02 project-authored single-character explanation; not a dictionary quotation or measured child trait"
+    },
+    {
+      "char": "岁",
+      "jsonlEqualsProfile": true,
+      "sourceLicense": "CC-BY-ND-3.0-TW",
+      "projectLicense": "CC0-1.0",
+      "sourceSeparate": true,
+      "dictionaryAttribution": null,
+      "originalFile": "raw/moe-revised.json.gz",
+      "projectAttribution": "M740-D02 project-authored single-character explanation; not a dictionary quotation or measured child trait"
+    },
+    {
+      "char": "叶",
+      "jsonlEqualsProfile": true,
+      "sourceLicense": "CC-BY-ND-3.0-TW",
+      "projectLicense": "CC0-1.0",
+      "sourceSeparate": true,
+      "dictionaryAttribution": null,
+      "originalFile": "raw/moe-revised.json.gz",
+      "projectAttribution": "M740-D02 project-authored single-character explanation; not a dictionary quotation or measured child trait"
+    },
+    {
+      "char": "萧",
+      "jsonlEqualsProfile": true,
+      "sourceLicense": "CC-BY-ND-3.0-TW",
+      "projectLicense": "CC0-1.0",
+      "sourceSeparate": true,
+      "dictionaryAttribution": null,
+      "originalFile": "raw/moe-revised.json.gz",
+      "projectAttribution": "M740-D02 project-authored single-character explanation; not a dictionary quotation or measured child trait"
+    }
+  ],
+  "notExecuted": [
+    "old14 tests rerun",
+    "query integration",
+    "generation integration",
+    "product modifications"
+  ]
+}

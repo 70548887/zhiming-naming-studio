@@ -1,0 +1,1600 @@
+{
+  "version": "cong-wealth-predicate-scope-examples/1.0.0",
+  "sourceProfile": "qiongtong-2294674-monthly-cong-wealth/1.0.0",
+  "method": "Manually enumerated literal-scope fact inputs and expectations; no application imports or evaluator-generated expected values",
+  "scope": "事实谓词验收；不等于取得同师承3套成格、破格或边界出生盘，也不验证完整从财成立。",
+  "cases": [
+    {
+      "id": "jia-chen-no-water-exposed/dry-visible",
+      "criterionId": "jia-chen-no-water-exposed",
+      "category": "positive",
+      "facts": {
+        "stems": [
+          {
+            "pillar": "日柱",
+            "stem": "甲"
+          },
+          {
+            "pillar": "年柱",
+            "stem": "戊"
+          },
+          {
+            "pillar": "月柱",
+            "stem": "庚"
+          },
+          {
+            "pillar": "时柱",
+            "stem": "丙"
+          }
+        ],
+        "hiddenStems": [],
+        "complete": true
+      },
+      "expected": "met",
+      "note": "完整明干无水。"
+    },
+    {
+      "id": "jia-chen-no-water-exposed/hidden-gui-is-outside-scope",
+      "criterionId": "jia-chen-no-water-exposed",
+      "category": "positive",
+      "facts": {
+        "stems": [
+          {
+            "pillar": "日柱",
+            "stem": "甲"
+          },
+          {
+            "pillar": "年柱",
+            "stem": "戊"
+          },
+          {
+            "pillar": "月柱",
+            "stem": "庚"
+          },
+          {
+            "pillar": "时柱",
+            "stem": "丁"
+          }
+        ],
+        "hiddenStems": [
+          {
+            "pillar": "月柱",
+            "branch": "辰",
+            "stem": "癸"
+          }
+        ],
+        "complete": true
+      },
+      "expected": "met",
+      "note": "甲辰此谓词只核明干，库水另项未决，藏癸不作该子集反证。"
+    },
+    {
+      "id": "jia-chen-no-water-exposed/day-master-location-excluded",
+      "criterionId": "jia-chen-no-water-exposed",
+      "category": "positive",
+      "facts": {
+        "stems": [
+          {
+            "pillar": "日柱",
+            "stem": "癸"
+          },
+          {
+            "pillar": "年柱",
+            "stem": "丙"
+          },
+          {
+            "pillar": "月柱",
+            "stem": "戊"
+          },
+          {
+            "pillar": "时柱",
+            "stem": "庚"
+          }
+        ],
+        "hiddenStems": [],
+        "complete": true
+      },
+      "expected": "met",
+      "note": "合成作用域探针：日柱明干被明确排除，不是甲辰真实出生盘。"
+    },
+    {
+      "id": "jia-chen-no-water-exposed/visible-ren",
+      "criterionId": "jia-chen-no-water-exposed",
+      "category": "negative",
+      "facts": {
+        "stems": [
+          {
+            "pillar": "日柱",
+            "stem": "甲"
+          },
+          {
+            "pillar": "年柱",
+            "stem": "壬"
+          },
+          {
+            "pillar": "月柱",
+            "stem": "戊"
+          },
+          {
+            "pillar": "时柱",
+            "stem": "丁"
+          }
+        ],
+        "hiddenStems": [],
+        "complete": true
+      },
+      "expected": "not-met",
+      "note": "年干壬是明干水反证。"
+    },
+    {
+      "id": "jia-chen-no-water-exposed/visible-gui",
+      "criterionId": "jia-chen-no-water-exposed",
+      "category": "negative",
+      "facts": {
+        "stems": [
+          {
+            "pillar": "日柱",
+            "stem": "甲"
+          },
+          {
+            "pillar": "年柱",
+            "stem": "丙"
+          },
+          {
+            "pillar": "月柱",
+            "stem": "癸"
+          },
+          {
+            "pillar": "时柱",
+            "stem": "庚"
+          }
+        ],
+        "hiddenStems": [],
+        "complete": true
+      },
+      "expected": "not-met",
+      "note": "月干癸是明干水反证。"
+    },
+    {
+      "id": "jia-chen-no-water-exposed/visible-ren-gui",
+      "criterionId": "jia-chen-no-water-exposed",
+      "category": "negative",
+      "facts": {
+        "stems": [
+          {
+            "pillar": "日柱",
+            "stem": "甲"
+          },
+          {
+            "pillar": "年柱",
+            "stem": "壬"
+          },
+          {
+            "pillar": "月柱",
+            "stem": "戊"
+          },
+          {
+            "pillar": "时柱",
+            "stem": "癸"
+          }
+        ],
+        "hiddenStems": [],
+        "complete": true
+      },
+      "expected": "not-met",
+      "note": "两个明干水不改变反证逻辑。"
+    },
+    {
+      "id": "jia-chen-no-water-exposed/missing-hour-no-water",
+      "criterionId": "jia-chen-no-water-exposed",
+      "category": "incomplete-edge",
+      "facts": {
+        "stems": [
+          {
+            "pillar": "日柱",
+            "stem": "甲"
+          },
+          {
+            "pillar": "年柱",
+            "stem": "戊"
+          },
+          {
+            "pillar": "月柱",
+            "stem": "庚"
+          }
+        ],
+        "hiddenStems": [],
+        "complete": false
+      },
+      "expected": "unknown",
+      "note": "缺时未见水不能证明没有。"
+    },
+    {
+      "id": "jia-chen-no-water-exposed/visible-water-already-refutes",
+      "criterionId": "jia-chen-no-water-exposed",
+      "category": "incomplete-edge",
+      "facts": {
+        "stems": [
+          {
+            "pillar": "日柱",
+            "stem": "甲"
+          },
+          {
+            "pillar": "年柱",
+            "stem": "壬"
+          },
+          {
+            "pillar": "月柱",
+            "stem": "戊"
+          }
+        ],
+        "hiddenStems": [],
+        "complete": false
+      },
+      "expected": "not-met",
+      "note": "缺时也已见明干壬，不应退回未知。"
+    },
+    {
+      "id": "jia-chen-no-water-exposed/hidden-water-does-not-fill-visible",
+      "criterionId": "jia-chen-no-water-exposed",
+      "category": "incomplete-edge",
+      "facts": {
+        "stems": [
+          {
+            "pillar": "日柱",
+            "stem": "甲"
+          },
+          {
+            "pillar": "年柱",
+            "stem": "戊"
+          }
+        ],
+        "hiddenStems": [
+          {
+            "pillar": "月柱",
+            "branch": "辰",
+            "stem": "癸"
+          }
+        ],
+        "complete": false
+      },
+      "expected": "unknown",
+      "note": "缺明干且藏水不属于本谓词，仍不能证明明干无水。"
+    },
+    {
+      "id": "yi-午-no-water/no-water-anywhere",
+      "criterionId": "yi-午-no-water",
+      "category": "positive",
+      "facts": {
+        "stems": [
+          {
+            "pillar": "日柱",
+            "stem": "乙"
+          },
+          {
+            "pillar": "年柱",
+            "stem": "丙"
+          },
+          {
+            "pillar": "月柱",
+            "stem": "丁"
+          },
+          {
+            "pillar": "时柱",
+            "stem": "戊"
+          }
+        ],
+        "hiddenStems": [
+          {
+            "pillar": "月柱",
+            "branch": "午",
+            "stem": "己"
+          }
+        ],
+        "complete": true
+      },
+      "expected": "met",
+      "note": "完整字面明藏表均未见水。"
+    },
+    {
+      "id": "yi-午-no-water/hidden-peer-not-water",
+      "criterionId": "yi-午-no-water",
+      "category": "positive",
+      "facts": {
+        "stems": [
+          {
+            "pillar": "日柱",
+            "stem": "乙"
+          },
+          {
+            "pillar": "年柱",
+            "stem": "庚"
+          },
+          {
+            "pillar": "月柱",
+            "stem": "戊"
+          },
+          {
+            "pillar": "时柱",
+            "stem": "丁"
+          }
+        ],
+        "hiddenStems": [
+          {
+            "pillar": "年柱",
+            "branch": "寅",
+            "stem": "甲"
+          },
+          {
+            "pillar": "月柱",
+            "branch": "未",
+            "stem": "乙"
+          }
+        ],
+        "complete": true
+      },
+      "expected": "met",
+      "note": "藏木不是水，本项不混入比劫条件。"
+    },
+    {
+      "id": "yi-午-no-water/day-master-exposed-only-excluded",
+      "criterionId": "yi-午-no-water",
+      "category": "positive",
+      "facts": {
+        "stems": [
+          {
+            "pillar": "日柱",
+            "stem": "壬"
+          },
+          {
+            "pillar": "年柱",
+            "stem": "丙"
+          },
+          {
+            "pillar": "月柱",
+            "stem": "丁"
+          },
+          {
+            "pillar": "时柱",
+            "stem": "戊"
+          }
+        ],
+        "hiddenStems": [
+          {
+            "pillar": "月柱",
+            "branch": "未",
+            "stem": "己"
+          }
+        ],
+        "complete": true
+      },
+      "expected": "met",
+      "note": "合成排除日干探针，不是乙日实际盘；只测试includeDayMaster:false。"
+    },
+    {
+      "id": "yi-午-no-water/visible-water",
+      "criterionId": "yi-午-no-water",
+      "category": "negative",
+      "facts": {
+        "stems": [
+          {
+            "pillar": "日柱",
+            "stem": "乙"
+          },
+          {
+            "pillar": "年柱",
+            "stem": "癸"
+          },
+          {
+            "pillar": "月柱",
+            "stem": "丁"
+          },
+          {
+            "pillar": "时柱",
+            "stem": "戊"
+          }
+        ],
+        "hiddenStems": [],
+        "complete": true
+      },
+      "expected": "not-met",
+      "note": "明干癸按限定字面口径为反证。"
+    },
+    {
+      "id": "yi-午-no-water/hidden-water",
+      "criterionId": "yi-午-no-water",
+      "category": "negative",
+      "facts": {
+        "stems": [
+          {
+            "pillar": "日柱",
+            "stem": "乙"
+          },
+          {
+            "pillar": "年柱",
+            "stem": "丙"
+          },
+          {
+            "pillar": "月柱",
+            "stem": "丁"
+          },
+          {
+            "pillar": "时柱",
+            "stem": "戊"
+          }
+        ],
+        "hiddenStems": [
+          {
+            "pillar": "年柱",
+            "branch": "申",
+            "stem": "壬"
+          }
+        ],
+        "complete": true
+      },
+      "expected": "not-met",
+      "note": "所选藏干壬属于any范围。"
+    },
+    {
+      "id": "yi-午-no-water/day-branch-hidden-water-still-counts",
+      "criterionId": "yi-午-no-water",
+      "category": "negative",
+      "facts": {
+        "stems": [
+          {
+            "pillar": "日柱",
+            "stem": "乙"
+          },
+          {
+            "pillar": "年柱",
+            "stem": "丙"
+          },
+          {
+            "pillar": "月柱",
+            "stem": "丁"
+          },
+          {
+            "pillar": "时柱",
+            "stem": "戊"
+          }
+        ],
+        "hiddenStems": [
+          {
+            "pillar": "日柱",
+            "branch": "亥",
+            "stem": "壬"
+          }
+        ],
+        "complete": true
+      },
+      "expected": "not-met",
+      "note": "排除日干明位不排除日支藏干。"
+    },
+    {
+      "id": "yi-午-no-water/missing-hour-no-seen-water",
+      "criterionId": "yi-午-no-water",
+      "category": "incomplete-edge",
+      "facts": {
+        "stems": [
+          {
+            "pillar": "日柱",
+            "stem": "乙"
+          },
+          {
+            "pillar": "年柱",
+            "stem": "丙"
+          },
+          {
+            "pillar": "月柱",
+            "stem": "戊"
+          }
+        ],
+        "hiddenStems": [],
+        "complete": false
+      },
+      "expected": "unknown",
+      "note": "缺时未见不证明无水。"
+    },
+    {
+      "id": "yi-午-no-water/known-visible-water-refutes",
+      "criterionId": "yi-午-no-water",
+      "category": "incomplete-edge",
+      "facts": {
+        "stems": [
+          {
+            "pillar": "日柱",
+            "stem": "乙"
+          },
+          {
+            "pillar": "月柱",
+            "stem": "癸"
+          }
+        ],
+        "hiddenStems": [],
+        "complete": false
+      },
+      "expected": "not-met",
+      "note": "缺柱也有确定明干水反证。"
+    },
+    {
+      "id": "yi-午-no-water/known-hidden-water-refutes",
+      "criterionId": "yi-午-no-water",
+      "category": "incomplete-edge",
+      "facts": {
+        "stems": [
+          {
+            "pillar": "日柱",
+            "stem": "乙"
+          },
+          {
+            "pillar": "年柱",
+            "stem": "丙"
+          }
+        ],
+        "hiddenStems": [
+          {
+            "pillar": "年柱",
+            "branch": "丑",
+            "stem": "癸"
+          }
+        ],
+        "complete": false
+      },
+      "expected": "not-met",
+      "note": "缺柱也有已知藏干水反证，勿丢弃已知事实。"
+    },
+    {
+      "id": "yi-未-no-water/no-water-anywhere",
+      "criterionId": "yi-未-no-water",
+      "category": "positive",
+      "facts": {
+        "stems": [
+          {
+            "pillar": "日柱",
+            "stem": "乙"
+          },
+          {
+            "pillar": "年柱",
+            "stem": "丙"
+          },
+          {
+            "pillar": "月柱",
+            "stem": "丁"
+          },
+          {
+            "pillar": "时柱",
+            "stem": "戊"
+          }
+        ],
+        "hiddenStems": [
+          {
+            "pillar": "月柱",
+            "branch": "午",
+            "stem": "己"
+          }
+        ],
+        "complete": true
+      },
+      "expected": "met",
+      "note": "完整字面明藏表均未见水。"
+    },
+    {
+      "id": "yi-未-no-water/hidden-peer-not-water",
+      "criterionId": "yi-未-no-water",
+      "category": "positive",
+      "facts": {
+        "stems": [
+          {
+            "pillar": "日柱",
+            "stem": "乙"
+          },
+          {
+            "pillar": "年柱",
+            "stem": "庚"
+          },
+          {
+            "pillar": "月柱",
+            "stem": "戊"
+          },
+          {
+            "pillar": "时柱",
+            "stem": "丁"
+          }
+        ],
+        "hiddenStems": [
+          {
+            "pillar": "年柱",
+            "branch": "寅",
+            "stem": "甲"
+          },
+          {
+            "pillar": "月柱",
+            "branch": "未",
+            "stem": "乙"
+          }
+        ],
+        "complete": true
+      },
+      "expected": "met",
+      "note": "藏木不是水，本项不混入比劫条件。"
+    },
+    {
+      "id": "yi-未-no-water/day-master-exposed-only-excluded",
+      "criterionId": "yi-未-no-water",
+      "category": "positive",
+      "facts": {
+        "stems": [
+          {
+            "pillar": "日柱",
+            "stem": "壬"
+          },
+          {
+            "pillar": "年柱",
+            "stem": "丙"
+          },
+          {
+            "pillar": "月柱",
+            "stem": "丁"
+          },
+          {
+            "pillar": "时柱",
+            "stem": "戊"
+          }
+        ],
+        "hiddenStems": [
+          {
+            "pillar": "月柱",
+            "branch": "未",
+            "stem": "己"
+          }
+        ],
+        "complete": true
+      },
+      "expected": "met",
+      "note": "合成排除日干探针，不是乙日实际盘；只测试includeDayMaster:false。"
+    },
+    {
+      "id": "yi-未-no-water/visible-water",
+      "criterionId": "yi-未-no-water",
+      "category": "negative",
+      "facts": {
+        "stems": [
+          {
+            "pillar": "日柱",
+            "stem": "乙"
+          },
+          {
+            "pillar": "年柱",
+            "stem": "癸"
+          },
+          {
+            "pillar": "月柱",
+            "stem": "丁"
+          },
+          {
+            "pillar": "时柱",
+            "stem": "戊"
+          }
+        ],
+        "hiddenStems": [],
+        "complete": true
+      },
+      "expected": "not-met",
+      "note": "明干癸按限定字面口径为反证。"
+    },
+    {
+      "id": "yi-未-no-water/hidden-water",
+      "criterionId": "yi-未-no-water",
+      "category": "negative",
+      "facts": {
+        "stems": [
+          {
+            "pillar": "日柱",
+            "stem": "乙"
+          },
+          {
+            "pillar": "年柱",
+            "stem": "丙"
+          },
+          {
+            "pillar": "月柱",
+            "stem": "丁"
+          },
+          {
+            "pillar": "时柱",
+            "stem": "戊"
+          }
+        ],
+        "hiddenStems": [
+          {
+            "pillar": "年柱",
+            "branch": "申",
+            "stem": "壬"
+          }
+        ],
+        "complete": true
+      },
+      "expected": "not-met",
+      "note": "所选藏干壬属于any范围。"
+    },
+    {
+      "id": "yi-未-no-water/day-branch-hidden-water-still-counts",
+      "criterionId": "yi-未-no-water",
+      "category": "negative",
+      "facts": {
+        "stems": [
+          {
+            "pillar": "日柱",
+            "stem": "乙"
+          },
+          {
+            "pillar": "年柱",
+            "stem": "丙"
+          },
+          {
+            "pillar": "月柱",
+            "stem": "丁"
+          },
+          {
+            "pillar": "时柱",
+            "stem": "戊"
+          }
+        ],
+        "hiddenStems": [
+          {
+            "pillar": "日柱",
+            "branch": "亥",
+            "stem": "壬"
+          }
+        ],
+        "complete": true
+      },
+      "expected": "not-met",
+      "note": "排除日干明位不排除日支藏干。"
+    },
+    {
+      "id": "yi-未-no-water/missing-hour-no-seen-water",
+      "criterionId": "yi-未-no-water",
+      "category": "incomplete-edge",
+      "facts": {
+        "stems": [
+          {
+            "pillar": "日柱",
+            "stem": "乙"
+          },
+          {
+            "pillar": "年柱",
+            "stem": "丙"
+          },
+          {
+            "pillar": "月柱",
+            "stem": "戊"
+          }
+        ],
+        "hiddenStems": [],
+        "complete": false
+      },
+      "expected": "unknown",
+      "note": "缺时未见不证明无水。"
+    },
+    {
+      "id": "yi-未-no-water/known-visible-water-refutes",
+      "criterionId": "yi-未-no-water",
+      "category": "incomplete-edge",
+      "facts": {
+        "stems": [
+          {
+            "pillar": "日柱",
+            "stem": "乙"
+          },
+          {
+            "pillar": "月柱",
+            "stem": "癸"
+          }
+        ],
+        "hiddenStems": [],
+        "complete": false
+      },
+      "expected": "not-met",
+      "note": "缺柱也有确定明干水反证。"
+    },
+    {
+      "id": "yi-未-no-water/known-hidden-water-refutes",
+      "criterionId": "yi-未-no-water",
+      "category": "incomplete-edge",
+      "facts": {
+        "stems": [
+          {
+            "pillar": "日柱",
+            "stem": "乙"
+          },
+          {
+            "pillar": "年柱",
+            "stem": "丙"
+          }
+        ],
+        "hiddenStems": [
+          {
+            "pillar": "年柱",
+            "branch": "丑",
+            "stem": "癸"
+          }
+        ],
+        "complete": false
+      },
+      "expected": "not-met",
+      "note": "缺柱也有已知藏干水反证，勿丢弃已知事实。"
+    },
+    {
+      "id": "yi-午-no-peer-exposed/day-master-not-extra-peer",
+      "criterionId": "yi-午-no-peer-exposed",
+      "category": "positive",
+      "facts": {
+        "stems": [
+          {
+            "pillar": "日柱",
+            "stem": "乙"
+          },
+          {
+            "pillar": "年柱",
+            "stem": "丙"
+          },
+          {
+            "pillar": "月柱",
+            "stem": "戊"
+          },
+          {
+            "pillar": "时柱",
+            "stem": "丁"
+          }
+        ],
+        "hiddenStems": [],
+        "complete": true
+      },
+      "expected": "met",
+      "note": "日主乙自身不算额外比劫出干。"
+    },
+    {
+      "id": "yi-午-no-peer-exposed/hidden-jia-outside-exposed",
+      "criterionId": "yi-午-no-peer-exposed",
+      "category": "positive",
+      "facts": {
+        "stems": [
+          {
+            "pillar": "日柱",
+            "stem": "乙"
+          },
+          {
+            "pillar": "年柱",
+            "stem": "丙"
+          },
+          {
+            "pillar": "月柱",
+            "stem": "戊"
+          },
+          {
+            "pillar": "时柱",
+            "stem": "丁"
+          }
+        ],
+        "hiddenStems": [
+          {
+            "pillar": "时柱",
+            "branch": "寅",
+            "stem": "甲"
+          }
+        ],
+        "complete": true
+      },
+      "expected": "met",
+      "note": "藏甲不等同甲出干。"
+    },
+    {
+      "id": "yi-午-no-peer-exposed/hidden-yi-outside-exposed",
+      "criterionId": "yi-午-no-peer-exposed",
+      "category": "positive",
+      "facts": {
+        "stems": [
+          {
+            "pillar": "日柱",
+            "stem": "乙"
+          },
+          {
+            "pillar": "年柱",
+            "stem": "庚"
+          },
+          {
+            "pillar": "月柱",
+            "stem": "己"
+          },
+          {
+            "pillar": "时柱",
+            "stem": "丁"
+          }
+        ],
+        "hiddenStems": [
+          {
+            "pillar": "月柱",
+            "branch": "未",
+            "stem": "乙"
+          }
+        ],
+        "complete": true
+      },
+      "expected": "met",
+      "note": "藏乙不等同额外乙出干。"
+    },
+    {
+      "id": "yi-午-no-peer-exposed/extra-jia",
+      "criterionId": "yi-午-no-peer-exposed",
+      "category": "negative",
+      "facts": {
+        "stems": [
+          {
+            "pillar": "日柱",
+            "stem": "乙"
+          },
+          {
+            "pillar": "年柱",
+            "stem": "甲"
+          },
+          {
+            "pillar": "月柱",
+            "stem": "戊"
+          },
+          {
+            "pillar": "时柱",
+            "stem": "丁"
+          }
+        ],
+        "hiddenStems": [],
+        "complete": true
+      },
+      "expected": "not-met",
+      "note": "年干甲违反无比劫出干。"
+    },
+    {
+      "id": "yi-午-no-peer-exposed/extra-yi",
+      "criterionId": "yi-午-no-peer-exposed",
+      "category": "negative",
+      "facts": {
+        "stems": [
+          {
+            "pillar": "日柱",
+            "stem": "乙"
+          },
+          {
+            "pillar": "年柱",
+            "stem": "丙"
+          },
+          {
+            "pillar": "月柱",
+            "stem": "乙"
+          },
+          {
+            "pillar": "时柱",
+            "stem": "丁"
+          }
+        ],
+        "hiddenStems": [],
+        "complete": true
+      },
+      "expected": "not-met",
+      "note": "月干乙为额外同类。"
+    },
+    {
+      "id": "yi-午-no-peer-exposed/both-extra-peers",
+      "criterionId": "yi-午-no-peer-exposed",
+      "category": "negative",
+      "facts": {
+        "stems": [
+          {
+            "pillar": "日柱",
+            "stem": "乙"
+          },
+          {
+            "pillar": "年柱",
+            "stem": "甲"
+          },
+          {
+            "pillar": "月柱",
+            "stem": "戊"
+          },
+          {
+            "pillar": "时柱",
+            "stem": "乙"
+          }
+        ],
+        "hiddenStems": [],
+        "complete": true
+      },
+      "expected": "not-met",
+      "note": "合取任何一个absent子项失败即反证。"
+    },
+    {
+      "id": "yi-午-no-peer-exposed/missing-hour-without-peer",
+      "criterionId": "yi-午-no-peer-exposed",
+      "category": "incomplete-edge",
+      "facts": {
+        "stems": [
+          {
+            "pillar": "日柱",
+            "stem": "乙"
+          },
+          {
+            "pillar": "年柱",
+            "stem": "丙"
+          },
+          {
+            "pillar": "月柱",
+            "stem": "戊"
+          }
+        ],
+        "hiddenStems": [],
+        "complete": false
+      },
+      "expected": "unknown",
+      "note": "缺时未见比劫不能证明无额外甲乙。"
+    },
+    {
+      "id": "yi-午-no-peer-exposed/known-extra-jia-refutes",
+      "criterionId": "yi-午-no-peer-exposed",
+      "category": "incomplete-edge",
+      "facts": {
+        "stems": [
+          {
+            "pillar": "日柱",
+            "stem": "乙"
+          },
+          {
+            "pillar": "年柱",
+            "stem": "甲"
+          }
+        ],
+        "hiddenStems": [],
+        "complete": false
+      },
+      "expected": "not-met",
+      "note": "合取中甲absent已失败，即使乙absent未知也整体不符。"
+    },
+    {
+      "id": "yi-午-no-peer-exposed/only-hidden-peer-and-missing-hour",
+      "criterionId": "yi-午-no-peer-exposed",
+      "category": "incomplete-edge",
+      "facts": {
+        "stems": [
+          {
+            "pillar": "日柱",
+            "stem": "乙"
+          },
+          {
+            "pillar": "年柱",
+            "stem": "丙"
+          }
+        ],
+        "hiddenStems": [
+          {
+            "pillar": "月柱",
+            "branch": "未",
+            "stem": "乙"
+          }
+        ],
+        "complete": false
+      },
+      "expected": "unknown",
+      "note": "藏乙不作明干反证，缺时仍未知。"
+    },
+    {
+      "id": "yi-未-no-peer-exposed/day-master-not-extra-peer",
+      "criterionId": "yi-未-no-peer-exposed",
+      "category": "positive",
+      "facts": {
+        "stems": [
+          {
+            "pillar": "日柱",
+            "stem": "乙"
+          },
+          {
+            "pillar": "年柱",
+            "stem": "丙"
+          },
+          {
+            "pillar": "月柱",
+            "stem": "戊"
+          },
+          {
+            "pillar": "时柱",
+            "stem": "丁"
+          }
+        ],
+        "hiddenStems": [],
+        "complete": true
+      },
+      "expected": "met",
+      "note": "日主乙自身不算额外比劫出干。"
+    },
+    {
+      "id": "yi-未-no-peer-exposed/hidden-jia-outside-exposed",
+      "criterionId": "yi-未-no-peer-exposed",
+      "category": "positive",
+      "facts": {
+        "stems": [
+          {
+            "pillar": "日柱",
+            "stem": "乙"
+          },
+          {
+            "pillar": "年柱",
+            "stem": "丙"
+          },
+          {
+            "pillar": "月柱",
+            "stem": "戊"
+          },
+          {
+            "pillar": "时柱",
+            "stem": "丁"
+          }
+        ],
+        "hiddenStems": [
+          {
+            "pillar": "时柱",
+            "branch": "寅",
+            "stem": "甲"
+          }
+        ],
+        "complete": true
+      },
+      "expected": "met",
+      "note": "藏甲不等同甲出干。"
+    },
+    {
+      "id": "yi-未-no-peer-exposed/hidden-yi-outside-exposed",
+      "criterionId": "yi-未-no-peer-exposed",
+      "category": "positive",
+      "facts": {
+        "stems": [
+          {
+            "pillar": "日柱",
+            "stem": "乙"
+          },
+          {
+            "pillar": "年柱",
+            "stem": "庚"
+          },
+          {
+            "pillar": "月柱",
+            "stem": "己"
+          },
+          {
+            "pillar": "时柱",
+            "stem": "丁"
+          }
+        ],
+        "hiddenStems": [
+          {
+            "pillar": "月柱",
+            "branch": "未",
+            "stem": "乙"
+          }
+        ],
+        "complete": true
+      },
+      "expected": "met",
+      "note": "藏乙不等同额外乙出干。"
+    },
+    {
+      "id": "yi-未-no-peer-exposed/extra-jia",
+      "criterionId": "yi-未-no-peer-exposed",
+      "category": "negative",
+      "facts": {
+        "stems": [
+          {
+            "pillar": "日柱",
+            "stem": "乙"
+          },
+          {
+            "pillar": "年柱",
+            "stem": "甲"
+          },
+          {
+            "pillar": "月柱",
+            "stem": "戊"
+          },
+          {
+            "pillar": "时柱",
+            "stem": "丁"
+          }
+        ],
+        "hiddenStems": [],
+        "complete": true
+      },
+      "expected": "not-met",
+      "note": "年干甲违反无比劫出干。"
+    },
+    {
+      "id": "yi-未-no-peer-exposed/extra-yi",
+      "criterionId": "yi-未-no-peer-exposed",
+      "category": "negative",
+      "facts": {
+        "stems": [
+          {
+            "pillar": "日柱",
+            "stem": "乙"
+          },
+          {
+            "pillar": "年柱",
+            "stem": "丙"
+          },
+          {
+            "pillar": "月柱",
+            "stem": "乙"
+          },
+          {
+            "pillar": "时柱",
+            "stem": "丁"
+          }
+        ],
+        "hiddenStems": [],
+        "complete": true
+      },
+      "expected": "not-met",
+      "note": "月干乙为额外同类。"
+    },
+    {
+      "id": "yi-未-no-peer-exposed/both-extra-peers",
+      "criterionId": "yi-未-no-peer-exposed",
+      "category": "negative",
+      "facts": {
+        "stems": [
+          {
+            "pillar": "日柱",
+            "stem": "乙"
+          },
+          {
+            "pillar": "年柱",
+            "stem": "甲"
+          },
+          {
+            "pillar": "月柱",
+            "stem": "戊"
+          },
+          {
+            "pillar": "时柱",
+            "stem": "乙"
+          }
+        ],
+        "hiddenStems": [],
+        "complete": true
+      },
+      "expected": "not-met",
+      "note": "合取任何一个absent子项失败即反证。"
+    },
+    {
+      "id": "yi-未-no-peer-exposed/missing-hour-without-peer",
+      "criterionId": "yi-未-no-peer-exposed",
+      "category": "incomplete-edge",
+      "facts": {
+        "stems": [
+          {
+            "pillar": "日柱",
+            "stem": "乙"
+          },
+          {
+            "pillar": "年柱",
+            "stem": "丙"
+          },
+          {
+            "pillar": "月柱",
+            "stem": "戊"
+          }
+        ],
+        "hiddenStems": [],
+        "complete": false
+      },
+      "expected": "unknown",
+      "note": "缺时未见比劫不能证明无额外甲乙。"
+    },
+    {
+      "id": "yi-未-no-peer-exposed/known-extra-jia-refutes",
+      "criterionId": "yi-未-no-peer-exposed",
+      "category": "incomplete-edge",
+      "facts": {
+        "stems": [
+          {
+            "pillar": "日柱",
+            "stem": "乙"
+          },
+          {
+            "pillar": "年柱",
+            "stem": "甲"
+          }
+        ],
+        "hiddenStems": [],
+        "complete": false
+      },
+      "expected": "not-met",
+      "note": "合取中甲absent已失败，即使乙absent未知也整体不符。"
+    },
+    {
+      "id": "yi-未-no-peer-exposed/only-hidden-peer-and-missing-hour",
+      "criterionId": "yi-未-no-peer-exposed",
+      "category": "incomplete-edge",
+      "facts": {
+        "stems": [
+          {
+            "pillar": "日柱",
+            "stem": "乙"
+          },
+          {
+            "pillar": "年柱",
+            "stem": "丙"
+          }
+        ],
+        "hiddenStems": [
+          {
+            "pillar": "月柱",
+            "branch": "未",
+            "stem": "乙"
+          }
+        ],
+        "complete": false
+      },
+      "expected": "unknown",
+      "note": "藏乙不作明干反证，缺时仍未知。"
+    },
+    {
+      "id": "geng-mao-no-extra-geng/day-master-not-extra-geng",
+      "criterionId": "geng-mao-no-extra-geng",
+      "category": "positive",
+      "facts": {
+        "stems": [
+          {
+            "pillar": "日柱",
+            "stem": "庚"
+          },
+          {
+            "pillar": "年柱",
+            "stem": "甲"
+          },
+          {
+            "pillar": "月柱",
+            "stem": "乙"
+          },
+          {
+            "pillar": "时柱",
+            "stem": "丁"
+          }
+        ],
+        "hiddenStems": [],
+        "complete": true
+      },
+      "expected": "met",
+      "note": "日主庚自身不算额外庚出干。"
+    },
+    {
+      "id": "geng-mao-no-extra-geng/hidden-geng-outside-exposed",
+      "criterionId": "geng-mao-no-extra-geng",
+      "category": "positive",
+      "facts": {
+        "stems": [
+          {
+            "pillar": "日柱",
+            "stem": "庚"
+          },
+          {
+            "pillar": "年柱",
+            "stem": "甲"
+          },
+          {
+            "pillar": "月柱",
+            "stem": "乙"
+          },
+          {
+            "pillar": "时柱",
+            "stem": "丁"
+          }
+        ],
+        "hiddenStems": [
+          {
+            "pillar": "时柱",
+            "branch": "申",
+            "stem": "庚"
+          }
+        ],
+        "complete": true
+      },
+      "expected": "met",
+      "note": "藏庚不等同庚出干。"
+    },
+    {
+      "id": "geng-mao-no-extra-geng/xin-not-geng",
+      "criterionId": "geng-mao-no-extra-geng",
+      "category": "positive",
+      "facts": {
+        "stems": [
+          {
+            "pillar": "日柱",
+            "stem": "庚"
+          },
+          {
+            "pillar": "年柱",
+            "stem": "辛"
+          },
+          {
+            "pillar": "月柱",
+            "stem": "乙"
+          },
+          {
+            "pillar": "时柱",
+            "stem": "丁"
+          }
+        ],
+        "hiddenStems": [],
+        "complete": true
+      },
+      "expected": "met",
+      "note": "该谓词只针对原句明确庚，不擅把辛等一比范围并入。"
+    },
+    {
+      "id": "geng-mao-no-extra-geng/year-extra-geng",
+      "criterionId": "geng-mao-no-extra-geng",
+      "category": "negative",
+      "facts": {
+        "stems": [
+          {
+            "pillar": "日柱",
+            "stem": "庚"
+          },
+          {
+            "pillar": "年柱",
+            "stem": "庚"
+          },
+          {
+            "pillar": "月柱",
+            "stem": "乙"
+          },
+          {
+            "pillar": "时柱",
+            "stem": "丁"
+          }
+        ],
+        "hiddenStems": [],
+        "complete": true
+      },
+      "expected": "not-met",
+      "note": "年干庚为额外庚。"
+    },
+    {
+      "id": "geng-mao-no-extra-geng/month-extra-geng",
+      "criterionId": "geng-mao-no-extra-geng",
+      "category": "negative",
+      "facts": {
+        "stems": [
+          {
+            "pillar": "日柱",
+            "stem": "庚"
+          },
+          {
+            "pillar": "年柱",
+            "stem": "甲"
+          },
+          {
+            "pillar": "月柱",
+            "stem": "庚"
+          },
+          {
+            "pillar": "时柱",
+            "stem": "丁"
+          }
+        ],
+        "hiddenStems": [],
+        "complete": true
+      },
+      "expected": "not-met",
+      "note": "月干庚为额外庚。"
+    },
+    {
+      "id": "geng-mao-no-extra-geng/hour-extra-geng",
+      "criterionId": "geng-mao-no-extra-geng",
+      "category": "negative",
+      "facts": {
+        "stems": [
+          {
+            "pillar": "日柱",
+            "stem": "庚"
+          },
+          {
+            "pillar": "年柱",
+            "stem": "甲"
+          },
+          {
+            "pillar": "月柱",
+            "stem": "乙"
+          },
+          {
+            "pillar": "时柱",
+            "stem": "庚"
+          }
+        ],
+        "hiddenStems": [],
+        "complete": true
+      },
+      "expected": "not-met",
+      "note": "时干庚为额外庚。"
+    },
+    {
+      "id": "geng-mao-no-extra-geng/missing-hour-no-geng",
+      "criterionId": "geng-mao-no-extra-geng",
+      "category": "incomplete-edge",
+      "facts": {
+        "stems": [
+          {
+            "pillar": "日柱",
+            "stem": "庚"
+          },
+          {
+            "pillar": "年柱",
+            "stem": "甲"
+          },
+          {
+            "pillar": "月柱",
+            "stem": "乙"
+          }
+        ],
+        "hiddenStems": [],
+        "complete": false
+      },
+      "expected": "unknown",
+      "note": "缺时未见不能证明无额外庚。"
+    },
+    {
+      "id": "geng-mao-no-extra-geng/known-extra-geng-refutes",
+      "criterionId": "geng-mao-no-extra-geng",
+      "category": "incomplete-edge",
+      "facts": {
+        "stems": [
+          {
+            "pillar": "日柱",
+            "stem": "庚"
+          },
+          {
+            "pillar": "年柱",
+            "stem": "庚"
+          }
+        ],
+        "hiddenStems": [],
+        "complete": false
+      },
+      "expected": "not-met",
+      "note": "已知额外庚足以反证，不因缺柱变未知。"
+    },
+    {
+      "id": "geng-mao-no-extra-geng/hidden-geng-with-missing-hour",
+      "criterionId": "geng-mao-no-extra-geng",
+      "category": "incomplete-edge",
+      "facts": {
+        "stems": [
+          {
+            "pillar": "日柱",
+            "stem": "庚"
+          },
+          {
+            "pillar": "年柱",
+            "stem": "甲"
+          }
+        ],
+        "hiddenStems": [
+          {
+            "pillar": "日柱",
+            "branch": "申",
+            "stem": "庚"
+          }
+        ],
+        "complete": false
+      },
+      "expected": "unknown",
+      "note": "藏庚不属明干，缺柱仍未知。"
+    }
+  ]
+}

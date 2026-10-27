@@ -1,0 +1,75 @@
+{
+  "version": "qiongtong-2294674-conditions/1.0.0",
+  "source": {
+    "title": "穷通宝鉴",
+    "pageId": 1057030,
+    "revisionId": 2294674,
+    "revisionTimestamp": "2023-06-14T13:49:39Z",
+    "url": "https://zh.wikisource.org/w/index.php?title=穷通宝鉴&oldid=2294674",
+    "permalink": "https://zh.wikisource.org/w/index.php?oldid=2294674",
+    "contributorHistory": "https://zh.wikisource.org/w/index.php?title=%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4&action=history",
+    "rawSha256": "8ba17242f116583de2e10172e006f5ce5f74b23ccfc0bd24b886be135e9f20bd",
+    "rawCharacters": 36746,
+    "license": "Wikisource transcription CC-BY-SA-4.0; no claim of independent scanned-edition or public-domain-chain verification",
+    "scanCollation": false,
+    "sourceVersionType": "fixed-electronic-transcription"
+  },
+  "changes": "Five exact source passages extracted for four partial calendar prerequisites and three explicit stem-position facts. No complete seasonal judgment inferred.",
+  "excerpts": [
+    {
+      "id": "yi-you",
+      "sourceQuote": "在白露之后，桂蕊未开，耑用癸水以滋桂萼。若秋分后，桂花已开，却喜向阳，又宜用丙，癸水次之",
+      "sourceSpan": {
+        "start": 7279,
+        "end": 7323,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;codepoint[7279,7323)"
+    },
+    {
+      "id": "gui-chen",
+      "sourceQuote": "清明后、火气未炽，专用丙火，为阴阳合谐。谷雨后，虽用丙火，尚宜辛甲佐之。",
+      "sourceSpan": {
+        "start": 34269,
+        "end": 34305,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;codepoint[34269,34305)"
+    },
+    {
+      "id": "yi-yin",
+      "sourceQuote": "丙癸两透，科甲定然",
+      "sourceSpan": {
+        "start": 5396,
+        "end": 5405,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;codepoint[5396,5405)"
+    },
+    {
+      "id": "geng-chen",
+      "sourceQuote": "甲透丁藏，采芹拾芥",
+      "sourceSpan": {
+        "start": 23641,
+        "end": 23650,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;codepoint[23641,23650)"
+    },
+    {
+      "id": "xin-chou",
+      "sourceQuote": "壬丙俱藏，游庠食饩之人",
+      "sourceSpan": {
+        "start": 29805,
+        "end": 29816,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;codepoint[29805,29816)"
+    }
+  ]
+}

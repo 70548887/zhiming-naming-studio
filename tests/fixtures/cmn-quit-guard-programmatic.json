@@ -1,0 +1,133 @@
+{
+  "mode": "old-prototype-input",
+  "before": {
+    "at": 680.5,
+    "note": {
+      "id": "_r_1a_",
+      "name": "",
+      "labels": [
+        "审阅备注"
+      ],
+      "placeholder": "记录你的判断、与家长沟通的要点……",
+      "value": "",
+      "textContent": "",
+      "defaultValue": "",
+      "trackedValue": "",
+      "disabled": false
+    },
+    "dialogInventory": [
+      {
+        "role": "dialog",
+        "heading": "名字详解",
+        "inert": false,
+        "hasNote": true
+      }
+    ],
+    "dirtyCaption": "审阅已保存",
+    "dirtyPhraseAnywhere": false,
+    "saveEnabled": false,
+    "guardProbe": {
+      "synthetic": true,
+      "cancelable": true,
+      "isTrusted": false,
+      "defaultPrevented": false,
+      "dispatchReturned": true
+    },
+    "activation": {
+      "isActive": true,
+      "hasBeenActive": true
+    },
+    "documentHasFocus": true
+  },
+  "immediate": {
+    "at": 684.3000000007451,
+    "note": {
+      "id": "_r_1a_",
+      "name": "",
+      "labels": [
+        "审阅备注"
+      ],
+      "placeholder": "记录你的判断、与家长沟通的要点……",
+      "value": "原生退出取消验收：此草稿尚未保存",
+      "textContent": "原生退出取消验收：此草稿尚未保存",
+      "defaultValue": "原生退出取消验收：此草稿尚未保存",
+      "trackedValue": "原生退出取消验收：此草稿尚未保存",
+      "disabled": false
+    },
+    "dialogInventory": [
+      {
+        "role": "dialog",
+        "heading": "名字详解",
+        "inert": false,
+        "hasNote": true
+      }
+    ],
+    "dirtyCaption": "审阅尚未保存",
+    "dirtyPhraseAnywhere": true,
+    "saveEnabled": true,
+    "guardProbe": {
+      "synthetic": true,
+      "cancelable": true,
+      "isTrusted": false,
+      "defaultPrevented": false,
+      "dispatchReturned": true
+    },
+    "activation": {
+      "isActive": true,
+      "hasBeenActive": true
+    },
+    "documentHasFocus": true
+  },
+  "ready": {
+    "ready": true,
+    "elapsedMs": 10.099999997764826,
+    "snapshot": {
+      "at": 696.8000000007451,
+      "note": {
+        "id": "_r_1a_",
+        "name": "",
+        "labels": [
+          "审阅备注"
+        ],
+        "placeholder": "记录你的判断、与家长沟通的要点……",
+        "value": "原生退出取消验收：此草稿尚未保存",
+        "textContent": "原生退出取消验收：此草稿尚未保存",
+        "defaultValue": "原生退出取消验收：此草稿尚未保存",
+        "trackedValue": "原生退出取消验收：此草稿尚未保存",
+        "disabled": false
+      },
+      "dialogInventory": [
+        {
+          "role": "dialog",
+          "heading": "名字详解",
+          "inert": false,
+          "hasNote": true
+        }
+      ],
+      "dirtyCaption": "审阅尚未保存",
+      "dirtyPhraseAnywhere": true,
+      "saveEnabled": true,
+      "guardProbe": {
+        "synthetic": true,
+        "cancelable": true,
+        "isTrusted": false,
+        "defaultPrevented": true,
+        "dispatchReturned": false
+      },
+      "activation": {
+        "isActive": true,
+        "hasBeenActive": true
+      },
+      "documentHasFocus": true
+    }
+  },
+  "inputEvents": [
+    {
+      "type": "input",
+      "isTrusted": false,
+      "targetId": "_r_1a_",
+      "at": 683
+    }
+  ],
+  "oldHelperWouldHaveQuitImmediatelyAfterImmediate": true
+}

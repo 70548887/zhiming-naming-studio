@@ -1,0 +1,271 @@
+import type { Analysis, BirthProfile, CharacterEntry, Citation, Element, NameCandidate, NamingPreferences } from '../shared/types';
+import namingEditorial from '../../data/naming-editorial.json';
+import {hasBaselinePronunciation,hasReviewedProjectReading,reviewedNamingSense,reviewedNamingCombination,hasReviewedNaturalPair,semanticTagsForReading,currentCharacterWarning} from './naming-semantics-v4';
+
+const variantCache=new WeakMap<CharacterEntry[],Map<string,string[]>>();
+function variantGroups(characters:CharacterEntry[]) {
+  const cached=variantCache.get(characters);if(cached)return cached;
+  const groups=new Map<string,Set<string>>();
+  const add=(value:string[])=>{const all=new Set(value.flatMap(char=>[...(groups.get(char)||[char.normalize('NFKC')])]));for(const char of all)groups.set(char,all);};
+  for(const group of namingEditorial.variantGroups)add([...group].map(char=>char.normalize('NFKC')));
+  for(const entry of characters)add([entry.char,entry.traditional,...(entry.variants||[])].filter(Boolean).map(char=>char.normalize('NFKC')));
+  const result=new Map([...groups].map(([char,group])=>[char,[...group]]));variantCache.set(characters,result);return result;
+}
+const defaultVariantCharacters:CharacterEntry[]=[];
+/** Avoidance treats known Unicode variants as equivalent; it does not change stored legal names. */
+export function expandNameVariants(value:string,characters:CharacterEntry[]=defaultVariantCharacters):string {
+  const groups=variantGroups(characters);return [...new Set([...value.normalize('NFKC')].flatMap(char=>groups.get(char)||[char]))].join('');
+}
+function canonicalName(value:string,characters:CharacterEntry[]=defaultVariantCharacters):string {
+  const groups=variantGroups(characters),known=new Set(characters.map(char=>char.char));
+  return [...value.normalize('NFKC')].map(char=>{const group=groups.get(char)||[char];return group.find(candidate=>known.has(candidate))||group[0];}).join('');
+}
+
+const ordinarySurnames: Record<string,string> = {赵:'zhào',钱:'qián',孙:'sūn',李:'lǐ',周:'zhōu',吴:'wú',郑:'zhèng',王:'wáng',冯:'féng',陈:'chén',褚:'chǔ',卫:'wèi',蒋:'jiǎng',沈:'shěn',韩:'hán',杨:'yáng',朱:'zhū',秦:'qín',许:'xǔ',何:'hé',吕:'lǚ',张:'zhāng',孔:'kǒng',曹:'cáo',严:'yán',华:'huà',金:'jīn',魏:'wèi',陶:'táo',姜:'jiāng',谢:'xiè',邹:'zōu',喻:'yù',柏:'bǎi',水:'shuǐ',窦:'dòu',章:'zhāng',云:'yún',苏:'sū',潘:'pān',葛:'gě',范:'fàn',彭:'péng',郎:'láng',鲁:'lǔ',韦:'wéi',马:'mǎ',苗:'miáo',凤:'fèng',花:'huā',方:'fāng',俞:'yú',任:'rén',袁:'yuán',柳:'liǔ',鲍:'bào',史:'shǐ',唐:'táng',费:'fèi',薛:'xuē',雷:'léi',贺:'hè',倪:'ní',汤:'tāng',滕:'téng',殷:'yīn',罗:'luó',毕:'bì',郝:'hǎo',邬:'wū',安:'ān',常:'cháng',乐:'yuè',于:'yú',傅:'fù',皮:'pí',卞:'biàn',齐:'qí',康:'kāng',伍:'wǔ',余:'yú',元:'yuán',卜:'bǔ',顾:'gù',孟:'mèng',平:'píng',黄:'huáng',和:'hé',穆:'mù',萧:'xiāo',尹:'yǐn',姚:'yáo',邵:'shào',汪:'wāng',毛:'máo',米:'mǐ',贝:'bèi',明:'míng',成:'chéng',戴:'dài',宋:'sòng',庞:'páng',熊:'xióng',纪:'jǐ',舒:'shū',屈:'qū',项:'xiàng',董:'dǒng',梁:'liáng',杜:'dù',阮:'ruǎn',欧阳:'ōu yáng',司马:'sī mǎ',上官:'shàng guān',诸葛:'zhū gě',司徒:'sī tú',夏侯:'xià hóu',东方:'dōng fāng',尉迟:'yù chí',单:'shàn',解:'xiè',查:'zhā',曾:'zēng',区:'ōu',仇:'qiú',翟:'zhái',朴:'piáo',缪:'miào',覃:'qín',万俟:'mò qí'};
+Object.assign(ordinarySurnames,{刘:'liú',郭:'guō',林:'lín',徐:'xú',高:'gāo',胡:'hú',邓:'dèng',谭:'tán',廖:'liào',陆:'lù',叶:'yè',程:'chéng',崔:'cuī',钟:'zhōng',田:'tián',蔡:'cài',丁:'dīng',夏:'xià',白:'bái',石:'shí',邱:'qiū',侯:'hóu',江:'jiāng',龙:'lóng',段:'duàn',龚:'gōng',黎:'lí',武:'wǔ',乔:'qiáo',贾:'jiǎ',尧:'yáo',邢:'xíng',赖:'lài',莫:'mò',易:'yì',商:'shāng',艾:'ài',蓝:'lán',聂:'niè',卢:'lú',长孙:'zhǎng sūn',慕容:'mù róng',端木:'duān mù',宇文:'yǔ wén',皇甫:'huáng fǔ',南宫:'nán gōng',钟离:'zhōng lí',令狐:'líng hú',独孤:'dú gū',公孙:'gōng sūn',轩辕:'xuān yuán',司空:'sī kōng',申屠:'shēn tú',澹台:'tán tái',公羊:'gōng yáng',赫连:'hè lián',闻人:'wén rén',淳于:'chún yú',百里:'bǎi lǐ',宗政:'zōng zhèng',仲孙:'zhòng sūn',左丘:'zuǒ qiū',太史:'tài shǐ',公冶:'gōng yě',公良:'gōng liáng',第五:'dì wǔ',东方:'dōng fāng',东郭:'dōng guō',东门:'dōng mén',南门:'nán mén',西门:'xī mén',公西:'gōng xī'});
+export function surnameReading(p: BirthProfile) { return p.surnamePinyin.trim() || ordinarySurnames[canonicalName(p.surname.trim())] || ''; }
+const parentSurnamePrefixes=[...new Set([...Object.keys(ordinarySurnames),...'刘郭林徐高胡朱郭罗邓萧谭廖陆叶程崔钟汪田蔡丁余廖夏白石曾熊秦邱侯江龙段龚黎武乔贾顾尧邢邝赖龚莫易商艾蓝巫伍岳尉舒聂耿窦路席季麻强贲费解应宗邰管卢娄危支柯昝杭洪包左诸包石崔吉钮龚程嵇邢裴荣翁荀甄曲封芮储靳焦巴弓牧隗谷车',...'长孙 慕容 端木 宇文 皇甫 南宫 钟离 令狐 独孤 公孙 轩辕 司空 申屠 澹台 公羊 赫连 闻人 淳于'.split(' ')])].sort((a,b)=>b.length-a.length);
+export function parentNameReference(profile:BirthProfile,pref:NamingPreferences,characters:CharacterEntry[]=defaultVariantCharacters):{excluded:string;warnings:string[]} {
+  if(pref.avoidParentNames===false)return {excluded:'',warnings:[]};
+  const excluded=new Set<string>(),warnings:string[]=[];
+  for(const [label,raw] of [['爸爸',profile.fatherName],['妈妈',profile.motherName]] as const){
+    const fullName=typeof raw==='string'?canonicalName(raw.trim(),characters):'';if(!fullName)continue;
+    if(!/^[\p{Script=Han}]+$/u.test(fullName)){warnings.push(`${label}姓名未按常见中文姓氏自动拆分，请在“长辈避讳”中填写需要避开的字。`);continue;}
+    const surname=parentSurnamePrefixes.find(s=>fullName.startsWith(s));
+    if(!surname||fullName.length<=surname.length){warnings.push(`${label}姓名的姓与名尚未明确识别，请核对完整姓名，并在“长辈避讳”中补充避字。`);continue;}
+    for(const char of fullName.slice(surname.length))excluded.add(char);
+  }
+  return {excluded:[...excluded].join(''),warnings};
+}
+function excludedNameCharacters(profile:BirthProfile,pref:NamingPreferences,characters:CharacterEntry[]){return expandNameVariants(pref.forbiddenChars+pref.elderTaboo+parentNameReference(profile,pref,characters).excluded,characters);}
+export function barePinyin(s:string) { return s.toLowerCase().normalize('NFD').replace(/u\u0308/g,'v').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z ]/gi,'').replace(/\s+/g,' ').trim(); }
+const forbiddenWords = ['死','屎','尿','癌','妓','嫖','傻','蠢','贱','丑','残','病','殇','夭'];
+const awkwardReadings: Record<string,string> = {'du zi teng':'肚子疼','shi zhen xiang':'屎真香','shi yi tuo':'屎一坨','fan jian':'犯贱','hu li jing':'狐狸精','yang wei':'阳痿','wei sheng jin':'卫生巾','lai yue jing':'来月经','zhu yi qun':'猪一群'};
+// Original naming imagery, displayed as editorial interpretation rather than a dictionary quotation.
+const industryMap:Record<string,string[]>={医学:['仁','和','济','安','康','慈','宁'],医疗:['仁','和','安','康'],工程:['衡','建','成','实','毅','立','序'],科技:['知','新','明','思','远','启'],艺术:['雅','乐','音','诗','画','韵','灵'],教育:['文','书','学','知','思','礼'],金融:['信','诚','衡','谨'],农业:['禾','穗','丰','田','雨','润']};
+function industryAffinity(entry:CharacterEntry, industry:string) { return hasReviewedProjectReading(entry)&&Object.entries(industryMap).some(([k,v])=>industry.includes(k)&&v.includes(entry.char)); }
+// Editorial combinations reviewed for an intelligible, natural Chinese naming expression.
+// This is a product-authored language preference, not an ancient text or population-frequency dataset.
+const naturalPairs = new Set(`安宁 安然 安和 安予 安澄 安晴 安悦 安恬 安雅 予安 予宁 若安 若宁 若晴 若和 宁远 宁和 宁清 宁书 宁知 书宁 书安 思宁 思安 知安 知宁 明安 亦安 以宁 以安 一宁 一安 允安 允宁 承安 承宁 嘉宁 嘉安 嘉和 靖安 靖宁 宥宁 宥安 乐安 乐宁 恬宁 清宁 清和 清安 平安 和宁 和安 泰安 康宁
+知远 知新 知行 知礼 知言 知微 知衡 知夏 知书 知然 知明 知予 思齐 思远 思源 思睿 思澄 思明 思言 思予 思礼 思成 思哲 思和 思乐 明哲 明睿 明远 明礼 明知 明澄 明朗 明轩 博文 博雅 博知 博言 博远 博宁 睿知 睿思 慧宁 慧言 书言 书禾 书远 书予 书雅 文知 文远 文清 文雅 文宁 文礼 学思 启明 启知 启文 启宁 致远 修远 修齐 修文 修宁 怀知 怀安 怀仁
+嘉言 嘉禾 嘉树 嘉木 嘉泽 嘉澄 嘉悦 嘉仪 嘉礼 嘉文 嘉知 嘉景 允和 允知 允文 允礼 允诚 允言 承泽 承知 承文 承远 承言 予和 予澄 予晴 予知 予书 予嘉 景明 景和 景宁 景行 景初 景澄 清扬 清越 清朗 清雅 清言 清知 澄明 澄宁 澄心 亦宁 亦知 亦清 亦然 亦和 亦嘉 以文 以知 以诚 以和
+怀瑾 怀瑜 怀德 怀远 怀信 怀谦 仁安 仁和 仁知 仁礼 仁雅 礼安 礼知 礼和 言知 言安 言宁 言清 言和 言诚 德宁 德安 德言 德知 谦和 谦宁 谦远 谨言 谨宁 谨知 诚安 诚知 诚宁 信安 信言 和光 和雅 和畅 和悦
+星澄 星宁 星言 星予 星禾 星然 星知 星远 晨安 晨宁 晨知 晨澄 晨予 晴川 晴安 晴宁 晴知 霁月 霁宁 霁晴 云舒 云知 云澄 云宁 云舟 雨禾 雨晴 雨霁 雨澄 沐安 沐宁 沐言 沐知 沐晴 沐禾 泽安 泽宁 泽知 泽言 涵知 涵宁 涵文 溪宁 溪言 溪知 溪禾 川宁 川知 川和 林溪 林知 林宁 松宁 松言 柏宁 柏言 梓宁 梓安 梓言 梓知 桐宁 桐安 桐知 禾宁 禾安 禾知 禾言 竹宁 竹安 竹知 竹言 兰宁 兰知 兰清 芷宁 芷安 芷言 若溪 若澄 若知 若言 若初 若舟 初宁 初安 初言 初知 初禾 南知 南宁 南星 南乔 时安 时宁 时知 时予 昕宁 昕知 昕予 昭宁 昭知 昭言 朗宁 朗知 昊宁 昊文 熙宁 熙和 熙知 煦宁 煦知 瑾宁 瑾言 瑾知 瑾安 瑜宁 瑜安 瑜知 琬宁 琬言 琬清`.split(/\s+/).filter(Boolean));
+const semanticThemes = [
+  {name:'平安',triggers:['平安','安宁','安康','健康','安然','祥和','平和','和美','安稳','安定'],chars:'安宁康健泰和靖祺佑宥恬平定吉福乐悦'},
+  {name:'求知',triggers:['求知','智慧','聪慧','聪明','学识','学业','博学','思辨','睿智','书香','好学','学习'],chars:'知思睿慧智书学文明哲博修礼启识闻研颖敏'},
+  {name:'仁爱',triggers:['仁爱','善良','友爱','关爱','温暖','慈爱','宽容','感恩'],chars:'仁慈善恩和宥温恺泽予济惠淑'},
+  {name:'志向',triggers:['志向','理想','远大','进取','坚毅','勇敢','坚强','自立','志存高远'],chars:'志远鸿鹏毅坚勇承立行达卓锐修启'},
+  {name:'诚信',triggers:['诚信','诚实','正直','守信','品德','美德','谦逊','谦和','自律'],chars:'诚信用言德礼正直端谨谦允修'},
+  {name:'喜乐',triggers:['喜乐','快乐','喜悦','开心','开朗','活泼','幸福','愉悦'],chars:'乐悦欣怡欢熙恺晴朗畅嘉喜'},
+  {name:'自然',triggers:['自然','山水','清新','清雅','生机','灵动','芳洁'],chars:'清溪川山岳禾竹兰芷若云雨月星林松柏梓桐沁涵澄霁'}
+];
+for(const reviewed of namingEditorial.citations)for(const name of reviewed.names)naturalPairs.add(name);
+function requestedThemes(intent:string) { return semanticThemes.filter(theme=>theme.triggers.some(trigger=>intent.includes(trigger))); }
+/** Editorial language preferences; these are soft style cues, not gender rules or psychological predictions. */
+function aestheticFit(entries:CharacterEntry[],style:string,gender:BirthProfile['gender']) {
+  const rules=[
+    {pattern:/温润|温和|柔和|温柔/,label:'温和意象',chars:'安宁和清宥恬怡涵润瑜玉琬予谦若淳'},
+    {pattern:/书卷|书香|典雅|古典|儒雅/,label:'书卷意象',chars:'书文知思礼雅德言怀修允予瑾瑜之以'},
+    {pattern:/明快|明朗|清朗|开朗/,label:'明亮意象',chars:'明朗晴昕晨昭阳悦欣乐启新嘉熙光星'},
+    {pattern:/自然|清新|山水/,label:'自然意象',chars:'禾竹林溪川月星云雨山岳松柏桐梓兰芷若雪霁'},
+    {pattern:/现代|时尚/,label:'清简组合',semantic:false,chars:'以亦予可安宁禾言知允时初今一之'}
+  ];
+  const active=rules.filter(rule=>rule.pattern.test(style));
+  let score=0;const notes:string[]=[];
+  for(const rule of active){const matched=entries.filter(entry=>rule.chars.includes(entry.char)&&(rule.semantic===false||hasReviewedProjectReading(entry))).map(entry=>entry.char);if(matched.length){score+=matched.length*3;notes.push(`${rule.label}“${matched.join('、')}”`);}}
+  const simple=/简约|简洁|极简|简练/.test(style);
+  if(simple){const average=entries.reduce((n,entry)=>n+(entry.strokes??12),0)/Math.max(1,entries.length);const bonus=Math.max(0,Math.min(6,(12-average)*.9));score+=bonus;notes.push(`普通笔画平均${Math.round(average*10)/10}画`);}
+  const explicit=active.length>0||simple;
+  const genderChars=gender==='男'?'承宇轩昊朗鸿博毅远哲修衡景泽宸卓':'雅宁晴芷兰婉瑶琳琬柔萱薇茉汐妍悦';
+  const genderMatches=gender==='中性'?[]:entries.filter(entry=>genderChars.includes(entry.char)).map(entry=>entry.char);
+  return {styleScore:Math.min(12,score),genderScore:genderMatches.length*2,explicit,notes,genderMatches};
+}
+const normalizeConstraint=(s:string)=>s.replace(/[\s,，、]/g,'');
+const radicalAliases:Record<string,string>={艹:'艸',氵:'水',氺:'水',忄:'心',扌:'手',犭:'犬',钅:'金',王:'玉',礻:'示',衤:'衣',门:'門'};
+const zodiacImagery:Record<string,{radicals:string[];description:string}>={
+  鼠:{radicals:['米','禾','豆','宀'],description:'谷物与安居意象'},牛:{radicals:['艸','禾','田'],description:'草木、耕耘意象'},
+  虎:{radicals:['山','木'],description:'山林意象'},兔:{radicals:['艸','木','禾'],description:'草木与生长意象'},
+  龙:{radicals:['水','雨'],description:'云雨与润泽意象'},蛇:{radicals:['艸','木','山'],description:'草木山野意象'},
+  马:{radicals:['艸','禾'],description:'草木与开阔生机意象'},羊:{radicals:['艸','禾'],description:'草木与温和生长意象'},
+  猴:{radicals:['木','山'],description:'山林与灵动意象'},鸡:{radicals:['米','禾','豆'],description:'谷物与丰足意象'},
+  狗:{radicals:['宀','門'],description:'家园与守护意象'},猪:{radicals:['米','禾','豆','宀'],description:'丰足与安居意象'}
+};
+const zodiacBranch:Record<string,string>={鼠:'子',牛:'丑',虎:'寅',兔:'卯',龙:'辰',蛇:'巳',马:'午',羊:'未',猴:'申',鸡:'酉',狗:'戌',猪:'亥'};
+const branchZodiac:Record<string,string>=Object.fromEntries(Object.entries(zodiacBranch).map(([z,b])=>[b,z]));
+const branchOrder=[...'子丑寅卯辰巳午未申酉戌亥'];
+const liuhe:Record<string,string>={子:'丑',丑:'子',寅:'亥',亥:'寅',卯:'戌',戌:'卯',辰:'酉',酉:'辰',巳:'申',申:'巳',午:'未',未:'午'};
+export function zodiacCharacterReference(entry:CharacterEntry,zodiac:string):string|null {
+  const radical=radicalAliases[entry.radical||'']||entry.radical;
+  const rule=zodiacImagery[zodiac];
+  return radical&&rule?.radicals.includes(radical)?`${entry.char}的正统部首为${radical}，呼应生肖${zodiac}的${rule.description}`:null;
+}
+function zodiacRelations(zodiac:string):string {
+  const branch=zodiacBranch[zodiac]; if(!branch)return '生肖资料待定。';
+  const group=['申子辰','亥卯未','寅午戌','巳酉丑'].find(s=>s.includes(branch))!;
+  const animal=(zhi:string)=>`${zhi}${branchZodiac[zhi]}`;
+  return `${branch}${zodiac}：六合${animal(liuhe[branch])}，三合${[...group].map(animal).join('—')}，六冲${animal(branchOrder[(branchOrder.indexOf(branch)+6)%12])}。地支关系不直接换算为姓名字根宜忌。`;
+}
+function toneOfSyllable(s:string):number {
+  const numeric=/[1-5]/.exec(s);if(numeric)return Number(numeric[0]);
+  for(const [i,vowels]of ['āēīōūǖ','áéíóúǘ','ǎěǐǒǔǚ','àèìòùǜ'].entries())if([...s].some(c=>vowels.includes(c)))return i+1;
+  return 5;
+}
+function meaningAffinity(entry:CharacterEntry, intent:string):boolean {
+  if(!intent.trim())return false;
+  if(hasReviewedProjectReading(entry)&&requestedThemes(intent).some(theme=>theme.chars.includes(entry.char)))return true;
+  const concepts=[reviewedSense(entry),...semanticTagsForReading(entry)].filter((x):x is string=>!!x&&x.length>1);
+  return concepts.some(x=>intent.includes(x))||intent.split(/[\s,，、；;。]+/).some(x=>x.length>1&&entry.meaning.includes(x));
+}
+const firstDictionarySense=(entry:CharacterEntry)=>entry.meaning.split(/[；;]/)[0].trim();
+function semanticCaution(entry:CharacterEntry):string|null {
+  const first=firstDictionarySense(entry);
+  if(/^(參見|参见|見「|见「)/.test(first)&&!reviewedSense(entry))return '字典本条仅交叉参见，命名所用字义需要人工补充核对';
+  if(/倨慢|邪惡|邪恶|愚蠢|死亡|疾病|病痛|醜陋|丑陋|奴隸|奴隶|侮辱|卑賤|卑贱|淫亂|淫乱|災禍|灾祸|貪婪|贪婪|怨恨|悲傷|悲伤|憂愁|忧愁|孤獨|孤独|孤單|孤单/.test(first))return '字典首义存在负面联想，已保留原义，请确认选用理由';
+  return null;
+}
+function namingSense(entry:CharacterEntry):string {
+  return reviewedSense(entry)?`${reviewedSense(entry)}（项目命名意象；字典原文见用字详情）`:hasBaselinePronunciation(entry)?'命名义待起名师复核（字典原文见用字详情）':`${entry.meaning}（所选读音的字典原文；命名适用义待审，待起名师复核）`;
+}
+function reviewedSense(entry:CharacterEntry):string|undefined {
+  return reviewedNamingSense(entry);
+}
+function isPolyphonic(entry:CharacterEntry):boolean{return entry.polyphonic===true||new Set(entry.readings?.map(reading=>reading.pinyin)||[]).size>1||entry.warning.includes('多音');}
+type NamingCitationRule=(typeof namingEditorial.citations)[number];
+const citationIdentityKeys=['id','sourceId','title','chapter','text'] as const;
+function applicableNamingCitationRule(item:NamingCitationRule,givenName:string,characters:Map<string,CharacterEntry>):boolean {
+  return item.names.includes(givenName)&&item.citation.id===item.id&&item.citation.text.includes(item.excerpt)&&[...givenName].every(char=>{
+    const expected=(item.readings as Partial<Record<string,string>>)[char];
+    const entry=characters.get(char);return !!expected&&!!entry&&entry.pinyin===expected&&hasReviewedProjectReading(entry)&&item.excerpt.includes(char);
+  });
+}
+function matchingNamingCitationRule(givenName:string,characters:CharacterEntry[],citations:Citation[]):NamingCitationRule|undefined {
+  const charMap=new Map(characters.map(entry=>[entry.char,entry]));
+  return namingEditorial.citations.find(item=>applicableNamingCitationRule(item,givenName,charMap)&&citations.some(citation=>citationIdentityKeys.every(key=>citation[key]===item.citation[key])));
+}
+/** Only specifically reviewed name/sense/reading/source combinations qualify as naming citations. */
+export function selectNamingCitations(givenName:string,characters:CharacterEntry[],citations:Citation[]):Citation[] {
+  const rule=matchingNamingCitationRule(givenName,characters,citations);
+  return rule?citations.filter(citation=>citationIdentityKeys.every(key=>citation[key]===rule.citation[key])).slice(0,1):[];
+}
+export function selectNamingCitationNote(givenName:string,characters:CharacterEntry[],citations:Citation[]):string {
+  return matchingNamingCitationRule(givenName,characters,citations)?.context||'';
+}
+interface EvaluationContext { map:Map<string,CharacterEntry>; reviewedCitations:Map<string,Citation[]>; }
+function createEvaluationContext(chars:CharacterEntry[],citations:Citation[]):EvaluationContext {
+  const map=new Map(chars.map(c=>[c.char,c]));
+  const reviewedCitations=new Map(namingEditorial.citations.flatMap(item=>item.names.map(name=>[name,selectNamingCitations(name,chars,citations)] as const)));
+  return {map,reviewedCitations};
+}
+function rank(c:NameCandidate,p:NamingPreferences,profile:BirthProfile) {
+  const e=c.evaluation; const weights = p.priority==='traditional'?[1,1,1,4,1]:p.priority==='sound'?[4,2,1,.5,1]:p.priority==='classic'?[1,3,1,.5,1]:p.priority==='simple'?[2,1,4,.5,1]:[3,4,2,.35,1];
+  const fit=aestheticFit(c.characters,p.style,profile.gender);
+  return [e.sound,e.meaning,e.simplicity,e.traditional,e.distinctiveness].reduce((s,v,i)=>s+v*weights[i],0)+(p.priority==='classic'&&c.citations.length?120:0)+fit.styleScore*6+fit.genderScore*(fit.explicit?1:3);
+}
+export function validatePreferences(p: NamingPreferences, chars:CharacterEntry[], profile?:BirthProfile) {
+  if(![1,2].includes(p.length)) throw new Error('名字字数只支持一个字或两个字。');
+  const required=[...new Set(Array.from(normalizeConstraint(p.requiredChars+p.generationChar)))];
+  if(required.length>p.length) throw new Error('指定字与辈分字的数量超过名字字数，请调整。');
+  if(Array.from(normalizeConstraint(p.generationChar)).length>1) throw new Error('辈分字限一个汉字，默认位于名字首位。');
+  const parental=profile?expandNameVariants(parentNameReference(profile,p,chars).excluded,chars):'';
+  const banned=expandNameVariants(p.forbiddenChars+p.elderTaboo+parental,chars);
+  const map=new Map(chars.map(c=>[c.char,c]));
+  for(const ch of required){ if(parental.includes(ch))throw new Error(`指定字“${ch}”与父母姓名避讳冲突，请更换用字或关闭“避开父母名字用字”。`);if(banned.includes(ch))throw new Error(`“${ch}”同时属于指定字与避讳字，请修改。`);if(!map.has(ch))throw new Error(`本地审核字库尚未收录“${ch}”，请更换指定字。`); }
+}
+export function evaluateName(givenName:string, profile:BirthProfile, pref:NamingPreferences, analysis:Analysis, chars:CharacterEntry[], citations:Citation[], origin:'local'|'ai'='local', context?:EvaluationContext): NameCandidate|null {
+  const given=Array.from(givenName); if(given.length!==pref.length)return null;
+  const banned=excludedNameCharacters(profile,pref,chars)+expandNameVariants(forbiddenWords.join(''),chars);
+  if(given.some(c=>banned.includes(c.normalize('NFKC'))))return null;
+  const generation=normalizeConstraint(pref.generationChar);
+  if(generation&&given[0]!==generation)return null;
+  if(Array.from(normalizeConstraint(pref.requiredChars)).some(c=>!given.includes(c)))return null;
+  const lookup=context||createEvaluationContext(chars,citations);
+  const entries=given.map(c=>lookup.map.get(c)); if(entries.some(c=>!c))return null;
+  const cs=entries as CharacterEntry[]; const sr=surnameReading(profile); const pinyin=[sr,...cs.map(c=>c.pinyin)].filter(Boolean).join(' ');
+  const explicitlyRequired=normalizeConstraint(pref.requiredChars+pref.generationChar);
+  if(cs.some(c=>semanticCaution(c)&&!explicitlyRequired.includes(c.char)))return null;
+  const phonetic=barePinyin(pinyin).replace(/\s+/g,' ').trim();
+  if(Object.keys(awkwardReadings).some(k=>phonetic===k||phonetic.endsWith(' '+k)))return null;
+  const refs=lookup.reviewedCitations.get(givenName)||[];
+  const citationRule=refs.length?matchingNamingCitationRule(givenName,cs,refs):undefined;
+  const reviewedCombination=reviewedNamingCombination(givenName,cs);
+  const sourceBoundCombination=!!reviewedCombination&&namingEditorial.citations.some(item=>item.names.includes(givenName));
+  const reviewedSourceMeaning=sourceBoundCombination&&!!citationRule;
+  const favorable=pref.preferredElements.length?pref.preferredElements:analysis.bazi.favorable;
+  const matched=cs.filter(c=>c.elements.some(e=>favorable.includes(e))).length;
+  const warnings:string[]=[];
+  if(!sr)warnings.push('姓氏读音未确认，姓与名的全名谐音检查尚不完整。');
+  cs.forEach(c=>{const warning=currentCharacterWarning(c);if(warning)warnings.push(`${c.char}：${warning}`);});
+  cs.forEach(c=>{if(isPolyphonic(c))warnings.push(`${c.char}为多音字，本方案读 ${c.pinyin}；解释仅采用对应读音义项。`);if(!reviewedSourceMeaning&&!reviewedSense(c))warnings.push(`${c.char}尚未建立命名适用义，请起名师审阅；不直接拼接字典首义。`);});
+  cs.forEach(c=>{const caution=semanticCaution(c);if(caution)warnings.push(`${c.char}：${caution}。`);});
+  const tones=cs.map(c=>c.tone);
+  const fullTones=[...sr.split(/\s+/).filter(Boolean).map(toneOfSyllable),...tones];
+  const adjacentRepeatedTones=fullTones.slice(1).filter((tone,index)=>tone===fullTones[index]).length;
+  if(adjacentRepeatedTones)warnings.push('全名相邻音节存在同调，建议连读确认节奏；同调不是命名禁忌。');
+  const syllables=phonetic.split(' ');
+  const repeatedSyllables=syllables.slice(1).filter((syllable,index)=>syllable===syllables[index]).length;
+  if(repeatedSyllables)warnings.push('全名相邻音节同音，口头介绍时可能需要补充字形说明。');
+  if(new Set(given).size!==given.length)warnings.push('使用叠字名，亲切感较强；偏好正式风格时建议同时比较非叠字候选。');
+  if(cs.some(c=>c.strokes===null))warnings.push('部分字缺少可核对的普通笔画信息。');
+  if(pref.numerology)warnings.push('尚无完整、经核验的康熙姓名学笔画及数理规则包，本方案不作五格吉凶结论。');
+  const zodiacMatches=pref.zodiacRules?cs.map(c=>zodiacCharacterReference(c,analysis.bazi.zodiac)).filter((x):x is string=>!!x):[];
+  if(pref.zodiacRules)warnings.push('生肖意象选材/1.0.0 是本产品按食性、栖息与民俗意象编写的文化参考，不是古籍统一定论；仅在传统优先排序时弱加权，不作字根凶断。');
+  const meaningParts=cs.map(c=>`${c.char}：${namingSense(c).replace(/[。；;]+$/g,'')}`).join('；');
+  const imagery=cs.map(c=>reviewedSense(c));
+  const combination=(sourceBoundCombination&&!citationRule?undefined:reviewedCombination)||(imagery.every(Boolean)?`愿孩子拥有${imagery.length===1?imagery[0]:`${imagery[0]}的底色，也怀抱${imagery[1]}的心意`}，以此表达家人的美好期许。`:'此组合的命名适用义尚待起名师审阅，暂不据字典首义生成祝愿。');
+  const meaning=reviewedSourceMeaning?`原文选义与组合寓意（项目原创解释）：${combination}`:`${meaningParts}。组合寓意（项目原创解释）：${combination}`;
+  const isIndustry=cs.some(c=>industryAffinity(c,pref.industry));
+  const naturalCombination=given.length===1||hasReviewedNaturalPair(givenName,cs);
+  const themeHits=requestedThemes(pref.meanings).filter(theme=>cs.some(entry=>hasReviewedProjectReading(entry)&&theme.chars.includes(entry.char)));
+  const directQuote=!!citationRule?.excerpt.includes(givenName);
+  const aesthetic=aestheticFit(cs,pref.style,profile.gender);
+  const meaningScore=Math.max(20,Math.min(100,65+(naturalCombination?10:0)+(directQuote?8:refs.length?3:0)+cs.filter(c=>meaningAffinity(c,pref.meanings)).length*8+Math.max(0,themeHits.length-1)*4+(isIndustry?8:0)+Math.round(aesthetic.styleScore/3+aesthetic.genderScore*(aesthetic.explicit?.25:.5))-(reviewedSourceMeaning?0:cs.filter(c=>!reviewedSense(c)).length*15)));
+  const hasSpecificImagery=reviewedSourceMeaning||cs.every(c=>!!reviewedSense(c));
+  const evaluation={sound:Math.max(35,94-adjacentRepeatedTones*7-repeatedSyllables*10-(cs.some(isPolyphonic)?10:0)-(!sr?12:0)),meaning:meaningScore,simplicity:Math.max(35,100-cs.reduce((a,c)=>a+Math.max(0,(c.strokes||10)-7)*2,0)),traditional:Math.min(100,Math.round(40+60*matched/cs.length+(pref.priority==='traditional'?zodiacMatches.length*3:0))),distinctiveness:hasSpecificImagery?80:65};
+  const style=refs.length?'典雅有出处':evaluation.simplicity>=80&&evaluation.sound>=75?'清朗易记':hasSpecificImagery?'鲜明有辨识度':'自然组合';
+  if(style==='鲜明有辨识度')warnings.push('辨识感来自用字意象与组合的主观建议；没有人口统计数据，不表示低重名率。');
+  const traditionalReason=`采用${favorable.join('、')||'未指定'}作为选字参考；${cs.map(c=>`${c.char}：${c.elements.join('/')||'未定'}（${c.elementBasis}）`).join('；')}。字库属性为注明体系的文化分类，不代表唯一归属。${pref.zodiacRules?`生肖意象选材/1.0.0：${zodiacMatches.join('；')||'未命中项目所选部首意象，不代表不适合'}。${zodiacRelations(analysis.bazi.zodiac)}`:''}`;
+  const citationContext=citationRule?.context||'';
+  const citationReason=refs.length?(directQuote?`原文见《${refs[0].title}》，已核对选义与语境：${citationContext}`:`从《${refs[0].title}》经审阅原文选字重新组合，并非原文连词；${citationContext}`):'采用现代组合寓意，未建立经审阅的直接典籍出处；';
+  const aestheticReason=`${aesthetic.genderMatches.some(char=>cs.some(entry=>entry.char===char&&!hasReviewedProjectReading(entry)))?'性别语感仅为字形使用印象，不作为当前读音的字义审核。':''}${aesthetic.notes.length?`风格适配：${aesthetic.notes.join('、')}。`:''}${profile.gender==='中性'?'中性选项不增加性别语感偏好。':`“${profile.gender}”选项仅对常见语感作轻微排序${aesthetic.genderMatches.length?`，本名命中“${aesthetic.genderMatches.join('、')}”`:''}，不限制可用字；显式风格优先。`}`;
+  return {id:crypto.randomUUID(),givenName,fullName:profile.surname.trim()+givenName,pinyin,style,characters:cs,meaning,reason:`${citationReason}${pref.style||'自然大方'}的表达方向，兼顾全名读写与${pref.meanings||'美好品格'}的家庭期许。${naturalCombination&&given.length===2?'组合列入本产品自编的自然表达参考词表，该词表不作为古籍出处。':''}${themeHits.length?`呼应${themeHits.map(theme=>theme.name).join('、')}主题。`:''}${isIndustry?'呼应家庭行业文化意象。':''}${aestheticReason}各维度数值为本产品排序启发式，不是心理测量、运势或重名统计。`,citations:refs,evaluation,warnings:[...new Set(warnings)],traditionalReason,favorite:false,origin,reviewNote:'',originalMeaning:meaning};
+}
+function seededChoice(value:string,seed:number):number {
+  let hash=(2166136261^(Math.floor(seed)>>>0))>>>0;for(const char of value){hash=Math.imul(hash^char.codePointAt(0)!,16777619)>>>0;}hash^=hash>>>16;hash=Math.imul(hash,2246822507)>>>0;hash^=hash>>>13;return (hash>>>0)/4294967296;
+}
+export function generateLocal(profile:BirthProfile,pref:NamingPreferences,analysis:Analysis,characters:CharacterEntry[],citations:Citation[],seed=0,excludeNames:string[]=[]):{candidates:NameCandidate[];messages:string[]} {
+  validatePreferences(pref,characters,profile);
+  const favorable:Element[]=pref.preferredElements.length?pref.preferredElements:analysis.bazi.favorable;
+  const banned=excludedNameCharacters(profile,pref,characters)+expandNameVariants(forbiddenWords.join(''),characters);
+  const sorted=characters.filter(c=>!banned.includes(c.char)&&c.meaning&&c.pinyin).map(c=>{const fit=aestheticFit([c],pref.style,profile.gender);return {c,score:(c.elements.some(e=>favorable.includes(e))?8:0)+(meaningAffinity(c,pref.meanings)?10:0)+(industryAffinity(c,pref.industry)?8:0)+(pref.priority==='traditional'&&pref.zodiacRules&&zodiacCharacterReference(c,analysis.bazi.zodiac)?1:0)+Math.max(0,15-(c.strokes||10))/2+fit.styleScore/2+fit.genderScore*(fit.explicit?.25:.5)+(reviewedSense(c)?4:0)+seededChoice(c.char,seed)*2};}).sort((a,b)=>b.score-a.score);
+  const required=Array.from(normalizeConstraint(pref.requiredChars+pref.generationChar));
+  const pool=[...new Map([...sorted.slice(0,85).map(x=>x.c),...characters.filter(c=>required.includes(c.char))].map(c=>[c.char,c])).values()];
+  const raw=new Set<string>();
+  if(pref.length===1)pool.forEach(c=>raw.add(c.char));
+  else {
+    // Pre-reviewed pairings broaden the initial 85-character pool; all still pass the same dictionary/constraint/source validation.
+    const known=new Map(characters.map(c=>[c.char,c]));
+    for(const pair of naturalPairs)if([...pair].every(char=>known.has(char))&&hasReviewedNaturalPair(pair,[...pair].map(char=>known.get(char)!)))raw.add(pair);
+    // A source excerpt enters the naming pool only through its reviewed contextual pairings.
+    for(const item of namingEditorial.citations)for(const name of item.names)if([...name].every(char=>known.has(char))&&selectNamingCitations(name,characters,citations).length)raw.add(name);
+    for(const a of pool)for(const b of pool)raw.add(a.char+b.char);
+  }
+  const context=createEvaluationContext(characters,citations);
+  const excluded=new Set(excludeNames.map(name=>name.normalize('NFKC')));
+  const candidates=[...raw].filter(name=>!excluded.has(name.normalize('NFKC'))&&!excluded.has((profile.surname.trim()+name).normalize('NFKC'))).map(n=>evaluateName(n,profile,pref,analysis,characters,citations,'local',context)).filter((x):x is NameCandidate=>!!x).sort((a,b)=>(rank(b,pref,profile)+seededChoice(b.givenName,seed)*35)-(rank(a,pref,profile)+seededChoice(a.givenName,seed)*35));
+  const chosen:NameCandidate[]=[]; const counts=new Map<string,number>(); const selectedCombinations=new Set<string>();
+  const combinationKey=(name:string)=>[...name].sort().join('');
+  const supportsStyle=(c:NameCandidate,style:string)=>style==='典雅有出处'?c.citations.length>0:style==='清朗易记'?c.evaluation.simplicity>=80&&c.evaluation.sound>=75:c.evaluation.distinctiveness>=80;
+  const take=(style?:string)=>{for(const c of candidates){if(chosen.length>=12)break;if(chosen.includes(c)||selectedCombinations.has(combinationKey(c.givenName))||style&&!supportsStyle(c,style))continue;if([...c.givenName].some(ch=>!required.includes(ch)&&(counts.get(ch)||0)>=2))continue;if(style){c.style=style;if(style==='鲜明有辨识度')c.warnings=[...new Set([...c.warnings,'辨识感来自用字意象与组合的主观建议；没有人口统计数据，不表示低重名率。'])];}chosen.push(c);selectedCombinations.add(combinationKey(c.givenName));[...c.givenName].forEach(ch=>counts.set(ch,(counts.get(ch)||0)+1));if(style&&chosen.filter(n=>n.style===style).length>=4)break;}};
+  for(const s of ['典雅有出处','清朗易记','鲜明有辨识度'])take(s);take();
+  if(chosen.length<12)for(const c of candidates){if(chosen.length>=12)break;if(!chosen.includes(c))chosen.push(c);}
+  chosen.sort((a,b)=>rank(b,pref,profile)-rank(a,pref,profile));
+  const messages=['评价值仅用于本批候选的读写与规则匹配比较，不代表运势或人口统计。','普通话谐音检查覆盖已登记词表，仍建议家人连读复核。'];
+  const parental=parentNameReference(profile,pref,characters);messages.push(...parental.warnings);if(parental.excluded)messages.push(`本地已避开父母名字中的字：${[...parental.excluded].join('、')}（常见中文姓氏已排除，简繁及已知异体按等价字处理）。`);
+  messages.push('文化风格按项目语感规则v1参与选字与排序，显式风格优先；性别只作轻微语感偏好，中性不加性别分，均不限制用字。');
+  for(const style of ['典雅有出处','清朗易记','鲜明有辨识度']){const count=chosen.filter(c=>c.style===style).length;if(count<4)messages.push(`“${style}”方向通过校验的候选不足4个，本批实际${count}个，已优先保留真实特征与硬约束。`);}
+  if(!surnameReading(profile))messages.push('请补充姓氏读音，以便完整评估全名音韵。');
+  if(chosen.length<12)messages.push(`当前约束下得到 ${chosen.length} 个通过校验的名字，可减少指定字或禁用字后再试。`);
+  if(excludeNames.length)messages.push(chosen.length?`已排除本轮历史候选 ${new Set(excludeNames).size} 个；新批次仅展示未出现且通过相同约束的名字。`:'当前约束下可用的新候选已用尽；请调整条件或开始新的起名轮次，系统不会重发旧名字凑数。');
+  return {candidates:chosen,messages};
+}

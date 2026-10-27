@@ -1,0 +1,250 @@
+import {fileURLToPath} from 'node:url';
+/** Code-owned roots. This module is main-only. Test isolation may replace this
+ * module with fixed fixture roots; the public loader accepts no configuration. */
+export const M923_FAMILY_DIRECTORY=fileURLToPath(new URL('../../data/naming-semantic-m923/',import.meta.url));
+export const M923_APPLICATION_ROOT=fileURLToPath(new URL('../../',import.meta.url));
+const freeze=<T>(value:T):T=>{if(value&&typeof value==='object'){for(const child of Object.values(value))freeze(child);Object.freeze(value);}return value;};
+export const M923_FAMILY_IDENTITY=freeze({familyId:'naming-semantic-m921',sourceId:'naming-semantic-admission-v72-M921-M923',publicationVersion:'m921-character-meaning-publication/1.0.0-m923.1',decisionVersion:'M923-DECISION/1',ruleVersion:'naming-editorial-7.2.0'} as const);
+export interface M923FilePin {readonly file:string;readonly sha256:string;readonly bytes:number;}
+export const M923_DECISION_AND_EVIDENCE_PINS:readonly M923FilePin[]=freeze([
+  {
+    "file": "contract.d.ts",
+    "sha256": "564a880ed47baa9d8bc1b0f7c017b85734cc9d31712b4d13abed869e8ef213fc",
+    "bytes": 5973
+  },
+  {
+    "file": "registry-entry.json",
+    "sha256": "85e5c6b0be1f33878ccf8137e400d546a004f8cb17a801dd258354ca56f5edbe",
+    "bytes": 8601
+  },
+  {
+    "file": "family-policy.json",
+    "sha256": "75f8e639f86e28a3db07ef3d27334cd39412fdb18648586240fdb098b530283a",
+    "bytes": 18594
+  },
+  {
+    "file": "admission-records.json",
+    "sha256": "a4d529327ab8a0245da15f9479644bb6bb391ed3dba1bbe56b4a525a2308f753",
+    "bytes": 306320
+  },
+  {
+    "file": "inputs/m921/inputs/m910-selection.json",
+    "sha256": "6019bf2c7bc170af093c5bf6458e798968f63a6c03dd09b24dc35abb6fd4948f",
+    "bytes": 23959
+  },
+  {
+    "file": "inputs/m921/inputs/m910-source-subset.json",
+    "sha256": "e9e096c203b8ae640fe9ae64f91ab25bbbe9c8fd62cf6ce36c8a8224dea17893",
+    "bytes": 45689
+  },
+  {
+    "file": "inputs/m921/inputs/m910-manifest.json",
+    "sha256": "a345d11b3f34cb5d4bc8b0a6de8453a2ff0cd68e559af5f0f48a215380da3e8c",
+    "bytes": 1262
+  },
+  {
+    "file": "inputs/m921/inputs/m910-source-lock.json",
+    "sha256": "fec799c8ac7848e9eb0360207931862a3a06eda7bcf7570282daef22fd1d7307",
+    "bytes": 5304
+  },
+  {
+    "file": "inputs/m921/inputs/m914-selection.json",
+    "sha256": "b7e6d8bbf2ca13c086f781763e6b74ffb344f5585561be43b1a5705871e7bdf5",
+    "bytes": 66093
+  },
+  {
+    "file": "inputs/m921/inputs/m914-source-subset.json",
+    "sha256": "8d76e27ad008ed92747ac19aa04563233a5479f215ba03743eff63d654c958ff",
+    "bytes": 106824
+  },
+  {
+    "file": "inputs/m921/inputs/m914-manifest.json",
+    "sha256": "1f599fb1dd014448674d39a95c1bc5c62372c1d80b9bf73de1d467ac9e00f6e8",
+    "bytes": 1261
+  },
+  {
+    "file": "inputs/m921/inputs/m914-source-lock.json",
+    "sha256": "93cbee88e96b9a4e95cc0c2d2e19f0288d85040cce53ce45c7c1ed8b7864ee48",
+    "bytes": 2199
+  },
+  {
+    "file": "inputs/m921/inputs/m916-review-input.json",
+    "sha256": "4c7f842b268943eab7d7207b5df2941ada3286d1558ad4eebc846830ce717291",
+    "bytes": 101050
+  },
+  {
+    "file": "inputs/m921/inputs/m916-semantic-review.json",
+    "sha256": "55c0a6f9fd33b61e4a219da6d30275b9001e8bf519a33daf525ff269006555cf",
+    "bytes": 101720
+  },
+  {
+    "file": "inputs/m921/inputs/m916-manifest.json",
+    "sha256": "d1c357985dcda8d74b063a05b2e06512a882f40ca573bb5a86db558a95cca2b1",
+    "bytes": 1896
+  },
+  {
+    "file": "inputs/m921/inputs/m917-decision-contract.json",
+    "sha256": "99e649b8db0ccb8ab2dd979807f05cf1991e836bd7b211e161ee13a3655f2bed",
+    "bytes": 12087
+  },
+  {
+    "file": "inputs/m921/inputs/m917-rows.jsonl",
+    "sha256": "20feda04fc9387b6fc20de641e4b38dc52a805236ebd96a7f80d2f5ba80ea17e",
+    "bytes": 145675
+  },
+  {
+    "file": "inputs/m921/publication.json",
+    "sha256": "315ea65ed78cf3b5b630a6dd8e525924f89b0355a98685d5503e02737aea7431",
+    "bytes": 612192
+  },
+  {
+    "file": "inputs/m921/lineage.json",
+    "sha256": "1bb823792457ac0a966896b094b4d4bbfe720dbbe1821c0b6b279d1e4c555af2",
+    "bytes": 56224
+  },
+  {
+    "file": "inputs/m921/revision-proposals.json",
+    "sha256": "b37708c5b2da686598c75d135c1fbd957740b2bbbf4899be48542319293277bc",
+    "bytes": 3162
+  },
+  {
+    "file": "inputs/m921/source-lock.json",
+    "sha256": "9261c3cc633802c41ecce826e175fab373dab461281525e6b78918284ae1c975",
+    "bytes": 6207
+  },
+  {
+    "file": "inputs/m921/convert.mjs",
+    "sha256": "3a1fe4e32df410e0cc42f08bdbb5c88e584f7b370749a65654a545ba9677aa14",
+    "bytes": 17153
+  },
+  {
+    "file": "inputs/m921/verify.mjs",
+    "sha256": "4c0681a4e357d39dcb42789be03a7ab2970fd31c289aa66bc999284e1a28905e",
+    "bytes": 4787
+  },
+  {
+    "file": "inputs/m921/pins.mjs",
+    "sha256": "c4f1e3fe1232a1613b35016b42c453496ebd670d4adf96517a2631015eb2edd6",
+    "bytes": 4928
+  },
+  {
+    "file": "inputs/m921/seal.mjs",
+    "sha256": "ec2cc4ea2ffc3607d8ad5ce06939378e35a507ad9bc5ee16d63792ebb7fc8ffb",
+    "bytes": 794
+  },
+  {
+    "file": "inputs/m921/tests.mjs",
+    "sha256": "25c3cc4696ef6fd136ba1e9492de7e390cea04e227b8d5cfe0f6e472f9664400",
+    "bytes": 23371
+  },
+  {
+    "file": "inputs/m921/interface-check.ts",
+    "sha256": "61c131809941c873d6e73fa1c43ad550039d103f443e1e3291273587f14cf725",
+    "bytes": 33893
+  },
+  {
+    "file": "inputs/m921/integration-contract.json",
+    "sha256": "f0da20efb2eb6e7ffac3e9f7dd40156e897766ff2268fb01e6cfcf62eea49524",
+    "bytes": 20472
+  },
+  {
+    "file": "inputs/m921/registration-hunk.txt",
+    "sha256": "bff927cdfdb0d9a1e19c068377125173b3846faf9e3b7a727d587a8a855867a5",
+    "bytes": 8049
+  },
+  {
+    "file": "inputs/m921/README.md",
+    "sha256": "007aab0d3ab63d3569a02e83be3ed2a3b4e1cfa287ab8f0ce92428da3bbe1b33",
+    "bytes": 2803
+  },
+  {
+    "file": "inputs/m921/manifest.json",
+    "sha256": "b942c7adca32ab32716b49a76f4416c8bab081dd74ad7ee46514d09b0d20ce3d",
+    "bytes": 4355
+  }
+]);
+export const M923_ORIGINAL_DATA_PINS:readonly M923FilePin[]=freeze([
+  {
+    "file": "data/dataset-v6.json",
+    "sha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+    "bytes": 1563457
+  },
+  {
+    "file": "data/knowledge-v6.sqlite",
+    "sha256": "1875aa49dcfaeca0f266a3be7578e4d4b2a9b2c9c1f59fd79699a3e26d5d6b8b",
+    "bytes": 1454080
+  },
+  {
+    "file": "data/raw/moe-revised.json.gz",
+    "sha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+    "bytes": 20310688
+  },
+  {
+    "file": "data/raw/kTraditionalVariant.txt",
+    "sha256": "4eca6285d45070548e6e6c06e4b48c3ca6866d4380e8cb980c512f5d1fc71895",
+    "bytes": 86288
+  },
+  {
+    "file": "data/raw/kSimplifiedVariant.txt",
+    "sha256": "a7f0c9dbbca85cffd90517fa6ea9be97d2e6f811328a59b6b303d58a418ac9be",
+    "bytes": 88425
+  },
+  {
+    "file": "data/raw/moe-README.md",
+    "sha256": "a93321d9381bc1cf34b4ad844f71607fa748c86c0b228ae37d46720d6a659cb2",
+    "bytes": 1214
+  },
+  {
+    "file": "data/raw/CC-BY-ND-3.0-TW.html",
+    "sha256": "04e6ef69a223b6e13c93c97a918ad5fd0dbb9fc34ae307f4449ed264e2d4108f",
+    "bytes": 31775
+  },
+  {
+    "file": "data/raw/unicode-LICENSE",
+    "sha256": "fe5c62b543e287981db198f2acfa0ca732d12591a1024536dc8fd85dacd77104",
+    "bytes": 2033
+  }
+]);
+export const M923_EXPECTED_CANDIDATE_IDS:readonly string[]=freeze([
+  "m910-naming-data:安:41748:0:0",
+  "m910-naming-data:晨:71627:0:0",
+  "m910-naming-data:承:59613:0:1",
+  "m910-naming-data:诚:132515:0:1",
+  "m910-naming-data:慈:56151:0:2",
+  "m910-naming-data:芳:122175:0:0",
+  "m910-naming-data:枫:77587:0:0",
+  "m910-naming-data:福:106369:0:0",
+  "m910-naming-data:涵:86829:0:2",
+  "m910-naming-data:昊:70453:0:0",
+  "m910-naming-data:泓:84419:0:0",
+  "m910-naming-data:嘉:30135:0:0",
+  "m910-naming-data:朗:73745:0:0",
+  "m910-naming-data:宁:43912:0:0",
+  "m910-naming-data:霖:152818:0:0",
+  "m910-naming-data:昭:71207:0:0",
+  "m910-naming-data:秋:106848:0:0",
+  "m910-naming-data:松:75337:0:0",
+  "m910-naming-data:哲:28713:0:0",
+  "m910-naming-data:瑞:96869:0:2",
+  "m914-naming-data:博:23625:0:0",
+  "m914-naming-data:灿:93360:0:0",
+  "m914-naming-data:长:147806:0:1",
+  "m914-naming-data:宸:43152:0:1",
+  "m914-naming-data:成:57344:0:0",
+  "m914-naming-data:城:33291:0:1",
+  "m914-naming-data:川:47214:0:0",
+  "m914-naming-data:淳:87393:0:1",
+  "m914-naming-data:达:142577:0:2",
+  "m914-naming-data:德:52821:0:1",
+  "m914-naming-data:冬:17795:0:0",
+  "m914-naming-data:端:108859:0:1",
+  "m914-naming-data:恩:54550:0:1",
+  "m914-naming-data:方:69546:0:1",
+  "m914-naming-data:锋:146581:0:1",
+  "m914-naming-data:含:27258:0:2",
+  "m914-naming-data:浩:85945:0:1",
+  "m914-naming-data:恒:54370:0:0",
+  "m914-naming-data:宏:42113:0:0",
+  "m914-naming-data:鸿:160493:0:2"
+]);
+export const M923_THEMES=freeze(['civic-homeland','water-bubbles','textile-ribbon','agriculture','literary-artwork','herb-plant'] as const);

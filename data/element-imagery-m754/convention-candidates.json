@@ -1,0 +1,275 @@
+{
+  "schemaVersion": "m754-element-imagery/1.0.0",
+  "profileId": "project-dictionary-object-elements/2.0.0-m754-candidate",
+  "authority": "project-convention",
+  "projectLicense": "CC0-1.0",
+  "traditionalAssessment": {
+    "status": "unestablished",
+    "elements": []
+  },
+  "defaultActivation": "off",
+  "formalCoverage": 257,
+  "proposedAdditionalCharacters": 10,
+  "rows": [
+    {
+      "factId": "m754-67ab",
+      "char": "枫",
+      "defaultPinyin": "fēng",
+      "authority": "project-convention",
+      "namingIntent": {
+        "text": "取树木舒展、叶色鲜明的自然画面。",
+        "authorId": "M754-DATA",
+        "license": "CC0-1.0"
+      },
+      "projectMapping": {
+        "objectClass": "tree",
+        "element": "木",
+        "ruleId": "m754-direct-object-tree",
+        "claim": "项目约定意象映射，不是辞书五行事实或传统唯一结论。"
+      },
+      "autoAdoption": {
+        "scope": "default-reading-direct-object",
+        "themeId": null,
+        "condition": "只涵盖固定默认读音所指的枫树；叶红的颜色不另生火标签。",
+        "requiresIndependentReview": true
+      },
+      "ambiguity": "简体枫通过固定Unicode直接双向变体原行对应楓；不是同音替换。",
+      "status": "pending-independent-review",
+      "candidateSha256": "3c96d4a6b3e7c0efdf40149bf6fc65e14fe88bddc2cf83102b61ee6f453156a2"
+    },
+    {
+      "factId": "m754-5349",
+      "char": "卉",
+      "defaultPinyin": "huì",
+      "authority": "project-convention",
+      "namingIntent": {
+        "text": "取花草生长、百卉相映的画面。",
+        "authorId": "M754-DATA",
+        "license": "CC0-1.0"
+      },
+      "projectMapping": {
+        "objectClass": "plant",
+        "element": "木",
+        "ruleId": "m754-direct-object-plant",
+        "claim": "项目约定意象映射，不是辞书五行事实或传统唯一结论。"
+      },
+      "autoAdoption": {
+        "scope": "default-reading-direct-object",
+        "themeId": null,
+        "condition": "采用草类植物总称，未赋予特定花种或疗效。",
+        "requiresIndependentReview": true
+      },
+      "ambiguity": "固定默认读音只有植物总称这一实质义；原创取意不是辞书原句。",
+      "status": "pending-independent-review",
+      "candidateSha256": "af99f36d8ad5023f3c425f91986829d747ed064d706cd5be6f31b7f7150c7475"
+    },
+    {
+      "factId": "m754-9e93",
+      "char": "麓",
+      "defaultPinyin": "lù",
+      "authority": "project-convention",
+      "namingIntent": {
+        "text": "取山脚安稳、山林相接的地形画面。",
+        "authorId": "M754-DATA",
+        "license": "CC0-1.0"
+      },
+      "projectMapping": {
+        "objectClass": "landform",
+        "element": "土",
+        "ruleId": "m754-direct-object-landform",
+        "claim": "项目约定意象映射，不是辞书五行事实或传统唯一结论。"
+      },
+      "autoAdoption": {
+        "scope": "default-reading-direct-object",
+        "themeId": null,
+        "condition": "采用山脚地形；不因含林字形而映射木。",
+        "requiresIndependentReview": true
+      },
+      "ambiguity": "固定默认读音只有山脚义；地形归土为本项目约定。",
+      "status": "pending-independent-review",
+      "candidateSha256": "5c0b0e498af033e40327d7e50b21d48190273cb2b8945372841f27a46c143c3f"
+    },
+    {
+      "factId": "m754-83d8",
+      "char": "菘",
+      "defaultPinyin": "sōng",
+      "authority": "project-convention",
+      "namingIntent": {
+        "text": "取草本生长、田园清新的画面。",
+        "authorId": "M754-DATA",
+        "license": "CC0-1.0"
+      },
+      "projectMapping": {
+        "objectClass": "plant",
+        "element": "木",
+        "ruleId": "m754-direct-object-plant",
+        "claim": "项目约定意象映射，不是辞书五行事实或传统唯一结论。"
+      },
+      "autoAdoption": {
+        "scope": "default-reading-direct-object",
+        "themeId": null,
+        "condition": "采用词典所列草本植物，不扩大成全部蔬菜或药效。",
+        "requiresIndependentReview": true
+      },
+      "ambiguity": "固定默认读音只有植物义；同音松不参与判断。",
+      "status": "pending-independent-review",
+      "candidateSha256": "09d53e7686b1affc248513017b4fdcff86186af695b3fa8c5ef7c5fd363a0a32"
+    },
+    {
+      "factId": "m754-73c9",
+      "char": "珉",
+      "defaultPinyin": "mín",
+      "authority": "project-convention",
+      "namingIntent": {
+        "text": "取美石温润、质朴有光的画面。",
+        "authorId": "M754-DATA",
+        "license": "CC0-1.0"
+      },
+      "projectMapping": {
+        "objectClass": "stone",
+        "element": "土",
+        "ruleId": "m754-direct-object-stone",
+        "claim": "项目约定意象映射，不是辞书五行事实或传统唯一结论。"
+      },
+      "autoAdoption": {
+        "scope": "default-reading-direct-object",
+        "themeId": null,
+        "condition": "采用似玉美石的材料义；不宣称珉就是玉或金属。",
+        "requiresIndependentReview": true
+      },
+      "ambiguity": "固定默认读音只有美石义；玉旁不作为标签证据。",
+      "status": "pending-independent-review",
+      "candidateSha256": "7a378b028407bf7220f21b91bc89998739613271984dcbeaa81394bafeab3bbb"
+    },
+    {
+      "factId": "m754-5ddd",
+      "char": "川",
+      "defaultPinyin": "chuān",
+      "authority": "project-convention",
+      "namingIntent": {
+        "text": "取河流延展、清流向前的自然画面。",
+        "authorId": "M754-DATA",
+        "license": "CC0-1.0"
+      },
+      "projectMapping": {
+        "objectClass": "river",
+        "element": "水",
+        "ruleId": "m754-direct-object-river",
+        "claim": "项目约定意象映射，不是辞书五行事实或传统唯一结论。"
+      },
+      "autoAdoption": {
+        "scope": "explicit-naming-theme",
+        "themeId": "river-object",
+        "condition": "生成请求必须明确选择river-object主题；四川简称和烹饪方法不采用。",
+        "requiresIndependentReview": true
+      },
+      "ambiguity": "默认读音另有省名简称及烹饪动作义；仅字形不足以判定姓名取义。",
+      "status": "pending-independent-review",
+      "candidateSha256": "f5d1d4488609ad5ac1cae5da4da71f5c3d53a228f2a413c13e507c25c4d7df07"
+    },
+    {
+      "factId": "m754-77f3",
+      "char": "石",
+      "defaultPinyin": "shí",
+      "authority": "project-convention",
+      "namingIntent": {
+        "text": "取岩石坚实、自然成质的画面。",
+        "authorId": "M754-DATA",
+        "license": "CC0-1.0"
+      },
+      "projectMapping": {
+        "objectClass": "stone",
+        "element": "土",
+        "ruleId": "m754-direct-object-stone",
+        "claim": "项目约定意象映射，不是辞书五行事实或传统唯一结论。"
+      },
+      "autoAdoption": {
+        "scope": "explicit-naming-theme",
+        "themeId": "mineral-stone-object",
+        "condition": "生成请求必须明确选择mineral-stone-object主题；不采用姓氏、部首、量词或药石泛称。",
+        "requiresIndependentReview": true
+      },
+      "ambiguity": "shí另有碑碣、药石、姓氏等义；dàn量词读音完全不采用。",
+      "status": "pending-independent-review",
+      "candidateSha256": "131ffc5746ce3512111e5eab202cc4ced8c69571fa8f823cf9fca9e106f6f179"
+    },
+    {
+      "factId": "m754-679d",
+      "char": "枝",
+      "defaultPinyin": "zhī",
+      "authority": "project-convention",
+      "namingIntent": {
+        "text": "取树枝向外舒展、生长相续的画面。",
+        "authorId": "M754-DATA",
+        "license": "CC0-1.0"
+      },
+      "projectMapping": {
+        "objectClass": "plant-part",
+        "element": "木",
+        "ruleId": "m754-direct-object-plant-part",
+        "claim": "项目约定意象映射，不是辞书五行事实或传统唯一结论。"
+      },
+      "autoAdoption": {
+        "scope": "explicit-naming-theme",
+        "themeId": "tree-branch-object",
+        "condition": "生成请求必须明确选择tree-branch-object主题；量词、支系、肢体及姓氏义不采用。",
+        "requiresIndependentReview": true
+      },
+      "ambiguity": "默认读音有非植物义，另有qí读音；不从木旁或同音推定。",
+      "status": "pending-independent-review",
+      "candidateSha256": "19b297c331823162eb177fb24f4a295978754cee9089c3156239bde4fe713479"
+    },
+    {
+      "factId": "m754-68c9",
+      "char": "棉",
+      "defaultPinyin": "mián",
+      "authority": "project-convention",
+      "namingIntent": {
+        "text": "取棉类植物自然生长、柔和清新的画面。",
+        "authorId": "M754-DATA",
+        "license": "CC0-1.0"
+      },
+      "projectMapping": {
+        "objectClass": "plant",
+        "element": "木",
+        "ruleId": "m754-direct-object-plant",
+        "claim": "项目约定意象映射，不是辞书五行事实或传统唯一结论。"
+      },
+      "autoAdoption": {
+        "scope": "explicit-naming-theme",
+        "themeId": "cotton-plant-object",
+        "condition": "生成请求必须明确选择cotton-plant-object主题；只用木棉和草棉植物统称义。",
+        "requiresIndependentReview": true
+      },
+      "ambiguity": "默认读音另有棉絮制品性质和微薄义；不自动把衣物或形容词归木。",
+      "status": "pending-independent-review",
+      "candidateSha256": "d87f0385ba765aa0bad9430854e6d8a32f717b81b7529d8c0e50b5c82ca4acdf"
+    },
+    {
+      "factId": "m754-8564",
+      "char": "蕤",
+      "defaultPinyin": "ruí",
+      "authority": "project-convention",
+      "namingIntent": {
+        "text": "取花朵垂结、芳华自然舒展的画面。",
+        "authorId": "M754-DATA",
+        "license": "CC0-1.0"
+      },
+      "projectMapping": {
+        "objectClass": "plant-part",
+        "element": "木",
+        "ruleId": "m754-direct-object-plant-part",
+        "claim": "项目约定意象映射，不是辞书五行事实或传统唯一结论。"
+      },
+      "autoAdoption": {
+        "scope": "explicit-naming-theme",
+        "themeId": "hanging-flower-object",
+        "condition": "生成请求必须明确选择hanging-flower-object主题；只采用草木所垂结的花这个名词义。",
+        "requiresIndependentReview": true
+      },
+      "ambiguity": "首义为下垂样子，另有帽饰及参见义；本条不按首义或艹旁自动映射。",
+      "status": "pending-independent-review",
+      "candidateSha256": "1e699c3a69c837e575709c000d414dcd1496091c5c2459852cfd760c96009bc0"
+    }
+  ]
+}

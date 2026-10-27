@@ -1,0 +1,91 @@
+{
+  "schema": "m786-independent-input-boundary-audit/1.0.0",
+  "task": "M786 independent recheck by M784 reviewer",
+  "head": "d9465087ddeef69fd6d6fb1a8c603a0e29bc5cc0",
+  "baseline": "e5e384ef2f9d3b02d240e9ab4b57e147b95eda83",
+  "worktree": "D:/Codex-NamingStudio-Evidence/m786-core-input-boundary/work",
+  "status": "pass-scoped-incremental-recheck",
+  "closedFinding": {
+    "id": "M784-P2-01",
+    "status": "closed-for-candidate.2-only",
+    "publication": "project-naming-application/1.3.2-candidate.2",
+    "oldPublicationDisposition": "candidate.1 remains the preserved superseded unreleased candidate; this result does not retroactively approve its live-object verifier",
+    "locations": [
+      "src/main/project-application-v132-r2-json.ts:18",
+      "src/main/project-application-v132-r2-json.ts:33",
+      "src/main/project-application-v132-r2-json.ts:42",
+      "src/main/project-application-v132-r2-json.ts:49",
+      "src/main/project-application-v132-r2-saved.ts:11",
+      "src/main/project-application-v132-r2.ts:92"
+    ],
+    "reason": "The application-local helper rejects nested and revoked Proxies before object reflection, copies data descriptors into a detached frozen tree, and rejects accessors without invoking them. The saved verifier uses the owned snapshot for tuple validation, replay and final equality and does not reread the caller tree.",
+    "independentEvidence": [
+      "Original nested certificate value-disagreement Proxy rejected; get, ownKeys, getOwnPropertyDescriptor and getPrototypeOf trap counts all zero.",
+      "Original third-serialization tuple mutation Proxy rejected; all trap counts zero and mutation false.",
+      "Nested saved primary getter rejected without execution.",
+      "Authentic candidate.1 saved record rejected by candidate.2 exact tuple gate; the same old record still verifies with its original adapter.",
+      "Replacing the application SourceRecord version with candidate.1 and recomputing certificate/envelope digests is rejected by independent replay equality."
+    ]
+  },
+  "newFindings": [],
+  "independentVerification": {
+    "negativeProbes": 5,
+    "negativeProbesPassed": 5,
+    "positiveGeneration": "applicable",
+    "branch": "regular-strong",
+    "primary": ["土"],
+    "secondary": ["金"],
+    "savedReplay": "verified-saved",
+    "replayOrigin": "saved-replay",
+    "defaultStatus": "disabled",
+    "callerConfigurationProfileAndSavedMutationIsolated": true,
+    "trustedReturnDeepFrozen": true,
+    "buildOutput": {
+      "bytes": 2002922,
+      "sha256": "906b191c88ce2e6f0335c674727c39bcae14edf2968d2c1c5cdffcb04079b47a",
+      "matchesAuthor": true
+    },
+    "publication": {
+      "fullClosureSha256": "eef63f5cb901ca69d5d87f181d89e14e7239068a7e628ac6b0c741878968f640",
+      "manifestSha256": "9a10191da1f63eac6e5efce79677748f430f3dc92ed2789df81529c507f79442",
+      "newHelperInActualExecutionInputs": true,
+      "declaredResources": 152,
+      "vendorResources": 3,
+      "allGitBlobBytesMatchManifest": true
+    },
+    "preservation": {
+      "baselineGitEntries": 2116,
+      "allBaselineEntriesUnchanged": true,
+      "sharedPlainJsonUnchanged": true,
+      "candidate1PublicationAndPinsUnchanged": true,
+      "r2CoreAnd131Unchanged": true,
+      "productStoreServiceUIUnchanged": true,
+      "workingTreeClean": true
+    }
+  },
+  "authorReceiptsReviewedNotRerun": {
+    "owned-json-tests.json": {"passed": 25, "failed": 0},
+    "application-boundary-tests.json": {"passed": 6, "failed": 0},
+    "git-only-checkout-tests.json": {"passed": 2, "failed": 0},
+    "typecheckExitCodeReported": 0,
+    "gitOnlyBuildReplayReceiptReviewed": true,
+    "fixOnlyPatchTreeExactReceiptReviewed": true
+  },
+  "scope": {
+    "candidateSourceEdits": false,
+    "originalEvidenceEdits": false,
+    "r2Core49CaseSuiteRerun": false,
+    "candidate1Original13CaseSuiteRerun": false,
+    "candidate2Whole33CaseSuiteRerun": false,
+    "productionEnabled": false,
+    "productionReleaseCertified": false,
+    "completeTraditionalInterpretationCertified": false,
+    "remainingLimitations": [
+      "This closes the original saved Proxy and caller-reread P2 only.",
+      "No independent full date/regime search, UI/Store/Service integration, cross-runtime portability or full product release test was performed.",
+      "A direct official fixed-source build was independently rerun; the author's entire Git-only reconstruction suite was inspected rather than repeated. New publication Git blob ownership and content were independently checked."
+    ]
+  },
+  "artifacts": ["probe.mjs", "probe-results.json", "git-publication-resources.json", "candidate2.cjs.receipt.json", "execution-ledger.json"],
+  "reproduce": "node D:/Codex-NamingStudio-Evidence/m786-core-input-boundary-audit/probe.mjs"
+}

@@ -1,0 +1,89 @@
+{
+  "schema": "meaning-context-publication-manifest/1",
+  "task": "D02-138-MEANING-COVERAGE",
+  "status": "draft",
+  "productionApproved": false,
+  "dataVersion": "meaning-context-data/1.1.0",
+  "files": [
+    {
+      "logicalTarget": "data/dataset-v6.json",
+      "sha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+      "bytes": 1563457
+    },
+    {
+      "logicalTarget": "data/meaning-context-next-manifest.json",
+      "sha256": "f5c7664b661229f39919f8b10afe482b3aab65836e1fcc6a674d86296e870371",
+      "bytes": 10317
+    },
+    {
+      "logicalTarget": "data/meaning-context-next-source-lock.json",
+      "sha256": "cdc25bbb48fe24d84413e71ead37a07fe633ba8758c991c6b481924c7838eb72",
+      "bytes": 2287
+    },
+    {
+      "logicalTarget": "data/meaning-context-next.json",
+      "sha256": "3dc77f55dca1516ae3cb4231a022a58aca1874189da6ea99c101c6931b7a1877",
+      "bytes": 187497
+    },
+    {
+      "logicalTarget": "data/meaning-context-v1-1-NOTICE.md",
+      "sha256": "65c1093c15c1a5d13d5fd390a90c1546730689a3c7dc21843fbbdba95d05733c",
+      "bytes": 1267
+    },
+    {
+      "logicalTarget": "data/meaning-context-v1-1-source-lock.json",
+      "sha256": "473b1fb377bfeeb07c3cea800450e2ec88532b1678c9c590dcad650d8e3dd964",
+      "bytes": 3162
+    },
+    {
+      "logicalTarget": "data/meaning-context-v1-1.json",
+      "sha256": "424e8b6ca9a920c8b707ac267db9609bee900a5389b3659256b4c71ad71b378d",
+      "bytes": 403708
+    },
+    {
+      "logicalTarget": "data/meaning-gap-classification-v1-1.json",
+      "sha256": "480b10cf542d20a583f1bf78ce8c4da7dc31bd0b66565d46e6335e658fc839f2",
+      "bytes": 301791
+    },
+    {
+      "logicalTarget": "data/meaning-gap-classification.json",
+      "sha256": "1be67b4d4a9f02ef38697d1fca8b4385b5eb2ef9abe54ef78dfe962a94615ccc",
+      "bytes": 292514
+    },
+    {
+      "logicalTarget": "data/naming-editorial-v7.json",
+      "sha256": "392fa47441a0c410b0903c3e85853081225a1a5e9f540b5467e4ea4e2151cc48",
+      "bytes": 1301005
+    },
+    {
+      "logicalTarget": "data/raw/CC-BY-ND-3.0-TW.html",
+      "sha256": "04e6ef69a223b6e13c93c97a918ad5fd0dbb9fc34ae307f4449ed264e2d4108f",
+      "bytes": 31775
+    },
+    {
+      "logicalTarget": "data/raw/meaning-context-batch1-review.json",
+      "sha256": "01df11ddaf15780cb472533114ac4175e718ce80b6f1f090d79603c1cdfd3b0c",
+      "bytes": 11584
+    },
+    {
+      "logicalTarget": "data/raw/meaning-context-batch2-review.json",
+      "sha256": "f0412a83c596f81dbb26d5dce98985c8f9eab415a25ab49fb1e4e1d1761ee18a",
+      "bytes": 11333
+    },
+    {
+      "logicalTarget": "data/raw/meaning-context-gap-policy.json",
+      "sha256": "949297c14cba5f56014b8003311bbbe5aa4837a99ddb57529b428f7330f85a04",
+      "bytes": 3144
+    },
+    {
+      "logicalTarget": "data/raw/moe-README.md",
+      "sha256": "a93321d9381bc1cf34b4ad844f71607fa748c86c0b228ae37d46720d6a659cb2",
+      "bytes": 1214
+    },
+    {
+      "logicalTarget": "data/raw/moe-revised.json.gz",
+      "sha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+      "bytes": 20310688
+    }
+  ]
+}

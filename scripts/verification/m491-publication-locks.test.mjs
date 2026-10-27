@@ -1,0 +1,22 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+import {spawnSync} from 'node:child_process';
+import {verifyPublicationInventory} from './m491-publication-locks.mjs';
+const repoRoot=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'../..');
+const read=p=>JSON.parse(fs.readFileSync(p,'utf8'));
+const inventory=read(path.join(repoRoot,'data/publication-lock-baseline.json'));
+const rootsRelative=read(path.join(repoRoot,'data/publication-roots.example.json'));
+const roots={m476:path.resolve(repoRoot,rootsRelative.m476),m393:path.resolve(repoRoot,rootsRelative.m393)};
+const baseline=inventory;
+function clone(){return structuredClone(inventory);}
+test('full required two-publication set passes with self-relative fixture roots',()=>{const r=verifyPublicationInventory({inventory,roots,baseline});assert.equal(r.status,'passed');assert.equal(r.summary.publications,2);assert.equal(r.summary.files,54);});
+test('empty publication set is rejected',()=>{const x=clone();x.publications=[];assert(verifyPublicationInventory({inventory:x,roots,baseline}).errors.some(e=>e.check==='required-publication-set'));});
+test('M393-only inventory is rejected',()=>{const x=clone();x.publications=[x.publications.find(p=>p.publicationId==='m393-lexical-sidecar-candidate')];assert(verifyPublicationInventory({inventory:x,roots,baseline}).errors.some(e=>e.check==='required-publication-set'));});
+test('unknown publication is rejected',()=>{const x=clone();x.publications.push({...structuredClone(x.publications[0]),publicationId:'unknown-publication'});assert(verifyPublicationInventory({inventory:x,roots,baseline}).errors.some(e=>e.check==='required-publication-set'));});
+test('missing required file is rejected',()=>{const x=clone();x.publications[0].files.pop();assert(verifyPublicationInventory({inventory:x,roots,baseline}).errors.some(e=>e.check==='required-file-set'||e.check==='required-file-count'));});
+test('caller license inflation is rejected',()=>{const x=clone();x.publications[0].files[0].licenseRefs=['made-up-license'];assert(verifyPublicationInventory({inventory:x,roots,baseline}).errors.some(e=>e.check==='trusted-license-set'));});
+test('duplicate sourceId with non-allowlisted publication is rejected',()=>{const x=clone();x.publications.push({...structuredClone(x.publications[0]),publicationId:'unreviewed-publication'});assert(verifyPublicationInventory({inventory:x,roots,baseline}).errors.some(e=>e.check==='trusted-duplicate-source-publication'));});
+test('normal CLI uses only managed self-relative inputs',()=>{const helper=path.join(repoRoot,'scripts/verification/m491-publication-locks.mjs');const missing=spawnSync(process.execPath,[helper],{encoding:'utf8'});assert.notEqual(missing.status,0);const temp=fs.mkdtempSync(path.join(repoRoot,'data','.m581-cli-'));try{const out=path.join(temp,'report.json');const run=spawnSync(process.execPath,[helper,'--output',out],{cwd:repoRoot,encoding:'utf8'});assert.equal(run.status,0,run.stderr);assert.equal(read(out).status,'passed');assert.equal(read(out).runtimeReaderVersion.status,'migrated');const injected=spawnSync(process.execPath,[helper,'--inventory',path.join(repoRoot,'data/publication-lock-baseline.json'),'--output',path.join(temp,'bad.json')],{encoding:'utf8'});assert.notEqual(injected.status,0);}finally{fs.rmSync(temp,{recursive:true,force:true});}});

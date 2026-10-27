@@ -1,0 +1,74 @@
+{
+  "schema": "m914-source-lock/1",
+  "batchId": "M914-D01",
+  "version": "1.0.0-candidate.1",
+  "inputPins": [
+    {
+      "root": "E:/八卦周易",
+      "file": "data/dataset-v6.json",
+      "bytes": 1563457,
+      "sha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728"
+    },
+    {
+      "root": "D:/Codex-NamingStudio-Evidence/m909-cultural-store-integration",
+      "file": "data/raw/moe-revised.json.gz",
+      "bytes": 20310688,
+      "sha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e"
+    },
+    {
+      "root": "D:/Codex-NamingStudio-Evidence/m910-naming-data-batch",
+      "file": "manifest.json",
+      "bytes": 1262,
+      "sha256": "a345d11b3f34cb5d4bc8b0a6de8453a2ff0cd68e559af5f0f48a215380da3e8c"
+    },
+    {
+      "root": "D:/Codex-NamingStudio-Evidence/m910-naming-data-batch",
+      "file": "selection.json",
+      "bytes": 23959,
+      "sha256": "6019bf2c7bc170af093c5bf6458e798968f63a6c03dd09b24dc35abb6fd4948f"
+    },
+    {
+      "root": "D:/Codex-NamingStudio-Evidence/m910-naming-data-batch",
+      "file": "baseline-overlap.json",
+      "bytes": 10690,
+      "sha256": "09795bf02007ce100d8da41eb7f6cab68c9d74264302281ed152e4cdfe4a3228"
+    }
+  ],
+  "datasetSha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+  "rawFileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+  "priorM910ManifestSha256": "a345d11b3f34cb5d4bc8b0a6de8453a2ff0cd68e559af5f0f48a215380da3e8c",
+  "occupancy": {
+    "priorLoadedOccupiedCharacters": 589,
+    "priorSelectedCharacters": 20,
+    "selectedCharacters": [
+      "博",
+      "灿",
+      "长",
+      "宸",
+      "成",
+      "城",
+      "川",
+      "淳",
+      "达",
+      "德",
+      "冬",
+      "端",
+      "恩",
+      "方",
+      "锋",
+      "含",
+      "浩",
+      "恒",
+      "宏",
+      "鸿"
+    ],
+    "overlap": []
+  },
+  "sourceAndLicense": {
+    "rawDefinitionAndCompleteOriginalEntryUnmodified": true,
+    "allOriginalReadingsRetained": true,
+    "sourceAuthorityScope": "only fixed local source bytes and listed coordinates",
+    "noGlobalReleaseApproval": true,
+    "noProductionLicenseConclusion": true
+  }
+}

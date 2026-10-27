@@ -1,0 +1,33 @@
+{
+  "profileId": "project-dictionary-object-elements/1.0.0",
+  "authority": "project-convention",
+  "name": "固定辞书直接物象的五类项目意象",
+  "claim": "仅为项目约定的辞书义项到自然物象域映射；不是传统汉字唯一五行或姓名效果结论。",
+  "sourceId": "project-dictionary-object-elements-v1",
+  "domains": {
+    "木": "原义直接指植物、其器官/种子/果实/禾米，或明确木竹材料制品；不从植物相关动作、状态、种植场所或动物纤维推定。",
+    "水": "原义直接指天然水体、河川、水波或水源；不从水旁、航运器物、动物栖地、温度、颜色或仅水流状态推定。",
+    "火": "原义直接指火焰或燃烧本体（含明言燃的本字）；不从光、日月、电磁辐射、红色、兴盛、雷声或物品加工过程推定。",
+    "金": "原义明确为金属材料或明确以金属制成的实体；无材质的兵器/乐器/货币计量不推定，材料可选时须明确所指。",
+    "土": "原义直接为土地、土山/山脚等地形、岩石/美石/玉石，或明确黏土制品；建筑场所、国名/行政区、量地单位及加工动作不推定。"
+  },
+  "policies": [
+    "所有522条完整默认读音义项逐条保留，采用义项只是候选，不覆盖原义或旧标签。",
+    "只有默认普通话读音、实际MOE本字词条、原条SHA全部相等才返回覆盖结果。",
+    "默认effectiveElements为空；必须明确profileOptIn。",
+    "单一直接实体义且无竞争义的7字仅标为single-sense-evidence；它们也须明确选择同源证据ID，profileOptIn本身不产生有效元素。",
+    "同一原义含多类对象/材料时保留分别限定的alternatives；不默认将它们合为一个姓名的有效集合。",
+    "选取某个证据ID表示确认使用该限定义项/物体或材料；不是从原字自动识别姓名意图。",
+    "颜色/季节/方位/德性/形容状态/动作宾语不因联想升标签；白字明确五行颜色义另存correspondenceEvidence。",
+    "不使用普通笔画、康熙笔画、首偏旁、同音、AI自由补标签；传统流派缺汉字取法一律pending。",
+    "不会修改characters.elements、elementBasis、meaning、readings、citation或既有profile；旧数据保持其原身份。",
+    "任何字符无confirmedEvidenceIds时effectiveElements必须为空；证据必须属于当前原字、默认读音、完整原条与确切源义记录，不以scope文字替代条件。"
+  ],
+  "traditionalAssessment": {
+    "status": "pending",
+    "elements": [],
+    "reason": "本轮固定原件没有闭合某一传统姓名学流派逐字取五行的方法与适用条件；辞书实体义及个别五行颜色义不构成该汉字在所有姓名用法中的唯一归属。"
+  },
+  "license": "CC0-1.0 for project conventions and annotations only; MOE verbatim text retains CC-BY-ND-3.0-TW",
+  "singleSenseChars": "枫卉麓菘蘅珩珉"
+}

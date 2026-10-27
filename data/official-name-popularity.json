@@ -1,0 +1,191 @@
+{
+  "schemaVersion": "official-name-popularity-catalog/1.0.0",
+  "datasetId": "mps-national-2021-registered-newborn-top10-per-sex",
+  "dataVersion": "mps-2021-registered-newborn-given-name-top10-per-sex/1.0.0",
+  "report": {
+    "title": "《二〇二一年全国姓名报告》",
+    "statisticalYear": 2021,
+    "publisher": "公安部户政管理研究中心",
+    "hostName": "湖南省公安厅",
+    "url": "https://gat.hunan.gov.cn/gat/jwgk/jwzx/gabyw/202201/t20220126_22471460.html",
+    "visiblePublishedAt": "2022-01-24 09:16",
+    "urlPathDate": "2022-01-26",
+    "htmlMetaPubDate": "2025-10-10 15:48:28",
+    "htmlGenerationDate": "2025-10-10 15:48:27",
+    "retrievedOn": "2026-10-20",
+    "sourceHtmlSha256": "ba66436cb672da2f428b5f201a380049f9c445bb70ccdace84f50592129f18d8",
+    "tableImages": [
+      {
+        "tableNumber": 2,
+        "title": "2021年男性新生儿使用最多的10个名字",
+        "url": "https://gat.hunan.gov.cn/gat/jwgk/jwzx/gabyw/202201/22471460/images/761368be70ff458bb75fc790ccc26a09.jpg",
+        "sha256": "00316307dab01f199e816e8a13815fca6b30ce704dcd9747be09f8d19d0ed08c"
+      },
+      {
+        "tableNumber": 3,
+        "title": "2021年女性新生儿使用最多的10个名字",
+        "url": "https://gat.hunan.gov.cn/gat/jwgk/jwzx/gabyw/202201/22471460/images/e4f9de7d64984d0a9642dca6a90e410e.jpg",
+        "sha256": "19fbc16a5e7f3924b510cff237e52a55c81cc2dea4416a3ae20ab6acac0a9685"
+      }
+    ]
+  },
+  "cohort": {
+    "birthYear": 2021,
+    "registeredBy": "2021-12-31",
+    "description": "2021年出生，且截至2021年12月31日已经到公安机关进行户籍登记的新生儿。",
+    "geography": "全国（公安部报告的户籍登记口径，非湖南省样本）",
+    "nameUnit": "given-name-excluding-surname",
+    "denominators": {
+      "total": {
+        "published": "887.3万",
+        "nominalPeople": 8873000,
+        "publishedResolutionPeople": 1000,
+        "exactPeopleKnown": false,
+        "roundingRulePublished": false
+      },
+      "male": {
+        "published": "468.1万",
+        "nominalPeople": 4681000,
+        "publishedResolutionPeople": 1000,
+        "exactPeopleKnown": false,
+        "roundingRulePublished": false,
+        "publishedSexShare": "52.75%"
+      },
+      "female": {
+        "published": "419.2万",
+        "nominalPeople": 4192000,
+        "publishedResolutionPeople": 1000,
+        "exactPeopleKnown": false,
+        "roundingRulePublished": false,
+        "publishedSexShare": "47.25%"
+      }
+    },
+    "registrationCoverageRate": null
+  },
+  "tables": [
+    {
+      "tableNumber": 2,
+      "sexCohort": "male",
+      "title": "2021年男性新生儿使用最多的10个名字",
+      "rows": [
+        {
+          "rank": 1,
+          "givenName": "沐宸",
+          "reportedPeople": 22958
+        },
+        {
+          "rank": 2,
+          "givenName": "浩宇",
+          "reportedPeople": 15722
+        },
+        {
+          "rank": 3,
+          "givenName": "沐辰",
+          "reportedPeople": 15660
+        },
+        {
+          "rank": 4,
+          "givenName": "茗泽",
+          "reportedPeople": 13175
+        },
+        {
+          "rank": 5,
+          "givenName": "奕辰",
+          "reportedPeople": 12583
+        },
+        {
+          "rank": 6,
+          "givenName": "宇泽",
+          "reportedPeople": 12191
+        },
+        {
+          "rank": 7,
+          "givenName": "浩然",
+          "reportedPeople": 11808
+        },
+        {
+          "rank": 8,
+          "givenName": "奕泽",
+          "reportedPeople": 10899
+        },
+        {
+          "rank": 9,
+          "givenName": "宇轩",
+          "reportedPeople": 10825
+        },
+        {
+          "rank": 10,
+          "givenName": "沐阳",
+          "reportedPeople": 10212
+        }
+      ]
+    },
+    {
+      "tableNumber": 3,
+      "sexCohort": "female",
+      "title": "2021年女性新生儿使用最多的10个名字",
+      "rows": [
+        {
+          "rank": 1,
+          "givenName": "若汐",
+          "reportedPeople": 18293
+        },
+        {
+          "rank": 2,
+          "givenName": "一诺",
+          "reportedPeople": 16884
+        },
+        {
+          "rank": 3,
+          "givenName": "艺涵",
+          "reportedPeople": 15388
+        },
+        {
+          "rank": 4,
+          "givenName": "依诺",
+          "reportedPeople": 15208
+        },
+        {
+          "rank": 5,
+          "givenName": "梓涵",
+          "reportedPeople": 14221
+        },
+        {
+          "rank": 6,
+          "givenName": "苡沫",
+          "reportedPeople": 13352
+        },
+        {
+          "rank": 7,
+          "givenName": "雨桐",
+          "reportedPeople": 11916
+        },
+        {
+          "rank": 8,
+          "givenName": "欣怡",
+          "reportedPeople": 11742
+        },
+        {
+          "rank": 9,
+          "givenName": "语桐",
+          "reportedPeople": 10795
+        },
+        {
+          "rank": 10,
+          "givenName": "语汐",
+          "reportedPeople": 10573
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "这是2021年出生且当年末已登记的历史给名热榜，不是当前全国全名重名率，也不代表全部出生人口。",
+    "未列入某一分榜只表示该榜未公布人数，不等于0人、独一无二或已知罕见；另一个性别cohort的人数仍未知。",
+    "给名不含姓氏，不能去姓后冒充全名人数，也不以姓氏比例或拼音、简繁近似推算未公布数据。",
+    "母数以0.1万公布，精确人数与舍入规则未知；折算cohort占比只可标为约数，不是精确概率。",
+    "可见发布日为2022年1月24日，2025网页metadata不表示2025新统计；本数据版本是项目固定事实快照号。",
+    "原报告图文未声明开放许可证；本包仅自行结构化事实与来源摘要，不发行原HTML或原图版式。"
+  ],
+  "usage": "historical-given-name-reference-only",
+  "scoringEffect": "none"
+}

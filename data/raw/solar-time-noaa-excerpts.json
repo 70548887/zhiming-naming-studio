@@ -1,0 +1,92 @@
+{
+  "version": "solar-time-noaa-source-excerpts/1.0.0",
+  "source": {
+    "url": "https://gml.noaa.gov/grad/solcalc/main.js",
+    "finalUrl": "https://gml.noaa.gov/grad/solcalc/main.js",
+    "retrievedAt": "2026-10-19T00:22:33.903Z",
+    "sha256": "3832956f24724eafacf9e18173b9299b1554d6252bed0784d9c9aca6d9f54856",
+    "bytes": 20880,
+    "contentType": "application/javascript",
+    "etag": "\"5190-5f03026ecf312-gzip\"",
+    "lastModified": "Mon, 19 Dec 2022 15:41:25 GMT"
+  },
+  "sourceFunctions": [
+    {
+      "name": "calcTimeJulianCent",
+      "verbatim": "function calcTimeJulianCent(jd) {\r\n\tvar T = (jd - 2451545.0)/36525.0\r\n\treturn T\r\n}"
+    },
+    {
+      "name": "calcGeomMeanLongSun",
+      "verbatim": "function calcGeomMeanLongSun(t) {\r\n\tvar L0 = 280.46646 + t * (36000.76983 + t*(0.0003032))\r\n\twhile(L0 > 360.0) {\r\n\t\tL0 -= 360.0\r\n\t}\r\n\twhile(L0 < 0.0) {\r\n\t\tL0 += 360.0\r\n\t}\r\n\treturn L0\t\t// in degrees\r\n}"
+    },
+    {
+      "name": "calcGeomMeanAnomalySun",
+      "verbatim": "function calcGeomMeanAnomalySun(t) {\r\n\tvar M = 357.52911 + t * (35999.05029 - 0.0001537 * t);\r\n\treturn M;\t\t// in degrees\r\n}"
+    },
+    {
+      "name": "calcEccentricityEarthOrbit",
+      "verbatim": "function calcEccentricityEarthOrbit(t) {\r\n\tvar e = 0.016708634 - t * (0.000042037 + 0.0000001267 * t);\r\n\treturn e;\t\t// unitless\r\n}"
+    },
+    {
+      "name": "calcMeanObliquityOfEcliptic",
+      "verbatim": "function calcMeanObliquityOfEcliptic(t) {\r\n\tvar seconds = 21.448 - t*(46.8150 + t*(0.00059 - t*(0.001813)));\r\n\tvar e0 = 23.0 + (26.0 + (seconds/60.0))/60.0;\r\n\treturn e0;\t\t// in degrees\r\n}"
+    },
+    {
+      "name": "calcObliquityCorrection",
+      "verbatim": "function calcObliquityCorrection(t) {\r\n\tvar e0 = calcMeanObliquityOfEcliptic(t);\r\n\tvar omega = 125.04 - 1934.136 * t;\r\n\tvar e = e0 + 0.00256 * Math.cos(degToRad(omega));\r\n\treturn e;\t\t// in degrees\r\n}"
+    },
+    {
+      "name": "calcEquationOfTime",
+      "verbatim": "function calcEquationOfTime(t) {\r\n\tvar epsilon = calcObliquityCorrection(t);\r\n\tvar l0 = calcGeomMeanLongSun(t);\r\n\tvar e = calcEccentricityEarthOrbit(t);\r\n\tvar m = calcGeomMeanAnomalySun(t);\r\n\r\n\tvar y = Math.tan(degToRad(epsilon)/2.0);\r\n\ty *= y;\r\n\r\n\tvar sin2l0 = Math.sin(2.0 * degToRad(l0));\r\n\tvar sinm   = Math.sin(degToRad(m));\r\n\tvar cos2l0 = Math.cos(2.0 * degToRad(l0));\r\n\tvar sin4l0 = Math.sin(4.0 * degToRad(l0));\r\n\tvar sin2m  = Math.sin(2.0 * degToRad(m));\r\n\r\n\tvar Etime = y * sin2l0 - 2.0 * e * sinm + 4.0 * e * y * sinm * cos2l0 - 0.5 * y * y * sin4l0 - 1.25 * e * e * sin2m;\r\n\treturn radToDeg(Etime)*4.0;\t// in minutes of time\r\n}"
+    },
+    {
+      "name": "getJD",
+      "verbatim": "function getJD(year, month, day) {\r\n\tif (month <= 2) {\r\n\t\tyear -= 1\r\n\t\tmonth += 12\r\n\t}\r\n\tvar A = Math.floor(year/100)\r\n\tvar B = 2 - A + Math.floor(A/4)\r\n\tvar JD = Math.floor(365.25*(year + 4716)) + Math.floor(30.6001*(month+1)) + day + B - 1524.5\r\n\treturn JD\r\n}"
+    }
+  ],
+  "clockRelation": {
+    "locator": "calcAzEl solarTimeFix and trueSolarTime",
+    "verbatim": "var solarTimeFix = eqTime + 4.0 * longitude - 60.0 * zone\r\n\tvar earthRadVec = calcSunRadVector(T)\r\n\tvar trueSolarTime = localtime + solarTimeFix"
+  },
+  "details": {
+    "file": ".local/solar-120/noaa-calcdetails.html",
+    "url": "https://gml.noaa.gov/grad/solcalc/calcdetails.html",
+    "finalUrl": "https://gml.noaa.gov/grad/solcalc/calcdetails.html",
+    "retrievedAt": "2026-10-19T00:23:38.250Z",
+    "sha256": "3da7e18c6d2a9e4b0070214cdda1ab3d6fa02c3e700f0b4964982e355ce891ef",
+    "bytes": 24314,
+    "contentType": "text/html; charset=UTF-8",
+    "lastModified": null,
+    "verbatimHtmlExcerpts": [
+      "The calculations in the NOAA Sunrise/Sunset and Solar Position Calculators \n  are based on equations from <i><b>Astronomical Algorithms</b></i>, by Jean Meeus.",
+      "Please be advised that the NOAA/GML Solar Calculator is no longer actively supported or maintained by our team. While the calculator remains available for use, we cannot guarantee its accuracy or functionality and will not be providing updates or technical support.",
+      "Please note that calculations in the spreadsheets are\nonly valid for dates between 1901 and 2099, due to an approximation used in the\nJulian Day calculation. The web calculator does not use this approximation,\nand can report values between the years -2000 and +3000.",
+      "The approximations used in these programs are very good for years between\n1800 and 2100."
+    ]
+  },
+  "publicDomain": {
+    "file": ".local/solar-120/noaa-disclaimer.html",
+    "url": "https://gml.noaa.gov/about/disclaimer.html",
+    "finalUrl": "https://gml.noaa.gov/about/disclaimer.html",
+    "retrievedAt": "2026-10-19T00:23:38.260Z",
+    "sha256": "657e14026cea7e71431d1fbd1920d2d671bbd289009bb8e3ed8bb26e17ea7dec",
+    "bytes": 23944,
+    "contentType": "text/html; charset=UTF-8",
+    "lastModified": null,
+    "verbatim": "The information on government servers are in the public domain, unless specifically annotated otherwise, and may be used freely by the public so long as you do not 1) claim it is your own (e.g. by claiming copyright for NOAA information – see next paragraph), 2) use it in a manner that implies an endorsement or affiliation with NOAA, or 3) modify it in content and then present it as official government material. You also cannot present information of your own in a way that makes it appear to be official government information."
+  },
+  "applicationPolicy": {
+    "supportedCivilYears": [
+      1900,
+      2100
+    ],
+    "calendar": "proleptic Gregorian; actual Unix epoch -> JD (no spreadsheet approximation); corrected wall coordinates may enter adjacent 1899 or 2101",
+    "equationOfTimeSign": "apparent solar time minus mean solar time",
+    "formula": "apparent solar wall coordinate = actual UTC epoch + 4 * eastLongitude minutes + EOT minutes",
+    "civilCorrectionFormula": "4 * eastLongitude - actual IANA UTC offset minutes + EOT",
+    "boundaryReviewWindowSeconds": 60,
+    "boundaryWindowMeaning": "product review window, not a certified error bound; does not itself withhold a chart",
+    "secondsMeaning": "display resolution only; not observational accuracy; floor the fractional wall coordinate to the preceding second, never round across a boundary",
+    "excluded": "Sunrise/sunset, latitude, topocentric observer corrections, Delta-T/UT1 correction, atmospheric refraction and any claim of traditional-method efficacy"
+  }
+}

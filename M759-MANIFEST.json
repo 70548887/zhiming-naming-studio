@@ -1,0 +1,60 @@
+{
+  "schema": "m759-core-preview-ui/1",
+  "task": "M759-D07",
+  "base": "85a7d50afb5edcda35dbe18a59ecab4dc5cc532a",
+  "branch": "codex/m759-core-preview-ui",
+  "worktree": "D:\\Codex-NamingStudio-Evidence\\m759-core-preview-ui",
+  "apiDependency": {
+    "interface": "BaziRootFeedbackV132PreviewApi",
+    "method": "previewBaziRootFeedbackV132(profile: BirthProfile, options?: RootFeedbackFacadeOptions): Promise<RootFeedbackV132FacadeDTO>",
+    "expectedSource": "dev06 shared API file; local renderer type overlay used until it lands"
+  },
+  "dto": "bazi-root-feedback-facade/1.3.2-r2",
+  "rendererEntry": "src/renderer/main.tsx Bazi page after existing general PreviewPanel",
+  "behavior": [
+    "default no request",
+    "explicit current-profile request only",
+    "A-B-A/profile/API/dispose stale result rejection",
+    "unknown time shown as pending branch set, never unique",
+    "unique/multiple/no/unsupported/resource failures rendered in ordinary Chinese",
+    "applicationGate remains blocked; no saved/score/sort/database writes",
+    "version/source/closure hashes and policy details behind details"
+  ],
+  "files": {
+    "src/renderer/main.tsx": {
+      "bytes": 118268,
+      "sha256": "c7f28ebd508c75ed2e0386b998d85b6aeb316f04c9aa28836ea18cf9c638f452"
+    },
+    "src/renderer/BaziRootFeedbackV132PreviewPanel.tsx": {
+      "bytes": 6674,
+      "sha256": "a96af8fd3745a9dc4fab03a1709a443ed1ba744924f4599548ff5690a3ca99cf"
+    },
+    "src/renderer/bazi-root-feedback-v132-preview-state.ts": {
+      "bytes": 3305,
+      "sha256": "c68588b31ce41942890e52d57badb5f0f4c0fac8bea97bfa7a2babe5c48d9c65"
+    },
+    "src/renderer/bazi-root-feedback-v132-preview.css": {
+      "bytes": 2356,
+      "sha256": "a7f006892a28878481217dfc241265e4841213efb6208e063e8320b906df95ac"
+    },
+    "tests/bazi-root-feedback-v132-preview.test.tsx": {
+      "bytes": 6945,
+      "sha256": "39d6a7b8de3e2e3ceed69091fa01ce77d3b0f5100108e872ecf5e414f328a913"
+    }
+  },
+  "validation": {
+    "focusedTests": "5/5 passed",
+    "typecheck": "passed",
+    "diffCheck": "passed"
+  },
+  "unexecuted": [
+    "real Service/API integration until dev06 API lands",
+    "browser/desktop screenshot",
+    "SQL/Store",
+    "server",
+    "fullbuild",
+    "installer",
+    "full suite",
+    "external AI"
+  ]
+}

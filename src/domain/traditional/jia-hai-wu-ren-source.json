@@ -1,0 +1,74 @@
+{
+  "schema": "jia-hai-wu-ren-source-context/1.0.0",
+  "rawSha256": "8ba17242f116583de2e10172e006f5ce5f74b23ccfc0bd24b886be135e9f20bd",
+  "revision": "wikisource-revision/2294674",
+  "quote": "忌壬水泛身，须戊土制之。",
+  "quoteSpan": {
+    "start": 4659,
+    "end": 4671,
+    "unit": "unicode-codepoint",
+    "interval": "[start,end)"
+  },
+  "contractClaims": [
+    {
+      "declaredQuote": "十月甲木，庚丁为要，丙火次之。忌壬水泛身，须戊土制之。",
+      "span": {
+        "start": 4638,
+        "end": 4671,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "actualSlice": "'''十月甲木'''，庚丁为要，丙火次之。忌壬水泛身，须戊土制之。",
+      "exact": false
+    },
+    {
+      "declaredQuote": "若庚丁两透，又加戊出干",
+      "span": {
+        "start": 4673,
+        "end": 4684,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "actualSlice": "若庚丁两透，又加戊出干",
+      "exact": true
+    },
+    {
+      "declaredQuote": "或甲多制戊，庚金无根，平常人也。",
+      "span": {
+        "start": 4708,
+        "end": 4718,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "actualSlice": "或甲多制戊，庚金无根",
+      "exact": false
+    }
+  ],
+  "counterControlQuote": "或甲多制戊，庚金无根",
+  "counterControlSpan": {
+    "start": 4708,
+    "end": 4718,
+    "unit": "unicode-codepoint",
+    "interval": "[start,end)"
+  },
+  "traditionalDependencies": [
+    "water-overflow",
+    "controller-root",
+    "counter-control",
+    "net-effect"
+  ],
+  "modelPins": [
+    {
+      "path": "src/domain/bazi-mainchain/project-v13/rules/project-mainchain-1.3.1.json",
+      "byteSha256": "f35a5864d406a2217efdfe40eba891f5b5ad6a995176e883c0789be306fce648",
+      "jsonValueSha256": "2b9d830b7b39713150ad979f0165efa87c174ac49e74f9664479842825b43148",
+      "methodId": "project-bazi-mainchain-145/1.3.1"
+    },
+    {
+      "path": "src/domain/bazi-mainchain/kernel-v12-fixed/rules/project-mainchain-1.2.0.json",
+      "byteSha256": "3d274b797503795b80f7acb13414db783df7e1ed4fc8c3c5ae29b148b495d647",
+      "jsonValueSha256": "2bb5b5737148624ce33a171a8ac9906a103f8afa41d022188ab952f7b531b02b",
+      "methodId": "project-bazi-mainchain-144/1.2.0"
+    }
+  ]
+}

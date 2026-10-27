@@ -1,0 +1,33 @@
+{
+  "version": "1.0.0",
+  "source": {
+    "revision": 2600158,
+    "title": "滴天髓闡微",
+    "authority": "ren-commentary;original-commentary-separated",
+    "fullWikitextSha256": "1d1a3d61c1b9a26618b41b8ead857a6b966992fdf2adabdc607a0c6cb4c8f04d",
+    "fullWikitextCodepoints": 143701,
+    "url": "https://zh.wikisource.org/w/index.php?title=%E6%BB%B4%E5%A4%A9%E9%AB%93%E9%97%A1%E5%BE%AE&oldid=2600158"
+  },
+  "contexts": [
+    {
+      "id": "ren-joint-battle-full",
+      "section": "六亲论 十八、战局",
+      "heading": "六亲论 十八、战局",
+      "layer": "ren-commentary",
+      "start": 110900,
+      "end": 111227,
+      "quote": "{{annotate|任氏曰：天干气专，而得地支安静，易于制化，故“天战犹自可”也；地支气杂，天干虽顺静，难于制化，故“地战急如火”也。且天干宜动不宜静，动则有用；静则愈专；地支宜静不宜动，静则有用，动则根拔。必得合神有力，会神成局，息其动气，或库神收其动神，安其静神，谓动中助静，以凶化吉。如甲寅、庚申、乙卯、辛酉、丙寅、壬申、丁卯、癸酉之类，天地交战，虽有合神会神，亦不息其动气，其势速凶。如谓两不冲一，此谬言也。两寅一申，冲去一寅，存一寅也；如两申逢一寅，纵使不冲，金多木少，亦能克尽矣。故天干论克。地支言冲，冲即克也，显然之理，又何疑耶？至于用神伏藏或用神被合，柱中无引用之神，反宜冲而动之，方能发用。故合有宜不宜，冲亦有且不宜也，须深究之。}}",
+      "sha256": "01ec472bfbe9ddcc8c4a4ba2b1c3be033b7f134f4e2ffb619e08c3bc931238d8"
+    },
+    {
+      "id": "original-battle-full",
+      "section": "六亲论 十八、战局",
+      "heading": "六亲论 十八、战局",
+      "layer": "original-commentary",
+      "start": 110737,
+      "end": 110898,
+      "quote": "{{*|原注：干头遇庚乙辛谓之天战，而得地支顺者无害；地支寅申卯酉，谓之地战，则天干不能为力。其势速凶，盖天主动，地主静故也。皆见谓之天地交战，必凶无疑，遇岁运合之会之，视其胜负，亦有可存可发者。其有一冲两冲者，只得一个合神有力，或无库神贵神，以收其动气，息其争气，亦有佳者。至于喜神伏藏死绝者，又要冲动引用生发之气。}}",
+      "sha256": "e260e2f53e3cf7e36eb4576468971ed1c2f11ab1da02ac7215a402d9a9a06a93"
+    }
+  ]
+}

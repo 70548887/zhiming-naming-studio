@@ -1,0 +1,109 @@
+{
+  "version": "project-character-imagery-outer-palace-set/1.0.0",
+  "mode": "project-character-imagery-outer-palace-set/1.0.0",
+  "authority": "project-experimental",
+  "name": "文化意象与外八宫集合对读（实验）",
+  "sourceIds": [
+    "project-name-imagery-outer-palaces-v1",
+    "name-imagery-arc-palace-elements"
+  ],
+  "labelSourceId": "editorial-rules",
+  "elementPalaces": {
+    "木": [
+      3,
+      4
+    ],
+    "火": [
+      9
+    ],
+    "土": [
+      2,
+      8
+    ],
+    "金": [
+      6,
+      7
+    ],
+    "水": [
+      1
+    ]
+  },
+  "palaceElements": {
+    "1": "水",
+    "2": "土",
+    "3": "木",
+    "4": "木",
+    "5": "土",
+    "6": "金",
+    "7": "金",
+    "8": "土",
+    "9": "火"
+  },
+  "palaceBranches": {
+    "1": [
+      "子"
+    ],
+    "2": [
+      "未",
+      "申"
+    ],
+    "3": [
+      "卯"
+    ],
+    "4": [
+      "辰",
+      "巳"
+    ],
+    "5": [],
+    "6": [
+      "戌",
+      "亥"
+    ],
+    "7": [
+      "酉"
+    ],
+    "8": [
+      "丑",
+      "寅"
+    ],
+    "9": [
+      "午"
+    ]
+  },
+  "sourceReferences": [
+    {
+      "id": "project-name-imagery-outer-palaces-v1",
+      "version": "project-character-imagery-outer-palace-set/1.0.0",
+      "locator": "data/name-imagery-profile.json:elementPalaces/policies",
+      "note": "本项目集合投影约定，非传统姓名落宫法；字符元素标签来自editorial-rules项目意象。"
+    },
+    {
+      "id": "name-imagery-arc-palace-elements",
+      "version": "arc119226/qimen_dunjia@7d941031d685d818d9fd234edf891dba5bd6a323",
+      "locator": "constants.js:526–535 PALACE_ELEMENTS;176–186 PALACE",
+      "note": "MIT固定宫元素与索引表；不包含姓名映射，也不证明任何姓名效果。"
+    },
+    {
+      "id": "editorial-rules",
+      "version": "editorial-imagery-v1",
+      "locator": "候选characters[].elements/elementBasis保存快照",
+      "note": "项目编辑文化意象标签，非辞书五行或康熙计数；未定保持空，不由偏旁、笔画或AI猜补。"
+    },
+    {
+      "id": "qimen-arc-structural-patterns",
+      "version": "arc119226/qimen_dunjia@7d941031d685d818d9fd234edf891dba5bd6a323",
+      "locator": "data/raw/qimen-patterns-arc-constants.js:176–186;526–535",
+      "note": "沿用已发布Arc固定原件登记，新增宫元素节录不改变其原来源身份。"
+    }
+  ],
+  "policies": [
+    "只使用方案已保存的出生奇门盘，不采用当前机器时间、首次打开时间或AI问测时刻。",
+    "姓氏原值只作家族背景，1–4字不计数、不拆猜、不映射；给名1或2字严格按保存字位。",
+    "元素到宫是本项目外八宫集合约定：木3/4、火9、土2/8、金6/7、水1；多标签全部保留，不挑单宫，不累加力量。",
+    "原宫表中五属土保留说明，但文字土集合不含5，也不因中五寄坤移动名字集合。",
+    "字符元素未定则逐字待核，不从寓意、偏旁、读音、普通或康熙笔画、AI补元素。",
+    "只照读映射宫的保存星门神和显式主寄干及已登记位置结构；不从戊仪反造甲，不移动原盘。",
+    "整层星盘/门盘原位、对宫结论不强贴某个文字宫；原结构版本与不同墓表分开。",
+    "不打分、不过滤、不排序，不输出吉凶、验名通过、四害解除、真空假空或真墓假墓。"
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "version": "qimen-go-explicit-stem-tombs/1.0.0",
+  "id": "qimen-go-explicit-stem-tombs/1.0.0",
+  "sourceId": "qimen-go-stem-tombs",
+  "title": "qimen-go固定十干墓支表参考（显式天盘干）",
+  "scope": {
+    "layer": "heaven-only",
+    "palaces": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
+      9
+    ],
+    "executableStems": [
+      "乙",
+      "丙",
+      "丁",
+      "戊",
+      "己",
+      "庚",
+      "辛",
+      "壬",
+      "癸"
+    ],
+    "center": "不检查中五说明副本；寄干随天芮按实际外宫核对一次。",
+    "lodgedStem": "仅核实际天盘主干与本盘已提供的天芮寄干；这是本产品的限定应用范围。",
+    "hiddenJia": "甲为not-directly-observed，不从甲子戊/甲戌己等六仪身份伪造甲的独立落宫。",
+    "excluded": [
+      "earth-stems",
+      "hidden-stems",
+      "path-stems",
+      "name-to-palace",
+      "life-fortune"
+    ]
+  },
+  "entries": [
+    {
+      "stem": "甲",
+      "tombBranch": "未",
+      "palace": 2,
+      "sourceLocator": "xuan/qimen_defs.go:220–224 QMTomb; xuan/ganzhi.go:43–46 ZhiGong9",
+      "note": "原表列甲未；本转盘明干无甲，不把六仪代号反推甲的位置。"
+    },
+    {
+      "stem": "乙",
+      "tombBranch": "戌",
+      "palace": 6,
+      "sourceLocator": "xuan/qimen_defs.go:220–224 QMTomb; xuan/ganzhi.go:43–46 ZhiGong9",
+      "note": "本表乙戌乾六，与既有三奇乙坤二读法不同；两个profile分别保留。"
+    },
+    {
+      "stem": "丙",
+      "tombBranch": "戌",
+      "palace": 6,
+      "sourceLocator": "xuan/qimen_defs.go:220–224 QMTomb; xuan/ganzhi.go:43–46 ZhiGong9",
+      "note": ""
+    },
+    {
+      "stem": "丁",
+      "tombBranch": "丑",
+      "palace": 8,
+      "sourceLocator": "xuan/qimen_defs.go:220–224 QMTomb; xuan/ganzhi.go:43–46 ZhiGong9",
+      "note": ""
+    },
+    {
+      "stem": "戊",
+      "tombBranch": "戌",
+      "palace": 6,
+      "sourceLocator": "xuan/qimen_defs.go:220–224 QMTomb; xuan/ganzhi.go:43–46 ZhiGong9",
+      "note": ""
+    },
+    {
+      "stem": "己",
+      "tombBranch": "丑",
+      "palace": 8,
+      "sourceLocator": "xuan/qimen_defs.go:220–224 QMTomb; xuan/ganzhi.go:43–46 ZhiGong9",
+      "note": ""
+    },
+    {
+      "stem": "庚",
+      "tombBranch": "丑",
+      "palace": 8,
+      "sourceLocator": "xuan/qimen_defs.go:220–224 QMTomb; xuan/ganzhi.go:43–46 ZhiGong9",
+      "note": ""
+    },
+    {
+      "stem": "辛",
+      "tombBranch": "辰",
+      "palace": 4,
+      "sourceLocator": "xuan/qimen_defs.go:220–224 QMTomb; xuan/ganzhi.go:43–46 ZhiGong9",
+      "note": ""
+    },
+    {
+      "stem": "壬",
+      "tombBranch": "辰",
+      "palace": 4,
+      "sourceLocator": "xuan/qimen_defs.go:220–224 QMTomb; xuan/ganzhi.go:43–46 ZhiGong9",
+      "note": ""
+    },
+    {
+      "stem": "癸",
+      "tombBranch": "未",
+      "palace": 2,
+      "sourceLocator": "xuan/qimen_defs.go:220–224 QMTomb; xuan/ganzhi.go:43–46 ZhiGong9",
+      "note": ""
+    }
+  ],
+  "disagreements": [
+    {
+      "id": "existing-three-qi",
+      "note": "旧三奇读法乙坤二、丙乾六、丁艮八保持不变；新Go表乙乾六、丙乾六、丁艮八，乙存在差异，不能合并或覆盖。"
+    },
+    {
+      "id": "arc-ding-qian",
+      "note": "Arc固定电子转录另保留丁墓乾六；本表丁丑艮八，不以五行同属火推导替换。"
+    },
+    {
+      "id": "not-bazi-growth-table",
+      "note": "同一Go仓库的ZhangSheng12长生墓表与QMTomb并不相同，尤其己/庚等；本profile仅复述QMTomb，不混入八字长生表。"
+    }
+  ],
+  "limitations": [
+    "这是固定MIT开源实现中的墓支查表，尚无同师承原典逐页背书，不称完整流派验名。",
+    "墓支转换为洛书宫来自固定ZhiGong9；命中只表示所选表的结构匹配，不输出吉凶、性格、健康或命运。",
+    "原Go renderer也查地盘干，本产品本profile不启用地盘；寄干范围采用当前转盘实际天芮数据，不声称Go renderer独立核验此寄干算法。",
+    "本轮没有建立甲遁六仪墓库反解规则、真假空、四害解除或姓名落宫。"
+  ]
+}

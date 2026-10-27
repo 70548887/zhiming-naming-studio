@@ -1,0 +1,4382 @@
+{
+  "version": "civil-midnight-fuyi-candidate/1.5.0;lunar-typescript/1.8.6",
+  "method": "Captured complete1.5 evidence before independently sourced pattern criteria.",
+  "cases": [
+    {
+      "profile": {
+        "id": "v5-frozen",
+        "customerName": "冻结1.5从格前",
+        "surname": "林",
+        "surnamePinyin": "lín",
+        "gender": "中性",
+        "calendar": "solar",
+        "birthDate": "2025-09-23",
+        "birthTime": "",
+        "timeUnknown": true,
+        "leapMonth": false,
+        "birthPlace": "上海",
+        "timezone": "Asia/Shanghai",
+        "notes": "",
+        "seasonalMethod": "qiongtong-2294674-initial/1.0.0"
+      },
+      "expected": {
+        "solarDate": "2025-09-23 时刻未知",
+        "lunarDate": "二〇二五年八月初二",
+        "zodiac": "蛇",
+        "pillars": [
+          {
+            "label": "年柱",
+            "gan": "乙",
+            "zhi": "巳",
+            "element": "木火",
+            "hidden": [
+              "丙",
+              "戊",
+              "庚"
+            ],
+            "tenGod": "比肩"
+          },
+          {
+            "label": "月柱",
+            "gan": "乙",
+            "zhi": "酉",
+            "element": "木金",
+            "hidden": [
+              "辛"
+            ],
+            "tenGod": "比肩"
+          },
+          {
+            "label": "日柱",
+            "gan": "乙",
+            "zhi": "未",
+            "element": "木土",
+            "hidden": [
+              "己",
+              "丁",
+              "乙"
+            ],
+            "tenGod": "日主"
+          }
+        ],
+        "elements": {
+          "木": 3,
+          "火": 1,
+          "土": 1,
+          "金": 1,
+          "水": 0
+        },
+        "favorable": [],
+        "unfavorable": [],
+        "strength": "接近平衡，候选结论不唯一",
+        "reasons": [
+          "日主乙木；月令酉金。",
+          "通根检查（地支藏干含日主同类）：日柱未；同类或印星透干：年柱乙、月柱乙。",
+          "扶抑候选使用本产品可解释启发式：透干权重1，支藏干本/中/余气按1或0.7/0.3或0.6/0.25/0.15，月支权重2；此权重不是古籍定量公式。",
+          "比印加权占比45%，小于38%初筛偏弱，大于55%初筛偏强，其余保留多解；候选按生扶或泄耗制衡关系选择，不按缺项选择。",
+          "出生地民用时间 Asia/Shanghai，00:00换日；年柱立春、月柱节令，以精确交节时刻划分；生肖按农历年，可能与年柱年界不同。"
+        ],
+        "seasonalAdvice": "秋月关注燥润与金气的具体组合，暂不按季节机械指定补益元素。",
+        "warnings": [
+          "五行明字数量仅为天干与地支本气计数，不代表喜用神；扶抑结果为规则候选，特殊格局须人工复核。",
+          "出生时刻未知：仅列确定的柱，不生成时柱；喜用候选属于不完整资料下的初筛。"
+        ],
+        "version": "civil-midnight-fuyi-candidate/1.5.0;lunar-typescript/1.8.6",
+        "ruleDescription": "扶抑启发式候选：月令加权、通根、透干及生克关系；不处理从格、化气格和天干地支合化，不能替代起名师的流派判断。",
+        "evidence": {
+          "version": "bazi-evidence-profile/1.3.0",
+          "profile": "civil-midnight;factual-relations;separate-fuyi-seasonal-opinions",
+          "sources": [
+            {
+              "id": "bazi-evidence-lunar186",
+              "name": "lunar-typescript 1.8.6 固定关系与历算接口",
+              "url": "https://github.com/6tail/lunar-typescript",
+              "revision": "0f3e95d15e31f1a7c7b93d624542649347328a20",
+              "locator": "src/lib/LunarUtil.ts:813–814 HE_GAN_5/HE_ZHI_6,928–1043 SHI_SHEN/ZHI_HIDE_GAN; src/lib/Lunar.ts:1332–1347 getNextJie/getPrevJie",
+              "note": "MIT；藏干顺序、十神、五合、六合及十二节接口的所选电子实现；组合出现不等于化气，固定实现不等于独立天文精度验证。"
+            },
+            {
+              "id": "bazi-evidence-go-ganzhi",
+              "name": "qimen-go 固定干支组合表",
+              "url": "https://github.com/deminzhang/qimen-go",
+              "revision": "4d3f58fa0f401b5b3a337f119138e99e90685dda",
+              "locator": "xuan/ganzhi.go:75–133 HeGan/HeZhi/ChongZhi/He3Zhi/Hui3Zhi",
+              "note": "MIT；只取三合、三会与六冲组成员事实，不采用其六合化气注释，也不据此宣布格局成立。"
+            },
+            {
+              "id": "bazi-evidence-project-heuristic",
+              "name": "本产品既有扶抑与季节意象启发式",
+              "url": "local:data/bazi-evidence-project-profile.json",
+              "revision": "project-fuyi-seasonal/1.0.0",
+              "locator": "data/bazi-evidence-project-profile.json",
+              "note": "项目自编数值与季节意见，非古籍定量公式，非《穷通宝鉴》逐日干逐月用神表；不具备唯一喜用神判定。"
+            },
+            {
+              "id": "bazi-month-authority-sanming-v1",
+              "name": "《三命通会》卷二人元司事首段转录参考",
+              "url": "https://github.com/mikkokotila/Sanming-Tongshui",
+              "revision": "eb3cacbf4b41a4fe8fc3c0e77e0d12b5bd17c079",
+              "locator": "source/juan-02.md:#論人元司事:first-prose-paragraph",
+              "note": "公开古文的电子转录参考；首段与后列《玉井》表有异读，醉醒子又反对定日限。本软件只定位所选转录表，不裁定唯一司权。"
+            },
+            {
+              "id": "bazi-monthly-qiongtong-2294674",
+              "name": "《穷通宝鉴》固定电子修订逐月初始取用参考",
+              "url": "https://zh.wikisource.org/w/index.php?title=穷通宝鉴&oldid=2294674",
+              "revision": "wikisource-revision/2294674",
+              "locator": "维基文库固定修订2294674：十干逐月段落；详见本次条目定位",
+              "note": "固定电子转录，尚非影印页独立校勘；按原段保留初始取用与条件，不把提到的天干全部当推荐，不以此断唯一喜用神。"
+            },
+            {
+              "id": "bazi-monthly-qiongtong-2294674-conditions",
+              "name": "《穷通宝鉴》固定修订：限定条件事实补充",
+              "url": "https://zh.wikisource.org/w/index.php?title=穷通宝鉴&oldid=2294674",
+              "revision": "wikisource-revision/2294674",
+              "locator": "固定修订2294674逐条原句：乙酉、癸辰节气前提及明示透藏条件，详见本项原句定位",
+              "note": "仅补充明示事实；时间前提符合不表示原句整体条件或用神成立，旧逐月条件状态不被覆盖。"
+            }
+          ],
+          "rules": [
+            {
+              "id": "bazi-hidden-tengod",
+              "version": "1.0.0",
+              "name": "所选藏干表与相对日主十神",
+              "sourceIds": [
+                "bazi-evidence-lunar186"
+              ],
+              "conditions": [
+                "只列已确定的柱；时刻未知时不补时柱，交节待定的月柱不补事实。",
+                "藏干顺序保留所选电子表列序，序号从1开始；不是司权顺序，也不用于本产品既有扶抑权重。",
+                "旧扶抑的巳列序丙戊庚保持不变；本事实表巳列序丙庚戊来自所选lunar-typescript电子表。",
+                "按天干阴阳与五行生克列十神；此层不判断喜忌、从格或吉凶。"
+              ]
+            },
+            {
+              "id": "bazi-stem-five-combination",
+              "version": "1.0.0",
+              "name": "天干五合出现核查",
+              "sourceIds": [
+                "bazi-evidence-lunar186"
+              ],
+              "conditions": [
+                "仅核查四柱已确定的明干中甲己、乙庚、丙辛、丁壬、戊癸配对。",
+                "不要求相邻；逐对保留柱位，未评估距离、争合、得时或化神条件。",
+                "来源只证配对，不输出候选化气五行或合化成立结论。"
+              ]
+            },
+            {
+              "id": "bazi-branch-six-combination",
+              "version": "1.0.0",
+              "name": "地支六合出现核查",
+              "sourceIds": [
+                "bazi-evidence-lunar186"
+              ],
+              "conditions": [
+                "仅核查子丑、寅亥、卯戌、辰酉、巳申、午未六组。",
+                "只列确定地支的配对，不输出六合化成何行，也不把六合当作统一吉凶。"
+              ]
+            },
+            {
+              "id": "bazi-branch-three-combination",
+              "version": "1.0.0",
+              "name": "地支三合组全支出现",
+              "sourceIds": [
+                "bazi-evidence-go-ganzhi"
+              ],
+              "conditions": [
+                "只在申子辰、寅午戌、亥卯未、巳酉丑三支全部出现在已确定四柱时记录。",
+                "重复地支不替代缺少的第三支；不把半合、拱合或三合组齐全认定为合化。"
+              ]
+            },
+            {
+              "id": "bazi-branch-three-meeting",
+              "version": "1.0.0",
+              "name": "地支三会组全支出现",
+              "sourceIds": [
+                "bazi-evidence-go-ganzhi"
+              ],
+              "conditions": [
+                "只在亥子丑、寅卯辰、巳午未、申酉戌三支全部出现在已确定四柱时记录。",
+                "仅记录完整组成员和实际柱位，不输出力量、化气或吉凶判定。"
+              ]
+            },
+            {
+              "id": "bazi-branch-six-clash",
+              "version": "1.0.0",
+              "name": "地支六冲配对出现",
+              "sourceIds": [
+                "bazi-evidence-go-ganzhi"
+              ],
+              "conditions": [
+                "只记录子午、丑未、寅申、卯酉、辰戌、巳亥配对的实际柱位。",
+                "配对出现不等于凶断；不评估冲动、冲散、旺衰或流年。"
+              ]
+            },
+            {
+              "id": "bazi-fuyi-opinion",
+              "version": "1.0.0",
+              "name": "既有项目扶抑初筛意见",
+              "sourceIds": [
+                "bazi-evidence-project-heuristic"
+              ],
+              "conditions": [
+                "照录既有扶抑候选，不用本模块新事实改动排序或筛选。",
+                "透干1；旧支藏干权重1或0.7/0.3或0.6/0.25/0.15，月支乘2；比印占比小于38%或大于55%作初筛。",
+                "全部权重、阈值为产品自编；不宣称来源于古籍或流派公认定量式。"
+              ]
+            },
+            {
+              "id": "bazi-seasonal-opinion",
+              "version": "1.0.0",
+              "name": "季节寒暖意象意见",
+              "sourceIds": [
+                "bazi-evidence-project-heuristic"
+              ],
+              "conditions": [
+                "只提供现有冬火、夏水季节意象，春秋保留多解。",
+                "这不是《穷通宝鉴》的逐日干逐月调候取用；未计算燥湿、具体用神搭配或通关。",
+                "不覆盖扶抑、不自动参与姓名排序，所有意见须人工复核。"
+              ]
+            },
+            {
+              "id": "bazi-month-authority",
+              "version": "1.1.0",
+              "name": "十二节实际区间与可选首段分日表定位",
+              "sourceIds": [
+                "bazi-evidence-lunar186",
+                "bazi-month-authority-sanming-v1"
+              ],
+              "conditions": [
+                "默认不按固定日限定位；只有明确选择首段转录参考才输出软件表段候选。",
+                "从前一十二节的实际交节秒起，以实际86400秒为一日；各段采用半开区间[fromDay,toDay)，新段包含边界秒。",
+                "相邻十二节实际月长不足30日时按下一节裁切；超过30日的时段标为超出表范围，不续用末段、不缩放归一。",
+                "未知出生时刻合并全日可能表段并保留不确定；已知重复民用时刻按既有第一次政策定位，同时标注歧义。",
+                "原文术语逐字保留；艮土、坤土、巳土、已土等不强制改成某天干。首段、玉井异表与醉醒子反定日限意见并列展示。",
+                "这是特定转录表的软件定位，不证明唯一司令、格局、喜用神或姓名吉凶；不改变扶抑计算与姓名排序。"
+              ]
+            },
+            {
+              "id": "bazi-monthly-seasonal-initial",
+              "version": "1.0.0",
+              "name": "固定版逐月初始取用与限定事实条件核对",
+              "sourceIds": [
+                "bazi-monthly-qiongtong-2294674",
+                "bazi-evidence-lunar186"
+              ],
+              "conditions": [
+                "默认不启用逐月参考；明确选择固定版方法后，按已确定日干和十二节月支读取本版条目。",
+                "初始取用只采用逐条人工整理的原句角色与顺序；原文泛滥、忌、病等提干不自动成为推荐。",
+                "条件只核对明确整理的明干、藏支、有无与all/any/not组合；未声明作用范围或涉及多寡旺弱、从格合化时保留尚未实现。",
+                "缺失柱时，已见的存在可肯定；未见不能证明不存在。日干自身是否计入明干条件由每条明确指定。",
+                "月柱交节待定时只并列原文参考且整体待定，不产生可采用的元素集合；未知时刻不补时柱。",
+                "这仅是原文初始取用和已知事实核对；特殊格局、用神取舍、先后转用与运势仍需人工，不影响既有扶抑与姓名排序。"
+              ]
+            },
+            {
+              "id": "bazi-seasonal-condition-supplement",
+              "version": "1.0.0",
+              "name": "逐月条件的限定事实补充",
+              "sourceIds": [
+                "bazi-monthly-qiongtong-2294674-conditions",
+                "bazi-evidence-lunar186"
+              ],
+              "conditions": [
+                "独立于原逐月条目，原有15条条件的状态与初始取用不被本补充改写。",
+                "节气前提只核白露→秋分、秋分→寒露、清明→谷雨、谷雨→立夏的实际半开时间区间；不把半月当15日或赋予旺弱阈值。",
+                "时刻未知时对整日实际区间按节气瞬间切分，若跨界保留前提结果集合，不作唯一断定；重复民用时刻仍采用第一次。",
+                "partial-prerequisite即使时间满足，也不代表桂蕊、桂花、火势或原句其他前提已满足；未核因素逐条保留。",
+                "full-fact-predicate仅表示本条明确透、藏或有无事实核查完整，不继承原文富贵、人格、运势或最终取用结论。"
+              ]
+            }
+          ],
+          "dayMaster": {
+            "stem": "乙",
+            "element": "木"
+          },
+          "timeBasis": {
+            "timezone": "Asia/Shanghai",
+            "timeUnknown": true,
+            "ambiguous": false,
+            "description": "出生地民用午夜换日，交节按实际瞬间与北京时间历算比对；未作真太阳时修正。"
+          },
+          "stems": [
+            {
+              "pillar": "年柱",
+              "stem": "乙",
+              "element": "木",
+              "tenGod": "比肩",
+              "relationToDay": "与日主同五行",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "月柱",
+              "stem": "乙",
+              "element": "木",
+              "tenGod": "比肩",
+              "relationToDay": "与日主同五行",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "日柱",
+              "stem": "乙",
+              "element": "木",
+              "tenGod": "日主",
+              "relationToDay": "日主自身",
+              "ruleId": "bazi-hidden-tengod"
+            }
+          ],
+          "hiddenStems": [
+            {
+              "pillar": "年柱",
+              "branch": "巳",
+              "stem": "丙",
+              "element": "火",
+              "order": 1,
+              "tenGod": "伤官",
+              "relationToDay": "日主生此干",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "年柱",
+              "branch": "巳",
+              "stem": "庚",
+              "element": "金",
+              "order": 2,
+              "tenGod": "正官",
+              "relationToDay": "此干克日主",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "年柱",
+              "branch": "巳",
+              "stem": "戊",
+              "element": "土",
+              "order": 3,
+              "tenGod": "正财",
+              "relationToDay": "日主克此干",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "月柱",
+              "branch": "酉",
+              "stem": "辛",
+              "element": "金",
+              "order": 1,
+              "tenGod": "七杀",
+              "relationToDay": "此干克日主",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "日柱",
+              "branch": "未",
+              "stem": "己",
+              "element": "土",
+              "order": 1,
+              "tenGod": "偏财",
+              "relationToDay": "日主克此干",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "日柱",
+              "branch": "未",
+              "stem": "丁",
+              "element": "火",
+              "order": 2,
+              "tenGod": "食神",
+              "relationToDay": "日主生此干",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "日柱",
+              "branch": "未",
+              "stem": "乙",
+              "element": "木",
+              "order": 3,
+              "tenGod": "比肩",
+              "relationToDay": "与日主同五行",
+              "ruleId": "bazi-hidden-tengod"
+            }
+          ],
+          "relations": [],
+          "monthAuthority": {
+            "status": "not-evaluated",
+            "ruleId": "bazi-month-authority",
+            "methodId": "no-fixed-day/1.0.0",
+            "method": "未按分日限定司权；保留十二节区间与多读法原表",
+            "reference": {
+              "version": "sanming-first-paragraph/1.0.0",
+              "sourceId": "bazi-month-authority-sanming-v1",
+              "title": "《三命通会》人元司事首段：分日转录参考",
+              "months": [
+                {
+                  "monthBranch": "寅",
+                  "sourceQuote": "正月建寅寅中有艮土用事五日丙火長生五日甲木二十日",
+                  "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[154,178)",
+                  "segments": [
+                    {
+                      "sourceTerm": "艮土",
+                      "days": 5,
+                      "fromDay": 0,
+                      "toDay": 5,
+                      "element": "土"
+                    },
+                    {
+                      "sourceTerm": "丙火",
+                      "days": 5,
+                      "fromDay": 5,
+                      "toDay": 10,
+                      "element": "火",
+                      "normalizedStem": "丙"
+                    },
+                    {
+                      "sourceTerm": "甲木",
+                      "days": 20,
+                      "fromDay": 10,
+                      "toDay": 30,
+                      "element": "木",
+                      "normalizedStem": "甲"
+                    }
+                  ]
+                },
+                {
+                  "monthBranch": "卯",
+                  "sourceQuote": "二月建卯卯中有甲木用事七日乙木二十三日",
+                  "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[178,197)",
+                  "segments": [
+                    {
+                      "sourceTerm": "甲木",
+                      "days": 7,
+                      "fromDay": 0,
+                      "toDay": 7,
+                      "element": "木",
+                      "normalizedStem": "甲"
+                    },
+                    {
+                      "sourceTerm": "乙木",
+                      "days": 23,
+                      "fromDay": 7,
+                      "toDay": 30,
+                      "element": "木",
+                      "normalizedStem": "乙"
+                    }
+                  ]
+                },
+                {
+                  "monthBranch": "辰",
+                  "sourceQuote": "三月建辰辰中有乙木用事七日壬水墓庫五日戊土一十八日",
+                  "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[197,222)",
+                  "segments": [
+                    {
+                      "sourceTerm": "乙木",
+                      "days": 7,
+                      "fromDay": 0,
+                      "toDay": 7,
+                      "element": "木",
+                      "normalizedStem": "乙"
+                    },
+                    {
+                      "sourceTerm": "壬水",
+                      "days": 5,
+                      "fromDay": 7,
+                      "toDay": 12,
+                      "element": "水",
+                      "normalizedStem": "壬"
+                    },
+                    {
+                      "sourceTerm": "戊土",
+                      "days": 18,
+                      "fromDay": 12,
+                      "toDay": 30,
+                      "element": "土",
+                      "normalizedStem": "戊"
+                    }
+                  ]
+                },
+                {
+                  "monthBranch": "巳",
+                  "sourceQuote": "四月建巳巳中有戊土七日庚金長生五日丙火一十八日",
+                  "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[222,245)",
+                  "segments": [
+                    {
+                      "sourceTerm": "戊土",
+                      "days": 7,
+                      "fromDay": 0,
+                      "toDay": 7,
+                      "element": "土",
+                      "normalizedStem": "戊"
+                    },
+                    {
+                      "sourceTerm": "庚金",
+                      "days": 5,
+                      "fromDay": 7,
+                      "toDay": 12,
+                      "element": "金",
+                      "normalizedStem": "庚"
+                    },
+                    {
+                      "sourceTerm": "丙火",
+                      "days": 18,
+                      "fromDay": 12,
+                      "toDay": 30,
+                      "element": "火",
+                      "normalizedStem": "丙"
+                    }
+                  ]
+                },
+                {
+                  "monthBranch": "午",
+                  "sourceQuote": "五月建午午中丙火用事七日丁火二十三日",
+                  "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[245,263)",
+                  "segments": [
+                    {
+                      "sourceTerm": "丙火",
+                      "days": 7,
+                      "fromDay": 0,
+                      "toDay": 7,
+                      "element": "火",
+                      "normalizedStem": "丙"
+                    },
+                    {
+                      "sourceTerm": "丁火",
+                      "days": 23,
+                      "fromDay": 7,
+                      "toDay": 30,
+                      "element": "火",
+                      "normalizedStem": "丁"
+                    }
+                  ]
+                },
+                {
+                  "monthBranch": "未",
+                  "sourceQuote": "六月建未未中有丁火用事七日甲木墓庫五日巳土一十八日",
+                  "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[263,288)",
+                  "segments": [
+                    {
+                      "sourceTerm": "丁火",
+                      "days": 7,
+                      "fromDay": 0,
+                      "toDay": 7,
+                      "element": "火",
+                      "normalizedStem": "丁"
+                    },
+                    {
+                      "sourceTerm": "甲木",
+                      "days": 5,
+                      "fromDay": 7,
+                      "toDay": 12,
+                      "element": "木",
+                      "normalizedStem": "甲"
+                    },
+                    {
+                      "sourceTerm": "巳土",
+                      "days": 18,
+                      "fromDay": 12,
+                      "toDay": 30,
+                      "element": "土"
+                    }
+                  ]
+                },
+                {
+                  "monthBranch": "申",
+                  "sourceQuote": "七月建申申中有坤土用事五日壬水長生五日庚金二十日",
+                  "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[288,312)",
+                  "segments": [
+                    {
+                      "sourceTerm": "坤土",
+                      "days": 5,
+                      "fromDay": 0,
+                      "toDay": 5,
+                      "element": "土"
+                    },
+                    {
+                      "sourceTerm": "壬水",
+                      "days": 5,
+                      "fromDay": 5,
+                      "toDay": 10,
+                      "element": "水",
+                      "normalizedStem": "壬"
+                    },
+                    {
+                      "sourceTerm": "庚金",
+                      "days": 20,
+                      "fromDay": 10,
+                      "toDay": 30,
+                      "element": "金",
+                      "normalizedStem": "庚"
+                    }
+                  ]
+                },
+                {
+                  "monthBranch": "酉",
+                  "sourceQuote": "八月建酉酉中有庚金用事七日辛金二十三日",
+                  "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[312,331)",
+                  "segments": [
+                    {
+                      "sourceTerm": "庚金",
+                      "days": 7,
+                      "fromDay": 0,
+                      "toDay": 7,
+                      "element": "金",
+                      "normalizedStem": "庚"
+                    },
+                    {
+                      "sourceTerm": "辛金",
+                      "days": 23,
+                      "fromDay": 7,
+                      "toDay": 30,
+                      "element": "金",
+                      "normalizedStem": "辛"
+                    }
+                  ]
+                },
+                {
+                  "monthBranch": "戌",
+                  "sourceQuote": "九月建戌戌中有辛金用事七日丙火墓庫五日戊土一十八日",
+                  "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[331,356)",
+                  "segments": [
+                    {
+                      "sourceTerm": "辛金",
+                      "days": 7,
+                      "fromDay": 0,
+                      "toDay": 7,
+                      "element": "金",
+                      "normalizedStem": "辛"
+                    },
+                    {
+                      "sourceTerm": "丙火",
+                      "days": 5,
+                      "fromDay": 7,
+                      "toDay": 12,
+                      "element": "火",
+                      "normalizedStem": "丙"
+                    },
+                    {
+                      "sourceTerm": "戊土",
+                      "days": 18,
+                      "fromDay": 12,
+                      "toDay": 30,
+                      "element": "土",
+                      "normalizedStem": "戊"
+                    }
+                  ]
+                },
+                {
+                  "monthBranch": "亥",
+                  "sourceQuote": "十月建亥亥中有戊土五日甲木長生五日壬水用事二十日",
+                  "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[356,380)",
+                  "segments": [
+                    {
+                      "sourceTerm": "戊土",
+                      "days": 5,
+                      "fromDay": 0,
+                      "toDay": 5,
+                      "element": "土",
+                      "normalizedStem": "戊"
+                    },
+                    {
+                      "sourceTerm": "甲木",
+                      "days": 5,
+                      "fromDay": 5,
+                      "toDay": 10,
+                      "element": "木",
+                      "normalizedStem": "甲"
+                    },
+                    {
+                      "sourceTerm": "壬水",
+                      "days": 20,
+                      "fromDay": 10,
+                      "toDay": 30,
+                      "element": "水",
+                      "normalizedStem": "壬"
+                    }
+                  ]
+                },
+                {
+                  "monthBranch": "子",
+                  "sourceQuote": "十一月建子子中有壬水用事七日癸水二十三日",
+                  "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[380,400)",
+                  "segments": [
+                    {
+                      "sourceTerm": "壬水",
+                      "days": 7,
+                      "fromDay": 0,
+                      "toDay": 7,
+                      "element": "水",
+                      "normalizedStem": "壬"
+                    },
+                    {
+                      "sourceTerm": "癸水",
+                      "days": 23,
+                      "fromDay": 7,
+                      "toDay": 30,
+                      "element": "水",
+                      "normalizedStem": "癸"
+                    }
+                  ]
+                },
+                {
+                  "monthBranch": "丑",
+                  "sourceQuote": "十二月建丑丑中有癸水用事七日庚金墓庫五日巳土一十八日",
+                  "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[400,426)",
+                  "segments": [
+                    {
+                      "sourceTerm": "癸水",
+                      "days": 7,
+                      "fromDay": 0,
+                      "toDay": 7,
+                      "element": "水",
+                      "normalizedStem": "癸"
+                    },
+                    {
+                      "sourceTerm": "庚金",
+                      "days": 5,
+                      "fromDay": 7,
+                      "toDay": 12,
+                      "element": "金",
+                      "normalizedStem": "庚"
+                    },
+                    {
+                      "sourceTerm": "巳土",
+                      "days": 18,
+                      "fromDay": 12,
+                      "toDay": 30,
+                      "element": "土"
+                    }
+                  ]
+                }
+              ],
+              "alternativeViews": [
+                {
+                  "title": "同章再考玉井异表",
+                  "sourceQuote": "正月寅〈立春雨水〉已土七日丙火五日甲木十八日二月卯〈驚蟄春分〉乙十八日甲九日癸三日\n\n三月辰〈清明穀雨〉戊十八日乙九日癸三日\n\n四月已〈立夏小滿〉丙十八日戊七日庚五日\n\n五月午〈芒種夏至〉丁十八日丙九日乙三日\n\n六月未〈小暑大暑〉已十八日乙五日丁七日\n\n七月申〈立秋處暑〉庚十七日已七日戊三日壬三日八月酉〈白露秋分〉辛二十日庚七日丁五日\n\n九月戌〈寒露霜降〉戊十八日辛七日丁五日\n\n十月亥〈立冬小雪〉壬十八日甲五日戊七日\n\n十一月子〈大雪冬至〉癸十八日壬五日辛三日\n\n十二月丑〈小寒大寒〉已十八日癸七日辛五日",
+                  "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[508,762)",
+                  "note": "原列次序和天数保留，不作为本版本计算表；酉20+7+5为32，子18+5+3为26，不擅自补齐或归一30，亦不自动调换原列序。"
+                },
+                {
+                  "title": "醉醒子不以固定日限的意见",
+                  "sourceQuote": "醉醒子曰時行物生天道之常一嵗之中雖有進退四時之内本無輕重故以金木水火分旺四時各得七十二日土旺四季各有十八日共三百六十日乃成嵗焉立春之後則用陽木三十六日艮土分野丙戊長生驚蟄後六日則用隂木三十六日癸水寄生清明後十二日則用戊土十八日陽水歸庫隂水返魂夏秋冬亦如此淵源淵海則以立春之後已土餘氣幾日艮土分野幾日丙戊長生先後各得幾日卯月癸水寄生幾日辰月陽水歸庫隂水返魂亦各幾日殊不思丑月之用既足春後又河餘哉分野者聚一方之旺氣長生者歸母成孕先後者盖有寅而後生丙有丙而後戊生寄生者徒有虚名乃無實位歸庫者絶其生氣而收藏返魂者續其死氣而變化此五行生死進退之𤣥機豈可以幾日為限哉且春之用木秋之用金固一定之理也若雜揉寓處之神占用幾日則本宫主氣之數未嘗不缺而虧矣則何以見春木夏火一氣流行各旺七十二日之數耶以四季配五行之用乃主有納客之數客無勝主之理但主氣之司權自有初中末三氣之淺深用之者特宜較量輕重言耳又豈可以三五七日為限哉其説足以破淵源之誤又支中所藏止以月論年日時不論人命重提綱厥有㫖哉\n",
+                  "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[764,1194)",
+                  "note": "保留同章反对以三五七日定限的意见，与首段所选分日表并列；不能把电子表定位结果合成为唯一司令或喜用神。"
+                }
+              ],
+              "limitations": [
+                "本表是所选电子转录的首段，不等于全部传本或学派一致。",
+                "不将原词艮土/坤土/巳土更改成戊己，元素土明确不等于天干明确。",
+                "未根据表结果改变旧扶抑权重、命名排序或喜用神。",
+                "首段、玉井异表和醉醒子意见不合并成唯一司权。",
+                "上游明确未与影印原页独立校勘；固定Wikisource修订无扫描Index/Page链接。Kanripo相应电子分页可对读，但不构成影印页校核，本应用未再分发其无明确许可的电子编排。",
+                "首段仅是本次选定的转录读法，后列玉井异表与反定日限意见不能略去。",
+                "术语、天数及边界从原件转录；软件采用实际经过24小时的操作口径，不宣称古文唯一要求此算法。",
+                "所选表全为30日；实际节月裁切后可能不足30日，超过30日的尾段不作延续或归一化。"
+              ]
+            },
+            "candidates": [],
+            "segments": [
+              {
+                "monthBranch": "酉",
+                "previousJie": "白露",
+                "previousJieAt": "2025-09-07T08:51:57.000Z",
+                "nextJieAt": "2025-10-08T00:41:13.000Z",
+                "startAt": "2025-09-22T16:00:00.000Z",
+                "endAt": "2025-09-23T15:59:59.000Z",
+                "elapsedStartDays": 15.297256944444445,
+                "elapsedEndDays": 16.29724537037037,
+                "candidates": [],
+                "status": "not-evaluated"
+              }
+            ],
+            "evidence": [
+              "区间端点为UTC实际瞬间，精确到秒；交节秒归入新节，旧段截止交节前一秒。",
+              "表段按前一节后实际经过秒数÷86400定位；采用[fromDay,toDay)半开边界，不按民用日期零点切日。",
+              "默认未按固定日限定位；原表及不同读法供查阅，不代替人工选择。",
+              "原文土项保留原术语，不强制推断天干；所选表不参与扶抑或姓名排序。"
+            ],
+            "missing": [
+              "当前未选择固定分日定位方法。",
+              "出生时刻未知：所列为全日可能候选集合，即使只有一项也保留不确定。",
+              "此表定位不构成唯一司令、从格、合化或用神裁决。"
+            ]
+          },
+          "opinions": [
+            {
+              "method": "fuyi",
+              "profile": "project-weighted-fuyi/1.0.0",
+              "status": "pending",
+              "elements": [],
+              "unfavorable": [],
+              "evidence": [
+                "接近平衡，候选结论不唯一",
+                "扶抑候选使用本产品可解释启发式：透干权重1，支藏干本/中/余气按1或0.7/0.3或0.6/0.25/0.15，月支权重2；此权重不是古籍定量公式。",
+                "比印加权占比45%，小于38%初筛偏弱，大于55%初筛偏强，其余保留多解；候选按生扶或泄耗制衡关系选择，不按缺项选择。",
+                "此意见照录原有扶抑初筛，新证据模块不改姓名筛选或排序。"
+              ],
+              "missing": [
+                "出生时刻未知，缺时柱；扶抑候选来自不完整资料。",
+                "未执行从格、化气格或合化条件裁决。"
+              ],
+              "requiresManualReview": true,
+              "ruleId": "bazi-fuyi-opinion"
+            },
+            {
+              "method": "tiaohou",
+              "profile": "project-seasonal-imagery/1.0.0",
+              "status": "pending",
+              "elements": [],
+              "unfavorable": [],
+              "evidence": [
+                "秋月关注燥润与金气的具体组合，暂不按季节机械指定补益元素。",
+                "本项仅为项目季节寒暖意象，不是《穷通宝鉴》日干×月份调候用神表，不合并成唯一喜用神。"
+              ],
+              "missing": [
+                "未评估完整寒暖燥湿、日干逐月用神组合与通关条件。",
+                "所选季节没有机械指定元素，保留多解。",
+                "出生资料不完整或瞬间有歧义，季节意见须保留人工复核。"
+              ],
+              "requiresManualReview": true,
+              "ruleId": "bazi-seasonal-opinion"
+            }
+          ],
+          "monthlySeasonal": {
+            "version": "monthly-seasonal-evidence/1.0.0",
+            "methodId": "qiongtong-2294674-initial/1.0.0",
+            "status": "pending",
+            "ruleId": "bazi-monthly-seasonal-initial",
+            "dayMaster": "乙",
+            "monthBranches": [
+              "酉"
+            ],
+            "cases": [
+              {
+                "dayMaster": "乙",
+                "monthBranch": "酉",
+                "sourceId": "bazi-monthly-qiongtong-2294674",
+                "sourceQuote": "'''八月乙木'''，芝兰禾稼均退。以丹桂为乙木。在白露之后，桂蕊未开，耑用癸水以滋桂萼。若秋分后，桂花已开，却喜向阳，又宜用丙，癸水次之，丙癸两透，科甲名臣。",
+                "sourceLocator": "oldid=2294674;论乙;codepoint[7254,7334)",
+                "reviewStatus": "needs-review",
+                "initialUses": [],
+                "conditionBranches": [
+                  {
+                    "id": "yi-you-white-dew-autumn-equinox",
+                    "sourceQuote": "在白露之后，桂蕊未开，耑用癸水以滋桂萼。若秋分后，桂花已开，却喜向阳，又宜用丙，癸水次之",
+                    "sourceLocator": "oldid=2294674;论乙;codepoint[7279,7323)",
+                    "result": "not-implemented",
+                    "proposedUses": [],
+                    "observedEvidence": [],
+                    "missing": [
+                      "涉及秋分前后及原意象条件，暂未实现；不强制选择一边。",
+                      "本条没有可验证的明确事实谓词，未自动解释原文旺弱、多寡或特殊格局。"
+                    ]
+                  }
+                ],
+                "stemFacts": [
+                  {
+                    "stem": "甲",
+                    "exposedPositions": [],
+                    "hiddenPositions": [],
+                    "dayMasterSame": false,
+                    "absence": "unknown"
+                  },
+                  {
+                    "stem": "乙",
+                    "exposedPositions": [
+                      "年柱",
+                      "月柱"
+                    ],
+                    "hiddenPositions": [
+                      "日柱未"
+                    ],
+                    "dayMasterSame": true,
+                    "absence": "unknown"
+                  },
+                  {
+                    "stem": "丙",
+                    "exposedPositions": [],
+                    "hiddenPositions": [
+                      "年柱巳"
+                    ],
+                    "dayMasterSame": false,
+                    "absence": "unknown"
+                  },
+                  {
+                    "stem": "癸",
+                    "exposedPositions": [],
+                    "hiddenPositions": [],
+                    "dayMasterSame": false,
+                    "absence": "unknown"
+                  }
+                ],
+                "unresolved": [
+                  "白露至秋分前后取用不同；此行不默选其中一支，不将节月机械等分。",
+                  "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。",
+                  "该条原文合段、缺专节或初始取用不明确，保留人工审阅，不由现代摘要补齐。"
+                ]
+              }
+            ],
+            "proposedElements": [],
+            "requiresManualReview": true,
+            "limitations": [
+              "逐月初始参考与旧季节意象、扶抑意见分别记录，不合并为唯一喜用神，也不改变姓名筛选和排序。",
+              "原文仍有转用、强弱、格局及先后条件；事实条件核对不是完整调候裁决。",
+              "固定电子修订未进行影印页独立校勘；传统文化判断不代表科学证实的命运或人格效果。",
+              "出生时刻未知，没有时柱；未见的透干或藏干不能断定不存在。"
+            ]
+          },
+          "seasonalConditions": {
+            "version": "qiongtong-2294674-conditions/1.0.0",
+            "profile": "qiongtong-2294674-conditions",
+            "status": "available",
+            "rules": [
+              {
+                "id": "bazi-seasonal-condition-supplement",
+                "version": "1.0.0",
+                "name": "逐月条件的限定事实补充",
+                "sourceIds": [
+                  "bazi-monthly-qiongtong-2294674-conditions",
+                  "bazi-evidence-lunar186"
+                ],
+                "conditions": [
+                  "独立于原逐月条目，原有15条条件的状态与初始取用不被本补充改写。",
+                  "节气前提只核白露→秋分、秋分→寒露、清明→谷雨、谷雨→立夏的实际半开时间区间；不把半月当15日或赋予旺弱阈值。",
+                  "时刻未知时对整日实际区间按节气瞬间切分，若跨界保留前提结果集合，不作唯一断定；重复民用时刻仍采用第一次。",
+                  "partial-prerequisite即使时间满足，也不代表桂蕊、桂花、火势或原句其他前提已满足；未核因素逐条保留。",
+                  "full-fact-predicate仅表示本条明确透、藏或有无事实核查完整，不继承原文富贵、人格、运势或最终取用结论。"
+                ]
+              }
+            ],
+            "checks": [
+              {
+                "id": "yi-you-before-autumn-equinox",
+                "caseId": "乙-酉",
+                "conditionId": "yi-you-white-dew-autumn-equinox",
+                "dayMaster": "乙",
+                "monthBranch": "酉",
+                "sourceId": "bazi-monthly-qiongtong-2294674-conditions",
+                "sourceQuote": "在白露之后，桂蕊未开，耑用癸水以滋桂萼。若秋分后，桂花已开，却喜向阳，又宜用丙，癸水次之",
+                "sourceLocator": "oldid=2294674;codepoint[7279,7323)",
+                "scope": "partial-prerequisite",
+                "status": "uncertain",
+                "predicateDescription": "仅时间前提：白露≤实际瞬间<秋分",
+                "observations": [
+                  {
+                    "startAt": "2025-09-22T16:00:00.000Z",
+                    "endAt": "2025-09-22T18:19:19.000Z",
+                    "result": "met",
+                    "fromTermAt": "2025-09-07T08:51:57.000Z",
+                    "toTermAt": "2025-09-22T18:19:20.000Z",
+                    "evidence": [
+                      "只核白露≤实际瞬间<秋分；窗口2025-09-07T08:51:57.000Z至2025-09-22T18:19:20.000Z（右端不含）。"
+                    ]
+                  },
+                  {
+                    "startAt": "2025-09-22T18:19:20.000Z",
+                    "endAt": "2025-09-23T15:59:59.000Z",
+                    "result": "not-met",
+                    "fromTermAt": "2025-09-07T08:51:57.000Z",
+                    "toTermAt": "2025-09-22T18:19:20.000Z",
+                    "evidence": [
+                      "只核白露≤实际瞬间<秋分；窗口2025-09-07T08:51:57.000Z至2025-09-22T18:19:20.000Z（右端不含）。"
+                    ]
+                  }
+                ],
+                "missing": [
+                  "桂蕊未开是原文物候意象，本软件没有观测或裁定。",
+                  "白露至秋分的时间前提不等于原分支整体成立；不自动提出癸水。",
+                  "已核的只是时间前提，不改变原条件尚未实现的状态。"
+                ],
+                "doesNotResolveOriginalBranch": true
+              },
+              {
+                "id": "yi-you-after-autumn-equinox",
+                "caseId": "乙-酉",
+                "conditionId": "yi-you-white-dew-autumn-equinox",
+                "dayMaster": "乙",
+                "monthBranch": "酉",
+                "sourceId": "bazi-monthly-qiongtong-2294674-conditions",
+                "sourceQuote": "在白露之后，桂蕊未开，耑用癸水以滋桂萼。若秋分后，桂花已开，却喜向阳，又宜用丙，癸水次之",
+                "sourceLocator": "oldid=2294674;codepoint[7279,7323)",
+                "scope": "partial-prerequisite",
+                "status": "uncertain",
+                "predicateDescription": "仅时间前提：秋分≤实际瞬间<寒露",
+                "observations": [
+                  {
+                    "startAt": "2025-09-22T16:00:00.000Z",
+                    "endAt": "2025-09-22T18:19:19.000Z",
+                    "result": "not-met",
+                    "fromTermAt": "2025-09-22T18:19:20.000Z",
+                    "toTermAt": "2025-10-08T00:41:13.000Z",
+                    "evidence": [
+                      "只核秋分≤实际瞬间<寒露；窗口2025-09-22T18:19:20.000Z至2025-10-08T00:41:13.000Z（右端不含）。"
+                    ]
+                  },
+                  {
+                    "startAt": "2025-09-22T18:19:20.000Z",
+                    "endAt": "2025-09-23T15:59:59.000Z",
+                    "result": "met",
+                    "fromTermAt": "2025-09-22T18:19:20.000Z",
+                    "toTermAt": "2025-10-08T00:41:13.000Z",
+                    "evidence": [
+                      "只核秋分≤实际瞬间<寒露；窗口2025-09-22T18:19:20.000Z至2025-10-08T00:41:13.000Z（右端不含）。"
+                    ]
+                  }
+                ],
+                "missing": [
+                  "桂花已开、喜向阳等原文意象没有观测或裁定。",
+                  "寒露上界来自当前酉节月范围，是软件定位边界，不冒称原句另外给出了寒露。",
+                  "只显示秋分后的历法前提，不能据此宣布丙癸取舍完成。",
+                  "已核的只是时间前提，不改变原条件尚未实现的状态。"
+                ],
+                "doesNotResolveOriginalBranch": true
+              }
+            ],
+            "warnings": [
+              "本补充不改写原逐月条件、初始取用或系统喜用；不参与姓名排名。",
+              "只核所列事实，部分前提满足不等于原句完整适用或用神成立。"
+            ]
+          },
+          "patternCandidates": [
+            {
+              "kind": "cong",
+              "name": "从格候选",
+              "status": "not-evaluated",
+              "supportedBy": [],
+              "opposedBy": [],
+              "missing": [
+                "尚未接入可独立复核的同流派从格成立与破格条件；不以五行加权占比阈值断真从。",
+                "需明确月令、根气、透干、逆势因素及未知时柱的影响后再分阶段评估。"
+              ]
+            }
+          ],
+          "transformationEvidence": [],
+          "limitations": [
+            "事实层只描述本命已确定四柱，不推导大运、流年或命运吉凶。",
+            "关系检查覆盖五合、六合、完整三合与三会、六冲；六害、三刑、半合、拱合尚未启用。",
+            "扶抑阈值与季节意象都是明确标注的项目启发式；司权、从格及合化不应由它们自动推出。",
+            "不同流派可使用不同藏干次序、分日司权与调候取法，不能把某一电子表视为唯一标准。",
+            "本模块属于传统文化规则说明，无证据证明姓名会改变命运。"
+          ]
+        }
+      }
+    },
+    {
+      "profile": {
+        "id": "v5-frozen",
+        "customerName": "冻结1.5从格前",
+        "surname": "林",
+        "surnamePinyin": "lín",
+        "gender": "中性",
+        "calendar": "solar",
+        "birthDate": "2024-02-10",
+        "birthTime": "09:30:00",
+        "timeUnknown": false,
+        "leapMonth": false,
+        "birthPlace": "上海",
+        "timezone": "Asia/Shanghai",
+        "notes": "",
+        "seasonalMethod": "qiongtong-2294674-initial/1.0.0"
+      },
+      "expected": {
+        "solarDate": "2024-02-10 09:30:00",
+        "lunarDate": "二〇二四年正月初一",
+        "zodiac": "龙",
+        "pillars": [
+          {
+            "label": "年柱",
+            "gan": "甲",
+            "zhi": "辰",
+            "element": "木土",
+            "hidden": [
+              "戊",
+              "乙",
+              "癸"
+            ],
+            "tenGod": "比肩"
+          },
+          {
+            "label": "月柱",
+            "gan": "丙",
+            "zhi": "寅",
+            "element": "火木",
+            "hidden": [
+              "甲",
+              "丙",
+              "戊"
+            ],
+            "tenGod": "食神"
+          },
+          {
+            "label": "日柱",
+            "gan": "甲",
+            "zhi": "辰",
+            "element": "木土",
+            "hidden": [
+              "戊",
+              "乙",
+              "癸"
+            ],
+            "tenGod": "日主"
+          },
+          {
+            "label": "时柱",
+            "gan": "己",
+            "zhi": "巳",
+            "element": "土火",
+            "hidden": [
+              "丙",
+              "戊",
+              "庚"
+            ],
+            "tenGod": "正财"
+          }
+        ],
+        "elements": {
+          "木": 3,
+          "火": 2,
+          "土": 3,
+          "金": 0,
+          "水": 0
+        },
+        "favorable": [],
+        "unfavorable": [],
+        "strength": "接近平衡，候选结论不唯一",
+        "reasons": [
+          "日主甲木；月令寅木。",
+          "通根检查（地支藏干含日主同类）：年柱辰、月柱寅、日柱辰；同类或印星透干：年柱甲。",
+          "扶抑候选使用本产品可解释启发式：透干权重1，支藏干本/中/余气按1或0.7/0.3或0.6/0.25/0.15，月支权重2；此权重不是古籍定量公式。",
+          "比印加权占比44%，小于38%初筛偏弱，大于55%初筛偏强，其余保留多解；候选按生扶或泄耗制衡关系选择，不按缺项选择。",
+          "出生地民用时间 Asia/Shanghai，00:00换日；年柱立春、月柱节令，以精确交节时刻划分；生肖按农历年，可能与年柱年界不同。"
+        ],
+        "seasonalAdvice": "春月关注木气与寒暖燥湿的具体组合，暂不按季节机械指定补益元素。",
+        "warnings": [
+          "五行明字数量仅为天干与地支本气计数，不代表喜用神；扶抑结果为规则候选，特殊格局须人工复核。"
+        ],
+        "version": "civil-midnight-fuyi-candidate/1.5.0;lunar-typescript/1.8.6",
+        "ruleDescription": "扶抑启发式候选：月令加权、通根、透干及生克关系；不处理从格、化气格和天干地支合化，不能替代起名师的流派判断。",
+        "evidence": {
+          "version": "bazi-evidence-profile/1.3.0",
+          "profile": "civil-midnight;factual-relations;separate-fuyi-seasonal-opinions",
+          "sources": [
+            {
+              "id": "bazi-evidence-lunar186",
+              "name": "lunar-typescript 1.8.6 固定关系与历算接口",
+              "url": "https://github.com/6tail/lunar-typescript",
+              "revision": "0f3e95d15e31f1a7c7b93d624542649347328a20",
+              "locator": "src/lib/LunarUtil.ts:813–814 HE_GAN_5/HE_ZHI_6,928–1043 SHI_SHEN/ZHI_HIDE_GAN; src/lib/Lunar.ts:1332–1347 getNextJie/getPrevJie",
+              "note": "MIT；藏干顺序、十神、五合、六合及十二节接口的所选电子实现；组合出现不等于化气，固定实现不等于独立天文精度验证。"
+            },
+            {
+              "id": "bazi-evidence-go-ganzhi",
+              "name": "qimen-go 固定干支组合表",
+              "url": "https://github.com/deminzhang/qimen-go",
+              "revision": "4d3f58fa0f401b5b3a337f119138e99e90685dda",
+              "locator": "xuan/ganzhi.go:75–133 HeGan/HeZhi/ChongZhi/He3Zhi/Hui3Zhi",
+              "note": "MIT；只取三合、三会与六冲组成员事实，不采用其六合化气注释，也不据此宣布格局成立。"
+            },
+            {
+              "id": "bazi-evidence-project-heuristic",
+              "name": "本产品既有扶抑与季节意象启发式",
+              "url": "local:data/bazi-evidence-project-profile.json",
+              "revision": "project-fuyi-seasonal/1.0.0",
+              "locator": "data/bazi-evidence-project-profile.json",
+              "note": "项目自编数值与季节意见，非古籍定量公式，非《穷通宝鉴》逐日干逐月用神表；不具备唯一喜用神判定。"
+            },
+            {
+              "id": "bazi-month-authority-sanming-v1",
+              "name": "《三命通会》卷二人元司事首段转录参考",
+              "url": "https://github.com/mikkokotila/Sanming-Tongshui",
+              "revision": "eb3cacbf4b41a4fe8fc3c0e77e0d12b5bd17c079",
+              "locator": "source/juan-02.md:#論人元司事:first-prose-paragraph",
+              "note": "公开古文的电子转录参考；首段与后列《玉井》表有异读，醉醒子又反对定日限。本软件只定位所选转录表，不裁定唯一司权。"
+            },
+            {
+              "id": "bazi-monthly-qiongtong-2294674",
+              "name": "《穷通宝鉴》固定电子修订逐月初始取用参考",
+              "url": "https://zh.wikisource.org/w/index.php?title=穷通宝鉴&oldid=2294674",
+              "revision": "wikisource-revision/2294674",
+              "locator": "维基文库固定修订2294674：十干逐月段落；详见本次条目定位",
+              "note": "固定电子转录，尚非影印页独立校勘；按原段保留初始取用与条件，不把提到的天干全部当推荐，不以此断唯一喜用神。"
+            },
+            {
+              "id": "bazi-monthly-qiongtong-2294674-conditions",
+              "name": "《穷通宝鉴》固定修订：限定条件事实补充",
+              "url": "https://zh.wikisource.org/w/index.php?title=穷通宝鉴&oldid=2294674",
+              "revision": "wikisource-revision/2294674",
+              "locator": "固定修订2294674逐条原句：乙酉、癸辰节气前提及明示透藏条件，详见本项原句定位",
+              "note": "仅补充明示事实；时间前提符合不表示原句整体条件或用神成立，旧逐月条件状态不被覆盖。"
+            }
+          ],
+          "rules": [
+            {
+              "id": "bazi-hidden-tengod",
+              "version": "1.0.0",
+              "name": "所选藏干表与相对日主十神",
+              "sourceIds": [
+                "bazi-evidence-lunar186"
+              ],
+              "conditions": [
+                "只列已确定的柱；时刻未知时不补时柱，交节待定的月柱不补事实。",
+                "藏干顺序保留所选电子表列序，序号从1开始；不是司权顺序，也不用于本产品既有扶抑权重。",
+                "旧扶抑的巳列序丙戊庚保持不变；本事实表巳列序丙庚戊来自所选lunar-typescript电子表。",
+                "按天干阴阳与五行生克列十神；此层不判断喜忌、从格或吉凶。"
+              ]
+            },
+            {
+              "id": "bazi-stem-five-combination",
+              "version": "1.0.0",
+              "name": "天干五合出现核查",
+              "sourceIds": [
+                "bazi-evidence-lunar186"
+              ],
+              "conditions": [
+                "仅核查四柱已确定的明干中甲己、乙庚、丙辛、丁壬、戊癸配对。",
+                "不要求相邻；逐对保留柱位，未评估距离、争合、得时或化神条件。",
+                "来源只证配对，不输出候选化气五行或合化成立结论。"
+              ]
+            },
+            {
+              "id": "bazi-branch-six-combination",
+              "version": "1.0.0",
+              "name": "地支六合出现核查",
+              "sourceIds": [
+                "bazi-evidence-lunar186"
+              ],
+              "conditions": [
+                "仅核查子丑、寅亥、卯戌、辰酉、巳申、午未六组。",
+                "只列确定地支的配对，不输出六合化成何行，也不把六合当作统一吉凶。"
+              ]
+            },
+            {
+              "id": "bazi-branch-three-combination",
+              "version": "1.0.0",
+              "name": "地支三合组全支出现",
+              "sourceIds": [
+                "bazi-evidence-go-ganzhi"
+              ],
+              "conditions": [
+                "只在申子辰、寅午戌、亥卯未、巳酉丑三支全部出现在已确定四柱时记录。",
+                "重复地支不替代缺少的第三支；不把半合、拱合或三合组齐全认定为合化。"
+              ]
+            },
+            {
+              "id": "bazi-branch-three-meeting",
+              "version": "1.0.0",
+              "name": "地支三会组全支出现",
+              "sourceIds": [
+                "bazi-evidence-go-ganzhi"
+              ],
+              "conditions": [
+                "只在亥子丑、寅卯辰、巳午未、申酉戌三支全部出现在已确定四柱时记录。",
+                "仅记录完整组成员和实际柱位，不输出力量、化气或吉凶判定。"
+              ]
+            },
+            {
+              "id": "bazi-branch-six-clash",
+              "version": "1.0.0",
+              "name": "地支六冲配对出现",
+              "sourceIds": [
+                "bazi-evidence-go-ganzhi"
+              ],
+              "conditions": [
+                "只记录子午、丑未、寅申、卯酉、辰戌、巳亥配对的实际柱位。",
+                "配对出现不等于凶断；不评估冲动、冲散、旺衰或流年。"
+              ]
+            },
+            {
+              "id": "bazi-fuyi-opinion",
+              "version": "1.0.0",
+              "name": "既有项目扶抑初筛意见",
+              "sourceIds": [
+                "bazi-evidence-project-heuristic"
+              ],
+              "conditions": [
+                "照录既有扶抑候选，不用本模块新事实改动排序或筛选。",
+                "透干1；旧支藏干权重1或0.7/0.3或0.6/0.25/0.15，月支乘2；比印占比小于38%或大于55%作初筛。",
+                "全部权重、阈值为产品自编；不宣称来源于古籍或流派公认定量式。"
+              ]
+            },
+            {
+              "id": "bazi-seasonal-opinion",
+              "version": "1.0.0",
+              "name": "季节寒暖意象意见",
+              "sourceIds": [
+                "bazi-evidence-project-heuristic"
+              ],
+              "conditions": [
+                "只提供现有冬火、夏水季节意象，春秋保留多解。",
+                "这不是《穷通宝鉴》的逐日干逐月调候取用；未计算燥湿、具体用神搭配或通关。",
+                "不覆盖扶抑、不自动参与姓名排序，所有意见须人工复核。"
+              ]
+            },
+            {
+              "id": "bazi-month-authority",
+              "version": "1.1.0",
+              "name": "十二节实际区间与可选首段分日表定位",
+              "sourceIds": [
+                "bazi-evidence-lunar186",
+                "bazi-month-authority-sanming-v1"
+              ],
+              "conditions": [
+                "默认不按固定日限定位；只有明确选择首段转录参考才输出软件表段候选。",
+                "从前一十二节的实际交节秒起，以实际86400秒为一日；各段采用半开区间[fromDay,toDay)，新段包含边界秒。",
+                "相邻十二节实际月长不足30日时按下一节裁切；超过30日的时段标为超出表范围，不续用末段、不缩放归一。",
+                "未知出生时刻合并全日可能表段并保留不确定；已知重复民用时刻按既有第一次政策定位，同时标注歧义。",
+                "原文术语逐字保留；艮土、坤土、巳土、已土等不强制改成某天干。首段、玉井异表与醉醒子反定日限意见并列展示。",
+                "这是特定转录表的软件定位，不证明唯一司令、格局、喜用神或姓名吉凶；不改变扶抑计算与姓名排序。"
+              ]
+            },
+            {
+              "id": "bazi-monthly-seasonal-initial",
+              "version": "1.0.0",
+              "name": "固定版逐月初始取用与限定事实条件核对",
+              "sourceIds": [
+                "bazi-monthly-qiongtong-2294674",
+                "bazi-evidence-lunar186"
+              ],
+              "conditions": [
+                "默认不启用逐月参考；明确选择固定版方法后，按已确定日干和十二节月支读取本版条目。",
+                "初始取用只采用逐条人工整理的原句角色与顺序；原文泛滥、忌、病等提干不自动成为推荐。",
+                "条件只核对明确整理的明干、藏支、有无与all/any/not组合；未声明作用范围或涉及多寡旺弱、从格合化时保留尚未实现。",
+                "缺失柱时，已见的存在可肯定；未见不能证明不存在。日干自身是否计入明干条件由每条明确指定。",
+                "月柱交节待定时只并列原文参考且整体待定，不产生可采用的元素集合；未知时刻不补时柱。",
+                "这仅是原文初始取用和已知事实核对；特殊格局、用神取舍、先后转用与运势仍需人工，不影响既有扶抑与姓名排序。"
+              ]
+            },
+            {
+              "id": "bazi-seasonal-condition-supplement",
+              "version": "1.0.0",
+              "name": "逐月条件的限定事实补充",
+              "sourceIds": [
+                "bazi-monthly-qiongtong-2294674-conditions",
+                "bazi-evidence-lunar186"
+              ],
+              "conditions": [
+                "独立于原逐月条目，原有15条条件的状态与初始取用不被本补充改写。",
+                "节气前提只核白露→秋分、秋分→寒露、清明→谷雨、谷雨→立夏的实际半开时间区间；不把半月当15日或赋予旺弱阈值。",
+                "时刻未知时对整日实际区间按节气瞬间切分，若跨界保留前提结果集合，不作唯一断定；重复民用时刻仍采用第一次。",
+                "partial-prerequisite即使时间满足，也不代表桂蕊、桂花、火势或原句其他前提已满足；未核因素逐条保留。",
+                "full-fact-predicate仅表示本条明确透、藏或有无事实核查完整，不继承原文富贵、人格、运势或最终取用结论。"
+              ]
+            }
+          ],
+          "dayMaster": {
+            "stem": "甲",
+            "element": "木"
+          },
+          "timeBasis": {
+            "timezone": "Asia/Shanghai",
+            "timeUnknown": false,
+            "ambiguous": false,
+            "description": "出生地民用午夜换日，交节按实际瞬间与北京时间历算比对；未作真太阳时修正。"
+          },
+          "stems": [
+            {
+              "pillar": "年柱",
+              "stem": "甲",
+              "element": "木",
+              "tenGod": "比肩",
+              "relationToDay": "与日主同五行",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "月柱",
+              "stem": "丙",
+              "element": "火",
+              "tenGod": "食神",
+              "relationToDay": "日主生此干",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "日柱",
+              "stem": "甲",
+              "element": "木",
+              "tenGod": "日主",
+              "relationToDay": "日主自身",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "时柱",
+              "stem": "己",
+              "element": "土",
+              "tenGod": "正财",
+              "relationToDay": "日主克此干",
+              "ruleId": "bazi-hidden-tengod"
+            }
+          ],
+          "hiddenStems": [
+            {
+              "pillar": "年柱",
+              "branch": "辰",
+              "stem": "戊",
+              "element": "土",
+              "order": 1,
+              "tenGod": "偏财",
+              "relationToDay": "日主克此干",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "年柱",
+              "branch": "辰",
+              "stem": "乙",
+              "element": "木",
+              "order": 2,
+              "tenGod": "劫财",
+              "relationToDay": "与日主同五行",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "年柱",
+              "branch": "辰",
+              "stem": "癸",
+              "element": "水",
+              "order": 3,
+              "tenGod": "正印",
+              "relationToDay": "此干生日主",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "月柱",
+              "branch": "寅",
+              "stem": "甲",
+              "element": "木",
+              "order": 1,
+              "tenGod": "比肩",
+              "relationToDay": "与日主同五行",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "月柱",
+              "branch": "寅",
+              "stem": "丙",
+              "element": "火",
+              "order": 2,
+              "tenGod": "食神",
+              "relationToDay": "日主生此干",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "月柱",
+              "branch": "寅",
+              "stem": "戊",
+              "element": "土",
+              "order": 3,
+              "tenGod": "偏财",
+              "relationToDay": "日主克此干",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "日柱",
+              "branch": "辰",
+              "stem": "戊",
+              "element": "土",
+              "order": 1,
+              "tenGod": "偏财",
+              "relationToDay": "日主克此干",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "日柱",
+              "branch": "辰",
+              "stem": "乙",
+              "element": "木",
+              "order": 2,
+              "tenGod": "劫财",
+              "relationToDay": "与日主同五行",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "日柱",
+              "branch": "辰",
+              "stem": "癸",
+              "element": "水",
+              "order": 3,
+              "tenGod": "正印",
+              "relationToDay": "此干生日主",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "时柱",
+              "branch": "巳",
+              "stem": "丙",
+              "element": "火",
+              "order": 1,
+              "tenGod": "食神",
+              "relationToDay": "日主生此干",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "时柱",
+              "branch": "巳",
+              "stem": "庚",
+              "element": "金",
+              "order": 2,
+              "tenGod": "七杀",
+              "relationToDay": "此干克日主",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "时柱",
+              "branch": "巳",
+              "stem": "戊",
+              "element": "土",
+              "order": 3,
+              "tenGod": "偏财",
+              "relationToDay": "日主克此干",
+              "ruleId": "bazi-hidden-tengod"
+            }
+          ],
+          "relations": [
+            {
+              "kind": "stem-combination",
+              "label": "天干五合配对",
+              "subjects": [
+                "甲",
+                "己"
+              ],
+              "pillars": [
+                "年柱",
+                "时柱"
+              ],
+              "ruleId": "bazi-stem-five-combination",
+              "evidence": [
+                "年柱甲与时柱己构成甲己五合配对。",
+                "只记录配对，不输出候选化气五行，不判断合化成立或据此改变五行计数。"
+              ]
+            },
+            {
+              "kind": "stem-combination",
+              "label": "天干五合配对",
+              "subjects": [
+                "甲",
+                "己"
+              ],
+              "pillars": [
+                "日柱",
+                "时柱"
+              ],
+              "ruleId": "bazi-stem-five-combination",
+              "evidence": [
+                "日柱甲与时柱己构成甲己五合配对。",
+                "只记录配对，不输出候选化气五行，不判断合化成立或据此改变五行计数。"
+              ]
+            }
+          ],
+          "monthAuthority": {
+            "status": "not-evaluated",
+            "ruleId": "bazi-month-authority",
+            "methodId": "no-fixed-day/1.0.0",
+            "method": "未按分日限定司权；保留十二节区间与多读法原表",
+            "reference": {
+              "version": "sanming-first-paragraph/1.0.0",
+              "sourceId": "bazi-month-authority-sanming-v1",
+              "title": "《三命通会》人元司事首段：分日转录参考",
+              "months": [
+                {
+                  "monthBranch": "寅",
+                  "sourceQuote": "正月建寅寅中有艮土用事五日丙火長生五日甲木二十日",
+                  "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[154,178)",
+                  "segments": [
+                    {
+                      "sourceTerm": "艮土",
+                      "days": 5,
+                      "fromDay": 0,
+                      "toDay": 5,
+                      "element": "土"
+                    },
+                    {
+                      "sourceTerm": "丙火",
+                      "days": 5,
+                      "fromDay": 5,
+                      "toDay": 10,
+                      "element": "火",
+                      "normalizedStem": "丙"
+                    },
+                    {
+                      "sourceTerm": "甲木",
+                      "days": 20,
+                      "fromDay": 10,
+                      "toDay": 30,
+                      "element": "木",
+                      "normalizedStem": "甲"
+                    }
+                  ]
+                },
+                {
+                  "monthBranch": "卯",
+                  "sourceQuote": "二月建卯卯中有甲木用事七日乙木二十三日",
+                  "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[178,197)",
+                  "segments": [
+                    {
+                      "sourceTerm": "甲木",
+                      "days": 7,
+                      "fromDay": 0,
+                      "toDay": 7,
+                      "element": "木",
+                      "normalizedStem": "甲"
+                    },
+                    {
+                      "sourceTerm": "乙木",
+                      "days": 23,
+                      "fromDay": 7,
+                      "toDay": 30,
+                      "element": "木",
+                      "normalizedStem": "乙"
+                    }
+                  ]
+                },
+                {
+                  "monthBranch": "辰",
+                  "sourceQuote": "三月建辰辰中有乙木用事七日壬水墓庫五日戊土一十八日",
+                  "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[197,222)",
+                  "segments": [
+                    {
+                      "sourceTerm": "乙木",
+                      "days": 7,
+                      "fromDay": 0,
+                      "toDay": 7,
+                      "element": "木",
+                      "normalizedStem": "乙"
+                    },
+                    {
+                      "sourceTerm": "壬水",
+                      "days": 5,
+                      "fromDay": 7,
+                      "toDay": 12,
+                      "element": "水",
+                      "normalizedStem": "壬"
+                    },
+                    {
+                      "sourceTerm": "戊土",
+                      "days": 18,
+                      "fromDay": 12,
+                      "toDay": 30,
+                      "element": "土",
+                      "normalizedStem": "戊"
+                    }
+                  ]
+                },
+                {
+                  "monthBranch": "巳",
+                  "sourceQuote": "四月建巳巳中有戊土七日庚金長生五日丙火一十八日",
+                  "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[222,245)",
+                  "segments": [
+                    {
+                      "sourceTerm": "戊土",
+                      "days": 7,
+                      "fromDay": 0,
+                      "toDay": 7,
+                      "element": "土",
+                      "normalizedStem": "戊"
+                    },
+                    {
+                      "sourceTerm": "庚金",
+                      "days": 5,
+                      "fromDay": 7,
+                      "toDay": 12,
+                      "element": "金",
+                      "normalizedStem": "庚"
+                    },
+                    {
+                      "sourceTerm": "丙火",
+                      "days": 18,
+                      "fromDay": 12,
+                      "toDay": 30,
+                      "element": "火",
+                      "normalizedStem": "丙"
+                    }
+                  ]
+                },
+                {
+                  "monthBranch": "午",
+                  "sourceQuote": "五月建午午中丙火用事七日丁火二十三日",
+                  "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[245,263)",
+                  "segments": [
+                    {
+                      "sourceTerm": "丙火",
+                      "days": 7,
+                      "fromDay": 0,
+                      "toDay": 7,
+                      "element": "火",
+                      "normalizedStem": "丙"
+                    },
+                    {
+                      "sourceTerm": "丁火",
+                      "days": 23,
+                      "fromDay": 7,
+                      "toDay": 30,
+                      "element": "火",
+                      "normalizedStem": "丁"
+                    }
+                  ]
+                },
+                {
+                  "monthBranch": "未",
+                  "sourceQuote": "六月建未未中有丁火用事七日甲木墓庫五日巳土一十八日",
+                  "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[263,288)",
+                  "segments": [
+                    {
+                      "sourceTerm": "丁火",
+                      "days": 7,
+                      "fromDay": 0,
+                      "toDay": 7,
+                      "element": "火",
+                      "normalizedStem": "丁"
+                    },
+                    {
+                      "sourceTerm": "甲木",
+                      "days": 5,
+                      "fromDay": 7,
+                      "toDay": 12,
+                      "element": "木",
+                      "normalizedStem": "甲"
+                    },
+                    {
+                      "sourceTerm": "巳土",
+                      "days": 18,
+                      "fromDay": 12,
+                      "toDay": 30,
+                      "element": "土"
+                    }
+                  ]
+                },
+                {
+                  "monthBranch": "申",
+                  "sourceQuote": "七月建申申中有坤土用事五日壬水長生五日庚金二十日",
+                  "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[288,312)",
+                  "segments": [
+                    {
+                      "sourceTerm": "坤土",
+                      "days": 5,
+                      "fromDay": 0,
+                      "toDay": 5,
+                      "element": "土"
+                    },
+                    {
+                      "sourceTerm": "壬水",
+                      "days": 5,
+                      "fromDay": 5,
+                      "toDay": 10,
+                      "element": "水",
+                      "normalizedStem": "壬"
+                    },
+                    {
+                      "sourceTerm": "庚金",
+                      "days": 20,
+                      "fromDay": 10,
+                      "toDay": 30,
+                      "element": "金",
+                      "normalizedStem": "庚"
+                    }
+                  ]
+                },
+                {
+                  "monthBranch": "酉",
+                  "sourceQuote": "八月建酉酉中有庚金用事七日辛金二十三日",
+                  "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[312,331)",
+                  "segments": [
+                    {
+                      "sourceTerm": "庚金",
+                      "days": 7,
+                      "fromDay": 0,
+                      "toDay": 7,
+                      "element": "金",
+                      "normalizedStem": "庚"
+                    },
+                    {
+                      "sourceTerm": "辛金",
+                      "days": 23,
+                      "fromDay": 7,
+                      "toDay": 30,
+                      "element": "金",
+                      "normalizedStem": "辛"
+                    }
+                  ]
+                },
+                {
+                  "monthBranch": "戌",
+                  "sourceQuote": "九月建戌戌中有辛金用事七日丙火墓庫五日戊土一十八日",
+                  "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[331,356)",
+                  "segments": [
+                    {
+                      "sourceTerm": "辛金",
+                      "days": 7,
+                      "fromDay": 0,
+                      "toDay": 7,
+                      "element": "金",
+                      "normalizedStem": "辛"
+                    },
+                    {
+                      "sourceTerm": "丙火",
+                      "days": 5,
+                      "fromDay": 7,
+                      "toDay": 12,
+                      "element": "火",
+                      "normalizedStem": "丙"
+                    },
+                    {
+                      "sourceTerm": "戊土",
+                      "days": 18,
+                      "fromDay": 12,
+                      "toDay": 30,
+                      "element": "土",
+                      "normalizedStem": "戊"
+                    }
+                  ]
+                },
+                {
+                  "monthBranch": "亥",
+                  "sourceQuote": "十月建亥亥中有戊土五日甲木長生五日壬水用事二十日",
+                  "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[356,380)",
+                  "segments": [
+                    {
+                      "sourceTerm": "戊土",
+                      "days": 5,
+                      "fromDay": 0,
+                      "toDay": 5,
+                      "element": "土",
+                      "normalizedStem": "戊"
+                    },
+                    {
+                      "sourceTerm": "甲木",
+                      "days": 5,
+                      "fromDay": 5,
+                      "toDay": 10,
+                      "element": "木",
+                      "normalizedStem": "甲"
+                    },
+                    {
+                      "sourceTerm": "壬水",
+                      "days": 20,
+                      "fromDay": 10,
+                      "toDay": 30,
+                      "element": "水",
+                      "normalizedStem": "壬"
+                    }
+                  ]
+                },
+                {
+                  "monthBranch": "子",
+                  "sourceQuote": "十一月建子子中有壬水用事七日癸水二十三日",
+                  "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[380,400)",
+                  "segments": [
+                    {
+                      "sourceTerm": "壬水",
+                      "days": 7,
+                      "fromDay": 0,
+                      "toDay": 7,
+                      "element": "水",
+                      "normalizedStem": "壬"
+                    },
+                    {
+                      "sourceTerm": "癸水",
+                      "days": 23,
+                      "fromDay": 7,
+                      "toDay": 30,
+                      "element": "水",
+                      "normalizedStem": "癸"
+                    }
+                  ]
+                },
+                {
+                  "monthBranch": "丑",
+                  "sourceQuote": "十二月建丑丑中有癸水用事七日庚金墓庫五日巳土一十八日",
+                  "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[400,426)",
+                  "segments": [
+                    {
+                      "sourceTerm": "癸水",
+                      "days": 7,
+                      "fromDay": 0,
+                      "toDay": 7,
+                      "element": "水",
+                      "normalizedStem": "癸"
+                    },
+                    {
+                      "sourceTerm": "庚金",
+                      "days": 5,
+                      "fromDay": 7,
+                      "toDay": 12,
+                      "element": "金",
+                      "normalizedStem": "庚"
+                    },
+                    {
+                      "sourceTerm": "巳土",
+                      "days": 18,
+                      "fromDay": 12,
+                      "toDay": 30,
+                      "element": "土"
+                    }
+                  ]
+                }
+              ],
+              "alternativeViews": [
+                {
+                  "title": "同章再考玉井异表",
+                  "sourceQuote": "正月寅〈立春雨水〉已土七日丙火五日甲木十八日二月卯〈驚蟄春分〉乙十八日甲九日癸三日\n\n三月辰〈清明穀雨〉戊十八日乙九日癸三日\n\n四月已〈立夏小滿〉丙十八日戊七日庚五日\n\n五月午〈芒種夏至〉丁十八日丙九日乙三日\n\n六月未〈小暑大暑〉已十八日乙五日丁七日\n\n七月申〈立秋處暑〉庚十七日已七日戊三日壬三日八月酉〈白露秋分〉辛二十日庚七日丁五日\n\n九月戌〈寒露霜降〉戊十八日辛七日丁五日\n\n十月亥〈立冬小雪〉壬十八日甲五日戊七日\n\n十一月子〈大雪冬至〉癸十八日壬五日辛三日\n\n十二月丑〈小寒大寒〉已十八日癸七日辛五日",
+                  "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[508,762)",
+                  "note": "原列次序和天数保留，不作为本版本计算表；酉20+7+5为32，子18+5+3为26，不擅自补齐或归一30，亦不自动调换原列序。"
+                },
+                {
+                  "title": "醉醒子不以固定日限的意见",
+                  "sourceQuote": "醉醒子曰時行物生天道之常一嵗之中雖有進退四時之内本無輕重故以金木水火分旺四時各得七十二日土旺四季各有十八日共三百六十日乃成嵗焉立春之後則用陽木三十六日艮土分野丙戊長生驚蟄後六日則用隂木三十六日癸水寄生清明後十二日則用戊土十八日陽水歸庫隂水返魂夏秋冬亦如此淵源淵海則以立春之後已土餘氣幾日艮土分野幾日丙戊長生先後各得幾日卯月癸水寄生幾日辰月陽水歸庫隂水返魂亦各幾日殊不思丑月之用既足春後又河餘哉分野者聚一方之旺氣長生者歸母成孕先後者盖有寅而後生丙有丙而後戊生寄生者徒有虚名乃無實位歸庫者絶其生氣而收藏返魂者續其死氣而變化此五行生死進退之𤣥機豈可以幾日為限哉且春之用木秋之用金固一定之理也若雜揉寓處之神占用幾日則本宫主氣之數未嘗不缺而虧矣則何以見春木夏火一氣流行各旺七十二日之數耶以四季配五行之用乃主有納客之數客無勝主之理但主氣之司權自有初中末三氣之淺深用之者特宜較量輕重言耳又豈可以三五七日為限哉其説足以破淵源之誤又支中所藏止以月論年日時不論人命重提綱厥有㫖哉\n",
+                  "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[764,1194)",
+                  "note": "保留同章反对以三五七日定限的意见，与首段所选分日表并列；不能把电子表定位结果合成为唯一司令或喜用神。"
+                }
+              ],
+              "limitations": [
+                "本表是所选电子转录的首段，不等于全部传本或学派一致。",
+                "不将原词艮土/坤土/巳土更改成戊己，元素土明确不等于天干明确。",
+                "未根据表结果改变旧扶抑权重、命名排序或喜用神。",
+                "首段、玉井异表和醉醒子意见不合并成唯一司权。",
+                "上游明确未与影印原页独立校勘；固定Wikisource修订无扫描Index/Page链接。Kanripo相应电子分页可对读，但不构成影印页校核，本应用未再分发其无明确许可的电子编排。",
+                "首段仅是本次选定的转录读法，后列玉井异表与反定日限意见不能略去。",
+                "术语、天数及边界从原件转录；软件采用实际经过24小时的操作口径，不宣称古文唯一要求此算法。",
+                "所选表全为30日；实际节月裁切后可能不足30日，超过30日的尾段不作延续或归一化。"
+              ]
+            },
+            "candidates": [],
+            "segments": [
+              {
+                "monthBranch": "寅",
+                "previousJie": "立春",
+                "previousJieAt": "2024-02-04T08:27:07.000Z",
+                "nextJieAt": "2024-03-05T02:22:45.000Z",
+                "startAt": "2024-02-10T01:30:00.000Z",
+                "endAt": "2024-02-10T01:30:00.000Z",
+                "elapsedStartDays": 5.710335648148148,
+                "elapsedEndDays": 5.710335648148148,
+                "candidates": [],
+                "status": "not-evaluated"
+              }
+            ],
+            "evidence": [
+              "区间端点为UTC实际瞬间，精确到秒；交节秒归入新节，旧段截止交节前一秒。",
+              "表段按前一节后实际经过秒数÷86400定位；采用[fromDay,toDay)半开边界，不按民用日期零点切日。",
+              "默认未按固定日限定位；原表及不同读法供查阅，不代替人工选择。",
+              "原文土项保留原术语，不强制推断天干；所选表不参与扶抑或姓名排序。"
+            ],
+            "missing": [
+              "当前未选择固定分日定位方法。",
+              "此表定位不构成唯一司令、从格、合化或用神裁决。"
+            ]
+          },
+          "opinions": [
+            {
+              "method": "fuyi",
+              "profile": "project-weighted-fuyi/1.0.0",
+              "status": "pending",
+              "elements": [],
+              "unfavorable": [],
+              "evidence": [
+                "接近平衡，候选结论不唯一",
+                "扶抑候选使用本产品可解释启发式：透干权重1，支藏干本/中/余气按1或0.7/0.3或0.6/0.25/0.15，月支权重2；此权重不是古籍定量公式。",
+                "比印加权占比44%，小于38%初筛偏弱，大于55%初筛偏强，其余保留多解；候选按生扶或泄耗制衡关系选择，不按缺项选择。",
+                "此意见照录原有扶抑初筛，新证据模块不改姓名筛选或排序。"
+              ],
+              "missing": [
+                "未执行从格、化气格或合化条件裁决。"
+              ],
+              "requiresManualReview": true,
+              "ruleId": "bazi-fuyi-opinion"
+            },
+            {
+              "method": "tiaohou",
+              "profile": "project-seasonal-imagery/1.0.0",
+              "status": "pending",
+              "elements": [],
+              "unfavorable": [],
+              "evidence": [
+                "春月关注木气与寒暖燥湿的具体组合，暂不按季节机械指定补益元素。",
+                "本项仅为项目季节寒暖意象，不是《穷通宝鉴》日干×月份调候用神表，不合并成唯一喜用神。"
+              ],
+              "missing": [
+                "未评估完整寒暖燥湿、日干逐月用神组合与通关条件。",
+                "所选季节没有机械指定元素，保留多解。"
+              ],
+              "requiresManualReview": true,
+              "ruleId": "bazi-seasonal-opinion"
+            }
+          ],
+          "monthlySeasonal": {
+            "version": "monthly-seasonal-evidence/1.0.0",
+            "methodId": "qiongtong-2294674-initial/1.0.0",
+            "status": "initial-reference",
+            "ruleId": "bazi-monthly-seasonal-initial",
+            "dayMaster": "甲",
+            "monthBranches": [
+              "寅"
+            ],
+            "cases": [
+              {
+                "dayMaster": "甲",
+                "monthBranch": "寅",
+                "sourceId": "bazi-monthly-qiongtong-2294674",
+                "sourceQuote": "'''正月甲木'''，初春尚有余寒，得丙癸逢，富贵双全。癸藏丙透，名寒木向阳，主大富贵。倘风水不及，亦不失儒林俊秀。如无丙癸，平常人也。",
+                "sourceLocator": "oldid=2294674;论甲;codepoint[1491,1559)",
+                "reviewStatus": "initial",
+                "initialUses": [
+                  {
+                    "stem": "丙",
+                    "role": "unranked",
+                    "sequence": 1,
+                    "quote": "初春尚有余寒，得丙癸逢",
+                    "element": "火"
+                  },
+                  {
+                    "stem": "癸",
+                    "role": "unranked",
+                    "sequence": 2,
+                    "quote": "初春尚有余寒，得丙癸逢",
+                    "element": "水"
+                  }
+                ],
+                "conditionBranches": [],
+                "stemFacts": [
+                  {
+                    "stem": "丙",
+                    "exposedPositions": [
+                      "月柱"
+                    ],
+                    "hiddenPositions": [
+                      "月柱寅",
+                      "时柱巳"
+                    ],
+                    "dayMasterSame": false,
+                    "absence": "not-seen"
+                  },
+                  {
+                    "stem": "癸",
+                    "exposedPositions": [],
+                    "hiddenPositions": [
+                      "年柱辰",
+                      "日柱辰"
+                    ],
+                    "dayMasterSame": false,
+                    "absence": "not-seen"
+                  },
+                  {
+                    "stem": "甲",
+                    "exposedPositions": [
+                      "年柱"
+                    ],
+                    "hiddenPositions": [
+                      "月柱寅"
+                    ],
+                    "dayMasterSame": true,
+                    "absence": "not-seen"
+                  }
+                ],
+                "unresolved": [
+                  "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+                ]
+              }
+            ],
+            "proposedElements": [
+              "火",
+              "水"
+            ],
+            "requiresManualReview": true,
+            "limitations": [
+              "逐月初始参考与旧季节意象、扶抑意见分别记录，不合并为唯一喜用神，也不改变姓名筛选和排序。",
+              "原文仍有转用、强弱、格局及先后条件；事实条件核对不是完整调候裁决。",
+              "固定电子修订未进行影印页独立校勘；传统文化判断不代表科学证实的命运或人格效果。"
+            ]
+          },
+          "seasonalConditions": {
+            "version": "qiongtong-2294674-conditions/1.0.0",
+            "profile": "qiongtong-2294674-conditions",
+            "status": "available",
+            "rules": [
+              {
+                "id": "bazi-seasonal-condition-supplement",
+                "version": "1.0.0",
+                "name": "逐月条件的限定事实补充",
+                "sourceIds": [
+                  "bazi-monthly-qiongtong-2294674-conditions",
+                  "bazi-evidence-lunar186"
+                ],
+                "conditions": [
+                  "独立于原逐月条目，原有15条条件的状态与初始取用不被本补充改写。",
+                  "节气前提只核白露→秋分、秋分→寒露、清明→谷雨、谷雨→立夏的实际半开时间区间；不把半月当15日或赋予旺弱阈值。",
+                  "时刻未知时对整日实际区间按节气瞬间切分，若跨界保留前提结果集合，不作唯一断定；重复民用时刻仍采用第一次。",
+                  "partial-prerequisite即使时间满足，也不代表桂蕊、桂花、火势或原句其他前提已满足；未核因素逐条保留。",
+                  "full-fact-predicate仅表示本条明确透、藏或有无事实核查完整，不继承原文富贵、人格、运势或最终取用结论。"
+                ]
+              }
+            ],
+            "checks": [],
+            "warnings": [
+              "本补充不改写原逐月条件、初始取用或系统喜用；不参与姓名排名。",
+              "只核所列事实，部分前提满足不等于原句完整适用或用神成立。"
+            ]
+          },
+          "patternCandidates": [
+            {
+              "kind": "cong",
+              "name": "从格候选",
+              "status": "not-evaluated",
+              "supportedBy": [],
+              "opposedBy": [],
+              "missing": [
+                "尚未接入可独立复核的同流派从格成立与破格条件；不以五行加权占比阈值断真从。",
+                "需明确月令、根气、透干、逆势因素及未知时柱的影响后再分阶段评估。"
+              ]
+            }
+          ],
+          "transformationEvidence": [
+            {
+              "kind": "stem-combination",
+              "subjects": [
+                "甲",
+                "己"
+              ],
+              "status": "not-evaluated",
+              "supportedBy": [
+                "仅核实年柱、时柱的甲、己组合出现。"
+              ],
+              "opposedBy": [],
+              "missing": [
+                "未接入完整同流派得令、透引、阻隔与争合等合化条件；组合出现不等于合化成立。"
+              ],
+              "ruleId": "bazi-stem-five-combination"
+            },
+            {
+              "kind": "stem-combination",
+              "subjects": [
+                "甲",
+                "己"
+              ],
+              "status": "not-evaluated",
+              "supportedBy": [
+                "仅核实日柱、时柱的甲、己组合出现。"
+              ],
+              "opposedBy": [],
+              "missing": [
+                "未接入完整同流派得令、透引、阻隔与争合等合化条件；组合出现不等于合化成立。"
+              ],
+              "ruleId": "bazi-stem-five-combination"
+            }
+          ],
+          "limitations": [
+            "事实层只描述本命已确定四柱，不推导大运、流年或命运吉凶。",
+            "关系检查覆盖五合、六合、完整三合与三会、六冲；六害、三刑、半合、拱合尚未启用。",
+            "扶抑阈值与季节意象都是明确标注的项目启发式；司权、从格及合化不应由它们自动推出。",
+            "不同流派可使用不同藏干次序、分日司权与调候取法，不能把某一电子表视为唯一标准。",
+            "本模块属于传统文化规则说明，无证据证明姓名会改变命运。"
+          ]
+        }
+      }
+    },
+    {
+      "profile": {
+        "id": "v5-frozen",
+        "customerName": "冻结1.5从格前",
+        "surname": "林",
+        "surnamePinyin": "lín",
+        "gender": "中性",
+        "calendar": "solar",
+        "birthDate": "2003-02-11",
+        "birthTime": "19:30:00",
+        "timeUnknown": false,
+        "leapMonth": false,
+        "birthPlace": "上海",
+        "timezone": "Asia/Shanghai",
+        "notes": "",
+        "seasonalMethod": "qiongtong-2294674-initial/1.0.0"
+      },
+      "expected": {
+        "solarDate": "2003-02-11 19:30:00",
+        "lunarDate": "二〇〇三年正月十一",
+        "zodiac": "羊",
+        "pillars": [
+          {
+            "label": "年柱",
+            "gan": "癸",
+            "zhi": "未",
+            "element": "水土",
+            "hidden": [
+              "己",
+              "丁",
+              "乙"
+            ],
+            "tenGod": "偏印"
+          },
+          {
+            "label": "月柱",
+            "gan": "甲",
+            "zhi": "寅",
+            "element": "木木",
+            "hidden": [
+              "甲",
+              "丙",
+              "戊"
+            ],
+            "tenGod": "劫财"
+          },
+          {
+            "label": "日柱",
+            "gan": "乙",
+            "zhi": "卯",
+            "element": "木木",
+            "hidden": [
+              "乙"
+            ],
+            "tenGod": "日主"
+          },
+          {
+            "label": "时柱",
+            "gan": "丙",
+            "zhi": "戌",
+            "element": "火土",
+            "hidden": [
+              "戊",
+              "辛",
+              "丁"
+            ],
+            "tenGod": "伤官"
+          }
+        ],
+        "elements": {
+          "木": 4,
+          "火": 1,
+          "土": 2,
+          "金": 0,
+          "水": 1
+        },
+        "favorable": [
+          "火",
+          "土",
+          "金"
+        ],
+        "unfavorable": [
+          "木",
+          "水"
+        ],
+        "strength": "扶抑初筛：日主偏强",
+        "reasons": [
+          "日主乙木；月令寅木。",
+          "通根检查（地支藏干含日主同类）：年柱未、月柱寅、日柱卯；同类或印星透干：年柱癸、月柱甲。",
+          "扶抑候选使用本产品可解释启发式：透干权重1，支藏干本/中/余气按1或0.7/0.3或0.6/0.25/0.15，月支权重2；此权重不是古籍定量公式。",
+          "比印加权占比59%，小于38%初筛偏弱，大于55%初筛偏强，其余保留多解；候选按生扶或泄耗制衡关系选择，不按缺项选择。",
+          "出生地民用时间 Asia/Shanghai，00:00换日；年柱立春、月柱节令，以精确交节时刻划分；生肖按农历年，可能与年柱年界不同。"
+        ],
+        "seasonalAdvice": "春月关注木气与寒暖燥湿的具体组合，暂不按季节机械指定补益元素。",
+        "warnings": [
+          "五行明字数量仅为天干与地支本气计数，不代表喜用神；扶抑结果为规则候选，特殊格局须人工复核。"
+        ],
+        "version": "civil-midnight-fuyi-candidate/1.5.0;lunar-typescript/1.8.6",
+        "ruleDescription": "扶抑启发式候选：月令加权、通根、透干及生克关系；不处理从格、化气格和天干地支合化，不能替代起名师的流派判断。",
+        "evidence": {
+          "version": "bazi-evidence-profile/1.3.0",
+          "profile": "civil-midnight;factual-relations;separate-fuyi-seasonal-opinions",
+          "sources": [
+            {
+              "id": "bazi-evidence-lunar186",
+              "name": "lunar-typescript 1.8.6 固定关系与历算接口",
+              "url": "https://github.com/6tail/lunar-typescript",
+              "revision": "0f3e95d15e31f1a7c7b93d624542649347328a20",
+              "locator": "src/lib/LunarUtil.ts:813–814 HE_GAN_5/HE_ZHI_6,928–1043 SHI_SHEN/ZHI_HIDE_GAN; src/lib/Lunar.ts:1332–1347 getNextJie/getPrevJie",
+              "note": "MIT；藏干顺序、十神、五合、六合及十二节接口的所选电子实现；组合出现不等于化气，固定实现不等于独立天文精度验证。"
+            },
+            {
+              "id": "bazi-evidence-go-ganzhi",
+              "name": "qimen-go 固定干支组合表",
+              "url": "https://github.com/deminzhang/qimen-go",
+              "revision": "4d3f58fa0f401b5b3a337f119138e99e90685dda",
+              "locator": "xuan/ganzhi.go:75–133 HeGan/HeZhi/ChongZhi/He3Zhi/Hui3Zhi",
+              "note": "MIT；只取三合、三会与六冲组成员事实，不采用其六合化气注释，也不据此宣布格局成立。"
+            },
+            {
+              "id": "bazi-evidence-project-heuristic",
+              "name": "本产品既有扶抑与季节意象启发式",
+              "url": "local:data/bazi-evidence-project-profile.json",
+              "revision": "project-fuyi-seasonal/1.0.0",
+              "locator": "data/bazi-evidence-project-profile.json",
+              "note": "项目自编数值与季节意见，非古籍定量公式，非《穷通宝鉴》逐日干逐月用神表；不具备唯一喜用神判定。"
+            },
+            {
+              "id": "bazi-month-authority-sanming-v1",
+              "name": "《三命通会》卷二人元司事首段转录参考",
+              "url": "https://github.com/mikkokotila/Sanming-Tongshui",
+              "revision": "eb3cacbf4b41a4fe8fc3c0e77e0d12b5bd17c079",
+              "locator": "source/juan-02.md:#論人元司事:first-prose-paragraph",
+              "note": "公开古文的电子转录参考；首段与后列《玉井》表有异读，醉醒子又反对定日限。本软件只定位所选转录表，不裁定唯一司权。"
+            },
+            {
+              "id": "bazi-monthly-qiongtong-2294674",
+              "name": "《穷通宝鉴》固定电子修订逐月初始取用参考",
+              "url": "https://zh.wikisource.org/w/index.php?title=穷通宝鉴&oldid=2294674",
+              "revision": "wikisource-revision/2294674",
+              "locator": "维基文库固定修订2294674：十干逐月段落；详见本次条目定位",
+              "note": "固定电子转录，尚非影印页独立校勘；按原段保留初始取用与条件，不把提到的天干全部当推荐，不以此断唯一喜用神。"
+            },
+            {
+              "id": "bazi-monthly-qiongtong-2294674-conditions",
+              "name": "《穷通宝鉴》固定修订：限定条件事实补充",
+              "url": "https://zh.wikisource.org/w/index.php?title=穷通宝鉴&oldid=2294674",
+              "revision": "wikisource-revision/2294674",
+              "locator": "固定修订2294674逐条原句：乙酉、癸辰节气前提及明示透藏条件，详见本项原句定位",
+              "note": "仅补充明示事实；时间前提符合不表示原句整体条件或用神成立，旧逐月条件状态不被覆盖。"
+            }
+          ],
+          "rules": [
+            {
+              "id": "bazi-hidden-tengod",
+              "version": "1.0.0",
+              "name": "所选藏干表与相对日主十神",
+              "sourceIds": [
+                "bazi-evidence-lunar186"
+              ],
+              "conditions": [
+                "只列已确定的柱；时刻未知时不补时柱，交节待定的月柱不补事实。",
+                "藏干顺序保留所选电子表列序，序号从1开始；不是司权顺序，也不用于本产品既有扶抑权重。",
+                "旧扶抑的巳列序丙戊庚保持不变；本事实表巳列序丙庚戊来自所选lunar-typescript电子表。",
+                "按天干阴阳与五行生克列十神；此层不判断喜忌、从格或吉凶。"
+              ]
+            },
+            {
+              "id": "bazi-stem-five-combination",
+              "version": "1.0.0",
+              "name": "天干五合出现核查",
+              "sourceIds": [
+                "bazi-evidence-lunar186"
+              ],
+              "conditions": [
+                "仅核查四柱已确定的明干中甲己、乙庚、丙辛、丁壬、戊癸配对。",
+                "不要求相邻；逐对保留柱位，未评估距离、争合、得时或化神条件。",
+                "来源只证配对，不输出候选化气五行或合化成立结论。"
+              ]
+            },
+            {
+              "id": "bazi-branch-six-combination",
+              "version": "1.0.0",
+              "name": "地支六合出现核查",
+              "sourceIds": [
+                "bazi-evidence-lunar186"
+              ],
+              "conditions": [
+                "仅核查子丑、寅亥、卯戌、辰酉、巳申、午未六组。",
+                "只列确定地支的配对，不输出六合化成何行，也不把六合当作统一吉凶。"
+              ]
+            },
+            {
+              "id": "bazi-branch-three-combination",
+              "version": "1.0.0",
+              "name": "地支三合组全支出现",
+              "sourceIds": [
+                "bazi-evidence-go-ganzhi"
+              ],
+              "conditions": [
+                "只在申子辰、寅午戌、亥卯未、巳酉丑三支全部出现在已确定四柱时记录。",
+                "重复地支不替代缺少的第三支；不把半合、拱合或三合组齐全认定为合化。"
+              ]
+            },
+            {
+              "id": "bazi-branch-three-meeting",
+              "version": "1.0.0",
+              "name": "地支三会组全支出现",
+              "sourceIds": [
+                "bazi-evidence-go-ganzhi"
+              ],
+              "conditions": [
+                "只在亥子丑、寅卯辰、巳午未、申酉戌三支全部出现在已确定四柱时记录。",
+                "仅记录完整组成员和实际柱位，不输出力量、化气或吉凶判定。"
+              ]
+            },
+            {
+              "id": "bazi-branch-six-clash",
+              "version": "1.0.0",
+              "name": "地支六冲配对出现",
+              "sourceIds": [
+                "bazi-evidence-go-ganzhi"
+              ],
+              "conditions": [
+                "只记录子午、丑未、寅申、卯酉、辰戌、巳亥配对的实际柱位。",
+                "配对出现不等于凶断；不评估冲动、冲散、旺衰或流年。"
+              ]
+            },
+            {
+              "id": "bazi-fuyi-opinion",
+              "version": "1.0.0",
+              "name": "既有项目扶抑初筛意见",
+              "sourceIds": [
+                "bazi-evidence-project-heuristic"
+              ],
+              "conditions": [
+                "照录既有扶抑候选，不用本模块新事实改动排序或筛选。",
+                "透干1；旧支藏干权重1或0.7/0.3或0.6/0.25/0.15，月支乘2；比印占比小于38%或大于55%作初筛。",
+                "全部权重、阈值为产品自编；不宣称来源于古籍或流派公认定量式。"
+              ]
+            },
+            {
+              "id": "bazi-seasonal-opinion",
+              "version": "1.0.0",
+              "name": "季节寒暖意象意见",
+              "sourceIds": [
+                "bazi-evidence-project-heuristic"
+              ],
+              "conditions": [
+                "只提供现有冬火、夏水季节意象，春秋保留多解。",
+                "这不是《穷通宝鉴》的逐日干逐月调候取用；未计算燥湿、具体用神搭配或通关。",
+                "不覆盖扶抑、不自动参与姓名排序，所有意见须人工复核。"
+              ]
+            },
+            {
+              "id": "bazi-month-authority",
+              "version": "1.1.0",
+              "name": "十二节实际区间与可选首段分日表定位",
+              "sourceIds": [
+                "bazi-evidence-lunar186",
+                "bazi-month-authority-sanming-v1"
+              ],
+              "conditions": [
+                "默认不按固定日限定位；只有明确选择首段转录参考才输出软件表段候选。",
+                "从前一十二节的实际交节秒起，以实际86400秒为一日；各段采用半开区间[fromDay,toDay)，新段包含边界秒。",
+                "相邻十二节实际月长不足30日时按下一节裁切；超过30日的时段标为超出表范围，不续用末段、不缩放归一。",
+                "未知出生时刻合并全日可能表段并保留不确定；已知重复民用时刻按既有第一次政策定位，同时标注歧义。",
+                "原文术语逐字保留；艮土、坤土、巳土、已土等不强制改成某天干。首段、玉井异表与醉醒子反定日限意见并列展示。",
+                "这是特定转录表的软件定位，不证明唯一司令、格局、喜用神或姓名吉凶；不改变扶抑计算与姓名排序。"
+              ]
+            },
+            {
+              "id": "bazi-monthly-seasonal-initial",
+              "version": "1.0.0",
+              "name": "固定版逐月初始取用与限定事实条件核对",
+              "sourceIds": [
+                "bazi-monthly-qiongtong-2294674",
+                "bazi-evidence-lunar186"
+              ],
+              "conditions": [
+                "默认不启用逐月参考；明确选择固定版方法后，按已确定日干和十二节月支读取本版条目。",
+                "初始取用只采用逐条人工整理的原句角色与顺序；原文泛滥、忌、病等提干不自动成为推荐。",
+                "条件只核对明确整理的明干、藏支、有无与all/any/not组合；未声明作用范围或涉及多寡旺弱、从格合化时保留尚未实现。",
+                "缺失柱时，已见的存在可肯定；未见不能证明不存在。日干自身是否计入明干条件由每条明确指定。",
+                "月柱交节待定时只并列原文参考且整体待定，不产生可采用的元素集合；未知时刻不补时柱。",
+                "这仅是原文初始取用和已知事实核对；特殊格局、用神取舍、先后转用与运势仍需人工，不影响既有扶抑与姓名排序。"
+              ]
+            },
+            {
+              "id": "bazi-seasonal-condition-supplement",
+              "version": "1.0.0",
+              "name": "逐月条件的限定事实补充",
+              "sourceIds": [
+                "bazi-monthly-qiongtong-2294674-conditions",
+                "bazi-evidence-lunar186"
+              ],
+              "conditions": [
+                "独立于原逐月条目，原有15条条件的状态与初始取用不被本补充改写。",
+                "节气前提只核白露→秋分、秋分→寒露、清明→谷雨、谷雨→立夏的实际半开时间区间；不把半月当15日或赋予旺弱阈值。",
+                "时刻未知时对整日实际区间按节气瞬间切分，若跨界保留前提结果集合，不作唯一断定；重复民用时刻仍采用第一次。",
+                "partial-prerequisite即使时间满足，也不代表桂蕊、桂花、火势或原句其他前提已满足；未核因素逐条保留。",
+                "full-fact-predicate仅表示本条明确透、藏或有无事实核查完整，不继承原文富贵、人格、运势或最终取用结论。"
+              ]
+            }
+          ],
+          "dayMaster": {
+            "stem": "乙",
+            "element": "木"
+          },
+          "timeBasis": {
+            "timezone": "Asia/Shanghai",
+            "timeUnknown": false,
+            "ambiguous": false,
+            "description": "出生地民用午夜换日，交节按实际瞬间与北京时间历算比对；未作真太阳时修正。"
+          },
+          "stems": [
+            {
+              "pillar": "年柱",
+              "stem": "癸",
+              "element": "水",
+              "tenGod": "偏印",
+              "relationToDay": "此干生日主",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "月柱",
+              "stem": "甲",
+              "element": "木",
+              "tenGod": "劫财",
+              "relationToDay": "与日主同五行",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "日柱",
+              "stem": "乙",
+              "element": "木",
+              "tenGod": "日主",
+              "relationToDay": "日主自身",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "时柱",
+              "stem": "丙",
+              "element": "火",
+              "tenGod": "伤官",
+              "relationToDay": "日主生此干",
+              "ruleId": "bazi-hidden-tengod"
+            }
+          ],
+          "hiddenStems": [
+            {
+              "pillar": "年柱",
+              "branch": "未",
+              "stem": "己",
+              "element": "土",
+              "order": 1,
+              "tenGod": "偏财",
+              "relationToDay": "日主克此干",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "年柱",
+              "branch": "未",
+              "stem": "丁",
+              "element": "火",
+              "order": 2,
+              "tenGod": "食神",
+              "relationToDay": "日主生此干",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "年柱",
+              "branch": "未",
+              "stem": "乙",
+              "element": "木",
+              "order": 3,
+              "tenGod": "比肩",
+              "relationToDay": "与日主同五行",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "月柱",
+              "branch": "寅",
+              "stem": "甲",
+              "element": "木",
+              "order": 1,
+              "tenGod": "劫财",
+              "relationToDay": "与日主同五行",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "月柱",
+              "branch": "寅",
+              "stem": "丙",
+              "element": "火",
+              "order": 2,
+              "tenGod": "伤官",
+              "relationToDay": "日主生此干",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "月柱",
+              "branch": "寅",
+              "stem": "戊",
+              "element": "土",
+              "order": 3,
+              "tenGod": "正财",
+              "relationToDay": "日主克此干",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "日柱",
+              "branch": "卯",
+              "stem": "乙",
+              "element": "木",
+              "order": 1,
+              "tenGod": "比肩",
+              "relationToDay": "与日主同五行",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "时柱",
+              "branch": "戌",
+              "stem": "戊",
+              "element": "土",
+              "order": 1,
+              "tenGod": "正财",
+              "relationToDay": "日主克此干",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "时柱",
+              "branch": "戌",
+              "stem": "辛",
+              "element": "金",
+              "order": 2,
+              "tenGod": "七杀",
+              "relationToDay": "此干克日主",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "时柱",
+              "branch": "戌",
+              "stem": "丁",
+              "element": "火",
+              "order": 3,
+              "tenGod": "食神",
+              "relationToDay": "日主生此干",
+              "ruleId": "bazi-hidden-tengod"
+            }
+          ],
+          "relations": [
+            {
+              "kind": "branch-liuhe",
+              "label": "地支六合配对",
+              "subjects": [
+                "卯",
+                "戌"
+              ],
+              "pillars": [
+                "日柱",
+                "时柱"
+              ],
+              "ruleId": "bazi-branch-six-combination",
+              "evidence": [
+                "日柱卯与时柱戌在所选六合表中配对；未评估化气或吉凶。"
+              ]
+            }
+          ],
+          "monthAuthority": {
+            "status": "not-evaluated",
+            "ruleId": "bazi-month-authority",
+            "methodId": "no-fixed-day/1.0.0",
+            "method": "未按分日限定司权；保留十二节区间与多读法原表",
+            "reference": {
+              "version": "sanming-first-paragraph/1.0.0",
+              "sourceId": "bazi-month-authority-sanming-v1",
+              "title": "《三命通会》人元司事首段：分日转录参考",
+              "months": [
+                {
+                  "monthBranch": "寅",
+                  "sourceQuote": "正月建寅寅中有艮土用事五日丙火長生五日甲木二十日",
+                  "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[154,178)",
+                  "segments": [
+                    {
+                      "sourceTerm": "艮土",
+                      "days": 5,
+                      "fromDay": 0,
+                      "toDay": 5,
+                      "element": "土"
+                    },
+                    {
+                      "sourceTerm": "丙火",
+                      "days": 5,
+                      "fromDay": 5,
+                      "toDay": 10,
+                      "element": "火",
+                      "normalizedStem": "丙"
+                    },
+                    {
+                      "sourceTerm": "甲木",
+                      "days": 20,
+                      "fromDay": 10,
+                      "toDay": 30,
+                      "element": "木",
+                      "normalizedStem": "甲"
+                    }
+                  ]
+                },
+                {
+                  "monthBranch": "卯",
+                  "sourceQuote": "二月建卯卯中有甲木用事七日乙木二十三日",
+                  "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[178,197)",
+                  "segments": [
+                    {
+                      "sourceTerm": "甲木",
+                      "days": 7,
+                      "fromDay": 0,
+                      "toDay": 7,
+                      "element": "木",
+                      "normalizedStem": "甲"
+                    },
+                    {
+                      "sourceTerm": "乙木",
+                      "days": 23,
+                      "fromDay": 7,
+                      "toDay": 30,
+                      "element": "木",
+                      "normalizedStem": "乙"
+                    }
+                  ]
+                },
+                {
+                  "monthBranch": "辰",
+                  "sourceQuote": "三月建辰辰中有乙木用事七日壬水墓庫五日戊土一十八日",
+                  "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[197,222)",
+                  "segments": [
+                    {
+                      "sourceTerm": "乙木",
+                      "days": 7,
+                      "fromDay": 0,
+                      "toDay": 7,
+                      "element": "木",
+                      "normalizedStem": "乙"
+                    },
+                    {
+                      "sourceTerm": "壬水",
+                      "days": 5,
+                      "fromDay": 7,
+                      "toDay": 12,
+                      "element": "水",
+                      "normalizedStem": "壬"
+                    },
+                    {
+                      "sourceTerm": "戊土",
+                      "days": 18,
+                      "fromDay": 12,
+                      "toDay": 30,
+                      "element": "土",
+                      "normalizedStem": "戊"
+                    }
+                  ]
+                },
+                {
+                  "monthBranch": "巳",
+                  "sourceQuote": "四月建巳巳中有戊土七日庚金長生五日丙火一十八日",
+                  "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[222,245)",
+                  "segments": [
+                    {
+                      "sourceTerm": "戊土",
+                      "days": 7,
+                      "fromDay": 0,
+                      "toDay": 7,
+                      "element": "土",
+                      "normalizedStem": "戊"
+                    },
+                    {
+                      "sourceTerm": "庚金",
+                      "days": 5,
+                      "fromDay": 7,
+                      "toDay": 12,
+                      "element": "金",
+                      "normalizedStem": "庚"
+                    },
+                    {
+                      "sourceTerm": "丙火",
+                      "days": 18,
+                      "fromDay": 12,
+                      "toDay": 30,
+                      "element": "火",
+                      "normalizedStem": "丙"
+                    }
+                  ]
+                },
+                {
+                  "monthBranch": "午",
+                  "sourceQuote": "五月建午午中丙火用事七日丁火二十三日",
+                  "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[245,263)",
+                  "segments": [
+                    {
+                      "sourceTerm": "丙火",
+                      "days": 7,
+                      "fromDay": 0,
+                      "toDay": 7,
+                      "element": "火",
+                      "normalizedStem": "丙"
+                    },
+                    {
+                      "sourceTerm": "丁火",
+                      "days": 23,
+                      "fromDay": 7,
+                      "toDay": 30,
+                      "element": "火",
+                      "normalizedStem": "丁"
+                    }
+                  ]
+                },
+                {
+                  "monthBranch": "未",
+                  "sourceQuote": "六月建未未中有丁火用事七日甲木墓庫五日巳土一十八日",
+                  "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[263,288)",
+                  "segments": [
+                    {
+                      "sourceTerm": "丁火",
+                      "days": 7,
+                      "fromDay": 0,
+                      "toDay": 7,
+                      "element": "火",
+                      "normalizedStem": "丁"
+                    },
+                    {
+                      "sourceTerm": "甲木",
+                      "days": 5,
+                      "fromDay": 7,
+                      "toDay": 12,
+                      "element": "木",
+                      "normalizedStem": "甲"
+                    },
+                    {
+                      "sourceTerm": "巳土",
+                      "days": 18,
+                      "fromDay": 12,
+                      "toDay": 30,
+                      "element": "土"
+                    }
+                  ]
+                },
+                {
+                  "monthBranch": "申",
+                  "sourceQuote": "七月建申申中有坤土用事五日壬水長生五日庚金二十日",
+                  "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[288,312)",
+                  "segments": [
+                    {
+                      "sourceTerm": "坤土",
+                      "days": 5,
+                      "fromDay": 0,
+                      "toDay": 5,
+                      "element": "土"
+                    },
+                    {
+                      "sourceTerm": "壬水",
+                      "days": 5,
+                      "fromDay": 5,
+                      "toDay": 10,
+                      "element": "水",
+                      "normalizedStem": "壬"
+                    },
+                    {
+                      "sourceTerm": "庚金",
+                      "days": 20,
+                      "fromDay": 10,
+                      "toDay": 30,
+                      "element": "金",
+                      "normalizedStem": "庚"
+                    }
+                  ]
+                },
+                {
+                  "monthBranch": "酉",
+                  "sourceQuote": "八月建酉酉中有庚金用事七日辛金二十三日",
+                  "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[312,331)",
+                  "segments": [
+                    {
+                      "sourceTerm": "庚金",
+                      "days": 7,
+                      "fromDay": 0,
+                      "toDay": 7,
+                      "element": "金",
+                      "normalizedStem": "庚"
+                    },
+                    {
+                      "sourceTerm": "辛金",
+                      "days": 23,
+                      "fromDay": 7,
+                      "toDay": 30,
+                      "element": "金",
+                      "normalizedStem": "辛"
+                    }
+                  ]
+                },
+                {
+                  "monthBranch": "戌",
+                  "sourceQuote": "九月建戌戌中有辛金用事七日丙火墓庫五日戊土一十八日",
+                  "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[331,356)",
+                  "segments": [
+                    {
+                      "sourceTerm": "辛金",
+                      "days": 7,
+                      "fromDay": 0,
+                      "toDay": 7,
+                      "element": "金",
+                      "normalizedStem": "辛"
+                    },
+                    {
+                      "sourceTerm": "丙火",
+                      "days": 5,
+                      "fromDay": 7,
+                      "toDay": 12,
+                      "element": "火",
+                      "normalizedStem": "丙"
+                    },
+                    {
+                      "sourceTerm": "戊土",
+                      "days": 18,
+                      "fromDay": 12,
+                      "toDay": 30,
+                      "element": "土",
+                      "normalizedStem": "戊"
+                    }
+                  ]
+                },
+                {
+                  "monthBranch": "亥",
+                  "sourceQuote": "十月建亥亥中有戊土五日甲木長生五日壬水用事二十日",
+                  "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[356,380)",
+                  "segments": [
+                    {
+                      "sourceTerm": "戊土",
+                      "days": 5,
+                      "fromDay": 0,
+                      "toDay": 5,
+                      "element": "土",
+                      "normalizedStem": "戊"
+                    },
+                    {
+                      "sourceTerm": "甲木",
+                      "days": 5,
+                      "fromDay": 5,
+                      "toDay": 10,
+                      "element": "木",
+                      "normalizedStem": "甲"
+                    },
+                    {
+                      "sourceTerm": "壬水",
+                      "days": 20,
+                      "fromDay": 10,
+                      "toDay": 30,
+                      "element": "水",
+                      "normalizedStem": "壬"
+                    }
+                  ]
+                },
+                {
+                  "monthBranch": "子",
+                  "sourceQuote": "十一月建子子中有壬水用事七日癸水二十三日",
+                  "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[380,400)",
+                  "segments": [
+                    {
+                      "sourceTerm": "壬水",
+                      "days": 7,
+                      "fromDay": 0,
+                      "toDay": 7,
+                      "element": "水",
+                      "normalizedStem": "壬"
+                    },
+                    {
+                      "sourceTerm": "癸水",
+                      "days": 23,
+                      "fromDay": 7,
+                      "toDay": 30,
+                      "element": "水",
+                      "normalizedStem": "癸"
+                    }
+                  ]
+                },
+                {
+                  "monthBranch": "丑",
+                  "sourceQuote": "十二月建丑丑中有癸水用事七日庚金墓庫五日巳土一十八日",
+                  "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[400,426)",
+                  "segments": [
+                    {
+                      "sourceTerm": "癸水",
+                      "days": 7,
+                      "fromDay": 0,
+                      "toDay": 7,
+                      "element": "水",
+                      "normalizedStem": "癸"
+                    },
+                    {
+                      "sourceTerm": "庚金",
+                      "days": 5,
+                      "fromDay": 7,
+                      "toDay": 12,
+                      "element": "金",
+                      "normalizedStem": "庚"
+                    },
+                    {
+                      "sourceTerm": "巳土",
+                      "days": 18,
+                      "fromDay": 12,
+                      "toDay": 30,
+                      "element": "土"
+                    }
+                  ]
+                }
+              ],
+              "alternativeViews": [
+                {
+                  "title": "同章再考玉井异表",
+                  "sourceQuote": "正月寅〈立春雨水〉已土七日丙火五日甲木十八日二月卯〈驚蟄春分〉乙十八日甲九日癸三日\n\n三月辰〈清明穀雨〉戊十八日乙九日癸三日\n\n四月已〈立夏小滿〉丙十八日戊七日庚五日\n\n五月午〈芒種夏至〉丁十八日丙九日乙三日\n\n六月未〈小暑大暑〉已十八日乙五日丁七日\n\n七月申〈立秋處暑〉庚十七日已七日戊三日壬三日八月酉〈白露秋分〉辛二十日庚七日丁五日\n\n九月戌〈寒露霜降〉戊十八日辛七日丁五日\n\n十月亥〈立冬小雪〉壬十八日甲五日戊七日\n\n十一月子〈大雪冬至〉癸十八日壬五日辛三日\n\n十二月丑〈小寒大寒〉已十八日癸七日辛五日",
+                  "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[508,762)",
+                  "note": "原列次序和天数保留，不作为本版本计算表；酉20+7+5为32，子18+5+3为26，不擅自补齐或归一30，亦不自动调换原列序。"
+                },
+                {
+                  "title": "醉醒子不以固定日限的意见",
+                  "sourceQuote": "醉醒子曰時行物生天道之常一嵗之中雖有進退四時之内本無輕重故以金木水火分旺四時各得七十二日土旺四季各有十八日共三百六十日乃成嵗焉立春之後則用陽木三十六日艮土分野丙戊長生驚蟄後六日則用隂木三十六日癸水寄生清明後十二日則用戊土十八日陽水歸庫隂水返魂夏秋冬亦如此淵源淵海則以立春之後已土餘氣幾日艮土分野幾日丙戊長生先後各得幾日卯月癸水寄生幾日辰月陽水歸庫隂水返魂亦各幾日殊不思丑月之用既足春後又河餘哉分野者聚一方之旺氣長生者歸母成孕先後者盖有寅而後生丙有丙而後戊生寄生者徒有虚名乃無實位歸庫者絶其生氣而收藏返魂者續其死氣而變化此五行生死進退之𤣥機豈可以幾日為限哉且春之用木秋之用金固一定之理也若雜揉寓處之神占用幾日則本宫主氣之數未嘗不缺而虧矣則何以見春木夏火一氣流行各旺七十二日之數耶以四季配五行之用乃主有納客之數客無勝主之理但主氣之司權自有初中末三氣之淺深用之者特宜較量輕重言耳又豈可以三五七日為限哉其説足以破淵源之誤又支中所藏止以月論年日時不論人命重提綱厥有㫖哉\n",
+                  "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[764,1194)",
+                  "note": "保留同章反对以三五七日定限的意见，与首段所选分日表并列；不能把电子表定位结果合成为唯一司令或喜用神。"
+                }
+              ],
+              "limitations": [
+                "本表是所选电子转录的首段，不等于全部传本或学派一致。",
+                "不将原词艮土/坤土/巳土更改成戊己，元素土明确不等于天干明确。",
+                "未根据表结果改变旧扶抑权重、命名排序或喜用神。",
+                "首段、玉井异表和醉醒子意见不合并成唯一司权。",
+                "上游明确未与影印原页独立校勘；固定Wikisource修订无扫描Index/Page链接。Kanripo相应电子分页可对读，但不构成影印页校核，本应用未再分发其无明确许可的电子编排。",
+                "首段仅是本次选定的转录读法，后列玉井异表与反定日限意见不能略去。",
+                "术语、天数及边界从原件转录；软件采用实际经过24小时的操作口径，不宣称古文唯一要求此算法。",
+                "所选表全为30日；实际节月裁切后可能不足30日，超过30日的尾段不作延续或归一化。"
+              ]
+            },
+            "candidates": [],
+            "segments": [
+              {
+                "monthBranch": "寅",
+                "previousJie": "立春",
+                "previousJieAt": "2003-02-04T06:05:20.000Z",
+                "nextJieAt": "2003-03-06T00:04:52.000Z",
+                "startAt": "2003-02-11T11:30:00.000Z",
+                "endAt": "2003-02-11T11:30:00.000Z",
+                "elapsedStartDays": 7.225462962962963,
+                "elapsedEndDays": 7.225462962962963,
+                "candidates": [],
+                "status": "not-evaluated"
+              }
+            ],
+            "evidence": [
+              "区间端点为UTC实际瞬间，精确到秒；交节秒归入新节，旧段截止交节前一秒。",
+              "表段按前一节后实际经过秒数÷86400定位；采用[fromDay,toDay)半开边界，不按民用日期零点切日。",
+              "默认未按固定日限定位；原表及不同读法供查阅，不代替人工选择。",
+              "原文土项保留原术语，不强制推断天干；所选表不参与扶抑或姓名排序。"
+            ],
+            "missing": [
+              "当前未选择固定分日定位方法。",
+              "此表定位不构成唯一司令、从格、合化或用神裁决。"
+            ]
+          },
+          "opinions": [
+            {
+              "method": "fuyi",
+              "profile": "project-weighted-fuyi/1.0.0",
+              "status": "candidate",
+              "elements": [
+                "火",
+                "土",
+                "金"
+              ],
+              "unfavorable": [
+                "木",
+                "水"
+              ],
+              "evidence": [
+                "扶抑初筛：日主偏强",
+                "扶抑候选使用本产品可解释启发式：透干权重1，支藏干本/中/余气按1或0.7/0.3或0.6/0.25/0.15，月支权重2；此权重不是古籍定量公式。",
+                "比印加权占比59%，小于38%初筛偏弱，大于55%初筛偏强，其余保留多解；候选按生扶或泄耗制衡关系选择，不按缺项选择。",
+                "此意见照录原有扶抑初筛，新证据模块不改姓名筛选或排序。"
+              ],
+              "missing": [
+                "未执行从格、化气格或合化条件裁决。"
+              ],
+              "requiresManualReview": true,
+              "ruleId": "bazi-fuyi-opinion"
+            },
+            {
+              "method": "tiaohou",
+              "profile": "project-seasonal-imagery/1.0.0",
+              "status": "pending",
+              "elements": [],
+              "unfavorable": [],
+              "evidence": [
+                "春月关注木气与寒暖燥湿的具体组合，暂不按季节机械指定补益元素。",
+                "本项仅为项目季节寒暖意象，不是《穷通宝鉴》日干×月份调候用神表，不合并成唯一喜用神。"
+              ],
+              "missing": [
+                "未评估完整寒暖燥湿、日干逐月用神组合与通关条件。",
+                "所选季节没有机械指定元素，保留多解。"
+              ],
+              "requiresManualReview": true,
+              "ruleId": "bazi-seasonal-opinion"
+            }
+          ],
+          "monthlySeasonal": {
+            "version": "monthly-seasonal-evidence/1.0.0",
+            "methodId": "qiongtong-2294674-initial/1.0.0",
+            "status": "initial-reference",
+            "ruleId": "bazi-monthly-seasonal-initial",
+            "dayMaster": "乙",
+            "monthBranches": [
+              "寅"
+            ],
+            "cases": [
+              {
+                "dayMaster": "乙",
+                "monthBranch": "寅",
+                "sourceId": "bazi-monthly-qiongtong-2294674",
+                "sourceQuote": "'''正月乙木'''，必须用丙，因天气尤有余寒，非丙不暖，虽有癸水，恐凝寒气，故以丙火为先，癸水次之。",
+                "sourceLocator": "oldid=2294674;论乙;codepoint[5343,5394)",
+                "reviewStatus": "initial",
+                "initialUses": [
+                  {
+                    "stem": "丙",
+                    "role": "first",
+                    "sequence": 1,
+                    "quote": "故以丙火为先，癸水次之。",
+                    "element": "火"
+                  },
+                  {
+                    "stem": "癸",
+                    "role": "support",
+                    "sequence": 2,
+                    "quote": "故以丙火为先，癸水次之。",
+                    "element": "水"
+                  }
+                ],
+                "conditionBranches": [],
+                "stemFacts": [
+                  {
+                    "stem": "丙",
+                    "exposedPositions": [
+                      "时柱"
+                    ],
+                    "hiddenPositions": [
+                      "月柱寅"
+                    ],
+                    "dayMasterSame": false,
+                    "absence": "not-seen"
+                  },
+                  {
+                    "stem": "癸",
+                    "exposedPositions": [
+                      "年柱"
+                    ],
+                    "hiddenPositions": [],
+                    "dayMasterSame": false,
+                    "absence": "not-seen"
+                  },
+                  {
+                    "stem": "乙",
+                    "exposedPositions": [],
+                    "hiddenPositions": [
+                      "年柱未",
+                      "日柱卯"
+                    ],
+                    "dayMasterSame": true,
+                    "absence": "not-seen"
+                  }
+                ],
+                "unresolved": [
+                  "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+                ]
+              }
+            ],
+            "proposedElements": [
+              "火",
+              "水"
+            ],
+            "requiresManualReview": true,
+            "limitations": [
+              "逐月初始参考与旧季节意象、扶抑意见分别记录，不合并为唯一喜用神，也不改变姓名筛选和排序。",
+              "原文仍有转用、强弱、格局及先后条件；事实条件核对不是完整调候裁决。",
+              "固定电子修订未进行影印页独立校勘；传统文化判断不代表科学证实的命运或人格效果。"
+            ]
+          },
+          "seasonalConditions": {
+            "version": "qiongtong-2294674-conditions/1.0.0",
+            "profile": "qiongtong-2294674-conditions",
+            "status": "available",
+            "rules": [
+              {
+                "id": "bazi-seasonal-condition-supplement",
+                "version": "1.0.0",
+                "name": "逐月条件的限定事实补充",
+                "sourceIds": [
+                  "bazi-monthly-qiongtong-2294674-conditions",
+                  "bazi-evidence-lunar186"
+                ],
+                "conditions": [
+                  "独立于原逐月条目，原有15条条件的状态与初始取用不被本补充改写。",
+                  "节气前提只核白露→秋分、秋分→寒露、清明→谷雨、谷雨→立夏的实际半开时间区间；不把半月当15日或赋予旺弱阈值。",
+                  "时刻未知时对整日实际区间按节气瞬间切分，若跨界保留前提结果集合，不作唯一断定；重复民用时刻仍采用第一次。",
+                  "partial-prerequisite即使时间满足，也不代表桂蕊、桂花、火势或原句其他前提已满足；未核因素逐条保留。",
+                  "full-fact-predicate仅表示本条明确透、藏或有无事实核查完整，不继承原文富贵、人格、运势或最终取用结论。"
+                ]
+              }
+            ],
+            "checks": [
+              {
+                "id": "yi-yin-bing-gui-exposed",
+                "caseId": "乙-寅",
+                "dayMaster": "乙",
+                "monthBranch": "寅",
+                "sourceId": "bazi-monthly-qiongtong-2294674-conditions",
+                "sourceQuote": "丙癸两透，科甲定然",
+                "sourceLocator": "oldid=2294674;codepoint[5396,5405)",
+                "scope": "full-fact-predicate",
+                "status": "met",
+                "predicateDescription": "仅核原句明示的透、藏或有无事实",
+                "observations": [
+                  {
+                    "startAt": "2003-02-11T11:30:00.000Z",
+                    "endAt": "2003-02-11T11:30:00.000Z",
+                    "result": "met",
+                    "evidence": [
+                      "明干检查丙：时柱丙；不计入日干自身的明干位置。",
+                      "明干检查癸：年柱癸；不计入日干自身的明干位置。"
+                    ]
+                  }
+                ],
+                "missing": [
+                  "只核原句明示的天干位置事实，不采纳其后富贵、科甲等历史断语，不自动决定取用。"
+                ],
+                "doesNotResolveOriginalBranch": true
+              }
+            ],
+            "warnings": [
+              "本补充不改写原逐月条件、初始取用或系统喜用；不参与姓名排名。",
+              "只核所列事实，部分前提满足不等于原句完整适用或用神成立。"
+            ]
+          },
+          "patternCandidates": [
+            {
+              "kind": "cong",
+              "name": "从格候选",
+              "status": "not-evaluated",
+              "supportedBy": [],
+              "opposedBy": [],
+              "missing": [
+                "尚未接入可独立复核的同流派从格成立与破格条件；不以五行加权占比阈值断真从。",
+                "需明确月令、根气、透干、逆势因素及未知时柱的影响后再分阶段评估。"
+              ]
+            }
+          ],
+          "transformationEvidence": [
+            {
+              "kind": "branch-liuhe",
+              "subjects": [
+                "卯",
+                "戌"
+              ],
+              "status": "not-evaluated",
+              "supportedBy": [
+                "仅核实日柱、时柱的卯、戌组合出现。"
+              ],
+              "opposedBy": [],
+              "missing": [
+                "未接入完整同流派得令、透引、阻隔与争合等合化条件；组合出现不等于合化成立。"
+              ],
+              "ruleId": "bazi-branch-six-combination"
+            }
+          ],
+          "limitations": [
+            "事实层只描述本命已确定四柱，不推导大运、流年或命运吉凶。",
+            "关系检查覆盖五合、六合、完整三合与三会、六冲；六害、三刑、半合、拱合尚未启用。",
+            "扶抑阈值与季节意象都是明确标注的项目启发式；司权、从格及合化不应由它们自动推出。",
+            "不同流派可使用不同藏干次序、分日司权与调候取法，不能把某一电子表视为唯一标准。",
+            "本模块属于传统文化规则说明，无证据证明姓名会改变命运。"
+          ]
+        }
+      }
+    },
+    {
+      "profile": {
+        "id": "v5-frozen",
+        "customerName": "冻结1.5从格前",
+        "surname": "林",
+        "surnamePinyin": "lín",
+        "gender": "中性",
+        "calendar": "solar",
+        "birthDate": "2022-04-20",
+        "birthTime": "",
+        "timeUnknown": true,
+        "leapMonth": false,
+        "birthPlace": "上海",
+        "timezone": "Asia/Shanghai",
+        "notes": "",
+        "seasonalMethod": "qiongtong-2294674-initial/1.0.0"
+      },
+      "expected": {
+        "solarDate": "2022-04-20 时刻未知",
+        "lunarDate": "二〇二二年三月二十",
+        "zodiac": "虎",
+        "pillars": [
+          {
+            "label": "年柱",
+            "gan": "壬",
+            "zhi": "寅",
+            "element": "水木",
+            "hidden": [
+              "甲",
+              "丙",
+              "戊"
+            ],
+            "tenGod": "劫财"
+          },
+          {
+            "label": "月柱",
+            "gan": "甲",
+            "zhi": "辰",
+            "element": "木土",
+            "hidden": [
+              "戊",
+              "乙",
+              "癸"
+            ],
+            "tenGod": "伤官"
+          },
+          {
+            "label": "日柱",
+            "gan": "癸",
+            "zhi": "卯",
+            "element": "水木",
+            "hidden": [
+              "乙"
+            ],
+            "tenGod": "日主"
+          }
+        ],
+        "elements": {
+          "木": 3,
+          "火": 0,
+          "土": 1,
+          "金": 0,
+          "水": 2
+        },
+        "favorable": [
+          "金",
+          "水"
+        ],
+        "unfavorable": [
+          "木",
+          "火"
+        ],
+        "strength": "扶抑初筛：日主偏弱",
+        "reasons": [
+          "日主癸水；月令辰土。",
+          "通根检查（地支藏干含日主同类）：月柱辰；同类或印星透干：年柱壬。",
+          "扶抑候选使用本产品可解释启发式：透干权重1，支藏干本/中/余气按1或0.7/0.3或0.6/0.25/0.15，月支权重2；此权重不是古籍定量公式。",
+          "比印加权占比33%，小于38%初筛偏弱，大于55%初筛偏强，其余保留多解；候选按生扶或泄耗制衡关系选择，不按缺项选择。",
+          "出生地民用时间 Asia/Shanghai，00:00换日；年柱立春、月柱节令，以精确交节时刻划分；生肖按农历年，可能与年柱年界不同。"
+        ],
+        "seasonalAdvice": "春月关注木气与寒暖燥湿的具体组合，暂不按季节机械指定补益元素。",
+        "warnings": [
+          "五行明字数量仅为天干与地支本气计数，不代表喜用神；扶抑结果为规则候选，特殊格局须人工复核。",
+          "出生时刻未知：仅列确定的柱，不生成时柱；喜用候选属于不完整资料下的初筛。"
+        ],
+        "version": "civil-midnight-fuyi-candidate/1.5.0;lunar-typescript/1.8.6",
+        "ruleDescription": "扶抑启发式候选：月令加权、通根、透干及生克关系；不处理从格、化气格和天干地支合化，不能替代起名师的流派判断。",
+        "evidence": {
+          "version": "bazi-evidence-profile/1.3.0",
+          "profile": "civil-midnight;factual-relations;separate-fuyi-seasonal-opinions",
+          "sources": [
+            {
+              "id": "bazi-evidence-lunar186",
+              "name": "lunar-typescript 1.8.6 固定关系与历算接口",
+              "url": "https://github.com/6tail/lunar-typescript",
+              "revision": "0f3e95d15e31f1a7c7b93d624542649347328a20",
+              "locator": "src/lib/LunarUtil.ts:813–814 HE_GAN_5/HE_ZHI_6,928–1043 SHI_SHEN/ZHI_HIDE_GAN; src/lib/Lunar.ts:1332–1347 getNextJie/getPrevJie",
+              "note": "MIT；藏干顺序、十神、五合、六合及十二节接口的所选电子实现；组合出现不等于化气，固定实现不等于独立天文精度验证。"
+            },
+            {
+              "id": "bazi-evidence-go-ganzhi",
+              "name": "qimen-go 固定干支组合表",
+              "url": "https://github.com/deminzhang/qimen-go",
+              "revision": "4d3f58fa0f401b5b3a337f119138e99e90685dda",
+              "locator": "xuan/ganzhi.go:75–133 HeGan/HeZhi/ChongZhi/He3Zhi/Hui3Zhi",
+              "note": "MIT；只取三合、三会与六冲组成员事实，不采用其六合化气注释，也不据此宣布格局成立。"
+            },
+            {
+              "id": "bazi-evidence-project-heuristic",
+              "name": "本产品既有扶抑与季节意象启发式",
+              "url": "local:data/bazi-evidence-project-profile.json",
+              "revision": "project-fuyi-seasonal/1.0.0",
+              "locator": "data/bazi-evidence-project-profile.json",
+              "note": "项目自编数值与季节意见，非古籍定量公式，非《穷通宝鉴》逐日干逐月用神表；不具备唯一喜用神判定。"
+            },
+            {
+              "id": "bazi-month-authority-sanming-v1",
+              "name": "《三命通会》卷二人元司事首段转录参考",
+              "url": "https://github.com/mikkokotila/Sanming-Tongshui",
+              "revision": "eb3cacbf4b41a4fe8fc3c0e77e0d12b5bd17c079",
+              "locator": "source/juan-02.md:#論人元司事:first-prose-paragraph",
+              "note": "公开古文的电子转录参考；首段与后列《玉井》表有异读，醉醒子又反对定日限。本软件只定位所选转录表，不裁定唯一司权。"
+            },
+            {
+              "id": "bazi-monthly-qiongtong-2294674",
+              "name": "《穷通宝鉴》固定电子修订逐月初始取用参考",
+              "url": "https://zh.wikisource.org/w/index.php?title=穷通宝鉴&oldid=2294674",
+              "revision": "wikisource-revision/2294674",
+              "locator": "维基文库固定修订2294674：十干逐月段落；详见本次条目定位",
+              "note": "固定电子转录，尚非影印页独立校勘；按原段保留初始取用与条件，不把提到的天干全部当推荐，不以此断唯一喜用神。"
+            },
+            {
+              "id": "bazi-monthly-qiongtong-2294674-conditions",
+              "name": "《穷通宝鉴》固定修订：限定条件事实补充",
+              "url": "https://zh.wikisource.org/w/index.php?title=穷通宝鉴&oldid=2294674",
+              "revision": "wikisource-revision/2294674",
+              "locator": "固定修订2294674逐条原句：乙酉、癸辰节气前提及明示透藏条件，详见本项原句定位",
+              "note": "仅补充明示事实；时间前提符合不表示原句整体条件或用神成立，旧逐月条件状态不被覆盖。"
+            }
+          ],
+          "rules": [
+            {
+              "id": "bazi-hidden-tengod",
+              "version": "1.0.0",
+              "name": "所选藏干表与相对日主十神",
+              "sourceIds": [
+                "bazi-evidence-lunar186"
+              ],
+              "conditions": [
+                "只列已确定的柱；时刻未知时不补时柱，交节待定的月柱不补事实。",
+                "藏干顺序保留所选电子表列序，序号从1开始；不是司权顺序，也不用于本产品既有扶抑权重。",
+                "旧扶抑的巳列序丙戊庚保持不变；本事实表巳列序丙庚戊来自所选lunar-typescript电子表。",
+                "按天干阴阳与五行生克列十神；此层不判断喜忌、从格或吉凶。"
+              ]
+            },
+            {
+              "id": "bazi-stem-five-combination",
+              "version": "1.0.0",
+              "name": "天干五合出现核查",
+              "sourceIds": [
+                "bazi-evidence-lunar186"
+              ],
+              "conditions": [
+                "仅核查四柱已确定的明干中甲己、乙庚、丙辛、丁壬、戊癸配对。",
+                "不要求相邻；逐对保留柱位，未评估距离、争合、得时或化神条件。",
+                "来源只证配对，不输出候选化气五行或合化成立结论。"
+              ]
+            },
+            {
+              "id": "bazi-branch-six-combination",
+              "version": "1.0.0",
+              "name": "地支六合出现核查",
+              "sourceIds": [
+                "bazi-evidence-lunar186"
+              ],
+              "conditions": [
+                "仅核查子丑、寅亥、卯戌、辰酉、巳申、午未六组。",
+                "只列确定地支的配对，不输出六合化成何行，也不把六合当作统一吉凶。"
+              ]
+            },
+            {
+              "id": "bazi-branch-three-combination",
+              "version": "1.0.0",
+              "name": "地支三合组全支出现",
+              "sourceIds": [
+                "bazi-evidence-go-ganzhi"
+              ],
+              "conditions": [
+                "只在申子辰、寅午戌、亥卯未、巳酉丑三支全部出现在已确定四柱时记录。",
+                "重复地支不替代缺少的第三支；不把半合、拱合或三合组齐全认定为合化。"
+              ]
+            },
+            {
+              "id": "bazi-branch-three-meeting",
+              "version": "1.0.0",
+              "name": "地支三会组全支出现",
+              "sourceIds": [
+                "bazi-evidence-go-ganzhi"
+              ],
+              "conditions": [
+                "只在亥子丑、寅卯辰、巳午未、申酉戌三支全部出现在已确定四柱时记录。",
+                "仅记录完整组成员和实际柱位，不输出力量、化气或吉凶判定。"
+              ]
+            },
+            {
+              "id": "bazi-branch-six-clash",
+              "version": "1.0.0",
+              "name": "地支六冲配对出现",
+              "sourceIds": [
+                "bazi-evidence-go-ganzhi"
+              ],
+              "conditions": [
+                "只记录子午、丑未、寅申、卯酉、辰戌、巳亥配对的实际柱位。",
+                "配对出现不等于凶断；不评估冲动、冲散、旺衰或流年。"
+              ]
+            },
+            {
+              "id": "bazi-fuyi-opinion",
+              "version": "1.0.0",
+              "name": "既有项目扶抑初筛意见",
+              "sourceIds": [
+                "bazi-evidence-project-heuristic"
+              ],
+              "conditions": [
+                "照录既有扶抑候选，不用本模块新事实改动排序或筛选。",
+                "透干1；旧支藏干权重1或0.7/0.3或0.6/0.25/0.15，月支乘2；比印占比小于38%或大于55%作初筛。",
+                "全部权重、阈值为产品自编；不宣称来源于古籍或流派公认定量式。"
+              ]
+            },
+            {
+              "id": "bazi-seasonal-opinion",
+              "version": "1.0.0",
+              "name": "季节寒暖意象意见",
+              "sourceIds": [
+                "bazi-evidence-project-heuristic"
+              ],
+              "conditions": [
+                "只提供现有冬火、夏水季节意象，春秋保留多解。",
+                "这不是《穷通宝鉴》的逐日干逐月调候取用；未计算燥湿、具体用神搭配或通关。",
+                "不覆盖扶抑、不自动参与姓名排序，所有意见须人工复核。"
+              ]
+            },
+            {
+              "id": "bazi-month-authority",
+              "version": "1.1.0",
+              "name": "十二节实际区间与可选首段分日表定位",
+              "sourceIds": [
+                "bazi-evidence-lunar186",
+                "bazi-month-authority-sanming-v1"
+              ],
+              "conditions": [
+                "默认不按固定日限定位；只有明确选择首段转录参考才输出软件表段候选。",
+                "从前一十二节的实际交节秒起，以实际86400秒为一日；各段采用半开区间[fromDay,toDay)，新段包含边界秒。",
+                "相邻十二节实际月长不足30日时按下一节裁切；超过30日的时段标为超出表范围，不续用末段、不缩放归一。",
+                "未知出生时刻合并全日可能表段并保留不确定；已知重复民用时刻按既有第一次政策定位，同时标注歧义。",
+                "原文术语逐字保留；艮土、坤土、巳土、已土等不强制改成某天干。首段、玉井异表与醉醒子反定日限意见并列展示。",
+                "这是特定转录表的软件定位，不证明唯一司令、格局、喜用神或姓名吉凶；不改变扶抑计算与姓名排序。"
+              ]
+            },
+            {
+              "id": "bazi-monthly-seasonal-initial",
+              "version": "1.0.0",
+              "name": "固定版逐月初始取用与限定事实条件核对",
+              "sourceIds": [
+                "bazi-monthly-qiongtong-2294674",
+                "bazi-evidence-lunar186"
+              ],
+              "conditions": [
+                "默认不启用逐月参考；明确选择固定版方法后，按已确定日干和十二节月支读取本版条目。",
+                "初始取用只采用逐条人工整理的原句角色与顺序；原文泛滥、忌、病等提干不自动成为推荐。",
+                "条件只核对明确整理的明干、藏支、有无与all/any/not组合；未声明作用范围或涉及多寡旺弱、从格合化时保留尚未实现。",
+                "缺失柱时，已见的存在可肯定；未见不能证明不存在。日干自身是否计入明干条件由每条明确指定。",
+                "月柱交节待定时只并列原文参考且整体待定，不产生可采用的元素集合；未知时刻不补时柱。",
+                "这仅是原文初始取用和已知事实核对；特殊格局、用神取舍、先后转用与运势仍需人工，不影响既有扶抑与姓名排序。"
+              ]
+            },
+            {
+              "id": "bazi-seasonal-condition-supplement",
+              "version": "1.0.0",
+              "name": "逐月条件的限定事实补充",
+              "sourceIds": [
+                "bazi-monthly-qiongtong-2294674-conditions",
+                "bazi-evidence-lunar186"
+              ],
+              "conditions": [
+                "独立于原逐月条目，原有15条条件的状态与初始取用不被本补充改写。",
+                "节气前提只核白露→秋分、秋分→寒露、清明→谷雨、谷雨→立夏的实际半开时间区间；不把半月当15日或赋予旺弱阈值。",
+                "时刻未知时对整日实际区间按节气瞬间切分，若跨界保留前提结果集合，不作唯一断定；重复民用时刻仍采用第一次。",
+                "partial-prerequisite即使时间满足，也不代表桂蕊、桂花、火势或原句其他前提已满足；未核因素逐条保留。",
+                "full-fact-predicate仅表示本条明确透、藏或有无事实核查完整，不继承原文富贵、人格、运势或最终取用结论。"
+              ]
+            }
+          ],
+          "dayMaster": {
+            "stem": "癸",
+            "element": "水"
+          },
+          "timeBasis": {
+            "timezone": "Asia/Shanghai",
+            "timeUnknown": true,
+            "ambiguous": false,
+            "description": "出生地民用午夜换日，交节按实际瞬间与北京时间历算比对；未作真太阳时修正。"
+          },
+          "stems": [
+            {
+              "pillar": "年柱",
+              "stem": "壬",
+              "element": "水",
+              "tenGod": "劫财",
+              "relationToDay": "与日主同五行",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "月柱",
+              "stem": "甲",
+              "element": "木",
+              "tenGod": "伤官",
+              "relationToDay": "日主生此干",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "日柱",
+              "stem": "癸",
+              "element": "水",
+              "tenGod": "日主",
+              "relationToDay": "日主自身",
+              "ruleId": "bazi-hidden-tengod"
+            }
+          ],
+          "hiddenStems": [
+            {
+              "pillar": "年柱",
+              "branch": "寅",
+              "stem": "甲",
+              "element": "木",
+              "order": 1,
+              "tenGod": "伤官",
+              "relationToDay": "日主生此干",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "年柱",
+              "branch": "寅",
+              "stem": "丙",
+              "element": "火",
+              "order": 2,
+              "tenGod": "正财",
+              "relationToDay": "日主克此干",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "年柱",
+              "branch": "寅",
+              "stem": "戊",
+              "element": "土",
+              "order": 3,
+              "tenGod": "正官",
+              "relationToDay": "此干克日主",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "月柱",
+              "branch": "辰",
+              "stem": "戊",
+              "element": "土",
+              "order": 1,
+              "tenGod": "正官",
+              "relationToDay": "此干克日主",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "月柱",
+              "branch": "辰",
+              "stem": "乙",
+              "element": "木",
+              "order": 2,
+              "tenGod": "食神",
+              "relationToDay": "日主生此干",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "月柱",
+              "branch": "辰",
+              "stem": "癸",
+              "element": "水",
+              "order": 3,
+              "tenGod": "比肩",
+              "relationToDay": "与日主同五行",
+              "ruleId": "bazi-hidden-tengod"
+            },
+            {
+              "pillar": "日柱",
+              "branch": "卯",
+              "stem": "乙",
+              "element": "木",
+              "order": 1,
+              "tenGod": "食神",
+              "relationToDay": "日主生此干",
+              "ruleId": "bazi-hidden-tengod"
+            }
+          ],
+          "relations": [
+            {
+              "kind": "branch-sanhui",
+              "label": "地支三会组全支出现",
+              "subjects": [
+                "寅",
+                "卯",
+                "辰"
+              ],
+              "pillars": [
+                "年柱",
+                "月柱",
+                "日柱"
+              ],
+              "ruleId": "bazi-branch-three-meeting",
+              "evidence": [
+                "寅、卯、辰三支均见于年柱寅、月柱辰、日柱卯。",
+                "只核实完整组出现，未评估半合、拱合、成局、化气或喜忌。"
+              ]
+            }
+          ],
+          "monthAuthority": {
+            "status": "not-evaluated",
+            "ruleId": "bazi-month-authority",
+            "methodId": "no-fixed-day/1.0.0",
+            "method": "未按分日限定司权；保留十二节区间与多读法原表",
+            "reference": {
+              "version": "sanming-first-paragraph/1.0.0",
+              "sourceId": "bazi-month-authority-sanming-v1",
+              "title": "《三命通会》人元司事首段：分日转录参考",
+              "months": [
+                {
+                  "monthBranch": "寅",
+                  "sourceQuote": "正月建寅寅中有艮土用事五日丙火長生五日甲木二十日",
+                  "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[154,178)",
+                  "segments": [
+                    {
+                      "sourceTerm": "艮土",
+                      "days": 5,
+                      "fromDay": 0,
+                      "toDay": 5,
+                      "element": "土"
+                    },
+                    {
+                      "sourceTerm": "丙火",
+                      "days": 5,
+                      "fromDay": 5,
+                      "toDay": 10,
+                      "element": "火",
+                      "normalizedStem": "丙"
+                    },
+                    {
+                      "sourceTerm": "甲木",
+                      "days": 20,
+                      "fromDay": 10,
+                      "toDay": 30,
+                      "element": "木",
+                      "normalizedStem": "甲"
+                    }
+                  ]
+                },
+                {
+                  "monthBranch": "卯",
+                  "sourceQuote": "二月建卯卯中有甲木用事七日乙木二十三日",
+                  "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[178,197)",
+                  "segments": [
+                    {
+                      "sourceTerm": "甲木",
+                      "days": 7,
+                      "fromDay": 0,
+                      "toDay": 7,
+                      "element": "木",
+                      "normalizedStem": "甲"
+                    },
+                    {
+                      "sourceTerm": "乙木",
+                      "days": 23,
+                      "fromDay": 7,
+                      "toDay": 30,
+                      "element": "木",
+                      "normalizedStem": "乙"
+                    }
+                  ]
+                },
+                {
+                  "monthBranch": "辰",
+                  "sourceQuote": "三月建辰辰中有乙木用事七日壬水墓庫五日戊土一十八日",
+                  "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[197,222)",
+                  "segments": [
+                    {
+                      "sourceTerm": "乙木",
+                      "days": 7,
+                      "fromDay": 0,
+                      "toDay": 7,
+                      "element": "木",
+                      "normalizedStem": "乙"
+                    },
+                    {
+                      "sourceTerm": "壬水",
+                      "days": 5,
+                      "fromDay": 7,
+                      "toDay": 12,
+                      "element": "水",
+                      "normalizedStem": "壬"
+                    },
+                    {
+                      "sourceTerm": "戊土",
+                      "days": 18,
+                      "fromDay": 12,
+                      "toDay": 30,
+                      "element": "土",
+                      "normalizedStem": "戊"
+                    }
+                  ]
+                },
+                {
+                  "monthBranch": "巳",
+                  "sourceQuote": "四月建巳巳中有戊土七日庚金長生五日丙火一十八日",
+                  "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[222,245)",
+                  "segments": [
+                    {
+                      "sourceTerm": "戊土",
+                      "days": 7,
+                      "fromDay": 0,
+                      "toDay": 7,
+                      "element": "土",
+                      "normalizedStem": "戊"
+                    },
+                    {
+                      "sourceTerm": "庚金",
+                      "days": 5,
+                      "fromDay": 7,
+                      "toDay": 12,
+                      "element": "金",
+                      "normalizedStem": "庚"
+                    },
+                    {
+                      "sourceTerm": "丙火",
+                      "days": 18,
+                      "fromDay": 12,
+                      "toDay": 30,
+                      "element": "火",
+                      "normalizedStem": "丙"
+                    }
+                  ]
+                },
+                {
+                  "monthBranch": "午",
+                  "sourceQuote": "五月建午午中丙火用事七日丁火二十三日",
+                  "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[245,263)",
+                  "segments": [
+                    {
+                      "sourceTerm": "丙火",
+                      "days": 7,
+                      "fromDay": 0,
+                      "toDay": 7,
+                      "element": "火",
+                      "normalizedStem": "丙"
+                    },
+                    {
+                      "sourceTerm": "丁火",
+                      "days": 23,
+                      "fromDay": 7,
+                      "toDay": 30,
+                      "element": "火",
+                      "normalizedStem": "丁"
+                    }
+                  ]
+                },
+                {
+                  "monthBranch": "未",
+                  "sourceQuote": "六月建未未中有丁火用事七日甲木墓庫五日巳土一十八日",
+                  "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[263,288)",
+                  "segments": [
+                    {
+                      "sourceTerm": "丁火",
+                      "days": 7,
+                      "fromDay": 0,
+                      "toDay": 7,
+                      "element": "火",
+                      "normalizedStem": "丁"
+                    },
+                    {
+                      "sourceTerm": "甲木",
+                      "days": 5,
+                      "fromDay": 7,
+                      "toDay": 12,
+                      "element": "木",
+                      "normalizedStem": "甲"
+                    },
+                    {
+                      "sourceTerm": "巳土",
+                      "days": 18,
+                      "fromDay": 12,
+                      "toDay": 30,
+                      "element": "土"
+                    }
+                  ]
+                },
+                {
+                  "monthBranch": "申",
+                  "sourceQuote": "七月建申申中有坤土用事五日壬水長生五日庚金二十日",
+                  "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[288,312)",
+                  "segments": [
+                    {
+                      "sourceTerm": "坤土",
+                      "days": 5,
+                      "fromDay": 0,
+                      "toDay": 5,
+                      "element": "土"
+                    },
+                    {
+                      "sourceTerm": "壬水",
+                      "days": 5,
+                      "fromDay": 5,
+                      "toDay": 10,
+                      "element": "水",
+                      "normalizedStem": "壬"
+                    },
+                    {
+                      "sourceTerm": "庚金",
+                      "days": 20,
+                      "fromDay": 10,
+                      "toDay": 30,
+                      "element": "金",
+                      "normalizedStem": "庚"
+                    }
+                  ]
+                },
+                {
+                  "monthBranch": "酉",
+                  "sourceQuote": "八月建酉酉中有庚金用事七日辛金二十三日",
+                  "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[312,331)",
+                  "segments": [
+                    {
+                      "sourceTerm": "庚金",
+                      "days": 7,
+                      "fromDay": 0,
+                      "toDay": 7,
+                      "element": "金",
+                      "normalizedStem": "庚"
+                    },
+                    {
+                      "sourceTerm": "辛金",
+                      "days": 23,
+                      "fromDay": 7,
+                      "toDay": 30,
+                      "element": "金",
+                      "normalizedStem": "辛"
+                    }
+                  ]
+                },
+                {
+                  "monthBranch": "戌",
+                  "sourceQuote": "九月建戌戌中有辛金用事七日丙火墓庫五日戊土一十八日",
+                  "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[331,356)",
+                  "segments": [
+                    {
+                      "sourceTerm": "辛金",
+                      "days": 7,
+                      "fromDay": 0,
+                      "toDay": 7,
+                      "element": "金",
+                      "normalizedStem": "辛"
+                    },
+                    {
+                      "sourceTerm": "丙火",
+                      "days": 5,
+                      "fromDay": 7,
+                      "toDay": 12,
+                      "element": "火",
+                      "normalizedStem": "丙"
+                    },
+                    {
+                      "sourceTerm": "戊土",
+                      "days": 18,
+                      "fromDay": 12,
+                      "toDay": 30,
+                      "element": "土",
+                      "normalizedStem": "戊"
+                    }
+                  ]
+                },
+                {
+                  "monthBranch": "亥",
+                  "sourceQuote": "十月建亥亥中有戊土五日甲木長生五日壬水用事二十日",
+                  "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[356,380)",
+                  "segments": [
+                    {
+                      "sourceTerm": "戊土",
+                      "days": 5,
+                      "fromDay": 0,
+                      "toDay": 5,
+                      "element": "土",
+                      "normalizedStem": "戊"
+                    },
+                    {
+                      "sourceTerm": "甲木",
+                      "days": 5,
+                      "fromDay": 5,
+                      "toDay": 10,
+                      "element": "木",
+                      "normalizedStem": "甲"
+                    },
+                    {
+                      "sourceTerm": "壬水",
+                      "days": 20,
+                      "fromDay": 10,
+                      "toDay": 30,
+                      "element": "水",
+                      "normalizedStem": "壬"
+                    }
+                  ]
+                },
+                {
+                  "monthBranch": "子",
+                  "sourceQuote": "十一月建子子中有壬水用事七日癸水二十三日",
+                  "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[380,400)",
+                  "segments": [
+                    {
+                      "sourceTerm": "壬水",
+                      "days": 7,
+                      "fromDay": 0,
+                      "toDay": 7,
+                      "element": "水",
+                      "normalizedStem": "壬"
+                    },
+                    {
+                      "sourceTerm": "癸水",
+                      "days": 23,
+                      "fromDay": 7,
+                      "toDay": 30,
+                      "element": "水",
+                      "normalizedStem": "癸"
+                    }
+                  ]
+                },
+                {
+                  "monthBranch": "丑",
+                  "sourceQuote": "十二月建丑丑中有癸水用事七日庚金墓庫五日巳土一十八日",
+                  "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[400,426)",
+                  "segments": [
+                    {
+                      "sourceTerm": "癸水",
+                      "days": 7,
+                      "fromDay": 0,
+                      "toDay": 7,
+                      "element": "水",
+                      "normalizedStem": "癸"
+                    },
+                    {
+                      "sourceTerm": "庚金",
+                      "days": 5,
+                      "fromDay": 7,
+                      "toDay": 12,
+                      "element": "金",
+                      "normalizedStem": "庚"
+                    },
+                    {
+                      "sourceTerm": "巳土",
+                      "days": 18,
+                      "fromDay": 12,
+                      "toDay": 30,
+                      "element": "土"
+                    }
+                  ]
+                }
+              ],
+              "alternativeViews": [
+                {
+                  "title": "同章再考玉井异表",
+                  "sourceQuote": "正月寅〈立春雨水〉已土七日丙火五日甲木十八日二月卯〈驚蟄春分〉乙十八日甲九日癸三日\n\n三月辰〈清明穀雨〉戊十八日乙九日癸三日\n\n四月已〈立夏小滿〉丙十八日戊七日庚五日\n\n五月午〈芒種夏至〉丁十八日丙九日乙三日\n\n六月未〈小暑大暑〉已十八日乙五日丁七日\n\n七月申〈立秋處暑〉庚十七日已七日戊三日壬三日八月酉〈白露秋分〉辛二十日庚七日丁五日\n\n九月戌〈寒露霜降〉戊十八日辛七日丁五日\n\n十月亥〈立冬小雪〉壬十八日甲五日戊七日\n\n十一月子〈大雪冬至〉癸十八日壬五日辛三日\n\n十二月丑〈小寒大寒〉已十八日癸七日辛五日",
+                  "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[508,762)",
+                  "note": "原列次序和天数保留，不作为本版本计算表；酉20+7+5为32，子18+5+3为26，不擅自补齐或归一30，亦不自动调换原列序。"
+                },
+                {
+                  "title": "醉醒子不以固定日限的意见",
+                  "sourceQuote": "醉醒子曰時行物生天道之常一嵗之中雖有進退四時之内本無輕重故以金木水火分旺四時各得七十二日土旺四季各有十八日共三百六十日乃成嵗焉立春之後則用陽木三十六日艮土分野丙戊長生驚蟄後六日則用隂木三十六日癸水寄生清明後十二日則用戊土十八日陽水歸庫隂水返魂夏秋冬亦如此淵源淵海則以立春之後已土餘氣幾日艮土分野幾日丙戊長生先後各得幾日卯月癸水寄生幾日辰月陽水歸庫隂水返魂亦各幾日殊不思丑月之用既足春後又河餘哉分野者聚一方之旺氣長生者歸母成孕先後者盖有寅而後生丙有丙而後戊生寄生者徒有虚名乃無實位歸庫者絶其生氣而收藏返魂者續其死氣而變化此五行生死進退之𤣥機豈可以幾日為限哉且春之用木秋之用金固一定之理也若雜揉寓處之神占用幾日則本宫主氣之數未嘗不缺而虧矣則何以見春木夏火一氣流行各旺七十二日之數耶以四季配五行之用乃主有納客之數客無勝主之理但主氣之司權自有初中末三氣之淺深用之者特宜較量輕重言耳又豈可以三五七日為限哉其説足以破淵源之誤又支中所藏止以月論年日時不論人命重提綱厥有㫖哉\n",
+                  "sourceLocator": "source/juan-02.md#論人元司事; excerpt-codepoint[764,1194)",
+                  "note": "保留同章反对以三五七日定限的意见，与首段所选分日表并列；不能把电子表定位结果合成为唯一司令或喜用神。"
+                }
+              ],
+              "limitations": [
+                "本表是所选电子转录的首段，不等于全部传本或学派一致。",
+                "不将原词艮土/坤土/巳土更改成戊己，元素土明确不等于天干明确。",
+                "未根据表结果改变旧扶抑权重、命名排序或喜用神。",
+                "首段、玉井异表和醉醒子意见不合并成唯一司权。",
+                "上游明确未与影印原页独立校勘；固定Wikisource修订无扫描Index/Page链接。Kanripo相应电子分页可对读，但不构成影印页校核，本应用未再分发其无明确许可的电子编排。",
+                "首段仅是本次选定的转录读法，后列玉井异表与反定日限意见不能略去。",
+                "术语、天数及边界从原件转录；软件采用实际经过24小时的操作口径，不宣称古文唯一要求此算法。",
+                "所选表全为30日；实际节月裁切后可能不足30日，超过30日的尾段不作延续或归一化。"
+              ]
+            },
+            "candidates": [],
+            "segments": [
+              {
+                "monthBranch": "辰",
+                "previousJie": "清明",
+                "previousJieAt": "2022-04-04T19:20:14.000Z",
+                "nextJieAt": "2022-05-05T12:25:57.000Z",
+                "startAt": "2022-04-19T16:00:00.000Z",
+                "endAt": "2022-04-20T15:59:59.000Z",
+                "elapsedStartDays": 14.860949074074075,
+                "elapsedEndDays": 15.8609375,
+                "candidates": [],
+                "status": "not-evaluated"
+              }
+            ],
+            "evidence": [
+              "区间端点为UTC实际瞬间，精确到秒；交节秒归入新节，旧段截止交节前一秒。",
+              "表段按前一节后实际经过秒数÷86400定位；采用[fromDay,toDay)半开边界，不按民用日期零点切日。",
+              "默认未按固定日限定位；原表及不同读法供查阅，不代替人工选择。",
+              "原文土项保留原术语，不强制推断天干；所选表不参与扶抑或姓名排序。"
+            ],
+            "missing": [
+              "当前未选择固定分日定位方法。",
+              "出生时刻未知：所列为全日可能候选集合，即使只有一项也保留不确定。",
+              "此表定位不构成唯一司令、从格、合化或用神裁决。"
+            ]
+          },
+          "opinions": [
+            {
+              "method": "fuyi",
+              "profile": "project-weighted-fuyi/1.0.0",
+              "status": "candidate",
+              "elements": [
+                "金",
+                "水"
+              ],
+              "unfavorable": [
+                "木",
+                "火"
+              ],
+              "evidence": [
+                "扶抑初筛：日主偏弱",
+                "扶抑候选使用本产品可解释启发式：透干权重1，支藏干本/中/余气按1或0.7/0.3或0.6/0.25/0.15，月支权重2；此权重不是古籍定量公式。",
+                "比印加权占比33%，小于38%初筛偏弱，大于55%初筛偏强，其余保留多解；候选按生扶或泄耗制衡关系选择，不按缺项选择。",
+                "此意见照录原有扶抑初筛，新证据模块不改姓名筛选或排序。"
+              ],
+              "missing": [
+                "出生时刻未知，缺时柱；扶抑候选来自不完整资料。",
+                "未执行从格、化气格或合化条件裁决。"
+              ],
+              "requiresManualReview": true,
+              "ruleId": "bazi-fuyi-opinion"
+            },
+            {
+              "method": "tiaohou",
+              "profile": "project-seasonal-imagery/1.0.0",
+              "status": "pending",
+              "elements": [],
+              "unfavorable": [],
+              "evidence": [
+                "春月关注木气与寒暖燥湿的具体组合，暂不按季节机械指定补益元素。",
+                "本项仅为项目季节寒暖意象，不是《穷通宝鉴》日干×月份调候用神表，不合并成唯一喜用神。"
+              ],
+              "missing": [
+                "未评估完整寒暖燥湿、日干逐月用神组合与通关条件。",
+                "所选季节没有机械指定元素，保留多解。",
+                "出生资料不完整或瞬间有歧义，季节意见须保留人工复核。"
+              ],
+              "requiresManualReview": true,
+              "ruleId": "bazi-seasonal-opinion"
+            }
+          ],
+          "monthlySeasonal": {
+            "version": "monthly-seasonal-evidence/1.0.0",
+            "methodId": "qiongtong-2294674-initial/1.0.0",
+            "status": "initial-reference",
+            "ruleId": "bazi-monthly-seasonal-initial",
+            "dayMaster": "癸",
+            "monthBranches": [
+              "辰"
+            ],
+            "cases": [
+              {
+                "dayMaster": "癸",
+                "monthBranch": "辰",
+                "sourceId": "bazi-monthly-qiongtong-2294674",
+                "sourceQuote": "'''三月癸水'''，要分清明谷雨。清明后、火气未炽，专用丙火，为阴阳合谐。谷雨后，虽用丙火，尚宜辛甲佐之。如辛卯、壬辰、癸未、丙辰，生上半月，用丙火、显达。生下半月，必无伤辛金癸水、方妙。然丙亦不可少。用丙、木妻、火子。",
+                "sourceLocator": "oldid=2294674;论癸;codepoint[34251,34362)",
+                "reviewStatus": "initial",
+                "initialUses": [
+                  {
+                    "stem": "丙",
+                    "role": "first",
+                    "sequence": 1,
+                    "quote": "清明后、火气未炽，专用丙火，为阴阳合谐。谷雨后，虽用丙火，尚宜辛甲佐之。",
+                    "element": "火"
+                  }
+                ],
+                "conditionBranches": [
+                  {
+                    "id": "gui-chen-pure-brightness-grain-rain",
+                    "sourceQuote": "清明后、火气未炽，专用丙火，为阴阳合谐。谷雨后，虽用丙火，尚宜辛甲佐之。",
+                    "sourceLocator": "oldid=2294674;论癸;codepoint[34269,34305)",
+                    "result": "not-implemented",
+                    "proposedUses": [],
+                    "observedEvidence": [],
+                    "missing": [
+                      "清明／谷雨实际瞬间及火气未炽条件本profile未实施，原句并列保留。",
+                      "本条没有可验证的明确事实谓词，未自动解释原文旺弱、多寡或特殊格局。"
+                    ]
+                  }
+                ],
+                "stemFacts": [
+                  {
+                    "stem": "丙",
+                    "exposedPositions": [],
+                    "hiddenPositions": [
+                      "年柱寅"
+                    ],
+                    "dayMasterSame": false,
+                    "absence": "unknown"
+                  },
+                  {
+                    "stem": "甲",
+                    "exposedPositions": [
+                      "月柱"
+                    ],
+                    "hiddenPositions": [
+                      "年柱寅"
+                    ],
+                    "dayMasterSame": false,
+                    "absence": "unknown"
+                  },
+                  {
+                    "stem": "辛",
+                    "exposedPositions": [],
+                    "hiddenPositions": [],
+                    "dayMasterSame": false,
+                    "absence": "unknown"
+                  },
+                  {
+                    "stem": "壬",
+                    "exposedPositions": [
+                      "年柱"
+                    ],
+                    "hiddenPositions": [],
+                    "dayMasterSame": false,
+                    "absence": "unknown"
+                  },
+                  {
+                    "stem": "癸",
+                    "exposedPositions": [],
+                    "hiddenPositions": [
+                      "月柱辰"
+                    ],
+                    "dayMasterSame": true,
+                    "absence": "unknown"
+                  }
+                ],
+                "unresolved": [
+                  "谷雨后辛甲辅助的节气条件未自动裁定。",
+                  "此记录仅转录初始取用句与已列条件，未实现本章全部后续变例、旺衰、格局、运程或原断语。"
+                ]
+              }
+            ],
+            "proposedElements": [
+              "火"
+            ],
+            "requiresManualReview": true,
+            "limitations": [
+              "逐月初始参考与旧季节意象、扶抑意见分别记录，不合并为唯一喜用神，也不改变姓名筛选和排序。",
+              "原文仍有转用、强弱、格局及先后条件；事实条件核对不是完整调候裁决。",
+              "固定电子修订未进行影印页独立校勘；传统文化判断不代表科学证实的命运或人格效果。",
+              "出生时刻未知，没有时柱；未见的透干或藏干不能断定不存在。"
+            ]
+          },
+          "seasonalConditions": {
+            "version": "qiongtong-2294674-conditions/1.0.0",
+            "profile": "qiongtong-2294674-conditions",
+            "status": "available",
+            "rules": [
+              {
+                "id": "bazi-seasonal-condition-supplement",
+                "version": "1.0.0",
+                "name": "逐月条件的限定事实补充",
+                "sourceIds": [
+                  "bazi-monthly-qiongtong-2294674-conditions",
+                  "bazi-evidence-lunar186"
+                ],
+                "conditions": [
+                  "独立于原逐月条目，原有15条条件的状态与初始取用不被本补充改写。",
+                  "节气前提只核白露→秋分、秋分→寒露、清明→谷雨、谷雨→立夏的实际半开时间区间；不把半月当15日或赋予旺弱阈值。",
+                  "时刻未知时对整日实际区间按节气瞬间切分，若跨界保留前提结果集合，不作唯一断定；重复民用时刻仍采用第一次。",
+                  "partial-prerequisite即使时间满足，也不代表桂蕊、桂花、火势或原句其他前提已满足；未核因素逐条保留。",
+                  "full-fact-predicate仅表示本条明确透、藏或有无事实核查完整，不继承原文富贵、人格、运势或最终取用结论。"
+                ]
+              }
+            ],
+            "checks": [
+              {
+                "id": "gui-chen-before-grain-rain",
+                "caseId": "癸-辰",
+                "conditionId": "gui-chen-pure-brightness-grain-rain",
+                "dayMaster": "癸",
+                "monthBranch": "辰",
+                "sourceId": "bazi-monthly-qiongtong-2294674-conditions",
+                "sourceQuote": "清明后、火气未炽，专用丙火，为阴阳合谐。谷雨后，虽用丙火，尚宜辛甲佐之。",
+                "sourceLocator": "oldid=2294674;codepoint[34269,34305)",
+                "scope": "partial-prerequisite",
+                "status": "uncertain",
+                "predicateDescription": "仅时间前提：清明≤实际瞬间<谷雨",
+                "observations": [
+                  {
+                    "startAt": "2022-04-19T16:00:00.000Z",
+                    "endAt": "2022-04-20T02:24:17.000Z",
+                    "result": "met",
+                    "fromTermAt": "2022-04-04T19:20:14.000Z",
+                    "toTermAt": "2022-04-20T02:24:18.000Z",
+                    "evidence": [
+                      "只核清明≤实际瞬间<谷雨；窗口2022-04-04T19:20:14.000Z至2022-04-20T02:24:18.000Z（右端不含）。"
+                    ]
+                  },
+                  {
+                    "startAt": "2022-04-20T02:24:18.000Z",
+                    "endAt": "2022-04-20T15:59:59.000Z",
+                    "result": "not-met",
+                    "fromTermAt": "2022-04-04T19:20:14.000Z",
+                    "toTermAt": "2022-04-20T02:24:18.000Z",
+                    "evidence": [
+                      "只核清明≤实际瞬间<谷雨；窗口2022-04-04T19:20:14.000Z至2022-04-20T02:24:18.000Z（右端不含）。"
+                    ]
+                  }
+                ],
+                "missing": [
+                  "火气未炽没有公认或本包指定的数值阈值，仍未核定。",
+                  "只核清明至谷雨的历法前提，原句整体适用性待审，不新增用神结论。",
+                  "已核的只是时间前提，不改变原条件尚未实现的状态。"
+                ],
+                "doesNotResolveOriginalBranch": true
+              },
+              {
+                "id": "gui-chen-after-grain-rain",
+                "caseId": "癸-辰",
+                "conditionId": "gui-chen-pure-brightness-grain-rain",
+                "dayMaster": "癸",
+                "monthBranch": "辰",
+                "sourceId": "bazi-monthly-qiongtong-2294674-conditions",
+                "sourceQuote": "清明后、火气未炽，专用丙火，为阴阳合谐。谷雨后，虽用丙火，尚宜辛甲佐之。",
+                "sourceLocator": "oldid=2294674;codepoint[34269,34305)",
+                "scope": "partial-prerequisite",
+                "status": "uncertain",
+                "predicateDescription": "仅时间前提：谷雨≤实际瞬间<立夏",
+                "observations": [
+                  {
+                    "startAt": "2022-04-19T16:00:00.000Z",
+                    "endAt": "2022-04-20T02:24:17.000Z",
+                    "result": "not-met",
+                    "fromTermAt": "2022-04-20T02:24:18.000Z",
+                    "toTermAt": "2022-05-05T12:25:57.000Z",
+                    "evidence": [
+                      "只核谷雨≤实际瞬间<立夏；窗口2022-04-20T02:24:18.000Z至2022-05-05T12:25:57.000Z（右端不含）。"
+                    ]
+                  },
+                  {
+                    "startAt": "2022-04-20T02:24:18.000Z",
+                    "endAt": "2022-04-20T15:59:59.000Z",
+                    "result": "met",
+                    "fromTermAt": "2022-04-20T02:24:18.000Z",
+                    "toTermAt": "2022-05-05T12:25:57.000Z",
+                    "evidence": [
+                      "只核谷雨≤实际瞬间<立夏；窗口2022-04-20T02:24:18.000Z至2022-05-05T12:25:57.000Z（右端不含）。"
+                    ]
+                  }
+                ],
+                "missing": [
+                  "丙火初用与辛甲辅助仍为传统取用意见；本包只核时间前提。",
+                  "立夏上界来自当前辰节月范围，是软件定位边界，不冒称原句另外给出了立夏。",
+                  "不能把时间命中视为完整调候条件已满足或改变初始候选。",
+                  "已核的只是时间前提，不改变原条件尚未实现的状态。"
+                ],
+                "doesNotResolveOriginalBranch": true
+              }
+            ],
+            "warnings": [
+              "本补充不改写原逐月条件、初始取用或系统喜用；不参与姓名排名。",
+              "只核所列事实，部分前提满足不等于原句完整适用或用神成立。"
+            ]
+          },
+          "patternCandidates": [
+            {
+              "kind": "cong",
+              "name": "从格候选",
+              "status": "not-evaluated",
+              "supportedBy": [],
+              "opposedBy": [],
+              "missing": [
+                "尚未接入可独立复核的同流派从格成立与破格条件；不以五行加权占比阈值断真从。",
+                "需明确月令、根气、透干、逆势因素及未知时柱的影响后再分阶段评估。"
+              ]
+            }
+          ],
+          "transformationEvidence": [
+            {
+              "kind": "branch-sanhui",
+              "subjects": [
+                "寅",
+                "卯",
+                "辰"
+              ],
+              "status": "not-evaluated",
+              "supportedBy": [
+                "仅核实年柱、月柱、日柱的寅、卯、辰组合出现。"
+              ],
+              "opposedBy": [],
+              "missing": [
+                "未接入完整同流派得令、透引、阻隔与争合等合化条件；组合出现不等于合化成立。"
+              ],
+              "ruleId": "bazi-branch-three-meeting"
+            }
+          ],
+          "limitations": [
+            "事实层只描述本命已确定四柱，不推导大运、流年或命运吉凶。",
+            "关系检查覆盖五合、六合、完整三合与三会、六冲；六害、三刑、半合、拱合尚未启用。",
+            "扶抑阈值与季节意象都是明确标注的项目启发式；司权、从格及合化不应由它们自动推出。",
+            "不同流派可使用不同藏干次序、分日司权与调候取法，不能把某一电子表视为唯一标准。",
+            "本模块属于传统文化规则说明，无证据证明姓名会改变命运。"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "schema": "M354-independent-source-parity-ready/1",
+  "task": "M354",
+  "conclusion": "LIMITED-SOURCE-PARITY-PASS",
+  "newP1": 0,
+  "newP2": 0,
+  "inputManifest": {
+    "file": "E:/八卦周易/.local/team-331/dev01/ready-r1/ready-manifest.json",
+    "sha256": "a282610fbc4f48d5a691782c0eeb00d310c72c574d23ca52b6e98bc4a2e8fb2f",
+    "bytes": 10788
+  },
+  "outputs": [
+    {
+      "file": "E:/八卦周易/.local/team-354/independent-review/independent-review.json",
+      "sha256": "efe0d7c70d618fd237277ef3b392cc56c0070c72099b7789a717ffd3705a4727",
+      "bytes": 9910,
+      "schema": "M354-independent-source-parity-review/1"
+    },
+    {
+      "file": "E:/八卦周易/.local/team-354/independent-review/execution-ledger.json",
+      "sha256": "7930184eda1b03a5bdf187607c10b91c05eaed59cb5a4a97f07350665c326097",
+      "bytes": 3555,
+      "schema": "M354-readonly-execution-ledger/1"
+    }
+  ],
+  "actualThreeBeforeUnchanged": true,
+  "uniqueCasesAcrossTwoRuns": 24,
+  "singleRun24Passed": false,
+  "performanceSLOAccepted": false,
+  "actualFactsCallback": "同步只读，无任意 callback/async 沙箱保证。",
+  "newTests": 0,
+  "newTypes": 0,
+  "newBench": 0,
+  "newSQL": 0,
+  "newWorker": 0,
+  "newModuleEval": 0,
+  "productionWrites": 0,
+  "readyForRootSourceIntegrationDecision": true,
+  "releaseApproved": false
+}

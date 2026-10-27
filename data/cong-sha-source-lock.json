@@ -1,0 +1,27 @@
+{
+  "version": "qiongtong-2294674-monthly-cong-sha/1.0.0",
+  "hashConvention": "sha256(JSON.stringify(fileHashes)); sorted relative path keys",
+  "sources": [
+    {
+      "id": "bazi-cong-sha-qiongtong-2294674",
+      "name": "穷通宝鉴2294674月别从杀：支持子集及依赖反向句",
+      "url": "https://zh.wikisource.org/w/index.php?title=穷通宝鉴&oldid=2294674",
+      "commit": "wikisource-revision/2294674",
+      "license": "CC-BY-SA-4.0（维基文库转录、节录与月别从杀映射）",
+      "files": [
+        "data/cong-sha-rules.json",
+        "data/raw/cong-sha-qiongtong-excerpts.json",
+        "data/raw/cong-sha-ATTRIBUTION.md",
+        "data/raw/CC-BY-SA-4.0.txt"
+      ],
+      "note": "五场景保留水多、癸旺、一派、无比印及有效出制等未核必要。六项明干位置子集仅support/signals；反向句须前提齐备，不以单个已见信号自动否定格局。未替换旧从财规则。",
+      "fileHashes": {
+        "data/cong-sha-rules.json": "77f26154476bcdbc68fff0ff018e73983543103057f9b29acc5814abe08e7daa",
+        "data/raw/CC-BY-SA-4.0.txt": "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5",
+        "data/raw/cong-sha-ATTRIBUTION.md": "acfe8c3acdf5fb71d7839ebcb074b113d7aee8f8cb39b663d3667346c3613028",
+        "data/raw/cong-sha-qiongtong-excerpts.json": "28aeef6a774936485a8d670034652c8e19054d2f5174b3ed73ec355d8a72c980"
+      },
+      "sha256": "4e319715b1ff9c95b41da4c7aac1c3538be0b9e83f645463aba52fb51c417128"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "version": "naming-editorial-semantic-review/6.0.0",
+  "base4Sha256": "d24898eb63438d7b24262668eb3b36770f211fade015b28eeb361700a58ca6ce",
+  "scope": "只迁移两项项目原创季节类比及一项现代自然搭配，不新增经典出处或单字泛审。",
+  "migrations": {
+    "defaultSenseMap": {
+      "冬": {
+        "before": {
+          "meaning": "坚韧",
+          "readings": [
+            {
+              "char": "冬",
+              "pinyin": "dōng",
+              "tone": 1,
+              "sourceId": "moe-revised",
+              "dictionaryWord": "鼕"
+            }
+          ],
+          "status": "bound-default-reading"
+        },
+        "after": {
+          "meaning": "坚韧（项目原创季节类比，非字典原义）",
+          "readings": [
+            {
+              "char": "冬",
+              "pinyin": "dōng",
+              "tone": 1,
+              "sourceId": "moe-revised",
+              "dictionaryWord": "冬",
+              "dictionarySense": "一年四季中的最後一季。農曆指立冬至立春的時期，一般而言氣溫較低。若以北半球氣候論，概指十一月或十二月至翌年的二月或三月期間。",
+              "rawHeteronymIndex": 0,
+              "rawDefinitionIndex": 0
+            }
+          ],
+          "status": "bound-default-reading"
+        },
+        "review": {
+          "kind": "project-seasonal-metaphor",
+          "dictionaryDefinitionClaim": false,
+          "standaloneCharacterApproval": false,
+          "scope": "仅以冬季寒冷环境联想坚韧的家庭期许；不是词典关于人格或命运的判断。"
+        }
+      },
+      "秋": {
+        "before": {
+          "meaning": "收获",
+          "readings": [
+            {
+              "char": "秋",
+              "pinyin": "qiū",
+              "tone": 1,
+              "sourceId": "moe-revised",
+              "dictionaryWord": "鞦"
+            }
+          ],
+          "status": "bound-default-reading"
+        },
+        "after": {
+          "meaning": "收获（项目原创季节类比，非字典原义）",
+          "readings": [
+            {
+              "char": "秋",
+              "pinyin": "qiū",
+              "tone": 1,
+              "sourceId": "moe-revised",
+              "dictionaryWord": "秋",
+              "dictionarySense": "一年四季中的第三季。農曆為七、八、九月，陽曆為九、十、十一月。",
+              "rawHeteronymIndex": 0,
+              "rawDefinitionIndex": 0
+            }
+          ],
+          "status": "bound-default-reading"
+        },
+        "review": {
+          "kind": "project-seasonal-metaphor",
+          "dictionaryDefinitionClaim": false,
+          "standaloneCharacterApproval": false,
+          "scope": "仅以秋季与秋收的联系作收获的家庭期许；不是把收获冒称为秋的词典原义。"
+        }
+      }
+    },
+    "naturalPairs": [
+      {
+        "name": "致远",
+        "before": {
+          "name": "致远",
+          "readings": [
+            {
+              "char": "致",
+              "pinyin": "zhì",
+              "tone": 4,
+              "sourceId": "moe-revised",
+              "dictionaryWord": "緻"
+            },
+            {
+              "char": "远",
+              "pinyin": "yuǎn",
+              "tone": 3,
+              "sourceId": "moe-revised",
+              "dictionaryWord": "遠"
+            }
+          ],
+          "status": "bound-default-reading"
+        },
+        "after": {
+          "name": "致远",
+          "readings": [
+            {
+              "char": "致",
+              "pinyin": "zhì",
+              "tone": 4,
+              "sourceId": "moe-revised",
+              "dictionaryWord": "致",
+              "dictionarySense": "達到。",
+              "rawHeteronymIndex": 0,
+              "rawDefinitionIndex": 1
+            },
+            {
+              "char": "远",
+              "pinyin": "yuǎn",
+              "tone": 3,
+              "sourceId": "moe-revised",
+              "dictionaryWord": "遠",
+              "dictionarySense": "時間、空間的距離大。與「近」相對。",
+              "rawHeteronymIndex": 0,
+              "rawDefinitionIndex": 0
+            }
+          ],
+          "status": "bound-default-reading"
+        },
+        "review": {
+          "kind": "modern-natural-expression",
+          "newCitation": false,
+          "standaloneCharacterApproval": false,
+          "scope": "仅按致的達到与遠的距离大解释为达到远处的现代自然搭配，不自动附诸葛亮或其他经典出处，不扩成其他致字寓意。"
+        }
+      }
+    ]
+  }
+}

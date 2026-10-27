@@ -1,0 +1,60 @@
+{
+  "version": "yue-name-reading/1.0.0",
+  "sourceVersion": "2026.08.10",
+  "hashConvention": "sha256(JSON.stringify(fileHashes)); sorted relative path keys",
+  "sources": [
+    {
+      "id": "rime-cantonese-jyutping",
+      "name": "Rime 粤语拼音固定版字词读音参考",
+      "url": "https://github.com/rime/rime-cantonese/tree/259f0e48bba840c3a2e0d117539e96937f3d89bc",
+      "commit": "259f0e48bba840c3a2e0d117539e96937f3d89bc",
+      "license": "CC-BY-4.0",
+      "files": [
+        "data/raw/yue-reading-CC-BY-4.0.txt",
+        "data/raw/yue-reading-NOTICE.md",
+        "data/raw/yue-reading-README-cmn.md",
+        "data/raw/yue-reading-chars.dict.yaml",
+        "data/raw/yue-reading-words.dict.yaml",
+        "data/yue-reading-table.json"
+      ],
+      "sha256": "324e60c2f1f756b924423f999cb8e1a27db3ab25854bdb260c7de824d02ef414",
+      "note": "CanCLID/Rime Cantonese contributors；仅待确认字词读音，复姓只用完整词条；不含 maps/phrase、不作谐音安全或人口重名率结论。",
+      "fileHashes": {
+        "data/raw/yue-reading-CC-BY-4.0.txt": "97d24386ff776d7160b87031b259a942bd03c9939796cab6724ad5d17d2cf785",
+        "data/raw/yue-reading-NOTICE.md": "a96216ceec82cdcd7398aec771e9bd88b0b76f005c38f0f559cc029097bbe538",
+        "data/raw/yue-reading-README-cmn.md": "ca0783ce0a7eaa6560e7718d50ed2f7db2488d1b73eb5c3f82cf116ba2831d56",
+        "data/raw/yue-reading-chars.dict.yaml": "9b053a594c80eae76545bcdd83239884a49b1ba48b89ca0ab9e8daac79f33013",
+        "data/raw/yue-reading-words.dict.yaml": "54d174ad2bb997e4a678b7b076b84e4dc5914481b32467cdea3b43e88b7d5474",
+        "data/yue-reading-table.json": "f285837167d7ae731a3e3dedc817cb13f32b6dab0bd04091b115c3415afcf028"
+      }
+    },
+    {
+      "id": "unicode-17",
+      "name": "Unicode 17.0 Unihan 字形及普通话字段",
+      "url": "https://github.com/unicode-org/unicodetools",
+      "commit": "4fd8eca90b30aa4c72543ccddb4c15d05becdf8d",
+      "license": "Unicode-3.0",
+      "files": [
+        "data/raw/kMandarin.txt",
+        "data/raw/kTotalStrokes.txt",
+        "data/raw/kTraditionalVariant.txt",
+        "data/raw/kSimplifiedVariant.txt",
+        "data/raw/kRSUnicode.txt",
+        "data/raw/CJKRadicals.txt",
+        "data/raw/unicode-LICENSE"
+      ],
+      "sha256": "f28cbf0a1b546a3cb1b44d4cb324d8fc9c93e14ffa9887f408aaad52f34daa1d",
+      "note": "读音 kMandarin、普通笔画 kTotalStrokes、简繁异体字段；不冒充中文辞书或康熙笔画。原字段的范围压缩展开成逐字记录。",
+      "fileHashes": {
+        "data/raw/CJKRadicals.txt": "826f83be25cd18fb8a5015a514704504e1982e840ea14d058bf583e1cc620c83",
+        "data/raw/kMandarin.txt": "e549450d76b4f7f79dcf3c928f17f62dc7dcfda904dd4db983a18d4afab221e3",
+        "data/raw/kRSUnicode.txt": "481f8a3d2fda0c6b8e6f7c746a0eedfb145a62f30bf6e61527a8f7cdb2a99108",
+        "data/raw/kSimplifiedVariant.txt": "a7f0c9dbbca85cffd90517fa6ea9be97d2e6f811328a59b6b303d58a418ac9be",
+        "data/raw/kTotalStrokes.txt": "33b37518686bda5c320eabd83ae0d4651e3d5932915308aa7a85b54f312f1e56",
+        "data/raw/kTraditionalVariant.txt": "4eca6285d45070548e6e6c06e4b48c3ca6866d4380e8cb980c512f5d1fc71895",
+        "data/raw/unicode-LICENSE": "fe5c62b543e287981db198f2acfa0ca732d12591a1024536dc8fd85dacd77104"
+      },
+      "aggregateConvention": "sha256(original files order: basename + NUL + sha256; newline joined)"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+.modern-name-reference{margin-top:20px;padding:18px;border:1px solid var(--border,#deded6);border-radius:12px;background:var(--surface,#fafaf7);font-size:.9rem;line-height:1.65;color:inherit}
+.modern-name-reference-heading{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px}
+.modern-name-reference-heading h4{margin:0;font-size:1rem}
+.modern-name-reference-heading button{font-size:.84rem}
+.modern-name-reference-boundary,.modern-name-reference-state,.modern-name-reference-scope{font-size:.84rem;color:var(--text-muted,#64665d)}
+.modern-name-reference-facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:16px 0 10px}
+.modern-name-reference-facts>div{display:flex;flex-direction:column;gap:3px;padding:11px 12px;border:1px solid var(--border,#deded6);border-radius:9px;background:var(--panel,#fff)}
+.modern-name-reference-facts span{font-size:.76rem;color:var(--text-muted,#64665d)}
+.modern-name-reference-facts strong{font-size:.86rem;font-weight:600;overflow-wrap:anywhere}
+.modern-name-reference-no-rate{margin:8px 0 14px;padding:10px 12px;border-left:3px solid #b27c42;background:#fff8ed;font-size:.84rem}
+.modern-name-reference-cohorts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:16px 0}
+.modern-name-reference-cohort{padding:14px;border:1px solid var(--border,#deded6);border-radius:9px;background:var(--panel,#fff)}
+.modern-name-reference-cohort h5{font-size:.85rem;margin:0 0 8px;font-weight:600}
+.modern-name-reference-cohort p{margin:5px 0;font-size:.82rem}
+.modern-name-reference-cohort strong{font-size:1.25rem;color:var(--text,#30362f);font-variant-numeric:tabular-nums}
+.modern-name-reference-source{border-top:1px solid var(--border,#deded6);padding-top:12px;margin-top:14px}
+.modern-name-reference-source summary{cursor:pointer;font-weight:600}
+.modern-name-reference-source dl{display:grid;grid-template-columns:100px minmax(0,1fr);gap:7px 12px;margin:14px 0}
+.modern-name-reference-source dt{color:var(--text-muted,#64665d)}
+.modern-name-reference-source dd{margin:0;overflow-wrap:anywhere}
+.modern-name-reference-source ul{padding-left:20px}
+.modern-name-reference-error{padding:12px;border-left:3px solid #b65943;background:#fff5ef}
+.modern-name-reference-error p{margin-top:0}
+.comparison-grid .modern-name-reference-cohorts,.history-candidates .modern-name-reference-cohorts{grid-template-columns:1fr}
+@media(max-width:600px){.modern-name-reference{padding:14px}.modern-name-reference-cohorts{grid-template-columns:1fr}.modern-name-reference-source dl{grid-template-columns:1fr;gap:3px}.modern-name-reference-source dd{margin-bottom:8px}}
+@media(max-width:760px){.modern-name-reference-facts{grid-template-columns:1fr}}
+.modern-metrics-coverage{margin-top:16px;padding:14px;border:1px solid var(--border,#deded6);border-radius:10px;background:var(--panel,#fff)}
+.modern-metrics-coverage__heading{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:10px}
+.modern-metrics-coverage__heading h4{margin:0;font-size:.94rem}.modern-metrics-coverage__heading span{font-size:.75rem;color:var(--text-muted,#64665d)}
+.modern-metrics-coverage__grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.modern-metrics-coverage__row{padding:10px;border:1px solid var(--border,#deded6);border-radius:8px;background:var(--surface,#fafaf7)}
+.modern-metrics-coverage__row--not-measured{background:#fafafa7a}.modern-metrics-coverage__row-head{display:flex;justify-content:space-between;gap:8px}.modern-metrics-coverage__row-head span{font-size:.75rem;color:#6d7b5f}
+.modern-metrics-coverage__row--not-measured .modern-metrics-coverage__row-head span{color:#8b7560}.modern-metrics-coverage__row p{margin:6px 0 4px;font-size:.82rem}.modern-metrics-coverage__row small{display:block;color:var(--text-muted,#64665d);font-size:.74rem;line-height:1.5}
+.modern-metrics-coverage__boundaries{margin:10px 0 0;padding-left:18px;color:var(--text-muted,#64665d);font-size:.76rem;line-height:1.55}
+@media(max-width:600px){.modern-metrics-coverage__grid{grid-template-columns:1fr}}

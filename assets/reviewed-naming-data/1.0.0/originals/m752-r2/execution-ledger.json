@@ -1,0 +1,41 @@
+{
+  "task": "M752-r2",
+  "scope": "decision-only",
+  "skillsRead": [],
+  "successfulCommands": [
+    {
+      "chunk": "8dee70",
+      "action": "Locate M762 and inspect M752 original file list"
+    },
+    {
+      "chunk": "1b38cb",
+      "action": "Read M762 exact findings"
+    },
+    {
+      "chunk": "a00800",
+      "action": "First r2 build and static contract check"
+    },
+    {
+      "chunk": "2e447a",
+      "action": "Bind M751 golden-input dependency; rebuild/check"
+    },
+    {
+      "chunk": "4048a5",
+      "action": "Verify old M752 30 manifest file hashes unchanged"
+    },
+    {
+      "chunk": "c920db",
+      "action": "Fix coherent context names and qualification/receipt scopes; check"
+    },
+    {
+      "chunk": "9083bd",
+      "action": "Synchronize generated decision text"
+    },
+    {
+      "chunk": "d83538",
+      "action": "Final byte-identical reconstruction and 223 static checks"
+    }
+  ],
+  "productTestsExecuted": false,
+  "productWrites": 0
+}

@@ -1,0 +1,81 @@
+M921 future registration edit map — candidate only; NOT APPLYABLE AS AN ACTIVATION PATCH.
+Publication: m921-character-meaning-publication/1.0.0-candidate.1; target policy API: naming-editorial-7.2.0.
+Current state: 37 manual-only, 3 pending, 0 allow; source lineage38 general/2pending and independent37clear/2pending/1川hold stay separate.
+runtimeWish/projectWish/wholeNameMeaning=null; activationoff; every grantfalse; scoreDelta0; formal coverage0.
+
+Current implementation locations (frozen at the analyzed base):
+  src/shared/naming-semantic-admission-v72.ts:3-4,29-44 — current M752 source/version literals and publication shapes.
+  src/main/naming-semantic-admission-v72-data.ts:12-27 — existing fixed M752/M740 pin family.
+  src/main/naming-semantic-admission-v72-data.ts:29-35,87-133 — trusted config, private authenticated WeakMap, loader, refresh/dataset access.
+  src/main/naming-semantic-admission-v72-data.ts:60-82,118-123 — old source identity checks and exact10ordered characters/9allow remain unchanged.
+  src/domain/naming-semantic-admission-v72.ts:94-133 — one assess/receipt gate across six stages.
+  src/main/naming-semantic-generation-v72.ts:100-142 — main-authenticated refresh, local/AI/required/pool/save/restore/legacy facade.
+
+Future hunk A (after independent new decision, not this candidate task):
+  + Add an independent code-owned M921 publication-family pin descriptor to a trusted main module.
+  + Bind the exact current publication/source-lock/lineage/proposal file SHA and all13 copied input pins/10 fixed source pins listed below.
+  + Read only bytes/JSON. Never execute candidate pins.mjs, convert.mjs, verify.mjs, seal.mjs or any archived TS/JS.
+  = Keep every NAMING_V72_FIXED_PINS value, M752 source identity and old10/9 assertions unchanged.
+
+Future hunk B (new schema-specific trusted loader and private registry):
+  + Validate the M921 version and new independently approved decision schema; exact glyph, pinyin/tone, dictionary word/POS, entry/heteronym/definition indices, full baseline/readings/glyph proof, source-lock and raw input identities.
+  + Preserve original M917 source row hashes and exact original project text; each narrowed 方/锋/川 proposal requires its own new reviewed decision ID/hash before allow.
+  + Require the new family verifier to register its own successful handle internally. No caller metadata, pure policy constructor, candidate SourceRecord or reused M752 literal is authority.
+  + Extend the private Resources config to an exact family-discriminated union and refresh via the correct fixed family loader. Do not allow a caller factory/lookup/validator callback.
+  = loadNamingSemanticAdmissionV72 old branch remains byte/policy compatible; this candidate directory is not a substitute decisionRoot/m740Root.
+
+Future hunk C (policy/identity and actual consumers):
+  + Introduce the specifically approved M921 family source/publication identity through a separate reviewed shared/main change. The present M752 literal in publication.json is structural compatibility only.
+  + Route only a genuinely authenticated new-family handle through the existing E1-E7 and same six stages: pool|required|local|ai|save|restore.
+  + Required chars/AI/count shortage do not bypass pending/manual-only. Real allow requires E1+E2+E3+exact independent decision+E4; E5/E6/E7 still govern output, receipts, delivery and activation.
+  + Bind candidateId/fullName/givenName/position/read/tone/sense/project/publication/context in actual producer receipts; save/read/restore recompute. Legacy optional fields remain absent; no new receipt/backfill.
+  = Keep wholeNameMeaning/projectWish null, scoreDelta0 and old hard constraints; six unknown/free-text themes do not infer meaning. Neutral future general does not need a fabricated theme.
+
+Future hunk D (separate activation and sealing):
+  = CURRENT/Service/Store/compact/API/UI/source originals and coverage are untouched by this package.
+  + Actual registration, generation/save/restore consumers, UI/native/release and deduplicated coverage require separate evidence/decision.
+  = No manifest self-hash: integration contract binds payload/script pins; an external final receipt binds the finished manifest.
+
+CURRENT EXACT ARTIFACT BYTE PINS
+publication.json 315ea65ed78cf3b5b630a6dd8e525924f89b0355a98685d5503e02737aea7431 612192B
+source-lock.json 9261c3cc633802c41ecce826e175fab373dab461281525e6b78918284ae1c975 6207B
+lineage.json 1bb823792457ac0a966896b094b4d4bbfe720dbbe1821c0b6b279d1e4c555af2 56224B
+revision-proposals.json b37708c5b2da686598c75d135c1fbd957740b2bbbf4899be48542319293277bc 3162B
+
+CANDIDATE SCRIPT BYTE PINS (INERT EVIDENCE; DO NOT EXECUTE AS A LOADER)
+pins.mjs c4f1e3fe1232a1613b35016b42c453496ebd670d4adf96517a2631015eb2edd6 4928B
+convert.mjs 3a1fe4e32df410e0cc42f08bdbb5c88e584f7b370749a65654a545ba9677aa14 17153B
+verify.mjs 4c0681a4e357d39dcb42789be03a7ab2970fd31c289aa66bc999284e1a28905e 4787B
+seal.mjs ec2cc4ea2ffc3607d8ad5ce06939378e35a507ad9bc5ee16d63792ebb7fc8ffb 794B
+
+FIXED13 INPUT PINS
+inputs/m910-selection.json 6019bf2c7bc170af093c5bf6458e798968f63a6c03dd09b24dc35abb6fd4948f 23959B
+inputs/m910-source-subset.json e9e096c203b8ae640fe9ae64f91ab25bbbe9c8fd62cf6ce36c8a8224dea17893 45689B
+inputs/m910-manifest.json a345d11b3f34cb5d4bc8b0a6de8453a2ff0cd68e559af5f0f48a215380da3e8c 1262B
+inputs/m910-source-lock.json fec799c8ac7848e9eb0360207931862a3a06eda7bcf7570282daef22fd1d7307 5304B
+inputs/m914-selection.json b7e6d8bbf2ca13c086f781763e6b74ffb344f5585561be43b1a5705871e7bdf5 66093B
+inputs/m914-source-subset.json 8d76e27ad008ed92747ac19aa04563233a5479f215ba03743eff63d654c958ff 106824B
+inputs/m914-manifest.json 1f599fb1dd014448674d39a95c1bc5c62372c1d80b9bf73de1d467ac9e00f6e8 1261B
+inputs/m914-source-lock.json 93cbee88e96b9a4e95cc0c2d2e19f0288d85040cce53ce45c7c1ed8b7864ee48 2199B
+inputs/m916-review-input.json 4c7f842b268943eab7d7207b5df2941ada3286d1558ad4eebc846830ce717291 101050B
+inputs/m916-semantic-review.json 55c0a6f9fd33b61e4a219da6d30275b9001e8bf519a33daf525ff269006555cf 101720B
+inputs/m916-manifest.json d1c357985dcda8d74b063a05b2e06512a882f40ca573bb5a86db558a95cca2b1 1896B
+inputs/m917-decision-contract.json 99e649b8db0ccb8ab2dd979807f05cf1991e836bd7b211e161ee13a3655f2bed 12087B
+inputs/m917-rows.jsonl 20feda04fc9387b6fc20de641e4b38dc52a805236ebd96a7f80d2f5ba80ea17e 145675B
+
+FIXED10 SOURCE/INTERFACE PINS
+data/dataset-v6.json 3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728 1563457B
+data/knowledge-v6.sqlite 1875aa49dcfaeca0f266a3be7578e4d4b2a9b2c9c1f59fd79699a3e26d5d6b8b 1454080B
+data/raw/moe-revised.json.gz cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e 20310688B
+data/raw/kTraditionalVariant.txt 4eca6285d45070548e6e6c06e4b48c3ca6866d4380e8cb980c512f5d1fc71895 86288B
+data/raw/kSimplifiedVariant.txt a7f0c9dbbca85cffd90517fa6ea9be97d2e6f811328a59b6b303d58a418ac9be 88425B
+data/raw/moe-README.md a93321d9381bc1cf34b4ad844f71607fa748c86c0b228ae37d46720d6a659cb2 1214B
+data/raw/CC-BY-ND-3.0-TW.html 04e6ef69a223b6e13c93c97a918ad5fd0dbb9fc34ae307f4449ed264e2d4108f 31775B
+data/raw/unicode-LICENSE fe5c62b543e287981db198f2acfa0ca732d12591a1024536dc8fd85dacd77104 2033B
+src/shared/naming-semantic-admission-v72.ts d36c063bb549c354627e37858f62aa8dd8263d3c47566882581b2817ff9fde15 7470B
+src/domain/naming-semantic-admission-v72.ts 26eeb2959d9ff815c625a2da6c0c8524ecd381f6d00cc3abf50ac974f9e2e808 15942B
+
+Original verifier discrepancy remains: committed4305B/b026018d141d773b107f41445ba06be69710e118e7067195e8ef136680e23306 vs declared working4306B/311faaea2ebcdffa3d98acdc5361c91d6d2e5ca1f6a39371cddfcf884ba08b63, normalizedLF equal. No old-manifest blanket approval.
+No product/runtime/tsc/tests or actual registration executed by the interface author.
+
+Candidate verification scope: deterministic output uses expected exact UTF8 pretty-JSON+LF bytes before parse/deep comparison; duplicate/unknown/reordered/resealed JSON is not approved from self-consistency. verify.mjs is inert evidence, never executed by a future trusted runtime loader.

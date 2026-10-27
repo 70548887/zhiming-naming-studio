@@ -1,0 +1,3701 @@
+{
+  "schemaVersion": 1,
+  "ruleVersion": "hour-xunkong-yima/1.0.0",
+  "sourceIds": [
+    "qimen-arc-markers",
+    "qimen-go-markers"
+  ],
+  "note": "Expected markers originate from fixed external source tables and the independently transcribed 12 anchors. No src or lunar-typescript import. Negative examples assert absence on all other palaces, including center 5; these universal markers always exist for a valid hour.",
+  "handChecks": [
+    {
+      "hourGanzhi": "甲子",
+      "xunHead": "甲子",
+      "voidBranches": [
+        "戌",
+        "亥"
+      ],
+      "voidPalaces": [
+        6
+      ],
+      "horseBranch": "寅",
+      "horsePalace": 8
+    },
+    {
+      "hourGanzhi": "乙丑",
+      "xunHead": "甲子",
+      "voidBranches": [
+        "戌",
+        "亥"
+      ],
+      "voidPalaces": [
+        6
+      ],
+      "horseBranch": "亥",
+      "horsePalace": 6
+    },
+    {
+      "hourGanzhi": "甲戌",
+      "xunHead": "甲戌",
+      "voidBranches": [
+        "申",
+        "酉"
+      ],
+      "voidPalaces": [
+        2,
+        7
+      ],
+      "horseBranch": "申",
+      "horsePalace": 2
+    },
+    {
+      "hourGanzhi": "乙亥",
+      "xunHead": "甲戌",
+      "voidBranches": [
+        "申",
+        "酉"
+      ],
+      "voidPalaces": [
+        2,
+        7
+      ],
+      "horseBranch": "巳",
+      "horsePalace": 4
+    },
+    {
+      "hourGanzhi": "甲申",
+      "xunHead": "甲申",
+      "voidBranches": [
+        "午",
+        "未"
+      ],
+      "voidPalaces": [
+        2,
+        9
+      ],
+      "horseBranch": "寅",
+      "horsePalace": 8
+    },
+    {
+      "hourGanzhi": "乙酉",
+      "xunHead": "甲申",
+      "voidBranches": [
+        "午",
+        "未"
+      ],
+      "voidPalaces": [
+        2,
+        9
+      ],
+      "horseBranch": "亥",
+      "horsePalace": 6
+    },
+    {
+      "hourGanzhi": "甲午",
+      "xunHead": "甲午",
+      "voidBranches": [
+        "辰",
+        "巳"
+      ],
+      "voidPalaces": [
+        4
+      ],
+      "horseBranch": "申",
+      "horsePalace": 2
+    },
+    {
+      "hourGanzhi": "乙未",
+      "xunHead": "甲午",
+      "voidBranches": [
+        "辰",
+        "巳"
+      ],
+      "voidPalaces": [
+        4
+      ],
+      "horseBranch": "巳",
+      "horsePalace": 4
+    },
+    {
+      "hourGanzhi": "甲辰",
+      "xunHead": "甲辰",
+      "voidBranches": [
+        "寅",
+        "卯"
+      ],
+      "voidPalaces": [
+        3,
+        8
+      ],
+      "horseBranch": "寅",
+      "horsePalace": 8
+    },
+    {
+      "hourGanzhi": "乙巳",
+      "xunHead": "甲辰",
+      "voidBranches": [
+        "寅",
+        "卯"
+      ],
+      "voidPalaces": [
+        3,
+        8
+      ],
+      "horseBranch": "亥",
+      "horsePalace": 6
+    },
+    {
+      "hourGanzhi": "甲寅",
+      "xunHead": "甲寅",
+      "voidBranches": [
+        "子",
+        "丑"
+      ],
+      "voidPalaces": [
+        1,
+        8
+      ],
+      "horseBranch": "申",
+      "horsePalace": 2
+    },
+    {
+      "hourGanzhi": "乙卯",
+      "xunHead": "甲寅",
+      "voidBranches": [
+        "子",
+        "丑"
+      ],
+      "voidPalaces": [
+        1,
+        8
+      ],
+      "horseBranch": "巳",
+      "horsePalace": 4
+    }
+  ],
+  "plateCases": [
+    {
+      "id": "external-甲子-甲子",
+      "input": {
+        "dayGanzhi": "甲子",
+        "timeGanzhi": "甲子",
+        "solarTerm": "冬至"
+      },
+      "expected": {
+        "xunHead": "甲子",
+        "voidBranches": [
+          "戌",
+          "亥"
+        ],
+        "voidPalaces": [
+          6
+        ],
+        "horseBranch": "寅",
+        "horsePalace": 8
+      },
+      "absent": {
+        "voidPalaces": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          8,
+          9
+        ],
+        "horsePalaces": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9
+        ]
+      },
+      "tags": [
+        "yang",
+        "external-table",
+        "xun-boundary",
+        "center-unmarked"
+      ],
+      "evidence": [
+        "Arc SIX_XUNS lists 甲子 under 甲子",
+        "Arc XUN_TO_KONGWANG_ZHI / Go KongWang agree; Go ZhiGong9 and Horse are independently transcribed source tables"
+      ]
+    },
+    {
+      "id": "external-甲子-乙丑",
+      "input": {
+        "dayGanzhi": "甲子",
+        "timeGanzhi": "乙丑",
+        "solarTerm": "冬至"
+      },
+      "expected": {
+        "xunHead": "甲子",
+        "voidBranches": [
+          "戌",
+          "亥"
+        ],
+        "voidPalaces": [
+          6
+        ],
+        "horseBranch": "亥",
+        "horsePalace": 6
+      },
+      "absent": {
+        "voidPalaces": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          8,
+          9
+        ],
+        "horsePalaces": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          8,
+          9
+        ]
+      },
+      "tags": [
+        "yang",
+        "external-table",
+        "center-unmarked"
+      ],
+      "evidence": [
+        "Arc SIX_XUNS lists 乙丑 under 甲子",
+        "Arc XUN_TO_KONGWANG_ZHI / Go KongWang agree; Go ZhiGong9 and Horse are independently transcribed source tables"
+      ]
+    },
+    {
+      "id": "external-甲子-丙寅",
+      "input": {
+        "dayGanzhi": "甲子",
+        "timeGanzhi": "丙寅",
+        "solarTerm": "冬至"
+      },
+      "expected": {
+        "xunHead": "甲子",
+        "voidBranches": [
+          "戌",
+          "亥"
+        ],
+        "voidPalaces": [
+          6
+        ],
+        "horseBranch": "申",
+        "horsePalace": 2
+      },
+      "absent": {
+        "voidPalaces": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          8,
+          9
+        ],
+        "horsePalaces": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "tags": [
+        "yang",
+        "external-table",
+        "center-unmarked"
+      ],
+      "evidence": [
+        "Arc SIX_XUNS lists 丙寅 under 甲子",
+        "Arc XUN_TO_KONGWANG_ZHI / Go KongWang agree; Go ZhiGong9 and Horse are independently transcribed source tables"
+      ]
+    },
+    {
+      "id": "external-甲子-丁卯",
+      "input": {
+        "dayGanzhi": "甲子",
+        "timeGanzhi": "丁卯",
+        "solarTerm": "冬至"
+      },
+      "expected": {
+        "xunHead": "甲子",
+        "voidBranches": [
+          "戌",
+          "亥"
+        ],
+        "voidPalaces": [
+          6
+        ],
+        "horseBranch": "巳",
+        "horsePalace": 4
+      },
+      "absent": {
+        "voidPalaces": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          8,
+          9
+        ],
+        "horsePalaces": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "tags": [
+        "yang",
+        "external-table",
+        "center-unmarked"
+      ],
+      "evidence": [
+        "Arc SIX_XUNS lists 丁卯 under 甲子",
+        "Arc XUN_TO_KONGWANG_ZHI / Go KongWang agree; Go ZhiGong9 and Horse are independently transcribed source tables"
+      ]
+    },
+    {
+      "id": "external-甲子-戊辰",
+      "input": {
+        "dayGanzhi": "甲子",
+        "timeGanzhi": "戊辰",
+        "solarTerm": "冬至"
+      },
+      "expected": {
+        "xunHead": "甲子",
+        "voidBranches": [
+          "戌",
+          "亥"
+        ],
+        "voidPalaces": [
+          6
+        ],
+        "horseBranch": "寅",
+        "horsePalace": 8
+      },
+      "absent": {
+        "voidPalaces": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          8,
+          9
+        ],
+        "horsePalaces": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9
+        ]
+      },
+      "tags": [
+        "yang",
+        "external-table",
+        "center-unmarked"
+      ],
+      "evidence": [
+        "Arc SIX_XUNS lists 戊辰 under 甲子",
+        "Arc XUN_TO_KONGWANG_ZHI / Go KongWang agree; Go ZhiGong9 and Horse are independently transcribed source tables"
+      ]
+    },
+    {
+      "id": "external-甲子-己巳",
+      "input": {
+        "dayGanzhi": "甲子",
+        "timeGanzhi": "己巳",
+        "solarTerm": "冬至"
+      },
+      "expected": {
+        "xunHead": "甲子",
+        "voidBranches": [
+          "戌",
+          "亥"
+        ],
+        "voidPalaces": [
+          6
+        ],
+        "horseBranch": "亥",
+        "horsePalace": 6
+      },
+      "absent": {
+        "voidPalaces": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          8,
+          9
+        ],
+        "horsePalaces": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          8,
+          9
+        ]
+      },
+      "tags": [
+        "yang",
+        "external-table",
+        "center-unmarked"
+      ],
+      "evidence": [
+        "Arc SIX_XUNS lists 己巳 under 甲子",
+        "Arc XUN_TO_KONGWANG_ZHI / Go KongWang agree; Go ZhiGong9 and Horse are independently transcribed source tables"
+      ]
+    },
+    {
+      "id": "external-甲子-庚午",
+      "input": {
+        "dayGanzhi": "甲子",
+        "timeGanzhi": "庚午",
+        "solarTerm": "冬至"
+      },
+      "expected": {
+        "xunHead": "甲子",
+        "voidBranches": [
+          "戌",
+          "亥"
+        ],
+        "voidPalaces": [
+          6
+        ],
+        "horseBranch": "申",
+        "horsePalace": 2
+      },
+      "absent": {
+        "voidPalaces": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          8,
+          9
+        ],
+        "horsePalaces": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "tags": [
+        "yang",
+        "external-table",
+        "center-unmarked"
+      ],
+      "evidence": [
+        "Arc SIX_XUNS lists 庚午 under 甲子",
+        "Arc XUN_TO_KONGWANG_ZHI / Go KongWang agree; Go ZhiGong9 and Horse are independently transcribed source tables"
+      ]
+    },
+    {
+      "id": "external-甲子-辛未",
+      "input": {
+        "dayGanzhi": "甲子",
+        "timeGanzhi": "辛未",
+        "solarTerm": "冬至"
+      },
+      "expected": {
+        "xunHead": "甲子",
+        "voidBranches": [
+          "戌",
+          "亥"
+        ],
+        "voidPalaces": [
+          6
+        ],
+        "horseBranch": "巳",
+        "horsePalace": 4
+      },
+      "absent": {
+        "voidPalaces": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          8,
+          9
+        ],
+        "horsePalaces": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "tags": [
+        "yang",
+        "external-table",
+        "center-unmarked"
+      ],
+      "evidence": [
+        "Arc SIX_XUNS lists 辛未 under 甲子",
+        "Arc XUN_TO_KONGWANG_ZHI / Go KongWang agree; Go ZhiGong9 and Horse are independently transcribed source tables"
+      ]
+    },
+    {
+      "id": "external-甲子-壬申",
+      "input": {
+        "dayGanzhi": "甲子",
+        "timeGanzhi": "壬申",
+        "solarTerm": "冬至"
+      },
+      "expected": {
+        "xunHead": "甲子",
+        "voidBranches": [
+          "戌",
+          "亥"
+        ],
+        "voidPalaces": [
+          6
+        ],
+        "horseBranch": "寅",
+        "horsePalace": 8
+      },
+      "absent": {
+        "voidPalaces": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          8,
+          9
+        ],
+        "horsePalaces": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9
+        ]
+      },
+      "tags": [
+        "yang",
+        "external-table",
+        "center-unmarked"
+      ],
+      "evidence": [
+        "Arc SIX_XUNS lists 壬申 under 甲子",
+        "Arc XUN_TO_KONGWANG_ZHI / Go KongWang agree; Go ZhiGong9 and Horse are independently transcribed source tables"
+      ]
+    },
+    {
+      "id": "external-甲子-癸酉",
+      "input": {
+        "dayGanzhi": "甲子",
+        "timeGanzhi": "癸酉",
+        "solarTerm": "冬至"
+      },
+      "expected": {
+        "xunHead": "甲子",
+        "voidBranches": [
+          "戌",
+          "亥"
+        ],
+        "voidPalaces": [
+          6
+        ],
+        "horseBranch": "亥",
+        "horsePalace": 6
+      },
+      "absent": {
+        "voidPalaces": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          8,
+          9
+        ],
+        "horsePalaces": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          8,
+          9
+        ]
+      },
+      "tags": [
+        "yang",
+        "external-table",
+        "center-unmarked"
+      ],
+      "evidence": [
+        "Arc SIX_XUNS lists 癸酉 under 甲子",
+        "Arc XUN_TO_KONGWANG_ZHI / Go KongWang agree; Go ZhiGong9 and Horse are independently transcribed source tables"
+      ]
+    },
+    {
+      "id": "external-甲戌-甲戌",
+      "input": {
+        "dayGanzhi": "甲子",
+        "timeGanzhi": "甲戌",
+        "solarTerm": "夏至"
+      },
+      "expected": {
+        "xunHead": "甲戌",
+        "voidBranches": [
+          "申",
+          "酉"
+        ],
+        "voidPalaces": [
+          2,
+          7
+        ],
+        "horseBranch": "申",
+        "horsePalace": 2
+      },
+      "absent": {
+        "voidPalaces": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          8,
+          9
+        ],
+        "horsePalaces": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "tags": [
+        "yin",
+        "external-table",
+        "xun-boundary",
+        "center-unmarked"
+      ],
+      "evidence": [
+        "Arc SIX_XUNS lists 甲戌 under 甲戌",
+        "Arc XUN_TO_KONGWANG_ZHI / Go KongWang agree; Go ZhiGong9 and Horse are independently transcribed source tables"
+      ]
+    },
+    {
+      "id": "external-甲戌-乙亥",
+      "input": {
+        "dayGanzhi": "甲子",
+        "timeGanzhi": "乙亥",
+        "solarTerm": "夏至"
+      },
+      "expected": {
+        "xunHead": "甲戌",
+        "voidBranches": [
+          "申",
+          "酉"
+        ],
+        "voidPalaces": [
+          2,
+          7
+        ],
+        "horseBranch": "巳",
+        "horsePalace": 4
+      },
+      "absent": {
+        "voidPalaces": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          8,
+          9
+        ],
+        "horsePalaces": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "tags": [
+        "yin",
+        "external-table",
+        "center-unmarked"
+      ],
+      "evidence": [
+        "Arc SIX_XUNS lists 乙亥 under 甲戌",
+        "Arc XUN_TO_KONGWANG_ZHI / Go KongWang agree; Go ZhiGong9 and Horse are independently transcribed source tables"
+      ]
+    },
+    {
+      "id": "external-甲戌-丙子",
+      "input": {
+        "dayGanzhi": "乙丑",
+        "timeGanzhi": "丙子",
+        "solarTerm": "夏至"
+      },
+      "expected": {
+        "xunHead": "甲戌",
+        "voidBranches": [
+          "申",
+          "酉"
+        ],
+        "voidPalaces": [
+          2,
+          7
+        ],
+        "horseBranch": "寅",
+        "horsePalace": 8
+      },
+      "absent": {
+        "voidPalaces": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          8,
+          9
+        ],
+        "horsePalaces": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9
+        ]
+      },
+      "tags": [
+        "yin",
+        "external-table",
+        "center-unmarked"
+      ],
+      "evidence": [
+        "Arc SIX_XUNS lists 丙子 under 甲戌",
+        "Arc XUN_TO_KONGWANG_ZHI / Go KongWang agree; Go ZhiGong9 and Horse are independently transcribed source tables"
+      ]
+    },
+    {
+      "id": "external-甲戌-丁丑",
+      "input": {
+        "dayGanzhi": "乙丑",
+        "timeGanzhi": "丁丑",
+        "solarTerm": "夏至"
+      },
+      "expected": {
+        "xunHead": "甲戌",
+        "voidBranches": [
+          "申",
+          "酉"
+        ],
+        "voidPalaces": [
+          2,
+          7
+        ],
+        "horseBranch": "亥",
+        "horsePalace": 6
+      },
+      "absent": {
+        "voidPalaces": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          8,
+          9
+        ],
+        "horsePalaces": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          8,
+          9
+        ]
+      },
+      "tags": [
+        "yin",
+        "external-table",
+        "center-unmarked"
+      ],
+      "evidence": [
+        "Arc SIX_XUNS lists 丁丑 under 甲戌",
+        "Arc XUN_TO_KONGWANG_ZHI / Go KongWang agree; Go ZhiGong9 and Horse are independently transcribed source tables"
+      ]
+    },
+    {
+      "id": "external-甲戌-戊寅",
+      "input": {
+        "dayGanzhi": "乙丑",
+        "timeGanzhi": "戊寅",
+        "solarTerm": "夏至"
+      },
+      "expected": {
+        "xunHead": "甲戌",
+        "voidBranches": [
+          "申",
+          "酉"
+        ],
+        "voidPalaces": [
+          2,
+          7
+        ],
+        "horseBranch": "申",
+        "horsePalace": 2
+      },
+      "absent": {
+        "voidPalaces": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          8,
+          9
+        ],
+        "horsePalaces": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "tags": [
+        "yin",
+        "external-table",
+        "center-unmarked"
+      ],
+      "evidence": [
+        "Arc SIX_XUNS lists 戊寅 under 甲戌",
+        "Arc XUN_TO_KONGWANG_ZHI / Go KongWang agree; Go ZhiGong9 and Horse are independently transcribed source tables"
+      ]
+    },
+    {
+      "id": "external-甲戌-己卯",
+      "input": {
+        "dayGanzhi": "乙丑",
+        "timeGanzhi": "己卯",
+        "solarTerm": "夏至"
+      },
+      "expected": {
+        "xunHead": "甲戌",
+        "voidBranches": [
+          "申",
+          "酉"
+        ],
+        "voidPalaces": [
+          2,
+          7
+        ],
+        "horseBranch": "巳",
+        "horsePalace": 4
+      },
+      "absent": {
+        "voidPalaces": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          8,
+          9
+        ],
+        "horsePalaces": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "tags": [
+        "yin",
+        "external-table",
+        "center-unmarked"
+      ],
+      "evidence": [
+        "Arc SIX_XUNS lists 己卯 under 甲戌",
+        "Arc XUN_TO_KONGWANG_ZHI / Go KongWang agree; Go ZhiGong9 and Horse are independently transcribed source tables"
+      ]
+    },
+    {
+      "id": "external-甲戌-庚辰",
+      "input": {
+        "dayGanzhi": "乙丑",
+        "timeGanzhi": "庚辰",
+        "solarTerm": "夏至"
+      },
+      "expected": {
+        "xunHead": "甲戌",
+        "voidBranches": [
+          "申",
+          "酉"
+        ],
+        "voidPalaces": [
+          2,
+          7
+        ],
+        "horseBranch": "寅",
+        "horsePalace": 8
+      },
+      "absent": {
+        "voidPalaces": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          8,
+          9
+        ],
+        "horsePalaces": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9
+        ]
+      },
+      "tags": [
+        "yin",
+        "external-table",
+        "center-unmarked"
+      ],
+      "evidence": [
+        "Arc SIX_XUNS lists 庚辰 under 甲戌",
+        "Arc XUN_TO_KONGWANG_ZHI / Go KongWang agree; Go ZhiGong9 and Horse are independently transcribed source tables"
+      ]
+    },
+    {
+      "id": "external-甲戌-辛巳",
+      "input": {
+        "dayGanzhi": "乙丑",
+        "timeGanzhi": "辛巳",
+        "solarTerm": "夏至"
+      },
+      "expected": {
+        "xunHead": "甲戌",
+        "voidBranches": [
+          "申",
+          "酉"
+        ],
+        "voidPalaces": [
+          2,
+          7
+        ],
+        "horseBranch": "亥",
+        "horsePalace": 6
+      },
+      "absent": {
+        "voidPalaces": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          8,
+          9
+        ],
+        "horsePalaces": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          8,
+          9
+        ]
+      },
+      "tags": [
+        "yin",
+        "external-table",
+        "center-unmarked"
+      ],
+      "evidence": [
+        "Arc SIX_XUNS lists 辛巳 under 甲戌",
+        "Arc XUN_TO_KONGWANG_ZHI / Go KongWang agree; Go ZhiGong9 and Horse are independently transcribed source tables"
+      ]
+    },
+    {
+      "id": "external-甲戌-壬午",
+      "input": {
+        "dayGanzhi": "乙丑",
+        "timeGanzhi": "壬午",
+        "solarTerm": "夏至"
+      },
+      "expected": {
+        "xunHead": "甲戌",
+        "voidBranches": [
+          "申",
+          "酉"
+        ],
+        "voidPalaces": [
+          2,
+          7
+        ],
+        "horseBranch": "申",
+        "horsePalace": 2
+      },
+      "absent": {
+        "voidPalaces": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          8,
+          9
+        ],
+        "horsePalaces": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "tags": [
+        "yin",
+        "external-table",
+        "center-unmarked"
+      ],
+      "evidence": [
+        "Arc SIX_XUNS lists 壬午 under 甲戌",
+        "Arc XUN_TO_KONGWANG_ZHI / Go KongWang agree; Go ZhiGong9 and Horse are independently transcribed source tables"
+      ]
+    },
+    {
+      "id": "external-甲戌-癸未",
+      "input": {
+        "dayGanzhi": "乙丑",
+        "timeGanzhi": "癸未",
+        "solarTerm": "夏至"
+      },
+      "expected": {
+        "xunHead": "甲戌",
+        "voidBranches": [
+          "申",
+          "酉"
+        ],
+        "voidPalaces": [
+          2,
+          7
+        ],
+        "horseBranch": "巳",
+        "horsePalace": 4
+      },
+      "absent": {
+        "voidPalaces": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          8,
+          9
+        ],
+        "horsePalaces": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "tags": [
+        "yin",
+        "external-table",
+        "center-unmarked"
+      ],
+      "evidence": [
+        "Arc SIX_XUNS lists 癸未 under 甲戌",
+        "Arc XUN_TO_KONGWANG_ZHI / Go KongWang agree; Go ZhiGong9 and Horse are independently transcribed source tables"
+      ]
+    },
+    {
+      "id": "external-甲申-甲申",
+      "input": {
+        "dayGanzhi": "乙丑",
+        "timeGanzhi": "甲申",
+        "solarTerm": "冬至"
+      },
+      "expected": {
+        "xunHead": "甲申",
+        "voidBranches": [
+          "午",
+          "未"
+        ],
+        "voidPalaces": [
+          2,
+          9
+        ],
+        "horseBranch": "寅",
+        "horsePalace": 8
+      },
+      "absent": {
+        "voidPalaces": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "horsePalaces": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9
+        ]
+      },
+      "tags": [
+        "yang",
+        "external-table",
+        "xun-boundary",
+        "center-unmarked"
+      ],
+      "evidence": [
+        "Arc SIX_XUNS lists 甲申 under 甲申",
+        "Arc XUN_TO_KONGWANG_ZHI / Go KongWang agree; Go ZhiGong9 and Horse are independently transcribed source tables"
+      ]
+    },
+    {
+      "id": "external-甲申-乙酉",
+      "input": {
+        "dayGanzhi": "乙丑",
+        "timeGanzhi": "乙酉",
+        "solarTerm": "冬至"
+      },
+      "expected": {
+        "xunHead": "甲申",
+        "voidBranches": [
+          "午",
+          "未"
+        ],
+        "voidPalaces": [
+          2,
+          9
+        ],
+        "horseBranch": "亥",
+        "horsePalace": 6
+      },
+      "absent": {
+        "voidPalaces": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "horsePalaces": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          8,
+          9
+        ]
+      },
+      "tags": [
+        "yang",
+        "external-table",
+        "center-unmarked"
+      ],
+      "evidence": [
+        "Arc SIX_XUNS lists 乙酉 under 甲申",
+        "Arc XUN_TO_KONGWANG_ZHI / Go KongWang agree; Go ZhiGong9 and Horse are independently transcribed source tables"
+      ]
+    },
+    {
+      "id": "external-甲申-丙戌",
+      "input": {
+        "dayGanzhi": "乙丑",
+        "timeGanzhi": "丙戌",
+        "solarTerm": "冬至"
+      },
+      "expected": {
+        "xunHead": "甲申",
+        "voidBranches": [
+          "午",
+          "未"
+        ],
+        "voidPalaces": [
+          2,
+          9
+        ],
+        "horseBranch": "申",
+        "horsePalace": 2
+      },
+      "absent": {
+        "voidPalaces": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "horsePalaces": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "tags": [
+        "yang",
+        "external-table",
+        "center-unmarked"
+      ],
+      "evidence": [
+        "Arc SIX_XUNS lists 丙戌 under 甲申",
+        "Arc XUN_TO_KONGWANG_ZHI / Go KongWang agree; Go ZhiGong9 and Horse are independently transcribed source tables"
+      ]
+    },
+    {
+      "id": "external-甲申-丁亥",
+      "input": {
+        "dayGanzhi": "乙丑",
+        "timeGanzhi": "丁亥",
+        "solarTerm": "冬至"
+      },
+      "expected": {
+        "xunHead": "甲申",
+        "voidBranches": [
+          "午",
+          "未"
+        ],
+        "voidPalaces": [
+          2,
+          9
+        ],
+        "horseBranch": "巳",
+        "horsePalace": 4
+      },
+      "absent": {
+        "voidPalaces": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "horsePalaces": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "tags": [
+        "yang",
+        "external-table",
+        "center-unmarked"
+      ],
+      "evidence": [
+        "Arc SIX_XUNS lists 丁亥 under 甲申",
+        "Arc XUN_TO_KONGWANG_ZHI / Go KongWang agree; Go ZhiGong9 and Horse are independently transcribed source tables"
+      ]
+    },
+    {
+      "id": "external-甲申-戊子",
+      "input": {
+        "dayGanzhi": "丙寅",
+        "timeGanzhi": "戊子",
+        "solarTerm": "冬至"
+      },
+      "expected": {
+        "xunHead": "甲申",
+        "voidBranches": [
+          "午",
+          "未"
+        ],
+        "voidPalaces": [
+          2,
+          9
+        ],
+        "horseBranch": "寅",
+        "horsePalace": 8
+      },
+      "absent": {
+        "voidPalaces": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "horsePalaces": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9
+        ]
+      },
+      "tags": [
+        "yang",
+        "external-table",
+        "center-unmarked"
+      ],
+      "evidence": [
+        "Arc SIX_XUNS lists 戊子 under 甲申",
+        "Arc XUN_TO_KONGWANG_ZHI / Go KongWang agree; Go ZhiGong9 and Horse are independently transcribed source tables"
+      ]
+    },
+    {
+      "id": "external-甲申-己丑",
+      "input": {
+        "dayGanzhi": "丙寅",
+        "timeGanzhi": "己丑",
+        "solarTerm": "冬至"
+      },
+      "expected": {
+        "xunHead": "甲申",
+        "voidBranches": [
+          "午",
+          "未"
+        ],
+        "voidPalaces": [
+          2,
+          9
+        ],
+        "horseBranch": "亥",
+        "horsePalace": 6
+      },
+      "absent": {
+        "voidPalaces": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "horsePalaces": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          8,
+          9
+        ]
+      },
+      "tags": [
+        "yang",
+        "external-table",
+        "center-unmarked"
+      ],
+      "evidence": [
+        "Arc SIX_XUNS lists 己丑 under 甲申",
+        "Arc XUN_TO_KONGWANG_ZHI / Go KongWang agree; Go ZhiGong9 and Horse are independently transcribed source tables"
+      ]
+    },
+    {
+      "id": "external-甲申-庚寅",
+      "input": {
+        "dayGanzhi": "丙寅",
+        "timeGanzhi": "庚寅",
+        "solarTerm": "冬至"
+      },
+      "expected": {
+        "xunHead": "甲申",
+        "voidBranches": [
+          "午",
+          "未"
+        ],
+        "voidPalaces": [
+          2,
+          9
+        ],
+        "horseBranch": "申",
+        "horsePalace": 2
+      },
+      "absent": {
+        "voidPalaces": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "horsePalaces": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "tags": [
+        "yang",
+        "external-table",
+        "center-unmarked"
+      ],
+      "evidence": [
+        "Arc SIX_XUNS lists 庚寅 under 甲申",
+        "Arc XUN_TO_KONGWANG_ZHI / Go KongWang agree; Go ZhiGong9 and Horse are independently transcribed source tables"
+      ]
+    },
+    {
+      "id": "external-甲申-辛卯",
+      "input": {
+        "dayGanzhi": "丙寅",
+        "timeGanzhi": "辛卯",
+        "solarTerm": "冬至"
+      },
+      "expected": {
+        "xunHead": "甲申",
+        "voidBranches": [
+          "午",
+          "未"
+        ],
+        "voidPalaces": [
+          2,
+          9
+        ],
+        "horseBranch": "巳",
+        "horsePalace": 4
+      },
+      "absent": {
+        "voidPalaces": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "horsePalaces": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "tags": [
+        "yang",
+        "external-table",
+        "center-unmarked"
+      ],
+      "evidence": [
+        "Arc SIX_XUNS lists 辛卯 under 甲申",
+        "Arc XUN_TO_KONGWANG_ZHI / Go KongWang agree; Go ZhiGong9 and Horse are independently transcribed source tables"
+      ]
+    },
+    {
+      "id": "external-甲申-壬辰",
+      "input": {
+        "dayGanzhi": "丙寅",
+        "timeGanzhi": "壬辰",
+        "solarTerm": "冬至"
+      },
+      "expected": {
+        "xunHead": "甲申",
+        "voidBranches": [
+          "午",
+          "未"
+        ],
+        "voidPalaces": [
+          2,
+          9
+        ],
+        "horseBranch": "寅",
+        "horsePalace": 8
+      },
+      "absent": {
+        "voidPalaces": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "horsePalaces": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9
+        ]
+      },
+      "tags": [
+        "yang",
+        "external-table",
+        "center-unmarked"
+      ],
+      "evidence": [
+        "Arc SIX_XUNS lists 壬辰 under 甲申",
+        "Arc XUN_TO_KONGWANG_ZHI / Go KongWang agree; Go ZhiGong9 and Horse are independently transcribed source tables"
+      ]
+    },
+    {
+      "id": "external-甲申-癸巳",
+      "input": {
+        "dayGanzhi": "丙寅",
+        "timeGanzhi": "癸巳",
+        "solarTerm": "冬至"
+      },
+      "expected": {
+        "xunHead": "甲申",
+        "voidBranches": [
+          "午",
+          "未"
+        ],
+        "voidPalaces": [
+          2,
+          9
+        ],
+        "horseBranch": "亥",
+        "horsePalace": 6
+      },
+      "absent": {
+        "voidPalaces": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "horsePalaces": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          8,
+          9
+        ]
+      },
+      "tags": [
+        "yang",
+        "external-table",
+        "center-unmarked"
+      ],
+      "evidence": [
+        "Arc SIX_XUNS lists 癸巳 under 甲申",
+        "Arc XUN_TO_KONGWANG_ZHI / Go KongWang agree; Go ZhiGong9 and Horse are independently transcribed source tables"
+      ]
+    },
+    {
+      "id": "external-甲午-甲午",
+      "input": {
+        "dayGanzhi": "丙寅",
+        "timeGanzhi": "甲午",
+        "solarTerm": "夏至"
+      },
+      "expected": {
+        "xunHead": "甲午",
+        "voidBranches": [
+          "辰",
+          "巳"
+        ],
+        "voidPalaces": [
+          4
+        ],
+        "horseBranch": "申",
+        "horsePalace": 2
+      },
+      "absent": {
+        "voidPalaces": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "horsePalaces": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "tags": [
+        "yin",
+        "external-table",
+        "xun-boundary",
+        "center-unmarked"
+      ],
+      "evidence": [
+        "Arc SIX_XUNS lists 甲午 under 甲午",
+        "Arc XUN_TO_KONGWANG_ZHI / Go KongWang agree; Go ZhiGong9 and Horse are independently transcribed source tables"
+      ]
+    },
+    {
+      "id": "external-甲午-乙未",
+      "input": {
+        "dayGanzhi": "丙寅",
+        "timeGanzhi": "乙未",
+        "solarTerm": "夏至"
+      },
+      "expected": {
+        "xunHead": "甲午",
+        "voidBranches": [
+          "辰",
+          "巳"
+        ],
+        "voidPalaces": [
+          4
+        ],
+        "horseBranch": "巳",
+        "horsePalace": 4
+      },
+      "absent": {
+        "voidPalaces": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "horsePalaces": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "tags": [
+        "yin",
+        "external-table",
+        "center-unmarked"
+      ],
+      "evidence": [
+        "Arc SIX_XUNS lists 乙未 under 甲午",
+        "Arc XUN_TO_KONGWANG_ZHI / Go KongWang agree; Go ZhiGong9 and Horse are independently transcribed source tables"
+      ]
+    },
+    {
+      "id": "external-甲午-丙申",
+      "input": {
+        "dayGanzhi": "丙寅",
+        "timeGanzhi": "丙申",
+        "solarTerm": "夏至"
+      },
+      "expected": {
+        "xunHead": "甲午",
+        "voidBranches": [
+          "辰",
+          "巳"
+        ],
+        "voidPalaces": [
+          4
+        ],
+        "horseBranch": "寅",
+        "horsePalace": 8
+      },
+      "absent": {
+        "voidPalaces": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "horsePalaces": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9
+        ]
+      },
+      "tags": [
+        "yin",
+        "external-table",
+        "center-unmarked"
+      ],
+      "evidence": [
+        "Arc SIX_XUNS lists 丙申 under 甲午",
+        "Arc XUN_TO_KONGWANG_ZHI / Go KongWang agree; Go ZhiGong9 and Horse are independently transcribed source tables"
+      ]
+    },
+    {
+      "id": "external-甲午-丁酉",
+      "input": {
+        "dayGanzhi": "丙寅",
+        "timeGanzhi": "丁酉",
+        "solarTerm": "夏至"
+      },
+      "expected": {
+        "xunHead": "甲午",
+        "voidBranches": [
+          "辰",
+          "巳"
+        ],
+        "voidPalaces": [
+          4
+        ],
+        "horseBranch": "亥",
+        "horsePalace": 6
+      },
+      "absent": {
+        "voidPalaces": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "horsePalaces": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          8,
+          9
+        ]
+      },
+      "tags": [
+        "yin",
+        "external-table",
+        "center-unmarked"
+      ],
+      "evidence": [
+        "Arc SIX_XUNS lists 丁酉 under 甲午",
+        "Arc XUN_TO_KONGWANG_ZHI / Go KongWang agree; Go ZhiGong9 and Horse are independently transcribed source tables"
+      ]
+    },
+    {
+      "id": "external-甲午-戊戌",
+      "input": {
+        "dayGanzhi": "丙寅",
+        "timeGanzhi": "戊戌",
+        "solarTerm": "夏至"
+      },
+      "expected": {
+        "xunHead": "甲午",
+        "voidBranches": [
+          "辰",
+          "巳"
+        ],
+        "voidPalaces": [
+          4
+        ],
+        "horseBranch": "申",
+        "horsePalace": 2
+      },
+      "absent": {
+        "voidPalaces": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "horsePalaces": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "tags": [
+        "yin",
+        "external-table",
+        "center-unmarked"
+      ],
+      "evidence": [
+        "Arc SIX_XUNS lists 戊戌 under 甲午",
+        "Arc XUN_TO_KONGWANG_ZHI / Go KongWang agree; Go ZhiGong9 and Horse are independently transcribed source tables"
+      ]
+    },
+    {
+      "id": "external-甲午-己亥",
+      "input": {
+        "dayGanzhi": "丙寅",
+        "timeGanzhi": "己亥",
+        "solarTerm": "夏至"
+      },
+      "expected": {
+        "xunHead": "甲午",
+        "voidBranches": [
+          "辰",
+          "巳"
+        ],
+        "voidPalaces": [
+          4
+        ],
+        "horseBranch": "巳",
+        "horsePalace": 4
+      },
+      "absent": {
+        "voidPalaces": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "horsePalaces": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "tags": [
+        "yin",
+        "external-table",
+        "center-unmarked"
+      ],
+      "evidence": [
+        "Arc SIX_XUNS lists 己亥 under 甲午",
+        "Arc XUN_TO_KONGWANG_ZHI / Go KongWang agree; Go ZhiGong9 and Horse are independently transcribed source tables"
+      ]
+    },
+    {
+      "id": "external-甲午-庚子",
+      "input": {
+        "dayGanzhi": "丁卯",
+        "timeGanzhi": "庚子",
+        "solarTerm": "夏至"
+      },
+      "expected": {
+        "xunHead": "甲午",
+        "voidBranches": [
+          "辰",
+          "巳"
+        ],
+        "voidPalaces": [
+          4
+        ],
+        "horseBranch": "寅",
+        "horsePalace": 8
+      },
+      "absent": {
+        "voidPalaces": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "horsePalaces": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9
+        ]
+      },
+      "tags": [
+        "yin",
+        "external-table",
+        "center-unmarked"
+      ],
+      "evidence": [
+        "Arc SIX_XUNS lists 庚子 under 甲午",
+        "Arc XUN_TO_KONGWANG_ZHI / Go KongWang agree; Go ZhiGong9 and Horse are independently transcribed source tables"
+      ]
+    },
+    {
+      "id": "external-甲午-辛丑",
+      "input": {
+        "dayGanzhi": "丁卯",
+        "timeGanzhi": "辛丑",
+        "solarTerm": "夏至"
+      },
+      "expected": {
+        "xunHead": "甲午",
+        "voidBranches": [
+          "辰",
+          "巳"
+        ],
+        "voidPalaces": [
+          4
+        ],
+        "horseBranch": "亥",
+        "horsePalace": 6
+      },
+      "absent": {
+        "voidPalaces": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "horsePalaces": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          8,
+          9
+        ]
+      },
+      "tags": [
+        "yin",
+        "external-table",
+        "center-unmarked"
+      ],
+      "evidence": [
+        "Arc SIX_XUNS lists 辛丑 under 甲午",
+        "Arc XUN_TO_KONGWANG_ZHI / Go KongWang agree; Go ZhiGong9 and Horse are independently transcribed source tables"
+      ]
+    },
+    {
+      "id": "external-甲午-壬寅",
+      "input": {
+        "dayGanzhi": "丁卯",
+        "timeGanzhi": "壬寅",
+        "solarTerm": "夏至"
+      },
+      "expected": {
+        "xunHead": "甲午",
+        "voidBranches": [
+          "辰",
+          "巳"
+        ],
+        "voidPalaces": [
+          4
+        ],
+        "horseBranch": "申",
+        "horsePalace": 2
+      },
+      "absent": {
+        "voidPalaces": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "horsePalaces": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "tags": [
+        "yin",
+        "external-table",
+        "center-unmarked"
+      ],
+      "evidence": [
+        "Arc SIX_XUNS lists 壬寅 under 甲午",
+        "Arc XUN_TO_KONGWANG_ZHI / Go KongWang agree; Go ZhiGong9 and Horse are independently transcribed source tables"
+      ]
+    },
+    {
+      "id": "external-甲午-癸卯",
+      "input": {
+        "dayGanzhi": "丁卯",
+        "timeGanzhi": "癸卯",
+        "solarTerm": "夏至"
+      },
+      "expected": {
+        "xunHead": "甲午",
+        "voidBranches": [
+          "辰",
+          "巳"
+        ],
+        "voidPalaces": [
+          4
+        ],
+        "horseBranch": "巳",
+        "horsePalace": 4
+      },
+      "absent": {
+        "voidPalaces": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "horsePalaces": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "tags": [
+        "yin",
+        "external-table",
+        "center-unmarked"
+      ],
+      "evidence": [
+        "Arc SIX_XUNS lists 癸卯 under 甲午",
+        "Arc XUN_TO_KONGWANG_ZHI / Go KongWang agree; Go ZhiGong9 and Horse are independently transcribed source tables"
+      ]
+    },
+    {
+      "id": "external-甲辰-甲辰",
+      "input": {
+        "dayGanzhi": "丁卯",
+        "timeGanzhi": "甲辰",
+        "solarTerm": "冬至"
+      },
+      "expected": {
+        "xunHead": "甲辰",
+        "voidBranches": [
+          "寅",
+          "卯"
+        ],
+        "voidPalaces": [
+          3,
+          8
+        ],
+        "horseBranch": "寅",
+        "horsePalace": 8
+      },
+      "absent": {
+        "voidPalaces": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          7,
+          9
+        ],
+        "horsePalaces": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9
+        ]
+      },
+      "tags": [
+        "yang",
+        "external-table",
+        "xun-boundary",
+        "center-unmarked"
+      ],
+      "evidence": [
+        "Arc SIX_XUNS lists 甲辰 under 甲辰",
+        "Arc XUN_TO_KONGWANG_ZHI / Go KongWang agree; Go ZhiGong9 and Horse are independently transcribed source tables"
+      ]
+    },
+    {
+      "id": "external-甲辰-乙巳",
+      "input": {
+        "dayGanzhi": "丁卯",
+        "timeGanzhi": "乙巳",
+        "solarTerm": "冬至"
+      },
+      "expected": {
+        "xunHead": "甲辰",
+        "voidBranches": [
+          "寅",
+          "卯"
+        ],
+        "voidPalaces": [
+          3,
+          8
+        ],
+        "horseBranch": "亥",
+        "horsePalace": 6
+      },
+      "absent": {
+        "voidPalaces": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          7,
+          9
+        ],
+        "horsePalaces": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          8,
+          9
+        ]
+      },
+      "tags": [
+        "yang",
+        "external-table",
+        "center-unmarked"
+      ],
+      "evidence": [
+        "Arc SIX_XUNS lists 乙巳 under 甲辰",
+        "Arc XUN_TO_KONGWANG_ZHI / Go KongWang agree; Go ZhiGong9 and Horse are independently transcribed source tables"
+      ]
+    },
+    {
+      "id": "external-甲辰-丙午",
+      "input": {
+        "dayGanzhi": "丁卯",
+        "timeGanzhi": "丙午",
+        "solarTerm": "冬至"
+      },
+      "expected": {
+        "xunHead": "甲辰",
+        "voidBranches": [
+          "寅",
+          "卯"
+        ],
+        "voidPalaces": [
+          3,
+          8
+        ],
+        "horseBranch": "申",
+        "horsePalace": 2
+      },
+      "absent": {
+        "voidPalaces": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          7,
+          9
+        ],
+        "horsePalaces": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "tags": [
+        "yang",
+        "external-table",
+        "center-unmarked"
+      ],
+      "evidence": [
+        "Arc SIX_XUNS lists 丙午 under 甲辰",
+        "Arc XUN_TO_KONGWANG_ZHI / Go KongWang agree; Go ZhiGong9 and Horse are independently transcribed source tables"
+      ]
+    },
+    {
+      "id": "external-甲辰-丁未",
+      "input": {
+        "dayGanzhi": "丁卯",
+        "timeGanzhi": "丁未",
+        "solarTerm": "冬至"
+      },
+      "expected": {
+        "xunHead": "甲辰",
+        "voidBranches": [
+          "寅",
+          "卯"
+        ],
+        "voidPalaces": [
+          3,
+          8
+        ],
+        "horseBranch": "巳",
+        "horsePalace": 4
+      },
+      "absent": {
+        "voidPalaces": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          7,
+          9
+        ],
+        "horsePalaces": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "tags": [
+        "yang",
+        "external-table",
+        "center-unmarked"
+      ],
+      "evidence": [
+        "Arc SIX_XUNS lists 丁未 under 甲辰",
+        "Arc XUN_TO_KONGWANG_ZHI / Go KongWang agree; Go ZhiGong9 and Horse are independently transcribed source tables"
+      ]
+    },
+    {
+      "id": "external-甲辰-戊申",
+      "input": {
+        "dayGanzhi": "丁卯",
+        "timeGanzhi": "戊申",
+        "solarTerm": "冬至"
+      },
+      "expected": {
+        "xunHead": "甲辰",
+        "voidBranches": [
+          "寅",
+          "卯"
+        ],
+        "voidPalaces": [
+          3,
+          8
+        ],
+        "horseBranch": "寅",
+        "horsePalace": 8
+      },
+      "absent": {
+        "voidPalaces": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          7,
+          9
+        ],
+        "horsePalaces": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9
+        ]
+      },
+      "tags": [
+        "yang",
+        "external-table",
+        "center-unmarked"
+      ],
+      "evidence": [
+        "Arc SIX_XUNS lists 戊申 under 甲辰",
+        "Arc XUN_TO_KONGWANG_ZHI / Go KongWang agree; Go ZhiGong9 and Horse are independently transcribed source tables"
+      ]
+    },
+    {
+      "id": "external-甲辰-己酉",
+      "input": {
+        "dayGanzhi": "丁卯",
+        "timeGanzhi": "己酉",
+        "solarTerm": "冬至"
+      },
+      "expected": {
+        "xunHead": "甲辰",
+        "voidBranches": [
+          "寅",
+          "卯"
+        ],
+        "voidPalaces": [
+          3,
+          8
+        ],
+        "horseBranch": "亥",
+        "horsePalace": 6
+      },
+      "absent": {
+        "voidPalaces": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          7,
+          9
+        ],
+        "horsePalaces": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          8,
+          9
+        ]
+      },
+      "tags": [
+        "yang",
+        "external-table",
+        "center-unmarked"
+      ],
+      "evidence": [
+        "Arc SIX_XUNS lists 己酉 under 甲辰",
+        "Arc XUN_TO_KONGWANG_ZHI / Go KongWang agree; Go ZhiGong9 and Horse are independently transcribed source tables"
+      ]
+    },
+    {
+      "id": "external-甲辰-庚戌",
+      "input": {
+        "dayGanzhi": "丁卯",
+        "timeGanzhi": "庚戌",
+        "solarTerm": "冬至"
+      },
+      "expected": {
+        "xunHead": "甲辰",
+        "voidBranches": [
+          "寅",
+          "卯"
+        ],
+        "voidPalaces": [
+          3,
+          8
+        ],
+        "horseBranch": "申",
+        "horsePalace": 2
+      },
+      "absent": {
+        "voidPalaces": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          7,
+          9
+        ],
+        "horsePalaces": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "tags": [
+        "yang",
+        "external-table",
+        "center-unmarked"
+      ],
+      "evidence": [
+        "Arc SIX_XUNS lists 庚戌 under 甲辰",
+        "Arc XUN_TO_KONGWANG_ZHI / Go KongWang agree; Go ZhiGong9 and Horse are independently transcribed source tables"
+      ]
+    },
+    {
+      "id": "external-甲辰-辛亥",
+      "input": {
+        "dayGanzhi": "丁卯",
+        "timeGanzhi": "辛亥",
+        "solarTerm": "冬至"
+      },
+      "expected": {
+        "xunHead": "甲辰",
+        "voidBranches": [
+          "寅",
+          "卯"
+        ],
+        "voidPalaces": [
+          3,
+          8
+        ],
+        "horseBranch": "巳",
+        "horsePalace": 4
+      },
+      "absent": {
+        "voidPalaces": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          7,
+          9
+        ],
+        "horsePalaces": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "tags": [
+        "yang",
+        "external-table",
+        "center-unmarked"
+      ],
+      "evidence": [
+        "Arc SIX_XUNS lists 辛亥 under 甲辰",
+        "Arc XUN_TO_KONGWANG_ZHI / Go KongWang agree; Go ZhiGong9 and Horse are independently transcribed source tables"
+      ]
+    },
+    {
+      "id": "external-甲辰-壬子",
+      "input": {
+        "dayGanzhi": "戊辰",
+        "timeGanzhi": "壬子",
+        "solarTerm": "冬至"
+      },
+      "expected": {
+        "xunHead": "甲辰",
+        "voidBranches": [
+          "寅",
+          "卯"
+        ],
+        "voidPalaces": [
+          3,
+          8
+        ],
+        "horseBranch": "寅",
+        "horsePalace": 8
+      },
+      "absent": {
+        "voidPalaces": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          7,
+          9
+        ],
+        "horsePalaces": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9
+        ]
+      },
+      "tags": [
+        "yang",
+        "external-table",
+        "center-unmarked"
+      ],
+      "evidence": [
+        "Arc SIX_XUNS lists 壬子 under 甲辰",
+        "Arc XUN_TO_KONGWANG_ZHI / Go KongWang agree; Go ZhiGong9 and Horse are independently transcribed source tables"
+      ]
+    },
+    {
+      "id": "external-甲辰-癸丑",
+      "input": {
+        "dayGanzhi": "戊辰",
+        "timeGanzhi": "癸丑",
+        "solarTerm": "冬至"
+      },
+      "expected": {
+        "xunHead": "甲辰",
+        "voidBranches": [
+          "寅",
+          "卯"
+        ],
+        "voidPalaces": [
+          3,
+          8
+        ],
+        "horseBranch": "亥",
+        "horsePalace": 6
+      },
+      "absent": {
+        "voidPalaces": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          7,
+          9
+        ],
+        "horsePalaces": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          8,
+          9
+        ]
+      },
+      "tags": [
+        "yang",
+        "external-table",
+        "center-unmarked"
+      ],
+      "evidence": [
+        "Arc SIX_XUNS lists 癸丑 under 甲辰",
+        "Arc XUN_TO_KONGWANG_ZHI / Go KongWang agree; Go ZhiGong9 and Horse are independently transcribed source tables"
+      ]
+    },
+    {
+      "id": "external-甲寅-甲寅",
+      "input": {
+        "dayGanzhi": "戊辰",
+        "timeGanzhi": "甲寅",
+        "solarTerm": "夏至"
+      },
+      "expected": {
+        "xunHead": "甲寅",
+        "voidBranches": [
+          "子",
+          "丑"
+        ],
+        "voidPalaces": [
+          1,
+          8
+        ],
+        "horseBranch": "申",
+        "horsePalace": 2
+      },
+      "absent": {
+        "voidPalaces": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9
+        ],
+        "horsePalaces": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "tags": [
+        "yin",
+        "external-table",
+        "xun-boundary",
+        "center-unmarked"
+      ],
+      "evidence": [
+        "Arc SIX_XUNS lists 甲寅 under 甲寅",
+        "Arc XUN_TO_KONGWANG_ZHI / Go KongWang agree; Go ZhiGong9 and Horse are independently transcribed source tables"
+      ]
+    },
+    {
+      "id": "external-甲寅-乙卯",
+      "input": {
+        "dayGanzhi": "戊辰",
+        "timeGanzhi": "乙卯",
+        "solarTerm": "夏至"
+      },
+      "expected": {
+        "xunHead": "甲寅",
+        "voidBranches": [
+          "子",
+          "丑"
+        ],
+        "voidPalaces": [
+          1,
+          8
+        ],
+        "horseBranch": "巳",
+        "horsePalace": 4
+      },
+      "absent": {
+        "voidPalaces": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9
+        ],
+        "horsePalaces": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "tags": [
+        "yin",
+        "external-table",
+        "center-unmarked"
+      ],
+      "evidence": [
+        "Arc SIX_XUNS lists 乙卯 under 甲寅",
+        "Arc XUN_TO_KONGWANG_ZHI / Go KongWang agree; Go ZhiGong9 and Horse are independently transcribed source tables"
+      ]
+    },
+    {
+      "id": "external-甲寅-丙辰",
+      "input": {
+        "dayGanzhi": "戊辰",
+        "timeGanzhi": "丙辰",
+        "solarTerm": "夏至"
+      },
+      "expected": {
+        "xunHead": "甲寅",
+        "voidBranches": [
+          "子",
+          "丑"
+        ],
+        "voidPalaces": [
+          1,
+          8
+        ],
+        "horseBranch": "寅",
+        "horsePalace": 8
+      },
+      "absent": {
+        "voidPalaces": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9
+        ],
+        "horsePalaces": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9
+        ]
+      },
+      "tags": [
+        "yin",
+        "external-table",
+        "center-unmarked"
+      ],
+      "evidence": [
+        "Arc SIX_XUNS lists 丙辰 under 甲寅",
+        "Arc XUN_TO_KONGWANG_ZHI / Go KongWang agree; Go ZhiGong9 and Horse are independently transcribed source tables"
+      ]
+    },
+    {
+      "id": "external-甲寅-丁巳",
+      "input": {
+        "dayGanzhi": "戊辰",
+        "timeGanzhi": "丁巳",
+        "solarTerm": "夏至"
+      },
+      "expected": {
+        "xunHead": "甲寅",
+        "voidBranches": [
+          "子",
+          "丑"
+        ],
+        "voidPalaces": [
+          1,
+          8
+        ],
+        "horseBranch": "亥",
+        "horsePalace": 6
+      },
+      "absent": {
+        "voidPalaces": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9
+        ],
+        "horsePalaces": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          8,
+          9
+        ]
+      },
+      "tags": [
+        "yin",
+        "external-table",
+        "center-unmarked"
+      ],
+      "evidence": [
+        "Arc SIX_XUNS lists 丁巳 under 甲寅",
+        "Arc XUN_TO_KONGWANG_ZHI / Go KongWang agree; Go ZhiGong9 and Horse are independently transcribed source tables"
+      ]
+    },
+    {
+      "id": "external-甲寅-戊午",
+      "input": {
+        "dayGanzhi": "戊辰",
+        "timeGanzhi": "戊午",
+        "solarTerm": "夏至"
+      },
+      "expected": {
+        "xunHead": "甲寅",
+        "voidBranches": [
+          "子",
+          "丑"
+        ],
+        "voidPalaces": [
+          1,
+          8
+        ],
+        "horseBranch": "申",
+        "horsePalace": 2
+      },
+      "absent": {
+        "voidPalaces": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9
+        ],
+        "horsePalaces": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "tags": [
+        "yin",
+        "external-table",
+        "center-unmarked"
+      ],
+      "evidence": [
+        "Arc SIX_XUNS lists 戊午 under 甲寅",
+        "Arc XUN_TO_KONGWANG_ZHI / Go KongWang agree; Go ZhiGong9 and Horse are independently transcribed source tables"
+      ]
+    },
+    {
+      "id": "external-甲寅-己未",
+      "input": {
+        "dayGanzhi": "戊辰",
+        "timeGanzhi": "己未",
+        "solarTerm": "夏至"
+      },
+      "expected": {
+        "xunHead": "甲寅",
+        "voidBranches": [
+          "子",
+          "丑"
+        ],
+        "voidPalaces": [
+          1,
+          8
+        ],
+        "horseBranch": "巳",
+        "horsePalace": 4
+      },
+      "absent": {
+        "voidPalaces": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9
+        ],
+        "horsePalaces": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "tags": [
+        "yin",
+        "external-table",
+        "center-unmarked"
+      ],
+      "evidence": [
+        "Arc SIX_XUNS lists 己未 under 甲寅",
+        "Arc XUN_TO_KONGWANG_ZHI / Go KongWang agree; Go ZhiGong9 and Horse are independently transcribed source tables"
+      ]
+    },
+    {
+      "id": "external-甲寅-庚申",
+      "input": {
+        "dayGanzhi": "戊辰",
+        "timeGanzhi": "庚申",
+        "solarTerm": "夏至"
+      },
+      "expected": {
+        "xunHead": "甲寅",
+        "voidBranches": [
+          "子",
+          "丑"
+        ],
+        "voidPalaces": [
+          1,
+          8
+        ],
+        "horseBranch": "寅",
+        "horsePalace": 8
+      },
+      "absent": {
+        "voidPalaces": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9
+        ],
+        "horsePalaces": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9
+        ]
+      },
+      "tags": [
+        "yin",
+        "external-table",
+        "center-unmarked"
+      ],
+      "evidence": [
+        "Arc SIX_XUNS lists 庚申 under 甲寅",
+        "Arc XUN_TO_KONGWANG_ZHI / Go KongWang agree; Go ZhiGong9 and Horse are independently transcribed source tables"
+      ]
+    },
+    {
+      "id": "external-甲寅-辛酉",
+      "input": {
+        "dayGanzhi": "戊辰",
+        "timeGanzhi": "辛酉",
+        "solarTerm": "夏至"
+      },
+      "expected": {
+        "xunHead": "甲寅",
+        "voidBranches": [
+          "子",
+          "丑"
+        ],
+        "voidPalaces": [
+          1,
+          8
+        ],
+        "horseBranch": "亥",
+        "horsePalace": 6
+      },
+      "absent": {
+        "voidPalaces": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9
+        ],
+        "horsePalaces": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          8,
+          9
+        ]
+      },
+      "tags": [
+        "yin",
+        "external-table",
+        "center-unmarked"
+      ],
+      "evidence": [
+        "Arc SIX_XUNS lists 辛酉 under 甲寅",
+        "Arc XUN_TO_KONGWANG_ZHI / Go KongWang agree; Go ZhiGong9 and Horse are independently transcribed source tables"
+      ]
+    },
+    {
+      "id": "external-甲寅-壬戌",
+      "input": {
+        "dayGanzhi": "戊辰",
+        "timeGanzhi": "壬戌",
+        "solarTerm": "夏至"
+      },
+      "expected": {
+        "xunHead": "甲寅",
+        "voidBranches": [
+          "子",
+          "丑"
+        ],
+        "voidPalaces": [
+          1,
+          8
+        ],
+        "horseBranch": "申",
+        "horsePalace": 2
+      },
+      "absent": {
+        "voidPalaces": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9
+        ],
+        "horsePalaces": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "tags": [
+        "yin",
+        "external-table",
+        "center-unmarked"
+      ],
+      "evidence": [
+        "Arc SIX_XUNS lists 壬戌 under 甲寅",
+        "Arc XUN_TO_KONGWANG_ZHI / Go KongWang agree; Go ZhiGong9 and Horse are independently transcribed source tables"
+      ]
+    },
+    {
+      "id": "external-甲寅-癸亥",
+      "input": {
+        "dayGanzhi": "戊辰",
+        "timeGanzhi": "癸亥",
+        "solarTerm": "夏至"
+      },
+      "expected": {
+        "xunHead": "甲寅",
+        "voidBranches": [
+          "子",
+          "丑"
+        ],
+        "voidPalaces": [
+          1,
+          8
+        ],
+        "horseBranch": "巳",
+        "horsePalace": 4
+      },
+      "absent": {
+        "voidPalaces": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9
+        ],
+        "horsePalaces": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "tags": [
+        "yin",
+        "external-table",
+        "center-unmarked"
+      ],
+      "evidence": [
+        "Arc SIX_XUNS lists 癸亥 under 甲寅",
+        "Arc XUN_TO_KONGWANG_ZHI / Go KongWang agree; Go ZhiGong9 and Horse are independently transcribed source tables"
+      ]
+    },
+    {
+      "id": "golden-yang5",
+      "input": {
+        "dayGanzhi": "戊午",
+        "timeGanzhi": "庚申",
+        "solarTerm": "立春"
+      },
+      "expected": {
+        "xunHead": "甲寅",
+        "voidBranches": [
+          "子",
+          "丑"
+        ],
+        "voidPalaces": [
+          1,
+          8
+        ],
+        "horseBranch": "寅",
+        "horsePalace": 8
+      },
+      "absent": {
+        "voidPalaces": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9
+        ],
+        "horsePalaces": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9
+        ]
+      },
+      "tags": [
+        "yang",
+        "existing-golden-plate"
+      ],
+      "evidence": [
+        "Existing fixed test.js plate/transcription in qimen-reference/PROVENANCE.md; marker expectations independently from source tables, not its full-chart output."
+      ]
+    },
+    {
+      "id": "golden-yin3",
+      "input": {
+        "dayGanzhi": "丁巳",
+        "timeGanzhi": "辛亥",
+        "solarTerm": "夏至"
+      },
+      "expected": {
+        "xunHead": "甲辰",
+        "voidBranches": [
+          "寅",
+          "卯"
+        ],
+        "voidPalaces": [
+          3,
+          8
+        ],
+        "horseBranch": "巳",
+        "horsePalace": 4
+      },
+      "absent": {
+        "voidPalaces": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          7,
+          9
+        ],
+        "horsePalaces": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "tags": [
+        "yin",
+        "existing-golden-plate"
+      ],
+      "evidence": [
+        "Existing fixed test.js plate/transcription in qimen-reference/PROVENANCE.md; marker expectations independently from source tables, not its full-chart output."
+      ]
+    },
+    {
+      "id": "central-chief",
+      "input": {
+        "dayGanzhi": "戊辰",
+        "timeGanzhi": "丙辰",
+        "solarTerm": "雨水"
+      },
+      "expected": {
+        "xunHead": "甲寅",
+        "voidBranches": [
+          "子",
+          "丑"
+        ],
+        "voidPalaces": [
+          1,
+          8
+        ],
+        "horseBranch": "寅",
+        "horsePalace": 8
+      },
+      "absent": {
+        "voidPalaces": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9
+        ],
+        "horsePalaces": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9
+        ]
+      },
+      "tags": [
+        "yang",
+        "central-chief",
+        "borrow-kun2"
+      ],
+      "evidence": [
+        "Existing fixed test.js plate/transcription in qimen-reference/PROVENANCE.md; marker expectations independently from source tables, not its full-chart output."
+      ]
+    },
+    {
+      "id": "central-hosted",
+      "input": {
+        "dayGanzhi": "丁亥",
+        "timeGanzhi": "丁未",
+        "solarTerm": "冬至"
+      },
+      "expected": {
+        "xunHead": "甲辰",
+        "voidBranches": [
+          "寅",
+          "卯"
+        ],
+        "voidPalaces": [
+          3,
+          8
+        ],
+        "horseBranch": "巳",
+        "horsePalace": 4
+      },
+      "absent": {
+        "voidPalaces": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          7,
+          9
+        ],
+        "horsePalaces": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "tags": [
+        "yang",
+        "center-hosted-stem"
+      ],
+      "evidence": [
+        "Existing fixed test.js plate/transcription in qimen-reference/PROVENANCE.md; marker expectations independently from source tables, not its full-chart output."
+      ]
+    }
+  ],
+  "civilCases": [
+    {
+      "id": "summer-before",
+      "input": {
+        "birthDate": "2024-06-21",
+        "birthTime": "04:50:00",
+        "timezone": "Asia/Shanghai"
+      },
+      "expected": {
+        "dayGanzhi": "丙辰",
+        "timeGanzhi": "庚寅",
+        "solarTerm": "芒种",
+        "dun": "阳遁",
+        "xunHead": "甲申",
+        "voidBranches": [
+          "午",
+          "未"
+        ],
+        "voidPalaces": [
+          2,
+          9
+        ],
+        "horseBranch": "申",
+        "horsePalace": 2
+      },
+      "tags": [
+        "solstice-before",
+        "yin-yang-boundary"
+      ],
+      "evidence": [
+        "Day/hour: independent Gregorian JDN anchor and five-rat hour-stem arithmetic.",
+        "Term brackets reuse previously verified calendar anchors from tests/engine.test.ts; no new astronomical calculation claimed."
+      ]
+    },
+    {
+      "id": "summer-after",
+      "input": {
+        "birthDate": "2024-06-21",
+        "birthTime": "04:52:00",
+        "timezone": "Asia/Shanghai"
+      },
+      "expected": {
+        "dayGanzhi": "丙辰",
+        "timeGanzhi": "庚寅",
+        "solarTerm": "夏至",
+        "dun": "阴遁",
+        "xunHead": "甲申",
+        "voidBranches": [
+          "午",
+          "未"
+        ],
+        "voidPalaces": [
+          2,
+          9
+        ],
+        "horseBranch": "申",
+        "horsePalace": 2
+      },
+      "tags": [
+        "solstice-after",
+        "yin-yang-boundary"
+      ],
+      "evidence": [
+        "Day/hour: independent Gregorian JDN anchor and five-rat hour-stem arithmetic.",
+        "Term brackets reuse previously verified calendar anchors from tests/engine.test.ts; no new astronomical calculation claimed."
+      ]
+    },
+    {
+      "id": "spring-before",
+      "input": {
+        "birthDate": "2024-02-04",
+        "birthTime": "16:26:30",
+        "timezone": "Asia/Shanghai"
+      },
+      "expected": {
+        "dayGanzhi": "戊戌",
+        "timeGanzhi": "庚申",
+        "solarTerm": "大寒",
+        "dun": "阳遁",
+        "xunHead": "甲寅",
+        "voidBranches": [
+          "子",
+          "丑"
+        ],
+        "voidPalaces": [
+          1,
+          8
+        ],
+        "horseBranch": "寅",
+        "horsePalace": 8
+      },
+      "tags": [
+        "term-before"
+      ],
+      "evidence": [
+        "Day/hour: independent Gregorian JDN anchor and five-rat hour-stem arithmetic.",
+        "Term brackets reuse previously verified calendar anchors from tests/engine.test.ts; no new astronomical calculation claimed."
+      ]
+    },
+    {
+      "id": "spring-after",
+      "input": {
+        "birthDate": "2024-02-04",
+        "birthTime": "16:27:30",
+        "timezone": "Asia/Shanghai"
+      },
+      "expected": {
+        "dayGanzhi": "戊戌",
+        "timeGanzhi": "庚申",
+        "solarTerm": "立春",
+        "dun": "阳遁",
+        "xunHead": "甲寅",
+        "voidBranches": [
+          "子",
+          "丑"
+        ],
+        "voidPalaces": [
+          1,
+          8
+        ],
+        "horseBranch": "寅",
+        "horsePalace": 8
+      },
+      "tags": [
+        "term-after"
+      ],
+      "evidence": [
+        "Day/hour: independent Gregorian JDN anchor and five-rat hour-stem arithmetic.",
+        "Term brackets reuse previously verified calendar anchors from tests/engine.test.ts; no new astronomical calculation claimed."
+      ]
+    },
+    {
+      "id": "zi-before",
+      "input": {
+        "birthDate": "2024-02-10",
+        "birthTime": "22:59:59",
+        "timezone": "Asia/Shanghai"
+      },
+      "expected": {
+        "dayGanzhi": "甲辰",
+        "timeGanzhi": "乙亥",
+        "solarTerm": "立春",
+        "dun": "阳遁",
+        "xunHead": "甲戌",
+        "voidBranches": [
+          "申",
+          "酉"
+        ],
+        "voidPalaces": [
+          2,
+          7
+        ],
+        "horseBranch": "巳",
+        "horsePalace": 4
+      },
+      "tags": [
+        "zi-hour-before"
+      ],
+      "evidence": [
+        "Day/hour: independent Gregorian JDN anchor and five-rat hour-stem arithmetic.",
+        "Term brackets reuse previously verified calendar anchors from tests/engine.test.ts; no new astronomical calculation claimed."
+      ]
+    },
+    {
+      "id": "zi-start",
+      "input": {
+        "birthDate": "2024-02-10",
+        "birthTime": "23:00:00",
+        "timezone": "Asia/Shanghai"
+      },
+      "expected": {
+        "dayGanzhi": "甲辰",
+        "timeGanzhi": "甲子",
+        "solarTerm": "立春",
+        "dun": "阳遁",
+        "xunHead": "甲子",
+        "voidBranches": [
+          "戌",
+          "亥"
+        ],
+        "voidPalaces": [
+          6
+        ],
+        "horseBranch": "寅",
+        "horsePalace": 8
+      },
+      "tags": [
+        "zi-hour-start",
+        "civil-midnight-rule"
+      ],
+      "evidence": [
+        "Day/hour: independent Gregorian JDN anchor and five-rat hour-stem arithmetic.",
+        "Term brackets reuse previously verified calendar anchors from tests/engine.test.ts; no new astronomical calculation claimed."
+      ]
+    },
+    {
+      "id": "midnight-before",
+      "input": {
+        "birthDate": "2024-02-10",
+        "birthTime": "23:59:59",
+        "timezone": "Asia/Shanghai"
+      },
+      "expected": {
+        "dayGanzhi": "甲辰",
+        "timeGanzhi": "甲子",
+        "solarTerm": "立春",
+        "dun": "阳遁",
+        "xunHead": "甲子",
+        "voidBranches": [
+          "戌",
+          "亥"
+        ],
+        "voidPalaces": [
+          6
+        ],
+        "horseBranch": "寅",
+        "horsePalace": 8
+      },
+      "tags": [
+        "midnight-before",
+        "civil-midnight-rule"
+      ],
+      "evidence": [
+        "Day/hour: independent Gregorian JDN anchor and five-rat hour-stem arithmetic.",
+        "Term brackets reuse previously verified calendar anchors from tests/engine.test.ts; no new astronomical calculation claimed."
+      ]
+    },
+    {
+      "id": "midnight-after",
+      "input": {
+        "birthDate": "2024-02-11",
+        "birthTime": "00:00:00",
+        "timezone": "Asia/Shanghai"
+      },
+      "expected": {
+        "dayGanzhi": "乙巳",
+        "timeGanzhi": "丙子",
+        "solarTerm": "立春",
+        "dun": "阳遁",
+        "xunHead": "甲戌",
+        "voidBranches": [
+          "申",
+          "酉"
+        ],
+        "voidPalaces": [
+          2,
+          7
+        ],
+        "horseBranch": "寅",
+        "horsePalace": 8
+      },
+      "tags": [
+        "midnight-after",
+        "civil-midnight-rule"
+      ],
+      "evidence": [
+        "Day/hour: independent Gregorian JDN anchor and five-rat hour-stem arithmetic.",
+        "Term brackets reuse previously verified calendar anchors from tests/engine.test.ts; no new astronomical calculation claimed."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schema":"meaning-gap-classification-policy/1",
+  "purpose":"Deterministic triage of the frozen243rows;classification is not a new semantic approval.",
+  "explicitGroups":[
+    {"id":"source-identity-policy","chars":"采静克朴适苏同万向叶优于余","label":"本字与当前所选词条身份政策待定","next":"先确定本字、异体及简繁来源身份并重绑；不以新复词绕过当前身份问题。"},
+    {"id":"missing-fixed-original","chars":"燚","label":"缺固定MOE原始实体条","next":"先补充有许可且可定位的固定原件，未补足不新增义项。"},
+    {"id":"default-reading-reference","chars":"帆燎晟穹绥偲","label":"默认音仅参照或又音，其他音义不可借用","next":"核定默认音实体义或提出独立显式读音选择；不得默换声调、又音或异读。"},
+    {"id":"compound-entry-required","chars":"蓓彬斌渤斐凤婕俐莉玲玛芹冉羲颍菡柠婷","label":"须补完整复词实体义及使用边界","next":"固定复词原条、读音和精确义项；复词解释不得回填为独立单字义。"},
+    {"id":"number-degree-context","chars":"百九六千太亚莘","label":"数目、程度或数量缺具体所指","next":"提供真实的数目、程度或对象语境与完整组合，不以数字或同音补吉语。"},
+    {"id":"grammar-referent-context","chars":"尔斯唯伊又小","label":"代词、虚词或前缀缺完整语法所指","next":"提供完整复词或原句及所指，保留功能词性质，不造通用品德。"},
+    {"id":"family-history-role-context","chars":"庚昆洛孟彭侨秦邵隋孙伍湘浙仲甫君卿子媛祖尧禹","label":"地缘、纪年、亲属、身份或称谓需具体背景","next":"记录明确的地域、历史、排行或称谓用途与证据；不从名称推断家庭事实、权位或人格。"},
+    {"id":"traditional-wish-boundary","chars":"禄鑫幸祯祚","label":"传统福善财富用语须与预测分开","next":"核对原词和选义，明确传统祝辞引用，不承诺福寿财运或产生现实效果。"}
+  ],
+  "kindGroups":{
+    "literal-action":{"id":"action-argument-context","label":"动作义缺明确对象或完整行动语境","next":"补齐动作对象或完整复词；不把行动本身改成优良品格。"},
+    "object-imagery":{"id":"imagery-sense-context","label":"物象名物须选定实际所指及多义边界","next":"固定具体名物、形态或文化引用，排除其他语域，不由物象推导人格。"},
+    "context-bound":{"id":"sense-and-scope-context","label":"限定原义需具体组合与明确选择","next":"给出完整给名、确认读音、精确义项和可检查的用途条件。"},
+    "literal-quality":{"id":"sense-and-register-context","label":"同音褒贬或评价范围须完整组合消歧","next":"核定完整词、所选义项及语域，不把一般评价扩大为事实或保证。"}
+  },
+  "fallback":{"id":"referent-or-sense-context","label":"当前实体义仍缺可固定的所指或选义","next":"保留原审范围，补足具体原词义、所指及完整组合；证据不足继续人工。"}
+}

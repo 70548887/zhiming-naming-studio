@@ -1,0 +1,27 @@
+{
+  "version": "qiongtong-2294674-conditions/1.0.0",
+  "hashConvention": "sha256(JSON.stringify(fileHashes)); sorted relative path keys",
+  "sources": [
+    {
+      "id": "bazi-monthly-qiongtong-2294674-conditions",
+      "name": "穷通宝鉴2294674条件补充：节气前提及明示透藏事实",
+      "url": "https://zh.wikisource.org/w/index.php?title=穷通宝鉴&oldid=2294674",
+      "commit": "wikisource-revision/2294674",
+      "license": "CC-BY-SA-4.0（维基文库转录、节录及补充映射）",
+      "files": [
+        "data/monthly-seasonal-conditions.json",
+        "data/raw/seasonal-condition-qiongtong-excerpts.json",
+        "data/raw/seasonal-condition-ATTRIBUTION.md",
+        "data/raw/CC-BY-SA-4.0.txt"
+      ],
+      "note": "独立于旧120表与15条件的追加版本，仅四个历法前提和三项透藏事实；时间命中不表示原分支整体成立，proposedUses为空。固定贡献者历史/码点原文，未校勘影印，不建立旺弱、半月或成局阈值。",
+      "fileHashes": {
+        "data/monthly-seasonal-conditions.json": "860d78081fe714d8c9329cf7514e052183d8b9b810405cf66077d86dcab91f63",
+        "data/raw/CC-BY-SA-4.0.txt": "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5",
+        "data/raw/seasonal-condition-ATTRIBUTION.md": "5a4b3b2ac79f6f90ec30697bf3d5c1b3c7b4ba67898b61c123221f4e2d397f6b",
+        "data/raw/seasonal-condition-qiongtong-excerpts.json": "31f3fec2884b527f0174c478afa3b01b27a875826e7d2eeaa93ce5ac89821388"
+      },
+      "sha256": "918e0e6700b97913c500066ee967cc68edcac4396ec4a7cc3fe2090c0083dbd3"
+    }
+  ]
+}

@@ -1,0 +1,1024 @@
+{
+  "version": "civil-midnight-fuyi-candidate/1.0.0;lunar-typescript/1.8.6",
+  "method": "Captured before the shared civil resolver refactor and before evidence was enabled; these are original full Bazi outputs, not regenerated with the new evidence implementation.",
+  "cases": [
+    {
+      "profile": {
+        "id": "equivalence",
+        "customerName": "算法等价验证",
+        "surname": "林",
+        "surnamePinyin": "lín",
+        "gender": "中性",
+        "calendar": "solar",
+        "birthDate": "2024-02-10",
+        "leapMonth": false,
+        "birthTime": "09:30",
+        "timeUnknown": false,
+        "birthPlace": "上海",
+        "timezone": "Asia/Shanghai",
+        "notes": ""
+      },
+      "expected": {
+        "solarDate": "2024-02-10 09:30",
+        "lunarDate": "二〇二四年正月初一",
+        "zodiac": "龙",
+        "pillars": [
+          {
+            "label": "年柱",
+            "gan": "甲",
+            "zhi": "辰",
+            "element": "木土",
+            "hidden": [
+              "戊",
+              "乙",
+              "癸"
+            ],
+            "tenGod": "比肩"
+          },
+          {
+            "label": "月柱",
+            "gan": "丙",
+            "zhi": "寅",
+            "element": "火木",
+            "hidden": [
+              "甲",
+              "丙",
+              "戊"
+            ],
+            "tenGod": "食神"
+          },
+          {
+            "label": "日柱",
+            "gan": "甲",
+            "zhi": "辰",
+            "element": "木土",
+            "hidden": [
+              "戊",
+              "乙",
+              "癸"
+            ],
+            "tenGod": "日主"
+          },
+          {
+            "label": "时柱",
+            "gan": "己",
+            "zhi": "巳",
+            "element": "土火",
+            "hidden": [
+              "丙",
+              "戊",
+              "庚"
+            ],
+            "tenGod": "正财"
+          }
+        ],
+        "elements": {
+          "木": 3,
+          "火": 2,
+          "土": 3,
+          "金": 0,
+          "水": 0
+        },
+        "favorable": [],
+        "unfavorable": [],
+        "strength": "接近平衡，候选结论不唯一",
+        "reasons": [
+          "日主甲木；月令寅木。",
+          "通根检查（地支藏干含日主同类）：年柱辰、月柱寅、日柱辰；同类或印星透干：年柱甲。",
+          "扶抑候选使用本产品可解释启发式：透干权重1，支藏干本/中/余气按1或0.7/0.3或0.6/0.25/0.15，月支权重2；此权重不是古籍定量公式。",
+          "比印加权占比44%，小于38%初筛偏弱，大于55%初筛偏强，其余保留多解；候选按生扶或泄耗制衡关系选择，不按缺项选择。",
+          "出生地民用时间 Asia/Shanghai，00:00换日；年柱立春、月柱节令，以精确交节时刻划分；生肖按农历年，可能与年柱年界不同。"
+        ],
+        "seasonalAdvice": "春月关注木气与寒暖燥湿的具体组合，暂不按季节机械指定补益元素。",
+        "warnings": [
+          "五行明字数量仅为天干与地支本气计数，不代表喜用神；扶抑结果为规则候选，特殊格局须人工复核。"
+        ],
+        "version": "civil-midnight-fuyi-candidate/1.0.0;lunar-typescript/1.8.6",
+        "ruleDescription": "扶抑启发式候选：月令加权、通根、透干及生克关系；不处理从格、化气格和天干地支合化，不能替代起名师的流派判断。"
+      }
+    },
+    {
+      "profile": {
+        "id": "equivalence",
+        "customerName": "算法等价验证",
+        "surname": "林",
+        "surnamePinyin": "lín",
+        "gender": "中性",
+        "calendar": "solar",
+        "birthDate": "2024-02-10",
+        "leapMonth": false,
+        "birthTime": "23:30",
+        "timeUnknown": false,
+        "birthPlace": "上海",
+        "timezone": "Asia/Shanghai",
+        "notes": ""
+      },
+      "expected": {
+        "solarDate": "2024-02-10 23:30",
+        "lunarDate": "二〇二四年正月初一",
+        "zodiac": "龙",
+        "pillars": [
+          {
+            "label": "年柱",
+            "gan": "甲",
+            "zhi": "辰",
+            "element": "木土",
+            "hidden": [
+              "戊",
+              "乙",
+              "癸"
+            ],
+            "tenGod": "比肩"
+          },
+          {
+            "label": "月柱",
+            "gan": "丙",
+            "zhi": "寅",
+            "element": "火木",
+            "hidden": [
+              "甲",
+              "丙",
+              "戊"
+            ],
+            "tenGod": "食神"
+          },
+          {
+            "label": "日柱",
+            "gan": "甲",
+            "zhi": "辰",
+            "element": "木土",
+            "hidden": [
+              "戊",
+              "乙",
+              "癸"
+            ],
+            "tenGod": "日主"
+          },
+          {
+            "label": "时柱",
+            "gan": "甲",
+            "zhi": "子",
+            "element": "木水",
+            "hidden": [
+              "癸"
+            ],
+            "tenGod": "比肩"
+          }
+        ],
+        "elements": {
+          "木": 4,
+          "火": 1,
+          "土": 2,
+          "金": 0,
+          "水": 1
+        },
+        "favorable": [
+          "火",
+          "土",
+          "金"
+        ],
+        "unfavorable": [
+          "木",
+          "水"
+        ],
+        "strength": "扶抑初筛：日主偏强",
+        "reasons": [
+          "日主甲木；月令寅木。",
+          "通根检查（地支藏干含日主同类）：年柱辰、月柱寅、日柱辰；同类或印星透干：年柱甲、时柱甲。",
+          "扶抑候选使用本产品可解释启发式：透干权重1，支藏干本/中/余气按1或0.7/0.3或0.6/0.25/0.15，月支权重2；此权重不是古籍定量公式。",
+          "比印加权占比67%，小于38%初筛偏弱，大于55%初筛偏强，其余保留多解；候选按生扶或泄耗制衡关系选择，不按缺项选择。",
+          "出生地民用时间 Asia/Shanghai，00:00换日；年柱立春、月柱节令，以精确交节时刻划分；生肖按农历年，可能与年柱年界不同。"
+        ],
+        "seasonalAdvice": "春月关注木气与寒暖燥湿的具体组合，暂不按季节机械指定补益元素。",
+        "warnings": [
+          "五行明字数量仅为天干与地支本气计数，不代表喜用神；扶抑结果为规则候选，特殊格局须人工复核。"
+        ],
+        "version": "civil-midnight-fuyi-candidate/1.0.0;lunar-typescript/1.8.6",
+        "ruleDescription": "扶抑启发式候选：月令加权、通根、透干及生克关系；不处理从格、化气格和天干地支合化，不能替代起名师的流派判断。"
+      }
+    },
+    {
+      "profile": {
+        "id": "equivalence",
+        "customerName": "算法等价验证",
+        "surname": "林",
+        "surnamePinyin": "lín",
+        "gender": "中性",
+        "calendar": "solar",
+        "birthDate": "2024-02-11",
+        "leapMonth": false,
+        "birthTime": "00:00",
+        "timeUnknown": false,
+        "birthPlace": "上海",
+        "timezone": "Asia/Shanghai",
+        "notes": ""
+      },
+      "expected": {
+        "solarDate": "2024-02-11 00:00",
+        "lunarDate": "二〇二四年正月初二",
+        "zodiac": "龙",
+        "pillars": [
+          {
+            "label": "年柱",
+            "gan": "甲",
+            "zhi": "辰",
+            "element": "木土",
+            "hidden": [
+              "戊",
+              "乙",
+              "癸"
+            ],
+            "tenGod": "劫财"
+          },
+          {
+            "label": "月柱",
+            "gan": "丙",
+            "zhi": "寅",
+            "element": "火木",
+            "hidden": [
+              "甲",
+              "丙",
+              "戊"
+            ],
+            "tenGod": "伤官"
+          },
+          {
+            "label": "日柱",
+            "gan": "乙",
+            "zhi": "巳",
+            "element": "木火",
+            "hidden": [
+              "丙",
+              "戊",
+              "庚"
+            ],
+            "tenGod": "日主"
+          },
+          {
+            "label": "时柱",
+            "gan": "丙",
+            "zhi": "子",
+            "element": "火水",
+            "hidden": [
+              "癸"
+            ],
+            "tenGod": "伤官"
+          }
+        ],
+        "elements": {
+          "木": 3,
+          "火": 3,
+          "土": 1,
+          "金": 0,
+          "水": 1
+        },
+        "favorable": [],
+        "unfavorable": [],
+        "strength": "接近平衡，候选结论不唯一",
+        "reasons": [
+          "日主乙木；月令寅木。",
+          "通根检查（地支藏干含日主同类）：年柱辰、月柱寅；同类或印星透干：年柱甲。",
+          "扶抑候选使用本产品可解释启发式：透干权重1，支藏干本/中/余气按1或0.7/0.3或0.6/0.25/0.15，月支权重2；此权重不是古籍定量公式。",
+          "比印加权占比51%，小于38%初筛偏弱，大于55%初筛偏强，其余保留多解；候选按生扶或泄耗制衡关系选择，不按缺项选择。",
+          "出生地民用时间 Asia/Shanghai，00:00换日；年柱立春、月柱节令，以精确交节时刻划分；生肖按农历年，可能与年柱年界不同。"
+        ],
+        "seasonalAdvice": "春月关注木气与寒暖燥湿的具体组合，暂不按季节机械指定补益元素。",
+        "warnings": [
+          "五行明字数量仅为天干与地支本气计数，不代表喜用神；扶抑结果为规则候选，特殊格局须人工复核。"
+        ],
+        "version": "civil-midnight-fuyi-candidate/1.0.0;lunar-typescript/1.8.6",
+        "ruleDescription": "扶抑启发式候选：月令加权、通根、透干及生克关系；不处理从格、化气格和天干地支合化，不能替代起名师的流派判断。"
+      }
+    },
+    {
+      "profile": {
+        "id": "equivalence",
+        "customerName": "算法等价验证",
+        "surname": "林",
+        "surnamePinyin": "lín",
+        "gender": "中性",
+        "calendar": "solar",
+        "birthDate": "2024-02-04",
+        "leapMonth": false,
+        "birthTime": "16:26:30",
+        "timeUnknown": false,
+        "birthPlace": "上海",
+        "timezone": "Asia/Shanghai",
+        "notes": ""
+      },
+      "expected": {
+        "solarDate": "2024-02-04 16:26",
+        "lunarDate": "二〇二三年腊月廿五",
+        "zodiac": "兔",
+        "pillars": [
+          {
+            "label": "年柱",
+            "gan": "癸",
+            "zhi": "卯",
+            "element": "水木",
+            "hidden": [
+              "乙"
+            ],
+            "tenGod": "正财"
+          },
+          {
+            "label": "月柱",
+            "gan": "乙",
+            "zhi": "丑",
+            "element": "木土",
+            "hidden": [
+              "己",
+              "癸",
+              "辛"
+            ],
+            "tenGod": "正官"
+          },
+          {
+            "label": "日柱",
+            "gan": "戊",
+            "zhi": "戌",
+            "element": "土土",
+            "hidden": [
+              "戊",
+              "辛",
+              "丁"
+            ],
+            "tenGod": "日主"
+          },
+          {
+            "label": "时柱",
+            "gan": "庚",
+            "zhi": "申",
+            "element": "金金",
+            "hidden": [
+              "庚",
+              "壬",
+              "戊"
+            ],
+            "tenGod": "食神"
+          }
+        ],
+        "elements": {
+          "木": 2,
+          "火": 0,
+          "土": 3,
+          "金": 2,
+          "水": 1
+        },
+        "favorable": [
+          "火",
+          "土"
+        ],
+        "unfavorable": [
+          "金",
+          "水"
+        ],
+        "strength": "扶抑初筛：日主偏弱",
+        "reasons": [
+          "日主戊土；月令丑土。",
+          "通根检查（地支藏干含日主同类）：月柱丑、日柱戌、时柱申；同类或印星透干：未见。",
+          "扶抑候选使用本产品可解释启发式：透干权重1，支藏干本/中/余气按1或0.7/0.3或0.6/0.25/0.15，月支权重2；此权重不是古籍定量公式。",
+          "比印加权占比34%，小于38%初筛偏弱，大于55%初筛偏强，其余保留多解；候选按生扶或泄耗制衡关系选择，不按缺项选择。",
+          "出生地民用时间 Asia/Shanghai，00:00换日；年柱立春、月柱节令，以精确交节时刻划分；生肖按农历年，可能与年柱年界不同。"
+        ],
+        "seasonalAdvice": "冬月偏寒，调候可关注温暖、向阳的火意象；是否适用仍须结合全局，调候意见不自动覆盖扶抑候选。",
+        "warnings": [
+          "五行明字数量仅为天干与地支本气计数，不代表喜用神；扶抑结果为规则候选，特殊格局须人工复核。"
+        ],
+        "version": "civil-midnight-fuyi-candidate/1.0.0;lunar-typescript/1.8.6",
+        "ruleDescription": "扶抑启发式候选：月令加权、通根、透干及生克关系；不处理从格、化气格和天干地支合化，不能替代起名师的流派判断。"
+      }
+    },
+    {
+      "profile": {
+        "id": "equivalence",
+        "customerName": "算法等价验证",
+        "surname": "林",
+        "surnamePinyin": "lín",
+        "gender": "中性",
+        "calendar": "solar",
+        "birthDate": "2024-02-04",
+        "leapMonth": false,
+        "birthTime": "16:27:30",
+        "timeUnknown": false,
+        "birthPlace": "上海",
+        "timezone": "Asia/Shanghai",
+        "notes": ""
+      },
+      "expected": {
+        "solarDate": "2024-02-04 16:27",
+        "lunarDate": "二〇二三年腊月廿五",
+        "zodiac": "兔",
+        "pillars": [
+          {
+            "label": "年柱",
+            "gan": "甲",
+            "zhi": "辰",
+            "element": "木土",
+            "hidden": [
+              "戊",
+              "乙",
+              "癸"
+            ],
+            "tenGod": "七杀"
+          },
+          {
+            "label": "月柱",
+            "gan": "丙",
+            "zhi": "寅",
+            "element": "火木",
+            "hidden": [
+              "甲",
+              "丙",
+              "戊"
+            ],
+            "tenGod": "偏印"
+          },
+          {
+            "label": "日柱",
+            "gan": "戊",
+            "zhi": "戌",
+            "element": "土土",
+            "hidden": [
+              "戊",
+              "辛",
+              "丁"
+            ],
+            "tenGod": "日主"
+          },
+          {
+            "label": "时柱",
+            "gan": "庚",
+            "zhi": "申",
+            "element": "金金",
+            "hidden": [
+              "庚",
+              "壬",
+              "戊"
+            ],
+            "tenGod": "食神"
+          }
+        ],
+        "elements": {
+          "木": 2,
+          "火": 1,
+          "土": 3,
+          "金": 2,
+          "水": 0
+        },
+        "favorable": [],
+        "unfavorable": [],
+        "strength": "接近平衡，候选结论不唯一",
+        "reasons": [
+          "日主戊土；月令寅木。",
+          "通根检查（地支藏干含日主同类）：年柱辰、月柱寅、日柱戌、时柱申；同类或印星透干：月柱丙。",
+          "扶抑候选使用本产品可解释启发式：透干权重1，支藏干本/中/余气按1或0.7/0.3或0.6/0.25/0.15，月支权重2；此权重不是古籍定量公式。",
+          "比印加权占比48%，小于38%初筛偏弱，大于55%初筛偏强，其余保留多解；候选按生扶或泄耗制衡关系选择，不按缺项选择。",
+          "出生地民用时间 Asia/Shanghai，00:00换日；年柱立春、月柱节令，以精确交节时刻划分；生肖按农历年，可能与年柱年界不同。"
+        ],
+        "seasonalAdvice": "春月关注木气与寒暖燥湿的具体组合，暂不按季节机械指定补益元素。",
+        "warnings": [
+          "五行明字数量仅为天干与地支本气计数，不代表喜用神；扶抑结果为规则候选，特殊格局须人工复核。"
+        ],
+        "version": "civil-midnight-fuyi-candidate/1.0.0;lunar-typescript/1.8.6",
+        "ruleDescription": "扶抑启发式候选：月令加权、通根、透干及生克关系；不处理从格、化气格和天干地支合化，不能替代起名师的流派判断。"
+      }
+    },
+    {
+      "profile": {
+        "id": "equivalence",
+        "customerName": "算法等价验证",
+        "surname": "林",
+        "surnamePinyin": "lín",
+        "gender": "中性",
+        "calendar": "solar",
+        "birthDate": "2024-02-04",
+        "leapMonth": false,
+        "birthTime": "",
+        "timeUnknown": true,
+        "birthPlace": "上海",
+        "timezone": "Asia/Shanghai",
+        "notes": ""
+      },
+      "expected": {
+        "solarDate": "2024-02-04 时刻未知",
+        "lunarDate": "二〇二三年腊月廿五",
+        "zodiac": "兔",
+        "pillars": [
+          {
+            "label": "日柱",
+            "gan": "戊",
+            "zhi": "戌",
+            "element": "土土",
+            "hidden": [
+              "戊",
+              "辛",
+              "丁"
+            ],
+            "tenGod": "日主"
+          }
+        ],
+        "elements": {
+          "木": 0,
+          "火": 0,
+          "土": 2,
+          "金": 0,
+          "水": 0
+        },
+        "favorable": [],
+        "unfavorable": [],
+        "strength": "月令待定，暂不输出喜用候选",
+        "reasons": [
+          "日主戊土；月令未定。",
+          "通根检查（地支藏干含日主同类）：日柱戌；同类或印星透干：未见。",
+          "扶抑候选使用本产品可解释启发式：透干权重1，支藏干本/中/余气按1或0.7/0.3或0.6/0.25/0.15，月支权重2；此权重不是古籍定量公式。",
+          "比印加权占比88%，小于38%初筛偏弱，大于55%初筛偏强，其余保留多解；候选按生扶或泄耗制衡关系选择，不按缺项选择。",
+          "出生地民用时间 Asia/Shanghai，00:00换日；年柱立春、月柱节令，以精确交节时刻划分；生肖按农历年，可能与年柱年界不同。"
+        ],
+        "seasonalAdvice": "月令待定，调候建议暂缺。",
+        "warnings": [
+          "五行明字数量仅为天干与地支本气计数，不代表喜用神；扶抑结果为规则候选，特殊格局须人工复核。",
+          "出生时刻未知且当日跨立春，年柱待定，未纳入计数或喜用推断。",
+          "出生时刻未知且当日交节，月柱待定，未纳入计数或喜用推断。",
+          "出生时刻未知：仅列确定的柱，不生成时柱；喜用候选属于不完整资料下的初筛。"
+        ],
+        "version": "civil-midnight-fuyi-candidate/1.0.0;lunar-typescript/1.8.6",
+        "ruleDescription": "扶抑启发式候选：月令加权、通根、透干及生克关系；不处理从格、化气格和天干地支合化，不能替代起名师的流派判断。"
+      }
+    },
+    {
+      "profile": {
+        "id": "equivalence",
+        "customerName": "算法等价验证",
+        "surname": "林",
+        "surnamePinyin": "lín",
+        "gender": "中性",
+        "calendar": "solar",
+        "birthDate": "2024-02-10",
+        "leapMonth": false,
+        "birthTime": "",
+        "timeUnknown": true,
+        "birthPlace": "上海",
+        "timezone": "Asia/Shanghai",
+        "notes": ""
+      },
+      "expected": {
+        "solarDate": "2024-02-10 时刻未知",
+        "lunarDate": "二〇二四年正月初一",
+        "zodiac": "龙",
+        "pillars": [
+          {
+            "label": "年柱",
+            "gan": "甲",
+            "zhi": "辰",
+            "element": "木土",
+            "hidden": [
+              "戊",
+              "乙",
+              "癸"
+            ],
+            "tenGod": "比肩"
+          },
+          {
+            "label": "月柱",
+            "gan": "丙",
+            "zhi": "寅",
+            "element": "火木",
+            "hidden": [
+              "甲",
+              "丙",
+              "戊"
+            ],
+            "tenGod": "食神"
+          },
+          {
+            "label": "日柱",
+            "gan": "甲",
+            "zhi": "辰",
+            "element": "木土",
+            "hidden": [
+              "戊",
+              "乙",
+              "癸"
+            ],
+            "tenGod": "日主"
+          }
+        ],
+        "elements": {
+          "木": 3,
+          "火": 1,
+          "土": 2,
+          "金": 0,
+          "水": 0
+        },
+        "favorable": [
+          "火",
+          "土",
+          "金"
+        ],
+        "unfavorable": [
+          "木",
+          "水"
+        ],
+        "strength": "扶抑初筛：日主偏强",
+        "reasons": [
+          "日主甲木；月令寅木。",
+          "通根检查（地支藏干含日主同类）：年柱辰、月柱寅、日柱辰；同类或印星透干：年柱甲。",
+          "扶抑候选使用本产品可解释启发式：透干权重1，支藏干本/中/余气按1或0.7/0.3或0.6/0.25/0.15，月支权重2；此权重不是古籍定量公式。",
+          "比印加权占比57%，小于38%初筛偏弱，大于55%初筛偏强，其余保留多解；候选按生扶或泄耗制衡关系选择，不按缺项选择。",
+          "出生地民用时间 Asia/Shanghai，00:00换日；年柱立春、月柱节令，以精确交节时刻划分；生肖按农历年，可能与年柱年界不同。"
+        ],
+        "seasonalAdvice": "春月关注木气与寒暖燥湿的具体组合，暂不按季节机械指定补益元素。",
+        "warnings": [
+          "五行明字数量仅为天干与地支本气计数，不代表喜用神；扶抑结果为规则候选，特殊格局须人工复核。",
+          "出生时刻未知：仅列确定的柱，不生成时柱；喜用候选属于不完整资料下的初筛。"
+        ],
+        "version": "civil-midnight-fuyi-candidate/1.0.0;lunar-typescript/1.8.6",
+        "ruleDescription": "扶抑启发式候选：月令加权、通根、透干及生克关系；不处理从格、化气格和天干地支合化，不能替代起名师的流派判断。"
+      }
+    },
+    {
+      "profile": {
+        "id": "equivalence",
+        "customerName": "算法等价验证",
+        "surname": "林",
+        "surnamePinyin": "lín",
+        "gender": "中性",
+        "calendar": "lunar",
+        "birthDate": "2023-02-01",
+        "leapMonth": true,
+        "birthTime": "09:30",
+        "timeUnknown": false,
+        "birthPlace": "上海",
+        "timezone": "Asia/Shanghai",
+        "notes": ""
+      },
+      "expected": {
+        "solarDate": "2023-03-22 09:30",
+        "lunarDate": "二〇二三年闰二月初一",
+        "zodiac": "兔",
+        "pillars": [
+          {
+            "label": "年柱",
+            "gan": "癸",
+            "zhi": "卯",
+            "element": "水木",
+            "hidden": [
+              "乙"
+            ],
+            "tenGod": "偏财"
+          },
+          {
+            "label": "月柱",
+            "gan": "乙",
+            "zhi": "卯",
+            "element": "木木",
+            "hidden": [
+              "乙"
+            ],
+            "tenGod": "七杀"
+          },
+          {
+            "label": "日柱",
+            "gan": "己",
+            "zhi": "卯",
+            "element": "土木",
+            "hidden": [
+              "乙"
+            ],
+            "tenGod": "日主"
+          },
+          {
+            "label": "时柱",
+            "gan": "己",
+            "zhi": "巳",
+            "element": "土火",
+            "hidden": [
+              "丙",
+              "戊",
+              "庚"
+            ],
+            "tenGod": "比肩"
+          }
+        ],
+        "elements": {
+          "木": 4,
+          "火": 1,
+          "土": 2,
+          "金": 0,
+          "水": 1
+        },
+        "favorable": [
+          "火",
+          "土"
+        ],
+        "unfavorable": [
+          "金",
+          "水"
+        ],
+        "strength": "扶抑初筛：日主偏弱",
+        "reasons": [
+          "日主己土；月令卯木。",
+          "通根检查（地支藏干含日主同类）：时柱巳；同类或印星透干：时柱己。",
+          "扶抑候选使用本产品可解释启发式：透干权重1，支藏干本/中/余气按1或0.7/0.3或0.6/0.25/0.15，月支权重2；此权重不是古籍定量公式。",
+          "比印加权占比32%，小于38%初筛偏弱，大于55%初筛偏强，其余保留多解；候选按生扶或泄耗制衡关系选择，不按缺项选择。",
+          "出生地民用时间 Asia/Shanghai，00:00换日；年柱立春、月柱节令，以精确交节时刻划分；生肖按农历年，可能与年柱年界不同。"
+        ],
+        "seasonalAdvice": "春月关注木气与寒暖燥湿的具体组合，暂不按季节机械指定补益元素。",
+        "warnings": [
+          "五行明字数量仅为天干与地支本气计数，不代表喜用神；扶抑结果为规则候选，特殊格局须人工复核。"
+        ],
+        "version": "civil-midnight-fuyi-candidate/1.0.0;lunar-typescript/1.8.6",
+        "ruleDescription": "扶抑启发式候选：月令加权、通根、透干及生克关系；不处理从格、化气格和天干地支合化，不能替代起名师的流派判断。"
+      }
+    },
+    {
+      "profile": {
+        "id": "equivalence",
+        "customerName": "算法等价验证",
+        "surname": "林",
+        "surnamePinyin": "lín",
+        "gender": "中性",
+        "calendar": "solar",
+        "birthDate": "2024-11-03",
+        "leapMonth": false,
+        "birthTime": "01:30",
+        "timeUnknown": false,
+        "birthPlace": "上海",
+        "timezone": "America/New_York",
+        "notes": ""
+      },
+      "expected": {
+        "solarDate": "2024-11-03 01:30",
+        "lunarDate": "二〇二四年十月初三",
+        "zodiac": "龙",
+        "pillars": [
+          {
+            "label": "年柱",
+            "gan": "甲",
+            "zhi": "辰",
+            "element": "木土",
+            "hidden": [
+              "戊",
+              "乙",
+              "癸"
+            ],
+            "tenGod": "正财"
+          },
+          {
+            "label": "月柱",
+            "gan": "甲",
+            "zhi": "戌",
+            "element": "木土",
+            "hidden": [
+              "戊",
+              "辛",
+              "丁"
+            ],
+            "tenGod": "正财"
+          },
+          {
+            "label": "日柱",
+            "gan": "辛",
+            "zhi": "未",
+            "element": "金土",
+            "hidden": [
+              "己",
+              "丁",
+              "乙"
+            ],
+            "tenGod": "日主"
+          },
+          {
+            "label": "时柱",
+            "gan": "己",
+            "zhi": "丑",
+            "element": "土土",
+            "hidden": [
+              "己",
+              "癸",
+              "辛"
+            ],
+            "tenGod": "偏印"
+          }
+        ],
+        "elements": {
+          "木": 2,
+          "火": 0,
+          "土": 5,
+          "金": 1,
+          "水": 0
+        },
+        "favorable": [
+          "水",
+          "木",
+          "火"
+        ],
+        "unfavorable": [
+          "金",
+          "土"
+        ],
+        "strength": "扶抑初筛：日主偏强",
+        "reasons": [
+          "日主辛金；月令戌土。",
+          "通根检查（地支藏干含日主同类）：月柱戌、时柱丑；同类或印星透干：时柱己。",
+          "扶抑候选使用本产品可解释启发式：透干权重1，支藏干本/中/余气按1或0.7/0.3或0.6/0.25/0.15，月支权重2；此权重不是古籍定量公式。",
+          "比印加权占比63%，小于38%初筛偏弱，大于55%初筛偏强，其余保留多解；候选按生扶或泄耗制衡关系选择，不按缺项选择。",
+          "出生地民用时间 America/New_York，00:00换日；年柱立春、月柱节令，以精确交节时刻划分；生肖按农历年，可能与年柱年界不同。"
+        ],
+        "seasonalAdvice": "秋月关注燥润与金气的具体组合，暂不按季节机械指定补益元素。",
+        "warnings": [
+          "该民用时刻处于夏令时回拨的重复小时，采用第一次出现的时刻；请起名师复核。",
+          "采用 America/New_York 出生地民用日期定日柱、民用钟定时柱；年/月柱按该瞬间对应的北京时间交节。公农历按中国历法的同名日期换算，未作真太阳时校正。",
+          "五行明字数量仅为天干与地支本气计数，不代表喜用神；扶抑结果为规则候选，特殊格局须人工复核。"
+        ],
+        "version": "civil-midnight-fuyi-candidate/1.0.0;lunar-typescript/1.8.6",
+        "ruleDescription": "扶抑启发式候选：月令加权、通根、透干及生克关系；不处理从格、化气格和天干地支合化，不能替代起名师的流派判断。"
+      }
+    },
+    {
+      "profile": {
+        "id": "equivalence",
+        "customerName": "算法等价验证",
+        "surname": "林",
+        "surnamePinyin": "lín",
+        "gender": "中性",
+        "calendar": "solar",
+        "birthDate": "2018-11-04",
+        "leapMonth": false,
+        "birthTime": "09:30",
+        "timeUnknown": true,
+        "birthPlace": "上海",
+        "timezone": "America/Sao_Paulo",
+        "notes": ""
+      },
+      "expected": {
+        "solarDate": "2018-11-04 时刻未知",
+        "lunarDate": "二〇一八年九月廿七",
+        "zodiac": "狗",
+        "pillars": [
+          {
+            "label": "年柱",
+            "gan": "戊",
+            "zhi": "戌",
+            "element": "土土",
+            "hidden": [
+              "戊",
+              "辛",
+              "丁"
+            ],
+            "tenGod": "偏印"
+          },
+          {
+            "label": "月柱",
+            "gan": "壬",
+            "zhi": "戌",
+            "element": "水土",
+            "hidden": [
+              "戊",
+              "辛",
+              "丁"
+            ],
+            "tenGod": "食神"
+          },
+          {
+            "label": "日柱",
+            "gan": "庚",
+            "zhi": "子",
+            "element": "金水",
+            "hidden": [
+              "癸"
+            ],
+            "tenGod": "日主"
+          }
+        ],
+        "elements": {
+          "木": 0,
+          "火": 0,
+          "土": 3,
+          "金": 1,
+          "水": 2
+        },
+        "favorable": [
+          "水",
+          "木",
+          "火"
+        ],
+        "unfavorable": [
+          "金",
+          "土"
+        ],
+        "strength": "扶抑初筛：日主偏强",
+        "reasons": [
+          "日主庚金；月令戌土。",
+          "通根检查（地支藏干含日主同类）：年柱戌、月柱戌；同类或印星透干：年柱戊。",
+          "扶抑候选使用本产品可解释启发式：透干权重1，支藏干本/中/余气按1或0.7/0.3或0.6/0.25/0.15，月支权重2；此权重不是古籍定量公式。",
+          "比印加权占比65%，小于38%初筛偏弱，大于55%初筛偏强，其余保留多解；候选按生扶或泄耗制衡关系选择，不按缺项选择。",
+          "出生地民用时间 America/Sao_Paulo，00:00换日；年柱立春、月柱节令，以精确交节时刻划分；生肖按农历年，可能与年柱年界不同。"
+        ],
+        "seasonalAdvice": "秋月关注燥润与金气的具体组合，暂不按季节机械指定补益元素。",
+        "warnings": [
+          "采用 America/Sao_Paulo 出生地民用日期定日柱、民用钟定时柱；年/月柱按该瞬间对应的北京时间交节。公农历按中国历法的同名日期换算，未作真太阳时校正。",
+          "五行明字数量仅为天干与地支本气计数，不代表喜用神；扶抑结果为规则候选，特殊格局须人工复核。",
+          "出生时刻未知：仅列确定的柱，不生成时柱；喜用候选属于不完整资料下的初筛。"
+        ],
+        "version": "civil-midnight-fuyi-candidate/1.0.0;lunar-typescript/1.8.6",
+        "ruleDescription": "扶抑启发式候选：月令加权、通根、透干及生克关系；不处理从格、化气格和天干地支合化，不能替代起名师的流派判断。"
+      }
+    },
+    {
+      "profile": {
+        "id": "equivalence",
+        "customerName": "算法等价验证",
+        "surname": "林",
+        "surnamePinyin": "lín",
+        "gender": "中性",
+        "calendar": "solar",
+        "birthDate": "2024-02-04",
+        "leapMonth": false,
+        "birthTime": "17:27:30",
+        "timeUnknown": false,
+        "birthPlace": "上海",
+        "timezone": "Asia/Tokyo",
+        "notes": ""
+      },
+      "expected": {
+        "solarDate": "2024-02-04 17:27",
+        "lunarDate": "二〇二三年腊月廿五",
+        "zodiac": "兔",
+        "pillars": [
+          {
+            "label": "年柱",
+            "gan": "甲",
+            "zhi": "辰",
+            "element": "木土",
+            "hidden": [
+              "戊",
+              "乙",
+              "癸"
+            ],
+            "tenGod": "七杀"
+          },
+          {
+            "label": "月柱",
+            "gan": "丙",
+            "zhi": "寅",
+            "element": "火木",
+            "hidden": [
+              "甲",
+              "丙",
+              "戊"
+            ],
+            "tenGod": "偏印"
+          },
+          {
+            "label": "日柱",
+            "gan": "戊",
+            "zhi": "戌",
+            "element": "土土",
+            "hidden": [
+              "戊",
+              "辛",
+              "丁"
+            ],
+            "tenGod": "日主"
+          },
+          {
+            "label": "时柱",
+            "gan": "辛",
+            "zhi": "酉",
+            "element": "金金",
+            "hidden": [
+              "辛"
+            ],
+            "tenGod": "伤官"
+          }
+        ],
+        "elements": {
+          "木": 2,
+          "火": 1,
+          "土": 3,
+          "金": 2,
+          "水": 0
+        },
+        "favorable": [],
+        "unfavorable": [],
+        "strength": "接近平衡，候选结论不唯一",
+        "reasons": [
+          "日主戊土；月令寅木。",
+          "通根检查（地支藏干含日主同类）：年柱辰、月柱寅、日柱戌；同类或印星透干：月柱丙。",
+          "扶抑候选使用本产品可解释启发式：透干权重1，支藏干本/中/余气按1或0.7/0.3或0.6/0.25/0.15，月支权重2；此权重不是古籍定量公式。",
+          "比印加权占比46%，小于38%初筛偏弱，大于55%初筛偏强，其余保留多解；候选按生扶或泄耗制衡关系选择，不按缺项选择。",
+          "出生地民用时间 Asia/Tokyo，00:00换日；年柱立春、月柱节令，以精确交节时刻划分；生肖按农历年，可能与年柱年界不同。"
+        ],
+        "seasonalAdvice": "春月关注木气与寒暖燥湿的具体组合，暂不按季节机械指定补益元素。",
+        "warnings": [
+          "采用 Asia/Tokyo 出生地民用日期定日柱、民用钟定时柱；年/月柱按该瞬间对应的北京时间交节。公农历按中国历法的同名日期换算，未作真太阳时校正。",
+          "五行明字数量仅为天干与地支本气计数，不代表喜用神；扶抑结果为规则候选，特殊格局须人工复核。"
+        ],
+        "version": "civil-midnight-fuyi-candidate/1.0.0;lunar-typescript/1.8.6",
+        "ruleDescription": "扶抑启发式候选：月令加权、通根、透干及生克关系；不处理从格、化气格和天干地支合化，不能替代起名师的流派判断。"
+      }
+    }
+  ]
+}

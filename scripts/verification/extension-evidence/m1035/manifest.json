@@ -1,0 +1,196 @@
+{
+  "schema": "m1025-source-audit-manifest/1",
+  "reviewId": "M1025-SEMANTIC-EXACT3",
+  "files": [
+    {
+      "path": "M1018-map-original.json",
+      "bytes": 63442,
+      "sha256": "dcf6b457762126e97d55970b0f1bf934a29cd8e5f75c4e8de1d3c4e14740b191"
+    },
+    {
+      "path": "M1018-receipt-original.json",
+      "bytes": 3847,
+      "sha256": "67561498de7053fe6ac90d3f2d31b4c942b013d31b2b4c9f272a574e3a6c4f45"
+    },
+    {
+      "path": "M1025-REVIEW.json",
+      "bytes": 17501,
+      "sha256": "ca7167e935cfec61a56f3dd98b79a5f19463aa7c7e9ba33416921ce7ba1031f8"
+    },
+    {
+      "path": "M839-to-c866-two-file-delta.patch",
+      "bytes": 7191,
+      "sha256": "defbb1663a0e629801d86c65a86a9d7412df018d07f4bf5837d1373b4d976327"
+    },
+    {
+      "path": "M910-exact-byte-reuse.json",
+      "bytes": 2046,
+      "sha256": "ad44b77f65e5036f137022c2f69d9cd8f6c668450adb9b165ba0a4743a9a3b68"
+    },
+    {
+      "path": "capture-fixed.mjs",
+      "bytes": 2642,
+      "sha256": "0e22c74f3b6066019b7181d0eaa2880b64acf4222f88a8321ed1087f45d384f3"
+    },
+    {
+      "path": "context/src/main/naming-semantic-generation-v72.ts",
+      "bytes": 16218,
+      "sha256": "b64f495fb4cce436955d4aac2a6aaa470fbe8f2a6d2686b81c2c82eefa3bde35"
+    },
+    {
+      "path": "execution-ledger.json",
+      "bytes": 1624,
+      "sha256": "8fb43412f45a71ce8a82452f28642430667b50f6ed5102a034a7233d3b9a397b"
+    },
+    {
+      "path": "finalize-review.mjs",
+      "bytes": 14347,
+      "sha256": "4da6efedb0044d4333d6c47524fc55097541a10a5bf4e3fe1a88589910f57065"
+    },
+    {
+      "path": "fixed-identity.json",
+      "bytes": 11940,
+      "sha256": "49f48b38de1f7028c2eeb2eac8d02c7095a380641bebd00db5b7628f93a669b7"
+    },
+    {
+      "path": "fixed/src/domain/naming-semantic-admission-v72.ts",
+      "bytes": 15942,
+      "sha256": "26eeb2959d9ff815c625a2da6c0c8524ecd381f6d00cc3abf50ac974f9e2e808"
+    },
+    {
+      "path": "fixed/src/main/naming-semantic-admission-v72-data.ts",
+      "bytes": 15541,
+      "sha256": "ab9132a1801f1cec905e4f3afc02c43a6d05cb3fdcbf57ce95f61f71766c989e"
+    },
+    {
+      "path": "fixed/src/shared/naming-semantic-admission-v72.ts",
+      "bytes": 7470,
+      "sha256": "d36c063bb549c354627e37858f62aa8dd8263d3c47566882581b2817ff9fde15"
+    },
+    {
+      "path": "policy-context/M740-profile-original.json",
+      "bytes": 94920,
+      "sha256": "9e9b54ec980a0edf023963a95b721ae91212a5b06d9121873cd2e9d6f7f3e397"
+    },
+    {
+      "path": "policy-context/acceptance-cases.json",
+      "bytes": 84512,
+      "sha256": "e87d6111d901e63df44693263618d7c74f5e0e043805f26b021378f4579dd556"
+    },
+    {
+      "path": "policy-context/conflict-registry.json",
+      "bytes": 5232,
+      "sha256": "84bc15c8561bd0ffe4860720bbbdfd0c653c0c84ea290499fc8ef005ebbcadb9"
+    },
+    {
+      "path": "policy-context/generation-admission-contract.json",
+      "bytes": 13667,
+      "sha256": "660087ff57c5de26e4990a3c52a0c35f14180716fc2baaeac9f607ccb5573d06"
+    },
+    {
+      "path": "policy-context/m740-generation-admission.json",
+      "bytes": 54345,
+      "sha256": "ecfb610b2c3467b9326e45c25fa4581870f6b3a2087b6490af08bd77d39ccbe6"
+    },
+    {
+      "path": "policy-context/manifest.json",
+      "bytes": 1948,
+      "sha256": "5f4b29d9a5cd13c2d0496fd84172823e551be0221cdc52c83d95d933e1e79969"
+    },
+    {
+      "path": "policy-context/theme-registry.json",
+      "bytes": 1599,
+      "sha256": "70af9e1f5932b68a9ad7b615459cc955335f62d0453ca0344888051ffca82171"
+    },
+    {
+      "path": "prior-evidence/M1003-coverage-review.json",
+      "bytes": 29011,
+      "sha256": "ab8262ec798d912e8f1422890783ccabd9d72cdb145a27d4d176aafa0e2da766"
+    },
+    {
+      "path": "prior-evidence/M1011-before-after-receipt.json",
+      "bytes": 31757,
+      "sha256": "64b5ec376548097c0f9fdc9dd1cf34b20980c86a68781ed86ed50654dd40277c"
+    },
+    {
+      "path": "prior-evidence/M744-data-review.json",
+      "bytes": 16357,
+      "sha256": "8b272e6062254fe3f112a19ee6a1f31a086ca56dc5964e21eb45fae8bc59b157"
+    },
+    {
+      "path": "prior-evidence/M751-author-manifest.json",
+      "bytes": 9270,
+      "sha256": "c9a91f56a9ee0137008088462134fa7069442f522eb04b2786bb93d2043cf0f5"
+    },
+    {
+      "path": "prior-evidence/M751-author-runtime.json",
+      "bytes": 3424,
+      "sha256": "6f48b3faca9e0ef234b9723d326b05f8feedf3e6fee32c514137919bdfbe4d70"
+    },
+    {
+      "path": "prior-evidence/M752-r2-version-bound-review.json",
+      "bytes": 2013,
+      "sha256": "32c53510d64bf4e20b1c7a16fdd7da8edb26d25093c15ec82dcf6676ccda2f2b"
+    },
+    {
+      "path": "prior-evidence/M752-root-bounded.json",
+      "bytes": 834,
+      "sha256": "735fc3daef59bc61c1b3009ee19243c4293cb504143c1ba607901d91eb4e5c25"
+    },
+    {
+      "path": "prior-evidence/M810-artifact-manifest.json",
+      "bytes": 2520,
+      "sha256": "87994b83e4f0de4501ccf653205fce2ad57cb9562273a60910399b1b96eea84d"
+    },
+    {
+      "path": "prior-evidence/M810-independent-review.json",
+      "bytes": 7285,
+      "sha256": "8cb85beed4dc7e5061f7ccd2bff62e7256ed536e2803b7d88a0bc6d4ed97a4d4"
+    },
+    {
+      "path": "prior-evidence/M839-artifact-manifest.json",
+      "bytes": 2029,
+      "sha256": "24a56acba178aeffa18ce172166713a84f0824add8b1f9f03d759c349a2d91a7"
+    },
+    {
+      "path": "prior-evidence/M839-fixed-source.json",
+      "bytes": 9512,
+      "sha256": "2741b0331c3c54f519e8743c319f603ef668908d4f6ad874f7e99fc2c1d913b7"
+    },
+    {
+      "path": "prior-evidence/M839-incremental-review.json",
+      "bytes": 2450,
+      "sha256": "d5683ac3d2b83bb72822b545cdec2034a4e5bd346bbffd053f1500b98943fd70"
+    },
+    {
+      "path": "prior-evidence/M839-source-proof.json",
+      "bytes": 890,
+      "sha256": "dc619ffaa164ebd0d614b7b3b5d28a07989bad49ad6be078f7ab28847b8c0bf0"
+    },
+    {
+      "path": "prior-evidence/M910-author-result.json",
+      "bytes": 3359,
+      "sha256": "c255e4d613100f8347667ba36f0b6c5d0342a949201eae342a24bf4fd6be3c58"
+    },
+    {
+      "path": "prior-evidence/M910-bounded-delta-review.json",
+      "bytes": 3193,
+      "sha256": "8a3173c344ce9d2b20bdc86e2c30382bfce549182ec0d9254fd5adbc7d68aa99"
+    },
+    {
+      "path": "pure-result.json",
+      "bytes": 2169,
+      "sha256": "e3029643a950967bba40312075b081610f20a9507d8596f6868581cd21118835"
+    },
+    {
+      "path": "pure-review.mjs",
+      "bytes": 8615,
+      "sha256": "1698f3397b84c90db5b50c6836210ef261e2d1c4b3c6ccd7ff7ac9f9ccc7866e"
+    },
+    {
+      "path": "report.md",
+      "bytes": 1703,
+      "sha256": "dcf047b72c9fde5cbf27df839007fbd0494fd3f5ab11612a3826c0e0d84e2ca1"
+    }
+  ]
+}

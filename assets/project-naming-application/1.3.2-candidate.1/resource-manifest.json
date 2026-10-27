@@ -1,0 +1,2503 @@
+{
+  "schema": "project-application-resource-manifest/1",
+  "policyId": "naming-element-application/1.3.2-candidate.1",
+  "publicationId": "project-naming-application/1.3.2-candidate.1",
+  "fullClosureSha256": "7ad672eae76a30745e136b743bf0b7a985d3ce4f1626f431df3d107e075b8b69",
+  "engine": {
+    "schema": "bazi-root-feedback-build/2",
+    "methodId": "project-bazi-mainchain-145/1.3.2",
+    "publicationId": "bazi-root-feedback/1.3.2;preview-publication-r2",
+    "fullClosureSha256": "9f3fa8d4cfc8f190934268597cffb25be19cbf2723b4b827ec74228f2c7596f8",
+    "manifestSha256": "3d9b15e6f9963f385411a70eabcbb3ab940629bc285bea65a8ebee92c3f6c71a",
+    "esbuildVersion": "0.25.12"
+  },
+  "closure": {
+    "schema": "project-application-execution-closure/1",
+    "build": {
+      "esbuildVersion": "0.25.12",
+      "options": {
+        "entryPoints": [
+          "src/main/project-application-v132.ts"
+        ],
+        "bundle": true,
+        "platform": "node",
+        "target": "node22",
+        "format": "cjs",
+        "preserveSymlinks": true,
+        "tsconfig": "tsconfig.json",
+        "charset": "utf8",
+        "legalComments": "inline",
+        "minify": false,
+        "treeShaking": true,
+        "sourcemap": false,
+        "packages": "bundle",
+        "mainFields": [
+          "module",
+          "main"
+        ],
+        "conditions": [
+          "node"
+        ]
+      }
+    },
+    "files": [
+      {
+        "sourcePath": "assets/bazi-root-feedback/1.3.2-r2/licenses/CC-BY-SA-4.0.txt",
+        "resourcePath": "execution-source/assets/bazi-root-feedback/1.3.2-r2/licenses/CC-BY-SA-4.0.txt",
+        "bytes": 20137,
+        "sha256": "23ee78c8bae49cf08ea2f0c84945c66b987ebe4520881fb51b3dad4fb43d07c2",
+        "role": "build"
+      },
+      {
+        "sourcePath": "assets/bazi-root-feedback/1.3.2-r2/licenses/lunar-typescript-LICENSE.txt",
+        "resourcePath": "execution-source/assets/bazi-root-feedback/1.3.2-r2/licenses/lunar-typescript-LICENSE.txt",
+        "bytes": 1062,
+        "sha256": "097ec7989106eb9a27b6eff71dbaf1cd6bb04a9b35b6c94b54fff0829a041a8c",
+        "role": "build"
+      },
+      {
+        "sourcePath": "assets/bazi-root-feedback/1.3.2-r2/resource-manifest.json",
+        "resourcePath": "execution-source/assets/bazi-root-feedback/1.3.2-r2/resource-manifest.json",
+        "bytes": 94589,
+        "sha256": "3d9b15e6f9963f385411a70eabcbb3ab940629bc285bea65a8ebee92c3f6c71a",
+        "role": "build"
+      },
+      {
+        "sourcePath": "data/cong-sha-rules.json",
+        "resourcePath": "execution-source/data/cong-sha-rules.json",
+        "bytes": 28249,
+        "sha256": "77f26154476bcdbc68fff0ff018e73983543103057f9b29acc5814abe08e7daa",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "data/cong-wealth-rules-v1.json",
+        "resourcePath": "execution-source/data/cong-wealth-rules-v1.json",
+        "bytes": 17285,
+        "sha256": "158ca8518800cf8e3c51307189c069cd10669a40995a9722877b6edcb434f107",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "data/cong-wealth-rules.json",
+        "resourcePath": "execution-source/data/cong-wealth-rules.json",
+        "bytes": 17285,
+        "sha256": "158ca8518800cf8e3c51307189c069cd10669a40995a9722877b6edcb434f107",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "data/ditian-ren-table.json",
+        "resourcePath": "execution-source/data/ditian-ren-table.json",
+        "bytes": 134746,
+        "sha256": "59a5e062d8bf31cec007325b94ad1788ec61f74cc3f675a0179647c9daa02995",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "data/following-restrictions-rules.json",
+        "resourcePath": "execution-source/data/following-restrictions-rules.json",
+        "bytes": 2348,
+        "sha256": "f7513ccc32b0adb0fbd7b195d8f5d7514fb8e308005e96dd5ff87aac3ce2faf7",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "data/month-authority-table.json",
+        "resourcePath": "execution-source/data/month-authority-table.json",
+        "bytes": 14232,
+        "sha256": "af3fc3fad4ba4a698b452750f7ce543429cc26710d773a895160e6b5aff61ba7",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "data/monthly-seasonal-conditions-v1.json",
+        "resourcePath": "execution-source/data/monthly-seasonal-conditions-v1.json",
+        "bytes": 10511,
+        "sha256": "860d78081fe714d8c9329cf7514e052183d8b9b810405cf66077d86dcab91f63",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "data/monthly-seasonal-conditions.json",
+        "resourcePath": "execution-source/data/monthly-seasonal-conditions.json",
+        "bytes": 10511,
+        "sha256": "860d78081fe714d8c9329cf7514e052183d8b9b810405cf66077d86dcab91f63",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "data/monthly-seasonal-table-v1.json",
+        "resourcePath": "execution-source/data/monthly-seasonal-table-v1.json",
+        "bytes": 172719,
+        "sha256": "71d58e5c547297feabbe44023cfb7ceed213f6582215ca21273076e98328ff48",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "data/monthly-seasonal-table.json",
+        "resourcePath": "execution-source/data/monthly-seasonal-table.json",
+        "bytes": 172719,
+        "sha256": "71d58e5c547297feabbe44023cfb7ceed213f6582215ca21273076e98328ff48",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "data/project-application-v132-policy.json",
+        "resourcePath": "execution-source/data/project-application-v132-policy.json",
+        "bytes": 1576,
+        "sha256": "7b1f4ae0afbf20ad236a7c333284b47393c71c6abc3118dc60c641799672bb0e",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "data/qimen-stem-tombs-table.json",
+        "resourcePath": "execution-source/data/qimen-stem-tombs-table.json",
+        "bytes": 4236,
+        "sha256": "56ae5cd8e7b9cae39d49f0f4eae0da38f0995b00b5354b5ac91061a3fa8405e2",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "data/ren-actions-rules.json",
+        "resourcePath": "execution-source/data/ren-actions-rules.json",
+        "bytes": 13668,
+        "sha256": "fe6f127bfa80331c597415b54a2e3f89df156a6f7dfbe86e175b0b48e64878e0",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "data/ren-capacities-rules.json",
+        "resourcePath": "execution-source/data/ren-capacities-rules.json",
+        "bytes": 8070,
+        "sha256": "65099326ddf83842d2459c005f932878a3dbbf3b41a20cdca8a02148601f3052",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "data/ren-directions-rules.json",
+        "resourcePath": "execution-source/data/ren-directions-rules.json",
+        "bytes": 16240,
+        "sha256": "05d3769b91922294b8696a141010d9755a2b4dcb0e6d977a4a2eae001656f9f2",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "data/ren-joint-battle-rules.json",
+        "resourcePath": "execution-source/data/ren-joint-battle-rules.json",
+        "bytes": 8656,
+        "sha256": "010319e836fef2387ab420cce579315ba02cda85d95d4c1be47b16826b7482b5",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "data/ren-necessary-rules.json",
+        "resourcePath": "execution-source/data/ren-necessary-rules.json",
+        "bytes": 3213,
+        "sha256": "1fa67230eac5293f4a1436704c6f8634e89e6ae6ca65eb74c4448a9929be3e8c",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "node_modules/lunar-typescript/LICENSE",
+        "resourcePath": "execution-source/node_modules/lunar-typescript/LICENSE",
+        "bytes": 1062,
+        "sha256": "097ec7989106eb9a27b6eff71dbaf1cd6bb04a9b35b6c94b54fff0829a041a8c",
+        "role": "resolution"
+      },
+      {
+        "sourcePath": "node_modules/lunar-typescript/dist/index.mjs",
+        "resourcePath": "execution-source/node_modules/lunar-typescript/dist/index.mjs",
+        "bytes": 424612,
+        "sha256": "505dc8eca166977c4e40ec883b22e871cab631811a79ad793ab8e561a2e9ad0f",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "node_modules/lunar-typescript/package.json",
+        "resourcePath": "execution-source/node_modules/lunar-typescript/package.json",
+        "bytes": 2188,
+        "sha256": "f66f1217e67e227f77b7a35b3c5b40d3835842856920e99ebd7e10f2d940e21c",
+        "role": "resolution"
+      },
+      {
+        "sourcePath": "package.json",
+        "resourcePath": "execution-source/package.json",
+        "bytes": 10973,
+        "sha256": "bcd5af7550e4cc784b653b28472e4f4c6d6291342688e717b05592c38293e202",
+        "role": "resolution"
+      },
+      {
+        "sourcePath": "scripts/build-project-application-v132.d.mts",
+        "resourcePath": "execution-source/scripts/build-project-application-v132.d.mts",
+        "bytes": 2218,
+        "sha256": "d68b1440ea34f7a9474a0961e5f5124a0c49f2cfa68deabf88e5c0f58e8bac25",
+        "role": "build"
+      },
+      {
+        "sourcePath": "scripts/build-project-application-v132.mjs",
+        "resourcePath": "execution-source/scripts/build-project-application-v132.mjs",
+        "bytes": 24429,
+        "sha256": "4510f0cdee55b296f27ef1381337a35d6fbab0a842d1b507f1524e1ccd830d4f",
+        "role": "build"
+      },
+      {
+        "sourcePath": "scripts/build-root-feedback-v132-r2.d.mts",
+        "resourcePath": "execution-source/scripts/build-root-feedback-v132-r2.d.mts",
+        "bytes": 1237,
+        "sha256": "e9184d692145c590e1dfe85f3eadd53af8a7cd663a237078732de3b808b69c65",
+        "role": "build"
+      },
+      {
+        "sourcePath": "scripts/build-root-feedback-v132-r2.mjs",
+        "resourcePath": "execution-source/scripts/build-root-feedback-v132-r2.mjs",
+        "bytes": 12613,
+        "sha256": "3e75c7453ba7ef619fec0a302003b462811103fcf35bf4d8a8ceb93b74ee730a",
+        "role": "build"
+      },
+      {
+        "sourcePath": "src/domain/bazi-evidence-v1.ts",
+        "resourcePath": "execution-source/src/domain/bazi-evidence-v1.ts",
+        "bytes": 18709,
+        "sha256": "7e0db64d30349025ba6b84393e2169aaf64b97b2686f87892835cfe751623966",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/bazi-evidence-v2.ts",
+        "resourcePath": "execution-source/src/domain/bazi-evidence-v2.ts",
+        "bytes": 16893,
+        "sha256": "5adfa856520aeee875b5729a9966a6dce1f3a55c292c0ba3a26c96ebe7a06309",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/bazi-evidence-v3.ts",
+        "resourcePath": "execution-source/src/domain/bazi-evidence-v3.ts",
+        "bytes": 17351,
+        "sha256": "dda0ad8ca026279986c3cda527267fbac1225d3295ee6c49f6fb7ed7f8e9dd8a",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/bazi-evidence-v4.ts",
+        "resourcePath": "execution-source/src/domain/bazi-evidence-v4.ts",
+        "bytes": 17329,
+        "sha256": "0a54c14ed910f048fb933567868e40851543ed33c0b616ec248d20da596736a3",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/bazi-evidence-v5.ts",
+        "resourcePath": "execution-source/src/domain/bazi-evidence-v5.ts",
+        "bytes": 17832,
+        "sha256": "4a56352223a10ffdcdc5d8bf389ba6fb7dc3eeb1a017f094453eb5564419ea46",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/bazi-evidence-v6.ts",
+        "resourcePath": "execution-source/src/domain/bazi-evidence-v6.ts",
+        "bytes": 18264,
+        "sha256": "a2ddacffa21204269fdd5232abc53dbc85b2d2f05f3652884242dc5fec69aaaf",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/bazi-evidence-v7.ts",
+        "resourcePath": "execution-source/src/domain/bazi-evidence-v7.ts",
+        "bytes": 18297,
+        "sha256": "2de18fd2b3c5a571d686bccdb36fe5781f35d28fc9eee02c29271a9f2fc31685",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/bazi-evidence-v8.ts",
+        "resourcePath": "execution-source/src/domain/bazi-evidence-v8.ts",
+        "bytes": 18388,
+        "sha256": "054d1efbc0642d553a7da8ac33a150d9db45fe3e728abc014d736d1fa0534fdf",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/bazi-evidence.ts",
+        "resourcePath": "execution-source/src/domain/bazi-evidence.ts",
+        "bytes": 18370,
+        "sha256": "16ae023af5ef4cd08b2f0a2678340a0eae5ba44a1758e9937a17162b3895f500",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/bazi-legacy.ts",
+        "resourcePath": "execution-source/src/domain/bazi-legacy.ts",
+        "bytes": 7870,
+        "sha256": "da99763504da9ef80ee90282dc35d0dcac47ef32e2fec5a618825f30dd4fe7b3",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/bazi-mainchain/kernel-v12-fixed/branch-intervals.ts",
+        "resourcePath": "execution-source/src/domain/bazi-mainchain/kernel-v12-fixed/branch-intervals.ts",
+        "bytes": 5390,
+        "sha256": "f351e56258c0ac5eaac0c4c77f175c6a2856c35f26a80a57d4bd8e8d40c2b129",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/bazi-mainchain/kernel-v12-fixed/control-budget.ts",
+        "resourcePath": "execution-source/src/domain/bazi-mainchain/kernel-v12-fixed/control-budget.ts",
+        "bytes": 16206,
+        "sha256": "4862b961b49c43252853b9213410da5971d84c1a4c6ed3c781363a704f8468be",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/bazi-mainchain/kernel-v12-fixed/numeric-interval.ts",
+        "resourcePath": "execution-source/src/domain/bazi-mainchain/kernel-v12-fixed/numeric-interval.ts",
+        "bytes": 2011,
+        "sha256": "5ae55a799c489ed51b459b77a96f8d14cbe2ae05c165d868aaf09bedc80b7a79",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/bazi-mainchain/kernel-v12-fixed/numeric-review.ts",
+        "resourcePath": "execution-source/src/domain/bazi-mainchain/kernel-v12-fixed/numeric-review.ts",
+        "bytes": 4280,
+        "sha256": "8afe0e5405a51bc2e30484f57cf2c4325bc152695d9f7af5d37bf106db2bd930",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/bazi-mainchain/kernel-v12-fixed/resource-protection.ts",
+        "resourcePath": "execution-source/src/domain/bazi-mainchain/kernel-v12-fixed/resource-protection.ts",
+        "bytes": 8403,
+        "sha256": "ba22b4e8b13e39d0d07de14e28da79473b59f8d6bb0661a6ed42b5b0f378db62",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/bazi-mainchain/kernel-v12-fixed/rules/project-mainchain-1.2.0.json",
+        "resourcePath": "execution-source/src/domain/bazi-mainchain/kernel-v12-fixed/rules/project-mainchain-1.2.0.json",
+        "bytes": 25809,
+        "sha256": "3d274b797503795b80f7acb13414db783df7e1ed4fc8c3c5ae29b148b495d647",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/bazi-mainchain/kernel-v12-fixed/settled-flows.ts",
+        "resourcePath": "execution-source/src/domain/bazi-mainchain/kernel-v12-fixed/settled-flows.ts",
+        "bytes": 6476,
+        "sha256": "9dc98729555abab4cca1e26d1adf22b07e93bff21d0d269f8f3f285c08a8d318",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/bazi-mainchain/project-v13/consumers.ts",
+        "resourcePath": "execution-source/src/domain/bazi-mainchain/project-v13/consumers.ts",
+        "bytes": 37824,
+        "sha256": "463103bf37f957255740873005d8601c60c989c88f70712dcdb904b8d9569451",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/bazi-mainchain/project-v13/index.ts",
+        "resourcePath": "execution-source/src/domain/bazi-mainchain/project-v13/index.ts",
+        "bytes": 7357,
+        "sha256": "e09a91975ac06b98d3232db0b961e8a9a39132db3f590f5dadc8329a5138d9fb",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/bazi-mainchain/project-v13/intervention.ts",
+        "resourcePath": "execution-source/src/domain/bazi-mainchain/project-v13/intervention.ts",
+        "bytes": 4950,
+        "sha256": "478743a9336f18de082effb837d7f55706367843a345bec62ad29d2eb0c9c153",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/bazi-mainchain/project-v13/presentation.ts",
+        "resourcePath": "execution-source/src/domain/bazi-mainchain/project-v13/presentation.ts",
+        "bytes": 3070,
+        "sha256": "ff0107e49fae01f033777565ff9986e8390c324dc7ddff350f53c77d26a55643",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/bazi-mainchain/project-v13/regime-protection.ts",
+        "resourcePath": "execution-source/src/domain/bazi-mainchain/project-v13/regime-protection.ts",
+        "bytes": 1405,
+        "sha256": "3061a1eddd72402fb8471b2ea2a966e0ce67dbcdf64b1e63d364be96f5d91cb2",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/bazi-mainchain/project-v13/root-feedback.ts",
+        "resourcePath": "execution-source/src/domain/bazi-mainchain/project-v13/root-feedback.ts",
+        "bytes": 15310,
+        "sha256": "76a4100d6cfde60f0a412ee1f9ffabc3bf121f273b8db0fa84e6a24a89d002bb",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/bazi-mainchain/project-v13/rules/project-mainchain-1.3.1.json",
+        "resourcePath": "execution-source/src/domain/bazi-mainchain/project-v13/rules/project-mainchain-1.3.1.json",
+        "bytes": 29731,
+        "sha256": "f35a5864d406a2217efdfe40eba891f5b5ad6a995176e883c0789be306fce648",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/bazi-mainchain/project-v13/rules/qiongtong-initial-reference.json",
+        "resourcePath": "execution-source/src/domain/bazi-mainchain/project-v13/rules/qiongtong-initial-reference.json",
+        "bytes": 172719,
+        "sha256": "71d58e5c547297feabbe44023cfb7ceed213f6582215ca21273076e98328ff48",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/bazi-mainchain/project-v13/settled-flows.ts",
+        "resourcePath": "execution-source/src/domain/bazi-mainchain/project-v13/settled-flows.ts",
+        "bytes": 6726,
+        "sha256": "573f20bc3ce1932edd3216f54e866d6586d6a59e5b4db74a11a7e42363671775",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/bazi-mainchain/project-v132/consumers.ts",
+        "resourcePath": "execution-source/src/domain/bazi-mainchain/project-v132/consumers.ts",
+        "bytes": 37864,
+        "sha256": "9fc27fd796503c2f07b4b0d814adb25f48a71b20793e7d2b43a0813205752c00",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/bazi-mainchain/project-v132/index.ts",
+        "resourcePath": "execution-source/src/domain/bazi-mainchain/project-v132/index.ts",
+        "bytes": 7361,
+        "sha256": "7479171a0ca50de436de987e6f31b1b8884c619955ea53d7f3bd19c7d4b09d23",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/bazi-mainchain/project-v132/intervention.ts",
+        "resourcePath": "execution-source/src/domain/bazi-mainchain/project-v132/intervention.ts",
+        "bytes": 4950,
+        "sha256": "478743a9336f18de082effb837d7f55706367843a345bec62ad29d2eb0c9c153",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/bazi-mainchain/project-v132/presentation.ts",
+        "resourcePath": "execution-source/src/domain/bazi-mainchain/project-v132/presentation.ts",
+        "bytes": 10867,
+        "sha256": "82f3f2626241749216d3b67c6511b07f42a26af66f55e48afc729bec33e9890e",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/bazi-mainchain/project-v132/regime-protection.ts",
+        "resourcePath": "execution-source/src/domain/bazi-mainchain/project-v132/regime-protection.ts",
+        "bytes": 1405,
+        "sha256": "c8772637d2440a2781fb174fb8ff4f1cc8164f6e708a987afec92adf21971989",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/bazi-mainchain/project-v132/root-feedback.ts",
+        "resourcePath": "execution-source/src/domain/bazi-mainchain/project-v132/root-feedback.ts",
+        "bytes": 16800,
+        "sha256": "74ba6990d716900488ded56e3cb838e026cd516ef03aa10071a940aeba8b2675",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/bazi-mainchain/project-v132/rules/project-mainchain-1.3.2.json",
+        "resourcePath": "execution-source/src/domain/bazi-mainchain/project-v132/rules/project-mainchain-1.3.2.json",
+        "bytes": 29731,
+        "sha256": "6991753b498f57bd09d1bdbe7795c8cf437a2c4b6720c2039799d5afac7456f3",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/bazi-mainchain/project-v132/rules/qiongtong-initial-reference.json",
+        "resourcePath": "execution-source/src/domain/bazi-mainchain/project-v132/rules/qiongtong-initial-reference.json",
+        "bytes": 172719,
+        "sha256": "71d58e5c547297feabbe44023cfb7ceed213f6582215ca21273076e98328ff48",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/bazi-mainchain/project-v132/rules/source-lock-1.3.2.json",
+        "resourcePath": "execution-source/src/domain/bazi-mainchain/project-v132/rules/source-lock-1.3.2.json",
+        "bytes": 5372,
+        "sha256": "647f4e4b6ace4e65aca7d811c9cb7bb2071d0dbb7f91a7d4d258a4925b03e2ca",
+        "role": "build"
+      },
+      {
+        "sourcePath": "src/domain/bazi-mainchain/project-v132/settled-flows.ts",
+        "resourcePath": "execution-source/src/domain/bazi-mainchain/project-v132/settled-flows.ts",
+        "bytes": 6726,
+        "sha256": "471ac93789932ede398bd16b8d764e2cee8a549e839f3a3e523f3d568a985394",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/bazi-root-calendar-branches.ts",
+        "resourcePath": "execution-source/src/domain/bazi-root-calendar-branches.ts",
+        "bytes": 5558,
+        "sha256": "fd9a633c3fbb09703a8f954446e1dda47813dbad9d42f914f73df1bc764c9f11",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/bazi-v1.ts",
+        "resourcePath": "execution-source/src/domain/bazi-v1.ts",
+        "bytes": 829,
+        "sha256": "8c51a348b4ec0a30252f0595c560e8f1f259553badd6e4719c0ffffca488c9dc",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/bazi-v2.ts",
+        "resourcePath": "execution-source/src/domain/bazi-v2.ts",
+        "bytes": 1009,
+        "sha256": "5674c6d9fc8996d7b57d2dee04eef13ae1f21b2b20d97fd428b3aa4e9413b2af",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/bazi-v3.ts",
+        "resourcePath": "execution-source/src/domain/bazi-v3.ts",
+        "bytes": 1143,
+        "sha256": "f7bedb24e8ba35703479072968b56f9c8a9020f74d04c3542ba5269465f34afc",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/bazi-v4.ts",
+        "resourcePath": "execution-source/src/domain/bazi-v4.ts",
+        "bytes": 1218,
+        "sha256": "8fd43bd81ab0a3f92e6eb0cd244cbc34da0aae31d4e571d5a4b00a998a71d172",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/bazi-v5.ts",
+        "resourcePath": "execution-source/src/domain/bazi-v5.ts",
+        "bytes": 1220,
+        "sha256": "fe7678f3bd9d34b1c81061859cad76e4c19e55ca69ea1d21286dd62fd021e47e",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/bazi-v6.ts",
+        "resourcePath": "execution-source/src/domain/bazi-v6.ts",
+        "bytes": 1189,
+        "sha256": "cb2601864c9fe56655c4975dd7f8740b842b43c3dd665f4c09cdff35109375e6",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/ditian-ren-v1.ts",
+        "resourcePath": "execution-source/src/domain/ditian-ren-v1.ts",
+        "bytes": 44136,
+        "sha256": "683a45bbe59ae2ee2ff15ac3e2c8b4091386cb9e40316d739fd4dc08d93303d1",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/ditian-ren-v11.ts",
+        "resourcePath": "execution-source/src/domain/ditian-ren-v11.ts",
+        "bytes": 9131,
+        "sha256": "6db422d7cd4a3e9c84997c3e7a6568323b4ac2170bfd53b13a94416685eb8770",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/ditian-ren-v12.ts",
+        "resourcePath": "execution-source/src/domain/ditian-ren-v12.ts",
+        "bytes": 2556,
+        "sha256": "ebec48db65a936e5b03469340f604affc568987369556e99c8c87af656c4527a",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/ditian-ren-v13.ts",
+        "resourcePath": "execution-source/src/domain/ditian-ren-v13.ts",
+        "bytes": 2340,
+        "sha256": "bd3751ebc5c43f0d17d3dca5a719ae9c5ce5d3833bfd2605c35282b8f237e3da",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/ditian-ren-v14.ts",
+        "resourcePath": "execution-source/src/domain/ditian-ren-v14.ts",
+        "bytes": 2355,
+        "sha256": "2b7256d64b9156277a953ec26d92dae2c9964141c8a3fdcf1185addffb7199b1",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/ditian-ren.ts",
+        "resourcePath": "execution-source/src/domain/ditian-ren.ts",
+        "bytes": 2369,
+        "sha256": "1d856311caf16e6c9f39be9bed228040f0473e7fc6ab0ab91cf3f5588fa6e75d",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/engine-v13.ts",
+        "resourcePath": "execution-source/src/domain/engine-v13.ts",
+        "bytes": 13496,
+        "sha256": "bc893b98d96b8a59f0da565c94eb7ce81480490371f55cc90c3da57dd4c36edd",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/engine-v14.ts",
+        "resourcePath": "execution-source/src/domain/engine-v14.ts",
+        "bytes": 919,
+        "sha256": "7f8b77222bd4581182fb2ea16ff04b7ed846052c098187adda1d07fed8985b20",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/engine-v7.ts",
+        "resourcePath": "execution-source/src/domain/engine-v7.ts",
+        "bytes": 9535,
+        "sha256": "13cf862d24d8ce9ddd3115cbeb20a964a879573128cc10a7346f9234ce699878",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/engine-v8.ts",
+        "resourcePath": "execution-source/src/domain/engine-v8.ts",
+        "bytes": 12516,
+        "sha256": "7674069f81c006e703aa820287786949655b5f4d605a5aad367b27cd8f6dbc57",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/engine.ts",
+        "resourcePath": "execution-source/src/domain/engine.ts",
+        "bytes": 919,
+        "sha256": "908138aff9640cec08c9c471f2a5a931ece32b4033baac05304976fd64747af8",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/following-patterns-v6.ts",
+        "resourcePath": "execution-source/src/domain/following-patterns-v6.ts",
+        "bytes": 12332,
+        "sha256": "edbe47b9df8066ae0b8e24852b0a50264952a1e6e4231c44b832d7d60040ff45",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/following-patterns-v8.ts",
+        "resourcePath": "execution-source/src/domain/following-patterns-v8.ts",
+        "bytes": 12240,
+        "sha256": "40b64497f51ed6239726581b009872f4796793bd5ef818e11a5aa3aa27edc506",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/following-patterns.ts",
+        "resourcePath": "execution-source/src/domain/following-patterns.ts",
+        "bytes": 12240,
+        "sha256": "40b64497f51ed6239726581b009872f4796793bd5ef818e11a5aa3aa27edc506",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/following-restrictions.ts",
+        "resourcePath": "execution-source/src/domain/following-restrictions.ts",
+        "bytes": 4508,
+        "sha256": "df68ae216d5c53859c75bf704d13e9f0af14368bd4da21f20b92d808af1f6c4e",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/following-sha-v8.ts",
+        "resourcePath": "execution-source/src/domain/following-sha-v8.ts",
+        "bytes": 9055,
+        "sha256": "a1b16983305906e4a3a17e515557d62760d1307972329d1783b4bd1530927e2c",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/following-sha.ts",
+        "resourcePath": "execution-source/src/domain/following-sha.ts",
+        "bytes": 9052,
+        "sha256": "ded7204024ec4561a14a80e1f2f5829eec0db8a330fe6ad84ac0cd98a8c0609f",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/month-authority-v2.ts",
+        "resourcePath": "execution-source/src/domain/month-authority-v2.ts",
+        "bytes": 9720,
+        "sha256": "276cb2d4c2e599667c98e5a616e5e57cd9a81072c04cfa4c79b547af853de9a4",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/month-authority-v3.ts",
+        "resourcePath": "execution-source/src/domain/month-authority-v3.ts",
+        "bytes": 9736,
+        "sha256": "ec71209549f62afdbe380bb6cfc2845ceb1af5c49f2dd221fa3536c058940f97",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/month-authority-v4.ts",
+        "resourcePath": "execution-source/src/domain/month-authority-v4.ts",
+        "bytes": 9714,
+        "sha256": "796c50758e429c272e5560543a448246dd9b470532e13085bd7a271e74079085",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/month-authority-v5.ts",
+        "resourcePath": "execution-source/src/domain/month-authority-v5.ts",
+        "bytes": 9708,
+        "sha256": "bf089de68ab7aa7aa7506f0a14ab000511a29cdd175ec6da26159fd5db7e7f28",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/month-authority-v8.ts",
+        "resourcePath": "execution-source/src/domain/month-authority-v8.ts",
+        "bytes": 9633,
+        "sha256": "85b9cc84f93709ec2f2bfc9f718e28566579acbbebcf76d0186738e27eb6df00",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/month-authority.ts",
+        "resourcePath": "execution-source/src/domain/month-authority.ts",
+        "bytes": 9633,
+        "sha256": "85b9cc84f93709ec2f2bfc9f718e28566579acbbebcf76d0186738e27eb6df00",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/monthly-seasonal-v3.ts",
+        "resourcePath": "execution-source/src/domain/monthly-seasonal-v3.ts",
+        "bytes": 11712,
+        "sha256": "70492b9d572875a11327efce9e7a73340195d868f520746f6cbefa38d6072579",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/monthly-seasonal-v4.ts",
+        "resourcePath": "execution-source/src/domain/monthly-seasonal-v4.ts",
+        "bytes": 11690,
+        "sha256": "7ff91b14762ac1f48e1093fb08ed38f450b4b9073814f839514f679fcec6616e",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/monthly-seasonal-v5.ts",
+        "resourcePath": "execution-source/src/domain/monthly-seasonal-v5.ts",
+        "bytes": 11684,
+        "sha256": "20fc689cc4d89949ecdbd18e2ec6f72278ebc9132d2b4e40d2f739e13690737f",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/monthly-seasonal-v8.ts",
+        "resourcePath": "execution-source/src/domain/monthly-seasonal-v8.ts",
+        "bytes": 11606,
+        "sha256": "0cfea5cf7238ec53fba79ccdb8f14848f15799022f7625e36f02ddee38a46630",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/monthly-seasonal.ts",
+        "resourcePath": "execution-source/src/domain/monthly-seasonal.ts",
+        "bytes": 11606,
+        "sha256": "0cfea5cf7238ec53fba79ccdb8f14848f15799022f7625e36f02ddee38a46630",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/pattern-evidence-v8.ts",
+        "resourcePath": "execution-source/src/domain/pattern-evidence-v8.ts",
+        "bytes": 1393,
+        "sha256": "9dd2ef1969523e30f314303bb264ab749fb67aab4122e8c0302a9c6295bc7f49",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/pattern-evidence.ts",
+        "resourcePath": "execution-source/src/domain/pattern-evidence.ts",
+        "bytes": 1387,
+        "sha256": "f4e45047d4de9a89de73bb023f3d49e8b3923d396377ea9f2ca3b7e2328e4d21",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/qimen-markers-v8.ts",
+        "resourcePath": "execution-source/src/domain/qimen-markers-v8.ts",
+        "bytes": 5785,
+        "sha256": "d3f226641e8de093095ab7b2875d1dbca9457aecfd302fc0f1a60098fcc4dcf6",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/qimen-markers.ts",
+        "resourcePath": "execution-source/src/domain/qimen-markers.ts",
+        "bytes": 5785,
+        "sha256": "d3f226641e8de093095ab7b2875d1dbca9457aecfd302fc0f1a60098fcc4dcf6",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/qimen-patterns-v8.ts",
+        "resourcePath": "execution-source/src/domain/qimen-patterns-v8.ts",
+        "bytes": 12555,
+        "sha256": "f7b2befc6ffbaa9dc335ff6ce4467982cdbf5b18a15edd983c71f480251afb4b",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/qimen-patterns.ts",
+        "resourcePath": "execution-source/src/domain/qimen-patterns.ts",
+        "bytes": 12555,
+        "sha256": "f7b2befc6ffbaa9dc335ff6ce4467982cdbf5b18a15edd983c71f480251afb4b",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/qimen-stem-tombs-v8.ts",
+        "resourcePath": "execution-source/src/domain/qimen-stem-tombs-v8.ts",
+        "bytes": 6272,
+        "sha256": "1cc6fb3d5a528e99c82831073e6ed8c3631f15c3bb99657f7fcf1ad921c0e7db",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/qimen-stem-tombs.ts",
+        "resourcePath": "execution-source/src/domain/qimen-stem-tombs.ts",
+        "bytes": 6272,
+        "sha256": "1cc6fb3d5a528e99c82831073e6ed8c3631f15c3bb99657f7fcf1ad921c0e7db",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/qimen-v2.ts",
+        "resourcePath": "execution-source/src/domain/qimen-v2.ts",
+        "bytes": 8095,
+        "sha256": "64f2836a967e5dcf2ec6c8405d0e85da1b9fa027fe58c890f003c5d4efb9f42e",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/ren-actions.ts",
+        "resourcePath": "execution-source/src/domain/ren-actions.ts",
+        "bytes": 24197,
+        "sha256": "1a4f45fa2e0801025bd56cb3d557625900fe46369c262640d744ff1d9204e965",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/ren-capacities.ts",
+        "resourcePath": "execution-source/src/domain/ren-capacities.ts",
+        "bytes": 11603,
+        "sha256": "e215ace2d35aee1ae7c7a56b5919d2676aeb8372c20f0cc4ed8b7dc7020089a9",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/ren-dependencies.ts",
+        "resourcePath": "execution-source/src/domain/ren-dependencies.ts",
+        "bytes": 8917,
+        "sha256": "154aad310b9bba1fa6fa840adfdb8d28ab5f2fadf093d41526ec92caa2753bab",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/ren-directions.ts",
+        "resourcePath": "execution-source/src/domain/ren-directions.ts",
+        "bytes": 11668,
+        "sha256": "f1d04909e3577438e840ca3f0ed4ad385a537ee061fefd7fac4f19d6c0655ae0",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/ren-joint-battle.ts",
+        "resourcePath": "execution-source/src/domain/ren-joint-battle.ts",
+        "bytes": 10965,
+        "sha256": "9280ac22f54bbff1d4b9bc548ffaba7d5a52f0f17653be58867d2b765564f5dc",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/seasonal-conditions-v5.ts",
+        "resourcePath": "execution-source/src/domain/seasonal-conditions-v5.ts",
+        "bytes": 8345,
+        "sha256": "d7f36eab4eea192eb744e381ca39f1579dfcd6221325d29eab73c407043ab9da",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/seasonal-conditions-v8.ts",
+        "resourcePath": "execution-source/src/domain/seasonal-conditions-v8.ts",
+        "bytes": 8267,
+        "sha256": "e0729ebc0809ca0602e4f4f9a9cf0996a9f2a14616a75051314e50203e634d87",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/domain/seasonal-conditions.ts",
+        "resourcePath": "execution-source/src/domain/seasonal-conditions.ts",
+        "bytes": 8264,
+        "sha256": "430eeed92ec88b3f1b7e542270a359c7054e3fbd6818ab7787e15c14caad753b",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/main/bazi-root-feedback-application.ts",
+        "resourcePath": "execution-source/src/main/bazi-root-feedback-application.ts",
+        "bytes": 18889,
+        "sha256": "5e5ddc8189cff37acce231a4aabbe9fab169aa93bdbec72acab0759a5b886552",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/main/bazi-root-feedback-facade.ts",
+        "resourcePath": "execution-source/src/main/bazi-root-feedback-facade.ts",
+        "bytes": 9983,
+        "sha256": "8faec2a82c7f2dc700799a29d02bd42902e164706faca68ce9eeff29d529e56f",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/main/bazi-root-feedback-resource-pins.ts",
+        "resourcePath": "execution-source/src/main/bazi-root-feedback-resource-pins.ts",
+        "bytes": 206,
+        "sha256": "1afbde9fad541b4717b6ad8462058c00f42d4f0f08d994915f4676ffb1073802",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/main/bazi-root-feedback-resources.ts",
+        "resourcePath": "execution-source/src/main/bazi-root-feedback-resources.ts",
+        "bytes": 7270,
+        "sha256": "118fbdd59d9bdad263d36992188262c4666b441dd8531c39358d63810def41dd",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/main/bazi-root-feedback-v132-r2-engine.ts",
+        "resourcePath": "execution-source/src/main/bazi-root-feedback-v132-r2-engine.ts",
+        "bytes": 2421,
+        "sha256": "261f05736df5a317351d65bc6ae6075459e3195292fea757f4f8dd990d2394f4",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/main/bazi-root-feedback-v132-r2-pins.json",
+        "resourcePath": "execution-source/src/main/bazi-root-feedback-v132-r2-pins.json",
+        "bytes": 53389,
+        "sha256": "e613b83ff2ff8432127ac80dcca4ca8fb968178933a007aa3f43365a39967c8b",
+        "role": "build"
+      },
+      {
+        "sourcePath": "src/main/bazi-root-feedback-v132-r2-resources.ts",
+        "resourcePath": "execution-source/src/main/bazi-root-feedback-v132-r2-resources.ts",
+        "bytes": 7459,
+        "sha256": "93ebda777ba53be2faaa957abb867cd690f3c65c21018f416224b67101ef23d9",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/main/bazi-snapshot.ts",
+        "resourcePath": "execution-source/src/main/bazi-snapshot.ts",
+        "bytes": 4390,
+        "sha256": "04315b76af3e1336935a27ff366340519a36dc25b0d4e534e7d6728372a80abf",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/main/expected-analysis.ts",
+        "resourcePath": "execution-source/src/main/expected-analysis.ts",
+        "bytes": 9094,
+        "sha256": "f8261b395edba0c9b1d68800c611128e3606ea9e3330008385668edb085381e3",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/main/project-application-v132-common.ts",
+        "resourcePath": "execution-source/src/main/project-application-v132-common.ts",
+        "bytes": 2951,
+        "sha256": "c869510e3f4871ebb51ae160eba8ad7e5a88f268213b629d38f915661baae107",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/main/project-application-v132-policy.ts",
+        "resourcePath": "execution-source/src/main/project-application-v132-policy.ts",
+        "bytes": 12188,
+        "sha256": "5a0086b453e106fb042ac6aa81a3caf4413de6252bb9e3e8f186655d4d7d094f",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/main/project-application-v132-resources.ts",
+        "resourcePath": "execution-source/src/main/project-application-v132-resources.ts",
+        "bytes": 5693,
+        "sha256": "d4108c0b970a415cebe031c77eefe29ecb8be398603a81562e45cd67fb8a486a",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/main/project-application-v132-saved.ts",
+        "resourcePath": "execution-source/src/main/project-application-v132-saved.ts",
+        "bytes": 2218,
+        "sha256": "170486da66d8c2f2f2618661f874bd70a3edbd7498a3cb2438a949740155bf54",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/main/project-application-v132.ts",
+        "resourcePath": "execution-source/src/main/project-application-v132.ts",
+        "bytes": 9734,
+        "sha256": "c31035564b6c38504464229667b98dce005b83ddb9a0d98ea3d2019cdd98555e",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/main/saved-analysis-policy.ts",
+        "resourcePath": "execution-source/src/main/saved-analysis-policy.ts",
+        "bytes": 1322,
+        "sha256": "54969e18764a5d27447e00b93bfbbb3074fe500d277aad3d8d7d582363487e48",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/shared/apparent-solar-v8.ts",
+        "resourcePath": "execution-source/src/shared/apparent-solar-v8.ts",
+        "bytes": 8570,
+        "sha256": "0b68d8635e9bc5d214539b5a97a2c03870efc5329e1a7af8905cca079875938d",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/shared/apparent-solar.ts",
+        "resourcePath": "execution-source/src/shared/apparent-solar.ts",
+        "bytes": 8570,
+        "sha256": "0b68d8635e9bc5d214539b5a97a2c03870efc5329e1a7af8905cca079875938d",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/shared/bazi-root-feedback-application.ts",
+        "resourcePath": "execution-source/src/shared/bazi-root-feedback-application.ts",
+        "bytes": 6341,
+        "sha256": "92ce67b9f06801c0afbe93942ffa88c8c8ac24f3783db5857be129da53e99310",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/shared/bazi-root-feedback-facade.ts",
+        "resourcePath": "execution-source/src/shared/bazi-root-feedback-facade.ts",
+        "bytes": 2672,
+        "sha256": "d4c870ce850b403ad08734905818da4d2d50788f086a5cd300aadd1aaa92b17c",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/shared/bazi-root-feedback-v132-r2-facade.ts",
+        "resourcePath": "execution-source/src/shared/bazi-root-feedback-v132-r2-facade.ts",
+        "bytes": 1766,
+        "sha256": "d84071ae31751754c89e40ab73da605dc3f14c070a2c181bb8c357bbca3d1d66",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/shared/bazi-root-feedback-v132.ts",
+        "resourcePath": "execution-source/src/shared/bazi-root-feedback-v132.ts",
+        "bytes": 4115,
+        "sha256": "9f2529b1410da3212be3d310933427028fc8475c965a8bed269e4aef24dffe5f",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/shared/bazi-root-feedback.ts",
+        "resourcePath": "execution-source/src/shared/bazi-root-feedback.ts",
+        "bytes": 2148,
+        "sha256": "68ac653c9ee11ab2852d17f164b1da47975b12353d9ef34c3e480e6cf82cf005",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/shared/birth-time-basis-v8.ts",
+        "resourcePath": "execution-source/src/shared/birth-time-basis-v8.ts",
+        "bytes": 7744,
+        "sha256": "2fe8a4a31acbdc63551a4e2a041fc471d30121db6b96b759745aa0b311116226",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/shared/birth-time-basis.ts",
+        "resourcePath": "execution-source/src/shared/birth-time-basis.ts",
+        "bytes": 7741,
+        "sha256": "67e7758a342fd4382b76889d8915f02bdd2a58ae89c006d6bbbcbc66a590af92",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/shared/civil-birth-v1.ts",
+        "resourcePath": "execution-source/src/shared/civil-birth-v1.ts",
+        "bytes": 7785,
+        "sha256": "e9cd95e0d9074012862dbb16b6e57c1caef471dc3775e30dfd04613ecfdffe65",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/shared/civil-birth-v8.ts",
+        "resourcePath": "execution-source/src/shared/civil-birth-v8.ts",
+        "bytes": 9047,
+        "sha256": "6f9a9f780633137f3cf3a3ca2e0a3216cce04dabb4b0d1eded63ab0969b0ccae",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/shared/civil-birth.ts",
+        "resourcePath": "execution-source/src/shared/civil-birth.ts",
+        "bytes": 9047,
+        "sha256": "6f9a9f780633137f3cf3a3ca2e0a3216cce04dabb4b0d1eded63ab0969b0ccae",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/shared/month-authority-method.ts",
+        "resourcePath": "execution-source/src/shared/month-authority-method.ts",
+        "bytes": 679,
+        "sha256": "6b7e225aaa93053e6fa9983aa8e448fc3a831255de6e085abbedb4ed3329879a",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/shared/plain-json.ts",
+        "resourcePath": "execution-source/src/shared/plain-json.ts",
+        "bytes": 1752,
+        "sha256": "0edd8fd75a2bd737040adcde26ae46bb851870c8dbc2a07ab3b25607f19f01a6",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/shared/project-application-v132.ts",
+        "resourcePath": "execution-source/src/shared/project-application-v132.ts",
+        "bytes": 3586,
+        "sha256": "214803ddf25473311d1352b87642f18d4fec3bfd8f632fdd7fec49eb3e2f8bad",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/shared/ren-method-v1.ts",
+        "resourcePath": "execution-source/src/shared/ren-method-v1.ts",
+        "bytes": 530,
+        "sha256": "c5188b9e9fb15aa7766a79fe9aec7bed7c4a67ff169767f1c7a1d0869fb651ac",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/shared/ren-method.ts",
+        "resourcePath": "execution-source/src/shared/ren-method.ts",
+        "bytes": 1087,
+        "sha256": "34feeee52938a44a22baa4088ee63a7059b254dfa748fdf46a292e578cd1e324",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "src/shared/seasonal-method.ts",
+        "resourcePath": "execution-source/src/shared/seasonal-method.ts",
+        "bytes": 535,
+        "sha256": "90287e95c9afd2688be6ec2552538753a3cdf6159b8fec6ec7821ebe1b13e156",
+        "role": "execution"
+      },
+      {
+        "sourcePath": "tsconfig.json",
+        "resourcePath": "execution-source/tsconfig.json",
+        "bytes": 368,
+        "sha256": "2388ce4e1d92d01dbf804f0c9aecbb5034136965b3e84c36bcfcd91edfedec17",
+        "role": "resolution"
+      }
+    ],
+    "executionInputs": [
+      "data/cong-sha-rules.json",
+      "data/cong-wealth-rules-v1.json",
+      "data/cong-wealth-rules.json",
+      "data/ditian-ren-table.json",
+      "data/following-restrictions-rules.json",
+      "data/month-authority-table.json",
+      "data/monthly-seasonal-conditions-v1.json",
+      "data/monthly-seasonal-conditions.json",
+      "data/monthly-seasonal-table-v1.json",
+      "data/monthly-seasonal-table.json",
+      "data/project-application-v132-policy.json",
+      "data/qimen-stem-tombs-table.json",
+      "data/ren-actions-rules.json",
+      "data/ren-capacities-rules.json",
+      "data/ren-directions-rules.json",
+      "data/ren-joint-battle-rules.json",
+      "data/ren-necessary-rules.json",
+      "node_modules/lunar-typescript/dist/index.mjs",
+      "src/domain/bazi-evidence-v1.ts",
+      "src/domain/bazi-evidence-v2.ts",
+      "src/domain/bazi-evidence-v3.ts",
+      "src/domain/bazi-evidence-v4.ts",
+      "src/domain/bazi-evidence-v5.ts",
+      "src/domain/bazi-evidence-v6.ts",
+      "src/domain/bazi-evidence-v7.ts",
+      "src/domain/bazi-evidence-v8.ts",
+      "src/domain/bazi-evidence.ts",
+      "src/domain/bazi-legacy.ts",
+      "src/domain/bazi-mainchain/kernel-v12-fixed/branch-intervals.ts",
+      "src/domain/bazi-mainchain/kernel-v12-fixed/control-budget.ts",
+      "src/domain/bazi-mainchain/kernel-v12-fixed/numeric-interval.ts",
+      "src/domain/bazi-mainchain/kernel-v12-fixed/numeric-review.ts",
+      "src/domain/bazi-mainchain/kernel-v12-fixed/resource-protection.ts",
+      "src/domain/bazi-mainchain/kernel-v12-fixed/rules/project-mainchain-1.2.0.json",
+      "src/domain/bazi-mainchain/kernel-v12-fixed/settled-flows.ts",
+      "src/domain/bazi-mainchain/project-v13/consumers.ts",
+      "src/domain/bazi-mainchain/project-v13/index.ts",
+      "src/domain/bazi-mainchain/project-v13/intervention.ts",
+      "src/domain/bazi-mainchain/project-v13/presentation.ts",
+      "src/domain/bazi-mainchain/project-v13/regime-protection.ts",
+      "src/domain/bazi-mainchain/project-v13/root-feedback.ts",
+      "src/domain/bazi-mainchain/project-v13/rules/project-mainchain-1.3.1.json",
+      "src/domain/bazi-mainchain/project-v13/rules/qiongtong-initial-reference.json",
+      "src/domain/bazi-mainchain/project-v13/settled-flows.ts",
+      "src/domain/bazi-mainchain/project-v132/consumers.ts",
+      "src/domain/bazi-mainchain/project-v132/index.ts",
+      "src/domain/bazi-mainchain/project-v132/intervention.ts",
+      "src/domain/bazi-mainchain/project-v132/presentation.ts",
+      "src/domain/bazi-mainchain/project-v132/regime-protection.ts",
+      "src/domain/bazi-mainchain/project-v132/root-feedback.ts",
+      "src/domain/bazi-mainchain/project-v132/rules/project-mainchain-1.3.2.json",
+      "src/domain/bazi-mainchain/project-v132/rules/qiongtong-initial-reference.json",
+      "src/domain/bazi-mainchain/project-v132/settled-flows.ts",
+      "src/domain/bazi-root-calendar-branches.ts",
+      "src/domain/bazi-v1.ts",
+      "src/domain/bazi-v2.ts",
+      "src/domain/bazi-v3.ts",
+      "src/domain/bazi-v4.ts",
+      "src/domain/bazi-v5.ts",
+      "src/domain/bazi-v6.ts",
+      "src/domain/ditian-ren-v1.ts",
+      "src/domain/ditian-ren-v11.ts",
+      "src/domain/ditian-ren-v12.ts",
+      "src/domain/ditian-ren-v13.ts",
+      "src/domain/ditian-ren-v14.ts",
+      "src/domain/ditian-ren.ts",
+      "src/domain/engine-v13.ts",
+      "src/domain/engine-v14.ts",
+      "src/domain/engine-v7.ts",
+      "src/domain/engine-v8.ts",
+      "src/domain/engine.ts",
+      "src/domain/following-patterns-v6.ts",
+      "src/domain/following-patterns-v8.ts",
+      "src/domain/following-patterns.ts",
+      "src/domain/following-restrictions.ts",
+      "src/domain/following-sha-v8.ts",
+      "src/domain/following-sha.ts",
+      "src/domain/month-authority-v2.ts",
+      "src/domain/month-authority-v3.ts",
+      "src/domain/month-authority-v4.ts",
+      "src/domain/month-authority-v5.ts",
+      "src/domain/month-authority-v8.ts",
+      "src/domain/month-authority.ts",
+      "src/domain/monthly-seasonal-v3.ts",
+      "src/domain/monthly-seasonal-v4.ts",
+      "src/domain/monthly-seasonal-v5.ts",
+      "src/domain/monthly-seasonal-v8.ts",
+      "src/domain/monthly-seasonal.ts",
+      "src/domain/pattern-evidence-v8.ts",
+      "src/domain/pattern-evidence.ts",
+      "src/domain/qimen-markers-v8.ts",
+      "src/domain/qimen-markers.ts",
+      "src/domain/qimen-patterns-v8.ts",
+      "src/domain/qimen-patterns.ts",
+      "src/domain/qimen-stem-tombs-v8.ts",
+      "src/domain/qimen-stem-tombs.ts",
+      "src/domain/qimen-v2.ts",
+      "src/domain/ren-actions.ts",
+      "src/domain/ren-capacities.ts",
+      "src/domain/ren-dependencies.ts",
+      "src/domain/ren-directions.ts",
+      "src/domain/ren-joint-battle.ts",
+      "src/domain/seasonal-conditions-v5.ts",
+      "src/domain/seasonal-conditions-v8.ts",
+      "src/domain/seasonal-conditions.ts",
+      "src/main/bazi-root-feedback-application.ts",
+      "src/main/bazi-root-feedback-facade.ts",
+      "src/main/bazi-root-feedback-resource-pins.ts",
+      "src/main/bazi-root-feedback-resources.ts",
+      "src/main/bazi-root-feedback-v132-r2-engine.ts",
+      "src/main/bazi-root-feedback-v132-r2-resources.ts",
+      "src/main/bazi-snapshot.ts",
+      "src/main/expected-analysis.ts",
+      "src/main/project-application-v132-common.ts",
+      "src/main/project-application-v132-policy.ts",
+      "src/main/project-application-v132-resources.ts",
+      "src/main/project-application-v132-saved.ts",
+      "src/main/project-application-v132.ts",
+      "src/main/saved-analysis-policy.ts",
+      "src/shared/apparent-solar-v8.ts",
+      "src/shared/apparent-solar.ts",
+      "src/shared/bazi-root-feedback-application.ts",
+      "src/shared/bazi-root-feedback-facade.ts",
+      "src/shared/bazi-root-feedback-v132-r2-facade.ts",
+      "src/shared/bazi-root-feedback-v132.ts",
+      "src/shared/bazi-root-feedback.ts",
+      "src/shared/birth-time-basis-v8.ts",
+      "src/shared/birth-time-basis.ts",
+      "src/shared/civil-birth-v1.ts",
+      "src/shared/civil-birth-v8.ts",
+      "src/shared/civil-birth.ts",
+      "src/shared/month-authority-method.ts",
+      "src/shared/plain-json.ts",
+      "src/shared/project-application-v132.ts",
+      "src/shared/ren-method-v1.ts",
+      "src/shared/ren-method.ts",
+      "src/shared/seasonal-method.ts"
+    ],
+    "externalRuntimeModules": [
+      "node:crypto",
+      "node:fs",
+      "node:path",
+      "node:util"
+    ],
+    "resolutionGuards": [
+      {
+        "path": ".pnp.cjs",
+        "expected": "absent"
+      },
+      {
+        "path": ".pnp.data.json",
+        "expected": "absent"
+      },
+      {
+        "path": "data/jsconfig.json",
+        "expected": "absent"
+      },
+      {
+        "path": "data/package.json",
+        "expected": "absent"
+      },
+      {
+        "path": "data/tsconfig.json",
+        "expected": "absent"
+      },
+      {
+        "path": "jsconfig.json",
+        "expected": "absent"
+      },
+      {
+        "path": "node_modules/jsconfig.json",
+        "expected": "absent"
+      },
+      {
+        "path": "node_modules/lunar-typescript/dist/jsconfig.json",
+        "expected": "absent"
+      },
+      {
+        "path": "node_modules/lunar-typescript/dist/package.json",
+        "expected": "absent"
+      },
+      {
+        "path": "node_modules/lunar-typescript/dist/tsconfig.json",
+        "expected": "absent"
+      },
+      {
+        "path": "node_modules/lunar-typescript/jsconfig.json",
+        "expected": "absent"
+      },
+      {
+        "path": "node_modules/lunar-typescript/tsconfig.json",
+        "expected": "absent"
+      },
+      {
+        "path": "node_modules/package.json",
+        "expected": "absent"
+      },
+      {
+        "path": "node_modules/tsconfig.json",
+        "expected": "absent"
+      },
+      {
+        "path": "src/domain/bazi-mainchain/jsconfig.json",
+        "expected": "absent"
+      },
+      {
+        "path": "src/domain/bazi-mainchain/kernel-v12-fixed/jsconfig.json",
+        "expected": "absent"
+      },
+      {
+        "path": "src/domain/bazi-mainchain/kernel-v12-fixed/package.json",
+        "expected": "absent"
+      },
+      {
+        "path": "src/domain/bazi-mainchain/kernel-v12-fixed/rules/jsconfig.json",
+        "expected": "absent"
+      },
+      {
+        "path": "src/domain/bazi-mainchain/kernel-v12-fixed/rules/package.json",
+        "expected": "absent"
+      },
+      {
+        "path": "src/domain/bazi-mainchain/kernel-v12-fixed/rules/tsconfig.json",
+        "expected": "absent"
+      },
+      {
+        "path": "src/domain/bazi-mainchain/kernel-v12-fixed/tsconfig.json",
+        "expected": "absent"
+      },
+      {
+        "path": "src/domain/bazi-mainchain/package.json",
+        "expected": "absent"
+      },
+      {
+        "path": "src/domain/bazi-mainchain/project-v13/jsconfig.json",
+        "expected": "absent"
+      },
+      {
+        "path": "src/domain/bazi-mainchain/project-v13/package.json",
+        "expected": "absent"
+      },
+      {
+        "path": "src/domain/bazi-mainchain/project-v13/rules/jsconfig.json",
+        "expected": "absent"
+      },
+      {
+        "path": "src/domain/bazi-mainchain/project-v13/rules/package.json",
+        "expected": "absent"
+      },
+      {
+        "path": "src/domain/bazi-mainchain/project-v13/rules/tsconfig.json",
+        "expected": "absent"
+      },
+      {
+        "path": "src/domain/bazi-mainchain/project-v13/tsconfig.json",
+        "expected": "absent"
+      },
+      {
+        "path": "src/domain/bazi-mainchain/project-v132/jsconfig.json",
+        "expected": "absent"
+      },
+      {
+        "path": "src/domain/bazi-mainchain/project-v132/package.json",
+        "expected": "absent"
+      },
+      {
+        "path": "src/domain/bazi-mainchain/project-v132/rules/jsconfig.json",
+        "expected": "absent"
+      },
+      {
+        "path": "src/domain/bazi-mainchain/project-v132/rules/package.json",
+        "expected": "absent"
+      },
+      {
+        "path": "src/domain/bazi-mainchain/project-v132/rules/tsconfig.json",
+        "expected": "absent"
+      },
+      {
+        "path": "src/domain/bazi-mainchain/project-v132/tsconfig.json",
+        "expected": "absent"
+      },
+      {
+        "path": "src/domain/bazi-mainchain/tsconfig.json",
+        "expected": "absent"
+      },
+      {
+        "path": "src/domain/jsconfig.json",
+        "expected": "absent"
+      },
+      {
+        "path": "src/domain/package.json",
+        "expected": "absent"
+      },
+      {
+        "path": "src/domain/tsconfig.json",
+        "expected": "absent"
+      },
+      {
+        "path": "src/jsconfig.json",
+        "expected": "absent"
+      },
+      {
+        "path": "src/main/jsconfig.json",
+        "expected": "absent"
+      },
+      {
+        "path": "src/main/package.json",
+        "expected": "absent"
+      },
+      {
+        "path": "src/main/tsconfig.json",
+        "expected": "absent"
+      },
+      {
+        "path": "src/package.json",
+        "expected": "absent"
+      },
+      {
+        "path": "src/shared/jsconfig.json",
+        "expected": "absent"
+      },
+      {
+        "path": "src/shared/package.json",
+        "expected": "absent"
+      },
+      {
+        "path": "src/shared/tsconfig.json",
+        "expected": "absent"
+      },
+      {
+        "path": "src/tsconfig.json",
+        "expected": "absent"
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "execution-source/assets/bazi-root-feedback/1.3.2-r2/licenses/CC-BY-SA-4.0.txt",
+      "bytes": 20137,
+      "sha256": "23ee78c8bae49cf08ea2f0c84945c66b987ebe4520881fb51b3dad4fb43d07c2",
+      "kind": "license"
+    },
+    {
+      "path": "execution-source/assets/bazi-root-feedback/1.3.2-r2/licenses/lunar-typescript-LICENSE.txt",
+      "bytes": 1062,
+      "sha256": "097ec7989106eb9a27b6eff71dbaf1cd6bb04a9b35b6c94b54fff0829a041a8c",
+      "kind": "license"
+    },
+    {
+      "path": "execution-source/assets/bazi-root-feedback/1.3.2-r2/resource-manifest.json",
+      "bytes": 94589,
+      "sha256": "3d9b15e6f9963f385411a70eabcbb3ab940629bc285bea65a8ebee92c3f6c71a",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/data/cong-sha-rules.json",
+      "bytes": 28249,
+      "sha256": "77f26154476bcdbc68fff0ff018e73983543103057f9b29acc5814abe08e7daa",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/data/cong-wealth-rules-v1.json",
+      "bytes": 17285,
+      "sha256": "158ca8518800cf8e3c51307189c069cd10669a40995a9722877b6edcb434f107",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/data/cong-wealth-rules.json",
+      "bytes": 17285,
+      "sha256": "158ca8518800cf8e3c51307189c069cd10669a40995a9722877b6edcb434f107",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/data/ditian-ren-table.json",
+      "bytes": 134746,
+      "sha256": "59a5e062d8bf31cec007325b94ad1788ec61f74cc3f675a0179647c9daa02995",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/data/following-restrictions-rules.json",
+      "bytes": 2348,
+      "sha256": "f7513ccc32b0adb0fbd7b195d8f5d7514fb8e308005e96dd5ff87aac3ce2faf7",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/data/month-authority-table.json",
+      "bytes": 14232,
+      "sha256": "af3fc3fad4ba4a698b452750f7ce543429cc26710d773a895160e6b5aff61ba7",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/data/monthly-seasonal-conditions-v1.json",
+      "bytes": 10511,
+      "sha256": "860d78081fe714d8c9329cf7514e052183d8b9b810405cf66077d86dcab91f63",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/data/monthly-seasonal-conditions.json",
+      "bytes": 10511,
+      "sha256": "860d78081fe714d8c9329cf7514e052183d8b9b810405cf66077d86dcab91f63",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/data/monthly-seasonal-table-v1.json",
+      "bytes": 172719,
+      "sha256": "71d58e5c547297feabbe44023cfb7ceed213f6582215ca21273076e98328ff48",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/data/monthly-seasonal-table.json",
+      "bytes": 172719,
+      "sha256": "71d58e5c547297feabbe44023cfb7ceed213f6582215ca21273076e98328ff48",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/data/project-application-v132-policy.json",
+      "bytes": 1576,
+      "sha256": "7b1f4ae0afbf20ad236a7c333284b47393c71c6abc3118dc60c641799672bb0e",
+      "kind": "rule"
+    },
+    {
+      "path": "execution-source/data/qimen-stem-tombs-table.json",
+      "bytes": 4236,
+      "sha256": "56ae5cd8e7b9cae39d49f0f4eae0da38f0995b00b5354b5ac91061a3fa8405e2",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/data/ren-actions-rules.json",
+      "bytes": 13668,
+      "sha256": "fe6f127bfa80331c597415b54a2e3f89df156a6f7dfbe86e175b0b48e64878e0",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/data/ren-capacities-rules.json",
+      "bytes": 8070,
+      "sha256": "65099326ddf83842d2459c005f932878a3dbbf3b41a20cdca8a02148601f3052",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/data/ren-directions-rules.json",
+      "bytes": 16240,
+      "sha256": "05d3769b91922294b8696a141010d9755a2b4dcb0e6d977a4a2eae001656f9f2",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/data/ren-joint-battle-rules.json",
+      "bytes": 8656,
+      "sha256": "010319e836fef2387ab420cce579315ba02cda85d95d4c1be47b16826b7482b5",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/data/ren-necessary-rules.json",
+      "bytes": 3213,
+      "sha256": "1fa67230eac5293f4a1436704c6f8634e89e6ae6ca65eb74c4448a9929be3e8c",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/node_modules/lunar-typescript/LICENSE",
+      "bytes": 1062,
+      "sha256": "097ec7989106eb9a27b6eff71dbaf1cd6bb04a9b35b6c94b54fff0829a041a8c",
+      "kind": "license"
+    },
+    {
+      "path": "execution-source/node_modules/lunar-typescript/dist/index.mjs",
+      "bytes": 424612,
+      "sha256": "505dc8eca166977c4e40ec883b22e871cab631811a79ad793ab8e561a2e9ad0f",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/node_modules/lunar-typescript/package.json",
+      "bytes": 2188,
+      "sha256": "f66f1217e67e227f77b7a35b3c5b40d3835842856920e99ebd7e10f2d940e21c",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/package.json",
+      "bytes": 10973,
+      "sha256": "bcd5af7550e4cc784b653b28472e4f4c6d6291342688e717b05592c38293e202",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/scripts/build-project-application-v132.d.mts",
+      "bytes": 2218,
+      "sha256": "d68b1440ea34f7a9474a0961e5f5124a0c49f2cfa68deabf88e5c0f58e8bac25",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/scripts/build-project-application-v132.mjs",
+      "bytes": 24429,
+      "sha256": "4510f0cdee55b296f27ef1381337a35d6fbab0a842d1b507f1524e1ccd830d4f",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/scripts/build-root-feedback-v132-r2.d.mts",
+      "bytes": 1237,
+      "sha256": "e9184d692145c590e1dfe85f3eadd53af8a7cd663a237078732de3b808b69c65",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/scripts/build-root-feedback-v132-r2.mjs",
+      "bytes": 12613,
+      "sha256": "3e75c7453ba7ef619fec0a302003b462811103fcf35bf4d8a8ceb93b74ee730a",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/bazi-evidence-v1.ts",
+      "bytes": 18709,
+      "sha256": "7e0db64d30349025ba6b84393e2169aaf64b97b2686f87892835cfe751623966",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/bazi-evidence-v2.ts",
+      "bytes": 16893,
+      "sha256": "5adfa856520aeee875b5729a9966a6dce1f3a55c292c0ba3a26c96ebe7a06309",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/bazi-evidence-v3.ts",
+      "bytes": 17351,
+      "sha256": "dda0ad8ca026279986c3cda527267fbac1225d3295ee6c49f6fb7ed7f8e9dd8a",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/bazi-evidence-v4.ts",
+      "bytes": 17329,
+      "sha256": "0a54c14ed910f048fb933567868e40851543ed33c0b616ec248d20da596736a3",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/bazi-evidence-v5.ts",
+      "bytes": 17832,
+      "sha256": "4a56352223a10ffdcdc5d8bf389ba6fb7dc3eeb1a017f094453eb5564419ea46",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/bazi-evidence-v6.ts",
+      "bytes": 18264,
+      "sha256": "a2ddacffa21204269fdd5232abc53dbc85b2d2f05f3652884242dc5fec69aaaf",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/bazi-evidence-v7.ts",
+      "bytes": 18297,
+      "sha256": "2de18fd2b3c5a571d686bccdb36fe5781f35d28fc9eee02c29271a9f2fc31685",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/bazi-evidence-v8.ts",
+      "bytes": 18388,
+      "sha256": "054d1efbc0642d553a7da8ac33a150d9db45fe3e728abc014d736d1fa0534fdf",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/bazi-evidence.ts",
+      "bytes": 18370,
+      "sha256": "16ae023af5ef4cd08b2f0a2678340a0eae5ba44a1758e9937a17162b3895f500",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/bazi-legacy.ts",
+      "bytes": 7870,
+      "sha256": "da99763504da9ef80ee90282dc35d0dcac47ef32e2fec5a618825f30dd4fe7b3",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/bazi-mainchain/kernel-v12-fixed/branch-intervals.ts",
+      "bytes": 5390,
+      "sha256": "f351e56258c0ac5eaac0c4c77f175c6a2856c35f26a80a57d4bd8e8d40c2b129",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/bazi-mainchain/kernel-v12-fixed/control-budget.ts",
+      "bytes": 16206,
+      "sha256": "4862b961b49c43252853b9213410da5971d84c1a4c6ed3c781363a704f8468be",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/bazi-mainchain/kernel-v12-fixed/numeric-interval.ts",
+      "bytes": 2011,
+      "sha256": "5ae55a799c489ed51b459b77a96f8d14cbe2ae05c165d868aaf09bedc80b7a79",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/bazi-mainchain/kernel-v12-fixed/numeric-review.ts",
+      "bytes": 4280,
+      "sha256": "8afe0e5405a51bc2e30484f57cf2c4325bc152695d9f7af5d37bf106db2bd930",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/bazi-mainchain/kernel-v12-fixed/resource-protection.ts",
+      "bytes": 8403,
+      "sha256": "ba22b4e8b13e39d0d07de14e28da79473b59f8d6bb0661a6ed42b5b0f378db62",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/bazi-mainchain/kernel-v12-fixed/rules/project-mainchain-1.2.0.json",
+      "bytes": 25809,
+      "sha256": "3d274b797503795b80f7acb13414db783df7e1ed4fc8c3c5ae29b148b495d647",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/bazi-mainchain/kernel-v12-fixed/settled-flows.ts",
+      "bytes": 6476,
+      "sha256": "9dc98729555abab4cca1e26d1adf22b07e93bff21d0d269f8f3f285c08a8d318",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/bazi-mainchain/project-v13/consumers.ts",
+      "bytes": 37824,
+      "sha256": "463103bf37f957255740873005d8601c60c989c88f70712dcdb904b8d9569451",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/bazi-mainchain/project-v13/index.ts",
+      "bytes": 7357,
+      "sha256": "e09a91975ac06b98d3232db0b961e8a9a39132db3f590f5dadc8329a5138d9fb",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/bazi-mainchain/project-v13/intervention.ts",
+      "bytes": 4950,
+      "sha256": "478743a9336f18de082effb837d7f55706367843a345bec62ad29d2eb0c9c153",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/bazi-mainchain/project-v13/presentation.ts",
+      "bytes": 3070,
+      "sha256": "ff0107e49fae01f033777565ff9986e8390c324dc7ddff350f53c77d26a55643",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/bazi-mainchain/project-v13/regime-protection.ts",
+      "bytes": 1405,
+      "sha256": "3061a1eddd72402fb8471b2ea2a966e0ce67dbcdf64b1e63d364be96f5d91cb2",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/bazi-mainchain/project-v13/root-feedback.ts",
+      "bytes": 15310,
+      "sha256": "76a4100d6cfde60f0a412ee1f9ffabc3bf121f273b8db0fa84e6a24a89d002bb",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/bazi-mainchain/project-v13/rules/project-mainchain-1.3.1.json",
+      "bytes": 29731,
+      "sha256": "f35a5864d406a2217efdfe40eba891f5b5ad6a995176e883c0789be306fce648",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/bazi-mainchain/project-v13/rules/qiongtong-initial-reference.json",
+      "bytes": 172719,
+      "sha256": "71d58e5c547297feabbe44023cfb7ceed213f6582215ca21273076e98328ff48",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/bazi-mainchain/project-v13/settled-flows.ts",
+      "bytes": 6726,
+      "sha256": "573f20bc3ce1932edd3216f54e866d6586d6a59e5b4db74a11a7e42363671775",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/bazi-mainchain/project-v132/consumers.ts",
+      "bytes": 37864,
+      "sha256": "9fc27fd796503c2f07b4b0d814adb25f48a71b20793e7d2b43a0813205752c00",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/bazi-mainchain/project-v132/index.ts",
+      "bytes": 7361,
+      "sha256": "7479171a0ca50de436de987e6f31b1b8884c619955ea53d7f3bd19c7d4b09d23",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/bazi-mainchain/project-v132/intervention.ts",
+      "bytes": 4950,
+      "sha256": "478743a9336f18de082effb837d7f55706367843a345bec62ad29d2eb0c9c153",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/bazi-mainchain/project-v132/presentation.ts",
+      "bytes": 10867,
+      "sha256": "82f3f2626241749216d3b67c6511b07f42a26af66f55e48afc729bec33e9890e",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/bazi-mainchain/project-v132/regime-protection.ts",
+      "bytes": 1405,
+      "sha256": "c8772637d2440a2781fb174fb8ff4f1cc8164f6e708a987afec92adf21971989",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/bazi-mainchain/project-v132/root-feedback.ts",
+      "bytes": 16800,
+      "sha256": "74ba6990d716900488ded56e3cb838e026cd516ef03aa10071a940aeba8b2675",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/bazi-mainchain/project-v132/rules/project-mainchain-1.3.2.json",
+      "bytes": 29731,
+      "sha256": "6991753b498f57bd09d1bdbe7795c8cf437a2c4b6720c2039799d5afac7456f3",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/bazi-mainchain/project-v132/rules/qiongtong-initial-reference.json",
+      "bytes": 172719,
+      "sha256": "71d58e5c547297feabbe44023cfb7ceed213f6582215ca21273076e98328ff48",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/bazi-mainchain/project-v132/rules/source-lock-1.3.2.json",
+      "bytes": 5372,
+      "sha256": "647f4e4b6ace4e65aca7d811c9cb7bb2071d0dbb7f91a7d4d258a4925b03e2ca",
+      "kind": "source-lock"
+    },
+    {
+      "path": "execution-source/src/domain/bazi-mainchain/project-v132/settled-flows.ts",
+      "bytes": 6726,
+      "sha256": "471ac93789932ede398bd16b8d764e2cee8a549e839f3a3e523f3d568a985394",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/bazi-root-calendar-branches.ts",
+      "bytes": 5558,
+      "sha256": "fd9a633c3fbb09703a8f954446e1dda47813dbad9d42f914f73df1bc764c9f11",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/bazi-v1.ts",
+      "bytes": 829,
+      "sha256": "8c51a348b4ec0a30252f0595c560e8f1f259553badd6e4719c0ffffca488c9dc",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/bazi-v2.ts",
+      "bytes": 1009,
+      "sha256": "5674c6d9fc8996d7b57d2dee04eef13ae1f21b2b20d97fd428b3aa4e9413b2af",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/bazi-v3.ts",
+      "bytes": 1143,
+      "sha256": "f7bedb24e8ba35703479072968b56f9c8a9020f74d04c3542ba5269465f34afc",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/bazi-v4.ts",
+      "bytes": 1218,
+      "sha256": "8fd43bd81ab0a3f92e6eb0cd244cbc34da0aae31d4e571d5a4b00a998a71d172",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/bazi-v5.ts",
+      "bytes": 1220,
+      "sha256": "fe7678f3bd9d34b1c81061859cad76e4c19e55ca69ea1d21286dd62fd021e47e",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/bazi-v6.ts",
+      "bytes": 1189,
+      "sha256": "cb2601864c9fe56655c4975dd7f8740b842b43c3dd665f4c09cdff35109375e6",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/ditian-ren-v1.ts",
+      "bytes": 44136,
+      "sha256": "683a45bbe59ae2ee2ff15ac3e2c8b4091386cb9e40316d739fd4dc08d93303d1",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/ditian-ren-v11.ts",
+      "bytes": 9131,
+      "sha256": "6db422d7cd4a3e9c84997c3e7a6568323b4ac2170bfd53b13a94416685eb8770",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/ditian-ren-v12.ts",
+      "bytes": 2556,
+      "sha256": "ebec48db65a936e5b03469340f604affc568987369556e99c8c87af656c4527a",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/ditian-ren-v13.ts",
+      "bytes": 2340,
+      "sha256": "bd3751ebc5c43f0d17d3dca5a719ae9c5ce5d3833bfd2605c35282b8f237e3da",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/ditian-ren-v14.ts",
+      "bytes": 2355,
+      "sha256": "2b7256d64b9156277a953ec26d92dae2c9964141c8a3fdcf1185addffb7199b1",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/ditian-ren.ts",
+      "bytes": 2369,
+      "sha256": "1d856311caf16e6c9f39be9bed228040f0473e7fc6ab0ab91cf3f5588fa6e75d",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/engine-v13.ts",
+      "bytes": 13496,
+      "sha256": "bc893b98d96b8a59f0da565c94eb7ce81480490371f55cc90c3da57dd4c36edd",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/engine-v14.ts",
+      "bytes": 919,
+      "sha256": "7f8b77222bd4581182fb2ea16ff04b7ed846052c098187adda1d07fed8985b20",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/engine-v7.ts",
+      "bytes": 9535,
+      "sha256": "13cf862d24d8ce9ddd3115cbeb20a964a879573128cc10a7346f9234ce699878",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/engine-v8.ts",
+      "bytes": 12516,
+      "sha256": "7674069f81c006e703aa820287786949655b5f4d605a5aad367b27cd8f6dbc57",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/engine.ts",
+      "bytes": 919,
+      "sha256": "908138aff9640cec08c9c471f2a5a931ece32b4033baac05304976fd64747af8",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/following-patterns-v6.ts",
+      "bytes": 12332,
+      "sha256": "edbe47b9df8066ae0b8e24852b0a50264952a1e6e4231c44b832d7d60040ff45",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/following-patterns-v8.ts",
+      "bytes": 12240,
+      "sha256": "40b64497f51ed6239726581b009872f4796793bd5ef818e11a5aa3aa27edc506",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/following-patterns.ts",
+      "bytes": 12240,
+      "sha256": "40b64497f51ed6239726581b009872f4796793bd5ef818e11a5aa3aa27edc506",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/following-restrictions.ts",
+      "bytes": 4508,
+      "sha256": "df68ae216d5c53859c75bf704d13e9f0af14368bd4da21f20b92d808af1f6c4e",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/following-sha-v8.ts",
+      "bytes": 9055,
+      "sha256": "a1b16983305906e4a3a17e515557d62760d1307972329d1783b4bd1530927e2c",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/following-sha.ts",
+      "bytes": 9052,
+      "sha256": "ded7204024ec4561a14a80e1f2f5829eec0db8a330fe6ad84ac0cd98a8c0609f",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/month-authority-v2.ts",
+      "bytes": 9720,
+      "sha256": "276cb2d4c2e599667c98e5a616e5e57cd9a81072c04cfa4c79b547af853de9a4",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/month-authority-v3.ts",
+      "bytes": 9736,
+      "sha256": "ec71209549f62afdbe380bb6cfc2845ceb1af5c49f2dd221fa3536c058940f97",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/month-authority-v4.ts",
+      "bytes": 9714,
+      "sha256": "796c50758e429c272e5560543a448246dd9b470532e13085bd7a271e74079085",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/month-authority-v5.ts",
+      "bytes": 9708,
+      "sha256": "bf089de68ab7aa7aa7506f0a14ab000511a29cdd175ec6da26159fd5db7e7f28",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/month-authority-v8.ts",
+      "bytes": 9633,
+      "sha256": "85b9cc84f93709ec2f2bfc9f718e28566579acbbebcf76d0186738e27eb6df00",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/month-authority.ts",
+      "bytes": 9633,
+      "sha256": "85b9cc84f93709ec2f2bfc9f718e28566579acbbebcf76d0186738e27eb6df00",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/monthly-seasonal-v3.ts",
+      "bytes": 11712,
+      "sha256": "70492b9d572875a11327efce9e7a73340195d868f520746f6cbefa38d6072579",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/monthly-seasonal-v4.ts",
+      "bytes": 11690,
+      "sha256": "7ff91b14762ac1f48e1093fb08ed38f450b4b9073814f839514f679fcec6616e",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/monthly-seasonal-v5.ts",
+      "bytes": 11684,
+      "sha256": "20fc689cc4d89949ecdbd18e2ec6f72278ebc9132d2b4e40d2f739e13690737f",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/monthly-seasonal-v8.ts",
+      "bytes": 11606,
+      "sha256": "0cfea5cf7238ec53fba79ccdb8f14848f15799022f7625e36f02ddee38a46630",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/monthly-seasonal.ts",
+      "bytes": 11606,
+      "sha256": "0cfea5cf7238ec53fba79ccdb8f14848f15799022f7625e36f02ddee38a46630",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/pattern-evidence-v8.ts",
+      "bytes": 1393,
+      "sha256": "9dd2ef1969523e30f314303bb264ab749fb67aab4122e8c0302a9c6295bc7f49",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/pattern-evidence.ts",
+      "bytes": 1387,
+      "sha256": "f4e45047d4de9a89de73bb023f3d49e8b3923d396377ea9f2ca3b7e2328e4d21",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/qimen-markers-v8.ts",
+      "bytes": 5785,
+      "sha256": "d3f226641e8de093095ab7b2875d1dbca9457aecfd302fc0f1a60098fcc4dcf6",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/qimen-markers.ts",
+      "bytes": 5785,
+      "sha256": "d3f226641e8de093095ab7b2875d1dbca9457aecfd302fc0f1a60098fcc4dcf6",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/qimen-patterns-v8.ts",
+      "bytes": 12555,
+      "sha256": "f7b2befc6ffbaa9dc335ff6ce4467982cdbf5b18a15edd983c71f480251afb4b",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/qimen-patterns.ts",
+      "bytes": 12555,
+      "sha256": "f7b2befc6ffbaa9dc335ff6ce4467982cdbf5b18a15edd983c71f480251afb4b",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/qimen-stem-tombs-v8.ts",
+      "bytes": 6272,
+      "sha256": "1cc6fb3d5a528e99c82831073e6ed8c3631f15c3bb99657f7fcf1ad921c0e7db",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/qimen-stem-tombs.ts",
+      "bytes": 6272,
+      "sha256": "1cc6fb3d5a528e99c82831073e6ed8c3631f15c3bb99657f7fcf1ad921c0e7db",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/qimen-v2.ts",
+      "bytes": 8095,
+      "sha256": "64f2836a967e5dcf2ec6c8405d0e85da1b9fa027fe58c890f003c5d4efb9f42e",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/ren-actions.ts",
+      "bytes": 24197,
+      "sha256": "1a4f45fa2e0801025bd56cb3d557625900fe46369c262640d744ff1d9204e965",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/ren-capacities.ts",
+      "bytes": 11603,
+      "sha256": "e215ace2d35aee1ae7c7a56b5919d2676aeb8372c20f0cc4ed8b7dc7020089a9",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/ren-dependencies.ts",
+      "bytes": 8917,
+      "sha256": "154aad310b9bba1fa6fa840adfdb8d28ab5f2fadf093d41526ec92caa2753bab",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/ren-directions.ts",
+      "bytes": 11668,
+      "sha256": "f1d04909e3577438e840ca3f0ed4ad385a537ee061fefd7fac4f19d6c0655ae0",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/ren-joint-battle.ts",
+      "bytes": 10965,
+      "sha256": "9280ac22f54bbff1d4b9bc548ffaba7d5a52f0f17653be58867d2b765564f5dc",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/seasonal-conditions-v5.ts",
+      "bytes": 8345,
+      "sha256": "d7f36eab4eea192eb744e381ca39f1579dfcd6221325d29eab73c407043ab9da",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/seasonal-conditions-v8.ts",
+      "bytes": 8267,
+      "sha256": "e0729ebc0809ca0602e4f4f9a9cf0996a9f2a14616a75051314e50203e634d87",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/domain/seasonal-conditions.ts",
+      "bytes": 8264,
+      "sha256": "430eeed92ec88b3f1b7e542270a359c7054e3fbd6818ab7787e15c14caad753b",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/main/bazi-root-feedback-application.ts",
+      "bytes": 18889,
+      "sha256": "5e5ddc8189cff37acce231a4aabbe9fab169aa93bdbec72acab0759a5b886552",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/main/bazi-root-feedback-facade.ts",
+      "bytes": 9983,
+      "sha256": "8faec2a82c7f2dc700799a29d02bd42902e164706faca68ce9eeff29d529e56f",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/main/bazi-root-feedback-resource-pins.ts",
+      "bytes": 206,
+      "sha256": "1afbde9fad541b4717b6ad8462058c00f42d4f0f08d994915f4676ffb1073802",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/main/bazi-root-feedback-resources.ts",
+      "bytes": 7270,
+      "sha256": "118fbdd59d9bdad263d36992188262c4666b441dd8531c39358d63810def41dd",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/main/bazi-root-feedback-v132-r2-engine.ts",
+      "bytes": 2421,
+      "sha256": "261f05736df5a317351d65bc6ae6075459e3195292fea757f4f8dd990d2394f4",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/main/bazi-root-feedback-v132-r2-pins.json",
+      "bytes": 53389,
+      "sha256": "e613b83ff2ff8432127ac80dcca4ca8fb968178933a007aa3f43365a39967c8b",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/main/bazi-root-feedback-v132-r2-resources.ts",
+      "bytes": 7459,
+      "sha256": "93ebda777ba53be2faaa957abb867cd690f3c65c21018f416224b67101ef23d9",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/main/bazi-snapshot.ts",
+      "bytes": 4390,
+      "sha256": "04315b76af3e1336935a27ff366340519a36dc25b0d4e534e7d6728372a80abf",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/main/expected-analysis.ts",
+      "bytes": 9094,
+      "sha256": "f8261b395edba0c9b1d68800c611128e3606ea9e3330008385668edb085381e3",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/main/project-application-v132-common.ts",
+      "bytes": 2951,
+      "sha256": "c869510e3f4871ebb51ae160eba8ad7e5a88f268213b629d38f915661baae107",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/main/project-application-v132-policy.ts",
+      "bytes": 12188,
+      "sha256": "5a0086b453e106fb042ac6aa81a3caf4413de6252bb9e3e8f186655d4d7d094f",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/main/project-application-v132-resources.ts",
+      "bytes": 5693,
+      "sha256": "d4108c0b970a415cebe031c77eefe29ecb8be398603a81562e45cd67fb8a486a",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/main/project-application-v132-saved.ts",
+      "bytes": 2218,
+      "sha256": "170486da66d8c2f2f2618661f874bd70a3edbd7498a3cb2438a949740155bf54",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/main/project-application-v132.ts",
+      "bytes": 9734,
+      "sha256": "c31035564b6c38504464229667b98dce005b83ddb9a0d98ea3d2019cdd98555e",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/main/saved-analysis-policy.ts",
+      "bytes": 1322,
+      "sha256": "54969e18764a5d27447e00b93bfbbb3074fe500d277aad3d8d7d582363487e48",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/shared/apparent-solar-v8.ts",
+      "bytes": 8570,
+      "sha256": "0b68d8635e9bc5d214539b5a97a2c03870efc5329e1a7af8905cca079875938d",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/shared/apparent-solar.ts",
+      "bytes": 8570,
+      "sha256": "0b68d8635e9bc5d214539b5a97a2c03870efc5329e1a7af8905cca079875938d",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/shared/bazi-root-feedback-application.ts",
+      "bytes": 6341,
+      "sha256": "92ce67b9f06801c0afbe93942ffa88c8c8ac24f3783db5857be129da53e99310",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/shared/bazi-root-feedback-facade.ts",
+      "bytes": 2672,
+      "sha256": "d4c870ce850b403ad08734905818da4d2d50788f086a5cd300aadd1aaa92b17c",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/shared/bazi-root-feedback-v132-r2-facade.ts",
+      "bytes": 1766,
+      "sha256": "d84071ae31751754c89e40ab73da605dc3f14c070a2c181bb8c357bbca3d1d66",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/shared/bazi-root-feedback-v132.ts",
+      "bytes": 4115,
+      "sha256": "9f2529b1410da3212be3d310933427028fc8475c965a8bed269e4aef24dffe5f",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/shared/bazi-root-feedback.ts",
+      "bytes": 2148,
+      "sha256": "68ac653c9ee11ab2852d17f164b1da47975b12353d9ef34c3e480e6cf82cf005",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/shared/birth-time-basis-v8.ts",
+      "bytes": 7744,
+      "sha256": "2fe8a4a31acbdc63551a4e2a041fc471d30121db6b96b759745aa0b311116226",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/shared/birth-time-basis.ts",
+      "bytes": 7741,
+      "sha256": "67e7758a342fd4382b76889d8915f02bdd2a58ae89c006d6bbbcbc66a590af92",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/shared/civil-birth-v1.ts",
+      "bytes": 7785,
+      "sha256": "e9cd95e0d9074012862dbb16b6e57c1caef471dc3775e30dfd04613ecfdffe65",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/shared/civil-birth-v8.ts",
+      "bytes": 9047,
+      "sha256": "6f9a9f780633137f3cf3a3ca2e0a3216cce04dabb4b0d1eded63ab0969b0ccae",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/shared/civil-birth.ts",
+      "bytes": 9047,
+      "sha256": "6f9a9f780633137f3cf3a3ca2e0a3216cce04dabb4b0d1eded63ab0969b0ccae",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/shared/month-authority-method.ts",
+      "bytes": 679,
+      "sha256": "6b7e225aaa93053e6fa9983aa8e448fc3a831255de6e085abbedb4ed3329879a",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/shared/plain-json.ts",
+      "bytes": 1752,
+      "sha256": "0edd8fd75a2bd737040adcde26ae46bb851870c8dbc2a07ab3b25607f19f01a6",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/shared/project-application-v132.ts",
+      "bytes": 3586,
+      "sha256": "214803ddf25473311d1352b87642f18d4fec3bfd8f632fdd7fec49eb3e2f8bad",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/shared/ren-method-v1.ts",
+      "bytes": 530,
+      "sha256": "c5188b9e9fb15aa7766a79fe9aec7bed7c4a67ff169767f1c7a1d0869fb651ac",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/shared/ren-method.ts",
+      "bytes": 1087,
+      "sha256": "34feeee52938a44a22baa4088ee63a7059b254dfa748fdf46a292e578cd1e324",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/src/shared/seasonal-method.ts",
+      "bytes": 535,
+      "sha256": "90287e95c9afd2688be6ec2552538753a3cdf6159b8fec6ec7821ebe1b13e156",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "execution-source/tsconfig.json",
+      "bytes": 368,
+      "sha256": "2388ce4e1d92d01dbf804f0c9aecbb5034136965b3e84c36bcfcd91edfedec17",
+      "kind": "runtime-source"
+    },
+    {
+      "path": "publication.json",
+      "bytes": 57955,
+      "sha256": "46eb1854f9d6d864441c1a6b460cbbb22bc45e1b53d2f515d07f5c30a08df531",
+      "kind": "publication"
+    }
+  ],
+  "sources": [
+    {
+      "id": "project-naming-application-v132-candidate.1",
+      "name": "Project naming application 1.3.2 candidate.1 fixed policy and adapter publication",
+      "url": "project://project-naming-application/1.3.2-candidate.1",
+      "commit": "7ad672eae76a30745e136b743bf0b7a985d3ce4f1626f431df3d107e075b8b69",
+      "license": "Project proposal; preserved MIT and CC-BY-SA-4.0 dependency licenses included",
+      "files": [
+        "execution-source/assets/bazi-root-feedback/1.3.2-r2/licenses/CC-BY-SA-4.0.txt",
+        "execution-source/assets/bazi-root-feedback/1.3.2-r2/licenses/lunar-typescript-LICENSE.txt",
+        "execution-source/assets/bazi-root-feedback/1.3.2-r2/resource-manifest.json",
+        "execution-source/data/cong-sha-rules.json",
+        "execution-source/data/cong-wealth-rules-v1.json",
+        "execution-source/data/cong-wealth-rules.json",
+        "execution-source/data/ditian-ren-table.json",
+        "execution-source/data/following-restrictions-rules.json",
+        "execution-source/data/month-authority-table.json",
+        "execution-source/data/monthly-seasonal-conditions-v1.json",
+        "execution-source/data/monthly-seasonal-conditions.json",
+        "execution-source/data/monthly-seasonal-table-v1.json",
+        "execution-source/data/monthly-seasonal-table.json",
+        "execution-source/data/project-application-v132-policy.json",
+        "execution-source/data/qimen-stem-tombs-table.json",
+        "execution-source/data/ren-actions-rules.json",
+        "execution-source/data/ren-capacities-rules.json",
+        "execution-source/data/ren-directions-rules.json",
+        "execution-source/data/ren-joint-battle-rules.json",
+        "execution-source/data/ren-necessary-rules.json",
+        "execution-source/node_modules/lunar-typescript/LICENSE",
+        "execution-source/node_modules/lunar-typescript/dist/index.mjs",
+        "execution-source/node_modules/lunar-typescript/package.json",
+        "execution-source/package.json",
+        "execution-source/scripts/build-project-application-v132.d.mts",
+        "execution-source/scripts/build-project-application-v132.mjs",
+        "execution-source/scripts/build-root-feedback-v132-r2.d.mts",
+        "execution-source/scripts/build-root-feedback-v132-r2.mjs",
+        "execution-source/src/domain/bazi-evidence-v1.ts",
+        "execution-source/src/domain/bazi-evidence-v2.ts",
+        "execution-source/src/domain/bazi-evidence-v3.ts",
+        "execution-source/src/domain/bazi-evidence-v4.ts",
+        "execution-source/src/domain/bazi-evidence-v5.ts",
+        "execution-source/src/domain/bazi-evidence-v6.ts",
+        "execution-source/src/domain/bazi-evidence-v7.ts",
+        "execution-source/src/domain/bazi-evidence-v8.ts",
+        "execution-source/src/domain/bazi-evidence.ts",
+        "execution-source/src/domain/bazi-legacy.ts",
+        "execution-source/src/domain/bazi-mainchain/kernel-v12-fixed/branch-intervals.ts",
+        "execution-source/src/domain/bazi-mainchain/kernel-v12-fixed/control-budget.ts",
+        "execution-source/src/domain/bazi-mainchain/kernel-v12-fixed/numeric-interval.ts",
+        "execution-source/src/domain/bazi-mainchain/kernel-v12-fixed/numeric-review.ts",
+        "execution-source/src/domain/bazi-mainchain/kernel-v12-fixed/resource-protection.ts",
+        "execution-source/src/domain/bazi-mainchain/kernel-v12-fixed/rules/project-mainchain-1.2.0.json",
+        "execution-source/src/domain/bazi-mainchain/kernel-v12-fixed/settled-flows.ts",
+        "execution-source/src/domain/bazi-mainchain/project-v13/consumers.ts",
+        "execution-source/src/domain/bazi-mainchain/project-v13/index.ts",
+        "execution-source/src/domain/bazi-mainchain/project-v13/intervention.ts",
+        "execution-source/src/domain/bazi-mainchain/project-v13/presentation.ts",
+        "execution-source/src/domain/bazi-mainchain/project-v13/regime-protection.ts",
+        "execution-source/src/domain/bazi-mainchain/project-v13/root-feedback.ts",
+        "execution-source/src/domain/bazi-mainchain/project-v13/rules/project-mainchain-1.3.1.json",
+        "execution-source/src/domain/bazi-mainchain/project-v13/rules/qiongtong-initial-reference.json",
+        "execution-source/src/domain/bazi-mainchain/project-v13/settled-flows.ts",
+        "execution-source/src/domain/bazi-mainchain/project-v132/consumers.ts",
+        "execution-source/src/domain/bazi-mainchain/project-v132/index.ts",
+        "execution-source/src/domain/bazi-mainchain/project-v132/intervention.ts",
+        "execution-source/src/domain/bazi-mainchain/project-v132/presentation.ts",
+        "execution-source/src/domain/bazi-mainchain/project-v132/regime-protection.ts",
+        "execution-source/src/domain/bazi-mainchain/project-v132/root-feedback.ts",
+        "execution-source/src/domain/bazi-mainchain/project-v132/rules/project-mainchain-1.3.2.json",
+        "execution-source/src/domain/bazi-mainchain/project-v132/rules/qiongtong-initial-reference.json",
+        "execution-source/src/domain/bazi-mainchain/project-v132/rules/source-lock-1.3.2.json",
+        "execution-source/src/domain/bazi-mainchain/project-v132/settled-flows.ts",
+        "execution-source/src/domain/bazi-root-calendar-branches.ts",
+        "execution-source/src/domain/bazi-v1.ts",
+        "execution-source/src/domain/bazi-v2.ts",
+        "execution-source/src/domain/bazi-v3.ts",
+        "execution-source/src/domain/bazi-v4.ts",
+        "execution-source/src/domain/bazi-v5.ts",
+        "execution-source/src/domain/bazi-v6.ts",
+        "execution-source/src/domain/ditian-ren-v1.ts",
+        "execution-source/src/domain/ditian-ren-v11.ts",
+        "execution-source/src/domain/ditian-ren-v12.ts",
+        "execution-source/src/domain/ditian-ren-v13.ts",
+        "execution-source/src/domain/ditian-ren-v14.ts",
+        "execution-source/src/domain/ditian-ren.ts",
+        "execution-source/src/domain/engine-v13.ts",
+        "execution-source/src/domain/engine-v14.ts",
+        "execution-source/src/domain/engine-v7.ts",
+        "execution-source/src/domain/engine-v8.ts",
+        "execution-source/src/domain/engine.ts",
+        "execution-source/src/domain/following-patterns-v6.ts",
+        "execution-source/src/domain/following-patterns-v8.ts",
+        "execution-source/src/domain/following-patterns.ts",
+        "execution-source/src/domain/following-restrictions.ts",
+        "execution-source/src/domain/following-sha-v8.ts",
+        "execution-source/src/domain/following-sha.ts",
+        "execution-source/src/domain/month-authority-v2.ts",
+        "execution-source/src/domain/month-authority-v3.ts",
+        "execution-source/src/domain/month-authority-v4.ts",
+        "execution-source/src/domain/month-authority-v5.ts",
+        "execution-source/src/domain/month-authority-v8.ts",
+        "execution-source/src/domain/month-authority.ts",
+        "execution-source/src/domain/monthly-seasonal-v3.ts",
+        "execution-source/src/domain/monthly-seasonal-v4.ts",
+        "execution-source/src/domain/monthly-seasonal-v5.ts",
+        "execution-source/src/domain/monthly-seasonal-v8.ts",
+        "execution-source/src/domain/monthly-seasonal.ts",
+        "execution-source/src/domain/pattern-evidence-v8.ts",
+        "execution-source/src/domain/pattern-evidence.ts",
+        "execution-source/src/domain/qimen-markers-v8.ts",
+        "execution-source/src/domain/qimen-markers.ts",
+        "execution-source/src/domain/qimen-patterns-v8.ts",
+        "execution-source/src/domain/qimen-patterns.ts",
+        "execution-source/src/domain/qimen-stem-tombs-v8.ts",
+        "execution-source/src/domain/qimen-stem-tombs.ts",
+        "execution-source/src/domain/qimen-v2.ts",
+        "execution-source/src/domain/ren-actions.ts",
+        "execution-source/src/domain/ren-capacities.ts",
+        "execution-source/src/domain/ren-dependencies.ts",
+        "execution-source/src/domain/ren-directions.ts",
+        "execution-source/src/domain/ren-joint-battle.ts",
+        "execution-source/src/domain/seasonal-conditions-v5.ts",
+        "execution-source/src/domain/seasonal-conditions-v8.ts",
+        "execution-source/src/domain/seasonal-conditions.ts",
+        "execution-source/src/main/bazi-root-feedback-application.ts",
+        "execution-source/src/main/bazi-root-feedback-facade.ts",
+        "execution-source/src/main/bazi-root-feedback-resource-pins.ts",
+        "execution-source/src/main/bazi-root-feedback-resources.ts",
+        "execution-source/src/main/bazi-root-feedback-v132-r2-engine.ts",
+        "execution-source/src/main/bazi-root-feedback-v132-r2-pins.json",
+        "execution-source/src/main/bazi-root-feedback-v132-r2-resources.ts",
+        "execution-source/src/main/bazi-snapshot.ts",
+        "execution-source/src/main/expected-analysis.ts",
+        "execution-source/src/main/project-application-v132-common.ts",
+        "execution-source/src/main/project-application-v132-policy.ts",
+        "execution-source/src/main/project-application-v132-resources.ts",
+        "execution-source/src/main/project-application-v132-saved.ts",
+        "execution-source/src/main/project-application-v132.ts",
+        "execution-source/src/main/saved-analysis-policy.ts",
+        "execution-source/src/shared/apparent-solar-v8.ts",
+        "execution-source/src/shared/apparent-solar.ts",
+        "execution-source/src/shared/bazi-root-feedback-application.ts",
+        "execution-source/src/shared/bazi-root-feedback-facade.ts",
+        "execution-source/src/shared/bazi-root-feedback-v132-r2-facade.ts",
+        "execution-source/src/shared/bazi-root-feedback-v132.ts",
+        "execution-source/src/shared/bazi-root-feedback.ts",
+        "execution-source/src/shared/birth-time-basis-v8.ts",
+        "execution-source/src/shared/birth-time-basis.ts",
+        "execution-source/src/shared/civil-birth-v1.ts",
+        "execution-source/src/shared/civil-birth-v8.ts",
+        "execution-source/src/shared/civil-birth.ts",
+        "execution-source/src/shared/month-authority-method.ts",
+        "execution-source/src/shared/plain-json.ts",
+        "execution-source/src/shared/project-application-v132.ts",
+        "execution-source/src/shared/ren-method-v1.ts",
+        "execution-source/src/shared/ren-method.ts",
+        "execution-source/src/shared/seasonal-method.ts",
+        "execution-source/tsconfig.json",
+        "publication.json"
+      ],
+      "sha256": "46eb1854f9d6d864441c1a6b460cbbb22bc45e1b53d2f515d07f5c30a08df531",
+      "note": "Independent candidate policy/adapter/saved-verifier and complete compiler closure; frozen r2 engine identity is a separately verified dependency. Project application does not certify a classical traditional conclusion."
+    }
+  ]
+}

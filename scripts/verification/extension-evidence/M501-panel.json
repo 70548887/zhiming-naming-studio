@@ -1,0 +1,32 @@
+{
+  "schema":"M501-M493-design-api-delta-review/1",
+  "date":"2026-10-24",
+  "decision":"delta-source-review-passed-with-product-integration-prerequisites",
+  "blockingFindings":[],
+  "scope":"Only new M493 panel, DTO, manifest delta and mount proposal. Previous four-role source conclusion retained; old four roles/eight prerequisites not re-audited.",
+  "pins":{
+    "newManifest":{"bytes":10250,"sha256":"d2b53d503f7511363496a7758c4b517e2ff5ff21baeec1c80f7088b56acb481e"},
+    "mountProposal":{"bytes":1492,"sha256":"9d0ef8b05554604b1acf333f439631b8ef035b6309dcd80b371caf7fc59d1b94"},
+    "panel":{"target":"src/renderer/GengSiReferencePreviewPanel.tsx","bytes":4191,"sha256":"0e9e1d64f9ed3a73160b5d0fc584b3d0b05eeb8e274a9fbb12a1dbb8ba9233ba","matchesManifest":true},
+    "ninthPrerequisite":{"target":"src/shared/geng-si-reference.ts","bytes":1449,"sha256":"56576fc1147f792893e9be5fd3aa002f3e0c25104bcda7a90fdb17221298f175","matchesManifestAndM493Original":true},
+    "oldFourRoleDeclarationsUnchanged":true,"oldEightPrerequisiteDeclarationsUnchanged":true
+  },
+  "sourceChecks":[
+    {"file":"GengSiReferencePreviewPanel.tsx:18,21-27,36","result":"Only button invokes the API. Mount effect maintains liveness only. Full structuredClone(profile) is sent to exact previewGengSiReference method; no profile/session/score persistence call exists."},
+    {"file":"GengSiReferencePreviewPanel.tsx:15-19,23-30,32","result":"JSON input key and API object identity increment an epoch. Current state must match key/epoch. Each response must also own current request number, mounted liveness, key, epoch and API identity. Profile/timeUnknown changes hide prior results; A-B-A cannot reuse the old epoch. This is static control-flow evidence, not a DOM race test."},
+    {"file":"GengSiReferencePreviewPanel.tsx:27-30","result":"Uses real M493 Promise result; checks exact schema/profileId, verified fixed-source status/school, existing r4 envelope and matching source quote/locator. No synthetic ready DTO or fabricated reference is created."},
+    {"file":"GengSiReferencePreviewPanel.tsx:8-11,33-39","result":"Own data-function capability gate avoids accessor execution. Missing service has status text and disabled button; pending has disabled button/status, errors have role alert, section is labelled by useId heading. Existing TraditionalCoreReferenceView renders the readonly explanation. No scoring/selection/save callback is introduced."},
+    {"file":"M493 candidate/src/main/service.ts:202-205; geng-si-reference-preview.ts:50-54; geng-si-reference-explanation.ts:83-89","result":"Actual one-profile method validates input, creates fresh analysis/explanation from the same run and returns normalized profile.id. Actual DTO has no top-level ready or responseProfile field. Resource loader and quote/locator checks remain in the M493 service path."},
+    {"file":"M484 work-final/src/renderer/main.tsx:79,86,92,129,342; app-mount-proposal.json","result":"Proposed profile/busy variables exist. New drafts use crypto.randomUUID(), so the empty-ID normalization edge is not a demonstrated failure of this proposed mount. Profile updates use setProfile. Proposal only supplies import/JSX and does not claim App integration."},
+    {"file":"Panel imports:1-5; ninth prerequisite imports; M493 candidate/scripts/dev-plugin.ts:29","result":"Product code uses relative/package imports without E/C author paths. DTO is type-only. Browser allowlist includes previewGengSiReference and is explicitly delivered in M493 manifest.json:6,44 and dto-service-contract-manifest.json:67-69."}
+  ],
+  "integrationPrerequisites":[
+    "Merge exact M493 DTO, desktop/browser transports, scripts/dev-plugin.ts and root-owned StudioAPI method proposal together with the panel.",
+    "Current E and C product dev-plugin allowlists do not yet include the method; that is an unintegrated product state, not missing M493 candidate delivery.",
+    "Root must apply app-mount-proposal import/JSX in the current birth-analysis page using the current profile; do not feed an uninterpreted saved history as fresh output.",
+    "Previous four-role/eight-prerequisite closure remains required."
+  ],
+  "withdrawnHypothesis":"An initial delegated guess that M493 omitted browser whitelist delivery was withdrawn after reading candidate/scripts/dev-plugin.ts and both complete manifests. It is not a finding.",
+  "unexecuted":["Real API requests", "DOM/button interactions", "A-B-A or unknown-hour interaction races", "Chromium/UI/layout", "App integration", "Store", "Worker", "SQL", "SSR", "typecheck", "build", "network"],
+  "writes":{"product":0,"candidate":0,"E":0,"auditOnly":"D:/Codex-NamingStudio-Evidence/m501-design-api-delta"}
+}

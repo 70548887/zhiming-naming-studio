@@ -1,0 +1,111 @@
+{
+  "schema": "b04-word-context-options/1",
+  "char": "渤",
+  "pinyin": "bó",
+  "status": "available",
+  "activation": "off",
+  "wholeWordOnly": true,
+  "sourcePOS": "unknown",
+  "options": [
+    {
+      "givenName": "渤海",
+      "word": "渤海",
+      "targetPositions": [
+        0
+      ],
+      "confirmedReadings": [
+        {
+          "char": "渤",
+          "pinyin": "bó",
+          "tone": 2,
+          "confirmed": true
+        },
+        {
+          "char": "海",
+          "pinyin": "hǎi",
+          "tone": 3,
+          "confirmed": true
+        }
+      ],
+      "selection": {
+        "usage": "entire-given-name",
+        "caseId": "meaning-context-m460-b04:渤:87980:0:0",
+        "senseId": "moe:87980:0:0",
+        "contextKey": "bohai-sea-only"
+      },
+      "contextLabel": "渤海海域的整词地理参考",
+      "source": {
+        "sourceId": "moe-revised",
+        "word": "渤海",
+        "pinyin": "bó hǎi",
+        "originalFile": "data/raw/moe-revised.json.gz",
+        "originalSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "rawEntryIndex": 87980,
+        "rawHeteronymIndex": 0,
+        "rawDefinitionIndex": 0,
+        "definition": {
+          "def": "海洋名。在我國東北，以山東、遼東兩半島環抱而成，其外為黃海。遼寧、河北兩省及山東省北部都瀕臨此海。",
+          "link": [
+            "也稱為「北海」。"
+          ]
+        },
+        "parsedEntrySha256": "eaac5ec8cffdb1ea23c41e3ca2ab0f3fc9c5875eefd977f92a91d34bf5f9f9d5",
+        "license": "CC-BY-ND-3.0-TW"
+      },
+      "grammar": {
+        "text": "原词条此义项未标注词类；以下仅为项目用法说明：完整海洋名称；仅取海域义。",
+        "attribution": "Project grammar note;not an original MOE POS label",
+        "license": "CC0-1.0"
+      },
+      "reason": "原字渤仍保留参见状态；完整渤海可引用海域原条，不把海名拆成渤的浩瀚品格义。",
+      "exclusions": [
+        "不采用同条郡名、国名或渤海国参照义。",
+        "地域关联和家庭接受度仍待人工确认。",
+        "不将完整复词原义拆回单字或授予整名推荐、评分与效果。",
+        "原条引文仅作辞书例证，不授予本名已审取字出处信用。"
+      ],
+      "limits": [
+        "不采用同条郡名、国名或渤海国参照义。",
+        "地域关联和家庭接受度仍待人工确认。",
+        "不将完整复词原义拆回单字或授予整名推荐、评分与效果。",
+        "原条引文仅作辞书例证，不授予本名已审取字出处信用。"
+      ],
+      "wholeWordOnly": true,
+      "sourcePOS": "unknown",
+      "activation": "off",
+      "productionApproved": false,
+      "automaticNameRecommendation": false,
+      "automaticSemanticCreditAllowed": false,
+      "wholeNameApproved": false,
+      "wholeNameMeaning": null,
+      "scoreDelta": 0,
+      "projectWish": null
+    }
+  ],
+  "sourceAnchors": [
+    {
+      "sourceId": "moe-revised",
+      "word": "渤海",
+      "pinyin": "bó hǎi",
+      "originalFile": "data/raw/moe-revised.json.gz",
+      "originalSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+      "rawEntryIndex": 87980,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 0,
+      "definition": {
+        "def": "海洋名。在我國東北，以山東、遼東兩半島環抱而成，其外為黃海。遼寧、河北兩省及山東省北部都瀕臨此海。",
+        "link": [
+          "也稱為「北海」。"
+        ]
+      },
+      "parsedEntrySha256": "eaac5ec8cffdb1ea23c41e3ca2ab0f3fc9c5875eefd977f92a91d34bf5f9f9d5",
+      "license": "CC-BY-ND-3.0-TW"
+    }
+  ],
+  "productionApproved": false,
+  "automaticNameRecommendation": false,
+  "automaticSemanticCreditAllowed": false,
+  "wholeNameApproved": false,
+  "wholeNameMeaning": null,
+  "scoreDelta": 0
+}

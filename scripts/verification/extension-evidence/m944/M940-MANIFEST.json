@@ -1,0 +1,385 @@
+{
+  "task": "M940-ACTUAL15-SOURCE-AUDIT",
+  "files": [
+    {
+      "file": "actual-chart.json",
+      "bytes": 3115553,
+      "sha256": "fc4093438b74c1e26c9903e21364c32b2a366940aca9edd3b4e35f7218387ed9"
+    },
+    {
+      "file": "actual-missing-chart.json",
+      "bytes": 1940319,
+      "sha256": "b488bdb7690398a3b3ecd102decf9cb0cd9d4e028bca8a54ca7de6aa1ffd1c9d"
+    },
+    {
+      "file": "actual-missing-preview-dto.json",
+      "bytes": 2123773,
+      "sha256": "04c6e5ea3b74e5f5d1698a808a427f1194c952a74db60b3232cf905c9204b67e"
+    },
+    {
+      "file": "actual-preview-dto.json",
+      "bytes": 3422898,
+      "sha256": "bc9311b1fe6a9b0f7127da9ca15f45a344c8c8e8490c54083d2a2cd2f5959add"
+    },
+    {
+      "file": "chart-followup-result.json",
+      "bytes": 563,
+      "sha256": "c6cbcf93a0708bd5d1267b9e4a4dace6db96e8d2ad5ca79fc9eefc3b12336e38"
+    },
+    {
+      "file": "chart-followup.cjs",
+      "bytes": 1903,
+      "sha256": "ceec9c867a8e23021448292dbfec98f319c2faeaaba9780276049b7230b78f11"
+    },
+    {
+      "file": "companion-review.json",
+      "bytes": 6054,
+      "sha256": "598621f6410800b45994c0581f1ca1955ba225971ba627cf3ecfcdd6a063b948"
+    },
+    {
+      "file": "companion-review.mjs",
+      "bytes": 4487,
+      "sha256": "7dd123bc1d7056bb90189bc4b9dc289f8a555fa00824d72bca983155b321dc3f"
+    },
+    {
+      "file": "context/src/main/bazi-root-feedback-v132-engine.ts",
+      "bytes": 2061,
+      "sha256": "635700e61425cc3288e1ca1f4593c070e14f18e2ffe120dda484c298aa206316"
+    },
+    {
+      "file": "context/src/main/bazi-root-feedback-v132-r2-engine.ts",
+      "bytes": 2421,
+      "sha256": "261f05736df5a317351d65bc6ae6075459e3195292fea757f4f8dd990d2394f4"
+    },
+    {
+      "file": "context/src/main/project-application-v132-policy.ts",
+      "bytes": 12188,
+      "sha256": "5a0086b453e106fb042ac6aa81a3caf4413de6252bb9e3e8f186655d4d7d094f"
+    },
+    {
+      "file": "context/src/shared/bazi-root-feedback-v132.ts",
+      "bytes": 4115,
+      "sha256": "9f2529b1410da3212be3d310933427028fc8475c965a8bed269e4aef24dffe5f"
+    },
+    {
+      "file": "correspondence-checks.json",
+      "bytes": 8051,
+      "sha256": "9e680a8aaa5d82d18e1da86b2044580c2b54b880c2f86fcdb5f62838951e2532"
+    },
+    {
+      "file": "correspondence.py",
+      "bytes": 5476,
+      "sha256": "8ea217fb1b2efc4a404d089201e497defc9bfdb0699e5ff717f5ac0672af0744"
+    },
+    {
+      "file": "execution-ledger.json",
+      "bytes": 3818,
+      "sha256": "1924accc349d9d69cc97e92e1b0f248cd0a86052880d26b46212e4b47e76cc60"
+    },
+    {
+      "file": "fixed15.json",
+      "bytes": 7542,
+      "sha256": "68d3fe3a3ec242ff086b4890029a732f3bb622a472e25494e232ab733afb3cd6"
+    },
+    {
+      "file": "frozen/src/domain/bazi-mainchain/project-v132/consumers.ts",
+      "bytes": 37864,
+      "sha256": "9fc27fd796503c2f07b4b0d814adb25f48a71b20793e7d2b43a0813205752c00"
+    },
+    {
+      "file": "frozen/src/domain/bazi-mainchain/project-v132/index.ts",
+      "bytes": 7361,
+      "sha256": "7479171a0ca50de436de987e6f31b1b8884c619955ea53d7f3bd19c7d4b09d23"
+    },
+    {
+      "file": "frozen/src/domain/bazi-mainchain/project-v132/intervention.ts",
+      "bytes": 4950,
+      "sha256": "478743a9336f18de082effb837d7f55706367843a345bec62ad29d2eb0c9c153"
+    },
+    {
+      "file": "frozen/src/domain/bazi-mainchain/project-v132/NOTICE.md",
+      "bytes": 343,
+      "sha256": "6be0c2c2a8a6a00c6a0b49f51b11d4d71372e4d422d38b73bc721b27b4bc4aa2"
+    },
+    {
+      "file": "frozen/src/domain/bazi-mainchain/project-v132/presentation.ts",
+      "bytes": 10867,
+      "sha256": "82f3f2626241749216d3b67c6511b07f42a26af66f55e48afc729bec33e9890e"
+    },
+    {
+      "file": "frozen/src/domain/bazi-mainchain/project-v132/regime-protection.ts",
+      "bytes": 1405,
+      "sha256": "c8772637d2440a2781fb174fb8ff4f1cc8164f6e708a987afec92adf21971989"
+    },
+    {
+      "file": "frozen/src/domain/bazi-mainchain/project-v132/root-feedback-types.ts",
+      "bytes": 4781,
+      "sha256": "a3bfb200f3e37046d955b72b1d0c6f95e9e89d29d36185c0c908f31beab1dac3"
+    },
+    {
+      "file": "frozen/src/domain/bazi-mainchain/project-v132/root-feedback.ts",
+      "bytes": 16800,
+      "sha256": "74ba6990d716900488ded56e3cb838e026cd516ef03aa10071a940aeba8b2675"
+    },
+    {
+      "file": "frozen/src/domain/bazi-mainchain/project-v132/rules/CC-BY-SA-4.0.txt",
+      "bytes": 20137,
+      "sha256": "23ee78c8bae49cf08ea2f0c84945c66b987ebe4520881fb51b3dad4fb43d07c2"
+    },
+    {
+      "file": "frozen/src/domain/bazi-mainchain/project-v132/rules/lunar-typescript-LICENSE.txt",
+      "bytes": 1062,
+      "sha256": "097ec7989106eb9a27b6eff71dbaf1cd6bb04a9b35b6c94b54fff0829a041a8c"
+    },
+    {
+      "file": "frozen/src/domain/bazi-mainchain/project-v132/rules/project-mainchain-1.3.2.json",
+      "bytes": 29731,
+      "sha256": "6991753b498f57bd09d1bdbe7795c8cf437a2c4b6720c2039799d5afac7456f3"
+    },
+    {
+      "file": "frozen/src/domain/bazi-mainchain/project-v132/rules/qiongtong-initial-reference.json",
+      "bytes": 172719,
+      "sha256": "71d58e5c547297feabbe44023cfb7ceed213f6582215ca21273076e98328ff48"
+    },
+    {
+      "file": "frozen/src/domain/bazi-mainchain/project-v132/rules/source-lock-1.3.2.json",
+      "bytes": 5372,
+      "sha256": "647f4e4b6ace4e65aca7d811c9cb7bb2071d0dbb7f91a7d4d258a4925b03e2ca"
+    },
+    {
+      "file": "frozen/src/domain/bazi-mainchain/project-v132/settled-flows.ts",
+      "bytes": 6726,
+      "sha256": "471ac93789932ede398bd16b8d764e2cee8a549e839f3a3e523f3d568a985394"
+    },
+    {
+      "file": "frozen/src/domain/bazi-mainchain/project-v132/types-v13-consumers.ts",
+      "bytes": 2530,
+      "sha256": "9d2a81040f403e55886c8a12b35c1974ececd6f2eeac0ca547f9fe5933d8f96c"
+    },
+    {
+      "file": "intake.py",
+      "bytes": 3142,
+      "sha256": "3857ac34d81aad347a93b93d1be46d4c1b924b8e352ac81c995cc5f88bff5fb7"
+    },
+    {
+      "file": "inventory-original.json",
+      "bytes": 14060,
+      "sha256": "d492ded58370a49494faa933280729bb1120f4b09e13c1010a45f47e13ffe025"
+    },
+    {
+      "file": "kernel/capped.json",
+      "bytes": 2314,
+      "sha256": "e4fd27aec1d5e3e44757f66c177012b8f8dd1b2eddbc8e8af67b47e019861d41"
+    },
+    {
+      "file": "kernel/cycle-disabled.json",
+      "bytes": 2909,
+      "sha256": "c4d01e8f9a4fc07eaf67fd42325c3ef64be1da2833f685584fbd1950031fe651"
+    },
+    {
+      "file": "kernel/cycle.json",
+      "bytes": 3209,
+      "sha256": "56349b0a00dc4947602079a2116139801cfbe0c4d8c39f0671180b7f0468f706"
+    },
+    {
+      "file": "kernel/fivecycle.json",
+      "bytes": 6478,
+      "sha256": "470647107dcd12393b199a9168a2751aa09b6cf6d7129e46f67dd67c9ba620d5"
+    },
+    {
+      "file": "kernel/zero.json",
+      "bytes": 1157,
+      "sha256": "680252f8e81c79c5f36436673daaae9b27d110505c764ab7753989862dbdf837"
+    },
+    {
+      "file": "numeric-fixed.cjs",
+      "bytes": 429563,
+      "sha256": "6f7d9ab9fb7ca025b1e9193948bf8719def36530122d532bb8bfb2325fd67541"
+    },
+    {
+      "file": "numeric-probe-results.json",
+      "bytes": 2813,
+      "sha256": "16c6d29fb88645bc574bfa87a34971c4ac228a4eef791eb63a145a3bb1987e08"
+    },
+    {
+      "file": "numeric-probe-run.log",
+      "bytes": 214,
+      "sha256": "1c09c2303a214e0f1f2ced649343c5adb2cb4e2d0192e430d554d5db8f87f413"
+    },
+    {
+      "file": "numeric-probe.mjs",
+      "bytes": 10942,
+      "sha256": "6d9109736cef8bde22e9b66be5efeecae06d2e750827526d02e49647cd633c8e"
+    },
+    {
+      "file": "NUMERIC-REASONING.md",
+      "bytes": 1874,
+      "sha256": "5c1862b7b63997d64f4465dce963f8c1868ec2efe536c5617325d103e012f242"
+    },
+    {
+      "file": "numeric-source-pins.json",
+      "bytes": 4746,
+      "sha256": "f737d912d566ed568df560738740a7ee132f0ef041aac5c2cfb7116e4c9d88bb"
+    },
+    {
+      "file": "old-review-reuse-map.json",
+      "bytes": 10711,
+      "sha256": "0eafaf7a7e76259d6da31ba841ef08447d052f62cf40c013a329c0638fc7fc4e"
+    },
+    {
+      "file": "old-reviews/M786.json",
+      "bytes": 4779,
+      "sha256": "e9956cd1e8efd6b78c0b8723f2773bac30f41f72ba3fd8033d61710189b905b6"
+    },
+    {
+      "file": "old-reviews/M866.json",
+      "bytes": 12027,
+      "sha256": "7e4b4f61807411a5ef72ac9378fa588e4e606e3087d211dc0bf86056b0a476bd"
+    },
+    {
+      "file": "old-reviews/M913-original-review.json",
+      "bytes": 1309,
+      "sha256": "f30f3b3cdd619c427522b3a93989131c890d9f40e151416b1701c3520556d6eb"
+    },
+    {
+      "file": "old-reviews/M913-original-vitest.json",
+      "bytes": 2592,
+      "sha256": "da5043b7076b61e1a38b827d3c6c29d230bf7357f7993d1be492e5c1e2883c7e"
+    },
+    {
+      "file": "old-reviews/M913-test-current-original.ts",
+      "bytes": 2647,
+      "sha256": "4171f4c703b98d2118d57f3963b15986510fc880b25955c1672b768a4f89c52b"
+    },
+    {
+      "file": "outer-distinct-regimes.json",
+      "bytes": 23394,
+      "sha256": "2147446b63cc4b62518a6368a807faa721ed4d4e3251ae0835e00dfef86d4e47"
+    },
+    {
+      "file": "probe-fixed/src/domain/bazi-mainchain/kernel-v12-fixed/branch-intervals.ts",
+      "bytes": 5390,
+      "sha256": "f351e56258c0ac5eaac0c4c77f175c6a2856c35f26a80a57d4bd8e8d40c2b129"
+    },
+    {
+      "file": "probe-fixed/src/domain/bazi-mainchain/kernel-v12-fixed/control-budget.ts",
+      "bytes": 16206,
+      "sha256": "4862b961b49c43252853b9213410da5971d84c1a4c6ed3c781363a704f8468be"
+    },
+    {
+      "file": "probe-fixed/src/domain/bazi-mainchain/kernel-v12-fixed/numeric-interval.ts",
+      "bytes": 2011,
+      "sha256": "5ae55a799c489ed51b459b77a96f8d14cbe2ae05c165d868aaf09bedc80b7a79"
+    },
+    {
+      "file": "probe-fixed/src/domain/bazi-mainchain/kernel-v12-fixed/numeric-review.ts",
+      "bytes": 4280,
+      "sha256": "8afe0e5405a51bc2e30484f57cf2c4325bc152695d9f7af5d37bf106db2bd930"
+    },
+    {
+      "file": "probe-fixed/src/domain/bazi-mainchain/kernel-v12-fixed/resource-protection.ts",
+      "bytes": 8403,
+      "sha256": "ba22b4e8b13e39d0d07de14e28da79473b59f8d6bb0661a6ed42b5b0f378db62"
+    },
+    {
+      "file": "probe-fixed/src/domain/bazi-mainchain/kernel-v12-fixed/rules/project-mainchain-1.2.0.json",
+      "bytes": 25809,
+      "sha256": "3d274b797503795b80f7acb13414db783df7e1ed4fc8c3c5ae29b148b495d647"
+    },
+    {
+      "file": "probe-fixed/src/domain/bazi-mainchain/kernel-v12-fixed/settled-flows.ts",
+      "bytes": 6476,
+      "sha256": "9dc98729555abab4cca1e26d1adf22b07e93bff21d0d269f8f3f285c08a8d318"
+    },
+    {
+      "file": "probe-fixed/src/domain/bazi-mainchain/project-v132/consumers.ts",
+      "bytes": 37864,
+      "sha256": "9fc27fd796503c2f07b4b0d814adb25f48a71b20793e7d2b43a0813205752c00"
+    },
+    {
+      "file": "probe-fixed/src/domain/bazi-mainchain/project-v132/index.ts",
+      "bytes": 7361,
+      "sha256": "7479171a0ca50de436de987e6f31b1b8884c619955ea53d7f3bd19c7d4b09d23"
+    },
+    {
+      "file": "probe-fixed/src/domain/bazi-mainchain/project-v132/intervention.ts",
+      "bytes": 4950,
+      "sha256": "478743a9336f18de082effb837d7f55706367843a345bec62ad29d2eb0c9c153"
+    },
+    {
+      "file": "probe-fixed/src/domain/bazi-mainchain/project-v132/presentation.ts",
+      "bytes": 10867,
+      "sha256": "82f3f2626241749216d3b67c6511b07f42a26af66f55e48afc729bec33e9890e"
+    },
+    {
+      "file": "probe-fixed/src/domain/bazi-mainchain/project-v132/regime-protection.ts",
+      "bytes": 1405,
+      "sha256": "c8772637d2440a2781fb174fb8ff4f1cc8164f6e708a987afec92adf21971989"
+    },
+    {
+      "file": "probe-fixed/src/domain/bazi-mainchain/project-v132/root-feedback.ts",
+      "bytes": 16800,
+      "sha256": "74ba6990d716900488ded56e3cb838e026cd516ef03aa10071a940aeba8b2675"
+    },
+    {
+      "file": "probe-fixed/src/domain/bazi-mainchain/project-v132/rules/project-mainchain-1.3.2.json",
+      "bytes": 29731,
+      "sha256": "6991753b498f57bd09d1bdbe7795c8cf437a2c4b6720c2039799d5afac7456f3"
+    },
+    {
+      "file": "probe-fixed/src/domain/bazi-mainchain/project-v132/rules/qiongtong-initial-reference.json",
+      "bytes": 172719,
+      "sha256": "71d58e5c547297feabbe44023cfb7ceed213f6582215ca21273076e98328ff48"
+    },
+    {
+      "file": "probe-fixed/src/domain/bazi-mainchain/project-v132/settled-flows.ts",
+      "bytes": 6726,
+      "sha256": "471ac93789932ede398bd16b8d764e2cee8a549e839f3a3e523f3d568a985394"
+    },
+    {
+      "file": "probe-fixed/src/shared/bazi-root-feedback-v132.ts",
+      "bytes": 4115,
+      "sha256": "9f2529b1410da3212be3d310933427028fc8475c965a8bed269e4aef24dffe5f"
+    },
+    {
+      "file": "publication/resource-manifest.json",
+      "bytes": 94589,
+      "sha256": "3d9b15e6f9963f385411a70eabcbb3ab940629bc285bea65a8ebee92c3f6c71a"
+    },
+    {
+      "file": "rational-check.py",
+      "bytes": 2198,
+      "sha256": "04574c3c9fc5ee0dac94b798fe7655e4edab415c225f95f70727ae8658c5621d"
+    },
+    {
+      "file": "rational-oracle-input.json",
+      "bytes": 17713,
+      "sha256": "2cdeb390aa3f88039cb6f5133a8db94d96d7519639df19827290b750a617a6d2"
+    },
+    {
+      "file": "rational-oracle-results.json",
+      "bytes": 2045,
+      "sha256": "d4f9c3e7b47773356cad3353d1298d489122d89fdefebf4abd0d975ae36db5b4"
+    },
+    {
+      "file": "REVIEW.json",
+      "bytes": 17831,
+      "sha256": "b4343a3b181f21de58f40852d2dc4e295db4c08db459a685cb5d7070e3016172"
+    },
+    {
+      "file": "REVIEW.md",
+      "bytes": 1165,
+      "sha256": "9c9d1a6096ccca234b49e8e37f43997c38f3adfbeb564f244816908786c15b0b"
+    },
+    {
+      "file": "seal.py",
+      "bytes": 14421,
+      "sha256": "d02d3cb3a4b7fb5b9e80d8af99ed774014df834c5067ab66107523ef5e1d7ae4"
+    },
+    {
+      "file": "small-actual-flow.json",
+      "bytes": 5652,
+      "sha256": "caac3f80136c29b6933b91f5fee0639781785a7fa7617185bb0ca1b2221b7da8"
+    }
+  ]
+}

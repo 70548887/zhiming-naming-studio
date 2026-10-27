@@ -1,0 +1,1343 @@
+{
+  "version": "solar-time-noaa-reference/1.0.0",
+  "policy": "Hand-authored cases, expected EOT evaluated from independently downloaded unchanged NOAA official main.js. Clock expected values are original arithmetic from the official EOT/longitude/zone relation, not application outputs. Offsets are explicit inputs; named historical cases have fixed IANA primary excerpts. Wall ISO strings have no zone suffix and do not denote a new physical UTC instant.",
+  "source": {
+    "url": "https://gml.noaa.gov/grad/solcalc/main.js",
+    "sha256": "3832956f24724eafacf9e18173b9299b1554d6252bed0784d9c9aca6d9f54856"
+  },
+  "caseCount": 36,
+  "tolerance": {
+    "equationOfTimeMinutes": 1e-9,
+    "solarWallCoordinateMilliseconds": 0.01
+  },
+  "rows": [
+    {
+      "id": "j2000-greenwich",
+      "input": {
+        "utcInstant": "2000-01-01T12:00:00Z",
+        "eastLongitude": 0,
+        "actualUtcOffsetSeconds": 0,
+        "civilZone": "UTC"
+      },
+      "manualCaseNote": "J2000 JD anchor; Greenwich",
+      "civilOffsetAuthority": {
+        "kind": "explicit fixture offset",
+        "zone": "UTC"
+      },
+      "expected": {
+        "julianDay": 2451545,
+        "equationOfTimeMinutes": -3.3012588023605938,
+        "longitudeCorrectionSeconds": 0,
+        "totalCorrectionFromCivilSeconds": -198.07552814163563,
+        "civilWallIso": "2000-01-01T12:00:00.000",
+        "apparentSolarWallIso": "2000-01-01T11:56:41.924",
+        "apparentSolarWallCoordinateMs": 946727801924.4718,
+        "dayShiftFromCivil": 0
+      },
+      "reference": {
+        "sourceSha256": "3832956f24724eafacf9e18173b9299b1554d6252bed0784d9c9aca6d9f54856",
+        "unmodifiedFunctions": [
+          "getJD",
+          "calcTimeJulianCent",
+          "calcEquationOfTime"
+        ],
+        "solarClockFormula": "UTC epoch + eastLongitude * 240 seconds + EOT * 60 seconds",
+        "derivedWithoutApplicationImports": true
+      }
+    },
+    {
+      "id": "beijing-winter",
+      "input": {
+        "utcInstant": "2025-01-01T04:00:00Z",
+        "eastLongitude": 116.4074,
+        "actualUtcOffsetSeconds": 28800,
+        "civilZone": "Asia/Shanghai"
+      },
+      "manualCaseNote": "East longitude, standard civil noon",
+      "civilOffsetAuthority": {
+        "kind": "IANA fixed zone / seasonal offset",
+        "zone": "Asia/Shanghai"
+      },
+      "expected": {
+        "julianDay": 2460676.6666666665,
+        "equationOfTimeMinutes": -3.527083747907654,
+        "longitudeCorrectionSeconds": 27937.775999999998,
+        "totalCorrectionFromCivilSeconds": -1073.8490248744602,
+        "civilWallIso": "2025-01-01T12:00:00.000",
+        "apparentSolarWallIso": "2025-01-01T11:42:06.151",
+        "apparentSolarWallCoordinateMs": 1735731726150.975,
+        "dayShiftFromCivil": 0
+      },
+      "reference": {
+        "sourceSha256": "3832956f24724eafacf9e18173b9299b1554d6252bed0784d9c9aca6d9f54856",
+        "unmodifiedFunctions": [
+          "getJD",
+          "calcTimeJulianCent",
+          "calcEquationOfTime"
+        ],
+        "solarClockFormula": "UTC epoch + eastLongitude * 240 seconds + EOT * 60 seconds",
+        "derivedWithoutApplicationImports": true
+      }
+    },
+    {
+      "id": "beijing-summer",
+      "input": {
+        "utcInstant": "2025-07-01T04:00:00Z",
+        "eastLongitude": 116.4074,
+        "actualUtcOffsetSeconds": 28800,
+        "civilZone": "Asia/Shanghai"
+      },
+      "manualCaseNote": "Same longitude different season",
+      "civilOffsetAuthority": {
+        "kind": "IANA fixed zone / seasonal offset",
+        "zone": "Asia/Shanghai"
+      },
+      "expected": {
+        "julianDay": 2460857.6666666665,
+        "equationOfTimeMinutes": -3.8845903729944244,
+        "longitudeCorrectionSeconds": 27937.775999999998,
+        "totalCorrectionFromCivilSeconds": -1095.2994223796668,
+        "civilWallIso": "2025-07-01T12:00:00.000",
+        "apparentSolarWallIso": "2025-07-01T11:41:44.701",
+        "apparentSolarWallCoordinateMs": 1751370104700.5776,
+        "dayShiftFromCivil": 0
+      },
+      "reference": {
+        "sourceSha256": "3832956f24724eafacf9e18173b9299b1554d6252bed0784d9c9aca6d9f54856",
+        "unmodifiedFunctions": [
+          "getJD",
+          "calcTimeJulianCent",
+          "calcEquationOfTime"
+        ],
+        "solarClockFormula": "UTC epoch + eastLongitude * 240 seconds + EOT * 60 seconds",
+        "derivedWithoutApplicationImports": true
+      }
+    },
+    {
+      "id": "urumqi-beijing-civil",
+      "input": {
+        "utcInstant": "2025-07-01T04:00:00Z",
+        "eastLongitude": 87.6168,
+        "actualUtcOffsetSeconds": 28800,
+        "civilZone": "Asia/Shanghai"
+      },
+      "manualCaseNote": "Western China with Beijing civil time",
+      "civilOffsetAuthority": {
+        "kind": "IANA fixed zone / seasonal offset",
+        "zone": "Asia/Shanghai"
+      },
+      "expected": {
+        "julianDay": 2460857.6666666665,
+        "equationOfTimeMinutes": -3.8845903729944244,
+        "longitudeCorrectionSeconds": 21028.032,
+        "totalCorrectionFromCivilSeconds": -8005.043422379666,
+        "civilWallIso": "2025-07-01T12:00:00.000",
+        "apparentSolarWallIso": "2025-07-01T09:46:34.957",
+        "apparentSolarWallCoordinateMs": 1751363194956.5776,
+        "dayShiftFromCivil": 0
+      },
+      "reference": {
+        "sourceSha256": "3832956f24724eafacf9e18173b9299b1554d6252bed0784d9c9aca6d9f54856",
+        "unmodifiedFunctions": [
+          "getJD",
+          "calcTimeJulianCent",
+          "calcEquationOfTime"
+        ],
+        "solarClockFormula": "UTC epoch + eastLongitude * 240 seconds + EOT * 60 seconds",
+        "derivedWithoutApplicationImports": true
+      }
+    },
+    {
+      "id": "kathmandu-modern",
+      "input": {
+        "utcInstant": "2025-01-01T06:15:00Z",
+        "eastLongitude": 85.324,
+        "actualUtcOffsetSeconds": 20700,
+        "civilZone": "Asia/Kathmandu"
+      },
+      "manualCaseNote": "Quarter-hour civil offset",
+      "civilOffsetAuthority": {
+        "kind": "IANA fixed zone / seasonal offset",
+        "zone": "Asia/Kathmandu"
+      },
+      "expected": {
+        "julianDay": 2460676.7604166665,
+        "equationOfTimeMinutes": -3.5711113786126694,
+        "longitudeCorrectionSeconds": 20477.76,
+        "totalCorrectionFromCivilSeconds": -436.50668271676113,
+        "civilWallIso": "2025-01-01T12:00:00.000",
+        "apparentSolarWallIso": "2025-01-01T11:52:43.493",
+        "apparentSolarWallCoordinateMs": 1735732363493.3174,
+        "dayShiftFromCivil": 0
+      },
+      "reference": {
+        "sourceSha256": "3832956f24724eafacf9e18173b9299b1554d6252bed0784d9c9aca6d9f54856",
+        "unmodifiedFunctions": [
+          "getJD",
+          "calcTimeJulianCent",
+          "calcEquationOfTime"
+        ],
+        "solarClockFormula": "UTC epoch + eastLongitude * 240 seconds + EOT * 60 seconds",
+        "derivedWithoutApplicationImports": true
+      }
+    },
+    {
+      "id": "new-york-summer",
+      "input": {
+        "utcInstant": "2025-07-01T16:00:00Z",
+        "eastLongitude": -74.006,
+        "actualUtcOffsetSeconds": -14400,
+        "civilZone": "America/New_York"
+      },
+      "manualCaseNote": "Actual DST offset, not standard-zone offset",
+      "civilOffsetAuthority": {
+        "file": "iana-2025b-northamerica.txt",
+        "locator": "Zone America/New_York, Rule US 2007 max",
+        "excerpts": [
+          "Zone America/New_York",
+          "Rule\tUS\t2007\tmax\t-\tMar\tSun>=8\t2:00\t1:00\tD",
+          "Rule\tUS\t2007\tmax\t-\tNov\tSun>=1\t2:00\t0\tS"
+        ]
+      },
+      "expected": {
+        "julianDay": 2460858.1666666665,
+        "equationOfTimeMinutes": -3.9803543360393254,
+        "longitudeCorrectionSeconds": -17761.44,
+        "totalCorrectionFromCivilSeconds": -3600.2612601623587,
+        "civilWallIso": "2025-07-01T12:00:00.000",
+        "apparentSolarWallIso": "2025-07-01T10:59:59.739",
+        "apparentSolarWallCoordinateMs": 1751367599738.7397,
+        "dayShiftFromCivil": 0
+      },
+      "reference": {
+        "sourceSha256": "3832956f24724eafacf9e18173b9299b1554d6252bed0784d9c9aca6d9f54856",
+        "unmodifiedFunctions": [
+          "getJD",
+          "calcTimeJulianCent",
+          "calcEquationOfTime"
+        ],
+        "solarClockFormula": "UTC epoch + eastLongitude * 240 seconds + EOT * 60 seconds",
+        "derivedWithoutApplicationImports": true
+      }
+    },
+    {
+      "id": "new-york-winter",
+      "input": {
+        "utcInstant": "2025-01-01T17:00:00Z",
+        "eastLongitude": -74.006,
+        "actualUtcOffsetSeconds": -18000,
+        "civilZone": "America/New_York"
+      },
+      "manualCaseNote": "Actual winter offset",
+      "civilOffsetAuthority": {
+        "file": "iana-2025b-northamerica.txt",
+        "locator": "Zone America/New_York, Rule US 2007 max",
+        "excerpts": [
+          "Zone America/New_York",
+          "Rule\tUS\t2007\tmax\t-\tMar\tSun>=8\t2:00\t1:00\tD",
+          "Rule\tUS\t2007\tmax\t-\tNov\tSun>=1\t2:00\t0\tS"
+        ]
+      },
+      "expected": {
+        "julianDay": 2460677.2083333335,
+        "equationOfTimeMinutes": -3.7808145716572668,
+        "longitudeCorrectionSeconds": -17761.44,
+        "totalCorrectionFromCivilSeconds": 11.71112570056357,
+        "civilWallIso": "2025-01-01T12:00:00.000",
+        "apparentSolarWallIso": "2025-01-01T12:00:11.711",
+        "apparentSolarWallCoordinateMs": 1735732811711.1257,
+        "dayShiftFromCivil": 0
+      },
+      "reference": {
+        "sourceSha256": "3832956f24724eafacf9e18173b9299b1554d6252bed0784d9c9aca6d9f54856",
+        "unmodifiedFunctions": [
+          "getJD",
+          "calcTimeJulianCent",
+          "calcEquationOfTime"
+        ],
+        "solarClockFormula": "UTC epoch + eastLongitude * 240 seconds + EOT * 60 seconds",
+        "derivedWithoutApplicationImports": true
+      }
+    },
+    {
+      "id": "new-york-spring-before",
+      "input": {
+        "utcInstant": "2025-03-09T06:59:59Z",
+        "eastLongitude": -74.006,
+        "actualUtcOffsetSeconds": -18000,
+        "civilZone": "America/New_York"
+      },
+      "manualCaseNote": "One second before 2025 DST gap",
+      "civilOffsetAuthority": {
+        "file": "iana-2025b-northamerica.txt",
+        "locator": "Zone America/New_York, Rule US 2007 max",
+        "excerpts": [
+          "Zone America/New_York",
+          "Rule\tUS\t2007\tmax\t-\tMar\tSun>=8\t2:00\t1:00\tD",
+          "Rule\tUS\t2007\tmax\t-\tNov\tSun>=1\t2:00\t0\tS"
+        ]
+      },
+      "expected": {
+        "julianDay": 2460743.7916550925,
+        "equationOfTimeMinutes": -10.487175503608773,
+        "longitudeCorrectionSeconds": -17761.44,
+        "totalCorrectionFromCivilSeconds": -390.67053021652464,
+        "civilWallIso": "2025-03-09T01:59:59.000",
+        "apparentSolarWallIso": "2025-03-09T01:53:28.329",
+        "apparentSolarWallCoordinateMs": 1741485208329.4697,
+        "dayShiftFromCivil": 0
+      },
+      "reference": {
+        "sourceSha256": "3832956f24724eafacf9e18173b9299b1554d6252bed0784d9c9aca6d9f54856",
+        "unmodifiedFunctions": [
+          "getJD",
+          "calcTimeJulianCent",
+          "calcEquationOfTime"
+        ],
+        "solarClockFormula": "UTC epoch + eastLongitude * 240 seconds + EOT * 60 seconds",
+        "derivedWithoutApplicationImports": true
+      }
+    },
+    {
+      "id": "new-york-spring-after",
+      "input": {
+        "utcInstant": "2025-03-09T07:00:00Z",
+        "eastLongitude": -74.006,
+        "actualUtcOffsetSeconds": -14400,
+        "civilZone": "America/New_York"
+      },
+      "manualCaseNote": "One second later, civil jumps an hour but solar clock is continuous",
+      "civilOffsetAuthority": {
+        "file": "iana-2025b-northamerica.txt",
+        "locator": "Zone America/New_York, Rule US 2007 max",
+        "excerpts": [
+          "Zone America/New_York",
+          "Rule\tUS\t2007\tmax\t-\tMar\tSun>=8\t2:00\t1:00\tD",
+          "Rule\tUS\t2007\tmax\t-\tNov\tSun>=1\t2:00\t0\tS"
+        ]
+      },
+      "expected": {
+        "julianDay": 2460743.7916666665,
+        "equationOfTimeMinutes": -10.487172564467299,
+        "longitudeCorrectionSeconds": -17761.44,
+        "totalCorrectionFromCivilSeconds": -3990.6703538680376,
+        "civilWallIso": "2025-03-09T03:00:00.000",
+        "apparentSolarWallIso": "2025-03-09T01:53:29.330",
+        "apparentSolarWallCoordinateMs": 1741485209329.6462,
+        "dayShiftFromCivil": 0
+      },
+      "reference": {
+        "sourceSha256": "3832956f24724eafacf9e18173b9299b1554d6252bed0784d9c9aca6d9f54856",
+        "unmodifiedFunctions": [
+          "getJD",
+          "calcTimeJulianCent",
+          "calcEquationOfTime"
+        ],
+        "solarClockFormula": "UTC epoch + eastLongitude * 240 seconds + EOT * 60 seconds",
+        "derivedWithoutApplicationImports": true
+      }
+    },
+    {
+      "id": "new-york-fold-first",
+      "input": {
+        "utcInstant": "2025-11-02T05:30:00Z",
+        "eastLongitude": -74.006,
+        "actualUtcOffsetSeconds": -14400,
+        "civilZone": "America/New_York"
+      },
+      "manualCaseNote": "First 01:30 during fold",
+      "civilOffsetAuthority": {
+        "file": "iana-2025b-northamerica.txt",
+        "locator": "Zone America/New_York, Rule US 2007 max",
+        "excerpts": [
+          "Zone America/New_York",
+          "Rule\tUS\t2007\tmax\t-\tMar\tSun>=8\t2:00\t1:00\tD",
+          "Rule\tUS\t2007\tmax\t-\tNov\tSun>=1\t2:00\t0\tS"
+        ]
+      },
+      "expected": {
+        "julianDay": 2460981.7291666665,
+        "equationOfTimeMinutes": 16.486686206052738,
+        "longitudeCorrectionSeconds": -17761.44,
+        "totalCorrectionFromCivilSeconds": -2372.238827636833,
+        "civilWallIso": "2025-11-02T01:30:00.000",
+        "apparentSolarWallIso": "2025-11-02T00:50:27.761",
+        "apparentSolarWallCoordinateMs": 1762044627761.1724,
+        "dayShiftFromCivil": 0
+      },
+      "reference": {
+        "sourceSha256": "3832956f24724eafacf9e18173b9299b1554d6252bed0784d9c9aca6d9f54856",
+        "unmodifiedFunctions": [
+          "getJD",
+          "calcTimeJulianCent",
+          "calcEquationOfTime"
+        ],
+        "solarClockFormula": "UTC epoch + eastLongitude * 240 seconds + EOT * 60 seconds",
+        "derivedWithoutApplicationImports": true
+      }
+    },
+    {
+      "id": "new-york-fold-second",
+      "input": {
+        "utcInstant": "2025-11-02T06:30:00Z",
+        "eastLongitude": -74.006,
+        "actualUtcOffsetSeconds": -18000,
+        "civilZone": "America/New_York"
+      },
+      "manualCaseNote": "Second 01:30 during fold, distinct physical instant",
+      "civilOffsetAuthority": {
+        "file": "iana-2025b-northamerica.txt",
+        "locator": "Zone America/New_York, Rule US 2007 max",
+        "excerpts": [
+          "Zone America/New_York",
+          "Rule\tUS\t2007\tmax\t-\tMar\tSun>=8\t2:00\t1:00\tD",
+          "Rule\tUS\t2007\tmax\t-\tNov\tSun>=1\t2:00\t0\tS"
+        ]
+      },
+      "expected": {
+        "julianDay": 2460981.7708333335,
+        "equationOfTimeMinutes": 16.48717258182169,
+        "longitudeCorrectionSeconds": -17761.44,
+        "totalCorrectionFromCivilSeconds": 1227.7903549093026,
+        "civilWallIso": "2025-11-02T01:30:00.000",
+        "apparentSolarWallIso": "2025-11-02T01:50:27.790",
+        "apparentSolarWallCoordinateMs": 1762048227790.355,
+        "dayShiftFromCivil": 0
+      },
+      "reference": {
+        "sourceSha256": "3832956f24724eafacf9e18173b9299b1554d6252bed0784d9c9aca6d9f54856",
+        "unmodifiedFunctions": [
+          "getJD",
+          "calcTimeJulianCent",
+          "calcEquationOfTime"
+        ],
+        "solarClockFormula": "UTC epoch + eastLongitude * 240 seconds + EOT * 60 seconds",
+        "derivedWithoutApplicationImports": true
+      }
+    },
+    {
+      "id": "east-180-january",
+      "input": {
+        "utcInstant": "2025-01-01T12:00:00Z",
+        "eastLongitude": 180,
+        "actualUtcOffsetSeconds": 0,
+        "civilZone": "UTC"
+      },
+      "manualCaseNote": "Inclusive positive longitude endpoint",
+      "civilOffsetAuthority": {
+        "kind": "explicit fixture offset",
+        "zone": "UTC"
+      },
+      "expected": {
+        "julianDay": 2460677,
+        "equationOfTimeMinutes": -3.683413531638257,
+        "longitudeCorrectionSeconds": 43200,
+        "totalCorrectionFromCivilSeconds": 42978.995188101704,
+        "civilWallIso": "2025-01-01T12:00:00.000",
+        "apparentSolarWallIso": "2025-01-01T23:56:18.995",
+        "apparentSolarWallCoordinateMs": 1735775778995.188,
+        "dayShiftFromCivil": 0
+      },
+      "reference": {
+        "sourceSha256": "3832956f24724eafacf9e18173b9299b1554d6252bed0784d9c9aca6d9f54856",
+        "unmodifiedFunctions": [
+          "getJD",
+          "calcTimeJulianCent",
+          "calcEquationOfTime"
+        ],
+        "solarClockFormula": "UTC epoch + eastLongitude * 240 seconds + EOT * 60 seconds",
+        "derivedWithoutApplicationImports": true
+      }
+    },
+    {
+      "id": "west-180-january",
+      "input": {
+        "utcInstant": "2025-01-01T00:00:00Z",
+        "eastLongitude": -180,
+        "actualUtcOffsetSeconds": 0,
+        "civilZone": "UTC"
+      },
+      "manualCaseNote": "Inclusive negative longitude endpoint and previous day",
+      "civilOffsetAuthority": {
+        "kind": "explicit fixture offset",
+        "zone": "UTC"
+      },
+      "expected": {
+        "julianDay": 2460676.5,
+        "equationOfTimeMinutes": -3.4486985197059914,
+        "longitudeCorrectionSeconds": -43200,
+        "totalCorrectionFromCivilSeconds": -43406.92191118236,
+        "civilWallIso": "2025-01-01T00:00:00.000",
+        "apparentSolarWallIso": "2024-12-31T11:56:33.078",
+        "apparentSolarWallCoordinateMs": 1735646193078.0889,
+        "dayShiftFromCivil": -1
+      },
+      "reference": {
+        "sourceSha256": "3832956f24724eafacf9e18173b9299b1554d6252bed0784d9c9aca6d9f54856",
+        "unmodifiedFunctions": [
+          "getJD",
+          "calcTimeJulianCent",
+          "calcEquationOfTime"
+        ],
+        "solarClockFormula": "UTC epoch + eastLongitude * 240 seconds + EOT * 60 seconds",
+        "derivedWithoutApplicationImports": true
+      }
+    },
+    {
+      "id": "east-180-february-crossing",
+      "input": {
+        "utcInstant": "2025-02-11T12:30:00Z",
+        "eastLongitude": 180,
+        "actualUtcOffsetSeconds": 0,
+        "civilZone": "UTC"
+      },
+      "manualCaseNote": "Crosses into next solar calendar day",
+      "civilOffsetAuthority": {
+        "kind": "explicit fixture offset",
+        "zone": "UTC"
+      },
+      "expected": {
+        "julianDay": 2460718.0208333335,
+        "equationOfTimeMinutes": -14.227395874473293,
+        "longitudeCorrectionSeconds": 43200,
+        "totalCorrectionFromCivilSeconds": 42346.3562475316,
+        "civilWallIso": "2025-02-11T12:30:00.000",
+        "apparentSolarWallIso": "2025-02-12T00:15:46.356",
+        "apparentSolarWallCoordinateMs": 1739319346356.2476,
+        "dayShiftFromCivil": 1
+      },
+      "reference": {
+        "sourceSha256": "3832956f24724eafacf9e18173b9299b1554d6252bed0784d9c9aca6d9f54856",
+        "unmodifiedFunctions": [
+          "getJD",
+          "calcTimeJulianCent",
+          "calcEquationOfTime"
+        ],
+        "solarClockFormula": "UTC epoch + eastLongitude * 240 seconds + EOT * 60 seconds",
+        "derivedWithoutApplicationImports": true
+      }
+    },
+    {
+      "id": "west-180-november-crossing",
+      "input": {
+        "utcInstant": "2025-11-03T11:50:00Z",
+        "eastLongitude": -180,
+        "actualUtcOffsetSeconds": 0,
+        "civilZone": "UTC"
+      },
+      "manualCaseNote": "Positive EOT crosses mean-solar midnight",
+      "civilOffsetAuthority": {
+        "kind": "explicit fixture offset",
+        "zone": "UTC"
+      },
+      "expected": {
+        "julianDay": 2460982.9930555555,
+        "equationOfTimeMinutes": 16.49079999384161,
+        "longitudeCorrectionSeconds": -43200,
+        "totalCorrectionFromCivilSeconds": -42210.552000369506,
+        "civilWallIso": "2025-11-03T11:50:00.000",
+        "apparentSolarWallIso": "2025-11-03T00:06:29.448",
+        "apparentSolarWallCoordinateMs": 1762128389447.9995,
+        "dayShiftFromCivil": 0
+      },
+      "reference": {
+        "sourceSha256": "3832956f24724eafacf9e18173b9299b1554d6252bed0784d9c9aca6d9f54856",
+        "unmodifiedFunctions": [
+          "getJD",
+          "calcTimeJulianCent",
+          "calcEquationOfTime"
+        ],
+        "solarClockFormula": "UTC epoch + eastLongitude * 240 seconds + EOT * 60 seconds",
+        "derivedWithoutApplicationImports": true
+      }
+    },
+    {
+      "id": "greenwich-positive-eot-crossing",
+      "input": {
+        "utcInstant": "2025-11-03T23:50:00Z",
+        "eastLongitude": 0,
+        "actualUtcOffsetSeconds": 0,
+        "civilZone": "UTC"
+      },
+      "manualCaseNote": "Positive EOT crosses next day at Greenwich",
+      "civilOffsetAuthority": {
+        "kind": "explicit fixture offset",
+        "zone": "UTC"
+      },
+      "expected": {
+        "julianDay": 2460983.4930555555,
+        "equationOfTimeMinutes": 16.486320466279718,
+        "longitudeCorrectionSeconds": 0,
+        "totalCorrectionFromCivilSeconds": 989.1792279767831,
+        "civilWallIso": "2025-11-03T23:50:00.000",
+        "apparentSolarWallIso": "2025-11-04T00:06:29.179",
+        "apparentSolarWallCoordinateMs": 1762214789179.228,
+        "dayShiftFromCivil": 1
+      },
+      "reference": {
+        "sourceSha256": "3832956f24724eafacf9e18173b9299b1554d6252bed0784d9c9aca6d9f54856",
+        "unmodifiedFunctions": [
+          "getJD",
+          "calcTimeJulianCent",
+          "calcEquationOfTime"
+        ],
+        "solarClockFormula": "UTC epoch + eastLongitude * 240 seconds + EOT * 60 seconds",
+        "derivedWithoutApplicationImports": true
+      }
+    },
+    {
+      "id": "greenwich-negative-eot-crossing",
+      "input": {
+        "utcInstant": "2025-02-11T00:05:00Z",
+        "eastLongitude": 0,
+        "actualUtcOffsetSeconds": 0,
+        "civilZone": "UTC"
+      },
+      "manualCaseNote": "Negative EOT crosses previous day at Greenwich",
+      "civilOffsetAuthority": {
+        "kind": "explicit fixture offset",
+        "zone": "UTC"
+      },
+      "expected": {
+        "julianDay": 2460717.503472222,
+        "equationOfTimeMinutes": -14.228357061257954,
+        "longitudeCorrectionSeconds": 0,
+        "totalCorrectionFromCivilSeconds": -853.7014236754773,
+        "civilWallIso": "2025-02-11T00:05:00.000",
+        "apparentSolarWallIso": "2025-02-10T23:50:46.299",
+        "apparentSolarWallCoordinateMs": 1739231446298.5764,
+        "dayShiftFromCivil": -1
+      },
+      "reference": {
+        "sourceSha256": "3832956f24724eafacf9e18173b9299b1554d6252bed0784d9c9aca6d9f54856",
+        "unmodifiedFunctions": [
+          "getJD",
+          "calcTimeJulianCent",
+          "calcEquationOfTime"
+        ],
+        "solarClockFormula": "UTC epoch + eastLongitude * 240 seconds + EOT * 60 seconds",
+        "derivedWithoutApplicationImports": true
+      }
+    },
+    {
+      "id": "east-near-180",
+      "input": {
+        "utcInstant": "2025-06-21T12:00:00Z",
+        "eastLongitude": 179.9999,
+        "actualUtcOffsetSeconds": 0,
+        "civilZone": "UTC"
+      },
+      "manualCaseNote": "Near positive endpoint, preserve fractional degree",
+      "civilOffsetAuthority": {
+        "kind": "explicit fixture offset",
+        "zone": "UTC"
+      },
+      "expected": {
+        "julianDay": 2460848,
+        "equationOfTimeMinutes": -1.8745928248588755,
+        "longitudeCorrectionSeconds": 43199.976,
+        "totalCorrectionFromCivilSeconds": 43087.50043050847,
+        "civilWallIso": "2025-06-21T12:00:00.000",
+        "apparentSolarWallIso": "2025-06-21T23:58:07.500",
+        "apparentSolarWallCoordinateMs": 1750550287500.4304,
+        "dayShiftFromCivil": 0
+      },
+      "reference": {
+        "sourceSha256": "3832956f24724eafacf9e18173b9299b1554d6252bed0784d9c9aca6d9f54856",
+        "unmodifiedFunctions": [
+          "getJD",
+          "calcTimeJulianCent",
+          "calcEquationOfTime"
+        ],
+        "solarClockFormula": "UTC epoch + eastLongitude * 240 seconds + EOT * 60 seconds",
+        "derivedWithoutApplicationImports": true
+      }
+    },
+    {
+      "id": "west-near-180",
+      "input": {
+        "utcInstant": "2025-06-21T12:00:00Z",
+        "eastLongitude": -179.9999,
+        "actualUtcOffsetSeconds": 0,
+        "civilZone": "UTC"
+      },
+      "manualCaseNote": "Near negative endpoint, preserve sign",
+      "civilOffsetAuthority": {
+        "kind": "explicit fixture offset",
+        "zone": "UTC"
+      },
+      "expected": {
+        "julianDay": 2460848,
+        "equationOfTimeMinutes": -1.8745928248588755,
+        "longitudeCorrectionSeconds": -43199.976,
+        "totalCorrectionFromCivilSeconds": -43312.45156949153,
+        "civilWallIso": "2025-06-21T12:00:00.000",
+        "apparentSolarWallIso": "2025-06-20T23:58:07.548",
+        "apparentSolarWallCoordinateMs": 1750463887548.4304,
+        "dayShiftFromCivil": -1
+      },
+      "reference": {
+        "sourceSha256": "3832956f24724eafacf9e18173b9299b1554d6252bed0784d9c9aca6d9f54856",
+        "unmodifiedFunctions": [
+          "getJD",
+          "calcTimeJulianCent",
+          "calcEquationOfTime"
+        ],
+        "solarClockFormula": "UTC epoch + eastLongitude * 240 seconds + EOT * 60 seconds",
+        "derivedWithoutApplicationImports": true
+      }
+    },
+    {
+      "id": "paris-1900-nonminute",
+      "input": {
+        "utcInstant": "1899-12-31T23:50:39Z",
+        "eastLongitude": 2.3522,
+        "actualUtcOffsetSeconds": 561,
+        "civilZone": "Europe/Paris"
+      },
+      "manualCaseNote": "1900-01-01 civil midnight, PMT +00:09:21",
+      "civilOffsetAuthority": {
+        "file": "iana-2025b-europe.txt",
+        "locator": "Zone Europe/Paris and following PMT continuation",
+        "excerpt": "0:09:21\t-\tPMT\t1911 Mar 11"
+      },
+      "expected": {
+        "julianDay": 2415020.4935069443,
+        "equationOfTimeMinutes": -3.4222975627193493,
+        "longitudeCorrectionSeconds": 564.528,
+        "totalCorrectionFromCivilSeconds": -201.80985376316096,
+        "civilWallIso": "1900-01-01T00:00:00.000",
+        "apparentSolarWallIso": "1899-12-31T23:56:38.190",
+        "apparentSolarWallCoordinateMs": -2208989001809.854,
+        "dayShiftFromCivil": -1
+      },
+      "reference": {
+        "sourceSha256": "3832956f24724eafacf9e18173b9299b1554d6252bed0784d9c9aca6d9f54856",
+        "unmodifiedFunctions": [
+          "getJD",
+          "calcTimeJulianCent",
+          "calcEquationOfTime"
+        ],
+        "solarClockFormula": "UTC epoch + eastLongitude * 240 seconds + EOT * 60 seconds",
+        "derivedWithoutApplicationImports": true
+      }
+    },
+    {
+      "id": "kathmandu-1900-nonminute",
+      "input": {
+        "utcInstant": "1899-12-31T18:18:44Z",
+        "eastLongitude": 85.324,
+        "actualUtcOffsetSeconds": 20476,
+        "civilZone": "Asia/Kathmandu"
+      },
+      "manualCaseNote": "1900-01-01 civil midnight, LMT +05:41:16",
+      "civilOffsetAuthority": {
+        "file": "iana-2025b-asia.txt",
+        "locator": "Zone Asia/Kathmandu",
+        "excerpt": "Zone\tAsia/Kathmandu\t5:41:16 -\tLMT\t1920"
+      },
+      "expected": {
+        "julianDay": 2415020.2630092595,
+        "equationOfTimeMinutes": -3.312638055428692,
+        "longitudeCorrectionSeconds": 20477.76,
+        "totalCorrectionFromCivilSeconds": -196.9982833257236,
+        "civilWallIso": "1900-01-01T00:00:00.000",
+        "apparentSolarWallIso": "1899-12-31T23:56:43.002",
+        "apparentSolarWallCoordinateMs": -2208988996998.283,
+        "dayShiftFromCivil": -1
+      },
+      "reference": {
+        "sourceSha256": "3832956f24724eafacf9e18173b9299b1554d6252bed0784d9c9aca6d9f54856",
+        "unmodifiedFunctions": [
+          "getJD",
+          "calcTimeJulianCent",
+          "calcEquationOfTime"
+        ],
+        "solarClockFormula": "UTC epoch + eastLongitude * 240 seconds + EOT * 60 seconds",
+        "derivedWithoutApplicationImports": true
+      }
+    },
+    {
+      "id": "kolkata-1900-nonminute",
+      "input": {
+        "utcInstant": "1899-12-31T18:38:50Z",
+        "eastLongitude": 88.3639,
+        "actualUtcOffsetSeconds": 19270,
+        "civilZone": "Asia/Kolkata"
+      },
+      "manualCaseNote": "1900-01-01 civil midnight, MMT +05:21:10",
+      "civilOffsetAuthority": {
+        "file": "iana-2025b-asia.txt",
+        "locator": "Zone Asia/Kolkata MMT continuation",
+        "excerpt": "5:21:10\t-\tMMT\t1906 Jan  1"
+      },
+      "expected": {
+        "julianDay": 2415020.2769675925,
+        "equationOfTimeMinutes": -3.319286091118194,
+        "longitudeCorrectionSeconds": 21207.336,
+        "totalCorrectionFromCivilSeconds": 1738.1788345329078,
+        "civilWallIso": "1900-01-01T00:00:00.000",
+        "apparentSolarWallIso": "1900-01-01T00:28:58.179",
+        "apparentSolarWallCoordinateMs": -2208987061821.1655,
+        "dayShiftFromCivil": 0
+      },
+      "reference": {
+        "sourceSha256": "3832956f24724eafacf9e18173b9299b1554d6252bed0784d9c9aca6d9f54856",
+        "unmodifiedFunctions": [
+          "getJD",
+          "calcTimeJulianCent",
+          "calcEquationOfTime"
+        ],
+        "solarClockFormula": "UTC epoch + eastLongitude * 240 seconds + EOT * 60 seconds",
+        "derivedWithoutApplicationImports": true
+      }
+    },
+    {
+      "id": "singapore-1900-nonminute",
+      "input": {
+        "utcInstant": "1899-12-31T17:04:35Z",
+        "eastLongitude": 103.8198,
+        "actualUtcOffsetSeconds": 24925,
+        "civilZone": "Asia/Singapore"
+      },
+      "manualCaseNote": "1900-01-01 civil midnight, LMT +06:55:25",
+      "civilOffsetAuthority": {
+        "file": "iana-2025b-asia.txt",
+        "locator": "Zone Asia/Singapore",
+        "excerpt": "Zone\tAsia/Singapore\t6:55:25 -\tLMT\t1901 Jan  1"
+      },
+      "expected": {
+        "julianDay": 2415020.211516204,
+        "equationOfTimeMinutes": -3.2881049793149764,
+        "longitudeCorrectionSeconds": 24916.752,
+        "totalCorrectionFromCivilSeconds": -205.53429875889924,
+        "civilWallIso": "1900-01-01T00:00:00.000",
+        "apparentSolarWallIso": "1899-12-31T23:56:34.466",
+        "apparentSolarWallCoordinateMs": -2208989005534.299,
+        "dayShiftFromCivil": -1
+      },
+      "reference": {
+        "sourceSha256": "3832956f24724eafacf9e18173b9299b1554d6252bed0784d9c9aca6d9f54856",
+        "unmodifiedFunctions": [
+          "getJD",
+          "calcTimeJulianCent",
+          "calcEquationOfTime"
+        ],
+        "solarClockFormula": "UTC epoch + eastLongitude * 240 seconds + EOT * 60 seconds",
+        "derivedWithoutApplicationImports": true
+      }
+    },
+    {
+      "id": "shanghai-1900-nonminute",
+      "input": {
+        "utcInstant": "1899-12-31T15:54:17Z",
+        "eastLongitude": 121.4737,
+        "actualUtcOffsetSeconds": 29143,
+        "civilZone": "Asia/Shanghai"
+      },
+      "manualCaseNote": "1900-01-01 civil midnight, LMT +08:05:43",
+      "civilOffsetAuthority": {
+        "file": "iana-2025b-asia.txt",
+        "locator": "Zone Asia/Shanghai",
+        "excerpt": "Zone\tAsia/Shanghai\t8:05:43\t-\tLMT\t1901"
+      },
+      "expected": {
+        "julianDay": 2415020.162696759,
+        "equationOfTimeMinutes": -3.26483397076927,
+        "longitudeCorrectionSeconds": 29153.688,
+        "totalCorrectionFromCivilSeconds": -185.20203824615965,
+        "civilWallIso": "1900-01-01T00:00:00.000",
+        "apparentSolarWallIso": "1899-12-31T23:56:54.798",
+        "apparentSolarWallCoordinateMs": -2208988985202.038,
+        "dayShiftFromCivil": -1
+      },
+      "reference": {
+        "sourceSha256": "3832956f24724eafacf9e18173b9299b1554d6252bed0784d9c9aca6d9f54856",
+        "unmodifiedFunctions": [
+          "getJD",
+          "calcTimeJulianCent",
+          "calcEquationOfTime"
+        ],
+        "solarClockFormula": "UTC epoch + eastLongitude * 240 seconds + EOT * 60 seconds",
+        "derivedWithoutApplicationImports": true
+      }
+    },
+    {
+      "id": "gregorian-1900-march",
+      "input": {
+        "utcInstant": "1900-03-01T12:00:00Z",
+        "eastLongitude": 0,
+        "actualUtcOffsetSeconds": 0,
+        "civilZone": "UTC"
+      },
+      "manualCaseNote": "1900 is not a leap year; full Gregorian JD",
+      "civilOffsetAuthority": {
+        "kind": "explicit fixture offset",
+        "zone": "UTC"
+      },
+      "expected": {
+        "julianDay": 2415080,
+        "equationOfTimeMinutes": -12.580235145870901,
+        "longitudeCorrectionSeconds": 0,
+        "totalCorrectionFromCivilSeconds": -754.814108752254,
+        "civilWallIso": "1900-03-01T12:00:00.000",
+        "apparentSolarWallIso": "1900-03-01T11:47:25.186",
+        "apparentSolarWallCoordinateMs": -2203848754814.109,
+        "dayShiftFromCivil": 0
+      },
+      "reference": {
+        "sourceSha256": "3832956f24724eafacf9e18173b9299b1554d6252bed0784d9c9aca6d9f54856",
+        "unmodifiedFunctions": [
+          "getJD",
+          "calcTimeJulianCent",
+          "calcEquationOfTime"
+        ],
+        "solarClockFormula": "UTC epoch + eastLongitude * 240 seconds + EOT * 60 seconds",
+        "derivedWithoutApplicationImports": true
+      }
+    },
+    {
+      "id": "gregorian-2000-leap",
+      "input": {
+        "utcInstant": "2000-02-29T12:00:00Z",
+        "eastLongitude": 0,
+        "actualUtcOffsetSeconds": 0,
+        "civilZone": "UTC"
+      },
+      "manualCaseNote": "2000 is a leap year",
+      "civilOffsetAuthority": {
+        "kind": "explicit fixture offset",
+        "zone": "UTC"
+      },
+      "expected": {
+        "julianDay": 2451604,
+        "equationOfTimeMinutes": -12.483969970539727,
+        "longitudeCorrectionSeconds": 0,
+        "totalCorrectionFromCivilSeconds": -749.0381982323836,
+        "civilWallIso": "2000-02-29T12:00:00.000",
+        "apparentSolarWallIso": "2000-02-29T11:47:30.962",
+        "apparentSolarWallCoordinateMs": 951824850961.8018,
+        "dayShiftFromCivil": 0
+      },
+      "reference": {
+        "sourceSha256": "3832956f24724eafacf9e18173b9299b1554d6252bed0784d9c9aca6d9f54856",
+        "unmodifiedFunctions": [
+          "getJD",
+          "calcTimeJulianCent",
+          "calcEquationOfTime"
+        ],
+        "solarClockFormula": "UTC epoch + eastLongitude * 240 seconds + EOT * 60 seconds",
+        "derivedWithoutApplicationImports": true
+      }
+    },
+    {
+      "id": "gregorian-2100-march",
+      "input": {
+        "utcInstant": "2100-03-01T12:00:00Z",
+        "eastLongitude": 0,
+        "actualUtcOffsetSeconds": 0,
+        "civilZone": "UTC"
+      },
+      "manualCaseNote": "2100 is not a leap year; no spreadsheet JD approximation",
+      "civilOffsetAuthority": {
+        "kind": "explicit fixture offset",
+        "zone": "UTC"
+      },
+      "expected": {
+        "julianDay": 2488129,
+        "equationOfTimeMinutes": -12.191810126077476,
+        "longitudeCorrectionSeconds": 0,
+        "totalCorrectionFromCivilSeconds": -731.5086075646485,
+        "civilWallIso": "2100-03-01T12:00:00.000",
+        "apparentSolarWallIso": "2100-03-01T11:47:48.491",
+        "apparentSolarWallCoordinateMs": 4107584868491.3926,
+        "dayShiftFromCivil": 0
+      },
+      "reference": {
+        "sourceSha256": "3832956f24724eafacf9e18173b9299b1554d6252bed0784d9c9aca6d9f54856",
+        "unmodifiedFunctions": [
+          "getJD",
+          "calcTimeJulianCent",
+          "calcEquationOfTime"
+        ],
+        "solarClockFormula": "UTC epoch + eastLongitude * 240 seconds + EOT * 60 seconds",
+        "derivedWithoutApplicationImports": true
+      }
+    },
+    {
+      "id": "year-2100-start",
+      "input": {
+        "utcInstant": "2100-01-01T00:00:00Z",
+        "eastLongitude": 0,
+        "actualUtcOffsetSeconds": 0,
+        "civilZone": "UTC"
+      },
+      "manualCaseNote": "Upper supported civil year starts",
+      "civilOffsetAuthority": {
+        "kind": "explicit fixture offset",
+        "zone": "UTC"
+      },
+      "expected": {
+        "julianDay": 2488069.5,
+        "equationOfTimeMinutes": -3.179857172195399,
+        "longitudeCorrectionSeconds": 0,
+        "totalCorrectionFromCivilSeconds": -190.79143033172394,
+        "civilWallIso": "2100-01-01T00:00:00.000",
+        "apparentSolarWallIso": "2099-12-31T23:56:49.209",
+        "apparentSolarWallCoordinateMs": 4102444609208.57,
+        "dayShiftFromCivil": -1
+      },
+      "reference": {
+        "sourceSha256": "3832956f24724eafacf9e18173b9299b1554d6252bed0784d9c9aca6d9f54856",
+        "unmodifiedFunctions": [
+          "getJD",
+          "calcTimeJulianCent",
+          "calcEquationOfTime"
+        ],
+        "solarClockFormula": "UTC epoch + eastLongitude * 240 seconds + EOT * 60 seconds",
+        "derivedWithoutApplicationImports": true
+      }
+    },
+    {
+      "id": "year-2100-end",
+      "input": {
+        "utcInstant": "2100-12-31T23:59:59Z",
+        "eastLongitude": 0,
+        "actualUtcOffsetSeconds": 0,
+        "civilZone": "UTC"
+      },
+      "manualCaseNote": "Upper supported civil year ends",
+      "civilOffsetAuthority": {
+        "kind": "explicit fixture offset",
+        "zone": "UTC"
+      },
+      "expected": {
+        "julianDay": 2488434.499988426,
+        "equationOfTimeMinutes": -3.0630007226703304,
+        "longitudeCorrectionSeconds": 0,
+        "totalCorrectionFromCivilSeconds": -183.78004336021982,
+        "civilWallIso": "2100-12-31T23:59:59.000",
+        "apparentSolarWallIso": "2100-12-31T23:56:55.220",
+        "apparentSolarWallCoordinateMs": 4133980615219.9565,
+        "dayShiftFromCivil": 0
+      },
+      "reference": {
+        "sourceSha256": "3832956f24724eafacf9e18173b9299b1554d6252bed0784d9c9aca6d9f54856",
+        "unmodifiedFunctions": [
+          "getJD",
+          "calcTimeJulianCent",
+          "calcEquationOfTime"
+        ],
+        "solarClockFormula": "UTC epoch + eastLongitude * 240 seconds + EOT * 60 seconds",
+        "derivedWithoutApplicationImports": true
+      }
+    },
+    {
+      "id": "civil-2100-utc-2101",
+      "input": {
+        "utcInstant": "2101-01-01T04:59:59Z",
+        "eastLongitude": -74.006,
+        "actualUtcOffsetSeconds": -18000,
+        "civilZone": "America/New_York"
+      },
+      "manualCaseNote": "2100-12-31 23:59:59 civil, UTC crosses to 2101",
+      "civilOffsetAuthority": {
+        "file": "iana-2025b-northamerica.txt",
+        "locator": "Zone America/New_York, Rule US 2007 max",
+        "excerpts": [
+          "Zone America/New_York",
+          "Rule\tUS\t2007\tmax\t-\tMar\tSun>=8\t2:00\t1:00\tD",
+          "Rule\tUS\t2007\tmax\t-\tNov\tSun>=1\t2:00\t0\tS"
+        ]
+      },
+      "expected": {
+        "julianDay": 2488434.7083217595,
+        "equationOfTimeMinutes": -3.1612645171895077,
+        "longitudeCorrectionSeconds": -17761.44,
+        "totalCorrectionFromCivilSeconds": 48.88412896863156,
+        "civilWallIso": "2100-12-31T23:59:59.000",
+        "apparentSolarWallIso": "2101-01-01T00:00:47.884",
+        "apparentSolarWallCoordinateMs": 4133980847884.129,
+        "dayShiftFromCivil": 1
+      },
+      "reference": {
+        "sourceSha256": "3832956f24724eafacf9e18173b9299b1554d6252bed0784d9c9aca6d9f54856",
+        "unmodifiedFunctions": [
+          "getJD",
+          "calcTimeJulianCent",
+          "calcEquationOfTime"
+        ],
+        "solarClockFormula": "UTC epoch + eastLongitude * 240 seconds + EOT * 60 seconds",
+        "derivedWithoutApplicationImports": true
+      }
+    },
+    {
+      "id": "london-summer",
+      "input": {
+        "utcInstant": "2025-07-01T11:00:00Z",
+        "eastLongitude": -0.1278,
+        "actualUtcOffsetSeconds": 3600,
+        "civilZone": "Europe/London"
+      },
+      "manualCaseNote": "British summer civil noon",
+      "civilOffsetAuthority": {
+        "kind": "IANA fixed zone / seasonal offset",
+        "zone": "Europe/London"
+      },
+      "expected": {
+        "julianDay": 2460857.9583333335,
+        "equationOfTimeMinutes": -3.940587955568989,
+        "longitudeCorrectionSeconds": -30.672,
+        "totalCorrectionFromCivilSeconds": -3867.1072773341393,
+        "civilWallIso": "2025-07-01T12:00:00.000",
+        "apparentSolarWallIso": "2025-07-01T10:55:32.893",
+        "apparentSolarWallCoordinateMs": 1751367332892.7227,
+        "dayShiftFromCivil": 0
+      },
+      "reference": {
+        "sourceSha256": "3832956f24724eafacf9e18173b9299b1554d6252bed0784d9c9aca6d9f54856",
+        "unmodifiedFunctions": [
+          "getJD",
+          "calcTimeJulianCent",
+          "calcEquationOfTime"
+        ],
+        "solarClockFormula": "UTC epoch + eastLongitude * 240 seconds + EOT * 60 seconds",
+        "derivedWithoutApplicationImports": true
+      }
+    },
+    {
+      "id": "london-winter",
+      "input": {
+        "utcInstant": "2025-01-01T12:00:00Z",
+        "eastLongitude": -0.1278,
+        "actualUtcOffsetSeconds": 0,
+        "civilZone": "Europe/London"
+      },
+      "manualCaseNote": "British winter civil noon",
+      "civilOffsetAuthority": {
+        "kind": "IANA fixed zone / seasonal offset",
+        "zone": "Europe/London"
+      },
+      "expected": {
+        "julianDay": 2460677,
+        "equationOfTimeMinutes": -3.683413531638257,
+        "longitudeCorrectionSeconds": -30.672,
+        "totalCorrectionFromCivilSeconds": -251.6768118982954,
+        "civilWallIso": "2025-01-01T12:00:00.000",
+        "apparentSolarWallIso": "2025-01-01T11:55:48.323",
+        "apparentSolarWallCoordinateMs": 1735732548323.188,
+        "dayShiftFromCivil": 0
+      },
+      "reference": {
+        "sourceSha256": "3832956f24724eafacf9e18173b9299b1554d6252bed0784d9c9aca6d9f54856",
+        "unmodifiedFunctions": [
+          "getJD",
+          "calcTimeJulianCent",
+          "calcEquationOfTime"
+        ],
+        "solarClockFormula": "UTC epoch + eastLongitude * 240 seconds + EOT * 60 seconds",
+        "derivedWithoutApplicationImports": true
+      }
+    },
+    {
+      "id": "west-negative-latitude-independent",
+      "input": {
+        "utcInstant": "2025-03-20T00:00:00Z",
+        "eastLongitude": -43.1729,
+        "actualUtcOffsetSeconds": -10800,
+        "civilZone": "fixed UTC-03:00"
+      },
+      "manualCaseNote": "Explicit offset fixture; latitude is not an input",
+      "civilOffsetAuthority": {
+        "kind": "explicit fixture offset",
+        "zone": "fixed UTC-03:00"
+      },
+      "expected": {
+        "julianDay": 2460754.5,
+        "equationOfTimeMinutes": -7.509946529706489,
+        "longitudeCorrectionSeconds": -10361.496,
+        "totalCorrectionFromCivilSeconds": -12.092791782388304,
+        "civilWallIso": "2025-03-19T21:00:00.000",
+        "apparentSolarWallIso": "2025-03-19T20:59:47.907",
+        "apparentSolarWallCoordinateMs": 1742417987907.2083,
+        "dayShiftFromCivil": 0
+      },
+      "reference": {
+        "sourceSha256": "3832956f24724eafacf9e18173b9299b1554d6252bed0784d9c9aca6d9f54856",
+        "unmodifiedFunctions": [
+          "getJD",
+          "calcTimeJulianCent",
+          "calcEquationOfTime"
+        ],
+        "solarClockFormula": "UTC epoch + eastLongitude * 240 seconds + EOT * 60 seconds",
+        "derivedWithoutApplicationImports": true
+      }
+    },
+    {
+      "id": "east-positive-latitude-independent",
+      "input": {
+        "utcInstant": "2025-03-20T00:00:00Z",
+        "eastLongitude": 139.6917,
+        "actualUtcOffsetSeconds": 32400,
+        "civilZone": "fixed UTC+09:00"
+      },
+      "manualCaseNote": "Explicit offset fixture; longitude only",
+      "civilOffsetAuthority": {
+        "kind": "explicit fixture offset",
+        "zone": "fixed UTC+09:00"
+      },
+      "expected": {
+        "julianDay": 2460754.5,
+        "equationOfTimeMinutes": -7.509946529706489,
+        "longitudeCorrectionSeconds": 33526.008,
+        "totalCorrectionFromCivilSeconds": 675.4112082176143,
+        "civilWallIso": "2025-03-20T09:00:00.000",
+        "apparentSolarWallIso": "2025-03-20T09:11:15.411",
+        "apparentSolarWallCoordinateMs": 1742461875411.2083,
+        "dayShiftFromCivil": 0
+      },
+      "reference": {
+        "sourceSha256": "3832956f24724eafacf9e18173b9299b1554d6252bed0784d9c9aca6d9f54856",
+        "unmodifiedFunctions": [
+          "getJD",
+          "calcTimeJulianCent",
+          "calcEquationOfTime"
+        ],
+        "solarClockFormula": "UTC epoch + eastLongitude * 240 seconds + EOT * 60 seconds",
+        "derivedWithoutApplicationImports": true
+      }
+    },
+    {
+      "id": "matching-endpoint-east",
+      "input": {
+        "utcInstant": "2025-08-01T00:00:00Z",
+        "eastLongitude": 180,
+        "actualUtcOffsetSeconds": 0,
+        "civilZone": "UTC"
+      },
+      "manualCaseNote": "Same physical instant as west endpoint; dated wall clocks differ by one day",
+      "civilOffsetAuthority": {
+        "kind": "explicit fixture offset",
+        "zone": "UTC"
+      },
+      "expected": {
+        "julianDay": 2460888.5,
+        "equationOfTimeMinutes": -6.376461773630979,
+        "longitudeCorrectionSeconds": 43200,
+        "totalCorrectionFromCivilSeconds": 42817.41229358214,
+        "civilWallIso": "2025-08-01T00:00:00.000",
+        "apparentSolarWallIso": "2025-08-01T11:53:37.412",
+        "apparentSolarWallCoordinateMs": 1754049217412.2937,
+        "dayShiftFromCivil": 0
+      },
+      "reference": {
+        "sourceSha256": "3832956f24724eafacf9e18173b9299b1554d6252bed0784d9c9aca6d9f54856",
+        "unmodifiedFunctions": [
+          "getJD",
+          "calcTimeJulianCent",
+          "calcEquationOfTime"
+        ],
+        "solarClockFormula": "UTC epoch + eastLongitude * 240 seconds + EOT * 60 seconds",
+        "derivedWithoutApplicationImports": true
+      }
+    },
+    {
+      "id": "matching-endpoint-west",
+      "input": {
+        "utcInstant": "2025-08-01T00:00:00Z",
+        "eastLongitude": -180,
+        "actualUtcOffsetSeconds": 0,
+        "civilZone": "UTC"
+      },
+      "manualCaseNote": "Same clock-of-day as east endpoint, previous solar date",
+      "civilOffsetAuthority": {
+        "kind": "explicit fixture offset",
+        "zone": "UTC"
+      },
+      "expected": {
+        "julianDay": 2460888.5,
+        "equationOfTimeMinutes": -6.376461773630979,
+        "longitudeCorrectionSeconds": -43200,
+        "totalCorrectionFromCivilSeconds": -43582.58770641786,
+        "civilWallIso": "2025-08-01T00:00:00.000",
+        "apparentSolarWallIso": "2025-07-31T11:53:37.412",
+        "apparentSolarWallCoordinateMs": 1753962817412.2937,
+        "dayShiftFromCivil": -1
+      },
+      "reference": {
+        "sourceSha256": "3832956f24724eafacf9e18173b9299b1554d6252bed0784d9c9aca6d9f54856",
+        "unmodifiedFunctions": [
+          "getJD",
+          "calcTimeJulianCent",
+          "calcEquationOfTime"
+        ],
+        "solarClockFormula": "UTC epoch + eastLongitude * 240 seconds + EOT * 60 seconds",
+        "derivedWithoutApplicationImports": true
+      }
+    }
+  ],
+  "crossModel": {
+    "source": {
+      "url": "https://raw.githubusercontent.com/pvlib/pvlib-python/v0.13.1/pvlib/spa.py",
+      "sourceSha256": "ad7762ccca5fd9611ef9e2a9b1e37f95fe4c5b31628616b2ad3e84ea1e5f9202",
+      "algorithm": "pvlib Python v0.13.1 NREL SPA, numpy mode",
+      "reference": "I. Reda and A. Andreas, Solar Position Algorithm for Solar Radiation Applications, NREL/TP-560-34302"
+    },
+    "policy": "Independent NREL-SPA oracle; no application imports; NOAA approximation is compared with an explicit 0.1-minute cross-model tolerance, which is not an accuracy guarantee.",
+    "fixedParameters": {
+      "latitude": 39.742476,
+      "longitudeEast": -105.1786,
+      "elevationMetres": 1830.14,
+      "pressureMillibars": 820,
+      "temperatureCelsius": 11,
+      "refractionDegrees": 0.5667
+    },
+    "toleranceMinutes": 0.1,
+    "rows": [
+      {
+        "id": "nrel-spa-published-example",
+        "utcInstant": "2003-10-17T19:30:30+00:00",
+        "deltaTSeconds": 67,
+        "equationOfTimeMinutes": 14.641510770821696
+      },
+      {
+        "id": "spa-negative-eot",
+        "utcInstant": "2025-02-11T12:00:00+00:00",
+        "deltaTSeconds": 67,
+        "equationOfTimeMinutes": -14.184310604636266
+      },
+      {
+        "id": "spa-positive-eot",
+        "utcInstant": "2025-11-03T12:00:00+00:00",
+        "deltaTSeconds": 67,
+        "equationOfTimeMinutes": 16.437173322170565
+      },
+      {
+        "id": "spa-leap-day",
+        "utcInstant": "2000-02-29T12:00:00+00:00",
+        "deltaTSeconds": 67,
+        "equationOfTimeMinutes": -12.460022108949488
+      }
+    ]
+  },
+  "timezoneAuthorities": [
+    {
+      "url": "https://data.iana.org/time-zones/tzdb-2025b/europe",
+      "sha256": "a33695f21dff308ba3e900244a083450331d8aa215a641f612eb218e49b272d9",
+      "retrievedAt": "2026-10-19T00:23:37.474Z",
+      "note": "Only relevant verbatim zone/rule excerpts are included in individual fixtures; full source is retained in the local evidence directory, not bundled."
+    },
+    {
+      "url": "https://data.iana.org/time-zones/tzdb-2025b/asia",
+      "sha256": "9a8b7e640cb0692b9e50b9126f599bf89360a2f9ed9e54b722f3e5b6f631b419",
+      "retrievedAt": "2026-10-19T00:23:37.548Z",
+      "note": "Only relevant verbatim zone/rule excerpts are included in individual fixtures; full source is retained in the local evidence directory, not bundled."
+    },
+    {
+      "url": "https://data.iana.org/time-zones/tzdb-2025b/northamerica",
+      "sha256": "382bc1672c47ca0c8e2cf303a34cb9da689c9bca0e0c3d7f5cde884c05cb49f4",
+      "retrievedAt": "2026-10-19T00:23:37.278Z",
+      "note": "Only relevant verbatim zone/rule excerpts are included in individual fixtures; full source is retained in the local evidence directory, not bundled."
+    }
+  ]
+}

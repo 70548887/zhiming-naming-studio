@@ -1,0 +1,1292 @@
+{
+  "schema": "meaning-generation-admission/1",
+  "decisionId": "M752",
+  "ruleVersion": "naming-editorial-7.2.0",
+  "publicationStatus": "decision-approved-not-registered",
+  "rootRegistrationRequired": true,
+  "productionApproved": false,
+  "formalCoverageAdded": 0,
+  "hashConvention": "sha256 of UTF-8 JSON.stringify(parsed object in pinned source key order); file pins use original bytes; never raw JSON span hashes",
+  "records": [
+    {
+      "candidateCaseId": "single-meaning-m740:邦:143600:0:1",
+      "admissionId": "m752-generation:single-meaning-m740:邦:143600:0:1",
+      "reviewId": "M752-use-review-01",
+      "ruleVersion": "naming-editorial-7.2.0",
+      "decision": "allow-single-character-generation",
+      "usage": {
+        "mode": "explicit-themes",
+        "anyOf": [
+          "civic-homeland"
+        ]
+      },
+      "candidateConstraints": {
+        "namePart": "given-name",
+        "givenNameLengths": [
+          1,
+          2
+        ],
+        "wholeNameApprovalRequired": false,
+        "requiresNewFamilySignature": false
+      },
+      "identity": {
+        "char": "邦",
+        "pinyin": "bāng",
+        "tone": 1,
+        "sourceId": "moe-revised",
+        "dictionaryWord": "邦",
+        "rawEntryIndex": 143600,
+        "rawHeteronymIndex": 0,
+        "rawDefinitionIndex": 1,
+        "dictionarySense": "泛稱國家。",
+        "sourceWord": "邦",
+        "sourcePOS": "名",
+        "rawOriginalSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "parsedEntrySha256": "813a3701f1bf5ccfb99a4d416ce4ed1360f030577aad95b70d3b32cd60c6a977",
+        "definitionSha256": "41fe3938b7a1b2161c9f9ef1e94d3ef67b6b7372ec4505ec626896813def2123",
+        "definitionTextSha256": "53efbfb337610ed48f83cc28b3268522d2b22e83ac6dcea394cb954b940a54c5",
+        "baselineCharacterSha256": "e5db0978ab3b0405f263b80a609b0030f96dcf96ac0d27dfdbeeb6dffc0863de",
+        "readingsSha256": "6f1dc122a4a301c72623218a8a79f8fe1b64cfebfb34b7702ee38f429058b4fc",
+        "glyphProofSha256": "cdddbb53bf554cf9920208aa5db8827f6f01263bed4d3454fbe475423ac6211c",
+        "sourceCaseSha256": "3992f95d172666bf9e6c54f3e388f61da2804b38219adc964f2db0ed7ea29b5d",
+        "candidateProfileSha256": "9e9b54ec980a0edf023963a95b721ae91212a5b06d9121873cd2e9d6f7f3e397",
+        "sourceLockSha256": "560d89b2652a622b1efa438330e2ab4be135e5ab0502f1ad14aa9d026fb2b21c",
+        "baseDatasetSha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+        "basePackSha256": "1875aa49dcfaeca0f266a3be7578e4d4b2a9b2c9c1f59fd79699a3e26d5d6b8b",
+        "baseActiveVersion": "1875aa49dcfa",
+        "senseId": "moe-revised:143600:0:1"
+      },
+      "project": {
+        "meaning": "取国家这一文化主题意象。",
+        "projectWish": null,
+        "limits": [
+          "只取国家文化意象，不推定政治身份、安邦才干、公共成就。"
+        ],
+        "attribution": "M752 项目原创逐字取意；不是辞典引文、整名释义或人格测量。",
+        "license": "CC0-1.0"
+      },
+      "projectSha256": "4a0030d3e93cb7ecf439daedfb79729a8ffde0cba2805fa43801586ea174f080",
+      "originalM740ProjectSha256": "5d7eb8c721a489812b5e194910f79a8b385f2b0270f7e4a00269eb7fe723e619",
+      "approvedScope": "single-character-project-intent-only",
+      "conditionIds": [
+        "theme:civic-homeland"
+      ],
+      "conflictIds": [
+        "alt-sense:political-identity"
+      ],
+      "machineConditions": {
+        "selectedPinyin": "bāng",
+        "tone": 1,
+        "senseId": "moe-revised:143600:0:1",
+        "allowedGivenNameLengths": [
+          1,
+          2
+        ],
+        "requiredThemeIds": [
+          "civic-homeland"
+        ],
+        "namePart": "given-name",
+        "conflictPolicy": "do-not-claim-alternate-sense"
+      },
+      "sourceIdentityDecision": "accepted-for-this-glyph-reading-sense-only",
+      "sourceLicense": "CC-BY-ND-3.0-TW",
+      "sourceFieldMayBeRewritten": false,
+      "reason": "国家意象语义自足；家国主题选择即可表达采用方向，无需逐个家庭另签认可。",
+      "prohibitedInferences": [
+        "安邦才能",
+        "仕途顺遂",
+        "必有公共成就"
+      ],
+      "priorEvidence": {
+        "auditId": "M744-DATA",
+        "auditSha256": "8b272e6062254fe3f112a19ee6a1f31a086ca56dc5964e21eb45fae8bc59b157",
+        "auditLocator": "/rows/0",
+        "auditScope": "source-binding-and-limited-manual-reference; NOT generation approval",
+        "m740Status": "manual-confirmation-required",
+        "m740Activation": "off",
+        "oldBinding": {
+          "char": "邦",
+          "pinyin": "bāng",
+          "tone": 1,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "邦",
+          "rawEntryIndex": 143600,
+          "rawHeteronymIndex": 0,
+          "rawDefinitionIndex": 1,
+          "dictionarySense": "泛稱國家。"
+        },
+        "newSenseReview": false
+      },
+      "newReview": {
+        "authority": "M752-project-editorial-decision",
+        "scope": "reusable single-character selection eligibility",
+        "reader": "决策组",
+        "date": "2026-10-25",
+        "futureFamilyApprovalRequired": false,
+        "independentRuntimeAudit": "not-executed"
+      },
+      "grants": {
+        "eligibilityPolicyApproved": true,
+        "sourceAuthorityFromCaller": false,
+        "automaticSemanticCreditAllowed": false,
+        "scoreDelta": 0,
+        "wholeNameMeaning": null,
+        "wholeNameApproved": false,
+        "personalityPrediction": false,
+        "fortunePrediction": false,
+        "elementModification": false
+      },
+      "productionActivation": "requires-versioned-loader-registration-and-consumer-acceptance"
+    },
+    {
+      "candidateCaseId": "single-meaning-m740:沫:83904:0:0",
+      "admissionId": "m752-generation:single-meaning-m740:沫:83904:0:0",
+      "reviewId": "M752-use-review-02",
+      "ruleVersion": "naming-editorial-7.2.0",
+      "decision": "allow-single-character-generation",
+      "usage": {
+        "mode": "explicit-themes",
+        "anyOf": [
+          "water-bubbles"
+        ]
+      },
+      "candidateConstraints": {
+        "namePart": "given-name",
+        "givenNameLengths": [
+          1,
+          2
+        ],
+        "wholeNameApprovalRequired": false,
+        "requiresNewFamilySignature": false
+      },
+      "identity": {
+        "char": "沫",
+        "pinyin": "mò",
+        "tone": 4,
+        "sourceId": "moe-revised",
+        "dictionaryWord": "沫",
+        "rawEntryIndex": 83904,
+        "rawHeteronymIndex": 0,
+        "rawDefinitionIndex": 0,
+        "dictionarySense": "液體形成而浮於表面的小泡。",
+        "sourceWord": "沫",
+        "sourcePOS": "名",
+        "rawOriginalSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "parsedEntrySha256": "47e6d19ed60a44f376b080a3a63dfff20adb0a8e27cc2250d9bbe1a1a6b00edf",
+        "definitionSha256": "79e79bfc3b8b9f42ccc57c326018fdd68db42f923210d9b5b777009718d80d92",
+        "definitionTextSha256": "d4443b331059e02af61450deac47ef113d4ddc912973cbd93c72ac5b842ae1ea",
+        "baselineCharacterSha256": "16fed3a3d85d7bdf4027a6e9e2c3408576ee85178e6b4f9b34618c859eea8085",
+        "readingsSha256": "b95d43747177ece212a6a08c11e191f84acee4ce748151605303cf37c14c2688",
+        "glyphProofSha256": "243bc1edf0de2aec4412eff5d1cc7f62cc3d2ad30f78c497edfcf381274c6927",
+        "sourceCaseSha256": "34cac9885d35f347188731d0d66ee440843f1c9ecfc5581836a3360cd9caa6fc",
+        "candidateProfileSha256": "9e9b54ec980a0edf023963a95b721ae91212a5b06d9121873cd2e9d6f7f3e397",
+        "sourceLockSha256": "560d89b2652a622b1efa438330e2ab4be135e5ab0502f1ad14aa9d026fb2b21c",
+        "baseDatasetSha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+        "basePackSha256": "1875aa49dcfaeca0f266a3be7578e4d4b2a9b2c9c1f59fd79699a3e26d5d6b8b",
+        "baseActiveVersion": "1875aa49dcfa",
+        "senseId": "moe-revised:83904:0:0"
+      },
+      "project": {
+        "meaning": "取液体表面小泡这一具体自然意象。",
+        "projectWish": null,
+        "limits": [
+          "原条另有口水、停止义；保留易散联想说明。",
+          "不把小泡改写为纯洁、坚韧、恒久或健康保证。"
+        ],
+        "attribution": "M752 项目原创逐字取意；不是辞典引文、整名释义或人格测量。",
+        "license": "CC0-1.0"
+      },
+      "projectSha256": "bb430b80c13070b9d99371876e922dc659d179f0abba724755ed543dd1a1cad9",
+      "originalM740ProjectSha256": "cab15542d2d792a1ca03b6a872911fb6d13c7883a0e214ad7e15badd3ed492a7",
+      "approvedScope": "single-character-project-intent-only",
+      "conditionIds": [
+        "theme:water-bubbles"
+      ],
+      "conflictIds": [
+        "alt-sense:mouth-fluid",
+        "alt-sense:cessation",
+        "association:evanescence"
+      ],
+      "machineConditions": {
+        "selectedPinyin": "mò",
+        "tone": 4,
+        "senseId": "moe-revised:83904:0:0",
+        "allowedGivenNameLengths": [
+          1,
+          2
+        ],
+        "requiredThemeIds": [
+          "water-bubbles"
+        ],
+        "namePart": "given-name",
+        "conflictPolicy": "do-not-claim-alternate-sense"
+      },
+      "sourceIdentityDecision": "accepted-for-this-glyph-reading-sense-only",
+      "sourceLicense": "CC-BY-ND-3.0-TW",
+      "sourceFieldMayBeRewritten": false,
+      "reason": "小泡实体义自足；保留口水、停止及易散联想，水面小泡主题才适用。",
+      "prohibitedInferences": [
+        "性格纯洁",
+        "坚韧恒久",
+        "健康保证"
+      ],
+      "priorEvidence": {
+        "auditId": "M744-DATA",
+        "auditSha256": "8b272e6062254fe3f112a19ee6a1f31a086ca56dc5964e21eb45fae8bc59b157",
+        "auditLocator": "/rows/1",
+        "auditScope": "source-binding-and-limited-manual-reference; NOT generation approval",
+        "m740Status": "manual-confirmation-required",
+        "m740Activation": "off",
+        "oldBinding": {
+          "char": "沫",
+          "pinyin": "mò",
+          "tone": 4,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "沫",
+          "rawEntryIndex": 83904,
+          "rawHeteronymIndex": 0,
+          "rawDefinitionIndex": 0,
+          "dictionarySense": "液體形成而浮於表面的小泡。"
+        },
+        "newSenseReview": false
+      },
+      "newReview": {
+        "authority": "M752-project-editorial-decision",
+        "scope": "reusable single-character selection eligibility",
+        "reader": "决策组",
+        "date": "2026-10-25",
+        "futureFamilyApprovalRequired": false,
+        "independentRuntimeAudit": "not-executed"
+      },
+      "grants": {
+        "eligibilityPolicyApproved": true,
+        "sourceAuthorityFromCaller": false,
+        "automaticSemanticCreditAllowed": false,
+        "scoreDelta": 0,
+        "wholeNameMeaning": null,
+        "wholeNameApproved": false,
+        "personalityPrediction": false,
+        "fortunePrediction": false,
+        "elementModification": false
+      },
+      "productionActivation": "requires-versioned-loader-registration-and-consumer-acceptance"
+    },
+    {
+      "candidateCaseId": "single-meaning-m740:纪:111076:0:0",
+      "admissionId": "m752-generation:single-meaning-m740:纪:111076:0:0",
+      "reviewId": "M752-use-review-03",
+      "ruleVersion": "naming-editorial-7.2.0",
+      "decision": "allow-single-character-generation",
+      "usage": {
+        "mode": "any-context"
+      },
+      "candidateConstraints": {
+        "namePart": "given-name",
+        "givenNameLengths": [
+          1,
+          2
+        ],
+        "wholeNameApprovalRequired": false,
+        "requiresNewFamilySignature": false
+      },
+      "identity": {
+        "char": "纪",
+        "pinyin": "jì",
+        "tone": 4,
+        "sourceId": "moe-revised",
+        "dictionaryWord": "紀",
+        "rawEntryIndex": 111076,
+        "rawHeteronymIndex": 0,
+        "rawDefinitionIndex": 0,
+        "dictionarySense": "絲的頭緒、條理。",
+        "sourceWord": "紀",
+        "sourcePOS": "名",
+        "rawOriginalSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "parsedEntrySha256": "99e28fd7d06b2e033844b917fc0d82839b532fc41105ab1a512eff405870cd47",
+        "definitionSha256": "f3568dc3e4535b9cab87a0496077e83d947927607532060bf39155b211288f43",
+        "definitionTextSha256": "35dc80b90374d126e372f9eccd663ee8b7afb0cc7fcfec475d0d7924cd365ec6",
+        "baselineCharacterSha256": "e73cb07f1a2db0c69c13e7e43d22a39dbc17c5c8215be61ffc0d64fa4931e204",
+        "readingsSha256": "f44bd0a24a403e30ceb22a62bfeb000766a4625aea8358e870ca435cecb3d75f",
+        "glyphProofSha256": "ec1d87db2904541bae832c1a4e6f44c09af81664bc62592733413e928f134107",
+        "sourceCaseSha256": "2f07747a0bd35f38cba7f175097b51f200fded6e1a80d7c1eb02ba5b5e583725",
+        "candidateProfileSha256": "9e9b54ec980a0edf023963a95b721ae91212a5b06d9121873cd2e9d6f7f3e397",
+        "sourceLockSha256": "560d89b2652a622b1efa438330e2ab4be135e5ab0502f1ad14aa9d026fb2b21c",
+        "baseDatasetSha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+        "basePackSha256": "1875aa49dcfaeca0f266a3be7578e4d4b2a9b2c9c1f59fd79699a3e26d5d6b8b",
+        "baseActiveVersion": "1875aa49dcfa",
+        "senseId": "moe-revised:111076:0:0"
+      },
+      "project": {
+        "meaning": "取丝线头绪与条理的字面意象。",
+        "projectWish": null,
+        "limits": [
+          "给名固定jì；不借纪姓jǐ或法度、纪念、时代义。",
+          "不由条理推断自律、智力、思维或学习能力。"
+        ],
+        "attribution": "M752 项目原创逐字取意；不是辞典引文、整名释义或人格测量。",
+        "license": "CC0-1.0"
+      },
+      "projectSha256": "e004d8a960767e2f2e57301e92e354d82976563697dbbca7c84b2559afed0671",
+      "originalM740ProjectSha256": "a6e3c43b29f5ed987c1d423504362ce1307d63b8368dc75e316a305e0ba46bc5",
+      "approvedScope": "single-character-project-intent-only",
+      "conditionIds": [],
+      "conflictIds": [
+        "other-reading:jǐ",
+        "alt-sense:law-era-history"
+      ],
+      "machineConditions": {
+        "selectedPinyin": "jì",
+        "tone": 4,
+        "senseId": "moe-revised:111076:0:0",
+        "allowedGivenNameLengths": [
+          1,
+          2
+        ],
+        "requiredThemeIds": [],
+        "namePart": "given-name",
+        "conflictPolicy": "do-not-claim-alternate-sense"
+      },
+      "sourceIdentityDecision": "accepted-for-this-glyph-reading-sense-only",
+      "sourceLicense": "CC-BY-ND-3.0-TW",
+      "sourceFieldMayBeRewritten": false,
+      "reason": "jì/def0的头绪条理可以作独立逐字取意，不需要知道未来全名或家庭纪念对象。此为新义项审阅，非旧法度义审批转用。",
+      "prohibitedInferences": [
+        "天生自律",
+        "智力出众",
+        "学习能力强",
+        "本条证明纪念义"
+      ],
+      "priorEvidence": {
+        "auditId": "M744-DATA",
+        "auditSha256": "8b272e6062254fe3f112a19ee6a1f31a086ca56dc5964e21eb45fae8bc59b157",
+        "auditLocator": "/rows/2",
+        "auditScope": "source-binding-and-limited-manual-reference; NOT generation approval",
+        "m740Status": "manual-confirmation-required",
+        "m740Activation": "off",
+        "oldBinding": {
+          "char": "纪",
+          "pinyin": "jì",
+          "tone": 4,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "紀",
+          "rawEntryIndex": 111076,
+          "rawHeteronymIndex": 0,
+          "rawDefinitionIndex": 1,
+          "dictionarySense": "法度、準則。"
+        },
+        "newSenseReview": true
+      },
+      "newReview": {
+        "authority": "M752-project-editorial-decision",
+        "scope": "reusable single-character selection eligibility",
+        "reader": "决策组",
+        "date": "2026-10-25",
+        "futureFamilyApprovalRequired": false,
+        "independentRuntimeAudit": "not-executed"
+      },
+      "grants": {
+        "eligibilityPolicyApproved": true,
+        "sourceAuthorityFromCaller": false,
+        "automaticSemanticCreditAllowed": false,
+        "scoreDelta": 0,
+        "wholeNameMeaning": null,
+        "wholeNameApproved": false,
+        "personalityPrediction": false,
+        "fortunePrediction": false,
+        "elementModification": false
+      },
+      "productionActivation": "requires-versioned-loader-registration-and-consumer-acceptance"
+    },
+    {
+      "candidateCaseId": "single-meaning-m740:纶:113321:0:0",
+      "admissionId": "m752-generation:single-meaning-m740:纶:113321:0:0",
+      "reviewId": "M752-use-review-04",
+      "ruleVersion": "naming-editorial-7.2.0",
+      "decision": "allow-single-character-generation",
+      "usage": {
+        "mode": "explicit-themes",
+        "anyOf": [
+          "textile-ribbon"
+        ]
+      },
+      "candidateConstraints": {
+        "namePart": "given-name",
+        "givenNameLengths": [
+          2
+        ],
+        "wholeNameApprovalRequired": false,
+        "requiresNewFamilySignature": false
+      },
+      "identity": {
+        "char": "纶",
+        "pinyin": "lún",
+        "tone": 2,
+        "sourceId": "moe-revised",
+        "dictionaryWord": "綸",
+        "rawEntryIndex": 113321,
+        "rawHeteronymIndex": 0,
+        "rawDefinitionIndex": 0,
+        "dictionarySense": "青色的絲帶。",
+        "sourceWord": "綸",
+        "sourcePOS": "名",
+        "rawOriginalSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "parsedEntrySha256": "f075c08f868a786f91380ade37c0fc5438aa53b6364e52ac93abb28742b363a2",
+        "definitionSha256": "669332dc76d9e8d1435c9150bd7fc16cc420f443fed63e3eeaa82e44e6eb5ead",
+        "definitionTextSha256": "f258e30e0d6e92a633f529da88e5dd81be7674cbdaefd0bc6828d43512001c72",
+        "baselineCharacterSha256": "2553278a52abdf8993dd6bfcceb40b91c24270081314c4ff5072301929984cef",
+        "readingsSha256": "1f5c85dac105d6e5d5ee5a58bb5febfcb24a4843095abd41799146cdf7b599b7",
+        "glyphProofSha256": "04bc2125a0514f8aca6fdfcd3faa5c30db8ca5f5cfdad55347dcd13b8b48f5d8",
+        "sourceCaseSha256": "cea8cac682969580f0a326460cb23fa6b06a5c5cfc9d4020c7b1144ef881eaa7",
+        "candidateProfileSha256": "9e9b54ec980a0edf023963a95b721ae91212a5b06d9121873cd2e9d6f7f3e397",
+        "sourceLockSha256": "560d89b2652a622b1efa438330e2ab4be135e5ab0502f1ad14aa9d026fb2b21c",
+        "baseDatasetSha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+        "basePackSha256": "1875aa49dcfaeca0f266a3be7578e4d4b2a9b2c9c1f59fd79699a3e26d5d6b8b",
+        "baseActiveVersion": "1875aa49dcfa",
+        "senseId": "moe-revised:113321:0:0"
+      },
+      "project": {
+        "meaning": "取青色丝带这一具体织物意象。",
+        "projectWish": null,
+        "limits": [
+          "只在两字给名中取lún青丝带义；不借guān纶巾、帝旨、经纶治国之义。",
+          "色彩、织物不证明气质、身份或才干。"
+        ],
+        "attribution": "M752 项目原创逐字取意；不是辞典引文、整名释义或人格测量。",
+        "license": "CC0-1.0"
+      },
+      "projectSha256": "e78e18bb86d9abce358c667807dd7a61d53e553ff1567ef0a8523b75d8d346b8",
+      "originalM740ProjectSha256": "1f0a5c336e271c0a002a4073526537f934afd5186f9d00e57026b8b1a6e2d0c9",
+      "approvedScope": "single-character-project-intent-only",
+      "conditionIds": [
+        "theme:textile-ribbon"
+      ],
+      "conflictIds": [
+        "other-reading:guān",
+        "alt-sense:fishing-imperial"
+      ],
+      "machineConditions": {
+        "selectedPinyin": "lún",
+        "tone": 2,
+        "senseId": "moe-revised:113321:0:0",
+        "allowedGivenNameLengths": [
+          2
+        ],
+        "requiredThemeIds": [
+          "textile-ribbon"
+        ],
+        "namePart": "given-name",
+        "conflictPolicy": "do-not-claim-alternate-sense"
+      },
+      "sourceIdentityDecision": "accepted-for-this-glyph-reading-sense-only",
+      "sourceLicense": "CC-BY-ND-3.0-TW",
+      "sourceFieldMayBeRewritten": false,
+      "reason": "lún青丝带义已明确；按已有复名取用范围，选织物主题即可机械适用，不再要求逐名签字。",
+      "prohibitedInferences": [
+        "经纶治国",
+        "帝王身份",
+        "guān青丝带"
+      ],
+      "priorEvidence": {
+        "auditId": "M744-DATA",
+        "auditSha256": "8b272e6062254fe3f112a19ee6a1f31a086ca56dc5964e21eb45fae8bc59b157",
+        "auditLocator": "/rows/3",
+        "auditScope": "source-binding-and-limited-manual-reference; NOT generation approval",
+        "m740Status": "manual-confirmation-required",
+        "m740Activation": "off",
+        "oldBinding": {
+          "char": "纶",
+          "pinyin": "lún",
+          "tone": 2,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "綸",
+          "rawEntryIndex": 113321,
+          "rawHeteronymIndex": 0,
+          "rawDefinitionIndex": 0,
+          "dictionarySense": "青色的絲帶。"
+        },
+        "newSenseReview": false
+      },
+      "newReview": {
+        "authority": "M752-project-editorial-decision",
+        "scope": "reusable single-character selection eligibility",
+        "reader": "决策组",
+        "date": "2026-10-25",
+        "futureFamilyApprovalRequired": false,
+        "independentRuntimeAudit": "not-executed"
+      },
+      "grants": {
+        "eligibilityPolicyApproved": true,
+        "sourceAuthorityFromCaller": false,
+        "automaticSemanticCreditAllowed": false,
+        "scoreDelta": 0,
+        "wholeNameMeaning": null,
+        "wholeNameApproved": false,
+        "personalityPrediction": false,
+        "fortunePrediction": false,
+        "elementModification": false
+      },
+      "productionActivation": "requires-versioned-loader-registration-and-consumer-acceptance"
+    },
+    {
+      "candidateCaseId": "single-meaning-m740:年:49288:0:0",
+      "admissionId": "m752-generation:single-meaning-m740:年:49288:0:0",
+      "reviewId": "M752-use-review-05",
+      "ruleVersion": "naming-editorial-7.2.0",
+      "decision": "allow-single-character-generation",
+      "usage": {
+        "mode": "any-context"
+      },
+      "candidateConstraints": {
+        "namePart": "given-name",
+        "givenNameLengths": [
+          1,
+          2
+        ],
+        "wholeNameApprovalRequired": false,
+        "requiresNewFamilySignature": false
+      },
+      "identity": {
+        "char": "年",
+        "pinyin": "nián",
+        "tone": 2,
+        "sourceId": "moe-revised",
+        "dictionaryWord": "年",
+        "rawEntryIndex": 49288,
+        "rawHeteronymIndex": 0,
+        "rawDefinitionIndex": 0,
+        "dictionarySense": "地球環繞太陽一周所需的時間。",
+        "sourceWord": "年",
+        "sourcePOS": "名",
+        "rawOriginalSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "parsedEntrySha256": "c647399f09f7f1f68f24812f4b9890f3c249889a19e461e060a21083242e1caa",
+        "definitionSha256": "654abd57fcde3138a0eca2ed20a71619bb2d2d8feb8a85427661707e11d6edf7",
+        "definitionTextSha256": "885a03d55c78d0a2a38487742661951acfd5cd6b7f5662179d4fea2049b84ff9",
+        "baselineCharacterSha256": "7252581c23f4340290f9d2703cd5092c6249f3daabff3ba3c35b5e78256f9178",
+        "readingsSha256": "3f0620abdd0013d3de1127b5313bbd0e158136066534e4bed74b7b70d8cbe51d",
+        "glyphProofSha256": "f4e4468d008537e087230ad507ee440f1070a7efd046300d3ea6b0fcd9e69689",
+        "sourceCaseSha256": "adfa00d99d8212fa650ebbb1ad9411470a8898268eb03a40b659252117604877",
+        "candidateProfileSha256": "9e9b54ec980a0edf023963a95b721ae91212a5b06d9121873cd2e9d6f7f3e397",
+        "sourceLockSha256": "560d89b2652a622b1efa438330e2ab4be135e5ab0502f1ad14aa9d026fb2b21c",
+        "baseDatasetSha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+        "basePackSha256": "1875aa49dcfaeca0f266a3be7578e4d4b2a9b2c9c1f59fd79699a3e26d5d6b8b",
+        "baseActiveVersion": "1875aa49dcfa",
+        "senseId": "moe-revised:49288:0:0"
+      },
+      "project": {
+        "meaning": "取一年这一时间周期意象。",
+        "projectWish": null,
+        "limits": [
+          "只取一年周期；不混用时代、年节、收成、年龄。",
+          "不自动编造纪念对象，不保证长寿或丰收。"
+        ],
+        "attribution": "M752 项目原创逐字取意；不是辞典引文、整名释义或人格测量。",
+        "license": "CC0-1.0"
+      },
+      "projectSha256": "9b621639da757cebcaa2a3f013497c1abe01b640f17c432e841c7cdee063b60d",
+      "originalM740ProjectSha256": "82ef04bc8c2a717e3a74a1e5157b4b7beca56f74dbffab1a490240168ee4c5ae",
+      "approvedScope": "single-character-project-intent-only",
+      "conditionIds": [],
+      "conflictIds": [
+        "alt-sense:harvest-festival-age-era"
+      ],
+      "machineConditions": {
+        "selectedPinyin": "nián",
+        "tone": 2,
+        "senseId": "moe-revised:49288:0:0",
+        "allowedGivenNameLengths": [
+          1,
+          2
+        ],
+        "requiredThemeIds": [],
+        "namePart": "given-name",
+        "conflictPolicy": "do-not-claim-alternate-sense"
+      },
+      "sourceIdentityDecision": "accepted-for-this-glyph-reading-sense-only",
+      "sourceLicense": "CC-BY-ND-3.0-TW",
+      "sourceFieldMayBeRewritten": false,
+      "reason": "一年周期是可独立说明的时间意象；不声称纪念具体事件时，无需家庭纪念对象或人工批准。此为def0新审阅。",
+      "prohibitedInferences": [
+        "必定长寿",
+        "年年丰收",
+        "为某未提供事件纪念"
+      ],
+      "priorEvidence": {
+        "auditId": "M744-DATA",
+        "auditSha256": "8b272e6062254fe3f112a19ee6a1f31a086ca56dc5964e21eb45fae8bc59b157",
+        "auditLocator": "/rows/4",
+        "auditScope": "source-binding-and-limited-manual-reference; NOT generation approval",
+        "m740Status": "manual-confirmation-required",
+        "m740Activation": "off",
+        "oldBinding": {
+          "char": "年",
+          "pinyin": "nián",
+          "tone": 2,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "年",
+          "rawEntryIndex": 49288,
+          "rawHeteronymIndex": 0,
+          "rawDefinitionIndex": 4,
+          "dictionarySense": "時代、時期。"
+        },
+        "newSenseReview": true
+      },
+      "newReview": {
+        "authority": "M752-project-editorial-decision",
+        "scope": "reusable single-character selection eligibility",
+        "reader": "决策组",
+        "date": "2026-10-25",
+        "futureFamilyApprovalRequired": false,
+        "independentRuntimeAudit": "not-executed"
+      },
+      "grants": {
+        "eligibilityPolicyApproved": true,
+        "sourceAuthorityFromCaller": false,
+        "automaticSemanticCreditAllowed": false,
+        "scoreDelta": 0,
+        "wholeNameMeaning": null,
+        "wholeNameApproved": false,
+        "personalityPrediction": false,
+        "fortunePrediction": false,
+        "elementModification": false
+      },
+      "productionActivation": "requires-versioned-loader-registration-and-consumer-acceptance"
+    },
+    {
+      "candidateCaseId": "single-meaning-m740:农:140081:0:2",
+      "admissionId": "m752-generation:single-meaning-m740:农:140081:0:2",
+      "reviewId": "M752-use-review-06",
+      "ruleVersion": "naming-editorial-7.2.0",
+      "decision": "allow-single-character-generation",
+      "usage": {
+        "mode": "explicit-themes",
+        "anyOf": [
+          "agriculture"
+        ]
+      },
+      "candidateConstraints": {
+        "namePart": "given-name",
+        "givenNameLengths": [
+          1,
+          2
+        ],
+        "wholeNameApprovalRequired": false,
+        "requiresNewFamilySignature": false
+      },
+      "identity": {
+        "char": "农",
+        "pinyin": "nóng",
+        "tone": 2,
+        "sourceId": "moe-revised",
+        "dictionaryWord": "農",
+        "rawEntryIndex": 140081,
+        "rawHeteronymIndex": 0,
+        "rawDefinitionIndex": 2,
+        "dictionarySense": "耕種事業。",
+        "sourceWord": "農",
+        "sourcePOS": "名",
+        "rawOriginalSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "parsedEntrySha256": "e1d623a1448c22877483ff8cc5cfe855be30233779535dcf24e37531ff980869",
+        "definitionSha256": "8d2c0afe12fbd9450fb5c8c35474bf147b52857b3e342dcc7bf20b514d36ea02",
+        "definitionTextSha256": "49be5ea33c40010aec23d733872086976183a4e4797b33d20e618bc24558213b",
+        "baselineCharacterSha256": "151adaa1688c2efc34eae94b133a52cdc9dccded27af171004634ccc4c3ce749",
+        "readingsSha256": "749cce61d40f71fb466aacaf7948bb1df502eda1511e33c84487692551a1ce9a",
+        "glyphProofSha256": "66e7af3b59b5278bbdaf8fea6ad96edc6fa1bb9248b3eb329ba4c71310ccdc77",
+        "sourceCaseSha256": "db7b30cd0577a7ece1c766815313e318f5ddcb1c14f60d336cd9489a8b18f49f",
+        "candidateProfileSha256": "9e9b54ec980a0edf023963a95b721ae91212a5b06d9121873cd2e9d6f7f3e397",
+        "sourceLockSha256": "560d89b2652a622b1efa438330e2ab4be135e5ab0502f1ad14aa9d026fb2b21c",
+        "baseDatasetSha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+        "basePackSha256": "1875aa49dcfaeca0f266a3be7578e4d4b2a9b2c9c1f59fd79699a3e26d5d6b8b",
+        "baseActiveVersion": "1875aa49dcfa",
+        "senseId": "moe-revised:140081:0:2"
+      },
+      "project": {
+        "meaning": "取耕种事业这一农作主题意象。",
+        "projectWish": null,
+        "limits": [
+          "当前采用耕种事业名词义，不把古义勤勉当成人格结论。",
+          "主题选择不推定家庭职业、收入、收获或社会身份。"
+        ],
+        "attribution": "M752 项目原创逐字取意；不是辞典引文、整名释义或人格测量。",
+        "license": "CC0-1.0"
+      },
+      "projectSha256": "24ba2dd50b44f2d29f91d9d200c8d3b92e11f0c7b8c2803f828f30e5c44a176e",
+      "originalM740ProjectSha256": "6e3c0fcecb82d8f8fb827c19bd1995759dc100f5af12e3a7df598a2dc96df0c9",
+      "approvedScope": "single-character-project-intent-only",
+      "conditionIds": [
+        "theme:agriculture"
+      ],
+      "conflictIds": [
+        "alt-sense:effort-person-occupation"
+      ],
+      "machineConditions": {
+        "selectedPinyin": "nóng",
+        "tone": 2,
+        "senseId": "moe-revised:140081:0:2",
+        "allowedGivenNameLengths": [
+          1,
+          2
+        ],
+        "requiredThemeIds": [
+          "agriculture"
+        ],
+        "namePart": "given-name",
+        "conflictPolicy": "do-not-claim-alternate-sense"
+      },
+      "sourceIdentityDecision": "accepted-for-this-glyph-reading-sense-only",
+      "sourceLicense": "CC-BY-ND-3.0-TW",
+      "sourceFieldMayBeRewritten": false,
+      "reason": "耕种事业是自足名词义；以农业主题限制自动选材，不继承旧勤勉义审批，也不限制家庭实际职业。",
+      "prohibitedInferences": [
+        "天生勤劳",
+        "务农家庭限定",
+        "收入丰厚",
+        "必获丰收"
+      ],
+      "priorEvidence": {
+        "auditId": "M744-DATA",
+        "auditSha256": "8b272e6062254fe3f112a19ee6a1f31a086ca56dc5964e21eb45fae8bc59b157",
+        "auditLocator": "/rows/5",
+        "auditScope": "source-binding-and-limited-manual-reference; NOT generation approval",
+        "m740Status": "manual-confirmation-required",
+        "m740Activation": "off",
+        "oldBinding": {
+          "char": "农",
+          "pinyin": "nóng",
+          "tone": 2,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "農",
+          "rawEntryIndex": 140081,
+          "rawHeteronymIndex": 0,
+          "rawDefinitionIndex": 1,
+          "dictionarySense": "努力、勤勉。"
+        },
+        "newSenseReview": true
+      },
+      "newReview": {
+        "authority": "M752-project-editorial-decision",
+        "scope": "reusable single-character selection eligibility",
+        "reader": "决策组",
+        "date": "2026-10-25",
+        "futureFamilyApprovalRequired": false,
+        "independentRuntimeAudit": "not-executed"
+      },
+      "grants": {
+        "eligibilityPolicyApproved": true,
+        "sourceAuthorityFromCaller": false,
+        "automaticSemanticCreditAllowed": false,
+        "scoreDelta": 0,
+        "wholeNameMeaning": null,
+        "wholeNameApproved": false,
+        "personalityPrediction": false,
+        "fortunePrediction": false,
+        "elementModification": false
+      },
+      "productionActivation": "requires-versioned-loader-registration-and-consumer-acceptance"
+    },
+    {
+      "candidateCaseId": "single-meaning-m740:作:10964:0:10",
+      "admissionId": "m752-generation:single-meaning-m740:作:10964:0:10",
+      "reviewId": "M752-use-review-07",
+      "ruleVersion": "naming-editorial-7.2.0",
+      "decision": "allow-single-character-generation",
+      "usage": {
+        "mode": "explicit-themes",
+        "anyOf": [
+          "literary-artwork"
+        ]
+      },
+      "candidateConstraints": {
+        "namePart": "given-name",
+        "givenNameLengths": [
+          2
+        ],
+        "wholeNameApprovalRequired": false,
+        "requiresNewFamilySignature": false
+      },
+      "identity": {
+        "char": "作",
+        "pinyin": "zuò",
+        "tone": 4,
+        "sourceId": "moe-revised",
+        "dictionaryWord": "作",
+        "rawEntryIndex": 10964,
+        "rawHeteronymIndex": 0,
+        "rawDefinitionIndex": 10,
+        "dictionarySense": "詩文書畫與藝術品稱為「作」。",
+        "sourceWord": "作",
+        "sourcePOS": "名",
+        "rawOriginalSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "parsedEntrySha256": "6da64c75066d8c1dddda57dcf33966cb3c3d7393ece6a8af4c2d3a424c2d7fae",
+        "definitionSha256": "1fa4536f578d18a981710ce516ddc601e4ea2118aa1f0109c3f35ab73b01b823",
+        "definitionTextSha256": "b68badec026bbeacceb1568cc18bb13fe1cdd667edec5155556120bc35690b8f",
+        "baselineCharacterSha256": "77661de9c99306a8f78ac93fd2f460ab25347b04faa4d1ac35cce58af16ee373",
+        "readingsSha256": "342aa79ae804e78aa94df5a20010cd3dfc776077c52fbf82e9e4fb3f97f75b2a",
+        "glyphProofSha256": "5ca922d55c0f3840b1a28e4d521e6d56afc59f5f1304348555daa912a451d66b",
+        "sourceCaseSha256": "07841c4822267d08d7b3958640d80cda105115808cc9cecbed0e4b7d2c24405e",
+        "candidateProfileSha256": "9e9b54ec980a0edf023963a95b721ae91212a5b06d9121873cd2e9d6f7f3e397",
+        "sourceLockSha256": "560d89b2652a622b1efa438330e2ab4be135e5ab0502f1ad14aa9d026fb2b21c",
+        "baseDatasetSha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+        "basePackSha256": "1875aa49dcfaeca0f266a3be7578e4d4b2a9b2c9c1f59fd79699a3e26d5d6b8b",
+        "baseActiveVersion": "1875aa49dcfa",
+        "senseId": "moe-revised:10964:0:10"
+      },
+      "project": {
+        "meaning": "取诗文书画与艺术作品这一文化意象。",
+        "projectWish": null,
+        "limits": [
+          "仅两字给名中的zuò作品名词义；不借zuō/zuó，也不借旧创作动词义。",
+          "保留假装等歧义；不推断创造力、艺术天赋或未来成就。"
+        ],
+        "attribution": "M752 项目原创逐字取意；不是辞典引文、整名释义或人格测量。",
+        "license": "CC0-1.0"
+      },
+      "projectSha256": "f444bccb6cd32fff97c691f52c0e83ddf175170d26bdb1498e60b9eb0d0eb85b",
+      "originalM740ProjectSha256": "a28692125188e3a63cf2e7f2f015b91ae7d2614baf0a8a657c2f1045509df973",
+      "approvedScope": "single-character-project-intent-only",
+      "conditionIds": [
+        "theme:literary-artwork"
+      ],
+      "conflictIds": [
+        "other-reading:zuó-zuō",
+        "alt-sense:pretend-action-create"
+      ],
+      "machineConditions": {
+        "selectedPinyin": "zuò",
+        "tone": 4,
+        "senseId": "moe-revised:10964:0:10",
+        "allowedGivenNameLengths": [
+          2
+        ],
+        "requiredThemeIds": [
+          "literary-artwork"
+        ],
+        "namePart": "given-name",
+        "conflictPolicy": "do-not-claim-alternate-sense"
+      },
+      "sourceIdentityDecision": "accepted-for-this-glyph-reading-sense-only",
+      "sourceLicense": "CC-BY-ND-3.0-TW",
+      "sourceFieldMayBeRewritten": false,
+      "reason": "zuò/def10作品名词义可作独立文化取意；按复名范围加作品主题。整体组合语法仍不由本条证明。",
+      "prohibitedInferences": [
+        "艺术天才",
+        "创造力出众",
+        "创作动词已批准",
+        "必成杰作"
+      ],
+      "priorEvidence": {
+        "auditId": "M744-DATA",
+        "auditSha256": "8b272e6062254fe3f112a19ee6a1f31a086ca56dc5964e21eb45fae8bc59b157",
+        "auditLocator": "/rows/6",
+        "auditScope": "source-binding-and-limited-manual-reference; NOT generation approval",
+        "m740Status": "manual-confirmation-required",
+        "m740Activation": "off",
+        "oldBinding": {
+          "char": "作",
+          "pinyin": "zuò",
+          "tone": 4,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "作",
+          "rawEntryIndex": 10964,
+          "rawHeteronymIndex": 0,
+          "rawDefinitionIndex": 2,
+          "dictionarySense": "創作。"
+        },
+        "newSenseReview": true
+      },
+      "newReview": {
+        "authority": "M752-project-editorial-decision",
+        "scope": "reusable single-character selection eligibility",
+        "reader": "决策组",
+        "date": "2026-10-25",
+        "futureFamilyApprovalRequired": false,
+        "independentRuntimeAudit": "not-executed"
+      },
+      "grants": {
+        "eligibilityPolicyApproved": true,
+        "sourceAuthorityFromCaller": false,
+        "automaticSemanticCreditAllowed": false,
+        "scoreDelta": 0,
+        "wholeNameMeaning": null,
+        "wholeNameApproved": false,
+        "personalityPrediction": false,
+        "fortunePrediction": false,
+        "elementModification": false
+      },
+      "productionActivation": "requires-versioned-loader-registration-and-consumer-acceptance"
+    },
+    {
+      "candidateCaseId": "single-meaning-m740:岁:80142:0:1",
+      "admissionId": "m752-generation:single-meaning-m740:岁:80142:0:1",
+      "reviewId": "M752-use-review-08",
+      "ruleVersion": "naming-editorial-7.2.0",
+      "decision": "allow-single-character-generation",
+      "usage": {
+        "mode": "any-context"
+      },
+      "candidateConstraints": {
+        "namePart": "given-name",
+        "givenNameLengths": [
+          1,
+          2
+        ],
+        "wholeNameApprovalRequired": false,
+        "requiresNewFamilySignature": false
+      },
+      "identity": {
+        "char": "岁",
+        "pinyin": "suì",
+        "tone": 4,
+        "sourceId": "moe-revised",
+        "dictionaryWord": "歲",
+        "rawEntryIndex": 80142,
+        "rawHeteronymIndex": 0,
+        "rawDefinitionIndex": 1,
+        "dictionarySense": "時光。",
+        "sourceWord": "歲",
+        "sourcePOS": "名",
+        "rawOriginalSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "parsedEntrySha256": "272435fb56510938f14d01074824a3496105fe0832e35ecaeee4584b529cda30",
+        "definitionSha256": "1ce6c75377b75e8c804ebff46664d812617f2ece2766630f2196971419807e76",
+        "definitionTextSha256": "8f10383cf0e4c522efd8659cdeb7fd1b635b179f203662b7ce06c522743d6485",
+        "baselineCharacterSha256": "9dacb4be3fb47f5d47e315fe86668cdc0649eab901cbb45c189042908e53a09c",
+        "readingsSha256": "2ce5554cdd3079c5d793929bce58a812dcd7a5984e448394b6c77646171237e1",
+        "glyphProofSha256": "25ff378f1938f356acb74e6caef5de21bb3510cdb761ccebcfc0ea0101131d76",
+        "sourceCaseSha256": "2739010ff851e17a38d541c387da36e1f6a56dc9543ffcad598ec8f12fc25cf5",
+        "candidateProfileSha256": "9e9b54ec980a0edf023963a95b721ae91212a5b06d9121873cd2e9d6f7f3e397",
+        "sourceLockSha256": "560d89b2652a622b1efa438330e2ab4be135e5ab0502f1ad14aa9d026fb2b21c",
+        "baseDatasetSha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+        "basePackSha256": "1875aa49dcfaeca0f266a3be7578e4d4b2a9b2c9c1f59fd79699a3e26d5d6b8b",
+        "baseActiveVersion": "1875aa49dcfa",
+        "senseId": "moe-revised:80142:0:1"
+      },
+      "project": {
+        "meaning": "取时光这一时间意象。",
+        "projectWish": null,
+        "limits": [
+          "只取时光意象，不据此编造纪念对象或转用年龄、收成。",
+          "不推导长寿、成熟、健康、命运。"
+        ],
+        "attribution": "M752 项目原创逐字取意；不是辞典引文、整名释义或人格测量。",
+        "license": "CC0-1.0"
+      },
+      "projectSha256": "acc9ae8f445ab7797b2a6df916791dc2127b38f05eb9f7876c60de2d904a9eb7",
+      "originalM740ProjectSha256": "644f355d827ba5683d9dbd2e76bcb207b25ba1523f59563759aaa5dbd6f0dd33",
+      "approvedScope": "single-character-project-intent-only",
+      "conditionIds": [],
+      "conflictIds": [
+        "alt-sense:year-age-harvest"
+      ],
+      "machineConditions": {
+        "selectedPinyin": "suì",
+        "tone": 4,
+        "senseId": "moe-revised:80142:0:1",
+        "allowedGivenNameLengths": [
+          1,
+          2
+        ],
+        "requiredThemeIds": [],
+        "namePart": "given-name",
+        "conflictPolicy": "do-not-claim-alternate-sense"
+      },
+      "sourceIdentityDecision": "accepted-for-this-glyph-reading-sense-only",
+      "sourceLicense": "CC-BY-ND-3.0-TW",
+      "sourceFieldMayBeRewritten": false,
+      "reason": "时光义自足；没有声称纪念具体事件时，无需家庭说明或全名签字。",
+      "prohibitedInferences": [
+        "健康长寿",
+        "性格成熟",
+        "命运吉利"
+      ],
+      "priorEvidence": {
+        "auditId": "M744-DATA",
+        "auditSha256": "8b272e6062254fe3f112a19ee6a1f31a086ca56dc5964e21eb45fae8bc59b157",
+        "auditLocator": "/rows/7",
+        "auditScope": "source-binding-and-limited-manual-reference; NOT generation approval",
+        "m740Status": "manual-confirmation-required",
+        "m740Activation": "off",
+        "oldBinding": {
+          "char": "岁",
+          "pinyin": "suì",
+          "tone": 4,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "歲",
+          "rawEntryIndex": 80142,
+          "rawHeteronymIndex": 0,
+          "rawDefinitionIndex": 1,
+          "dictionarySense": "時光。"
+        },
+        "newSenseReview": false
+      },
+      "newReview": {
+        "authority": "M752-project-editorial-decision",
+        "scope": "reusable single-character selection eligibility",
+        "reader": "决策组",
+        "date": "2026-10-25",
+        "futureFamilyApprovalRequired": false,
+        "independentRuntimeAudit": "not-executed"
+      },
+      "grants": {
+        "eligibilityPolicyApproved": true,
+        "sourceAuthorityFromCaller": false,
+        "automaticSemanticCreditAllowed": false,
+        "scoreDelta": 0,
+        "wholeNameMeaning": null,
+        "wholeNameApproved": false,
+        "personalityPrediction": false,
+        "fortunePrediction": false,
+        "elementModification": false
+      },
+      "productionActivation": "requires-versioned-loader-registration-and-consumer-acceptance"
+    },
+    {
+      "candidateCaseId": "single-meaning-m740:叶:124301:0:0",
+      "admissionId": "m752-generation:single-meaning-m740:叶:124301:0:0",
+      "reviewId": "M752-use-review-09",
+      "ruleVersion": "naming-editorial-7.2.0",
+      "decision": "pending",
+      "usage": {
+        "mode": "explicit-themes",
+        "anyOf": []
+      },
+      "candidateConstraints": {
+        "namePart": "given-name",
+        "givenNameLengths": [],
+        "wholeNameApprovalRequired": false,
+        "requiresNewFamilySignature": false
+      },
+      "identity": {
+        "char": "叶",
+        "pinyin": "yè",
+        "tone": 4,
+        "sourceId": "moe-revised",
+        "dictionaryWord": "葉",
+        "rawEntryIndex": 124301,
+        "rawHeteronymIndex": 0,
+        "rawDefinitionIndex": 0,
+        "dictionarySense": "植物的一部分。生於枝幹上，專營呼吸、蒸發等作用，部分植物的葉子則因變態而具有貯藏、保護或捕食的功能。",
+        "sourceWord": "葉",
+        "sourcePOS": "名",
+        "rawOriginalSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "parsedEntrySha256": "bd6491d087fc30f52c45080714b6fbbe5fcbd99373fe359732575530c25f7a79",
+        "definitionSha256": "ec203fc42316a1bea8bc6933643c3fc8fc32ed2671c9671faa6570d5344fd7e7",
+        "definitionTextSha256": "146d81f8cefdd23647b47b8615c87f8ac55b15118b7016d0a2e9ea6b2ec95337",
+        "baselineCharacterSha256": "df0e1373b47c5b8eca6237f1ab8ce7ad1ee610d232c11c29d5d8079c429bce8a",
+        "readingsSha256": "d05bf98926a0199f051b3f14560e837dcc0439d36cac146efcd8538d33d489cc",
+        "glyphProofSha256": "cd53c52c8e806612603a4cb30231f87369d9476ae56e6704ecf9dd35cd472715",
+        "sourceCaseSha256": "091706690d4782f90b3db7ecc474bf8433915a5be053d7c6e86ba62744016a8f",
+        "candidateProfileSha256": "9e9b54ec980a0edf023963a95b721ae91212a5b06d9121873cd2e9d6f7f3e397",
+        "sourceLockSha256": "560d89b2652a622b1efa438330e2ab4be135e5ab0502f1ad14aa9d026fb2b21c",
+        "baseDatasetSha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+        "basePackSha256": "1875aa49dcfaeca0f266a3be7578e4d4b2a9b2c9c1f59fd79699a3e26d5d6b8b",
+        "baseActiveVersion": "1875aa49dcfa",
+        "senseId": "moe-revised:124301:0:0"
+      },
+      "project": {
+        "meaning": "取植物叶片这一具体自然意象。",
+        "projectWish": null,
+        "limits": [
+          "只可呈现待审来源证据，不能用于自动选字或已批准单字取意。"
+        ],
+        "attribution": "M752 项目原创逐字取意；不是辞典引文、整名释义或人格测量。",
+        "license": "CC0-1.0"
+      },
+      "projectSha256": "039a14ce8b01f297f2015bffd6b5d039708401266bc548e7414fe978c24d098c",
+      "originalM740ProjectSha256": "7d077aeca73a64ca53eefc95d473d34f327fd699bedc115a301f7265c70c3931",
+      "approvedScope": "none",
+      "conditionIds": [
+        "source-identity-pending"
+      ],
+      "conflictIds": [
+        "source-identity"
+      ],
+      "machineConditions": {
+        "selectedPinyin": "yè",
+        "tone": 4,
+        "senseId": "moe-revised:124301:0:0",
+        "allowedGivenNameLengths": [],
+        "requiredThemeIds": [],
+        "namePart": "given-name",
+        "conflictPolicy": "do-not-claim-alternate-sense"
+      },
+      "sourceIdentityDecision": "pending-independent-identity-review",
+      "sourceLicense": "CC-BY-ND-3.0-TW",
+      "sourceFieldMayBeRewritten": false,
+      "reason": "叶/葉的默认yè与本义身份仍待独立裁定；Unicode关系、主题或用户指定均不能解除pending。",
+      "prohibitedInferences": [
+        "叶已批准",
+        "木行补缺",
+        "生命力保证"
+      ],
+      "priorEvidence": {
+        "auditId": "M744-DATA",
+        "auditSha256": "8b272e6062254fe3f112a19ee6a1f31a086ca56dc5964e21eb45fae8bc59b157",
+        "auditLocator": "/rows/8",
+        "auditScope": "source-binding-and-limited-manual-reference; NOT generation approval",
+        "m740Status": "not-approved",
+        "m740Activation": "off",
+        "oldBinding": {
+          "char": "叶",
+          "pinyin": "yè",
+          "tone": 4,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "葉",
+          "rawEntryIndex": 124301,
+          "rawHeteronymIndex": 0,
+          "rawDefinitionIndex": 0,
+          "dictionarySense": "植物的一部分。生於枝幹上，專營呼吸、蒸發等作用，部分植物的葉子則因變態而具有貯藏、保護或捕食的功能。"
+        },
+        "newSenseReview": false
+      },
+      "newReview": {
+        "authority": "M752-project-editorial-decision",
+        "scope": "reusable single-character selection eligibility",
+        "reader": "决策组",
+        "date": "2026-10-25",
+        "futureFamilyApprovalRequired": false,
+        "independentRuntimeAudit": "not-executed"
+      },
+      "grants": {
+        "eligibilityPolicyApproved": false,
+        "sourceAuthorityFromCaller": false,
+        "automaticSemanticCreditAllowed": false,
+        "scoreDelta": 0,
+        "wholeNameMeaning": null,
+        "wholeNameApproved": false,
+        "personalityPrediction": false,
+        "fortunePrediction": false,
+        "elementModification": false
+      },
+      "productionActivation": "requires-versioned-loader-registration-and-consumer-acceptance"
+    },
+    {
+      "candidateCaseId": "single-meaning-m740:萧:125387:0:0",
+      "admissionId": "m752-generation:single-meaning-m740:萧:125387:0:0",
+      "reviewId": "M752-use-review-10",
+      "ruleVersion": "naming-editorial-7.2.0",
+      "decision": "allow-single-character-generation",
+      "usage": {
+        "mode": "explicit-themes",
+        "anyOf": [
+          "herb-plant"
+        ]
+      },
+      "candidateConstraints": {
+        "namePart": "given-name",
+        "givenNameLengths": [
+          2
+        ],
+        "wholeNameApprovalRequired": false,
+        "requiresNewFamilySignature": false
+      },
+      "identity": {
+        "char": "萧",
+        "pinyin": "xiāo",
+        "tone": 1,
+        "sourceId": "moe-revised",
+        "dictionaryWord": "蕭",
+        "rawEntryIndex": 125387,
+        "rawHeteronymIndex": 0,
+        "rawDefinitionIndex": 0,
+        "dictionarySense": "一種香草。即艾蒿。",
+        "sourceWord": "蕭",
+        "sourcePOS": "名",
+        "rawOriginalSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "parsedEntrySha256": "86919fbe958d180a747019d614696c54238501a207ec8c2748c831d5aabb5603",
+        "definitionSha256": "6ef09577033c92b224d1bcac125f93343cc6c09e69711f1f1dc21ab2d5f33b02",
+        "definitionTextSha256": "f5bc1394d7b1a25ecb77320ac9d1a30b58b4d26419a1b412d3869155410a9104",
+        "baselineCharacterSha256": "b5ca2e3ffa86dd96bc5ee9fd51f41847aef75a464640d7cc10179a50d417884e",
+        "readingsSha256": "9b012a71121f8728fbcf314d103ec66b388127bc5115bad23ccd080344ae22c1",
+        "glyphProofSha256": "922e8ff74812c4c2618b5b87fbfb6f06b0a3b69ffd5c0f4f7389a55fd2fc1008",
+        "sourceCaseSha256": "3702cdef0f2b3e679f5ae0ffc47ebe6554cc9f051b64d135e29e6f70c6d53256",
+        "candidateProfileSha256": "9e9b54ec980a0edf023963a95b721ae91212a5b06d9121873cd2e9d6f7f3e397",
+        "sourceLockSha256": "560d89b2652a622b1efa438330e2ab4be135e5ab0502f1ad14aa9d026fb2b21c",
+        "baseDatasetSha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+        "basePackSha256": "1875aa49dcfaeca0f266a3be7578e4d4b2a9b2c9c1f59fd79699a3e26d5d6b8b",
+        "baseActiveVersion": "1875aa49dcfa",
+        "senseId": "moe-revised:125387:0:0"
+      },
+      "project": {
+        "meaning": "取艾蒿这一具体香草意象。",
+        "projectWish": null,
+        "limits": [
+          "仅两字给名中的xiāo艾蒿意象；保留萧条、萧瑟、冷清等歧义。",
+          "不借箫乐器义，不宣称药效、品格、健康或运势。"
+        ],
+        "attribution": "M752 项目原创逐字取意；不是辞典引文、整名释义或人格测量。",
+        "license": "CC0-1.0"
+      },
+      "projectSha256": "470bc71ad2764fe21d3911892ebcc73b4e59ea7e8bbcb2f8ec8285586b0ac411",
+      "originalM740ProjectSha256": "fc518f5d4f1c3487e22477e3b58470106b2c049c70f2dcb447b47d16499c2e93",
+      "approvedScope": "single-character-project-intent-only",
+      "conditionIds": [
+        "theme:herb-plant"
+      ],
+      "conflictIds": [
+        "alt-sense:desolate-solemn"
+      ],
+      "machineConditions": {
+        "selectedPinyin": "xiāo",
+        "tone": 1,
+        "senseId": "moe-revised:125387:0:0",
+        "allowedGivenNameLengths": [
+          2
+        ],
+        "requiredThemeIds": [
+          "herb-plant"
+        ],
+        "namePart": "given-name",
+        "conflictPolicy": "do-not-claim-alternate-sense"
+      },
+      "sourceIdentityDecision": "accepted-for-this-glyph-reading-sense-only",
+      "sourceLicense": "CC-BY-ND-3.0-TW",
+      "sourceFieldMayBeRewritten": false,
+      "reason": "香草艾蒿义自足；保留其他义，按已有复名范围加香草主题，不以逐家庭签字为条件。",
+      "prohibitedInferences": [
+        "箫的乐器义",
+        "药效保健",
+        "化解萧瑟转好运",
+        "品格高洁已证实"
+      ],
+      "priorEvidence": {
+        "auditId": "M744-DATA",
+        "auditSha256": "8b272e6062254fe3f112a19ee6a1f31a086ca56dc5964e21eb45fae8bc59b157",
+        "auditLocator": "/rows/9",
+        "auditScope": "source-binding-and-limited-manual-reference; NOT generation approval",
+        "m740Status": "manual-confirmation-required",
+        "m740Activation": "off",
+        "oldBinding": {
+          "char": "萧",
+          "pinyin": "xiāo",
+          "tone": 1,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "蕭",
+          "rawEntryIndex": 125387,
+          "rawHeteronymIndex": 0,
+          "rawDefinitionIndex": 0,
+          "dictionarySense": "一種香草。即艾蒿。"
+        },
+        "newSenseReview": false
+      },
+      "newReview": {
+        "authority": "M752-project-editorial-decision",
+        "scope": "reusable single-character selection eligibility",
+        "reader": "决策组",
+        "date": "2026-10-25",
+        "futureFamilyApprovalRequired": false,
+        "independentRuntimeAudit": "not-executed"
+      },
+      "grants": {
+        "eligibilityPolicyApproved": true,
+        "sourceAuthorityFromCaller": false,
+        "automaticSemanticCreditAllowed": false,
+        "scoreDelta": 0,
+        "wholeNameMeaning": null,
+        "wholeNameApproved": false,
+        "personalityPrediction": false,
+        "fortunePrediction": false,
+        "elementModification": false
+      },
+      "productionActivation": "requires-versioned-loader-registration-and-consumer-acceptance"
+    }
+  ]
+}

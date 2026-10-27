@@ -1,0 +1,90 @@
+{
+  "schema": "m990-readonly-candidate2-report-candidate/1",
+  "base": "be2b4c36c7066f66a2985532362ade2aeb0945a4",
+  "task": "M990-C2-REPORT-SOURCE",
+  "status": "implementation-candidate-pure-validated-with-canonical-order-fix-native-PDF-not-executed",
+  "contract": {
+    "shared": "src/shared/candidate2-report-api.ts",
+    "methods": [
+      "previewCandidate2Report",
+      "exportCandidate2Report"
+    ],
+    "exactArguments": [
+      "id",
+      "expectedReviewRevision",
+      "expectedReviewToken"
+    ],
+    "previewResult": {
+      "schema": "candidate2-report-document/1",
+      "status": "ready",
+      "source": "native-current-canonical",
+      "writes": 0,
+      "traditionalStatus": "unknown",
+      "fields": [
+        "sessionId",
+        "reviewRevision",
+        "reviewToken",
+        "filename",
+        "html"
+      ]
+    },
+    "desktopExport": "string|null; existing native save dialog and exportPDF",
+    "browser": "Original dev-plugin preview route returns HTML DTO; native export rejects explicitly without fetch/save/fallback"
+  },
+  "readOnlySource": {
+    "store": "prepareCandidate2Report",
+    "service": "previewCandidate2Report",
+    "nativeEntryCapturedAtServiceInitialization": true,
+    "currentPrivateVerifiedReader": true,
+    "explicitCas": true,
+    "settingsAndHtmlWithinSameReadSeal": true,
+    "clientFullSessionOrHtmlAccepted": false,
+    "writerOrPersistOrHistoryCallsAdded": false,
+    "publicCallerCallbackInsideStore": false,
+    "nativeSourceAndWritesMarkersAddedOnlyByStore": true,
+    "desktopAfterDialogRereadsSameCas": true
+  },
+  "reportPresentation": [
+    "Fixed candidate.2 method/policy/publication and saved project primary/secondary/avoid/applied",
+    "Original bazi favorable candidates and current manual draft listed separately",
+    "Current human session/candidate review fields without recomputation",
+    "Original five generation score values, with traditional number explicitly not full traditional verification",
+    "traditionalStatus remains unknown",
+    "Historical saved source records/digests labelled as records, not client-issued proof",
+    "All dynamic HTML text escaped; existing report template, source catalog, settings and filename reused"
+  ],
+  "renderer": {
+    "mainTsxEdited": false,
+    "component": "src/renderer/Candidate2ReportExport.tsx",
+    "contract": "exact three-field reference callback, controlled busy/error/notice; no hidden identity latch",
+    "AppWiringExecuted": false
+  },
+  "validation": {
+    "finalFocusedPureFiles": 6,
+    "finalFocusedPureTestsPassed": 69,
+    "typeScriptNoEmitExitCode": 0,
+    "staticReviewChecksPassed": 12,
+    "runtimeDependencyGraphModules": 202,
+    "reportSourceReachesStoreServiceOrMain": false,
+    "meaning": "Pure presentation/input/SSR/callback tests, mocked real bridge/middleware with sentinel errors, captured native receiver rejection and static read-only hunk inspection. Does not prove actual native Store/PDF success.",
+    "canonicalSavedPropertyOrderDelta": {
+      "objectEquality": "canonicalPlainJson structural equality, preserving array order",
+      "reason": "Native saved JSON may have canonical object key ordering unlike constant declarations. Insertion-order JSON.stringify comparison could incorrectly select unsupported report projection.",
+      "newRegressionCases": 1,
+      "finalAffectedPureFiles": 2,
+      "finalAffectedPureTestsPassed": 30,
+      "priorSixFile69Passed": true,
+      "unaffectedTransportSSRLegacyTestsNotRepeated": true,
+      "physicalStoreVerification": false
+    }
+  },
+  "notExecuted": [
+    "Native Store init/read/report success or physical DB unchanged probe",
+    "Actual Electron/dialog/printToPDF",
+    "Actual browser preview HTTP/UI flow",
+    "Customer database or5173",
+    "Report source-prebuild/official build/installer"
+  ],
+  "integrationScope": "Fixedbe2 candidate. Root later merges report hunks with independent M977 history implementation; history method bodies and renderer/main.tsx are not replaced.",
+  "writeReadOnlyClaim": "The added report path contains no save/persist/history operation; physical native proof remains pending separate root-authorized execution."
+}

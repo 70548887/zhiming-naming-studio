@@ -1,0 +1,871 @@
+{
+  "schema": "m744-coverage-integrity-audit/1",
+  "status": "passed-data-integrity",
+  "candidate": "D:/Codex-NamingStudio-Evidence/m740-character-meanings",
+  "product": "D:/Codex-NamingStudio-Evidence/m587-product-integration/work",
+  "baselineHead": "9ac38f2285f928c451caa10bad41ca226f7f5f51",
+  "sourceLockExpectedHead": "9ac38f2285f928c451caa10bad41ca226f7f5f51",
+  "sourceFileCount": 28,
+  "sourcePinMismatches": [],
+  "counts": {
+    "universe": 779,
+    "base": 217,
+    "supplemental": 304,
+    "baseSupplementalIntersection": 0,
+    "defaultAutomatic": 521,
+    "standaloneOnRequest": 60,
+    "automaticStandaloneIntersection": 0,
+    "automaticOrStandalone": 581,
+    "remaining": 198,
+    "occupied": 163,
+    "unselectedPoolBefore": 88,
+    "unselectedPoolAfter": 78,
+    "newCandidate": 10,
+    "formalCoverageAdded": 0
+  },
+  "comparisons": [
+    {
+      "name": "baseProjectMeanings",
+      "actualCount": 217,
+      "storedCount": 217,
+      "identityMatches": true,
+      "countMatches": true,
+      "missingFromCandidate": [],
+      "extraInCandidate": []
+    },
+    {
+      "name": "supplementalAutomatic",
+      "actualCount": 304,
+      "storedCount": 304,
+      "identityMatches": true,
+      "countMatches": true,
+      "missingFromCandidate": [],
+      "extraInCandidate": []
+    },
+    {
+      "name": "automaticDefaultUnion",
+      "actualCount": 521,
+      "storedCount": 521,
+      "identityMatches": true,
+      "countMatches": true,
+      "missingFromCandidate": [],
+      "extraInCandidate": []
+    },
+    {
+      "name": "standaloneOnRequest",
+      "actualCount": 60,
+      "storedCount": 60,
+      "identityMatches": true,
+      "countMatches": true,
+      "missingFromCandidate": [],
+      "extraInCandidate": []
+    },
+    {
+      "name": "currentAutomaticOrStandaloneUnion",
+      "actualCount": 581,
+      "storedCount": 581,
+      "identityMatches": true,
+      "countMatches": true,
+      "missingFromCandidate": [],
+      "extraInCandidate": []
+    },
+    {
+      "name": "outstandingDefault",
+      "actualCount": 198,
+      "storedCount": 198,
+      "identityMatches": true,
+      "countMatches": true,
+      "missingFromCandidate": [],
+      "extraInCandidate": []
+    },
+    {
+      "name": "existingCandidateOccupancy.allSelectedCharacters",
+      "actualCount": 163,
+      "storedCount": 163,
+      "identityMatches": true,
+      "countMatches": true,
+      "missingFromCandidate": [],
+      "extraInCandidate": []
+    },
+    {
+      "name": "existingCandidateOccupancy.m610",
+      "actualCount": 20,
+      "storedCount": 20,
+      "identityMatches": true,
+      "countMatches": true,
+      "missingFromCandidate": [],
+      "extraInCandidate": []
+    },
+    {
+      "name": "existingCandidateOccupancy.m616",
+      "actualCount": 10,
+      "storedCount": 10,
+      "identityMatches": true,
+      "countMatches": true,
+      "missingFromCandidate": [],
+      "extraInCandidate": []
+    },
+    {
+      "name": "existingCandidateOccupancy.m690",
+      "actualCount": 20,
+      "storedCount": 20,
+      "identityMatches": true,
+      "countMatches": true,
+      "missingFromCandidate": [],
+      "extraInCandidate": []
+    },
+    {
+      "name": "remainingUnselectedDefaultPool",
+      "actualCount": 88,
+      "storedCount": 88,
+      "identityMatches": true,
+      "countMatches": true,
+      "missingFromCandidate": [],
+      "extraInCandidate": []
+    }
+  ],
+  "mismatches": [],
+  "selection": {
+    "characters": [
+      "邦",
+      "沫",
+      "纪",
+      "纶",
+      "年",
+      "农",
+      "作",
+      "岁",
+      "叶",
+      "萧"
+    ],
+    "expectedExactSelection": [
+      "邦",
+      "沫",
+      "纪",
+      "纶",
+      "年",
+      "农",
+      "作",
+      "岁",
+      "叶",
+      "萧"
+    ],
+    "orderMatches": true,
+    "automaticOverlap": [],
+    "standaloneOverlap": [],
+    "oldCandidateOrContextTargetOverlap": [],
+    "excludedOverlap": [],
+    "priorStatuses": [
+      {
+        "char": "邦",
+        "status": "approved",
+        "applicability": "manual-confirmation-required"
+      },
+      {
+        "char": "沫",
+        "status": "approved",
+        "applicability": "manual-confirmation-required"
+      },
+      {
+        "char": "纪",
+        "status": "approved",
+        "applicability": "manual-confirmation-required"
+      },
+      {
+        "char": "纶",
+        "status": "approved",
+        "applicability": "manual-confirmation-required"
+      },
+      {
+        "char": "年",
+        "status": "approved",
+        "applicability": "manual-confirmation-required"
+      },
+      {
+        "char": "农",
+        "status": "approved",
+        "applicability": "manual-confirmation-required"
+      },
+      {
+        "char": "作",
+        "status": "approved",
+        "applicability": "manual-confirmation-required"
+      },
+      {
+        "char": "岁",
+        "status": "approved",
+        "applicability": "manual-confirmation-required"
+      },
+      {
+        "char": "叶",
+        "status": "pending",
+        "applicability": "not-approved"
+      },
+      {
+        "char": "萧",
+        "status": "approved",
+        "applicability": "manual-confirmation-required"
+      }
+    ]
+  },
+  "occupancyRows": [
+    {
+      "name": "M460 standalone60",
+      "file": "D:\\Codex-NamingStudio-Evidence\\m587-product-integration\\work\\data\\naming-character-meanings-v71-m460-b02-profile.json",
+      "rowCount": 60,
+      "characters": [
+        "中",
+        "仪",
+        "伍",
+        "余",
+        "元",
+        "兆",
+        "克",
+        "冰",
+        "凡",
+        "南",
+        "又",
+        "向",
+        "呈",
+        "境",
+        "墨",
+        "奕",
+        "孟",
+        "宛",
+        "峻",
+        "庆",
+        "庚",
+        "彩",
+        "彰",
+        "情",
+        "惠",
+        "昆",
+        "普",
+        "曲",
+        "朋",
+        "朔",
+        "木",
+        "枚",
+        "格",
+        "楚",
+        "欢",
+        "渝",
+        "炎",
+        "理",
+        "碧",
+        "科",
+        "程",
+        "空",
+        "纾",
+        "绪",
+        "绿",
+        "翠",
+        "肃",
+        "茹",
+        "莘",
+        "萍",
+        "豪",
+        "贵",
+        "遥",
+        "陵",
+        "霆",
+        "青",
+        "静",
+        "高",
+        "黎",
+        "黛"
+      ],
+      "count": 60,
+      "selectedOverlap": [],
+      "sha256": "2c4be917bbfcdc3fec9279b2d9d928f5215e6ee1386d60e7d62265cd8e3eb2d1"
+    },
+    {
+      "name": "M610 candidate20",
+      "file": "D:\\Codex-NamingStudio-Evidence\\m587-product-integration\\work\\data\\naming-character-meanings-m610-profile.json",
+      "rowCount": 20,
+      "characters": [
+        "万",
+        "世",
+        "临",
+        "久",
+        "义",
+        "仕",
+        "君",
+        "品",
+        "寰",
+        "廷",
+        "弈",
+        "念",
+        "意",
+        "抒",
+        "望",
+        "桂",
+        "梦",
+        "武",
+        "深",
+        "玄"
+      ],
+      "count": 20,
+      "selectedOverlap": [],
+      "sha256": "501003d1322e7503426fda5198ccb7739ccffe9b353aa944a54abeee310e802a"
+    },
+    {
+      "name": "M616 non-default candidate10",
+      "file": "D:\\Codex-NamingStudio-Evidence\\m587-product-integration\\work\\data\\naming-character-meanings-m616-profile.json",
+      "rowCount": 10,
+      "characters": [
+        "乐",
+        "劲",
+        "和",
+        "朝",
+        "湛",
+        "澄",
+        "知",
+        "荷",
+        "隽",
+        "音"
+      ],
+      "count": 10,
+      "selectedOverlap": [],
+      "sha256": "a7036d60215c80b25e0e000aa40a193232370b70add708c1b4f79ec93dddf1fb"
+    },
+    {
+      "name": "M690 candidate20",
+      "file": "D:\\Codex-NamingStudio-Evidence\\m690-meanings-batch-next\\data\\profile.json",
+      "rowCount": 20,
+      "characters": [
+        "丘",
+        "乔",
+        "众",
+        "佳",
+        "友",
+        "国",
+        "增",
+        "希",
+        "愿",
+        "慕",
+        "时",
+        "永",
+        "盈",
+        "箫",
+        "臻",
+        "菘",
+        "誉",
+        "诺",
+        "迎",
+        "问"
+      ],
+      "count": 20,
+      "selectedOverlap": [],
+      "sha256": "3c19e745c3fd65ee0b96b6b672e52dcc41051721c4ce909b8b7056b64fa06c40"
+    },
+    {
+      "name": "B01/candidate/data/naming-character-meanings-m393-profile.json",
+      "file": "E:\\八卦周易\\.local\\longterm-groups\\naming-data\\M460-b01\\candidate\\data\\naming-character-meanings-m393-profile.json",
+      "rowCount": 20,
+      "characters": [
+        "伍",
+        "余",
+        "兆",
+        "克",
+        "凡",
+        "又",
+        "向",
+        "呈",
+        "孟",
+        "宛",
+        "庚",
+        "昆",
+        "曲",
+        "枚",
+        "渝",
+        "炎",
+        "科",
+        "茹",
+        "莘",
+        "陵"
+      ],
+      "count": 20,
+      "selectedOverlap": [],
+      "sha256": "eee6a01e1d28a34c3992c8dd81d547352222caa62d04f363f3ec43edfcd5acd8"
+    },
+    {
+      "name": "B02/stage/data/naming-character-meanings-v71-m460-b02-profile.json",
+      "file": "E:\\八卦周易\\.local\\longterm-groups\\naming-data\\M460-b02\\stage\\data\\naming-character-meanings-v71-m460-b02-profile.json",
+      "rowCount": 60,
+      "characters": [
+        "中",
+        "仪",
+        "伍",
+        "余",
+        "元",
+        "兆",
+        "克",
+        "冰",
+        "凡",
+        "南",
+        "又",
+        "向",
+        "呈",
+        "境",
+        "墨",
+        "奕",
+        "孟",
+        "宛",
+        "峻",
+        "庆",
+        "庚",
+        "彩",
+        "彰",
+        "情",
+        "惠",
+        "昆",
+        "普",
+        "曲",
+        "朋",
+        "朔",
+        "木",
+        "枚",
+        "格",
+        "楚",
+        "欢",
+        "渝",
+        "炎",
+        "理",
+        "碧",
+        "科",
+        "程",
+        "空",
+        "纾",
+        "绪",
+        "绿",
+        "翠",
+        "肃",
+        "茹",
+        "莘",
+        "萍",
+        "豪",
+        "贵",
+        "遥",
+        "陵",
+        "霆",
+        "青",
+        "静",
+        "高",
+        "黎",
+        "黛"
+      ],
+      "count": 60,
+      "selectedOverlap": [],
+      "sha256": "2c4be917bbfcdc3fec9279b2d9d928f5215e6ee1386d60e7d62265cd8e3eb2d1"
+    },
+    {
+      "name": "B03/stage/data/naming-character-meanings-v71-m460-b02-profile.json",
+      "file": "E:\\八卦周易\\.local\\longterm-groups\\naming-data\\M460-b03\\stage\\data\\naming-character-meanings-v71-m460-b02-profile.json",
+      "rowCount": 60,
+      "characters": [
+        "中",
+        "仪",
+        "伍",
+        "余",
+        "元",
+        "兆",
+        "克",
+        "冰",
+        "凡",
+        "南",
+        "又",
+        "向",
+        "呈",
+        "境",
+        "墨",
+        "奕",
+        "孟",
+        "宛",
+        "峻",
+        "庆",
+        "庚",
+        "彩",
+        "彰",
+        "情",
+        "惠",
+        "昆",
+        "普",
+        "曲",
+        "朋",
+        "朔",
+        "木",
+        "枚",
+        "格",
+        "楚",
+        "欢",
+        "渝",
+        "炎",
+        "理",
+        "碧",
+        "科",
+        "程",
+        "空",
+        "纾",
+        "绪",
+        "绿",
+        "翠",
+        "肃",
+        "茹",
+        "莘",
+        "萍",
+        "豪",
+        "贵",
+        "遥",
+        "陵",
+        "霆",
+        "青",
+        "静",
+        "高",
+        "黎",
+        "黛"
+      ],
+      "count": 60,
+      "selectedOverlap": [],
+      "sha256": "2c4be917bbfcdc3fec9279b2d9d928f5215e6ee1386d60e7d62265cd8e3eb2d1"
+    },
+    {
+      "name": "B04/plans.json",
+      "file": "E:\\八卦周易\\.local\\longterm-groups\\naming-data\\M460-b04\\plans.json",
+      "rowCount": 20,
+      "characters": [
+        "仙",
+        "俐",
+        "偲",
+        "奥",
+        "姝",
+        "娇",
+        "孔",
+        "寰",
+        "幸",
+        "彭",
+        "武",
+        "殊",
+        "洛",
+        "深",
+        "渤",
+        "湘",
+        "灵",
+        "玄",
+        "赫",
+        "颍"
+      ],
+      "count": 20,
+      "selectedOverlap": [],
+      "sha256": "98a516317585894c79b462bddec946f3597eede994812f0ba1d2ee2bffaf6a23"
+    },
+    {
+      "name": "B05/plans.json",
+      "file": "E:\\八卦周易\\.local\\longterm-groups\\naming-data\\M460-b05\\plans.json",
+      "rowCount": 20,
+      "characters": [
+        "丘",
+        "乾",
+        "俞",
+        "六",
+        "凌",
+        "利",
+        "加",
+        "卿",
+        "友",
+        "咸",
+        "增",
+        "弈",
+        "意",
+        "歆",
+        "永",
+        "灼",
+        "玲",
+        "童",
+        "震",
+        "默"
+      ],
+      "count": 20,
+      "selectedOverlap": [],
+      "sha256": "7f5fc68b52396b479a8fe11f1c25aa404f6c8f35dd75082f61addaea020e093b"
+    },
+    {
+      "name": "v1.1 whole-word context targets",
+      "file": "D:\\Codex-NamingStudio-Evidence\\m587-product-integration\\work\\data\\meaning-context-v1-1.json",
+      "rowCount": 40,
+      "characters": [
+        "久",
+        "义",
+        "九",
+        "仪",
+        "仲",
+        "佳",
+        "儒",
+        "冉",
+        "冰",
+        "千",
+        "君",
+        "品",
+        "太",
+        "婷",
+        "小",
+        "尔",
+        "彩",
+        "彬",
+        "斌",
+        "斐",
+        "斯",
+        "楚",
+        "欢",
+        "求",
+        "理",
+        "百",
+        "盈",
+        "碧",
+        "笑",
+        "群",
+        "芝",
+        "蓓",
+        "誉",
+        "逊",
+        "道",
+        "隽",
+        "青",
+        "韬",
+        "高",
+        "龙"
+      ],
+      "count": 40,
+      "selectedOverlap": [],
+      "sha256": "424e8b6ca9a920c8b707ac267db9609bee900a5389b3659256b4c71ad71b378d"
+    },
+    {
+      "name": "B04 whole-word context targets",
+      "file": "D:\\Codex-NamingStudio-Evidence\\m587-product-integration\\work\\data\\meaning-context-m460-b04.json",
+      "rowCount": 20,
+      "characters": [
+        "仙",
+        "俐",
+        "偲",
+        "奥",
+        "姝",
+        "娇",
+        "孔",
+        "寰",
+        "幸",
+        "彭",
+        "武",
+        "殊",
+        "洛",
+        "深",
+        "渤",
+        "湘",
+        "灵",
+        "玄",
+        "赫",
+        "颍"
+      ],
+      "count": 20,
+      "selectedOverlap": [],
+      "sha256": "ecc4ca0edbe1a0a1b1f5e3f67ad0caef9bf1daa197e781f55484b33ebfc8ce82"
+    }
+  ],
+  "exclusions": {
+    "nondefaultOrCandidateRowsNotPromoted": true,
+    "m610AutomaticDelta": 0,
+    "m616AutomaticDelta": 0,
+    "m690AutomaticDelta": 0,
+    "wholeWordAutomaticDelta": 0,
+    "wholeWordStandaloneDelta": 0,
+    "lexical20Inventory": {
+      "file": "D:\\Codex-NamingStudio-Evidence\\m587-product-integration\\work\\data\\m460-lexical\\naming-character-meanings-m393-profile.json",
+      "count": 20,
+      "records": [
+        {
+          "char": "呈",
+          "scope": "per-character-project-explanation-only",
+          "baseline": "chéng"
+        },
+        {
+          "char": "凡",
+          "scope": "per-character-project-explanation-only",
+          "baseline": "fán"
+        },
+        {
+          "char": "庚",
+          "scope": "per-character-project-explanation-only",
+          "baseline": "gēng"
+        },
+        {
+          "char": "科",
+          "scope": "per-character-project-explanation-only",
+          "baseline": "kē"
+        },
+        {
+          "char": "克",
+          "scope": "per-character-project-explanation-only",
+          "baseline": "kè"
+        },
+        {
+          "char": "昆",
+          "scope": "per-character-project-explanation-only",
+          "baseline": "kūn"
+        },
+        {
+          "char": "陵",
+          "scope": "per-character-project-explanation-only",
+          "baseline": "líng"
+        },
+        {
+          "char": "枚",
+          "scope": "per-character-project-explanation-only",
+          "baseline": "méi"
+        },
+        {
+          "char": "孟",
+          "scope": "per-character-project-explanation-only",
+          "baseline": "mèng"
+        },
+        {
+          "char": "曲",
+          "scope": "per-character-project-explanation-only",
+          "baseline": "qū"
+        },
+        {
+          "char": "茹",
+          "scope": "per-character-project-explanation-only",
+          "baseline": "rú"
+        },
+        {
+          "char": "莘",
+          "scope": "per-character-project-explanation-only",
+          "baseline": "shēn"
+        },
+        {
+          "char": "宛",
+          "scope": "per-character-project-explanation-only",
+          "baseline": "wǎn"
+        },
+        {
+          "char": "伍",
+          "scope": "per-character-project-explanation-only",
+          "baseline": "wǔ"
+        },
+        {
+          "char": "向",
+          "scope": "per-character-project-explanation-only",
+          "baseline": "xiàng"
+        },
+        {
+          "char": "炎",
+          "scope": "per-character-project-explanation-only",
+          "baseline": "yán"
+        },
+        {
+          "char": "又",
+          "scope": "per-character-project-explanation-only",
+          "baseline": "yòu"
+        },
+        {
+          "char": "余",
+          "scope": "per-character-project-explanation-only",
+          "baseline": "yú"
+        },
+        {
+          "char": "渝",
+          "scope": "per-character-project-explanation-only",
+          "baseline": "yú"
+        },
+        {
+          "char": "兆",
+          "scope": "per-character-project-explanation-only",
+          "baseline": "zhào"
+        }
+      ]
+    }
+  },
+  "failClosed": {
+    "successfulReadOnlyVerification": "passed",
+    "probes": [
+      {
+        "kind": "missing-source",
+        "rejected": true,
+        "error": "M744 audit-only source absent",
+        "code": "ENOENT"
+      },
+      {
+        "kind": "tampered-source",
+        "rejected": true,
+        "error": "M740: original source bytes product-data:dataset-v6.json",
+        "code": null
+      },
+      {
+        "kind": "malformed-source",
+        "rejected": true,
+        "error": "M740: original source bytes product-data:dataset-v6.json",
+        "code": null
+      }
+    ],
+    "helperBoundary": {
+      "scope": "pure helper only; unauthenticated caller input, not candidate verifier",
+      "sourceBytesRemainPinned": true,
+      "alteredParsedTableAccepted": true,
+      "note": "coverageInventory trusts supplied parsed input; verifyM740Candidate rereads and pins files before constructing its own input. Not an externally authenticated loader."
+    },
+    "testReceipt": {
+      "path": "D:\\Codex-NamingStudio-Evidence\\m740-character-meanings\\validation\\test-receipt.json",
+      "recordedTests": 14,
+      "recordedPassed": 14,
+      "recordedFailed": 0,
+      "claim": "Existing receipt read only; no original test suite rerun.",
+      "rerun": false
+    }
+  },
+  "boundary": {
+    "candidateOnly": true,
+    "activation": "off",
+    "productionApproved": false,
+    "formalCoverageAdded": 0,
+    "sourceAuthority": false,
+    "generationAuthority": false,
+    "automaticNameRecommendation": false,
+    "automaticSemanticCreditAllowed": false,
+    "scoreDelta": 0,
+    "wholeNameAssessment": "not-assessed",
+    "wholeNameMeaning": null,
+    "query": "Not wired. Any later on-request query needs independently accepted exact char/default-reading/source binding and explicit usage review; 9 historical manual rows plus pending 叶 remain unapproved by this audit.",
+    "generation": "No automatic generation, ranking or meaning-credit authority. Default automatic stays 521; display stays 581; remaining stays 198."
+  },
+  "evidence": [
+    {
+      "path": "D:\\Codex-NamingStudio-Evidence\\m587-product-integration\\work\\src\\main\\naming-coverage-provider.ts",
+      "locator": "lines 105-107: actual reviewedNamingSense / lookupMeaning / characterExplanation filters"
+    },
+    {
+      "path": "D:\\Codex-NamingStudio-Evidence\\m740-character-meanings\\lib.mjs",
+      "locator": "baseMeaningCharacters / coverageInventory; readInputs does not authenticate; helper inputs trusted"
+    },
+    {
+      "path": "D:\\Codex-NamingStudio-Evidence\\m740-character-meanings\\validate.mjs",
+      "locator": "verifyM740Candidate lines 33-50: pins manifest/lock, candidate/source file bytes, fresh inputs, then exact reconstruction"
+    },
+    {
+      "path": "D:\\Codex-NamingStudio-Evidence\\m740-character-meanings\\tests\\data.test.mjs",
+      "locator": "lines 10-65: 14 recorded tests; no corrupt-source fixture test in that suite"
+    },
+    {
+      "path": "D:\\Codex-NamingStudio-Evidence\\m587-product-integration\\work\\src\\main\\single-character-meaning-query.mjs",
+      "locator": "lines 280-318: registered M460/M610/M616 query batches, no M740"
+    }
+  ],
+  "artifacts": {
+    "sets": "D:\\Codex-NamingStudio-Evidence\\m744-data-audit\\coverage-probes\\recomputed-sets.json",
+    "probeScript": "D:\\Codex-NamingStudio-Evidence\\m744-data-audit\\coverage-probes\\independent-coverage-audit.mjs"
+  },
+  "limitations": [
+    "Actual product query/generation wiring not executed; candidate remains off.",
+    "Coverage helper corruption probe is a trusted-input boundary observation, not a verified external-loader bypass."
+  ],
+  "p1Defects": [],
+  "assessmentScope": "Coverage and source-integrity subaudit only; semantic row acceptance remains with the independent row reviewers. Missing product build or wiring is not classified as a data P1."
+}

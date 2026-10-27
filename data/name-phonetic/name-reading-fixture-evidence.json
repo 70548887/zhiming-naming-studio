@@ -1,0 +1,138 @@
+{
+  "sourceId": "phonetic-rime-fixed-137",
+  "license": "CC-BY-4.0",
+  "characters": [
+    {
+      "word": "胡",
+      "token": "wu4",
+      "file": "data/raw/yue-reading-chars.dict.yaml",
+      "line": 30599,
+      "rawLine": "胡\twu4",
+      "sha256": "c0716a1bfb794f7d049ca4ac14d5b30f6adecc20f34a68c01c46d6c257ab7c14"
+    },
+    {
+      "word": "梨",
+      "token": "lei4",
+      "file": "data/raw/yue-reading-chars.dict.yaml",
+      "line": 18884,
+      "rawLine": "梨\tlei4",
+      "sha256": "d249424389ab615e9b24477d208fc20eb198dfd841c73106cd05ad4f746f54d3"
+    },
+    {
+      "word": "晶",
+      "token": "zing1",
+      "file": "data/raw/yue-reading-chars.dict.yaml",
+      "line": 33086,
+      "rawLine": "晶\tzing1",
+      "sha256": "36839d8a3398f93b45ba7a20d4aca7ff7982bc23d11bb20555773f3cce0463c2"
+    },
+    {
+      "word": "說",
+      "token": "syut3",
+      "file": "data/raw/yue-reading-chars.dict.yaml",
+      "line": 27940,
+      "rawLine": "說\tsyut3",
+      "sha256": "3c32ed5803cfa0ab55f8b31f40186ca22d0dfc2f26c2fa628d18bb961b83bd13"
+    },
+    {
+      "word": "安",
+      "token": "on1",
+      "file": "data/raw/yue-reading-chars.dict.yaml",
+      "line": 23926,
+      "rawLine": "安\ton1",
+      "sha256": "3a7fd5cb820ccde262bc5e7ecc65aa69190d2d52c98dd5d8a27d1ca8301abb30"
+    },
+    {
+      "word": "司",
+      "token": "si1",
+      "file": "data/raw/yue-reading-chars.dict.yaml",
+      "line": 26443,
+      "rawLine": "司\tsi1",
+      "sha256": "e0f8e8a70207d7eea115c52640c4b0495dc1b33c74dadabcf3a5bd56cd30eaf2"
+    },
+    {
+      "word": "馬",
+      "token": "maa5",
+      "file": "data/raw/yue-reading-chars.dict.yaml",
+      "line": 20758,
+      "rawLine": "馬\tmaa5",
+      "sha256": "09b567946deb394ac1c96d634b58ceb7b2d9e6ee811a60d06c881ebe62d06c84"
+    },
+    {
+      "word": "無",
+      "token": "mou4",
+      "file": "data/raw/yue-reading-chars.dict.yaml",
+      "line": 21948,
+      "rawLine": "無\tmou4",
+      "sha256": "736947806dadd051939063f3283243c4e217e54e65c6af38207b50c52022690f"
+    },
+    {
+      "word": "恥",
+      "token": "ci2",
+      "file": "data/raw/yue-reading-chars.dict.yaml",
+      "line": 3068,
+      "rawLine": "恥\tci2",
+      "sha256": "bf5214d61cab5058cb2798f001908c5b8c056680454d6749a9a08c3e0afbfbcf"
+    },
+    {
+      "word": "夏",
+      "token": "haa6",
+      "file": "data/raw/yue-reading-chars.dict.yaml",
+      "line": 10820,
+      "rawLine": "夏\thaa6",
+      "sha256": "b2ea975f19310636fa3ecc1b75366bc1c9ec269de5cb1c0bf06f1c5e6e1e9d02"
+    },
+    {
+      "word": "侯",
+      "token": "hau4",
+      "file": "data/raw/yue-reading-chars.dict.yaml",
+      "line": 11675,
+      "rawLine": "侯\thau4",
+      "sha256": "e1fc048bbcde8f37fcf51d61712ad14f6df36f9b9cdf3622cb69e9b305635a49"
+    },
+    {
+      "word": "瑞",
+      "token": "seoi6",
+      "file": "data/raw/yue-reading-chars.dict.yaml",
+      "line": 26160,
+      "rawLine": "瑞\tseoi6",
+      "sha256": "bc29e3a5a8e3c1041965bada660e36ef4384f2a8b26a08d87021efa4ce84bbb7"
+    },
+    {
+      "word": "烏",
+      "token": "wu1",
+      "file": "data/raw/yue-reading-chars.dict.yaml",
+      "line": 30539,
+      "rawLine": "烏\twu1",
+      "sha256": "8c93309fce4bb4cc5ba5a7537579bde21fa85b360f79d2edc8d29b85e972a32c"
+    },
+    {
+      "word": "水",
+      "token": "seoi2",
+      "file": "data/raw/yue-reading-chars.dict.yaml",
+      "line": 26046,
+      "rawLine": "水\tseoi2",
+      "sha256": "0a38236103c0b851401173da1bf6e761b80d1e959502ac46d5b226097f518056"
+    }
+  ],
+  "compoundSurname": {
+    "word": "司馬",
+    "tokens": [
+      "si1",
+      "maa5"
+    ],
+    "file": "data/raw/yue-reading-words.dict.yaml",
+    "line": 37039,
+    "rawLine": "司馬\tsi1 maa5",
+    "sha256": "e2bf3e65b122e3fd9a210ea7d76022b294bf49df2502dec4a48eb4085fb4f217"
+  },
+  "manualSurnameFixture": {
+    "text": "夏侯",
+    "tokens": [
+      "haa6",
+      "hau4"
+    ],
+    "origin": "user",
+    "notice": "本例是明确提供的家庭读音输入；固定 words 未收夏侯，不称为词典复姓候选，不从单字候选自动拼读。"
+  }
+}

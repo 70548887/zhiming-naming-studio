@@ -1,0 +1,1017 @@
+{
+  "version": "classics-section-index/1.0.0",
+  "id": "classic-qiongtong-2294674",
+  "title": "穷通宝鉴",
+  "aliases": [
+    "窮通寶鑑",
+    "窮通寶鑒"
+  ],
+  "revision": "2294674",
+  "sourceId": "classics-qiongtong-2294674-fixed",
+  "rawFile": "data/raw/classics-qiongtong-2294674.wiki",
+  "rawSha256": "8ba17242f116583de2e10172e006f5ce5f74b23ccfc0bd24b886be135e9f20bd",
+  "rawBytes": 99998,
+  "codepoints": 36746,
+  "sections": [
+    {
+      "id": "classic-qiongtong-2294674:section:0",
+      "bookId": "classic-qiongtong-2294674",
+      "title": "卷首与页面元信息",
+      "headingLevel": 0,
+      "path": [
+        "卷首与页面元信息"
+      ],
+      "start": 0,
+      "end": 110,
+      "sha256": "7a772fd5626b9d39efd0e57e85bc1e817700a8074837f23f22a47eb82688a338",
+      "kind": "frontmatter",
+      "nextSectionId": "classic-qiongtong-2294674:section:110"
+    },
+    {
+      "id": "classic-qiongtong-2294674:section:110",
+      "bookId": "classic-qiongtong-2294674",
+      "title": "五行总论",
+      "headingLevel": 1,
+      "path": [
+        "五行总论"
+      ],
+      "start": 110,
+      "end": 631,
+      "sha256": "0822cd1bd30d7c9c8ca9e373ebdff3d6228187c74431e599f8f1f851b8fd744b",
+      "kind": "section",
+      "previousSectionId": "classic-qiongtong-2294674:section:0",
+      "nextSectionId": "classic-qiongtong-2294674:section:631"
+    },
+    {
+      "id": "classic-qiongtong-2294674:section:631",
+      "bookId": "classic-qiongtong-2294674",
+      "title": "十干分论",
+      "headingLevel": 1,
+      "path": [
+        "十干分论"
+      ],
+      "start": 631,
+      "end": 664,
+      "sha256": "8a7326fbb59ba447a46a14d340cf082c40788d010df97e426240e94fe77403ac",
+      "kind": "section",
+      "previousSectionId": "classic-qiongtong-2294674:section:110",
+      "nextSectionId": "classic-qiongtong-2294674:section:664"
+    },
+    {
+      "id": "classic-qiongtong-2294674:section:664",
+      "bookId": "classic-qiongtong-2294674",
+      "title": "论木",
+      "headingLevel": 2,
+      "path": [
+        "十干分论",
+        "论木"
+      ],
+      "start": 664,
+      "end": 1292,
+      "sha256": "68884935f5d15b01c9045690781b09be57ef8b251a7e3f498552e470d7d9386d",
+      "kind": "section",
+      "previousSectionId": "classic-qiongtong-2294674:section:631",
+      "nextSectionId": "classic-qiongtong-2294674:section:1292"
+    },
+    {
+      "id": "classic-qiongtong-2294674:section:1292",
+      "bookId": "classic-qiongtong-2294674",
+      "title": "论甲木",
+      "headingLevel": 2,
+      "path": [
+        "十干分论",
+        "论甲木"
+      ],
+      "start": 1292,
+      "end": 1327,
+      "sha256": "dba25f18099e02a8c6bb6db044d25a097233d3e36d046f64fe290fd1f6d9d783",
+      "kind": "section",
+      "previousSectionId": "classic-qiongtong-2294674:section:664",
+      "nextSectionId": "classic-qiongtong-2294674:section:1327"
+    },
+    {
+      "id": "classic-qiongtong-2294674:section:1327",
+      "bookId": "classic-qiongtong-2294674",
+      "title": "三春甲木",
+      "headingLevel": 3,
+      "path": [
+        "十干分论",
+        "论甲木",
+        "三春甲木"
+      ],
+      "start": 1327,
+      "end": 2431,
+      "sha256": "a36e8e25e6465098bf3882bdb32fa0b3247f0d6d8e8cb542152d731ea55dd4dd",
+      "kind": "section",
+      "previousSectionId": "classic-qiongtong-2294674:section:1292",
+      "nextSectionId": "classic-qiongtong-2294674:section:2431"
+    },
+    {
+      "id": "classic-qiongtong-2294674:section:2431",
+      "bookId": "classic-qiongtong-2294674",
+      "title": "三夏甲木",
+      "headingLevel": 3,
+      "path": [
+        "十干分论",
+        "论甲木",
+        "三夏甲木"
+      ],
+      "start": 2431,
+      "end": 3311,
+      "sha256": "8de08609f4a6f7e4c1e7a8fc0428a59716cd9763c0a2d16bd57caa396770d695",
+      "kind": "section",
+      "previousSectionId": "classic-qiongtong-2294674:section:1327",
+      "nextSectionId": "classic-qiongtong-2294674:section:3311"
+    },
+    {
+      "id": "classic-qiongtong-2294674:section:3311",
+      "bookId": "classic-qiongtong-2294674",
+      "title": "三秋甲木",
+      "headingLevel": 3,
+      "path": [
+        "十干分论",
+        "论甲木",
+        "三秋甲木"
+      ],
+      "start": 3311,
+      "end": 4625,
+      "sha256": "c0b3a27c90a5deed629e842620ec8ba715fe64215b4aa72d6ec396556d9be17d",
+      "kind": "section",
+      "previousSectionId": "classic-qiongtong-2294674:section:2431",
+      "nextSectionId": "classic-qiongtong-2294674:section:4625"
+    },
+    {
+      "id": "classic-qiongtong-2294674:section:4625",
+      "bookId": "classic-qiongtong-2294674",
+      "title": "三冬甲木",
+      "headingLevel": 3,
+      "path": [
+        "十干分论",
+        "论甲木",
+        "三冬甲木"
+      ],
+      "start": 4625,
+      "end": 5220,
+      "sha256": "1b16eb05f9a1a910da7749aaf0adeff8bb04e7349b388ed9f1c9bf50c2b7ac63",
+      "kind": "section",
+      "previousSectionId": "classic-qiongtong-2294674:section:3311",
+      "nextSectionId": "classic-qiongtong-2294674:section:5220"
+    },
+    {
+      "id": "classic-qiongtong-2294674:section:5220",
+      "bookId": "classic-qiongtong-2294674",
+      "title": "论乙木",
+      "headingLevel": 2,
+      "path": [
+        "十干分论",
+        "论乙木"
+      ],
+      "start": 5220,
+      "end": 5230,
+      "sha256": "d19ee1e0410275641489b3afadd2ed03b6ae79f63abdec099565273bcc0ef044",
+      "kind": "section",
+      "previousSectionId": "classic-qiongtong-2294674:section:4625",
+      "nextSectionId": "classic-qiongtong-2294674:section:5230"
+    },
+    {
+      "id": "classic-qiongtong-2294674:section:5230",
+      "bookId": "classic-qiongtong-2294674",
+      "title": "三春乙木",
+      "headingLevel": 3,
+      "path": [
+        "十干分论",
+        "论乙木",
+        "三春乙木"
+      ],
+      "start": 5230,
+      "end": 5988,
+      "sha256": "4c5675c1d2b6101c36a12282ce98fbbcee4dbdc6817b9ee246983f2a0c905648",
+      "kind": "section",
+      "previousSectionId": "classic-qiongtong-2294674:section:5220",
+      "nextSectionId": "classic-qiongtong-2294674:section:5988"
+    },
+    {
+      "id": "classic-qiongtong-2294674:section:5988",
+      "bookId": "classic-qiongtong-2294674",
+      "title": "三夏乙木",
+      "headingLevel": 3,
+      "path": [
+        "十干分论",
+        "论乙木",
+        "三夏乙木"
+      ],
+      "start": 5988,
+      "end": 6913,
+      "sha256": "0b6c4ea6f252a1e0968dcd32ef075a015f51257342adc3d189220e58257df93b",
+      "kind": "section",
+      "previousSectionId": "classic-qiongtong-2294674:section:5230",
+      "nextSectionId": "classic-qiongtong-2294674:section:6913"
+    },
+    {
+      "id": "classic-qiongtong-2294674:section:6913",
+      "bookId": "classic-qiongtong-2294674",
+      "title": "三秋乙木",
+      "headingLevel": 3,
+      "path": [
+        "十干分论",
+        "论乙木",
+        "三秋乙木"
+      ],
+      "start": 6913,
+      "end": 7771,
+      "sha256": "3f07a0742e0327741215a86b98d1aede7c5720409038278cea5d83492bf3640f",
+      "kind": "section",
+      "previousSectionId": "classic-qiongtong-2294674:section:5988",
+      "nextSectionId": "classic-qiongtong-2294674:section:7771"
+    },
+    {
+      "id": "classic-qiongtong-2294674:section:7771",
+      "bookId": "classic-qiongtong-2294674",
+      "title": "三冬乙木",
+      "headingLevel": 3,
+      "path": [
+        "十干分论",
+        "论乙木",
+        "三冬乙木"
+      ],
+      "start": 7771,
+      "end": 8529,
+      "sha256": "c27f3eae31731e159eb2594c9ca9b4400a79b2c15d6c1bef3dd809f7cef80b97",
+      "kind": "section",
+      "previousSectionId": "classic-qiongtong-2294674:section:6913",
+      "nextSectionId": "classic-qiongtong-2294674:section:8529"
+    },
+    {
+      "id": "classic-qiongtong-2294674:section:8529",
+      "bookId": "classic-qiongtong-2294674",
+      "title": "论火",
+      "headingLevel": 2,
+      "path": [
+        "十干分论",
+        "论火"
+      ],
+      "start": 8529,
+      "end": 9082,
+      "sha256": "00b4cecc1ac598e35fccea7c23e366ecd47e76d753d0d92d4b606eb2ca4c48ef",
+      "kind": "section",
+      "previousSectionId": "classic-qiongtong-2294674:section:7771",
+      "nextSectionId": "classic-qiongtong-2294674:section:9082"
+    },
+    {
+      "id": "classic-qiongtong-2294674:section:9082",
+      "bookId": "classic-qiongtong-2294674",
+      "title": "论丙火",
+      "headingLevel": 2,
+      "path": [
+        "十干分论",
+        "论丙火"
+      ],
+      "start": 9082,
+      "end": 9093,
+      "sha256": "5d05aaaf2469d0a757876e1b628935943d0ff8b5a032de2b14634f748b17fd4e",
+      "kind": "section",
+      "previousSectionId": "classic-qiongtong-2294674:section:8529",
+      "nextSectionId": "classic-qiongtong-2294674:section:9093"
+    },
+    {
+      "id": "classic-qiongtong-2294674:section:9093",
+      "bookId": "classic-qiongtong-2294674",
+      "title": "三春丙火",
+      "headingLevel": 3,
+      "path": [
+        "十干分论",
+        "论丙火",
+        "三春丙火"
+      ],
+      "start": 9093,
+      "end": 10310,
+      "sha256": "434864d861c2d18412f4aa421a3a0f0633bb58a316062c9a6e2e5be09f131af7",
+      "kind": "section",
+      "previousSectionId": "classic-qiongtong-2294674:section:9082",
+      "nextSectionId": "classic-qiongtong-2294674:section:10310"
+    },
+    {
+      "id": "classic-qiongtong-2294674:section:10310",
+      "bookId": "classic-qiongtong-2294674",
+      "title": "三夏丙火",
+      "headingLevel": 3,
+      "path": [
+        "十干分论",
+        "论丙火",
+        "三夏丙火"
+      ],
+      "start": 10310,
+      "end": 11454,
+      "sha256": "09f7ac6c74403a2e8b5afef18c56ab5b9565a5daf2941f3af30815319c54f0ac",
+      "kind": "section",
+      "previousSectionId": "classic-qiongtong-2294674:section:9093",
+      "nextSectionId": "classic-qiongtong-2294674:section:11454"
+    },
+    {
+      "id": "classic-qiongtong-2294674:section:11454",
+      "bookId": "classic-qiongtong-2294674",
+      "title": "三秋丙火",
+      "headingLevel": 3,
+      "path": [
+        "十干分论",
+        "论丙火",
+        "三秋丙火"
+      ],
+      "start": 11454,
+      "end": 12299,
+      "sha256": "2d53fde001b13e17c723805cf870fc16cc982cd9b678e7e29af386e3187bde2e",
+      "kind": "section",
+      "previousSectionId": "classic-qiongtong-2294674:section:10310",
+      "nextSectionId": "classic-qiongtong-2294674:section:12299"
+    },
+    {
+      "id": "classic-qiongtong-2294674:section:12299",
+      "bookId": "classic-qiongtong-2294674",
+      "title": "三冬丙火",
+      "headingLevel": 3,
+      "path": [
+        "十干分论",
+        "论丙火",
+        "三冬丙火"
+      ],
+      "start": 12299,
+      "end": 13099,
+      "sha256": "bbe80f585dfbc1095cf303b601af1bbe6e4a7b33a7b8a78064e1cb99ed0e927d",
+      "kind": "section",
+      "previousSectionId": "classic-qiongtong-2294674:section:11454",
+      "nextSectionId": "classic-qiongtong-2294674:section:13099"
+    },
+    {
+      "id": "classic-qiongtong-2294674:section:13099",
+      "bookId": "classic-qiongtong-2294674",
+      "title": "论丁火",
+      "headingLevel": 2,
+      "path": [
+        "十干分论",
+        "论丁火"
+      ],
+      "start": 13099,
+      "end": 13110,
+      "sha256": "ab89cc36cebb2a377f11c8e727c6968bd254fc3f844426011ed68e0a129d114d",
+      "kind": "section",
+      "previousSectionId": "classic-qiongtong-2294674:section:12299",
+      "nextSectionId": "classic-qiongtong-2294674:section:13110"
+    },
+    {
+      "id": "classic-qiongtong-2294674:section:13110",
+      "bookId": "classic-qiongtong-2294674",
+      "title": "三春丁火",
+      "headingLevel": 3,
+      "path": [
+        "十干分论",
+        "论丁火",
+        "三春丁火"
+      ],
+      "start": 13110,
+      "end": 13984,
+      "sha256": "cc24cda5f9bea19523ac1645fc4daba04804d54497aaca4dc04fbd296f2b836e",
+      "kind": "section",
+      "previousSectionId": "classic-qiongtong-2294674:section:13099",
+      "nextSectionId": "classic-qiongtong-2294674:section:13984"
+    },
+    {
+      "id": "classic-qiongtong-2294674:section:13984",
+      "bookId": "classic-qiongtong-2294674",
+      "title": "三夏丁火",
+      "headingLevel": 3,
+      "path": [
+        "十干分论",
+        "论丁火",
+        "三夏丁火"
+      ],
+      "start": 13984,
+      "end": 15092,
+      "sha256": "0c3f53146c915cc8d300401565a4451fcdf062b9b24e06a29e845c8f94395a77",
+      "kind": "section",
+      "previousSectionId": "classic-qiongtong-2294674:section:13110",
+      "nextSectionId": "classic-qiongtong-2294674:section:15092"
+    },
+    {
+      "id": "classic-qiongtong-2294674:section:15092",
+      "bookId": "classic-qiongtong-2294674",
+      "title": "三秋丁火",
+      "headingLevel": 3,
+      "path": [
+        "十干分论",
+        "论丁火",
+        "三秋丁火"
+      ],
+      "start": 15092,
+      "end": 15840,
+      "sha256": "ec297bd2b050c1afaf04e5601c9d804e66cda79022032ef54b995b16a652a27a",
+      "kind": "section",
+      "previousSectionId": "classic-qiongtong-2294674:section:13984",
+      "nextSectionId": "classic-qiongtong-2294674:section:15840"
+    },
+    {
+      "id": "classic-qiongtong-2294674:section:15840",
+      "bookId": "classic-qiongtong-2294674",
+      "title": "三冬丁火",
+      "headingLevel": 3,
+      "path": [
+        "十干分论",
+        "论丁火",
+        "三冬丁火"
+      ],
+      "start": 15840,
+      "end": 16396,
+      "sha256": "082e95b478ee7dfb02202743c70bf34d0f56d442036468e653778c00b8842dd4",
+      "kind": "section",
+      "previousSectionId": "classic-qiongtong-2294674:section:15092",
+      "nextSectionId": "classic-qiongtong-2294674:section:16396"
+    },
+    {
+      "id": "classic-qiongtong-2294674:section:16396",
+      "bookId": "classic-qiongtong-2294674",
+      "title": "论土",
+      "headingLevel": 2,
+      "path": [
+        "十干分论",
+        "论土"
+      ],
+      "start": 16396,
+      "end": 17148,
+      "sha256": "3e78821450f74fc7114dc087196276f43f0a97fe131f367fab9a78d99f8ecccb",
+      "kind": "section",
+      "previousSectionId": "classic-qiongtong-2294674:section:15840",
+      "nextSectionId": "classic-qiongtong-2294674:section:17148"
+    },
+    {
+      "id": "classic-qiongtong-2294674:section:17148",
+      "bookId": "classic-qiongtong-2294674",
+      "title": "论戊土",
+      "headingLevel": 2,
+      "path": [
+        "十干分论",
+        "论戊土"
+      ],
+      "start": 17148,
+      "end": 17159,
+      "sha256": "3427b03f304e84a3f8f44768611c2997aaa9cbb76f9f064aee354c8f9d3a42d1",
+      "kind": "section",
+      "previousSectionId": "classic-qiongtong-2294674:section:16396",
+      "nextSectionId": "classic-qiongtong-2294674:section:17159"
+    },
+    {
+      "id": "classic-qiongtong-2294674:section:17159",
+      "bookId": "classic-qiongtong-2294674",
+      "title": "三春戊土",
+      "headingLevel": 3,
+      "path": [
+        "十干分论",
+        "论戊土",
+        "三春戊土"
+      ],
+      "start": 17159,
+      "end": 17999,
+      "sha256": "2494d8febdb372cbaeaf38caa5e772d459e2f395d56a6713ce7903d86349304e",
+      "kind": "section",
+      "previousSectionId": "classic-qiongtong-2294674:section:17148",
+      "nextSectionId": "classic-qiongtong-2294674:section:17999"
+    },
+    {
+      "id": "classic-qiongtong-2294674:section:17999",
+      "bookId": "classic-qiongtong-2294674",
+      "title": "三夏戊土",
+      "headingLevel": 3,
+      "path": [
+        "十干分论",
+        "论戊土",
+        "三夏戊土"
+      ],
+      "start": 17999,
+      "end": 18704,
+      "sha256": "f8ee94db42d5c81031c6dccc882803fa5bbd87de91b4cd246712f7a20eb0707a",
+      "kind": "section",
+      "previousSectionId": "classic-qiongtong-2294674:section:17159",
+      "nextSectionId": "classic-qiongtong-2294674:section:18704"
+    },
+    {
+      "id": "classic-qiongtong-2294674:section:18704",
+      "bookId": "classic-qiongtong-2294674",
+      "title": "三秋戊土",
+      "headingLevel": 3,
+      "path": [
+        "十干分论",
+        "论戊土",
+        "三秋戊土"
+      ],
+      "start": 18704,
+      "end": 19476,
+      "sha256": "242af82d2c04fdb85ce2fe0b5c58cc7a81e939543f99c90facbbfda5c366222d",
+      "kind": "section",
+      "previousSectionId": "classic-qiongtong-2294674:section:17999",
+      "nextSectionId": "classic-qiongtong-2294674:section:19476"
+    },
+    {
+      "id": "classic-qiongtong-2294674:section:19476",
+      "bookId": "classic-qiongtong-2294674",
+      "title": "三冬戊土",
+      "headingLevel": 3,
+      "path": [
+        "十干分论",
+        "论戊土",
+        "三冬戊土"
+      ],
+      "start": 19476,
+      "end": 20084,
+      "sha256": "9623dc7faff9f48e14d5742617dd692c34d075aa5d057e0d77b6d0dedc6eb7fc",
+      "kind": "section",
+      "previousSectionId": "classic-qiongtong-2294674:section:18704",
+      "nextSectionId": "classic-qiongtong-2294674:section:20084"
+    },
+    {
+      "id": "classic-qiongtong-2294674:section:20084",
+      "bookId": "classic-qiongtong-2294674",
+      "title": "论己土",
+      "headingLevel": 2,
+      "path": [
+        "十干分论",
+        "论己土"
+      ],
+      "start": 20084,
+      "end": 20095,
+      "sha256": "d543ffeb50bd4a6cc0399cc04e7a8390fde2a96c1368258c53437927874db9ed",
+      "kind": "section",
+      "previousSectionId": "classic-qiongtong-2294674:section:19476",
+      "nextSectionId": "classic-qiongtong-2294674:section:20095"
+    },
+    {
+      "id": "classic-qiongtong-2294674:section:20095",
+      "bookId": "classic-qiongtong-2294674",
+      "title": "三春己土",
+      "headingLevel": 3,
+      "path": [
+        "十干分论",
+        "论己土",
+        "三春己土"
+      ],
+      "start": 20095,
+      "end": 20918,
+      "sha256": "4555dc0744e3e69faaf94a0016e35e4fac66f6950d96879a7954ea21e29268a2",
+      "kind": "section",
+      "previousSectionId": "classic-qiongtong-2294674:section:20084",
+      "nextSectionId": "classic-qiongtong-2294674:section:20918"
+    },
+    {
+      "id": "classic-qiongtong-2294674:section:20918",
+      "bookId": "classic-qiongtong-2294674",
+      "title": "三夏己土",
+      "headingLevel": 3,
+      "path": [
+        "十干分论",
+        "论己土",
+        "三夏己土"
+      ],
+      "start": 20918,
+      "end": 21311,
+      "sha256": "f154e0a1c8291ea653f7cd3b267ffbc492ce5a48e702efb2f3bbe38d1fb689e6",
+      "kind": "section",
+      "previousSectionId": "classic-qiongtong-2294674:section:20095",
+      "nextSectionId": "classic-qiongtong-2294674:section:21311"
+    },
+    {
+      "id": "classic-qiongtong-2294674:section:21311",
+      "bookId": "classic-qiongtong-2294674",
+      "title": "三秋己土",
+      "headingLevel": 3,
+      "path": [
+        "十干分论",
+        "论己土",
+        "三秋己土"
+      ],
+      "start": 21311,
+      "end": 21806,
+      "sha256": "a582b6b64bb5f23fb5e4af60a77428eaed724ee9b7180b68d45967b342af25dc",
+      "kind": "section",
+      "previousSectionId": "classic-qiongtong-2294674:section:20918",
+      "nextSectionId": "classic-qiongtong-2294674:section:21806"
+    },
+    {
+      "id": "classic-qiongtong-2294674:section:21806",
+      "bookId": "classic-qiongtong-2294674",
+      "title": "三冬己土",
+      "headingLevel": 3,
+      "path": [
+        "十干分论",
+        "论己土",
+        "三冬己土"
+      ],
+      "start": 21806,
+      "end": 22727,
+      "sha256": "a8bcef01c817f59be53a3177d86c101468c0f06da2c3baf0f3bfb16d71bbc85b",
+      "kind": "section",
+      "previousSectionId": "classic-qiongtong-2294674:section:21311",
+      "nextSectionId": "classic-qiongtong-2294674:section:22727"
+    },
+    {
+      "id": "classic-qiongtong-2294674:section:22727",
+      "bookId": "classic-qiongtong-2294674",
+      "title": "论庚金",
+      "headingLevel": 2,
+      "path": [
+        "十干分论",
+        "论庚金"
+      ],
+      "start": 22727,
+      "end": 22738,
+      "sha256": "8a1892c76b9e87627b2886994e725a6c3f1f79ac1d76005f306bfbccaa100aff",
+      "kind": "section",
+      "previousSectionId": "classic-qiongtong-2294674:section:21806",
+      "nextSectionId": "classic-qiongtong-2294674:section:22738"
+    },
+    {
+      "id": "classic-qiongtong-2294674:section:22738",
+      "bookId": "classic-qiongtong-2294674",
+      "title": "三春庚金",
+      "headingLevel": 3,
+      "path": [
+        "十干分论",
+        "论庚金",
+        "三春庚金"
+      ],
+      "start": 22738,
+      "end": 23866,
+      "sha256": "a9009b9cfe36a0cdc6b789ef3b948117928697bf683509961d7ac6bce2c864a1",
+      "kind": "section",
+      "previousSectionId": "classic-qiongtong-2294674:section:22727",
+      "nextSectionId": "classic-qiongtong-2294674:section:23866"
+    },
+    {
+      "id": "classic-qiongtong-2294674:section:23866",
+      "bookId": "classic-qiongtong-2294674",
+      "title": "三夏庚金",
+      "headingLevel": 3,
+      "path": [
+        "十干分论",
+        "论庚金",
+        "三夏庚金"
+      ],
+      "start": 23866,
+      "end": 24609,
+      "sha256": "90561c62c5f2d1eba573403c1f8043e5d4643b978b29f491bb0958c7a9f7c51c",
+      "kind": "section",
+      "previousSectionId": "classic-qiongtong-2294674:section:22738",
+      "nextSectionId": "classic-qiongtong-2294674:section:24609"
+    },
+    {
+      "id": "classic-qiongtong-2294674:section:24609",
+      "bookId": "classic-qiongtong-2294674",
+      "title": "三秋庚金",
+      "headingLevel": 3,
+      "path": [
+        "十干分论",
+        "论庚金",
+        "三秋庚金"
+      ],
+      "start": 24609,
+      "end": 25425,
+      "sha256": "6643a96a8e12494e2716dba4bf3c2b420663e510b1fed7d26dbbbeb81b2bc01c",
+      "kind": "section",
+      "previousSectionId": "classic-qiongtong-2294674:section:23866",
+      "nextSectionId": "classic-qiongtong-2294674:section:25425"
+    },
+    {
+      "id": "classic-qiongtong-2294674:section:25425",
+      "bookId": "classic-qiongtong-2294674",
+      "title": "三冬庚金",
+      "headingLevel": 3,
+      "path": [
+        "十干分论",
+        "论庚金",
+        "三冬庚金"
+      ],
+      "start": 25425,
+      "end": 26174,
+      "sha256": "bade9b8645961e36959951ef1d4533576523478d0b63dc033bf1db075f636af4",
+      "kind": "section",
+      "previousSectionId": "classic-qiongtong-2294674:section:24609",
+      "nextSectionId": "classic-qiongtong-2294674:section:26174"
+    },
+    {
+      "id": "classic-qiongtong-2294674:section:26174",
+      "bookId": "classic-qiongtong-2294674",
+      "title": "论辛金",
+      "headingLevel": 2,
+      "path": [
+        "十干分论",
+        "论辛金"
+      ],
+      "start": 26174,
+      "end": 26185,
+      "sha256": "81cd9fa76f6a6005fee7ad50c30e9b247f3a6a395e7978cafed03fa5619fb92e",
+      "kind": "section",
+      "previousSectionId": "classic-qiongtong-2294674:section:25425",
+      "nextSectionId": "classic-qiongtong-2294674:section:26185"
+    },
+    {
+      "id": "classic-qiongtong-2294674:section:26185",
+      "bookId": "classic-qiongtong-2294674",
+      "title": "三春辛金",
+      "headingLevel": 3,
+      "path": [
+        "十干分论",
+        "论辛金",
+        "三春辛金"
+      ],
+      "start": 26185,
+      "end": 27253,
+      "sha256": "b47e4fe998318fb4f26d65306fe36a9c00899e2b9c68d0bcdea8eb92e61f1cd6",
+      "kind": "section",
+      "previousSectionId": "classic-qiongtong-2294674:section:26174",
+      "nextSectionId": "classic-qiongtong-2294674:section:27253"
+    },
+    {
+      "id": "classic-qiongtong-2294674:section:27253",
+      "bookId": "classic-qiongtong-2294674",
+      "title": "三夏辛金",
+      "headingLevel": 3,
+      "path": [
+        "十干分论",
+        "论辛金",
+        "三夏辛金"
+      ],
+      "start": 27253,
+      "end": 28098,
+      "sha256": "ba44ac78cc45dc1df71c327c576aea6db4e3dadf26d270d49dbad854717cbde7",
+      "kind": "section",
+      "previousSectionId": "classic-qiongtong-2294674:section:26185",
+      "nextSectionId": "classic-qiongtong-2294674:section:28098"
+    },
+    {
+      "id": "classic-qiongtong-2294674:section:28098",
+      "bookId": "classic-qiongtong-2294674",
+      "title": "三秋辛金",
+      "headingLevel": 3,
+      "path": [
+        "十干分论",
+        "论辛金",
+        "三秋辛金"
+      ],
+      "start": 28098,
+      "end": 29304,
+      "sha256": "81dfd27981f2238b6bbc976a035b099e80debba6f697425449d640625483fb43",
+      "kind": "section",
+      "previousSectionId": "classic-qiongtong-2294674:section:27253",
+      "nextSectionId": "classic-qiongtong-2294674:section:29304"
+    },
+    {
+      "id": "classic-qiongtong-2294674:section:29304",
+      "bookId": "classic-qiongtong-2294674",
+      "title": "三冬辛金",
+      "headingLevel": 3,
+      "path": [
+        "十干分论",
+        "论辛金",
+        "三冬辛金"
+      ],
+      "start": 29304,
+      "end": 29998,
+      "sha256": "0c7d6b7fd50afe82e8ff9a0eb301a29a02b52e3024dcfe5775661fe81dfce697",
+      "kind": "section",
+      "previousSectionId": "classic-qiongtong-2294674:section:28098",
+      "nextSectionId": "classic-qiongtong-2294674:section:29998"
+    },
+    {
+      "id": "classic-qiongtong-2294674:section:29998",
+      "bookId": "classic-qiongtong-2294674",
+      "title": "论水",
+      "headingLevel": 2,
+      "path": [
+        "十干分论",
+        "论水"
+      ],
+      "start": 29998,
+      "end": 30505,
+      "sha256": "4f49aad6989431d8e9a3fffc21f7beb6a432c48e539a2b30627617107d9cffc9",
+      "kind": "section",
+      "previousSectionId": "classic-qiongtong-2294674:section:29304",
+      "nextSectionId": "classic-qiongtong-2294674:section:30505"
+    },
+    {
+      "id": "classic-qiongtong-2294674:section:30505",
+      "bookId": "classic-qiongtong-2294674",
+      "title": "论壬水",
+      "headingLevel": 2,
+      "path": [
+        "十干分论",
+        "论壬水"
+      ],
+      "start": 30505,
+      "end": 30516,
+      "sha256": "5ab58b4890fc93fac5effae4db197386c530193d96309ac5aed69316c110be3d",
+      "kind": "section",
+      "previousSectionId": "classic-qiongtong-2294674:section:29998",
+      "nextSectionId": "classic-qiongtong-2294674:section:30516"
+    },
+    {
+      "id": "classic-qiongtong-2294674:section:30516",
+      "bookId": "classic-qiongtong-2294674",
+      "title": "三春壬水",
+      "headingLevel": 3,
+      "path": [
+        "十干分论",
+        "论壬水",
+        "三春壬水"
+      ],
+      "start": 30516,
+      "end": 31277,
+      "sha256": "92f7ca2d9ad80797d732c92838799832a514b857ec6de33e576dc207e92dfb9b",
+      "kind": "section",
+      "previousSectionId": "classic-qiongtong-2294674:section:30505",
+      "nextSectionId": "classic-qiongtong-2294674:section:31277"
+    },
+    {
+      "id": "classic-qiongtong-2294674:section:31277",
+      "bookId": "classic-qiongtong-2294674",
+      "title": "三夏壬水",
+      "headingLevel": 3,
+      "path": [
+        "十干分论",
+        "论壬水",
+        "三夏壬水"
+      ],
+      "start": 31277,
+      "end": 31966,
+      "sha256": "5903532a23d278266fad8bdefc7fe8de26d218b2f82922d83dee53dcc2f25c9c",
+      "kind": "section",
+      "previousSectionId": "classic-qiongtong-2294674:section:30516",
+      "nextSectionId": "classic-qiongtong-2294674:section:31966"
+    },
+    {
+      "id": "classic-qiongtong-2294674:section:31966",
+      "bookId": "classic-qiongtong-2294674",
+      "title": "三秋壬水",
+      "headingLevel": 3,
+      "path": [
+        "十干分论",
+        "论壬水",
+        "三秋壬水"
+      ],
+      "start": 31966,
+      "end": 32861,
+      "sha256": "85c153fe2ef3974f221d1ba0e6fa6656bde2957e995120d2770c0b1db6c7bd66",
+      "kind": "section",
+      "previousSectionId": "classic-qiongtong-2294674:section:31277",
+      "nextSectionId": "classic-qiongtong-2294674:section:32861"
+    },
+    {
+      "id": "classic-qiongtong-2294674:section:32861",
+      "bookId": "classic-qiongtong-2294674",
+      "title": "三冬壬水",
+      "headingLevel": 3,
+      "path": [
+        "十干分论",
+        "论壬水",
+        "三冬壬水"
+      ],
+      "start": 32861,
+      "end": 33711,
+      "sha256": "abb4745bf688741718e5ea21fea96f9991ab80f25426ac580aee293ebac20d40",
+      "kind": "section",
+      "previousSectionId": "classic-qiongtong-2294674:section:31966",
+      "nextSectionId": "classic-qiongtong-2294674:section:33711"
+    },
+    {
+      "id": "classic-qiongtong-2294674:section:33711",
+      "bookId": "classic-qiongtong-2294674",
+      "title": "论癸水",
+      "headingLevel": 2,
+      "path": [
+        "十干分论",
+        "论癸水"
+      ],
+      "start": 33711,
+      "end": 33722,
+      "sha256": "b79afc7e87c6cee8df82fd0766de083387af62a4987f19aeee1408ce376cc889",
+      "kind": "section",
+      "previousSectionId": "classic-qiongtong-2294674:section:32861",
+      "nextSectionId": "classic-qiongtong-2294674:section:33722"
+    },
+    {
+      "id": "classic-qiongtong-2294674:section:33722",
+      "bookId": "classic-qiongtong-2294674",
+      "title": "三春癸水",
+      "headingLevel": 3,
+      "path": [
+        "十干分论",
+        "论癸水",
+        "三春癸水"
+      ],
+      "start": 33722,
+      "end": 34583,
+      "sha256": "ae24456dc13ae01608853ed7a53121685ca58fa3529a15f8675855b1e5143e5f",
+      "kind": "section",
+      "previousSectionId": "classic-qiongtong-2294674:section:33711",
+      "nextSectionId": "classic-qiongtong-2294674:section:34583"
+    },
+    {
+      "id": "classic-qiongtong-2294674:section:34583",
+      "bookId": "classic-qiongtong-2294674",
+      "title": "三夏癸水",
+      "headingLevel": 3,
+      "path": [
+        "十干分论",
+        "论癸水",
+        "三夏癸水"
+      ],
+      "start": 34583,
+      "end": 35242,
+      "sha256": "bbad65feff6b977fbb0718c95452448a51443adc4b4c358cc9cda7fa889eaac6",
+      "kind": "section",
+      "previousSectionId": "classic-qiongtong-2294674:section:33722",
+      "nextSectionId": "classic-qiongtong-2294674:section:35242"
+    },
+    {
+      "id": "classic-qiongtong-2294674:section:35242",
+      "bookId": "classic-qiongtong-2294674",
+      "title": "三秋癸水",
+      "headingLevel": 3,
+      "path": [
+        "十干分论",
+        "论癸水",
+        "三秋癸水"
+      ],
+      "start": 35242,
+      "end": 35899,
+      "sha256": "f4bc0ee90a6bc4cbeb04f61838d71d8ea3cb7ffabad0414e3c8af861cb0500ac",
+      "kind": "section",
+      "previousSectionId": "classic-qiongtong-2294674:section:34583",
+      "nextSectionId": "classic-qiongtong-2294674:section:35899"
+    },
+    {
+      "id": "classic-qiongtong-2294674:section:35899",
+      "bookId": "classic-qiongtong-2294674",
+      "title": "三冬癸水",
+      "headingLevel": 3,
+      "path": [
+        "十干分论",
+        "论癸水",
+        "三冬癸水"
+      ],
+      "start": 35899,
+      "end": 36746,
+      "sha256": "91bac64792bbe92c6b95dd7b6b62d2d90e9660d87c334324d31f45d4eeeb254f",
+      "kind": "section",
+      "previousSectionId": "classic-qiongtong-2294674:section:35242"
+    }
+  ],
+  "quality": {
+    "privateUseCharacters": [
+      {
+        "offset": 14484,
+        "codepoint": "U+E10F",
+        "character": ""
+      },
+      {
+        "offset": 16676,
+        "codepoint": "U+E509",
+        "character": ""
+      },
+      {
+        "offset": 16806,
+        "codepoint": "U+E10F",
+        "character": ""
+      },
+      {
+        "offset": 16816,
+        "codepoint": "U+E71F",
+        "character": ""
+      },
+      {
+        "offset": 16850,
+        "codepoint": "U+E10F",
+        "character": ""
+      },
+      {
+        "offset": 17008,
+        "codepoint": "U+E10F",
+        "character": ""
+      },
+      {
+        "offset": 21175,
+        "codepoint": "U+E4DF",
+        "character": ""
+      },
+      {
+        "offset": 33918,
+        "codepoint": "U+E03D",
+        "character": ""
+      },
+      {
+        "offset": 35610,
+        "codepoint": "U+E10F",
+        "character": ""
+      }
+    ],
+    "originalTranscription": true,
+    "scanCollation": false,
+    "note": "固定电子转录含9处私用区字形，保留原码点与标记，不猜字修文；未进行影印底本校勘。"
+  },
+  "coordinateConvention": "0-based Unicode codepoints; half-open [start,end); exact original UTF8 text"
+}

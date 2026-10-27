@@ -1,0 +1,31 @@
+{
+  "version": "qiongtong-2294674-initial/1.0.0",
+  "hashConvention": "sha256(JSON.stringify(fileHashes)); keys sorted by relative path",
+  "sources": [
+    {
+      "id": "bazi-monthly-qiongtong-2294674",
+      "name": "穷通宝鉴维基文库2294674版：逐月初始取用与已列条件",
+      "url": "https://zh.wikisource.org/w/index.php?title=穷通宝鉴&oldid=2294674",
+      "commit": "wikisource-revision/2294674",
+      "license": "CC-BY-SA-4.0（维基文库转录、节录及结构化映射）",
+      "files": [
+        "data/monthly-seasonal-table.json",
+        "data/monthly-seasonal-editorial.json",
+        "data/raw/monthly-seasonal-qiongtong-excerpts.json",
+        "data/raw/monthly-seasonal-qiongtong-source.json",
+        "data/raw/monthly-seasonal-ATTRIBUTION.md",
+        "data/raw/CC-BY-SA-4.0.txt"
+      ],
+      "note": "固定维基文库修订及贡献者历史。120日干×月索引，112初始句转录、8待审；共享季节段明确保留。仅3条明干/支藏/全局无丙事实谓词，旺弱/成局/从化与其余条件未实现；不继承原吉凶性格等断语，不宣称完整调候、影印校勘或已核公版权利链。",
+      "fileHashes": {
+        "data/monthly-seasonal-editorial.json": "24d81505d2bac2bbf037677b1c84ff96cff75a6298f44046ff8532d343d79b6d",
+        "data/monthly-seasonal-table.json": "71d58e5c547297feabbe44023cfb7ceed213f6582215ca21273076e98328ff48",
+        "data/raw/CC-BY-SA-4.0.txt": "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5",
+        "data/raw/monthly-seasonal-ATTRIBUTION.md": "245910a75c5590657a082b2d3eb1e56624d6fc308150dc2197d2dfda2dd07541",
+        "data/raw/monthly-seasonal-qiongtong-excerpts.json": "2d5640d4b61f82b61d6571adea25913cf8e170fac737a11fdcc3000b0749269b",
+        "data/raw/monthly-seasonal-qiongtong-source.json": "f9caea6cc60691fca6945a7440cfd34e05f89aefa069ad4b5905bd59b425e76d"
+      },
+      "sha256": "8be4158445df1cd656385232277ae654da0b78864845fc96aaa18c4d348dc2c8"
+    }
+  ]
+}

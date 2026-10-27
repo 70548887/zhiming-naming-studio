@@ -1,0 +1,18 @@
+{
+  "version": "classics-catalog/1.0.0",
+  "books": [
+    {
+      "id": "classic-ditian-2600158",
+      "sourceId": "classics-ditian-2600158-fixed",
+      "indexFile": "data/classics/ditian-2600158-index.json",
+      "indexSha256": "691bacd992af55c88c2bad58b7032b09c362732c1378a6167bd06a4997a5bb3e"
+    },
+    {
+      "id": "classic-qiongtong-2294674",
+      "sourceId": "classics-qiongtong-2294674-fixed",
+      "indexFile": "data/classics/qiongtong-2294674-index.json",
+      "indexSha256": "05b375092fbb2eb1d49d67f0fc7a28836920c75180185bab4ef5a49c2a77de00"
+    }
+  ],
+  "scope": "Fixed independent full-text library; excludes naming/session evaluation and mutable knowledge packs."
+}

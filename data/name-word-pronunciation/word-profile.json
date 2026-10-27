@@ -1,0 +1,824 @@
+{
+  "version": "name-word-pronunciation/1.0.0",
+  "scope": "exact-written-word-reference-only",
+  "records": [
+    {
+      "id": "cmn:41855:0",
+      "language": "cmn",
+      "word": "安寧",
+      "forms": [
+        "安宁",
+        "安寧"
+      ],
+      "tokens": [
+        "an1",
+        "ning2"
+      ],
+      "originalPinyin": "ān níng",
+      "definitions": [
+        {
+          "antonyms": "煩悶,煩惱,煩擾,煩躁,紛擾,動亂,混亂,攪擾,騷擾,厭煩",
+          "def": "安定平靜。",
+          "quote": [
+            "《漢書．卷八三．朱博傳》：「部刺史奉使典州，督察郡國吏民安寧。」",
+            "《紅樓夢．第七九回》：「自己身上分去責任，到底比這樣安寧些。」"
+          ],
+          "synonyms": "寧靜,和平,安定,安好,安閒,安詳,安適"
+        },
+        {
+          "def": "冬天。",
+          "quote": [
+            "《爾雅．釋天》：「秋為收成，冬為安寧。」"
+          ]
+        },
+        {
+          "def": "縣名。在雲南省昆明市西南，滇池西北。"
+        }
+      ],
+      "source": {
+        "id": "word-pronunciation-moe-137-v1",
+        "entryArrayIndex": 41855,
+        "entrySha256": "d7f49ca1507cc518bfe4f96a241e2375c9d7471f712880ef0232f124e6c5242f",
+        "readingIndex": 0,
+        "readingSha256": "4974d20e6fe36bf4f6997d241656ef3ea07e45d9263e430d7c4a25668317a889",
+        "file": "data/raw/moe-revised.json.gz"
+      },
+      "variantEvidence": [
+        {
+          "position": 1,
+          "char": "宁",
+          "target": "寧",
+          "file": "data/raw/kTraditionalVariant.txt",
+          "line": 523,
+          "rawLine": "5B81\tU+5B81 U+5BE7"
+        }
+      ],
+      "interpretation": "原词条的读音与义项参考；不自动替代姓名所选读音，也不证明名字采用此义。"
+    },
+    {
+      "id": "yue:32759",
+      "language": "yue",
+      "word": "安寧",
+      "forms": [
+        "安宁",
+        "安寧"
+      ],
+      "tokens": [
+        "on1",
+        "ning4"
+      ],
+      "originalPinyin": null,
+      "definitions": null,
+      "source": {
+        "id": "word-pronunciation-rime-137-v1",
+        "file": "data/raw/yue-reading-words.dict.yaml",
+        "line": 32759,
+        "rawLine": "安寧\ton1 ning4",
+        "lineSha256": "fb67b284b175068fff52449935652e0b91c32757ae857668fe46dc78ccd734f5"
+      },
+      "variantEvidence": [
+        {
+          "position": 1,
+          "char": "宁",
+          "target": "寧",
+          "file": "data/raw/kTraditionalVariant.txt",
+          "line": 523,
+          "rawLine": "5B81\tU+5B81 U+5BE7"
+        }
+      ],
+      "interpretation": "Rime整词音；原表未提供姓名义项，不从普通话词义推定粤语姓名语义。"
+    },
+    {
+      "id": "cmn:41928:0",
+      "language": "cmn",
+      "word": "安然",
+      "forms": [
+        "安然"
+      ],
+      "tokens": [
+        "an1",
+        "ran2"
+      ],
+      "originalPinyin": "ān rán",
+      "definitions": [
+        {
+          "def": "平安無事。",
+          "quote": [
+            "晉．郭璞〈諫留任谷宮中疏〉：「不宜令谷安然自容，肆其邪變也。」",
+            "元．王曄《桃花女．第一折》：「你今日安然，明日無事，到後日午時，合該土炕上板殭身死。」"
+          ],
+          "synonyms": "平安"
+        },
+        {
+          "def": "安定、安恬不驚奇。",
+          "quote": [
+            "《晉書．卷九．簡文帝紀》：「晞大恐，求下車，而帝安然無懼色，溫由此憚服。」",
+            "《敦煌變文集新書．卷三．降魔變文》：「見者寒毛卓竪，舍利弗獨自安然。」"
+          ]
+        }
+      ],
+      "source": {
+        "id": "word-pronunciation-moe-137-v1",
+        "entryArrayIndex": 41928,
+        "entrySha256": "c92625e4be1887d41c3c4835f794aeb033fec470dffb718349402acc7e0fb848",
+        "readingIndex": 0,
+        "readingSha256": "962f84d4dbc498407e77dff91ebdafdb881bcb2bb40aa715937aab4393d4ceec",
+        "file": "data/raw/moe-revised.json.gz"
+      },
+      "variantEvidence": [],
+      "interpretation": "原词条的读音与义项参考；不自动替代姓名所选读音，也不证明名字采用此义。"
+    },
+    {
+      "id": "yue:32751",
+      "language": "yue",
+      "word": "安然",
+      "forms": [
+        "安然"
+      ],
+      "tokens": [
+        "on1",
+        "jin4"
+      ],
+      "originalPinyin": null,
+      "definitions": null,
+      "source": {
+        "id": "word-pronunciation-rime-137-v1",
+        "file": "data/raw/yue-reading-words.dict.yaml",
+        "line": 32751,
+        "rawLine": "安然\ton1 jin4",
+        "lineSha256": "58368b767320bbb0aa94f34ca0334c6f9e3cce13725f5e52a38aa42a2e88928a"
+      },
+      "variantEvidence": [],
+      "interpretation": "Rime整词音；原表未提供姓名义项，不从普通话词义推定粤语姓名语义。"
+    },
+    {
+      "id": "cmn:41799:0",
+      "language": "cmn",
+      "word": "安和",
+      "forms": [
+        "安和"
+      ],
+      "tokens": [
+        "an1",
+        "he2"
+      ],
+      "originalPinyin": "ān hé",
+      "definitions": [
+        {
+          "antonyms": "紛擾",
+          "def": "安定平和。",
+          "quote": [
+            "《書經．周官》：「司徒掌邦教，敷五典，擾兆民。」",
+            "唐．孔穎達．正義：「司徒主國教化，布五常之教，以安和天下眾民。」",
+            "唐．元結〈夏侯岳州表〉：「公能請正寬恕，靜以理之，故其人安和而服悅，為當時法則。」"
+          ]
+        },
+        {
+          "def": "安好、平安。",
+          "quote": [
+            "唐．韓愈〈與大顛師書〉：「孟夏漸熱，惟道體安和。」"
+          ]
+        }
+      ],
+      "source": {
+        "id": "word-pronunciation-moe-137-v1",
+        "entryArrayIndex": 41799,
+        "entrySha256": "d375cbcc0c393150962fb814680d13e357801b1626760ddd5af229dd5c6aeb2e",
+        "readingIndex": 0,
+        "readingSha256": "2a952481770b143dfda03b97e7ef93e2d21bf703dc763a080fc1d3c585dbba64",
+        "file": "data/raw/moe-revised.json.gz"
+      },
+      "variantEvidence": [],
+      "interpretation": "原词条的读音与义项参考；不自动替代姓名所选读音，也不证明名字采用此义。"
+    },
+    {
+      "id": "cmn:103981:0",
+      "language": "cmn",
+      "word": "知禮",
+      "forms": [
+        "知礼",
+        "知禮"
+      ],
+      "tokens": [
+        "zhi1",
+        "li3"
+      ],
+      "originalPinyin": "zhī lǐ",
+      "definitions": [
+        {
+          "def": "通曉禮節。",
+          "quote": [
+            "《儒林外史．第一六回》：「又在外邊學得恁知禮，會打躬作揖！」",
+            "《紅樓夢．  第六六回》：「人說他不知禮，又沒眼色。」"
+          ]
+        },
+        {
+          "def": "人名。（西元960～1020)北宋高僧，俗姓金，字約言，四明（今浙江寧波）人。幼年  出家為僧，精研律典和天台宗教義。淳化二年（西元991)受請住持四明祥符寺，廣弘天台宗教法，學徒雲集。至道元年（西元995)移居保恩院。大中祥符六年（西元1013  ）創設念佛施戒會，結合僧俗萬餘人同修念佛、發菩提心。從唐會昌毀佛以來，天台宗漸趨衰微，至知禮天台宗始蔚然中興。著有《十不二門指要鈔》二卷、《四明十義書》二卷等傳世，著名弟子有尚賢、本如、梵臻等。"
+        }
+      ],
+      "source": {
+        "id": "word-pronunciation-moe-137-v1",
+        "entryArrayIndex": 103981,
+        "entrySha256": "876a98495df937d9e3874a3c7a921e1fa9e4c951ea7d5617865c272194014fe5",
+        "readingIndex": 0,
+        "readingSha256": "5e48a4bae269583fb45f8962be383ea9e5003bbfea23e38af16ad5cda0265c71",
+        "file": "data/raw/moe-revised.json.gz"
+      },
+      "variantEvidence": [
+        {
+          "position": 1,
+          "char": "礼",
+          "target": "禮",
+          "file": "data/raw/kTraditionalVariant.txt",
+          "line": 1180,
+          "rawLine": "793C\tU+793C U+79AE"
+        }
+      ],
+      "interpretation": "原词条的读音与义项参考；不自动替代姓名所选读音，也不证明名字采用此义。"
+    },
+    {
+      "id": "cmn:70510:0",
+      "language": "cmn",
+      "word": "明哲",
+      "forms": [
+        "明哲"
+      ],
+      "tokens": [
+        "ming2",
+        "zhe2"
+      ],
+      "originalPinyin": "míng zhé",
+      "definitions": [
+        {
+          "def": "明智、深明事理。",
+          "quote": [
+            "《三國志．卷一八．魏書．李通傳》：「曹公明哲，必定天下。」",
+            "《文選．陸機．演連珠五○首之一三》：「是以明哲之君，時有蔽壅之累。」"
+          ]
+        }
+      ],
+      "source": {
+        "id": "word-pronunciation-moe-137-v1",
+        "entryArrayIndex": 70510,
+        "entrySha256": "beb4ba131de21bd805b6a60da3e2c22a9f245c0f123be6294c1220be357b6f09",
+        "readingIndex": 0,
+        "readingSha256": "0b4daae64a3b4c482cef0ea63b3d9534d48a2c535e16b31ad2ce2be23fcc0021",
+        "file": "data/raw/moe-revised.json.gz"
+      },
+      "variantEvidence": [],
+      "interpretation": "原词条的读音与义项参考；不自动替代姓名所选读音，也不证明名字采用此义。"
+    },
+    {
+      "id": "cmn:70588:0",
+      "language": "cmn",
+      "word": "明月",
+      "forms": [
+        "明月"
+      ],
+      "tokens": [
+        "ming2",
+        "yue4"
+      ],
+      "originalPinyin": "míng yuè",
+      "definitions": [
+        {
+          "def": "明朗的月亮。",
+          "quote": [
+            "《文選．宋玉．神女賦》：「皎若明月舒其光，須臾之間，美貌橫生。」",
+            "《文選．陸機．擬明月何皎皎》：「安寢北堂上，明月入我牖。」"
+          ]
+        },
+        {
+          "def": "明珠。",
+          "quote": [
+            "《文選．班固．西都賦》：「隨候明月，錯落其間。」",
+            "《文選．司馬相如．上林賦》：「明月珠子，的皪江靡。」"
+          ]
+        }
+      ],
+      "source": {
+        "id": "word-pronunciation-moe-137-v1",
+        "entryArrayIndex": 70588,
+        "entrySha256": "81d11982d1fce34fd08048664b3d4326b12d984ae29b1db55036e4902fab258c",
+        "readingIndex": 0,
+        "readingSha256": "96252c1516d31beed7523c27f612441df764103846a09fe2dd1259db3cfd8ca5",
+        "file": "data/raw/moe-revised.json.gz"
+      },
+      "variantEvidence": [],
+      "interpretation": "原词条的读音与义项参考；不自动替代姓名所选读音，也不证明名字采用此义。"
+    },
+    {
+      "id": "yue:29822",
+      "language": "yue",
+      "word": "明月",
+      "forms": [
+        "明月"
+      ],
+      "tokens": [
+        "ming4",
+        "jyut6"
+      ],
+      "originalPinyin": null,
+      "definitions": null,
+      "source": {
+        "id": "word-pronunciation-rime-137-v1",
+        "file": "data/raw/yue-reading-words.dict.yaml",
+        "line": 29822,
+        "rawLine": "明月\tming4 jyut6",
+        "lineSha256": "deb49fa32992e58014df18ce4c581f615ac87d99aeb7fe53b3162532fe96e3a6"
+      },
+      "variantEvidence": [],
+      "interpretation": "Rime整词音；原表未提供姓名义项，不从普通话词义推定粤语姓名语义。"
+    },
+    {
+      "id": "cmn:53982:0",
+      "language": "cmn",
+      "word": "思齊",
+      "forms": [
+        "思齐",
+        "思齊"
+      ],
+      "tokens": [
+        "si1",
+        "qi2"
+      ],
+      "originalPinyin": "sī qí",
+      "definitions": [
+        {
+          "def": "想要與勝於自己的人齊等。",
+          "quote": [
+            "《論語．里仁》：「見賢思齊焉，見不賢而內自省也。」",
+            "《三國志．卷二五．魏書．楊阜傳》：「誠宜思齊往古聖賢之善治，總觀季世放盪之惡政。」"
+          ]
+        }
+      ],
+      "source": {
+        "id": "word-pronunciation-moe-137-v1",
+        "entryArrayIndex": 53982,
+        "entrySha256": "a8f2e92f86df7f8ab8ba3d2b202b00f26f5624c2e5e84ecb6c43b61f43ae9987",
+        "readingIndex": 0,
+        "readingSha256": "6b72082658e705b90a6a73f3fd13fc257d6bfdb1f70644a4517aa97ca72a5df4",
+        "file": "data/raw/moe-revised.json.gz"
+      },
+      "variantEvidence": [
+        {
+          "position": 1,
+          "char": "齐",
+          "target": "齊",
+          "file": "data/raw/kTraditionalVariant.txt",
+          "line": 2747,
+          "rawLine": "9F50\tU+9F4A"
+        }
+      ],
+      "interpretation": "原词条的读音与义项参考；不自动替代姓名所选读音，也不证明名字采用此义。"
+    },
+    {
+      "id": "cmn:53982:1",
+      "language": "cmn",
+      "word": "思齊",
+      "forms": [
+        "思齐",
+        "思齊"
+      ],
+      "tokens": [
+        "si1",
+        "zhai1"
+      ],
+      "originalPinyin": "sī zhāi",
+      "definitions": [
+        {
+          "def": "《詩經．大雅》的篇名。共四章。根據詩序：「思齊，文王所以聖也。」或亦指此詩亦歌文王之德，而推本言之。首章二句為：「思齊大任，文王之母。」思，語詞。齊，讀為齋，莊嚴也。"
+        }
+      ],
+      "source": {
+        "id": "word-pronunciation-moe-137-v1",
+        "entryArrayIndex": 53982,
+        "entrySha256": "a8f2e92f86df7f8ab8ba3d2b202b00f26f5624c2e5e84ecb6c43b61f43ae9987",
+        "readingIndex": 1,
+        "readingSha256": "ce69ffd53f719b6ae7e50d69085ff17235de0cc87759029ee2c35396cc6ebb16",
+        "file": "data/raw/moe-revised.json.gz"
+      },
+      "variantEvidence": [
+        {
+          "position": 1,
+          "char": "齐",
+          "target": "齊",
+          "file": "data/raw/kTraditionalVariant.txt",
+          "line": 2747,
+          "rawLine": "9F50\tU+9F4A"
+        }
+      ],
+      "interpretation": "原词条的读音与义项参考；不自动替代姓名所选读音，也不证明名字采用此义。"
+    },
+    {
+      "id": "cmn:87655:0",
+      "language": "cmn",
+      "word": "清和",
+      "forms": [
+        "清和"
+      ],
+      "tokens": [
+        "qing1",
+        "he2"
+      ],
+      "originalPinyin": "qīng hé",
+      "definitions": [
+        {
+          "def": "形容天氣晴朗和暖。",
+          "quote": [
+            "唐．韋莊〈和同年韋學士華下途中見寄〉詩：「正是清和好時節，　不堪離恨劍門西。」"
+          ]
+        },
+        {
+          "def": "昇平的景象。",
+          "quote": [
+            "《漢書．卷四十八．賈誼傳》：「海內之氣清和咸理。」",
+            "《梁書．卷五十二．止足傳．陶季直傳》：「出為冠軍司馬、東莞太守，在郡號為清和。」"
+          ]
+        }
+      ],
+      "source": {
+        "id": "word-pronunciation-moe-137-v1",
+        "entryArrayIndex": 87655,
+        "entrySha256": "092c72bb85266e563ac52c7041ba003250f5accde7c946a9bfc0f1fe0719927f",
+        "readingIndex": 0,
+        "readingSha256": "eb086e91c2097aaf7f43945d74546a13f3e862582a8f31d380c0b30bd8d8e6e2",
+        "file": "data/raw/moe-revised.json.gz"
+      },
+      "variantEvidence": [],
+      "interpretation": "原词条的读音与义项参考；不自动替代姓名所选读音，也不证明名字采用此义。"
+    },
+    {
+      "id": "cmn:87693:0",
+      "language": "cmn",
+      "word": "清揚",
+      "forms": [
+        "清扬",
+        "清揚"
+      ],
+      "tokens": [
+        "qing1",
+        "yang2"
+      ],
+      "originalPinyin": "qīng yáng",
+      "definitions": [
+        {
+          "def": "形容眉目開朗有神。《詩經．鄘風．君子偕老》：「子之清揚，揚且之顏也。」引申為對　人容貌神采的敬稱。唐．蔣防《霍小玉傳》：「今日幸會，得睹清揚。」《聊齋志異．卷　一．王六郎》：「拜識清揚，情逾骨肉。」"
+        },
+        {
+          "def": "形容聲音清亮悠揚。",
+          "quote": [
+            "《荀子．法行》：「扣之其聲清揚而遠聞，其止輟然。」"
+          ]
+        }
+      ],
+      "source": {
+        "id": "word-pronunciation-moe-137-v1",
+        "entryArrayIndex": 87693,
+        "entrySha256": "e52f5c33e5dd388246012107f10732a795771329a9d900645db8805ed28913f7",
+        "readingIndex": 0,
+        "readingSha256": "e326d8afc4c65098c637b1e0cf9f00a241001bafa1121660a1aac6d8a439b721",
+        "file": "data/raw/moe-revised.json.gz"
+      },
+      "variantEvidence": [
+        {
+          "position": 1,
+          "char": "扬",
+          "target": "揚",
+          "file": "data/raw/kTraditionalVariant.txt",
+          "line": 699,
+          "rawLine": "626C\tU+63DA"
+        }
+      ],
+      "interpretation": "原词条的读音与义项参考；不自动替代姓名所选读音，也不证明名字采用此义。"
+    },
+    {
+      "id": "cmn:71776:0",
+      "language": "cmn",
+      "word": "景行",
+      "forms": [
+        "景行"
+      ],
+      "tokens": [
+        "jing3",
+        "xing4"
+      ],
+      "originalPinyin": "jǐng xìng",
+      "definitions": [
+        {
+          "def": "偉大的德行。",
+          "quote": [
+            "《詩經．小雅．車舝》：「高山仰止，景行行止。」",
+            "漢．蔡邕〈郭泰碑〉：「于是樹碑表墓，昭銘景行。」"
+          ]
+        },
+        {
+          "def": "景仰。",
+          "quote": [
+            "《文選．顏延之．直東宮答鄭尚書詩》：「惜無丘園秀，景行彼高松。」"
+          ]
+        }
+      ],
+      "source": {
+        "id": "word-pronunciation-moe-137-v1",
+        "entryArrayIndex": 71776,
+        "entrySha256": "51ff2d9950752f4e40910109894a352216f264327511a4ed369dce9170c01acc",
+        "readingIndex": 0,
+        "readingSha256": "5439da9c73fd34b43490e829ea1c56cb538ac174cfa16f3e18a9bd9bf29fd323",
+        "file": "data/raw/moe-revised.json.gz"
+      },
+      "variantEvidence": [],
+      "interpretation": "原词条的读音与义项参考；不自动替代姓名所选读音，也不证明名字采用此义。"
+    },
+    {
+      "id": "cmn:30163:0",
+      "language": "cmn",
+      "word": "嘉禾",
+      "forms": [
+        "嘉禾"
+      ],
+      "tokens": [
+        "jia1",
+        "he2"
+      ],
+      "originalPinyin": "jiā hé",
+      "definitions": [
+        {
+          "def": "奇特美好的穀物。",
+          "quote": [
+            "《漢書．卷五八．公孫弘傳》：「甘露降，風雨時，嘉禾興。」",
+            "《三國演義．第八○回》：「自魏王即位以來，麒麟降生，鳳凰來儀，黃龍出現，嘉禾蔚生，甘露下降。」"
+          ]
+        },
+        {
+          "def": "三國時吳大帝的年號（西元232～238)。"
+        }
+      ],
+      "source": {
+        "id": "word-pronunciation-moe-137-v1",
+        "entryArrayIndex": 30163,
+        "entrySha256": "feaed46bae2d3703303b824d447903eb5b4e6a52bb5fbf6c7bc27407c0a1e4bb",
+        "readingIndex": 0,
+        "readingSha256": "a09042b985e1f843154490c239163d5ffee1f671891032e355c3d98a51d411c0",
+        "file": "data/raw/moe-revised.json.gz"
+      },
+      "variantEvidence": [],
+      "interpretation": "原词条的读音与义项参考；不自动替代姓名所选读音，也不证明名字采用此义。"
+    },
+    {
+      "id": "cmn:147868:0",
+      "language": "cmn",
+      "word": "長安",
+      "forms": [
+        "长安",
+        "長安"
+      ],
+      "tokens": [
+        "chang2",
+        "an1"
+      ],
+      "originalPinyin": "cháng ān",
+      "definitions": [
+        {
+          "def": "縣名。位於陝西省西安市南部，南依秦嶺終南山，北連渭河平原。為周朝鎬京（在西南）、秦朝咸陽（在東）、漢朝長安（在西北）的故地。清朝與咸寧同城，為陝西省治，並為西安府治。民國廢府，仍為陝西省治。經濟以農業為主，盛產小麥、稻、玉米和棉花等。名勝古蹟有紀念唐朝詩人杜甫的杜公祠、華嚴宗發源地的華嚴寺、安葬唐高僧玄奘的興教寺等。"
+        },
+        {
+          "def": "泛指京師。",
+          "quote": [
+            "唐．李白〈金陵〉詩三首之一：「晉家南渡日，此地舊長安。」",
+            "元．王實甫《西廂記．第一本．第一折》：「望眼連天，日近長安遠。」"
+          ]
+        }
+      ],
+      "source": {
+        "id": "word-pronunciation-moe-137-v1",
+        "entryArrayIndex": 147868,
+        "entrySha256": "a39a8e0d9a5996343b016b0562cd49bf0906499af78bc05fe3a2046f4a29cd00",
+        "readingIndex": 0,
+        "readingSha256": "19b3c35e6da453a21c50883afd8c0fd64f6a764a13b0e802a234756ba17b0b8f",
+        "file": "data/raw/moe-revised.json.gz"
+      },
+      "variantEvidence": [
+        {
+          "position": 0,
+          "char": "长",
+          "target": "長",
+          "file": "data/raw/kTraditionalVariant.txt",
+          "line": 2260,
+          "rawLine": "957F\tU+9577"
+        }
+      ],
+      "interpretation": "原词条的读音与义项参考；不自动替代姓名所选读音，也不证明名字采用此义。"
+    },
+    {
+      "id": "yue:5900",
+      "language": "yue",
+      "word": "長安",
+      "forms": [
+        "长安",
+        "長安"
+      ],
+      "tokens": [
+        "coeng4",
+        "on1"
+      ],
+      "originalPinyin": null,
+      "definitions": null,
+      "source": {
+        "id": "word-pronunciation-rime-137-v1",
+        "file": "data/raw/yue-reading-words.dict.yaml",
+        "line": 5900,
+        "rawLine": "長安\tcoeng4 on1",
+        "lineSha256": "bb58cd735a765cdd2e3af0c509cd064edbfd579ed4ef06189f23ba87faf4c915"
+      },
+      "variantEvidence": [
+        {
+          "position": 0,
+          "char": "长",
+          "target": "長",
+          "file": "data/raw/kTraditionalVariant.txt",
+          "line": 2260,
+          "rawLine": "957F\tU+9577"
+        }
+      ],
+      "interpretation": "Rime整词音；原表未提供姓名义项，不从普通话词义推定粤语姓名语义。"
+    },
+    {
+      "id": "cmn:147941:0",
+      "language": "cmn",
+      "word": "長樂",
+      "forms": [
+        "长乐",
+        "長樂"
+      ],
+      "tokens": [
+        "chang2",
+        "le4"
+      ],
+      "originalPinyin": "cháng lè",
+      "definitions": [
+        {
+          "def": "長久的快樂。",
+          "quote": [
+            "漢．焦延壽《易林．卷一一．夬之頤》：「雲物備故，長樂無憂。」",
+            "《韓非子．功名》：「以尊主主御忠臣，則長樂生而功名成。」"
+          ]
+        },
+        {
+          "def": "長樂宮的簡稱。參見「長樂宮」條。",
+          "quote": [
+            "《文選．班固．西都賦》：「輦路經營，脩除飛閣，自未央而連桂宮，北彌明光而亘長樂。」",
+            "《文選．任昉．齊竟陵文宣王行狀》：「故以慟極津門，感充長樂，豈徒舂人不相傾廛罷肆而已哉！」"
+          ]
+        }
+      ],
+      "source": {
+        "id": "word-pronunciation-moe-137-v1",
+        "entryArrayIndex": 147941,
+        "entrySha256": "24a3b59794d6421134e488dd6274b2e2742a98ae2f75c7b05b575d6eedbd4a36",
+        "readingIndex": 0,
+        "readingSha256": "a30053992e0389881726907d8ddc2f5841717a368d0a082918486c7d990c700d",
+        "file": "data/raw/moe-revised.json.gz"
+      },
+      "variantEvidence": [
+        {
+          "position": 0,
+          "char": "长",
+          "target": "長",
+          "file": "data/raw/kTraditionalVariant.txt",
+          "line": 2260,
+          "rawLine": "957F\tU+9577"
+        },
+        {
+          "position": 1,
+          "char": "乐",
+          "target": "樂",
+          "file": "data/raw/kTraditionalVariant.txt",
+          "line": 171,
+          "rawLine": "4E50\tU+4E50 U+6A02"
+        }
+      ],
+      "interpretation": "原词条的读音与义项参考；不自动替代姓名所选读音，也不证明名字采用此义。"
+    },
+    {
+      "id": "cmn:41908:0",
+      "language": "cmn",
+      "word": "安樂",
+      "forms": [
+        "安乐",
+        "安樂"
+      ],
+      "tokens": [
+        "an1",
+        "le4"
+      ],
+      "originalPinyin": "ān lè",
+      "definitions": [
+        {
+          "def": "安寧喜樂。",
+          "quote": [
+            "《文選．丘遲．與陳伯之書》：「當今皇帝盛明，天下安樂。」",
+            "《初刻拍案驚奇．卷一六》：「在家裡慣了，是做時便倒安樂。不做時，便要困倦。」"
+          ],
+          "synonyms": "愉逸"
+        },
+        {
+          "def": "唐代李軌的年號（西元617～619）。"
+        }
+      ],
+      "source": {
+        "id": "word-pronunciation-moe-137-v1",
+        "entryArrayIndex": 41908,
+        "entrySha256": "2b95a089606fecc2be0e0a2cc02651dd2f85c367ebdfa0969e3eb714f302cdac",
+        "readingIndex": 0,
+        "readingSha256": "888e93abfc3b8dded64ea6b598351c7cee91ef1cbf17a03a769669dd1f6fa48f",
+        "file": "data/raw/moe-revised.json.gz"
+      },
+      "variantEvidence": [
+        {
+          "position": 1,
+          "char": "乐",
+          "target": "樂",
+          "file": "data/raw/kTraditionalVariant.txt",
+          "line": 171,
+          "rawLine": "4E50\tU+4E50 U+6A02"
+        }
+      ],
+      "interpretation": "原词条的读音与义项参考；不自动替代姓名所选读音，也不证明名字采用此义。"
+    },
+    {
+      "id": "yue:32753",
+      "language": "yue",
+      "word": "安樂",
+      "forms": [
+        "安乐",
+        "安樂"
+      ],
+      "tokens": [
+        "on1",
+        "lok6"
+      ],
+      "originalPinyin": null,
+      "definitions": null,
+      "source": {
+        "id": "word-pronunciation-rime-137-v1",
+        "file": "data/raw/yue-reading-words.dict.yaml",
+        "line": 32753,
+        "rawLine": "安樂\ton1 lok6",
+        "lineSha256": "efb26253b8c04331b5bd7030d94a784f3f7045aac6e528e954add629e259b0a6"
+      },
+      "variantEvidence": [
+        {
+          "position": 1,
+          "char": "乐",
+          "target": "樂",
+          "file": "data/raw/kTraditionalVariant.txt",
+          "line": 171,
+          "rawLine": "4E50\tU+4E50 U+6A02"
+        }
+      ],
+      "interpretation": "Rime整词音；原表未提供姓名义项，不从普通话词义推定粤语姓名语义。"
+    },
+    {
+      "id": "cmn:40887:0",
+      "language": "cmn",
+      "word": "子衿",
+      "forms": [
+        "子衿"
+      ],
+      "tokens": [
+        "zi3",
+        "jin1"
+      ],
+      "originalPinyin": "zǐ jīn",
+      "definitions": [
+        {
+          "def": "學生。",
+          "quote": [
+            "《詩經．鄭風．子衿》：「青青子衿，悠悠我心。」"
+          ]
+        },
+        {
+          "def": "《詩經．鄭風》的篇名。共三章。根據詩序：「子衿，刺學校廢也。」或亦指女子思其所愛者之詩。首章二句為：「青青子衿，悠悠我心。」衿，音金，〈漢石經〉作䘳，即襟也；亦即衣領。"
+        }
+      ],
+      "source": {
+        "id": "word-pronunciation-moe-137-v1",
+        "entryArrayIndex": 40887,
+        "entrySha256": "af5b4c3e90ae0e9ebe72582f753a88ae637de420aadfd3d3b1187324551ae213",
+        "readingIndex": 0,
+        "readingSha256": "fe5e4ca247cae69ccaf68debbff6ebb212dcb90c6be973b714f333acc45fa68e",
+        "file": "data/raw/moe-revised.json.gz"
+      },
+      "variantEvidence": [],
+      "interpretation": "原词条的读音与义项参考；不自动替代姓名所选读音，也不证明名字采用此义。"
+    }
+  ],
+  "policy": [
+    "只在姓名的连续汉字边界查找已审整词，不把不相邻字连接。",
+    "词条仅为原词与特定义项读音参考；姓名读音由原已确认输入保留。",
+    "原字声调全量保留；严格与忽略声调模式分别记录是否对齐，不合并声母或韵母。",
+    "未知或缺少确认时不评估音序，不作安全、正确读法或全国使用频率结论。",
+    "不套用通用变调公式；仅呈现来源明确记录的完整词音。"
+  ]
+}

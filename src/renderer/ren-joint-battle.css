@@ -1,0 +1,6 @@
+.ren-joint-battle{margin-top:22px;padding-top:16px;border-top:1px solid var(--border,#d9e1dc)}
+.ren-joint-battle h3{font-size:1.06rem;margin:0 0 12px}.ren-joint-battle p,.ren-joint-battle li{font-size:.88rem;line-height:1.75}
+.ren-joint-state,.ren-joint-retained{padding:10px 12px;background:var(--surface-soft,#f5f4ed);border-radius:7px;color:var(--text,#304b3d)}
+.ren-joint-check{padding:15px 0;border-top:1px solid var(--border,#d9e1dc);min-width:0}.ren-joint-check header{display:flex;flex-wrap:wrap;gap:7px 16px;justify-content:space-between}.ren-joint-check h4{margin:0}.ren-joint-check header strong{font-size:.86rem}
+.ren-joint-battle details{margin:10px 0}.ren-joint-battle summary{cursor:pointer;font-size:.88rem;line-height:1.75}.ren-joint-battle summary:focus-visible{outline:2px solid var(--green,#315b49);outline-offset:3px}
+.ren-joint-battle blockquote{margin:10px 0;padding:8px 12px;border-left:2px solid var(--border,#bcc7b4);font-size:.87rem;line-height:1.8;white-space:pre-wrap}.ren-joint-battle .ren-locator{overflow-wrap:anywhere;word-break:break-word;font-size:.78rem}

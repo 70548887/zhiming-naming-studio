@@ -1,0 +1,43 @@
+{
+  "schema": "bazi-method140-source-lock/1",
+  "sources": [
+    {
+      "id": "lunar-typescript-1.8.6-facts",
+      "package": "lunar-typescript",
+      "version": "1.8.6",
+      "entrySha256": "76e490b74e9913ed94b49689b90abc688ed1e2b11456312b3eb081ec63cf2fbe",
+      "license": "MIT",
+      "scope": "Stem/branch fact tables only; no numerical strength or formation rule adopted."
+    },
+    {
+      "id": "ditian-ren-2600158-principles",
+      "url": "https://zh.wikisource.org/w/index.php?title=滴天髓闡微&oldid=2600158",
+      "sha256": "1d1a3d61c1b9a26618b41b8ead857a6b966992fdf2adabdc607a0c6cb4c8f04d",
+      "license": "CC-BY-SA-4.0",
+      "scope": "Fixed electronic transcription, principles and contexts; not scanned-edition collation."
+    },
+    {
+      "id": "qiongtong-2294674-initial-reference",
+      "url": "https://zh.wikisource.org/w/index.php?title=穷通宝鉴&oldid=2294674",
+      "rawSha256": "8ba17242f116583de2e10172e006f5ce5f74b23ccfc0bd24b886be135e9f20bd",
+      "structuredSha256": "71d58e5c547297feabbe44023cfb7ceed213f6582215ca21273076e98328ff48",
+      "license": "CC-BY-SA-4.0",
+      "scope": "Existing120 initial references,112 initial and8 needs-review; full conditional final use not asserted."
+    },
+    {
+      "id": "project-bazi-mainchain-140",
+      "origin": "project-proposal",
+      "author": "Naming Studio D01",
+      "scope": "All numerical parameters, application order, sufficient conditions and unresolved-branch policy."
+    }
+  ],
+  "dataSha256": "3ca5cd8ecba31dc188e70a664fd9f3ba91bc0d2d67822e43f5b2f03e322394d0",
+  "previousRulesSha256": "1f0bf3702fcb6fe156fa3810ba669586df386d08acc36d44047ab8374bda4520",
+  "revisionReason": "Fix A141 mixed complete/partial aggregation and implement independent strong/weak output-following action conditions. Body strength definition, cutoff and numerical coefficients unchanged.",
+  "baselineManifestSha256": "3e8f152c18a6fd4900bf92e1d0870d5b973d67371451be68514bced2dc3f09e6",
+  "entryPolicySourceContext": {
+    "start": 106188,
+    "end": 106401,
+    "sourceRawSha256": "1d1a3d61c1b9a26618b41b8ead857a6b966992fdf2adabdc607a0c6cb4c8f04d"
+  }
+}

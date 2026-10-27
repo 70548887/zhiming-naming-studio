@@ -1,0 +1,186 @@
+{
+  "schema": "M596-B04-three-finding-fix-review/1",
+  "date": "2026-10-25",
+  "status": "targeted-source-fixes-passed;two-P2-and-known-Proxy-closed",
+  "reviewedCommit": "95f2f7183d8a64cb3b724ed82d79578f4ecc315b",
+  "proxyFixParent": "46d377e",
+  "trackedFilesVerifiedAgainstCommit": [
+    {
+      "file": "src/domain/meaning-context-m460-b04-adapter.mjs",
+      "sha256": "31798981963d7677b0474d6c6968001acccfa754d771010a011ca25cb42b9e12",
+      "bytes": 4351
+    },
+    {
+      "file": "src/domain/meaning-context-m460-b04-adapter.d.mts",
+      "sha256": "4de1572e331da35dd0026912f135bf2210077650a8784763305fde680c44a815",
+      "bytes": 1422
+    },
+    {
+      "file": "tests/m564-b04-word-context-adapter.test.mjs",
+      "sha256": "728b620809ad1c37efbd9f97345c4da4e2800995b69cab17464157a351e22093",
+      "bytes": 4909
+    },
+    {
+      "file": "tests/m584-b04-dto-serialization.test.mjs",
+      "sha256": "53e2c45faa192484e5b0e517bb466f453b7f956dbb146e2ef2ea7b825f10e1fd",
+      "bytes": 1210
+    }
+  ],
+  "excludedUntrackedAuthorScript": "scripts/patch-m584-r3.cjs",
+  "closure": [
+    {
+      "finding": "M593-P2-01",
+      "status": "closed",
+      "evidence": "Explicit pinyin empty string rejects; omitted property remains available; exact confirmed bó returns available; unmarked bo returns not-covered; literal whitespace is not-covered without trimming/tone guessing."
+    },
+    {
+      "finding": "M593-P2-02",
+      "status": "closed",
+      "evidence": "Unreliable selectedPinyin and top-leveltone removed from both implementation and required declaration; all21currentdeclared option fields survive JSON. Original whole-word source.pinyin and confirmed per-position readings unchanged."
+    },
+    {
+      "finding": "ROOT-KNOWN-PROXY",
+      "status": "closed",
+      "evidence": "types.isProxy runs before plain-object inspection; input, returnedoptionProxy and nestedselectionProxy each rejected with0getPrototypeOf/ownKeys/getOwnPropertyDescriptor/get traps; revokedproxy also rejected."
+    }
+  ],
+  "actualAcceptedInputSet": [
+    {
+      "case": "explicit-empty-reading",
+      "input": {
+        "char": "渤",
+        "pinyin": ""
+      },
+      "result": "rejected"
+    },
+    {
+      "case": "omitted-reading",
+      "input": {
+        "char": "渤"
+      },
+      "result": "available",
+      "pinyin": null
+    },
+    {
+      "case": "exact-confirmed-tone",
+      "input": {
+        "char": "渤",
+        "pinyin": "bó"
+      },
+      "result": "available"
+    },
+    {
+      "case": "unmarked-reading",
+      "input": {
+        "char": "渤",
+        "pinyin": "bo"
+      },
+      "result": "not-covered",
+      "normalizedOrToneGuessed": false
+    },
+    {
+      "case": "literal-whitespace-reading",
+      "result": "not-covered",
+      "trimmedOrGuessed": false
+    },
+    {
+      "case": "explicit-null-or-undefined-field",
+      "result": "rejected; omitted property is distinct"
+    }
+  ],
+  "serializedOptionContract": {
+    "fields": 21,
+    "allDeclaredPresent": true,
+    "unreliableFieldsAbsent": true,
+    "wholeWordPinyin": "bó hǎi",
+    "confirmedPerPositionReadingsUnchanged": true,
+    "noUnmarkedNormalizationOrToneGuess": true
+  },
+  "proxy": {
+    "traps": {
+      "input": {
+        "getPrototypeOf": 0,
+        "ownKeys": 0,
+        "getOwnPropertyDescriptor": 0,
+        "get": 0
+      },
+      "option": {
+        "getPrototypeOf": 0,
+        "ownKeys": 0,
+        "getOwnPropertyDescriptor": 0,
+        "get": 0
+      },
+      "selection": {
+        "getPrototypeOf": 0,
+        "ownKeys": 0,
+        "getOwnPropertyDescriptor": 0,
+        "get": 0
+      }
+    },
+    "allTrapCountsZero": true,
+    "revokedProxyRejected": true
+  },
+  "findings": {
+    "newP1": 0,
+    "newP2": 0,
+    "openFromRequestedScope": 0
+  },
+  "evidence": {
+    "results": {
+      "file": "targeted-results.json",
+      "sha256": "685824bf52acdb4660f380948ed1d56f8ec64120c99a4b1c4d8e9700cfa7800e",
+      "bytes": 6009
+    },
+    "script": {
+      "file": "recheck.mjs",
+      "sha256": "eb6cc88cd0f8550c6fbd4c0455bd0f68b1a95debe8ee1ad05d985977f639c7ca",
+      "bytes": 6295
+    },
+    "console": {
+      "file": "recheck.log",
+      "sha256": "cb659cdb9407c81095ca4cfdac333baeaae1d2e4f259729910a2d01556541594",
+      "bytes": 237
+    }
+  },
+  "reusedEvidence": {
+    "M593Review": {
+      "file": "D:/Codex-NamingStudio-Evidence/m593-b04-review/review.json",
+      "sha256": "49515cdc17697e69c09bcf6bdd7d88f1d8130e41b8bc3e1aa4f8b7336373c35d",
+      "bytes": 8542,
+      "preserved": true
+    },
+    "M593ActualService": {
+      "file": "D:/Codex-NamingStudio-Evidence/m593-b04-review/actual-constructor-free-service.json",
+      "sha256": "f274659e950417f4f2066a73b1cedf747f2c7d3e3b3db00f126b08c0d8cd4424",
+      "bytes": 34110,
+      "preserved": true
+    },
+    "old07aDTO": {
+      "file": "D:/Codex-NamingStudio-Evidence/m593-b04-review/source-b0ee/evidence/m585-b04-real-service-dto.json",
+      "sha256": "07a746952a7894b6520328285b777966d13ad573fbf55d59f1b9a45f7fc24635",
+      "preserved": true
+    }
+  },
+  "scope": "Actualfixedadapter/JSONcontract and Proxy rejection only; no new sourcepack, no repeatedold19resources/20wordaudit/full12tests/typecheck. ExistingServicebridge remains unchanged by46d/95fcommits; this recheck directly calls the actualadapter, not nativeIPC.",
+  "approvals": {
+    "threeRequestedFixes": true,
+    "unknownM585UI": false,
+    "nativeIPC": false,
+    "productionActivation": false,
+    "runtimeRelease": false
+  },
+  "execution": {
+    "authorWrites": 0,
+    "productWrites": 0,
+    "CIWrites": 0,
+    "SQL": 0,
+    "Worker": 0,
+    "Browser": 0,
+    "network": 0,
+    "subagents": 0,
+    "appMessages": 0,
+    "StoreOrServiceConstructors": 0,
+    "fullBuild": 0,
+    "fullTypecheck": 0
+  }
+}

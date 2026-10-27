@@ -1,0 +1,46 @@
+{
+  "schema": "m1003-source-review-receipt/1",
+  "reviewId": "M1003-COVERAGE-EXACT11",
+  "result": "accepted-with-trusted-readonly-source-scope",
+  "sourceCommit": "c86600dcb9f51e02aeffa48ec74922fe983d6121",
+  "baseCommit": "b848a8cc88f12555d5cb80c0c8cf2ea435588c69",
+  "files": 11,
+  "subgroups": {
+    "coverageCore": 4,
+    "qualificationSupport": 7
+  },
+  "newP1": 0,
+  "newP2": 0,
+  "pureGroups": 5,
+  "providerFlowGroups": 4,
+  "counts": {
+    "baseMeaning": 217,
+    "supplementalAutomatic": 304,
+    "defaultIntersection": 0,
+    "defaultUnion": 521,
+    "onRequest": 60,
+    "onRequestDefaultIntersection": 0,
+    "displayMaterialUnion": 581,
+    "originalElementLabels": 257,
+    "originalUnknown": 522,
+    "formalCoverageAdded": 0
+  },
+  "reviewSha256": "ab8262ec798d912e8f1422890783ccabd9d72cdb145a27d4d176aafa0e2da766",
+  "manifestSha256": "50fa12c31371e42ef14c6101de7435087973ef03895262c4426a3a872fcc82b1",
+  "authority": {
+    "exact11MayBeReferencedForSeparateSourceRegistration": true,
+    "registrationApplied": false,
+    "srcModified": false,
+    "profileModified": false,
+    "wholeSourceClosureApproved": false,
+    "sourceBuildApproved": false,
+    "dataSemanticsNewlyApproved": false,
+    "formalCoverageAdded": 0,
+    "automaticRecommendationsApproved": false,
+    "traditionalUniqueElementsApproved": false,
+    "StoreSaveApproved": false,
+    "ServiceOrUIApproved": false,
+    "releaseApproved": false
+  },
+  "root": "D:/Codex-NamingStudio-Evidence/m1003-coverage-source-audit"
+}

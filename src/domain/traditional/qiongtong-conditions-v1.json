@@ -1,0 +1,188 @@
+{
+  "version": "qiongtong-literal-conditions/1.0.0",
+  "school": "qiongtong-wikisource-2294674",
+  "sourceId": "bazi-monthly-qiongtong-2294674",
+  "revision": "wikisource-revision/2294674",
+  "rawSha256": "8ba17242f116583de2e10172e006f5ce5f74b23ccfc0bd24b886be135e9f20bd",
+  "scanCollation": false,
+  "rules": [
+    {
+      "id": "qiong-甲-亥-geng-ding-wu-transparent",
+      "entry": "甲-亥",
+      "dayStem": "甲",
+      "monthBranch": "亥",
+      "quote": "若庚丁两透，又加戊出干",
+      "quoteSpan": {
+        "start": 4673,
+        "end": 4684,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "locator": "oldid=2294674;论甲;codepoint[4673,4684)",
+      "contextQuote": "'''十月甲木'''，庚丁为要，丙火次之。忌壬水泛身，须戊土制之。",
+      "contextSpan": {
+        "start": 4638,
+        "end": 4671,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "existingConditionId": "jia-hai-three-exposed",
+      "predicate": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "stem",
+            "stem": "庚",
+            "scope": "exposed",
+            "includeDayMaster": false,
+            "present": true
+          },
+          {
+            "kind": "stem",
+            "stem": "丁",
+            "scope": "exposed",
+            "includeDayMaster": false,
+            "present": true
+          },
+          {
+            "kind": "stem",
+            "stem": "戊",
+            "scope": "exposed",
+            "includeDayMaster": false,
+            "present": true
+          }
+        ]
+      },
+      "textReferenceUses": [
+        {
+          "stem": "庚",
+          "role": "parallel",
+          "sequence": 1,
+          "quote": "庚丁为要，丙火次之。"
+        },
+        {
+          "stem": "丁",
+          "role": "parallel",
+          "sequence": 2,
+          "quote": "庚丁为要，丙火次之。"
+        },
+        {
+          "stem": "丙",
+          "role": "support",
+          "sequence": 3,
+          "quote": "庚丁为要，丙火次之。"
+        }
+      ],
+      "actionEvaluation": "not-evaluated",
+      "limitations": [
+        "不判壬水是否泛身",
+        "不把出干条件扩展为藏干",
+        "不实现原句后的富贵断语"
+      ]
+    },
+    {
+      "id": "qiong-甲-丑-geng-transparent-ding-hidden",
+      "entry": "甲-丑",
+      "dayStem": "甲",
+      "monthBranch": "丑",
+      "quote": "庚透丁藏",
+      "quoteSpan": {
+        "start": 5080,
+        "end": 5084,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "locator": "oldid=2294674;论甲;codepoint[5080,5084)",
+      "contextQuote": "'''十二月甲木'''，天寒气冻，木性极寒，无生发之象，先用庚噼甲，方引丁火始得木火有通明之象，故丁次之。",
+      "contextSpan": {
+        "start": 5015,
+        "end": 5068,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "existingConditionId": "jia-chou-geng-exposed-ding-hidden",
+      "predicate": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "stem",
+            "stem": "庚",
+            "scope": "exposed",
+            "includeDayMaster": false,
+            "present": true
+          },
+          {
+            "kind": "stem",
+            "stem": "丁",
+            "scope": "hidden",
+            "includeDayMaster": false,
+            "present": true
+          }
+        ]
+      },
+      "textReferenceUses": [
+        {
+          "stem": "庚",
+          "role": "first",
+          "sequence": 1,
+          "quote": "先用庚噼甲，方引丁火始得木火有通明之象，故丁次之。"
+        },
+        {
+          "stem": "丁",
+          "role": "support",
+          "sequence": 2,
+          "quote": "先用庚噼甲，方引丁火始得木火有通明之象，故丁次之。"
+        }
+      ],
+      "actionEvaluation": "not-evaluated",
+      "limitations": [
+        "不判木火通明是否成局",
+        "不把藏丁当作丁透",
+        "不替换既有月别初用记录"
+      ]
+    },
+    {
+      "id": "qiong-乙-子-no-bing-anywhere",
+      "entry": "乙-子",
+      "dayStem": "乙",
+      "monthBranch": "子",
+      "quote": "干支无丙",
+      "quoteSpan": {
+        "start": 8460,
+        "end": 8464,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "locator": "oldid=2294674;论乙;codepoint[8460,8464)",
+      "contextQuote": "'''十一月乙木'''，花木寒冻，一阳来复，喜用丙火解冻，则花木有向阳之意，不宜用癸以冻花木，故耑用丙火。",
+      "contextSpan": {
+        "start": 7990,
+        "end": 8043,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "existingConditionId": "yi-zi-no-bing-anywhere",
+      "predicate": {
+        "kind": "stem",
+        "stem": "丙",
+        "scope": "any",
+        "includeDayMaster": false,
+        "present": false
+      },
+      "textReferenceUses": [
+        {
+          "stem": "丙",
+          "role": "first",
+          "sequence": 1,
+          "quote": "故耑用丙火。"
+        }
+      ],
+      "actionEvaluation": "not-evaluated",
+      "limitations": [
+        "不判断丙火强弱和解冻结果",
+        "未知时刻/日柱不作无丙结论",
+        "不把丙火候选直接用于姓名元素评分"
+      ]
+    }
+  ]
+}

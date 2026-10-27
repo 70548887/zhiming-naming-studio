@@ -1,0 +1,922 @@
+{
+  "resources": [
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/resource-manifest.json",
+      "gitBlob": "bf9af23510719693654df60892b445d8007b2563",
+      "bytes": 102645,
+      "sha256": "9a10191da1f63eac6e5efce79677748f430f3dc92ed2789df81529c507f79442"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/assets/bazi-root-feedback/1.3.2-r2/licenses/CC-BY-SA-4.0.txt",
+      "gitBlob": "7d4f96c54aa155a17387e64501c50b6a0469932c",
+      "bytes": 20137,
+      "sha256": "23ee78c8bae49cf08ea2f0c84945c66b987ebe4520881fb51b3dad4fb43d07c2"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/assets/bazi-root-feedback/1.3.2-r2/licenses/lunar-typescript-LICENSE.txt",
+      "gitBlob": "15151d3ce4226fa7829a11c9bbfbddc935cda314",
+      "bytes": 1062,
+      "sha256": "097ec7989106eb9a27b6eff71dbaf1cd6bb04a9b35b6c94b54fff0829a041a8c"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/assets/bazi-root-feedback/1.3.2-r2/resource-manifest.json",
+      "gitBlob": "5062de7f366dfec9289bde7637aeb2a86f080e96",
+      "bytes": 94589,
+      "sha256": "3d9b15e6f9963f385411a70eabcbb3ab940629bc285bea65a8ebee92c3f6c71a"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/data/cong-sha-rules.json",
+      "gitBlob": "78ae62d9e699cc94433dca1992a344b8c4d28bdb",
+      "bytes": 28249,
+      "sha256": "77f26154476bcdbc68fff0ff018e73983543103057f9b29acc5814abe08e7daa"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/data/cong-wealth-rules-v1.json",
+      "gitBlob": "0437ea0c77011058cd44389fdbfc232028488f5b",
+      "bytes": 17285,
+      "sha256": "158ca8518800cf8e3c51307189c069cd10669a40995a9722877b6edcb434f107"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/data/cong-wealth-rules.json",
+      "gitBlob": "0437ea0c77011058cd44389fdbfc232028488f5b",
+      "bytes": 17285,
+      "sha256": "158ca8518800cf8e3c51307189c069cd10669a40995a9722877b6edcb434f107"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/data/ditian-ren-table.json",
+      "gitBlob": "ceed0afdfc308a047cf461fbf3c8211527801900",
+      "bytes": 134746,
+      "sha256": "59a5e062d8bf31cec007325b94ad1788ec61f74cc3f675a0179647c9daa02995"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/data/following-restrictions-rules.json",
+      "gitBlob": "6539132dd624fa4f10b4412189a40c16ebfd7f43",
+      "bytes": 2348,
+      "sha256": "f7513ccc32b0adb0fbd7b195d8f5d7514fb8e308005e96dd5ff87aac3ce2faf7"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/data/month-authority-table.json",
+      "gitBlob": "5fa2a88084e36f79f3c7cc050c0e82a06f0d61e8",
+      "bytes": 14232,
+      "sha256": "af3fc3fad4ba4a698b452750f7ce543429cc26710d773a895160e6b5aff61ba7"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/data/monthly-seasonal-conditions-v1.json",
+      "gitBlob": "225e58790df353679f87852b0ed0e91dce04a96a",
+      "bytes": 10511,
+      "sha256": "860d78081fe714d8c9329cf7514e052183d8b9b810405cf66077d86dcab91f63"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/data/monthly-seasonal-conditions.json",
+      "gitBlob": "225e58790df353679f87852b0ed0e91dce04a96a",
+      "bytes": 10511,
+      "sha256": "860d78081fe714d8c9329cf7514e052183d8b9b810405cf66077d86dcab91f63"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/data/monthly-seasonal-table-v1.json",
+      "gitBlob": "0436147c0c4393f03d23d3864483f1e451d27db6",
+      "bytes": 172719,
+      "sha256": "71d58e5c547297feabbe44023cfb7ceed213f6582215ca21273076e98328ff48"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/data/monthly-seasonal-table.json",
+      "gitBlob": "0436147c0c4393f03d23d3864483f1e451d27db6",
+      "bytes": 172719,
+      "sha256": "71d58e5c547297feabbe44023cfb7ceed213f6582215ca21273076e98328ff48"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/data/project-application-v132-r2-policy.json",
+      "gitBlob": "9e2a0c4e37219c2d0fc2b6e31ad551715e638cec",
+      "bytes": 1956,
+      "sha256": "4046acc5223ad50d0b96e55c4a8fccddcf360a9d0f74a29a5172046216abf81f"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/data/qimen-stem-tombs-table.json",
+      "gitBlob": "5e42c9230169c92a941fd6b422802c46c8634681",
+      "bytes": 4236,
+      "sha256": "56ae5cd8e7b9cae39d49f0f4eae0da38f0995b00b5354b5ac91061a3fa8405e2"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/data/ren-actions-rules.json",
+      "gitBlob": "b2611f6b792584e7ca4b5a3835cc610d3feb3b4b",
+      "bytes": 13668,
+      "sha256": "fe6f127bfa80331c597415b54a2e3f89df156a6f7dfbe86e175b0b48e64878e0"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/data/ren-capacities-rules.json",
+      "gitBlob": "c7e22fd9895f5339ba0e4091a875d767172a0716",
+      "bytes": 8070,
+      "sha256": "65099326ddf83842d2459c005f932878a3dbbf3b41a20cdca8a02148601f3052"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/data/ren-directions-rules.json",
+      "gitBlob": "46cbd665b7ff728bda307d0ee39b4ead9eda6da1",
+      "bytes": 16240,
+      "sha256": "05d3769b91922294b8696a141010d9755a2b4dcb0e6d977a4a2eae001656f9f2"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/data/ren-joint-battle-rules.json",
+      "gitBlob": "5cf0464259b137fce816ee801dbdf9d64240e2f0",
+      "bytes": 8656,
+      "sha256": "010319e836fef2387ab420cce579315ba02cda85d95d4c1be47b16826b7482b5"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/data/ren-necessary-rules.json",
+      "gitBlob": "82f209c530292a81803547e96758fdef26871261",
+      "bytes": 3213,
+      "sha256": "1fa67230eac5293f4a1436704c6f8634e89e6ae6ca65eb74c4448a9929be3e8c"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/node_modules/lunar-typescript/LICENSE",
+      "gitBlob": "15151d3ce4226fa7829a11c9bbfbddc935cda314",
+      "bytes": 1062,
+      "sha256": "097ec7989106eb9a27b6eff71dbaf1cd6bb04a9b35b6c94b54fff0829a041a8c"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/node_modules/lunar-typescript/dist/index.mjs",
+      "gitBlob": "2411f590ea05e0be68a53f9538b8f9ff0b4e5d91",
+      "bytes": 424612,
+      "sha256": "505dc8eca166977c4e40ec883b22e871cab631811a79ad793ab8e561a2e9ad0f"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/node_modules/lunar-typescript/package.json",
+      "gitBlob": "dfdd25642c715c1c32c6e6833bb7b13918dbd401",
+      "bytes": 2188,
+      "sha256": "f66f1217e67e227f77b7a35b3c5b40d3835842856920e99ebd7e10f2d940e21c"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/package.json",
+      "gitBlob": "1e703b540fe1b35e383408c6ef4152afcc18ef43",
+      "bytes": 10973,
+      "sha256": "bcd5af7550e4cc784b653b28472e4f4c6d6291342688e717b05592c38293e202"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/scripts/build-project-application-v132-r2.d.mts",
+      "gitBlob": "fe4a6482efc15785dc2a26c541da4ce645fbfd5c",
+      "bytes": 2256,
+      "sha256": "b3e7e889cf94c314ab67279319b4b423029084238e6937ba94efbf4b9f00db47"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/scripts/build-project-application-v132-r2.mjs",
+      "gitBlob": "c5ceeadf7a2dd5e51793e8701302fffeaefe8a2f",
+      "bytes": 24768,
+      "sha256": "f90700743c4ee1fff433fe888c5da67f726a72541d8e55f2161d3128986f9ef9"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/scripts/build-root-feedback-v132-r2.d.mts",
+      "gitBlob": "d7edc3eafdabc44adb0db0d1e883b3266c41a7d6",
+      "bytes": 1237,
+      "sha256": "e9184d692145c590e1dfe85f3eadd53af8a7cd663a237078732de3b808b69c65"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/scripts/build-root-feedback-v132-r2.mjs",
+      "gitBlob": "3470587e2c5cfe8f0bcd8e66a48961305b32b9b5",
+      "bytes": 12613,
+      "sha256": "3e75c7453ba7ef619fec0a302003b462811103fcf35bf4d8a8ceb93b74ee730a"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/bazi-evidence-v1.ts",
+      "gitBlob": "b6a4d6a5fa3ca085f76274de0bab66f6a0a8b06d",
+      "bytes": 18709,
+      "sha256": "7e0db64d30349025ba6b84393e2169aaf64b97b2686f87892835cfe751623966"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/bazi-evidence-v2.ts",
+      "gitBlob": "9ad5a6f2e29682326664d86245c66313bbb47257",
+      "bytes": 16893,
+      "sha256": "5adfa856520aeee875b5729a9966a6dce1f3a55c292c0ba3a26c96ebe7a06309"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/bazi-evidence-v3.ts",
+      "gitBlob": "9db4b0d63b1a4beb4c24f29d995e4b730506c76a",
+      "bytes": 17351,
+      "sha256": "dda0ad8ca026279986c3cda527267fbac1225d3295ee6c49f6fb7ed7f8e9dd8a"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/bazi-evidence-v4.ts",
+      "gitBlob": "f009c5a6aadbfc2985c9d5ce89650aa47391c65e",
+      "bytes": 17329,
+      "sha256": "0a54c14ed910f048fb933567868e40851543ed33c0b616ec248d20da596736a3"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/bazi-evidence-v5.ts",
+      "gitBlob": "0255906460a7fad7aa5c13f6d6ce8476d9afaa96",
+      "bytes": 17832,
+      "sha256": "4a56352223a10ffdcdc5d8bf389ba6fb7dc3eeb1a017f094453eb5564419ea46"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/bazi-evidence-v6.ts",
+      "gitBlob": "dfd878d607802c9ad4125029ca64dbfb52ef7830",
+      "bytes": 18264,
+      "sha256": "a2ddacffa21204269fdd5232abc53dbc85b2d2f05f3652884242dc5fec69aaaf"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/bazi-evidence-v7.ts",
+      "gitBlob": "2275aab36dec95317c14b7e15889bed4c47c6ce6",
+      "bytes": 18297,
+      "sha256": "2de18fd2b3c5a571d686bccdb36fe5781f35d28fc9eee02c29271a9f2fc31685"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/bazi-evidence-v8.ts",
+      "gitBlob": "1c332324df3340c37f753572bf250f72203a9e67",
+      "bytes": 18388,
+      "sha256": "054d1efbc0642d553a7da8ac33a150d9db45fe3e728abc014d736d1fa0534fdf"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/bazi-evidence.ts",
+      "gitBlob": "76878d153a7c7bd7eff1e70aa8f977be8c92c562",
+      "bytes": 18370,
+      "sha256": "16ae023af5ef4cd08b2f0a2678340a0eae5ba44a1758e9937a17162b3895f500"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/bazi-legacy.ts",
+      "gitBlob": "7cb5d88030975418efe34b54df50ac2bcd82fe6a",
+      "bytes": 7870,
+      "sha256": "da99763504da9ef80ee90282dc35d0dcac47ef32e2fec5a618825f30dd4fe7b3"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/bazi-mainchain/kernel-v12-fixed/branch-intervals.ts",
+      "gitBlob": "992beb89ac77781f1a88d74db68eb25cc8c712b0",
+      "bytes": 5390,
+      "sha256": "f351e56258c0ac5eaac0c4c77f175c6a2856c35f26a80a57d4bd8e8d40c2b129"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/bazi-mainchain/kernel-v12-fixed/control-budget.ts",
+      "gitBlob": "bf842751515f0f7cf953d438cbcb64b747afca80",
+      "bytes": 16206,
+      "sha256": "4862b961b49c43252853b9213410da5971d84c1a4c6ed3c781363a704f8468be"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/bazi-mainchain/kernel-v12-fixed/numeric-interval.ts",
+      "gitBlob": "e387cdc4f4d87722cc49b8817a078a9402b94449",
+      "bytes": 2011,
+      "sha256": "5ae55a799c489ed51b459b77a96f8d14cbe2ae05c165d868aaf09bedc80b7a79"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/bazi-mainchain/kernel-v12-fixed/numeric-review.ts",
+      "gitBlob": "784aee7073f1b56c3aa2a6f80864667a63a29589",
+      "bytes": 4280,
+      "sha256": "8afe0e5405a51bc2e30484f57cf2c4325bc152695d9f7af5d37bf106db2bd930"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/bazi-mainchain/kernel-v12-fixed/resource-protection.ts",
+      "gitBlob": "def03c9ad8e95a6ce0d4e30696d3f9baad6cebf0",
+      "bytes": 8403,
+      "sha256": "ba22b4e8b13e39d0d07de14e28da79473b59f8d6bb0661a6ed42b5b0f378db62"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/bazi-mainchain/kernel-v12-fixed/rules/project-mainchain-1.2.0.json",
+      "gitBlob": "8f84f0af6bb72917684d5a2e8e326aa2d45d7c27",
+      "bytes": 25809,
+      "sha256": "3d274b797503795b80f7acb13414db783df7e1ed4fc8c3c5ae29b148b495d647"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/bazi-mainchain/kernel-v12-fixed/settled-flows.ts",
+      "gitBlob": "96555aada15269d231762740f6ed00065da46d27",
+      "bytes": 6476,
+      "sha256": "9dc98729555abab4cca1e26d1adf22b07e93bff21d0d269f8f3f285c08a8d318"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/bazi-mainchain/project-v13/consumers.ts",
+      "gitBlob": "d6e84a7f6d330b24dd8bbe5d2cff99c88f80a6a4",
+      "bytes": 37824,
+      "sha256": "463103bf37f957255740873005d8601c60c989c88f70712dcdb904b8d9569451"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/bazi-mainchain/project-v13/index.ts",
+      "gitBlob": "60fc0643fd05ee68b764f7640022fe73f0bae69b",
+      "bytes": 7357,
+      "sha256": "e09a91975ac06b98d3232db0b961e8a9a39132db3f590f5dadc8329a5138d9fb"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/bazi-mainchain/project-v13/intervention.ts",
+      "gitBlob": "71ab186fca27b2198a92f998e64ae3d03bce1db8",
+      "bytes": 4950,
+      "sha256": "478743a9336f18de082effb837d7f55706367843a345bec62ad29d2eb0c9c153"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/bazi-mainchain/project-v13/presentation.ts",
+      "gitBlob": "0c98fa20ef43b43b85065b0044a228fc78b89554",
+      "bytes": 3070,
+      "sha256": "ff0107e49fae01f033777565ff9986e8390c324dc7ddff350f53c77d26a55643"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/bazi-mainchain/project-v13/regime-protection.ts",
+      "gitBlob": "f3c305b0efd8c4c4322831e9b20d2b4651263595",
+      "bytes": 1405,
+      "sha256": "3061a1eddd72402fb8471b2ea2a966e0ce67dbcdf64b1e63d364be96f5d91cb2"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/bazi-mainchain/project-v13/root-feedback.ts",
+      "gitBlob": "ed22482506f2521bbc62735343d558ac96c8209f",
+      "bytes": 15310,
+      "sha256": "76a4100d6cfde60f0a412ee1f9ffabc3bf121f273b8db0fa84e6a24a89d002bb"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/bazi-mainchain/project-v13/rules/project-mainchain-1.3.1.json",
+      "gitBlob": "60ea568884ae97469bf8315502cb71c81d498a9f",
+      "bytes": 29731,
+      "sha256": "f35a5864d406a2217efdfe40eba891f5b5ad6a995176e883c0789be306fce648"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/bazi-mainchain/project-v13/rules/qiongtong-initial-reference.json",
+      "gitBlob": "0436147c0c4393f03d23d3864483f1e451d27db6",
+      "bytes": 172719,
+      "sha256": "71d58e5c547297feabbe44023cfb7ceed213f6582215ca21273076e98328ff48"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/bazi-mainchain/project-v13/settled-flows.ts",
+      "gitBlob": "fedf54e27927bd24542778b46e1c3dcc0107c262",
+      "bytes": 6726,
+      "sha256": "573f20bc3ce1932edd3216f54e866d6586d6a59e5b4db74a11a7e42363671775"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/bazi-mainchain/project-v132/consumers.ts",
+      "gitBlob": "6160a97f70cdcb80150e523919549f97873dc137",
+      "bytes": 37864,
+      "sha256": "9fc27fd796503c2f07b4b0d814adb25f48a71b20793e7d2b43a0813205752c00"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/bazi-mainchain/project-v132/index.ts",
+      "gitBlob": "79680909e4ee4ede12fee4223326db1d603ed7bc",
+      "bytes": 7361,
+      "sha256": "7479171a0ca50de436de987e6f31b1b8884c619955ea53d7f3bd19c7d4b09d23"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/bazi-mainchain/project-v132/intervention.ts",
+      "gitBlob": "71ab186fca27b2198a92f998e64ae3d03bce1db8",
+      "bytes": 4950,
+      "sha256": "478743a9336f18de082effb837d7f55706367843a345bec62ad29d2eb0c9c153"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/bazi-mainchain/project-v132/presentation.ts",
+      "gitBlob": "98b2dcab6d194b958fc231bf9b012982b928b0af",
+      "bytes": 10867,
+      "sha256": "82f3f2626241749216d3b67c6511b07f42a26af66f55e48afc729bec33e9890e"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/bazi-mainchain/project-v132/regime-protection.ts",
+      "gitBlob": "c9f6ea5a8daec25e47257f00c9d38177afbae693",
+      "bytes": 1405,
+      "sha256": "c8772637d2440a2781fb174fb8ff4f1cc8164f6e708a987afec92adf21971989"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/bazi-mainchain/project-v132/root-feedback.ts",
+      "gitBlob": "492821a95ceee9f9c02a99e6badbe9337c5744e5",
+      "bytes": 16800,
+      "sha256": "74ba6990d716900488ded56e3cb838e026cd516ef03aa10071a940aeba8b2675"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/bazi-mainchain/project-v132/rules/project-mainchain-1.3.2.json",
+      "gitBlob": "fc53ea147f43f74ac694d1fa6fdfc4f67d7a4050",
+      "bytes": 29731,
+      "sha256": "6991753b498f57bd09d1bdbe7795c8cf437a2c4b6720c2039799d5afac7456f3"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/bazi-mainchain/project-v132/rules/qiongtong-initial-reference.json",
+      "gitBlob": "0436147c0c4393f03d23d3864483f1e451d27db6",
+      "bytes": 172719,
+      "sha256": "71d58e5c547297feabbe44023cfb7ceed213f6582215ca21273076e98328ff48"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/bazi-mainchain/project-v132/rules/source-lock-1.3.2.json",
+      "gitBlob": "e9a3b784b7bceb6cfa963c2c90d978485f0c3e7a",
+      "bytes": 5372,
+      "sha256": "647f4e4b6ace4e65aca7d811c9cb7bb2071d0dbb7f91a7d4d258a4925b03e2ca"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/bazi-mainchain/project-v132/settled-flows.ts",
+      "gitBlob": "107afea62fb7366dae7382d6a6137001248d7483",
+      "bytes": 6726,
+      "sha256": "471ac93789932ede398bd16b8d764e2cee8a549e839f3a3e523f3d568a985394"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/bazi-root-calendar-branches.ts",
+      "gitBlob": "8e339fa49ed831838893538b30813f5999c7f235",
+      "bytes": 5558,
+      "sha256": "fd9a633c3fbb09703a8f954446e1dda47813dbad9d42f914f73df1bc764c9f11"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/bazi-v1.ts",
+      "gitBlob": "af3ae0d266f45e1747a3892816e5e64a38dd5c29",
+      "bytes": 829,
+      "sha256": "8c51a348b4ec0a30252f0595c560e8f1f259553badd6e4719c0ffffca488c9dc"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/bazi-v2.ts",
+      "gitBlob": "92055a15183a9e6e37fc1b88f224e72b7b7246db",
+      "bytes": 1009,
+      "sha256": "5674c6d9fc8996d7b57d2dee04eef13ae1f21b2b20d97fd428b3aa4e9413b2af"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/bazi-v3.ts",
+      "gitBlob": "0fd2d9b86f63219714d8de3850ed91a63bfe67a4",
+      "bytes": 1143,
+      "sha256": "f7bedb24e8ba35703479072968b56f9c8a9020f74d04c3542ba5269465f34afc"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/bazi-v4.ts",
+      "gitBlob": "2e7717319c235cfb3f93df6e4fb7646417433638",
+      "bytes": 1218,
+      "sha256": "8fd43bd81ab0a3f92e6eb0cd244cbc34da0aae31d4e571d5a4b00a998a71d172"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/bazi-v5.ts",
+      "gitBlob": "a79b68fbee2f5ce4561dd35aec37f569d655da14",
+      "bytes": 1220,
+      "sha256": "fe7678f3bd9d34b1c81061859cad76e4c19e55ca69ea1d21286dd62fd021e47e"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/bazi-v6.ts",
+      "gitBlob": "fa938c8c992d3f4c94c0f2397ad03911e9bdec24",
+      "bytes": 1189,
+      "sha256": "cb2601864c9fe56655c4975dd7f8740b842b43c3dd665f4c09cdff35109375e6"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/ditian-ren-v1.ts",
+      "gitBlob": "71c61223a01e49aa17094d25749caeb846f4b70f",
+      "bytes": 44136,
+      "sha256": "683a45bbe59ae2ee2ff15ac3e2c8b4091386cb9e40316d739fd4dc08d93303d1"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/ditian-ren-v11.ts",
+      "gitBlob": "eff3edd111a7dbe692a8ab0eb1a39e4e93aef19a",
+      "bytes": 9131,
+      "sha256": "6db422d7cd4a3e9c84997c3e7a6568323b4ac2170bfd53b13a94416685eb8770"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/ditian-ren-v12.ts",
+      "gitBlob": "1a2d7036d57c6a469d5b12c0973b95b4a3a9283b",
+      "bytes": 2556,
+      "sha256": "ebec48db65a936e5b03469340f604affc568987369556e99c8c87af656c4527a"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/ditian-ren-v13.ts",
+      "gitBlob": "48cf935c84f4b72c38401de52e5df1202483f8a7",
+      "bytes": 2340,
+      "sha256": "bd3751ebc5c43f0d17d3dca5a719ae9c5ce5d3833bfd2605c35282b8f237e3da"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/ditian-ren-v14.ts",
+      "gitBlob": "965730608cb016c25c9b6af92cb6534251f31cc2",
+      "bytes": 2355,
+      "sha256": "2b7256d64b9156277a953ec26d92dae2c9964141c8a3fdcf1185addffb7199b1"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/ditian-ren.ts",
+      "gitBlob": "a0b1532a6536dfbc3de7c27f8c811bda3f25cb08",
+      "bytes": 2369,
+      "sha256": "1d856311caf16e6c9f39be9bed228040f0473e7fc6ab0ab91cf3f5588fa6e75d"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/engine-v13.ts",
+      "gitBlob": "1c2ec8791b24ecd8ada79c9f1755ce766ae313cd",
+      "bytes": 13496,
+      "sha256": "bc893b98d96b8a59f0da565c94eb7ce81480490371f55cc90c3da57dd4c36edd"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/engine-v14.ts",
+      "gitBlob": "9084c0c9be11f873b507bb104076eb1a7387ea01",
+      "bytes": 919,
+      "sha256": "7f8b77222bd4581182fb2ea16ff04b7ed846052c098187adda1d07fed8985b20"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/engine-v7.ts",
+      "gitBlob": "5aced405043cc9a0ad0a197d5c233bb4ac7c984d",
+      "bytes": 9535,
+      "sha256": "13cf862d24d8ce9ddd3115cbeb20a964a879573128cc10a7346f9234ce699878"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/engine-v8.ts",
+      "gitBlob": "e0ac56c5d0866cfcd9537728873e910fe9148859",
+      "bytes": 12516,
+      "sha256": "7674069f81c006e703aa820287786949655b5f4d605a5aad367b27cd8f6dbc57"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/engine.ts",
+      "gitBlob": "7b0101f7b3bacdb276c8e0d31b250d8f5b77979d",
+      "bytes": 919,
+      "sha256": "908138aff9640cec08c9c471f2a5a931ece32b4033baac05304976fd64747af8"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/following-patterns-v6.ts",
+      "gitBlob": "dab007262cb6a784170da987a866e2f17633423d",
+      "bytes": 12332,
+      "sha256": "edbe47b9df8066ae0b8e24852b0a50264952a1e6e4231c44b832d7d60040ff45"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/following-patterns-v8.ts",
+      "gitBlob": "5485bfbf41948de079409890b6034f52e41d5106",
+      "bytes": 12240,
+      "sha256": "40b64497f51ed6239726581b009872f4796793bd5ef818e11a5aa3aa27edc506"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/following-patterns.ts",
+      "gitBlob": "5485bfbf41948de079409890b6034f52e41d5106",
+      "bytes": 12240,
+      "sha256": "40b64497f51ed6239726581b009872f4796793bd5ef818e11a5aa3aa27edc506"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/following-restrictions.ts",
+      "gitBlob": "79d26222824d7af3326575fe7b676e81c1bd7e94",
+      "bytes": 4508,
+      "sha256": "df68ae216d5c53859c75bf704d13e9f0af14368bd4da21f20b92d808af1f6c4e"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/following-sha-v8.ts",
+      "gitBlob": "f201667f9a853fe4073622c902763ec711893c49",
+      "bytes": 9055,
+      "sha256": "a1b16983305906e4a3a17e515557d62760d1307972329d1783b4bd1530927e2c"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/following-sha.ts",
+      "gitBlob": "c55276fa895b10d51f1fdf904de85b99a1adfe01",
+      "bytes": 9052,
+      "sha256": "ded7204024ec4561a14a80e1f2f5829eec0db8a330fe6ad84ac0cd98a8c0609f"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/month-authority-v2.ts",
+      "gitBlob": "b40bab42b4175f402a3c8add86fd10afecb8fb57",
+      "bytes": 9720,
+      "sha256": "276cb2d4c2e599667c98e5a616e5e57cd9a81072c04cfa4c79b547af853de9a4"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/month-authority-v3.ts",
+      "gitBlob": "c556d33f4366bde1ac0fbcaf717a92e3811aff84",
+      "bytes": 9736,
+      "sha256": "ec71209549f62afdbe380bb6cfc2845ceb1af5c49f2dd221fa3536c058940f97"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/month-authority-v4.ts",
+      "gitBlob": "9be825a878e1e2e836728541a1e79f89dab64fe1",
+      "bytes": 9714,
+      "sha256": "796c50758e429c272e5560543a448246dd9b470532e13085bd7a271e74079085"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/month-authority-v5.ts",
+      "gitBlob": "921f6dafdf502e89500d24e7c617838f20e28abd",
+      "bytes": 9708,
+      "sha256": "bf089de68ab7aa7aa7506f0a14ab000511a29cdd175ec6da26159fd5db7e7f28"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/month-authority-v8.ts",
+      "gitBlob": "bbbbda2bf36bfe30c4055a17f08d5f968e9979ae",
+      "bytes": 9633,
+      "sha256": "85b9cc84f93709ec2f2bfc9f718e28566579acbbebcf76d0186738e27eb6df00"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/month-authority.ts",
+      "gitBlob": "bbbbda2bf36bfe30c4055a17f08d5f968e9979ae",
+      "bytes": 9633,
+      "sha256": "85b9cc84f93709ec2f2bfc9f718e28566579acbbebcf76d0186738e27eb6df00"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/monthly-seasonal-v3.ts",
+      "gitBlob": "10716e2e2999d3b1bbc457e0aaee5b66ee319d26",
+      "bytes": 11712,
+      "sha256": "70492b9d572875a11327efce9e7a73340195d868f520746f6cbefa38d6072579"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/monthly-seasonal-v4.ts",
+      "gitBlob": "4bfb779a9c3297b311f92e4fcc91582f7ee8e9bd",
+      "bytes": 11690,
+      "sha256": "7ff91b14762ac1f48e1093fb08ed38f450b4b9073814f839514f679fcec6616e"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/monthly-seasonal-v5.ts",
+      "gitBlob": "41c0728a38a32eec2befe4a2bc782ff8ed21151e",
+      "bytes": 11684,
+      "sha256": "20fc689cc4d89949ecdbd18e2ec6f72278ebc9132d2b4e40d2f739e13690737f"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/monthly-seasonal-v8.ts",
+      "gitBlob": "476a21e61ff8209788bda5d5ec050f263a68a108",
+      "bytes": 11606,
+      "sha256": "0cfea5cf7238ec53fba79ccdb8f14848f15799022f7625e36f02ddee38a46630"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/monthly-seasonal.ts",
+      "gitBlob": "476a21e61ff8209788bda5d5ec050f263a68a108",
+      "bytes": 11606,
+      "sha256": "0cfea5cf7238ec53fba79ccdb8f14848f15799022f7625e36f02ddee38a46630"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/pattern-evidence-v8.ts",
+      "gitBlob": "be1d739da01d57da2463322278d688b2dceccbc8",
+      "bytes": 1393,
+      "sha256": "9dd2ef1969523e30f314303bb264ab749fb67aab4122e8c0302a9c6295bc7f49"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/pattern-evidence.ts",
+      "gitBlob": "c28f37f4a24eb632a0853b0c7d69ac4d5222d6fe",
+      "bytes": 1387,
+      "sha256": "f4e45047d4de9a89de73bb023f3d49e8b3923d396377ea9f2ca3b7e2328e4d21"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/qimen-markers-v8.ts",
+      "gitBlob": "a6827f0976aa8349fe888f315b9cc586c7e9bd47",
+      "bytes": 5785,
+      "sha256": "d3f226641e8de093095ab7b2875d1dbca9457aecfd302fc0f1a60098fcc4dcf6"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/qimen-markers.ts",
+      "gitBlob": "a6827f0976aa8349fe888f315b9cc586c7e9bd47",
+      "bytes": 5785,
+      "sha256": "d3f226641e8de093095ab7b2875d1dbca9457aecfd302fc0f1a60098fcc4dcf6"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/qimen-patterns-v8.ts",
+      "gitBlob": "b2921c105e285199177552d110df109f7cabba6f",
+      "bytes": 12555,
+      "sha256": "f7b2befc6ffbaa9dc335ff6ce4467982cdbf5b18a15edd983c71f480251afb4b"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/qimen-patterns.ts",
+      "gitBlob": "b2921c105e285199177552d110df109f7cabba6f",
+      "bytes": 12555,
+      "sha256": "f7b2befc6ffbaa9dc335ff6ce4467982cdbf5b18a15edd983c71f480251afb4b"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/qimen-stem-tombs-v8.ts",
+      "gitBlob": "c9cfbca9894d69c7ccde63153a1830be95f1c1be",
+      "bytes": 6272,
+      "sha256": "1cc6fb3d5a528e99c82831073e6ed8c3631f15c3bb99657f7fcf1ad921c0e7db"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/qimen-stem-tombs.ts",
+      "gitBlob": "c9cfbca9894d69c7ccde63153a1830be95f1c1be",
+      "bytes": 6272,
+      "sha256": "1cc6fb3d5a528e99c82831073e6ed8c3631f15c3bb99657f7fcf1ad921c0e7db"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/qimen-v2.ts",
+      "gitBlob": "14417686b47288707e7c94dbdd475e336d782bee",
+      "bytes": 8095,
+      "sha256": "64f2836a967e5dcf2ec6c8405d0e85da1b9fa027fe58c890f003c5d4efb9f42e"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/ren-actions.ts",
+      "gitBlob": "9df2c6fb5c0f6aa4b5de40f53fa2ebbfa7959078",
+      "bytes": 24197,
+      "sha256": "1a4f45fa2e0801025bd56cb3d557625900fe46369c262640d744ff1d9204e965"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/ren-capacities.ts",
+      "gitBlob": "7f4feb0fcc945db83132ba3dea1cde9bca1c1e13",
+      "bytes": 11603,
+      "sha256": "e215ace2d35aee1ae7c7a56b5919d2676aeb8372c20f0cc4ed8b7dc7020089a9"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/ren-dependencies.ts",
+      "gitBlob": "e7208db600eca675ebf7383d83b7f4dd4d6a8818",
+      "bytes": 8917,
+      "sha256": "154aad310b9bba1fa6fa840adfdb8d28ab5f2fadf093d41526ec92caa2753bab"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/ren-directions.ts",
+      "gitBlob": "d158f4fdbe4b89156189b25af1be76246d0efac8",
+      "bytes": 11668,
+      "sha256": "f1d04909e3577438e840ca3f0ed4ad385a537ee061fefd7fac4f19d6c0655ae0"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/ren-joint-battle.ts",
+      "gitBlob": "e681d17bf597179c7a96053ea746ad2a6fea2945",
+      "bytes": 10965,
+      "sha256": "9280ac22f54bbff1d4b9bc548ffaba7d5a52f0f17653be58867d2b765564f5dc"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/seasonal-conditions-v5.ts",
+      "gitBlob": "41b4d8a73eacb63280b5ae9a5948510974126844",
+      "bytes": 8345,
+      "sha256": "d7f36eab4eea192eb744e381ca39f1579dfcd6221325d29eab73c407043ab9da"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/seasonal-conditions-v8.ts",
+      "gitBlob": "b1b4de0962dc2eaffb23df220e751e44d97b2a97",
+      "bytes": 8267,
+      "sha256": "e0729ebc0809ca0602e4f4f9a9cf0996a9f2a14616a75051314e50203e634d87"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/domain/seasonal-conditions.ts",
+      "gitBlob": "7d9ba243cffe53465e716023879e6506f0258b96",
+      "bytes": 8264,
+      "sha256": "430eeed92ec88b3f1b7e542270a359c7054e3fbd6818ab7787e15c14caad753b"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/main/bazi-root-feedback-application.ts",
+      "gitBlob": "e972a9cec3534c2753de726487382989b4b4c9ff",
+      "bytes": 18889,
+      "sha256": "5e5ddc8189cff37acce231a4aabbe9fab169aa93bdbec72acab0759a5b886552"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/main/bazi-root-feedback-facade.ts",
+      "gitBlob": "6c70180d23a41486fa167b930924fe67c378de74",
+      "bytes": 9983,
+      "sha256": "8faec2a82c7f2dc700799a29d02bd42902e164706faca68ce9eeff29d529e56f"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/main/bazi-root-feedback-resource-pins.ts",
+      "gitBlob": "7fdedf608d5a239a91c6ee9924032ee8e1b85e6d",
+      "bytes": 206,
+      "sha256": "1afbde9fad541b4717b6ad8462058c00f42d4f0f08d994915f4676ffb1073802"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/main/bazi-root-feedback-resources.ts",
+      "gitBlob": "e0d83fa102d408467bbef5f2325b88407b786f09",
+      "bytes": 7270,
+      "sha256": "118fbdd59d9bdad263d36992188262c4666b441dd8531c39358d63810def41dd"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/main/bazi-root-feedback-v132-r2-engine.ts",
+      "gitBlob": "dbe77e73eabfe021a5a2d97c4a56356a7ede8c0d",
+      "bytes": 2421,
+      "sha256": "261f05736df5a317351d65bc6ae6075459e3195292fea757f4f8dd990d2394f4"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/main/bazi-root-feedback-v132-r2-pins.json",
+      "gitBlob": "c192b237bf738c8b1689059c5ba8417da76c095e",
+      "bytes": 53389,
+      "sha256": "e613b83ff2ff8432127ac80dcca4ca8fb968178933a007aa3f43365a39967c8b"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/main/bazi-root-feedback-v132-r2-resources.ts",
+      "gitBlob": "ce7878c44bc465670d7cf0bd787fb62e52819c56",
+      "bytes": 7459,
+      "sha256": "93ebda777ba53be2faaa957abb867cd690f3c65c21018f416224b67101ef23d9"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/main/bazi-snapshot.ts",
+      "gitBlob": "8e5d01942e82e511c11452d05a36301899eb7d6b",
+      "bytes": 4390,
+      "sha256": "04315b76af3e1336935a27ff366340519a36dc25b0d4e534e7d6728372a80abf"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/main/expected-analysis.ts",
+      "gitBlob": "d6e6fa704bb01b3bdb266150b984ea7fe90d23f8",
+      "bytes": 9094,
+      "sha256": "f8261b395edba0c9b1d68800c611128e3606ea9e3330008385668edb085381e3"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/main/project-application-v132-policy.ts",
+      "gitBlob": "8a45ff6ab18b7063e28fa4221b6397cc8922266b",
+      "bytes": 12188,
+      "sha256": "5a0086b453e106fb042ac6aa81a3caf4413de6252bb9e3e8f186655d4d7d094f"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/main/project-application-v132-r2-common.ts",
+      "gitBlob": "57f7cb5227aa75b6f9edbb3f7f404d991db13e1a",
+      "bytes": 2848,
+      "sha256": "0ea46cfd40d446356d64b26b101ccb76eb14b0fbedec8c2a89203f87038dfe79"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/main/project-application-v132-r2-json.ts",
+      "gitBlob": "d7f18c0653cdfa7435c57733c4c849ce35712534",
+      "bytes": 3085,
+      "sha256": "0df7cb5f70ed9ed648ef3c2f5d95b22b3dfd5994d039876f53cecc4893d07f29"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/main/project-application-v132-r2-resources.ts",
+      "gitBlob": "02da445e76ee3dc3cff57f672fd03f12d9f99855",
+      "bytes": 5767,
+      "sha256": "58501e37d0fceaa67e7c8b7267de7b7e271eac157249512572f16a1614a11196"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/main/project-application-v132-r2-saved.ts",
+      "gitBlob": "64126cd3fe3d128af08bf9579099c3cb31407979",
+      "bytes": 2386,
+      "sha256": "e673d16e021d578e091398a82ba19ec0f042ce2045f5858c39c0924d413c3318"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/main/project-application-v132-r2.ts",
+      "gitBlob": "8a7c5e1137b75cb2d1aa71204dc13b0cd15949ea",
+      "bytes": 10110,
+      "sha256": "2c752280202d23dd068fa3ead562357f0c533e5dcf0035ac5a8dc2e0e1ae5be8"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/main/saved-analysis-policy.ts",
+      "gitBlob": "90ce8619964370ad09b4bea84a9ab66e4d4d777d",
+      "bytes": 1322,
+      "sha256": "54969e18764a5d27447e00b93bfbbb3074fe500d277aad3d8d7d582363487e48"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/shared/apparent-solar-v8.ts",
+      "gitBlob": "1ff0d83bc807adcd4a1476f42782f0bf93827091",
+      "bytes": 8570,
+      "sha256": "0b68d8635e9bc5d214539b5a97a2c03870efc5329e1a7af8905cca079875938d"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/shared/apparent-solar.ts",
+      "gitBlob": "1ff0d83bc807adcd4a1476f42782f0bf93827091",
+      "bytes": 8570,
+      "sha256": "0b68d8635e9bc5d214539b5a97a2c03870efc5329e1a7af8905cca079875938d"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/shared/bazi-root-feedback-application.ts",
+      "gitBlob": "11bdb9b80cf1ccc488d62c614f14e48cd7a74e43",
+      "bytes": 6341,
+      "sha256": "92ce67b9f06801c0afbe93942ffa88c8c8ac24f3783db5857be129da53e99310"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/shared/bazi-root-feedback-facade.ts",
+      "gitBlob": "d3b099a5c3c39b8526b83dab260724c2667f53e4",
+      "bytes": 2672,
+      "sha256": "d4c870ce850b403ad08734905818da4d2d50788f086a5cd300aadd1aaa92b17c"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/shared/bazi-root-feedback-v132-r2-facade.ts",
+      "gitBlob": "192107d1349cd97cf83fded954a27f4f94dcaccd",
+      "bytes": 1766,
+      "sha256": "d84071ae31751754c89e40ab73da605dc3f14c070a2c181bb8c357bbca3d1d66"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/shared/bazi-root-feedback-v132.ts",
+      "gitBlob": "a77b4510603e4bd36229d609c0e467320bbfd532",
+      "bytes": 4115,
+      "sha256": "9f2529b1410da3212be3d310933427028fc8475c965a8bed269e4aef24dffe5f"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/shared/bazi-root-feedback.ts",
+      "gitBlob": "a0d2a3aaa837d35c2536253e7b2ae209340fbe7e",
+      "bytes": 2148,
+      "sha256": "68ac653c9ee11ab2852d17f164b1da47975b12353d9ef34c3e480e6cf82cf005"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/shared/birth-time-basis-v8.ts",
+      "gitBlob": "bfabbad35cfaed8064896c130b470e5241d6a510",
+      "bytes": 7744,
+      "sha256": "2fe8a4a31acbdc63551a4e2a041fc471d30121db6b96b759745aa0b311116226"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/shared/birth-time-basis.ts",
+      "gitBlob": "feef686b6d54aefa41f018b65492560803f07e25",
+      "bytes": 7741,
+      "sha256": "67e7758a342fd4382b76889d8915f02bdd2a58ae89c006d6bbbcbc66a590af92"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/shared/civil-birth-v1.ts",
+      "gitBlob": "e4035df319f4ccc1f22f7ca8df34671ea96bbb9d",
+      "bytes": 7785,
+      "sha256": "e9cd95e0d9074012862dbb16b6e57c1caef471dc3775e30dfd04613ecfdffe65"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/shared/civil-birth-v8.ts",
+      "gitBlob": "36be62293de972b13fb92eb3acdae03399d6dc44",
+      "bytes": 9047,
+      "sha256": "6f9a9f780633137f3cf3a3ca2e0a3216cce04dabb4b0d1eded63ab0969b0ccae"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/shared/civil-birth.ts",
+      "gitBlob": "36be62293de972b13fb92eb3acdae03399d6dc44",
+      "bytes": 9047,
+      "sha256": "6f9a9f780633137f3cf3a3ca2e0a3216cce04dabb4b0d1eded63ab0969b0ccae"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/shared/month-authority-method.ts",
+      "gitBlob": "95b8ab483cda70e5c99bd7f41303efa974fb14f0",
+      "bytes": 679,
+      "sha256": "6b7e225aaa93053e6fa9983aa8e448fc3a831255de6e085abbedb4ed3329879a"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/shared/plain-json.ts",
+      "gitBlob": "2c78d6471ef3ff7a1e8b8496ab9dd448c05d80d7",
+      "bytes": 1752,
+      "sha256": "0edd8fd75a2bd737040adcde26ae46bb851870c8dbc2a07ab3b25607f19f01a6"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/shared/project-application-v132-r2.ts",
+      "gitBlob": "6da68fac055a07e3e0a4d372dd65dd51382f9e81",
+      "bytes": 3586,
+      "sha256": "6ef3684c50b61f43ba9476570ea2f39aa0c2903f6e89d842bac6645f11218e23"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/shared/ren-method-v1.ts",
+      "gitBlob": "36aaeb877eb0a60a51abb864e341856dd82664a6",
+      "bytes": 530,
+      "sha256": "c5188b9e9fb15aa7766a79fe9aec7bed7c4a67ff169767f1c7a1d0869fb651ac"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/shared/ren-method.ts",
+      "gitBlob": "c5f60b2511ca1565494959f1746570f40e841825",
+      "bytes": 1087,
+      "sha256": "34feeee52938a44a22baa4088ee63a7059b254dfa748fdf46a292e578cd1e324"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/src/shared/seasonal-method.ts",
+      "gitBlob": "6dd92b81ab2e354f2f927b5278cdfe02e86407da",
+      "bytes": 535,
+      "sha256": "90287e95c9afd2688be6ec2552538753a3cdf6159b8fec6ec7821ebe1b13e156"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/execution-source/tsconfig.json",
+      "gitBlob": "e2cf79edae7cb7908059012c4d8e54618cee4d48",
+      "bytes": 368,
+      "sha256": "2388ce4e1d92d01dbf804f0c9aecbb5034136965b3e84c36bcfcd91edfedec17"
+    },
+    {
+      "path": "assets/project-naming-application/1.3.2-candidate.2/publication.json",
+      "gitBlob": "c6b30b1734e4020b25b6c7a6292e8c75cb51fae5",
+      "bytes": 58392,
+      "sha256": "1688434abace7b6b239d5d9a5f2162f2924f560cc6dd4b55de27229fac761956"
+    }
+  ]
+}

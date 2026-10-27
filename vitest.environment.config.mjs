@@ -1,0 +1,10 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+import {environmentTestSelection} from './scripts/test-environment-partition.mjs';
+const root=path.dirname(fileURLToPath(import.meta.url));
+const manifest=JSON.parse(fs.readFileSync(new URL('./tests/environment-suite-manifest.json',import.meta.url),'utf8'));
+const selected=environmentTestSelection({root,manifest,env:process.env});
+Object.assign(process.env,selected.environment);
+console.info(`[tests] Explicit environment group: ${selected.group}. This is prerequisite preflight, not actual acceptance; existing test and Store budgets are unchanged.`);
+export default {root,cacheDir:path.join(root,'.local','environment-vitest-cache'),test:{include:selected.include,exclude:['tests/fixtures/**'],maxWorkers:1}};

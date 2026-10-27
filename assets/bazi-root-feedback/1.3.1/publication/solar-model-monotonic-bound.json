@@ -1,0 +1,118 @@
+{
+  "status": "proved-within-explicit-analytic-domain",
+  "method": "analytic triangle-inequality derivative bounds; no scanning used as proof",
+  "source": {
+    "repositoryHead": "a1fff600ea04b35cd947925e49b734c07b43ad94",
+    "path": "C:/Users/Administrator/.codex/worktrees/naming-core-preview/八卦周易/src/shared/apparent-solar.ts",
+    "sha256": "0b68d8635e9bc5d214539b5a97a2c03870efc5329e1a7af8905cca079875938d",
+    "function": "noaaEquationOfTime",
+    "functionStartLine": 71,
+    "epochFunction": "calculateApparentSolarTime",
+    "epochFunctionStartLine": 93,
+    "version": "noaa-julian-century-apparent-solar/1.0.0",
+    "sourceId": "solar-time-noaa-julian-century"
+  },
+  "domain": {
+    "julianCenturyT": {"minimum": -1.1, "maximum": 1.1, "inclusive": true},
+    "businessCivilYears": {"minimum": 1900, "maximum": 2100},
+    "longitudeDegrees": {"minimum": -180, "maximum": 180, "fixedWithinEachSearch": true},
+    "inverseSearchUnit": "integer actual UTC seconds",
+    "requiredRuntimeGate": "T=(instantEpoch/86400000+2440587.5-2451545)/36525 must be in [-1.1,1.1] throughout each bracket; otherwise do not use this certificate",
+    "centuryLengthDays": 36525,
+    "epochUnit": "milliseconds"
+  },
+  "fixedFormula": {
+    "D": "pi/180 radians per degree",
+    "T": "(instantEpoch/86400000+2440587.5-2451545)/36525",
+    "e": "0.016708634 - 0.000042037*T - 0.0000001267*T^2",
+    "s": "21.448 - 46.815*T - 0.00059*T^2 + 0.001813*T^3",
+    "epsilonDegrees": "23 + 26/60 + s/3600 + 0.00256*cos(D*(125.04-1934.136*T))",
+    "epsilonRadians": "D*epsilonDegrees",
+    "y": "tan(epsilonRadians/2)^2",
+    "unwrappedL": "D*(280.46646+36000.76983*T+0.0003032*T^2)",
+    "M": "D*(357.52911+35999.05029*T-0.0001537*T^2)",
+    "F": "y*sin(2L) - 2e*sin(M) + 4e*y*sin(M)*cos(2L) - 0.5*y^2*sin(4L) - 1.25*e^2*sin(2M)",
+    "EOTMinutes": "(4*180/pi)*F",
+    "apparentSolarEpoch": "instantEpoch + longitudeDegrees*4*60000 + EOTMinutes(T)*60000",
+    "moduloJustification": "The source wraps L degrees into [0,360). All uses of L are periodic sin(2L), cos(2L), sin(4L); adding an integer multiple of 2*pi leaves these functions and their composed derivatives unchanged. Differentiate the unwrapped polynomial without treating the angle-representation wrap as an astronomical discontinuity."
+  },
+  "parameterBounds": {
+    "R": 1.1,
+    "eccentricity": {
+      "absoluteBoundExpression": "0.016708634 + R*(0.000042037 + R*0.0000001267)",
+      "absoluteUpper": 0.016755028007,
+      "coarseUpper": 0.02,
+      "derivativeBoundExpression": "0.000042037 + 2*0.0000001267*R",
+      "derivativeAbsoluteUpperPerT": 0.00004231574,
+      "derivativeCoarseUpperPerT": 0.001
+    },
+    "obliquity": {
+      "sAbsoluteBoundExpression": "21.448 + R*(46.815 + R*(0.00059 + R*0.001813))",
+      "sAbsoluteUpperArcseconds": 72.947627003,
+      "epsilonAbsoluteBoundExpressionDegrees": "23 + 26/60 + abs(s)/3600 + 0.00256",
+      "epsilonAbsoluteUpperDegrees": 23.45615656305639,
+      "epsilonAbsoluteCoarseUpperDegrees": 24,
+      "sDerivativeAbsoluteBoundExpression": "46.815 + 2*0.00059*R + 3*0.001813*R^2",
+      "sDerivativeAbsoluteUpperArcsecondsPerT": 46.82287919,
+      "epsilonDerivativeAbsoluteBoundExpressionRadiansPerT": "D*(abs(sPrime)/3600 + 0.00256*1934.136*D)",
+      "epsilonDerivativeAbsoluteUpperRadiansPerT": 0.0017352828098641684,
+      "epsilonDerivativeAbsoluteCoarseUpperRadiansPerT": 0.001736
+    },
+    "y": {
+      "analyticTrigInequality": "For abs(epsilon)/2 < 12 degrees, let x=pi/15. sin(x)<=x and cos(x)>=1-x^2/2 imply tan(x)<=x/(1-x^2/2)<0.22, using pi<22/7. Thus y<0.22^2=0.0484<0.05. This inequality does not rely on a scan or rounded tan output.",
+      "coarseAbsoluteUpper": 0.05,
+      "derivativeFormula": "yPrime = tan(epsilon/2)*sec(epsilon/2)^2*epsilonPrime",
+      "derivativeBoundExpression": "abs(tan(epsilon/2))*(1+y)*abs(epsilonPrime) < 0.22*1.05*0.001736",
+      "derivativeAbsoluteCoarseUpperPerT": 0.000401016,
+      "derivativeCoarseUpperUsedPerT": 0.01,
+      "numericTighteningForReferenceOnly": {"tanSquared12Degrees": 0.04518029190898192, "derivativeAbsoluteUpperPerT": 0.0003855103061353172}
+    },
+    "L": {
+      "derivativeBoundExpressionRadiansPerT": "D*(36000.76983+2*0.0003032*R)",
+      "derivativeAbsoluteUpperRadiansPerT": 628.3319784281836,
+      "derivativeCoarseUpperRadiansPerT": 700
+    },
+    "M": {
+      "derivativeBoundExpressionRadiansPerT": "D*(35999.05029+2*0.0001537*R)",
+      "derivativeAbsoluteUpperRadiansPerT": 628.3019610531759,
+      "derivativeCoarseUpperRadiansPerT": 700
+    }
+  },
+  "fiveTermDerivativeBounds": [
+    {"term":"y*sin(2L)","boundExpression":"abs(yPrime)+2*y*abs(LPrime)","coarseSubstitution":"0.01+2*0.05*700","upperPerT":70.01},
+    {"term":"-2e*sin(M)","boundExpression":"2*abs(ePrime)+2*e*abs(MPrime)","coarseSubstitution":"2*0.001+2*0.02*700","upperPerT":28.002},
+    {"term":"4e*y*sin(M)*cos(2L)","boundExpression":"4*(abs(ePrime)*y+e*abs(yPrime)+e*y*(abs(MPrime)+2*abs(LPrime)))","coarseSubstitution":"4*(0.001*0.05+0.02*0.01+0.02*0.05*(700+2*700))","upperPerT":8.401},
+    {"term":"-0.5*y^2*sin(4L)","boundExpression":"y*abs(yPrime)+2*y^2*abs(LPrime)","coarseSubstitution":"0.05*0.01+2*0.05^2*700","upperPerT":3.5005},
+    {"term":"-1.25*e^2*sin(2M)","boundExpression":"2.5*e*abs(ePrime)+2.5*e^2*abs(MPrime)","coarseSubstitution":"2.5*0.02*0.001+2.5*0.02^2*700","upperPerT":0.70005}
+  ],
+  "aggregate": {
+    "FPrimeAbsoluteSummedUpperPerT": 110.61355,
+    "FPrimeAbsoluteCoarseUpperPerT": 112,
+    "EOTDerivativeBoundExpressionMinutesPerActualDay": "112*(4*180/pi)/36525",
+    "EOTCoarseStrictInequality": "pi>3.14 implies 112*(720/pi)/36525 < 112*720/(3.14*36525) < 0.71",
+    "EOTDerivativeAbsoluteUpperMinutesPerActualDay": 0.7027654817757941,
+    "EOTDerivativeAbsoluteCoarseUpperMinutesPerActualDay": 0.71,
+    "apparentEpochDerivativeExpression": "dA/d(instantEpoch)=1+(dEOTMinutes/d(actualDay))/1440",
+    "apparentEpochDerivativeStrictLowerBound": 0.9995069444444444,
+    "conclusion": "For fixed longitude and T in [-1.1,1.1], the fixed formula's apparentSolarEpoch is strictly increasing in actual UTC. Every target apparent midnight has at most one crossing; bracketed integer-second lower-bound search returns the first actual second on the new apparent date."
+  },
+  "dstAndTimezone": {
+    "timezoneAffectsEpochFormula": false,
+    "reason": "timezone is used to recover/explain civilClock, timezoneOffsetMinutes, longitudeCorrectionMinutes and totalCorrectionMinutes. The returned apparentSolarEpoch is independently computed as actual UTC + fixed longitude offset + EOT. It does not add or subtract the IANA/DST offset. DST folds/gaps therefore do not break monotonicity on the actual-UTC search axis.",
+    "civilResolutionPolicyUnchanged": true
+  },
+  "adapterPostconditions": [
+    "Keep all input brackets within the certified T domain and existing supported civil-year domain.",
+    "Use fixed longitude and fixed source/version during each search.",
+    "Only search a target when f(start)<target<=f(end); retain a target equal to the original start as the start boundary rather than searching outside the interval.",
+    "After lower-bound, evaluate the original existing function at cut-1000 and cut; assert f(cut-1000)<target<=f(cut).",
+    "The new branch includes cut; the old branch ends at cut-1000, preserving the existing whole-second closed-range policy.",
+    "If a source/version/domain or bracketing assertion fails, fail explicitly instead of silently omitting a candidate."
+  ],
+  "proofScope": {
+    "astronomicalAlgorithmReimplemented": false,
+    "existingFrozenCasesModified": false,
+    "physicalObservationAccuracyClaim": false,
+    "meaning": "This is an analytic monotonicity certificate for the existing encoded formula over an explicit finite domain. It is not a physical observation error guarantee, a new astronomy implementation, or a formal libm floating-point audit. Runtime neighbor checks remain required."
+  }
+}

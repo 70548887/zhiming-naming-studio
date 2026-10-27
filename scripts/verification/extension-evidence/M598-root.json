@@ -1,0 +1,74 @@
+{
+  "auditId": "M598-root-b04-actual-mount-incremental-review",
+  "generatedAt": "2026-10-25",
+  "status": "root-b04-source-and-constructor-integration-passed-browser-pending",
+  "scope": {
+    "readOnly": true,
+    "productWrites": 0,
+    "network": 0,
+    "sql": 0,
+    "worker": 0,
+    "browser": 0,
+    "fullBuild": 0,
+    "fullRegression": 0
+  },
+  "root": {
+    "work": "D:/Codex-NamingStudio-Evidence/m587-product-integration/work",
+    "head": "ce31a530833ea1063dbc37a0e62ba0a69b1d8369",
+    "preparation": "D:/Codex-NamingStudio-Evidence/m594-root/b04-ui-preparation.json",
+    "payloads": 10,
+    "appDelta": "two imports + one independent B04 panel in knowledgeTab=characters"
+  },
+  "checks": {
+    "integratedB04Tests": {
+      "passed": 14,
+      "failed": 0,
+      "scope": [
+        "query adapter",
+        "constructor-free Service",
+        "IPC/preload/browser API/dev-plugin",
+        "DTO serialization"
+      ]
+    },
+    "fullType": {
+      "inputs": 1371,
+      "exitCode": 0,
+      "diagnostics": 0,
+      "sourceDrift": []
+    },
+    "rootMount": {
+      "route": "knowledge page / characters tab",
+      "api": "window.studio.getB04WordContextOptions guarded by hasB04WordContextApi",
+      "busyDisabled": true
+    },
+    "safety": [
+      "full-word context only",
+      "no standalone meaning adoption",
+      "no score/ranking/authority",
+      "missing POS preserved",
+      "empty/explicit pinyin handled",
+      "proxy/accessor and malformed DTO rejection",
+      "React element rendering escapes text"
+    ]
+  },
+  "findings": [],
+  "decisions": {
+    "B04RootSourceComposition": "APPROVED-FOR-SOURCE-AND-CONSTRUCTOR-TEST-SCOPE",
+    "B04IntegratedNodeTests": "APPROVED-14-PASS",
+    "fullType": "APPROVED",
+    "realBrowserHTTP": "NOT-EXECUTED",
+    "wholeAppRelease": "NOT-APPROVED"
+  },
+  "limitations": [
+    "No browser/DOM/HTTP execution for B04 mount was run.",
+    "No SQL/Worker/full build/installer/full regression.",
+    "M566/normal consumer wrapper and later root helper remain separate.",
+    "Existing M598 UI-only report remains bounded; this report covers actual unified root source and tests."
+  ],
+  "evidence": [
+    "D:/Codex-NamingStudio-Evidence/m594-root/b04-ui-preparation.json",
+    "D:/Codex-NamingStudio-Evidence/m594-root/b04-integrated-checks/result.json",
+    "D:/Codex-NamingStudio-Evidence/m594-root/b04-integrated-checks/b04-tests.log",
+    "D:/Codex-NamingStudio-Evidence/m587-product-integration/work/src/renderer/main.tsx"
+  ]
+}

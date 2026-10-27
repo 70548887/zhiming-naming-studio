@@ -1,0 +1,103 @@
+{
+  "auditId": "M573-qiongtong-clause-api-ui-independent-audit",
+  "generatedAt": "2026-10-25",
+  "status": "bounded-api-source-and-ui-ssr-pass-integration-pending",
+  "scope": {
+    "readOnly": true,
+    "productWrites": 0,
+    "network": 0,
+    "sql": 0,
+    "worker": 0,
+    "browser": 0,
+    "fullBuild": 0,
+    "fullRegression": 0
+  },
+  "api": {
+    "manifest": {
+      "file": "D:/Codex-NamingStudio-Evidence/m561-clause-api/manifest.json",
+      "sha256": "fc6d5a949193da4fc85d0ebef4e0f4662e23f3cf6064916d790a11e9b8bdee27",
+      "status": "source-and-targeted-validation-passed"
+    },
+    "method": "previewQiongtongClauseReferences(profile: BirthProfile): Promise<QiongtongClauseReferencePreview>",
+    "schemas": {
+      "previewEnvelope": "qiongtong-clause-reference-preview/1.0.0",
+      "reference": "qiongtong-literal-conditions/1.0.1",
+      "conditions": "qiongtong-literal-conditions/1.0.0"
+    },
+    "tests": {
+      "passed": 43,
+      "failed": 0,
+      "tscExitCode": 0,
+      "diagnostics": 0
+    },
+    "sourceReview": "M565 CORE snapshot reused; M561 bridge source review reports no current blockers",
+    "chain": [
+      "Service",
+      "main IPC",
+      "preload",
+      "browser API",
+      "dev middleware"
+    ],
+    "checks": [
+      "input fields and limits are validated and closed",
+      "each request reloads and verifies monthly table, raw classic text, conditions asset, quote/context spans, predicates and initialUses",
+      "sourceVerified is produced only after exact source checks",
+      "raw text remains unknown where not adjudicated; actionEvaluation/usefulGodDecision remain not-evaluated",
+      "no default score, ranking, favorable-use or naming-impact mutation",
+      "existing 79 Service members and M493 protected files unchanged"
+    ],
+    "errors": "existing JSON/HTTP/IPC error envelopes propagate unchanged"
+  },
+  "ui": {
+    "manifest": {
+      "file": "D:/Codex-NamingStudio-Evidence/m548-clause-ui/r2/manifest.json",
+      "sha256": "e13843597f651b4f501ac08b8164edb0d4cad6d1d003c121f56c7c8bb7459490",
+      "status": "result-and-minimal-request-source-types-ssr-ready-root-integration-pending"
+    },
+    "patches": [
+      "result-only patch applied",
+      "request r2 patch applied"
+    ],
+    "originalResultAndCSSUnchanged": true,
+    "newSSR": {
+      "passed": 4,
+      "failed": 0,
+      "scope": "new request component and schema compatibility cases"
+    },
+    "typecheck": {
+      "exitCode": 0,
+      "diagnostics": 0
+    },
+    "checks": [
+      "preview envelope 1.0.0, CORE reference 1.0.1 and conditions asset 1.0.0 stay separate",
+      "explicit read action; no profile send during render",
+      "missing capability and host busy stay disabled",
+      "stale request guards key/profile/API/epoch and drops old replies",
+      "UI displays unknown/not-evaluated and source spans without recalculating conditions",
+      "no score, ranking, generation or production activation"
+    ]
+  },
+  "findings": [],
+  "limitations": [
+    "Actual Chromium DOM and HTTP execution were not run.",
+    "Actual App main mounting was not run.",
+    "The original 10 UI SSR cases were not rerun; only 4 new r2 SSR cases were executed.",
+    "No Store/SQL/Worker/native/full build/full regression was run.",
+    "M561 does not establish whole-application acceptance."
+  ],
+  "decisions": {
+    "apiSourceAndTargetedTests": "APPROVED-FOR-BOUNDED-SOURCE-AND-TARGETED-SCOPE",
+    "uiSSRAndTypes": "APPROVED-FOR-BOUNDED-SSR-TYPES-SCOPE",
+    "rootIntegration": "PENDING",
+    "wholeApplication": "NOT-APPROVED",
+    "productionRelease": "NOT-APPROVED"
+  },
+  "evidence": [
+    "D:/Codex-NamingStudio-Evidence/m561-clause-api/manifest.json",
+    "D:/Codex-NamingStudio-Evidence/m561-clause-api/evidence/targeted-tests.json",
+    "D:/Codex-NamingStudio-Evidence/m565-source-snapshot-review/review.json",
+    "D:/Codex-NamingStudio-Evidence/m548-clause-ui/r2/manifest.json",
+    "D:/Codex-NamingStudio-Evidence/m548-clause-ui/r2/ssr-request-r1.json",
+    "D:/Codex-NamingStudio-Evidence/m548-clause-ui/r2/patch-check.json"
+  ]
+}

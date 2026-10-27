@@ -1,0 +1,56 @@
+{
+  "schema": "m925-reviewable-qiongtong-source-group-pins/1",
+  "commit": "b6773530ef941d48b72a451f5d7ab5831abe074a",
+  "review": {
+    "file": "REVIEW.json",
+    "bytes": 16759,
+    "sha256": "5aab8d7a9a5b4cedfd8495b14403d308c86db53b968b48cba2398f2ca6d1f285"
+  },
+  "files": [
+    {
+      "kind": "primary",
+      "file": "src/main/qiongtong-clause-reference-preview.ts",
+      "bytes": 9152,
+      "sha256": "be3617edf79519ce64d80b71323a39b621c1f477937cc2f181a07bfdf171ba44"
+    },
+    {
+      "kind": "primary",
+      "file": "src/shared/qiongtong-clause-reference-preview.ts",
+      "bytes": 2149,
+      "sha256": "107de7ed7fb2a14cca5d7c133f510cede907a58604c0eb784290c1628ee42324"
+    },
+    {
+      "kind": "primary",
+      "file": "src/renderer/qiongtong-clause-preview-bindings.ts",
+      "bytes": 5857,
+      "sha256": "5b745356ed7bc94a5eefd5815bec39e9e62fab4be25434970e28b3e9ffea4e12"
+    },
+    {
+      "kind": "ui",
+      "file": "src/renderer/QiongtongClausePreviewPanel.tsx",
+      "bytes": 5810,
+      "sha256": "2119015eaed08c2570d4f93af13c4322e9dac1d711ff8d0b51c9c82351a3e6c1"
+    },
+    {
+      "kind": "ui",
+      "file": "src/renderer/QiongtongClauseReferenceView.tsx",
+      "bytes": 6093,
+      "sha256": "731bcf4ee04da3654728aeabf4d14b4966dacf363e56cd001a9e7b2cfd5111b8"
+    },
+    {
+      "kind": "ui",
+      "file": "src/renderer/QiongtongJiaChapterView.tsx",
+      "bytes": 4891,
+      "sha256": "b46a022dd52234e5e3f0c1f5fdaaf9cae6d33042b0b3848edec2afa38312f8d9"
+    },
+    {
+      "kind": "ui",
+      "file": "src/renderer/QiongtongClauseReferenceView.css",
+      "bytes": 3067,
+      "sha256": "2ba8ea20ee4c8406200d9258d8e98525bfdbb451e32a26f2d02728a1c5713a61"
+    }
+  ],
+  "sourceBuildApproved": false,
+  "activation": "off",
+  "registrationApplied": false
+}

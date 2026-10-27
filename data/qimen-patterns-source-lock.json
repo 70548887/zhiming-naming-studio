@@ -1,0 +1,48 @@
+{
+  "version": "zhuanpan-structural-patterns/1.0.0",
+  "hashConvention": "sha256(JSON.stringify(fileHashes)); fileHashes keys sorted by relative path",
+  "sources": [
+    {
+      "id": "qimen-arc-structural-patterns",
+      "name": "转盘结构辅助表与分歧：arc119226/qimen_dunjia固定源码",
+      "url": "https://github.com/arc119226/qimen_dunjia",
+      "commit": "7d941031d685d818d9fd234edf891dba5bd6a323",
+      "license": "MIT",
+      "files": [
+        "data/raw/qimen-patterns-arc-patterns.js",
+        "data/raw/qimen-patterns-arc-constants.js",
+        "data/raw/qimen-patterns-arc-calculations.js",
+        "data/raw/qimen-patterns-arc-utils.js",
+        "data/raw/qimen-patterns-arc-test.js",
+        "data/raw/qimen-patterns-arc-LICENSE.txt"
+      ],
+      "note": "patterns.js门克宫13对、宽式六仪击刑、乙坤丙乾丁艮三奇表；丁乾另派保留不采用。低层盘函数以显式局数测试，不继承其每120小时换元。星门整层原位/对宫为明确软件结构定义；古籍引文为上游转录，未校核原页。",
+      "sha256": "9b084df11194051310aa04da728af6415fb4c7d3ff331b802ea749d5016fbffb",
+      "fileHashes": {
+        "data/raw/qimen-patterns-arc-LICENSE.txt": "755492b998c35531be98e6af2f8f0ec8ff11281568b3d3a319d43f246f998147",
+        "data/raw/qimen-patterns-arc-calculations.js": "1915f79a22978c2824c527e30a2f84ac512895f232f11b43ce80e9caaecfc10d",
+        "data/raw/qimen-patterns-arc-constants.js": "7dc6e2470862c5bf418020ac3aeb771936abb7e47549b426892578656ad86592",
+        "data/raw/qimen-patterns-arc-patterns.js": "ecfa15302bbb715e51d6a9c27ce594c02d0c06cb92dd40bd67eae42e0a12f9f3",
+        "data/raw/qimen-patterns-arc-test.js": "a373105f0cc6702717f922c510d8a99db429b30d24f42209abb0b16af2bc2021",
+        "data/raw/qimen-patterns-arc-utils.js": "2add29d5018ece7d755103a041205bee3075b9ec4b6fd56020c3827baf9a2e86"
+      }
+    },
+    {
+      "id": "qimen-go-structural-patterns",
+      "name": "击刑对照、星门本位及入墓异表：deminzhang/qimen-go固定源码",
+      "url": "https://github.com/deminzhang/qimen-go",
+      "commit": "4d3f58fa0f401b5b3a337f119138e99e90685dda",
+      "license": "MIT",
+      "files": [
+        "data/raw/qimen-patterns-go-qimen_defs.go",
+        "data/raw/qimen-patterns-go-LICENSE.txt"
+      ],
+      "note": "xuan/qimen_defs.go StarHome/DoorHome及QM6YiJiXing交叉核对；QMTomb乙戌与本版本乙坤不同，不作一致来源，不混入三奇表。多盘式工程；不继承其整盘或取法。",
+      "sha256": "dd6425990d670a6b7ee0dfdbeb68dd99793dcb3e2307d308c701bba77d634e4f",
+      "fileHashes": {
+        "data/raw/qimen-patterns-go-LICENSE.txt": "cfdb13c1a086ecc3f498b6a75a65d1dab3d93072c58efd26d383db776749b996",
+        "data/raw/qimen-patterns-go-qimen_defs.go": "bacb7684160cb0d4297e1a13fb3674c7eebf56183fea2e7a5c12bb18a7dd47ac"
+      }
+    }
+  ]
+}

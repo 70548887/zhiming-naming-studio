@@ -1,0 +1,23 @@
+{
+  "version": "mps-2021-registered-newborn-given-name-top10-per-sex/1.0.0",
+  "hashConvention": "sha256(JSON.stringify(fileHashes)); sorted relative path keys",
+  "sources": [
+    {
+      "id": "official-name-popularity-mps-2021-fixed",
+      "name": "公安部2021已登记新生儿给名热榜 · 20项事实参考",
+      "url": "https://gat.hunan.gov.cn/gat/jwgk/jwzx/gabyw/202201/t20220126_22471460.html",
+      "commit": "official-republication-sha256:ba66436cb672da2f428b5f201a380049f9c445bb70ccdace84f50592129f18d8;mps-2021-registered-newborn-given-name-top10-per-sex/1.0.0",
+      "license": "Factual entries with attribution; original report open license not stated",
+      "files": [
+        "data/official-name-popularity-NOTICE.md",
+        "data/official-name-popularity.json"
+      ],
+      "sha256": "712bf462b5e238cc035f0515b36a4e9cacca0712563a3bfa9facfcff772740f8",
+      "note": "仅含自行结构化20项事实与来源摘要，不含原HTML/原图；2021出生且年末已登记，给名非全名，未列不是0，不参与评分或生成时来源快照。",
+      "fileHashes": {
+        "data/official-name-popularity-NOTICE.md": "b8ece54fed1c3b15ddf25a695449b9cd87cc3301940b5e97f0455961f5220a20",
+        "data/official-name-popularity.json": "39f58bf3aa92864f902b3e0a7719ef771184afffed44e6ed151959363c76c80c"
+      }
+    }
+  ]
+}

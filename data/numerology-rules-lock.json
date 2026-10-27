@@ -1,0 +1,6 @@
+{
+  "version": "2026.10.18.1",
+  "outputSha256": "3b9c22acade522ca635b06b140891816bc1c8590781f26659ff8185c60cd2f60",
+  "sourceCommit": "e93e1f39cd89dedb2f45031f6e7592f2e77623a0",
+  "note": "固定开源规则文件完整性；与原始81短分类逐项比对见构建校验"
+}

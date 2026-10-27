@@ -1,0 +1,2066 @@
+[
+  {
+    "word": "衛生巾",
+    "recordLine": 248352,
+    "cmn": [
+      {
+        "tokens": [
+          "wei4",
+          "sheng1",
+          "jin1"
+        ],
+        "soundIndex": 0
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "wai6",
+          "sang1",
+          "gan1"
+        ],
+        "soundIndex": 2,
+        "rimeLine": 70365
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "狐狸精",
+    "recordLine": 71054,
+    "cmn": [
+      {
+        "tokens": [
+          "hu2",
+          "li5",
+          "jing1"
+        ],
+        "soundIndex": 0
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "wu4",
+          "lei4",
+          "zing1"
+        ],
+        "soundIndex": 2,
+        "rimeLine": 70729
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "變態",
+    "recordLine": 23731,
+    "cmn": [
+      {
+        "tokens": [
+          "bian4",
+          "tai4"
+        ],
+        "soundIndex": 0
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "bin3",
+          "taai3"
+        ],
+        "soundIndex": 2,
+        "rimeLine": 1804
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "死人",
+    "recordLine": 118096,
+    "cmn": [
+      {
+        "tokens": [
+          "si3",
+          "ren2"
+        ],
+        "soundIndex": 0
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "sei2",
+          "jan4"
+        ],
+        "soundIndex": 3,
+        "rimeLine": 36262
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "賤人",
+    "recordLine": 250087,
+    "cmn": [
+      {
+        "tokens": [
+          "jian4",
+          "ren2"
+        ],
+        "soundIndex": 0
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "zin6",
+          "jan4"
+        ],
+        "soundIndex": 2,
+        "rimeLine": 46166
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "衰人",
+    "recordLine": 260091,
+    "cmn": [],
+    "yue": [
+      {
+        "tokens": [
+          "seoi1",
+          "jan4"
+        ],
+        "soundIndex": 0,
+        "rimeLine": 36451
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "傻瓜",
+    "recordLine": 15082,
+    "cmn": [
+      {
+        "tokens": [
+          "sha3",
+          "gua1"
+        ],
+        "soundIndex": 0
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "so4",
+          "gwaa1"
+        ],
+        "soundIndex": 2,
+        "rimeLine": 38553
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "廢柴",
+    "recordLine": 261124,
+    "cmn": [
+      {
+        "tokens": [
+          "fei4",
+          "chai2"
+        ],
+        "soundIndex": 0
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "fai3",
+          "caai4"
+        ],
+        "soundIndex": 2,
+        "rimeLine": 10739
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "鼻涕",
+    "recordLine": 21734,
+    "cmn": [
+      {
+        "tokens": [
+          "bi2",
+          "ti4"
+        ],
+        "soundIndex": 0
+      },
+      {
+        "tokens": [
+          "bi2",
+          "ti5"
+        ],
+        "soundIndex": 9
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "bei6",
+          "tai3"
+        ],
+        "soundIndex": 3,
+        "rimeLine": 1560
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "瘟疫",
+    "recordLine": 179776,
+    "cmn": [
+      {
+        "tokens": [
+          "wen1",
+          "yi4"
+        ],
+        "soundIndex": 0
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "wan1",
+          "jik6"
+        ],
+        "soundIndex": 2,
+        "rimeLine": 42627
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "豬頭",
+    "recordLine": 250775,
+    "cmn": [
+      {
+        "tokens": [
+          "zhu1",
+          "tou2"
+        ],
+        "soundIndex": 0
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "zyu1",
+          "tau4"
+        ],
+        "soundIndex": 2,
+        "rimeLine": 48184
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "仆街",
+    "recordLine": 445,
+    "cmn": [],
+    "yue": [
+      {
+        "tokens": [
+          "puk1",
+          "gaai1"
+        ],
+        "soundIndex": 0,
+        "rimeLine": 33994
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "下流",
+    "recordLine": 108207,
+    "cmn": [
+      {
+        "tokens": [
+          "xia4",
+          "liu2"
+        ],
+        "soundIndex": 0
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "haa6",
+          "lau4"
+        ],
+        "soundIndex": 2,
+        "rimeLine": 17424
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "下流",
+    "recordLine": 108208,
+    "cmn": [
+      {
+        "tokens": [
+          "xia4",
+          "liu2"
+        ],
+        "soundIndex": 0
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "haa6",
+          "lau4"
+        ],
+        "soundIndex": 2,
+        "rimeLine": 17424
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "老千",
+    "recordLine": 245549,
+    "cmn": [
+      {
+        "tokens": [
+          "lao3",
+          "qian1"
+        ],
+        "soundIndex": 0
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "lou5",
+          "cin1"
+        ],
+        "soundIndex": 2,
+        "rimeLine": 27872
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "流氓",
+    "recordLine": 206,
+    "cmn": [
+      {
+        "tokens": [
+          "liu2",
+          "mang2"
+        ],
+        "soundIndex": 0
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "lau4",
+          "man4"
+        ],
+        "soundIndex": 3,
+        "rimeLine": 26408
+      },
+      {
+        "tokens": [
+          "lau4",
+          "mong4"
+        ],
+        "soundIndex": 4,
+        "rimeLine": 26414
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "流氓",
+    "recordLine": 207,
+    "cmn": [
+      {
+        "tokens": [
+          "liu2",
+          "mang2"
+        ],
+        "soundIndex": 0
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "lau4",
+          "man4"
+        ],
+        "soundIndex": 3,
+        "rimeLine": 26408
+      },
+      {
+        "tokens": [
+          "lau4",
+          "mong4"
+        ],
+        "soundIndex": 4,
+        "rimeLine": 26414
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "孤寒",
+    "recordLine": 50800,
+    "cmn": [
+      {
+        "tokens": [
+          "gu1",
+          "han2"
+        ],
+        "soundIndex": 0
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "gu1",
+          "hon4"
+        ],
+        "soundIndex": 2,
+        "rimeLine": 15887
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "貪污",
+    "recordLine": 151435,
+    "cmn": [
+      {
+        "tokens": [
+          "tan1",
+          "wu1"
+        ],
+        "soundIndex": 0
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "taam1",
+          "wu1"
+        ],
+        "soundIndex": 3,
+        "rimeLine": 39858
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "倒霉",
+    "recordLine": 41743,
+    "cmn": [
+      {
+        "tokens": [
+          "dao3",
+          "mei2"
+        ],
+        "soundIndex": 0
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "dou2",
+          "mui4"
+        ],
+        "soundIndex": 3,
+        "rimeLine": 9529
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "囂張",
+    "recordLine": 154803,
+    "cmn": [
+      {
+        "tokens": [
+          "xiao1",
+          "zhang1"
+        ],
+        "soundIndex": 0
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "hiu1",
+          "zoeng1"
+        ],
+        "soundIndex": 2,
+        "rimeLine": 19166
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "奸商",
+    "recordLine": 79726,
+    "cmn": [
+      {
+        "tokens": [
+          "jian1",
+          "shang1"
+        ],
+        "soundIndex": 0
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "gaan1",
+          "soeng1"
+        ],
+        "soundIndex": 2,
+        "rimeLine": 13031
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "爛賭",
+    "recordLine": 263504,
+    "cmn": [],
+    "yue": [
+      {
+        "tokens": [
+          "laan6",
+          "dou2"
+        ],
+        "soundIndex": 0,
+        "rimeLine": 25883
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "懶惰",
+    "recordLine": 87711,
+    "cmn": [
+      {
+        "tokens": [
+          "lan3",
+          "duo4"
+        ],
+        "soundIndex": 0
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "laan5",
+          "do6"
+        ],
+        "soundIndex": 3,
+        "rimeLine": 25865
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "大話",
+    "recordLine": 39250,
+    "cmn": [
+      {
+        "tokens": [
+          "da4",
+          "hua4"
+        ],
+        "soundIndex": 0
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "daai6",
+          "waa6"
+        ],
+        "soundIndex": 2,
+        "rimeLine": 7454
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "粗口",
+    "recordLine": 204,
+    "cmn": [
+      {
+        "tokens": [
+          "cu1",
+          "kou3"
+        ],
+        "soundIndex": 0
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "cou1",
+          "hau2"
+        ],
+        "soundIndex": 2,
+        "rimeLine": 6236
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "誤導",
+    "recordLine": 249305,
+    "cmn": [
+      {
+        "tokens": [
+          "wu4",
+          "dao3"
+        ],
+        "soundIndex": 0
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "ng6",
+          "dou6"
+        ],
+        "soundIndex": 2,
+        "rimeLine": 31347
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "失禮",
+    "recordLine": 118276,
+    "cmn": [
+      {
+        "tokens": [
+          "shi1",
+          "li3"
+        ],
+        "soundIndex": 0
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "sat1",
+          "lai5"
+        ],
+        "soundIndex": 2,
+        "rimeLine": 35525
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "嫌棄",
+    "recordLine": 196690,
+    "cmn": [
+      {
+        "tokens": [
+          "xian2",
+          "qi4"
+        ],
+        "soundIndex": 0
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "jim4",
+          "hei3"
+        ],
+        "soundIndex": 2,
+        "rimeLine": 22345
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "無情",
+    "recordLine": 118896,
+    "cmn": [
+      {
+        "tokens": [
+          "wu2",
+          "qing2"
+        ],
+        "soundIndex": 0
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "mou4",
+          "cing4"
+        ],
+        "soundIndex": 2,
+        "rimeLine": 30194
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "月經",
+    "recordLine": 3746,
+    "cmn": [
+      {
+        "tokens": [
+          "yue4",
+          "jing1"
+        ],
+        "soundIndex": 0
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "jyut6",
+          "ging1"
+        ],
+        "soundIndex": 2,
+        "rimeLine": 24353
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "性病",
+    "recordLine": 108705,
+    "cmn": [
+      {
+        "tokens": [
+          "xing4",
+          "bing4"
+        ],
+        "soundIndex": 0
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "sing3",
+          "beng6"
+        ],
+        "soundIndex": 2,
+        "rimeLine": 37904
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "癌症",
+    "recordLine": 15732,
+    "cmn": [
+      {
+        "tokens": [
+          "ai2",
+          "zheng4"
+        ],
+        "soundIndex": 6
+      },
+      {
+        "tokens": [
+          "yan2",
+          "zheng4"
+        ],
+        "soundIndex": 14
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "ngaam4",
+          "zing3"
+        ],
+        "soundIndex": 2,
+        "rimeLine": 31522
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "病人",
+    "recordLine": 26498,
+    "cmn": [
+      {
+        "tokens": [
+          "bing4",
+          "ren2"
+        ],
+        "soundIndex": 0
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "beng6",
+          "jan4"
+        ],
+        "soundIndex": 2,
+        "rimeLine": 1602
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "病毒",
+    "recordLine": 26399,
+    "cmn": [
+      {
+        "tokens": [
+          "bing4",
+          "du2"
+        ],
+        "soundIndex": 0
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "beng6",
+          "duk6"
+        ],
+        "soundIndex": 3,
+        "rimeLine": 1592
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "尿布",
+    "recordLine": 106410,
+    "cmn": [
+      {
+        "tokens": [
+          "niao4",
+          "bu4"
+        ],
+        "soundIndex": 0
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "niu6",
+          "bou3"
+        ],
+        "soundIndex": 3,
+        "rimeLine": 32372
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "口水",
+    "recordLine": 85084,
+    "cmn": [
+      {
+        "tokens": [
+          "kou3",
+          "shui3"
+        ],
+        "soundIndex": 0
+      },
+      {
+        "tokens": [
+          "kou2",
+          "shui3"
+        ],
+        "soundIndex": 10
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "hau2",
+          "seoi2"
+        ],
+        "soundIndex": 3,
+        "rimeLine": 18382
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "垃圾",
+    "recordLine": 86763,
+    "cmn": [
+      {
+        "tokens": [
+          "la1",
+          "ji1"
+        ],
+        "soundIndex": 15
+      },
+      {
+        "tokens": [
+          "le4",
+          "se4"
+        ],
+        "soundIndex": 23
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "laap6",
+          "saap3"
+        ],
+        "soundIndex": 2,
+        "rimeLine": 26013
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "垃圾",
+    "recordLine": 86764,
+    "cmn": [
+      {
+        "tokens": [
+          "la1",
+          "ji1"
+        ],
+        "soundIndex": 15
+      },
+      {
+        "tokens": [
+          "le4",
+          "se4"
+        ],
+        "soundIndex": 23
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "laap6",
+          "saap3"
+        ],
+        "soundIndex": 2,
+        "rimeLine": 26013
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "污水",
+    "recordLine": 182925,
+    "cmn": [
+      {
+        "tokens": [
+          "wu1",
+          "shui3"
+        ],
+        "soundIndex": 0
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "wu1",
+          "seoi2"
+        ],
+        "soundIndex": 2,
+        "rimeLine": 43195
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "廢物",
+    "recordLine": 63038,
+    "cmn": [
+      {
+        "tokens": [
+          "fei4",
+          "wu4"
+        ],
+        "soundIndex": 0
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "fai3",
+          "mat6"
+        ],
+        "soundIndex": 2,
+        "rimeLine": 10756
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "廢物",
+    "recordLine": 63039,
+    "cmn": [
+      {
+        "tokens": [
+          "fei4",
+          "wu5"
+        ],
+        "soundIndex": 0
+      },
+      {
+        "tokens": [
+          "fei4",
+          "wu4"
+        ],
+        "soundIndex": 1
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "fai3",
+          "mat6"
+        ],
+        "soundIndex": 4,
+        "rimeLine": 10756
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "傻仔",
+    "recordLine": 273505,
+    "cmn": [],
+    "yue": [
+      {
+        "tokens": [
+          "so4",
+          "zai2"
+        ],
+        "soundIndex": 0,
+        "rimeLine": 38565
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "笨蛋",
+    "recordLine": 2682,
+    "cmn": [
+      {
+        "tokens": [
+          "ben4",
+          "dan4"
+        ],
+        "soundIndex": 0
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "ban6",
+          "daan2"
+        ],
+        "soundIndex": 2,
+        "rimeLine": 1118
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "賤貨",
+    "recordLine": 261706,
+    "cmn": [
+      {
+        "tokens": [
+          "jian4",
+          "huo4"
+        ],
+        "soundIndex": 0
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "zin6",
+          "fo3"
+        ],
+        "soundIndex": 2,
+        "rimeLine": 46161
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "色狼",
+    "recordLine": 247154,
+    "cmn": [
+      {
+        "tokens": [
+          "se4",
+          "lang2"
+        ],
+        "soundIndex": 0
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "sik1",
+          "long4"
+        ],
+        "soundIndex": 2,
+        "rimeLine": 37469
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "小偷",
+    "recordLine": 156697,
+    "cmn": [
+      {
+        "tokens": [
+          "xiao3",
+          "tou1"
+        ],
+        "soundIndex": 0
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "siu2",
+          "tau1"
+        ],
+        "soundIndex": 2,
+        "rimeLine": 38410
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "強姦",
+    "recordLine": 15219,
+    "cmn": [
+      {
+        "tokens": [
+          "qiang2",
+          "jian1"
+        ],
+        "soundIndex": 0
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "koeng4",
+          "gaan1"
+        ],
+        "soundIndex": 2,
+        "rimeLine": 25174
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "犯法",
+    "recordLine": 60380,
+    "cmn": [
+      {
+        "tokens": [
+          "fan4",
+          "fa3"
+        ],
+        "soundIndex": 0
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "faan6",
+          "faat3"
+        ],
+        "soundIndex": 2,
+        "rimeLine": 10471
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "發癲",
+    "recordLine": 278385,
+    "cmn": [
+      {
+        "tokens": [
+          "fa1",
+          "dian1"
+        ],
+        "soundIndex": 0
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "faat3",
+          "din1"
+        ],
+        "soundIndex": 2,
+        "rimeLine": 10553
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "騙子",
+    "recordLine": 122519,
+    "cmn": [
+      {
+        "tokens": [
+          "pian4",
+          "zi5"
+        ],
+        "soundIndex": 0
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "pin3",
+          "zi2"
+        ],
+        "soundIndex": 3,
+        "rimeLine": 33479
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "無恥",
+    "recordLine": 14871,
+    "cmn": [
+      {
+        "tokens": [
+          "wu2",
+          "chi3"
+        ],
+        "soundIndex": 0
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "mou4",
+          "ci2"
+        ],
+        "soundIndex": 3,
+        "rimeLine": 30191
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "小氣",
+    "recordLine": 156276,
+    "cmn": [
+      {
+        "tokens": [
+          "xiao3",
+          "qi4"
+        ],
+        "soundIndex": 0
+      },
+      {
+        "tokens": [
+          "xiao3",
+          "qi5"
+        ],
+        "soundIndex": 10
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "siu2",
+          "hei3"
+        ],
+        "soundIndex": 2,
+        "rimeLine": 38342
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "吝嗇",
+    "recordLine": 93157,
+    "cmn": [
+      {
+        "tokens": [
+          "lin4",
+          "se4"
+        ],
+        "soundIndex": 0
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "leon6",
+          "sik1"
+        ],
+        "soundIndex": 2,
+        "rimeLine": 26902
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "偷懶",
+    "recordLine": 162886,
+    "cmn": [
+      {
+        "tokens": [
+          "tou1",
+          "lan3"
+        ],
+        "soundIndex": 0
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "tau1",
+          "laan5"
+        ],
+        "soundIndex": 2,
+        "rimeLine": 40285
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "丟臉",
+    "recordLine": 49049,
+    "cmn": [
+      {
+        "tokens": [
+          "diu1",
+          "lian3"
+        ],
+        "soundIndex": 0
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "diu1",
+          "lim5"
+        ],
+        "soundIndex": 2,
+        "rimeLine": 9086
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "出醜",
+    "recordLine": 30396,
+    "cmn": [
+      {
+        "tokens": [
+          "chu1",
+          "chou3"
+        ],
+        "soundIndex": 0
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "ceot1",
+          "cau2"
+        ],
+        "soundIndex": 2,
+        "rimeLine": 4542
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "死亡",
+    "recordLine": 2706,
+    "cmn": [
+      {
+        "tokens": [
+          "si3",
+          "wang2"
+        ],
+        "soundIndex": 0
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "sei2",
+          "mong4"
+        ],
+        "soundIndex": 3,
+        "rimeLine": 36285
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "死亡",
+    "recordLine": 2707,
+    "cmn": [
+      {
+        "tokens": [
+          "si3",
+          "wang2"
+        ],
+        "soundIndex": 0
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "sei2",
+          "mong4"
+        ],
+        "soundIndex": 3,
+        "rimeLine": 36285
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "失敗",
+    "recordLine": 118275,
+    "cmn": [
+      {
+        "tokens": [
+          "shi1",
+          "bai4"
+        ],
+        "soundIndex": 0
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "sat1",
+          "baai6"
+        ],
+        "soundIndex": 3,
+        "rimeLine": 35482
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "笑柄",
+    "recordLine": 158020,
+    "cmn": [
+      {
+        "tokens": [
+          "xiao4",
+          "bing3"
+        ],
+        "soundIndex": 0
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "siu3",
+          "beng3"
+        ],
+        "soundIndex": 2,
+        "rimeLine": 38428
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "胡說",
+    "recordLine": 71171,
+    "cmn": [
+      {
+        "tokens": [
+          "hu2",
+          "shuo1"
+        ],
+        "soundIndex": 0
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "wu4",
+          "syut3"
+        ],
+        "soundIndex": 4,
+        "rimeLine": 43250
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "胡說",
+    "recordLine": 71172,
+    "cmn": [
+      {
+        "tokens": [
+          "hu2",
+          "shuo1"
+        ],
+        "soundIndex": 0
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "wu4",
+          "syut3"
+        ],
+        "soundIndex": 4,
+        "rimeLine": 43250
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "胡鬧",
+    "recordLine": 71158,
+    "cmn": [
+      {
+        "tokens": [
+          "hu2",
+          "nao4"
+        ],
+        "soundIndex": 0
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "wu4",
+          "naau6"
+        ],
+        "soundIndex": 2,
+        "rimeLine": 43240
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "混蛋",
+    "recordLine": 519,
+    "cmn": [
+      {
+        "tokens": [
+          "hun2",
+          "dan4"
+        ],
+        "soundIndex": 0
+      },
+      {
+        "tokens": [
+          "hun4",
+          "dan4"
+        ],
+        "soundIndex": 1
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "wan6",
+          "daan2"
+        ],
+        "soundIndex": 4,
+        "rimeLine": 42773
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "王八",
+    "recordLine": 174074,
+    "cmn": [
+      {
+        "tokens": [
+          "wang2",
+          "ba5"
+        ],
+        "soundIndex": 0
+      },
+      {
+        "tokens": [
+          "wang2",
+          "ba1"
+        ],
+        "soundIndex": 1
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "wong4",
+          "baat3"
+        ],
+        "soundIndex": 4,
+        "rimeLine": 43030
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "烏龜",
+    "recordLine": 182373,
+    "cmn": [
+      {
+        "tokens": [
+          "wu1",
+          "gui1"
+        ],
+        "soundIndex": 0
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "wu1",
+          "gwai1"
+        ],
+        "soundIndex": 3,
+        "rimeLine": 43175
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "衛生紙",
+    "recordLine": 178614,
+    "cmn": [
+      {
+        "tokens": [
+          "wei4",
+          "sheng1",
+          "zhi3"
+        ],
+        "soundIndex": 0
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "wai6",
+          "sang1",
+          "zi2"
+        ],
+        "soundIndex": 3,
+        "rimeLine": 70368
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "奶粉",
+    "recordLine": 104607,
+    "cmn": [
+      {
+        "tokens": [
+          "nai3",
+          "fen3"
+        ],
+        "soundIndex": 0
+      },
+      {
+        "tokens": [
+          "nai2",
+          "fen3"
+        ],
+        "soundIndex": 9
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "naai5",
+          "fan2"
+        ],
+        "soundIndex": 2,
+        "rimeLine": 30874
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "豆腐",
+    "recordLine": 50938,
+    "cmn": [
+      {
+        "tokens": [
+          "dou4",
+          "fu5"
+        ],
+        "soundIndex": 0
+      },
+      {
+        "tokens": [
+          "dou4",
+          "fu3"
+        ],
+        "soundIndex": 1
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "dau6",
+          "fu6"
+        ],
+        "soundIndex": 6,
+        "rimeLine": 8307
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "豆腐",
+    "recordLine": 50939,
+    "cmn": [
+      {
+        "tokens": [
+          "dou4",
+          "fu5"
+        ],
+        "soundIndex": 0
+      },
+      {
+        "tokens": [
+          "dou4",
+          "fu3"
+        ],
+        "soundIndex": 1
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "dau6",
+          "fu6"
+        ],
+        "soundIndex": 6,
+        "rimeLine": 8307
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "饅頭",
+    "recordLine": 98574,
+    "cmn": [
+      {
+        "tokens": [
+          "man2",
+          "tou5"
+        ],
+        "soundIndex": 0
+      },
+      {
+        "tokens": [
+          "man2",
+          "tou2"
+        ],
+        "soundIndex": 1
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "maan4",
+          "tau4"
+        ],
+        "soundIndex": 6,
+        "rimeLine": 28669
+      },
+      {
+        "tokens": [
+          "maan6",
+          "tau4"
+        ],
+        "soundIndex": 5,
+        "rimeLine": 28740
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "香蕉",
+    "recordLine": 2793,
+    "cmn": [
+      {
+        "tokens": [
+          "xiang1",
+          "jiao1"
+        ],
+        "soundIndex": 0
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "hoeng1",
+          "ziu1"
+        ],
+        "soundIndex": 4,
+        "rimeLine": 19372
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "雞蛋",
+    "recordLine": 76480,
+    "cmn": [
+      {
+        "tokens": [
+          "ji1",
+          "dan4"
+        ],
+        "soundIndex": 0
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "gai1",
+          "daan2"
+        ],
+        "soundIndex": 6,
+        "rimeLine": 13475
+      },
+      {
+        "tokens": [
+          "gai1",
+          "daan6"
+        ],
+        "soundIndex": 6,
+        "rimeLine": 13476
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "醬油",
+    "recordLine": 3629,
+    "cmn": [
+      {
+        "tokens": [
+          "jiang4",
+          "you2"
+        ],
+        "soundIndex": 0
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "zoeng3",
+          "jau4"
+        ],
+        "soundIndex": 4,
+        "rimeLine": 47093
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "便宜",
+    "recordLine": 23487,
+    "cmn": [
+      {
+        "tokens": [
+          "pian2",
+          "yi5"
+        ],
+        "soundIndex": 0
+      },
+      {
+        "tokens": [
+          "pian2",
+          "yi2"
+        ],
+        "soundIndex": 1
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "pin4",
+          "ji4"
+        ],
+        "soundIndex": 8,
+        "rimeLine": 33483
+      }
+    ],
+    "excludedRimeReadings": [
+      {
+        "tokens": [
+          "pin4",
+          "ji2"
+        ],
+        "reason": "固定词典本记录未提供对应 Jyutping；不从字音猜补。"
+      }
+    ]
+  },
+  {
+    "word": "便宜",
+    "recordLine": 23489,
+    "cmn": [
+      {
+        "tokens": [
+          "pian2",
+          "yi5"
+        ],
+        "soundIndex": 0
+      },
+      {
+        "tokens": [
+          "pian2",
+          "yi2"
+        ],
+        "soundIndex": 1
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "pin4",
+          "ji2"
+        ],
+        "soundIndex": 5,
+        "rimeLine": 33482
+      },
+      {
+        "tokens": [
+          "pin4",
+          "ji4"
+        ],
+        "soundIndex": 5,
+        "rimeLine": 33483
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "便宜",
+    "recordLine": 23490,
+    "cmn": [
+      {
+        "tokens": [
+          "bian4",
+          "yi2"
+        ],
+        "soundIndex": 0
+      }
+    ],
+    "yue": [],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "一事無成",
+    "recordLine": 1966,
+    "cmn": [
+      {
+        "tokens": [
+          "yi1",
+          "shi4",
+          "wu2",
+          "cheng2"
+        ],
+        "soundIndex": 0
+      },
+      {
+        "tokens": [
+          "yi2",
+          "shi4",
+          "wu2",
+          "cheng2"
+        ],
+        "soundIndex": 6
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "jat1",
+          "si6",
+          "mou4",
+          "sing4"
+        ],
+        "soundIndex": 2,
+        "rimeLine": 82976
+      }
+    ],
+    "excludedRimeReadings": []
+  },
+  {
+    "word": "一無是處",
+    "recordLine": 1808,
+    "cmn": [
+      {
+        "tokens": [
+          "yi1",
+          "wu2",
+          "shi4",
+          "chu4"
+        ],
+        "soundIndex": 0
+      },
+      {
+        "tokens": [
+          "yi4",
+          "wu2",
+          "shi4",
+          "chu4"
+        ],
+        "soundIndex": 4
+      }
+    ],
+    "yue": [
+      {
+        "tokens": [
+          "jat1",
+          "mou4",
+          "si6",
+          "cyu3"
+        ],
+        "soundIndex": 2,
+        "rimeLine": 82897
+      }
+    ],
+    "excludedRimeReadings": []
+  }
+]

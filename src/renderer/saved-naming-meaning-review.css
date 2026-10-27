@@ -1,0 +1,6 @@
+.saved-naming-review-summary{min-width:0;margin:12px 0;padding-top:8px;border-top:1px solid #dce3d8}
+.saved-naming-review-summary>summary{cursor:pointer;overflow-wrap:anywhere;font-size:12px;font-weight:600;line-height:1.8;color:#38513e;padding:6px 0}
+.saved-naming-review-summary>summary:focus-visible{outline:2px solid #4c7454;outline-offset:3px;border-radius:2px}
+.saved-naming-review-summary>.naming-meaning-review{padding:10px 0 0;margin:0;border:0}
+.saved-naming-review-summary .naming-review-characters{grid-template-columns:minmax(0,1fr)}
+:root[data-font-size="large"] .saved-naming-review-summary>summary{font-size:14px}

@@ -1,0 +1,13 @@
+import fs from 'node:fs';import path from 'node:path';import os from 'node:os';import initSqlJs from 'sql.js';import {afterEach,beforeAll,describe,it,expect} from 'vitest';
+import {Store} from '../src/main/store';import {bindCompactCustomerDatabase,validateCompactCustomerStorage} from '../src/main/compact-customer-store';
+const snapshot=path.resolve('D:/Codex-NamingStudio-Evidence/m804-storage-scale-current/.evidence/m804-current-fresh0/stage-snapshots/0025/customers.sqlite');const wasm=path.resolve('node_modules/sql.js/dist/sql-wasm.wasm');
+let SQL:Awaited<ReturnType<typeof initSqlJs>>;const dirs:string[]=[];let source:Store;
+beforeAll(async()=>{SQL=await initSqlJs({locateFile:()=>wasm});const dir=fs.mkdtempSync(path.join(os.tmpdir(),'m882-negative-source-'));dirs.push(dir);fs.copyFileSync(snapshot,path.join(dir,'customers.sqlite'));source=await new Store(dir,path.resolve('data'),wasm).init();});
+afterEach(()=>{});
+function mutated(mutator:(db:any)=>void){const db=new SQL.Database(source.db.export());bindCompactCustomerDatabase(db);mutator(db);return db;}
+describe('M882 same-validation projection negative boundaries',()=>{
+ it('keeps the immutable root trigger before validation',()=>{const db=mutated(db=>{const row=db.exec('SELECT sha FROM snapshot_roots LIMIT 1')[0].values[0][0];expect(()=>db.run('UPDATE snapshot_roots SET manifest_sha=? WHERE sha=?',['0'.repeat(64),row])).toThrow(/Immutable snapshot root/);});expect(()=>validateCompactCustomerStorage(db)).not.toThrow();db.close();});
+ it('keeps the immutable blob trigger before validation',()=>{const db=mutated(db=>{const row=db.exec('SELECT sha FROM snapshot_blobs LIMIT 1')[0].values[0][0];expect(()=>db.run('UPDATE snapshot_blobs SET payload=? WHERE sha=?',[new Uint8Array([1,2,3]),row])).toThrow(/Immutable snapshot blob/);});expect(()=>validateCompactCustomerStorage(db)).not.toThrow();db.close();});
+ it('keeps the immutable root edge trigger before validation',()=>{const db=mutated(db=>{const row=db.exec('SELECT root_sha,position FROM root_leaf_refs LIMIT 1')[0].values[0];expect(()=>db.run('UPDATE root_leaf_refs SET raw_bytes=? WHERE root_sha=? AND position=?',[1,row[0],row[1]])).toThrow(/Immutable snapshot edge/);});expect(()=>validateCompactCustomerStorage(db)).not.toThrow();db.close();});
+ it('keeps current and revision identity triggers before validation',()=>{for(const sql of ['UPDATE session_records SET profile_id=? WHERE id=(SELECT id FROM session_records LIMIT 1)','UPDATE revision_records SET session_id=? WHERE id=(SELECT id FROM revision_records LIMIT 1)']){const db=mutated(db=>{expect(()=>db.run(sql,['foreign-profile-or-session'])).toThrow();});expect(()=>validateCompactCustomerStorage(db)).not.toThrow();db.close();}});
+});

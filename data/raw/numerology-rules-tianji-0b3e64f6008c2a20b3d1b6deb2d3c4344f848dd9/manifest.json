@@ -1,0 +1,18 @@
+[
+  {
+    "file": "LICENSE",
+    "upstreamPath": "LICENSE",
+    "url": "https://github.com/Ficere/tianji/blob/0b3e64f6008c2a20b3d1b6deb2d3c4344f848dd9/LICENSE",
+    "gitBlob": "14fac913ccf80234b1848540089a3bbcb6e5283d",
+    "sha256": "1126322e2cc8d165adc4c792eeb195717de2bcc7b39be1ce77959d78e87ef685",
+    "bytes": 1056
+  },
+  {
+    "file": "name_wuge_calc.py",
+    "upstreamPath": "scripts/name_wuge_calc.py",
+    "url": "https://github.com/Ficere/tianji/blob/0b3e64f6008c2a20b3d1b6deb2d3c4344f848dd9/scripts/name_wuge_calc.py",
+    "gitBlob": "7235c8de6766c15849aa17c42787c8d87b9a91f2",
+    "sha256": "db97e291f94c2929d849bc2adae2e42212125ea70d2114f6a8f97377382585a5",
+    "bytes": 25552
+  }
+]

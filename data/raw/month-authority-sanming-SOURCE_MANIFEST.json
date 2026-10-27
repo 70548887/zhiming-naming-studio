@@ -1,0 +1,2500 @@
+{
+  "schema_version": 1,
+  "repository": "mikkokotila/Sanming-Tongshui",
+  "edition": "三命通會 (四庫全書本)",
+  "source_transcription": "Chinese Wikisource",
+  "retrieved_utc": "2026-09-25T10:48:46+00:00",
+  "source_file_count": 12,
+  "preface_included_in": "source/juan-01.md",
+  "conversion": {
+    "encoding": "UTF-8",
+    "paragraphs": "Original line order retained; indentation and blank lines normalized.",
+    "headings": "Standalone SK anchor labels promoted to Markdown level-2 headings; volume-title lines retained as text.",
+    "notes": "SK notes content retained with Wikisource text-export delimiters 〈 and 〉.",
+    "rare_glyphs": "SKchar expanded using the Wikisource map retrieved on the export date; Unicode when provided, otherwise a local inline SVG.",
+    "no_abridgement_translation_or_editorial_correction": true
+  },
+  "verification": {
+    "source_bodies_checked": 13,
+    "all_saved_markdown_regions_match_expanded_wikitext": true,
+    "all_source_bodies_match_revision_pinned_rendered_html": true,
+    "comparison": "Ignore Unicode whitespace and added Markdown heading markers. Represent image-only glyphs as ⟦SKQS:n⟧ tokens. Compare every remaining character in sequence, including source note delimiters and classification lines.",
+    "independently_collated_against_scanned_original": false,
+    "all_glyph_files_match_source_sha1": true
+  },
+  "sources": [
+    {
+      "title": "三命通會 (四庫全書本)",
+      "page_id": 260853,
+      "source_url": "https://zh.wikisource.org/wiki/%E4%B8%89%E5%91%BD%E9%80%9A%E6%9C%83_(%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC)",
+      "revision_id": 657391,
+      "revision_timestamp": "2016-10-15T11:19:12Z",
+      "permalink": "https://zh.wikisource.org/w/index.php?oldid=657391",
+      "contributor_history": "https://zh.wikisource.org/w/index.php?title=%E4%B8%89%E5%91%BD%E9%80%9A%E6%9C%83+%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29&action=history",
+      "raw_wikitext_sha256": "4c9923df0ab644fe7b675796f41195746cc2a07273826116ab8d02ed442bb650",
+      "normalized_text_sha256": "dbe234474cf2ec7876a35562b1d91af7d0884a1c5b05f59ad11a5d2dffde1f30",
+      "non_whitespace_character_units": 446,
+      "image_glyph_occurrences": 0,
+      "raw_to_markdown_check": "passed",
+      "rendered_html_check": "passed"
+    },
+    {
+      "title": "三命通會 (四庫全書本)/卷01",
+      "page_id": 260840,
+      "source_url": "https://zh.wikisource.org/wiki/%E4%B8%89%E5%91%BD%E9%80%9A%E6%9C%83_(%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC)/%E5%8D%B701",
+      "revision_id": 657365,
+      "revision_timestamp": "2016-10-15T11:19:00Z",
+      "permalink": "https://zh.wikisource.org/w/index.php?oldid=657365",
+      "contributor_history": "https://zh.wikisource.org/w/index.php?title=%E4%B8%89%E5%91%BD%E9%80%9A%E6%9C%83+%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29%2F%E5%8D%B701&action=history",
+      "raw_wikitext_sha256": "9b9f86a4f1f859dc9da60db672a00b37a5956c3ea141132f6f879c3a1a172c07",
+      "normalized_text_sha256": "4245a7876fbed6b2db376a7afce14ec1b6aef0cf4c1c7495c92e0af0c0eb666c",
+      "non_whitespace_character_units": 36913,
+      "image_glyph_occurrences": 2,
+      "raw_to_markdown_check": "passed",
+      "rendered_html_check": "passed"
+    },
+    {
+      "title": "三命通會 (四庫全書本)/卷02",
+      "page_id": 260841,
+      "source_url": "https://zh.wikisource.org/wiki/%E4%B8%89%E5%91%BD%E9%80%9A%E6%9C%83_(%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC)/%E5%8D%B702",
+      "revision_id": 761691,
+      "revision_timestamp": "2016-10-24T13:12:21Z",
+      "permalink": "https://zh.wikisource.org/w/index.php?oldid=761691",
+      "contributor_history": "https://zh.wikisource.org/w/index.php?title=%E4%B8%89%E5%91%BD%E9%80%9A%E6%9C%83+%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29%2F%E5%8D%B702&action=history",
+      "raw_wikitext_sha256": "748da85cc60441c0e0ffe783644db152b70b4320b134650d80a086bb27987273",
+      "normalized_text_sha256": "a781646ca3d6780a517b0b346bcb9919ed2056df336ae28b3014f678401ae511",
+      "non_whitespace_character_units": 36394,
+      "image_glyph_occurrences": 10,
+      "raw_to_markdown_check": "passed",
+      "rendered_html_check": "passed"
+    },
+    {
+      "title": "三命通會 (四庫全書本)/卷03",
+      "page_id": 260842,
+      "source_url": "https://zh.wikisource.org/wiki/%E4%B8%89%E5%91%BD%E9%80%9A%E6%9C%83_(%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC)/%E5%8D%B703",
+      "revision_id": 657369,
+      "revision_timestamp": "2016-10-15T11:19:00Z",
+      "permalink": "https://zh.wikisource.org/w/index.php?oldid=657369",
+      "contributor_history": "https://zh.wikisource.org/w/index.php?title=%E4%B8%89%E5%91%BD%E9%80%9A%E6%9C%83+%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29%2F%E5%8D%B703&action=history",
+      "raw_wikitext_sha256": "a3fed515e8167657e7fbc2be7bf95dbb5d356d18b608c9bd260e006a66fd6ebe",
+      "normalized_text_sha256": "5f7dc96740ae16ec05b6a45c7ae266066685a115457d451f9f157b861a7ec96a",
+      "non_whitespace_character_units": 34961,
+      "image_glyph_occurrences": 12,
+      "raw_to_markdown_check": "passed",
+      "rendered_html_check": "passed"
+    },
+    {
+      "title": "三命通會 (四庫全書本)/卷04",
+      "page_id": 260843,
+      "source_url": "https://zh.wikisource.org/wiki/%E4%B8%89%E5%91%BD%E9%80%9A%E6%9C%83_(%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC)/%E5%8D%B704",
+      "revision_id": 657371,
+      "revision_timestamp": "2016-10-15T11:19:01Z",
+      "permalink": "https://zh.wikisource.org/w/index.php?oldid=657371",
+      "contributor_history": "https://zh.wikisource.org/w/index.php?title=%E4%B8%89%E5%91%BD%E9%80%9A%E6%9C%83+%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29%2F%E5%8D%B704&action=history",
+      "raw_wikitext_sha256": "8919d99f6d48b0c420b0c885534b3988c5039a296acc0ad056723c8255387d76",
+      "normalized_text_sha256": "a5dc69f700b1e7a6839aed7a30c788be44d473e233dd20cc3d5b4dbcfd0189f4",
+      "non_whitespace_character_units": 36470,
+      "image_glyph_occurrences": 1,
+      "raw_to_markdown_check": "passed",
+      "rendered_html_check": "passed"
+    },
+    {
+      "title": "三命通會 (四庫全書本)/卷05",
+      "page_id": 260844,
+      "source_url": "https://zh.wikisource.org/wiki/%E4%B8%89%E5%91%BD%E9%80%9A%E6%9C%83_(%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC)/%E5%8D%B705",
+      "revision_id": 2082207,
+      "revision_timestamp": "2021-10-11T09:03:34Z",
+      "permalink": "https://zh.wikisource.org/w/index.php?oldid=2082207",
+      "contributor_history": "https://zh.wikisource.org/w/index.php?title=%E4%B8%89%E5%91%BD%E9%80%9A%E6%9C%83+%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29%2F%E5%8D%B705&action=history",
+      "raw_wikitext_sha256": "1268b6c220a88d06d49e8b8709b94cf19c2fdceef87ac897e7621af202d58f00",
+      "normalized_text_sha256": "f1146e2616fecea44768b3ebaf239a3bf29fda2d098baee410b7626a14c293da",
+      "non_whitespace_character_units": 36568,
+      "image_glyph_occurrences": 4,
+      "raw_to_markdown_check": "passed",
+      "rendered_html_check": "passed"
+    },
+    {
+      "title": "三命通會 (四庫全書本)/卷06",
+      "page_id": 260845,
+      "source_url": "https://zh.wikisource.org/wiki/%E4%B8%89%E5%91%BD%E9%80%9A%E6%9C%83_(%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC)/%E5%8D%B706",
+      "revision_id": 657375,
+      "revision_timestamp": "2016-10-15T11:19:03Z",
+      "permalink": "https://zh.wikisource.org/w/index.php?oldid=657375",
+      "contributor_history": "https://zh.wikisource.org/w/index.php?title=%E4%B8%89%E5%91%BD%E9%80%9A%E6%9C%83+%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29%2F%E5%8D%B706&action=history",
+      "raw_wikitext_sha256": "af1c6faccc1e42d224b86e2216a130eadfd2510abd8da46f47f6cb36450acf0c",
+      "normalized_text_sha256": "6dc81c0edb2873941c864c344562f6e91c58cfcd3802c08a3f3c2bca478ec1ac",
+      "non_whitespace_character_units": 37739,
+      "image_glyph_occurrences": 11,
+      "raw_to_markdown_check": "passed",
+      "rendered_html_check": "passed"
+    },
+    {
+      "title": "三命通會 (四庫全書本)/卷07",
+      "page_id": 260846,
+      "source_url": "https://zh.wikisource.org/wiki/%E4%B8%89%E5%91%BD%E9%80%9A%E6%9C%83_(%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC)/%E5%8D%B707",
+      "revision_id": 2082208,
+      "revision_timestamp": "2021-10-11T09:03:36Z",
+      "permalink": "https://zh.wikisource.org/w/index.php?oldid=2082208",
+      "contributor_history": "https://zh.wikisource.org/w/index.php?title=%E4%B8%89%E5%91%BD%E9%80%9A%E6%9C%83+%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29%2F%E5%8D%B707&action=history",
+      "raw_wikitext_sha256": "df2002e56bf3f96b43b8ce3e6972863682948207cea0cb4aa680efee3d543372",
+      "normalized_text_sha256": "96d114c0e53df58b7ddaa1c02d1ee798314eb7f2a9bbf15b522f37e3d5805288",
+      "non_whitespace_character_units": 33009,
+      "image_glyph_occurrences": 27,
+      "raw_to_markdown_check": "passed",
+      "rendered_html_check": "passed"
+    },
+    {
+      "title": "三命通會 (四庫全書本)/卷08",
+      "page_id": 260847,
+      "source_url": "https://zh.wikisource.org/wiki/%E4%B8%89%E5%91%BD%E9%80%9A%E6%9C%83_(%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC)/%E5%8D%B708",
+      "revision_id": 761697,
+      "revision_timestamp": "2016-10-24T13:13:42Z",
+      "permalink": "https://zh.wikisource.org/w/index.php?oldid=761697",
+      "contributor_history": "https://zh.wikisource.org/w/index.php?title=%E4%B8%89%E5%91%BD%E9%80%9A%E6%9C%83+%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29%2F%E5%8D%B708&action=history",
+      "raw_wikitext_sha256": "2bf8df667cb92d371d5d01c09ef6919be019d4f6da619a525bb5a872871a74d4",
+      "normalized_text_sha256": "32499b45551574a3021dbd0827a6a6b5c702af9ae0395da84de2e8503b22afde",
+      "non_whitespace_character_units": 42006,
+      "image_glyph_occurrences": 7,
+      "raw_to_markdown_check": "passed",
+      "rendered_html_check": "passed"
+    },
+    {
+      "title": "三命通會 (四庫全書本)/卷09",
+      "page_id": 260848,
+      "source_url": "https://zh.wikisource.org/wiki/%E4%B8%89%E5%91%BD%E9%80%9A%E6%9C%83_(%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC)/%E5%8D%B709",
+      "revision_id": 761700,
+      "revision_timestamp": "2016-10-24T13:14:21Z",
+      "permalink": "https://zh.wikisource.org/w/index.php?oldid=761700",
+      "contributor_history": "https://zh.wikisource.org/w/index.php?title=%E4%B8%89%E5%91%BD%E9%80%9A%E6%9C%83+%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29%2F%E5%8D%B709&action=history",
+      "raw_wikitext_sha256": "08716c6eb49c8ccb2e51d749b950060b0063d725bfee7886a02ffb9f109861d7",
+      "normalized_text_sha256": "71931b65e9d7296ddac8d16fe9ed4e9904c749ab9ef68df1ab12438fd2ae960c",
+      "non_whitespace_character_units": 41247,
+      "image_glyph_occurrences": 1,
+      "raw_to_markdown_check": "passed",
+      "rendered_html_check": "passed"
+    },
+    {
+      "title": "三命通會 (四庫全書本)/卷10",
+      "page_id": 260849,
+      "source_url": "https://zh.wikisource.org/wiki/%E4%B8%89%E5%91%BD%E9%80%9A%E6%9C%83_(%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC)/%E5%8D%B710",
+      "revision_id": 761703,
+      "revision_timestamp": "2016-10-24T13:15:01Z",
+      "permalink": "https://zh.wikisource.org/w/index.php?oldid=761703",
+      "contributor_history": "https://zh.wikisource.org/w/index.php?title=%E4%B8%89%E5%91%BD%E9%80%9A%E6%9C%83+%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29%2F%E5%8D%B710&action=history",
+      "raw_wikitext_sha256": "0a20dc53a4156211b5c8ba89dbb6a8f07f056fde573e37699e28b021b6d026b6",
+      "normalized_text_sha256": "7c6b19babc22d8b3254625a3e121b16d4e6e499d95c499bd01fb4f2627dccc20",
+      "non_whitespace_character_units": 33538,
+      "image_glyph_occurrences": 18,
+      "raw_to_markdown_check": "passed",
+      "rendered_html_check": "passed"
+    },
+    {
+      "title": "三命通會 (四庫全書本)/卷11",
+      "page_id": 260850,
+      "source_url": "https://zh.wikisource.org/wiki/%E4%B8%89%E5%91%BD%E9%80%9A%E6%9C%83_(%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC)/%E5%8D%B711",
+      "revision_id": 761705,
+      "revision_timestamp": "2016-10-24T13:15:41Z",
+      "permalink": "https://zh.wikisource.org/w/index.php?oldid=761705",
+      "contributor_history": "https://zh.wikisource.org/w/index.php?title=%E4%B8%89%E5%91%BD%E9%80%9A%E6%9C%83+%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29%2F%E5%8D%B711&action=history",
+      "raw_wikitext_sha256": "d1bd610ac7878b19cc5270ccd17ffb213cd3e219611317d0d1621bbb0a09698d",
+      "normalized_text_sha256": "63f12cb07ed80802887e40540542744fdc660f0426de3124534695c0a3a5cfab",
+      "non_whitespace_character_units": 43667,
+      "image_glyph_occurrences": 9,
+      "raw_to_markdown_check": "passed",
+      "rendered_html_check": "passed"
+    },
+    {
+      "title": "三命通會 (四庫全書本)/卷12",
+      "page_id": 260851,
+      "source_url": "https://zh.wikisource.org/wiki/%E4%B8%89%E5%91%BD%E9%80%9A%E6%9C%83_(%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC)/%E5%8D%B712",
+      "revision_id": 761707,
+      "revision_timestamp": "2016-10-24T13:16:31Z",
+      "permalink": "https://zh.wikisource.org/w/index.php?oldid=761707",
+      "contributor_history": "https://zh.wikisource.org/w/index.php?title=%E4%B8%89%E5%91%BD%E9%80%9A%E6%9C%83+%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29%2F%E5%8D%B712&action=history",
+      "raw_wikitext_sha256": "089270bfb30b00a359ce69b282c5184c752f1cf56417db8fb42dc5946005d163",
+      "normalized_text_sha256": "93a9ae2fcfd7abb2076e5498c9a4b22534d948944bb8f326aa02f947b099817c",
+      "non_whitespace_character_units": 27854,
+      "image_glyph_occurrences": 24,
+      "raw_to_markdown_check": "passed",
+      "rendered_html_check": "passed"
+    }
+  ],
+  "files": [
+    {
+      "path": "source/juan-01.md",
+      "juan": 1,
+      "bytes": 113554,
+      "sha256": "df301722ce8c5a767df948750b2b7782b0b9bbbc7ada58e2999cadda9a9f4e28",
+      "source_revisions": [
+        657365,
+        657391
+      ]
+    },
+    {
+      "path": "source/juan-02.md",
+      "juan": 2,
+      "bytes": 111715,
+      "sha256": "c3b12dc4fab50db3b1c21cadc0f58809bf93a02579e98ca530d39efa5f75c730",
+      "source_revisions": [
+        761691
+      ]
+    },
+    {
+      "path": "source/juan-03.md",
+      "juan": 3,
+      "bytes": 107684,
+      "sha256": "ee5394566bd7365512711e3092e0f18a2d82c9035c49944b1ceda2f092b3093a",
+      "source_revisions": [
+        657369
+      ]
+    },
+    {
+      "path": "source/juan-04.md",
+      "juan": 4,
+      "bytes": 111640,
+      "sha256": "7a8a62382b117b01281e794bacf178a576ae7b9bc6d0148fbd63b253de213ada",
+      "source_revisions": [
+        657371
+      ]
+    },
+    {
+      "path": "source/juan-05.md",
+      "juan": 5,
+      "bytes": 111266,
+      "sha256": "084031950bc53ac9b7568f323c7608463c4c67123aa8271602c30b0ecf56f234",
+      "source_revisions": [
+        2082207
+      ]
+    },
+    {
+      "path": "source/juan-06.md",
+      "juan": 6,
+      "bytes": 116125,
+      "sha256": "d0e0d7f66f00d4af939c756ada1fad1f2a4143d1f080a06ccc294b573e02bfcd",
+      "source_revisions": [
+        657375
+      ]
+    },
+    {
+      "path": "source/juan-07.md",
+      "juan": 7,
+      "bytes": 102577,
+      "sha256": "5e70d23c9168b166057fe81b3750e1c76fb9e52db3983daccf50f47b2708f0f8",
+      "source_revisions": [
+        2082208
+      ]
+    },
+    {
+      "path": "source/juan-08.md",
+      "juan": 8,
+      "bytes": 154963,
+      "sha256": "da25e49ce35c8a86488bec197fbb3a767542e7c2e17ec1c5fbbe64d907c4da59",
+      "source_revisions": [
+        761697
+      ]
+    },
+    {
+      "path": "source/juan-09.md",
+      "juan": 9,
+      "bytes": 151411,
+      "sha256": "f4b7c0c12980076a7c4536bf8cf0f1a0d86d0048689a2d9bfa41ce61f9491e3f",
+      "source_revisions": [
+        761700
+      ]
+    },
+    {
+      "path": "source/juan-10.md",
+      "juan": 10,
+      "bytes": 104264,
+      "sha256": "af05985d5663634f21ac74bcbec3dbb7827c7447c4d31e2c06764a897227bdb5",
+      "source_revisions": [
+        761703
+      ]
+    },
+    {
+      "path": "source/juan-11.md",
+      "juan": 11,
+      "bytes": 134407,
+      "sha256": "63e1166326e083921497a1ff88e4f922b23df17b9aaea804dde78ab060e8b5ba",
+      "source_revisions": [
+        761705
+      ]
+    },
+    {
+      "path": "source/juan-12.md",
+      "juan": 12,
+      "bytes": 88884,
+      "sha256": "59ad4e2b05ab01b3b5c5adf42b8e18f10ddcc631b94b918933a2b07fe087c364",
+      "source_revisions": [
+        761707
+      ]
+    }
+  ],
+  "unicode_glyph_map": {
+    "1033": "𠻳",
+    "1216": "𤨏",
+    "1437": "𤍜",
+    "1452": "𨽻",
+    "1505": "𦕈",
+    "1606": "𦂳",
+    "1841": "龜",
+    "1866": "𣺌",
+    "1974": "𠉀",
+    "2025": "⿰",
+    "2026": "⿱",
+    "2174": "𣋌",
+    "2177": "𣲖",
+    "2201": "𤓰",
+    "2219": "𢙣",
+    "2504": "𤤽",
+    "2557": "𡎊",
+    "2596": "𦙍",
+    "2599": "𠔃",
+    "2624": "𠑽",
+    "2625": "𠒋",
+    "2644": "𠲒",
+    "2652": "𫝊",
+    "2685": "𠖥",
+    "269": "𣷉",
+    "2694": "𠛬",
+    "2720": "𭅺",
+    "2791": "𡍼",
+    "2807": "𡒦",
+    "2824": "𠫵",
+    "2834": "𡚒",
+    "2917": "𢃄",
+    "3010": "𢡟",
+    "3011": "𢡖",
+    "3036": "𢫎",
+    "3272": "𤇍",
+    "3275": "𤇺",
+    "3287": "𤎅",
+    "3303": "𦦨",
+    "3309": "𬋩",
+    "3410": "𥌒",
+    "3475": "𮅕",
+    "3477": "𥮅",
+    "3487": "𬖂",
+    "3559": "𫟍",
+    "3622": "𧇊",
+    "3681": "𫎇",
+    "3746": "𬨨",
+    "3748": "𨔛",
+    "3769": "𫑗",
+    "3800": "𨳩",
+    "3813": "𨺗",
+    "3814": "𨼆",
+    "3864": "𩯭",
+    "3944": "𠫭",
+    "892": "𤥣",
+    "998": "𡒄"
+  },
+  "image_glyphs": [
+    {
+      "skchar_id": "977",
+      "path": "assets/glyphs/SKQS_0977.svg",
+      "alternative_text": "兔",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/SKQS_0977.svg",
+      "description_url": "https://commons.wikimedia.org/wiki/File:SKQS_0977.svg",
+      "source_sha1": "0a131812968a83e03afc6772771ac9f8069c6baf",
+      "bytes": 2802,
+      "commons_metadata": {
+        "DateTime": {
+          "value": "2026-09-25 00:32:50",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "SKQS 0977",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Public domain images of fonts|Siku Quanshu Unusual Chinese characters",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "​文淵閣四庫全書電子版字庫僻字第 977 號（<a href=\"https://en.wikisource.org/wiki/zh:Template:%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E5%83%BB%E5%AD%97/977\" class=\"extiw\" title=\"s:zh:Template:四庫全書僻字/977\">維基文庫條目</a>），參見 <a href=\"//commons.wikimedia.org/wiki/File:SKQSfont.pdf\" title=\"File:SKQSfont.pdf\">File:SKQSfont.pdf</a> <a class=\"external text\" href=\"https://commons.wikimedia.org/w/index.php?title=File:SKQSfont.pdf&amp;page=977\">第 977 頁</a>。",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2018-05-01",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "文淵閣四庫全書電子版字庫（Sk4.ttf）；<a href=\"//commons.wikimedia.org/wiki/File:SKQSfont.pdf\" title=\"File:SKQSfont.pdf\">File:SKQSfont.pdf</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "Glyph from the font of the Wenyuan Ge <i>Siku Quanshu</i> electronic edition; compiled into SKQSfont.pdf by <a href=\"//commons.wikimedia.org/wiki/User:%E7%B6%AD%E5%9F%BA%E5%B0%8F%E9%9C%B8%E7%8E%8B\" title=\"User:維基小霸王\">維基小霸王</a>; traced by <a href=\"//commons.wikimedia.org/wiki/User:Liouxiao\" title=\"User:Liouxiao\">Liouxiao</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "sha256": "d2441eb665085607b0819b2ffee2c59522a4459afb30d43af1b09ea9b6d6dbb5"
+    },
+    {
+      "skchar_id": "2628",
+      "path": "assets/glyphs/SKQS_2628.svg",
+      "alternative_text": "⿳亠口⿱冖至 -- 臺",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/SKQS_2628.svg",
+      "description_url": "https://commons.wikimedia.org/wiki/File:SKQS_2628.svg",
+      "source_sha1": "9b68311f26e1c8715299419202f6419bd358850d",
+      "bytes": 3216,
+      "commons_metadata": {
+        "DateTime": {
+          "value": "2026-09-25 00:40:20",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "SKQS 2628",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Public domain images of fonts|Siku Quanshu Unusual Chinese characters",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "​文淵閣四庫全書電子版字庫僻字第 2628 號（<a href=\"https://en.wikisource.org/wiki/zh:Template:%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E5%83%BB%E5%AD%97/2628\" class=\"extiw\" title=\"s:zh:Template:四庫全書僻字/2628\">維基文庫條目</a>），參見 <a href=\"//commons.wikimedia.org/wiki/File:SKQSfont.pdf\" title=\"File:SKQSfont.pdf\">File:SKQSfont.pdf</a> <a class=\"external text\" href=\"https://commons.wikimedia.org/w/index.php?title=File:SKQSfont.pdf&amp;page=2628\">第 2628 頁</a>。",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2018-05-01",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "文淵閣四庫全書電子版字庫（Sk4.ttf）；<a href=\"//commons.wikimedia.org/wiki/File:SKQSfont.pdf\" title=\"File:SKQSfont.pdf\">File:SKQSfont.pdf</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "Glyph from the font of the Wenyuan Ge <i>Siku Quanshu</i> electronic edition; compiled into SKQSfont.pdf by <a href=\"//commons.wikimedia.org/wiki/User:%E7%B6%AD%E5%9F%BA%E5%B0%8F%E9%9C%B8%E7%8E%8B\" title=\"User:維基小霸王\">維基小霸王</a>; traced by <a href=\"//commons.wikimedia.org/wiki/User:Liouxiao\" title=\"User:Liouxiao\">Liouxiao</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "sha256": "6645ce49627c467fc9a3f150e6a7c670f8cdb74a81336ef0366a64cae96b0e22"
+    },
+    {
+      "skchar_id": "2636",
+      "path": "assets/glyphs/SKQS_2636.svg",
+      "alternative_text": "SKchar",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/4/40/SKQS_2636.svg",
+      "description_url": "https://commons.wikimedia.org/wiki/File:SKQS_2636.svg",
+      "source_sha1": "acfc28b34453f271118c2154a0c07d5aea2ef97b",
+      "bytes": 2152,
+      "commons_metadata": {
+        "DateTime": {
+          "value": "2018-05-02 08:36:38",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "SKQS 2636",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Public domain images of fonts|Siku Quanshu Unusual Chinese characters",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "​文淵閣四庫全書電子版字庫僻字第 2636 號（<a href=\"https://en.wikisource.org/wiki/zh:Template:%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E5%83%BB%E5%AD%97/2636\" class=\"extiw\" title=\"s:zh:Template:四庫全書僻字/2636\">維基文庫條目</a>），參見 <a href=\"//commons.wikimedia.org/wiki/File:SKQSfont.pdf\" title=\"File:SKQSfont.pdf\">File:SKQSfont.pdf</a> <a class=\"external text\" href=\"https://commons.wikimedia.org/w/index.php?title=File:SKQSfont.pdf&amp;page=2636\">第 2636 頁</a>。 字形描述：SKQS_2636。",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2018-05-01",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "文淵閣四庫全書電子版字庫（Sk4.ttf）；<a href=\"//commons.wikimedia.org/wiki/File:SKQSfont.pdf\" title=\"File:SKQSfont.pdf\">File:SKQSfont.pdf</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "Glyph from the font of the Wenyuan Ge <i>Siku Quanshu</i> electronic edition; compiled into SKQSfont.pdf by <a href=\"//commons.wikimedia.org/wiki/User:%E7%B6%AD%E5%9F%BA%E5%B0%8F%E9%9C%B8%E7%8E%8B\" title=\"User:維基小霸王\">維基小霸王</a>; traced by <a href=\"//commons.wikimedia.org/wiki/User:Liouxiao\" title=\"User:Liouxiao\">Liouxiao</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "sha256": "c2a1d6578c26d8fb034f484aed7e8ce34d94acfb973759b72aa862c0a7bcf848"
+    },
+    {
+      "skchar_id": "2659",
+      "path": "assets/glyphs/SKQS_2659.svg",
+      "alternative_text": "⿰亻⿱龷甸 -- 僃",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/SKQS_2659.svg",
+      "description_url": "https://commons.wikimedia.org/wiki/File:SKQS_2659.svg",
+      "source_sha1": "e8db066c7b991142431695fbe62fc6412426d285",
+      "bytes": 3243,
+      "commons_metadata": {
+        "DateTime": {
+          "value": "2026-09-25 00:41:45",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "SKQS 2659",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Public domain images of fonts|Siku Quanshu Unusual Chinese characters",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "​文淵閣四庫全書電子版字庫僻字第 2659 號（<a href=\"https://en.wikisource.org/wiki/zh:Template:%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E5%83%BB%E5%AD%97/2659\" class=\"extiw\" title=\"s:zh:Template:四庫全書僻字/2659\">維基文庫條目</a>），參見 <a href=\"//commons.wikimedia.org/wiki/File:SKQSfont.pdf\" title=\"File:SKQSfont.pdf\">File:SKQSfont.pdf</a> <a class=\"external text\" href=\"https://commons.wikimedia.org/w/index.php?title=File:SKQSfont.pdf&amp;page=2659\">第 2659 頁</a>。 字形描述：SKQS_2659。",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2018-05-01",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "文淵閣四庫全書電子版字庫（Sk4.ttf）；<a href=\"//commons.wikimedia.org/wiki/File:SKQSfont.pdf\" title=\"File:SKQSfont.pdf\">File:SKQSfont.pdf</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "Glyph from the font of the Wenyuan Ge <i>Siku Quanshu</i> electronic edition; compiled into SKQSfont.pdf by <a href=\"//commons.wikimedia.org/wiki/User:%E7%B6%AD%E5%9F%BA%E5%B0%8F%E9%9C%B8%E7%8E%8B\" title=\"User:維基小霸王\">維基小霸王</a>; traced by <a href=\"//commons.wikimedia.org/wiki/User:Liouxiao\" title=\"User:Liouxiao\">Liouxiao</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "sha256": "da9ba9ae71ca77123f3b8e73e1b3bc085ac7bb670057e312837843135a7169cf"
+    },
+    {
+      "skchar_id": "2684",
+      "path": "assets/glyphs/SKQS_2684.svg",
+      "alternative_text": "冢",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/SKQS_2684.svg",
+      "description_url": "https://commons.wikimedia.org/wiki/File:SKQS_2684.svg",
+      "source_sha1": "ba616b86b13a749ce4b81597a5e8472b812677fb",
+      "bytes": 2786,
+      "commons_metadata": {
+        "DateTime": {
+          "value": "2026-09-25 00:43:16",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "SKQS 2684",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Public domain images of fonts|Siku Quanshu Unusual Chinese characters",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "​文淵閣四庫全書電子版字庫僻字第 2684 號（<a href=\"https://en.wikisource.org/wiki/zh:Template:%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E5%83%BB%E5%AD%97/2684\" class=\"extiw\" title=\"s:zh:Template:四庫全書僻字/2684\">維基文庫條目</a>），參見 <a href=\"//commons.wikimedia.org/wiki/File:SKQSfont.pdf\" title=\"File:SKQSfont.pdf\">File:SKQSfont.pdf</a> <a class=\"external text\" href=\"https://commons.wikimedia.org/w/index.php?title=File:SKQSfont.pdf&amp;page=2684\">第 2684 頁</a>。",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2018-05-01",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "文淵閣四庫全書電子版字庫（Sk4.ttf）；<a href=\"//commons.wikimedia.org/wiki/File:SKQSfont.pdf\" title=\"File:SKQSfont.pdf\">File:SKQSfont.pdf</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "Glyph from the font of the Wenyuan Ge <i>Siku Quanshu</i> electronic edition; compiled into SKQSfont.pdf by <a href=\"//commons.wikimedia.org/wiki/User:%E7%B6%AD%E5%9F%BA%E5%B0%8F%E9%9C%B8%E7%8E%8B\" title=\"User:維基小霸王\">維基小霸王</a>; traced by <a href=\"//commons.wikimedia.org/wiki/User:Liouxiao\" title=\"User:Liouxiao\">Liouxiao</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "sha256": "c15db1431e9fe0a1e538122ba8618931c30063e892d298bf34e9ff9c75bc5eb9"
+    },
+    {
+      "skchar_id": "2686",
+      "path": "assets/glyphs/SKQS_2686.svg",
+      "alternative_text": "⿰冫麦 -- 凌",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/61/SKQS_2686.svg",
+      "description_url": "https://commons.wikimedia.org/wiki/File:SKQS_2686.svg",
+      "source_sha1": "7bd9d2098b8da596bc5ad26f6d61f830b2ba8e46",
+      "bytes": 2861,
+      "commons_metadata": {
+        "DateTime": {
+          "value": "2026-09-25 00:43:26",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "SKQS 2686",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Public domain images of fonts|Siku Quanshu Unusual Chinese characters",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "​文淵閣四庫全書電子版字庫僻字第 2686 號（<a href=\"https://en.wikisource.org/wiki/zh:Template:%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E5%83%BB%E5%AD%97/2686\" class=\"extiw\" title=\"s:zh:Template:四庫全書僻字/2686\">維基文庫條目</a>），參見 <a href=\"//commons.wikimedia.org/wiki/File:SKQSfont.pdf\" title=\"File:SKQSfont.pdf\">File:SKQSfont.pdf</a> <a class=\"external text\" href=\"https://commons.wikimedia.org/w/index.php?title=File:SKQSfont.pdf&amp;page=2686\">第 2686 頁</a>。 字形描述：SKQS_2686。",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2018-05-01",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "文淵閣四庫全書電子版字庫（Sk4.ttf）；<a href=\"//commons.wikimedia.org/wiki/File:SKQSfont.pdf\" title=\"File:SKQSfont.pdf\">File:SKQSfont.pdf</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "Glyph from the font of the Wenyuan Ge <i>Siku Quanshu</i> electronic edition; compiled into SKQSfont.pdf by <a href=\"//commons.wikimedia.org/wiki/User:%E7%B6%AD%E5%9F%BA%E5%B0%8F%E9%9C%B8%E7%8E%8B\" title=\"User:維基小霸王\">維基小霸王</a>; traced by <a href=\"//commons.wikimedia.org/wiki/User:Liouxiao\" title=\"User:Liouxiao\">Liouxiao</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "sha256": "9692d853dbce4773aae9c72bf1c2dc7dfe87f941dea682198d70972581d51099"
+    },
+    {
+      "skchar_id": "2728",
+      "path": "assets/glyphs/SKQS_2728.svg",
+      "alternative_text": "段 -- 𠭊 or 叚 ?",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/SKQS_2728.svg",
+      "description_url": "https://commons.wikimedia.org/wiki/File:SKQS_2728.svg",
+      "source_sha1": "5bf506e635a3a69eb6ce0219e6520c5efcf8e957",
+      "bytes": 2589,
+      "commons_metadata": {
+        "DateTime": {
+          "value": "2026-09-25 00:45:52",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "SKQS 2728",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Public domain images of fonts|Siku Quanshu Unusual Chinese characters",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "​文淵閣四庫全書電子版字庫僻字第 2728 號（<a href=\"https://en.wikisource.org/wiki/zh:Template:%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E5%83%BB%E5%AD%97/2728\" class=\"extiw\" title=\"s:zh:Template:四庫全書僻字/2728\">維基文庫條目</a>），參見 <a href=\"//commons.wikimedia.org/wiki/File:SKQSfont.pdf\" title=\"File:SKQSfont.pdf\">File:SKQSfont.pdf</a> <a class=\"external text\" href=\"https://commons.wikimedia.org/w/index.php?title=File:SKQSfont.pdf&amp;page=2728\">第 2728 頁</a>。 字形描述：['2728']={nil,\"段\"}。",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2018-05-01",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "文淵閣四庫全書電子版字庫（Sk4.ttf）；<a href=\"//commons.wikimedia.org/wiki/File:SKQSfont.pdf\" title=\"File:SKQSfont.pdf\">File:SKQSfont.pdf</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "Glyph from the font of the Wenyuan Ge <i>Siku Quanshu</i> electronic edition; compiled into SKQSfont.pdf by <a href=\"//commons.wikimedia.org/wiki/User:%E7%B6%AD%E5%9F%BA%E5%B0%8F%E9%9C%B8%E7%8E%8B\" title=\"User:維基小霸王\">維基小霸王</a>; traced by <a href=\"//commons.wikimedia.org/wiki/User:Liouxiao\" title=\"User:Liouxiao\">Liouxiao</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "sha256": "e19d6ed1d46d4e8740626af171c4e2610930d4e8abdf21030b5b2f2a680eefe8"
+    },
+    {
+      "skchar_id": "2753",
+      "path": "assets/glyphs/SKQS_2753.svg",
+      "alternative_text": "嗤",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/SKQS_2753.svg",
+      "description_url": "https://commons.wikimedia.org/wiki/File:SKQS_2753.svg",
+      "source_sha1": "9904b5651478bf54c74c8023bfe69a4ff849fbed",
+      "bytes": 2942,
+      "commons_metadata": {
+        "DateTime": {
+          "value": "2026-09-25 00:47:35",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "SKQS 2753",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Public domain images of fonts|Siku Quanshu Unusual Chinese characters",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "​文淵閣四庫全書電子版字庫僻字第 2753 號（<a href=\"https://en.wikisource.org/wiki/zh:Template:%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E5%83%BB%E5%AD%97/2753\" class=\"extiw\" title=\"s:zh:Template:四庫全書僻字/2753\">維基文庫條目</a>），參見 <a href=\"//commons.wikimedia.org/wiki/File:SKQSfont.pdf\" title=\"File:SKQSfont.pdf\">File:SKQSfont.pdf</a> <a class=\"external text\" href=\"https://commons.wikimedia.org/w/index.php?title=File:SKQSfont.pdf&amp;page=2753\">第 2753 頁</a>。 字形描述：SKQS_2753。",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2018-05-01",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "文淵閣四庫全書電子版字庫（Sk4.ttf）；<a href=\"//commons.wikimedia.org/wiki/File:SKQSfont.pdf\" title=\"File:SKQSfont.pdf\">File:SKQSfont.pdf</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "Glyph from the font of the Wenyuan Ge <i>Siku Quanshu</i> electronic edition; compiled into SKQSfont.pdf by <a href=\"//commons.wikimedia.org/wiki/User:%E7%B6%AD%E5%9F%BA%E5%B0%8F%E9%9C%B8%E7%8E%8B\" title=\"User:維基小霸王\">維基小霸王</a>; traced by <a href=\"//commons.wikimedia.org/wiki/User:Liouxiao\" title=\"User:Liouxiao\">Liouxiao</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "sha256": "d9599544f15976bcd3f005f73aaff45aaa90605cc97848a6102dbb6f0a8f1def"
+    },
+    {
+      "skchar_id": "2959",
+      "path": "assets/glyphs/SKQS_2959.svg",
+      "alternative_text": "弦",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/51/SKQS_2959.svg",
+      "description_url": "https://commons.wikimedia.org/wiki/File:SKQS_2959.svg",
+      "source_sha1": "583e24fa3ec06baf8e3d70d9aee916cd578983bb",
+      "bytes": 2574,
+      "commons_metadata": {
+        "DateTime": {
+          "value": "2026-09-25 00:58:49",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "SKQS 2959",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Public domain images of fonts|Siku Quanshu Unusual Chinese characters",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "​文淵閣四庫全書電子版字庫僻字第 2959 號（<a href=\"https://en.wikisource.org/wiki/zh:Template:%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E5%83%BB%E5%AD%97/2959\" class=\"extiw\" title=\"s:zh:Template:四庫全書僻字/2959\">維基文庫條目</a>），參見 <a href=\"//commons.wikimedia.org/wiki/File:SKQSfont.pdf\" title=\"File:SKQSfont.pdf\">File:SKQSfont.pdf</a> <a class=\"external text\" href=\"https://commons.wikimedia.org/w/index.php?title=File:SKQSfont.pdf&amp;page=2959\">第 2959 頁</a>。",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2018-05-01",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "文淵閣四庫全書電子版字庫（Sk4.ttf）；<a href=\"//commons.wikimedia.org/wiki/File:SKQSfont.pdf\" title=\"File:SKQSfont.pdf\">File:SKQSfont.pdf</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "Glyph from the font of the Wenyuan Ge <i>Siku Quanshu</i> electronic edition; compiled into SKQSfont.pdf by <a href=\"//commons.wikimedia.org/wiki/User:%E7%B6%AD%E5%9F%BA%E5%B0%8F%E9%9C%B8%E7%8E%8B\" title=\"User:維基小霸王\">維基小霸王</a>; traced by <a href=\"//commons.wikimedia.org/wiki/User:Liouxiao\" title=\"User:Liouxiao\">Liouxiao</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "sha256": "ec87d21746a7a2a3d356976e454ab1615753eadd41493e847caa7c53c2ed965a"
+    },
+    {
+      "skchar_id": "2982",
+      "path": "assets/glyphs/SKQS_2982.svg",
+      "alternative_text": "㤀",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/SKQS_2982.svg",
+      "description_url": "https://commons.wikimedia.org/wiki/File:SKQS_2982.svg",
+      "source_sha1": "5d57d960693989a04a182c415ab9753cf1db8cfa",
+      "bytes": 2455,
+      "commons_metadata": {
+        "DateTime": {
+          "value": "2026-09-25 00:59:13",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "SKQS 2982",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Public domain images of fonts|Siku Quanshu Unusual Chinese characters",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "​文淵閣四庫全書電子版字庫僻字第 2982 號（<a href=\"https://en.wikisource.org/wiki/zh:Template:%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E5%83%BB%E5%AD%97/2982\" class=\"extiw\" title=\"s:zh:Template:四庫全書僻字/2982\">維基文庫條目</a>），參見 <a href=\"//commons.wikimedia.org/wiki/File:SKQSfont.pdf\" title=\"File:SKQSfont.pdf\">File:SKQSfont.pdf</a> <a class=\"external text\" href=\"https://commons.wikimedia.org/w/index.php?title=File:SKQSfont.pdf&amp;page=2982\">第 2982 頁</a>。",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2018-05-01",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "文淵閣四庫全書電子版字庫（Sk4.ttf）；<a href=\"//commons.wikimedia.org/wiki/File:SKQSfont.pdf\" title=\"File:SKQSfont.pdf\">File:SKQSfont.pdf</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "Glyph from the font of the Wenyuan Ge <i>Siku Quanshu</i> electronic edition; compiled into SKQSfont.pdf by <a href=\"//commons.wikimedia.org/wiki/User:%E7%B6%AD%E5%9F%BA%E5%B0%8F%E9%9C%B8%E7%8E%8B\" title=\"User:維基小霸王\">維基小霸王</a>; traced by <a href=\"//commons.wikimedia.org/wiki/User:Liouxiao\" title=\"User:Liouxiao\">Liouxiao</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "sha256": "6de768a362effd77da9190eafe0007a66db5929b6c9106b0ff54377731d1681f"
+    },
+    {
+      "skchar_id": "3000",
+      "path": "assets/glyphs/SKQS_3000.svg",
+      "alternative_text": "惨",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/SKQS_3000.svg",
+      "description_url": "https://commons.wikimedia.org/wiki/File:SKQS_3000.svg",
+      "source_sha1": "287dd28144235df1583968b5ba89272d298f2ef5",
+      "bytes": 1217,
+      "commons_metadata": {
+        "DateTime": {
+          "value": "2026-09-25 00:59:27",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "SKQS 3000",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Public domain images of fonts|Siku Quanshu Unusual Chinese characters",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "​文淵閣四庫全書電子版字庫僻字第 3000 號（<a href=\"https://en.wikisource.org/wiki/zh:Template:%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E5%83%BB%E5%AD%97/3000\" class=\"extiw\" title=\"s:zh:Template:四庫全書僻字/3000\">維基文庫條目</a>），參見 <a href=\"//commons.wikimedia.org/wiki/File:SKQSfont.pdf\" title=\"File:SKQSfont.pdf\">File:SKQSfont.pdf</a> <a class=\"external text\" href=\"https://commons.wikimedia.org/w/index.php?title=File:SKQSfont.pdf&amp;page=3000\">第 3000 頁</a>。",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2018-05-01",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "文淵閣四庫全書電子版字庫（Sk4.ttf）；<a href=\"//commons.wikimedia.org/wiki/File:SKQSfont.pdf\" title=\"File:SKQSfont.pdf\">File:SKQSfont.pdf</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "Glyph from the font of the Wenyuan Ge <i>Siku Quanshu</i> electronic edition; compiled into SKQSfont.pdf by <a href=\"//commons.wikimedia.org/wiki/User:%E7%B6%AD%E5%9F%BA%E5%B0%8F%E9%9C%B8%E7%8E%8B\" title=\"User:維基小霸王\">維基小霸王</a>; traced by <a href=\"//commons.wikimedia.org/wiki/User:Liouxiao\" title=\"User:Liouxiao\">Liouxiao</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "sha256": "a5764f89cb77a3ef1fa20a6138aa5a724cfc23ad01c8e83ace3d67eafd1e5554"
+    },
+    {
+      "skchar_id": "3001",
+      "path": "assets/glyphs/SKQS_3001.svg",
+      "alternative_text": "愽",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/69/SKQS_3001.svg",
+      "description_url": "https://commons.wikimedia.org/wiki/File:SKQS_3001.svg",
+      "source_sha1": "5cbd792149b934b0d1d316ff6348f136f5940803",
+      "bytes": 3169,
+      "commons_metadata": {
+        "DateTime": {
+          "value": "2026-09-25 00:59:33",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "SKQS 3001",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Public domain images of fonts|Siku Quanshu Unusual Chinese characters",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "​文淵閣四庫全書電子版字庫僻字第 3001 號（<a href=\"https://en.wikisource.org/wiki/zh:Template:%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E5%83%BB%E5%AD%97/3001\" class=\"extiw\" title=\"s:zh:Template:四庫全書僻字/3001\">維基文庫條目</a>），參見 <a href=\"//commons.wikimedia.org/wiki/File:SKQSfont.pdf\" title=\"File:SKQSfont.pdf\">File:SKQSfont.pdf</a> <a class=\"external text\" href=\"https://commons.wikimedia.org/w/index.php?title=File:SKQSfont.pdf&amp;page=3001\">第 3001 頁</a>。",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2018-05-01",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "文淵閣四庫全書電子版字庫（Sk4.ttf）；<a href=\"//commons.wikimedia.org/wiki/File:SKQSfont.pdf\" title=\"File:SKQSfont.pdf\">File:SKQSfont.pdf</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "Glyph from the font of the Wenyuan Ge <i>Siku Quanshu</i> electronic edition; compiled into SKQSfont.pdf by <a href=\"//commons.wikimedia.org/wiki/User:%E7%B6%AD%E5%9F%BA%E5%B0%8F%E9%9C%B8%E7%8E%8B\" title=\"User:維基小霸王\">維基小霸王</a>; traced by <a href=\"//commons.wikimedia.org/wiki/User:Liouxiao\" title=\"User:Liouxiao\">Liouxiao</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "sha256": "07bea508844d5a23469a3344ec7b142db4d0cdeac5415621c82bc7496cd1d489"
+    },
+    {
+      "skchar_id": "3039",
+      "path": "assets/glyphs/SKQS_3039.svg",
+      "alternative_text": "哲",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/SKQS_3039.svg",
+      "description_url": "https://commons.wikimedia.org/wiki/File:SKQS_3039.svg",
+      "source_sha1": "fa359ce76014647fc05a911ca2a4af4aaee4ed48",
+      "bytes": 2719,
+      "commons_metadata": {
+        "DateTime": {
+          "value": "2026-09-25 01:00:22",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "SKQS 3039",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Public domain images of fonts|Siku Quanshu Unusual Chinese characters",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "​文淵閣四庫全書電子版字庫僻字第 3039 號（<a href=\"https://en.wikisource.org/wiki/zh:Template:%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E5%83%BB%E5%AD%97/3039\" class=\"extiw\" title=\"s:zh:Template:四庫全書僻字/3039\">維基文庫條目</a>），參見 <a href=\"//commons.wikimedia.org/wiki/File:SKQSfont.pdf\" title=\"File:SKQSfont.pdf\">File:SKQSfont.pdf</a> <a class=\"external text\" href=\"https://commons.wikimedia.org/w/index.php?title=File:SKQSfont.pdf&amp;page=3039\">第 3039 頁</a>。",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2018-05-01",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "文淵閣四庫全書電子版字庫（Sk4.ttf）；<a href=\"//commons.wikimedia.org/wiki/File:SKQSfont.pdf\" title=\"File:SKQSfont.pdf\">File:SKQSfont.pdf</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "Glyph from the font of the Wenyuan Ge <i>Siku Quanshu</i> electronic edition; compiled into SKQSfont.pdf by <a href=\"//commons.wikimedia.org/wiki/User:%E7%B6%AD%E5%9F%BA%E5%B0%8F%E9%9C%B8%E7%8E%8B\" title=\"User:維基小霸王\">維基小霸王</a>; traced by <a href=\"//commons.wikimedia.org/wiki/User:Liouxiao\" title=\"User:Liouxiao\">Liouxiao</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "sha256": "c95fee262b7f4ecfb12ef2e629decae49a12663ed0dac318afe06ef5cb0bf395"
+    },
+    {
+      "skchar_id": "3220",
+      "path": "assets/glyphs/SKQS_3220.svg",
+      "alternative_text": "滛",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/77/SKQS_3220.svg",
+      "description_url": "https://commons.wikimedia.org/wiki/File:SKQS_3220.svg",
+      "source_sha1": "28f4bd5890e98889eaff9242c20e35fd445eb9d6",
+      "bytes": 2882,
+      "commons_metadata": {
+        "DateTime": {
+          "value": "2026-09-25 01:02:38",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "SKQS 3220",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Public domain images of fonts|Siku Quanshu Unusual Chinese characters",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "​文淵閣四庫全書電子版字庫僻字第 3220 號（<a href=\"https://en.wikisource.org/wiki/zh:Template:%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E5%83%BB%E5%AD%97/3220\" class=\"extiw\" title=\"s:zh:Template:四庫全書僻字/3220\">維基文庫條目</a>），參見 <a href=\"//commons.wikimedia.org/wiki/File:SKQSfont.pdf\" title=\"File:SKQSfont.pdf\">File:SKQSfont.pdf</a> <a class=\"external text\" href=\"https://commons.wikimedia.org/w/index.php?title=File:SKQSfont.pdf&amp;page=3220\">第 3220 頁</a>。",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2018-05-01",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "文淵閣四庫全書電子版字庫（Sk4.ttf）；<a href=\"//commons.wikimedia.org/wiki/File:SKQSfont.pdf\" title=\"File:SKQSfont.pdf\">File:SKQSfont.pdf</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "Glyph from the font of the Wenyuan Ge <i>Siku Quanshu</i> electronic edition; compiled into SKQSfont.pdf by <a href=\"//commons.wikimedia.org/wiki/User:%E7%B6%AD%E5%9F%BA%E5%B0%8F%E9%9C%B8%E7%8E%8B\" title=\"User:維基小霸王\">維基小霸王</a>; traced by <a href=\"//commons.wikimedia.org/wiki/User:Liouxiao\" title=\"User:Liouxiao\">Liouxiao</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "sha256": "93b01c2a266e6de01142dbc69a756720cdf00afb54582db72130351a397b966c"
+    },
+    {
+      "skchar_id": "3239",
+      "path": "assets/glyphs/SKQS_3239.svg",
+      "alternative_text": "⿲氵身攵",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/SKQS_3239.svg",
+      "description_url": "https://commons.wikimedia.org/wiki/File:SKQS_3239.svg",
+      "source_sha1": "90e0c0ba8ed5a94afc11861f2d298174336cd04e",
+      "bytes": 1056,
+      "commons_metadata": {
+        "DateTime": {
+          "value": "2026-09-25 01:03:00",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "SKQS 3239",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Public domain images of fonts|Siku Quanshu Unusual Chinese characters",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "​文淵閣四庫全書電子版字庫僻字第 3239 號（<a href=\"https://en.wikisource.org/wiki/zh:Template:%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E5%83%BB%E5%AD%97/3239\" class=\"extiw\" title=\"s:zh:Template:四庫全書僻字/3239\">維基文庫條目</a>），參見 <a href=\"//commons.wikimedia.org/wiki/File:SKQSfont.pdf\" title=\"File:SKQSfont.pdf\">File:SKQSfont.pdf</a> <a class=\"external text\" href=\"https://commons.wikimedia.org/w/index.php?title=File:SKQSfont.pdf&amp;page=3239\">第 3239 頁</a>。",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2018-05-01",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "文淵閣四庫全書電子版字庫（Sk4.ttf）；<a href=\"//commons.wikimedia.org/wiki/File:SKQSfont.pdf\" title=\"File:SKQSfont.pdf\">File:SKQSfont.pdf</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "Glyph from the font of the Wenyuan Ge <i>Siku Quanshu</i> electronic edition; compiled into SKQSfont.pdf by <a href=\"//commons.wikimedia.org/wiki/User:%E7%B6%AD%E5%9F%BA%E5%B0%8F%E9%9C%B8%E7%8E%8B\" title=\"User:維基小霸王\">維基小霸王</a>; traced by <a href=\"//commons.wikimedia.org/wiki/User:Liouxiao\" title=\"User:Liouxiao\">Liouxiao</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "sha256": "8ffb550cb0d344c56c73875016321c407637e704c92e4777199cfe0bf6996e8e"
+    },
+    {
+      "skchar_id": "3295",
+      "path": "assets/glyphs/SKQS_3295.svg",
+      "alternative_text": "㸃",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/02/SKQS_3295.svg",
+      "description_url": "https://commons.wikimedia.org/wiki/File:SKQS_3295.svg",
+      "source_sha1": "ab49c7c4e1183033412a72376eaaeda3db4bdb06",
+      "bytes": 3184,
+      "commons_metadata": {
+        "DateTime": {
+          "value": "2026-09-25 01:03:42",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "SKQS 3295",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Public domain images of fonts|Siku Quanshu Unusual Chinese characters",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "​文淵閣四庫全書電子版字庫僻字第 3295 號（<a href=\"https://en.wikisource.org/wiki/zh:Template:%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E5%83%BB%E5%AD%97/3295\" class=\"extiw\" title=\"s:zh:Template:四庫全書僻字/3295\">維基文庫條目</a>），參見 <a href=\"//commons.wikimedia.org/wiki/File:SKQSfont.pdf\" title=\"File:SKQSfont.pdf\">File:SKQSfont.pdf</a> <a class=\"external text\" href=\"https://commons.wikimedia.org/w/index.php?title=File:SKQSfont.pdf&amp;page=3295\">第 3295 頁</a>。",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2018-05-01",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "文淵閣四庫全書電子版字庫（Sk4.ttf）；<a href=\"//commons.wikimedia.org/wiki/File:SKQSfont.pdf\" title=\"File:SKQSfont.pdf\">File:SKQSfont.pdf</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "Glyph from the font of the Wenyuan Ge <i>Siku Quanshu</i> electronic edition; compiled into SKQSfont.pdf by <a href=\"//commons.wikimedia.org/wiki/User:%E7%B6%AD%E5%9F%BA%E5%B0%8F%E9%9C%B8%E7%8E%8B\" title=\"User:維基小霸王\">維基小霸王</a>; traced by <a href=\"//commons.wikimedia.org/wiki/User:Liouxiao\" title=\"User:Liouxiao\">Liouxiao</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "sha256": "0e3ca5ba44de6f3cc1c2a780346fc1b1c21ee6745ebc655930cfa9332cf31db0"
+    },
+    {
+      "skchar_id": "3392",
+      "path": "assets/glyphs/SKQS_3392.svg",
+      "alternative_text": "眩",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/8/82/SKQS_3392.svg",
+      "description_url": "https://commons.wikimedia.org/wiki/File:SKQS_3392.svg",
+      "source_sha1": "b56b8290bb951a2a8c8c7c026c35f9fb794fa760",
+      "bytes": 2348,
+      "commons_metadata": {
+        "DateTime": {
+          "value": "2026-09-25 01:05:07",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "SKQS 3392",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Public domain images of fonts|Siku Quanshu Unusual Chinese characters",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "​文淵閣四庫全書電子版字庫僻字第 3392 號（<a href=\"https://en.wikisource.org/wiki/zh:Template:%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E5%83%BB%E5%AD%97/3392\" class=\"extiw\" title=\"s:zh:Template:四庫全書僻字/3392\">維基文庫條目</a>），參見 <a href=\"//commons.wikimedia.org/wiki/File:SKQSfont.pdf\" title=\"File:SKQSfont.pdf\">File:SKQSfont.pdf</a> <a class=\"external text\" href=\"https://commons.wikimedia.org/w/index.php?title=File:SKQSfont.pdf&amp;page=3392\">第 3392 頁</a>。",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2018-05-01",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "文淵閣四庫全書電子版字庫（Sk4.ttf）；<a href=\"//commons.wikimedia.org/wiki/File:SKQSfont.pdf\" title=\"File:SKQSfont.pdf\">File:SKQSfont.pdf</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "Glyph from the font of the Wenyuan Ge <i>Siku Quanshu</i> electronic edition; compiled into SKQSfont.pdf by <a href=\"//commons.wikimedia.org/wiki/User:%E7%B6%AD%E5%9F%BA%E5%B0%8F%E9%9C%B8%E7%8E%8B\" title=\"User:維基小霸王\">維基小霸王</a>; traced by <a href=\"//commons.wikimedia.org/wiki/User:Liouxiao\" title=\"User:Liouxiao\">Liouxiao</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "sha256": "56371d7bc17c78bc469035a22e8c1db5dea61cf658a773a3d899af0135960a51"
+    },
+    {
+      "skchar_id": "3623",
+      "path": "assets/glyphs/SKQS_3623.svg",
+      "alternative_text": "⿰虗亏 -- 虧",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/91/SKQS_3623.svg",
+      "description_url": "https://commons.wikimedia.org/wiki/File:SKQS_3623.svg",
+      "source_sha1": "450b0873e489ec8c5a89d45c221e2b328a5fa966",
+      "bytes": 3515,
+      "commons_metadata": {
+        "DateTime": {
+          "value": "2026-09-25 01:07:45",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "SKQS 3623",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Public domain images of fonts|Siku Quanshu Unusual Chinese characters",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "​文淵閣四庫全書電子版字庫僻字第 3623 號（<a href=\"https://en.wikisource.org/wiki/zh:Template:%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E5%83%BB%E5%AD%97/3623\" class=\"extiw\" title=\"s:zh:Template:四庫全書僻字/3623\">維基文庫條目</a>），參見 <a href=\"//commons.wikimedia.org/wiki/File:SKQSfont.pdf\" title=\"File:SKQSfont.pdf\">File:SKQSfont.pdf</a> <a class=\"external text\" href=\"https://commons.wikimedia.org/w/index.php?title=File:SKQSfont.pdf&amp;page=3623\">第 3623 頁</a>。",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2018-05-01",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "文淵閣四庫全書電子版字庫（Sk4.ttf）；<a href=\"//commons.wikimedia.org/wiki/File:SKQSfont.pdf\" title=\"File:SKQSfont.pdf\">File:SKQSfont.pdf</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "Glyph from the font of the Wenyuan Ge <i>Siku Quanshu</i> electronic edition; compiled into SKQSfont.pdf by <a href=\"//commons.wikimedia.org/wiki/User:%E7%B6%AD%E5%9F%BA%E5%B0%8F%E9%9C%B8%E7%8E%8B\" title=\"User:維基小霸王\">維基小霸王</a>; traced by <a href=\"//commons.wikimedia.org/wiki/User:Liouxiao\" title=\"User:Liouxiao\">Liouxiao</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "sha256": "402ad7f16b31f87fb195caa3436e7c754fe37a08d37cef6fe1c99beaaeacf061"
+    },
+    {
+      "skchar_id": "3694",
+      "path": "assets/glyphs/SKQS_3694.svg",
+      "alternative_text": "賻",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/25/SKQS_3694.svg",
+      "description_url": "https://commons.wikimedia.org/wiki/File:SKQS_3694.svg",
+      "source_sha1": "d8e498a783053addb27482f60ea4f3991b3cb4d8",
+      "bytes": 3684,
+      "commons_metadata": {
+        "DateTime": {
+          "value": "2026-09-25 01:08:35",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "SKQS 3694",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Public domain images of fonts|Siku Quanshu Unusual Chinese characters",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "​文淵閣四庫全書電子版字庫僻字第 3694 號（<a href=\"https://en.wikisource.org/wiki/zh:Template:%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E5%83%BB%E5%AD%97/3694\" class=\"extiw\" title=\"s:zh:Template:四庫全書僻字/3694\">維基文庫條目</a>），參見 <a href=\"//commons.wikimedia.org/wiki/File:SKQSfont.pdf\" title=\"File:SKQSfont.pdf\">File:SKQSfont.pdf</a> <a class=\"external text\" href=\"https://commons.wikimedia.org/w/index.php?title=File:SKQSfont.pdf&amp;page=3694\">第 3694 頁</a>。",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2018-05-01",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "文淵閣四庫全書電子版字庫（Sk4.ttf）；<a href=\"//commons.wikimedia.org/wiki/File:SKQSfont.pdf\" title=\"File:SKQSfont.pdf\">File:SKQSfont.pdf</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "Glyph from the font of the Wenyuan Ge <i>Siku Quanshu</i> electronic edition; compiled into SKQSfont.pdf by <a href=\"//commons.wikimedia.org/wiki/User:%E7%B6%AD%E5%9F%BA%E5%B0%8F%E9%9C%B8%E7%8E%8B\" title=\"User:維基小霸王\">維基小霸王</a>; traced by <a href=\"//commons.wikimedia.org/wiki/User:Liouxiao\" title=\"User:Liouxiao\">Liouxiao</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "sha256": "6fafd10a63e382b4f526b01fbeba8587b517845a9f6770c3e3ed2c56d04a647c"
+    },
+    {
+      "skchar_id": "3741",
+      "path": "assets/glyphs/SKQS_3741.svg",
+      "alternative_text": "逄",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/54/SKQS_3741.svg",
+      "description_url": "https://commons.wikimedia.org/wiki/File:SKQS_3741.svg",
+      "source_sha1": "875dacaee53ec0d245f826f9aa9ce3c91a2627ed",
+      "bytes": 2835,
+      "commons_metadata": {
+        "DateTime": {
+          "value": "2026-09-25 01:09:01",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "SKQS 3741",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Public domain images of fonts|Siku Quanshu Unusual Chinese characters",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "​文淵閣四庫全書電子版字庫僻字第 3741 號（<a href=\"https://en.wikisource.org/wiki/zh:Template:%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E5%83%BB%E5%AD%97/3741\" class=\"extiw\" title=\"s:zh:Template:四庫全書僻字/3741\">維基文庫條目</a>），參見 <a href=\"//commons.wikimedia.org/wiki/File:SKQSfont.pdf\" title=\"File:SKQSfont.pdf\">File:SKQSfont.pdf</a> <a class=\"external text\" href=\"https://commons.wikimedia.org/w/index.php?title=File:SKQSfont.pdf&amp;page=3741\">第 3741 頁</a>。",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2018-05-01",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "文淵閣四庫全書電子版字庫（Sk4.ttf）；<a href=\"//commons.wikimedia.org/wiki/File:SKQSfont.pdf\" title=\"File:SKQSfont.pdf\">File:SKQSfont.pdf</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "Glyph from the font of the Wenyuan Ge <i>Siku Quanshu</i> electronic edition; compiled into SKQSfont.pdf by <a href=\"//commons.wikimedia.org/wiki/User:%E7%B6%AD%E5%9F%BA%E5%B0%8F%E9%9C%B8%E7%8E%8B\" title=\"User:維基小霸王\">維基小霸王</a>; traced by <a href=\"//commons.wikimedia.org/wiki/User:Liouxiao\" title=\"User:Liouxiao\">Liouxiao</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "sha256": "60782e41ca84cc48cce1385911906e4800c586e89543a73f88bc80790e548018"
+    },
+    {
+      "skchar_id": "3751",
+      "path": "assets/glyphs/SKQS_3751.svg",
+      "alternative_text": "⿺辶𦮔",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/00/SKQS_3751.svg",
+      "description_url": "https://commons.wikimedia.org/wiki/File:SKQS_3751.svg",
+      "source_sha1": "9f39d9d6c4587813b5912c779823210333375cb6",
+      "bytes": 1471,
+      "commons_metadata": {
+        "DateTime": {
+          "value": "2026-09-25 01:09:08",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "SKQS 3751",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Public domain images of fonts|Siku Quanshu Unusual Chinese characters",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "​文淵閣四庫全書電子版字庫僻字第 3751 號（<a href=\"https://en.wikisource.org/wiki/zh:Template:%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E5%83%BB%E5%AD%97/3751\" class=\"extiw\" title=\"s:zh:Template:四庫全書僻字/3751\">維基文庫條目</a>），參見 <a href=\"//commons.wikimedia.org/wiki/File:SKQSfont.pdf\" title=\"File:SKQSfont.pdf\">File:SKQSfont.pdf</a> <a class=\"external text\" href=\"https://commons.wikimedia.org/w/index.php?title=File:SKQSfont.pdf&amp;page=3751\">第 3751 頁</a>。",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2018-05-01",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "文淵閣四庫全書電子版字庫（Sk4.ttf）；<a href=\"//commons.wikimedia.org/wiki/File:SKQSfont.pdf\" title=\"File:SKQSfont.pdf\">File:SKQSfont.pdf</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "Glyph from the font of the Wenyuan Ge <i>Siku Quanshu</i> electronic edition; compiled into SKQSfont.pdf by <a href=\"//commons.wikimedia.org/wiki/User:%E7%B6%AD%E5%9F%BA%E5%B0%8F%E9%9C%B8%E7%8E%8B\" title=\"User:維基小霸王\">維基小霸王</a>; traced by <a href=\"//commons.wikimedia.org/wiki/User:Liouxiao\" title=\"User:Liouxiao\">Liouxiao</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "sha256": "d6e713879a554996df225786f41f9037e1a1fc1a398b54ec0f0d2269cbbcbbae"
+    },
+    {
+      "skchar_id": "3904",
+      "path": "assets/glyphs/SKQS_3904.svg",
+      "alternative_text": "搏",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/68/SKQS_3904.svg",
+      "description_url": "https://commons.wikimedia.org/wiki/File:SKQS_3904.svg",
+      "source_sha1": "77e0946510a74971c403820b64d196878661b9b8",
+      "bytes": 3359,
+      "commons_metadata": {
+        "DateTime": {
+          "value": "2026-09-25 01:10:19",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "SKQS 3904",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Public domain images of fonts|Siku Quanshu Unusual Chinese characters",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "​文淵閣四庫全書電子版字庫僻字第 3904 號（<a href=\"https://en.wikisource.org/wiki/zh:Template:%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E5%83%BB%E5%AD%97/3904\" class=\"extiw\" title=\"s:zh:Template:四庫全書僻字/3904\">維基文庫條目</a>），參見 <a href=\"//commons.wikimedia.org/wiki/File:SKQSfont.pdf\" title=\"File:SKQSfont.pdf\">File:SKQSfont.pdf</a> <a class=\"external text\" href=\"https://commons.wikimedia.org/w/index.php?title=File:SKQSfont.pdf&amp;page=3904\">第 3904 頁</a>。",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2018-05-01",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "文淵閣四庫全書電子版字庫（Sk4.ttf）；<a href=\"//commons.wikimedia.org/wiki/File:SKQSfont.pdf\" title=\"File:SKQSfont.pdf\">File:SKQSfont.pdf</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "Glyph from the font of the Wenyuan Ge <i>Siku Quanshu</i> electronic edition; compiled into SKQSfont.pdf by <a href=\"//commons.wikimedia.org/wiki/User:%E7%B6%AD%E5%9F%BA%E5%B0%8F%E9%9C%B8%E7%8E%8B\" title=\"User:維基小霸王\">維基小霸王</a>; traced by <a href=\"//commons.wikimedia.org/wiki/User:Liouxiao\" title=\"User:Liouxiao\">Liouxiao</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "sha256": "b6448d810643e9b5375e1713faaf0b26b9faea1f29a47e61e706e3c142c634c0"
+    },
+    {
+      "skchar_id": "3947",
+      "path": "assets/glyphs/SKQS_3947.svg",
+      "alternative_text": "愓 --（『昜』上『旦』之『日』與『一』相連）",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/66/SKQS_3947.svg",
+      "description_url": "https://commons.wikimedia.org/wiki/File:SKQS_3947.svg",
+      "source_sha1": "6f45a9f01f84a76f4a78325c429b2b598aef3a1b",
+      "bytes": 2764,
+      "commons_metadata": {
+        "DateTime": {
+          "value": "2026-09-25 01:10:32",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "SKQS 3947",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Public domain images of fonts|Siku Quanshu Unusual Chinese characters",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "​文淵閣四庫全書電子版字庫僻字第 3947 號（<a href=\"https://en.wikisource.org/wiki/zh:Template:%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E5%83%BB%E5%AD%97/3947\" class=\"extiw\" title=\"s:zh:Template:四庫全書僻字/3947\">維基文庫條目</a>），參見 <a href=\"//commons.wikimedia.org/wiki/File:SKQSfont.pdf\" title=\"File:SKQSfont.pdf\">File:SKQSfont.pdf</a> <a class=\"external text\" href=\"https://commons.wikimedia.org/w/index.php?title=File:SKQSfont.pdf&amp;page=3947\">第 3947 頁</a>。",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2018-05-01",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "文淵閣四庫全書電子版字庫（Sk4.ttf）；<a href=\"//commons.wikimedia.org/wiki/File:SKQSfont.pdf\" title=\"File:SKQSfont.pdf\">File:SKQSfont.pdf</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "Glyph from the font of the Wenyuan Ge <i>Siku Quanshu</i> electronic edition; compiled into SKQSfont.pdf by <a href=\"//commons.wikimedia.org/wiki/User:%E7%B6%AD%E5%9F%BA%E5%B0%8F%E9%9C%B8%E7%8E%8B\" title=\"User:維基小霸王\">維基小霸王</a>; traced by <a href=\"//commons.wikimedia.org/wiki/User:Liouxiao\" title=\"User:Liouxiao\">Liouxiao</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "sha256": "6006d98ac53c8347401acddc7e8ad8ef376b03244faeee733e92ab0a4f2e0de6"
+    },
+    {
+      "skchar_id": "3948",
+      "path": "assets/glyphs/SKQS_3948.svg",
+      "alternative_text": "瘍",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/SKQS_3948.svg",
+      "description_url": "https://commons.wikimedia.org/wiki/File:SKQS_3948.svg",
+      "source_sha1": "bb908b153067407d2ee831cfbfb02e38a0ef9d3a",
+      "bytes": 3053,
+      "commons_metadata": {
+        "DateTime": {
+          "value": "2026-09-25 01:10:34",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "SKQS 3948",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Public domain images of fonts|Siku Quanshu Unusual Chinese characters",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "​文淵閣四庫全書電子版字庫僻字第 3948 號（<a href=\"https://en.wikisource.org/wiki/zh:Template:%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E5%83%BB%E5%AD%97/3948\" class=\"extiw\" title=\"s:zh:Template:四庫全書僻字/3948\">維基文庫條目</a>），參見 <a href=\"//commons.wikimedia.org/wiki/File:SKQSfont.pdf\" title=\"File:SKQSfont.pdf\">File:SKQSfont.pdf</a> <a class=\"external text\" href=\"https://commons.wikimedia.org/w/index.php?title=File:SKQSfont.pdf&amp;page=3948\">第 3948 頁</a>。",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2018-05-01",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "文淵閣四庫全書電子版字庫（Sk4.ttf）；<a href=\"//commons.wikimedia.org/wiki/File:SKQSfont.pdf\" title=\"File:SKQSfont.pdf\">File:SKQSfont.pdf</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "Glyph from the font of the Wenyuan Ge <i>Siku Quanshu</i> electronic edition; compiled into SKQSfont.pdf by <a href=\"//commons.wikimedia.org/wiki/User:%E7%B6%AD%E5%9F%BA%E5%B0%8F%E9%9C%B8%E7%8E%8B\" title=\"User:維基小霸王\">維基小霸王</a>; traced by <a href=\"//commons.wikimedia.org/wiki/User:Liouxiao\" title=\"User:Liouxiao\">Liouxiao</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "sha256": "8c63d160ef755a6ff490121b5b7e87575483ff2dd3d96ebe7f16178a1ea4a86d"
+    },
+    {
+      "skchar_id": "3949",
+      "path": "assets/glyphs/SKQS_3949.svg",
+      "alternative_text": "場 --（『昜』上『旦』之『日』與『一』相連）",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/SKQS_3949.svg",
+      "description_url": "https://commons.wikimedia.org/wiki/File:SKQS_3949.svg",
+      "source_sha1": "8f02e19960c755d337091c3a0aba69872418f388",
+      "bytes": 2880,
+      "commons_metadata": {
+        "DateTime": {
+          "value": "2026-09-25 01:10:35",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "SKQS 3949",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Public domain images of fonts|Siku Quanshu Unusual Chinese characters",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "​文淵閣四庫全書電子版字庫僻字第 3949 號（<a href=\"https://en.wikisource.org/wiki/zh:Template:%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E5%83%BB%E5%AD%97/3949\" class=\"extiw\" title=\"s:zh:Template:四庫全書僻字/3949\">維基文庫條目</a>），參見 <a href=\"//commons.wikimedia.org/wiki/File:SKQSfont.pdf\" title=\"File:SKQSfont.pdf\">File:SKQSfont.pdf</a> <a class=\"external text\" href=\"https://commons.wikimedia.org/w/index.php?title=File:SKQSfont.pdf&amp;page=3949\">第 3949 頁</a>。",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2018-05-01",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "文淵閣四庫全書電子版字庫（Sk4.ttf）；<a href=\"//commons.wikimedia.org/wiki/File:SKQSfont.pdf\" title=\"File:SKQSfont.pdf\">File:SKQSfont.pdf</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "Glyph from the font of the Wenyuan Ge <i>Siku Quanshu</i> electronic edition; compiled into SKQSfont.pdf by <a href=\"//commons.wikimedia.org/wiki/User:%E7%B6%AD%E5%9F%BA%E5%B0%8F%E9%9C%B8%E7%8E%8B\" title=\"User:維基小霸王\">維基小霸王</a>; traced by <a href=\"//commons.wikimedia.org/wiki/User:Liouxiao\" title=\"User:Liouxiao\">Liouxiao</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "sha256": "b4d0f978a5848c422705fd3a6286c9d6f8facd67c2886606f6c6960b0f69f04f"
+    },
+    {
+      "skchar_id": "3951",
+      "path": "assets/glyphs/SKQS_3951.svg",
+      "alternative_text": "揚 --（『昜』上『旦』之『日』與『一』相連）",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/75/SKQS_3951.svg",
+      "description_url": "https://commons.wikimedia.org/wiki/File:SKQS_3951.svg",
+      "source_sha1": "96d703dd3ee113396d0b44b1c771aa929e4a8f25",
+      "bytes": 3042,
+      "commons_metadata": {
+        "DateTime": {
+          "value": "2026-09-25 01:10:39",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "SKQS 3951",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Public domain images of fonts|Siku Quanshu Unusual Chinese characters",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "​文淵閣四庫全書電子版字庫僻字第 3951 號（<a href=\"https://en.wikisource.org/wiki/zh:Template:%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E5%83%BB%E5%AD%97/3951\" class=\"extiw\" title=\"s:zh:Template:四庫全書僻字/3951\">維基文庫條目</a>），參見 <a href=\"//commons.wikimedia.org/wiki/File:SKQSfont.pdf\" title=\"File:SKQSfont.pdf\">File:SKQSfont.pdf</a> <a class=\"external text\" href=\"https://commons.wikimedia.org/w/index.php?title=File:SKQSfont.pdf&amp;page=3951\">第 3951 頁</a>。",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2018-05-01",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "文淵閣四庫全書電子版字庫（Sk4.ttf）；<a href=\"//commons.wikimedia.org/wiki/File:SKQSfont.pdf\" title=\"File:SKQSfont.pdf\">File:SKQSfont.pdf</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "Glyph from the font of the Wenyuan Ge <i>Siku Quanshu</i> electronic edition; compiled into SKQSfont.pdf by <a href=\"//commons.wikimedia.org/wiki/User:%E7%B6%AD%E5%9F%BA%E5%B0%8F%E9%9C%B8%E7%8E%8B\" title=\"User:維基小霸王\">維基小霸王</a>; traced by <a href=\"//commons.wikimedia.org/wiki/User:Liouxiao\" title=\"User:Liouxiao\">Liouxiao</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "sha256": "a7d3b099b8e23ae37f040ac938fa865de239bf297a41870852de4e323fdfec46"
+    }
+  ]
+}

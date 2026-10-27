@@ -1,0 +1,517 @@
+{
+  "version": "naming-editorial-character-corrections/5.0.0",
+  "baseDatasetVersion": "2026.10.18.1",
+  "baseDatasetSha256": "c5e6934fab8892e2f162cb584c0869c253b838b5f41d7087d9e7630f648fe6ae",
+  "targetDataVersion": "2026.10.20.1",
+  "rawSource": {
+    "file": "data/raw/moe-revised.json.gz",
+    "sha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+    "commit": "a6dc997417507eb510fc29822bc514de2c92728c",
+    "license": "CC-BY-ND-3.0-TW; original definition text retained verbatim"
+  },
+  "overrides": [
+    {
+      "char": "志",
+      "before": {
+        "char": "志",
+        "pinyin": "zhì",
+        "tone": 4,
+        "meaning": "記住、記憶。；記錄、記載。；表示。",
+        "traditional": "誌",
+        "strokes": 7,
+        "radical": "心",
+        "elements": [],
+        "elementBasis": "五行属性待起名师指定；不从普通笔画数推定五行",
+        "tags": [
+          "常用命名字候选"
+        ],
+        "warning": "繁体对应“誌”，简繁与异体须按户籍用字确认。 Unicode 记有多个简繁对应：志、誌，请按实际字义确认。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "zhì",
+            "tone": 4,
+            "meanings": [
+              "記住、記憶。",
+              "記錄、記載。",
+              "表示。",
+              "文體名。一種記事文。",
+              "標識、記號。",
+              "皮膚上所生的微凸小點。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "誌"
+          }
+        ],
+        "polyphonic": false,
+        "variants": [
+          "志",
+          "誌",
+          "𰵧"
+        ]
+      },
+      "after": {
+        "char": "志",
+        "pinyin": "zhì",
+        "tone": 4,
+        "meaning": "意向、抱負、決心。；記錄事物的書。；姓。如元代有志能。",
+        "traditional": "志",
+        "strokes": 7,
+        "radical": "心",
+        "elements": [],
+        "elementBasis": "五行属性待起名师指定；不从普通笔画数推定五行",
+        "tags": [
+          "常用命名字候选"
+        ],
+        "warning": "本条字义对应原词条“志”；Unicode 简繁与异体对应保留，请按实际字义确认。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "zhì",
+            "tone": 4,
+            "meanings": [
+              "意向、抱負、決心。",
+              "記錄事物的書。",
+              "姓。如元代有志能。",
+              "記載、記錄。",
+              "牢記。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "志"
+          }
+        ],
+        "polyphonic": false,
+        "variants": [
+          "志",
+          "誌",
+          "𰵧"
+        ]
+      },
+      "sourceEvidence": {
+        "rawFile": "data/raw/moe-revised.json.gz",
+        "rawSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "beforeDictionaryWord": "誌",
+        "beforeEntry": {
+          "heteronyms": [
+            {
+              "bopomofo": "ㄓˋ",
+              "definitions": [
+                {
+                  "def": "記住、記憶。",
+                  "example": [
+                    "如：「永誌不忘」。"
+                  ],
+                  "quote": [
+                    "《新唐書．卷一○二．褚亮傳》：「亮少警敏，博見圖史，一經目輒誌于心。」"
+                  ],
+                  "type": "動"
+                },
+                {
+                  "def": "記錄、記載。",
+                  "quote": [
+                    "《列子．楊朱》：「太古之事滅矣，孰誌之哉？」",
+                    "《聊齋志異．卷九．邵臨淄》：「邑有賢宰，里無悍婦矣。誌之，以補循吏傳之所不及者。」"
+                  ],
+                  "type": "動"
+                },
+                {
+                  "def": "表示。",
+                  "example": [
+                    "如：「誌哀」、「誌慶」。"
+                  ],
+                  "type": "動"
+                },
+                {
+                  "def": "文體名。一種記事文。",
+                  "example": [
+                    "如：「碑誌」、「讀書誌」。"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "標識、記號。",
+                  "quote": [
+                    "《南齊書．卷五五．孝義傳．韓係伯傳》：「襄陽土俗，鄰居種桑樹於界上為誌。」"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "皮膚上所生的微凸小點。",
+                  "link": [
+                    "通「痣」。"
+                  ],
+                  "quote": [
+                    "《南齊書．卷四二．江祐傳》：「高宗胛上有赤誌。」",
+                    "唐．段成式《酉陽雜俎．卷二．玉格》：「額三理，腹三誌。」"
+                  ],
+                  "type": "名"
+                }
+              ],
+              "pinyin": "zhì"
+            }
+          ],
+          "non_radical_stroke_count": 7,
+          "radical": "言",
+          "stroke_count": 14,
+          "title": "誌"
+        },
+        "beforeRawEntryIndex": 132332,
+        "afterDictionaryWord": "志",
+        "afterEntry": {
+          "heteronyms": [
+            {
+              "bopomofo": "ㄓˋ",
+              "definitions": [
+                {
+                  "def": "意向、抱負、決心。",
+                  "example": [
+                    "如：「意志」、「志同道合」。"
+                  ],
+                  "quote": [
+                    "《論語．公冶長》：「盍各言爾志。」"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "記錄事物的書。",
+                  "example": [
+                    "如：「府志」、「三國志」。"
+                  ],
+                  "quote": [
+                    "《周禮．春官．小史》：「小史掌邦國之志。」"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "姓。如元代有志能。",
+                  "type": "名"
+                },
+                {
+                  "def": "記載、記錄。",
+                  "link": [
+                    "通「誌」。"
+                  ],
+                  "quote": [
+                    "《周禮．春官．保章氏》：「掌天星，以志日月星辰之變動。」"
+                  ],
+                  "type": "動"
+                },
+                {
+                  "def": "牢記。",
+                  "example": [
+                    "如：「永志不忘」。"
+                  ],
+                  "quote": [
+                    "《荀子．子道》：「孔子曰：『由志之，吾語汝。』」"
+                  ],
+                  "type": "動"
+                }
+              ],
+              "pinyin": "zhì"
+            }
+          ],
+          "non_radical_stroke_count": 3,
+          "radical": "心",
+          "stroke_count": 7,
+          "title": "志"
+        },
+        "afterRawEntryIndex": 53447,
+        "rootCause": "Unicode traditional variants precede the original char; the old builder selects the first usable MOE word. A two-character explicit exception is used; the other777 entries are not reordered.",
+        "builderLocators": [
+          "scripts/build-data.mjs:96",
+          "scripts/build-data.mjs:139",
+          "scripts/build-data.mjs:140"
+        ]
+      },
+      "changedFields": [
+        "meaning",
+        "traditional",
+        "warning",
+        "readings"
+      ],
+      "heteronymPinyinsBefore": [
+        "zhì"
+      ],
+      "heteronymPinyinsAfter": [
+        "zhì"
+      ]
+    },
+    {
+      "char": "家",
+      "before": {
+        "char": "家",
+        "pinyin": "jiā",
+        "tone": 1,
+        "meaning": "參見「傢伙」、「傢伙座兒」等條。",
+        "traditional": "傢",
+        "strokes": 10,
+        "radical": "宀",
+        "elements": [
+          "土"
+        ],
+        "elementBasis": "字形／字义意象参考 v1（项目自编标签，非唯一汉字五行定论；不得当作康熙笔画五行）",
+        "tags": [
+          "常用命名字候选"
+        ],
+        "warning": "繁体对应“傢”，简繁与异体须按户籍用字确认。 Unicode 记有多个简繁对应：傢、家，请按实际字义确认。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "jiā",
+            "tone": 1,
+            "meanings": [
+              "參見「傢伙」、「傢伙座兒」等條。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "傢"
+          }
+        ],
+        "polyphonic": false,
+        "variants": [
+          "家",
+          "傢"
+        ]
+      },
+      "after": {
+        "char": "家",
+        "pinyin": "jiā",
+        "tone": 1,
+        "meaning": "眷屬共同生活的場所。；一門之內共同生活的人。；學術流派。",
+        "traditional": "家",
+        "strokes": 10,
+        "radical": "宀",
+        "elements": [
+          "土"
+        ],
+        "elementBasis": "字形／字义意象参考 v1（项目自编标签，非唯一汉字五行定论；不得当作康熙笔画五行）",
+        "tags": [
+          "常用命名字候选"
+        ],
+        "warning": "多音字：本方案采用 jiā，请按姓名用法确认；各读音义项分别保存。 本条字义对应原词条“家”；Unicode 简繁与异体对应保留，请按实际字义确认。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "jiā",
+            "tone": 1,
+            "meanings": [
+              "眷屬共同生活的場所。",
+              "一門之內共同生活的人。",
+              "學術流派。",
+              "經營某種行業或具有某種身分的人。",
+              "尊稱學有專長或有專門技術的人。",
+              "自稱或稱別人。",
+              "古代大夫所統治的政治區域。與「國」相對。",
+              "私有財產。",
+              "量詞。計算家庭、店鋪、大型企業等的單位。",
+              " 姓。如周代有家伯。",
+              "居住。",
+              "對人謙稱自己的親長。",
+              "家中的。",
+              "家中飼養的。",
+              "置於句中。相當於「地」、「的」。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "家"
+          },
+          {
+            "pinyin": "gū",
+            "tone": 1,
+            "meanings": [
+              "對女子的尊稱。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "家"
+          }
+        ],
+        "polyphonic": true,
+        "variants": [
+          "家",
+          "傢"
+        ]
+      },
+      "sourceEvidence": {
+        "rawFile": "data/raw/moe-revised.json.gz",
+        "rawSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "beforeDictionaryWord": "傢",
+        "beforeEntry": {
+          "heteronyms": [
+            {
+              "bopomofo": "ㄐㄧㄚ",
+              "definitions": [
+                {
+                  "def": "參見「傢伙」、「傢伙座兒」等條。"
+                }
+              ],
+              "pinyin": "jiā"
+            }
+          ],
+          "non_radical_stroke_count": 10,
+          "radical": "人",
+          "stroke_count": 12,
+          "title": "傢"
+        },
+        "beforeRawEntryIndex": 13967,
+        "afterDictionaryWord": "家",
+        "afterEntry": {
+          "heteronyms": [
+            {
+              "bopomofo": "ㄐㄧㄚ",
+              "definitions": [
+                {
+                  "def": "眷屬共同生活的場所。",
+                  "example": [
+                    "如：「家庭」、「回家」。"
+                  ],
+                  "quote": [
+                    "唐．賀知章〈回鄉偶書〉詩二首之一：「少小離家老大回，鄉音無改鬢毛衰。」"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "一門之內共同生活的人。",
+                  "quote": [
+                    "《呂氏春秋．先識覽．察微》：「吳人應之不恭，怒殺而去之，吳人往報之，盡屠其家。」"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "學術流派。",
+                  "example": [
+                    "如：「儒家」、「道家」、「百家爭鳴」、「一家之言」。"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "經營某種行業或具有某種身分的人。",
+                  "example": [
+                    "如：「農家」、「商家」、「店家」、「少東家」。"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "尊稱學有專長或有專門技術的人。",
+                  "example": [
+                    "如：「專家」、「文學家」、「科學家」。"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "自稱或稱別人。",
+                  "example": [
+                    "如：「自家」、「咱家」、「哀家」、「姑娘家」、「小孩子家」、「婦道人家」。"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "古代大夫所統治的政治區域。與「國」相對。",
+                  "quote": [
+                    "《論語．季氏》：「丘也聞有國有家者，不患寡而患不均，不患貧而患不安。」"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "私有財產。",
+                  "quote": [
+                    "《韓非子．外儲說左上》：「夫賣庸而播耕者，主人費家而美食。」",
+                    "《史記．卷八五．呂不韋傳》：「諸嫪毐舍人皆沒其家而遷之蜀。」"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "量詞。計算家庭、店鋪、大型企業等的單位。",
+                  "example": [
+                    "如：「住戶不滿十家」、「三家報社」、「只此一家，別無分號。」、「開了三家分公司。」"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": " 姓。如周代有家伯。",
+                  "type": "名"
+                },
+                {
+                  "def": "居住。",
+                  "quote": [
+                    "《文選．江淹．別賦》：「又若君居淄右，妾家河陽。」"
+                  ],
+                  "type": "動"
+                },
+                {
+                  "def": "對人謙稱自己的親長。",
+                  "example": [
+                    "如：「家父」、「家母」、「家兄」。"
+                  ],
+                  "type": "形"
+                },
+                {
+                  "def": "家中的。",
+                  "example": [
+                    "如：「家事」、「家人」、「家產」、「家業」、「家僮」。"
+                  ],
+                  "type": "形"
+                },
+                {
+                  "def": "家中飼養的。",
+                  "example": [
+                    "如：「家畜」、「家禽」。"
+                  ],
+                  "type": "形"
+                },
+                {
+                  "def": "置於句中。相當於「地」、「的」。",
+                  "quote": [
+                    "元．蕭德祥《殺狗勸夫．第二折》：「他道俺哥哥十分家沉醉，且吃些兒熱湯熱水。」",
+                    "《西遊記．第五一回》：「大碗家寬懷暢飲。」"
+                  ],
+                  "type": "助"
+                }
+              ],
+              "pinyin": "jiā"
+            },
+            {
+              "bopomofo": "ㄍㄨ",
+              "definitions": [
+                {
+                  "def": "對女子的尊稱。",
+                  "link": [
+                    "同「姑」。"
+                  ],
+                  "quote": [
+                    "《後漢書．卷八四．列女傳．曹世叔妻傳》：「扶風曹世叔妻者，同郡班彪之女也，名昭……。帝數召入宮，令皇后諸貴人師事焉，號曰大家。　」"
+                  ],
+                  "type": "名"
+                }
+              ],
+              "pinyin": "gū"
+            }
+          ],
+          "non_radical_stroke_count": 7,
+          "radical": "宀",
+          "stroke_count": 10,
+          "title": "家"
+        },
+        "afterRawEntryIndex": 42901,
+        "rootCause": "Unicode traditional variants precede the original char; the old builder selects the first usable MOE word. A two-character explicit exception is used; the other777 entries are not reordered.",
+        "builderLocators": [
+          "scripts/build-data.mjs:96",
+          "scripts/build-data.mjs:139",
+          "scripts/build-data.mjs:140"
+        ]
+      },
+      "changedFields": [
+        "meaning",
+        "traditional",
+        "warning",
+        "readings",
+        "polyphonic"
+      ],
+      "heteronymPinyinsBefore": [
+        "jiā"
+      ],
+      "heteronymPinyinsAfter": [
+        "jiā",
+        "gū"
+      ]
+    }
+  ],
+  "policy": "Two explicit original-word corrections only. Same779 chars, default pinyin/tone, Unicode variant sets, strokes/tags/elements; retain all original heteronyms of the corrected word. Old datasets,3.0/4.0 tables, old word entries and historical packs remain unchanged."
+}

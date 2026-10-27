@@ -1,0 +1,99 @@
+{
+  "selectionBasis": "24 developer-selected review samples;some occur in the existing project combination list,others are additional source-review samples. No population-frequency or name-generation coverage claim.",
+  "pairsReviewed": 24,
+  "coveredWords": 15,
+  "records": 21,
+  "cmnRecords": 16,
+  "yueRecords": 5,
+  "excluded": [
+    {
+      "word": "知行",
+      "surface": "知行",
+      "language": "both",
+      "reason": "No exact word in these fixed original source files;do not synthesize from individual characters"
+    },
+    {
+      "word": "知新",
+      "surface": "知新",
+      "language": "both",
+      "reason": "No exact word in these fixed original source files;do not synthesize from individual characters"
+    },
+    {
+      "word": "思源",
+      "surface": "思源",
+      "language": "both",
+      "reason": "No exact word in these fixed original source files;do not synthesize from individual characters"
+    },
+    {
+      "word": "思遠",
+      "surface": "思远",
+      "language": "both",
+      "reason": "No exact word in these fixed original source files;do not synthesize from individual characters"
+    },
+    {
+      "word": "景明",
+      "surface": "景明",
+      "language": "both",
+      "reason": "No exact word in these fixed original source files;do not synthesize from individual characters"
+    },
+    {
+      "word": "樂安",
+      "surface": "乐安",
+      "language": "both",
+      "reason": "No exact word in these fixed original source files;do not synthesize from individual characters"
+    },
+    {
+      "word": "若水",
+      "surface": "若水",
+      "language": "both",
+      "reason": "No exact word in these fixed original source files;do not synthesize from individual characters"
+    },
+    {
+      "word": "雨晴",
+      "surface": "雨晴",
+      "language": "both",
+      "reason": "No exact word in these fixed original source files;do not synthesize from individual characters"
+    },
+    {
+      "word": "元亨",
+      "surface": "元亨",
+      "language": "both",
+      "reason": "No exact word in these fixed original source files;do not synthesize from individual characters"
+    }
+  ],
+  "selectionProvenance": {
+    "source": {
+      "file": "src/domain/naming-v6.ts",
+      "sha256": "30b08f15ba0c3a7ee32ed91ec15af9ca172ac93573609d726247a3f997d32946",
+      "role": "Project-authored combination list;not population usage evidence"
+    },
+    "existingProjectCombinations": [
+      "安宁",
+      "安然",
+      "安和",
+      "知行",
+      "知新",
+      "知礼",
+      "明哲",
+      "思齐",
+      "思源",
+      "思远",
+      "清和",
+      "清扬",
+      "景明",
+      "景行",
+      "嘉禾",
+      "乐安",
+      "雨晴"
+    ],
+    "additionalReviewSamples": [
+      "明月",
+      "长安",
+      "长乐",
+      "安乐",
+      "若水",
+      "子衿",
+      "元亨"
+    ]
+  }
+}

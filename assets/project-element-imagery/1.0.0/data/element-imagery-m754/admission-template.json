@@ -1,0 +1,89 @@
+{
+  "schemaVersion": "m754-independent-review/1.0.0",
+  "profileId": "project-dictionary-object-elements/2.0.0-m754-candidate",
+  "reviewId": null,
+  "reviewerId": null,
+  "authorId": "M754-DATA",
+  "rows": [
+    {
+      "char": "枫",
+      "candidateSha256": "3c96d4a6b3e7c0efdf40149bf6fc65e14fe88bddc2cf83102b61ee6f453156a2",
+      "decision": "pending",
+      "scope": "default-reading-direct-object",
+      "themeId": null,
+      "rationale": null
+    },
+    {
+      "char": "卉",
+      "candidateSha256": "af99f36d8ad5023f3c425f91986829d747ed064d706cd5be6f31b7f7150c7475",
+      "decision": "pending",
+      "scope": "default-reading-direct-object",
+      "themeId": null,
+      "rationale": null
+    },
+    {
+      "char": "麓",
+      "candidateSha256": "5c0b0e498af033e40327d7e50b21d48190273cb2b8945372841f27a46c143c3f",
+      "decision": "pending",
+      "scope": "default-reading-direct-object",
+      "themeId": null,
+      "rationale": null
+    },
+    {
+      "char": "菘",
+      "candidateSha256": "09d53e7686b1affc248513017b4fdcff86186af695b3fa8c5ef7c5fd363a0a32",
+      "decision": "pending",
+      "scope": "default-reading-direct-object",
+      "themeId": null,
+      "rationale": null
+    },
+    {
+      "char": "珉",
+      "candidateSha256": "7a378b028407bf7220f21b91bc89998739613271984dcbeaa81394bafeab3bbb",
+      "decision": "pending",
+      "scope": "default-reading-direct-object",
+      "themeId": null,
+      "rationale": null
+    },
+    {
+      "char": "川",
+      "candidateSha256": "f5d1d4488609ad5ac1cae5da4da71f5c3d53a228f2a413c13e507c25c4d7df07",
+      "decision": "pending",
+      "scope": "explicit-naming-theme",
+      "themeId": "river-object",
+      "rationale": null
+    },
+    {
+      "char": "石",
+      "candidateSha256": "131ffc5746ce3512111e5eab202cc4ced8c69571fa8f823cf9fca9e106f6f179",
+      "decision": "pending",
+      "scope": "explicit-naming-theme",
+      "themeId": "mineral-stone-object",
+      "rationale": null
+    },
+    {
+      "char": "枝",
+      "candidateSha256": "19b297c331823162eb177fb24f4a295978754cee9089c3156239bde4fe713479",
+      "decision": "pending",
+      "scope": "explicit-naming-theme",
+      "themeId": "tree-branch-object",
+      "rationale": null
+    },
+    {
+      "char": "棉",
+      "candidateSha256": "d87f0385ba765aa0bad9430854e6d8a32f717b81b7529d8c0e50b5c82ca4acdf",
+      "decision": "pending",
+      "scope": "explicit-naming-theme",
+      "themeId": "cotton-plant-object",
+      "rationale": null
+    },
+    {
+      "char": "蕤",
+      "candidateSha256": "1e699c3a69c837e575709c000d414dcd1496091c5c2459852cfd760c96009bc0",
+      "decision": "pending",
+      "scope": "explicit-naming-theme",
+      "themeId": "hanging-flower-object",
+      "rationale": null
+    }
+  ]
+}

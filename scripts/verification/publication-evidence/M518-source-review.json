@@ -1,0 +1,26 @@
+{
+  "schema":"M518-M506-m393-cache-independent-source-review/1",
+  "date":"2026-10-24",
+  "decision":"source-review-passed-proceed-to-root-combined-15000ms-retest",
+  "blockingFindings":[],
+  "pins":{
+    "patch":{"bytes":16983,"sha256":"0ff0350846865ca68816d861d2f9c71245c16cc84b16dea008acfc62a3c0cd07","matches":true},
+    "before":{"bytes":18414,"sha256":"cde83055510c06c30a8599146779c6d783285a6887e52cd3c6220b964a784e3b","matches":true},
+    "after":{"bytes":19458,"sha256":"0e23b3e6c744446a07ebb7d96a19bc03da190859c9b1188260fa1833818948a7","matches":true},
+    "test":{"bytes":7166,"sha256":"62141785d0e8f960c6ec57ce1e9fbc3ba11eb41fbaaad8585a7763da2de60a07","matches":true},
+    "compiledPins":"d14ee1461c0f6e15aed160cca68875e5e96dcd9137d6cfc8ef86b17ffd2bf59c unchanged",
+    "trustedM475Helper":"8d05f17c596bf81959011b289585535ddf83baf6781f636257ce70b3b37d1319 unchanged",
+    "trustedHelperDeclaration":"060e998c470464967a9eddb7cfeb19b68f679cc8cdd8ce845b8ebcfe9f06ed1f unchanged"
+  },
+  "sourceEvidence":[
+    {"file":"stage/src/main/m393-meaning-candidate.mjs:119-146,179-201","result":"Every valid call reloads six candidate artifacts and eight originals. Legacy manifest fixed SHA check remains; the other five candidate files keep explicit byte-length/SHA checks. Eight originals retain explicit length/SHA checks. Fixed publication/admission/pending, source/row/reading/license/authority and selected-definition validation stays on every call."},
+    {"file":"m393-meaning-candidate.mjs:34-64,180,201-202","result":"New module-private single-slot cache key is algorithm version plus actual just-read-and-verified gzip length and digest. Only rows/title lookup are retained. No Buffer, capsule/DTO, auth verdict, rootDecision or customer/session data is stored. Directory parameters must be primitive strings before path handling. No caller digest/rows/capsule can call the private cache constructor."},
+    {"file":"stage/scripts/fixed-moe-index.mjs:6-23,25-52,55-82","result":"Unchanged M475 helper verifies its fixed gzip SHA, parses in private trusted realm, deep-freezes every canonical JSON node and records only canonical rows in a private WeakMap. Title records/index facade are frozen and backing Map remains private. Caller/fake-frozen/proxy arrays get uncached fallback lookups, not canonical index identity. Helper has one fixed-source slot; new cache has one slot, so retained source derivation count is bounded."},
+    {"file":"m393-meaning-candidate.mjs:159-175,183-209","result":"Unicode proof now reuses originalHashes computed from the same just-read verified bytes used to construct the line arrays. Neither map/Buffer escapes. Proof shape, digest equality, exact line, two-way Unicode relation and own-entry retention checks remain. Title membership lookup is equivalent to the former raw.some equality check; selected entries still use original array indices and exact full-entry/heteronym/definition equality."},
+    {"file":"m393-meaning-candidate.mjs:66-146,194-211","result":"No candidate authority, whole-name/score grant, original pending review, parsed-entry hash, reading/tone, selected definition or license check is deleted. Return capsule/verification is rebuilt per call and remains outside persistent cache. Pins and trusted helper are reused byte-identically; no source pin or publication data is changed."}
+  ],
+  "patchCheck":{"command":"git apply --check M506-m393-cache.patch","cwd":"E:/八卦周易/.local/team-484/dev04/work-final","exitCode":0,"productWritten":false},
+  "existingPureEvidence":{"receipt":"m506-m393-cache/evidence/node-tests-result.json","passed":7,"failed":0,"inputDrift":[],"coldDecompressions":1,"additionalWarmDecompressions":0,"coverageInspected":["unchanged-verifier cold/warm DTO equality and distinct DTO identities", "warm fresh reads of all14 artifacts", "10 same-length/truncation tamper cases with recovery", "canonical/deep/title record immutability", "Proxy and fake-frozen caller identity exclusion", "forged digest/capsule/path rejection", "warm parser/freeze spoof attempt"],"oldFailurePreserved":"initial-test-observation.json retains 6-pass/1-fail path Proxy getter issue; literal-string guards explain the corrected receipt.","independentRerun":false},
+  "limits":["This is source/cache-integrity review, not acceptance of the original 15000ms combined budget.","Existing seven pure tests and receipts were inspected, not rerun.","No Solar, Store, Worker, Profile, Chromium, CPU profiler, SQL, product build or installer was started.","Root should retain the original performance failure evidence and run the original-budget combined retest."],
+  "writes":{"product":0,"candidate":0,"E":0,"auditOnly":"D:/Codex-NamingStudio-Evidence/m518-m393-cache-review"}
+}

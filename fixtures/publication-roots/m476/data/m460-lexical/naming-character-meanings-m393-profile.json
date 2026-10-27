@@ -1,0 +1,4265 @@
+{
+  "schema": "naming-character-meanings-candidate/1",
+  "batchId": "M393-D02",
+  "sourceId": "naming-character-meanings-m393-candidate",
+  "version": "naming-character-meanings-candidate/M393.1",
+  "activation": "off",
+  "productionApproved": false,
+  "dispatchToLive": false,
+  "candidateOnly": true,
+  "generationAuthority": false,
+  "sourceAuthority": false,
+  "scope": "per-character-project-explanation-only",
+  "wholeNameAssessment": "not-assessed",
+  "wholeNameMeaning": null,
+  "automaticNameRecommendation": false,
+  "automaticSemanticCreditAllowed": false,
+  "scoreDelta": 0,
+  "base": {
+    "datasetFile": "data/dataset-v6.json",
+    "datasetSha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+    "meaningIndexFile": "data/naming-editorial-v7.json",
+    "meaningIndexSha256": "392fa47441a0c410b0903c3e85853081225a1a5e9f540b5467e4ea4e2151cc48",
+    "selectionSha256": "0ec6835ae70eb386743d51b1fb39bdaecf592c46fb27489259d9a3049ee038e2",
+    "existingInventorySha256": "7bd56b9bae105f67b033b7a5cc8ccbf13baf3371a65d18b94a694a78d8127504"
+  },
+  "subset": {
+    "file": "raw/naming-character-meanings-m393-subset.json",
+    "bytes": 161637,
+    "sha256": "cbf3add7ab417a01a6d433723366608c31b61ae5d0ab3065504a4947fad85b86"
+  },
+  "candidateUseBoundary": "Independent source-backed character explanations only.8verb/adverb rows retain original type and require explicit future usage review; this is not the fixed40v7.1 profile or its admission.",
+  "cases": [
+    {
+      "caseId": "single-meaning-m393:呈:27622:0:0",
+      "char": "呈",
+      "selectedPinyin": "chéng",
+      "tone": 2,
+      "baselineCharacter": {
+        "char": "呈",
+        "pinyin": "chéng",
+        "tone": 2,
+        "meaning": "顯露。；奉上。；舊時凡下級對上級的呈請或報告均用呈。現行公文則是對總統有所呈請或報告時用之。",
+        "traditional": "呈",
+        "strokes": 7,
+        "radical": "口",
+        "elements": [],
+        "elementBasis": "五行属性待起名师指定；不从普通笔画数推定五行",
+        "tags": [
+          "常用命名字候选"
+        ],
+        "warning": "本表按字典中文义项与 Unicode 字形字段核对；仍需结合全名检查谐音。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "chéng",
+            "tone": 2,
+            "meanings": [
+              "顯露。",
+              "奉上。",
+              "舊時凡下級對上級的呈請或報告均用呈。現行公文則是對總統有所呈請或報告時用之。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "呈"
+          }
+        ],
+        "polyphonic": false,
+        "variants": [
+          "呈"
+        ]
+      },
+      "baselineCharacterSha256": "0e701b7459711a340d0e244682b25d31188d0dac201ff7790cc70a53cee01b92",
+      "prior": {
+        "status": "pending",
+        "namingMeaning": null,
+        "automaticMeaningAllowed": false,
+        "sourceReview": {
+          "pendingIndex": 28,
+          "char": "呈",
+          "status": "pending",
+          "namingMeaning": null,
+          "projectWish": null,
+          "useKind": "none",
+          "scope": "显露、奉上都是需语境的动作，另为旧呈请文书；单用未显明所呈何物。",
+          "reason": "缺动作对象及全名语义，显露本身并非正向品格，不据此写成才华横溢。",
+          "binding": {
+            "char": "呈",
+            "pinyin": "chéng",
+            "tone": 2,
+            "sourceId": "moe-revised",
+            "dictionaryWord": "呈",
+            "rawEntryIndex": 27622,
+            "rawHeteronymIndex": 0,
+            "rawDefinitionIndex": 0,
+            "dictionarySense": "顯露。"
+          },
+          "warnings": [
+            "composition-required"
+          ],
+          "licensing": {
+            "dictionary": "CC-BY-ND-3.0-TW;verbatim source definition",
+            "editorial": "CC0-1.0;project review and wishes only"
+          },
+          "automaticMeaningAllowed": false,
+          "applicability": {
+            "mode": "not-approved",
+            "allowedNames": [],
+            "reason": "原审待定：显露、奉上的对象未明确。"
+          }
+        },
+        "sourceReviewSha256": "57ae18e64b5d17cae234f1f54748e3ec6c7c264061d55f68d5edf525c7c7fa25"
+      },
+      "glyph": {
+        "kind": "exact-source-glyph",
+        "character": "呈",
+        "dictionaryWord": "呈",
+        "proof": []
+      },
+      "original": {
+        "sourceId": "moe-revised",
+        "word": "呈",
+        "rawEntryIndex": 27622,
+        "rawHeteronymIndex": 0,
+        "rawDefinitionIndex": 0,
+        "rawFile": "data/raw/moe-revised.json.gz",
+        "rawSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "pinyin": "chéng",
+        "definition": {
+          "def": "顯露。",
+          "example": [
+            "如：「呈現」、「面呈紅潤」。"
+          ],
+          "type": "動"
+        },
+        "completeOriginalEntry": {
+          "heteronyms": [
+            {
+              "bopomofo": "ㄔㄥˊ",
+              "definitions": [
+                {
+                  "def": "顯露。",
+                  "example": [
+                    "如：「呈現」、「面呈紅潤」。"
+                  ],
+                  "type": "動"
+                },
+                {
+                  "def": "奉上。",
+                  "example": [
+                    "如：「謹呈」、「呈獻」、「呈上」。"
+                  ],
+                  "type": "動"
+                },
+                {
+                  "def": "舊時凡下級對上級的呈請或報告均用呈。現行公文則是對總統有所呈請或報告時用之。",
+                  "type": "名"
+                }
+              ],
+              "pinyin": "chéng"
+            }
+          ],
+          "non_radical_stroke_count": 4,
+          "radical": "口",
+          "stroke_count": 7,
+          "title": "呈"
+        },
+        "parsedEntrySha256": "996d5d67838aadd84c6666a3d7d8c0d811c533c79e660f861311ab8e82645ad4",
+        "parsedHashConvention": "sha256(JSON.stringify(parsed complete original entry));not raw byte range",
+        "license": "CC-BY-ND-3.0-TW"
+      },
+      "editorial": {
+        "attribution": "Project naming interpretation; not an MOE quotation or measured child trait",
+        "license": "CC0-1.0",
+        "meaning": "取显露、呈现之意。",
+        "projectWish": "项目创作：愿把心中所思清楚地表达出来。",
+        "reason": "所选是本字的显露动作义；项目说明只借呈现的动作，不采用公文呈请义。",
+        "limits": [
+          "不把呈现的动作解释为孩子天生善于表达。",
+          "本条词类为动词；不直接沿用旧7.1名词、形容词准入结论。",
+          "不据此批准任何整名或职位、仕途联想。"
+        ]
+      },
+      "usageReviewRequired": true,
+      "notWholeWordDerived": true,
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "scope": "per-character-project-explanation-only",
+      "wholeNameAssessment": "not-assessed",
+      "wholeNameMeaning": null,
+      "automaticNameRecommendation": false
+    },
+    {
+      "caseId": "single-meaning-m393:凡:18336:0:0",
+      "char": "凡",
+      "selectedPinyin": "fán",
+      "tone": 2,
+      "baselineCharacter": {
+        "char": "凡",
+        "pinyin": "fán",
+        "tone": 2,
+        "meaning": "平庸、平常。；塵世的、世俗的。；大旨、綱要。",
+        "traditional": "凡",
+        "strokes": 3,
+        "radical": "几",
+        "elements": [],
+        "elementBasis": "五行属性待起名师指定；不从普通笔画数推定五行",
+        "tags": [
+          "常用命名字候选"
+        ],
+        "warning": "本表按字典中文义项与 Unicode 字形字段核对；仍需结合全名检查谐音。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "fán",
+            "tone": 2,
+            "meanings": [
+              "平庸、平常。",
+              "塵世的、世俗的。",
+              "大旨、綱要。",
+              "塵世間。",
+              "概括之詞。",
+              "總共。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "凡"
+          }
+        ],
+        "polyphonic": false,
+        "variants": [
+          "凡"
+        ]
+      },
+      "baselineCharacterSha256": "3bd9919602b26d73b9f99dcb355da0cb4b14e4f4e2d7c3e8e1fab2eb0d201816",
+      "prior": {
+        "status": "pending",
+        "namingMeaning": null,
+        "automaticMeaningAllowed": false,
+        "sourceReview": {
+          "pendingIndex": 52,
+          "char": "凡",
+          "status": "pending",
+          "namingMeaning": null,
+          "projectWish": null,
+          "useKind": "none",
+          "scope": "有平庸、平常及世俗等义，亦有纲要、总共义；单用不能表示不凡。",
+          "reason": "若家庭意在珍惜平常生活需另给组合及说明，本轮不把含贬义的平庸改成卓越。",
+          "binding": {
+            "char": "凡",
+            "pinyin": "fán",
+            "tone": 2,
+            "sourceId": "moe-revised",
+            "dictionaryWord": "凡",
+            "rawEntryIndex": 18336,
+            "rawHeteronymIndex": 0,
+            "rawDefinitionIndex": 0,
+            "dictionarySense": "平庸、平常。"
+          },
+          "warnings": [
+            "negative-sense-coexists",
+            "family-context-required"
+          ],
+          "licensing": {
+            "dictionary": "CC-BY-ND-3.0-TW;verbatim source definition",
+            "editorial": "CC0-1.0;project review and wishes only"
+          },
+          "automaticMeaningAllowed": false,
+          "applicability": {
+            "mode": "not-approved",
+            "allowedNames": [],
+            "reason": "原审待定：平庸平常含歧义，缺家庭取向与组合。"
+          }
+        },
+        "sourceReviewSha256": "857705f86ad6f7c7d05ebb9fe3ab84c4153ada14852d286587f0b2c797dff76a"
+      },
+      "glyph": {
+        "kind": "exact-source-glyph",
+        "character": "凡",
+        "dictionaryWord": "凡",
+        "proof": []
+      },
+      "original": {
+        "sourceId": "moe-revised",
+        "word": "凡",
+        "rawEntryIndex": 18336,
+        "rawHeteronymIndex": 0,
+        "rawDefinitionIndex": 0,
+        "rawFile": "data/raw/moe-revised.json.gz",
+        "rawSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "pinyin": "fán",
+        "definition": {
+          "def": "平庸、平常。",
+          "example": [
+            "如：「平凡」、「非凡」、「自命不凡」。"
+          ],
+          "quote": [
+            "清．洪昇《長生殿．第三八齣》：「我聽你這琵琶，非同凡手。」"
+          ],
+          "type": "形"
+        },
+        "completeOriginalEntry": {
+          "heteronyms": [
+            {
+              "bopomofo": "ㄈㄢˊ",
+              "definitions": [
+                {
+                  "def": "平庸、平常。",
+                  "example": [
+                    "如：「平凡」、「非凡」、「自命不凡」。"
+                  ],
+                  "quote": [
+                    "清．洪昇《長生殿．第三八齣》：「我聽你這琵琶，非同凡手。」"
+                  ],
+                  "type": "形"
+                },
+                {
+                  "def": "塵世的、世俗的。",
+                  "example": [
+                    "如：「凡間」。"
+                  ],
+                  "quote": [
+                    "唐．李中〈寄廬山簡寂觀重道者〉詩：「似醒一夢歸凡世，空向彤霞寄夢頻。」",
+                    "《西遊記．第二回》：「去時凡骨凡胎重，得道身輕體亦輕。」"
+                  ],
+                  "type": "形"
+                },
+                {
+                  "def": "大旨、綱要。",
+                  "example": [
+                    "如：「發凡起例」。"
+                  ],
+                  "quote": [
+                    "《漢書．卷八七．揚雄傳下》：「僕嘗倦談，不能一二其詳，請略舉凡，而客自覽其切焉。」"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "塵世間。",
+                  "example": [
+                    "如：「仙凡路隔」、「天仙下凡」。"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "概括之詞。",
+                  "example": [
+                    "如：「凡是有生命之物，都稱生物。」"
+                  ],
+                  "type": "副"
+                },
+                {
+                  "def": "總共。",
+                  "example": [
+                    "如：「全書凡二十章。」"
+                  ],
+                  "quote": [
+                    "《文選．司馬遷．報任少卿書》：「凡百三十篇。」",
+                    "唐．柳宗元〈愚溪詩序〉：「愚泉凡六穴，皆出山下平地。」"
+                  ],
+                  "type": "副"
+                }
+              ],
+              "pinyin": "fán"
+            }
+          ],
+          "non_radical_stroke_count": 2,
+          "radical": "丶",
+          "stroke_count": 3,
+          "title": "凡"
+        },
+        "parsedEntrySha256": "3aaaf1cf11bfd774871965d537cff67ab77a3efb26b4127ef6c6a00858a87726",
+        "parsedHashConvention": "sha256(JSON.stringify(parsed complete original entry));not raw byte range",
+        "license": "CC-BY-ND-3.0-TW"
+      },
+      "editorial": {
+        "attribution": "Project naming interpretation; not an MOE quotation or measured child trait",
+        "license": "CC0-1.0",
+        "meaning": "取平常、日常的意象。",
+        "projectWish": "项目创作：愿认真对待日常生活中的小事。",
+        "reason": "原定义同时列平庸、平常；项目取意明确限于平常，不把凡倒解成不凡。",
+        "limits": [
+          "原条的平庸色彩保留，须由家庭确认是否愿意采用。",
+          "不从不凡、非凡等带否定或组合的词语反推本字。",
+          "不评价孩子能力高低，也不自动推荐含此字的名字。"
+        ]
+      },
+      "usageReviewRequired": false,
+      "notWholeWordDerived": true,
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "scope": "per-character-project-explanation-only",
+      "wholeNameAssessment": "not-assessed",
+      "wholeNameMeaning": null,
+      "automaticNameRecommendation": false
+    },
+    {
+      "caseId": "single-meaning-m393:庚:49847:0:1",
+      "char": "庚",
+      "selectedPinyin": "gēng",
+      "tone": 1,
+      "baselineCharacter": {
+        "char": "庚",
+        "pinyin": "gēng",
+        "tone": 1,
+        "meaning": "天干的第七位。；年齡、年歲。；姓。如唐代有庚季良。",
+        "traditional": "庚",
+        "strokes": 8,
+        "radical": "广",
+        "elements": [],
+        "elementBasis": "五行属性待起名师指定；不从普通笔画数推定五行",
+        "tags": [
+          "常用命名字候选"
+        ],
+        "warning": "本表按字典中文义项与 Unicode 字形字段核对；仍需结合全名检查谐音。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "gēng",
+            "tone": 1,
+            "meanings": [
+              "天干的第七位。",
+              "年齡、年歲。",
+              "姓。如唐代有庚季良。",
+              "償付。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "庚"
+          }
+        ],
+        "polyphonic": false,
+        "variants": [
+          "庚"
+        ]
+      },
+      "baselineCharacterSha256": "0ee3c3b08469750fbc1be63fb08fe20bc73ef0a381552f69d92290a8649855cd",
+      "prior": {
+        "status": "pending",
+        "namingMeaning": null,
+        "automaticMeaningAllowed": false,
+        "sourceReview": {
+          "pendingIndex": 68,
+          "char": "庚",
+          "status": "pending",
+          "namingMeaning": null,
+          "projectWish": null,
+          "useKind": "none",
+          "scope": "本条为第七天干、年岁及偿付；尚未指定纪年或家庭文化语境。",
+          "reason": "天干序次本身不构成具体命名品质，不能从金、刚毅等外部体系补义。",
+          "binding": {
+            "char": "庚",
+            "pinyin": "gēng",
+            "tone": 1,
+            "sourceId": "moe-revised",
+            "dictionaryWord": "庚",
+            "rawEntryIndex": 49847,
+            "rawHeteronymIndex": 0,
+            "rawDefinitionIndex": 0,
+            "dictionarySense": "天干的第七位。"
+          },
+          "warnings": [
+            "若采用纪年主题，应另明示所依据的文化语境。"
+          ],
+          "licensing": {
+            "dictionary": "CC-BY-ND-3.0-TW;verbatim source definition",
+            "editorial": "CC0-1.0;project review and wishes only"
+          },
+          "automaticMeaningAllowed": false,
+          "applicability": {
+            "mode": "not-approved",
+            "allowedNames": [],
+            "reason": "原审pending；纪年或家庭文化语境未指定。"
+          }
+        },
+        "sourceReviewSha256": "135cc6fc63898324d6f1ff52199458048fc56260ce848f196ed177b2b8d617c0"
+      },
+      "glyph": {
+        "kind": "exact-source-glyph",
+        "character": "庚",
+        "dictionaryWord": "庚",
+        "proof": []
+      },
+      "original": {
+        "sourceId": "moe-revised",
+        "word": "庚",
+        "rawEntryIndex": 49847,
+        "rawHeteronymIndex": 0,
+        "rawDefinitionIndex": 1,
+        "rawFile": "data/raw/moe-revised.json.gz",
+        "rawSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "pinyin": "gēng",
+        "definition": {
+          "def": "年齡、年歲。",
+          "example": [
+            "如：「同庚」、「貴庚」。"
+          ],
+          "type": "名"
+        },
+        "completeOriginalEntry": {
+          "heteronyms": [
+            {
+              "bopomofo": "ㄍㄥ",
+              "definitions": [
+                {
+                  "def": "天干的第七位。",
+                  "type": "名"
+                },
+                {
+                  "def": "年齡、年歲。",
+                  "example": [
+                    "如：「同庚」、「貴庚」。"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "姓。如唐代有庚季良。",
+                  "type": "名"
+                },
+                {
+                  "def": "償付。",
+                  "quote": [
+                    "《禮記．檀公下》：「季子皋葬其妻，犯人之禾。申祥以告曰：『請庚之。』」",
+                    "漢．鄭玄．注：「庚，償也。」"
+                  ],
+                  "type": "動"
+                }
+              ],
+              "pinyin": "gēng"
+            }
+          ],
+          "non_radical_stroke_count": 5,
+          "radical": "广",
+          "stroke_count": 8,
+          "title": "庚"
+        },
+        "parsedEntrySha256": "429d5c5942b18b39389815cc9aa724a5af437d771e26119aea88ac1bf65bd2ef",
+        "parsedHashConvention": "sha256(JSON.stringify(parsed complete original entry));not raw byte range",
+        "license": "CC-BY-ND-3.0-TW"
+      },
+      "editorial": {
+        "attribution": "Project naming interpretation; not an MOE quotation or measured child trait",
+        "license": "CC0-1.0",
+        "meaning": "取年龄、年岁所关联的时间意象。",
+        "projectWish": "项目创作：愿珍惜每个阶段的学习与相聚。",
+        "reason": "只采用年齡、年歲这一独立名词义，和天干第七位、偿付等其他义项分开。",
+        "limits": [
+          "不从天干庚推定汉字五行、喜忌或吉凶。",
+          "不保证寿命、健康或所谓年运。",
+          "岁时联想属于项目期许，不是出生日期分析。"
+        ]
+      },
+      "usageReviewRequired": false,
+      "notWholeWordDerived": true,
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "scope": "per-character-project-explanation-only",
+      "wholeNameAssessment": "not-assessed",
+      "wholeNameMeaning": null,
+      "automaticNameRecommendation": false
+    },
+    {
+      "caseId": "single-meaning-m393:科:106940:0:1",
+      "char": "科",
+      "selectedPinyin": "kē",
+      "tone": 1,
+      "baselineCharacter": {
+        "char": "科",
+        "pinyin": "kē",
+        "tone": 1,
+        "meaning": "等級、品級。；類別、項目。；機關內分別辦事的單位。",
+        "traditional": "科",
+        "strokes": 9,
+        "radical": "禾",
+        "elements": [],
+        "elementBasis": "五行属性待起名师指定；不从普通笔画数推定五行",
+        "tags": [
+          "常用命名字候选"
+        ],
+        "warning": "本表按字典中文义项与 Unicode 字形字段核对；仍需结合全名检查谐音。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "kē",
+            "tone": 1,
+            "meanings": [
+              "等級、品級。",
+              "類別、項目。",
+              "機關內分別辦事的單位。",
+              "生物學上的分類之一。指同一目的生物按相似特徵分為若干科。",
+              "法律、條目。",
+              "國劇中的動作、舉止稱為「科」。",
+              "量詞。計算植物的單位。",
+              "處斷、處罰。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "科"
+          }
+        ],
+        "polyphonic": false,
+        "variants": [
+          "科"
+        ]
+      },
+      "baselineCharacterSha256": "9ac00b371a7334eb6cde71dd89f0e1d365430c7df51fe424f44e5e1f95a666a8",
+      "prior": {
+        "status": "pending",
+        "namingMeaning": null,
+        "automaticMeaningAllowed": false,
+        "sourceReview": {
+          "pendingIndex": 142,
+          "char": "科",
+          "status": "pending",
+          "namingMeaning": null,
+          "projectWish": null,
+          "useKind": "none",
+          "scope": "本条为等级、类别、办事单位、法规等，并有处断处罚义；单用不等于科学才华或科举成功。",
+          "reason": "缺少具体分类或条目对象，现有实体义不足决定有益的命名取向。",
+          "binding": {
+            "char": "科",
+            "pinyin": "kē",
+            "tone": 1,
+            "sourceId": "moe-revised",
+            "dictionaryWord": "科",
+            "rawEntryIndex": 106940,
+            "rawHeteronymIndex": 0,
+            "rawDefinitionIndex": 1,
+            "dictionarySense": "類別、項目。"
+          },
+          "warnings": [
+            "composition-required",
+            "negative-sense-coexists"
+          ],
+          "licensing": {
+            "dictionary": "CC-BY-ND-3.0-TW;verbatim source definition",
+            "editorial": "CC0-1.0;project review and wishes only"
+          },
+          "automaticMeaningAllowed": false,
+          "applicability": {
+            "mode": "not-approved",
+            "allowedNames": [],
+            "reason": "原审待定：类别等义缺对象，不能自动写成科学才华。"
+          }
+        },
+        "sourceReviewSha256": "be4ceda93ca178b90680b94345d490daadb1933ce5996f1f860e24be8e507206"
+      },
+      "glyph": {
+        "kind": "exact-source-glyph",
+        "character": "科",
+        "dictionaryWord": "科",
+        "proof": []
+      },
+      "original": {
+        "sourceId": "moe-revised",
+        "word": "科",
+        "rawEntryIndex": 106940,
+        "rawHeteronymIndex": 0,
+        "rawDefinitionIndex": 1,
+        "rawFile": "data/raw/moe-revised.json.gz",
+        "rawSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "pinyin": "kē",
+        "definition": {
+          "def": "類別、項目。",
+          "example": [
+            "如：「學科」、「術科」、「內科」、「外科」、「文科」、「理科」。"
+          ],
+          "type": "名"
+        },
+        "completeOriginalEntry": {
+          "heteronyms": [
+            {
+              "bopomofo": "ㄎㄜ",
+              "definitions": [
+                {
+                  "def": "等級、品級。",
+                  "quote": [
+                    "《論語．八佾》：「射不主皮，為力不同科，古之道也。」",
+                    "南朝梁．皇侃．疏：「科，品也。」",
+                    "唐．柳宗元〈上大理崔大卿應制舉不敏啟〉：「古之知己者，不待來求而後施德者也。然則亟來而求者，誠下科也。」"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "類別、項目。",
+                  "example": [
+                    "如：「學科」、「術科」、「內科」、「外科」、「文科」、「理科」。"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "機關內分別辦事的單位。",
+                  "example": [
+                    "如：「兵役科」、「文書科」、「人事科」。"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "生物學上的分類之一。指同一目的生物按相似特徵分為若干科。",
+                  "example": [
+                    "如：「貓科」、「桑科」、「禾本科」。"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "法律、條目。",
+                  "example": [
+                    "如：「作奸犯科」、「金科玉律」。"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "國劇中的動作、舉止稱為「科」。",
+                  "example": [
+                    "如：「科白」、「插科打諢」。"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "量詞。計算植物的單位。",
+                  "link": [
+                    "同「棵」。"
+                  ],
+                  "quote": [
+                    "宋．陳與義〈秋雨〉詩：「是事且置當務本，菜圃已添三萬科。」"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "處斷、處罰。",
+                  "example": [
+                    "如：「論罪科刑」。"
+                  ],
+                  "quote": [
+                    "《資治通鑑．卷八一．晉紀三．武帝太康元年》：「有司奏『濬違詔，大不敬，請付廷尉科罪。』」"
+                  ],
+                  "type": "動"
+                }
+              ],
+              "pinyin": "kē"
+            }
+          ],
+          "non_radical_stroke_count": 4,
+          "radical": "禾",
+          "stroke_count": 9,
+          "title": "科"
+        },
+        "parsedEntrySha256": "996731701f9b50d49431c9d8752996f9f88e35cd1d5f247a693b34391b74889c",
+        "parsedHashConvention": "sha256(JSON.stringify(parsed complete original entry));not raw byte range",
+        "license": "CC-BY-ND-3.0-TW"
+      },
+      "editorial": {
+        "attribution": "Project naming interpretation; not an MOE quotation or measured child trait",
+        "license": "CC0-1.0",
+        "meaning": "取类别、项目的分类意象。",
+        "projectWish": "项目创作：愿在分辨事物的过程中逐步求知。",
+        "reason": "所选为類別、項目，不把科学、科举等完整词语直接当成本字的命名义。",
+        "limits": [
+          "分类意象不等于孩子具有条理、科研天赋或考试优势。",
+          "法律、处断、处罚等其他义项不在本条采用范围。",
+          "不新增学业、职业、心理或传播效果评分。"
+        ]
+      },
+      "usageReviewRequired": false,
+      "notWholeWordDerived": true,
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "scope": "per-character-project-explanation-only",
+      "wholeNameAssessment": "not-assessed",
+      "wholeNameMeaning": null,
+      "automaticNameRecommendation": false
+    },
+    {
+      "caseId": "single-meaning-m393:克:20105:0:1",
+      "char": "克",
+      "selectedPinyin": "kè",
+      "tone": 4,
+      "baselineCharacter": {
+        "char": "克",
+        "pinyin": "kè",
+        "tone": 4,
+        "meaning": "戰勝。；約束。；限定、約期。",
+        "traditional": "剋",
+        "strokes": 7,
+        "radical": "儿",
+        "elements": [],
+        "elementBasis": "五行属性待起名师指定；不从普通笔画数推定五行",
+        "tags": [
+          "常用命名字候选"
+        ],
+        "warning": "繁体对应“剋”，简繁与异体须按户籍用字确认。 Unicode 记有多个简繁对应：克、剋，请按实际字义确认。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "kè",
+            "tone": 4,
+            "meanings": [
+              "戰勝。",
+              "約束。",
+              "限定、約期。",
+              "剝削。",
+              "傷害。",
+              "嚴苛。",
+              "能夠。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "剋"
+          }
+        ],
+        "polyphonic": false,
+        "variants": [
+          "克",
+          "剋"
+        ]
+      },
+      "baselineCharacterSha256": "cd140ecbd04689d7f33fc69c545500610fb57cf05b7768c257e07e9481e7ab3a",
+      "prior": {
+        "status": "pending",
+        "namingMeaning": null,
+        "automaticMeaningAllowed": false,
+        "sourceReview": {
+          "pendingIndex": 143,
+          "char": "克",
+          "status": "pending",
+          "namingMeaning": null,
+          "projectWish": null,
+          "useKind": "none",
+          "scope": "当前selectedWords为剋，实际审读义为战胜；本字克另条的胜任义不得换源使用。",
+          "reason": "若拟采用更适合命名的胜任义，应先纠正词典身份为本字克并重绑原索引。",
+          "binding": {
+            "char": "克",
+            "pinyin": "kè",
+            "tone": 4,
+            "sourceId": "moe-revised",
+            "dictionaryWord": "剋",
+            "rawEntryIndex": 20105,
+            "rawHeteronymIndex": 0,
+            "rawDefinitionIndex": 0,
+            "dictionarySense": "戰勝。"
+          },
+          "warnings": [
+            "词典身份待纠正：当前剋与本字克不同条；剋另有剥削、伤害、严苛义。"
+          ],
+          "licensing": {
+            "dictionary": "CC-BY-ND-3.0-TW;verbatim source definition",
+            "editorial": "CC0-1.0;project review and wishes only"
+          },
+          "automaticMeaningAllowed": false,
+          "applicability": {
+            "mode": "not-approved",
+            "allowedNames": [],
+            "reason": "原审pending；当前剋与本字克词典身份问题未纠正。"
+          }
+        },
+        "sourceReviewSha256": "dcec22a85937e3778acb4264233287caad596ba75e8da61ebdceb641e26f2abf"
+      },
+      "glyph": {
+        "kind": "unicode-two-way-variant-with-explicit-source-word",
+        "character": "克",
+        "dictionaryWord": "剋",
+        "proof": [
+          {
+            "originalFile": "data/raw/kTraditionalVariant.txt",
+            "lineNumber": 247,
+            "originalLine": "514B\tU+514B U+524B",
+            "fileSha256": "4eca6285d45070548e6e6c06e4b48c3ca6866d4380e8cb980c512f5d1fc71895"
+          },
+          {
+            "originalFile": "data/raw/kSimplifiedVariant.txt",
+            "lineNumber": 735,
+            "originalLine": "514B\tU+514B",
+            "fileSha256": "a7f0c9dbbca85cffd90517fa6ea9be97d2e6f811328a59b6b303d58a418ac9be"
+          },
+          {
+            "originalFile": "data/raw/kSimplifiedVariant.txt",
+            "lineNumber": 778,
+            "originalLine": "524B\tU+514B",
+            "fileSha256": "a7f0c9dbbca85cffd90517fa6ea9be97d2e6f811328a59b6b303d58a418ac9be"
+          }
+        ],
+        "ownDictionaryEntry": {
+          "rawEntryIndex": 15405,
+          "completeOriginalEntry": {
+            "heteronyms": [
+              {
+                "bopomofo": "ㄎㄜˋ",
+                "definitions": [
+                  {
+                    "def": "勝任。",
+                    "quote": [
+                      "《說文解字．克部》：「克，肩也。」",
+                      "清．段玉裁．注：「鄭箋云：『仔肩，任也。』許云：『勝任也。』」",
+                      "唐．劉禹錫〈為杜司徒謝賜追贈表〉：「常懼不克負荷，以忝前人。」"
+                    ],
+                    "type": "動"
+                  },
+                  {
+                    "def": "戰勝、攻破。",
+                    "example": [
+                      "如：「克敵」、「攻無不克」。"
+                    ],
+                    "quote": [
+                      "《左傳．莊公十年》：「彼竭我盈，故克之。」",
+                      "《三國志．卷三五．蜀書．諸葛亮傳》：「然操遂能克紹，非惟天時，抑亦人謀。」"
+                    ],
+                    "type": "動"
+                  },
+                  {
+                    "def": "制服、約束。",
+                    "example": [
+                      "如：「克服」、「以柔克剛」。"
+                    ],
+                    "quote": [
+                      "《論語．顏淵》：「克己復禮為仁。」",
+                      "何晏集解引馬融注：「克己，約身。」"
+                    ],
+                    "type": "動"
+                  },
+                  {
+                    "def": "約定。",
+                    "quote": [
+                      "南朝宋．劉義慶《世說新語．方正》：「淮使戒裝，克日當發。」"
+                    ],
+                    "type": "動"
+                  },
+                  {
+                    "def": "剋扣。",
+                    "quote": [
+                      "《水滸傳．第八三回》：「寡人御賜之酒，一瓶克減半瓶。」"
+                    ],
+                    "type": "動"
+                  },
+                  {
+                    "def": "消化。",
+                    "example": [
+                      "如：「多吃水果能克食。」"
+                    ],
+                    "type": "動"
+                  },
+                  {
+                    "def": "量詞。計算重量的單位。為英語gram的義譯。即公克的簡稱。公制一克等於千分之一　公斤。",
+                    "type": "名"
+                  },
+                  {
+                    "def": "能。",
+                    "example": [
+                      "如：「不克分身」。"
+                    ],
+                    "quote": [
+                      "《書經．大禹謨》：「克勤於邦，克儉於邦。」",
+                      "唐．柳宗元〈封建論〉：「人不能搏噬，而且無毛羽，莫克自奉自衛。」"
+                    ],
+                    "type": "副"
+                  }
+                ],
+                "pinyin": "kè"
+              }
+            ],
+            "non_radical_stroke_count": 5,
+            "radical": "儿",
+            "stroke_count": 7,
+            "title": "克"
+          },
+          "entrySha256": "121baa6355c25dfcd5db1e0dba7a894e4d7bb367379df64156f698eb7d901c36"
+        }
+      },
+      "original": {
+        "sourceId": "moe-revised",
+        "word": "剋",
+        "rawEntryIndex": 20105,
+        "rawHeteronymIndex": 0,
+        "rawDefinitionIndex": 1,
+        "rawFile": "data/raw/moe-revised.json.gz",
+        "rawSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "pinyin": "kè",
+        "definition": {
+          "def": "約束。",
+          "quote": [
+            "《後漢書．卷七九．儒林傳下．周澤傳》：「中元元年，遷黽池令。奉公剋己，矜恤孤羸，吏人歸愛之。」"
+          ],
+          "type": "動"
+        },
+        "completeOriginalEntry": {
+          "heteronyms": [
+            {
+              "bopomofo": "ㄎㄜˋ",
+              "definitions": [
+                {
+                  "def": "戰勝。",
+                  "link": [
+                    "通「克」。"
+                  ],
+                  "quote": [
+                    "《後漢書．卷二八上．桓譚傳》：「何向而不開，何征而不剋。」"
+                  ],
+                  "type": "動"
+                },
+                {
+                  "def": "約束。",
+                  "quote": [
+                    "《後漢書．卷七九．儒林傳下．周澤傳》：「中元元年，遷黽池令。奉公剋己，矜恤孤羸，吏人歸愛之。」"
+                  ],
+                  "type": "動"
+                },
+                {
+                  "def": "限定、約期。",
+                  "quote": [
+                    "《後漢書．卷四一．鍾離意傳》：「意遂於道解徒桎梏，恣所欲過，與剋期俱至，無或違者。」",
+                    "元．王實甫《西廂記．第五本．第三折》：「准備筵席茶禮花紅，剋日過門者。」"
+                  ],
+                  "type": "動"
+                },
+                {
+                  "def": "剝削。",
+                  "example": [
+                    "如：「剋扣」。"
+                  ],
+                  "type": "動"
+                },
+                {
+                  "def": "傷害。",
+                  "quote": [
+                    "《西遊記．第四十四回》：「皆因命犯華蓋，妨爺剋娘。」"
+                  ],
+                  "type": "動"
+                },
+                {
+                  "def": "嚴苛。",
+                  "quote": [
+                    "《韓非子．外儲說左下》：「西門豹為鄴令，清剋潔慤，秋毫之端，無私利也。」"
+                  ],
+                  "type": "形"
+                },
+                {
+                  "def": "能夠。",
+                  "quote": [
+                    "《後漢書．卷八一．獨行傳．序》：「或志剛金石，而剋扞於強禦。」"
+                  ],
+                  "type": "副"
+                }
+              ],
+              "pinyin": "kè"
+            }
+          ],
+          "non_radical_stroke_count": 7,
+          "radical": "刀",
+          "stroke_count": 9,
+          "title": "剋"
+        },
+        "parsedEntrySha256": "5dae8a94d297069338fc9ddb35a28d8ef6d30c30b744936d3e2c2c95de9a4d8e",
+        "parsedHashConvention": "sha256(JSON.stringify(parsed complete original entry));not raw byte range",
+        "license": "CC-BY-ND-3.0-TW"
+      },
+      "editorial": {
+        "attribution": "Project naming interpretation; not an MOE quotation or measured child trait",
+        "license": "CC0-1.0",
+        "meaning": "按当前 kè／剋 词条，取约束、节制之意。",
+        "projectWish": "项目创作：愿言行有所节制，也尊重他人的边界。",
+        "reason": "继续当前字库明确指向的剋读音条，采用其中約束义；克与剋的关联按固定Unicode原行记录。",
+        "limits": [
+          "不把克、剋的所有义项无条件混合；此条不借本字其他条目换义。",
+          "原条还含剥削、伤害、严苛等义，均保留原文但不作为本条项目取意。",
+          "不据相克一词推断五行关系或命运；原词类为动词，须另审用法。"
+        ]
+      },
+      "usageReviewRequired": true,
+      "notWholeWordDerived": true,
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "scope": "per-character-project-explanation-only",
+      "wholeNameAssessment": "not-assessed",
+      "wholeNameMeaning": null,
+      "automaticNameRecommendation": false
+    },
+    {
+      "caseId": "single-meaning-m393:昆:70425:0:1",
+      "char": "昆",
+      "selectedPinyin": "kūn",
+      "tone": 1,
+      "baselineCharacter": {
+        "char": "昆",
+        "pinyin": "kūn",
+        "tone": 1,
+        "meaning": "兄。；後嗣、子孫。；群、眾多。",
+        "traditional": "昆",
+        "strokes": 8,
+        "radical": "日",
+        "elements": [],
+        "elementBasis": "五行属性待起名师指定；不从普通笔画数推定五行",
+        "tags": [
+          "常用命名字候选"
+        ],
+        "warning": "本表按字典中文义项与 Unicode 字形字段核对；仍需结合全名检查谐音。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "kūn",
+            "tone": 1,
+            "meanings": [
+              "兄。",
+              "後嗣、子孫。",
+              "群、眾多。",
+              "同。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "昆"
+          }
+        ],
+        "polyphonic": false,
+        "variants": [
+          "昆"
+        ]
+      },
+      "baselineCharacterSha256": "aa411a5feb33ad824aac05adb9cd9ccabbd0f9693b8bea2d5a76a1f7de9568a4",
+      "prior": {
+        "status": "pending",
+        "namingMeaning": null,
+        "automaticMeaningAllowed": false,
+        "sourceReview": {
+          "pendingIndex": 147,
+          "char": "昆",
+          "status": "pending",
+          "namingMeaning": null,
+          "projectWish": null,
+          "useKind": "none",
+          "scope": "仅兄长、后嗣或群体等具体关系语境。",
+          "reason": "昆kūn本条为兄、后嗣、群多、同；未提供家庭排行或传承语境，不能自行补成高大、光明。",
+          "binding": {
+            "char": "昆",
+            "pinyin": "kūn",
+            "tone": 1,
+            "sourceId": "moe-revised",
+            "dictionaryWord": "昆",
+            "rawEntryIndex": 70425,
+            "rawHeteronymIndex": 0,
+            "rawDefinitionIndex": 0,
+            "dictionarySense": "兄。"
+          },
+          "warnings": [
+            "缺可审核的具体命名主题。"
+          ],
+          "licensing": {
+            "dictionary": "CC-BY-ND-3.0-TW;verbatim source definition",
+            "editorial": "CC0-1.0;project review and wishes only"
+          },
+          "automaticMeaningAllowed": false,
+          "applicability": {
+            "mode": "not-approved",
+            "allowedNames": [],
+            "reason": "原审待定：兄长后嗣等关系背景未给定。"
+          }
+        },
+        "sourceReviewSha256": "d6196d1dc445428fe111c61e1f59e7c4b31efbe553cce86a57861302c6e0a208"
+      },
+      "glyph": {
+        "kind": "exact-source-glyph",
+        "character": "昆",
+        "dictionaryWord": "昆",
+        "proof": []
+      },
+      "original": {
+        "sourceId": "moe-revised",
+        "word": "昆",
+        "rawEntryIndex": 70425,
+        "rawHeteronymIndex": 0,
+        "rawDefinitionIndex": 1,
+        "rawFile": "data/raw/moe-revised.json.gz",
+        "rawSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "pinyin": "kūn",
+        "definition": {
+          "def": "後嗣、子孫。",
+          "quote": [
+            "《書經．仲虺之誥》：「垂裕後昆。」",
+            "漢．孔安國．傳：「垂優足之道示後世。」"
+          ],
+          "type": "名"
+        },
+        "completeOriginalEntry": {
+          "heteronyms": [
+            {
+              "bopomofo": "ㄎㄨㄣ",
+              "definitions": [
+                {
+                  "def": "兄。",
+                  "quote": [
+                    "《詩經．王風．葛藟》：「終遠兄弟，謂他人昆。」",
+                    "漢．毛亨．傳：「昆，兄也。」",
+                    "唐．杜甫〈彭衙行〉：「誓將與夫子，永結為弟昆。」"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "後嗣、子孫。",
+                  "quote": [
+                    "《書經．仲虺之誥》：「垂裕後昆。」",
+                    "漢．孔安國．傳：「垂優足之道示後世。」"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "群、眾多。",
+                  "quote": [
+                    "《漢書．卷一○．成帝紀》：「君道得，則草木昆蟲咸得其所。」",
+                    "唐．顏師古．注：「昆，眾也。昆蟲，言眾蟲也。」"
+                  ],
+                  "type": "形"
+                },
+                {
+                  "def": "同。",
+                  "quote": [
+                    "《文選．揚雄．羽獵賦》：「群娭乎其中，噍噍昆鳴。」"
+                  ],
+                  "type": "副"
+                }
+              ],
+              "pinyin": "kūn"
+            }
+          ],
+          "non_radical_stroke_count": 4,
+          "radical": "日",
+          "stroke_count": 8,
+          "title": "昆"
+        },
+        "parsedEntrySha256": "0b9b1afa0bcb753f2c52f28a93ea4868fab003b2ee7ad94046a3c0cf47635b22",
+        "parsedHashConvention": "sha256(JSON.stringify(parsed complete original entry));not raw byte range",
+        "license": "CC-BY-ND-3.0-TW"
+      },
+      "editorial": {
+        "attribution": "Project naming interpretation; not an MOE quotation or measured child trait",
+        "license": "CC0-1.0",
+        "meaning": "取后嗣、子孙的亲缘意象。",
+        "projectWish": "项目创作：愿珍惜亲人之间相互照顾的情谊。",
+        "reason": "直接采用後嗣、子孫这一名词义，不通过昆仑等地理词语另造释义。",
+        "limits": [
+          "不据兄这一别义判定孩子的排行或性别职责。",
+          "亲缘期许不表示必须承担宗族成就或传承压力。",
+          "不把亲缘意象当作整名已适用的结论。"
+        ]
+      },
+      "usageReviewRequired": false,
+      "notWholeWordDerived": true,
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "scope": "per-character-project-explanation-only",
+      "wholeNameAssessment": "not-assessed",
+      "wholeNameMeaning": null,
+      "automaticNameRecommendation": false
+    },
+    {
+      "caseId": "single-meaning-m393:陵:150362:0:6",
+      "char": "陵",
+      "selectedPinyin": "líng",
+      "tone": 2,
+      "baselineCharacter": {
+        "char": "陵",
+        "pinyin": "líng",
+        "tone": 2,
+        "meaning": "大土山。；帝王的墳墓。；姓。如明代有陵茂。",
+        "traditional": "陵",
+        "strokes": 10,
+        "radical": "阜",
+        "elements": [],
+        "elementBasis": "五行属性待起名师指定；不从普通笔画数推定五行",
+        "tags": [
+          "明朗"
+        ],
+        "warning": "本表按字典中文义项与 Unicode 字形字段核对；仍需结合全名检查谐音。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "líng",
+            "tone": 2,
+            "meanings": [
+              "大土山。",
+              "帝王的墳墓。",
+              "姓。如明代有陵茂。",
+              "登、升。",
+              "超越、踰越。",
+              "欺侮、侵犯。",
+              "淬礪。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "陵"
+          }
+        ],
+        "polyphonic": false,
+        "variants": [
+          "陵"
+        ]
+      },
+      "baselineCharacterSha256": "8b53fc7bec9975de882b21a33645314c367c10a0533bc4d64159ea5a977a75fe",
+      "prior": {
+        "status": "pending",
+        "namingMeaning": null,
+        "automaticMeaningAllowed": false,
+        "sourceReview": {
+          "pendingIndex": 172,
+          "char": "陵",
+          "status": "pending",
+          "namingMeaning": null,
+          "projectWish": null,
+          "useKind": "none",
+          "scope": "本条有大土山，但也有帝王坟墓、欺侮侵犯等显著义；单用及普通复名都需消歧。",
+          "reason": "缺足以固定山体意象的组合，不宜把陵直接写作崇高、宏大人格。",
+          "binding": {
+            "char": "陵",
+            "pinyin": "líng",
+            "tone": 2,
+            "sourceId": "moe-revised",
+            "dictionaryWord": "陵",
+            "rawEntryIndex": 150362,
+            "rawHeteronymIndex": 0,
+            "rawDefinitionIndex": 0,
+            "dictionarySense": "大土山。"
+          },
+          "warnings": [
+            "negative-sense-coexists",
+            "whole-name-context-required"
+          ],
+          "licensing": {
+            "dictionary": "CC-BY-ND-3.0-TW;verbatim source definition",
+            "editorial": "CC0-1.0;project review and wishes only"
+          },
+          "automaticMeaningAllowed": false,
+          "applicability": {
+            "mode": "not-approved",
+            "allowedNames": [],
+            "reason": "原审待定：山体、坟墓与侵犯等义缺全名消歧。"
+          }
+        },
+        "sourceReviewSha256": "4b823245e69ac53fe391ef64b09945e44a09e3cd7cb5a80ad0eeeaaa3f5f9d16"
+      },
+      "glyph": {
+        "kind": "exact-source-glyph",
+        "character": "陵",
+        "dictionaryWord": "陵",
+        "proof": []
+      },
+      "original": {
+        "sourceId": "moe-revised",
+        "word": "陵",
+        "rawEntryIndex": 150362,
+        "rawHeteronymIndex": 0,
+        "rawDefinitionIndex": 6,
+        "rawFile": "data/raw/moe-revised.json.gz",
+        "rawSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "pinyin": "líng",
+        "definition": {
+          "def": "淬礪。",
+          "quote": [
+            "《荀子．君道》：「兵刃不待陵而勵。」",
+            "王先謙．集解：「陵謂厲兵刃也。」"
+          ],
+          "type": "動"
+        },
+        "completeOriginalEntry": {
+          "heteronyms": [
+            {
+              "bopomofo": "ㄌㄧㄥˊ",
+              "definitions": [
+                {
+                  "def": "大土山。",
+                  "example": [
+                    "如：「丘陵」、「山陵」。"
+                  ],
+                  "quote": [
+                    "《左傳．僖公三十二年》：「殽有二陵焉。」",
+                    "三國魏．曹植〈鰕䱇篇〉：「駕言登五嶽，然後小陵丘。」"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "帝王的墳墓。",
+                  "example": [
+                    "如：「陵寢」、「十三陵」。"
+                  ],
+                  "quote": [
+                    "唐．杜牧〈登樂遊原〉詩：「看取漢家何事業，五陵無樹起秋風。」",
+                    "《儒林外史．第三○回》：「中間坐一個看陵的太監，穿著蟒袍。」"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "姓。如明代有陵茂。",
+                  "type": "名"
+                },
+                {
+                  "def": "登、升。",
+                  "quote": [
+                    "《左傳．成公二年》：「齊侯親鼓，士陵城。三日，取龍。」",
+                    "北魏．溫子昇〈為西河王謝太尉表〉：「將短翮難以陵高，駑乘無由致遠。」"
+                  ],
+                  "type": "動"
+                },
+                {
+                  "def": "超越、踰越。",
+                  "example": [
+                    "如：「陵駕」。"
+                  ],
+                  "quote": [
+                    "《禮記．學記》：「不陵節而施之謂孫。」",
+                    "《文選．陳琳．檄吳將校部曲文》：「自以兵強國富，勢陵京城。」"
+                  ],
+                  "type": "動"
+                },
+                {
+                  "def": "欺侮、侵犯。",
+                  "example": [
+                    "如：「陵辱」。"
+                  ],
+                  "link": [
+                    "通「凌」。"
+                  ],
+                  "quote": [
+                    "《左傳．隱公三年》：「且夫賤妨貴，少陵長，遠間親，新間舊。」",
+                    "漢．王符《潛夫論．忠貴》：「而乃欲任其私知，竊君威德，以陵下民。」"
+                  ],
+                  "type": "動"
+                },
+                {
+                  "def": "淬礪。",
+                  "quote": [
+                    "《荀子．君道》：「兵刃不待陵而勵。」",
+                    "王先謙．集解：「陵謂厲兵刃也。」"
+                  ],
+                  "type": "動"
+                }
+              ],
+              "pinyin": "líng"
+            }
+          ],
+          "non_radical_stroke_count": 8,
+          "radical": "阜",
+          "stroke_count": 11,
+          "title": "陵"
+        },
+        "parsedEntrySha256": "4a2751a410ca80c1c7e9995ace92a6ef075fef69a73085b184bf15da274a8ad6",
+        "parsedHashConvention": "sha256(JSON.stringify(parsed complete original entry));not raw byte range",
+        "license": "CC-BY-ND-3.0-TW"
+      },
+      "editorial": {
+        "attribution": "Project naming interpretation; not an MOE quotation or measured child trait",
+        "license": "CC0-1.0",
+        "meaning": "取淬砺、磨砺的动作意象。",
+        "projectWish": "项目创作：愿认真打磨所学的技艺。",
+        "reason": "采用原条淬礪义并保留其兵刃语境，项目只借动作意象，不将它改写成人格属性。",
+        "limits": [
+          "淬砺的源语境不能直接证明孩子坚强、勇敢或抗挫能力。",
+          "同条的帝王坟墓、欺侮等义保留但不在本条采用；姓名搭配仍需审阅。",
+          "原词类为动词；不借同音凌字的其他义项补证。"
+        ]
+      },
+      "usageReviewRequired": true,
+      "notWholeWordDerived": true,
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "scope": "per-character-project-explanation-only",
+      "wholeNameAssessment": "not-assessed",
+      "wholeNameMeaning": null,
+      "automaticNameRecommendation": false
+    },
+    {
+      "caseId": "single-meaning-m393:枚:75650:0:0",
+      "char": "枚",
+      "selectedPinyin": "méi",
+      "tone": 2,
+      "baselineCharacter": {
+        "char": "枚",
+        "pinyin": "méi",
+        "tone": 2,
+        "meaning": "樹幹。；古代行軍時，兵士橫銜於口中，以防止言語的箸。；量詞：(1) 計算形體較小物品的單位。相當於「個」。如：「一枚銅板」、「兩枚郵票」。《文選．謝惠連．祭古冢文》：「棺上有五銖錢百餘枚。」《儒林外史．第二回》：「只有周、梅二位的茶杯裡有兩枚生紅棗，其餘都是清茶。」(2) 計算火箭、彈藥的單位。如：「一枚炸彈」、「兩枚火箭」。",
+        "traditional": "枚",
+        "strokes": 8,
+        "radical": "木",
+        "elements": [],
+        "elementBasis": "五行属性待起名师指定；不从普通笔画数推定五行",
+        "tags": [
+          "自然草木"
+        ],
+        "warning": "本表按字典中文义项与 Unicode 字形字段核对；仍需结合全名检查谐音。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "méi",
+            "tone": 2,
+            "meanings": [
+              "樹幹。",
+              "古代行軍時，兵士橫銜於口中，以防止言語的箸。",
+              "量詞：(1) 計算形體較小物品的單位。相當於「個」。如：「一枚銅板」、「兩枚郵票」。《文選．謝惠連．祭古冢文》：「棺上有五銖錢百餘枚。」《儒林外史．第二回》：「只有周、梅二位的茶杯裡有兩枚生紅棗，其餘都是清茶。」(2) 計算火箭、彈藥的單位。如：「一枚炸彈」、「兩枚火箭」。",
+              "姓。如漢代有枚乘。",
+              "一個一個的。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "枚"
+          }
+        ],
+        "polyphonic": false,
+        "variants": [
+          "枚"
+        ]
+      },
+      "baselineCharacterSha256": "c93b11350029d30cd8de120b7516ef1e6e24d8d0a30d98da50dd0b400dd2dbb3",
+      "prior": {
+        "status": "pending",
+        "namingMeaning": null,
+        "automaticMeaningAllowed": false,
+        "sourceReview": {
+          "pendingIndex": 193,
+          "char": "枚",
+          "status": "pending",
+          "namingMeaning": null,
+          "projectWish": null,
+          "useKind": "none",
+          "scope": "有树干实体义，但常作计量小物、弹药的量词，也有行军衔箸义；单用未显示取树干。",
+          "reason": "缺树木意象组合，不能由量词或树干自动写出文雅、栋梁。",
+          "binding": {
+            "char": "枚",
+            "pinyin": "méi",
+            "tone": 2,
+            "sourceId": "moe-revised",
+            "dictionaryWord": "枚",
+            "rawEntryIndex": 75650,
+            "rawHeteronymIndex": 0,
+            "rawDefinitionIndex": 0,
+            "dictionarySense": "樹幹。"
+          },
+          "warnings": [
+            "polysemy-context-required"
+          ],
+          "licensing": {
+            "dictionary": "CC-BY-ND-3.0-TW;verbatim source definition",
+            "editorial": "CC0-1.0;project review and wishes only"
+          },
+          "automaticMeaningAllowed": false,
+          "applicability": {
+            "mode": "not-approved",
+            "allowedNames": [],
+            "reason": "原审待定：树干义与量词等义缺树木组合消歧。"
+          }
+        },
+        "sourceReviewSha256": "cc1ff682fb0817636afd12fb2e82dbcb352ebf02dc473cce189b59514eb95c41"
+      },
+      "glyph": {
+        "kind": "exact-source-glyph",
+        "character": "枚",
+        "dictionaryWord": "枚",
+        "proof": []
+      },
+      "original": {
+        "sourceId": "moe-revised",
+        "word": "枚",
+        "rawEntryIndex": 75650,
+        "rawHeteronymIndex": 0,
+        "rawDefinitionIndex": 0,
+        "rawFile": "data/raw/moe-revised.json.gz",
+        "rawSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "pinyin": "méi",
+        "definition": {
+          "def": "樹幹。",
+          "quote": [
+            "《詩經．周南．汝墳》：「遵彼汝墳，伐其條枚。」",
+            "唐．杜甫〈雨〉詩：「鮫館如鳴杼，樵舟豈伐枚。」"
+          ],
+          "type": "名"
+        },
+        "completeOriginalEntry": {
+          "heteronyms": [
+            {
+              "bopomofo": "ㄇㄟˊ",
+              "definitions": [
+                {
+                  "def": "樹幹。",
+                  "quote": [
+                    "《詩經．周南．汝墳》：「遵彼汝墳，伐其條枚。」",
+                    "唐．杜甫〈雨〉詩：「鮫館如鳴杼，樵舟豈伐枚。」"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "古代行軍時，兵士橫銜於口中，以防止言語的箸。",
+                  "example": [
+                    "如：「銜枚疾走」。"
+                  ],
+                  "quote": [
+                    "《詩經．豳風．東山》：「制彼裳衣，勿士行枚。」"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "量詞：(1) 計算形體較小物品的單位。相當於「個」。如：「一枚銅板」、「兩枚郵票」。《文選．謝惠連．祭古冢文》：「棺上有五銖錢百餘枚。」《儒林外史．第二回》：「只有周、梅二位的茶杯裡有兩枚生紅棗，其餘都是清茶。」(2) 計算火箭、彈藥的單位。如：「一枚炸彈」、「兩枚火箭」。",
+                  "type": "名"
+                },
+                {
+                  "def": "姓。如漢代有枚乘。",
+                  "type": "名"
+                },
+                {
+                  "def": "一個一個的。",
+                  "example": [
+                    "如：「不勝枚舉」。"
+                  ],
+                  "type": "副"
+                }
+              ],
+              "pinyin": "méi"
+            }
+          ],
+          "non_radical_stroke_count": 4,
+          "radical": "木",
+          "stroke_count": 8,
+          "title": "枚"
+        },
+        "parsedEntrySha256": "dbc1541fe05a14b91f5276fd0a569016d5c5479e348d2f97f7c19f81bb7ef5dc",
+        "parsedHashConvention": "sha256(JSON.stringify(parsed complete original entry));not raw byte range",
+        "license": "CC-BY-ND-3.0-TW"
+      },
+      "editorial": {
+        "attribution": "Project naming interpretation; not an MOE quotation or measured child trait",
+        "license": "CC0-1.0",
+        "meaning": "取树干这一自然形体意象。",
+        "projectWish": "项目创作：愿亲近草木，认识身边的自然。",
+        "reason": "所选定义为樹幹，与量词、衔枚行军和姓氏义分开。",
+        "limits": [
+          "树干意象不证明坚毅、挺拔等人格或身体特征。",
+          "不从木字旁或此义自动补填elements。",
+          "其他量词、军事语境不作为本条的命名依据。"
+        ]
+      },
+      "usageReviewRequired": false,
+      "notWholeWordDerived": true,
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "scope": "per-character-project-explanation-only",
+      "wholeNameAssessment": "not-assessed",
+      "wholeNameMeaning": null,
+      "automaticNameRecommendation": false
+    },
+    {
+      "caseId": "single-meaning-m393:孟:41155:0:2",
+      "char": "孟",
+      "selectedPinyin": "mèng",
+      "tone": 4,
+      "baselineCharacter": {
+        "char": "孟",
+        "pinyin": "mèng",
+        "tone": 4,
+        "meaning": "兄弟姊妹中排行最大的。；鹵莽的、誇大的。；四季中每季的第一個月。",
+        "traditional": "孟",
+        "strokes": 8,
+        "radical": "子",
+        "elements": [],
+        "elementBasis": "五行属性待起名师指定；不从普通笔画数推定五行",
+        "tags": [
+          "常用命名字候选"
+        ],
+        "warning": "本表按字典中文义项与 Unicode 字形字段核对；仍需结合全名检查谐音。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "mèng",
+            "tone": 4,
+            "meanings": [
+              "兄弟姊妹中排行最大的。",
+              "鹵莽的、誇大的。",
+              "四季中每季的第一個月。",
+              "孟子或《孟子》一書的簡稱。",
+              "姓。如戰國時鄒有孟軻。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "孟"
+          }
+        ],
+        "polyphonic": false,
+        "variants": [
+          "孟"
+        ]
+      },
+      "baselineCharacterSha256": "16b3ce5e8e5b42ed31a44fcf13dbcbc8fa9df095a9b258f4c69dbd1f5308a939",
+      "prior": {
+        "status": "pending",
+        "namingMeaning": null,
+        "automaticMeaningAllowed": false,
+        "sourceReview": {
+          "pendingIndex": 196,
+          "char": "孟",
+          "status": "pending",
+          "namingMeaning": null,
+          "projectWish": null,
+          "useKind": "none",
+          "scope": "有排行最大、每季首月义，也有鲁莽夸大义；单用及任意字位不能泛指高尚或成长。",
+          "reason": "未提供长幼排行、季月或典籍组合，缺乏能固定取义的家庭条件。",
+          "binding": {
+            "char": "孟",
+            "pinyin": "mèng",
+            "tone": 4,
+            "sourceId": "moe-revised",
+            "dictionaryWord": "孟",
+            "rawEntryIndex": 41155,
+            "rawHeteronymIndex": 0,
+            "rawDefinitionIndex": 0,
+            "dictionarySense": "兄弟姊妹中排行最大的。"
+          },
+          "warnings": [
+            "family-context-required",
+            "negative-sense-coexists"
+          ],
+          "licensing": {
+            "dictionary": "CC-BY-ND-3.0-TW;verbatim source definition",
+            "editorial": "CC0-1.0;project review and wishes only"
+          },
+          "automaticMeaningAllowed": false,
+          "applicability": {
+            "mode": "not-approved",
+            "allowedNames": [],
+            "reason": "原审待定：排行季月缺家庭条件，另有鲁莽夸大义。"
+          }
+        },
+        "sourceReviewSha256": "344379b263a9010ec5bedf77016d3105304b39ab8dd7c90d8adceef503462989"
+      },
+      "glyph": {
+        "kind": "exact-source-glyph",
+        "character": "孟",
+        "dictionaryWord": "孟",
+        "proof": []
+      },
+      "original": {
+        "sourceId": "moe-revised",
+        "word": "孟",
+        "rawEntryIndex": 41155,
+        "rawHeteronymIndex": 0,
+        "rawDefinitionIndex": 2,
+        "rawFile": "data/raw/moe-revised.json.gz",
+        "rawSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "pinyin": "mèng",
+        "definition": {
+          "def": "四季中每季的第一個月。",
+          "quote": [
+            "《逸周書．卷六．周月》：「歲有春夏秋冬，各有孟仲季，以名十有二月。」",
+            "唐．韓愈〈岳陽樓別竇司直〉詩：「時當冬之孟，隙竅縮寒漲。」"
+          ],
+          "type": "名"
+        },
+        "completeOriginalEntry": {
+          "heteronyms": [
+            {
+              "bopomofo": "ㄇㄥˋ",
+              "definitions": [
+                {
+                  "def": "兄弟姊妹中排行最大的。",
+                  "quote": [
+                    "《說文解字．子部》：「孟，長也。」",
+                    "《左傳．隱公元年》：「傅惠公元妃孟子。」",
+                    "唐．孔穎達．正義：「孟、仲、叔、季，兄弟姊妹長幼之別字也。」"
+                  ],
+                  "type": "形"
+                },
+                {
+                  "def": "鹵莽的、誇大的。",
+                  "example": [
+                    "如：「孟浪」。"
+                  ],
+                  "quote": [
+                    "《管子．任法》：「奇術技藝之人，莫敢高言孟行，以過其情。」"
+                  ],
+                  "type": "形"
+                },
+                {
+                  "def": "四季中每季的第一個月。",
+                  "quote": [
+                    "《逸周書．卷六．周月》：「歲有春夏秋冬，各有孟仲季，以名十有二月。」",
+                    "唐．韓愈〈岳陽樓別竇司直〉詩：「時當冬之孟，隙竅縮寒漲。」"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "孟子或《孟子》一書的簡稱。",
+                  "example": [
+                    "如：「孔孟」、「論孟」。"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "姓。如戰國時鄒有孟軻。",
+                  "type": "名"
+                }
+              ],
+              "pinyin": "mèng"
+            }
+          ],
+          "non_radical_stroke_count": 5,
+          "radical": "子",
+          "stroke_count": 8,
+          "title": "孟"
+        },
+        "parsedEntrySha256": "673e10f62133a10680fdd8430fd4a842e9f3e9eed9d7244a3383f2e0ca35ed27",
+        "parsedHashConvention": "sha256(JSON.stringify(parsed complete original entry));not raw byte range",
+        "license": "CC-BY-ND-3.0-TW"
+      },
+      "editorial": {
+        "attribution": "Project naming interpretation; not an MOE quotation or measured child trait",
+        "license": "CC0-1.0",
+        "meaning": "取每季初月的岁时意象。",
+        "projectWish": "项目创作：愿重视每一段新开始的准备。",
+        "reason": "采用四季中每季的第一個月，不把排行最大或孟子这一别义移入本条。",
+        "limits": [
+          "岁时取意不推断实际出生季节，也不规定长幼排行。",
+          "不因为字形相同就声明已有孟子典故或儒学品格。",
+          "原条的卤莽、夸大色彩仍保留，须结合全名审阅。"
+        ]
+      },
+      "usageReviewRequired": false,
+      "notWholeWordDerived": true,
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "scope": "per-character-project-explanation-only",
+      "wholeNameAssessment": "not-assessed",
+      "wholeNameMeaning": null,
+      "automaticNameRecommendation": false
+    },
+    {
+      "caseId": "single-meaning-m393:曲:72424:0:11",
+      "char": "曲",
+      "selectedPinyin": "qū",
+      "tone": 1,
+      "baselineCharacter": {
+        "char": "曲",
+        "pinyin": "qū",
+        "tone": 1,
+        "meaning": "拐彎的地方。；事理不直。；心中的隱情。",
+        "traditional": "麯",
+        "strokes": 6,
+        "radical": "曰",
+        "elements": [],
+        "elementBasis": "五行属性待起名师指定；不从普通笔画数推定五行",
+        "tags": [
+          "常用命名字候选"
+        ],
+        "warning": "多音字：本方案采用 qū，请按姓名用法确认；各读音义项分别保存。 繁体对应“麯”，简繁与异体须按户籍用字确认。 Unicode 记有多个简繁对应：曲、麯，请按实际字义确认。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "qū",
+            "tone": 1,
+            "meanings": [
+              "拐彎的地方。",
+              "事理不直。",
+              "心中的隱情。",
+              "偏僻的小地方。",
+              "局部、一部分。",
+              "養蠶的器具。",
+              "姓。如漢代有曲證。",
+              "彎折。",
+              "不直的。",
+              "不正的、偏邪的。",
+              "勉強的。",
+              "周全、盡心盡力。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "曲"
+          },
+          {
+            "pinyin": "qǔ",
+            "tone": 3,
+            "meanings": [
+              "樂歌。",
+              "文體名。中國古典韻文之一。元時最盛行，故稱為「元曲」。分散曲、劇曲二種。",
+              "量詞。計算歌曲、樂曲的單位。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "曲"
+          }
+        ],
+        "polyphonic": true,
+        "variants": [
+          "曲",
+          "麯",
+          "𱋐"
+        ]
+      },
+      "baselineCharacterSha256": "03456059a3c9644a269abd0ab60decfdc5f39350be019d7f0d1e9e97fe224a80",
+      "prior": {
+        "status": "pending",
+        "namingMeaning": null,
+        "automaticMeaningAllowed": false,
+        "sourceReview": {
+          "pendingIndex": 250,
+          "char": "曲",
+          "status": "pending",
+          "namingMeaning": null,
+          "projectWish": null,
+          "useKind": "none",
+          "scope": "默认qū虽有周全尽心义，但同时常指弯折、不正偏邪；不取qǔ音乐义，单用及普通复名消歧不足。",
+          "reason": "缺能固定周全义的全名或原句，不能用音乐与艺术性为qū命名正向补义。",
+          "binding": {
+            "char": "曲",
+            "pinyin": "qū",
+            "tone": 1,
+            "sourceId": "moe-revised",
+            "dictionaryWord": "曲",
+            "rawEntryIndex": 72424,
+            "rawHeteronymIndex": 0,
+            "rawDefinitionIndex": 11,
+            "dictionarySense": "周全、盡心盡力。"
+          },
+          "warnings": [
+            "polyphonic-default-only",
+            "negative-sense-coexists",
+            "whole-name-context-required"
+          ],
+          "licensing": {
+            "dictionary": "CC-BY-ND-3.0-TW;verbatim source definition",
+            "editorial": "CC0-1.0;project review and wishes only"
+          },
+          "automaticMeaningAllowed": false,
+          "applicability": {
+            "mode": "not-approved",
+            "allowedNames": [],
+            "reason": "原审待定：qū周全义未固定，不能借qǔ音乐义。"
+          }
+        },
+        "sourceReviewSha256": "5e347955f9bce496ecd5391c959e52fd2ce18b6622e04255961dd9a20a130fe5"
+      },
+      "glyph": {
+        "kind": "exact-source-glyph",
+        "character": "曲",
+        "dictionaryWord": "曲",
+        "proof": [
+          {
+            "originalFile": "data/raw/kTraditionalVariant.txt",
+            "lineNumber": 800,
+            "originalLine": "66F2\tU+66F2 U+9EAF",
+            "fileSha256": "4eca6285d45070548e6e6c06e4b48c3ca6866d4380e8cb980c512f5d1fc71895"
+          },
+          {
+            "originalFile": "data/raw/kSimplifiedVariant.txt",
+            "lineNumber": 1655,
+            "originalLine": "66F2\tU+66F2",
+            "fileSha256": "a7f0c9dbbca85cffd90517fa6ea9be97d2e6f811328a59b6b303d58a418ac9be"
+          }
+        ]
+      },
+      "original": {
+        "sourceId": "moe-revised",
+        "word": "曲",
+        "rawEntryIndex": 72424,
+        "rawHeteronymIndex": 0,
+        "rawDefinitionIndex": 11,
+        "rawFile": "data/raw/moe-revised.json.gz",
+        "rawSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "pinyin": "qū",
+        "definition": {
+          "def": "周全、盡心盡力。",
+          "example": [
+            "如：「曲盡孝道」。"
+          ],
+          "quote": [
+            "《易經．繫辭上》：「曲成萬物而不遺。」"
+          ],
+          "type": "副"
+        },
+        "completeOriginalEntry": {
+          "heteronyms": [
+            {
+              "bopomofo": "ㄑㄩ",
+              "definitions": [
+                {
+                  "def": "拐彎的地方。",
+                  "example": [
+                    "如：「山曲」、「河曲」。"
+                  ],
+                  "quote": [
+                    "唐．李白〈惜餘春賦〉：「漢之曲兮江之潭。」"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "事理不直。",
+                  "example": [
+                    "如：「是非曲直」。"
+                  ],
+                  "quote": [
+                    "《左傳．僖公二十八年》：「若其不還，君退臣犯，曲在彼矣。」"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "心中的隱情。",
+                  "example": [
+                    "如：「衷曲」、「心曲」、「互通款曲」。"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "偏僻的小地方。",
+                  "example": [
+                    "如：「鄉曲」。"
+                  ],
+                  "quote": [
+                    "唐．蔣防《霍小玉傳》：「住在勝業坊古寺曲，甫上車門宅是也。」"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "局部、一部分。",
+                  "quote": [
+                    "《荀子．解蔽》：「凡人之患蔽於一曲。」"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "養蠶的器具。",
+                  "quote": [
+                    "《史記．卷五七．絳侯周勃世家》：「勃以織薄曲為生。」"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "姓。如漢代有曲證。",
+                  "type": "名"
+                },
+                {
+                  "def": "彎折。",
+                  "example": [
+                    "如：「曲膝」、「曲突徙薪」。"
+                  ],
+                  "link": [
+                    "通「屈」。"
+                  ],
+                  "quote": [
+                    "《論語．述而》：「飯疏食飲水，曲肱而枕之，樂亦在其中矣。」"
+                  ],
+                  "type": "動"
+                },
+                {
+                  "def": "不直的。",
+                  "example": [
+                    "如：「曲線」、「曲尺」。"
+                  ],
+                  "quote": [
+                    "《晏子春秋．內篇．雜上》：「曲刃鉤之，直兵推之。」"
+                  ],
+                  "type": "形"
+                },
+                {
+                  "def": "不正的、偏邪的。",
+                  "example": [
+                    "如：「歪曲」、「邪曲」。"
+                  ],
+                  "quote": [
+                    "《戰國策．趙策二》：「窮鄉多異，曲學多辯。」"
+                  ],
+                  "type": "形"
+                },
+                {
+                  "def": "勉強的。",
+                  "example": [
+                    "如：「委曲求全」。"
+                  ],
+                  "quote": [
+                    "《鏡花緣．第四六回》：「甥女主意已定，務望舅舅曲從。」"
+                  ],
+                  "type": "副"
+                },
+                {
+                  "def": "周全、盡心盡力。",
+                  "example": [
+                    "如：「曲盡孝道」。"
+                  ],
+                  "quote": [
+                    "《易經．繫辭上》：「曲成萬物而不遺。」"
+                  ],
+                  "type": "副"
+                }
+              ],
+              "pinyin": "qū"
+            },
+            {
+              "bopomofo": "ㄑㄩˇ",
+              "definitions": [
+                {
+                  "def": "樂歌。",
+                  "example": [
+                    "如：「歌曲」、「小曲」、「舞曲」、「曲高和寡」。"
+                  ],
+                  "quote": [
+                    "唐．杜甫〈贈花卿〉詩：「此曲祗應天上有，人間能得幾回聞？」"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "文體名。中國古典韻文之一。元時最盛行，故稱為「元曲」。分散曲、劇曲二種。",
+                  "type": "名"
+                },
+                {
+                  "def": "量詞。計算歌曲、樂曲的單位。",
+                  "example": [
+                    "如：「高歌一曲」。"
+                  ],
+                  "quote": [
+                    "五代十國南唐．李煜〈一斛珠．晚妝初過〉詞：「一曲清歌，暫引櫻桃破。」"
+                  ],
+                  "type": "名"
+                }
+              ],
+              "pinyin": "qǔ"
+            }
+          ],
+          "non_radical_stroke_count": 2,
+          "radical": "曰",
+          "stroke_count": 6,
+          "title": "曲"
+        },
+        "parsedEntrySha256": "8825f0ec7996efcbe36dc868cad4e354f295ae9590773efadb51a8fbd212b2b8",
+        "parsedHashConvention": "sha256(JSON.stringify(parsed complete original entry));not raw byte range",
+        "license": "CC-BY-ND-3.0-TW"
+      },
+      "editorial": {
+        "attribution": "Project naming interpretation; not an MOE quotation or measured child trait",
+        "license": "CC0-1.0",
+        "meaning": "按 qū 的独立副词义，取周全、尽心尽力之意。",
+        "projectWish": "项目创作：愿用心对待所做之事。",
+        "reason": "锚点是本字qū条的周全、盡心盡力，不是qǔ的乐曲义，也不是从完整词语拆出的释义。",
+        "limits": [
+          "副词用法不能直接改成人格测定；须另审姓名中的取意方式。",
+          "不鼓励委曲求全，不采用不正、偏邪等其他义项。",
+          "不借麯的酿造义或qǔ读音的音乐义补证。"
+        ]
+      },
+      "usageReviewRequired": true,
+      "notWholeWordDerived": true,
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "scope": "per-character-project-explanation-only",
+      "wholeNameAssessment": "not-assessed",
+      "wholeNameMeaning": null,
+      "automaticNameRecommendation": false
+    },
+    {
+      "caseId": "single-meaning-m393:茹:122971:0:5",
+      "char": "茹",
+      "selectedPinyin": "rú",
+      "tone": 2,
+      "baselineCharacter": {
+        "char": "茹",
+        "pinyin": "rú",
+        "tone": 2,
+        "meaning": "吃、咀嚼、吞咽。；受、含。；揣測、度量。",
+        "traditional": "茹",
+        "strokes": 9,
+        "radical": "艸",
+        "elements": [
+          "木"
+        ],
+        "elementBasis": "字形／字义意象参考 v1（项目自编标签，非唯一汉字五行定论；不得当作康熙笔画五行）",
+        "tags": [
+          "常用命名字候选"
+        ],
+        "warning": "多音字：本方案采用 rú，请按姓名用法确认；各读音义项分别保存。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "rú",
+            "tone": 2,
+            "meanings": [
+              "吃、咀嚼、吞咽。",
+              "受、含。",
+              "揣測、度量。",
+              "柔軟、軟弱。",
+              "腐敗、臭敗的。",
+              "蔬菜的總稱。",
+              "姓。如清代有茹棻。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "茹"
+          },
+          {
+            "pinyin": "rù",
+            "tone": 4,
+            "meanings": [
+              "吃、咀嚼、吞咽。",
+              "受、含。",
+              "揣測、度量。",
+              "柔軟、軟弱。",
+              "腐敗、臭敗的。",
+              "蔬菜的總稱。",
+              "姓。如清代有茹棻。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "茹"
+          }
+        ],
+        "polyphonic": true,
+        "variants": [
+          "茹"
+        ]
+      },
+      "baselineCharacterSha256": "2aceb93504d21dd1fd42ddc0759a822e29082d2ced505a6794401ed1361a5926",
+      "prior": {
+        "status": "pending",
+        "namingMeaning": null,
+        "automaticMeaningAllowed": false,
+        "sourceReview": {
+          "pendingIndex": 259,
+          "char": "茹",
+          "status": "pending",
+          "namingMeaning": null,
+          "projectWish": null,
+          "useKind": "none",
+          "scope": "默认rú有吃、含受、柔软软弱及腐败臭败义；蔬菜统称亦不直接表仁柔。",
+          "reason": "未提供可固定蔬菜或含受义的组合，不能借近形字或名字习惯写成温婉贤淑。",
+          "binding": {
+            "char": "茹",
+            "pinyin": "rú",
+            "tone": 2,
+            "sourceId": "moe-revised",
+            "dictionaryWord": "茹",
+            "rawEntryIndex": 122971,
+            "rawHeteronymIndex": 0,
+            "rawDefinitionIndex": 3,
+            "dictionarySense": "柔軟、軟弱。"
+          },
+          "warnings": [
+            "negative-sense-coexists",
+            "whole-name-context-required"
+          ],
+          "licensing": {
+            "dictionary": "CC-BY-ND-3.0-TW;verbatim source definition",
+            "editorial": "CC0-1.0;project review and wishes only"
+          },
+          "automaticMeaningAllowed": false,
+          "applicability": {
+            "mode": "not-approved",
+            "allowedNames": [],
+            "reason": "原审待定：柔弱臭败等义与植物用途尚未消歧。"
+          }
+        },
+        "sourceReviewSha256": "867c221cbe06b72be533b7a2c251f1f189ac833b82b63337bb05a18e7d24dc5a"
+      },
+      "glyph": {
+        "kind": "exact-source-glyph",
+        "character": "茹",
+        "dictionaryWord": "茹",
+        "proof": []
+      },
+      "original": {
+        "sourceId": "moe-revised",
+        "word": "茹",
+        "rawEntryIndex": 122971,
+        "rawHeteronymIndex": 0,
+        "rawDefinitionIndex": 5,
+        "rawFile": "data/raw/moe-revised.json.gz",
+        "rawSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "pinyin": "rú",
+        "definition": {
+          "def": "蔬菜的總稱。",
+          "quote": [
+            "《文選．枚乘．七發》：「秋黃之蘇，白露之茹。」",
+            "《後漢書．卷六六． 陳蕃傳》：「又青、徐炎旱，五穀損傷，民物流遷，茹菽不足。」"
+          ],
+          "type": "名"
+        },
+        "completeOriginalEntry": {
+          "heteronyms": [
+            {
+              "bopomofo": "ㄖㄨˊ",
+              "definitions": [
+                {
+                  "def": "吃、咀嚼、吞咽。",
+                  "quote": [
+                    "《孟子．盡心下》：「舜之飯糗茹草也，若將終身焉。」",
+                    "《禮記．禮運》：「未有火化，食草木之實，鳥獸之肉，飲其血，茹其毛。」"
+                  ],
+                  "type": "動"
+                },
+                {
+                  "def": "受、含。",
+                  "example": [
+                    "如：「含辛茹苦」。"
+                  ],
+                  "quote": [
+                    "《詩經．大雅．烝民》：「柔亦不茹，剛亦不吐。」",
+                    "北齊．顏之推《顏氏家訓．文章》：「銜酷茹恨，徹於心髓。」"
+                  ],
+                  "type": "動"
+                },
+                {
+                  "def": "揣測、度量。",
+                  "quote": [
+                    "《詩經．邶風．柏舟》：「我心匪鑒，不可以茹。」"
+                  ],
+                  "type": "動"
+                },
+                {
+                  "def": "柔軟、軟弱。",
+                  "quote": [
+                    "《楚辭．屈原．離騷》：「攬茹蕙以掩涕兮，霑余襟之浪浪。」",
+                    "《韓非子．亡徵》：「緩心而無成，柔茹而寡斷，好惡無決，而無所定立者，可亡也。」"
+                  ],
+                  "type": "形"
+                },
+                {
+                  "def": "腐敗、臭敗的。",
+                  "quote": [
+                    "《呂氏春秋．仲春紀．功名》：「以茹魚去蠅，蠅愈至。」"
+                  ],
+                  "type": "形"
+                },
+                {
+                  "def": "蔬菜的總稱。",
+                  "quote": [
+                    "《文選．枚乘．七發》：「秋黃之蘇，白露之茹。」",
+                    "《後漢書．卷六六． 陳蕃傳》：「又青、徐炎旱，五穀損傷，民物流遷，茹菽不足。」"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "姓。如清代有茹棻。",
+                  "type": "名"
+                }
+              ],
+              "pinyin": "rú"
+            },
+            {
+              "bopomofo": "（又音）ㄖㄨˋ",
+              "definitions": [
+                {
+                  "def": "(一)之又音。"
+                }
+              ],
+              "pinyin": "（又音）rù"
+            }
+          ],
+          "non_radical_stroke_count": 6,
+          "radical": "艸",
+          "stroke_count": 10,
+          "title": "茹"
+        },
+        "parsedEntrySha256": "8746a3ae7fce3ee15ede8b23682806772304d8a96c452ab026ea3ebad28119cb",
+        "parsedHashConvention": "sha256(JSON.stringify(parsed complete original entry));not raw byte range",
+        "license": "CC-BY-ND-3.0-TW"
+      },
+      "editorial": {
+        "attribution": "Project naming interpretation; not an MOE quotation or measured child trait",
+        "license": "CC0-1.0",
+        "meaning": "取蔬菜、草蔬的日常植物意象。",
+        "projectWish": "项目创作：愿珍惜日常饮食与劳作的成果。",
+        "reason": "直接采用蔬菜的總稱这一名词义，不借含辛茹苦等整词说明忍耐品格。",
+        "limits": [
+          "不把茹直接解释为温柔、聪慧或善于忍耐。",
+          "不从草字头或植物意象自动推定五行木。",
+          "吃、含、软弱、腐败等别义不在本条采用；不作饮食身份要求。"
+        ]
+      },
+      "usageReviewRequired": false,
+      "notWholeWordDerived": true,
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "scope": "per-character-project-explanation-only",
+      "wholeNameAssessment": "not-assessed",
+      "wholeNameMeaning": null,
+      "automaticNameRecommendation": false
+    },
+    {
+      "caseId": "single-meaning-m393:莘:123393:0:1",
+      "char": "莘",
+      "selectedPinyin": "shēn",
+      "tone": 1,
+      "baselineCharacter": {
+        "char": "莘",
+        "pinyin": "shēn",
+        "tone": 1,
+        "meaning": "長的樣子。；眾多。；姓。如宋代有莘融。",
+        "traditional": "莘",
+        "strokes": 10,
+        "radical": "艸",
+        "elements": [
+          "木"
+        ],
+        "elementBasis": "字形／字义意象参考 v1（项目自编标签，非唯一汉字五行定论；不得当作康熙笔画五行）",
+        "tags": [
+          "常用命名字候选"
+        ],
+        "warning": "多音字：本方案采用 shēn，请按姓名用法确认；各读音义项分别保存。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "shēn",
+            "tone": 1,
+            "meanings": [
+              "長的樣子。",
+              "眾多。",
+              "姓。如宋代有莘融。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "莘"
+          },
+          {
+            "pinyin": "xīn",
+            "tone": 1,
+            "meanings": [
+              "長的樣子。",
+              "眾多。",
+              "姓。如宋代有莘融。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "莘"
+          }
+        ],
+        "polyphonic": true,
+        "variants": [
+          "莘"
+        ]
+      },
+      "baselineCharacterSha256": "aaf66eaa44f4d00b74536d21b3b5db45f3746ce00672fc286e6f79c3af288f51",
+      "prior": {
+        "status": "pending",
+        "namingMeaning": null,
+        "automaticMeaningAllowed": false,
+        "sourceReview": {
+          "pendingIndex": 271,
+          "char": "莘",
+          "status": "pending",
+          "namingMeaning": null,
+          "projectWish": null,
+          "useKind": "none",
+          "scope": "默认shēn有长的样子、众多及姓氏义；单用未说明众多何物，不取xīn又音，不直接补成学子才学。",
+          "reason": "缺所描述对象及全名语境，众多本身不足确立具体命名期许。",
+          "binding": {
+            "char": "莘",
+            "pinyin": "shēn",
+            "tone": 1,
+            "sourceId": "moe-revised",
+            "dictionaryWord": "莘",
+            "rawEntryIndex": 123393,
+            "rawHeteronymIndex": 0,
+            "rawDefinitionIndex": 1,
+            "dictionarySense": "眾多。"
+          },
+          "warnings": [
+            "composition-required",
+            "polyphonic-default-only"
+          ],
+          "licensing": {
+            "dictionary": "CC-BY-ND-3.0-TW;verbatim source definition",
+            "editorial": "CC0-1.0;project review and wishes only"
+          },
+          "automaticMeaningAllowed": false,
+          "applicability": {
+            "mode": "not-approved",
+            "allowedNames": [],
+            "reason": "原审待定：众多义缺具体对象与姓名语境。"
+          }
+        },
+        "sourceReviewSha256": "2db6dfccbcaa21311fe4c418c13a2d70617b49b75b3e71a9b6dd086dc74c46f1"
+      },
+      "glyph": {
+        "kind": "exact-source-glyph",
+        "character": "莘",
+        "dictionaryWord": "莘",
+        "proof": []
+      },
+      "original": {
+        "sourceId": "moe-revised",
+        "word": "莘",
+        "rawEntryIndex": 123393,
+        "rawHeteronymIndex": 0,
+        "rawDefinitionIndex": 1,
+        "rawFile": "data/raw/moe-revised.json.gz",
+        "rawSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "pinyin": "shēn",
+        "definition": {
+          "def": "眾多。",
+          "example": [
+            "如：「莘莘學子」。"
+          ],
+          "type": "形"
+        },
+        "completeOriginalEntry": {
+          "heteronyms": [
+            {
+              "bopomofo": "ㄕㄣ",
+              "definitions": [
+                {
+                  "def": "長的樣子。",
+                  "quote": [
+                    "《詩經．小雅．魚藻》：「魚在在藻，有莘其尾。」"
+                  ],
+                  "type": "形"
+                },
+                {
+                  "def": "眾多。",
+                  "example": [
+                    "如：「莘莘學子」。"
+                  ],
+                  "type": "形"
+                },
+                {
+                  "def": "姓。如宋代有莘融。",
+                  "type": "名"
+                }
+              ],
+              "pinyin": "shēn"
+            },
+            {
+              "bopomofo": "（又音）ㄒㄧㄣ",
+              "definitions": [
+                {
+                  "def": "(一)之又音。"
+                }
+              ],
+              "pinyin": "（又音）xīn"
+            }
+          ],
+          "non_radical_stroke_count": 7,
+          "radical": "艸",
+          "stroke_count": 11,
+          "title": "莘"
+        },
+        "parsedEntrySha256": "651513808ff0ee803b8e975eb71122611d3ed240a60709e9fe40de55975b7143",
+        "parsedHashConvention": "sha256(JSON.stringify(parsed complete original entry));not raw byte range",
+        "license": "CC-BY-ND-3.0-TW"
+      },
+      "editorial": {
+        "attribution": "Project naming interpretation; not an MOE quotation or measured child trait",
+        "license": "CC0-1.0",
+        "meaning": "按 shēn，取众多的意象。",
+        "projectWish": "项目创作：愿珍惜与同伴共同学习的机会。",
+        "reason": "原条有独立眾多义，不以莘莘学子这一整词授予单字学问或成绩之义。",
+        "limits": [
+          "本条只对应shēn，不改用xīn等其他读音。",
+          "众多意象不代表人缘、学业表现或团队能力测定。",
+          "项目学习期许与辞书原定义分开，不作自动名字推荐。"
+        ]
+      },
+      "usageReviewRequired": false,
+      "notWholeWordDerived": true,
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "scope": "per-character-project-explanation-only",
+      "wholeNameAssessment": "not-assessed",
+      "wholeNameMeaning": null,
+      "automaticNameRecommendation": false
+    },
+    {
+      "caseId": "single-meaning-m393:宛:42538:0:0",
+      "char": "宛",
+      "selectedPinyin": "wǎn",
+      "tone": 3,
+      "baselineCharacter": {
+        "char": "宛",
+        "pinyin": "wǎn",
+        "tone": 3,
+        "meaning": "曲折的。；彎、折。；彷彿、好像。",
+        "traditional": "宛",
+        "strokes": 8,
+        "radical": "宀",
+        "elements": [
+          "土"
+        ],
+        "elementBasis": "字形／字义意象参考 v1（项目自编标签，非唯一汉字五行定论；不得当作康熙笔画五行）",
+        "tags": [
+          "美德"
+        ],
+        "warning": "多音字：本方案采用 wǎn，请按姓名用法确认；各读音义项分别保存。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "wǎn",
+            "tone": 3,
+            "meanings": [
+              "曲折的。",
+              "彎、折。",
+              "彷彿、好像。",
+              "姓。如明代有宛嘉祥。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "宛"
+          },
+          {
+            "pinyin": "yuān",
+            "tone": 1,
+            "meanings": [
+              "參見「大宛」條。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "宛"
+          }
+        ],
+        "polyphonic": true,
+        "variants": [
+          "宛"
+        ]
+      },
+      "baselineCharacterSha256": "5e5730951b82347b367928a3861b24ae4b422b759a5c544f6f0f8e6f7fafd024",
+      "prior": {
+        "status": "pending",
+        "namingMeaning": null,
+        "automaticMeaningAllowed": false,
+        "sourceReview": {
+          "pendingIndex": 322,
+          "char": "宛",
+          "status": "pending",
+          "namingMeaning": null,
+          "projectWish": null,
+          "useKind": "none",
+          "scope": "默认wǎn为曲折、弯折、仿佛，并非婉转温柔；单用无明确温婉人格义。",
+          "reason": "缺具体曲折景物或句式组合，不能借近形婉字补成柔美娴静。",
+          "binding": {
+            "char": "宛",
+            "pinyin": "wǎn",
+            "tone": 3,
+            "sourceId": "moe-revised",
+            "dictionaryWord": "宛",
+            "rawEntryIndex": 42538,
+            "rawHeteronymIndex": 0,
+            "rawDefinitionIndex": 0,
+            "dictionarySense": "曲折的。"
+          },
+          "warnings": [
+            "no-near-form-transfer",
+            "composition-required"
+          ],
+          "licensing": {
+            "dictionary": "CC-BY-ND-3.0-TW;verbatim source definition",
+            "editorial": "CC0-1.0;project review and wishes only"
+          },
+          "automaticMeaningAllowed": false,
+          "applicability": {
+            "mode": "not-approved",
+            "allowedNames": [],
+            "reason": "原审待定：曲折仿佛缺组合，不借婉字温柔义。"
+          }
+        },
+        "sourceReviewSha256": "36c1ef124cd4871640f1d8cda78fea477b7a8c1c5fe99d7455d52a89e129cffb"
+      },
+      "glyph": {
+        "kind": "exact-source-glyph",
+        "character": "宛",
+        "dictionaryWord": "宛",
+        "proof": []
+      },
+      "original": {
+        "sourceId": "moe-revised",
+        "word": "宛",
+        "rawEntryIndex": 42538,
+        "rawHeteronymIndex": 0,
+        "rawDefinitionIndex": 0,
+        "rawFile": "data/raw/moe-revised.json.gz",
+        "rawSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "pinyin": "wǎn",
+        "definition": {
+          "def": "曲折的。",
+          "quote": [
+            "《史記．卷一一七．司馬相如傳》：「奔星更於閏闥，宛虹拖於楯軒。」",
+            "唐．杜牧〈長安送友人遊湖南〉詩：「楚南饒風煙，湘岸苦縈宛。」"
+          ],
+          "type": "形"
+        },
+        "completeOriginalEntry": {
+          "heteronyms": [
+            {
+              "bopomofo": "ㄨㄢˇ",
+              "definitions": [
+                {
+                  "def": "曲折的。",
+                  "quote": [
+                    "《史記．卷一一七．司馬相如傳》：「奔星更於閏闥，宛虹拖於楯軒。」",
+                    "唐．杜牧〈長安送友人遊湖南〉詩：「楚南饒風煙，湘岸苦縈宛。」"
+                  ],
+                  "type": "形"
+                },
+                {
+                  "def": "彎、折。",
+                  "quote": [
+                    "《漢書．卷八七．揚雄傳下》：「是以欲談者，宛舌而固聲。」"
+                  ],
+                  "type": "動"
+                },
+                {
+                  "def": "彷彿、好像。",
+                  "example": [
+                    "如：「音容宛在」。"
+                  ],
+                  "quote": [
+                    "《詩經．秦風．蒹葭》：「溯遊從之，宛在水中坻。」",
+                    "宋．陸游〈舟中〉詩：「悠然滄洲趣，宛與塵世隔。」"
+                  ],
+                  "type": "副"
+                },
+                {
+                  "def": "姓。如明代有宛嘉祥。",
+                  "type": "名"
+                }
+              ],
+              "pinyin": "wǎn"
+            },
+            {
+              "bopomofo": "ㄩㄢ",
+              "definitions": [
+                {
+                  "def": "參見「大宛」條。"
+                }
+              ],
+              "pinyin": "yuān"
+            }
+          ],
+          "non_radical_stroke_count": 5,
+          "radical": "宀",
+          "stroke_count": 8,
+          "title": "宛"
+        },
+        "parsedEntrySha256": "aa44dfae17aa5bfb964544e6fb4ab8faeb4786266d52561b6022bef29d57db79",
+        "parsedHashConvention": "sha256(JSON.stringify(parsed complete original entry));not raw byte range",
+        "license": "CC-BY-ND-3.0-TW"
+      },
+      "editorial": {
+        "attribution": "Project naming interpretation; not an MOE quotation or measured child trait",
+        "license": "CC0-1.0",
+        "meaning": "取线条曲折、回转的形态意象。",
+        "projectWish": "项目创作：愿细看景物形态的变化。",
+        "reason": "所选为曲折的这一形容词义，只说明形态；不把婉字的取意嫁接到宛。",
+        "limits": [
+          "形态曲折不预测人生经历、吉凶或所谓坎坷。",
+          "不把本义改写为温柔、婉约等性格属性。",
+          "本条限定wǎn；姓氏或地名的其他读法须独立核对。"
+        ]
+      },
+      "usageReviewRequired": false,
+      "notWholeWordDerived": true,
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "scope": "per-character-project-explanation-only",
+      "wholeNameAssessment": "not-assessed",
+      "wholeNameMeaning": null,
+      "automaticNameRecommendation": false
+    },
+    {
+      "caseId": "single-meaning-m393:伍:10146:0:0",
+      "char": "伍",
+      "selectedPinyin": "wǔ",
+      "tone": 3,
+      "baselineCharacter": {
+        "char": "伍",
+        "pinyin": "wǔ",
+        "tone": 3,
+        "meaning": "古代軍隊的編制單位，以五人為一伍。；軍隊。；古代基層的戶政編制單位，以五家為一伍。",
+        "traditional": "伍",
+        "strokes": 6,
+        "radical": "人",
+        "elements": [],
+        "elementBasis": "五行属性待起名师指定；不从普通笔画数推定五行",
+        "tags": [
+          "常用命名字候选"
+        ],
+        "warning": "本表按字典中文义项与 Unicode 字形字段核对；仍需结合全名检查谐音。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "wǔ",
+            "tone": 3,
+            "meanings": [
+              "古代軍隊的編制單位，以五人為一伍。",
+              "軍隊。",
+              "古代基層的戶政編制單位，以五家為一伍。",
+              "五的大寫。",
+              "姓。如春秋時楚國有伍子胥。",
+              "雜處、參雜。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "伍"
+          }
+        ],
+        "polyphonic": false,
+        "variants": [
+          "伍"
+        ]
+      },
+      "baselineCharacterSha256": "320eaca7afadff6ee8737ce9d1531e2e2509afca8926ddbe719b8a0c061b1509",
+      "prior": {
+        "status": "pending",
+        "namingMeaning": null,
+        "automaticMeaningAllowed": false,
+        "sourceReview": {
+          "pendingIndex": 344,
+          "char": "伍",
+          "status": "pending",
+          "namingMeaning": null,
+          "projectWish": null,
+          "useKind": "none",
+          "scope": "本字主要为五人军伍、五家户政单位及数字五的大写；无独立伙伴、团结释义。",
+          "reason": "若拟作军旅或数目纪念，须另给具体文化语境，不能凭编制补团结美德。",
+          "binding": {
+            "char": "伍",
+            "pinyin": "wǔ",
+            "tone": 3,
+            "sourceId": "moe-revised",
+            "dictionaryWord": "伍",
+            "rawEntryIndex": 10146,
+            "rawHeteronymIndex": 0,
+            "rawDefinitionIndex": 0,
+            "dictionarySense": "古代軍隊的編制單位，以五人為一伍。"
+          },
+          "warnings": [
+            "军旅或纪念数字条件待补。"
+          ],
+          "licensing": {
+            "dictionary": "CC-BY-ND-3.0-TW;verbatim source definition",
+            "editorial": "CC0-1.0;project review and wishes only"
+          },
+          "automaticMeaningAllowed": false,
+          "applicability": {
+            "mode": "not-approved",
+            "allowedNames": [],
+            "reason": "原审pending；军旅或数字纪念条件未指定。"
+          }
+        },
+        "sourceReviewSha256": "9a3d38a61fbdd659affeb43f1c4de098443fe3baa6e35ea11ecfa29b45939ffe"
+      },
+      "glyph": {
+        "kind": "exact-source-glyph",
+        "character": "伍",
+        "dictionaryWord": "伍",
+        "proof": []
+      },
+      "original": {
+        "sourceId": "moe-revised",
+        "word": "伍",
+        "rawEntryIndex": 10146,
+        "rawHeteronymIndex": 0,
+        "rawDefinitionIndex": 0,
+        "rawFile": "data/raw/moe-revised.json.gz",
+        "rawSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "pinyin": "wǔ",
+        "definition": {
+          "def": "古代軍隊的編制單位，以五人為一伍。",
+          "quote": [
+            "明．張自烈《正字通．人部》：「伍，軍法五人為伍。」",
+            "《周禮．天官．宮正》：「會其什伍而教之道藝。」"
+          ],
+          "type": "名"
+        },
+        "completeOriginalEntry": {
+          "heteronyms": [
+            {
+              "bopomofo": "ㄨˇ",
+              "definitions": [
+                {
+                  "def": "古代軍隊的編制單位，以五人為一伍。",
+                  "quote": [
+                    "明．張自烈《正字通．人部》：「伍，軍法五人為伍。」",
+                    "《周禮．天官．宮正》：「會其什伍而教之道藝。」"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "軍隊。",
+                  "example": [
+                    "如：「入伍」。"
+                  ],
+                  "quote": [
+                    "唐．杜牧〈原十六衛〉：「籍藏將府，伍散田畝。」"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "古代基層的戶政編制單位，以五家為一伍。",
+                  "quote": [
+                    "《左傳．襄公三十年》：「田有封洫，廬井有伍。」",
+                    "《管子．乘馬》：「五家而伍，十家而連。」"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "五的大寫。",
+                  "type": "名"
+                },
+                {
+                  "def": "姓。如春秋時楚國有伍子胥。",
+                  "type": "名"
+                },
+                {
+                  "def": "雜處、參雜。",
+                  "quote": [
+                    "《荀子．議兵》：「窺敵觀變，欲潛以深，欲伍以參。」",
+                    "唐．楊倞．注：「伍參，猶錯雜也。」"
+                  ],
+                  "type": "動"
+                }
+              ],
+              "pinyin": "wǔ"
+            }
+          ],
+          "non_radical_stroke_count": 4,
+          "radical": "人",
+          "stroke_count": 6,
+          "title": "伍"
+        },
+        "parsedEntrySha256": "1ae6bfd5f2fcff3a1094ad58b9dc37ea8c7e71517f7147887f1a4c72e6c4c909",
+        "parsedHashConvention": "sha256(JSON.stringify(parsed complete original entry));not raw byte range",
+        "license": "CC-BY-ND-3.0-TW"
+      },
+      "editorial": {
+        "attribution": "Project naming interpretation; not an MOE quotation or measured child trait",
+        "license": "CC0-1.0",
+        "meaning": "取五人为一伍的群体编组意象。",
+        "projectWish": "项目创作：愿在合作中理解分工与照应。",
+        "reason": "保留古代军队编制的原语境，项目只借编组与相互照应的联想。",
+        "limits": [
+          "古军制意象不推定孩子适合军人职业或具有团队领导力。",
+          "不据此判定出生排行，也不套用艺名或行伍等整词。",
+          "本条只是单字说明，不是军事价值取向或整名采用结论。"
+        ]
+      },
+      "usageReviewRequired": false,
+      "notWholeWordDerived": true,
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "scope": "per-character-project-explanation-only",
+      "wholeNameAssessment": "not-assessed",
+      "wholeNameMeaning": null,
+      "automaticNameRecommendation": false
+    },
+    {
+      "caseId": "single-meaning-m393:向:30700:0:0",
+      "char": "向",
+      "selectedPinyin": "xiàng",
+      "tone": 4,
+      "baselineCharacter": {
+        "char": "向",
+        "pinyin": "xiàng",
+        "tone": 4,
+        "meaning": "面對。；傾向。；引導。",
+        "traditional": "嚮",
+        "strokes": 6,
+        "radical": "口",
+        "elements": [],
+        "elementBasis": "五行属性待起名师指定；不从普通笔画数推定五行",
+        "tags": [
+          "常用命名字候选"
+        ],
+        "warning": "繁体对应“嚮”，简繁与异体须按户籍用字确认。 Unicode 记有多个简繁对应：向、嚮、曏，请按实际字义确认。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "xiàng",
+            "tone": 4,
+            "meanings": [
+              "面對。",
+              "傾向。",
+              "引導。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "嚮"
+          }
+        ],
+        "polyphonic": false,
+        "variants": [
+          "向",
+          "嚮",
+          "曏"
+        ]
+      },
+      "baselineCharacterSha256": "c0de15e34c6dfaee45a0a82ecde173f37d8b386bc65fe295fa00089bbbb1f788",
+      "prior": {
+        "status": "pending",
+        "namingMeaning": null,
+        "automaticMeaningAllowed": false,
+        "sourceReview": {
+          "pendingIndex": 363,
+          "char": "向",
+          "status": "pending",
+          "namingMeaning": null,
+          "projectWish": null,
+          "useKind": "none",
+          "scope": "pending-dictionary-identity：当前选词嚮，本字向另有自身条。",
+          "reason": "已核嚮xiàng“面對。”及向本字含方位、意志归趋等；不能绕过当前身份而采用向本字志向义。",
+          "binding": {
+            "char": "向",
+            "pinyin": "xiàng",
+            "tone": 4,
+            "sourceId": "moe-revised",
+            "dictionaryWord": "嚮",
+            "rawEntryIndex": 30700,
+            "rawHeteronymIndex": 0,
+            "rawDefinitionIndex": 0,
+            "dictionarySense": "面對。"
+          },
+          "warnings": [
+            "保留嚮绑定供定位，等待来源身份处理。"
+          ],
+          "licensing": {
+            "dictionary": "CC-BY-ND-3.0-TW;verbatim source definition",
+            "editorial": "CC0-1.0;project review and wishes only"
+          },
+          "automaticMeaningAllowed": false,
+          "applicability": {
+            "mode": "not-approved",
+            "allowedNames": [],
+            "reason": "原审待定：嚮与本字向身份未闭合。"
+          }
+        },
+        "sourceReviewSha256": "f9071c9228cb6f68b66189d67ddb42e86708cc9c7ecd8dd53458921eae94632f"
+      },
+      "glyph": {
+        "kind": "unicode-two-way-variant-with-explicit-source-word",
+        "character": "向",
+        "dictionaryWord": "嚮",
+        "proof": [
+          {
+            "originalFile": "data/raw/kTraditionalVariant.txt",
+            "lineNumber": 369,
+            "originalLine": "5411\tU+5411 U+56AE U+66CF",
+            "fileSha256": "4eca6285d45070548e6e6c06e4b48c3ca6866d4380e8cb980c512f5d1fc71895"
+          },
+          {
+            "originalFile": "data/raw/kSimplifiedVariant.txt",
+            "lineNumber": 866,
+            "originalLine": "5411\tU+5411",
+            "fileSha256": "a7f0c9dbbca85cffd90517fa6ea9be97d2e6f811328a59b6b303d58a418ac9be"
+          },
+          {
+            "originalFile": "data/raw/kSimplifiedVariant.txt",
+            "lineNumber": 962,
+            "originalLine": "56AE\tU+5411",
+            "fileSha256": "a7f0c9dbbca85cffd90517fa6ea9be97d2e6f811328a59b6b303d58a418ac9be"
+          }
+        ],
+        "ownDictionaryEntry": {
+          "rawEntryIndex": 27046,
+          "completeOriginalEntry": {
+            "heteronyms": [
+              {
+                "bopomofo": "ㄒㄧㄤˋ",
+                "definitions": [
+                  {
+                    "def": "北面的窗戶。",
+                    "quote": [
+                      "《說文解字．宀部》：「向，北出牖也。」",
+                      "《詩經．豳風．七月》：「穹窒熏鼠，塞向墐戶。」"
+                    ],
+                    "type": "名"
+                  },
+                  {
+                    "def": "方位。",
+                    "example": [
+                      "如：「方向」、「暈頭轉向」。"
+                    ],
+                    "quote": [
+                      "明．徐弘祖《徐霞客遊記．卷四下．黔遊日記》：「南北向皆有脊中亙。」"
+                    ],
+                    "type": "名"
+                  },
+                  {
+                    "def": "意志之歸趨。",
+                    "example": [
+                      "如：「志向」、「意向」。"
+                    ],
+                    "type": "名"
+                  },
+                  {
+                    "def": "國名。周代諸侯國之一。故址約在今大陸地區山東省莒縣南。",
+                    "type": "名"
+                  },
+                  {
+                    "def": "姓。如晉代有向秀。",
+                    "type": "名"
+                  },
+                  {
+                    "def": "對著、朝著。",
+                    "example": [
+                      "如：「向陽」、「相向」。"
+                    ],
+                    "quote": [
+                      "唐．劉長卿〈餞別王十一南遊〉詩：「飛鳥沒何處，青山空向人。」"
+                    ],
+                    "type": "動"
+                  },
+                  {
+                    "def": "崇尚、景仰。",
+                    "example": [
+                      "如：「人心向背」。"
+                    ],
+                    "quote": [
+                      "《史記．卷一二○．汲黯傳》：「上方向儒術，尊公孫弘。」",
+                      "《新唐書．卷一九七．循吏傳．賈敦頤傳》：「咸亨初，敦實為洛州長史，亦寬惠，人心懷向。」"
+                    ],
+                    "type": "動"
+                  },
+                  {
+                    "def": "偏袒、偏愛。",
+                    "example": [
+                      "如：「爸爸總是向著小妹。」"
+                    ],
+                    "type": "動"
+                  },
+                  {
+                    "def": "臨近、接近。",
+                    "example": [
+                      "如：「向晚」。"
+                    ],
+                    "quote": [
+                      "唐．白居易〈東坡種花〉詩二首之二：「東坡春向暮，樹木今何如？」"
+                    ],
+                    "type": "動"
+                  },
+                  {
+                    "def": "昔日、從前。",
+                    "quote": [
+                      "晉．陶淵明〈桃花源記〉：「既出，得其船，便扶向路，處處誌之。」",
+                      "唐．白居易〈琵琶行〉：「淒淒不似向前聲。」"
+                    ],
+                    "type": "形"
+                  },
+                  {
+                    "def": "一直以來、從來。",
+                    "example": [
+                      "如：「向來」、「向有研究」。"
+                    ],
+                    "quote": [
+                      "《三國演義．第一四回》：「臣向蒙國恩，刻思圖報。」"
+                    ],
+                    "type": "副"
+                  },
+                  {
+                    "def": "方才、剛才。",
+                    "quote": [
+                      "《金史．卷八五．世宗諸子傳．永功傳》：「向見年少婦人自水邊小徑去矣。」"
+                    ],
+                    "type": "副"
+                  },
+                  {
+                    "def": "表動作的方向、對象。",
+                    "example": [
+                      "如：「向前看」、「向人請教」。"
+                    ],
+                    "type": "介"
+                  }
+                ],
+                "pinyin": "xiàng"
+              }
+            ],
+            "non_radical_stroke_count": 3,
+            "radical": "口",
+            "stroke_count": 6,
+            "title": "向"
+          },
+          "entrySha256": "212dbbc6c5578faea615780339f6f92ba5c93290f2a268afb9e6078ab8cb8b5b"
+        }
+      },
+      "original": {
+        "sourceId": "moe-revised",
+        "word": "嚮",
+        "rawEntryIndex": 30700,
+        "rawHeteronymIndex": 0,
+        "rawDefinitionIndex": 0,
+        "rawFile": "data/raw/moe-revised.json.gz",
+        "rawSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "pinyin": "xiàng",
+        "definition": {
+          "def": "面對。",
+          "link": [
+            "通「向」。"
+          ],
+          "quote": [
+            "唐．柳宗元〈梓人傳〉：「或執斧斤，或執刀鋸，皆環立嚮之。」"
+          ],
+          "type": "動"
+        },
+        "completeOriginalEntry": {
+          "heteronyms": [
+            {
+              "bopomofo": "ㄒㄧㄤˋ",
+              "definitions": [
+                {
+                  "def": "面對。",
+                  "link": [
+                    "通「向」。"
+                  ],
+                  "quote": [
+                    "唐．柳宗元〈梓人傳〉：「或執斧斤，或執刀鋸，皆環立嚮之。」"
+                  ],
+                  "type": "動"
+                },
+                {
+                  "def": "傾向。",
+                  "quote": [
+                    "《史記．卷四七．孔子世家》：「雖不能至，然心嚮往之。」"
+                  ],
+                  "type": "動"
+                },
+                {
+                  "def": "引導。",
+                  "example": [
+                    "如：「嚮導」。"
+                  ],
+                  "type": "動"
+                }
+              ],
+              "pinyin": "xiàng"
+            }
+          ],
+          "non_radical_stroke_count": 15,
+          "radical": "口",
+          "stroke_count": 18,
+          "title": "嚮"
+        },
+        "parsedEntrySha256": "3c917b500f8adaccc52b986fd4a44969014a42b46d4be50c7fe07f898a5445ef",
+        "parsedHashConvention": "sha256(JSON.stringify(parsed complete original entry));not raw byte range",
+        "license": "CC-BY-ND-3.0-TW"
+      },
+      "editorial": {
+        "attribution": "Project naming interpretation; not an MOE quotation or measured child trait",
+        "license": "CC0-1.0",
+        "meaning": "按当前 xiàng／嚮 词条，取面对、朝向的动作意象。",
+        "projectWish": "项目创作：愿认真面对眼前之事。",
+        "reason": "继续当前字库读音绑定的嚮条面對义；向至嚮的字形依据单独列出，不换用别的字条。",
+        "limits": [
+          "不将向本字的意志之归趋义或嚮導整词直接并入此锚点。",
+          "不泛推向与曏等其他变体的所有语义相同。",
+          "原词类为动词，不由此测定目标感、勇气或未来发展。"
+        ]
+      },
+      "usageReviewRequired": true,
+      "notWholeWordDerived": true,
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "scope": "per-character-project-explanation-only",
+      "wholeNameAssessment": "not-assessed",
+      "wholeNameMeaning": null,
+      "automaticNameRecommendation": false
+    },
+    {
+      "caseId": "single-meaning-m393:炎:91072:0:0",
+      "char": "炎",
+      "selectedPinyin": "yán",
+      "tone": 2,
+      "baselineCharacter": {
+        "char": "炎",
+        "pinyin": "yán",
+        "tone": 2,
+        "meaning": "火光上升。；焚燒。；得病時發熱、紅腫、疼痛的現象。",
+        "traditional": "炎",
+        "strokes": 8,
+        "radical": "火",
+        "elements": [
+          "火"
+        ],
+        "elementBasis": "字形／字义意象参考 v1（项目自编标签，非唯一汉字五行定论；不得当作康熙笔画五行）",
+        "tags": [
+          "明朗"
+        ],
+        "warning": "本表按字典中文义项与 Unicode 字形字段核对；仍需结合全名检查谐音。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "yán",
+            "tone": 2,
+            "meanings": [
+              "火光上升。",
+              "焚燒。",
+              "得病時發熱、紅腫、疼痛的現象。",
+              "酷熱、極熱。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "炎"
+          }
+        ],
+        "polyphonic": false,
+        "variants": [
+          "炎"
+        ]
+      },
+      "baselineCharacterSha256": "f860ce08b62a8975f4375e7d03e30b5a982ed02b3f35f5622e74781eccbe3f37",
+      "prior": {
+        "status": "pending",
+        "namingMeaning": null,
+        "automaticMeaningAllowed": false,
+        "sourceReview": {
+          "pendingIndex": 394,
+          "char": "炎",
+          "status": "pending",
+          "namingMeaning": null,
+          "projectWish": null,
+          "useKind": "none",
+          "scope": "火光上升为可见物象，但同音本条另有焚烧、炎症及酷热义；单用或普通复名易兼伤病联想。",
+          "reason": "需能明确光焰意象的完整名字与家庭选择，本轮不把火热泛写成热情开朗。",
+          "binding": {
+            "char": "炎",
+            "pinyin": "yán",
+            "tone": 2,
+            "sourceId": "moe-revised",
+            "dictionaryWord": "炎",
+            "rawEntryIndex": 91072,
+            "rawHeteronymIndex": 0,
+            "rawDefinitionIndex": 0,
+            "dictionarySense": "火光上升。"
+          },
+          "warnings": [
+            "negative-sense-coexists",
+            "whole-name-context-required"
+          ],
+          "licensing": {
+            "dictionary": "CC-BY-ND-3.0-TW;verbatim source definition",
+            "editorial": "CC0-1.0;project review and wishes only"
+          },
+          "automaticMeaningAllowed": false,
+          "applicability": {
+            "mode": "not-approved",
+            "allowedNames": [],
+            "reason": "原审待定：光焰与伤病酷热语境未消歧。"
+          }
+        },
+        "sourceReviewSha256": "e03ffa8cd7ab4807fdc03c51c152322c02901f92b406516cd68c87664386518a"
+      },
+      "glyph": {
+        "kind": "exact-source-glyph",
+        "character": "炎",
+        "dictionaryWord": "炎",
+        "proof": []
+      },
+      "original": {
+        "sourceId": "moe-revised",
+        "word": "炎",
+        "rawEntryIndex": 91072,
+        "rawHeteronymIndex": 0,
+        "rawDefinitionIndex": 0,
+        "rawFile": "data/raw/moe-revised.json.gz",
+        "rawSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "pinyin": "yán",
+        "definition": {
+          "def": "火光上升。",
+          "quote": [
+            "《說文解字．炎部》：「炎，火光上也。」",
+            "《書經．洪範》：「水曰潤下，火曰炎上。」",
+            "孔穎達正義引王肅曰：「火之性，炎盛而升上。」"
+          ],
+          "type": "動"
+        },
+        "completeOriginalEntry": {
+          "heteronyms": [
+            {
+              "bopomofo": "ㄧㄢˊ",
+              "definitions": [
+                {
+                  "def": "火光上升。",
+                  "quote": [
+                    "《說文解字．炎部》：「炎，火光上也。」",
+                    "《書經．洪範》：「水曰潤下，火曰炎上。」",
+                    "孔穎達正義引王肅曰：「火之性，炎盛而升上。」"
+                  ],
+                  "type": "動"
+                },
+                {
+                  "def": "焚燒。",
+                  "quote": [
+                    "《書經．胤征》：「火炎崑岡，玉石俱焚。」"
+                  ],
+                  "type": "動"
+                },
+                {
+                  "def": "得病時發熱、紅腫、疼痛的現象。",
+                  "example": [
+                    "如：「發炎」、「肺炎」、「盲腸炎」。"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "酷熱、極熱。",
+                  "example": [
+                    "如：「炎熱」、「炎夏」。"
+                  ],
+                  "quote": [
+                    "《楚辭．屈原．九章．悲回風》：「觀炎氣之相仍兮，窺煙液之所積。」"
+                  ],
+                  "type": "形"
+                }
+              ],
+              "pinyin": "yán"
+            }
+          ],
+          "non_radical_stroke_count": 4,
+          "radical": "火",
+          "stroke_count": 8,
+          "title": "炎"
+        },
+        "parsedEntrySha256": "de68e9e35994829aa34617d520487c48961fa68535888c54cf14ec010a43df0a",
+        "parsedHashConvention": "sha256(JSON.stringify(parsed complete original entry));not raw byte range",
+        "license": "CC-BY-ND-3.0-TW"
+      },
+      "editorial": {
+        "attribution": "Project naming interpretation; not an MOE quotation or measured child trait",
+        "license": "CC0-1.0",
+        "meaning": "取火光向上升起的自然现象意象。",
+        "projectWish": "项目创作：愿珍惜生活中的光与温暖。",
+        "reason": "原义为火光上升，项目只作物理现象的取意，不改成人格或兴旺断言。",
+        "limits": [
+          "火光现象不等于性格热情，也不保证事业、命运兴旺。",
+          "不据此给字库缺项自动填入五行火。",
+          "疾病发炎、酷热、焚烧等其他义项保留但不在本条采用。"
+        ]
+      },
+      "usageReviewRequired": true,
+      "notWholeWordDerived": true,
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "scope": "per-character-project-explanation-only",
+      "wholeNameAssessment": "not-assessed",
+      "wholeNameMeaning": null,
+      "automaticNameRecommendation": false
+    },
+    {
+      "caseId": "single-meaning-m393:又:24539:0:0",
+      "char": "又",
+      "selectedPinyin": "yòu",
+      "tone": 4,
+      "baselineCharacter": {
+        "char": "又",
+        "pinyin": "yòu",
+        "tone": 4,
+        "meaning": "表示重複或反覆。；表示加強、加重的語氣。有「並」的意思。；表示意思更進一層。",
+        "traditional": "又",
+        "strokes": 2,
+        "radical": "又",
+        "elements": [],
+        "elementBasis": "五行属性待起名师指定；不从普通笔画数推定五行",
+        "tags": [
+          "常用命名字候选"
+        ],
+        "warning": "本表按字典中文义项与 Unicode 字形字段核对；仍需结合全名检查谐音。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "yòu",
+            "tone": 4,
+            "meanings": [
+              "表示重複或反覆。",
+              "表示加強、加重的語氣。有「並」的意思。",
+              "表示意思更進一層。",
+              "表示轉折。相當於「卻」。",
+              "用來連結平列的詞意，表示同時存在。",
+              "表示先後連接的情況或動作。",
+              "表示數目的附加。",
+              "二一四部首之一。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "又"
+          }
+        ],
+        "polyphonic": false,
+        "variants": [
+          "又"
+        ]
+      },
+      "baselineCharacterSha256": "0de7abdca2464e5152077e04e14bc86e90eb107ad256f8b0938f1e2fef1d9be4",
+      "prior": {
+        "status": "pending",
+        "namingMeaning": null,
+        "automaticMeaningAllowed": false,
+        "sourceReview": {
+          "pendingIndex": 448,
+          "char": "又",
+          "status": "pending",
+          "namingMeaning": null,
+          "projectWish": null,
+          "useKind": "none",
+          "scope": "主要表示重复、加强、递进、转折或连接的虚词，另为部首；单字无稳定的正向人格义。",
+          "reason": "缺完整连接结构及所重复的行动，不能据又自动写出再创辉煌或坚毅。",
+          "binding": {
+            "char": "又",
+            "pinyin": "yòu",
+            "tone": 4,
+            "sourceId": "moe-revised",
+            "dictionaryWord": "又",
+            "rawEntryIndex": 24539,
+            "rawHeteronymIndex": 0,
+            "rawDefinitionIndex": 0,
+            "dictionarySense": "表示重複或反覆。"
+          },
+          "warnings": [
+            "function-word",
+            "composition-required"
+          ],
+          "licensing": {
+            "dictionary": "CC-BY-ND-3.0-TW;verbatim source definition",
+            "editorial": "CC0-1.0;project review and wishes only"
+          },
+          "automaticMeaningAllowed": false,
+          "applicability": {
+            "mode": "not-approved",
+            "allowedNames": [],
+            "reason": "原审待定：连接重复等虚词缺完整结构。"
+          }
+        },
+        "sourceReviewSha256": "8e6b1cf23f341c030da0346448b0bc841fc76dd06b32fad60a12fafbf35e289a"
+      },
+      "glyph": {
+        "kind": "exact-source-glyph",
+        "character": "又",
+        "dictionaryWord": "又",
+        "proof": []
+      },
+      "original": {
+        "sourceId": "moe-revised",
+        "word": "又",
+        "rawEntryIndex": 24539,
+        "rawHeteronymIndex": 0,
+        "rawDefinitionIndex": 0,
+        "rawFile": "data/raw/moe-revised.json.gz",
+        "rawSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "pinyin": "yòu",
+        "definition": {
+          "def": "表示重複或反覆。",
+          "example": [
+            "如：「一天又一天」、「看了又看」。"
+          ],
+          "quote": [
+            "唐．白居易〈賦得古原草送別〉詩：「野火燒不盡，春風吹又生。」"
+          ],
+          "type": "副"
+        },
+        "completeOriginalEntry": {
+          "heteronyms": [
+            {
+              "bopomofo": "ㄧㄡˋ",
+              "definitions": [
+                {
+                  "def": "表示重複或反覆。",
+                  "example": [
+                    "如：「一天又一天」、「看了又看」。"
+                  ],
+                  "quote": [
+                    "唐．白居易〈賦得古原草送別〉詩：「野火燒不盡，春風吹又生。」"
+                  ],
+                  "type": "副"
+                },
+                {
+                  "def": "表示加強、加重的語氣。有「並」的意思。",
+                  "example": [
+                    "如：「你又不是三歲小孩子，怎麼不懂這個？」"
+                  ],
+                  "quote": [
+                    "《史記．卷一二四．游俠傳．序》：「要以功見言信，俠客之義又曷可少哉？」"
+                  ],
+                  "type": "副"
+                },
+                {
+                  "def": "表示意思更進一層。",
+                  "example": [
+                    "如：「他的病又加重了。」"
+                  ],
+                  "type": "副"
+                },
+                {
+                  "def": "表示轉折。相當於「卻」。",
+                  "quote": [
+                    "《墨子．節葬下》：「欲以干上帝鬼神之福，又得禍焉。」"
+                  ],
+                  "type": "副"
+                },
+                {
+                  "def": "用來連結平列的詞意，表示同時存在。",
+                  "example": [
+                    "如：「做得又快又好。」、「他又唱又跳。」"
+                  ],
+                  "quote": [
+                    "《詩經．豳風．破斧》：「既破我斧，又缺我斨。」",
+                    "南朝齊．陸厥〈與沈約書〉：「辭既美矣，理又善焉。」"
+                  ],
+                  "type": "連"
+                },
+                {
+                  "def": "表示先後連接的情況或動作。",
+                  "example": [
+                    "如：「剛吃完飯又看起書來。」"
+                  ],
+                  "type": "連"
+                },
+                {
+                  "def": "表示數目的附加。",
+                  "example": [
+                    "如：「一又二分之一。」"
+                  ],
+                  "type": "連"
+                },
+                {
+                  "def": "二一四部首之一。",
+                  "type": "名"
+                }
+              ],
+              "pinyin": "yòu"
+            }
+          ],
+          "non_radical_stroke_count": 0,
+          "radical": "又",
+          "stroke_count": 2,
+          "title": "又"
+        },
+        "parsedEntrySha256": "8275eda2787d4a7c37cde49bd8c8be42233ef5c48049762fbf98a9992a43d8a6",
+        "parsedHashConvention": "sha256(JSON.stringify(parsed complete original entry));not raw byte range",
+        "license": "CC-BY-ND-3.0-TW"
+      },
+      "editorial": {
+        "attribution": "Project naming interpretation; not an MOE quotation or measured child trait",
+        "license": "CC0-1.0",
+        "meaning": "取再次发生、重复或反复的语用意象。",
+        "projectWish": "项目创作：愿在日常练习中一步步积累。",
+        "reason": "采用表示重複或反覆的副词义，项目期许另列，不将副词变成人的能力描述。",
+        "limits": [
+          "重复的语义不保证坚持、进步或学习成效。",
+          "不据又字宣称重生、改运等命运结论。",
+          "其他递进、转折、数目附加用法不能自动拼成整名寓意。"
+        ]
+      },
+      "usageReviewRequired": true,
+      "notWholeWordDerived": true,
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "scope": "per-character-project-explanation-only",
+      "wholeNameAssessment": "not-assessed",
+      "wholeNameMeaning": null,
+      "automaticNameRecommendation": false
+    },
+    {
+      "caseId": "single-meaning-m393:余:156763:0:3",
+      "char": "余",
+      "selectedPinyin": "yú",
+      "tone": 2,
+      "baselineCharacter": {
+        "char": "余",
+        "pinyin": "yú",
+        "tone": 2,
+        "meaning": "多出的、剩下的。；殘留的、將盡的。；其他的。",
+        "traditional": "餘",
+        "strokes": 7,
+        "radical": "人",
+        "elements": [],
+        "elementBasis": "五行属性待起名师指定；不从普通笔画数推定五行",
+        "tags": [
+          "常用命名字候选"
+        ],
+        "warning": "繁体对应“餘”，简繁与异体须按户籍用字确认。 Unicode 记有多个简繁对应：余、餘，请按实际字义确认。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "yú",
+            "tone": 2,
+            "meanings": [
+              "多出的、剩下的。",
+              "殘留的、將盡的。",
+              "其他的。",
+              "不盡的、未完的。",
+              "某一事情、情況以外或以後的時間。",
+              "大數目或度量單位等的零數。",
+              "姓。如十六國時後燕有餘蔚。",
+              "以後。",
+              "剩下、遺留。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "餘"
+          }
+        ],
+        "polyphonic": false,
+        "variants": [
+          "余",
+          "餘",
+          "馀"
+        ]
+      },
+      "baselineCharacterSha256": "3dcf343f2271e8084787e5660337b57ed8954100a05013dbbd4a552d54315787",
+      "prior": {
+        "status": "pending",
+        "namingMeaning": null,
+        "automaticMeaningAllowed": false,
+        "sourceReview": {
+          "pendingIndex": 451,
+          "char": "余",
+          "status": "pending",
+          "namingMeaning": null,
+          "projectWish": null,
+          "useKind": "none",
+          "scope": "当前selectedWord为餘，本字余却有我、剩余及姓氏的独立条；暂不把两个原条合并为批准义。",
+          "reason": "pending-dictionary-identity：需确定余与餘在当前项目中的选义策略，不将ownWord的第一人称与餘的剩下混合。",
+          "binding": {
+            "char": "余",
+            "pinyin": "yú",
+            "tone": 2,
+            "sourceId": "moe-revised",
+            "dictionaryWord": "餘",
+            "rawEntryIndex": 156763,
+            "rawHeteronymIndex": 0,
+            "rawDefinitionIndex": 0,
+            "dictionarySense": "多出的、剩下的。"
+          },
+          "warnings": [
+            "pending-dictionary-identity"
+          ],
+          "licensing": {
+            "dictionary": "CC-BY-ND-3.0-TW;verbatim source definition",
+            "editorial": "CC0-1.0;project review and wishes only"
+          },
+          "automaticMeaningAllowed": false,
+          "applicability": {
+            "mode": "not-approved",
+            "allowedNames": [],
+            "reason": "原审待定：余与餘的独立词条取舍未闭合。"
+          }
+        },
+        "sourceReviewSha256": "df60dae2d8815b55542ce1e9f195c248a0731ccb11bed8d3ed2224a06b769d8b"
+      },
+      "glyph": {
+        "kind": "unicode-two-way-variant-with-explicit-source-word",
+        "character": "余",
+        "dictionaryWord": "餘",
+        "proof": [
+          {
+            "originalFile": "data/raw/kTraditionalVariant.txt",
+            "lineNumber": 216,
+            "originalLine": "4F59\tU+4F59 U+9918",
+            "fileSha256": "4eca6285d45070548e6e6c06e4b48c3ca6866d4380e8cb980c512f5d1fc71895"
+          },
+          {
+            "originalFile": "data/raw/kSimplifiedVariant.txt",
+            "lineNumber": 641,
+            "originalLine": "4F59\tU+4F59",
+            "fileSha256": "a7f0c9dbbca85cffd90517fa6ea9be97d2e6f811328a59b6b303d58a418ac9be"
+          },
+          {
+            "originalFile": "data/raw/kSimplifiedVariant.txt",
+            "lineNumber": 4809,
+            "originalLine": "9918\tU+4F59 U+9980",
+            "fileSha256": "a7f0c9dbbca85cffd90517fa6ea9be97d2e6f811328a59b6b303d58a418ac9be"
+          }
+        ],
+        "ownDictionaryEntry": {
+          "rawEntryIndex": 10870,
+          "completeOriginalEntry": {
+            "heteronyms": [
+              {
+                "bopomofo": "ㄩˊ",
+                "definitions": [
+                  {
+                    "def": "我，表第一人稱。",
+                    "quote": [
+                      "《文選．班彪．北征賦》：「余遭世之顛覆兮，罹填塞之阨災。」",
+                      "《文選．陸機．歎逝賦》：「余將老而為客。」"
+                    ],
+                    "type": "代"
+                  },
+                  {
+                    "def": "剩下、多餘。",
+                    "link": [
+                      "同「餘」。"
+                    ],
+                    "quote": [
+                      "《周禮．地官．委人》：「凡其余，聚以待頒賜。」"
+                    ],
+                    "type": "名"
+                  },
+                  {
+                    "def": "姓。如宋代有余靖。",
+                    "type": "名"
+                  }
+                ],
+                "pinyin": "yú"
+              },
+              {
+                "bopomofo": "ㄒㄩˊ",
+                "definitions": [
+                  {
+                    "def": "參見「余余」、「余吾鎮」等條。"
+                  }
+                ],
+                "pinyin": "xú"
+              }
+            ],
+            "non_radical_stroke_count": 5,
+            "radical": "人",
+            "stroke_count": 7,
+            "title": "余"
+          },
+          "entrySha256": "b0c3950f9eaa0fce6dc47a655075fadb6885863d3b995d167d384123c236c8a0"
+        }
+      },
+      "original": {
+        "sourceId": "moe-revised",
+        "word": "餘",
+        "rawEntryIndex": 156763,
+        "rawHeteronymIndex": 0,
+        "rawDefinitionIndex": 3,
+        "rawFile": "data/raw/moe-revised.json.gz",
+        "rawSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "pinyin": "yú",
+        "definition": {
+          "def": "不盡的、未完的。",
+          "example": [
+            "如：「死有餘辜」、「心有餘悸」、「餘音繞梁」。"
+          ],
+          "type": "形"
+        },
+        "completeOriginalEntry": {
+          "heteronyms": [
+            {
+              "bopomofo": "ㄩˊ",
+              "definitions": [
+                {
+                  "def": "多出的、剩下的。",
+                  "example": [
+                    "如：「餘錢」、「不遺餘力」。"
+                  ],
+                  "quote": [
+                    "宋．王庭珪〈和周秀實家行〉：「先輸官倉足兵食，餘粟尚可瓶中藏。」"
+                  ],
+                  "type": "形"
+                },
+                {
+                  "def": "殘留的、將盡的。",
+                  "example": [
+                    "如：「餘年」、「餘生」、「餘燼」。"
+                  ],
+                  "quote": [
+                    "宋．方岳〈農謠〉二首之二：「漠漠餘香著草花，森森柔綠長桑麻。」"
+                  ],
+                  "type": "形"
+                },
+                {
+                  "def": "其他的。",
+                  "example": [
+                    "如：「餘念」、「餘事」。"
+                  ],
+                  "type": "形"
+                },
+                {
+                  "def": "不盡的、未完的。",
+                  "example": [
+                    "如：「死有餘辜」、「心有餘悸」、「餘音繞梁」。"
+                  ],
+                  "type": "形"
+                },
+                {
+                  "def": "某一事情、情況以外或以後的時間。",
+                  "example": [
+                    "如：「課餘」、「業餘」、「公餘」。"
+                  ],
+                  "quote": [
+                    "唐．孟浩然〈行出東山望漢川〉詩：「雪餘春未暖，嵐解晝初陽。」"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "大數目或度量單位等的零數。",
+                  "example": [
+                    "如：「三十有餘」、「年四十餘」。"
+                  ],
+                  "quote": [
+                    "清．姚鼐〈登泰山記〉：「四十五里，道皆砌石為磴，其級七千有餘。」"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "姓。如十六國時後燕有餘蔚。",
+                  "type": "名"
+                },
+                {
+                  "def": "以後。",
+                  "example": [
+                    "如：「他虛心反省之餘，決心改過。」"
+                  ],
+                  "type": "副"
+                },
+                {
+                  "def": "剩下、遺留。",
+                  "example": [
+                    "如：「餘留」。"
+                  ],
+                  "quote": [
+                    "唐．戴叔倫〈屯田詞〉：「新禾未熟飛蝗至，青苗食盡餘枯莖。」",
+                    "宋．周邦彥〈浪淘沙慢．晝陰重〉詞：「弄夜色，空餘滿地梨花雪。」"
+                  ],
+                  "type": "動"
+                }
+              ],
+              "pinyin": "yú"
+            }
+          ],
+          "non_radical_stroke_count": 7,
+          "radical": "食",
+          "stroke_count": 15,
+          "title": "餘"
+        },
+        "parsedEntrySha256": "2dac95228ee3dca7a73e24bbe08ce91955fe71f8f13a45dc5c12f2b09aad4e47",
+        "parsedHashConvention": "sha256(JSON.stringify(parsed complete original entry));not raw byte range",
+        "license": "CC-BY-ND-3.0-TW"
+      },
+      "editorial": {
+        "attribution": "Project naming interpretation; not an MOE quotation or measured child trait",
+        "license": "CC0-1.0",
+        "meaning": "按当前 yú／餘 词条，取尚未尽、仍可延续之意。",
+        "projectWish": "项目创作：愿给生活留出继续学习的余地。",
+        "reason": "所选是不盡的、未完的这一形容词义；原餘条、余的本字条与双向Unicode原行分别保留。",
+        "limits": [
+          "不泛推馀字或余的我这一人称义与所选义完全等同。",
+          "不保证财富有余、寿命长久或其他结果。",
+          "原条的剩下、多出等别义不被改写成价值高低评判。"
+        ]
+      },
+      "usageReviewRequired": false,
+      "notWholeWordDerived": true,
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "scope": "per-character-project-explanation-only",
+      "wholeNameAssessment": "not-assessed",
+      "wholeNameMeaning": null,
+      "automaticNameRecommendation": false
+    },
+    {
+      "caseId": "single-meaning-m393:渝:87939:0:0",
+      "char": "渝",
+      "selectedPinyin": "yú",
+      "tone": 2,
+      "baselineCharacter": {
+        "char": "渝",
+        "pinyin": "yú",
+        "tone": 2,
+        "meaning": "變更、改變。；四川省重慶市的簡稱。",
+        "traditional": "渝",
+        "strokes": 12,
+        "radical": "水",
+        "elements": [
+          "水"
+        ],
+        "elementBasis": "字形／字义意象参考 v1（项目自编标签，非唯一汉字五行定论；不得当作康熙笔画五行）",
+        "tags": [
+          "常用命名字候选"
+        ],
+        "warning": "本表按字典中文义项与 Unicode 字形字段核对；仍需结合全名检查谐音。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "yú",
+            "tone": 2,
+            "meanings": [
+              "變更、改變。",
+              "四川省重慶市的簡稱。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "渝"
+          }
+        ],
+        "polyphonic": false,
+        "variants": [
+          "渝"
+        ]
+      },
+      "baselineCharacterSha256": "d1b245a0dae9374df1d6e3a598b628926ffb20fe67a5dfdbd0e0743af8ec2592",
+      "prior": {
+        "status": "pending",
+        "namingMeaning": null,
+        "automaticMeaningAllowed": false,
+        "sourceReview": {
+          "pendingIndex": 453,
+          "char": "渝",
+          "status": "pending",
+          "namingMeaning": null,
+          "projectWish": null,
+          "useKind": "none",
+          "scope": "若要表达忠贞须有“不渝”等完整组合另审。",
+          "reason": "渝yú本条直接是变更、改变；单字不能把否定短语“不渝”的坚定义拿来当原义。",
+          "binding": {
+            "char": "渝",
+            "pinyin": "yú",
+            "tone": 2,
+            "sourceId": "moe-revised",
+            "dictionaryWord": "渝",
+            "rawEntryIndex": 87939,
+            "rawHeteronymIndex": 0,
+            "rawDefinitionIndex": 0,
+            "dictionarySense": "變更、改變。"
+          },
+          "warnings": [
+            "若作重庆纪念应明确地缘动机，当前未给定。"
+          ],
+          "licensing": {
+            "dictionary": "CC-BY-ND-3.0-TW;verbatim source definition",
+            "editorial": "CC0-1.0;project review and wishes only"
+          },
+          "automaticMeaningAllowed": false,
+          "applicability": {
+            "mode": "not-approved",
+            "allowedNames": [],
+            "reason": "原审待定：改变不能借不渝改成忠贞，地缘动机也未给定。"
+          }
+        },
+        "sourceReviewSha256": "20bf8d1e513520979f3aa039c45867fc3f0475947c7674626f129e3cf50f6e34"
+      },
+      "glyph": {
+        "kind": "exact-source-glyph",
+        "character": "渝",
+        "dictionaryWord": "渝",
+        "proof": []
+      },
+      "original": {
+        "sourceId": "moe-revised",
+        "word": "渝",
+        "rawEntryIndex": 87939,
+        "rawHeteronymIndex": 0,
+        "rawDefinitionIndex": 0,
+        "rawFile": "data/raw/moe-revised.json.gz",
+        "rawSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "pinyin": "yú",
+        "definition": {
+          "def": "變更、改變。",
+          "example": [
+            "如：「信守不渝」、「此情不渝」。"
+          ],
+          "quote": [
+            "《詩經．鄭風．羔裘》：「彼其之子，舍命不渝。」"
+          ],
+          "type": "動"
+        },
+        "completeOriginalEntry": {
+          "heteronyms": [
+            {
+              "bopomofo": "ㄩˊ",
+              "definitions": [
+                {
+                  "def": "變更、改變。",
+                  "example": [
+                    "如：「信守不渝」、「此情不渝」。"
+                  ],
+                  "quote": [
+                    "《詩經．鄭風．羔裘》：「彼其之子，舍命不渝。」"
+                  ],
+                  "type": "動"
+                },
+                {
+                  "def": "四川省重慶市的簡稱。",
+                  "example": [
+                    "如：「成渝鐵路」。"
+                  ],
+                  "type": "名"
+                }
+              ],
+              "pinyin": "yú"
+            }
+          ],
+          "non_radical_stroke_count": 9,
+          "radical": "水",
+          "stroke_count": 12,
+          "title": "渝"
+        },
+        "parsedEntrySha256": "273360bfe5fc5d44de99caf17da283462a5148214278de07622567870909d07f",
+        "parsedHashConvention": "sha256(JSON.stringify(parsed complete original entry));not raw byte range",
+        "license": "CC-BY-ND-3.0-TW"
+      },
+      "editorial": {
+        "attribution": "Project naming interpretation; not an MOE quotation or measured child trait",
+        "license": "CC0-1.0",
+        "meaning": "取变更、改变的动作意象。",
+        "projectWish": "项目创作：愿面对变化时认真思考与选择。",
+        "reason": "只采用變更、改變；不把带否定的不渝整词反推为渝字本身坚贞不变。",
+        "limits": [
+          "本字不是坚定不变的同义词；不借誓死不渝等整词补义。",
+          "不从水旁推定五行，不预测人生会多变。",
+          "重庆简称的地理义另列；动词取意仍须独立审阅。"
+        ]
+      },
+      "usageReviewRequired": true,
+      "notWholeWordDerived": true,
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "scope": "per-character-project-explanation-only",
+      "wholeNameAssessment": "not-assessed",
+      "wholeNameMeaning": null,
+      "automaticNameRecommendation": false
+    },
+    {
+      "caseId": "single-meaning-m393:兆:15025:0:1",
+      "char": "兆",
+      "selectedPinyin": "zhào",
+      "tone": 4,
+      "baselineCharacter": {
+        "char": "兆",
+        "pinyin": "zhào",
+        "tone": 4,
+        "meaning": "龜甲、獸骨等燒灼後所出現的裂紋，古人藉以占卜吉凶。；事情發生前所顯露的徵候、跡象。；數目字。億的萬倍。",
+        "traditional": "兆",
+        "strokes": 6,
+        "radical": "儿",
+        "elements": [],
+        "elementBasis": "五行属性待起名师指定；不从普通笔画数推定五行",
+        "tags": [
+          "常用命名字候选"
+        ],
+        "warning": "本表按字典中文义项与 Unicode 字形字段核对；仍需结合全名检查谐音。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "zhào",
+            "tone": 4,
+            "meanings": [
+              "龜甲、獸骨等燒灼後所出現的裂紋，古人藉以占卜吉凶。",
+              "事情發生前所顯露的徵候、跡象。",
+              "數目字。億的萬倍。",
+              "墳地、墓地。",
+              "姓。如明代有兆元享。",
+              "預先顯示。",
+              "眾多的。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "兆"
+          }
+        ],
+        "polyphonic": false,
+        "variants": [
+          "兆"
+        ]
+      },
+      "baselineCharacterSha256": "5d47f3d558d281ba49957afa064e5e1592c939bd33b5a3407ceec0547c5f54d6",
+      "prior": {
+        "status": "pending",
+        "namingMeaning": null,
+        "automaticMeaningAllowed": false,
+        "sourceReview": {
+          "pendingIndex": 484,
+          "char": "兆",
+          "status": "pending",
+          "namingMeaning": null,
+          "projectWish": null,
+          "useKind": "none",
+          "scope": "征候、预示本无固定吉凶，另有占卜裂纹、巨大数目及坟墓义；单用或任意字位不能自动表示吉兆。",
+          "reason": "缺可固定为有利征候的姓名组合，不从兆补成吉祥或预测性事件。",
+          "binding": {
+            "char": "兆",
+            "pinyin": "zhào",
+            "tone": 4,
+            "sourceId": "moe-revised",
+            "dictionaryWord": "兆",
+            "rawEntryIndex": 15025,
+            "rawHeteronymIndex": 0,
+            "rawDefinitionIndex": 1,
+            "dictionarySense": "事情發生前所顯露的徵候、跡象。"
+          },
+          "warnings": [
+            "negative-sense-coexists",
+            "composition-required"
+          ],
+          "licensing": {
+            "dictionary": "CC-BY-ND-3.0-TW;verbatim source definition",
+            "editorial": "CC0-1.0;project review and wishes only"
+          },
+          "automaticMeaningAllowed": false,
+          "applicability": {
+            "mode": "not-approved",
+            "allowedNames": [],
+            "reason": "原审待定：征候无定吉凶，尚缺组合且兼墓地义。"
+          }
+        },
+        "sourceReviewSha256": "04b5feaf3e0d1f9e6d05ff0819f2c136dd8faf13150300186cb0e8da62182d38"
+      },
+      "glyph": {
+        "kind": "exact-source-glyph",
+        "character": "兆",
+        "dictionaryWord": "兆",
+        "proof": []
+      },
+      "original": {
+        "sourceId": "moe-revised",
+        "word": "兆",
+        "rawEntryIndex": 15025,
+        "rawHeteronymIndex": 0,
+        "rawDefinitionIndex": 1,
+        "rawFile": "data/raw/moe-revised.json.gz",
+        "rawSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "pinyin": "zhào",
+        "definition": {
+          "def": "事情發生前所顯露的徵候、跡象。",
+          "example": [
+            "如：「預兆」、「吉兆」、「不祥之兆」。"
+          ],
+          "type": "名"
+        },
+        "completeOriginalEntry": {
+          "heteronyms": [
+            {
+              "bopomofo": "ㄓㄠˋ",
+              "definitions": [
+                {
+                  "def": "龜甲、獸骨等燒灼後所出現的裂紋，古人藉以占卜吉凶。",
+                  "quote": [
+                    "《禮記．月令》：「命大史釁龜筴，占兆審卦吉凶。」",
+                    "漢．鄭玄．注：「占兆，龜之繇文也。」",
+                    "唐．韓愈〈復志賦〉：「假大龜以視兆兮，求幽貞之所廬。」"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "事情發生前所顯露的徵候、跡象。",
+                  "example": [
+                    "如：「預兆」、「吉兆」、「不祥之兆」。"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "數目字。億的萬倍。",
+                  "example": [
+                    "如：「一兆」、「十兆」。"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "墳地、墓地。",
+                  "quote": [
+                    "唐．韓愈〈祭十二郎文〉：「吾力能改葬，終葬汝於先人之兆。」"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "姓。如明代有兆元享。",
+                  "type": "名"
+                },
+                {
+                  "def": "預先顯示。",
+                  "example": [
+                    "如：「瑞雪兆豐年」。"
+                  ],
+                  "type": "動"
+                },
+                {
+                  "def": "眾多的。",
+                  "quote": [
+                    "《書經．呂刑》：「一人有慶，兆民賴之。」"
+                  ],
+                  "type": "形"
+                }
+              ],
+              "pinyin": "zhào"
+            }
+          ],
+          "non_radical_stroke_count": 4,
+          "radical": "儿",
+          "stroke_count": 6,
+          "title": "兆"
+        },
+        "parsedEntrySha256": "2d0031e197f341a9fcfc3a54e4f207df7fee1b41ff19898b3eee8697fee2f546",
+        "parsedHashConvention": "sha256(JSON.stringify(parsed complete original entry));not raw byte range",
+        "license": "CC-BY-ND-3.0-TW"
+      },
+      "editorial": {
+        "attribution": "Project naming interpretation; not an MOE quotation or measured child trait",
+        "license": "CC0-1.0",
+        "meaning": "取事情发生前显露的征候、迹象之意。",
+        "projectWish": "项目创作：愿留意生活中的细节与变化。",
+        "reason": "所选是中性的徵候、跡象，不包含对征候好坏的判断。",
+        "limits": [
+          "不直接解释为吉兆、祥瑞或好运，也不作命运预言。",
+          "数目、墓地、龟甲裂纹占卜等其他义项不在本条采用。",
+          "项目期许不证明观察力、洞察力或任何心理能力。"
+        ]
+      },
+      "usageReviewRequired": false,
+      "notWholeWordDerived": true,
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "scope": "per-character-project-explanation-only",
+      "wholeNameAssessment": "not-assessed",
+      "wholeNameMeaning": null,
+      "automaticNameRecommendation": false
+    }
+  ]
+}

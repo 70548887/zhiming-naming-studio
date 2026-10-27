@@ -1,0 +1,4271 @@
+{
+  "version": "naming-editorial-name-review/5.0.0",
+  "reviewedNames": [
+    {
+      "name": "扬善",
+      "proposedRuleId": "naming-v5-proposal-zhouyi-14-xiang-626c5584",
+      "status": "source-and-default-reading-reviewed; awaiting-product-version-adoption",
+      "extraction": "continuous",
+      "excerpt": "君子以遏恶扬善",
+      "citation": {
+        "id": "zhouyi-14-xiang",
+        "title": "周易·象传",
+        "chapter": "第14卦·火天大有·大象",
+        "text": "火在天上，大有。君子以遏恶扬善，顺天休命。",
+        "sourceId": "zhouyi"
+      },
+      "sourceMeaning": "大象要求遏止恶事、彰扬善事；扬为彰显，善为美好的事。",
+      "projectWish": "愿孩子辨别是非、乐于肯定与践行善意。",
+      "proposedContext": "大象要求遏止恶事、彰扬善事；扬为彰显，善为美好的事。 家庭期许属于项目原创引申。保留遏恶与顺天休命的原文，不把大有卦名解释成个人必然富有。",
+      "proposedMeaning": "愿孩子辨别是非、乐于肯定与践行善意。（项目原创家庭期许；原文选义：大象要求遏止恶事、彰扬善事；扬为彰显，善为美好的事。）",
+      "expectedReadings": [
+        {
+          "char": "扬",
+          "pinyin": "yáng",
+          "tone": 2,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "揚",
+          "dictionarySense": "彰顯。",
+          "allDefaultReadingDefinitions": [
+            "舉起、抬高。",
+            "飄動。",
+            "彰顯。",
+            "稱頌、傳播。",
+            "掀起。",
+            "往上撒，以去除穀物的外皮。",
+            "推薦。",
+            "得意的樣子。",
+            "姓。如漢代有揚雄。"
+          ],
+          "datasetEntrySha256": "3c922bb39327c2778e6ec4623899e5af7a4699517548b038da4bf25063f02d43",
+          "rawDictionary": {
+            "file": "data/raw/moe-revised.json.gz",
+            "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "title": "揚",
+            "heteronymIndexZeroBased": 0,
+            "rawPinyin": "yáng",
+            "pinyin": "yáng",
+            "pinyinNormalization": "Existing builder removes parenthesized 讀音/語音 labels only; original rawPinyin retained.",
+            "definitionIndexZeroBased": 2,
+            "definitionVerbatim": true
+          }
+        },
+        {
+          "char": "善",
+          "pinyin": "shàn",
+          "tone": 4,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "善",
+          "dictionarySense": "美好的事。",
+          "allDefaultReadingDefinitions": [
+            "美好的事。",
+            "有德行的人、好人。",
+            "姓。如宋代有善辰。",
+            "親善、交好。",
+            "喜好、喜愛。",
+            "愛惜。",
+            "美好的。",
+            "熟悉的。",
+            "擅長。",
+            "容易。",
+            "表讚美、稱許之詞。"
+          ],
+          "datasetEntrySha256": "348880dee6188b47e3b7d4b2e1c00f4954cfad3a374ca927cd2d3f95a05d9421",
+          "rawDictionary": {
+            "file": "data/raw/moe-revised.json.gz",
+            "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "title": "善",
+            "heteronymIndexZeroBased": 0,
+            "rawPinyin": "shàn",
+            "pinyin": "shàn",
+            "pinyinNormalization": "Existing builder removes parenthesized 讀音/語音 labels only; original rawPinyin retained.",
+            "definitionIndexZeroBased": 0,
+            "definitionVerbatim": true
+          }
+        }
+      ],
+      "wholeContext": {
+        "kind": "complete-fixed-source-hexagram-available-corpus",
+        "file": "data/raw/zhouyi.tar.gz",
+        "fileSha256": "0a847c0b9b876f9926e4896399e31ee44f88292db107bc865d70e2d7308b15a0",
+        "hexagramNumber": 14,
+        "citations": [
+          {
+            "id": "zhouyi-14-gua",
+            "title": "周易",
+            "chapter": "第14卦·火天大有·卦辞",
+            "text": "大有。元亨。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-14-xiang",
+            "title": "周易·象传",
+            "chapter": "第14卦·火天大有·大象",
+            "text": "火在天上，大有。君子以遏恶扬善，顺天休命。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-14-yao-1",
+            "title": "周易",
+            "chapter": "第14卦·火天大有·初九",
+            "text": "无交害，匪咎，艰则无咎。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-14-yao-2",
+            "title": "周易",
+            "chapter": "第14卦·火天大有·九二",
+            "text": "大车以载，有攸往，无咎。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-14-yao-3",
+            "title": "周易",
+            "chapter": "第14卦·火天大有·九三",
+            "text": "公用亨于天子，小人弗克。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-14-yao-4",
+            "title": "周易",
+            "chapter": "第14卦·火天大有·九四",
+            "text": "匪其彭，无咎。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-14-yao-5",
+            "title": "周易",
+            "chapter": "第14卦·火天大有·六五",
+            "text": "厥孚交如，威如，吉。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-14-yao-6",
+            "title": "周易",
+            "chapter": "第14卦·火天大有·上九",
+            "text": "自天祐之，吉无不利。",
+            "sourceId": "zhouyi"
+          }
+        ],
+        "scope": "固定数据收录该卦卦辞、六爻、大象及存在的用辞；没有借此宣称包含完整十翼或现代译注。",
+        "quality": [
+          "全文语境按当前项目固定源已收录的全卦范围核，不补入别本不存在的彖传、小象。"
+        ]
+      },
+      "reviewBoundary": "保留遏恶与顺天休命的原文，不把大有卦名解释成个人必然富有。",
+      "phoneticReview": {
+        "reviewedLanguage": "普通话",
+        "manualJudgement": "未发现该名在中性张姓夹具下的明显不雅固定谐音；实际软件过滤与父母避字结果另见generationCheck。",
+        "specialNote": "仍需按用户实际姓氏、父母姓名和家庭语言逐案重跑。",
+        "notAClaimOfAllSurnamesOrDialects": true
+      },
+      "notExistingName": true,
+      "noCharacterOrDefaultPronunciationExpansion": true,
+      "generationCheck": {
+        "name": "扬善",
+        "acceptedByActualCurrentEvaluator": true,
+        "pinyin": "zhāng yáng shàn",
+        "neutralSurname": "张",
+        "actualWarnings": [
+          "扬：繁体对应“揚”，简繁与异体须按户籍用字确认。",
+          "善：本表按字典中文义项与 Unicode 字形字段核对；仍需结合全名检查谐音。",
+          "扬尚未建立命名适用义，请起名师审阅；不直接拼接字典首义。"
+        ],
+        "noNewCitationBeforeAdoption": true,
+        "parentFixture": {
+          "fatherName": "张知远",
+          "motherName": "陈安宁",
+          "accepted": true
+        },
+        "conflictFixture": {
+          "fatherName": "张扬远",
+          "motherName": "陈安宁",
+          "accepted": false,
+          "reason": "Given-name character overlaps father; existing avoidParentNames gate."
+        },
+        "scope": "Actual evaluateName for fixed neutral surname/prefs only. Not proof of all surnames/dialects or automatic inclusion among top ranked suggestions."
+      }
+    },
+    {
+      "name": "慎言",
+      "proposedRuleId": "naming-v5-proposal-zhouyi-27-xiang-614e8a00",
+      "status": "source-and-default-reading-reviewed; awaiting-product-version-adoption",
+      "extraction": "continuous",
+      "excerpt": "君子以慎言语，节饮食",
+      "citation": {
+        "id": "zhouyi-27-xiang",
+        "title": "周易·象传",
+        "chapter": "第27卦·山雷颐·大象",
+        "text": "山下有雷，颐。君子以慎言语，节饮食。",
+        "sourceId": "zhouyi"
+      },
+      "sourceMeaning": "大象将谨慎言语与节制饮食并列，是修身劝戒。",
+      "projectWish": "愿孩子表达认真、说话有分寸。",
+      "proposedContext": "大象将谨慎言语与节制饮食并列，是修身劝戒。 家庭期许属于项目原创引申。慎言是慎言语的连续摘字；不是要求孩子沉默或性格内向。",
+      "proposedMeaning": "愿孩子表达认真、说话有分寸。（项目原创家庭期许；原文选义：大象将谨慎言语与节制饮食并列，是修身劝戒。）",
+      "expectedReadings": [
+        {
+          "char": "慎",
+          "pinyin": "shèn",
+          "tone": 4,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "慎",
+          "dictionarySense": "小心。",
+          "allDefaultReadingDefinitions": [
+            "小心。",
+            "重視。",
+            "與「勿」、「無」、「毋」等連用，表示吩咐告誡的話。",
+            "姓。如晉代有慎修。"
+          ],
+          "datasetEntrySha256": "7f603f2934309c67df5f32489de1170d568ced8511ef045735e38b38e3bd28cf",
+          "rawDictionary": {
+            "file": "data/raw/moe-revised.json.gz",
+            "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "title": "慎",
+            "heteronymIndexZeroBased": 0,
+            "rawPinyin": "shèn",
+            "pinyin": "shèn",
+            "pinyinNormalization": "Existing builder removes parenthesized 讀音/語音 labels only; original rawPinyin retained.",
+            "definitionIndexZeroBased": 0,
+            "definitionVerbatim": true
+          }
+        },
+        {
+          "char": "言",
+          "pinyin": "yán",
+          "tone": 2,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "言",
+          "dictionarySense": "話語、所說的話。",
+          "allDefaultReadingDefinitions": [
+            "說、講。",
+            "談論。",
+            "陳述。",
+            "詢問。",
+            "告訴、告知。",
+            "話語、所說的話。",
+            "字。",
+            "一句話稱為「一言」。",
+            "學說、言論。",
+            "姓。如春秋時有言偃。",
+            "二一四部首之一。",
+            "語助詞，無義：(1) 置於句首。《詩經．衛風．氓》：「夙興夜寐，靡有朝矣。言既遂矣，至于暴矣。」《左傳．僖公九年》：「凡我同盟之人，既盟之後，言歸於好。」(2) 置於句中。《易經．繫辭上》：「德言盛，禮言恭。」《詩經．邶風．泉水》：「駕言出遊，以寫我憂。」"
+          ],
+          "datasetEntrySha256": "3ee7cec752d69297a14a3f1c4123c600d298471f8f5dab6629ccb3f33c3974a5",
+          "rawDictionary": {
+            "file": "data/raw/moe-revised.json.gz",
+            "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "title": "言",
+            "heteronymIndexZeroBased": 0,
+            "rawPinyin": "yán",
+            "pinyin": "yán",
+            "pinyinNormalization": "Existing builder removes parenthesized 讀音/語音 labels only; original rawPinyin retained.",
+            "definitionIndexZeroBased": 5,
+            "definitionVerbatim": true
+          }
+        }
+      ],
+      "wholeContext": {
+        "kind": "complete-fixed-source-hexagram-available-corpus",
+        "file": "data/raw/zhouyi.tar.gz",
+        "fileSha256": "0a847c0b9b876f9926e4896399e31ee44f88292db107bc865d70e2d7308b15a0",
+        "hexagramNumber": 27,
+        "citations": [
+          {
+            "id": "zhouyi-27-gua",
+            "title": "周易",
+            "chapter": "第27卦·山雷颐·卦辞",
+            "text": "贞吉。观颐，自求口实。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-27-xiang",
+            "title": "周易·象传",
+            "chapter": "第27卦·山雷颐·大象",
+            "text": "山下有雷，颐。君子以慎言语，节饮食。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-27-yao-1",
+            "title": "周易",
+            "chapter": "第27卦·山雷颐·初九",
+            "text": "舍尔灵龟，观我朵颐，凶。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-27-yao-2",
+            "title": "周易",
+            "chapter": "第27卦·山雷颐·六二",
+            "text": "颠颐，拂经，于丘颐，征凶。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-27-yao-3",
+            "title": "周易",
+            "chapter": "第27卦·山雷颐·六三",
+            "text": "拂颐，贞凶，十年勿用，无攸利。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-27-yao-4",
+            "title": "周易",
+            "chapter": "第27卦·山雷颐·六四",
+            "text": "颠颐，吉。虎视眈眈，其欲逐逐，无咎。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-27-yao-5",
+            "title": "周易",
+            "chapter": "第27卦·山雷颐·六五",
+            "text": "拂经，居贞吉，不可涉大川。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-27-yao-6",
+            "title": "周易",
+            "chapter": "第27卦·山雷颐·上九",
+            "text": "由颐，厉，吉。利涉大川。",
+            "sourceId": "zhouyi"
+          }
+        ],
+        "scope": "固定数据收录该卦卦辞、六爻、大象及存在的用辞；没有借此宣称包含完整十翼或现代译注。",
+        "quality": [
+          "全文语境按当前项目固定源已收录的全卦范围核，不补入别本不存在的彖传、小象。"
+        ]
+      },
+      "reviewBoundary": "慎言是慎言语的连续摘字；不是要求孩子沉默或性格内向。",
+      "phoneticReview": {
+        "reviewedLanguage": "普通话",
+        "manualJudgement": "未发现该名在中性张姓夹具下的明显不雅固定谐音；实际软件过滤与父母避字结果另见generationCheck。",
+        "specialNote": "仍需按用户实际姓氏、父母姓名和家庭语言逐案重跑。",
+        "notAClaimOfAllSurnamesOrDialects": true
+      },
+      "notExistingName": true,
+      "noCharacterOrDefaultPronunciationExpansion": true,
+      "generationCheck": {
+        "name": "慎言",
+        "acceptedByActualCurrentEvaluator": true,
+        "pinyin": "zhāng shèn yán",
+        "neutralSurname": "张",
+        "actualWarnings": [
+          "慎：本表按字典中文义项与 Unicode 字形字段核对；仍需结合全名检查谐音。",
+          "言：多音字：本方案采用 yán，请按姓名用法确认；各读音义项分别保存。",
+          "言为多音字，本方案读 yán；解释仅采用对应读音义项。"
+        ],
+        "noNewCitationBeforeAdoption": true,
+        "parentFixture": {
+          "fatherName": "张知远",
+          "motherName": "陈安宁",
+          "accepted": true
+        },
+        "conflictFixture": {
+          "fatherName": "张慎远",
+          "motherName": "陈安宁",
+          "accepted": false,
+          "reason": "Given-name character overlaps father; existing avoidParentNames gate."
+        },
+        "scope": "Actual evaluateName for fixed neutral surname/prefs only. Not proof of all surnames/dialects or automatic inclusion among top ranked suggestions."
+      },
+      "compoundEvidence": {
+        "file": "data/raw/moe-revised.json.gz",
+        "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "entry": {
+          "heteronyms": [
+            {
+              "bopomofo": "ㄕㄣˋ　ㄧㄢˊ",
+              "definitions": [
+                {
+                  "def": "說話很小心。",
+                  "quote": [
+                    "北齊．顏之推《顏氏家訓．序致》：「夫聖賢之書，教人誠孝，慎言檢跡，立身揚名，亦已備矣。」"
+                  ]
+                }
+              ],
+              "pinyin": "shèn yán"
+            }
+          ],
+          "title": "慎言"
+        },
+        "rawEntryIndex": 56249
+      }
+    },
+    {
+      "name": "有恒",
+      "proposedRuleId": "naming-v5-proposal-zhouyi-37-xiang-67096052",
+      "status": "source-and-default-reading-reviewed; awaiting-product-version-adoption",
+      "extraction": "continuous",
+      "excerpt": "君子以言有物而行有恒",
+      "citation": {
+        "id": "zhouyi-37-xiang",
+        "title": "周易·象传",
+        "chapter": "第37卦·风火家人·大象",
+        "text": "风自火出，家人。君子以言有物而行有恒。",
+        "sourceId": "zhouyi"
+      },
+      "sourceMeaning": "大象讲言语有内容、行动有恒常。",
+      "projectWish": "愿孩子做事有始有终、保持耐心。",
+      "proposedContext": "大象讲言语有内容、行动有恒常。 家庭期许属于项目原创引申。保留言、行并举的语境；不把恒解释成一生状态永不变化。",
+      "proposedMeaning": "愿孩子做事有始有终、保持耐心。（项目原创家庭期许；原文选义：大象讲言语有内容、行动有恒常。）",
+      "expectedReadings": [
+        {
+          "char": "有",
+          "pinyin": "yǒu",
+          "tone": 3,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "有",
+          "dictionarySense": "表事實、狀況的正面存在，與「無」相對。",
+          "allDefaultReadingDefinitions": [
+            "表事實、狀況的正面存在，與「無」相對。",
+            "豐足、富裕。",
+            "多，表示時間久或年齡大。",
+            "故意。",
+            "置於名詞前，作音節的襯字。",
+            "某，表示不確定。",
+            "姓。如漢代有有祿。"
+          ],
+          "datasetEntrySha256": "4486537af65219b50243c4ba69a54abd8f4ffb3d208a3705627b383f753fba9c",
+          "rawDictionary": {
+            "file": "data/raw/moe-revised.json.gz",
+            "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "title": "有",
+            "heteronymIndexZeroBased": 0,
+            "rawPinyin": "yǒu",
+            "pinyin": "yǒu",
+            "pinyinNormalization": "Existing builder removes parenthesized 讀音/語音 labels only; original rawPinyin retained.",
+            "definitionIndexZeroBased": 0,
+            "definitionVerbatim": true
+          }
+        },
+        {
+          "char": "恒",
+          "pinyin": "héng",
+          "tone": 2,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "恆",
+          "dictionarySense": "長久的、不變的。",
+          "allDefaultReadingDefinitions": [
+            "長久的、不變的。",
+            "平常的、普通的。",
+            "長久不變的意志。",
+            "《易經》卦名。六十四卦之一。巽（☴）下震（☳）上。表長久不變之道。",
+            "姓。如漢代有恆奕。",
+            "經常。"
+          ],
+          "datasetEntrySha256": "cff0e045c07433af1d39c05d74016f0e5198a550dcbfb953af2b505088bbcf4a",
+          "rawDictionary": {
+            "file": "data/raw/moe-revised.json.gz",
+            "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "title": "恆",
+            "heteronymIndexZeroBased": 0,
+            "rawPinyin": "héng",
+            "pinyin": "héng",
+            "pinyinNormalization": "Existing builder removes parenthesized 讀音/語音 labels only; original rawPinyin retained.",
+            "definitionIndexZeroBased": 0,
+            "definitionVerbatim": true
+          }
+        }
+      ],
+      "wholeContext": {
+        "kind": "complete-fixed-source-hexagram-available-corpus",
+        "file": "data/raw/zhouyi.tar.gz",
+        "fileSha256": "0a847c0b9b876f9926e4896399e31ee44f88292db107bc865d70e2d7308b15a0",
+        "hexagramNumber": 37,
+        "citations": [
+          {
+            "id": "zhouyi-37-gua",
+            "title": "周易",
+            "chapter": "第37卦·风火家人·卦辞",
+            "text": "利女贞。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-37-xiang",
+            "title": "周易·象传",
+            "chapter": "第37卦·风火家人·大象",
+            "text": "风自火出，家人。君子以言有物而行有恒。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-37-yao-1",
+            "title": "周易",
+            "chapter": "第37卦·风火家人·初九",
+            "text": "闲有家，悔亡。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-37-yao-2",
+            "title": "周易",
+            "chapter": "第37卦·风火家人·六二",
+            "text": "无攸遂，在中馈，贞吉。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-37-yao-3",
+            "title": "周易",
+            "chapter": "第37卦·风火家人·九三",
+            "text": "家人嗃嗃，悔厉，吉。妇子嘻嘻，终吝。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-37-yao-4",
+            "title": "周易",
+            "chapter": "第37卦·风火家人·六四",
+            "text": "富家，大吉。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-37-yao-5",
+            "title": "周易",
+            "chapter": "第37卦·风火家人·九五",
+            "text": "王假有家，勿恤，吉。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-37-yao-6",
+            "title": "周易",
+            "chapter": "第37卦·风火家人·上九",
+            "text": "有孚威如，终吉。",
+            "sourceId": "zhouyi"
+          }
+        ],
+        "scope": "固定数据收录该卦卦辞、六爻、大象及存在的用辞；没有借此宣称包含完整十翼或现代译注。",
+        "quality": [
+          "全文语境按当前项目固定源已收录的全卦范围核，不补入别本不存在的彖传、小象。"
+        ]
+      },
+      "reviewBoundary": "保留言、行并举的语境；不把恒解释成一生状态永不变化。",
+      "phoneticReview": {
+        "reviewedLanguage": "普通话",
+        "manualJudgement": "未发现该名在中性张姓夹具下的明显不雅固定谐音；实际软件过滤与父母避字结果另见generationCheck。",
+        "specialNote": "仍需按用户实际姓氏、父母姓名和家庭语言逐案重跑。",
+        "notAClaimOfAllSurnamesOrDialects": true
+      },
+      "notExistingName": true,
+      "noCharacterOrDefaultPronunciationExpansion": true,
+      "generationCheck": {
+        "name": "有恒",
+        "acceptedByActualCurrentEvaluator": true,
+        "pinyin": "zhāng yǒu héng",
+        "neutralSurname": "张",
+        "actualWarnings": [
+          "有：多音字：本方案采用 yǒu，请按姓名用法确认；各读音义项分别保存。",
+          "恒：繁体对应“恆”，简繁与异体须按户籍用字确认。 Unicode 记有多个简繁对应：恆、恒，请按实际字义确认。",
+          "有为多音字，本方案读 yǒu；解释仅采用对应读音义项。",
+          "有尚未建立命名适用义，请起名师审阅；不直接拼接字典首义。"
+        ],
+        "noNewCitationBeforeAdoption": true,
+        "parentFixture": {
+          "fatherName": "张知远",
+          "motherName": "陈安宁",
+          "accepted": true
+        },
+        "conflictFixture": {
+          "fatherName": "张有远",
+          "motherName": "陈安宁",
+          "accepted": false,
+          "reason": "Given-name character overlaps father; existing avoidParentNames gate."
+        },
+        "scope": "Actual evaluateName for fixed neutral surname/prefs only. Not proof of all surnames/dialects or automatic inclusion among top ranked suggestions."
+      },
+      "compoundEvidence": {
+        "file": "data/raw/moe-revised.json.gz",
+        "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "entry": {
+          "heteronyms": [
+            {
+              "bopomofo": "ㄧㄡˇ　ㄏㄥˊ",
+              "definitions": [
+                {
+                  "def": "保持毅力，行事能持久不變。",
+                  "quote": [
+                    "《論語．述而》：「善人，吾不得而見之矣；得見有恆者，斯可矣。」"
+                  ]
+                }
+              ],
+              "pinyin": "yǒu héng"
+            }
+          ],
+          "title": "有恆"
+        },
+        "rawEntryIndex": 73332
+      }
+    },
+    {
+      "name": "鹤鸣",
+      "proposedRuleId": "naming-v5-proposal-shijing-184-1-9e649e23",
+      "status": "source-and-default-reading-reviewed; awaiting-product-version-adoption",
+      "extraction": "continuous",
+      "excerpt": "鹤鸣于九皋，声闻于野",
+      "citation": {
+        "id": "shijing-184-1",
+        "title": "诗经",
+        "chapter": "小雅·鸿雁之什·鹤鸣 第1章",
+        "text": "鹤鸣于九皋，声闻于野。鱼潜在渊，或在于渚。乐彼之园，爰有树檀，其下维萚。他山之石，可以为错。",
+        "sourceId": "shijing"
+      },
+      "sourceMeaning": "原诗写鹤在九皋鸣叫、声音传到野外；全篇还写鱼、园林与他山之石。",
+      "projectWish": "借清越有应的自然意象，寄望坦诚表达、善于倾听。",
+      "proposedContext": "原诗写鹤在九皋鸣叫、声音传到野外；全篇还写鱼、园林与他山之石。 家庭期许属于项目原创引申。不预设整诗寓意的争议性人物映射；不由鹤的传统象征推断寿命或声名。",
+      "proposedMeaning": "借清越有应的自然意象，寄望坦诚表达、善于倾听。（项目原创家庭期许；原文选义：原诗写鹤在九皋鸣叫、声音传到野外；全篇还写鱼、园林与他山之石。）",
+      "expectedReadings": [
+        {
+          "char": "鹤",
+          "pinyin": "hè",
+          "tone": 4,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "鶴",
+          "dictionarySense": "鳥綱鶴形目動物的通稱。頭小，頸、喙、腳皆細長，高三尺餘。羽毛白色或灰色，翼大善飛，鳴聲高朗。多生活於沼澤或平原水際，以小魚、昆蟲及穀類為食。種類甚多，大陸地區常見的有白鶴、灰鶴、丹頂鶴、蓑羽鶴等。鶴在傳說中是神仙的坐騎，也是長壽的象徵。",
+          "allDefaultReadingDefinitions": [
+            "鳥綱鶴形目動物的通稱。頭小，頸、喙、腳皆細長，高三尺餘。羽毛白色或灰色，翼大善飛，鳴聲高朗。多生活於沼澤或平原水際，以小魚、昆蟲及穀類為食。種類甚多，大陸地區常見的有白鶴、灰鶴、丹頂鶴、蓑羽鶴等。鶴在傳說中是神仙的坐騎，也是長壽的象徵。",
+            "姓。如金代有鶴壽。",
+            "白色的。"
+          ],
+          "datasetEntrySha256": "fd90629f6de06945c217334f0be70cd96e7bb4d2dc370a9b4509ba2d7dfbe761",
+          "rawDictionary": {
+            "file": "data/raw/moe-revised.json.gz",
+            "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "title": "鶴",
+            "heteronymIndexZeroBased": 0,
+            "rawPinyin": "（讀音）hè",
+            "pinyin": "hè",
+            "pinyinNormalization": "Existing builder removes parenthesized 讀音/語音 labels only; original rawPinyin retained.",
+            "definitionIndexZeroBased": 0,
+            "definitionVerbatim": true
+          }
+        },
+        {
+          "char": "鸣",
+          "pinyin": "míng",
+          "tone": 2,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "鳴",
+          "dictionarySense": "昆蟲鳥獸發聲。",
+          "allDefaultReadingDefinitions": [
+            "昆蟲鳥獸發聲。",
+            "泛指一切發聲。",
+            "敲擊。",
+            "著稱、聲名遠聞。",
+            "宣洩。",
+            "表示。"
+          ],
+          "datasetEntrySha256": "dfaa8d777a0d418b0fab7ffc6a67ddd62e5a717935a534dd14d7089918bc6276",
+          "rawDictionary": {
+            "file": "data/raw/moe-revised.json.gz",
+            "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "title": "鳴",
+            "heteronymIndexZeroBased": 0,
+            "rawPinyin": "míng",
+            "pinyin": "míng",
+            "pinyinNormalization": "Existing builder removes parenthesized 讀音/語音 labels only; original rawPinyin retained.",
+            "definitionIndexZeroBased": 0,
+            "definitionVerbatim": true
+          }
+        }
+      ],
+      "wholeContext": {
+        "kind": "complete-fixed-source-poem",
+        "file": "data/raw/shijing.json",
+        "fileSha256": "3c7ca54d59424542ada99adfcc85420287fbbd5c8a511e9baf705cb2b04051e7",
+        "jsonPointer": "/183/content/0",
+        "poemIndexOneBased": 184,
+        "title": "鹤鸣",
+        "chapter": "小雅",
+        "section": "鸿雁之什",
+        "content": [
+          "鹤鸣于九皋，声闻于野。鱼潜在渊，或在于渚。乐彼之园，爰有树檀，其下维萚。他山之石，可以为错。",
+          "鹤鸣于九皋，声闻于天。鱼在于渚，或潜在渊。乐彼之园，爰有树檀，其下维谷。他山之石，可以攻玉。"
+        ],
+        "matchedBlockIndexOneBased": 1,
+        "matchingBlockExact": true,
+        "transcriptSha256": "bcf5793b0fd440fed22c85f929e2222454f984c97a24350c54a574829f854596",
+        "transcriptEncoding": "UTF8 newline-join of the untouched source content strings, not the original JSON physical-byte hash.",
+        "quality": [
+          "固定仓库文本未经影印校勘；保留上游字形。",
+          "content数组分块可能不同于其他版本章次；引用五字段仍保持当前固定dataset身份，不擅改标准章数。"
+        ]
+      },
+      "reviewBoundary": "不预设整诗寓意的争议性人物映射；不由鹤的传统象征推断寿命或声名。",
+      "phoneticReview": {
+        "reviewedLanguage": "普通话",
+        "manualJudgement": "未发现该名在中性张姓夹具下的明显不雅固定谐音；实际软件过滤与父母避字结果另见generationCheck。",
+        "specialNote": "仍需按用户实际姓氏、父母姓名和家庭语言逐案重跑。",
+        "notAClaimOfAllSurnamesOrDialects": true
+      },
+      "notExistingName": true,
+      "noCharacterOrDefaultPronunciationExpansion": true,
+      "generationCheck": {
+        "name": "鹤鸣",
+        "acceptedByActualCurrentEvaluator": true,
+        "pinyin": "zhāng hè míng",
+        "neutralSurname": "张",
+        "actualWarnings": [
+          "鹤：多音字：本方案采用 hè，请按姓名用法确认；各读音义项分别保存。 繁体对应“鶴”，简繁与异体须按户籍用字确认。",
+          "鸣：繁体对应“鳴”，简繁与异体须按户籍用字确认。",
+          "鹤为多音字，本方案读 hè；解释仅采用对应读音义项。",
+          "鸣尚未建立命名适用义，请起名师审阅；不直接拼接字典首义。"
+        ],
+        "noNewCitationBeforeAdoption": true,
+        "parentFixture": {
+          "fatherName": "张知远",
+          "motherName": "陈安宁",
+          "accepted": true
+        },
+        "conflictFixture": {
+          "fatherName": "张鹤远",
+          "motherName": "陈安宁",
+          "accepted": false,
+          "reason": "Given-name character overlaps father; existing avoidParentNames gate."
+        },
+        "scope": "Actual evaluateName for fixed neutral surname/prefs only. Not proof of all surnames/dialects or automatic inclusion among top ranked suggestions."
+      },
+      "compoundEvidence": {
+        "file": "data/raw/moe-revised.json.gz",
+        "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "entry": {
+          "heteronyms": [
+            {
+              "bopomofo": "ㄏㄜˋ　ㄇㄧㄥˊ",
+              "definitions": [
+                {
+                  "def": "《詩經．小雅》的篇名。共二章。根據〈詩序〉：「鶴鳴，誨宣王也。」或以為招隱之詩。首章二句為「鶴鳴于九皋，聲聞于野」。"
+                }
+              ],
+              "pinyin": "hè míng"
+            }
+          ],
+          "title": "鶴鳴"
+        },
+        "rawEntryIndex": 160764
+      }
+    },
+    {
+      "name": "温惠",
+      "proposedRuleId": "naming-v5-proposal-shijing-28-4-6e2960e0",
+      "status": "source-and-default-reading-reviewed; awaiting-product-version-adoption",
+      "extraction": "recombined",
+      "excerpt": "终温且惠，淑慎其身",
+      "citation": {
+        "id": "shijing-28-4",
+        "title": "诗经",
+        "chapter": "国风·邶风·燕燕 第4章",
+        "text": "仲氏任只，其心塞渊。终温且惠，淑慎其身。先君之思，以勖寡人。",
+        "sourceId": "shijing"
+      },
+      "sourceMeaning": "送别诗末段称赞仲氏温和、和顺且慎于自身；温与惠隔着且字。",
+      "projectWish": "愿孩子温厚待人，同时珍重自我修养。",
+      "proposedContext": "送别诗末段称赞仲氏温和、和顺且慎于自身；温与惠隔着且字。 本名是同一句选字重组，并非原文连续二字。 家庭期许属于项目原创引申。是同一句选字重组，并非原文连续词；全篇有送别、涕泣，不能称整诗为吉庆祝辞。",
+      "proposedMeaning": "愿孩子温厚待人，同时珍重自我修养。（项目原创家庭期许；原文选义：送别诗末段称赞仲氏温和、和顺且慎于自身；温与惠隔着且字。）",
+      "expectedReadings": [
+        {
+          "char": "温",
+          "pinyin": "wēn",
+          "tone": 1,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "溫",
+          "dictionarySense": "柔和。",
+          "allDefaultReadingDefinitions": [
+            "不冷不熱。",
+            "柔和。",
+            "做事不爽快。",
+            "使暖和。",
+            "複習。",
+            "冷熱的程度。",
+            "姓。如漢代有溫疥。"
+          ],
+          "datasetEntrySha256": "585eec8857cb996ecc52494ed1a3e181c786c44614469e33a0d0868d29542615",
+          "rawDictionary": {
+            "file": "data/raw/moe-revised.json.gz",
+            "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "title": "溫",
+            "heteronymIndexZeroBased": 0,
+            "rawPinyin": "wēn",
+            "pinyin": "wēn",
+            "pinyinNormalization": "Existing builder removes parenthesized 讀音/語音 labels only; original rawPinyin retained.",
+            "definitionIndexZeroBased": 1,
+            "definitionVerbatim": true
+          }
+        },
+        {
+          "char": "惠",
+          "pinyin": "huì",
+          "tone": 4,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "惠",
+          "dictionarySense": "柔順、和順。",
+          "allDefaultReadingDefinitions": [
+            "恩、好處。",
+            "姓。如戰國時宋有惠施。",
+            "賜贈、贈送。",
+            "寵愛。",
+            "柔順、和順。",
+            "請求人時的敬辭。"
+          ],
+          "datasetEntrySha256": "f84b1e40fcbf7b2ababb8829dc1259ea8e910d433b621e3a4b0a4dcd7157f3fa",
+          "rawDictionary": {
+            "file": "data/raw/moe-revised.json.gz",
+            "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "title": "惠",
+            "heteronymIndexZeroBased": 0,
+            "rawPinyin": "huì",
+            "pinyin": "huì",
+            "pinyinNormalization": "Existing builder removes parenthesized 讀音/語音 labels only; original rawPinyin retained.",
+            "definitionIndexZeroBased": 4,
+            "definitionVerbatim": true
+          }
+        }
+      ],
+      "wholeContext": {
+        "kind": "complete-fixed-source-poem",
+        "file": "data/raw/shijing.json",
+        "fileSha256": "3c7ca54d59424542ada99adfcc85420287fbbd5c8a511e9baf705cb2b04051e7",
+        "jsonPointer": "/27/content/3",
+        "poemIndexOneBased": 28,
+        "title": "燕燕",
+        "chapter": "国风",
+        "section": "邶风",
+        "content": [
+          "燕燕于飞，差池其羽。之子于归，远送于野。瞻望弗及，泣涕如雨。",
+          "燕燕于飞，颉之颃之。之子于归，远于将之。瞻望弗及，伫立以泣。",
+          "燕燕于飞，下上其音。之子于归，远送于南。瞻望弗及，实劳我心。",
+          "仲氏任只，其心塞渊。终温且惠，淑慎其身。先君之思，以勖寡人。"
+        ],
+        "matchedBlockIndexOneBased": 4,
+        "matchingBlockExact": true,
+        "transcriptSha256": "ff0439da3a3d615dff3bc2e8a8dbdfbd1749a3a93b673910dfb3d36ce9d513c1",
+        "transcriptEncoding": "UTF8 newline-join of the untouched source content strings, not the original JSON physical-byte hash.",
+        "quality": [
+          "固定仓库文本未经影印校勘；保留上游字形。",
+          "content数组分块可能不同于其他版本章次；引用五字段仍保持当前固定dataset身份，不擅改标准章数。"
+        ]
+      },
+      "reviewBoundary": "是同一句选字重组，并非原文连续词；全篇有送别、涕泣，不能称整诗为吉庆祝辞。",
+      "phoneticReview": {
+        "reviewedLanguage": "普通话",
+        "manualJudgement": "未发现该名在中性张姓夹具下的明显不雅固定谐音；实际软件过滤与父母避字结果另见generationCheck。",
+        "specialNote": "仍需按用户实际姓氏、父母姓名和家庭语言逐案重跑。",
+        "notAClaimOfAllSurnamesOrDialects": true
+      },
+      "notExistingName": true,
+      "noCharacterOrDefaultPronunciationExpansion": true,
+      "generationCheck": {
+        "name": "温惠",
+        "acceptedByActualCurrentEvaluator": true,
+        "pinyin": "zhāng wēn huì",
+        "neutralSurname": "张",
+        "actualWarnings": [
+          "温：繁体对应“溫”，简繁与异体须按户籍用字确认。 Unicode 记有多个简繁对应：温、溫，请按实际字义确认。",
+          "惠：本表按字典中文义项与 Unicode 字形字段核对；仍需结合全名检查谐音。",
+          "温尚未建立命名适用义，请起名师审阅；不直接拼接字典首义。",
+          "惠尚未建立命名适用义，请起名师审阅；不直接拼接字典首义。",
+          "全名相邻音节存在同调，建议连读确认节奏；同调不是命名禁忌。"
+        ],
+        "noNewCitationBeforeAdoption": true,
+        "parentFixture": {
+          "fatherName": "张知远",
+          "motherName": "陈安宁",
+          "accepted": true
+        },
+        "conflictFixture": {
+          "fatherName": "张温远",
+          "motherName": "陈安宁",
+          "accepted": false,
+          "reason": "Given-name character overlaps father; existing avoidParentNames gate."
+        },
+        "scope": "Actual evaluateName for fixed neutral surname/prefs only. Not proof of all surnames/dialects or automatic inclusion among top ranked suggestions."
+      }
+    },
+    {
+      "name": "肃雍",
+      "proposedRuleId": "naming-v5-proposal-shijing-266-1-808396cd",
+      "status": "source-and-default-reading-reviewed; awaiting-product-version-adoption",
+      "extraction": "continuous",
+      "excerpt": "于穆清庙，肃雍显相",
+      "citation": {
+        "id": "shijing-266-1",
+        "title": "诗经",
+        "chapter": "周颂·清庙之什·清庙 第1章",
+        "text": "于穆清庙，肃雍显相。济济多士，秉文之德。对越在天，骏奔走在庙。不显不承，无射于人斯。",
+        "sourceId": "shijing"
+      },
+      "sourceMeaning": "清庙祭祀语境中的恭敬、和谐；不是惩罚严肃或地理雍州。",
+      "projectWish": "愿孩子敬重他人、处事和而有礼。",
+      "proposedContext": "清庙祭祀语境中的恭敬、和谐；不是惩罚严肃或地理雍州。 家庭期许属于项目原创引申。明确其祭祀礼仪背景；不以庙堂身份保证地位。",
+      "proposedMeaning": "愿孩子敬重他人、处事和而有礼。（项目原创家庭期许；原文选义：清庙祭祀语境中的恭敬、和谐；不是惩罚严肃或地理雍州。）",
+      "expectedReadings": [
+        {
+          "char": "肃",
+          "pinyin": "sù",
+          "tone": 4,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "肅",
+          "dictionarySense": "恭敬的。",
+          "allDefaultReadingDefinitions": [
+            "恭敬的。",
+            "莊嚴的。",
+            "恭敬。",
+            "敬畏。",
+            "戒備、整飭。",
+            "斂縮、萎縮。",
+            "急迫、嚴峻。",
+            "引導。參見「肅客」條。",
+            "用於書信的敬詞。"
+          ],
+          "datasetEntrySha256": "c02a699b3e23ba76768e71ff1d047d48ed518f342f5de219945fe01655f57b4a",
+          "rawDictionary": {
+            "file": "data/raw/moe-revised.json.gz",
+            "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "title": "肅",
+            "heteronymIndexZeroBased": 0,
+            "rawPinyin": "sù",
+            "pinyin": "sù",
+            "pinyinNormalization": "Existing builder removes parenthesized 讀音/語音 labels only; original rawPinyin retained.",
+            "definitionIndexZeroBased": 0,
+            "definitionVerbatim": true
+          }
+        },
+        {
+          "char": "雍",
+          "pinyin": "yōng",
+          "tone": 1,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "雍",
+          "dictionarySense": "和諧的、和睦的。",
+          "allDefaultReadingDefinitions": [
+            "和諧的、和睦的。",
+            "堵塞。",
+            "擁有。",
+            "國名。周代諸侯國。故址在今河南省沁陽縣東北。",
+            "姓。如明代有雍泰。"
+          ],
+          "datasetEntrySha256": "e31e1c5f0431831395fc7866f6a4146e5aea4f3af6aa530d81b7da48207a56ae",
+          "rawDictionary": {
+            "file": "data/raw/moe-revised.json.gz",
+            "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "title": "雍",
+            "heteronymIndexZeroBased": 0,
+            "rawPinyin": "yōng",
+            "pinyin": "yōng",
+            "pinyinNormalization": "Existing builder removes parenthesized 讀音/語音 labels only; original rawPinyin retained.",
+            "definitionIndexZeroBased": 0,
+            "definitionVerbatim": true
+          }
+        }
+      ],
+      "wholeContext": {
+        "kind": "complete-fixed-source-poem",
+        "file": "data/raw/shijing.json",
+        "fileSha256": "3c7ca54d59424542ada99adfcc85420287fbbd5c8a511e9baf705cb2b04051e7",
+        "jsonPointer": "/265/content/0",
+        "poemIndexOneBased": 266,
+        "title": "清庙",
+        "chapter": "周颂",
+        "section": "清庙之什",
+        "content": [
+          "于穆清庙，肃雍显相。济济多士，秉文之德。对越在天，骏奔走在庙。不显不承，无射于人斯。"
+        ],
+        "matchedBlockIndexOneBased": 1,
+        "matchingBlockExact": true,
+        "transcriptSha256": "fe5d0054f1001193ca93ad22d1bad66e571f739c66d46e5d3222c22a9ef021a9",
+        "transcriptEncoding": "UTF8 newline-join of the untouched source content strings, not the original JSON physical-byte hash.",
+        "quality": [
+          "固定仓库文本未经影印校勘；保留上游字形。",
+          "content数组分块可能不同于其他版本章次；引用五字段仍保持当前固定dataset身份，不擅改标准章数。"
+        ]
+      },
+      "reviewBoundary": "明确其祭祀礼仪背景；不以庙堂身份保证地位。",
+      "phoneticReview": {
+        "reviewedLanguage": "普通话",
+        "manualJudgement": "未发现该名在中性张姓夹具下的明显不雅固定谐音；实际软件过滤与父母避字结果另见generationCheck。",
+        "specialNote": "仍需按用户实际姓氏、父母姓名和家庭语言逐案重跑。",
+        "notAClaimOfAllSurnamesOrDialects": true
+      },
+      "notExistingName": true,
+      "noCharacterOrDefaultPronunciationExpansion": true,
+      "generationCheck": {
+        "name": "肃雍",
+        "acceptedByActualCurrentEvaluator": true,
+        "pinyin": "zhāng sù yōng",
+        "neutralSurname": "张",
+        "actualWarnings": [
+          "肃：繁体对应“肅”，简繁与异体须按户籍用字确认。",
+          "雍：本表按字典中文义项与 Unicode 字形字段核对；仍需结合全名检查谐音。",
+          "肃尚未建立命名适用义，请起名师审阅；不直接拼接字典首义。",
+          "雍尚未建立命名适用义，请起名师审阅；不直接拼接字典首义。"
+        ],
+        "noNewCitationBeforeAdoption": true,
+        "parentFixture": {
+          "fatherName": "张知远",
+          "motherName": "陈安宁",
+          "accepted": true
+        },
+        "conflictFixture": {
+          "fatherName": "张肃远",
+          "motherName": "陈安宁",
+          "accepted": false,
+          "reason": "Given-name character overlaps father; existing avoidParentNames gate."
+        },
+        "scope": "Actual evaluateName for fixed neutral surname/prefs only. Not proof of all surnames/dialects or automatic inclusion among top ranked suggestions."
+      }
+    },
+    {
+      "name": "如璋",
+      "proposedRuleId": "naming-v5-proposal-shijing-252-6-5982748b",
+      "status": "source-and-default-reading-reviewed; awaiting-product-version-adoption",
+      "extraction": "continuous",
+      "excerpt": "颙颙卬卬，如圭如璋，令闻令望",
+      "citation": {
+        "id": "shijing-252-6",
+        "title": "诗经",
+        "chapter": "大雅·生民之什·卷阿 第6章",
+        "text": "颙颙卬卬，如圭如璋，令闻令望。岂弟君子，四方为纲。",
+        "sourceId": "shijing"
+      },
+      "sourceMeaning": "以圭璋这样的玉器比喻受赞人物的风采；璋是形如半圭的玉器。",
+      "projectWish": "借玉器端整的文化联想，寄望自持有度、珍惜品格。",
+      "proposedContext": "以圭璋这样的玉器比喻受赞人物的风采；璋是形如半圭的玉器。 家庭期许属于项目原创引申。原篇有王者、贤士和祝颂背景；不将礼器身价或等级赋给孩子。",
+      "proposedMeaning": "借玉器端整的文化联想，寄望自持有度、珍惜品格。（项目原创家庭期许；原文选义：以圭璋这样的玉器比喻受赞人物的风采；璋是形如半圭的玉器。）",
+      "expectedReadings": [
+        {
+          "char": "如",
+          "pinyin": "rú",
+          "tone": 2,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "如",
+          "dictionarySense": "如同、好像。",
+          "allDefaultReadingDefinitions": [
+            "順從、依照。",
+            "如同、好像。",
+            "往、至。",
+            "及、比得上。",
+            "表示舉例。",
+            "於，表示比較。",
+            "假若。",
+            "或者。",
+            "形容詞詞尾。相當於「然」，表情形或狀況。",
+            "姓。如三國時魏國有如淳。"
+          ],
+          "datasetEntrySha256": "e24350c83c1f4ff6a672395ebe842d3da039b2cf2b6735a61f07d3b52ab25c81",
+          "rawDictionary": {
+            "file": "data/raw/moe-revised.json.gz",
+            "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "title": "如",
+            "heteronymIndexZeroBased": 0,
+            "rawPinyin": "rú",
+            "pinyin": "rú",
+            "pinyinNormalization": "Existing builder removes parenthesized 讀音/語音 labels only; original rawPinyin retained.",
+            "definitionIndexZeroBased": 1,
+            "definitionVerbatim": true
+          }
+        },
+        {
+          "char": "璋",
+          "pinyin": "zhāng",
+          "tone": 1,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "璋",
+          "dictionarySense": "玉器，形如半圭。",
+          "allDefaultReadingDefinitions": [
+            "玉器，形如半圭。"
+          ],
+          "datasetEntrySha256": "1e216bb84e975788ea93fc02ad2a25c3bb9127bc4df6600e346c5a5db52d1e8a",
+          "rawDictionary": {
+            "file": "data/raw/moe-revised.json.gz",
+            "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "title": "璋",
+            "heteronymIndexZeroBased": 0,
+            "rawPinyin": "zhāng",
+            "pinyin": "zhāng",
+            "pinyinNormalization": "Existing builder removes parenthesized 讀音/語音 labels only; original rawPinyin retained.",
+            "definitionIndexZeroBased": 0,
+            "definitionVerbatim": true
+          }
+        }
+      ],
+      "wholeContext": {
+        "kind": "complete-fixed-source-poem",
+        "file": "data/raw/shijing.json",
+        "fileSha256": "3c7ca54d59424542ada99adfcc85420287fbbd5c8a511e9baf705cb2b04051e7",
+        "jsonPointer": "/251/content/5",
+        "poemIndexOneBased": 252,
+        "title": "卷阿",
+        "chapter": "大雅",
+        "section": "生民之什",
+        "content": [
+          "有卷者阿，飘风自南。岂弟君子，来游来歌，以矢其音。",
+          "伴奂尔游矣，优游尔休矣。岂弟君子，俾尔弥尔性，似先公酋矣。",
+          "尔土宇昄章，亦孔之厚矣。岂弟君子，俾尔弥尔性，百神尔主矣。",
+          "尔受命长矣，茀禄尔康矣。岂弟君子，俾尔弥尔性，纯嘏尔常矣。",
+          "有冯有翼，有孝有德，以引以翼。岂弟君子，四方为则。",
+          "颙颙卬卬，如圭如璋，令闻令望。岂弟君子，四方为纲。",
+          "凤凰于飞，翙翙其羽，亦集爰止。蔼蔼王多吉士，维君子使，媚于天子。",
+          "凤凰于飞，翙翙其羽，亦傅于天。蔼蔼王多吉人，维君子命，媚于庶人。",
+          "凤凰鸣矣，于彼高冈。梧桐生矣，于彼朝阳。菶菶萋萋，雍雍喈喈。",
+          "君子之车，既庶且多。君子之马，既闲且驰。矢诗不多，维以遂歌。"
+        ],
+        "matchedBlockIndexOneBased": 6,
+        "matchingBlockExact": true,
+        "transcriptSha256": "75cc24d86b6b7859fa2cb8a2b1fe9c29c9e680fb2820a1074ff1dc0d495669a4",
+        "transcriptEncoding": "UTF8 newline-join of the untouched source content strings, not the original JSON physical-byte hash.",
+        "quality": [
+          "固定仓库文本未经影印校勘；保留上游字形。",
+          "content数组分块可能不同于其他版本章次；引用五字段仍保持当前固定dataset身份，不擅改标准章数。"
+        ]
+      },
+      "reviewBoundary": "原篇有王者、贤士和祝颂背景；不将礼器身价或等级赋给孩子。",
+      "phoneticReview": {
+        "reviewedLanguage": "普通话",
+        "manualJudgement": "未发现该名在中性张姓夹具下的明显不雅固定谐音；实际软件过滤与父母避字结果另见generationCheck。",
+        "specialNote": "仍需按用户实际姓氏、父母姓名和家庭语言逐案重跑。",
+        "notAClaimOfAllSurnamesOrDialects": true
+      },
+      "notExistingName": true,
+      "noCharacterOrDefaultPronunciationExpansion": true,
+      "generationCheck": {
+        "name": "如璋",
+        "acceptedByActualCurrentEvaluator": true,
+        "pinyin": "zhāng rú zhāng",
+        "neutralSurname": "张",
+        "actualWarnings": [
+          "如：本表按字典中文义项与 Unicode 字形字段核对；仍需结合全名检查谐音。",
+          "璋：本表按字典中文义项与 Unicode 字形字段核对；仍需结合全名检查谐音。",
+          "璋尚未建立命名适用义，请起名师审阅；不直接拼接字典首义。"
+        ],
+        "noNewCitationBeforeAdoption": true,
+        "parentFixture": {
+          "fatherName": "张知远",
+          "motherName": "陈安宁",
+          "accepted": true
+        },
+        "conflictFixture": {
+          "fatherName": "张如远",
+          "motherName": "陈安宁",
+          "accepted": false,
+          "reason": "Given-name character overlaps father; existing avoidParentNames gate."
+        },
+        "scope": "Actual evaluateName for fixed neutral surname/prefs only. Not proof of all surnames/dialects or automatic inclusion among top ranked suggestions."
+      }
+    },
+    {
+      "name": "燕喜",
+      "proposedRuleId": "naming-v5-proposal-shijing-177-6-71d5559c",
+      "status": "source-and-default-reading-reviewed; awaiting-product-version-adoption",
+      "extraction": "continuous",
+      "excerpt": "吉甫燕喜，既多受祉",
+      "citation": {
+        "id": "shijing-177-6",
+        "title": "诗经",
+        "chapter": "小雅·南有嘉鱼之什·六月 第6章",
+        "text": "吉甫燕喜，既多受祉。来归自镐，我行永久。饮御诸友，炰鳖脍鲤。侯谁在矣？张仲孝友。",
+        "sourceId": "shijing"
+      },
+      "sourceMeaning": "原篇写出征，末段转为吉甫归来与朋友宴饮欢喜；燕在本句是宴饮。",
+      "projectWish": "借相聚欢喜的场面，寄望珍重友谊、懂得分享。",
+      "proposedContext": "原篇写出征，末段转为吉甫归来与朋友宴饮欢喜；燕在本句是宴饮。 家庭期许属于项目原创引申。不把本句燕解释为燕子；原诗的战争与祝祉均保留，不转成未来成就保证。",
+      "proposedMeaning": "借相聚欢喜的场面，寄望珍重友谊、懂得分享。（项目原创家庭期许；原文选义：原篇写出征，末段转为吉甫归来与朋友宴饮欢喜；燕在本句是宴饮。）",
+      "expectedReadings": [
+        {
+          "char": "燕",
+          "pinyin": "yàn",
+          "tone": 4,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "燕",
+          "dictionarySense": "宴飲。",
+          "allDefaultReadingDefinitions": [
+            "鳥綱燕科各種鳥類的通稱。種類繁多，約有七十餘種。體小翼大，飛行力強，尾長，分叉呈剪刀狀。背黑腹白、腳短，不利於步行。每年產卵二、三次，每次約三至六個  卵。常見的有毛腳燕、赤腰燕、洋燕、家燕等。",
+            "宴飲。"
+          ],
+          "datasetEntrySha256": "cabdea854408b533d89e4cfc585e168fa5b8f6e90631bcbe2dcbc6fa1da2580e",
+          "rawDictionary": {
+            "file": "data/raw/moe-revised.json.gz",
+            "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "title": "燕",
+            "heteronymIndexZeroBased": 0,
+            "rawPinyin": "yàn",
+            "pinyin": "yàn",
+            "pinyinNormalization": "Existing builder removes parenthesized 讀音/語音 labels only; original rawPinyin retained.",
+            "definitionIndexZeroBased": 1,
+            "definitionVerbatim": true
+          }
+        },
+        {
+          "char": "喜",
+          "pinyin": "xǐ",
+          "tone": 3,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "喜",
+          "dictionarySense": "感到歡樂。",
+          "allDefaultReadingDefinitions": [
+            "愛好。",
+            "感到歡樂。",
+            "吉祥的事。",
+            "稱婦人懷孕。",
+            "舊時稱小孩出痘子為「喜」。",
+            "姓。如元代有喜同。",
+            "高興的、快樂的。",
+            "結婚的。"
+          ],
+          "datasetEntrySha256": "2b5eab2f37b4425195aa9e59c07ff5a78941383157dfb5fc260a468f7a545abf",
+          "rawDictionary": {
+            "file": "data/raw/moe-revised.json.gz",
+            "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "title": "喜",
+            "heteronymIndexZeroBased": 0,
+            "rawPinyin": "xǐ",
+            "pinyin": "xǐ",
+            "pinyinNormalization": "Existing builder removes parenthesized 讀音/語音 labels only; original rawPinyin retained.",
+            "definitionIndexZeroBased": 1,
+            "definitionVerbatim": true
+          }
+        }
+      ],
+      "wholeContext": {
+        "kind": "complete-fixed-source-poem",
+        "file": "data/raw/shijing.json",
+        "fileSha256": "3c7ca54d59424542ada99adfcc85420287fbbd5c8a511e9baf705cb2b04051e7",
+        "jsonPointer": "/176/content/5",
+        "poemIndexOneBased": 177,
+        "title": "六月",
+        "chapter": "小雅",
+        "section": "南有嘉鱼之什",
+        "content": [
+          "六月栖栖，戎车既饬。四牡骙骙，载是常服。玁狁孔炽，我是用急。王于出征，以匡王国。",
+          "比物四骊，闲之维则。维此六月，既成我服。我服既成，于三十里。王于出征，以佐天子。",
+          "四牡修广，其大有颙。薄伐玁狁，以奏肤公。有严有翼，共武之服。共武之服，以定王国。",
+          "玁狁匪茹，整居焦获。侵镐及方，至于泾阳。织文鸟章，白旆央央。元戎十乘，以先启行。",
+          "戎车既安，如轾如轩。四牡既佶，既佶且闲。薄伐玁狁，至于大原。文武吉甫，万邦为宪。",
+          "吉甫燕喜，既多受祉。来归自镐，我行永久。饮御诸友，炰鳖脍鲤。侯谁在矣？张仲孝友。"
+        ],
+        "matchedBlockIndexOneBased": 6,
+        "matchingBlockExact": true,
+        "transcriptSha256": "a29cfbb2c4ffb468002f3e557c5470f8ccdeadffd94429f667169a993a403136",
+        "transcriptEncoding": "UTF8 newline-join of the untouched source content strings, not the original JSON physical-byte hash.",
+        "quality": [
+          "固定仓库文本未经影印校勘；保留上游字形。",
+          "content数组分块可能不同于其他版本章次；引用五字段仍保持当前固定dataset身份，不擅改标准章数。"
+        ]
+      },
+      "reviewBoundary": "不把本句燕解释为燕子；原诗的战争与祝祉均保留，不转成未来成就保证。",
+      "phoneticReview": {
+        "reviewedLanguage": "普通话",
+        "manualJudgement": "未发现该名在中性张姓夹具下的明显不雅固定谐音；实际软件过滤与父母避字结果另见generationCheck。",
+        "specialNote": "仍需按用户实际姓氏、父母姓名和家庭语言逐案重跑。",
+        "notAClaimOfAllSurnamesOrDialects": true
+      },
+      "notExistingName": true,
+      "noCharacterOrDefaultPronunciationExpansion": true,
+      "generationCheck": {
+        "name": "燕喜",
+        "acceptedByActualCurrentEvaluator": true,
+        "pinyin": "zhāng yàn xǐ",
+        "neutralSurname": "张",
+        "actualWarnings": [
+          "燕：多音字：本方案采用 yàn，请按姓名用法确认；各读音义项分别保存。",
+          "喜：本表按字典中文义项与 Unicode 字形字段核对；仍需结合全名检查谐音。",
+          "燕为多音字，本方案读 yàn；解释仅采用对应读音义项。",
+          "燕尚未建立命名适用义，请起名师审阅；不直接拼接字典首义。",
+          "喜尚未建立命名适用义，请起名师审阅；不直接拼接字典首义。"
+        ],
+        "noNewCitationBeforeAdoption": true,
+        "parentFixture": {
+          "fatherName": "张知远",
+          "motherName": "陈安宁",
+          "accepted": true
+        },
+        "conflictFixture": {
+          "fatherName": "张燕远",
+          "motherName": "陈安宁",
+          "accepted": false,
+          "reason": "Given-name character overlaps father; existing avoidParentNames gate."
+        },
+        "scope": "Actual evaluateName for fixed neutral surname/prefs only. Not proof of all surnames/dialects or automatic inclusion among top ranked suggestions."
+      },
+      "compoundEvidence": {
+        "file": "data/raw/moe-revised.json.gz",
+        "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "entry": {
+          "heteronyms": [
+            {
+              "bopomofo": "ㄧㄢˋ　ㄒㄧˇ",
+              "definitions": [
+                {
+                  "def": "宴會歡樂。",
+                  "quote": [
+                    "《詩經．小雅．六月》：「吉甫燕喜，既多受祉。」",
+                    "漢．毛亨．傳：「吉甫既伐玁狁而歸，天子以燕禮樂之，則歡喜矣。」",
+                    "唐．柳宗元〈送班孝廉擢第歸東川覲省序〉：「今又將亟駕省謁，從容燕喜，是又可歌也。」"
+                  ]
+                },
+                {
+                  "def": "喜慶類的宴會。",
+                  "quote": [
+                    "《梁書．卷三八．賀琛傳》：「今之燕喜，相競誇豪，積果如山岳，列肴同綺繡。」"
+                  ]
+                },
+                {
+                  "def": "書信中用於恭賀新婚者的頌候敬辭。"
+                }
+              ],
+              "pinyin": "yàn xǐ"
+            }
+          ],
+          "title": "燕喜"
+        },
+        "rawEntryIndex": 93175
+      }
+    },
+    {
+      "name": "敬仪",
+      "proposedRuleId": "naming-v5-proposal-shijing-253-6-656c4eea",
+      "status": "source-and-default-reading-reviewed; awaiting-product-version-adoption",
+      "extraction": "recombined",
+      "excerpt": "敬慎威仪，以近有德",
+      "citation": {
+        "id": "shijing-253-6",
+        "title": "诗经",
+        "chapter": "大雅·生民之什·民劳 第6章",
+        "text": "式遏寇虐，无俾作慝。敬慎威仪，以近有德。",
+        "sourceId": "shijing"
+      },
+      "sourceMeaning": "劝戒治理者敬慎举止、亲近有德者；取敬与仪，省去慎威。",
+      "projectWish": "愿孩子待人有礼、举止认真。",
+      "proposedContext": "劝戒治理者敬慎举止、亲近有德者；取敬与仪，省去慎威。 本名是同一句选字重组，并非原文连续二字。 家庭期许属于项目原创引申。同一句抽字重组，并非连续原词；不把威仪释成容貌或人格测评。",
+      "proposedMeaning": "愿孩子待人有礼、举止认真。（项目原创家庭期许；原文选义：劝戒治理者敬慎举止、亲近有德者；取敬与仪，省去慎威。）",
+      "expectedReadings": [
+        {
+          "char": "敬",
+          "pinyin": "jìng",
+          "tone": 4,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "敬",
+          "dictionarySense": "慎重、恭敬。",
+          "allDefaultReadingDefinitions": [
+            "尊重。",
+            "有禮貌的獻上。",
+            "慎重、恭敬。",
+            "恭肅。",
+            "表示敬意、謝意或祝賀之意的禮物。",
+            "姓。如唐代有敬元禮。"
+          ],
+          "datasetEntrySha256": "5468c2b7f373ca26cb0f73023e10183505f0be66a8a5b80de77e72f24d41a77b",
+          "rawDictionary": {
+            "file": "data/raw/moe-revised.json.gz",
+            "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "title": "敬",
+            "heteronymIndexZeroBased": 0,
+            "rawPinyin": "jìng",
+            "pinyin": "jìng",
+            "pinyinNormalization": "Existing builder removes parenthesized 讀音/語音 labels only; original rawPinyin retained.",
+            "definitionIndexZeroBased": 2,
+            "definitionVerbatim": true
+          }
+        },
+        {
+          "char": "仪",
+          "pinyin": "yí",
+          "tone": 2,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "儀",
+          "dictionarySense": "舉止容貌。",
+          "allDefaultReadingDefinitions": [
+            "法則、標準。",
+            "典範、表率。",
+            "禮節、程序、形式。",
+            "舉止容貌。",
+            "禮物。",
+            "儀器的簡稱。",
+            "嚮往、仰慕。",
+            "效法。",
+            "匹配。"
+          ],
+          "datasetEntrySha256": "e77816da3f088f389bc332734b6f42c470a3bf0f6cbd2f21c662ee083222f811",
+          "rawDictionary": {
+            "file": "data/raw/moe-revised.json.gz",
+            "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "title": "儀",
+            "heteronymIndexZeroBased": 0,
+            "rawPinyin": "yí",
+            "pinyin": "yí",
+            "pinyinNormalization": "Existing builder removes parenthesized 讀音/語音 labels only; original rawPinyin retained.",
+            "definitionIndexZeroBased": 3,
+            "definitionVerbatim": true
+          }
+        }
+      ],
+      "wholeContext": {
+        "kind": "complete-fixed-source-poem",
+        "file": "data/raw/shijing.json",
+        "fileSha256": "3c7ca54d59424542ada99adfcc85420287fbbd5c8a511e9baf705cb2b04051e7",
+        "jsonPointer": "/252/content/5",
+        "poemIndexOneBased": 253,
+        "title": "民劳",
+        "chapter": "大雅",
+        "section": "生民之什",
+        "content": [
+          "民亦劳止，汔可小康。惠此中国，以绥四方。无纵诡随，以谨无良。",
+          "式遏寇虐，憯不畏明。柔远能迩，以定我王。",
+          "民亦劳止，汔可小休。惠此中国，以为民逑。无纵诡随，以谨惛怓。",
+          "式遏寇虐，无俾民忧。无弃尔劳，以为王休。",
+          "民亦劳止，汔可小息。惠此京师，以绥四国。无纵诡随，以谨罔极。",
+          "式遏寇虐，无俾作慝。敬慎威仪，以近有德。",
+          "民亦劳止，汔可小愒。惠此中国，俾民忧泄。无纵诡随，以谨丑厉。",
+          "式遏寇虐，无俾正败。戎虽小子，而式弘大。",
+          "民亦劳止，汔可小安。惠此中国，国无有残。无纵诡随，以谨缱绻。",
+          "式遏寇虐，无俾正反。王欲玉女，是用大谏。"
+        ],
+        "matchedBlockIndexOneBased": 6,
+        "matchingBlockExact": true,
+        "transcriptSha256": "bb038ac97600fb93100ba697166ef4e40046de252bd1bad2796c4700afca2a33",
+        "transcriptEncoding": "UTF8 newline-join of the untouched source content strings, not the original JSON physical-byte hash.",
+        "quality": [
+          "固定仓库文本未经影印校勘；保留上游字形。",
+          "content数组分块可能不同于其他版本章次；引用五字段仍保持当前固定dataset身份，不擅改标准章数。"
+        ]
+      },
+      "reviewBoundary": "同一句抽字重组，并非连续原词；不把威仪释成容貌或人格测评。",
+      "phoneticReview": {
+        "reviewedLanguage": "普通话",
+        "manualJudgement": "未发现该名在中性张姓夹具下的明显不雅固定谐音；实际软件过滤与父母避字结果另见generationCheck。",
+        "specialNote": "仍需按用户实际姓氏、父母姓名和家庭语言逐案重跑。",
+        "notAClaimOfAllSurnamesOrDialects": true
+      },
+      "notExistingName": true,
+      "noCharacterOrDefaultPronunciationExpansion": true,
+      "generationCheck": {
+        "name": "敬仪",
+        "acceptedByActualCurrentEvaluator": true,
+        "pinyin": "zhāng jìng yí",
+        "neutralSurname": "张",
+        "actualWarnings": [
+          "敬：本表按字典中文义项与 Unicode 字形字段核对；仍需结合全名检查谐音。",
+          "仪：繁体对应“儀”，简繁与异体须按户籍用字确认。 Unicode 记有多个简繁对应：仪、儀，请按实际字义确认。",
+          "仪尚未建立命名适用义，请起名师审阅；不直接拼接字典首义。"
+        ],
+        "noNewCitationBeforeAdoption": true,
+        "parentFixture": {
+          "fatherName": "张知远",
+          "motherName": "陈安宁",
+          "accepted": true
+        },
+        "conflictFixture": {
+          "fatherName": "张敬远",
+          "motherName": "陈安宁",
+          "accepted": false,
+          "reason": "Given-name character overlaps father; existing avoidParentNames gate."
+        },
+        "scope": "Actual evaluateName for fixed neutral surname/prefs only. Not proof of all surnames/dialects or automatic inclusion among top ranked suggestions."
+      }
+    },
+    {
+      "name": "乔木",
+      "proposedRuleId": "naming-v5-proposal-shijing-165-1-4e546728",
+      "status": "source-and-default-reading-reviewed; awaiting-product-version-adoption",
+      "extraction": "continuous",
+      "excerpt": "出自幽谷，迁于乔木",
+      "citation": {
+        "id": "shijing-165-1",
+        "title": "诗经",
+        "chapter": "小雅·鹿鸣之什·伐木 第1章",
+        "text": "伐木丁丁，鸟鸣嘤嘤。出自幽谷，迁于乔木。嘤其鸣矣，求其友声。",
+        "sourceId": "shijing"
+      },
+      "sourceMeaning": "写鸟从幽谷迁到高大的树木，继而写求友、设宴待亲友。",
+      "projectWish": "借树木挺立的自然形象，寄望稳健成长、珍惜友谊。",
+      "proposedContext": "写鸟从幽谷迁到高大的树木，继而写求友、设宴待亲友。 家庭期许属于项目原创引申。采用伐木而非不可休息的汉广；不把乔木直接改释为升迁或显贵。",
+      "proposedMeaning": "借树木挺立的自然形象，寄望稳健成长、珍惜友谊。（项目原创家庭期许；原文选义：写鸟从幽谷迁到高大的树木，继而写求友、设宴待亲友。）",
+      "expectedReadings": [
+        {
+          "char": "乔",
+          "pinyin": "qiáo",
+          "tone": 2,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "喬",
+          "dictionarySense": "形容樹幹高大且樹枝往上盤旋的。",
+          "allDefaultReadingDefinitions": [
+            "形容樹幹高大且樹枝往上盤旋的。",
+            "罵人的話。惡劣的意思。",
+            "假裝、詐偽。",
+            "矛柄近刃處用來懸掛羽毛的地方。",
+            "三國時吳國的大喬、小喬。",
+            "姓。如元代有喬吉。"
+          ],
+          "datasetEntrySha256": "6b9d0fd7636731643d483041f8f4caa2a152eaee51acea08bc12b7d5099f7e59",
+          "rawDictionary": {
+            "file": "data/raw/moe-revised.json.gz",
+            "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "title": "喬",
+            "heteronymIndexZeroBased": 0,
+            "rawPinyin": "qiáo",
+            "pinyin": "qiáo",
+            "pinyinNormalization": "Existing builder removes parenthesized 讀音/語音 labels only; original rawPinyin retained.",
+            "definitionIndexZeroBased": 0,
+            "definitionVerbatim": true
+          }
+        },
+        {
+          "char": "木",
+          "pinyin": "mù",
+          "tone": 4,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "木",
+          "dictionarySense": "樹、木本植物的通稱。",
+          "allDefaultReadingDefinitions": [
+            "樹、木本植物的通稱。",
+            "木材。",
+            "棺材。",
+            "五行之一。參見「五行」條。",
+            "木星的簡稱。",
+            "姓。如晉朝有木華。",
+            "二一四部首之一。",
+            "用木材製成的。",
+            "性情樸實。",
+            "沒有知覺的。",
+            "呆笨的。",
+            "失去知覺、感覺。"
+          ],
+          "datasetEntrySha256": "d4105ac5b450c946ab71bf58a733818277717dba59f863fba39660af94ad5f0a",
+          "rawDictionary": {
+            "file": "data/raw/moe-revised.json.gz",
+            "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "title": "木",
+            "heteronymIndexZeroBased": 0,
+            "rawPinyin": "mù",
+            "pinyin": "mù",
+            "pinyinNormalization": "Existing builder removes parenthesized 讀音/語音 labels only; original rawPinyin retained.",
+            "definitionIndexZeroBased": 0,
+            "definitionVerbatim": true
+          }
+        }
+      ],
+      "wholeContext": {
+        "kind": "complete-fixed-source-poem",
+        "file": "data/raw/shijing.json",
+        "fileSha256": "3c7ca54d59424542ada99adfcc85420287fbbd5c8a511e9baf705cb2b04051e7",
+        "jsonPointer": "/164/content/0",
+        "poemIndexOneBased": 165,
+        "title": "伐木",
+        "chapter": "小雅",
+        "section": "鹿鸣之什",
+        "content": [
+          "伐木丁丁，鸟鸣嘤嘤。出自幽谷，迁于乔木。嘤其鸣矣，求其友声。",
+          "相彼鸟矣，犹求友声。矧伊人矣，不求友生？神之听之，终和且平。",
+          "伐木许许，酾酒有藇！既有肥羜，以速诸父。宁适不来，微我弗顾。",
+          "于粲洒扫，陈馈八簋。既有肥牡，以速诸舅。宁适不来，微我有咎。",
+          "伐木于阪，酾酒有衍。笾豆有践，兄弟无远。民之失德，乾餱以愆。",
+          "有酒湑我，无酒酤我。坎坎鼓我，蹲蹲舞我。迨我暇矣，饮此湑矣。"
+        ],
+        "matchedBlockIndexOneBased": 1,
+        "matchingBlockExact": true,
+        "transcriptSha256": "23ed691a434310ff0a6d97d3cea52cd99f86650e601bd2e2e990500d5c02dd67",
+        "transcriptEncoding": "UTF8 newline-join of the untouched source content strings, not the original JSON physical-byte hash.",
+        "quality": [
+          "固定仓库文本未经影印校勘；保留上游字形。",
+          "content数组分块可能不同于其他版本章次；引用五字段仍保持当前固定dataset身份，不擅改标准章数。"
+        ]
+      },
+      "reviewBoundary": "采用伐木而非不可休息的汉广；不把乔木直接改释为升迁或显贵。",
+      "phoneticReview": {
+        "reviewedLanguage": "普通话",
+        "manualJudgement": "未发现该名在中性张姓夹具下的明显不雅固定谐音；实际软件过滤与父母避字结果另见generationCheck。",
+        "specialNote": "仍需按用户实际姓氏、父母姓名和家庭语言逐案重跑。",
+        "notAClaimOfAllSurnamesOrDialects": true
+      },
+      "notExistingName": true,
+      "noCharacterOrDefaultPronunciationExpansion": true,
+      "generationCheck": {
+        "name": "乔木",
+        "acceptedByActualCurrentEvaluator": true,
+        "pinyin": "zhāng qiáo mù",
+        "neutralSurname": "张",
+        "actualWarnings": [
+          "乔：多音字：本方案采用 qiáo，请按姓名用法确认；各读音义项分别保存。 繁体对应“喬”，简繁与异体须按户籍用字确认。 Unicode 记有多个简繁对应：乔、喬，请按实际字义确认。",
+          "木：本表按字典中文义项与 Unicode 字形字段核对；仍需结合全名检查谐音。",
+          "乔为多音字，本方案读 qiáo；解释仅采用对应读音义项。",
+          "乔尚未建立命名适用义，请起名师审阅；不直接拼接字典首义。",
+          "木尚未建立命名适用义，请起名师审阅；不直接拼接字典首义。"
+        ],
+        "noNewCitationBeforeAdoption": true,
+        "parentFixture": {
+          "fatherName": "张知远",
+          "motherName": "陈安宁",
+          "accepted": true
+        },
+        "conflictFixture": {
+          "fatherName": "张乔远",
+          "motherName": "陈安宁",
+          "accepted": false,
+          "reason": "Given-name character overlaps father; existing avoidParentNames gate."
+        },
+        "scope": "Actual evaluateName for fixed neutral surname/prefs only. Not proof of all surnames/dialects or automatic inclusion among top ranked suggestions."
+      },
+      "compoundEvidence": {
+        "file": "data/raw/moe-revised.json.gz",
+        "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "entry": {
+          "heteronyms": [
+            {
+              "bopomofo": "ㄑㄧㄠˊ　ㄇㄨˋ",
+              "definitions": [
+                {
+                  "def": "凡枝幹高大而有主幹的樹木，稱為「喬木」。如松、柏、楊等。"
+                }
+              ],
+              "pinyin": "qiáo mù"
+            }
+          ],
+          "title": "喬木"
+        },
+        "rawEntryIndex": 29712
+      }
+    },
+    {
+      "name": "如玉",
+      "proposedRuleId": "naming-v5-proposal-shijing-128-2-59827389",
+      "status": "source-and-default-reading-reviewed; awaiting-product-version-adoption",
+      "extraction": "continuous",
+      "excerpt": "言念君子，温其如玉",
+      "citation": {
+        "id": "shijing-128-2",
+        "title": "诗经",
+        "chapter": "国风·秦风·小戎 第2章",
+        "text": "言念君子，温其如玉。在其板屋，乱我心曲。",
+        "sourceId": "shijing"
+      },
+      "sourceMeaning": "思念者以玉温润的形象赞写君子；全篇交替写车马军备与思念。",
+      "projectWish": "愿孩子温厚自持，保有可贵品格。",
+      "proposedContext": "思念者以玉温润的形象赞写君子；全篇交替写车马军备与思念。 家庭期许属于项目原创引申。不从别篇拼接有女如玉；不把原诗思念的身份细节作未经核实的历史结论。",
+      "proposedMeaning": "愿孩子温厚自持，保有可贵品格。（项目原创家庭期许；原文选义：思念者以玉温润的形象赞写君子；全篇交替写车马军备与思念。）",
+      "expectedReadings": [
+        {
+          "char": "如",
+          "pinyin": "rú",
+          "tone": 2,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "如",
+          "dictionarySense": "如同、好像。",
+          "allDefaultReadingDefinitions": [
+            "順從、依照。",
+            "如同、好像。",
+            "往、至。",
+            "及、比得上。",
+            "表示舉例。",
+            "於，表示比較。",
+            "假若。",
+            "或者。",
+            "形容詞詞尾。相當於「然」，表情形或狀況。",
+            "姓。如三國時魏國有如淳。"
+          ],
+          "datasetEntrySha256": "e24350c83c1f4ff6a672395ebe842d3da039b2cf2b6735a61f07d3b52ab25c81",
+          "rawDictionary": {
+            "file": "data/raw/moe-revised.json.gz",
+            "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "title": "如",
+            "heteronymIndexZeroBased": 0,
+            "rawPinyin": "rú",
+            "pinyin": "rú",
+            "pinyinNormalization": "Existing builder removes parenthesized 讀音/語音 labels only; original rawPinyin retained.",
+            "definitionIndexZeroBased": 1,
+            "definitionVerbatim": true
+          }
+        },
+        {
+          "char": "玉",
+          "pinyin": "yù",
+          "tone": 4,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "玉",
+          "dictionarySense": "質地溫潤堅硬而有光澤的美石，呈半透明狀，一般用作裝飾品或雕刻材料。",
+          "allDefaultReadingDefinitions": [
+            "質地溫潤堅硬而有光澤的美石，呈半透明狀，一般用作裝飾品或雕刻材料。",
+            "二一四部首之一。",
+            "用玉做成的。",
+            "潔白、美好。",
+            "珍貴的、精美的。",
+            "尊稱他人的身體或言行。",
+            "培養、鍛練。"
+          ],
+          "datasetEntrySha256": "dccc549fe254857a9d61fca6b18e2d58f459346c9c468f2aea9374bd37f7aba5",
+          "rawDictionary": {
+            "file": "data/raw/moe-revised.json.gz",
+            "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "title": "玉",
+            "heteronymIndexZeroBased": 0,
+            "rawPinyin": "yù",
+            "pinyin": "yù",
+            "pinyinNormalization": "Existing builder removes parenthesized 讀音/語音 labels only; original rawPinyin retained.",
+            "definitionIndexZeroBased": 0,
+            "definitionVerbatim": true
+          }
+        }
+      ],
+      "wholeContext": {
+        "kind": "complete-fixed-source-poem",
+        "file": "data/raw/shijing.json",
+        "fileSha256": "3c7ca54d59424542ada99adfcc85420287fbbd5c8a511e9baf705cb2b04051e7",
+        "jsonPointer": "/127/content/1",
+        "poemIndexOneBased": 128,
+        "title": "小戎",
+        "chapter": "国风",
+        "section": "秦风",
+        "content": [
+          "小戎俴收，五楘梁辀。游环胁驱，阴靷鋈续。文茵畅毂，驾我骐馵。",
+          "言念君子，温其如玉。在其板屋，乱我心曲。",
+          "四牡孔阜，六辔在手。骐骝是中，騧骊是骖。龙盾之合，鋈以觼軜。",
+          "言念君子，温其在邑。方何为期？胡然我念之！",
+          "俴驷孔群，厹矛鋈錞。蒙伐有苑，虎韔镂膺。交韔二弓，竹闭绲縢。",
+          "言念君子，载寝载兴。厌厌良人，秩秩德音。"
+        ],
+        "matchedBlockIndexOneBased": 2,
+        "matchingBlockExact": true,
+        "transcriptSha256": "f5b9aa975fde5d8385aa42545c3709f21ba037a6b717c3757c3b0c9257d3bd9e",
+        "transcriptEncoding": "UTF8 newline-join of the untouched source content strings, not the original JSON physical-byte hash.",
+        "quality": [
+          "固定仓库文本未经影印校勘；保留上游字形。",
+          "content数组分块可能不同于其他版本章次；引用五字段仍保持当前固定dataset身份，不擅改标准章数。"
+        ]
+      },
+      "reviewBoundary": "不从别篇拼接有女如玉；不把原诗思念的身份细节作未经核实的历史结论。",
+      "phoneticReview": {
+        "reviewedLanguage": "普通话",
+        "manualJudgement": "未发现该名在中性张姓夹具下的明显不雅固定谐音；实际软件过滤与父母避字结果另见generationCheck。",
+        "specialNote": "仍需按用户实际姓氏、父母姓名和家庭语言逐案重跑。",
+        "notAClaimOfAllSurnamesOrDialects": true
+      },
+      "notExistingName": true,
+      "noCharacterOrDefaultPronunciationExpansion": true,
+      "generationCheck": {
+        "name": "如玉",
+        "acceptedByActualCurrentEvaluator": true,
+        "pinyin": "zhāng rú yù",
+        "neutralSurname": "张",
+        "actualWarnings": [
+          "如：本表按字典中文义项与 Unicode 字形字段核对；仍需结合全名检查谐音。",
+          "玉：本表按字典中文义项与 Unicode 字形字段核对；仍需结合全名检查谐音。"
+        ],
+        "noNewCitationBeforeAdoption": true,
+        "parentFixture": {
+          "fatherName": "张知远",
+          "motherName": "陈安宁",
+          "accepted": true
+        },
+        "conflictFixture": {
+          "fatherName": "张如远",
+          "motherName": "陈安宁",
+          "accepted": false,
+          "reason": "Given-name character overlaps father; existing avoidParentNames gate."
+        },
+        "scope": "Actual evaluateName for fixed neutral surname/prefs only. Not proof of all surnames/dialects or automatic inclusion among top ranked suggestions."
+      }
+    },
+    {
+      "name": "如星",
+      "proposedRuleId": "naming-v5-proposal-shijing-55-2-5982661f",
+      "status": "source-and-default-reading-reviewed; awaiting-product-version-adoption",
+      "extraction": "continuous",
+      "excerpt": "充耳秀莹，会弁如星",
+      "citation": {
+        "id": "shijing-55-2",
+        "title": "诗经",
+        "chapter": "国风·卫风·淇奥 第2章",
+        "text": "瞻彼淇奥，绿竹青青。有匪君子，充耳秀莹，会弁如星。瑟兮僴兮。赫兮咺兮，有匪君子，终不可谖兮。",
+        "sourceId": "shijing"
+      },
+      "sourceMeaning": "原句以星光比拟冠饰的亮点；整篇赞君子风采并涉及修养。",
+      "projectWish": "借星光明亮的形象，寄望清朗自持。",
+      "proposedContext": "原句以星光比拟冠饰的亮点；整篇赞君子风采并涉及修养。 家庭期许属于项目原创引申。如星在此是冠饰比喻，不是天象占验；固定源作秀莹，保留原字，不自动改为琇莹。",
+      "proposedMeaning": "借星光明亮的形象，寄望清朗自持。（项目原创家庭期许；原文选义：原句以星光比拟冠饰的亮点；整篇赞君子风采并涉及修养。）",
+      "expectedReadings": [
+        {
+          "char": "如",
+          "pinyin": "rú",
+          "tone": 2,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "如",
+          "dictionarySense": "如同、好像。",
+          "allDefaultReadingDefinitions": [
+            "順從、依照。",
+            "如同、好像。",
+            "往、至。",
+            "及、比得上。",
+            "表示舉例。",
+            "於，表示比較。",
+            "假若。",
+            "或者。",
+            "形容詞詞尾。相當於「然」，表情形或狀況。",
+            "姓。如三國時魏國有如淳。"
+          ],
+          "datasetEntrySha256": "e24350c83c1f4ff6a672395ebe842d3da039b2cf2b6735a61f07d3b52ab25c81",
+          "rawDictionary": {
+            "file": "data/raw/moe-revised.json.gz",
+            "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "title": "如",
+            "heteronymIndexZeroBased": 0,
+            "rawPinyin": "rú",
+            "pinyin": "rú",
+            "pinyinNormalization": "Existing builder removes parenthesized 讀音/語音 labels only; original rawPinyin retained.",
+            "definitionIndexZeroBased": 1,
+            "definitionVerbatim": true
+          }
+        },
+        {
+          "char": "星",
+          "pinyin": "xīng",
+          "tone": 1,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "星",
+          "dictionarySense": "宇宙中會發光或反射光的天體。",
+          "allDefaultReadingDefinitions": [
+            "宇宙中會發光或反射光的天體。",
+            "比喻細碎或發亮的東西。",
+            "比喻為人所崇拜、注目，或是某事的主要人物。",
+            "鑲在秤桿上，用以標誌斤、兩、錢的小點。",
+            "姓。如春秋時有星子韋。",
+            "細微、細小。",
+            "色白如星。",
+            "量多且四處散布。",
+            "如流星般疾速。《三國志．卷五八．吳書．陸遜傳》：「舳艫千里，星奔電邁，俄然行至。」晉．潘岳〈世祖武帝皇帝誄〉：「羽檄星馳，鉦鼓日戒。"
+          ],
+          "datasetEntrySha256": "bb173aba86a6cd0a49d6290545248911621871b906bf43539db8131f979199d6",
+          "rawDictionary": {
+            "file": "data/raw/moe-revised.json.gz",
+            "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "title": "星",
+            "heteronymIndexZeroBased": 0,
+            "rawPinyin": "xīng",
+            "pinyin": "xīng",
+            "pinyinNormalization": "Existing builder removes parenthesized 讀音/語音 labels only; original rawPinyin retained.",
+            "definitionIndexZeroBased": 0,
+            "definitionVerbatim": true
+          }
+        }
+      ],
+      "wholeContext": {
+        "kind": "complete-fixed-source-poem",
+        "file": "data/raw/shijing.json",
+        "fileSha256": "3c7ca54d59424542ada99adfcc85420287fbbd5c8a511e9baf705cb2b04051e7",
+        "jsonPointer": "/54/content/1",
+        "poemIndexOneBased": 55,
+        "title": "淇奥",
+        "chapter": "国风",
+        "section": "卫风",
+        "content": [
+          "瞻彼淇奥，绿竹猗猗。有匪君子，如切如磋，如琢如磨，瑟兮僴兮，赫兮咺兮。有匪君子，终不可谖兮。",
+          "瞻彼淇奥，绿竹青青。有匪君子，充耳秀莹，会弁如星。瑟兮僴兮。赫兮咺兮，有匪君子，终不可谖兮。",
+          "瞻彼淇奥，绿竹如箦。有匪君子，如金如锡，如圭如璧。宽兮绰兮，猗重较兮。善戏谑兮，不为虐兮。"
+        ],
+        "matchedBlockIndexOneBased": 2,
+        "matchingBlockExact": true,
+        "transcriptSha256": "88db441068206a10429ccc31fac1d5ce541817746d939a5b26f3a6e46539c0c1",
+        "transcriptEncoding": "UTF8 newline-join of the untouched source content strings, not the original JSON physical-byte hash.",
+        "quality": [
+          "固定仓库文本未经影印校勘；保留上游字形。",
+          "content数组分块可能不同于其他版本章次；引用五字段仍保持当前固定dataset身份，不擅改标准章数。"
+        ]
+      },
+      "reviewBoundary": "如星在此是冠饰比喻，不是天象占验；固定源作秀莹，保留原字，不自动改为琇莹。",
+      "phoneticReview": {
+        "reviewedLanguage": "普通话",
+        "manualJudgement": "未发现该名在中性张姓夹具下的明显不雅固定谐音；实际软件过滤与父母避字结果另见generationCheck。",
+        "specialNote": "仍需按用户实际姓氏、父母姓名和家庭语言逐案重跑。",
+        "notAClaimOfAllSurnamesOrDialects": true
+      },
+      "notExistingName": true,
+      "noCharacterOrDefaultPronunciationExpansion": true,
+      "generationCheck": {
+        "name": "如星",
+        "acceptedByActualCurrentEvaluator": true,
+        "pinyin": "zhāng rú xīng",
+        "neutralSurname": "张",
+        "actualWarnings": [
+          "如：本表按字典中文义项与 Unicode 字形字段核对；仍需结合全名检查谐音。",
+          "星：本表按字典中文义项与 Unicode 字形字段核对；仍需结合全名检查谐音。"
+        ],
+        "noNewCitationBeforeAdoption": true,
+        "parentFixture": {
+          "fatherName": "张知远",
+          "motherName": "陈安宁",
+          "accepted": true
+        },
+        "conflictFixture": {
+          "fatherName": "张如远",
+          "motherName": "陈安宁",
+          "accepted": false,
+          "reason": "Given-name character overlaps father; existing avoidParentNames gate."
+        },
+        "scope": "Actual evaluateName for fixed neutral surname/prefs only. Not proof of all surnames/dialects or automatic inclusion among top ranked suggestions."
+      }
+    },
+    {
+      "name": "有仪",
+      "proposedRuleId": "naming-v5-proposal-shijing-176-1-67094eea",
+      "status": "source-and-default-reading-reviewed; awaiting-product-version-adoption",
+      "extraction": "continuous",
+      "excerpt": "既见君子，乐且有仪",
+      "citation": {
+        "id": "shijing-176-1",
+        "title": "诗经",
+        "chapter": "小雅·南有嘉鱼之什·菁菁者莪 第1章",
+        "text": "菁菁者莪，在彼中阿。既见君子，乐且有仪。",
+        "sourceId": "shijing"
+      },
+      "sourceMeaning": "相见而喜乐，仍有得体的举止礼仪；下文重复写见君子后的喜、休。",
+      "projectWish": "愿孩子自然开朗、待人有礼。",
+      "proposedContext": "相见而喜乐，仍有得体的举止礼仪；下文重复写见君子后的喜、休。 家庭期许属于项目原创引申。保留见君子的相聚语境，不将礼仪等同外貌或服从。",
+      "proposedMeaning": "愿孩子自然开朗、待人有礼。（项目原创家庭期许；原文选义：相见而喜乐，仍有得体的举止礼仪；下文重复写见君子后的喜、休。）",
+      "expectedReadings": [
+        {
+          "char": "有",
+          "pinyin": "yǒu",
+          "tone": 3,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "有",
+          "dictionarySense": "表事實、狀況的正面存在，與「無」相對。",
+          "allDefaultReadingDefinitions": [
+            "表事實、狀況的正面存在，與「無」相對。",
+            "豐足、富裕。",
+            "多，表示時間久或年齡大。",
+            "故意。",
+            "置於名詞前，作音節的襯字。",
+            "某，表示不確定。",
+            "姓。如漢代有有祿。"
+          ],
+          "datasetEntrySha256": "4486537af65219b50243c4ba69a54abd8f4ffb3d208a3705627b383f753fba9c",
+          "rawDictionary": {
+            "file": "data/raw/moe-revised.json.gz",
+            "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "title": "有",
+            "heteronymIndexZeroBased": 0,
+            "rawPinyin": "yǒu",
+            "pinyin": "yǒu",
+            "pinyinNormalization": "Existing builder removes parenthesized 讀音/語音 labels only; original rawPinyin retained.",
+            "definitionIndexZeroBased": 0,
+            "definitionVerbatim": true
+          }
+        },
+        {
+          "char": "仪",
+          "pinyin": "yí",
+          "tone": 2,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "儀",
+          "dictionarySense": "舉止容貌。",
+          "allDefaultReadingDefinitions": [
+            "法則、標準。",
+            "典範、表率。",
+            "禮節、程序、形式。",
+            "舉止容貌。",
+            "禮物。",
+            "儀器的簡稱。",
+            "嚮往、仰慕。",
+            "效法。",
+            "匹配。"
+          ],
+          "datasetEntrySha256": "e77816da3f088f389bc332734b6f42c470a3bf0f6cbd2f21c662ee083222f811",
+          "rawDictionary": {
+            "file": "data/raw/moe-revised.json.gz",
+            "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "title": "儀",
+            "heteronymIndexZeroBased": 0,
+            "rawPinyin": "yí",
+            "pinyin": "yí",
+            "pinyinNormalization": "Existing builder removes parenthesized 讀音/語音 labels only; original rawPinyin retained.",
+            "definitionIndexZeroBased": 3,
+            "definitionVerbatim": true
+          }
+        }
+      ],
+      "wholeContext": {
+        "kind": "complete-fixed-source-poem",
+        "file": "data/raw/shijing.json",
+        "fileSha256": "3c7ca54d59424542ada99adfcc85420287fbbd5c8a511e9baf705cb2b04051e7",
+        "jsonPointer": "/175/content/0",
+        "poemIndexOneBased": 176,
+        "title": "菁菁者莪",
+        "chapter": "小雅",
+        "section": "南有嘉鱼之什",
+        "content": [
+          "菁菁者莪，在彼中阿。既见君子，乐且有仪。",
+          "菁菁者莪，在彼中沚。既见君子，我心则喜。",
+          "菁菁者莪，在彼中陵。既见君子，锡我百朋。",
+          "泛泛杨舟，载沉载浮。既见君子，我心则休。"
+        ],
+        "matchedBlockIndexOneBased": 1,
+        "matchingBlockExact": true,
+        "transcriptSha256": "84c0d5fa7053b08887865ded98bb5130ae98302a981977033f159542c36b2c98",
+        "transcriptEncoding": "UTF8 newline-join of the untouched source content strings, not the original JSON physical-byte hash.",
+        "quality": [
+          "固定仓库文本未经影印校勘；保留上游字形。",
+          "content数组分块可能不同于其他版本章次；引用五字段仍保持当前固定dataset身份，不擅改标准章数。"
+        ]
+      },
+      "reviewBoundary": "保留见君子的相聚语境，不将礼仪等同外貌或服从。",
+      "phoneticReview": {
+        "reviewedLanguage": "普通话",
+        "manualJudgement": "未发现该名在中性张姓夹具下的明显不雅固定谐音；实际软件过滤与父母避字结果另见generationCheck。",
+        "specialNote": "仍需按用户实际姓氏、父母姓名和家庭语言逐案重跑。",
+        "notAClaimOfAllSurnamesOrDialects": true
+      },
+      "notExistingName": true,
+      "noCharacterOrDefaultPronunciationExpansion": true,
+      "generationCheck": {
+        "name": "有仪",
+        "acceptedByActualCurrentEvaluator": true,
+        "pinyin": "zhāng yǒu yí",
+        "neutralSurname": "张",
+        "actualWarnings": [
+          "有：多音字：本方案采用 yǒu，请按姓名用法确认；各读音义项分别保存。",
+          "仪：繁体对应“儀”，简繁与异体须按户籍用字确认。 Unicode 记有多个简繁对应：仪、儀，请按实际字义确认。",
+          "有为多音字，本方案读 yǒu；解释仅采用对应读音义项。",
+          "有尚未建立命名适用义，请起名师审阅；不直接拼接字典首义。",
+          "仪尚未建立命名适用义，请起名师审阅；不直接拼接字典首义。"
+        ],
+        "noNewCitationBeforeAdoption": true,
+        "parentFixture": {
+          "fatherName": "张知远",
+          "motherName": "陈安宁",
+          "accepted": true
+        },
+        "conflictFixture": {
+          "fatherName": "张有远",
+          "motherName": "陈安宁",
+          "accepted": false,
+          "reason": "Given-name character overlaps father; existing avoidParentNames gate."
+        },
+        "scope": "Actual evaluateName for fixed neutral surname/prefs only. Not proof of all surnames/dialects or automatic inclusion among top ranked suggestions."
+      }
+    },
+    {
+      "name": "乐仪",
+      "proposedRuleId": "naming-v5-proposal-shijing-176-1-4e504eea",
+      "status": "source-and-default-reading-reviewed; awaiting-product-version-adoption",
+      "extraction": "recombined",
+      "excerpt": "既见君子，乐且有仪",
+      "citation": {
+        "id": "shijing-176-1",
+        "title": "诗经",
+        "chapter": "小雅·南有嘉鱼之什·菁菁者莪 第1章",
+        "text": "菁菁者莪，在彼中阿。既见君子，乐且有仪。",
+        "sourceId": "shijing"
+      },
+      "sourceMeaning": "由乐且有仪选乐、仪重组；乐在句中取喜悦，仪取得体举止。",
+      "projectWish": "愿孩子喜乐有度、待人从容有礼。",
+      "proposedContext": "由乐且有仪选乐、仪重组；乐在句中取喜悦，仪取得体举止。 本名是同一句选字重组，并非原文连续二字。 家庭期许属于项目原创引申。非原文连续词；乐限定lè，不能以yuè音乐义复用本解释。",
+      "proposedMeaning": "愿孩子喜乐有度、待人从容有礼。（项目原创家庭期许；原文选义：由乐且有仪选乐、仪重组；乐在句中取喜悦，仪取得体举止。）",
+      "expectedReadings": [
+        {
+          "char": "乐",
+          "pinyin": "lè",
+          "tone": 4,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "樂",
+          "dictionarySense": "歡喜、愉悅。",
+          "allDefaultReadingDefinitions": [
+            "歡喜、愉悅。",
+            "快樂的事或態度。",
+            "聲色情事。",
+            "笑。",
+            "喜愛。"
+          ],
+          "datasetEntrySha256": "2aec9a6503f9c4f4af7f899816bf84630ca92e5035501936863581192d33eb3b",
+          "rawDictionary": {
+            "file": "data/raw/moe-revised.json.gz",
+            "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "title": "樂",
+            "heteronymIndexZeroBased": 2,
+            "rawPinyin": "lè",
+            "pinyin": "lè",
+            "pinyinNormalization": "Existing builder removes parenthesized 讀音/語音 labels only; original rawPinyin retained.",
+            "definitionIndexZeroBased": 0,
+            "definitionVerbatim": true
+          }
+        },
+        {
+          "char": "仪",
+          "pinyin": "yí",
+          "tone": 2,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "儀",
+          "dictionarySense": "舉止容貌。",
+          "allDefaultReadingDefinitions": [
+            "法則、標準。",
+            "典範、表率。",
+            "禮節、程序、形式。",
+            "舉止容貌。",
+            "禮物。",
+            "儀器的簡稱。",
+            "嚮往、仰慕。",
+            "效法。",
+            "匹配。"
+          ],
+          "datasetEntrySha256": "e77816da3f088f389bc332734b6f42c470a3bf0f6cbd2f21c662ee083222f811",
+          "rawDictionary": {
+            "file": "data/raw/moe-revised.json.gz",
+            "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "title": "儀",
+            "heteronymIndexZeroBased": 0,
+            "rawPinyin": "yí",
+            "pinyin": "yí",
+            "pinyinNormalization": "Existing builder removes parenthesized 讀音/語音 labels only; original rawPinyin retained.",
+            "definitionIndexZeroBased": 3,
+            "definitionVerbatim": true
+          }
+        }
+      ],
+      "wholeContext": {
+        "kind": "complete-fixed-source-poem",
+        "file": "data/raw/shijing.json",
+        "fileSha256": "3c7ca54d59424542ada99adfcc85420287fbbd5c8a511e9baf705cb2b04051e7",
+        "jsonPointer": "/175/content/0",
+        "poemIndexOneBased": 176,
+        "title": "菁菁者莪",
+        "chapter": "小雅",
+        "section": "南有嘉鱼之什",
+        "content": [
+          "菁菁者莪，在彼中阿。既见君子，乐且有仪。",
+          "菁菁者莪，在彼中沚。既见君子，我心则喜。",
+          "菁菁者莪，在彼中陵。既见君子，锡我百朋。",
+          "泛泛杨舟，载沉载浮。既见君子，我心则休。"
+        ],
+        "matchedBlockIndexOneBased": 1,
+        "matchingBlockExact": true,
+        "transcriptSha256": "84c0d5fa7053b08887865ded98bb5130ae98302a981977033f159542c36b2c98",
+        "transcriptEncoding": "UTF8 newline-join of the untouched source content strings, not the original JSON physical-byte hash.",
+        "quality": [
+          "固定仓库文本未经影印校勘；保留上游字形。",
+          "content数组分块可能不同于其他版本章次；引用五字段仍保持当前固定dataset身份，不擅改标准章数。"
+        ]
+      },
+      "reviewBoundary": "非原文连续词；乐限定lè，不能以yuè音乐义复用本解释。",
+      "phoneticReview": {
+        "reviewedLanguage": "普通话",
+        "manualJudgement": "未发现该名在中性张姓夹具下的明显不雅固定谐音；实际软件过滤与父母避字结果另见generationCheck。",
+        "specialNote": "仍需按用户实际姓氏、父母姓名和家庭语言逐案重跑。",
+        "notAClaimOfAllSurnamesOrDialects": true
+      },
+      "notExistingName": true,
+      "noCharacterOrDefaultPronunciationExpansion": true,
+      "generationCheck": {
+        "name": "乐仪",
+        "acceptedByActualCurrentEvaluator": true,
+        "pinyin": "zhāng lè yí",
+        "neutralSurname": "张",
+        "actualWarnings": [
+          "乐：多音字：本方案采用 lè，请按姓名用法确认；各读音义项分别保存。 繁体对应“樂”，简繁与异体须按户籍用字确认。 Unicode 记有多个简繁对应：乐、樂，请按实际字义确认。",
+          "仪：繁体对应“儀”，简繁与异体须按户籍用字确认。 Unicode 记有多个简繁对应：仪、儀，请按实际字义确认。",
+          "乐为多音字，本方案读 lè；解释仅采用对应读音义项。",
+          "仪尚未建立命名适用义，请起名师审阅；不直接拼接字典首义。"
+        ],
+        "noNewCitationBeforeAdoption": true,
+        "parentFixture": {
+          "fatherName": "张知远",
+          "motherName": "陈安宁",
+          "accepted": true
+        },
+        "conflictFixture": {
+          "fatherName": "张乐远",
+          "motherName": "陈安宁",
+          "accepted": false,
+          "reason": "Given-name character overlaps father; existing avoidParentNames gate."
+        },
+        "scope": "Actual evaluateName for fixed neutral surname/prefs only. Not proof of all surnames/dialects or automatic inclusion among top ranked suggestions."
+      }
+    },
+    {
+      "name": "敬明",
+      "proposedRuleId": "naming-v5-proposal-shijing-299-4-656c660e",
+      "status": "source-and-default-reading-reviewed; awaiting-product-version-adoption",
+      "extraction": "continuous",
+      "excerpt": "穆穆鲁侯，敬明其德",
+      "citation": {
+        "id": "shijing-299-4",
+        "title": "诗经",
+        "chapter": "鲁颂·駉之什·泮水 第4章",
+        "text": "穆穆鲁侯，敬明其德。敬慎威仪，维民之则。允文允武，昭假烈祖。靡有不孝，自求伊祜。",
+        "sourceId": "shijing"
+      },
+      "sourceMeaning": "诗中称写鲁侯敬慎昭明其德；上下文并及威仪、文武与祭祖。",
+      "projectWish": "愿孩子敬慎修身、明白处事。",
+      "proposedContext": "诗中称写鲁侯敬慎昭明其德；上下文并及威仪、文武与祭祖。 家庭期许属于项目原创引申。不将鲁侯政治、军事身份移给孩子，不把明只当亮光。",
+      "proposedMeaning": "愿孩子敬慎修身、明白处事。（项目原创家庭期许；原文选义：诗中称写鲁侯敬慎昭明其德；上下文并及威仪、文武与祭祖。）",
+      "expectedReadings": [
+        {
+          "char": "敬",
+          "pinyin": "jìng",
+          "tone": 4,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "敬",
+          "dictionarySense": "慎重、恭敬。",
+          "allDefaultReadingDefinitions": [
+            "尊重。",
+            "有禮貌的獻上。",
+            "慎重、恭敬。",
+            "恭肅。",
+            "表示敬意、謝意或祝賀之意的禮物。",
+            "姓。如唐代有敬元禮。"
+          ],
+          "datasetEntrySha256": "5468c2b7f373ca26cb0f73023e10183505f0be66a8a5b80de77e72f24d41a77b",
+          "rawDictionary": {
+            "file": "data/raw/moe-revised.json.gz",
+            "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "title": "敬",
+            "heteronymIndexZeroBased": 0,
+            "rawPinyin": "jìng",
+            "pinyin": "jìng",
+            "pinyinNormalization": "Existing builder removes parenthesized 讀音/語音 labels only; original rawPinyin retained.",
+            "definitionIndexZeroBased": 2,
+            "definitionVerbatim": true
+          }
+        },
+        {
+          "char": "明",
+          "pinyin": "míng",
+          "tone": 2,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "明",
+          "dictionarySense": "昭示、彰顯。",
+          "allDefaultReadingDefinitions": [
+            "通曉。",
+            "使通曉。",
+            "昭示、彰顯。",
+            "發亮。",
+            "光亮的。",
+            "清晰的。",
+            "聰慧、悟性很高。",
+            "公開的、顯露的。",
+            "才德高顯的。",
+            "磊落的。",
+            "乾淨、整潔。",
+            "顯著的。",
+            "時序在後的。",
+            "視覺、目力。",
+            "陽。相對於「陰」。",
+            "神靈。",
+            "朝代名。參見「明朝」條。",
+            "姓。如清代有明耀光。"
+          ],
+          "datasetEntrySha256": "25fe273c29dabf6588a28b3bb04d90dc660a8f4102707ac199038cb4d0331475",
+          "rawDictionary": {
+            "file": "data/raw/moe-revised.json.gz",
+            "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "title": "明",
+            "heteronymIndexZeroBased": 0,
+            "rawPinyin": "míng",
+            "pinyin": "míng",
+            "pinyinNormalization": "Existing builder removes parenthesized 讀音/語音 labels only; original rawPinyin retained.",
+            "definitionIndexZeroBased": 2,
+            "definitionVerbatim": true
+          }
+        }
+      ],
+      "wholeContext": {
+        "kind": "complete-fixed-source-poem",
+        "file": "data/raw/shijing.json",
+        "fileSha256": "3c7ca54d59424542ada99adfcc85420287fbbd5c8a511e9baf705cb2b04051e7",
+        "jsonPointer": "/298/content/3",
+        "poemIndexOneBased": 299,
+        "title": "泮水",
+        "chapter": "鲁颂",
+        "section": "駉之什",
+        "content": [
+          "思乐泮水，薄采其芹。鲁侯戾止，言观其旂。其旂茷茷，鸾声哕哕。无小无大，从公于迈。",
+          "思乐泮水，薄采其藻。鲁侯戾止，其马蹻蹻。其马蹻蹻，其音昭昭。载色载笑，匪怒伊教。",
+          "思乐泮水，薄采其茆。鲁侯戾止，在泮饮酒。既饮旨酒，永锡难老。顺彼长道，屈此群丑。",
+          "穆穆鲁侯，敬明其德。敬慎威仪，维民之则。允文允武，昭假烈祖。靡有不孝，自求伊祜。",
+          "明明鲁侯，克明其德。既作泮宫，淮夷攸服。矫矫虎臣，在泮献馘。淑问如皋陶，在泮献囚。",
+          "济济多士，克广德心。桓桓于征，狄彼东南。烝烝皇皇，不吴不扬。不告于訩，在泮献功。",
+          "角弓其觩。束矢其搜。戎车孔博。徒御无斁。既克淮夷，孔淑不逆。式固尔犹，淮夷卒获。",
+          "翩彼飞鸮，集于泮林。食我桑黮，怀我好音。憬彼淮夷，来献其琛。元龟象齿，大赂南金。"
+        ],
+        "matchedBlockIndexOneBased": 4,
+        "matchingBlockExact": true,
+        "transcriptSha256": "644726b1c81d188c867ca919da01d571119164779340bb215ac40c2d1a24d255",
+        "transcriptEncoding": "UTF8 newline-join of the untouched source content strings, not the original JSON physical-byte hash.",
+        "quality": [
+          "固定仓库文本未经影印校勘；保留上游字形。",
+          "content数组分块可能不同于其他版本章次；引用五字段仍保持当前固定dataset身份，不擅改标准章数。"
+        ]
+      },
+      "reviewBoundary": "不将鲁侯政治、军事身份移给孩子，不把明只当亮光。",
+      "phoneticReview": {
+        "reviewedLanguage": "普通话",
+        "manualJudgement": "未发现该名在中性张姓夹具下的明显不雅固定谐音；实际软件过滤与父母避字结果另见generationCheck。",
+        "specialNote": "仍需按用户实际姓氏、父母姓名和家庭语言逐案重跑。",
+        "notAClaimOfAllSurnamesOrDialects": true
+      },
+      "notExistingName": true,
+      "noCharacterOrDefaultPronunciationExpansion": true,
+      "generationCheck": {
+        "name": "敬明",
+        "acceptedByActualCurrentEvaluator": true,
+        "pinyin": "zhāng jìng míng",
+        "neutralSurname": "张",
+        "actualWarnings": [
+          "敬：本表按字典中文义项与 Unicode 字形字段核对；仍需结合全名检查谐音。",
+          "明：本表按字典中文义项与 Unicode 字形字段核对；仍需结合全名检查谐音。"
+        ],
+        "noNewCitationBeforeAdoption": true,
+        "parentFixture": {
+          "fatherName": "张知远",
+          "motherName": "陈安宁",
+          "accepted": true
+        },
+        "conflictFixture": {
+          "fatherName": "张敬远",
+          "motherName": "陈安宁",
+          "accepted": false,
+          "reason": "Given-name character overlaps father; existing avoidParentNames gate."
+        },
+        "scope": "Actual evaluateName for fixed neutral surname/prefs only. Not proof of all surnames/dialects or automatic inclusion among top ranked suggestions."
+      }
+    },
+    {
+      "name": "敬慎",
+      "proposedRuleId": "naming-v5-proposal-shijing-256-3-656c614e",
+      "status": "source-and-default-reading-reviewed; awaiting-product-version-adoption",
+      "extraction": "continuous",
+      "excerpt": "敬慎威仪，维民之则",
+      "citation": {
+        "id": "shijing-256-3",
+        "title": "诗经",
+        "chapter": "大雅·荡之什·抑 第3章",
+        "text": "訏谟定命，远犹辰告。敬慎威仪，维民之则。其在于今，兴迷乱于政。",
+        "sourceId": "shijing"
+      },
+      "sourceMeaning": "抑是告诫、劝戒的语境，要求敬慎举止；下文批评政事迷乱。",
+      "projectWish": "愿孩子谨言慎行、尊重他人。",
+      "proposedContext": "抑是告诫、劝戒的语境，要求敬慎举止；下文批评政事迷乱。 家庭期许属于项目原创引申。不隐去后文批评而称整篇歌颂太平；不以谨慎标签断言孩子心理特征。",
+      "proposedMeaning": "愿孩子谨言慎行、尊重他人。（项目原创家庭期许；原文选义：抑是告诫、劝戒的语境，要求敬慎举止；下文批评政事迷乱。）",
+      "expectedReadings": [
+        {
+          "char": "敬",
+          "pinyin": "jìng",
+          "tone": 4,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "敬",
+          "dictionarySense": "慎重、恭敬。",
+          "allDefaultReadingDefinitions": [
+            "尊重。",
+            "有禮貌的獻上。",
+            "慎重、恭敬。",
+            "恭肅。",
+            "表示敬意、謝意或祝賀之意的禮物。",
+            "姓。如唐代有敬元禮。"
+          ],
+          "datasetEntrySha256": "5468c2b7f373ca26cb0f73023e10183505f0be66a8a5b80de77e72f24d41a77b",
+          "rawDictionary": {
+            "file": "data/raw/moe-revised.json.gz",
+            "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "title": "敬",
+            "heteronymIndexZeroBased": 0,
+            "rawPinyin": "jìng",
+            "pinyin": "jìng",
+            "pinyinNormalization": "Existing builder removes parenthesized 讀音/語音 labels only; original rawPinyin retained.",
+            "definitionIndexZeroBased": 2,
+            "definitionVerbatim": true
+          }
+        },
+        {
+          "char": "慎",
+          "pinyin": "shèn",
+          "tone": 4,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "慎",
+          "dictionarySense": "小心。",
+          "allDefaultReadingDefinitions": [
+            "小心。",
+            "重視。",
+            "與「勿」、「無」、「毋」等連用，表示吩咐告誡的話。",
+            "姓。如晉代有慎修。"
+          ],
+          "datasetEntrySha256": "7f603f2934309c67df5f32489de1170d568ced8511ef045735e38b38e3bd28cf",
+          "rawDictionary": {
+            "file": "data/raw/moe-revised.json.gz",
+            "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "title": "慎",
+            "heteronymIndexZeroBased": 0,
+            "rawPinyin": "shèn",
+            "pinyin": "shèn",
+            "pinyinNormalization": "Existing builder removes parenthesized 讀音/語音 labels only; original rawPinyin retained.",
+            "definitionIndexZeroBased": 0,
+            "definitionVerbatim": true
+          }
+        }
+      ],
+      "wholeContext": {
+        "kind": "complete-fixed-source-poem",
+        "file": "data/raw/shijing.json",
+        "fileSha256": "3c7ca54d59424542ada99adfcc85420287fbbd5c8a511e9baf705cb2b04051e7",
+        "jsonPointer": "/255/content/2",
+        "poemIndexOneBased": 256,
+        "title": "抑",
+        "chapter": "大雅",
+        "section": "荡之什",
+        "content": [
+          "抑抑威仪，维德之隅。人亦有言：靡哲不愚，庶人之愚，亦职维疾。",
+          "哲人之愚，亦维斯戾。无竞维人，四方其训之。有觉德行，四国顺之。",
+          "訏谟定命，远犹辰告。敬慎威仪，维民之则。其在于今，兴迷乱于政。",
+          "颠覆厥德，荒湛于酒。女虽湛乐从，弗念厥绍。罔敷求先王，克共明刑。",
+          "四皇天弗尚，如彼泉流，无沦胥以亡。夙兴夜寐，洒扫庭内，维民之章。",
+          "修尔车马，弓矢戎兵，用戒戎作，用逷蛮方。质尔人民，谨尔侯度，用戒不虞。",
+          "慎尔出话，敬尔威仪，无不柔嘉。白圭之玷，尚可磨也；斯言之玷，不可为也！",
+          "无易由言，无曰苟矣，莫扪朕舌，言不可逝矣。无言不仇，无德不报。",
+          "惠于朋友，庶民小子。子孙绳绳，万民靡不承。视尔友君子，辑柔尔颜，不遐有愆。",
+          "相在尔室，尚不愧于屋漏。无曰不显，莫予云觏。神之格思，不可度思，矧可射思！",
+          "辟尔为德，俾臧俾嘉。淑慎尔止，不愆于仪。不僭不贼，鲜不为则。投我以桃，报之以李。",
+          "彼童而角，实虹小子。荏染柔木，言缗之丝。温温恭人，维德之基。",
+          "其维哲人，告之话言，顺德之行。其维愚人，覆谓我僭。民各有心。",
+          "于乎小子，未知臧否。匪手携之，言示之事。匪面命之，言提其耳。",
+          "借曰未知，亦既抱子。民之靡盈，谁夙知而莫成？昊天孔昭，我生靡乐。",
+          "视尔梦梦，我心惨惨。诲尔谆谆，听我藐藐。匪用为教，覆用为虐。",
+          "借曰未知，亦聿既耄。于乎，小子，告尔旧止。听用我谋，庶无大悔。",
+          "天方艰难，曰丧厥国。取譬不远，昊天不忒。回遹其德，俾民大棘。"
+        ],
+        "matchedBlockIndexOneBased": 3,
+        "matchingBlockExact": true,
+        "transcriptSha256": "1c0a4c3464ab167d768a887b88f6ac371b17683ab6417b2ce97049b6814a74f6",
+        "transcriptEncoding": "UTF8 newline-join of the untouched source content strings, not the original JSON physical-byte hash.",
+        "quality": [
+          "固定仓库文本未经影印校勘；保留上游字形。",
+          "content数组分块可能不同于其他版本章次；引用五字段仍保持当前固定dataset身份，不擅改标准章数。"
+        ]
+      },
+      "reviewBoundary": "不隐去后文批评而称整篇歌颂太平；不以谨慎标签断言孩子心理特征。",
+      "phoneticReview": {
+        "reviewedLanguage": "普通话",
+        "manualJudgement": "未发现该名在中性张姓夹具下的明显不雅固定谐音；实际软件过滤与父母避字结果另见generationCheck。",
+        "specialNote": "仍需按用户实际姓氏、父母姓名和家庭语言逐案重跑。",
+        "notAClaimOfAllSurnamesOrDialects": true
+      },
+      "notExistingName": true,
+      "noCharacterOrDefaultPronunciationExpansion": true,
+      "generationCheck": {
+        "name": "敬慎",
+        "acceptedByActualCurrentEvaluator": true,
+        "pinyin": "zhāng jìng shèn",
+        "neutralSurname": "张",
+        "actualWarnings": [
+          "敬：本表按字典中文义项与 Unicode 字形字段核对；仍需结合全名检查谐音。",
+          "慎：本表按字典中文义项与 Unicode 字形字段核对；仍需结合全名检查谐音。",
+          "全名相邻音节存在同调，建议连读确认节奏；同调不是命名禁忌。",
+          "辨识感来自用字意象与组合的主观建议；没有人口统计数据，不表示低重名率。"
+        ],
+        "noNewCitationBeforeAdoption": true,
+        "parentFixture": {
+          "fatherName": "张知远",
+          "motherName": "陈安宁",
+          "accepted": true
+        },
+        "conflictFixture": {
+          "fatherName": "张敬远",
+          "motherName": "陈安宁",
+          "accepted": false,
+          "reason": "Given-name character overlaps father; existing avoidParentNames gate."
+        },
+        "scope": "Actual evaluateName for fixed neutral surname/prefs only. Not proof of all surnames/dialects or automatic inclusion among top ranked suggestions."
+      },
+      "compoundEvidence": {
+        "file": "data/raw/moe-revised.json.gz",
+        "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "entry": {
+          "heteronyms": [
+            {
+              "bopomofo": "ㄐㄧㄥˋ　ㄕㄣˋ",
+              "definitions": [
+                {
+                  "def": "恭敬而戒慎小心。",
+                  "example": [
+                    "如：「為人要寬和，做事要敬慎。」"
+                  ],
+                  "quote": [
+                    "《元史．卷三○．泰定帝本紀二》：「亦冀陛下敬慎修德，憫恤生民。」"
+                  ],
+                  "synonyms": "恪慎"
+                }
+              ],
+              "pinyin": "jìng shèn"
+            }
+          ],
+          "title": "敬慎"
+        },
+        "rawEntryIndex": 68259
+      }
+    },
+    {
+      "name": "有成",
+      "proposedRuleId": "naming-v5-proposal-shijing-227-5-67096210",
+      "status": "source-and-default-reading-reviewed; awaiting-product-version-adoption",
+      "extraction": "continuous",
+      "excerpt": "召伯有成，王心则宁",
+      "citation": {
+        "id": "shijing-227-5",
+        "title": "诗经",
+        "chapter": "小雅·鱼藻之什·黍苗 第5章",
+        "text": "原隰既平，泉流既清。召伯有成，王心则宁。",
+        "sourceId": "shijing"
+      },
+      "sourceMeaning": "前文写营建、劳作和整治，末段称召伯工作有所完成。",
+      "projectWish": "愿孩子踏实做事、重视完成与积累。",
+      "proposedContext": "前文写营建、劳作和整治，末段称召伯工作有所完成。 家庭期许属于项目原创引申。取做事有成的家庭期许，不保证成功、功业或官位。",
+      "proposedMeaning": "愿孩子踏实做事、重视完成与积累。（项目原创家庭期许；原文选义：前文写营建、劳作和整治，末段称召伯工作有所完成。）",
+      "expectedReadings": [
+        {
+          "char": "有",
+          "pinyin": "yǒu",
+          "tone": 3,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "有",
+          "dictionarySense": "表事實、狀況的正面存在，與「無」相對。",
+          "allDefaultReadingDefinitions": [
+            "表事實、狀況的正面存在，與「無」相對。",
+            "豐足、富裕。",
+            "多，表示時間久或年齡大。",
+            "故意。",
+            "置於名詞前，作音節的襯字。",
+            "某，表示不確定。",
+            "姓。如漢代有有祿。"
+          ],
+          "datasetEntrySha256": "4486537af65219b50243c4ba69a54abd8f4ffb3d208a3705627b383f753fba9c",
+          "rawDictionary": {
+            "file": "data/raw/moe-revised.json.gz",
+            "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "title": "有",
+            "heteronymIndexZeroBased": 0,
+            "rawPinyin": "yǒu",
+            "pinyin": "yǒu",
+            "pinyinNormalization": "Existing builder removes parenthesized 讀音/語音 labels only; original rawPinyin retained.",
+            "definitionIndexZeroBased": 0,
+            "definitionVerbatim": true
+          }
+        },
+        {
+          "char": "成",
+          "pinyin": "chéng",
+          "tone": 2,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "成",
+          "dictionarySense": "做好事情。",
+          "allDefaultReadingDefinitions": [
+            "做好事情。",
+            "變為。",
+            "達到。",
+            "促成。",
+            "可以。",
+            "量詞。計算十等分概念的單位。",
+            "古代十里平方的土地。",
+            "現有的一切。",
+            "姓。如漢代有成瑨。",
+            "完整的。",
+            "現有的、舊有的。",
+            "構成整體的。"
+          ],
+          "datasetEntrySha256": "4911a657f39b24aa61b4d7cfc53b4ac9243fd1f6c2893790796012e024f6d14c",
+          "rawDictionary": {
+            "file": "data/raw/moe-revised.json.gz",
+            "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "title": "成",
+            "heteronymIndexZeroBased": 0,
+            "rawPinyin": "chéng",
+            "pinyin": "chéng",
+            "pinyinNormalization": "Existing builder removes parenthesized 讀音/語音 labels only; original rawPinyin retained.",
+            "definitionIndexZeroBased": 0,
+            "definitionVerbatim": true
+          }
+        }
+      ],
+      "wholeContext": {
+        "kind": "complete-fixed-source-poem",
+        "file": "data/raw/shijing.json",
+        "fileSha256": "3c7ca54d59424542ada99adfcc85420287fbbd5c8a511e9baf705cb2b04051e7",
+        "jsonPointer": "/226/content/4",
+        "poemIndexOneBased": 227,
+        "title": "黍苗",
+        "chapter": "小雅",
+        "section": "鱼藻之什",
+        "content": [
+          "芃芃黍苗，阴雨膏之。悠悠南行，召伯劳之。",
+          "我任我辇，我车我牛。我行既集，盖云归哉。",
+          "我徒我御，我师我旅。我行既集，盖云归处。",
+          "肃肃谢功，召伯营之。烈烈征师，召伯成之。",
+          "原隰既平，泉流既清。召伯有成，王心则宁。"
+        ],
+        "matchedBlockIndexOneBased": 5,
+        "matchingBlockExact": true,
+        "transcriptSha256": "82ef5e178f6a47cb62355e34c19af52024f35f7485cb112550c9f741ff062ef3",
+        "transcriptEncoding": "UTF8 newline-join of the untouched source content strings, not the original JSON physical-byte hash.",
+        "quality": [
+          "固定仓库文本未经影印校勘；保留上游字形。",
+          "content数组分块可能不同于其他版本章次；引用五字段仍保持当前固定dataset身份，不擅改标准章数。"
+        ]
+      },
+      "reviewBoundary": "取做事有成的家庭期许，不保证成功、功业或官位。",
+      "phoneticReview": {
+        "reviewedLanguage": "普通话",
+        "manualJudgement": "未发现该名在中性张姓夹具下的明显不雅固定谐音；实际软件过滤与父母避字结果另见generationCheck。",
+        "specialNote": "仍需按用户实际姓氏、父母姓名和家庭语言逐案重跑。",
+        "notAClaimOfAllSurnamesOrDialects": true
+      },
+      "notExistingName": true,
+      "noCharacterOrDefaultPronunciationExpansion": true,
+      "generationCheck": {
+        "name": "有成",
+        "acceptedByActualCurrentEvaluator": true,
+        "pinyin": "zhāng yǒu chéng",
+        "neutralSurname": "张",
+        "actualWarnings": [
+          "有：多音字：本方案采用 yǒu，请按姓名用法确认；各读音义项分别保存。",
+          "成：本表按字典中文义项与 Unicode 字形字段核对；仍需结合全名检查谐音。",
+          "有为多音字，本方案读 yǒu；解释仅采用对应读音义项。",
+          "有尚未建立命名适用义，请起名师审阅；不直接拼接字典首义。"
+        ],
+        "noNewCitationBeforeAdoption": true,
+        "parentFixture": {
+          "fatherName": "张知远",
+          "motherName": "陈安宁",
+          "accepted": true
+        },
+        "conflictFixture": {
+          "fatherName": "张有远",
+          "motherName": "陈安宁",
+          "accepted": false,
+          "reason": "Given-name character overlaps father; existing avoidParentNames gate."
+        },
+        "scope": "Actual evaluateName for fixed neutral surname/prefs only. Not proof of all surnames/dialects or automatic inclusion among top ranked suggestions."
+      },
+      "compoundEvidence": {
+        "file": "data/raw/moe-revised.json.gz",
+        "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "entry": {
+          "heteronyms": [
+            {
+              "bopomofo": "ㄧㄡˇ　ㄔㄥˊ",
+              "definitions": [
+                {
+                  "def": "有成效、有收穫。",
+                  "quote": [
+                    "《論語．子路》：「苟有用我者，期月而已可也，三年有成。」",
+                    "《董西廂．卷三》：「如萬一有成，不忘厚德。」"
+                  ]
+                }
+              ],
+              "pinyin": "yǒu chéng"
+            }
+          ],
+          "title": "有成"
+        },
+        "rawEntryIndex": 73348
+      }
+    },
+    {
+      "name": "灼灼",
+      "proposedRuleId": "naming-v5-proposal-shijing-6-1-707c707c",
+      "status": "source-and-default-reading-reviewed; awaiting-product-version-adoption",
+      "extraction": "continuous",
+      "excerpt": "桃之夭夭，灼灼其华",
+      "citation": {
+        "id": "shijing-6-1",
+        "title": "诗经",
+        "chapter": "国风·周南·桃夭 第1章",
+        "text": "桃之夭夭，灼灼其华。之子于归，宜其室家。",
+        "sourceId": "shijing"
+      },
+      "sourceMeaning": "桃夭婚嫁语境中写桃花明艳；灼灼描写花的明亮鲜明。",
+      "projectWish": "借花开明艳的意象，寄望明朗、珍惜生活。",
+      "proposedContext": "桃夭婚嫁语境中写桃花明艳；灼灼描写花的明亮鲜明。 家庭期许属于项目原创引申。不将灼解释成火烧而推五行补火，也不保证婚恋；叠字适配需由家庭选择。",
+      "proposedMeaning": "借花开明艳的意象，寄望明朗、珍惜生活。（项目原创家庭期许；原文选义：桃夭婚嫁语境中写桃花明艳；灼灼描写花的明亮鲜明。）",
+      "expectedReadings": [
+        {
+          "char": "灼",
+          "pinyin": "zhuó",
+          "tone": 2,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "灼",
+          "dictionarySense": "明顯、明亮。",
+          "allDefaultReadingDefinitions": [
+            "炙、燒。",
+            "照耀、照亮。",
+            "明顯、明亮。",
+            "著急、急躁。"
+          ],
+          "datasetEntrySha256": "6057bcc05f8637834977662ef12d2d1299cbb33b77c602c303cfcb27a3d9d9a9",
+          "rawDictionary": {
+            "file": "data/raw/moe-revised.json.gz",
+            "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "title": "灼",
+            "heteronymIndexZeroBased": 0,
+            "rawPinyin": "zhuó",
+            "pinyin": "zhuó",
+            "pinyinNormalization": "Existing builder removes parenthesized 讀音/語音 labels only; original rawPinyin retained.",
+            "definitionIndexZeroBased": 2,
+            "definitionVerbatim": true
+          }
+        },
+        {
+          "char": "灼",
+          "pinyin": "zhuó",
+          "tone": 2,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "灼",
+          "dictionarySense": "明顯、明亮。",
+          "allDefaultReadingDefinitions": [
+            "炙、燒。",
+            "照耀、照亮。",
+            "明顯、明亮。",
+            "著急、急躁。"
+          ],
+          "datasetEntrySha256": "6057bcc05f8637834977662ef12d2d1299cbb33b77c602c303cfcb27a3d9d9a9",
+          "rawDictionary": {
+            "file": "data/raw/moe-revised.json.gz",
+            "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "title": "灼",
+            "heteronymIndexZeroBased": 0,
+            "rawPinyin": "zhuó",
+            "pinyin": "zhuó",
+            "pinyinNormalization": "Existing builder removes parenthesized 讀音/語音 labels only; original rawPinyin retained.",
+            "definitionIndexZeroBased": 2,
+            "definitionVerbatim": true
+          }
+        }
+      ],
+      "wholeContext": {
+        "kind": "complete-fixed-source-poem",
+        "file": "data/raw/shijing.json",
+        "fileSha256": "3c7ca54d59424542ada99adfcc85420287fbbd5c8a511e9baf705cb2b04051e7",
+        "jsonPointer": "/5/content/0",
+        "poemIndexOneBased": 6,
+        "title": "桃夭",
+        "chapter": "国风",
+        "section": "周南",
+        "content": [
+          "桃之夭夭，灼灼其华。之子于归，宜其室家。",
+          "桃之夭夭，有蕡其实。之子于归，宜其家室。",
+          "桃之夭夭，其叶蓁蓁。之子于归，宜其家人。"
+        ],
+        "matchedBlockIndexOneBased": 1,
+        "matchingBlockExact": true,
+        "transcriptSha256": "19c1b7a2c3a68861a7721448c33ab8601cf29d7bc05a1b52604bac476bb998b0",
+        "transcriptEncoding": "UTF8 newline-join of the untouched source content strings, not the original JSON physical-byte hash.",
+        "quality": [
+          "固定仓库文本未经影印校勘；保留上游字形。",
+          "content数组分块可能不同于其他版本章次；引用五字段仍保持当前固定dataset身份，不擅改标准章数。"
+        ]
+      },
+      "reviewBoundary": "不将灼解释成火烧而推五行补火，也不保证婚恋；叠字适配需由家庭选择。",
+      "phoneticReview": {
+        "reviewedLanguage": "普通话",
+        "manualJudgement": "未发现该名在中性张姓夹具下的明显不雅固定谐音；实际软件过滤与父母避字结果另见generationCheck。",
+        "specialNote": "叠字名有重复音节，听写需说明字形；不以此判凶。",
+        "notAClaimOfAllSurnamesOrDialects": true
+      },
+      "notExistingName": true,
+      "noCharacterOrDefaultPronunciationExpansion": true,
+      "generationCheck": {
+        "name": "灼灼",
+        "acceptedByActualCurrentEvaluator": true,
+        "pinyin": "zhāng zhuó zhuó",
+        "neutralSurname": "张",
+        "actualWarnings": [
+          "灼：本表按字典中文义项与 Unicode 字形字段核对；仍需结合全名检查谐音。",
+          "灼尚未建立命名适用义，请起名师审阅；不直接拼接字典首义。",
+          "全名相邻音节存在同调，建议连读确认节奏；同调不是命名禁忌。",
+          "全名相邻音节同音，口头介绍时可能需要补充字形说明。",
+          "使用叠字名，亲切感较强；偏好正式风格时建议同时比较非叠字候选。"
+        ],
+        "noNewCitationBeforeAdoption": true,
+        "parentFixture": {
+          "fatherName": "张知远",
+          "motherName": "陈安宁",
+          "accepted": true
+        },
+        "conflictFixture": {
+          "fatherName": "张灼远",
+          "motherName": "陈安宁",
+          "accepted": false,
+          "reason": "Given-name character overlaps father; existing avoidParentNames gate."
+        },
+        "scope": "Actual evaluateName for fixed neutral surname/prefs only. Not proof of all surnames/dialects or automatic inclusion among top ranked suggestions."
+      },
+      "compoundEvidence": {
+        "file": "data/raw/moe-revised.json.gz",
+        "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "entry": {
+          "heteronyms": [
+            {
+              "bopomofo": "ㄓㄨㄛˊ　ㄓㄨㄛˊ",
+              "definitions": [
+                {
+                  "def": "花茂盛鮮明。",
+                  "quote": [
+                    "《詩經．周南．桃夭》：「桃之夭夭，灼灼其華。」",
+                    "唐．白居易〈秦中吟．買花〉：「灼灼百朵紅，戔戔五束素。」"
+                  ]
+                },
+                {
+                  "def": "明亮。",
+                  "quote": [
+                    "《文選．阮籍．詠懷詩一七首之一四》：「灼灼西隤日，餘光照我衣。」"
+                  ]
+                }
+              ],
+              "pinyin": "zhuó zhuó"
+            }
+          ],
+          "title": "灼灼"
+        },
+        "rawEntryIndex": 91011
+      }
+    },
+    {
+      "name": "青青",
+      "proposedRuleId": "naming-v5-proposal-shijing-91-1-97529752",
+      "status": "source-and-default-reading-reviewed; awaiting-product-version-adoption",
+      "extraction": "continuous",
+      "excerpt": "青青子衿，悠悠我心",
+      "citation": {
+        "id": "shijing-91-1",
+        "title": "诗经",
+        "chapter": "国风·郑风·子衿 第1章",
+        "text": "青青子衿，悠悠我心。纵我不往，子宁不嗣音？",
+        "sourceId": "shijing"
+      },
+      "sourceMeaning": "描写对方衣领的青色，继而写绵长思念；全篇含未见对方的惆怅。",
+      "projectWish": "借青色清新的审美联想，寄望真诚、珍重情谊。",
+      "proposedContext": "描写对方衣领的青色，继而写绵长思念；全篇含未见对方的惆怅。 家庭期许属于项目原创引申。不说原句就是青春、希望或性格开朗；不强行断定固定青色必是哪种现代色号。",
+      "proposedMeaning": "借青色清新的审美联想，寄望真诚、珍重情谊。（项目原创家庭期许；原文选义：描写对方衣领的青色，继而写绵长思念；全篇含未见对方的惆怅。）",
+      "expectedReadings": [
+        {
+          "char": "青",
+          "pinyin": "qīng",
+          "tone": 1,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "青",
+          "dictionarySense": "顏色：(1) 綠色。唐．劉禹錫〈陋室銘〉：「草色入簾青。」(2) 藍色。《荀子．勸學》：「青取之於藍，而青於藍。」(3) 黑色。如：「玄青」。",
+          "allDefaultReadingDefinitions": [
+            "顏色：(1) 綠色。唐．劉禹錫〈陋室銘〉：「草色入簾青。」(2) 藍色。《荀子．勸學》：「青取之於藍，而青於藍。」(3) 黑色。如：「玄青」。",
+            "綠色的草木、山脈。",
+            "竹皮。",
+            "大陸地區青海省的簡稱。",
+            "二一四部首之一。",
+            "綠色的。",
+            "藍色的。",
+            "黑色的。",
+            "年輕的。"
+          ],
+          "datasetEntrySha256": "cb16c2ca2cd2e6b4260bf3041d7db49c73d8057325e5e76beae0d0f42184280b",
+          "rawDictionary": {
+            "file": "data/raw/moe-revised.json.gz",
+            "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "title": "青",
+            "heteronymIndexZeroBased": 0,
+            "rawPinyin": "qīng",
+            "pinyin": "qīng",
+            "pinyinNormalization": "Existing builder removes parenthesized 讀音/語音 labels only; original rawPinyin retained.",
+            "definitionIndexZeroBased": 0,
+            "definitionVerbatim": true
+          }
+        },
+        {
+          "char": "青",
+          "pinyin": "qīng",
+          "tone": 1,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "青",
+          "dictionarySense": "顏色：(1) 綠色。唐．劉禹錫〈陋室銘〉：「草色入簾青。」(2) 藍色。《荀子．勸學》：「青取之於藍，而青於藍。」(3) 黑色。如：「玄青」。",
+          "allDefaultReadingDefinitions": [
+            "顏色：(1) 綠色。唐．劉禹錫〈陋室銘〉：「草色入簾青。」(2) 藍色。《荀子．勸學》：「青取之於藍，而青於藍。」(3) 黑色。如：「玄青」。",
+            "綠色的草木、山脈。",
+            "竹皮。",
+            "大陸地區青海省的簡稱。",
+            "二一四部首之一。",
+            "綠色的。",
+            "藍色的。",
+            "黑色的。",
+            "年輕的。"
+          ],
+          "datasetEntrySha256": "cb16c2ca2cd2e6b4260bf3041d7db49c73d8057325e5e76beae0d0f42184280b",
+          "rawDictionary": {
+            "file": "data/raw/moe-revised.json.gz",
+            "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "title": "青",
+            "heteronymIndexZeroBased": 0,
+            "rawPinyin": "qīng",
+            "pinyin": "qīng",
+            "pinyinNormalization": "Existing builder removes parenthesized 讀音/語音 labels only; original rawPinyin retained.",
+            "definitionIndexZeroBased": 0,
+            "definitionVerbatim": true
+          }
+        }
+      ],
+      "wholeContext": {
+        "kind": "complete-fixed-source-poem",
+        "file": "data/raw/shijing.json",
+        "fileSha256": "3c7ca54d59424542ada99adfcc85420287fbbd5c8a511e9baf705cb2b04051e7",
+        "jsonPointer": "/90/content/0",
+        "poemIndexOneBased": 91,
+        "title": "子衿",
+        "chapter": "国风",
+        "section": "郑风",
+        "content": [
+          "青青子衿，悠悠我心。纵我不往，子宁不嗣音？",
+          "青青子佩，悠悠我思。纵我不往，子宁不来？",
+          "挑兮达兮，在城阙兮。一日不见，如三月兮。"
+        ],
+        "matchedBlockIndexOneBased": 1,
+        "matchingBlockExact": true,
+        "transcriptSha256": "e49b335ee0d35a03f8873281c1e52069eb249ef6ea6f8c0fd35ba85eab55c97c",
+        "transcriptEncoding": "UTF8 newline-join of the untouched source content strings, not the original JSON physical-byte hash.",
+        "quality": [
+          "固定仓库文本未经影印校勘；保留上游字形。",
+          "content数组分块可能不同于其他版本章次；引用五字段仍保持当前固定dataset身份，不擅改标准章数。"
+        ]
+      },
+      "reviewBoundary": "不说原句就是青春、希望或性格开朗；不强行断定固定青色必是哪种现代色号。",
+      "phoneticReview": {
+        "reviewedLanguage": "普通话",
+        "manualJudgement": "未发现该名在中性张姓夹具下的明显不雅固定谐音；实际软件过滤与父母避字结果另见generationCheck。",
+        "specialNote": "叠字名有重复音节，听写需说明字形；不以此判凶。",
+        "notAClaimOfAllSurnamesOrDialects": true
+      },
+      "notExistingName": true,
+      "noCharacterOrDefaultPronunciationExpansion": true,
+      "generationCheck": {
+        "name": "青青",
+        "acceptedByActualCurrentEvaluator": true,
+        "pinyin": "zhāng qīng qīng",
+        "neutralSurname": "张",
+        "actualWarnings": [
+          "青：多音字：本方案采用 qīng，请按姓名用法确认；各读音义项分别保存。",
+          "青为多音字，本方案读 qīng；解释仅采用对应读音义项。",
+          "青尚未建立命名适用义，请起名师审阅；不直接拼接字典首义。",
+          "全名相邻音节存在同调，建议连读确认节奏；同调不是命名禁忌。",
+          "全名相邻音节同音，口头介绍时可能需要补充字形说明。",
+          "使用叠字名，亲切感较强；偏好正式风格时建议同时比较非叠字候选。"
+        ],
+        "noNewCitationBeforeAdoption": true,
+        "parentFixture": {
+          "fatherName": "张知远",
+          "motherName": "陈安宁",
+          "accepted": true
+        },
+        "conflictFixture": {
+          "fatherName": "张青远",
+          "motherName": "陈安宁",
+          "accepted": false,
+          "reason": "Given-name character overlaps father; existing avoidParentNames gate."
+        },
+        "scope": "Actual evaluateName for fixed neutral surname/prefs only. Not proof of all surnames/dialects or automatic inclusion among top ranked suggestions."
+      },
+      "compoundEvidence": {
+        "file": "data/raw/moe-revised.json.gz",
+        "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "entry": {
+          "heteronyms": [
+            {
+              "bopomofo": "ㄑㄧㄥ　ㄑㄧㄥ",
+              "definitions": [
+                {
+                  "def": "形容草木翠綠的顏色。",
+                  "quote": [
+                    "《文選．古詩十九首．青青河邊草》：「青青河邊草，綿綿思遠道  。」",
+                    "《三國演義．第九回》：「千里草，何青青！十日卜，不得生！」"
+                  ]
+                },
+                {
+                  "def": "形容鬢髮烏黑。",
+                  "quote": [
+                    "宋．朱熹〈和秀野蘄簟之句〉詩：「史君兩鬢尚青青，學道仍拋後院笙  。」"
+                  ]
+                }
+              ],
+              "pinyin": "qīng qīng"
+            },
+            {
+              "bopomofo": "ㄐㄧㄥ　ㄐㄧㄥ",
+              "definitions": [
+                {
+                  "def": "草木茂盛的樣子。《詩經．衛風．淇奧》：「瞻彼淇奧，綠竹青青。」宋．范仲淹〈岳陽樓記〉：「岸芷汀蘭，郁郁青青。」也作「菁菁」。"
+                }
+              ],
+              "pinyin": "jīng jīng"
+            }
+          ],
+          "title": "青青"
+        },
+        "rawEntryIndex": 153249
+      }
+    },
+    {
+      "name": "翰飞",
+      "proposedRuleId": "naming-v5-proposal-shijing-196-1-7ff098de",
+      "status": "source-and-default-reading-reviewed; awaiting-product-version-adoption",
+      "extraction": "continuous",
+      "excerpt": "宛彼鸣鸠，翰飞戾天",
+      "citation": {
+        "id": "shijing-196-1",
+        "title": "诗经",
+        "chapter": "小雅·节南山之什·小宛 第1章",
+        "text": "宛彼鸣鸠，翰飞戾天。我心忧伤，念昔先人。明发不寐，有怀二人。",
+        "sourceId": "shijing"
+      },
+      "sourceMeaning": "先写鸣鸠高飞，随即写忧伤念先人；全篇还劝节饮、敬仪、毋忝所生。",
+      "projectWish": "借高飞的动态形象，寄望开阔眼界并自勉。",
+      "proposedContext": "先写鸣鸠高飞，随即写忧伤念先人；全篇还劝节饮、敬仪、毋忝所生。 家庭期许属于项目原创引申。翰取本句高飞义，不改成文章或毛笔；不把全篇忧戒包装成庆功或保证腾达。",
+      "proposedMeaning": "借高飞的动态形象，寄望开阔眼界并自勉。（项目原创家庭期许；原文选义：先写鸣鸠高飞，随即写忧伤念先人；全篇还劝节饮、敬仪、毋忝所生。）",
+      "expectedReadings": [
+        {
+          "char": "翰",
+          "pinyin": "hàn",
+          "tone": 4,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "翰",
+          "dictionarySense": "高飛。",
+          "allDefaultReadingDefinitions": [
+            "一種身上有五彩羽毛的山雞。",
+            "長而堅硬的羽毛。",
+            "毛筆。",
+            "文詞、文章、書信等。",
+            "文才。",
+            "白色的馬。",
+            "棟梁。",
+            "姓。如春秋時曹國有翰胡。",
+            "高飛。"
+          ],
+          "datasetEntrySha256": "bd65820196638b47fb1b6d665adaae075b230dbbde78fbee0ed6b85f6122474d",
+          "rawDictionary": {
+            "file": "data/raw/moe-revised.json.gz",
+            "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "title": "翰",
+            "heteronymIndexZeroBased": 0,
+            "rawPinyin": "hàn",
+            "pinyin": "hàn",
+            "pinyinNormalization": "Existing builder removes parenthesized 讀音/語音 labels only; original rawPinyin retained.",
+            "definitionIndexZeroBased": 8,
+            "definitionVerbatim": true
+          }
+        },
+        {
+          "char": "飞",
+          "pinyin": "fēi",
+          "tone": 1,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "飛",
+          "dictionarySense": "鳥類及昆蟲類或航空機械騰行於空中。",
+          "allDefaultReadingDefinitions": [
+            "鳥類及昆蟲類或航空機械騰行於空中。",
+            "飄揚。",
+            "散發。",
+            "疾速。",
+            "高入空中的。",
+            "沒有根據的。參見「飛語」條。",
+            "意料之外的。參見「飛禍」條。",
+            "疾速的。",
+            "二一四部首之一。"
+          ],
+          "datasetEntrySha256": "b18148177ff25514744e9eb8aa2125493c5d35a68e94767ea26207820196b441",
+          "rawDictionary": {
+            "file": "data/raw/moe-revised.json.gz",
+            "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "title": "飛",
+            "heteronymIndexZeroBased": 0,
+            "rawPinyin": "fēi",
+            "pinyin": "fēi",
+            "pinyinNormalization": "Existing builder removes parenthesized 讀音/語音 labels only; original rawPinyin retained.",
+            "definitionIndexZeroBased": 0,
+            "definitionVerbatim": true
+          }
+        }
+      ],
+      "wholeContext": {
+        "kind": "complete-fixed-source-poem",
+        "file": "data/raw/shijing.json",
+        "fileSha256": "3c7ca54d59424542ada99adfcc85420287fbbd5c8a511e9baf705cb2b04051e7",
+        "jsonPointer": "/195/content/0",
+        "poemIndexOneBased": 196,
+        "title": "小宛",
+        "chapter": "小雅",
+        "section": "节南山之什",
+        "content": [
+          "宛彼鸣鸠，翰飞戾天。我心忧伤，念昔先人。明发不寐，有怀二人。",
+          "人之齐圣，饮酒温克。彼昏不知，一醉日富。各敬尔仪，天命不又。",
+          "中原有菽，庶民采之。螟蛉有子，蜾蠃负之。教诲尔子，式穀似之。",
+          "题彼脊令，载飞载鸣。我日斯迈，而月斯征。夙兴夜寐，毋忝尔所生。",
+          "交交桑扈，率场啄粟。哀我填寡，宜岸宜狱。握粟出卜，自何能穀？",
+          "温温恭人，如集于木。惴惴小心，如临于谷。战战兢兢，如履薄冰。"
+        ],
+        "matchedBlockIndexOneBased": 1,
+        "matchingBlockExact": true,
+        "transcriptSha256": "616d09e9f4fc17101f6285d549d5714d448815753d75b603a1c65c1b929a4bb4",
+        "transcriptEncoding": "UTF8 newline-join of the untouched source content strings, not the original JSON physical-byte hash.",
+        "quality": [
+          "固定仓库文本未经影印校勘；保留上游字形。",
+          "content数组分块可能不同于其他版本章次；引用五字段仍保持当前固定dataset身份，不擅改标准章数。"
+        ]
+      },
+      "reviewBoundary": "翰取本句高飞义，不改成文章或毛笔；不把全篇忧戒包装成庆功或保证腾达。",
+      "phoneticReview": {
+        "reviewedLanguage": "普通话",
+        "manualJudgement": "未发现该名在中性张姓夹具下的明显不雅固定谐音；实际软件过滤与父母避字结果另见generationCheck。",
+        "specialNote": "仍需按用户实际姓氏、父母姓名和家庭语言逐案重跑。",
+        "notAClaimOfAllSurnamesOrDialects": true
+      },
+      "notExistingName": true,
+      "noCharacterOrDefaultPronunciationExpansion": true,
+      "generationCheck": {
+        "name": "翰飞",
+        "acceptedByActualCurrentEvaluator": true,
+        "pinyin": "zhāng hàn fēi",
+        "neutralSurname": "张",
+        "actualWarnings": [
+          "翰：本表按字典中文义项与 Unicode 字形字段核对；仍需结合全名检查谐音。",
+          "飞：繁体对应“飛”，简繁与异体须按户籍用字确认。",
+          "翰尚未建立命名适用义，请起名师审阅；不直接拼接字典首义。",
+          "飞尚未建立命名适用义，请起名师审阅；不直接拼接字典首义。"
+        ],
+        "noNewCitationBeforeAdoption": true,
+        "parentFixture": {
+          "fatherName": "张知远",
+          "motherName": "陈安宁",
+          "accepted": true
+        },
+        "conflictFixture": {
+          "fatherName": "张翰远",
+          "motherName": "陈安宁",
+          "accepted": false,
+          "reason": "Given-name character overlaps father; existing avoidParentNames gate."
+        },
+        "scope": "Actual evaluateName for fixed neutral surname/prefs only. Not proof of all surnames/dialects or automatic inclusion among top ranked suggestions."
+      }
+    },
+    {
+      "name": "令望",
+      "proposedRuleId": "naming-v5-proposal-shijing-252-6-4ee4671b",
+      "status": "source-and-default-reading-reviewed; awaiting-product-version-adoption",
+      "extraction": "continuous",
+      "excerpt": "令闻令望",
+      "citation": {
+        "id": "shijing-252-6",
+        "title": "诗经",
+        "chapter": "大雅·生民之什·卷阿 第6章",
+        "text": "颙颙卬卬，如圭如璋，令闻令望。岂弟君子，四方为纲。",
+        "sourceId": "shijing"
+      },
+      "sourceMeaning": "令望称美好的名望，与如圭如璋等赞写并列。",
+      "projectWish": "愿孩子珍惜声誉，以实在的品行待人。",
+      "proposedContext": "令望称美好的名望，与如圭如璋等赞写并列。 家庭期许属于项目原创引申。望取名望，不说本句是远望或愿望；不保证将来有名。",
+      "proposedMeaning": "愿孩子珍惜声誉，以实在的品行待人。（项目原创家庭期许；原文选义：令望称美好的名望，与如圭如璋等赞写并列。）",
+      "expectedReadings": [
+        {
+          "char": "令",
+          "pinyin": "lìng",
+          "tone": 4,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "令",
+          "dictionarySense": "好的、善的。",
+          "allDefaultReadingDefinitions": [
+            "命令、法令。",
+            "時節。",
+            "詞、曲中小令的簡稱。",
+            "姓。如漢代有令勉。",
+            "發布命令。",
+            "使、讓。",
+            "好的、善的。",
+            "敬辭。用以尊稱他人的親屬或有關係的人，今人都只限用於尊稱對方之親屬或有關係的人。"
+          ],
+          "datasetEntrySha256": "a88e4d013fb5835f99829d274ad3343f193d400fd7c95dede4623e2e71e5d7e4",
+          "rawDictionary": {
+            "file": "data/raw/moe-revised.json.gz",
+            "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "title": "令",
+            "heteronymIndexZeroBased": 0,
+            "rawPinyin": "lìng",
+            "pinyin": "lìng",
+            "pinyinNormalization": "Existing builder removes parenthesized 讀音/語音 labels only; original rawPinyin retained.",
+            "definitionIndexZeroBased": 6,
+            "definitionVerbatim": true
+          }
+        },
+        {
+          "char": "望",
+          "pinyin": "wàng",
+          "tone": 4,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "望",
+          "dictionarySense": "名譽、名聲。",
+          "allDefaultReadingDefinitions": [
+            "向遠處或高處看。",
+            "希冀、期盼。",
+            "拜訪、慰問。",
+            "怨恨、責備。",
+            "將近、接近。",
+            "志願、心願。",
+            "名譽、名聲。",
+            "農曆每月十五日，地球上所看見的滿月月相，後指農曆的每月十五日。",
+            "向、朝。"
+          ],
+          "datasetEntrySha256": "39f625d927f1f9eb8dd16ee85e5111c34efe99c9f6351cf4da3e8f78e39bdd23",
+          "rawDictionary": {
+            "file": "data/raw/moe-revised.json.gz",
+            "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "title": "望",
+            "heteronymIndexZeroBased": 0,
+            "rawPinyin": "wàng",
+            "pinyin": "wàng",
+            "pinyinNormalization": "Existing builder removes parenthesized 讀音/語音 labels only; original rawPinyin retained.",
+            "definitionIndexZeroBased": 6,
+            "definitionVerbatim": true
+          }
+        }
+      ],
+      "wholeContext": {
+        "kind": "complete-fixed-source-poem",
+        "file": "data/raw/shijing.json",
+        "fileSha256": "3c7ca54d59424542ada99adfcc85420287fbbd5c8a511e9baf705cb2b04051e7",
+        "jsonPointer": "/251/content/5",
+        "poemIndexOneBased": 252,
+        "title": "卷阿",
+        "chapter": "大雅",
+        "section": "生民之什",
+        "content": [
+          "有卷者阿，飘风自南。岂弟君子，来游来歌，以矢其音。",
+          "伴奂尔游矣，优游尔休矣。岂弟君子，俾尔弥尔性，似先公酋矣。",
+          "尔土宇昄章，亦孔之厚矣。岂弟君子，俾尔弥尔性，百神尔主矣。",
+          "尔受命长矣，茀禄尔康矣。岂弟君子，俾尔弥尔性，纯嘏尔常矣。",
+          "有冯有翼，有孝有德，以引以翼。岂弟君子，四方为则。",
+          "颙颙卬卬，如圭如璋，令闻令望。岂弟君子，四方为纲。",
+          "凤凰于飞，翙翙其羽，亦集爰止。蔼蔼王多吉士，维君子使，媚于天子。",
+          "凤凰于飞，翙翙其羽，亦傅于天。蔼蔼王多吉人，维君子命，媚于庶人。",
+          "凤凰鸣矣，于彼高冈。梧桐生矣，于彼朝阳。菶菶萋萋，雍雍喈喈。",
+          "君子之车，既庶且多。君子之马，既闲且驰。矢诗不多，维以遂歌。"
+        ],
+        "matchedBlockIndexOneBased": 6,
+        "matchingBlockExact": true,
+        "transcriptSha256": "75cc24d86b6b7859fa2cb8a2b1fe9c29c9e680fb2820a1074ff1dc0d495669a4",
+        "transcriptEncoding": "UTF8 newline-join of the untouched source content strings, not the original JSON physical-byte hash.",
+        "quality": [
+          "固定仓库文本未经影印校勘；保留上游字形。",
+          "content数组分块可能不同于其他版本章次；引用五字段仍保持当前固定dataset身份，不擅改标准章数。"
+        ]
+      },
+      "reviewBoundary": "望取名望，不说本句是远望或愿望；不保证将来有名。",
+      "phoneticReview": {
+        "reviewedLanguage": "普通话",
+        "manualJudgement": "未发现该名在中性张姓夹具下的明显不雅固定谐音；实际软件过滤与父母避字结果另见generationCheck。",
+        "specialNote": "仍需按用户实际姓氏、父母姓名和家庭语言逐案重跑。",
+        "notAClaimOfAllSurnamesOrDialects": true
+      },
+      "notExistingName": true,
+      "noCharacterOrDefaultPronunciationExpansion": true,
+      "generationCheck": {
+        "name": "令望",
+        "acceptedByActualCurrentEvaluator": true,
+        "pinyin": "zhāng lìng wàng",
+        "neutralSurname": "张",
+        "actualWarnings": [
+          "令：本表按字典中文义项与 Unicode 字形字段核对；仍需结合全名检查谐音。",
+          "望：本表按字典中文义项与 Unicode 字形字段核对；仍需结合全名检查谐音。",
+          "令尚未建立命名适用义，请起名师审阅；不直接拼接字典首义。",
+          "望尚未建立命名适用义，请起名师审阅；不直接拼接字典首义。",
+          "全名相邻音节存在同调，建议连读确认节奏；同调不是命名禁忌。"
+        ],
+        "noNewCitationBeforeAdoption": true,
+        "parentFixture": {
+          "fatherName": "张知远",
+          "motherName": "陈安宁",
+          "accepted": true
+        },
+        "conflictFixture": {
+          "fatherName": "张令远",
+          "motherName": "陈安宁",
+          "accepted": false,
+          "reason": "Given-name character overlaps father; existing avoidParentNames gate."
+        },
+        "scope": "Actual evaluateName for fixed neutral surname/prefs only. Not proof of all surnames/dialects or automatic inclusion among top ranked suggestions."
+      },
+      "compoundEvidence": {
+        "file": "data/raw/moe-revised.json.gz",
+        "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "entry": {
+          "heteronyms": [
+            {
+              "bopomofo": "ㄌㄧㄥˋ　ㄨㄤˋ",
+              "definitions": [
+                {
+                  "def": "美好的聲望。",
+                  "quote": [
+                    "《詩經．大雅．卷阿》：「如圭如璋，令聞令望。」",
+                    "《新唐書．卷一○四．于志寧傳》：「狎而近之，無益令望，有損盛德。」"
+                  ]
+                },
+                {
+                  "def": "有美好名聲的人。",
+                  "quote": [
+                    "《周書．卷三六．令狐整傳》：「令狐延保西州令望，方城重器，豈州郡之職所可縶維。」"
+                  ]
+                }
+              ],
+              "pinyin": "lìng wàng"
+            }
+          ],
+          "title": "令望"
+        },
+        "rawEntryIndex": 9706
+      }
+    },
+    {
+      "name": "维新",
+      "proposedRuleId": "naming-v5-proposal-shijing-235-1-7ef465b0",
+      "status": "source-and-default-reading-reviewed; awaiting-product-version-adoption",
+      "extraction": "continuous",
+      "excerpt": "周虽旧邦，其命维新",
+      "citation": {
+        "id": "shijing-235-1",
+        "title": "诗经",
+        "chapter": "大雅·文王之什·文王 第1章",
+        "text": "文王在上，于昭于天。周虽旧邦，其命维新。有周不显，帝命不时。文王陟降，在帝左右。",
+        "sourceId": "shijing"
+      },
+      "sourceMeaning": "原辞典维新复合条直引本篇，原指周施行善政而新获天命，后来指革旧行新；不作个人命运预测。",
+      "projectWish": "借更新自勉的联想，寄望愿学、愿改进。",
+      "proposedContext": "原辞典维新复合条直引本篇，原指周施行善政而新获天命，后来指革旧行新；不作个人命运预测。 家庭期许是借更新自勉的现代取意，不把维另附会成维系。",
+      "proposedMeaning": "借更新自勉的联想，寄望愿学、愿改进。（项目原创家庭期许；原文语境：原辞典维新复合条直引本篇，原指周施行善政而新获天命，后来指革旧行新；不作个人命运预测。）",
+      "expectedReadings": [
+        {
+          "char": "维",
+          "pinyin": "wéi",
+          "tone": 2,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "維",
+          "dictionarySense": "置於句首或句中的語氣詞，無義。",
+          "allDefaultReadingDefinitions": [
+            "繫物的粗繩子。",
+            "法度、綱要。",
+            "細長的東西。",
+            "姓。如漢代有維汜。",
+            "繫、拴。",
+            "連結。",
+            "保持、護全。",
+            "僅、只有。",
+            "置於句首或句中的語氣詞，無義。"
+          ],
+          "datasetEntrySha256": "20ce8c42580f701fed1839ef2790e793d8972cf6792be69d7315ff50c3f8355a",
+          "rawDictionary": {
+            "file": "data/raw/moe-revised.json.gz",
+            "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "title": "維",
+            "heteronymIndexZeroBased": 0,
+            "rawPinyin": "wéi",
+            "pinyin": "wéi",
+            "pinyinNormalization": "Existing builder removes parenthesized 讀音/語音 labels only; original rawPinyin retained.",
+            "definitionIndexZeroBased": 8,
+            "definitionVerbatim": true
+          }
+        },
+        {
+          "char": "新",
+          "pinyin": "xīn",
+          "tone": 1,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "新",
+          "dictionarySense": "改進或使改變，而成為新的、好的。",
+          "allDefaultReadingDefinitions": [
+            "沒有使用過的。與「舊」相對。",
+            "剛開始的、始出現的。",
+            "泛指一切新的人、事、物、知識等。",
+            "剛收成的農作物。",
+            "朝代名。參見「新莽」條。",
+            "大陸地區新疆省的簡稱。",
+            "姓。如春秋時晉國有新穆子。",
+            "改進或使改變，而成為新的、好的。",
+            "不久前、剛才。"
+          ],
+          "datasetEntrySha256": "54398d8b689e3af04a83507ae40be65b7e93edb9cac68451632fba60d2d03e46",
+          "rawDictionary": {
+            "file": "data/raw/moe-revised.json.gz",
+            "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "title": "新",
+            "heteronymIndexZeroBased": 0,
+            "rawPinyin": "xīn",
+            "pinyin": "xīn",
+            "pinyinNormalization": "Existing builder removes parenthesized 讀音/語音 labels only; original rawPinyin retained.",
+            "definitionIndexZeroBased": 7,
+            "definitionVerbatim": true
+          }
+        }
+      ],
+      "wholeContext": {
+        "kind": "complete-fixed-source-poem",
+        "file": "data/raw/shijing.json",
+        "fileSha256": "3c7ca54d59424542ada99adfcc85420287fbbd5c8a511e9baf705cb2b04051e7",
+        "jsonPointer": "/234/content/0",
+        "poemIndexOneBased": 235,
+        "title": "文王",
+        "chapter": "大雅",
+        "section": "文王之什",
+        "content": [
+          "文王在上，于昭于天。周虽旧邦，其命维新。有周不显，帝命不时。文王陟降，在帝左右。",
+          "亹亹文王，令闻不已。陈锡哉周，侯文王孙子。文王孙子，本支百世，凡周之士，不显亦世。",
+          "世之不显，厥犹翼翼。思皇多士，生此王国。王国克生，维周之桢；济济多士，文王以宁。",
+          "穆穆文王，于缉熙敬止。假哉天命。有商孙子。商之孙子，其丽不亿。上帝既命，侯于周服。",
+          "侯服于周，天命靡常。殷士肤敏。裸将于京。厥作裸将，常服黼冔。王之荩臣。无念尔祖。",
+          "无念尔祖，聿修厥德。永言配命，自求多福。殷之未丧师，克配上帝。宜鉴于殷，骏命不易！",
+          "命之不易，无遏尔躬。宣昭义问，有虞殷自天。上天之载，无声无臭。仪刑文王，万邦作孚。"
+        ],
+        "matchedBlockIndexOneBased": 1,
+        "matchingBlockExact": true,
+        "transcriptSha256": "7edf038e0f53aabb67a4bfab220e55d1bd2ad6997439280a1c7c116cd186cd6e",
+        "transcriptEncoding": "UTF8 newline-join of the untouched source content strings, not the original JSON physical-byte hash.",
+        "quality": [
+          "固定仓库文本未经影印校勘；保留上游字形。",
+          "content数组分块可能不同于其他版本章次；引用五字段仍保持当前固定dataset身份，不擅改标准章数。"
+        ]
+      },
+      "reviewBoundary": "不把维解释成维系；天命政治语境保留，不据此判断孩子命运。",
+      "phoneticReview": {
+        "reviewedLanguage": "普通话",
+        "manualJudgement": "未发现该名在中性张姓夹具下的明显不雅固定谐音；实际软件过滤与父母避字结果另见generationCheck。",
+        "specialNote": "仍需按用户实际姓氏、父母姓名和家庭语言逐案重跑。",
+        "notAClaimOfAllSurnamesOrDialects": true
+      },
+      "notExistingName": true,
+      "noCharacterOrDefaultPronunciationExpansion": true,
+      "generationCheck": {
+        "name": "维新",
+        "acceptedByActualCurrentEvaluator": true,
+        "pinyin": "zhāng wéi xīn",
+        "neutralSurname": "张",
+        "actualWarnings": [
+          "维：繁体对应“維”，简繁与异体须按户籍用字确认。",
+          "新：本表按字典中文义项与 Unicode 字形字段核对；仍需结合全名检查谐音。"
+        ],
+        "noNewCitationBeforeAdoption": true,
+        "parentFixture": {
+          "fatherName": "张知远",
+          "motherName": "陈安宁",
+          "accepted": true
+        },
+        "conflictFixture": {
+          "fatherName": "张维远",
+          "motherName": "陈安宁",
+          "accepted": false,
+          "reason": "Given-name character overlaps father; existing avoidParentNames gate."
+        },
+        "scope": "Actual evaluateName for fixed neutral surname/prefs only. Not proof of all surnames/dialects or automatic inclusion among top ranked suggestions."
+      },
+      "compoundEvidence": {
+        "file": "data/raw/moe-revised.json.gz",
+        "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "entry": {
+          "heteronyms": [
+            {
+              "bopomofo": "ㄨㄟˊ　ㄒㄧㄣ",
+              "definitions": [
+                {
+                  "def": "本指施行善政而新獲天命，主宰天下。《詩經．大雅．文王》：「周雖舊邦，其命維新。」後用以指革除舊法而行新政。《五代史平話．周史．卷上》：「否往泰來，共睹維新之化；上作下應，永臻丕乂之風。」",
+                  "synonyms": "革新"
+                }
+              ],
+              "pinyin": "wéi xīn"
+            }
+          ],
+          "title": "維新"
+        },
+        "rawEntryIndex": 113144
+      }
+    },
+    {
+      "name": "子佩",
+      "proposedRuleId": "naming-v5-proposal-shijing-91-2-5b504f69",
+      "status": "source-and-default-reading-reviewed; awaiting-product-version-adoption",
+      "extraction": "continuous",
+      "excerpt": "青青子佩，悠悠我思",
+      "citation": {
+        "id": "shijing-91-2",
+        "title": "诗经",
+        "chapter": "国风·郑风·子衿 第2章",
+        "text": "青青子佩，悠悠我思。纵我不往，子宁不来？",
+        "sourceId": "shijing"
+      },
+      "sourceMeaning": "思念对方的佩饰；子在此指你，佩是佩饰，不是子女与敬佩的合义。",
+      "projectWish": "借佩饰可珍、情谊可念的文化联想，寄望珍惜人与物。",
+      "proposedContext": "思念对方的佩饰；子在此指你，佩是佩饰，不是子女与敬佩的合义。 家庭期许属于项目原创引申。不把子改释成男孩或圣贤，不把佩误当原句敬佩；不作性别限制。",
+      "proposedMeaning": "借佩饰可珍、情谊可念的文化联想，寄望珍惜人与物。（项目原创家庭期许；原文选义：思念对方的佩饰；子在此指你，佩是佩饰，不是子女与敬佩的合义。）",
+      "expectedReadings": [
+        {
+          "char": "子",
+          "pinyin": "zǐ",
+          "tone": 3,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "子",
+          "dictionarySense": "你。",
+          "allDefaultReadingDefinitions": [
+            "地支的第一位。",
+            "時辰名。約當晚上十一點到一點。",
+            "古時指子女，現專指兒子。",
+            "後代、子孫。",
+            "稚幼的鳥獸。如：「鹿子」、「鶴子」、「不入虎穴，焉得虎子。」《論語．雍也》：「犁牛之子，騂且角」。",
+            "植物的果實、種子或動物的卵。",
+            "對一般人的通稱。",
+            "對男子的美稱，多指有學問、道德或地位的人。",
+            "夫婦之間相互的稱呼。",
+            "稱輩分小、年紀輕的人。",
+            "古代圖書分類的第三部。包括諸子百家著作、技藝、術數等書籍。",
+            "古代五等爵位的第四等。",
+            "二一四部首之一。",
+            "你。",
+            "幼小的。",
+            "和母對稱的。",
+            "派生的、有所屬的。",
+            "照顧、撫愛。"
+          ],
+          "datasetEntrySha256": "4fd11cff183025ed525d97e799eec7db330b0b2bd0a84097871aba3db736af32",
+          "rawDictionary": {
+            "file": "data/raw/moe-revised.json.gz",
+            "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "title": "子",
+            "heteronymIndexZeroBased": 0,
+            "rawPinyin": "zǐ",
+            "pinyin": "zǐ",
+            "pinyinNormalization": "Existing builder removes parenthesized 讀音/語音 labels only; original rawPinyin retained.",
+            "definitionIndexZeroBased": 13,
+            "definitionVerbatim": true
+          }
+        },
+        {
+          "char": "佩",
+          "pinyin": "pèi",
+          "tone": 4,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "佩",
+          "dictionarySense": "古人繫在腰帶上的一種裝飾品。如：「玉佩」。《詩經．鄭風．女曰雞鳴》：「知子之來  之，雜佩以贈之。」也作「珮」。",
+          "allDefaultReadingDefinitions": [
+            "古人繫在腰帶上的一種裝飾品。如：「玉佩」。《詩經．鄭風．女曰雞鳴》：「知子之來  之，雜佩以贈之。」也作「珮」。",
+            "繫物在衣帶或衣服上。",
+            "敬仰信服。"
+          ],
+          "datasetEntrySha256": "bca49d003a57a39525690a40da71091860983d5781016477799b57deeb5f2e58",
+          "rawDictionary": {
+            "file": "data/raw/moe-revised.json.gz",
+            "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "title": "佩",
+            "heteronymIndexZeroBased": 0,
+            "rawPinyin": "pèi",
+            "pinyin": "pèi",
+            "pinyinNormalization": "Existing builder removes parenthesized 讀音/語音 labels only; original rawPinyin retained.",
+            "definitionIndexZeroBased": 0,
+            "definitionVerbatim": true
+          }
+        }
+      ],
+      "wholeContext": {
+        "kind": "complete-fixed-source-poem",
+        "file": "data/raw/shijing.json",
+        "fileSha256": "3c7ca54d59424542ada99adfcc85420287fbbd5c8a511e9baf705cb2b04051e7",
+        "jsonPointer": "/90/content/1",
+        "poemIndexOneBased": 91,
+        "title": "子衿",
+        "chapter": "国风",
+        "section": "郑风",
+        "content": [
+          "青青子衿，悠悠我心。纵我不往，子宁不嗣音？",
+          "青青子佩，悠悠我思。纵我不往，子宁不来？",
+          "挑兮达兮，在城阙兮。一日不见，如三月兮。"
+        ],
+        "matchedBlockIndexOneBased": 2,
+        "matchingBlockExact": true,
+        "transcriptSha256": "e49b335ee0d35a03f8873281c1e52069eb249ef6ea6f8c0fd35ba85eab55c97c",
+        "transcriptEncoding": "UTF8 newline-join of the untouched source content strings, not the original JSON physical-byte hash.",
+        "quality": [
+          "固定仓库文本未经影印校勘；保留上游字形。",
+          "content数组分块可能不同于其他版本章次；引用五字段仍保持当前固定dataset身份，不擅改标准章数。"
+        ]
+      },
+      "reviewBoundary": "不把子改释成男孩或圣贤，不把佩误当原句敬佩；不作性别限制。",
+      "phoneticReview": {
+        "reviewedLanguage": "普通话",
+        "manualJudgement": "未发现该名在中性张姓夹具下的明显不雅固定谐音；实际软件过滤与父母避字结果另见generationCheck。",
+        "specialNote": "仍需按用户实际姓氏、父母姓名和家庭语言逐案重跑。",
+        "notAClaimOfAllSurnamesOrDialects": true
+      },
+      "notExistingName": true,
+      "noCharacterOrDefaultPronunciationExpansion": true,
+      "generationCheck": {
+        "name": "子佩",
+        "acceptedByActualCurrentEvaluator": true,
+        "pinyin": "zhāng zǐ pèi",
+        "neutralSurname": "张",
+        "actualWarnings": [
+          "子：多音字：本方案采用 zǐ，请按姓名用法确认；各读音义项分别保存。",
+          "佩：本表按字典中文义项与 Unicode 字形字段核对；仍需结合全名检查谐音。",
+          "子为多音字，本方案读 zǐ；解释仅采用对应读音义项。",
+          "子尚未建立命名适用义，请起名师审阅；不直接拼接字典首义。",
+          "佩尚未建立命名适用义，请起名师审阅；不直接拼接字典首义。"
+        ],
+        "noNewCitationBeforeAdoption": true,
+        "parentFixture": {
+          "fatherName": "张知远",
+          "motherName": "陈安宁",
+          "accepted": true
+        },
+        "conflictFixture": {
+          "fatherName": "张子远",
+          "motherName": "陈安宁",
+          "accepted": false,
+          "reason": "Given-name character overlaps father; existing avoidParentNames gate."
+        },
+        "scope": "Actual evaluateName for fixed neutral surname/prefs only. Not proof of all surnames/dialects or automatic inclusion among top ranked suggestions."
+      }
+    },
+    {
+      "name": "雍雍",
+      "proposedRuleId": "naming-v5-proposal-shijing-240-3-96cd96cd",
+      "status": "source-and-default-reading-reviewed; awaiting-product-version-adoption",
+      "extraction": "continuous",
+      "excerpt": "雍雍在宫，肃肃在庙",
+      "citation": {
+        "id": "shijing-240-3",
+        "title": "诗经",
+        "chapter": "大雅·文王之什·思齐 第3章",
+        "text": "雍雍在宫，肃肃在庙。不显亦临，无射亦保。",
+        "sourceId": "shijing"
+      },
+      "sourceMeaning": "以雍雍形容在宫的和顺，与在庙肃肃的恭敬并举。",
+      "projectWish": "愿孩子温厚和善、待人有礼。",
+      "proposedContext": "以雍雍形容在宫的和顺，与在庙肃肃的恭敬并举。 家庭期许属于项目原创引申。叠字同音需连读复核；不把雍雍当庸庸或以古代宫庙身份作地位保证。",
+      "proposedMeaning": "愿孩子温厚和善、待人有礼。（项目原创家庭期许；原文选义：以雍雍形容在宫的和顺，与在庙肃肃的恭敬并举。）",
+      "expectedReadings": [
+        {
+          "char": "雍",
+          "pinyin": "yōng",
+          "tone": 1,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "雍",
+          "dictionarySense": "和諧的、和睦的。",
+          "allDefaultReadingDefinitions": [
+            "和諧的、和睦的。",
+            "堵塞。",
+            "擁有。",
+            "國名。周代諸侯國。故址在今河南省沁陽縣東北。",
+            "姓。如明代有雍泰。"
+          ],
+          "datasetEntrySha256": "e31e1c5f0431831395fc7866f6a4146e5aea4f3af6aa530d81b7da48207a56ae",
+          "rawDictionary": {
+            "file": "data/raw/moe-revised.json.gz",
+            "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "title": "雍",
+            "heteronymIndexZeroBased": 0,
+            "rawPinyin": "yōng",
+            "pinyin": "yōng",
+            "pinyinNormalization": "Existing builder removes parenthesized 讀音/語音 labels only; original rawPinyin retained.",
+            "definitionIndexZeroBased": 0,
+            "definitionVerbatim": true
+          }
+        },
+        {
+          "char": "雍",
+          "pinyin": "yōng",
+          "tone": 1,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "雍",
+          "dictionarySense": "和諧的、和睦的。",
+          "allDefaultReadingDefinitions": [
+            "和諧的、和睦的。",
+            "堵塞。",
+            "擁有。",
+            "國名。周代諸侯國。故址在今河南省沁陽縣東北。",
+            "姓。如明代有雍泰。"
+          ],
+          "datasetEntrySha256": "e31e1c5f0431831395fc7866f6a4146e5aea4f3af6aa530d81b7da48207a56ae",
+          "rawDictionary": {
+            "file": "data/raw/moe-revised.json.gz",
+            "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "title": "雍",
+            "heteronymIndexZeroBased": 0,
+            "rawPinyin": "yōng",
+            "pinyin": "yōng",
+            "pinyinNormalization": "Existing builder removes parenthesized 讀音/語音 labels only; original rawPinyin retained.",
+            "definitionIndexZeroBased": 0,
+            "definitionVerbatim": true
+          }
+        }
+      ],
+      "wholeContext": {
+        "kind": "complete-fixed-source-poem",
+        "file": "data/raw/shijing.json",
+        "fileSha256": "3c7ca54d59424542ada99adfcc85420287fbbd5c8a511e9baf705cb2b04051e7",
+        "jsonPointer": "/239/content/2",
+        "poemIndexOneBased": 240,
+        "title": "思齐",
+        "chapter": "大雅",
+        "section": "文王之什",
+        "content": [
+          "思齐大任，文王之母，思媚周姜，京室之妇。大姒嗣徽音，则百斯男。",
+          "惠于宗公，神罔时怨，神罔时恫。刑于寡妻，至于兄弟，以御于家邦。",
+          "雍雍在宫，肃肃在庙。不显亦临，无射亦保。",
+          "四戎疾不殄，烈假不瑕。不闻亦式，不谏亦入。四成人有德，小子有造。古之人无斁，誉髦斯士。"
+        ],
+        "matchedBlockIndexOneBased": 3,
+        "matchingBlockExact": true,
+        "transcriptSha256": "f5ff5b3610aae742e02ca61c33c4f0c0634fc227b9d4b8cadb04ac07c63db478",
+        "transcriptEncoding": "UTF8 newline-join of the untouched source content strings, not the original JSON physical-byte hash.",
+        "quality": [
+          "固定仓库文本未经影印校勘；保留上游字形。",
+          "content数组分块可能不同于其他版本章次；引用五字段仍保持当前固定dataset身份，不擅改标准章数。"
+        ]
+      },
+      "reviewBoundary": "叠字同音需连读复核；不把雍雍当庸庸或以古代宫庙身份作地位保证。",
+      "phoneticReview": {
+        "reviewedLanguage": "普通话",
+        "manualJudgement": "未发现该名在中性张姓夹具下的明显不雅固定谐音；实际软件过滤与父母避字结果另见generationCheck。",
+        "specialNote": "叠字名有重复音节，听写需说明字形；不以此判凶。",
+        "notAClaimOfAllSurnamesOrDialects": true
+      },
+      "notExistingName": true,
+      "noCharacterOrDefaultPronunciationExpansion": true,
+      "generationCheck": {
+        "name": "雍雍",
+        "acceptedByActualCurrentEvaluator": true,
+        "pinyin": "zhāng yōng yōng",
+        "neutralSurname": "张",
+        "actualWarnings": [
+          "雍：本表按字典中文义项与 Unicode 字形字段核对；仍需结合全名检查谐音。",
+          "雍尚未建立命名适用义，请起名师审阅；不直接拼接字典首义。",
+          "全名相邻音节存在同调，建议连读确认节奏；同调不是命名禁忌。",
+          "全名相邻音节同音，口头介绍时可能需要补充字形说明。",
+          "使用叠字名，亲切感较强；偏好正式风格时建议同时比较非叠字候选。"
+        ],
+        "noNewCitationBeforeAdoption": true,
+        "parentFixture": {
+          "fatherName": "张知远",
+          "motherName": "陈安宁",
+          "accepted": true
+        },
+        "conflictFixture": {
+          "fatherName": "张雍远",
+          "motherName": "陈安宁",
+          "accepted": false,
+          "reason": "Given-name character overlaps father; existing avoidParentNames gate."
+        },
+        "scope": "Actual evaluateName for fixed neutral surname/prefs only. Not proof of all surnames/dialects or automatic inclusion among top ranked suggestions."
+      },
+      "compoundEvidence": {
+        "file": "data/raw/moe-revised.json.gz",
+        "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "entry": {
+          "heteronyms": [
+            {
+              "bopomofo": "ㄩㄥ　ㄩㄥ",
+              "definitions": [
+                {
+                  "def": "和諧的樣子。《禮記．少儀》：「鸞和之美，肅肅雍雍。」唐．孔穎達．正義：「雍雍是和貌。」《文選．潘岳．笙賦》：「雍雍喈喈，若群鶵之從母也。」也作「邕邕」、「雝雝」、「廱廱」。"
+                }
+              ],
+              "pinyin": "yōng yōng"
+            }
+          ],
+          "title": "雍雍"
+        },
+        "rawEntryIndex": 151387
+      }
+    },
+    {
+      "name": "克明",
+      "proposedRuleId": "naming-v5-proposal-shijing-241-7-514b660e",
+      "status": "source-and-default-reading-reviewed; awaiting-product-version-adoption",
+      "extraction": "continuous",
+      "excerpt": "其德克明。克明克类",
+      "citation": {
+        "id": "shijing-241-7",
+        "title": "诗经",
+        "chapter": "大雅·文王之什·皇矣 第7章",
+        "text": "维此王季，帝度其心。貊其德音，其德克明。克明克类，克长克君。",
+        "sourceId": "shijing"
+      },
+      "sourceMeaning": "原辞典复合条克明直引本篇，释能够明察是非；克取能，明取通晓、明辨。",
+      "projectWish": "愿孩子认真求知、明辨是非。",
+      "proposedContext": "原辞典复合条克明直引本篇，释能够明察是非；克取能，明取通晓、明辨。 家庭期许属于项目原创引申；不将克解释为攻克，不由君德推断孩子身份或命运。",
+      "proposedMeaning": "愿孩子认真求知、明辨是非。（项目原创家庭期许；原文选义：原辞典复合条克明直引本篇，释能够明察是非；克取能，明取通晓、明辨。）",
+      "expectedReadings": [
+        {
+          "char": "克",
+          "pinyin": "kè",
+          "tone": 4,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "剋",
+          "dictionarySense": "能夠。",
+          "allDefaultReadingDefinitions": [
+            "戰勝。",
+            "約束。",
+            "限定、約期。",
+            "剝削。",
+            "傷害。",
+            "嚴苛。",
+            "能夠。"
+          ],
+          "datasetEntrySha256": "cd140ecbd04689d7f33fc69c545500610fb57cf05b7768c257e07e9481e7ab3a",
+          "rawDictionary": {
+            "file": "data/raw/moe-revised.json.gz",
+            "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "title": "剋",
+            "heteronymIndexZeroBased": 0,
+            "rawPinyin": "kè",
+            "pinyin": "kè",
+            "pinyinNormalization": "Existing builder removes parenthesized 讀音/語音 labels only; original rawPinyin retained.",
+            "definitionIndexZeroBased": 6,
+            "definitionVerbatim": true
+          }
+        },
+        {
+          "char": "明",
+          "pinyin": "míng",
+          "tone": 2,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "明",
+          "dictionarySense": "通曉。",
+          "allDefaultReadingDefinitions": [
+            "通曉。",
+            "使通曉。",
+            "昭示、彰顯。",
+            "發亮。",
+            "光亮的。",
+            "清晰的。",
+            "聰慧、悟性很高。",
+            "公開的、顯露的。",
+            "才德高顯的。",
+            "磊落的。",
+            "乾淨、整潔。",
+            "顯著的。",
+            "時序在後的。",
+            "視覺、目力。",
+            "陽。相對於「陰」。",
+            "神靈。",
+            "朝代名。參見「明朝」條。",
+            "姓。如清代有明耀光。"
+          ],
+          "datasetEntrySha256": "25fe273c29dabf6588a28b3bb04d90dc660a8f4102707ac199038cb4d0331475",
+          "rawDictionary": {
+            "file": "data/raw/moe-revised.json.gz",
+            "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "title": "明",
+            "heteronymIndexZeroBased": 0,
+            "rawPinyin": "míng",
+            "pinyin": "míng",
+            "pinyinNormalization": "Existing builder removes parenthesized 讀音/語音 labels only; original rawPinyin retained.",
+            "definitionIndexZeroBased": 0,
+            "definitionVerbatim": true
+          }
+        }
+      ],
+      "wholeContext": {
+        "kind": "complete-fixed-source-poem",
+        "file": "data/raw/shijing.json",
+        "fileSha256": "3c7ca54d59424542ada99adfcc85420287fbbd5c8a511e9baf705cb2b04051e7",
+        "jsonPointer": "/240/content/6",
+        "poemIndexOneBased": 241,
+        "title": "皇矣",
+        "chapter": "大雅",
+        "section": "文王之什",
+        "content": [
+          "皇矣上帝，临下有赫。监观四方，求民之莫。维此二国，其政不获。",
+          "维彼四国，爰究爰度。上帝耆之，憎其式廓。乃眷西顾，此维与宅。",
+          "作之屏之，其菑其翳。修之平之，其灌其栵。启之辟之，其柽其椐。",
+          "攘之剔之，其檿其柘。帝迁明德，串夷载路。天立厥配，受命既固。",
+          "帝省其山，柞棫斯拔，松柏斯兑。帝作邦作对，自大伯王季。维此王季，",
+          "因心则友。则友其兄，则笃其庆，载锡之光。受禄无丧，奄有四方。",
+          "维此王季，帝度其心。貊其德音，其德克明。克明克类，克长克君。",
+          "王此大邦，克顺克比。比于文王，其德靡悔。既受帝祉，施于孙子。",
+          "帝谓文王：无然畔援，无然歆羡，诞先登于岸。密人不恭，敢距大邦，",
+          "侵阮徂共。王赫斯怒，爰整其旅，以按徂旅。以笃于周祜，以对于天下。",
+          "依其在京，侵自阮疆。陟我高冈，无矢我陵。我陵我阿，无饮我泉，",
+          "我泉我池。度其鲜原，居岐之阳，在渭之将。万邦之方，下民之王。",
+          "帝谓文王：予怀明德，不大声以色，不长夏以革。不识不知，顺帝之则。",
+          "帝谓文王：訽尔仇方，同尔弟兄。以尔钩援，与尔临冲，以伐崇墉。",
+          "临冲闲闲，崇墉言言。执讯连连，攸馘安安。是类是禡，是致是附，",
+          "四方以无侮。临冲茀茀，崇墉仡仡。是伐是四，是绝是忽。四方以无拂。"
+        ],
+        "matchedBlockIndexOneBased": 7,
+        "matchingBlockExact": true,
+        "transcriptSha256": "a706cbc226b29d6ce4524e3c2aa481c5d07884cbc4e3564b49244d595477053c",
+        "transcriptEncoding": "UTF8 newline-join of the untouched source content strings, not the original JSON physical-byte hash.",
+        "quality": [
+          "固定仓库文本未经影印校勘；保留上游字形。",
+          "content数组分块可能不同于其他版本章次；引用五字段仍保持当前固定dataset身份，不擅改标准章数。"
+        ]
+      },
+      "reviewBoundary": "当前默认word剋的完整kè义项确有能夠；本名绑定这个实际词条身份，不把剋的首义战胜移来。",
+      "phoneticReview": {
+        "reviewedLanguage": "普通话",
+        "manualJudgement": "未发现该名在中性张姓夹具下的明显不雅固定谐音；实际软件过滤与父母避字结果另见generationCheck。",
+        "specialNote": "仍需按用户实际姓氏、父母姓名和家庭语言逐案重跑。",
+        "notAClaimOfAllSurnamesOrDialects": true
+      },
+      "notExistingName": true,
+      "noCharacterOrDefaultPronunciationExpansion": true,
+      "generationCheck": {
+        "name": "克明",
+        "acceptedByActualCurrentEvaluator": true,
+        "pinyin": "zhāng kè míng",
+        "neutralSurname": "张",
+        "actualWarnings": [
+          "克：繁体对应“剋”，简繁与异体须按户籍用字确认。 Unicode 记有多个简繁对应：克、剋，请按实际字义确认。",
+          "明：本表按字典中文义项与 Unicode 字形字段核对；仍需结合全名检查谐音。",
+          "克尚未建立命名适用义，请起名师审阅；不直接拼接字典首义。"
+        ],
+        "noNewCitationBeforeAdoption": true,
+        "parentFixture": {
+          "fatherName": "张知远",
+          "motherName": "陈安宁",
+          "accepted": true
+        },
+        "conflictFixture": {
+          "fatherName": "张克远",
+          "motherName": "陈安宁",
+          "accepted": false,
+          "reason": "Given-name character overlaps father; existing avoidParentNames gate."
+        },
+        "scope": "Actual evaluateName for fixed neutral surname/prefs only. Not proof of all surnames/dialects or automatic inclusion among top ranked suggestions."
+      },
+      "compoundEvidence": {
+        "file": "data/raw/moe-revised.json.gz",
+        "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "entry": {
+          "heteronyms": [
+            {
+              "bopomofo": "ㄎㄜˋ　ㄇㄧㄥˊ",
+              "definitions": [
+                {
+                  "def": "能夠明察是非。",
+                  "quote": [
+                    "《詩經．大雅．皇矣》：「克明克類，克長克君。」",
+                    "晉．陸機〈皇太子宴玄圃宣猷堂有令賦〉詩：「篤生我后，克明克秀。」"
+                  ]
+                },
+                {
+                  "def": "能夠明識賢才。",
+                  "quote": [
+                    "《書經．堯典》：「克明俊德。」",
+                    "唐．孔穎達．正義：「能明俊德之士任用之。」",
+                    "《文選．陸機．石闕銘》：「克明俊德，大庇生民，其揆一也。」"
+                  ]
+                },
+                {
+                  "def": "能善盡君道、體察民情。",
+                  "quote": [
+                    "《書經．伊訓》：「居上克明，為下克忠。」",
+                    "《文選．潘岳．夏侯常侍誄》：「克明克聖，光啟夏政。」"
+                  ]
+                }
+              ],
+              "pinyin": "kè míng"
+            }
+          ],
+          "title": "克明"
+        },
+        "rawEntryIndex": 15435
+      }
+    },
+    {
+      "name": "遂志",
+      "proposedRuleId": "naming-v5-proposal-zhouyi-47-xiang-90425fd7",
+      "status": "source-and-corrected-reading-reviewed",
+      "extraction": "continuous",
+      "excerpt": "君子以致命遂志",
+      "citation": {
+        "id": "zhouyi-47-xiang",
+        "title": "周易·象传",
+        "chapter": "第47卦·泽水困·大象",
+        "text": "泽无水，困。君子以致命遂志。",
+        "sourceId": "zhouyi"
+      },
+      "sourceMeaning": "原大象以困境中的命与志的取舍为背景，遂志取达成所志；不能简化为无条件成功。",
+      "projectWish": "愿孩子在困难时守住所志、坚韧自持。",
+      "proposedContext": "原大象以困境中的命与志的取舍为背景，遂志取达成所志；不能简化为无条件成功。 家庭期许属于项目原创引申，不作成功、人格或运势保证。",
+      "proposedMeaning": "愿孩子在困难时守住所志、坚韧自持。（项目原创家庭期许；原文语境：原大象以困境中的命与志的取舍为背景，遂志取达成所志；不能简化为无条件成功。）",
+      "expectedReadings": [
+        {
+          "char": "遂",
+          "pinyin": "suì",
+          "tone": 4,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "遂",
+          "dictionarySense": "成功、成就。",
+          "allDefaultReadingDefinitions": [
+            "稱心、滿足。",
+            "順從、順應。",
+            "成功、成就。",
+            "進、通達。",
+            "薦舉、進用。",
+            "生長。",
+            "盡、止。",
+            "終究、竟然。",
+            "就、於是。",
+            "遠郊、郊外。",
+            "小溝。",
+            "古代射箭的人所穿的臂衣。"
+          ],
+          "rawDictionary": {
+            "file": "data/raw/moe-revised.json.gz",
+            "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "title": "遂",
+            "heteronymIndexZeroBased": 0,
+            "rawPinyin": "suì",
+            "pinyin": "suì",
+            "definitionIndexZeroBased": 2,
+            "definitionVerbatim": true
+          }
+        },
+        {
+          "char": "志",
+          "pinyin": "zhì",
+          "tone": 4,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "志",
+          "dictionarySense": "意向、抱負、決心。",
+          "allDefaultReadingDefinitions": [
+            "意向、抱負、決心。",
+            "記錄事物的書。",
+            "姓。如元代有志能。",
+            "記載、記錄。",
+            "牢記。"
+          ],
+          "rawDictionary": {
+            "file": "data/raw/moe-revised.json.gz",
+            "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "title": "志",
+            "heteronymIndexZeroBased": 0,
+            "rawPinyin": "zhì",
+            "pinyin": "zhì",
+            "definitionIndexZeroBased": 0,
+            "definitionVerbatim": true
+          }
+        }
+      ],
+      "wholeContext": {
+        "kind": "complete-fixed-source-hexagram-available-corpus",
+        "file": "data/raw/zhouyi.tar.gz",
+        "fileSha256": "0a847c0b9b876f9926e4896399e31ee44f88292db107bc865d70e2d7308b15a0",
+        "hexagramNumber": 47,
+        "citations": [
+          {
+            "id": "zhouyi-47-gua",
+            "title": "周易",
+            "chapter": "第47卦·泽水困·卦辞",
+            "text": "亨，贞，大人吉，无咎。有言不信。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-47-xiang",
+            "title": "周易·象传",
+            "chapter": "第47卦·泽水困·大象",
+            "text": "泽无水，困。君子以致命遂志。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-47-yao-1",
+            "title": "周易",
+            "chapter": "第47卦·泽水困·初六",
+            "text": "臀困于株木，入于幽谷，三岁不觌。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-47-yao-2",
+            "title": "周易",
+            "chapter": "第47卦·泽水困·九二",
+            "text": "困于酒食，朱绂方来，利用享祀。征凶，无咎。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-47-yao-3",
+            "title": "周易",
+            "chapter": "第47卦·泽水困·六三",
+            "text": "困于石，据于蒺藜，入于其宫，不见其妻，凶。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-47-yao-4",
+            "title": "周易",
+            "chapter": "第47卦·泽水困·九四",
+            "text": "来徐徐，困于金车，吝，有终。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-47-yao-5",
+            "title": "周易",
+            "chapter": "第47卦·泽水困·九五",
+            "text": "劓刖，困于赤绂，乃徐有说，利用祭祀。",
+            "sourceId": "zhouyi"
+          },
+          {
+            "id": "zhouyi-47-yao-6",
+            "title": "周易",
+            "chapter": "第47卦·泽水困·上六",
+            "text": "困于葛藟，于臲卼，曰动悔有悔，征吉。",
+            "sourceId": "zhouyi"
+          }
+        ],
+        "scope": "固定数据收录该卦卦辞、六爻、大象及存在的用辞；没有借此宣称包含完整十翼或现代译注。",
+        "quality": [
+          "全文语境按当前项目固定源已收录的全卦范围核，不补入别本不存在的彖传、小象。"
+        ]
+      },
+      "reviewBoundary": "原大象以困境中的命与志的取舍为背景，遂志取达成所志；不能简化为无条件成功。 家庭期许属于项目原创引申，不作成功、人格或运势保证。",
+      "requiresCharacterCorrection": [
+        "志"
+      ]
+    },
+    {
+      "name": "家宜",
+      "proposedRuleId": "naming-v5-proposal-shijing-6-3-5bb65b9c",
+      "status": "source-and-corrected-reading-reviewed",
+      "extraction": "recombined",
+      "excerpt": "之子于归，宜其家人",
+      "citation": {
+        "id": "shijing-6-3",
+        "title": "诗经",
+        "chapter": "国风·周南·桃夭 第3章",
+        "text": "桃之夭夭，其叶蓁蓁。之子于归，宜其家人。",
+        "sourceId": "shijing"
+      },
+      "sourceMeaning": "婚嫁诗以叶盛起兴，祝愿出嫁者使家人相处和顺；家宜为同句选字重组。",
+      "projectWish": "愿孩子珍惜家庭情谊、与人和睦相处。",
+      "proposedContext": "婚嫁诗以叶盛起兴，祝愿出嫁者使家人相处和顺；家宜为同句选字重组。 家宜是同一句选字重组，并非原文连续二字。 家庭期许属于项目原创引申，不作成功、人格或运势保证。",
+      "proposedMeaning": "愿孩子珍惜家庭情谊、与人和睦相处。（项目原创家庭期许；原文语境：婚嫁诗以叶盛起兴，祝愿出嫁者使家人相处和顺；家宜为同句选字重组。）",
+      "expectedReadings": [
+        {
+          "char": "家",
+          "pinyin": "jiā",
+          "tone": 1,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "家",
+          "dictionarySense": "一門之內共同生活的人。",
+          "allDefaultReadingDefinitions": [
+            "眷屬共同生活的場所。",
+            "一門之內共同生活的人。",
+            "學術流派。",
+            "經營某種行業或具有某種身分的人。",
+            "尊稱學有專長或有專門技術的人。",
+            "自稱或稱別人。",
+            "古代大夫所統治的政治區域。與「國」相對。",
+            "私有財產。",
+            "量詞。計算家庭、店鋪、大型企業等的單位。",
+            " 姓。如周代有家伯。",
+            "居住。",
+            "對人謙稱自己的親長。",
+            "家中的。",
+            "家中飼養的。",
+            "置於句中。相當於「地」、「的」。"
+          ],
+          "rawDictionary": {
+            "file": "data/raw/moe-revised.json.gz",
+            "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "title": "家",
+            "heteronymIndexZeroBased": 0,
+            "rawPinyin": "jiā",
+            "pinyin": "jiā",
+            "definitionIndexZeroBased": 1,
+            "definitionVerbatim": true
+          }
+        },
+        {
+          "char": "宜",
+          "pinyin": "yí",
+          "tone": 2,
+          "sourceId": "moe-revised",
+          "dictionaryWord": "宜",
+          "dictionarySense": "相安、和順。",
+          "allDefaultReadingDefinitions": [
+            "相安、和順。",
+            "適當。",
+            "共享。",
+            "合適、相稱。",
+            "應該、應當。",
+            "大概、似乎。",
+            "事宜。",
+            "姓。如元代有宜桂可。"
+          ],
+          "rawDictionary": {
+            "file": "data/raw/moe-revised.json.gz",
+            "fileSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+            "title": "宜",
+            "heteronymIndexZeroBased": 0,
+            "rawPinyin": "yí",
+            "pinyin": "yí",
+            "definitionIndexZeroBased": 0,
+            "definitionVerbatim": true
+          }
+        }
+      ],
+      "wholeContext": {
+        "kind": "complete-fixed-source-poem",
+        "file": "data/raw/shijing.json",
+        "fileSha256": "3c7ca54d59424542ada99adfcc85420287fbbd5c8a511e9baf705cb2b04051e7",
+        "jsonPointer": "/5/content/2",
+        "poemIndexOneBased": 6,
+        "title": "桃夭",
+        "chapter": "国风",
+        "section": "周南",
+        "content": [
+          "桃之夭夭，灼灼其华。之子于归，宜其室家。",
+          "桃之夭夭，有蕡其实。之子于归，宜其家室。",
+          "桃之夭夭，其叶蓁蓁。之子于归，宜其家人。"
+        ],
+        "matchedBlockIndexOneBased": 3,
+        "matchingBlockExact": true,
+        "transcriptSha256": "19c1b7a2c3a68861a7721448c33ab8601cf29d7bc05a1b52604bac476bb998b0",
+        "transcriptEncoding": "UTF8 newline-join of the untouched source content strings, not the original JSON physical-byte hash.",
+        "quality": [
+          "固定仓库文本未经影印校勘；保留上游字形。",
+          "content数组分块可能不同于其他版本章次；引用五字段仍保持当前固定dataset身份，不擅改标准章数。"
+        ]
+      },
+      "reviewBoundary": "婚嫁诗以叶盛起兴，祝愿出嫁者使家人相处和顺；家宜为同句选字重组。 家宜是同一句选字重组，并非原文连续二字。 家庭期许属于项目原创引申，不作成功、人格或运势保证。",
+      "requiresCharacterCorrection": [
+        "家"
+      ]
+    }
+  ],
+  "count": 27,
+  "directNames": 23,
+  "recombinedNames": 4,
+  "baseCitationSources": [
+    {
+      "id": "zhouyi",
+      "name": "周易卦辞、爻辞与大象（koriyoshi2041/zhouyi）",
+      "url": "https://github.com/koriyoshi2041/zhouyi",
+      "commit": "c74ae5a89e4b01da03fc8024d653f764ffd10aef",
+      "license": "MIT",
+      "files": [
+        "data/raw/zhouyi.tar.gz",
+        "data/raw/zhouyi-LICENSE"
+      ],
+      "sha256": "37e8280c2f2a88ae992f97442befaa04239a527a28a1a1b8ae59151050ffa68f",
+      "note": "古籍原文为公版；仓库整理按 MIT 授权。仅提取64卦卦辞、384爻辞、64大象及乾坤用辞；不导入现代译文，不宣称完整十翼。package.json 的 ISC 字段与根 LICENSE 不同，本项目按实际根 MIT LICENSE 保留声明。"
+    },
+    {
+      "id": "shijing",
+      "name": "《诗经》原文（chinese-poetry）",
+      "url": "https://github.com/chinese-poetry/chinese-poetry",
+      "commit": "b8594f81a89752241442f2ce267d6f66f96704ee",
+      "license": "MIT",
+      "files": [
+        "data/raw/shijing.json",
+        "data/raw/poetry-LICENSE"
+      ],
+      "sha256": "a6787813ca06bc39d82e68d701f182323c71750013fb9889761f62977f83989f",
+      "note": "仅收录公版古籍原文及篇章组织，不导入现代翻译或注释。保留项目 MIT 声明。"
+    }
+  ],
+  "rawDictionarySource": {
+    "id": "moe-revised",
+    "name": "中华民国教育部《重编国语辞典修订本》，g0v 原文格式转换",
+    "url": "https://github.com/g0v/moedict-data",
+    "commit": "a6dc997417507eb510fc29822bc514de2c92728c",
+    "license": "CC-BY-ND-3.0-TW (verbatim definition text; format conversion allowed)",
+    "files": [
+      "data/raw/moe-revised.json.gz",
+      "data/raw/moe-README.md",
+      "data/raw/CC-BY-ND-3.0-TW.html",
+      "data/character-review.json"
+    ],
+    "sha256": "f70f47b566078e290017467fc150e9f57268a18f36b86eedd59769d998553f7a",
+    "note": "版权为教育部所有，策划执行国家教育研究院。按上游 README 转述教育部解释，禁止改作仅限文字本身，不限制格式转换与后续应用。本项目使用固定版本 dict-revised_bkup.json 的释义原文，不改写、翻译或将其重新授权为 CC BY-SA。原始完整辞典压缩保留；转换格式的编辑权由上游 kcwu 以 CC0 释出。"
+  },
+  "policy": "Hand-entered name-level source/sense decisions; exact original citations, whole fixed-source contexts and dictionary definitions are retained. Project wishes are separately identified. No all-character expert certification or new standalone character meanings."
+}

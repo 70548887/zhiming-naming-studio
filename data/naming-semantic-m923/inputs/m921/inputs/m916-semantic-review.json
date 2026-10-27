@@ -1,0 +1,2190 @@
+{
+  "schema": "m916-meaning-semantic-review-input/1",
+  "reviewId": "M916-D01",
+  "inputSHA256": "54b0285005b1525db073deb8b9ac9fb9362aa5aefbc1b282ee2eef3fe355d095",
+  "generatedAt": "2026-10-26T06:01:10.951Z",
+  "ruleVersion": "naming-editorial-7.2.0",
+  "contract": {
+    "sourcePolicy": "M910/M914 are source-audited candidate-only; this review does not grant activation or automatic coverage",
+    "m752Boundary": "dictionary-fact -> project-intent -> per-character scope; whole-nameMeaning=null; no score credit",
+    "knownThemes": [
+      "civic-homeland",
+      "water-bubbles",
+      "textile-ribbon",
+      "agriculture",
+      "literary-artwork",
+      "herb-plant"
+    ],
+    "unknownThemePolicy": "new theme is recorded as unregistered and cannot authorize explicit-theme admission",
+    "stages": [
+      "pool",
+      "required",
+      "local",
+      "ai",
+      "save",
+      "restore"
+    ]
+  },
+  "sourceBindings": {
+    "m910": {
+      "commit": "ed99b83f7545481425b32b30d20bc0480bcf3758",
+      "batchId": "M910-DATA",
+      "count": 20,
+      "manifestSHA256": "a345d11b3f34cb5d4bc8b0a6de8453a2ff0cd68e559af5f0f48a215380da3e8c",
+      "selectionSHA256": "6019bf2c7bc170af093c5bf6458e798968f63a6c03dd09b24dc35abb6fd4948f",
+      "sourceSubsetSHA256": "e9e096c203b8ae640fe9ae64f91ab25bbbe9c8fd62cf6ce36c8a8224dea17893",
+      "rawFileSHA256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e"
+    },
+    "m914": {
+      "commit": "f5ac307ac9201e38e8030313818c2f020587fa0b",
+      "batchId": "M914-D01",
+      "count": 20,
+      "manifestSHA256": "1f599fb1dd014448674d39a95c1bc5c62372c1d80b9bf73de1d467ac9e00f6e8",
+      "selectionSHA256": "b7e6d8bbf2ca13c086f781763e6b74ffb344f5585561be43b1a5705871e7bdf5",
+      "sourceSubsetSHA256": "8d76e27ad008ed92747ac19aa04563233a5479f215ba03743eff63d654c958ff",
+      "rawFileSHA256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e"
+    }
+  },
+  "rows": [
+    {
+      "candidateId": "m910-naming-data:安:41748:0:0",
+      "batch": "M910-DATA",
+      "sourceSHA256": "ae92cc921099ae969df9a74f26e825b908e682f3732c68bccb62eba25792b2a8",
+      "rawFileSHA256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+      "char": "安",
+      "pinyin": "ān",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "安",
+      "sourcePOS": "名",
+      "rawEntryIndex": 41748,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 0,
+      "dictionarySense": "平穩、安全、舒適的狀況或環境。",
+      "sourceDefinition": {
+        "def": "平穩、安全、舒適的狀況或環境。",
+        "example": [
+          "如：「居安思危」、「轉危為安」、「苟且偷安」。"
+        ],
+        "quote": [
+          "《論語．學而》：「君子食無求飽，居無求安。」"
+        ],
+        "type": "名"
+      },
+      "projectMeaning": "取平稳、安全、舒适的环境与状态之意。",
+      "projectWish": "项目创作：愿你在可依靠的日常中感到安定，也保有面对变化的空间。",
+      "candidateThemeLabel": "stability-and-comfort",
+      "themeDisposition": "new-theme-unregistered",
+      "classification": "general",
+      "semanticDecision": "approve-characterwise-scope",
+      "admissionGranted": false,
+      "activation": "off",
+      "productionApproved": false,
+      "projectMeaningBasis": "固定义项“平穩、安全、舒適的狀況或環境。”与候选 project.meaning“取平稳、安全、舒适的环境与状态之意。”为直接释义/受限意象对应；项目愿望只作原创说明，不改变辞典义。",
+      "limits": [
+        "词典义描述状态或环境，不承诺现实安全、健康或人生结果。",
+        "项目愿望不替代家庭对名字的具体理解。",
+        "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+      ],
+      "prohibitedInferences": [
+        "whole-name-meaning",
+        "personality-or-ability-fact",
+        "fortune-health-wealth-longevity-or-relationship-outcome",
+        "five-element-or-element-authority"
+      ],
+      "scope": "single-character-project-intent-only",
+      "wholeNameAssessment": "not-assessed",
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "reviewNotes": [
+        "未匹配 M752 六个已登记主题；自足单字义可作一般逐字说明，候选自定义主题不授自动主题准入。"
+      ]
+    },
+    {
+      "candidateId": "m910-naming-data:晨:71627:0:0",
+      "batch": "M910-DATA",
+      "sourceSHA256": "53016426523776a051d043d09f29174ea3179fc3a00719ae1825972e5590fe1a",
+      "rawFileSHA256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+      "char": "晨",
+      "pinyin": "chén",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "晨",
+      "sourcePOS": "名",
+      "rawEntryIndex": 71627,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 0,
+      "dictionarySense": "早上太陽剛出來的時候。",
+      "sourceDefinition": {
+        "def": "早上太陽剛出來的時候。",
+        "example": [
+          "如：「清晨」、「一日之計在於晨」。"
+        ],
+        "type": "名"
+      },
+      "projectMeaning": "取太阳初出时的早晨意象。",
+      "projectWish": "项目创作：愿你珍惜每天开始时的光亮与选择。",
+      "candidateThemeLabel": "morning-light",
+      "themeDisposition": "new-theme-unregistered",
+      "classification": "general",
+      "semanticDecision": "approve-characterwise-scope",
+      "admissionGranted": false,
+      "activation": "off",
+      "productionApproved": false,
+      "projectMeaningBasis": "固定义项“早上太陽剛出來的時候。”与候选 project.meaning“取太阳初出时的早晨意象。”为直接释义/受限意象对应；项目愿望只作原创说明，不改变辞典义。",
+      "limits": [
+        "只取早晨时段的自然意象，不推导前程或性格。",
+        "晨光愿望不表示人生必然顺利。",
+        "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+      ],
+      "prohibitedInferences": [
+        "whole-name-meaning",
+        "personality-or-ability-fact",
+        "fortune-health-wealth-longevity-or-relationship-outcome",
+        "five-element-or-element-authority"
+      ],
+      "scope": "single-character-project-intent-only",
+      "wholeNameAssessment": "not-assessed",
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "reviewNotes": [
+        "未匹配 M752 六个已登记主题；自足单字义可作一般逐字说明，候选自定义主题不授自动主题准入。"
+      ]
+    },
+    {
+      "candidateId": "m910-naming-data:承:59613:0:1",
+      "batch": "M910-DATA",
+      "sourceSHA256": "55a0a8470708c370f8a64fa0dd4ad00187d20d9c88883b5b89d01cfdc371b6c8",
+      "rawFileSHA256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+      "char": "承",
+      "pinyin": "chéng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "承",
+      "sourcePOS": "動",
+      "rawEntryIndex": 59613,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 1,
+      "dictionarySense": "蒙受、接受。",
+      "sourceDefinition": {
+        "def": "蒙受、接受。",
+        "example": [
+          "如：「承蒙」、「承贈」。"
+        ],
+        "quote": [
+          "《左傳．僖公十五年》：「君之未入，寡人懼之；入而未定列，猶吾憂也；苟列定矣，敢不承命。」"
+        ],
+        "type": "動"
+      },
+      "projectMeaning": "取蒙受、接受这一承接动作之意。",
+      "projectWish": "项目创作：愿你能选择愿意承接的关系、知识与责任。",
+      "candidateThemeLabel": "chosen-receiving",
+      "themeDisposition": "new-theme-unregistered",
+      "classification": "general",
+      "semanticDecision": "approve-characterwise-scope",
+      "admissionGranted": false,
+      "activation": "off",
+      "productionApproved": false,
+      "projectMeaningBasis": "固定义项“蒙受、接受。”与候选 project.meaning“取蒙受、接受这一承接动作之意。”为直接释义/受限意象对应；项目愿望只作原创说明，不改变辞典义。",
+      "limits": [
+        "承接对象与责任须由使用者具体说明，不把名字变成责任要求。",
+        "不从承接动作推定服从、继承权或能力。",
+        "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+      ],
+      "prohibitedInferences": [
+        "whole-name-meaning",
+        "personality-or-ability-fact",
+        "fortune-health-wealth-longevity-or-relationship-outcome",
+        "five-element-or-element-authority"
+      ],
+      "scope": "single-character-project-intent-only",
+      "wholeNameAssessment": "not-assessed",
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "reviewNotes": [
+        "未匹配 M752 六个已登记主题；自足单字义可作一般逐字说明，候选自定义主题不授自动主题准入。"
+      ]
+    },
+    {
+      "candidateId": "m910-naming-data:诚:132515:0:1",
+      "batch": "M910-DATA",
+      "sourceSHA256": "c43874debd601fb1b1889e3f950c260e6132c74f756457638ce132d667bbf926",
+      "rawFileSHA256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+      "char": "诚",
+      "pinyin": "chéng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "誠",
+      "sourcePOS": "形",
+      "rawEntryIndex": 132515,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 1,
+      "dictionarySense": "真實無妄、忠實不欺。",
+      "sourceDefinition": {
+        "def": "真實無妄、忠實不欺。",
+        "example": [
+          "如：「誠摯」、「誠樸」。"
+        ],
+        "quote": [
+          "《管子．乘馬》：「故非誠賈，不得食于賈；非誠工，不得食于工。」"
+        ],
+        "type": "形"
+      },
+      "projectMeaning": "取真实无妄、忠实不欺之意。",
+      "projectWish": "项目创作：愿你在重要关系中保有坦诚，也能保护自己的边界。",
+      "candidateThemeLabel": "truthful-integrity",
+      "themeDisposition": "new-theme-unregistered",
+      "classification": "general",
+      "semanticDecision": "approve-characterwise-scope",
+      "admissionGranted": false,
+      "activation": "off",
+      "productionApproved": false,
+      "projectMeaningBasis": "固定义项“真實無妄、忠實不欺。”与候选 project.meaning“取真实无妄、忠实不欺之意。”为直接释义/受限意象对应；项目愿望只作原创说明，不改变辞典义。",
+      "limits": [
+        "原义为文字与行为的价值取向，不证明现实中已经诚实。",
+        "不据此推定道德优越、信用结果或他人评价。",
+        "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+      ],
+      "prohibitedInferences": [
+        "whole-name-meaning",
+        "personality-or-ability-fact",
+        "fortune-health-wealth-longevity-or-relationship-outcome",
+        "five-element-or-element-authority"
+      ],
+      "scope": "single-character-project-intent-only",
+      "wholeNameAssessment": "not-assessed",
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "reviewNotes": [
+        "未匹配 M752 六个已登记主题；自足单字义可作一般逐字说明，候选自定义主题不授自动主题准入。"
+      ]
+    },
+    {
+      "candidateId": "m910-naming-data:慈:56151:0:2",
+      "batch": "M910-DATA",
+      "sourceSHA256": "48705edada125b6dd9ad1cfdfb6a1f0bda0de4b1fccfd28d8c2a84fc5c2e2902",
+      "rawFileSHA256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+      "char": "慈",
+      "pinyin": "cí",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "慈",
+      "sourcePOS": "名",
+      "rawEntryIndex": 56151,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 2,
+      "dictionarySense": "深篤的愛。",
+      "sourceDefinition": {
+        "def": "深篤的愛。",
+        "quote": [
+          "《左傳．莊公二十七年》：「夫禮樂慈愛，戰所畜也。」",
+          "唐．孔穎達．正義：「慈謂愛之深也。」",
+          "《禮記．曲禮上》：「兄弟親戚稱其慈也，僚友稱其弟也。」"
+        ],
+        "type": "名"
+      },
+      "projectMeaning": "取深笃的爱与关怀之意。",
+      "projectWish": "项目创作：愿你在被尊重的关系中感受关怀，也愿意照顾自己的需要。",
+      "candidateThemeLabel": "deep-care",
+      "themeDisposition": "new-theme-unregistered",
+      "classification": "general",
+      "semanticDecision": "approve-characterwise-scope",
+      "admissionGranted": false,
+      "activation": "off",
+      "productionApproved": false,
+      "projectMeaningBasis": "固定义项“深篤的愛。”与候选 project.meaning“取深笃的爱与关怀之意。”为直接释义/受限意象对应；项目愿望只作原创说明，不改变辞典义。",
+      "limits": [
+        "关怀是项目主题，不规定孝亲、照护或性别角色。",
+        "不把名字作为善良事实或家庭义务的证明。",
+        "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+      ],
+      "prohibitedInferences": [
+        "whole-name-meaning",
+        "personality-or-ability-fact",
+        "fortune-health-wealth-longevity-or-relationship-outcome",
+        "five-element-or-element-authority"
+      ],
+      "scope": "single-character-project-intent-only",
+      "wholeNameAssessment": "not-assessed",
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "reviewNotes": [
+        "未匹配 M752 六个已登记主题；自足单字义可作一般逐字说明，候选自定义主题不授自动主题准入。"
+      ]
+    },
+    {
+      "candidateId": "m910-naming-data:芳:122175:0:0",
+      "batch": "M910-DATA",
+      "sourceSHA256": "46eaa7b2d6557e5adfc0fcbff9651adf184ae52506382036dad1e524bdfeb63a",
+      "rawFileSHA256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+      "char": "芳",
+      "pinyin": "fāng",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "芳",
+      "sourcePOS": "名",
+      "rawEntryIndex": 122175,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 0,
+      "dictionarySense": "花草的香氣。",
+      "sourceDefinition": {
+        "def": "花草的香氣。",
+        "quote": [
+          "《說文解字．艸部》：「芳，香艸。」",
+          "清．段玉裁．注：「香艸當作艸香。」",
+          "漢．武帝〈秋風辭〉：「蘭有秀兮菊有芳，懷佳人兮不能忘。」",
+          "唐．柳宗元〈南中榮橘柚〉詩：「密林耀朱綠，晚歲有餘芳。」"
+        ],
+        "type": "名"
+      },
+      "projectMeaning": "取花草香气这一具体自然意象。",
+      "projectWish": "项目创作：愿你在自然与日常中发现细微而持久的美好。",
+      "candidateThemeLabel": "floral-fragrance",
+      "themeDisposition": "new-theme-unregistered",
+      "classification": "general",
+      "semanticDecision": "approve-characterwise-scope",
+      "admissionGranted": false,
+      "activation": "off",
+      "productionApproved": false,
+      "projectMeaningBasis": "固定义项“花草的香氣。”与候选 project.meaning“取花草香气这一具体自然意象。”为直接释义/受限意象对应；项目愿望只作原创说明，不改变辞典义。",
+      "limits": [
+        "只取花草香气，不借美德、声誉或敬称义。",
+        "自然意象不推导外貌、性别或社会评价。",
+        "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+      ],
+      "prohibitedInferences": [
+        "whole-name-meaning",
+        "personality-or-ability-fact",
+        "fortune-health-wealth-longevity-or-relationship-outcome",
+        "five-element-or-element-authority"
+      ],
+      "scope": "single-character-project-intent-only",
+      "wholeNameAssessment": "not-assessed",
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "reviewNotes": [
+        "未匹配 M752 六个已登记主题；自足单字义可作一般逐字说明，候选自定义主题不授自动主题准入。"
+      ]
+    },
+    {
+      "candidateId": "m910-naming-data:枫:77587:0:0",
+      "batch": "M910-DATA",
+      "sourceSHA256": "63427c48d07d853243d79859ee915e0c92b6583541cb0e2bef557e14d0aeb589",
+      "rawFileSHA256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+      "char": "枫",
+      "pinyin": "fēng",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "楓",
+      "sourcePOS": "名",
+      "rawEntryIndex": 77587,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 0,
+      "dictionarySense": "植物名。金縷梅科楓香屬，落葉大喬木。葉互生，菱形，掌狀分裂為三，邊緣有細鋸齒。單性花，雌雄同株。春季抽新葉並開黃褐色花。蒴果集生。木材可供建築箱櫃之用。秋間葉落前，葉色由黃而紅，甚為美觀，故常栽培為庭園樹。",
+      "sourceDefinition": {
+        "def": "植物名。金縷梅科楓香屬，落葉大喬木。葉互生，菱形，掌狀分裂為三，邊緣有細鋸齒。單性花，雌雄同株。春季抽新葉並開黃褐色花。蒴果集生。木材可供建築箱櫃之用。秋間葉落前，葉色由黃而紅，甚為美觀，故常栽培為庭園樹。",
+        "link": [
+          "俗稱為「楓樹」。"
+        ],
+        "type": "名"
+      },
+      "projectMeaning": "取楓香属落叶乔木及其秋日叶色的植物意象。",
+      "projectWish": "项目创作：愿你亲近自然，也允许自己经历季节性的变化。",
+      "candidateThemeLabel": "maple-tree",
+      "themeDisposition": "new-theme-unregistered",
+      "classification": "general",
+      "semanticDecision": "approve-characterwise-scope",
+      "admissionGranted": false,
+      "activation": "off",
+      "productionApproved": false,
+      "projectMeaningBasis": "固定义项“植物名。金縷梅科楓香屬，落葉大喬木。葉互生，菱形，掌狀分裂為三，邊緣有細鋸齒。單性花，雌雄同株。春季抽新葉並開黃褐色花。蒴果集生。木材可供建築箱櫃之用。秋間葉落前，葉色由黃而紅，甚為美觀，故常栽培為庭園樹。”与候选 project.meaning“取楓香属落叶乔木及其秋日叶色的植物意象。”为直接释义/受限意象对应；项目愿望只作原创说明，不改变辞典义。",
+      "limits": [
+        "原条是植物学描述，不从树木推导坚强、长寿或人格。",
+        "秋叶审美属于项目文化标签，不作传统五行结论。",
+        "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+      ],
+      "prohibitedInferences": [
+        "whole-name-meaning",
+        "personality-or-ability-fact",
+        "fortune-health-wealth-longevity-or-relationship-outcome",
+        "five-element-or-element-authority"
+      ],
+      "scope": "single-character-project-intent-only",
+      "wholeNameAssessment": "not-assessed",
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "reviewNotes": [
+        "未匹配 M752 六个已登记主题；自足单字义可作一般逐字说明，候选自定义主题不授自动主题准入。"
+      ]
+    },
+    {
+      "candidateId": "m910-naming-data:福:106369:0:0",
+      "batch": "M910-DATA",
+      "sourceSHA256": "42f51bfbf221eb172830fd9c637ac246937b682a4b5bfcd380c123964afa3ef2",
+      "rawFileSHA256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+      "char": "福",
+      "pinyin": "fú",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "福",
+      "sourcePOS": "名",
+      "rawEntryIndex": 106369,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 0,
+      "dictionarySense": "富貴壽考的統稱。或泛稱吉祥幸運的事。",
+      "sourceDefinition": {
+        "def": "富貴壽考的統稱。或泛稱吉祥幸運的事。",
+        "example": [
+          "如：「享福」、「迎春納福」、「造福人群」。"
+        ],
+        "quote": [
+          "《韓非子．解老》：「必成功則富與貴，全壽富貴之謂福。」"
+        ],
+        "type": "名"
+      },
+      "projectMeaning": "取泛称吉祥幸运之事的文化祝愿意象。",
+      "projectWish": "项目创作：愿你珍惜当下的福分，也能以自己的方式定义幸福。",
+      "candidateThemeLabel": "blessing-wish",
+      "themeDisposition": "new-theme-unregistered",
+      "classification": "general",
+      "semanticDecision": "approve-characterwise-scope",
+      "admissionGranted": false,
+      "activation": "off",
+      "productionApproved": false,
+      "projectMeaningBasis": "固定义项“富貴壽考的統稱。或泛稱吉祥幸運的事。”与候选 project.meaning“取泛称吉祥幸运之事的文化祝愿意象。”为直接释义/受限意象对应；项目愿望只作原创说明，不改变辞典义。",
+      "limits": [
+        "保留原条富贵寿考与吉祥幸运的词典语境，不把它变成现实承诺。",
+        "不据此预测财富、健康、寿命或运气。",
+        "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+      ],
+      "prohibitedInferences": [
+        "whole-name-meaning",
+        "personality-or-ability-fact",
+        "fortune-health-wealth-longevity-or-relationship-outcome",
+        "five-element-or-element-authority"
+      ],
+      "scope": "single-character-project-intent-only",
+      "wholeNameAssessment": "not-assessed",
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "reviewNotes": [
+        "未匹配 M752 六个已登记主题；自足单字义可作一般逐字说明，候选自定义主题不授自动主题准入。"
+      ]
+    },
+    {
+      "candidateId": "m910-naming-data:涵:86829:0:2",
+      "batch": "M910-DATA",
+      "sourceSHA256": "f64a6cc12d70492ff7f5caf0840e20404a178a644cebe22b81957869f3b1e151",
+      "rawFileSHA256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+      "char": "涵",
+      "pinyin": "hán",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "涵",
+      "sourcePOS": "動",
+      "rawEntryIndex": 86829,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 2,
+      "dictionarySense": "包容、容納。",
+      "sourceDefinition": {
+        "def": "包容、容納。",
+        "example": [
+          "如：「包涵」、「海涵」。"
+        ],
+        "quote": [
+          "唐．孟浩然〈望洞庭湖贈張丞相〉詩：「八月湖水平，涵虛混太清。」",
+          "唐．杜牧〈九日齊安登高〉詩：「江涵秋影雁初飛，與客攜壺上翠微。」"
+        ],
+        "type": "動"
+      },
+      "projectMeaning": "取包容、容纳这一关系与空间意象。",
+      "projectWish": "项目创作：愿你在尊重边界的同时，保有理解不同经验的余地。",
+      "candidateThemeLabel": "容纳-and-boundaries",
+      "themeDisposition": "new-theme-unregistered",
+      "classification": "general",
+      "semanticDecision": "approve-characterwise-scope",
+      "admissionGranted": false,
+      "activation": "off",
+      "productionApproved": false,
+      "projectMeaningBasis": "固定义项“包容、容納。”与候选 project.meaning“取包容、容纳这一关系与空间意象。”为直接释义/受限意象对应；项目愿望只作原创说明，不改变辞典义。",
+      "limits": [
+        "包容是项目解释，不证明现实中的性格或处理能力。",
+        "不把容纳解释为无条件承受、牺牲或没有边界。",
+        "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+      ],
+      "prohibitedInferences": [
+        "whole-name-meaning",
+        "personality-or-ability-fact",
+        "fortune-health-wealth-longevity-or-relationship-outcome",
+        "five-element-or-element-authority"
+      ],
+      "scope": "single-character-project-intent-only",
+      "wholeNameAssessment": "not-assessed",
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "reviewNotes": [
+        "未匹配 M752 六个已登记主题；自足单字义可作一般逐字说明，候选自定义主题不授自动主题准入。"
+      ]
+    },
+    {
+      "candidateId": "m910-naming-data:昊:70453:0:0",
+      "batch": "M910-DATA",
+      "sourceSHA256": "f810869611bdd7d78ec55ed14a1ced48ad7a186781116243392117992bc12e4a",
+      "rawFileSHA256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+      "char": "昊",
+      "pinyin": "hào",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "昊",
+      "sourcePOS": "名",
+      "rawEntryIndex": 70453,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 0,
+      "dictionarySense": "廣大無邊際的天。",
+      "sourceDefinition": {
+        "def": "廣大無邊際的天。",
+        "quote": [
+          "《梁書．卷一．武帝本紀上》：「上達蒼昊，下及川泉。」",
+          "宋．蘇軾〈再和潛師〉詩：「且撼長條餐落英，忍飢未擬窮呼昊。」"
+        ],
+        "type": "名"
+      },
+      "projectMeaning": "取广大无边际的天空意象。",
+      "projectWish": "项目创作：愿你保有开阔的视野，也能选择自己的方向。",
+      "candidateThemeLabel": "vast-sky",
+      "themeDisposition": "new-theme-unregistered",
+      "classification": "general",
+      "semanticDecision": "approve-characterwise-scope",
+      "admissionGranted": false,
+      "activation": "off",
+      "productionApproved": false,
+      "projectMeaningBasis": "固定义项“廣大無邊際的天。”与候选 project.meaning“取广大无边际的天空意象。”为直接释义/受限意象对应；项目愿望只作原创说明，不改变辞典义。",
+      "limits": [
+        "天空意象不等同伟大、地位或能力保证。",
+        "不据此推断人生格局、成就或传统五行。",
+        "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+      ],
+      "prohibitedInferences": [
+        "whole-name-meaning",
+        "personality-or-ability-fact",
+        "fortune-health-wealth-longevity-or-relationship-outcome",
+        "five-element-or-element-authority"
+      ],
+      "scope": "single-character-project-intent-only",
+      "wholeNameAssessment": "not-assessed",
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "reviewNotes": [
+        "未匹配 M752 六个已登记主题；自足单字义可作一般逐字说明，候选自定义主题不授自动主题准入。"
+      ]
+    },
+    {
+      "candidateId": "m910-naming-data:泓:84419:0:0",
+      "batch": "M910-DATA",
+      "sourceSHA256": "40f71b92c46f22e7a0ac188fd01ae7fdfe8b98332e3f56ac3be38f63356c4cf8",
+      "rawFileSHA256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+      "char": "泓",
+      "pinyin": "hóng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "泓",
+      "sourcePOS": "形",
+      "rawEntryIndex": 84419,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 0,
+      "dictionarySense": "水深廣的樣子。",
+      "sourceDefinition": {
+        "def": "水深廣的樣子。",
+        "quote": [
+          "《說文解字．水部》：「泓，下深貌。」",
+          "唐．張又新〈青嶴山〉詩：「靈海泓澄匝翠峰，昔賢心賞已成空。」"
+        ],
+        "type": "形"
+      },
+      "projectMeaning": "取水深广的自然意象。",
+      "projectWish": "项目创作：愿你欣赏深广水景，也有空间慢慢形成自己的理解。",
+      "candidateThemeLabel": "deep-water",
+      "themeDisposition": "new-theme-unregistered",
+      "classification": "general",
+      "semanticDecision": "approve-characterwise-scope",
+      "admissionGranted": false,
+      "activation": "off",
+      "productionApproved": false,
+      "projectMeaningBasis": "固定义项“水深廣的樣子。”与候选 project.meaning“取水深广的自然意象。”为直接释义/受限意象对应；项目愿望只作原创说明，不改变辞典义。",
+      "limits": [
+        "原义是形态描述，不把水意象转成人格深度或命运。",
+        "五行字段仅为项目文化标签，不作传统五行定论。",
+        "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+      ],
+      "prohibitedInferences": [
+        "whole-name-meaning",
+        "personality-or-ability-fact",
+        "fortune-health-wealth-longevity-or-relationship-outcome",
+        "five-element-or-element-authority"
+      ],
+      "scope": "single-character-project-intent-only",
+      "wholeNameAssessment": "not-assessed",
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "reviewNotes": [
+        "未匹配 M752 六个已登记主题；自足单字义可作一般逐字说明，候选自定义主题不授自动主题准入。"
+      ]
+    },
+    {
+      "candidateId": "m910-naming-data:嘉:30135:0:0",
+      "batch": "M910-DATA",
+      "sourceSHA256": "09e7346fb450b9b9172a1920f263b3e348a86b65303f92d7bab27ef0d8ed1e9c",
+      "rawFileSHA256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+      "char": "嘉",
+      "pinyin": "jiā",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "嘉",
+      "sourcePOS": "形",
+      "rawEntryIndex": 30135,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 0,
+      "dictionarySense": "美好的。",
+      "sourceDefinition": {
+        "def": "美好的。",
+        "example": [
+          "如：「嘉名」、「嘉賓」。"
+        ],
+        "quote": [
+          "《詩經．豳風．東山》：「其新孔嘉，其舊如之何？」",
+          "唐．柳宗元〈永州韋使君新堂記〉：「茂樹惡木，嘉葩毒卉，亂雜而爭植。」"
+        ],
+        "type": "形"
+      },
+      "projectMeaning": "取美好这一直接形容义。",
+      "projectWish": "项目创作：愿你看见生活中的美好，也有权定义对自己重要的好。",
+      "candidateThemeLabel": "goodness-and-beauty",
+      "themeDisposition": "new-theme-unregistered",
+      "classification": "general",
+      "semanticDecision": "approve-characterwise-scope",
+      "admissionGranted": false,
+      "activation": "off",
+      "productionApproved": false,
+      "projectMeaningBasis": "固定义项“美好的。”与候选 project.meaning“取美好这一直接形容义。”为直接释义/受限意象对应；项目愿望只作原创说明，不改变辞典义。",
+      "limits": [
+        "美好是原字形容义与项目愿望，不证明社会认可或品格完成。",
+        "不把名字转写成地位、成绩或吉凶预测。",
+        "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+      ],
+      "prohibitedInferences": [
+        "whole-name-meaning",
+        "personality-or-ability-fact",
+        "fortune-health-wealth-longevity-or-relationship-outcome",
+        "five-element-or-element-authority"
+      ],
+      "scope": "single-character-project-intent-only",
+      "wholeNameAssessment": "not-assessed",
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "reviewNotes": [
+        "未匹配 M752 六个已登记主题；自足单字义可作一般逐字说明，候选自定义主题不授自动主题准入。"
+      ]
+    },
+    {
+      "candidateId": "m910-naming-data:朗:73745:0:0",
+      "batch": "M910-DATA",
+      "sourceSHA256": "14c092e68f3838af1c68c1a33b3fb3d710ed2f3b1366a4174e01943286e8e56b",
+      "rawFileSHA256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+      "char": "朗",
+      "pinyin": "lǎng",
+      "tone": 3,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "朗",
+      "sourcePOS": "形",
+      "rawEntryIndex": 73745,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 0,
+      "dictionarySense": "明亮。",
+      "sourceDefinition": {
+        "def": "明亮。",
+        "example": [
+          "如：「明朗」、「晴朗」。"
+        ],
+        "quote": [
+          "晉．王羲之〈三月三日蘭亭詩序〉：「天朗氣清，惠風和暢。」"
+        ],
+        "type": "形"
+      },
+      "projectMeaning": "取明亮这一光线与状态意象。",
+      "projectWish": "项目创作：愿你在需要时找到清楚表达与明朗空间。",
+      "candidateThemeLabel": "brightness",
+      "themeDisposition": "new-theme-unregistered",
+      "classification": "general",
+      "semanticDecision": "approve-characterwise-scope",
+      "admissionGranted": false,
+      "activation": "off",
+      "productionApproved": false,
+      "projectMeaningBasis": "固定义项“明亮。”与候选 project.meaning“取明亮这一光线与状态意象。”为直接释义/受限意象对应；项目愿望只作原创说明，不改变辞典义。",
+      "limits": [
+        "只取明亮义，不把它扩写为乐观、外向或前程保证。",
+        "光线意象不作人格测定。",
+        "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+      ],
+      "prohibitedInferences": [
+        "whole-name-meaning",
+        "personality-or-ability-fact",
+        "fortune-health-wealth-longevity-or-relationship-outcome",
+        "five-element-or-element-authority"
+      ],
+      "scope": "single-character-project-intent-only",
+      "wholeNameAssessment": "not-assessed",
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "reviewNotes": [
+        "未匹配 M752 六个已登记主题；自足单字义可作一般逐字说明，候选自定义主题不授自动主题准入。"
+      ]
+    },
+    {
+      "candidateId": "m910-naming-data:宁:43912:0:0",
+      "batch": "M910-DATA",
+      "sourceSHA256": "04624bcd6880609defdf1705fe1d919a11e8a6f47a3807e8a54805b3e69849ce",
+      "rawFileSHA256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+      "char": "宁",
+      "pinyin": "níng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "寧",
+      "sourcePOS": "形",
+      "rawEntryIndex": 43912,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 0,
+      "dictionarySense": "安定。",
+      "sourceDefinition": {
+        "def": "安定。",
+        "example": [
+          "如：「安寧」。"
+        ],
+        "quote": [
+          "《詩經．小雅．常棣》：「喪亂既平，既安且寧。」",
+          "《遼史．卷三一．營衛志上》：「隨陽遷徙，歲無寧居。」"
+        ],
+        "type": "形"
+      },
+      "projectMeaning": "取安定这一状态之意。",
+      "projectWish": "项目创作：愿你在变化中保有可以休息与安顿的时刻。",
+      "candidateThemeLabel": "settled-peace",
+      "themeDisposition": "new-theme-unregistered",
+      "classification": "general",
+      "semanticDecision": "approve-characterwise-scope",
+      "admissionGranted": false,
+      "activation": "off",
+      "productionApproved": false,
+      "projectMeaningBasis": "固定义项“安定。”与候选 project.meaning“取安定这一状态之意。”为直接释义/受限意象对应；项目愿望只作原创说明，不改变辞典义。",
+      "limits": [
+        "固定寧níng/安定义，区别宁愿及其他读音。",
+        "不把安定解释成没有风险、冲突或变化的人生保证。",
+        "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+      ],
+      "prohibitedInferences": [
+        "whole-name-meaning",
+        "personality-or-ability-fact",
+        "fortune-health-wealth-longevity-or-relationship-outcome",
+        "five-element-or-element-authority"
+      ],
+      "scope": "single-character-project-intent-only",
+      "wholeNameAssessment": "not-assessed",
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "reviewNotes": [
+        "未匹配 M752 六个已登记主题；自足单字义可作一般逐字说明，候选自定义主题不授自动主题准入。"
+      ]
+    },
+    {
+      "candidateId": "m910-naming-data:霖:152818:0:0",
+      "batch": "M910-DATA",
+      "sourceSHA256": "8a83b7c344b7c55478d4daf2ec2d83624639b1934c74bbbd0aec96197d46958d",
+      "rawFileSHA256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+      "char": "霖",
+      "pinyin": "lín",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "霖",
+      "sourcePOS": "名",
+      "rawEntryIndex": 152818,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 0,
+      "dictionarySense": "連續下三天以上的雨稱為「霖」。",
+      "sourceDefinition": {
+        "def": "連續下三天以上的雨稱為「霖」。",
+        "example": [
+          "如：「久旱逢甘霖」。"
+        ],
+        "quote": [
+          "《說文解字．雨部》：「霖，凡雨，三日已往為霖。」",
+          "唐．元稹〈桐花〉詩：「商弦廉以臣，臣作旱天霖。」"
+        ],
+        "type": "名"
+      },
+      "projectMeaning": "取连续下三天以上的雨这一自然现象意象。",
+      "projectWish": "项目创作：愿你在漫长的等待中，也能发现滋养生活的细节。",
+      "candidateThemeLabel": "long-rain",
+      "themeDisposition": "new-theme-unregistered",
+      "classification": "general",
+      "semanticDecision": "approve-characterwise-scope",
+      "admissionGranted": false,
+      "activation": "off",
+      "productionApproved": false,
+      "projectMeaningBasis": "固定义项“連續下三天以上的雨稱為「霖」。”与候选 project.meaning“取连续下三天以上的雨这一自然现象意象。”为直接释义/受限意象对应；项目愿望只作原创说明，不改变辞典义。",
+      "limits": [
+        "原义是持续降雨的名称，不把甘霖自动等同救济、财富或好运。",
+        "不作天气、健康或人生结果预测。",
+        "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+      ],
+      "prohibitedInferences": [
+        "whole-name-meaning",
+        "personality-or-ability-fact",
+        "fortune-health-wealth-longevity-or-relationship-outcome",
+        "five-element-or-element-authority"
+      ],
+      "scope": "single-character-project-intent-only",
+      "wholeNameAssessment": "not-assessed",
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "reviewNotes": [
+        "未匹配 M752 六个已登记主题；自足单字义可作一般逐字说明，候选自定义主题不授自动主题准入。"
+      ]
+    },
+    {
+      "candidateId": "m910-naming-data:昭:71207:0:0",
+      "batch": "M910-DATA",
+      "sourceSHA256": "9d986cc9b7596f2abdcea169ae9f7f907b97dc32c50fc4f654284c3d38c0b5e2",
+      "rawFileSHA256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+      "char": "昭",
+      "pinyin": "zhāo",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "昭",
+      "sourcePOS": "形",
+      "rawEntryIndex": 71207,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 0,
+      "dictionarySense": "明亮、光明。",
+      "sourceDefinition": {
+        "def": "明亮、光明。",
+        "quote": [
+          "《詩經．大雅．抑》：「昊天孔昭，我生靡樂。」"
+        ],
+        "type": "形"
+      },
+      "projectMeaning": "取明亮、光明这一直接形容义。",
+      "projectWish": "项目创作：愿你愿意看清问题，也保留重新理解的余地。",
+      "candidateThemeLabel": "clarity-and-light",
+      "themeDisposition": "new-theme-unregistered",
+      "classification": "general",
+      "semanticDecision": "approve-characterwise-scope",
+      "admissionGranted": false,
+      "activation": "off",
+      "productionApproved": false,
+      "projectMeaningBasis": "固定义项“明亮、光明。”与候选 project.meaning“取明亮、光明这一直接形容义。”为直接释义/受限意象对应；项目愿望只作原创说明，不改变辞典义。",
+      "limits": [
+        "光明是文化意象，不预测名望、显达或人生结局。",
+        "不混入宗庙次序、显扬等其他义项。",
+        "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+      ],
+      "prohibitedInferences": [
+        "whole-name-meaning",
+        "personality-or-ability-fact",
+        "fortune-health-wealth-longevity-or-relationship-outcome",
+        "five-element-or-element-authority"
+      ],
+      "scope": "single-character-project-intent-only",
+      "wholeNameAssessment": "not-assessed",
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "reviewNotes": [
+        "未匹配 M752 六个已登记主题；自足单字义可作一般逐字说明，候选自定义主题不授自动主题准入。"
+      ]
+    },
+    {
+      "candidateId": "m910-naming-data:秋:106848:0:0",
+      "batch": "M910-DATA",
+      "sourceSHA256": "eb39d8ee9583e8c28f1fefe09fde1de643c3236a427d563652bfb136e564ff82",
+      "rawFileSHA256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+      "char": "秋",
+      "pinyin": "qiū",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "秋",
+      "sourcePOS": "名",
+      "rawEntryIndex": 106848,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 0,
+      "dictionarySense": "一年四季中的第三季。農曆為七、八、九月，陽曆為九、十、十一月。",
+      "sourceDefinition": {
+        "def": "一年四季中的第三季。農曆為七、八、九月，陽曆為九、十、十一月。",
+        "example": [
+          "如：「秋天」、「秋季」、「中秋」、「深秋」、「一葉知秋」。"
+        ],
+        "quote": [
+          "唐．杜甫〈登高〉詩：「萬里悲秋常作客，百年多病獨登臺。」"
+        ],
+        "type": "名"
+      },
+      "projectMeaning": "取一年四季中的第三季这一时间与自然意象。",
+      "projectWish": "项目创作：愿你感受季节变化，也尊重每个阶段的节奏。",
+      "candidateThemeLabel": "seasonal-autumn",
+      "themeDisposition": "new-theme-unregistered",
+      "classification": "general",
+      "semanticDecision": "approve-characterwise-scope",
+      "admissionGranted": false,
+      "activation": "off",
+      "productionApproved": false,
+      "projectMeaningBasis": "固定义项“一年四季中的第三季。農曆為七、八、九月，陽曆為九、十、十一月。”与候选 project.meaning“取一年四季中的第三季这一时间与自然意象。”为直接释义/受限意象对应；项目愿望只作原创说明，不改变辞典义。",
+      "limits": [
+        "只取季节义，不把秋解释为衰败、忧愁或命运信号。",
+        "时间意象不替代完整姓名的语境审查。",
+        "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+      ],
+      "prohibitedInferences": [
+        "whole-name-meaning",
+        "personality-or-ability-fact",
+        "fortune-health-wealth-longevity-or-relationship-outcome",
+        "five-element-or-element-authority"
+      ],
+      "scope": "single-character-project-intent-only",
+      "wholeNameAssessment": "not-assessed",
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "reviewNotes": [
+        "未匹配 M752 六个已登记主题；自足单字义可作一般逐字说明，候选自定义主题不授自动主题准入。"
+      ]
+    },
+    {
+      "candidateId": "m910-naming-data:松:75337:0:0",
+      "batch": "M910-DATA",
+      "sourceSHA256": "fc7f9e0985337d9918ab6e5698574e1a60a1741274475a0c489c1c0c456b5bbc",
+      "rawFileSHA256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+      "char": "松",
+      "pinyin": "sōng",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "松",
+      "sourcePOS": "名",
+      "rawEntryIndex": 75337,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 0,
+      "dictionarySense": "松科植物的總稱。種類極多，一般為常綠喬木。幹聳直，皮粗厚，葉如針，花單性，結毬果，木材用途甚廣，可供醫藥和工藝用。",
+      "sourceDefinition": {
+        "def": "松科植物的總稱。種類極多，一般為常綠喬木。幹聳直，皮粗厚，葉如針，花單性，結毬果，木材用途甚廣，可供醫藥和工藝用。",
+        "type": "名"
+      },
+      "projectMeaning": "取松科常绿乔木的自然器物意象。",
+      "projectWish": "项目创作：愿你亲近树木与手工生活，也按自己的节奏成长。",
+      "candidateThemeLabel": "pine-tree",
+      "themeDisposition": "new-theme-unregistered",
+      "classification": "general",
+      "semanticDecision": "approve-characterwise-scope",
+      "admissionGranted": false,
+      "activation": "off",
+      "productionApproved": false,
+      "projectMeaningBasis": "固定义项“松科植物的總稱。種類極多，一般為常綠喬木。幹聳直，皮粗厚，葉如針，花單性，結毬果，木材用途甚廣，可供醫藥和工藝用。”与候选 project.meaning“取松科常绿乔木的自然器物意象。”为直接释义/受限意象对应；项目愿望只作原创说明，不改变辞典义。",
+      "limits": [
+        "原条是植物描述，不直接推导坚强、长寿或品格。",
+        "不把常绿解释成健康、寿命或成功保证。",
+        "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+      ],
+      "prohibitedInferences": [
+        "whole-name-meaning",
+        "personality-or-ability-fact",
+        "fortune-health-wealth-longevity-or-relationship-outcome",
+        "five-element-or-element-authority"
+      ],
+      "scope": "single-character-project-intent-only",
+      "wholeNameAssessment": "not-assessed",
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "reviewNotes": [
+        "未匹配 M752 六个已登记主题；自足单字义可作一般逐字说明，候选自定义主题不授自动主题准入。"
+      ]
+    },
+    {
+      "candidateId": "m910-naming-data:哲:28713:0:0",
+      "batch": "M910-DATA",
+      "sourceSHA256": "23baf3be4b72eea71c43c0bc4109c4a9f9208ee86115501765abb4ddefc632c4",
+      "rawFileSHA256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+      "char": "哲",
+      "pinyin": "zhé",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "哲",
+      "sourcePOS": "形",
+      "rawEntryIndex": 28713,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 0,
+      "dictionarySense": "明智。",
+      "sourceDefinition": {
+        "def": "明智。",
+        "quote": [
+          "《書經．皋陶謨》：「知人則哲，能官人。」",
+          "《文選．王延壽．魯靈光殿賦》：「粵若稽古帝漢，祖宗濬哲欽明。」"
+        ],
+        "type": "形"
+      },
+      "projectMeaning": "取明智这一认识与思考意象。",
+      "projectWish": "项目创作：愿你保持好奇，愿意在经验中形成自己的判断。",
+      "candidateThemeLabel": "wisdom-and-reflection",
+      "themeDisposition": "new-theme-unregistered",
+      "classification": "general",
+      "semanticDecision": "approve-characterwise-scope",
+      "admissionGranted": false,
+      "activation": "off",
+      "productionApproved": false,
+      "projectMeaningBasis": "固定义项“明智。”与候选 project.meaning“取明智这一认识与思考意象。”为直接释义/受限意象对应；项目愿望只作原创说明，不改变辞典义。",
+      "limits": [
+        "明智是词典义与项目愿望，不预测智力、学历或成绩。",
+        "不把名字作为现实能力、社会地位或道德判断。",
+        "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+      ],
+      "prohibitedInferences": [
+        "whole-name-meaning",
+        "personality-or-ability-fact",
+        "fortune-health-wealth-longevity-or-relationship-outcome",
+        "five-element-or-element-authority"
+      ],
+      "scope": "single-character-project-intent-only",
+      "wholeNameAssessment": "not-assessed",
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "reviewNotes": [
+        "未匹配 M752 六个已登记主题；自足单字义可作一般逐字说明，候选自定义主题不授自动主题准入。"
+      ]
+    },
+    {
+      "candidateId": "m910-naming-data:瑞:96869:0:2",
+      "batch": "M910-DATA",
+      "sourceSHA256": "7fe1fd02b4498ed32f6978e19830d7ea05eb2cf4f84e2ad825adcb95d7322711",
+      "rawFileSHA256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+      "char": "瑞",
+      "pinyin": "ruì",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "瑞",
+      "sourcePOS": "形",
+      "rawEntryIndex": 96869,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 2,
+      "dictionarySense": "吉祥的。",
+      "sourceDefinition": {
+        "def": "吉祥的。",
+        "example": [
+          "如：「瑞兆」、「瑞雲」。"
+        ],
+        "quote": [
+          "唐．杜甫〈鳳凰臺〉詩：「自天銜瑞圖，飛下十二樓。」"
+        ],
+        "type": "形"
+      },
+      "projectMeaning": "取吉祥的文化祝愿意象。",
+      "projectWish": "项目创作：愿你珍惜值得庆祝的日常，也能自己定义安稳与喜悦。",
+      "candidateThemeLabel": "auspicious-sign",
+      "themeDisposition": "new-theme-unregistered",
+      "classification": "general",
+      "semanticDecision": "approve-characterwise-scope",
+      "admissionGranted": false,
+      "activation": "off",
+      "productionApproved": false,
+      "projectMeaningBasis": "固定义项“吉祥的。”与候选 project.meaning“取吉祥的文化祝愿意象。”为直接释义/受限意象对应；项目愿望只作原创说明，不改变辞典义。",
+      "limits": [
+        "固定瑞ruì/吉祥的义，不把祥瑞当作占卜结果。",
+        "不承诺健康、财富、婚姻、寿命或其他人生结果。",
+        "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+      ],
+      "prohibitedInferences": [
+        "whole-name-meaning",
+        "personality-or-ability-fact",
+        "fortune-health-wealth-longevity-or-relationship-outcome",
+        "five-element-or-element-authority"
+      ],
+      "scope": "single-character-project-intent-only",
+      "wholeNameAssessment": "not-assessed",
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "reviewNotes": [
+        "未匹配 M752 六个已登记主题；自足单字义可作一般逐字说明，候选自定义主题不授自动主题准入。"
+      ]
+    },
+    {
+      "candidateId": "m914-naming-data:博:23625:0:0",
+      "batch": "M914-D01",
+      "sourceSHA256": "bfb84f3e0cea5541c2bec87c51c02a8d2769226d0df05c8987b3c0d74f5c416c",
+      "rawFileSHA256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+      "char": "博",
+      "pinyin": "bó",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "博",
+      "sourcePOS": "形",
+      "rawEntryIndex": 23625,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 0,
+      "dictionarySense": "廣大、眾多的意思。",
+      "sourceDefinition": {
+        "def": "廣大、眾多的意思。",
+        "example": [
+          "如：「廣博」、「地大物博」。"
+        ],
+        "quote": [
+          "《廣韻．入聲．鐸韻》：「博，廣也、大也、通也。」"
+        ],
+        "type": "形"
+      },
+      "projectMeaning": "取广大、众多的开阔意象。",
+      "projectWish": "项目创作：愿你接触丰富经验，也能选择适合自己的广度。",
+      "candidateThemeLabel": "广博开阔",
+      "themeDisposition": "new-theme-unregistered",
+      "classification": "general",
+      "semanticDecision": "approve-characterwise-scope",
+      "admissionGranted": false,
+      "activation": "off",
+      "productionApproved": false,
+      "projectMeaningBasis": "固定义项“廣大、眾多的意思。”与候选 project.meaning“取广大、众多的开阔意象。”为直接释义/受限意象对应；项目愿望只作原创说明，不改变辞典义。",
+      "limits": [
+        "只取广大、众多义，不推导学历、见识或成就。",
+        "项目愿望不构成能力、地位或人生结果承诺。",
+        "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+      ],
+      "prohibitedInferences": [
+        "whole-name-meaning",
+        "personality-or-ability-fact",
+        "fortune-health-wealth-longevity-or-relationship-outcome",
+        "five-element-or-element-authority"
+      ],
+      "scope": "single-character-project-intent-only",
+      "wholeNameAssessment": "not-assessed",
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "reviewNotes": [
+        "未匹配 M752 六个已登记主题；自足单字义可作一般逐字说明，候选自定义主题不授自动主题准入。"
+      ]
+    },
+    {
+      "candidateId": "m914-naming-data:灿:93360:0:0",
+      "batch": "M914-D01",
+      "sourceSHA256": "b89aba5f0bae493e5c2723954d4d8aa3c11d28601460091e53fac667a61ded5e",
+      "rawFileSHA256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+      "char": "灿",
+      "pinyin": "càn",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "燦",
+      "sourcePOS": "形",
+      "rawEntryIndex": 93360,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 0,
+      "dictionarySense": "光彩鮮明、耀眼。",
+      "sourceDefinition": {
+        "def": "光彩鮮明、耀眼。",
+        "example": [
+          "如：「燦爛」。"
+        ],
+        "type": "形"
+      },
+      "projectMeaning": "取光彩鲜明、耀眼的光亮意象。",
+      "projectWish": "项目创作：愿你留意生活中清楚而温暖的光亮。",
+      "candidateThemeLabel": "鲜明光彩",
+      "themeDisposition": "new-theme-unregistered",
+      "classification": "general",
+      "semanticDecision": "approve-characterwise-scope",
+      "admissionGranted": false,
+      "activation": "off",
+      "productionApproved": false,
+      "projectMeaningBasis": "固定义项“光彩鮮明、耀眼。”与候选 project.meaning“取光彩鲜明、耀眼的光亮意象。”为直接释义/受限意象对应；项目愿望只作原创说明，不改变辞典义。",
+      "limits": [
+        "只取光彩鲜明义，不推导外貌、名望或成功。",
+        "光亮是项目文化标签，不作命运判断。",
+        "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+      ],
+      "prohibitedInferences": [
+        "whole-name-meaning",
+        "personality-or-ability-fact",
+        "fortune-health-wealth-longevity-or-relationship-outcome",
+        "five-element-or-element-authority"
+      ],
+      "scope": "single-character-project-intent-only",
+      "wholeNameAssessment": "not-assessed",
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "reviewNotes": [
+        "未匹配 M752 六个已登记主题；自足单字义可作一般逐字说明，候选自定义主题不授自动主题准入。"
+      ]
+    },
+    {
+      "candidateId": "m914-naming-data:长:147806:0:1",
+      "batch": "M914-D01",
+      "sourceSHA256": "055136351cea0abe70cb309bbec0fe1264ef3b28c3fa1485078b1dc400d85113",
+      "rawFileSHA256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+      "char": "长",
+      "pinyin": "cháng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "長",
+      "sourcePOS": "名",
+      "rawEntryIndex": 147806,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 1,
+      "dictionarySense": "優點、長處。",
+      "sourceDefinition": {
+        "def": "優點、長處。",
+        "example": [
+          "如：「各有所長」、「截長補短」。"
+        ],
+        "quote": [
+          "《戰國策．齊策三》：「請掩足下之短者，誦足下之長。」"
+        ],
+        "type": "名"
+      },
+      "projectMeaning": "取优点、长处这一能力与特质的词典义。",
+      "projectWish": "项目创作：愿你看见自己的长处，也允许自己持续学习。",
+      "candidateThemeLabel": "长处自识",
+      "themeDisposition": "new-theme-unregistered",
+      "classification": "general",
+      "semanticDecision": "approve-characterwise-scope",
+      "admissionGranted": false,
+      "activation": "off",
+      "productionApproved": false,
+      "projectMeaningBasis": "固定义项“優點、長處。”与候选 project.meaning“取优点、长处这一能力与特质的词典义。”为直接释义/受限意象对应；项目愿望只作原创说明，不改变辞典义。",
+      "limits": [
+        "只取长处义，不把名字当作能力已经实现的证明。",
+        "不据此推定竞争力、成绩或社会评价。",
+        "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+      ],
+      "prohibitedInferences": [
+        "whole-name-meaning",
+        "personality-or-ability-fact",
+        "fortune-health-wealth-longevity-or-relationship-outcome",
+        "five-element-or-element-authority"
+      ],
+      "scope": "single-character-project-intent-only",
+      "wholeNameAssessment": "not-assessed",
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "reviewNotes": [
+        "未匹配 M752 六个已登记主题；自足单字义可作一般逐字说明，候选自定义主题不授自动主题准入。"
+      ]
+    },
+    {
+      "candidateId": "m914-naming-data:宸:43152:0:1",
+      "batch": "M914-D01",
+      "sourceSHA256": "4ea5fbd53cb2e5e2f36a6abfa41e59b48984c6b2916a2816070fa4baf850e1ba",
+      "rawFileSHA256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+      "char": "宸",
+      "pinyin": "chén",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "宸",
+      "sourcePOS": "名",
+      "rawEntryIndex": 43152,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 1,
+      "dictionarySense": "幽深的房室。",
+      "sourceDefinition": {
+        "def": "幽深的房室。",
+        "quote": [
+          "《玉篇．宀部》：「宸，賈逵曰：『室之奧者。』」"
+        ],
+        "type": "名"
+      },
+      "projectMeaning": "取幽深房室的空间意象。",
+      "projectWish": "项目创作：愿你拥有可以安静思考、休息和探索的空间。",
+      "candidateThemeLabel": "幽室静思",
+      "themeDisposition": "new-theme-unregistered",
+      "classification": "general",
+      "semanticDecision": "approve-characterwise-scope",
+      "admissionGranted": false,
+      "activation": "off",
+      "productionApproved": false,
+      "projectMeaningBasis": "固定义项“幽深的房室。”与候选 project.meaning“取幽深房室的空间意象。”为直接释义/受限意象对应；项目愿望只作原创说明，不改变辞典义。",
+      "limits": [
+        "固定幽深房室义，不借帝王居处或帝王借指义。",
+        "不推导尊贵、权力或身份。",
+        "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+      ],
+      "prohibitedInferences": [
+        "whole-name-meaning",
+        "personality-or-ability-fact",
+        "fortune-health-wealth-longevity-or-relationship-outcome",
+        "five-element-or-element-authority"
+      ],
+      "scope": "single-character-project-intent-only",
+      "wholeNameAssessment": "not-assessed",
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "reviewNotes": [
+        "未匹配 M752 六个已登记主题；自足单字义可作一般逐字说明，候选自定义主题不授自动主题准入。"
+      ]
+    },
+    {
+      "candidateId": "m914-naming-data:成:57344:0:0",
+      "batch": "M914-D01",
+      "sourceSHA256": "b7e0fba59b08b984d2194629c426c953aacfb0b2c7c78603860b8727c2127ae6",
+      "rawFileSHA256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+      "char": "成",
+      "pinyin": "chéng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "成",
+      "sourcePOS": "動",
+      "rawEntryIndex": 57344,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 0,
+      "dictionarySense": "做好事情。",
+      "sourceDefinition": {
+        "def": "做好事情。",
+        "example": [
+          "如：「完成」、「功成名就」、「大功告成」。"
+        ],
+        "quote": [
+          "《說文解字．戊部》：「成，就也。」"
+        ],
+        "type": "動"
+      },
+      "projectMeaning": "取做好事情、完成行动的直接义。",
+      "projectWish": "项目创作：愿你把愿意投入的事情一步步做成。",
+      "candidateThemeLabel": "完成行动",
+      "themeDisposition": "new-theme-unregistered",
+      "classification": "general",
+      "semanticDecision": "approve-characterwise-scope",
+      "admissionGranted": false,
+      "activation": "off",
+      "productionApproved": false,
+      "projectMeaningBasis": "固定义项“做好事情。”与候选 project.meaning“取做好事情、完成行动的直接义。”为直接释义/受限意象对应；项目愿望只作原创说明，不改变辞典义。",
+      "limits": [
+        "只取做好事情义，不承诺目标必然完成。",
+        "项目愿望不等同成绩、事业或成功保证。",
+        "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+      ],
+      "prohibitedInferences": [
+        "whole-name-meaning",
+        "personality-or-ability-fact",
+        "fortune-health-wealth-longevity-or-relationship-outcome",
+        "five-element-or-element-authority"
+      ],
+      "scope": "single-character-project-intent-only",
+      "wholeNameAssessment": "not-assessed",
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "reviewNotes": [
+        "未匹配 M752 六个已登记主题；自足单字义可作一般逐字说明，候选自定义主题不授自动主题准入。"
+      ]
+    },
+    {
+      "candidateId": "m914-naming-data:城:33291:0:1",
+      "batch": "M914-D01",
+      "sourceSHA256": "ce7a36abccae19c31c3f316e857ae431b873c0b338a6b333ed75070e87ea46e0",
+      "rawFileSHA256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+      "char": "城",
+      "pinyin": "chéng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "城",
+      "sourcePOS": "名",
+      "rawEntryIndex": 33291,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 1,
+      "dictionarySense": "都市。",
+      "sourceDefinition": {
+        "def": "都市。",
+        "example": [
+          "如：「京城」、「城市」。"
+        ],
+        "type": "名"
+      },
+      "projectMeaning": "取都市与公共生活空间的意象。",
+      "projectWish": "项目创作：愿你在城市与共同生活中找到自己的位置和连接。",
+      "candidateThemeLabel": "城市生活",
+      "themeDisposition": "new-theme-unregistered",
+      "classification": "general",
+      "semanticDecision": "approve-characterwise-scope",
+      "admissionGranted": false,
+      "activation": "off",
+      "productionApproved": false,
+      "projectMeaningBasis": "固定义项“都市。”与候选 project.meaning“取都市与公共生活空间的意象。”为直接释义/受限意象对应；项目愿望只作原创说明，不改变辞典义。",
+      "limits": [
+        "固定都市义，不借姓氏、筑城或防守墙义。",
+        "不推导社会地位、归属结果或安全保证。",
+        "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+      ],
+      "prohibitedInferences": [
+        "whole-name-meaning",
+        "personality-or-ability-fact",
+        "fortune-health-wealth-longevity-or-relationship-outcome",
+        "five-element-or-element-authority"
+      ],
+      "scope": "single-character-project-intent-only",
+      "wholeNameAssessment": "not-assessed",
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "reviewNotes": [
+        "未匹配 M752 六个已登记主题；自足单字义可作一般逐字说明，候选自定义主题不授自动主题准入。"
+      ]
+    },
+    {
+      "candidateId": "m914-naming-data:川:47214:0:0",
+      "batch": "M914-D01",
+      "sourceSHA256": "c020d366e6017d556489253a0c7a2642c0b2162b9e727a2947d6159347adba8a",
+      "rawFileSHA256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+      "char": "川",
+      "pinyin": "chuān",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "川",
+      "sourcePOS": "名",
+      "rawEntryIndex": 47214,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 0,
+      "dictionarySense": "河流。",
+      "sourceDefinition": {
+        "def": "河流。",
+        "example": [
+          "如：「河川」。"
+        ],
+        "quote": [
+          "《論語．子罕》：「子在川上曰：『逝者如斯夫，不舍晝夜。』」"
+        ],
+        "type": "名"
+      },
+      "projectMeaning": "取河流延展、清流向前的自然意象。",
+      "projectWish": "项目创作：愿你亲近水流与自然，也保有自己的方向。",
+      "candidateThemeLabel": "河流延展",
+      "themeDisposition": "new-theme-unregistered",
+      "classification": "general",
+      "semanticDecision": "approve-characterwise-scope",
+      "admissionGranted": false,
+      "activation": "off",
+      "productionApproved": false,
+      "projectMeaningBasis": "固定义项“河流。”与候选 project.meaning“取河流延展、清流向前的自然意象。”为直接释义/受限意象对应；项目愿望只作原创说明，不改变辞典义。",
+      "limits": [
+        "只取河流义，不采用四川简称或烹饪义。",
+        "水意象是项目标签，不作传统五行定论。",
+        "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+      ],
+      "prohibitedInferences": [
+        "whole-name-meaning",
+        "personality-or-ability-fact",
+        "fortune-health-wealth-longevity-or-relationship-outcome",
+        "five-element-or-element-authority"
+      ],
+      "scope": "single-character-project-intent-only",
+      "wholeNameAssessment": "not-assessed",
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "reviewNotes": [
+        "未匹配 M752 六个已登记主题；自足单字义可作一般逐字说明，候选自定义主题不授自动主题准入。"
+      ]
+    },
+    {
+      "candidateId": "m914-naming-data:淳:87393:0:1",
+      "batch": "M914-D01",
+      "sourceSHA256": "6e604cada0f665612f4fabddfdf00991defc71b0e3b561fecf85497e8d55139d",
+      "rawFileSHA256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+      "char": "淳",
+      "pinyin": "chún",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "淳",
+      "sourcePOS": "形",
+      "rawEntryIndex": 87393,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 1,
+      "dictionarySense": "篤厚、樸實的。",
+      "sourceDefinition": {
+        "def": "篤厚、樸實的。",
+        "example": [
+          "如：「民風淳樸」。"
+        ],
+        "quote": [
+          "唐．白居易〈朱陳村〉詩：「縣遠官事少，山深人俗淳。」"
+        ],
+        "type": "形"
+      },
+      "projectMeaning": "取笃厚、朴实的质感与处世意象。",
+      "projectWish": "项目创作：愿你在真实关系中保有朴实与分寸。",
+      "candidateThemeLabel": "笃厚朴实",
+      "themeDisposition": "new-theme-unregistered",
+      "classification": "general",
+      "semanticDecision": "approve-characterwise-scope",
+      "admissionGranted": false,
+      "activation": "off",
+      "productionApproved": false,
+      "projectMeaningBasis": "固定义项“篤厚、樸實的。”与候选 project.meaning“取笃厚、朴实的质感与处世意象。”为直接释义/受限意象对应；项目愿望只作原创说明，不改变辞典义。",
+      "limits": [
+        "固定笃厚、朴实义，不把名字当作道德事实。",
+        "不推导性格、家教或他人评价。",
+        "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+      ],
+      "prohibitedInferences": [
+        "whole-name-meaning",
+        "personality-or-ability-fact",
+        "fortune-health-wealth-longevity-or-relationship-outcome",
+        "five-element-or-element-authority"
+      ],
+      "scope": "single-character-project-intent-only",
+      "wholeNameAssessment": "not-assessed",
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "reviewNotes": [
+        "未匹配 M752 六个已登记主题；自足单字义可作一般逐字说明，候选自定义主题不授自动主题准入。"
+      ]
+    },
+    {
+      "candidateId": "m914-naming-data:达:142577:0:2",
+      "batch": "M914-D01",
+      "sourceSHA256": "97d0d9820f65b3e734c6bb1ccde3c713b9ae14e64b1f3eba9fcaf91d23f7b603",
+      "rawFileSHA256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+      "char": "达",
+      "pinyin": "dá",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "達",
+      "sourcePOS": "動",
+      "rawEntryIndex": 142577,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 2,
+      "dictionarySense": "實現、完成。",
+      "sourceDefinition": {
+        "def": "實現、完成。",
+        "example": [
+          "如：「目的已達」。"
+        ],
+        "type": "動"
+      },
+      "projectMeaning": "取实现、完成这一行动结果义。",
+      "projectWish": "项目创作：愿你在清楚目标后，拥有调整路径的自由。",
+      "candidateThemeLabel": "实现通达",
+      "themeDisposition": "new-theme-unregistered",
+      "classification": "general",
+      "semanticDecision": "approve-characterwise-scope",
+      "admissionGranted": false,
+      "activation": "off",
+      "productionApproved": false,
+      "projectMeaningBasis": "固定义项“實現、完成。”与候选 project.meaning“取实现、完成这一行动结果义。”为直接释义/受限意象对应；项目愿望只作原创说明，不改变辞典义。",
+      "limits": [
+        "只取实现、完成义，不承诺事业、财富或愿望达成。",
+        "不借通行、显达等其他义项作保证。",
+        "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+      ],
+      "prohibitedInferences": [
+        "whole-name-meaning",
+        "personality-or-ability-fact",
+        "fortune-health-wealth-longevity-or-relationship-outcome",
+        "five-element-or-element-authority"
+      ],
+      "scope": "single-character-project-intent-only",
+      "wholeNameAssessment": "not-assessed",
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "reviewNotes": [
+        "未匹配 M752 六个已登记主题；自足单字义可作一般逐字说明，候选自定义主题不授自动主题准入。"
+      ]
+    },
+    {
+      "candidateId": "m914-naming-data:德:52821:0:1",
+      "batch": "M914-D01",
+      "sourceSHA256": "ae578674065541d3556c82a57cc3361a626dca7bfa43750abeb0d0158e9e10ca",
+      "rawFileSHA256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+      "char": "德",
+      "pinyin": "dé",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "德",
+      "sourcePOS": "名",
+      "rawEntryIndex": 52821,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 1,
+      "dictionarySense": "品行、作風。",
+      "sourceDefinition": {
+        "def": "品行、作風。",
+        "quote": [
+          "《論語．顏淵》：「君子之德風，小人之德草。草上之風必偃。」"
+        ],
+        "type": "名"
+      },
+      "projectMeaning": "取品行、作风这一社会与自我实践意象。",
+      "projectWish": "项目创作：愿你在关系中形成自己的原则，也尊重他人的边界。",
+      "candidateThemeLabel": "品行自持",
+      "themeDisposition": "new-theme-unregistered",
+      "classification": "general",
+      "semanticDecision": "approve-characterwise-scope",
+      "admissionGranted": false,
+      "activation": "off",
+      "productionApproved": false,
+      "projectMeaningBasis": "固定义项“品行、作風。”与候选 project.meaning“取品行、作风这一社会与自我实践意象。”为直接释义/受限意象对应；项目愿望只作原创说明，不改变辞典义。",
+      "limits": [
+        "项目愿望不证明现实品行或道德优越。",
+        "不把名字转化为家庭义务、评价或命运。",
+        "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+      ],
+      "prohibitedInferences": [
+        "whole-name-meaning",
+        "personality-or-ability-fact",
+        "fortune-health-wealth-longevity-or-relationship-outcome",
+        "five-element-or-element-authority"
+      ],
+      "scope": "single-character-project-intent-only",
+      "wholeNameAssessment": "not-assessed",
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "reviewNotes": [
+        "未匹配 M752 六个已登记主题；自足单字义可作一般逐字说明，候选自定义主题不授自动主题准入。"
+      ]
+    },
+    {
+      "candidateId": "m914-naming-data:冬:17795:0:0",
+      "batch": "M914-D01",
+      "sourceSHA256": "e551dbd33ddf9ff06fd36999fc4ec65c23704520e80cc7665c68832df6f235fa",
+      "rawFileSHA256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+      "char": "冬",
+      "pinyin": "dōng",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "冬",
+      "sourcePOS": "名",
+      "rawEntryIndex": 17795,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 0,
+      "dictionarySense": "一年四季中的最後一季。農曆指立冬至立春的時期，一般而言氣溫較低。若以北半球氣候論，概指十一月或十二月至翌年的二月或三月期間。",
+      "sourceDefinition": {
+        "def": "一年四季中的最後一季。農曆指立冬至立春的時期，一般而言氣溫較低。若以北半球氣候論，概指十一月或十二月至翌年的二月或三月期間。",
+        "example": [
+          "如：「寒冬」、「殘冬」、「冬天」。"
+        ],
+        "type": "名"
+      },
+      "projectMeaning": "取一年四季最后一季的时序与自然意象。",
+      "projectWish": "项目创作：愿你尊重季节变化，也给自己留出沉静的阶段。",
+      "candidateThemeLabel": "冬季时序",
+      "themeDisposition": "new-theme-unregistered",
+      "classification": "general",
+      "semanticDecision": "approve-characterwise-scope",
+      "admissionGranted": false,
+      "activation": "off",
+      "productionApproved": false,
+      "projectMeaningBasis": "固定义项“一年四季中的最後一季。農曆指立冬至立春的時期，一般而言氣溫較低。若以北半球氣候論，概指十一月或十二月至翌年的二月或三月期間。”与候选 project.meaning“取一年四季最后一季的时序与自然意象。”为直接释义/受限意象对应；项目愿望只作原创说明，不改变辞典义。",
+      "limits": [
+        "只取季节义，不把冬解释为衰败、寒苦或命运信号。",
+        "不推导健康、性格或人生阶段。",
+        "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+      ],
+      "prohibitedInferences": [
+        "whole-name-meaning",
+        "personality-or-ability-fact",
+        "fortune-health-wealth-longevity-or-relationship-outcome",
+        "five-element-or-element-authority"
+      ],
+      "scope": "single-character-project-intent-only",
+      "wholeNameAssessment": "not-assessed",
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "reviewNotes": [
+        "未匹配 M752 六个已登记主题；自足单字义可作一般逐字说明，候选自定义主题不授自动主题准入。"
+      ]
+    },
+    {
+      "candidateId": "m914-naming-data:端:108859:0:1",
+      "batch": "M914-D01",
+      "sourceSHA256": "deb441f588dfb379c64e8c3676083c483a6859a684a98988d38472cbe09eeed5",
+      "rawFileSHA256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+      "char": "端",
+      "pinyin": "duān",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "端",
+      "sourcePOS": "名",
+      "rawEntryIndex": 108859,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 1,
+      "dictionarySense": "事物的起始。",
+      "sourceDefinition": {
+        "def": "事物的起始。",
+        "example": [
+          "如：「開端」、「發端」、「挑起戰端」。"
+        ],
+        "quote": [
+          "《孟子．公孫丑》：「惻隱之心，仁之端也。」"
+        ],
+        "type": "名"
+      },
+      "projectMeaning": "取事物起始、开端的时间与过程意象。",
+      "projectWish": "项目创作：愿你珍惜每个开始，也能重新选择方向。",
+      "candidateThemeLabel": "开端起步",
+      "themeDisposition": "new-theme-unregistered",
+      "classification": "general",
+      "semanticDecision": "approve-characterwise-scope",
+      "admissionGranted": false,
+      "activation": "off",
+      "productionApproved": false,
+      "projectMeaningBasis": "固定义项“事物的起始。”与候选 project.meaning“取事物起始、开端的时间与过程意象。”为直接释义/受限意象对应；项目愿望只作原创说明，不改变辞典义。",
+      "limits": [
+        "固定起始义，不替代端正、端午等其他义项。",
+        "开始意象不保证过程或结果。",
+        "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+      ],
+      "prohibitedInferences": [
+        "whole-name-meaning",
+        "personality-or-ability-fact",
+        "fortune-health-wealth-longevity-or-relationship-outcome",
+        "five-element-or-element-authority"
+      ],
+      "scope": "single-character-project-intent-only",
+      "wholeNameAssessment": "not-assessed",
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "reviewNotes": [
+        "未匹配 M752 六个已登记主题；自足单字义可作一般逐字说明，候选自定义主题不授自动主题准入。"
+      ]
+    },
+    {
+      "candidateId": "m914-naming-data:恩:54550:0:1",
+      "batch": "M914-D01",
+      "sourceSHA256": "d3fd8eeb4e90b866cd9244617e3d8f03d69a611a63f924d023f6577efb3ad47f",
+      "rawFileSHA256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+      "char": "恩",
+      "pinyin": "ēn",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "恩",
+      "sourcePOS": "名",
+      "rawEntryIndex": 54550,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 1,
+      "dictionarySense": "情愛。",
+      "sourceDefinition": {
+        "def": "情愛。",
+        "quote": [
+          "唐．白居易〈後宮詞〉：「紅顏未老恩先斷，斜倚薰籠坐到明。」",
+          "清．洪昇《長生殿．第三七齣》：「記盒釵初賜，種下這恩深厚。」"
+        ],
+        "type": "名"
+      },
+      "projectMeaning": "取情爱与关怀关系的意象。",
+      "projectWish": "项目创作：愿你感受被尊重的情感，也能照顾自己的需要。",
+      "candidateThemeLabel": "情爱关怀",
+      "themeDisposition": "new-theme-unregistered",
+      "classification": "general",
+      "semanticDecision": "approve-characterwise-scope",
+      "admissionGranted": false,
+      "activation": "off",
+      "productionApproved": false,
+      "projectMeaningBasis": "固定义项“情愛。”与候选 project.meaning“取情爱与关怀关系的意象。”为直接释义/受限意象对应；项目愿望只作原创说明，不改变辞典义。",
+      "limits": [
+        "固定情爱义，不把名字变成孝亲、报恩或家庭义务。",
+        "不推导关系结果或道德评价。",
+        "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+      ],
+      "prohibitedInferences": [
+        "whole-name-meaning",
+        "personality-or-ability-fact",
+        "fortune-health-wealth-longevity-or-relationship-outcome",
+        "five-element-or-element-authority"
+      ],
+      "scope": "single-character-project-intent-only",
+      "wholeNameAssessment": "not-assessed",
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "reviewNotes": [
+        "未匹配 M752 六个已登记主题；自足单字义可作一般逐字说明，候选自定义主题不授自动主题准入。"
+      ]
+    },
+    {
+      "candidateId": "m914-naming-data:方:69546:0:1",
+      "batch": "M914-D01",
+      "sourceSHA256": "1caf9f98234921ab6f98e573a04c31ae1bd09753d32653d1acbd8662b9290b16",
+      "rawFileSHA256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+      "char": "方",
+      "pinyin": "fāng",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "方",
+      "sourcePOS": "名",
+      "rawEntryIndex": 69546,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 1,
+      "dictionarySense": "區域。",
+      "sourceDefinition": {
+        "def": "區域。",
+        "example": [
+          "如：「地方」、「遠方」。"
+        ],
+        "type": "名"
+      },
+      "projectMeaning": "取区域、空间与方向的意象。",
+      "projectWish": "项目创作：愿你在不同空间中找到适合自己的位置。",
+      "candidateThemeLabel": "空间方向",
+      "themeDisposition": "new-theme-unregistered",
+      "classification": "pending",
+      "semanticDecision": "pending-editorial-narrowing",
+      "admissionGranted": false,
+      "activation": "off",
+      "productionApproved": false,
+      "projectMeaningBasis": "候选 project.meaning 增加“方向”，固定义项只有“区域”；需收窄到区域/空间后再审。",
+      "limits": [
+        "只取区域义，不借方形、药方、方法等其他义项。",
+        "空间标签不推导地位、方向选择或命运。",
+        "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+      ],
+      "prohibitedInferences": [
+        "whole-name-meaning",
+        "personality-or-ability-fact",
+        "fortune-health-wealth-longevity-or-relationship-outcome",
+        "five-element-or-element-authority"
+      ],
+      "scope": "single-character-project-intent-only",
+      "wholeNameAssessment": "not-assessed",
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "reviewNotes": [
+        "候选 project.meaning 增加“方向”，固定义项只有“区域”；需收窄到区域/空间后再审。"
+      ]
+    },
+    {
+      "candidateId": "m914-naming-data:锋:146581:0:1",
+      "batch": "M914-D01",
+      "sourceSHA256": "680132bedbad49b5eb001a991bb235ec41af0fec6ac25f84db4fa47cef082c15",
+      "rawFileSHA256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+      "char": "锋",
+      "pinyin": "fēng",
+      "tone": 1,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "鋒",
+      "sourcePOS": "名",
+      "rawEntryIndex": 146581,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 1,
+      "dictionarySense": "泛指器物的尖端部分。",
+      "sourceDefinition": {
+        "def": "泛指器物的尖端部分。",
+        "example": [
+          "如：「筆鋒」、「針鋒」。"
+        ],
+        "type": "名"
+      },
+      "projectMeaning": "取器物尖端、边缘与清晰界面的意象。",
+      "projectWish": "项目创作：愿你有辨识边界的清晰感，也保有柔软。",
+      "candidateThemeLabel": "锋端边界",
+      "themeDisposition": "new-theme-unregistered",
+      "classification": "pending",
+      "semanticDecision": "pending-editorial-narrowing",
+      "admissionGranted": false,
+      "activation": "off",
+      "productionApproved": false,
+      "projectMeaningBasis": "候选 project.meaning 增加“边缘、清晰界面”，固定义项只有器物尖端；需收窄到尖端意象后再审。",
+      "limits": [
+        "固定器物尖端义，不借兵器、军队前列或竞争胜负义。",
+        "不推导攻击性、勇武或成就。",
+        "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+      ],
+      "prohibitedInferences": [
+        "whole-name-meaning",
+        "personality-or-ability-fact",
+        "fortune-health-wealth-longevity-or-relationship-outcome",
+        "five-element-or-element-authority"
+      ],
+      "scope": "single-character-project-intent-only",
+      "wholeNameAssessment": "not-assessed",
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "reviewNotes": [
+        "候选 project.meaning 增加“边缘、清晰界面”，固定义项只有器物尖端；需收窄到尖端意象后再审。"
+      ]
+    },
+    {
+      "candidateId": "m914-naming-data:含:27258:0:2",
+      "batch": "M914-D01",
+      "sourceSHA256": "5cae7e19f24b53ca6205ef139f31fb318fe2b9e4917f6351affe8083da4d5caa",
+      "rawFileSHA256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+      "char": "含",
+      "pinyin": "hán",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "含",
+      "sourcePOS": "動",
+      "rawEntryIndex": 27258,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 2,
+      "dictionarySense": "包容、容納。",
+      "sourceDefinition": {
+        "def": "包容、容納。",
+        "example": [
+          "如：「包含」。"
+        ],
+        "quote": [
+          "《易經．坤卦．文言曰》：「後得主而有常，含萬物而化光。」",
+          "唐．杜甫〈絕句四首〉之三：「窗含西嶺千秋雪，門泊東吳萬里船。」"
+        ],
+        "type": "動"
+      },
+      "projectMeaning": "取包容、容纳与承接空间的意象。",
+      "projectWish": "项目创作：愿你理解不同经验，也能保有自己的边界。",
+      "candidateThemeLabel": "包容边界",
+      "themeDisposition": "new-theme-unregistered",
+      "classification": "general",
+      "semanticDecision": "approve-characterwise-scope",
+      "admissionGranted": false,
+      "activation": "off",
+      "productionApproved": false,
+      "projectMeaningBasis": "固定义项“包容、容納。”与候选 project.meaning“取包容、容纳与承接空间的意象。”为直接释义/受限意象对应；项目愿望只作原创说明，不改变辞典义。",
+      "limits": [
+        "固定包容、容纳义，不转化为无条件承受。",
+        "不推导性格、能力或关系义务。",
+        "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+      ],
+      "prohibitedInferences": [
+        "whole-name-meaning",
+        "personality-or-ability-fact",
+        "fortune-health-wealth-longevity-or-relationship-outcome",
+        "five-element-or-element-authority"
+      ],
+      "scope": "single-character-project-intent-only",
+      "wholeNameAssessment": "not-assessed",
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "reviewNotes": [
+        "未匹配 M752 六个已登记主题；自足单字义可作一般逐字说明，候选自定义主题不授自动主题准入。"
+      ]
+    },
+    {
+      "candidateId": "m914-naming-data:浩:85945:0:1",
+      "batch": "M914-D01",
+      "sourceSHA256": "1102cc3fd2976c6e8dbfbcb9721e78c400707a1754eb8ffb61fa53b728d0ba1a",
+      "rawFileSHA256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+      "char": "浩",
+      "pinyin": "hào",
+      "tone": 4,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "浩",
+      "sourcePOS": "形",
+      "rawEntryIndex": 85945,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 1,
+      "dictionarySense": "大、廣大。",
+      "sourceDefinition": {
+        "def": "大、廣大。",
+        "example": [
+          "如：「浩劫」、「浩氣長存」。"
+        ],
+        "quote": [
+          "唐．韋應物〈夕次盱眙縣〉詩：「浩浩風起波，冥冥日沉夕。」",
+          "明．宋濂〈謝翱傳〉：「然其志汗漫超越，浩不可禦。」"
+        ],
+        "type": "形"
+      },
+      "projectMeaning": "取广大、开阔的空间与视野意象。",
+      "projectWish": "项目创作：愿你保持开阔视野，也能选择具体而踏实的方向。",
+      "candidateThemeLabel": "广大视野",
+      "themeDisposition": "new-theme-unregistered",
+      "classification": "general",
+      "semanticDecision": "approve-characterwise-scope",
+      "admissionGranted": false,
+      "activation": "off",
+      "productionApproved": false,
+      "projectMeaningBasis": "固定义项“大、廣大。”与候选 project.meaning“取广大、开阔的空间与视野意象。”为直接释义/受限意象对应；项目愿望只作原创说明，不改变辞典义。",
+      "limits": [
+        "固定广大义，不把名字转成格局、成就或气势保证。",
+        "不借水势盛大等其他义项作命运解释。",
+        "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+      ],
+      "prohibitedInferences": [
+        "whole-name-meaning",
+        "personality-or-ability-fact",
+        "fortune-health-wealth-longevity-or-relationship-outcome",
+        "five-element-or-element-authority"
+      ],
+      "scope": "single-character-project-intent-only",
+      "wholeNameAssessment": "not-assessed",
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "reviewNotes": [
+        "未匹配 M752 六个已登记主题；自足单字义可作一般逐字说明，候选自定义主题不授自动主题准入。"
+      ]
+    },
+    {
+      "candidateId": "m914-naming-data:恒:54370:0:0",
+      "batch": "M914-D01",
+      "sourceSHA256": "b9c8a48acfb7325056735161bae929bf3969e4cd04bcf3a3aeee243fe9e75182",
+      "rawFileSHA256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+      "char": "恒",
+      "pinyin": "héng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "恆",
+      "sourcePOS": "形",
+      "rawEntryIndex": 54370,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 0,
+      "dictionarySense": "長久的、不變的。",
+      "sourceDefinition": {
+        "def": "長久的、不變的。",
+        "example": [
+          "如：「恆心」。"
+        ],
+        "quote": [
+          "《孟子．梁惠王上》：「無恆產而有恆心者，惟士為能。」",
+          "南朝梁．劉勰《文心雕龍．物色》：「然物有恆姿，而思無定檢。」"
+        ],
+        "type": "形"
+      },
+      "projectMeaning": "取长久、不变的时间与持续意象。",
+      "projectWish": "项目创作：愿你在重要事情上找到适合自己的持续节奏。",
+      "candidateThemeLabel": "长久持续",
+      "themeDisposition": "new-theme-unregistered",
+      "classification": "general",
+      "semanticDecision": "approve-characterwise-scope",
+      "admissionGranted": false,
+      "activation": "off",
+      "productionApproved": false,
+      "projectMeaningBasis": "固定义项“長久的、不變的。”与候选 project.meaning“取长久、不变的时间与持续意象。”为直接释义/受限意象对应；项目愿望只作原创说明，不改变辞典义。",
+      "limits": [
+        "固定长久不变义，不保证关系、健康或事业永久不变。",
+        "不把卦名义当作个人命运判断。",
+        "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+      ],
+      "prohibitedInferences": [
+        "whole-name-meaning",
+        "personality-or-ability-fact",
+        "fortune-health-wealth-longevity-or-relationship-outcome",
+        "five-element-or-element-authority"
+      ],
+      "scope": "single-character-project-intent-only",
+      "wholeNameAssessment": "not-assessed",
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "reviewNotes": [
+        "未匹配 M752 六个已登记主题；自足单字义可作一般逐字说明，候选自定义主题不授自动主题准入。"
+      ]
+    },
+    {
+      "candidateId": "m914-naming-data:宏:42113:0:0",
+      "batch": "M914-D01",
+      "sourceSHA256": "4c36e63d0bce47348e6297cfb17bb8171e31f0fd8f326f1e35e13bb15a7fd752",
+      "rawFileSHA256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+      "char": "宏",
+      "pinyin": "hóng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "宏",
+      "sourcePOS": "形",
+      "rawEntryIndex": 42113,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 0,
+      "dictionarySense": "廣博、深遠、遠大。",
+      "sourceDefinition": {
+        "def": "廣博、深遠、遠大。",
+        "example": [
+          "如：「宏大」、「宏偉」、「寬宏大量」。"
+        ],
+        "quote": [
+          "《三國志．卷二一 ．魏書．傅嘏傳》：「蓋聞帝制宏深，聖道奧遠。」"
+        ],
+        "type": "形"
+      },
+      "projectMeaning": "取广博、深远、远大的空间与愿景意象。",
+      "projectWish": "项目创作：愿你拥有远景，也能按自己的步子落地。",
+      "candidateThemeLabel": "深远愿景",
+      "themeDisposition": "new-theme-unregistered",
+      "classification": "general",
+      "semanticDecision": "approve-characterwise-scope",
+      "admissionGranted": false,
+      "activation": "off",
+      "productionApproved": false,
+      "projectMeaningBasis": "固定义项“廣博、深遠、遠大。”与候选 project.meaning“取广博、深远、远大的空间与愿景意象。”为直接释义/受限意象对应；项目愿望只作原创说明，不改变辞典义。",
+      "limits": [
+        "固定广博深远义，不推导宏大成就或社会地位。",
+        "项目愿望不替代具体规划和现实行动。",
+        "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+      ],
+      "prohibitedInferences": [
+        "whole-name-meaning",
+        "personality-or-ability-fact",
+        "fortune-health-wealth-longevity-or-relationship-outcome",
+        "five-element-or-element-authority"
+      ],
+      "scope": "single-character-project-intent-only",
+      "wholeNameAssessment": "not-assessed",
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "reviewNotes": [
+        "未匹配 M752 六个已登记主题；自足单字义可作一般逐字说明，候选自定义主题不授自动主题准入。"
+      ]
+    },
+    {
+      "candidateId": "m914-naming-data:鸿:160493:0:2",
+      "batch": "M914-D01",
+      "sourceSHA256": "4a39fbf4b036daaa531e3c01027e17b6981b264b0b8c2eb98f3fe11655348ac2",
+      "rawFileSHA256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+      "char": "鸿",
+      "pinyin": "hóng",
+      "tone": 2,
+      "sourceId": "moe-revised",
+      "dictionaryWord": "鴻",
+      "sourcePOS": "形",
+      "rawEntryIndex": 160493,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 2,
+      "dictionarySense": "大、盛。",
+      "sourceDefinition": {
+        "def": "大、盛。",
+        "example": [
+          "如：「鴻願」、「鴻志」、「鴻恩」、「鴻圖大展」。"
+        ],
+        "link": [
+          "通「洪」、「宏」、「弘」。"
+        ],
+        "type": "形"
+      },
+      "projectMeaning": "取大、盛的开阔意象。",
+      "projectWish": "项目创作：愿你在丰富经验中保持开阔，也尊重自己的节奏。",
+      "candidateThemeLabel": "广大丰盛",
+      "themeDisposition": "new-theme-unregistered",
+      "classification": "general",
+      "semanticDecision": "approve-characterwise-scope",
+      "admissionGranted": false,
+      "activation": "off",
+      "productionApproved": false,
+      "projectMeaningBasis": "固定义项“大、盛。”与候选 project.meaning“取大、盛的开阔意象。”为直接释义/受限意象对应；项目愿望只作原创说明，不改变辞典义。",
+      "limits": [
+        "固定大、盛义，不借鸿雁、书信或崇高声名义。",
+        "不承诺财富、成就或人生规模。",
+        "不得据此推出全名整体语义、人格/能力/品格事实、命运/健康/财富/寿命/关系结果或五行/元素定论。"
+      ],
+      "prohibitedInferences": [
+        "whole-name-meaning",
+        "personality-or-ability-fact",
+        "fortune-health-wealth-longevity-or-relationship-outcome",
+        "five-element-or-element-authority"
+      ],
+      "scope": "single-character-project-intent-only",
+      "wholeNameAssessment": "not-assessed",
+      "automaticSemanticCreditAllowed": false,
+      "scoreDelta": 0,
+      "reviewNotes": [
+        "未匹配 M752 六个已登记主题；自足单字义可作一般逐字说明，候选自定义主题不授自动主题准入。"
+      ]
+    }
+  ],
+  "summary": {
+    "total": 40,
+    "general": 38,
+    "explicitTheme": 0,
+    "pending": 2,
+    "activation": "off",
+    "productionApproved": false,
+    "formalCoverageAdded": 0,
+    "defaultAutomaticCoverageAdded": 0,
+    "automaticSemanticCreditAllowed": false,
+    "wholeNameAssessment": "not-assessed"
+  },
+  "checks": {
+    "candidateOnly": true,
+    "sourceAuditedOnly": true,
+    "originalCandidateBytesUnmodified": true,
+    "overlapChecked": true,
+    "sourceCoordinatesChecked": true,
+    "allRowsHaveSourceSHA": true,
+    "noM752ThemeAuthorizedWithoutRegistry": true
+  }
+}

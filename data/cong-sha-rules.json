@@ -1,0 +1,717 @@
+{
+  "version": "qiongtong-2294674-monthly-cong-sha/1.0.0",
+  "sourceId": "bazi-cong-sha-qiongtong-2294674",
+  "title": "穷通宝鉴同版从杀：限定事实与依赖反向句",
+  "source": {
+    "title": "穷通宝鉴",
+    "pageId": 1057030,
+    "revisionId": 2294674,
+    "revisionTimestamp": "2023-06-14T13:49:39Z",
+    "url": "https://zh.wikisource.org/w/index.php?title=穷通宝鉴&oldid=2294674",
+    "permalink": "https://zh.wikisource.org/w/index.php?oldid=2294674",
+    "contributorHistory": "https://zh.wikisource.org/w/index.php?title=%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4&action=history",
+    "rawSha256": "8ba17242f116583de2e10172e006f5ce5f74b23ccfc0bd24b886be135e9f20bd",
+    "rawCharacters": 36746,
+    "license": "Wikisource transcription CC-BY-SA-4.0; no claim of independent scanned-edition or public-domain-chain verification",
+    "scanCollation": false,
+    "sourceVersionType": "fixed-electronic-transcription"
+  },
+  "rules": [
+    {
+      "id": "bing-hai-monthly-cong-sha",
+      "pattern": "cong-sha",
+      "kind": "cong-killing",
+      "name": "丙日亥月原句从杀路径",
+      "sourceId": "bazi-cong-sha-qiongtong-2294674",
+      "applicability": {
+        "dayStems": [
+          "丙"
+        ],
+        "monthBranches": [
+          "亥"
+        ]
+      },
+      "candidatePolicy": "pending-unimplemented-necessary",
+      "sourceQuote": "或壬多无甲，乃作弃命从杀，即不科甲，亦是宦僚。或壬多有甲无戊，却非从杀，宜用己土混壬。",
+      "sourceLocator": "oldid=2294674;codepoint[12372,12415)",
+      "sourceSpan": {
+        "start": 12372,
+        "end": 12415,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "criteria": [
+        {
+          "id": "bing-hai-ren-many",
+          "name": "壬多",
+          "role": "necessary",
+          "decisionUse": "rejection-premise",
+          "scope": "原文旺弱、范围或制化取法未核",
+          "sourceQuote": "壬多",
+          "sourceLocator": "oldid=2294674;codepoint[12372,12415)",
+          "unresolved": [
+            "多的明干／藏干范围与有效气取法未明，不以数量阈值代替。"
+          ]
+        },
+        {
+          "id": "bing-hai-jia-absent",
+          "name": "无甲",
+          "role": "necessary",
+          "decisionUse": "necessary",
+          "scope": "原文旺弱、范围或制化取法未核",
+          "sourceQuote": "无甲",
+          "sourceLocator": "oldid=2294674;codepoint[12372,12415)",
+          "unresolved": [
+            "无甲未明示只看明干或包括藏根；不把甲存在直接等同本句完整反证。"
+          ]
+        },
+        {
+          "id": "bing-hai-jia-present-signal",
+          "name": "有甲的原句范围",
+          "role": "exception",
+          "decisionUse": "rejection-signal",
+          "scope": "原文旺弱、范围或制化取法未核",
+          "sourceQuote": "有甲",
+          "sourceLocator": "oldid=2294674;codepoint[12372,12415)",
+          "unresolved": [
+            "有甲的明暗作用范围未核。"
+          ]
+        },
+        {
+          "id": "bing-hai-wu-absent-signal",
+          "name": "无戊的原句范围",
+          "role": "exception",
+          "decisionUse": "rejection-signal",
+          "scope": "原文旺弱、范围或制化取法未核",
+          "sourceQuote": "无戊",
+          "sourceLocator": "oldid=2294674;codepoint[12372,12415)",
+          "unresolved": [
+            "无戊的明暗作用范围未核。"
+          ]
+        }
+      ],
+      "rejectionBranches": [
+        {
+          "id": "bing-hai-dependent-negative",
+          "name": "壬多且有甲无戊的反向原句",
+          "sourceQuote": "或壬多无甲，乃作弃命从杀，即不科甲，亦是宦僚。或壬多有甲无戊，却非从杀，宜用己土混壬。",
+          "sourceLocator": "oldid=2294674;codepoint[12372,12415)",
+          "sourceSpan": {
+            "start": 12372,
+            "end": 12415,
+            "unit": "unicode-codepoint",
+            "interval": "[start,end)"
+          },
+          "premiseCriterionIds": [
+            "bing-hai-ren-many"
+          ],
+          "signalCriterionIds": [
+            "bing-hai-jia-present-signal",
+            "bing-hai-wu-absent-signal"
+          ],
+          "outcome": "contradicted",
+          "unresolved": [
+            "壬多和甲戊作用范围均未齐备，不能仅甲有戊无就宣告本条从杀不成立。"
+          ]
+        }
+      ],
+      "context": [
+        {
+          "sourceQuote": "'''十月丙火'''，太阳失令，得见甲戊庚出干，可云科甲，主为人性好清高，斯文领袖。如辛透见辰，名化合逢时，主大贵。",
+          "sourceLocator": "oldid=2294674;codepoint[12312,12370)",
+          "sourceSpan": {
+            "start": 12312,
+            "end": 12370,
+            "unit": "unicode-codepoint",
+            "interval": "[start,end)"
+          }
+        }
+      ],
+      "unresolved": [
+        "这是同版指定月别原句路径，不代表全部从杀流派。",
+        "本轮必要旺弱／一派等取法未实现，不能由位置子集推出从杀成立。",
+        "原文科甲、富贵、贫贱、性格、家属与命运等历史断语不实施。"
+      ]
+    },
+    {
+      "id": "bing-zi-monthly-cong-sha",
+      "pattern": "cong-sha",
+      "kind": "cong-killing",
+      "name": "丙日子月原句从杀路径",
+      "sourceId": "bazi-cong-sha-qiongtong-2294674",
+      "applicability": {
+        "dayStems": [
+          "丙"
+        ],
+        "monthBranches": [
+          "子"
+        ]
+      },
+      "candidatePolicy": "pending-unimplemented-necessary",
+      "sourceQuote": "或四柱多壬无甲，乃作弃命从杀，亦有云路。",
+      "sourceLocator": "oldid=2294674;codepoint[12672,12692)",
+      "sourceSpan": {
+        "start": 12672,
+        "end": 12692,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "criteria": [
+        {
+          "id": "bing-zi-ren-many",
+          "name": "四柱多壬",
+          "role": "necessary",
+          "decisionUse": "necessary",
+          "scope": "原文旺弱、范围或制化取法未核",
+          "sourceQuote": "四柱多壬",
+          "sourceLocator": "oldid=2294674;codepoint[12672,12692)",
+          "unresolved": [
+            "四柱范围明确但多的气势／有效性未定义，不设壬数量门槛。"
+          ]
+        },
+        {
+          "id": "bing-zi-jia-absent",
+          "name": "无甲的作用范围",
+          "role": "necessary",
+          "decisionUse": "necessary",
+          "scope": "原文旺弱、范围或制化取法未核",
+          "sourceQuote": "无甲",
+          "sourceLocator": "oldid=2294674;codepoint[12672,12692)",
+          "unresolved": [
+            "甲明干／藏干作用范围未明，不自定无印。"
+          ]
+        },
+        {
+          "id": "bing-zi-water-many-negative",
+          "name": "反向句的水多前提",
+          "role": "exception",
+          "decisionUse": "rejection-premise",
+          "scope": "原文旺弱、范围或制化取法未核",
+          "sourceQuote": "水多",
+          "sourceLocator": "oldid=2294674;codepoint[12694,12728)",
+          "unresolved": [
+            "原反向句为水多，不可偷换为任何一个水或上一句多壬。"
+          ]
+        },
+        {
+          "id": "bing-zi-jia-present-signal",
+          "name": "反向句有甲",
+          "role": "exception",
+          "decisionUse": "rejection-signal",
+          "scope": "原文旺弱、范围或制化取法未核",
+          "sourceQuote": "有甲",
+          "sourceLocator": "oldid=2294674;codepoint[12694,12728)",
+          "unresolved": [
+            "有甲作用域未明。"
+          ]
+        },
+        {
+          "id": "bing-zi-wu-absent-signal",
+          "name": "反向句无戊",
+          "role": "exception",
+          "decisionUse": "rejection-signal",
+          "scope": "原文旺弱、范围或制化取法未核",
+          "sourceQuote": "无戊",
+          "sourceLocator": "oldid=2294674;codepoint[12694,12728)",
+          "unresolved": [
+            "无戊作用域未明。"
+          ]
+        }
+      ],
+      "rejectionBranches": [
+        {
+          "id": "bing-zi-dependent-negative",
+          "name": "水多且有甲无戊的反向原句",
+          "sourceQuote": "或水多、有甲、无戊，却非从杀，宜用己土浊壬，十一月丙火，与十月颇同。",
+          "sourceLocator": "oldid=2294674;codepoint[12694,12728)",
+          "sourceSpan": {
+            "start": 12694,
+            "end": 12728,
+            "unit": "unicode-codepoint",
+            "interval": "[start,end)"
+          },
+          "premiseCriterionIds": [
+            "bing-zi-water-many-negative"
+          ],
+          "signalCriterionIds": [
+            "bing-zi-jia-present-signal",
+            "bing-zi-wu-absent-signal"
+          ],
+          "outcome": "contradicted",
+          "unresolved": [
+            "水多前提及甲戊范围未核，单见甲或未见戊均不足整体反证。"
+          ]
+        }
+      ],
+      "context": [
+        {
+          "sourceQuote": "'''十一月丙火'''，冬至一阳生，弱中复强，壬水为最，戊土佐之。",
+          "sourceLocator": "oldid=2294674;codepoint[12525,12558)",
+          "sourceSpan": {
+            "start": 12525,
+            "end": 12558,
+            "unit": "unicode-codepoint",
+            "interval": "[start,end)"
+          }
+        },
+        {
+          "sourceQuote": "或水多、有甲、无戊，却非从杀，宜用己土浊壬，十一月丙火，与十月颇同。",
+          "sourceLocator": "oldid=2294674;codepoint[12694,12728)",
+          "sourceSpan": {
+            "start": 12694,
+            "end": 12728,
+            "unit": "unicode-codepoint",
+            "interval": "[start,end)"
+          }
+        }
+      ],
+      "unresolved": [
+        "这是同版指定月别原句路径，不代表全部从杀流派。",
+        "本轮必要旺弱／一派等取法未实现，不能由位置子集推出从杀成立。",
+        "原文科甲、富贵、贫贱、性格、家属与命运等历史断语不实施。"
+      ]
+    },
+    {
+      "id": "ding-zi-monthly-cong-sha",
+      "pattern": "cong-sha",
+      "kind": "cong-killing",
+      "name": "丁日子月原句从杀路径",
+      "sourceId": "bazi-cong-sha-qiongtong-2294674",
+      "applicability": {
+        "dayStems": [
+          "丁"
+        ],
+        "monthBranches": [
+          "子"
+        ]
+      },
+      "candidatePolicy": "pending-unimplemented-necessary",
+      "sourceQuote": "'''十一月丁火'''，或仲冬水多癸旺，全无比印，此作弃命从杀，亦有异途功名。见丁比出干，难合格局，常人，且主骨肉浮云，六亲流水。戊出破癸，颇有兄弟妻儿。此格用戊，火妻土子。用甲、水妻木子。",
+      "sourceLocator": "oldid=2294674;codepoint[16177,16272)",
+      "sourceSpan": {
+        "start": 16177,
+        "end": 16272,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "criteria": [
+        {
+          "id": "ding-zi-water-many",
+          "name": "仲冬水多",
+          "role": "necessary",
+          "decisionUse": "rejection-premise",
+          "scope": "原文旺弱、范围或制化取法未核",
+          "sourceQuote": "水多",
+          "sourceLocator": "oldid=2294674;codepoint[16177,16272)",
+          "unresolved": [
+            "水多有效气和气势未定，不用五行明字数量代替。"
+          ]
+        },
+        {
+          "id": "ding-zi-gui-strong",
+          "name": "癸旺",
+          "role": "necessary",
+          "decisionUse": "rejection-premise",
+          "scope": "原文旺弱、范围或制化取法未核",
+          "sourceQuote": "癸旺",
+          "sourceLocator": "oldid=2294674;codepoint[16177,16272)",
+          "unresolved": [
+            "癸旺未给定本包可执行取法，不用扶抑加权比例代替。"
+          ]
+        },
+        {
+          "id": "ding-zi-no-peer-resource",
+          "name": "全无比印",
+          "role": "necessary",
+          "decisionUse": "necessary",
+          "scope": "原文旺弱、范围或制化取法未核",
+          "sourceQuote": "全无比印",
+          "sourceLocator": "oldid=2294674;codepoint[16177,16272)",
+          "unresolved": [
+            "全无比印涉及明暗生扶及有效气作用范围，未把有任一藏根作绝对破格。"
+          ]
+        },
+        {
+          "id": "ding-zi-extra-ding-exposed",
+          "name": "已见额外丁比出干",
+          "role": "exception",
+          "decisionUse": "rejection-signal",
+          "scope": "仅非日主明干位置子集；不推断藏干、有效气或成格",
+          "sourceQuote": "见丁比出干",
+          "sourceLocator": "oldid=2294674;codepoint[16177,16272)",
+          "predicate": {
+            "kind": "stem",
+            "stem": "丁",
+            "scope": "exposed",
+            "includeDayMaster": false,
+            "present": true
+          },
+          "unresolved": [
+            "只核额外丁明干；原句反向判断仍依赖仲冬水多癸旺，不能脱离前提。"
+          ]
+        },
+        {
+          "id": "ding-zi-wu-exposed",
+          "name": "戊出的位置子集",
+          "role": "support",
+          "decisionUse": "support-only",
+          "scope": "仅非日主明干位置子集；不推断藏干、有效气或成格",
+          "sourceQuote": "戊出破癸",
+          "sourceLocator": "oldid=2294674;codepoint[16177,16272)",
+          "predicate": {
+            "kind": "stem",
+            "stem": "戊",
+            "scope": "exposed",
+            "includeDayMaster": false,
+            "present": true
+          },
+          "unresolved": [
+            "仅戊明干出现可核；破癸的制化效果和原后果未核，不转用神或整体反证。"
+          ]
+        }
+      ],
+      "rejectionBranches": [
+        {
+          "id": "ding-zi-dependent-extra-ding",
+          "name": "水多癸旺背景下见丁比出干",
+          "sourceQuote": "'''十一月丁火'''，或仲冬水多癸旺，全无比印，此作弃命从杀，亦有异途功名。见丁比出干，难合格局，常人，且主骨肉浮云，六亲流水。戊出破癸，颇有兄弟妻儿。此格用戊，火妻土子。用甲、水妻木子。",
+          "sourceLocator": "oldid=2294674;codepoint[16177,16272)",
+          "sourceSpan": {
+            "start": 16177,
+            "end": 16272,
+            "unit": "unicode-codepoint",
+            "interval": "[start,end)"
+          },
+          "premiseCriterionIds": [
+            "ding-zi-water-many",
+            "ding-zi-gui-strong"
+          ],
+          "signalCriterionIds": [
+            "ding-zi-extra-ding-exposed"
+          ],
+          "outcome": "contradicted",
+          "unresolved": [
+            "额外丁虽可观察，水多癸旺未核齐全时只记反对信号，不把本条整体升级为不成立。"
+          ]
+        }
+      ],
+      "context": [],
+      "unresolved": [
+        "这是同版指定月别原句路径，不代表全部从杀流派。",
+        "本轮必要旺弱／一派等取法未实现，不能由位置子集推出从杀成立。",
+        "原文科甲、富贵、贫贱、性格、家属与命运等历史断语不实施。"
+      ]
+    },
+    {
+      "id": "geng-wu-monthly-cong-sha",
+      "pattern": "cong-sha",
+      "kind": "cong-killing",
+      "name": "庚日午月原句从杀路径",
+      "sourceId": "bazi-cong-sha-qiongtong-2294674",
+      "applicability": {
+        "dayStems": [
+          "庚"
+        ],
+        "monthBranches": [
+          "午"
+        ]
+      },
+      "candidatePolicy": "pending-unimplemented-necessary",
+      "sourceQuote": "总之，仲夏无水，必非上格，或一派木火，无伤、印、比劫，又作从杀而论。",
+      "sourceLocator": "oldid=2294674;codepoint[24330,24364)",
+      "sourceSpan": {
+        "start": 24330,
+        "end": 24364,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "criteria": [
+        {
+          "id": "geng-wu-wood-fire-field",
+          "name": "一派木火",
+          "role": "necessary",
+          "decisionUse": "necessary",
+          "scope": "原文旺弱、范围或制化取法未核",
+          "sourceQuote": "一派木火",
+          "sourceLocator": "oldid=2294674;codepoint[24330,24364)",
+          "unresolved": [
+            "一派的范围、纯杂及气势未核，不把木火数量比例当作充分条件。"
+          ]
+        },
+        {
+          "id": "geng-wu-no-shang",
+          "name": "无伤的原文含义",
+          "role": "necessary",
+          "decisionUse": "necessary",
+          "scope": "原文旺弱、范围或制化取法未核",
+          "sourceQuote": "无伤",
+          "sourceLocator": "oldid=2294674;codepoint[24330,24364)",
+          "unresolved": [
+            "伤可能指伤官或伤食等，不把伤字擅扩或缩为确定天干集合。"
+          ]
+        },
+        {
+          "id": "geng-wu-no-resource-full",
+          "name": "无印完整范围",
+          "role": "necessary",
+          "decisionUse": "necessary",
+          "scope": "原文旺弱、范围或制化取法未核",
+          "sourceQuote": "印",
+          "sourceLocator": "oldid=2294674;codepoint[24330,24364)",
+          "unresolved": [
+            "印的明暗和有效生扶范围未核；明干子集核对不能代表完整无印。"
+          ]
+        },
+        {
+          "id": "geng-wu-no-peer-full",
+          "name": "无比劫完整范围",
+          "role": "necessary",
+          "decisionUse": "necessary",
+          "scope": "原文旺弱、范围或制化取法未核",
+          "sourceQuote": "比劫",
+          "sourceLocator": "oldid=2294674;codepoint[24330,24364)",
+          "unresolved": [
+            "比劫明暗根气完整范围未核，不忽略藏根证明无扶。"
+          ]
+        },
+        {
+          "id": "geng-wu-no-resource-exposed-subset",
+          "name": "明干无戊己的无印位置子集",
+          "role": "support",
+          "decisionUse": "support-only",
+          "scope": "仅非日主明干位置子集；不推断藏干、有效气或成格",
+          "sourceQuote": "印",
+          "sourceLocator": "oldid=2294674;codepoint[24330,24364)",
+          "predicate": {
+            "kind": "all",
+            "items": [
+              {
+                "kind": "stem",
+                "stem": "戊",
+                "scope": "exposed",
+                "includeDayMaster": false,
+                "present": false
+              },
+              {
+                "kind": "stem",
+                "stem": "己",
+                "scope": "exposed",
+                "includeDayMaster": false,
+                "present": false
+              }
+            ]
+          },
+          "unresolved": [
+            "只核非日干明干子集；不因其满足就将原完整无印判满足。"
+          ]
+        },
+        {
+          "id": "geng-wu-no-peer-exposed-subset",
+          "name": "明干无额外庚辛的无比劫位置子集",
+          "role": "support",
+          "decisionUse": "support-only",
+          "scope": "仅非日主明干位置子集；不推断藏干、有效气或成格",
+          "sourceQuote": "比劫",
+          "sourceLocator": "oldid=2294674;codepoint[24330,24364)",
+          "predicate": {
+            "kind": "all",
+            "items": [
+              {
+                "kind": "stem",
+                "stem": "庚",
+                "scope": "exposed",
+                "includeDayMaster": false,
+                "present": false
+              },
+              {
+                "kind": "stem",
+                "stem": "辛",
+                "scope": "exposed",
+                "includeDayMaster": false,
+                "present": false
+              }
+            ]
+          },
+          "unresolved": [
+            "日干庚自身不计额外比劫；藏根未核，此子集不裁定完整无比劫。"
+          ]
+        }
+      ],
+      "rejectionBranches": [],
+      "context": [
+        {
+          "sourceQuote": "'''五月庚金'''，丁火旺烈，庚金败地，专用壬水，癸又次之。壬透癸藏，支见庚辛，必然科甲，切忌戊己透干制水、则否。戊藏支内，不失儒林。或壬在支，有金生助，又得金神出干，明经之贵。或癸出带辛，异路之荣。",
+          "sourceLocator": "oldid=2294674;codepoint[24165,24266)",
+          "sourceSpan": {
+            "start": 24165,
+            "end": 24266,
+            "unit": "unicode-codepoint",
+            "interval": "[start,end)"
+          }
+        }
+      ],
+      "unresolved": [
+        "这是同版指定月别原句路径，不代表全部从杀流派。",
+        "本轮必要旺弱／一派等取法未实现，不能由位置子集推出从杀成立。",
+        "原文科甲、富贵、贫贱、性格、家属与命运等历史断语不实施。"
+      ]
+    },
+    {
+      "id": "gui-wu-monthly-cong-sha",
+      "pattern": "cong-sha",
+      "kind": "cong-killing",
+      "name": "癸日午月原句从杀路径",
+      "sourceId": "bazi-cong-sha-qiongtong-2294674",
+      "applicability": {
+        "dayStems": [
+          "癸"
+        ],
+        "monthBranches": [
+          "午"
+        ]
+      },
+      "candidatePolicy": "pending-unimplemented-necessary",
+      "sourceQuote": "或支成火局，无壬出干，定主僧道。或二壬一庚同透，衣锦腰金。或一派己土，无甲出制，此作从杀而论，又主大贵。凡从杀者，切不可破格方吉。",
+      "sourceLocator": "oldid=2294674;codepoint[34959,35024)",
+      "sourceSpan": {
+        "start": 34959,
+        "end": 35024,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "criteria": [
+        {
+          "id": "gui-wu-ji-field",
+          "name": "一派己土",
+          "role": "necessary",
+          "decisionUse": "rejection-premise",
+          "scope": "原文旺弱、范围或制化取法未核",
+          "sourceQuote": "一派己土",
+          "sourceLocator": "oldid=2294674;codepoint[34959,35024)",
+          "unresolved": [
+            "一派己土的范围、纯杂、数量和气势未核，不设阈值。"
+          ]
+        },
+        {
+          "id": "gui-wu-no-effective-jia-control",
+          "name": "无甲出制的完整前提",
+          "role": "necessary",
+          "decisionUse": "necessary",
+          "scope": "原文旺弱、范围或制化取法未核",
+          "sourceQuote": "无甲出制",
+          "sourceLocator": "oldid=2294674;codepoint[34959,35024)",
+          "unresolved": [
+            "明干甲是否有效出制取决于未核制化，不把只见甲等于制杀有效。"
+          ]
+        },
+        {
+          "id": "gui-wu-jia-exposed-absent-subset",
+          "name": "明干未见甲的位置子集",
+          "role": "support",
+          "decisionUse": "support-only",
+          "scope": "仅非日主明干位置子集；不推断藏干、有效气或成格",
+          "sourceQuote": "无甲出制",
+          "sourceLocator": "oldid=2294674;codepoint[34959,35024)",
+          "predicate": {
+            "kind": "stem",
+            "stem": "甲",
+            "scope": "exposed",
+            "includeDayMaster": false,
+            "present": false
+          },
+          "unresolved": [
+            "仅无明干甲这个可见子集；有效出制及原句完整前提仍待审。"
+          ]
+        },
+        {
+          "id": "gui-wu-jia-exposed-signal",
+          "name": "已见甲明干的潜在反对信号",
+          "role": "exception",
+          "decisionUse": "rejection-signal",
+          "scope": "仅非日主明干位置子集；不推断藏干、有效气或成格",
+          "sourceQuote": "无甲出制",
+          "sourceLocator": "oldid=2294674;codepoint[34959,35024)",
+          "predicate": {
+            "kind": "stem",
+            "stem": "甲",
+            "scope": "exposed",
+            "includeDayMaster": false,
+            "present": true
+          },
+          "unresolved": [
+            "只显示甲明干存在，不能独自证明其能制或原句应被否定。"
+          ]
+        },
+        {
+          "id": "gui-wu-effective-control-premise",
+          "name": "甲确能出制的效果",
+          "role": "exception",
+          "decisionUse": "rejection-premise",
+          "scope": "原文旺弱、范围或制化取法未核",
+          "sourceQuote": "出制",
+          "sourceLocator": "oldid=2294674;codepoint[34959,35024)",
+          "unresolved": [
+            "甲出制的力量、合克及作用位置未核；反向判断必须保留这一依赖。"
+          ]
+        }
+      ],
+      "rejectionBranches": [
+        {
+          "id": "gui-wu-dependent-jia-control",
+          "name": "一派己土背景下甲出现并确能出制",
+          "sourceQuote": "或支成火局，无壬出干，定主僧道。或二壬一庚同透，衣锦腰金。或一派己土，无甲出制，此作从杀而论，又主大贵。凡从杀者，切不可破格方吉。",
+          "sourceLocator": "oldid=2294674;codepoint[34959,35024)",
+          "sourceSpan": {
+            "start": 34959,
+            "end": 35024,
+            "unit": "unicode-codepoint",
+            "interval": "[start,end)"
+          },
+          "premiseCriterionIds": [
+            "gui-wu-ji-field",
+            "gui-wu-effective-control-premise"
+          ],
+          "signalCriterionIds": [
+            "gui-wu-jia-exposed-signal"
+          ],
+          "outcome": "contradicted",
+          "unresolved": [
+            "只有甲明干信号不能跳过一派己土及有效出制；当前依赖未齐故不能整体反证。"
+          ]
+        }
+      ],
+      "context": [
+        {
+          "sourceQuote": "'''五月癸水'''，至弱无根，必须庚辛为生身之本，但丁火司权，金难敌火，安能滋养癸水，宜见比劫，方得辛金之用。五月癸水，庚辛壬参酌并用可也。",
+          "sourceLocator": "oldid=2294674;codepoint[34785,34856)",
+          "sourceSpan": {
+            "start": 34785,
+            "end": 34856,
+            "unit": "unicode-codepoint",
+            "interval": "[start,end)"
+          }
+        }
+      ],
+      "unresolved": [
+        "这是同版指定月别原句路径，不代表全部从杀流派。",
+        "本轮必要旺弱／一派等取法未实现，不能由位置子集推出从杀成立。",
+        "原文科甲、富贵、贫贱、性格、家属与命运等历史断语不实施。"
+      ]
+    }
+  ],
+  "contract": {
+    "scope": "丙亥、丙子、丁子、庚午、癸午五条月别路径；不是完整从杀判格。",
+    "status": "全部仍有未实现必要，故不能作完整候选。明干位置支持或反对信号单独显示；条件依赖未齐的反向原句保持pending。",
+    "dependentRejection": "反向分支全部premises与signals已明确满足才可记本条反证；unknown/notimplemented前提不能被某个已见信号覆盖。",
+    "noThreshold": "不把多、旺、一派、伤、全无比印或出制的未明范围编成计数或力量阈值。",
+    "legacy": "新独立来源和补充证据，不覆写从财规则、旧版本输出或其他书真假从取法。"
+  },
+  "limitations": [
+    "本轮提供有出处的支持位置、反向信号和未核因素；不把pending误写成未做任何工作。",
+    "明干子集即使满足，也不能提升完整必要条件；support-only与rejection-signal均不能直接决定格局。",
+    "未实现必要不可为了得到candidate而删去或降成support。",
+    "反向原句只适用于同句背景，不泛化到所有从杀／从财流派。",
+    "原文涉及命运、科甲、财富、性格、婚姻或身体断语不实施。",
+    "固定电子转录未独立校勘影印或底本，不主张科学命运效果。"
+  ]
+}

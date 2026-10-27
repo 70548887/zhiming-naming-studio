@@ -1,0 +1,105 @@
+{
+  "schema": "b04-word-context-options/1",
+  "char": "湘",
+  "pinyin": "xiāng",
+  "status": "available",
+  "activation": "off",
+  "wholeWordOnly": true,
+  "sourcePOS": "unknown",
+  "options": [
+    {
+      "givenName": "湘君",
+      "word": "湘君",
+      "targetPositions": [
+        0
+      ],
+      "confirmedReadings": [
+        {
+          "char": "湘",
+          "pinyin": "xiāng",
+          "tone": 1,
+          "confirmed": true
+        },
+        {
+          "char": "君",
+          "pinyin": "jūn",
+          "tone": 1,
+          "confirmed": true
+        }
+      ],
+      "selection": {
+        "usage": "entire-given-name",
+        "caseId": "meaning-context-m460-b04:湘:88314:0:1",
+        "senseId": "moe:88314:0:1",
+        "contextKey": "xiangjun-chapter-title-only"
+      },
+      "contextLabel": "《楚辭·九歌》篇名的词条参考",
+      "source": {
+        "sourceId": "moe-revised",
+        "word": "湘君",
+        "pinyin": "xiāng jūn",
+        "originalFile": "data/raw/moe-revised.json.gz",
+        "originalSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "rawEntryIndex": 88314,
+        "rawHeteronymIndex": 0,
+        "rawDefinitionIndex": 1,
+        "definition": {
+          "def": "《楚辭．九歌》的篇名。戰國屈原所作，為楚人祭祀湘水神的樂歌。"
+        },
+        "parsedEntrySha256": "5adf4d97dea9d75453b719b73e8185e7ffc40faa85d824099eef8b1b24bad31c",
+        "license": "CC-BY-ND-3.0-TW"
+      },
+      "grammar": {
+        "text": "原词条此义项未标注词类；以下仅为项目用法说明：完整篇名的词典说明，与同词神祇义分开。",
+        "attribution": "Project grammar note;not an original MOE POS label",
+        "license": "CC0-1.0"
+      },
+      "reason": "选择的是词典关于篇名的说明，不以多种湘水之神说法批准湘的独立命名义。",
+      "exclusions": [
+        "不采用同条第一个神祇义项。",
+        "此词条说明不等于已核定本名取字原句或授予出处信用。",
+        "不将完整复词原义拆回单字或授予整名推荐、评分与效果。",
+        "原条引文仅作辞书例证，不授予本名已审取字出处信用。"
+      ],
+      "limits": [
+        "不采用同条第一个神祇义项。",
+        "此词条说明不等于已核定本名取字原句或授予出处信用。",
+        "不将完整复词原义拆回单字或授予整名推荐、评分与效果。",
+        "原条引文仅作辞书例证，不授予本名已审取字出处信用。"
+      ],
+      "wholeWordOnly": true,
+      "sourcePOS": "unknown",
+      "activation": "off",
+      "productionApproved": false,
+      "automaticNameRecommendation": false,
+      "automaticSemanticCreditAllowed": false,
+      "wholeNameApproved": false,
+      "wholeNameMeaning": null,
+      "scoreDelta": 0,
+      "projectWish": null
+    }
+  ],
+  "sourceAnchors": [
+    {
+      "sourceId": "moe-revised",
+      "word": "湘君",
+      "pinyin": "xiāng jūn",
+      "originalFile": "data/raw/moe-revised.json.gz",
+      "originalSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+      "rawEntryIndex": 88314,
+      "rawHeteronymIndex": 0,
+      "rawDefinitionIndex": 1,
+      "definition": {
+        "def": "《楚辭．九歌》的篇名。戰國屈原所作，為楚人祭祀湘水神的樂歌。"
+      },
+      "parsedEntrySha256": "5adf4d97dea9d75453b719b73e8185e7ffc40faa85d824099eef8b1b24bad31c",
+      "license": "CC-BY-ND-3.0-TW"
+    }
+  ],
+  "productionApproved": false,
+  "automaticNameRecommendation": false,
+  "automaticSemanticCreditAllowed": false,
+  "wholeNameApproved": false,
+  "wholeNameMeaning": null,
+  "scoreDelta": 0
+}

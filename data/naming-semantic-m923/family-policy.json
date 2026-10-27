@@ -1,0 +1,440 @@
+{
+  "schema": "m923-family-generation-policy/1",
+  "familyIdentity": {
+    "familyId": "naming-semantic-m921",
+    "sourceId": "naming-semantic-admission-v72-M921-M923",
+    "publicationVersion": "m921-character-meaning-publication/1.0.0-m923.1",
+    "decisionVersion": "M923-DECISION/1",
+    "ruleVersion": "naming-editorial-7.2.0"
+  },
+  "decisionId": "M923-DECISION",
+  "date": "2026-10-26",
+  "upstream": {
+    "repository": "D:/Codex-NamingStudio-Evidence/m921-meaning-admission/work",
+    "commit": "dd023590ff4f9f4f1838dd1311e8e1444e3024e1",
+    "prefix": "candidates/m921-meaning-admission",
+    "manifestSHA256": "b942c7adca32ab32716b49a76f4416c8bab081dd74ad7ee46514d09b0d20ce3d",
+    "publicationSHA256": "315ea65ed78cf3b5b630a6dd8e525924f89b0355a98685d5503e02737aea7431",
+    "proposalSHA256": "b37708c5b2da686598c75d135c1fbd957740b2bbbf4899be48542319293277bc"
+  },
+  "decision": {
+    "supported": 40,
+    "existingProjectText": 37,
+    "narrowedProjectText": 3,
+    "pending": 0,
+    "rejected": 0,
+    "policyApproved": true,
+    "grant": "allow-single-character-generation",
+    "repeatEditorialApprovalRequiredForExactPinnedRecords": false,
+    "consumer": "Dev01 next actual main-process M921 family loader"
+  },
+  "historical": {
+    "m916": {
+      "general": 38,
+      "pending": 2
+    },
+    "m917AdditionalMigrationHold": [
+      "川"
+    ],
+    "frozen": true,
+    "newDecisionDoesNotReclassifyOldEvidence": true
+  },
+  "activation": {
+    "registered": false,
+    "enabledByDefault": false,
+    "explicitRequestOptInRequired": true,
+    "productionActivation": "off",
+    "productionApproved": false,
+    "defaultAutomaticCoverageAdded": 0,
+    "actualRuntimeCoverageVerified": false
+  },
+  "authority": {
+    "newFamily": true,
+    "registryOwner": "main-process-private-M921-M923-resource-registry",
+    "acceptedSourceId": "naming-semantic-admission-v72-M921-M923",
+    "legacyM752SourceIdAccepted": false,
+    "pureDomainHandleAccepted": false,
+    "callerBooleanAccepted": false,
+    "callerExpectedHashesAccepted": false,
+    "selfResealAccepted": false,
+    "sourceScriptsExecutable": false,
+    "semanticPolicyApprovalIsNotRuntimeAuthentication": true
+  },
+  "inputEvidence": {
+    "fixedCandidateFileCount": 27,
+    "sourcePins": {
+      "data/dataset-v6.json": {
+        "sha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+        "bytes": 1563457
+      },
+      "data/knowledge-v6.sqlite": {
+        "sha256": "1875aa49dcfaeca0f266a3be7578e4d4b2a9b2c9c1f59fd79699a3e26d5d6b8b",
+        "bytes": 1454080
+      },
+      "data/raw/moe-revised.json.gz": {
+        "sha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "bytes": 20310688
+      },
+      "data/raw/kTraditionalVariant.txt": {
+        "sha256": "4eca6285d45070548e6e6c06e4b48c3ca6866d4380e8cb980c512f5d1fc71895",
+        "bytes": 86288
+      },
+      "data/raw/kSimplifiedVariant.txt": {
+        "sha256": "a7f0c9dbbca85cffd90517fa6ea9be97d2e6f811328a59b6b303d58a418ac9be",
+        "bytes": 88425
+      },
+      "data/raw/moe-README.md": {
+        "sha256": "a93321d9381bc1cf34b4ad844f71607fa748c86c0b228ae37d46720d6a659cb2",
+        "bytes": 1214
+      },
+      "data/raw/CC-BY-ND-3.0-TW.html": {
+        "sha256": "04e6ef69a223b6e13c93c97a918ad5fd0dbb9fc34ae307f4449ed264e2d4108f",
+        "bytes": 31775
+      },
+      "data/raw/unicode-LICENSE": {
+        "sha256": "fe5c62b543e287981db198f2acfa0ca732d12591a1024536dc8fd85dacd77104",
+        "bytes": 2033
+      }
+    },
+    "auditOnlyEngineCodePins": {
+      "src/shared/naming-semantic-admission-v72.ts": {
+        "sha256": "d36c063bb549c354627e37858f62aa8dd8263d3c47566882581b2817ff9fde15",
+        "bytes": 7470
+      },
+      "src/domain/naming-semantic-admission-v72.ts": {
+        "sha256": "26eeb2959d9ff815c625a2da6c0c8524ecd381f6d00cc3abf50ac974f9e2e808",
+        "bytes": 15942
+      }
+    },
+    "oldVerifierDiscrepancy": {
+      "dataRowsVerified": 40,
+      "upstreamAuditOk": false,
+      "manifestFullyMatchesCommit": false,
+      "verifierExecuted": false,
+      "rawGlobalDictionaryRehashed": false,
+      "issueId": "verifier-blob-manifest-line-ending-discrepancy",
+      "committedVerifier": {
+        "bytes": 4305,
+        "sha256": "b026018d141d773b107f41445ba06be69710e118e7067195e8ef136680e23306"
+      },
+      "manifestDeclaredWorkingVerifier": {
+        "bytes": 4306,
+        "sha256": "311faaea2ebcdffa3d98acdc5361c91d6d2e5ca1f6a39371cddfcf884ba08b63"
+      },
+      "normalizedLFEqual": true,
+      "resolution": "Preserve original source and both pins; no blanket source-manifest success claim. A future complete-source publication must correct its own verifier manifest without rewriting M916."
+    },
+    "newManifestAuthority": "M921 exact 27 blob closure; no blanket approval of old M916 verifier manifest"
+  },
+  "licenses": {
+    "dictionary": {
+      "attribution": "教育部《重編國語辭典修訂本》",
+      "label": "CC-BY-ND-3.0-TW",
+      "keepDefinitionAndFullEntryUnchanged": true
+    },
+    "formatConversion": "kcwu JSON format conversion CC0",
+    "glyph": "Unicode-3.0",
+    "project": "CC0-1.0",
+    "fixedLicenseFilePaths": [
+      "data/raw/moe-README.md",
+      "data/raw/CC-BY-ND-3.0-TW.html",
+      "data/raw/unicode-LICENSE"
+    ],
+    "projectTextIsNotAlteredDictionaryQuotation": true,
+    "sourceLicenseSubstitutionAllowed": false
+  },
+  "generation": {
+    "scope": "characterwise-only",
+    "namePart": "given-name",
+    "givenNameLengths": [
+      1,
+      2
+    ],
+    "stageValues": [
+      "pool",
+      "required",
+      "local",
+      "ai",
+      "save",
+      "restore"
+    ],
+    "stageChangesEligibility": false,
+    "wholeNameApprovalRequired": false,
+    "perFamilySignatureRequired": false,
+    "selectedReadingOnly": true,
+    "newProjectWish": null,
+    "newWholeNameMeaning": null,
+    "scoreDelta": 0,
+    "requiredCharacterBypass": false,
+    "aiAuthority": false,
+    "exhaustionFallbackToUnadmitted": false,
+    "allOccurrencesMustBeChecked": true,
+    "preserveLegacyEligibleUnion": true,
+    "onlyAdoptedOccurrenceFieldsMayChange": true
+  },
+  "stageContexts": {
+    "pool": {
+      "required": [
+        "stage",
+        "candidateCaseId",
+        "char",
+        "selectedPinyin",
+        "tone",
+        "senseId",
+        "requestedGivenNameLength",
+        "namePart",
+        "familySelection",
+        "themeIds"
+      ],
+      "futureFullNameRequired": false,
+      "receiptIssued": false,
+      "checks": "same source/record/selected-reading/sense/opt-in/theme policy plus existing constraints evaluable at pool stage; do not fabricate a name or ask whole-name approval"
+    },
+    "occurrence": {
+      "stages": [
+        "required",
+        "local",
+        "ai",
+        "save",
+        "restore"
+      ],
+      "requiresActualCandidate": true,
+      "fullNameEqualsSurnamePlusGivenName": true,
+      "positionIsUnicodeCodepointIndex": true,
+      "allFullNameHardConstraintsBeforeFinalization": true
+    },
+    "assessmentOnlyStages": [
+      "pool",
+      "required",
+      "local",
+      "ai"
+    ],
+    "receiptIssueStages": [
+      "local",
+      "ai"
+    ],
+    "saveRestore": {
+      "entryPoint": "validateAndAssessM921M923Saved",
+      "receiptArgumentRequired": true,
+      "validationBeforeQualification": true,
+      "normalProductionReceiptOrigin": "local-or-ai-finalizer",
+      "qualificationOnlyProvesPersistence": false
+    }
+  },
+  "constraintInputs": {
+    "schema": "m923-constraint-context/1",
+    "engineId": "m923-existing-constraints-v1",
+    "engineIdentityOwner": "compiled reviewed main adapter, never caller-selected",
+    "rawInputs": [
+      "profile",
+      "preferences"
+    ],
+    "validation": "main uses existing complete BirthProfile/NamingPreferences validation and normalization, including father/mother names, avoidance, required chars and all other existing generator constraints",
+    "hashObject": {
+      "schema": "m923-constraint-context/1",
+      "engineId": "m923-existing-constraints-v1",
+      "profile": "actual validated normalized profile object",
+      "preferences": "actual validated normalized naming preferences object"
+    },
+    "hashConvention": "M923-C14N-1",
+    "callerHashOrPassFlagAccepted": false,
+    "credentialsOrApiConfigIncluded": false,
+    "changedEngineRequiresNewAdapterId": true,
+    "savedReplay": "hash saved validated profile/preferences with the saved exact engine adapter; do not replace with current request inputs; unavailable historical adapter fails explicitly without rewriting history"
+  },
+  "themes": {
+    "knownIds": [
+      "civic-homeland",
+      "water-bubbles",
+      "textile-ribbon",
+      "agriculture",
+      "literary-artwork",
+      "herb-plant"
+    ],
+    "requiredIds": [],
+    "freeTextInference": false,
+    "unregisteredLabelsAreArchivalOnly": true,
+    "unknownExplicitIdPolicy": "reject-context",
+    "neutralGeneralNeedsTheme": false
+  },
+  "qualificationOrder": [
+    "validate-strict-context-and-exact-family-opt-in-identity",
+    "resolve-private-registered-handle-and-refresh-fixed-resources",
+    "if-receipt-required-validate-exact-family-receipt-before-qualification",
+    "resolve-one-fixed-candidate-id-and-record",
+    "compare-complete-baseline-character-and-selected-reading-tone-sense",
+    "check-given-name-occurrence-and-length",
+    "validate-known-explicit-themes-no-theme-required",
+    "apply-existing-parent-name-avoidance-phonetic-required-char-constraints",
+    "emit-exact-project-meaning-and-limits-or-block"
+  ],
+  "sourceAuthentication": [
+    {
+      "id": "S1",
+      "predicate": "compiled-new-family-registry-exact-pins",
+      "details": "Dev01 copies the final M923 registry-entry values as fixed code constants. A supplied sourceId, record, caller expectedPins, mutable JSON manifest or recomputed hash never creates a capability."
+    },
+    {
+      "id": "S2",
+      "predicate": "fixed-runtime-resource-byte-closure",
+      "details": "Read approved records and policy plus fixed M921 data evidence and eight original data resources; reject missing, different, duplicate or unlisted resources. Archived 27 scripts are data evidence only, never executed."
+    },
+    {
+      "id": "S3",
+      "predicate": "actual-original-entry-coordinate-replay",
+      "details": "From the fixed original gzip select exact global entry, heteronym and definition. Compare complete entry, source word, pinyin, inferred tone, POS, definition, example/quote/link and hashes to each decision. Do not trust selected coordinates or a local subset alone."
+    },
+    {
+      "id": "S4",
+      "predicate": "actual-base-record-and-glyph-replay",
+      "details": "Verify actual fixed dataset and SQLite pack, complete baseline record/readings/default selected reading. Replay same-codepoint or both fixed Unicode variant directions; compare glyph proof and hashes. No new element/radical/semantic tags granted."
+    },
+    {
+      "id": "S5",
+      "predicate": "exact-history-and-project-lineage",
+      "details": "Compare M910/M914 selections/subsets/source locks, M916 rows, M917 rows, M921 lineage/records/proposals to exact M923 per-row hashes. 37 text values unchanged, only the three approved proposal strings adopted. Historical 38/2 and 川 hold remain as old evidence."
+    },
+    {
+      "id": "S6",
+      "predicate": "license-attribution-and-authority-separation",
+      "details": "Read fixed source license/notices, preserve original dictionary entries and attribution; compare exact labels. Keep M923 project wording separate and projectWish null. Never replace source licensing with project CC0."
+    },
+    {
+      "id": "S7",
+      "predicate": "private-capability-registered-after-all-checks",
+      "details": "Only the successful fixed main loader stores the actual object in a non-exported WeakMap with family/version/resource pins. Serialized, cloned, forged, pure-domain-created and other-family handles all fail. Refresh reauthenticates this family and invalidates stale capability."
+    }
+  ],
+  "receipt": {
+    "schema": "m921-m923-character-generation-adoption/1",
+    "kind": "adoption-of-fixed-character-project-meaning-not-source-signature",
+    "allFieldsRequired": true,
+    "additionalProperties": false,
+    "fields": [
+      "schema",
+      "familyId",
+      "sourceId",
+      "publicationVersion",
+      "decisionVersion",
+      "ruleVersion",
+      "registryEntrySHA256",
+      "decisionRecordsSHA256",
+      "policySHA256",
+      "candidateId",
+      "fullName",
+      "givenName",
+      "position",
+      "char",
+      "pinyin",
+      "tone",
+      "senseId",
+      "reviewId",
+      "candidateCaseId",
+      "sourceEntrySHA256",
+      "sourceDefinitionSHA256",
+      "sourceCaseSHA256",
+      "lineageSHA256",
+      "baseDatasetSHA256",
+      "basePackSHA256",
+      "projectTextSHA256",
+      "projectSHA256",
+      "constraintEngineId",
+      "constraintContextSHA256",
+      "contextSHA256",
+      "explanationScope",
+      "projectWish",
+      "wholeNameMeaning",
+      "scoreDelta"
+    ],
+    "fixed": {
+      "schema": "m921-m923-character-generation-adoption/1",
+      "familyId": "naming-semantic-m921",
+      "sourceId": "naming-semantic-admission-v72-M921-M923",
+      "publicationVersion": "m921-character-meaning-publication/1.0.0-m923.1",
+      "decisionVersion": "M923-DECISION/1",
+      "ruleVersion": "naming-editorial-7.2.0",
+      "constraintEngineId": "m923-existing-constraints-v1",
+      "explanationScope": "characterwise-only",
+      "projectWish": null,
+      "wholeNameMeaning": null,
+      "scoreDelta": 0
+    },
+    "context": {
+      "canonicalization": "M923-C14N-1 recursive lexicographic object-key sorting; array order retained; JSON primitives only; UTF8 JSON without BOM/newline; no Unicode or spelling normalization",
+      "boundFields": [
+        "candidateId",
+        "candidateCaseId",
+        "fullName",
+        "surname",
+        "givenName",
+        "position",
+        "char",
+        "selectedPinyin",
+        "tone",
+        "senseId",
+        "givenNameLength",
+        "namePart",
+        "familySelection",
+        "themeIds",
+        "constraintEngineId",
+        "constraintContextSHA256"
+      ],
+      "internallyDerivedFields": [
+        "constraintEngineId",
+        "constraintContextSHA256"
+      ],
+      "excludedFields": [
+        "stage"
+      ],
+      "themeIds": "explicit exact known IDs, no duplicates, lexical sorted before context serialization",
+      "position": "0-based Unicode codepoint index in givenName; surname prefix checked separately; no surname adoption",
+      "stageNotHashed": "stage alone never changes eligibility; save/restore validates the originally issued context and receipt"
+    },
+    "hashBindings": {
+      "registryEntrySHA256": "SHA256(exact approved registry-entry.json file bytes)",
+      "decisionRecordsSHA256": "SHA256(exact admission-records.json file bytes)",
+      "policySHA256": "SHA256(exact family-policy.json file bytes)",
+      "sourceEntrySHA256": "record.sourceSHA256 = SHA256(UTF8(JSON.stringify(actual original complete entry)))",
+      "sourceDefinitionSHA256": "record.identity.definitionSha256 = SHA256(UTF8(JSON.stringify(actual selected complete definition)))",
+      "sourceCaseSHA256": "record.lineage.m921SourceRowSHA256 = SHA256(UTF8(JSON.stringify(original fixed M921 publication row)))",
+      "lineageSHA256": "SHA256(UTF8(JSON.stringify(the new M923 record.lineage object)))",
+      "baseDatasetSHA256": "record.identity.baseDatasetSha256; verified actual original file bytes",
+      "basePackSHA256": "record.identity.basePackSha256; verified actual original file bytes",
+      "projectTextSHA256": "record.projectTextSHA256 = SHA256(UTF8(exact new project.meaning string)); no newline",
+      "projectSHA256": "record.projectSHA256 = SHA256(UTF8(JSON.stringify(new M923 record.project object))); preserve stored field order",
+      "constraintContextSHA256": "SHA256(UTF8(M923-C14N-1(constraintInputs.hashObject with actual normalized data)))",
+      "contextSHA256": "SHA256(UTF8(M923-C14N-1(exact boundFields object including main-derived constraintEngineId/constraintContextSHA256)))",
+      "otherObjectHashRule": "M921 historical object hashes preserve original parsed field order with JSON.stringify; do not apply C14N to them"
+    },
+    "validation": "No authority in the receipt itself. Main resolves its exact registered family/version then recomputes every field from fixed resources and full saved candidate/context/constraints. Missing/extra/tampered fields or cross-family substitution reject before eligibility. A valid older M752 receipt is only handled by its original exact legacy branch.",
+    "issuerProvenanceClaim": false,
+    "equivalentCanonicalReconstruction": "A completely equivalent reconstructed receipt may satisfy deterministic integrity verification; this is not proof of a past issuer event, a signature or an authorization capability. Actual producer/store path is proved only by runtime tests. Source authority always comes from private main registration.",
+    "archivalReplay": "Absent new receipt in legacy history remains absent. A saved valid M923 session retains its saved explicit selection; current preference off does not erase it. Recompute only to verify saved version, never migrate outputs. Changed request is a new generation requiring new opt-in."
+  },
+  "coverage": {
+    "defaultDelta": 0,
+    "policyRowCount": 40,
+    "rowCountIsNewCoverage": false,
+    "eligibleForOptInRequest": "compute distinct eligible char+reading+sense occurrences with true active constraints; report separately from default coverage",
+    "noBlindAddition": [
+      40,
+      38,
+      37
+    ],
+    "noHistoricalRecalculation": true
+  },
+  "implementation": {
+    "newLoaderSuggestedModule": "src/main/naming-semantic-m921-m923-data.ts",
+    "newPublicType": "M921M923FamilyHandle",
+    "newReceiptDiscriminator": "m921-m923-character-generation-adoption/1",
+    "legacyBranchMustRemainExact": true,
+    "oldNineAllowsNotInherited": true,
+    "productionWorkPerformed": false,
+    "actualLoader": "未执行",
+    "actualGeneration": "未执行",
+    "saveRestore": "未执行",
+    "UI": "未执行",
+    "nativeRelease": "未执行"
+  },
+  "approvalSemantics": "This is a new reusable approval of the exact forty character-level project meanings. Implementing the pinned new family and opt-in gates needs runtime acceptance, not another semantic hold or per-future-name manual approval. No inferred full-name/personality/fate/element/score authority."
+}

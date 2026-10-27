@@ -1,0 +1,165 @@
+{
+  "schema": "naming-character-meanings-v7.1-publication/1",
+  "ruleVersion": "naming-editorial-7.1.0",
+  "profileVersion": "naming-character-meanings-v7.1/1",
+  "sourceId": "naming-character-meanings-v7.1-fixed",
+  "publicationState": "fixed-candidate-awaiting-runtime-acceptance",
+  "files": [
+    {
+      "file": "data/dataset-v6.json",
+      "sha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+      "bytes": 1563457
+    },
+    {
+      "file": "data/knowledge-v6.sqlite",
+      "sha256": "1875aa49dcfaeca0f266a3be7578e4d4b2a9b2c9c1f59fd79699a3e26d5d6b8b",
+      "bytes": 1454080
+    },
+    {
+      "file": "data/naming-character-meanings-v7.1-NOTICE.md",
+      "sha256": "46d3fb85a1cf217a0b7e72c1002fb1c36dbbd3f34191306385388f4f14c7e243",
+      "bytes": 1435
+    },
+    {
+      "file": "data/naming-character-meanings-v7.1-admission.json",
+      "sha256": "425909be7aa94e251a37d45a77c759d0b3dfd323beef0af6882f3e0596b4d313",
+      "bytes": 4760
+    },
+    {
+      "file": "data/naming-character-meanings-v7.1-profile.json",
+      "sha256": "6e619be92c16dc018715fc77425f150b6a2c9af2e01be63b309035c81dd6a85b",
+      "bytes": 257013
+    },
+    {
+      "file": "data/naming-character-meanings-v7.1-source-lock.json",
+      "sha256": "d8e1c6c278090d290b5792e31dc5187df5ad290b97e7ccdbce58dcbd285d793a",
+      "bytes": 5440
+    },
+    {
+      "file": "data/naming-editorial-dictionary-v6-source-lock.json",
+      "sha256": "06331d11a1c757a0245891fae357c7952db597d07c3c770d4052277c0bfac8da",
+      "bytes": 4919
+    },
+    {
+      "file": "data/naming-editorial-meanings-v7-source-lock.json",
+      "sha256": "2945297a7f4bca1489e12018cce2848909fc35716c999b7d309e9a79633f7476",
+      "bytes": 3979
+    },
+    {
+      "file": "data/naming-editorial-v4.json",
+      "sha256": "d24898eb63438d7b24262668eb3b36770f211fade015b28eeb361700a58ca6ce",
+      "bytes": 380418
+    },
+    {
+      "file": "data/naming-editorial-v5.json",
+      "sha256": "bb8d3d255b42a6b67932988e13ceb2d7a7a1c6ef8fbbcc65312b9a50b5519da8",
+      "bytes": 65361
+    },
+    {
+      "file": "data/naming-editorial-v6.json",
+      "sha256": "35de5f749f438e849543e5fde6e405b89ba01cba20597e82e7c4f518dd4363ab",
+      "bytes": 109426
+    },
+    {
+      "file": "data/naming-editorial-v7-NOTICE.md",
+      "sha256": "c7dc728945bf2ceed14feb23e1635a6e6fd3ce8e5a135489554ec075e963a1b3",
+      "bytes": 2380
+    },
+    {
+      "file": "data/naming-editorial-v7.json",
+      "sha256": "392fa47441a0c410b0903c3e85853081225a1a5e9f540b5467e4ea4e2151cc48",
+      "bytes": 1301005
+    },
+    {
+      "file": "data/naming-editorial.json",
+      "sha256": "97c3162238c9493174544580a338fb0852d2784fbeac712fbd8e234f99945195",
+      "bytes": 31147
+    },
+    {
+      "file": "data/raw/CC-BY-ND-3.0-TW.html",
+      "sha256": "04e6ef69a223b6e13c93c97a918ad5fd0dbb9fc34ae307f4449ed264e2d4108f",
+      "bytes": 31775
+    },
+    {
+      "file": "data/raw/kSimplifiedVariant.txt",
+      "sha256": "a7f0c9dbbca85cffd90517fa6ea9be97d2e6f811328a59b6b303d58a418ac9be",
+      "bytes": 88425
+    },
+    {
+      "file": "data/raw/kTraditionalVariant.txt",
+      "sha256": "4eca6285d45070548e6e6c06e4b48c3ca6866d4380e8cb980c512f5d1fc71895",
+      "bytes": 86288
+    },
+    {
+      "file": "data/raw/moe-README.md",
+      "sha256": "a93321d9381bc1cf34b4ad844f71607fa748c86c0b228ae37d46720d6a659cb2",
+      "bytes": 1214
+    },
+    {
+      "file": "data/raw/moe-revised.json.gz",
+      "sha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+      "bytes": 20310688
+    },
+    {
+      "file": "data/raw/naming-character-meanings-v7.1-subset.json",
+      "sha256": "59be39f7d9cbed1db5220721c015445546a19aa9967e59d4db0f820f3bcee8c1",
+      "bytes": 259062
+    },
+    {
+      "file": "data/raw/naming-citations-v7-errata-r2.json",
+      "sha256": "e61707d9e3ac04110cdcaa924dd53a32b8bcc0ae8a0d0b0cbf9016a83108b945",
+      "bytes": 10617
+    },
+    {
+      "file": "data/raw/naming-citations-v7-review.json",
+      "sha256": "e5d3909b04812c418feffbbb34cdecd3224527130a4ddfa91b62432e7ef59cc3",
+      "bytes": 70982
+    },
+    {
+      "file": "data/raw/naming-meanings-v7-errata-r1.json",
+      "sha256": "e0bafe66312b98df77a367402915da57a3d5fa2c43ce56ca6af85a41cb4c3c0a",
+      "bytes": 2174
+    },
+    {
+      "file": "data/raw/naming-meanings-v7-review.json",
+      "sha256": "8bdf895484e9b88daaa822fdd873901ee3dba994f23961cc836692f340446b1c",
+      "bytes": 692058
+    },
+    {
+      "file": "data/raw/poetry-LICENSE",
+      "sha256": "c195319aeaa3ffcbe16aa5d26eec19eae5a42f84337dd2b3dc3c9d5ccbbd6507",
+      "bytes": 1076
+    },
+    {
+      "file": "data/raw/shijing.json",
+      "sha256": "3c7ca54d59424542ada99adfcc85420287fbbd5c8a511e9baf705cb2b04051e7",
+      "bytes": 156972
+    },
+    {
+      "file": "data/raw/unicode-LICENSE",
+      "sha256": "fe5c62b543e287981db198f2acfa0ca732d12591a1024536dc8fd85dacd77104",
+      "bytes": 2033
+    },
+    {
+      "file": "data/raw/zhouyi-LICENSE",
+      "sha256": "0506d67239c89a3d3b14e253ed29e20e2e9259b41c4b32031eab5ac22ed2811f",
+      "bytes": 1070
+    },
+    {
+      "file": "data/raw/zhouyi.tar.gz",
+      "sha256": "0a847c0b9b876f9926e4896399e31ee44f88292db107bc865d70e2d7308b15a0",
+      "bytes": 123007
+    },
+    {
+      "file": "data/source-lock.json",
+      "sha256": "b1d206cdcfa2da184009442ba705d2231d8f0a43c2f5a9885a122a3e5d353bba",
+      "bytes": 5953
+    }
+  ],
+  "scope": "per-character-project-explanation-only",
+  "exactCharacterRows": 40,
+  "oldV7AutomaticCharacters": 304,
+  "newProductAdoptionsInCurrent37": 0,
+  "wholeNameAssessment": "not-assessed",
+  "scoreDelta": 0
+}

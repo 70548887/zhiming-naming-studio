@@ -1,0 +1,78 @@
+{
+  "schemaVersion": "m754-element-imagery-lock/1.0.0",
+  "profileId": "project-dictionary-object-elements/2.0.0-m754-candidate",
+  "baseline": {
+    "path": "data/dataset-v6.json",
+    "version": "2026.10.20.2",
+    "sha256": "3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728",
+    "characters": 779,
+    "emptyCharacters": 522
+  },
+  "rawSources": [
+    {
+      "path": "data/raw/moe-revised.json.gz",
+      "url": "https://raw.githubusercontent.com/g0v/moedict-data/a6dc997417507eb510fc29822bc514de2c92728c/dict-revised_bkup.json",
+      "sha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+      "bytes": 20310688,
+      "retrievedAt": "2026-10-17T11:31:21.371Z",
+      "encoding": "gzip of original UTF-8 response, no content edits"
+    },
+    {
+      "path": "data/raw/moe-README.md",
+      "url": "https://raw.githubusercontent.com/g0v/moedict-data/a6dc997417507eb510fc29822bc514de2c92728c/README.md",
+      "sha256": "a93321d9381bc1cf34b4ad844f71607fa748c86c0b228ae37d46720d6a659cb2",
+      "bytes": 1214,
+      "retrievedAt": "2026-10-17T11:31:21.372Z",
+      "encoding": "original response"
+    },
+    {
+      "path": "data/raw/CC-BY-ND-3.0-TW.html",
+      "url": "https://creativecommons.org/licenses/by-nd/3.0/tw/legalcode.zh-hant",
+      "sha256": "04e6ef69a223b6e13c93c97a918ad5fd0dbb9fc34ae307f4449ed264e2d4108f",
+      "bytes": 31775,
+      "retrievedAt": "2026-10-17T11:31:24.023Z",
+      "encoding": "original response"
+    },
+    {
+      "path": "data/raw/kTraditionalVariant.txt",
+      "url": "https://raw.githubusercontent.com/unicode-org/unicodetools/4fd8eca90b30aa4c72543ccddb4c15d05becdf8d/unicodetools/data/ucd/17.0.0/Unihan/kTraditionalVariant.txt",
+      "sha256": "4eca6285d45070548e6e6c06e4b48c3ca6866d4380e8cb980c512f5d1fc71895",
+      "bytes": 86288,
+      "retrievedAt": "2026-10-17T11:21:31.745Z",
+      "encoding": "original response"
+    },
+    {
+      "path": "data/raw/kSimplifiedVariant.txt",
+      "url": "https://raw.githubusercontent.com/unicode-org/unicodetools/4fd8eca90b30aa4c72543ccddb4c15d05becdf8d/unicodetools/data/ucd/17.0.0/Unihan/kSimplifiedVariant.txt",
+      "sha256": "a7f0c9dbbca85cffd90517fa6ea9be97d2e6f811328a59b6b303d58a418ac9be",
+      "bytes": 88425,
+      "retrievedAt": "2026-10-17T11:21:31.742Z",
+      "encoding": "original response"
+    },
+    {
+      "path": "data/raw/kMandarin.txt",
+      "url": "https://raw.githubusercontent.com/unicode-org/unicodetools/4fd8eca90b30aa4c72543ccddb4c15d05becdf8d/unicodetools/data/ucd/17.0.0/Unihan/kMandarin.txt",
+      "sha256": "e549450d76b4f7f79dcf3c928f17f62dc7dcfda904dd4db983a18d4afab221e3",
+      "bytes": 462072,
+      "retrievedAt": "2026-10-17T11:21:31.866Z",
+      "encoding": "original response"
+    },
+    {
+      "path": "data/raw/unicode-LICENSE",
+      "url": "https://raw.githubusercontent.com/unicode-org/unicodetools/4fd8eca90b30aa4c72543ccddb4c15d05becdf8d/LICENSE",
+      "sha256": "fe5c62b543e287981db198f2acfa0ca732d12591a1024536dc8fd85dacd77104",
+      "bytes": 2033,
+      "retrievedAt": "2026-10-17T11:21:31.572Z",
+      "encoding": "original response"
+    }
+  ],
+  "projectFiles": {
+    "admission-template.json": "2aaaab2b7da0dea29a4430a8241f166e23df1ad2761a307ea0edf2fb5ed35c36",
+    "convention-candidates.json": "28c423f31cb106964f2ed01bfcdd3139f16eae6af14317ba45623781b4e3de1c",
+    "coverage.json": "750b27cc6e59eb0bdc7dcfa86e7b71e5da958d88359721507c9cc308dee2131b",
+    "dictionary-facts.json": "40c3a919c02a1cf1eeaa056f4de2af3f6e6c0825c6c061a1c8911afdc2af46d5",
+    "editorial-input.json": "a9ee9581e89db0963306fe6a08b7b62fcfa6a224f07a5e77ce858850f2aad581",
+    "source-pins.json": "e3326102cf608e62719d84b75244de07784fdacfbcd3bd0bea2c617ae8938cca"
+  },
+  "aggregateSha256": "421810288606e31e717bc11e707df53395b2f8642f080f7884723cc8d2a2bd75"
+}

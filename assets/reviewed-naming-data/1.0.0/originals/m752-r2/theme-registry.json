@@ -1,0 +1,55 @@
+{
+  "schema": "meaning-generation-themes/1",
+  "themes": [
+    {
+      "id": "civic-homeland",
+      "label": "家国文化",
+      "authority": "project-theme-choice",
+      "selection": "explicit-user-preference",
+      "acceptsFreeTextInference": false,
+      "requiresFamilySignature": false
+    },
+    {
+      "id": "water-bubbles",
+      "label": "水面小泡",
+      "authority": "project-theme-choice",
+      "selection": "explicit-user-preference",
+      "acceptsFreeTextInference": false,
+      "requiresFamilySignature": false
+    },
+    {
+      "id": "textile-ribbon",
+      "label": "青色丝带",
+      "authority": "project-theme-choice",
+      "selection": "explicit-user-preference",
+      "acceptsFreeTextInference": false,
+      "requiresFamilySignature": false
+    },
+    {
+      "id": "agriculture",
+      "label": "耕种事业",
+      "authority": "project-theme-choice",
+      "selection": "explicit-user-preference",
+      "acceptsFreeTextInference": false,
+      "requiresFamilySignature": false
+    },
+    {
+      "id": "literary-artwork",
+      "label": "诗文书画作品",
+      "authority": "project-theme-choice",
+      "selection": "explicit-user-preference",
+      "acceptsFreeTextInference": false,
+      "requiresFamilySignature": false
+    },
+    {
+      "id": "herb-plant",
+      "label": "香草艾蒿",
+      "authority": "project-theme-choice",
+      "selection": "explicit-user-preference",
+      "acceptsFreeTextInference": false,
+      "requiresFamilySignature": false
+    }
+  ],
+  "unknownIdPolicy": "reject-context",
+  "omittedPolicy": "no-themes"
+}

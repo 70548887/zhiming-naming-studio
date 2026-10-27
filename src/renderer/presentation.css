@@ -1,0 +1,93 @@
+/* Device-only display preferences. Print output intentionally keeps its own typography. */
+@media screen {
+  :root[data-font-size="standard"] { --studio-input-font-size: 13px; }
+  :root[data-font-size="large"] { --studio-input-font-size: 15px; font-size: 15px; }
+  :root[data-font-size] input, :root[data-font-size] textarea, :root[data-font-size] select,
+  :root[data-font-size] .field input, :root[data-font-size] .field textarea, :root[data-font-size] .field select,
+  :root[data-font-size] .date-input input, :root[data-font-size] .date-input select,
+  :root[data-font-size] .settings-panel .field input, :root[data-font-size] .stroke-selector select,
+  :root[data-font-size] .search-bar input { font-size: var(--studio-input-font-size); }
+  :root[data-font-size="large"] body,
+  :root[data-font-size="large"] .button, :root[data-font-size="large"] .text-button,
+  :root[data-font-size="large"] .nav-item, :root[data-font-size="large"] .choice,
+  :root[data-font-size="large"] .segmented button, :root[data-font-size="large"] .form-tabs button,
+  :root[data-font-size="large"] .field > label, :root[data-font-size="large"] .name-meaning,
+  :root[data-font-size="large"] .customer-card p, :root[data-font-size="large"] .detail-section > p,
+  :root[data-font-size="large"] .detail-characters p, :root[data-font-size="large"] .reason-list,
+  :root[data-font-size="large"] .manual-review p, :root[data-font-size="large"] .three-talents p,
+  :root[data-font-size="large"] .stroke-record > p, :root[data-font-size="large"] .qimen-auxiliary dd,
+  :root[data-font-size="large"] .palace-center, :root[data-font-size="large"] .palace-bottom,
+  :root[data-font-size="large"] .comparison-grid p { font-size: 15px; }
+  :root[data-font-size="large"] .small, :root[data-font-size="large"] .tiny,
+  :root[data-font-size="large"] .field-hint, :root[data-font-size="large"] .page-heading p,
+  :root[data-font-size="large"] .result-count, :root[data-font-size="large"] .name-pinyin,
+  :root[data-font-size="large"] .name-style, :root[data-font-size="large"] .name-source,
+  :root[data-font-size="large"] .name-detail-link, :root[data-font-size="large"] .compare-check,
+  :root[data-font-size="large"] .session-summary, :root[data-font-size="large"] .session-summary button,
+  :root[data-font-size="large"] .qimen-meta, :root[data-font-size="large"] .palace-top,
+  :root[data-font-size="large"] .palace-god, :root[data-font-size="large"] .palace-marks,
+  :root[data-font-size="large"] .qimen-marker-card ul, :root[data-font-size="large"] .qimen-marker-card h4,
+  :root[data-font-size="large"] .qimen-auxiliary-heading p, :root[data-font-size="large"] .qimen-auxiliary dt,
+  :root[data-font-size="large"] .qimen-auxiliary-warnings, :root[data-font-size="large"] .qimen-rule > ul,
+  :root[data-font-size="large"] .qimen-source-list, :root[data-font-size="large"] .qimen-rule-details summary,
+  :root[data-font-size="large"] .version-line, :root[data-font-size="large"] .analysis-rule,
+  :root[data-font-size="large"] .analysis-warnings, :root[data-font-size="large"] .birth-summary,
+  :root[data-font-size="large"] .stroke-position > span, :root[data-font-size="large"] .stroke-record > small,
+  :root[data-font-size="large"] .stroke-options, :root[data-font-size="large"] .stroke-selector > label,
+  :root[data-font-size="large"] .stroke-selector > small, :root[data-font-size="large"] .numerology-grids > article > span,
+  :root[data-font-size="large"] .numerology-grids p, :root[data-font-size="large"] .grid-interpretation small,
+  :root[data-font-size="large"] .numerology-provenance, :root[data-font-size="large"] .numerology-summary > p,
+  :root[data-font-size="large"] .numerology-summary > small, :root[data-font-size="large"] .numerology-summary > strong,
+  :root[data-font-size="large"] .comparison-grid .numerology-summary > p,
+  :root[data-font-size="large"] .report-names .numerology-summary > p,
+  :root[data-font-size="large"] .report-names .numerology-summary > small { font-size: 13px; }
+  :root[data-font-size="large"] .checkbox-line { font-size: 13px !important; }
+  :root[data-font-size="large"] .date-input select { width: 88px; }
+  :root[data-font-size="large"] .date-input input { min-width: 0; }
+  :root[data-font-size="large"] .stroke-selector, :root[data-font-size="large"] .stroke-record,
+  :root[data-font-size="large"] .palace, :root[data-font-size="large"] .numerology-grids > article { min-width: 0; overflow-wrap: anywhere; }
+  :root[data-font-size="large"] .palace-top, :root[data-font-size="large"] .palace-center,
+  :root[data-font-size="large"] .palace-bottom { flex-wrap: wrap; gap: 4px; }
+  :root[data-density="compact"] .workspace { gap: 16px; }
+  :root[data-density="compact"] .candidate-grid, :root[data-density="compact"] .customer-grid,
+  :root[data-density="compact"] .settings-grid, :root[data-density="compact"] .analysis-layout { gap: 12px; }
+  :root[data-density="compact"] .page-content { padding-top: 22px; padding-bottom: 14px; }
+  :root[data-density="compact"] .form-body { padding: 14px 16px 4px; }
+  :root[data-density="compact"] .field { gap: 5px; }
+  :root[data-density="compact"] .field-row, :root[data-density="compact"] .button-row { gap: 8px; }
+  :root[data-density="compact"] .button { padding: 7px 11px; }
+  :root[data-density="compact"] .name-main { padding: 8px 12px 0; }
+  :root[data-density="compact"] .name-card-top { padding: 6px 10px 0; }
+  :root[data-density="compact"] .name-card-bottom { padding: 6px 10px; }
+  :root[data-density="compact"] .customer-card { padding: 17px; }
+  :root[data-density="compact"] .palace { padding: 10px; }
+  :root[data-density="compact"] .numerology-grids { gap: 6px; }
+  :root[data-density="compact"] .numerology-grids > article { padding: 9px 6px; }
+  :root[data-density="compact"] .modal-body { padding-top: 18px; }
+
+  .presentation-choice { min-width: 0; border: 0; padding: 0; margin: 18px 0; }
+  .presentation-choice legend { padding: 0; font-size: 13px; font-weight: 600; color: #526a45; }
+  .presentation-options { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin-top: 10px; }
+  .presentation-options > label { display: flex; align-items: flex-start; gap: 9px; padding: 12px; border: 1px solid #dce5d3; border-radius: 6px; cursor: pointer; }
+  .presentation-options > label:has(input:checked) { background: #f0f5e9; border-color: #8da579; }
+  .presentation-options input[type="radio"] { width: 16px; height: 16px; min-height: 16px; padding: 0; margin: 3px 0 0; flex-shrink: 0; accent-color: #416b3c; }
+  .presentation-options span { min-width: 0; font-size: 13px; color: #4e6841; }
+  .presentation-options small { display: block; margin-top: 4px; font-size: 12px; color: #67775d; line-height: 1.7; }
+  .presentation-notice { min-height: 2em; font-size: 12px; color: #68775d; overflow-wrap: anywhere; }
+  .shortcut-list { margin: 0; }
+  .shortcut-list > div { display: grid; grid-template-columns: minmax(190px, 1fr) minmax(0, 1.3fr); align-items: start; gap: 16px; padding: 16px 0; border-bottom: 1px solid #e5ebde; }
+  .shortcut-list dt { font-size: 13px; color: #53694a; }
+  .shortcut-list dd { margin: 0; font-size: 13px; color: #5b6f50; line-height: 1.8; }
+  kbd { font: 12px ui-monospace, "Microsoft YaHei", monospace; padding: 3px 6px; border: 1px solid #d4ddca; border-bottom-width: 2px; border-radius: 4px; background: #f6f8f1; white-space: nowrap; }
+  .shortcut-help-note { margin-top: 18px; font-size: 12px; color: #68795e; line-height: 1.9; }
+  :root[data-font-size="large"] .presentation-options span,
+  :root[data-font-size="large"] .presentation-choice legend,
+  :root[data-font-size="large"] .shortcut-list dd { font-size: 15px; }
+  :root[data-font-size="large"] .presentation-options small,
+  :root[data-font-size="large"] .presentation-notice,
+  :root[data-font-size="large"] .shortcut-help-note { font-size: 13px; }
+}
+@media screen and (max-width: 520px) {
+  .presentation-options { grid-template-columns: 1fr; gap: 8px; }
+  .shortcut-list > div { grid-template-columns: 1fr; gap: 10px; }
+}

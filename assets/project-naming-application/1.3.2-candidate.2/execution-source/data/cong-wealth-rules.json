@@ -1,0 +1,407 @@
+{
+  "version": "qiongtong-2294674-monthly-cong-wealth/1.0.0",
+  "sourceId": "bazi-cong-wealth-qiongtong-2294674",
+  "title": "穷通宝鉴固定版月别从财结构证据",
+  "source": {
+    "title": "穷通宝鉴",
+    "pageId": 1057030,
+    "revisionId": 2294674,
+    "revisionTimestamp": "2023-06-14T13:49:39Z",
+    "url": "https://zh.wikisource.org/w/index.php?title=穷通宝鉴&oldid=2294674",
+    "permalink": "https://zh.wikisource.org/w/index.php?oldid=2294674",
+    "contributorHistory": "https://zh.wikisource.org/w/index.php?title=%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4&action=history",
+    "rawSha256": "8ba17242f116583de2e10172e006f5ce5f74b23ccfc0bd24b886be135e9f20bd",
+    "rawCharacters": 36746,
+    "license": "Wikisource transcription CC-BY-SA-4.0; no claim of independent scanned-edition or public-domain-chain verification",
+    "scanCollation": false,
+    "sourceVersionType": "fixed-electronic-transcription"
+  },
+  "rules": [
+    {
+      "id": "jia-chen-monthly-cong-wealth",
+      "name": "甲日辰月原句从财路径",
+      "kind": "cong-wealth",
+      "sourceId": "bazi-cong-wealth-qiongtong-2294674",
+      "applicability": {
+        "dayStems": [
+          "甲"
+        ],
+        "monthBranches": [
+          "辰"
+        ]
+      },
+      "candidatePolicy": "pending-unimplemented-necessary",
+      "sourceQuote": "或柱中全无一水，戊己透干，支成土局，又作弃命从才，因人而致富贵，妻子有能。",
+      "sourceSpan": {
+        "start": 2271,
+        "end": 2308,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;codepoint[2271,2308)",
+      "criteria": [
+        {
+          "id": "jia-chen-no-water-exposed",
+          "label": "明干未见水（全无水的必要子集）",
+          "role": "necessary",
+          "sourceText": "柱中全无一水",
+          "predicate": {
+            "kind": "element",
+            "element": "水",
+            "scope": "exposed",
+            "includeDayMaster": false,
+            "present": false
+          },
+          "unresolved": [],
+          "name": "明干未见水（全无水的必要子集）",
+          "sourceQuote": "柱中全无一水",
+          "sourceLocator": "oldid=2294674;codepoint[2271,2308)",
+          "scope": "仅明干水，作为全无水的必要子集，不判藏干库气"
+        },
+        {
+          "id": "jia-chen-water-hidden-scope",
+          "label": "柱中无水对藏干库水的作用范围",
+          "role": "necessary",
+          "sourceText": "柱中全无一水",
+          "unresolved": [
+            "辰月所选藏干表必含癸，但原文仍列本条路径，说明库中水是否计入原句有效水不能无证据等同。",
+            "不自动把藏干存在转换成此句反证；水的实际位置可阅读，藏干作用范围待核。"
+          ],
+          "name": "柱中无水对藏干库水的作用范围",
+          "sourceQuote": "柱中全无一水",
+          "sourceLocator": "oldid=2294674;codepoint[2271,2308)",
+          "scope": "原文作用范围或操作取法未核，不作真假判断"
+        },
+        {
+          "id": "jia-chen-earth-exposed",
+          "label": "戊己透干的原句范围",
+          "role": "necessary",
+          "sourceText": "戊己透干",
+          "unresolved": [
+            "戊己并称可表示土类，也可作戊、己两干；本版不擅定必须二者均透或任一透。"
+          ],
+          "name": "戊己透干的原句范围",
+          "sourceQuote": "戊己透干",
+          "sourceLocator": "oldid=2294674;codepoint[2271,2308)",
+          "scope": "原文作用范围或操作取法未核，不作真假判断"
+        },
+        {
+          "id": "jia-chen-earth-configuration",
+          "label": "支成土局",
+          "role": "necessary",
+          "sourceText": "支成土局",
+          "unresolved": [
+            "原文未在本句给出成土局的完整取法；不把四库齐全或任意土支数量自定为充分条件。"
+          ],
+          "name": "支成土局",
+          "sourceQuote": "支成土局",
+          "sourceLocator": "oldid=2294674;codepoint[2271,2308)",
+          "scope": "原文作用范围或操作取法未核，不作真假判断"
+        }
+      ],
+      "supportedMeaning": "明干无水只核全无水的必要子集；藏干作用域、戊己并称和土局取法仍未核，不能机械排除全部真实辰月。",
+      "unresolved": [
+        "本句是甲辰月别取从财的一个条件路径，不是所有从财的普遍定义。",
+        "辰月藏癸是所选电子藏干表事实，不直接等于本句水有效或破格。",
+        "原句后续富贵等历史断语不实施。"
+      ],
+      "pattern": "cong-cai"
+    },
+    {
+      "id": "yi-午-monthly-cong-wealth",
+      "name": "乙日午月原句从财结构候选",
+      "kind": "cong-wealth",
+      "sourceId": "bazi-cong-wealth-qiongtong-2294674",
+      "applicability": {
+        "dayStems": [
+          "乙"
+        ],
+        "monthBranches": [
+          "午"
+        ]
+      },
+      "candidatePolicy": "structure-only-eligible",
+      "sourceQuote": "或柱中无水，又无比劫出干﹐乃为弃命从才，富大贵小，能招贤德之妻。从才格以火为妻，土为子。",
+      "sourceSpan": {
+        "start": 6695,
+        "end": 6739,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;codepoint[6695,6739)",
+      "context": [
+        {
+          "sourceQuote": "凡五六月乙木，气退枯焦，用癸水切忌戊己杂乱，则为下格。或甲木高透，制伏土神名为去浊留清，可许俊秀。土多乏甲秀气脱空，庸人而已。",
+          "sourceSpan": {
+            "start": 6586,
+            "end": 6649,
+            "unit": "unicode-codepoint",
+            "interval": "[start,end)"
+          },
+          "sourceLocator": "oldid=2294674;codepoint[6586,6649)"
+        },
+        {
+          "sourceQuote": "或一派戊土出干，不见比肩，名为才多身弱，终为富屋贫人。",
+          "sourceSpan": {
+            "start": 6741,
+            "end": 6768,
+            "unit": "unicode-codepoint",
+            "interval": "[start,end)"
+          },
+          "sourceLocator": "oldid=2294674;codepoint[6741,6768)"
+        }
+      ],
+      "criteria": [
+        {
+          "id": "yi-午-no-water",
+          "label": "全局未见水",
+          "role": "necessary",
+          "sourceText": "柱中无水",
+          "predicate": {
+            "kind": "element",
+            "element": "水",
+            "scope": "any",
+            "includeDayMaster": false,
+            "present": false
+          },
+          "unresolved": [],
+          "name": "全局未见水",
+          "sourceQuote": "柱中无水",
+          "sourceLocator": "oldid=2294674;codepoint[6695,6739)",
+          "scope": "本产品限定字面口径：明干与所选藏干表，非原典唯一有效气范围"
+        },
+        {
+          "id": "yi-午-no-peer-exposed",
+          "label": "非日干明干无比劫",
+          "role": "necessary",
+          "sourceText": "又无比劫出干",
+          "predicate": {
+            "kind": "all",
+            "items": [
+              {
+                "kind": "stem",
+                "stem": "甲",
+                "scope": "exposed",
+                "includeDayMaster": false,
+                "present": false
+              },
+              {
+                "kind": "stem",
+                "stem": "乙",
+                "scope": "exposed",
+                "includeDayMaster": false,
+                "present": false
+              }
+            ]
+          },
+          "unresolved": [],
+          "name": "非日干明干无比劫",
+          "sourceQuote": "又无比劫出干",
+          "sourceLocator": "oldid=2294674;codepoint[6695,6739)",
+          "scope": "仅非日主位置的明确明干；不把藏干等同出干"
+        }
+      ],
+      "supportedMeaning": "四柱完整且本产品限定字面存在口径下两结构前提均符时，只列人工结构候选；该口径不是原典唯一作用范围，不称从财成立。",
+      "unresolved": [
+        "本产品对乙夏无水只作明干加所选藏干表的字面存在核对；库气是否有效、原文无水是否采用相同范围尚未证明。",
+        "同段五六月气退枯焦、土多等季节与旺衰解释未量化；不得把这些解释自动阈值化。",
+        "邻近又称一派戊土出干不见比肩为财多身弱，说明单凭无比肩不能跨句推成从财。",
+        "没有把藏干出现比劫自动判作本句出干条件的破格，也没有证明所有从财流派容许该藏根。",
+        "本句候选仅是人工复核入口，不输出唯一格局、喜用或命运；原文后果不实施。"
+      ],
+      "pattern": "cong-cai"
+    },
+    {
+      "id": "yi-未-monthly-cong-wealth",
+      "name": "乙日未月原句从财结构候选",
+      "kind": "cong-wealth",
+      "sourceId": "bazi-cong-wealth-qiongtong-2294674",
+      "applicability": {
+        "dayStems": [
+          "乙"
+        ],
+        "monthBranches": [
+          "未"
+        ]
+      },
+      "candidatePolicy": "structure-only-eligible",
+      "sourceQuote": "或柱中无水，又无比劫出干﹐乃为弃命从才，富大贵小，能招贤德之妻。从才格以火为妻，土为子。",
+      "sourceSpan": {
+        "start": 6695,
+        "end": 6739,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;codepoint[6695,6739)",
+      "context": [
+        {
+          "sourceQuote": "凡五六月乙木，气退枯焦，用癸水切忌戊己杂乱，则为下格。或甲木高透，制伏土神名为去浊留清，可许俊秀。土多乏甲秀气脱空，庸人而已。",
+          "sourceSpan": {
+            "start": 6586,
+            "end": 6649,
+            "unit": "unicode-codepoint",
+            "interval": "[start,end)"
+          },
+          "sourceLocator": "oldid=2294674;codepoint[6586,6649)"
+        },
+        {
+          "sourceQuote": "或一派戊土出干，不见比肩，名为才多身弱，终为富屋贫人。",
+          "sourceSpan": {
+            "start": 6741,
+            "end": 6768,
+            "unit": "unicode-codepoint",
+            "interval": "[start,end)"
+          },
+          "sourceLocator": "oldid=2294674;codepoint[6741,6768)"
+        }
+      ],
+      "criteria": [
+        {
+          "id": "yi-未-no-water",
+          "label": "全局未见水",
+          "role": "necessary",
+          "sourceText": "柱中无水",
+          "predicate": {
+            "kind": "element",
+            "element": "水",
+            "scope": "any",
+            "includeDayMaster": false,
+            "present": false
+          },
+          "unresolved": [],
+          "name": "全局未见水",
+          "sourceQuote": "柱中无水",
+          "sourceLocator": "oldid=2294674;codepoint[6695,6739)",
+          "scope": "本产品限定字面口径：明干与所选藏干表，非原典唯一有效气范围"
+        },
+        {
+          "id": "yi-未-no-peer-exposed",
+          "label": "非日干明干无比劫",
+          "role": "necessary",
+          "sourceText": "又无比劫出干",
+          "predicate": {
+            "kind": "all",
+            "items": [
+              {
+                "kind": "stem",
+                "stem": "甲",
+                "scope": "exposed",
+                "includeDayMaster": false,
+                "present": false
+              },
+              {
+                "kind": "stem",
+                "stem": "乙",
+                "scope": "exposed",
+                "includeDayMaster": false,
+                "present": false
+              }
+            ]
+          },
+          "unresolved": [],
+          "name": "非日干明干无比劫",
+          "sourceQuote": "又无比劫出干",
+          "sourceLocator": "oldid=2294674;codepoint[6695,6739)",
+          "scope": "仅非日主位置的明确明干；不把藏干等同出干"
+        }
+      ],
+      "supportedMeaning": "四柱完整且本产品限定字面存在口径下两结构前提均符时，只列人工结构候选；该口径不是原典唯一作用范围，不称从财成立。",
+      "unresolved": [
+        "本产品对乙夏无水只作明干加所选藏干表的字面存在核对；库气是否有效、原文无水是否采用相同范围尚未证明。",
+        "同段五六月气退枯焦、土多等季节与旺衰解释未量化；不得把这些解释自动阈值化。",
+        "邻近又称一派戊土出干不见比肩为财多身弱，说明单凭无比肩不能跨句推成从财。",
+        "没有把藏干出现比劫自动判作本句出干条件的破格，也没有证明所有从财流派容许该藏根。",
+        "本句候选仅是人工复核入口，不输出唯一格局、喜用或命运；原文后果不实施。"
+      ],
+      "pattern": "cong-cai"
+    },
+    {
+      "id": "geng-mao-monthly-cong-wealth",
+      "name": "庚日卯月原句从财路径",
+      "kind": "cong-wealth",
+      "sourceId": "bazi-cong-wealth-qiongtong-2294674",
+      "applicability": {
+        "dayStems": [
+          "庚"
+        ],
+        "monthBranches": [
+          "卯"
+        ]
+      },
+      "candidatePolicy": "pending-unimplemented-necessary",
+      "sourceQuote": "或一片甲乙，忌庚出干破才，乃从才格，反主富贵。若见一比，又主孤贫。",
+      "sourceSpan": {
+        "start": 23322,
+        "end": 23355,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;codepoint[23322,23355)",
+      "criteria": [
+        {
+          "id": "geng-mao-wood-dominance",
+          "label": "一片甲乙",
+          "role": "necessary",
+          "sourceText": "一片甲乙",
+          "unresolved": [
+            "一片的范围和气势判定没有明确数值标准，不能以甲乙占比阈值替代。"
+          ],
+          "name": "一片甲乙",
+          "sourceQuote": "一片甲乙",
+          "sourceLocator": "oldid=2294674;codepoint[23322,23355)",
+          "scope": "原文作用范围或操作取法未核，不作真假判断"
+        },
+        {
+          "id": "geng-mao-no-extra-geng",
+          "label": "不见辅助庚出干破财",
+          "role": "necessary",
+          "sourceText": "忌庚出干破才",
+          "predicate": {
+            "kind": "stem",
+            "stem": "庚",
+            "scope": "exposed",
+            "includeDayMaster": false,
+            "present": false
+          },
+          "unresolved": [],
+          "name": "不见辅助庚出干破财",
+          "sourceQuote": "忌庚出干破才",
+          "sourceLocator": "oldid=2294674;codepoint[23322,23355)",
+          "scope": "仅非日主位置的明确明干；不把藏干等同出干"
+        },
+        {
+          "id": "geng-mao-one-peer",
+          "label": "若见一比",
+          "role": "exception",
+          "sourceText": "若见一比",
+          "unresolved": [
+            "一比的明干／藏干作用域未在此句明确，不擅自推广为任一同类根均破格。"
+          ],
+          "name": "若见一比",
+          "sourceQuote": "若见一比",
+          "sourceLocator": "oldid=2294674;codepoint[23322,23355)",
+          "scope": "原文作用范围或操作取法未核，不作真假判断"
+        }
+      ],
+      "supportedMeaning": "额外庚明干出现时与本句忌庚前提相反；不代表否定所有从财。",
+      "unresolved": [
+        "日主自身庚不计作额外出干，否则本句永远自相矛盾；此项范围有明确说明。",
+        "原句一片甲乙与一比的其他作用域未决，保持人工复核；不借从化、假从或其他书规则补足。"
+      ],
+      "pattern": "cong-cai"
+    }
+  ],
+  "contract": {
+    "scope": "只对甲辰、乙午、乙未、庚卯四条本版月别路径核对，不等于完整从财法。",
+    "status": "必要事实明确不符可报本条路径不符；完整结构事实满足可列structure-only候选；未实现必要仍pending；资料缺柱未见保留unknown。",
+    "noFate": "原句富贵、性格、妻子或命运等断语仅为历史引用，不转成产品结论。",
+    "notUniversal": "某一月别路径反证不是所有从财流派的否定；从杀、从儿、从旺、从强化另行源包，不混入。",
+    "missing": "不从缺水直接推喜用水，也不把某类数量简单等同旺弱，不改变五行计数或姓名排序。"
+  },
+  "limitations": [
+    "从财候选识别与最终格局裁决区分；本包没有实现旺度、成局、制化、真假从以及运程。",
+    "乙夏原句具直接结构表述，但本包只做可复核候选，不把两事实当所有从财成立的充分法门。",
+    "其余经典如滴天髓阐微允许根气、印比无力或被制的特例，仍属另一阅读体系，本包未引入裁决。",
+    "固定电子转录未独立校勘影印原页或完整公版权利链，按CC BY-SA4.0保留署名。"
+  ]
+}

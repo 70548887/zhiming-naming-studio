@@ -1,0 +1,79 @@
+{
+  "schema": "m744-data-execution-ledger/1",
+  "skillsRead": [
+    {
+      "path": "C:/Users/Administrator/.agents/skills/canvas/SKILL.md",
+      "applied": false,
+      "reason": "Specific sealed data-audit deliverable in active development; no separate Canvas artifact."
+    }
+  ],
+  "productWrites": 0,
+  "candidateWrites": 0,
+  "newCandidates": 0,
+  "oldFullTestsRerun": false,
+  "commands": [
+    {
+      "chunk": "0eea40",
+      "purpose": "candidate directory and focused artifact inventory"
+    },
+    {
+      "chunk": "458d76",
+      "purpose": "fixed manifests/contract/source-lock/selection/NOTICE read; large arrays thereafter summarized"
+    },
+    {
+      "chunk": "139665",
+      "purpose": "profile/coverage/row schema extraction"
+    },
+    {
+      "chunk": "8c98bf",
+      "purpose": "fixed license/attribution originals,14-test receipt and validator boundary locators"
+    },
+    {
+      "chunk": "c033fa",
+      "purpose": "independent21 delivery/28 source hash andJSONL10 row equality check"
+    },
+    {
+      "chunk": "9e43f0",
+      "purpose": "independent semantic/coverage audit result intake"
+    },
+    {
+      "chunk": "5e64be",
+      "purpose": "compact per-row conditions and coverage counts"
+    },
+    {
+      "chunk": "ed8278",
+      "purpose": "audit artifact inventory"
+    },
+    {
+      "chunk": "34dd36",
+      "purpose": "B-group final decisions and retained history"
+    }
+  ],
+  "webCrossCheck": {
+    "attempted": true,
+    "usableRetrievedEvidence": false,
+    "usedForDecision": false,
+    "scope": "Decisions use pinned local source documents; no unseen web content was treated as verified."
+  },
+  "independentReviews": [
+    {
+      "agent": "/root/m744_rows_a",
+      "scope": "邦沫纪纶年",
+      "model": "gpt-6-astra",
+      "effort": "ultra"
+    },
+    {
+      "agent": "/root/m744_rows_b",
+      "scope": "农作岁叶萧",
+      "model": "gpt-6-astra",
+      "effort": "ultra"
+    },
+    {
+      "agent": "/root/m744_coverage_integrity",
+      "scope": "current coverage sets, old occupancy, corrupt/missing source verification",
+      "model": "gpt-6-astra",
+      "effort": "ultra"
+    }
+  ],
+  "sealedAt": "2026-10-25T07:44:17.372Z"
+}

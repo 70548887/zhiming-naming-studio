@@ -1,0 +1,19 @@
+{
+  "schemaVersion": "m754-element-imagery-editorial/1.0.0",
+  "authorId": "M754-DATA",
+  "license": "CC0-1.0",
+  "authority": "project-convention",
+  "claim": "辞书事实、项目原创命名取意与五类意象约定分别保存；本包不建立传统汉字唯一五行。",
+  "rows": [
+    {"char":"枫","defaultPinyin":"fēng","word":"楓","entryIndex":77587,"readingIndex":0,"definitionIndex":0,"objectClass":"tree","element":"木","scope":"default-reading-direct-object","themeId":null,"namingIntent":"取树木舒展、叶色鲜明的自然画面。","condition":"只涵盖固定默认读音所指的枫树；叶红的颜色不另生火标签。","ambiguity":"简体枫通过固定Unicode直接双向变体原行对应楓；不是同音替换。"},
+    {"char":"卉","defaultPinyin":"huì","word":"卉","entryIndex":23092,"readingIndex":0,"definitionIndex":0,"objectClass":"plant","element":"木","scope":"default-reading-direct-object","themeId":null,"namingIntent":"取花草生长、百卉相映的画面。","condition":"采用草类植物总称，未赋予特定花种或疗效。","ambiguity":"固定默认读音只有植物总称这一实质义；原创取意不是辞书原句。"},
+    {"char":"麓","defaultPinyin":"lù","word":"麓","entryIndex":161127,"readingIndex":0,"definitionIndex":0,"objectClass":"landform","element":"土","scope":"default-reading-direct-object","themeId":null,"namingIntent":"取山脚安稳、山林相接的地形画面。","condition":"采用山脚地形；不因含林字形而映射木。","ambiguity":"固定默认读音只有山脚义；地形归土为本项目约定。"},
+    {"char":"菘","defaultPinyin":"sōng","word":"菘","entryIndex":123575,"readingIndex":0,"definitionIndex":0,"objectClass":"plant","element":"木","scope":"default-reading-direct-object","themeId":null,"namingIntent":"取草本生长、田园清新的画面。","condition":"采用词典所列草本植物，不扩大成全部蔬菜或药效。","ambiguity":"固定默认读音只有植物义；同音松不参与判断。"},
+    {"char":"珉","defaultPinyin":"mín","word":"珉","entryIndex":96309,"readingIndex":0,"definitionIndex":0,"objectClass":"stone","element":"土","scope":"default-reading-direct-object","themeId":null,"namingIntent":"取美石温润、质朴有光的画面。","condition":"采用似玉美石的材料义；不宣称珉就是玉或金属。","ambiguity":"固定默认读音只有美石义；玉旁不作为标签证据。"},
+    {"char":"川","defaultPinyin":"chuān","word":"川","entryIndex":47214,"readingIndex":0,"definitionIndex":0,"objectClass":"river","element":"水","scope":"explicit-naming-theme","themeId":"river-object","namingIntent":"取河流延展、清流向前的自然画面。","condition":"生成请求必须明确选择river-object主题；四川简称和烹饪方法不采用。","ambiguity":"默认读音另有省名简称及烹饪动作义；仅字形不足以判定姓名取义。"},
+    {"char":"石","defaultPinyin":"shí","word":"石","entryIndex":104223,"readingIndex":0,"definitionIndex":0,"objectClass":"stone","element":"土","scope":"explicit-naming-theme","themeId":"mineral-stone-object","namingIntent":"取岩石坚实、自然成质的画面。","condition":"生成请求必须明确选择mineral-stone-object主题；不采用姓氏、部首、量词或药石泛称。","ambiguity":"shí另有碑碣、药石、姓氏等义；dàn量词读音完全不采用。"},
+    {"char":"枝","defaultPinyin":"zhī","word":"枝","entryIndex":75727,"readingIndex":0,"definitionIndex":0,"objectClass":"plant-part","element":"木","scope":"explicit-naming-theme","themeId":"tree-branch-object","namingIntent":"取树枝向外舒展、生长相续的画面。","condition":"生成请求必须明确选择tree-branch-object主题；量词、支系、肢体及姓氏义不采用。","ambiguity":"默认读音有非植物义，另有qí读音；不从木旁或同音推定。"},
+    {"char":"棉","defaultPinyin":"mián","word":"棉","entryIndex":77186,"readingIndex":0,"definitionIndex":0,"objectClass":"plant","element":"木","scope":"explicit-naming-theme","themeId":"cotton-plant-object","namingIntent":"取棉类植物自然生长、柔和清新的画面。","condition":"生成请求必须明确选择cotton-plant-object主题；只用木棉和草棉植物统称义。","ambiguity":"默认读音另有棉絮制品性质和微薄义；不自动把衣物或形容词归木。"},
+    {"char":"蕤","defaultPinyin":"ruí","word":"蕤","entryIndex":125341,"readingIndex":0,"definitionIndex":1,"objectClass":"plant-part","element":"木","scope":"explicit-naming-theme","themeId":"hanging-flower-object","namingIntent":"取花朵垂结、芳华自然舒展的画面。","condition":"生成请求必须明确选择hanging-flower-object主题；只采用草木所垂结的花这个名词义。","ambiguity":"首义为下垂样子，另有帽饰及参见义；本条不按首义或艹旁自动映射。"}
+  ]
+}

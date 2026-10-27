@@ -1,0 +1,1684 @@
+{
+  "version": "naming-editorial-character-corrections/6.0.0",
+  "baseDatasetSha256": "0799bd0b5088bb99f3ab34ac02340fbcfc5a8a4072cee46caa41ab963b1d56af",
+  "targetDataVersion": "2026.10.20.2",
+  "scope": "九字原word身份纠正；不扩779字、不改默认拼音/声调/Unicode variants；其余770字与27+44姓名规则不改。",
+  "overrides": [
+    {
+      "char": "才",
+      "before": {
+        "char": "才",
+        "pinyin": "cái",
+        "tone": 2,
+        "meaning": "方、始、剛剛。；僅、只。",
+        "traditional": "纔",
+        "strokes": 3,
+        "radical": "手",
+        "elements": [],
+        "elementBasis": "五行属性待起名师指定；不从普通笔画数推定五行",
+        "tags": [
+          "常用命名字候选"
+        ],
+        "warning": "繁体对应“纔”，简繁与异体须按户籍用字确认。 Unicode 记有多个简繁对应：才、纔，请按实际字义确认。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "cái",
+            "tone": 2,
+            "meanings": [
+              "方、始、剛剛。",
+              "僅、只。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "纔"
+          }
+        ],
+        "polyphonic": false,
+        "variants": [
+          "才",
+          "纔"
+        ]
+      },
+      "after": {
+        "char": "才",
+        "pinyin": "cái",
+        "tone": 2,
+        "meaning": "天賦的能力、稟性。；力量、智慧。；有才能、智慧的人。",
+        "traditional": "才",
+        "strokes": 3,
+        "radical": "手",
+        "elements": [],
+        "elementBasis": "五行属性待起名师指定；不从普通笔画数推定五行",
+        "tags": [
+          "常用命名字候选"
+        ],
+        "warning": "本条字义对应原词条“才”；Unicode 简繁与异体对应保留，请按实际字义确认。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "cái",
+            "tone": 2,
+            "meanings": [
+              "天賦的能力、稟性。",
+              "力量、智慧。",
+              "有才能、智慧的人。",
+              "諷稱某類的人。",
+              "姓。如明代有才寬。",
+              "方、始。",
+              "僅。",
+              "表示強調的語氣。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "才"
+          }
+        ],
+        "polyphonic": false,
+        "variants": [
+          "才",
+          "纔"
+        ]
+      },
+      "allowedChangedFields": [
+        "meaning",
+        "traditional",
+        "readings",
+        "polyphonic",
+        "warning"
+      ],
+      "review": {
+        "rationale": "原默认借纔的时间/限制副词；改选本字才的完整原条，默认cái不变，不泛授才华等项目标签。",
+        "defaultPinyinUnchanged": true,
+        "allHeteronymsPreserved": true,
+        "standaloneProjectApproval": false
+      },
+      "sourceEvidence": {
+        "rawSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "beforeDictionaryWord": "纔",
+        "beforeRawEntryIndex": 114611,
+        "beforeEntry": {
+          "heteronyms": [
+            {
+              "bopomofo": "ㄘㄞˊ",
+              "definitions": [
+                {
+                  "def": "方、始、剛剛。",
+                  "quote": [
+                    "《漢書．卷四九．鼂錯傳》：「救之，少發則不足，多發，遠縣纔至，則胡又已去。」",
+                    "唐．魚玄機〈閨怨〉詩：「別日南鴻纔北去，今朝北雁又南飛。」"
+                  ],
+                  "type": "副"
+                },
+                {
+                  "def": "僅、只。",
+                  "quote": [
+                    "《漢書．卷五一．賈山傳》：「然身死纔數月耳，天下四面而攻之，宗廟滅 絕矣。」",
+                    "元．關漢卿《竇娥冤．第四折》：「至十七歲與夫配合，纔得兩年，不幸兒夫亡化。」"
+                  ],
+                  "type": "副"
+                }
+              ],
+              "pinyin": "cái"
+            }
+          ],
+          "non_radical_stroke_count": 17,
+          "radical": "糸",
+          "stroke_count": 23,
+          "title": "纔"
+        },
+        "afterRawEntryIndex": 58303,
+        "afterEntry": {
+          "heteronyms": [
+            {
+              "bopomofo": "ㄘㄞˊ",
+              "definitions": [
+                {
+                  "def": "天賦的能力、稟性。",
+                  "quote": [
+                    "《孟子．告子上》：「富歲子弟多賴，凶歲子弟多暴，非天之降才爾殊也。」"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "力量、智慧。",
+                  "link": [
+                    "通「材」。"
+                  ],
+                  "quote": [
+                    "《詩經．魯頌．駉》：「思無期，思馬斯才。」",
+                    "漢．王充《論衡．實知》：「人才有高下，知物由學，學之乃知，不問不識。」"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "有才能、智慧的人。",
+                  "example": [
+                    "如：「天才」、「英才」、「幹才」。"
+                  ],
+                  "quote": [
+                    "《孟子．離婁下》：「中也養不中，才也養不才。」",
+                    "《禮記．文王世子》：「凡語于郊者，必取賢斂才焉。」"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "諷稱某類的人。",
+                  "example": [
+                    "如：「蠢才」、「奴才」。"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "姓。如明代有才寬。",
+                  "type": "名"
+                },
+                {
+                  "def": "方、始。",
+                  "example": [
+                    "如：「剛才」、「方才」、「戲才開鑼」、「呆了半晌，我才會意過來。」"
+                  ],
+                  "quote": [
+                    "《晉書．卷七九．謝安傳》：「才小富貴，便豫人家事。」"
+                  ],
+                  "type": "副"
+                },
+                {
+                  "def": "僅。",
+                  "example": [
+                    "如：「他今年才五歲。」、「我身上才帶五塊錢。」"
+                  ],
+                  "type": "副"
+                },
+                {
+                  "def": "表示強調的語氣。",
+                  "example": [
+                    "如：「我才不幹呢！」、「他哪有累？我才累呢！」"
+                  ],
+                  "type": "副"
+                }
+              ],
+              "pinyin": "cái"
+            }
+          ],
+          "non_radical_stroke_count": 0,
+          "radical": "手",
+          "stroke_count": 3,
+          "title": "才"
+        }
+      }
+    },
+    {
+      "char": "冬",
+      "before": {
+        "char": "冬",
+        "pinyin": "dōng",
+        "tone": 1,
+        "meaning": "形容敲鼓、敲門等的聲音。",
+        "traditional": "鼕",
+        "strokes": 5,
+        "radical": "冫",
+        "elements": [
+          "水"
+        ],
+        "elementBasis": "字形／字义意象参考 v1（项目自编标签，非唯一汉字五行定论；不得当作康熙笔画五行）",
+        "tags": [
+          "常用命名字候选"
+        ],
+        "warning": "繁体对应“鼕”，简繁与异体须按户籍用字确认。 Unicode 记有多个简繁对应：冬、鼕，请按实际字义确认。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "dōng",
+            "tone": 1,
+            "meanings": [
+              "形容敲鼓、敲門等的聲音。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "鼕"
+          }
+        ],
+        "polyphonic": false,
+        "variants": [
+          "冬",
+          "鼕"
+        ]
+      },
+      "after": {
+        "char": "冬",
+        "pinyin": "dōng",
+        "tone": 1,
+        "meaning": "一年四季中的最後一季。農曆指立冬至立春的時期，一般而言氣溫較低。若以北半球氣候論，概指十一月或十二月至翌年的二月或三月期間。；閩南方言。代表一年的時間。；姓。如三國時有冬逢。",
+        "traditional": "冬",
+        "strokes": 5,
+        "radical": "冫",
+        "elements": [
+          "水"
+        ],
+        "elementBasis": "字形／字义意象参考 v1（项目自编标签，非唯一汉字五行定论；不得当作康熙笔画五行）",
+        "tags": [
+          "常用命名字候选"
+        ],
+        "warning": "本条字义对应原词条“冬”；Unicode 简繁与异体对应保留，请按实际字义确认。 “坚韧”为项目原创季节类比，非字典原义。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "dōng",
+            "tone": 1,
+            "meanings": [
+              "一年四季中的最後一季。農曆指立冬至立春的時期，一般而言氣溫較低。若以北半球氣候論，概指十一月或十二月至翌年的二月或三月期間。",
+              "閩南方言。代表一年的時間。",
+              "姓。如三國時有冬逢。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "冬"
+          }
+        ],
+        "polyphonic": false,
+        "variants": [
+          "冬",
+          "鼕"
+        ]
+      },
+      "allowedChangedFields": [
+        "meaning",
+        "traditional",
+        "readings",
+        "polyphonic",
+        "warning"
+      ],
+      "review": {
+        "rationale": "原默认借鼕的拟声义；改选季节本字冬，坚韧只在独立项目季节类比中批准。",
+        "defaultPinyinUnchanged": true,
+        "allHeteronymsPreserved": true,
+        "standaloneProjectApproval": false
+      },
+      "sourceEvidence": {
+        "rawSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "beforeDictionaryWord": "鼕",
+        "beforeRawEntryIndex": 162382,
+        "beforeEntry": {
+          "heteronyms": [
+            {
+              "bopomofo": "ㄉㄨㄥ",
+              "definitions": [
+                {
+                  "def": "形容敲鼓、敲門等的聲音。",
+                  "example": [
+                    "如：「鼓聲鼕鼕」、「鼕鼕鼕……，一陣急促的敲門聲，驚醒了屋內熟睡的人們。」"
+                  ],
+                  "quote": [
+                    "唐．劉禹錫〈同白二十二贈王山人〉詩：「笑聽鼕鼕朝暮鼓，只能催得市朝人。」"
+                  ],
+                  "type": "狀"
+                }
+              ],
+              "pinyin": "dōng"
+            }
+          ],
+          "non_radical_stroke_count": 5,
+          "radical": "鼓",
+          "stroke_count": 18,
+          "title": "鼕"
+        },
+        "afterRawEntryIndex": 17795,
+        "afterEntry": {
+          "heteronyms": [
+            {
+              "bopomofo": "ㄉㄨㄥ",
+              "definitions": [
+                {
+                  "def": "一年四季中的最後一季。農曆指立冬至立春的時期，一般而言氣溫較低。若以北半球氣候論，概指十一月或十二月至翌年的二月或三月期間。",
+                  "example": [
+                    "如：「寒冬」、「殘冬」、「冬天」。"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "閩南方言。代表一年的時間。",
+                  "example": [
+                    "如：「兩冬」、「三冬」。"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "姓。如三國時有冬逢。",
+                  "type": "名"
+                }
+              ],
+              "pinyin": "dōng"
+            }
+          ],
+          "non_radical_stroke_count": 3,
+          "radical": "冫",
+          "stroke_count": 5,
+          "title": "冬"
+        }
+      }
+    },
+    {
+      "char": "千",
+      "before": {
+        "char": "千",
+        "pinyin": "qiān",
+        "tone": 1,
+        "meaning": "參見「鞦韆」條。",
+        "traditional": "韆",
+        "strokes": 3,
+        "radical": "十",
+        "elements": [],
+        "elementBasis": "五行属性待起名师指定；不从普通笔画数推定五行",
+        "tags": [
+          "常用命名字候选"
+        ],
+        "warning": "繁体对应“韆”，简繁与异体须按户籍用字确认。 Unicode 记有多个简繁对应：千、韆，请按实际字义确认。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "qiān",
+            "tone": 1,
+            "meanings": [
+              "參見「鞦韆」條。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "韆"
+          }
+        ],
+        "polyphonic": false,
+        "variants": [
+          "千",
+          "韆",
+          "𱁶"
+        ]
+      },
+      "after": {
+        "char": "千",
+        "pinyin": "qiān",
+        "tone": 1,
+        "meaning": "數目字。十的百倍。《說文解字．十部》：「千，十百也。」大寫作「仟」。；姓。如漢代有千獻。；眾多。",
+        "traditional": "千",
+        "strokes": 3,
+        "radical": "十",
+        "elements": [],
+        "elementBasis": "五行属性待起名师指定；不从普通笔画数推定五行",
+        "tags": [
+          "常用命名字候选"
+        ],
+        "warning": "本条字义对应原词条“千”；Unicode 简繁与异体对应保留，请按实际字义确认。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "qiān",
+            "tone": 1,
+            "meanings": [
+              "數目字。十的百倍。《說文解字．十部》：「千，十百也。」大寫作「仟」。",
+              "姓。如漢代有千獻。",
+              "眾多。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "千"
+          }
+        ],
+        "polyphonic": false,
+        "variants": [
+          "千",
+          "韆",
+          "𱁶"
+        ]
+      },
+      "allowedChangedFields": [
+        "meaning",
+        "traditional",
+        "readings",
+        "polyphonic",
+        "warning"
+      ],
+      "review": {
+        "rationale": "原默认借韆的鞦韆参见；改选本字千的数量与众多原义，不泛授项目信用。",
+        "defaultPinyinUnchanged": true,
+        "allHeteronymsPreserved": true,
+        "standaloneProjectApproval": false
+      },
+      "sourceEvidence": {
+        "rawSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "beforeDictionaryWord": "韆",
+        "beforeRawEntryIndex": 153915,
+        "beforeEntry": {
+          "heteronyms": [
+            {
+              "bopomofo": "ㄑㄧㄢ",
+              "definitions": [
+                {
+                  "def": "參見「鞦韆」條。"
+                }
+              ],
+              "pinyin": "qiān"
+            }
+          ],
+          "non_radical_stroke_count": 15,
+          "radical": "革",
+          "stroke_count": 24,
+          "title": "韆"
+        },
+        "afterRawEntryIndex": 22828,
+        "afterEntry": {
+          "heteronyms": [
+            {
+              "bopomofo": "ㄑㄧㄢ",
+              "definitions": [
+                {
+                  "def": "數目字。十的百倍。《說文解字．十部》：「千，十百也。」大寫作「仟」。",
+                  "type": "名"
+                },
+                {
+                  "def": "姓。如漢代有千獻。",
+                  "type": "名"
+                },
+                {
+                  "def": "眾多。",
+                  "example": [
+                    "如：「千方百計」、「千山萬水」。"
+                  ],
+                  "quote": [
+                    "《老子．第六四章》：「千里之行，始於足下。」",
+                    "唐．李白〈將進酒〉：「天生我材必有用，千金散盡還復來。」"
+                  ],
+                  "type": "形"
+                }
+              ],
+              "pinyin": "qiān"
+            }
+          ],
+          "non_radical_stroke_count": 1,
+          "radical": "十",
+          "stroke_count": 3,
+          "title": "千"
+        }
+      }
+    },
+    {
+      "char": "秋",
+      "before": {
+        "char": "秋",
+        "pinyin": "qiū",
+        "tone": 1,
+        "meaning": "參見「鞦韆」條。",
+        "traditional": "鞦",
+        "strokes": 9,
+        "radical": "禾",
+        "elements": [
+          "木",
+          "金"
+        ],
+        "elementBasis": "字形／字义意象参考 v1（项目自编标签，非唯一汉字五行定论；不得当作康熙笔画五行）",
+        "tags": [
+          "常用命名字候选"
+        ],
+        "warning": "繁体对应“鞦”，简繁与异体须按户籍用字确认。 Unicode 记有多个简繁对应：秋、鞦，请按实际字义确认。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "qiū",
+            "tone": 1,
+            "meanings": [
+              "參見「鞦韆」條。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "鞦"
+          }
+        ],
+        "polyphonic": false,
+        "variants": [
+          "秋",
+          "鞦"
+        ]
+      },
+      "after": {
+        "char": "秋",
+        "pinyin": "qiū",
+        "tone": 1,
+        "meaning": "一年四季中的第三季。農曆為七、八、九月，陽曆為九、十、十一月。；年。古代年的長度以二次秋收為準，故以秋代表年。；時候。",
+        "traditional": "秋",
+        "strokes": 9,
+        "radical": "禾",
+        "elements": [
+          "木",
+          "金"
+        ],
+        "elementBasis": "字形／字义意象参考 v1（项目自编标签，非唯一汉字五行定论；不得当作康熙笔画五行）",
+        "tags": [
+          "常用命名字候选"
+        ],
+        "warning": "本条字义对应原词条“秋”；Unicode 简繁与异体对应保留，请按实际字义确认。 “收获”为项目原创季节类比，非字典原义。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "qiū",
+            "tone": 1,
+            "meanings": [
+              "一年四季中的第三季。農曆為七、八、九月，陽曆為九、十、十一月。",
+              "年。古代年的長度以二次秋收為準，故以秋代表年。",
+              "時候。",
+              "姓。如清代有秋瑾。",
+              "喻衰老。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "秋"
+          }
+        ],
+        "polyphonic": false,
+        "variants": [
+          "秋",
+          "鞦"
+        ]
+      },
+      "allowedChangedFields": [
+        "meaning",
+        "traditional",
+        "readings",
+        "polyphonic",
+        "warning"
+      ],
+      "review": {
+        "rationale": "原默认借鞦的鞦韆参见；改选季节本字秋，收获只在独立项目类比中批准。",
+        "defaultPinyinUnchanged": true,
+        "allHeteronymsPreserved": true,
+        "standaloneProjectApproval": false
+      },
+      "sourceEvidence": {
+        "rawSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "beforeDictionaryWord": "鞦",
+        "beforeRawEntryIndex": 153844,
+        "beforeEntry": {
+          "heteronyms": [
+            {
+              "bopomofo": "ㄑㄧㄡ",
+              "definitions": [
+                {
+                  "def": "參見「鞦韆」條。",
+                  "type": "名"
+                }
+              ],
+              "pinyin": "qiū"
+            }
+          ],
+          "non_radical_stroke_count": 9,
+          "radical": "革",
+          "stroke_count": 18,
+          "title": "鞦"
+        },
+        "afterRawEntryIndex": 106848,
+        "afterEntry": {
+          "heteronyms": [
+            {
+              "bopomofo": "ㄑㄧㄡ",
+              "definitions": [
+                {
+                  "def": "一年四季中的第三季。農曆為七、八、九月，陽曆為九、十、十一月。",
+                  "example": [
+                    "如：「秋天」、「秋季」、「中秋」、「深秋」、「一葉知秋」。"
+                  ],
+                  "quote": [
+                    "唐．杜甫〈登高〉詩：「萬里悲秋常作客，百年多病獨登臺。」"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "年。古代年的長度以二次秋收為準，故以秋代表年。",
+                  "example": [
+                    "如：「千秋萬世」、「一日不見，如隔三秋。」"
+                  ],
+                  "quote": [
+                    "唐．劉禹錫〈蜀先主廟〉詩：「天地英雄氣，千秋尚凜然。」"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "時候。",
+                  "example": [
+                    "如：「多事之秋」。"
+                  ],
+                  "quote": [
+                    "《文選．諸葛亮．出師表》：「此誠危急存亡之秋也。」"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "姓。如清代有秋瑾。",
+                  "type": "名"
+                },
+                {
+                  "def": "喻衰老。",
+                  "quote": [
+                    "宋．陸游〈南鄉子．早歲入皇州〉詞：「三十年來真一夢，堪愁。客路蕭蕭兩鬢秋。」"
+                  ],
+                  "type": "形"
+                }
+              ],
+              "pinyin": "qiū"
+            }
+          ],
+          "non_radical_stroke_count": 4,
+          "radical": "禾",
+          "stroke_count": 9,
+          "title": "秋"
+        }
+      }
+    },
+    {
+      "char": "沈",
+      "before": {
+        "char": "沈",
+        "pinyin": "shěn",
+        "tone": 3,
+        "meaning": "汁。；大陸地區瀋陽市的簡稱。",
+        "traditional": "瀋",
+        "strokes": 7,
+        "radical": "水",
+        "elements": [],
+        "elementBasis": "五行属性待起名师指定；不从普通笔画数推定五行",
+        "tags": [
+          "明朗"
+        ],
+        "warning": "繁体对应“瀋”，简繁与异体须按户籍用字确认。 Unicode 记有多个简繁对应：沈、瀋，请按实际字义确认。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "shěn",
+            "tone": 3,
+            "meanings": [
+              "汁。",
+              "大陸地區瀋陽市的簡稱。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "瀋"
+          }
+        ],
+        "polyphonic": false,
+        "variants": [
+          "沈",
+          "瀋",
+          "渖"
+        ]
+      },
+      "after": {
+        "char": "沈",
+        "pinyin": "shěn",
+        "tone": 3,
+        "meaning": "姓。如宋代有沈括。",
+        "traditional": "沈",
+        "strokes": 7,
+        "radical": "水",
+        "elements": [],
+        "elementBasis": "五行属性待起名师指定；不从普通笔画数推定五行",
+        "tags": [],
+        "warning": "多音字：本方案采用 shěn，请按姓名用法确认；各读音义项分别保存。 本条字义对应原词条“沈”；Unicode 简繁与异体对应保留，请按实际字义确认。 shěn 仅据原词条姓义；chén 仅保存辞典参照，不借作沉稳等命名义。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "chén",
+            "tone": 2,
+            "meanings": [
+              "辞典参照：同「沉」。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "沈",
+            "referenceOnly": true,
+            "sourceReference": {
+              "kind": "dictionary-cross-reference",
+              "rawDefinitionIndex": 0,
+              "text": "同「沉」。"
+            }
+          },
+          {
+            "pinyin": "shěn",
+            "tone": 3,
+            "meanings": [
+              "姓。如宋代有沈括。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "沈"
+          }
+        ],
+        "polyphonic": true,
+        "variants": [
+          "沈",
+          "瀋",
+          "渖"
+        ]
+      },
+      "allowedChangedFields": [
+        "meaning",
+        "traditional",
+        "readings",
+        "polyphonic",
+        "warning",
+        "tags"
+      ],
+      "review": {
+        "rationale": "原默认借瀋的汁/地名义；shěn本字沈仅据姓义。保留chén原参照而不借沉稳义；唯一移除旧明朗标签。",
+        "defaultPinyinUnchanged": true,
+        "allHeteronymsPreserved": true,
+        "standaloneProjectApproval": false,
+        "tagsException": "remove-unrelated-明朗-only",
+        "referenceOnlyNotDefinition": true
+      },
+      "sourceEvidence": {
+        "rawSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "beforeDictionaryWord": "瀋",
+        "beforeRawEntryIndex": 90504,
+        "beforeEntry": {
+          "heteronyms": [
+            {
+              "bopomofo": "ㄕㄣˇ",
+              "definitions": [
+                {
+                  "def": "汁。",
+                  "example": [
+                    "如：「墨瀋未乾」。"
+                  ],
+                  "quote": [
+                    "《說文解字．水部》：「瀋，汁也。」",
+                    "元．陶宗儀《南村輟耕錄．卷二九．墨》：「所以晉人多用凹心硯者，欲磨墨貯瀋耳。」"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "大陸地區瀋陽市的簡稱。",
+                  "example": [
+                    "如：「安瀋鐵路」。"
+                  ],
+                  "type": "名"
+                }
+              ],
+              "pinyin": "shěn"
+            }
+          ],
+          "non_radical_stroke_count": 15,
+          "radical": "水",
+          "stroke_count": 18,
+          "title": "瀋"
+        },
+        "afterRawEntryIndex": 83184,
+        "afterEntry": {
+          "heteronyms": [
+            {
+              "bopomofo": "ㄔㄣˊ",
+              "definitions": [
+                {
+                  "def": "",
+                  "link": [
+                    "同「沉」。"
+                  ]
+                }
+              ],
+              "pinyin": "chén"
+            },
+            {
+              "bopomofo": "ㄕㄣˇ",
+              "definitions": [
+                {
+                  "def": "姓。如宋代有沈括。",
+                  "type": "名"
+                }
+              ],
+              "pinyin": "shěn"
+            }
+          ],
+          "non_radical_stroke_count": 4,
+          "radical": "水",
+          "stroke_count": 7,
+          "title": "沈"
+        }
+      }
+    },
+    {
+      "char": "咸",
+      "before": {
+        "char": "咸",
+        "pinyin": "xián",
+        "tone": 2,
+        "meaning": "含鹽分或鹽味的。；吝嗇、小氣。；鹽味。",
+        "traditional": "鹹",
+        "strokes": 9,
+        "radical": "口",
+        "elements": [],
+        "elementBasis": "五行属性待起名师指定；不从普通笔画数推定五行",
+        "tags": [
+          "常用命名字候选"
+        ],
+        "warning": "繁体对应“鹹”，简繁与异体须按户籍用字确认。 Unicode 记有多个简繁对应：咸、鹹，请按实际字义确认。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "xián",
+            "tone": 2,
+            "meanings": [
+              "含鹽分或鹽味的。",
+              "吝嗇、小氣。",
+              "鹽味。",
+              "地名：(1) 春秋時魯地，約在今大陸地區山東省曹縣境。(2) 春秋時衛地，約在今大陸地區河北省濮陽縣東南。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "鹹"
+          }
+        ],
+        "polyphonic": false,
+        "variants": [
+          "咸",
+          "鹹"
+        ]
+      },
+      "after": {
+        "char": "咸",
+        "pinyin": "xián",
+        "tone": 2,
+        "meaning": "都、皆、全。；普及、遍及。；和睦。",
+        "traditional": "咸",
+        "strokes": 9,
+        "radical": "口",
+        "elements": [],
+        "elementBasis": "五行属性待起名师指定；不从普通笔画数推定五行",
+        "tags": [
+          "常用命名字候选"
+        ],
+        "warning": "本条字义对应原词条“咸”；Unicode 简繁与异体对应保留，请按实际字义确认。 原辞典卦象括号符号与卦名文字存在冲突，原文保留待核，不用于自动推卦。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "xián",
+            "tone": 2,
+            "meanings": [
+              "都、皆、全。",
+              "普及、遍及。",
+              "和睦。",
+              "《易經》卦名。六十四卦之一。艮（☱）下兌（☶）上。表示山澤相感應之象。",
+              "姓。如漢代有咸宣。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "咸"
+          }
+        ],
+        "polyphonic": false,
+        "variants": [
+          "咸",
+          "鹹"
+        ]
+      },
+      "allowedChangedFields": [
+        "meaning",
+        "traditional",
+        "readings",
+        "polyphonic",
+        "warning"
+      ],
+      "review": {
+        "rationale": "原默认借鹹的盐味义；改选本字咸的皆/遍及/和睦等原义；原卦象符号冲突不改写、不自动推卦。",
+        "defaultPinyinUnchanged": true,
+        "allHeteronymsPreserved": true,
+        "standaloneProjectApproval": false,
+        "originalGlyphConflictPreserved": true
+      },
+      "sourceEvidence": {
+        "rawSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "beforeDictionaryWord": "鹹",
+        "beforeRawEntryIndex": 160954,
+        "beforeEntry": {
+          "heteronyms": [
+            {
+              "bopomofo": "ㄒㄧㄢˊ",
+              "definitions": [
+                {
+                  "def": "含鹽分或鹽味的。",
+                  "example": [
+                    "如：「鹹魚」、「鹹水湖」、「東西很鹹。」"
+                  ],
+                  "type": "形"
+                },
+                {
+                  "def": "吝嗇、小氣。",
+                  "example": [
+                    "如：「他是有名的鐵公雞，鹹的很！」"
+                  ],
+                  "type": "形"
+                },
+                {
+                  "def": "鹽味。",
+                  "example": [
+                    "如：「酸甜苦辣鹹」。"
+                  ],
+                  "quote": [
+                    "《荀子．正名》：「甘苦鹹淡，辛酸奇味，以口異。」"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "地名：(1) 春秋時魯地，約在今大陸地區山東省曹縣境。(2) 春秋時衛地，約在今大陸地區河北省濮陽縣東南。",
+                  "type": "名"
+                }
+              ],
+              "pinyin": "xián"
+            }
+          ],
+          "non_radical_stroke_count": 9,
+          "radical": "鹵",
+          "stroke_count": 20,
+          "title": "鹹"
+        },
+        "afterRawEntryIndex": 28363,
+        "afterEntry": {
+          "heteronyms": [
+            {
+              "bopomofo": "ㄒㄧㄢˊ",
+              "definitions": [
+                {
+                  "def": "都、皆、全。",
+                  "example": [
+                    "如：「老少咸宜」。"
+                  ],
+                  "quote": [
+                    "《書經．舜典》：「殛鯀于羽山，四罪而天下咸服。」",
+                    "唐．王昌齡〈塞下曲〉四首之二：「昔日長城戰，咸言意氣高。」"
+                  ],
+                  "type": "副"
+                },
+                {
+                  "def": "普及、遍及。",
+                  "quote": [
+                    "《國語．魯語》：「小賜不咸，獨恭不優。」"
+                  ],
+                  "type": "動"
+                },
+                {
+                  "def": "和睦。",
+                  "quote": [
+                    "《左傳．僖公二十四年》：「昔周公弔二叔之不咸，故封建親戚以蕃屏周。」"
+                  ],
+                  "type": "動"
+                },
+                {
+                  "def": "《易經》卦名。六十四卦之一。艮（☱）下兌（☶）上。表示山澤相感應之象。",
+                  "type": "名"
+                },
+                {
+                  "def": "姓。如漢代有咸宣。",
+                  "type": "名"
+                }
+              ],
+              "pinyin": "xián"
+            }
+          ],
+          "non_radical_stroke_count": 6,
+          "radical": "口",
+          "stroke_count": 9,
+          "title": "咸"
+        }
+      }
+    },
+    {
+      "char": "旋",
+      "before": {
+        "char": "旋",
+        "pinyin": "xuàn",
+        "tone": 4,
+        "meaning": "圓形的爐子。；溫酒器。；銅錫盤。",
+        "traditional": "鏇",
+        "strokes": 11,
+        "radical": "方",
+        "elements": [],
+        "elementBasis": "五行属性待起名师指定；不从普通笔画数推定五行",
+        "tags": [
+          "常用命名字候选"
+        ],
+        "warning": "繁体对应“鏇”，简繁与异体须按户籍用字确认。 Unicode 记有多个简繁对应：旋、鏇，请按实际字义确认。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "xuàn",
+            "tone": 4,
+            "meanings": [
+              "圓形的爐子。",
+              "溫酒器。",
+              "銅錫盤。",
+              "用鏇子溫酒。",
+              "以機器或刀旋轉著削切。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "鏇"
+          }
+        ],
+        "polyphonic": false,
+        "variants": [
+          "旋",
+          "鏇",
+          "镟"
+        ]
+      },
+      "after": {
+        "char": "旋",
+        "pinyin": "xuàn",
+        "tone": 4,
+        "meaning": "打轉的。；溫酒。；表動作是臨時、現時的。",
+        "traditional": "旋",
+        "strokes": 11,
+        "radical": "方",
+        "elements": [],
+        "elementBasis": "五行属性待起名师指定；不从普通笔画数推定五行",
+        "tags": [
+          "常用命名字候选"
+        ],
+        "warning": "多音字：本方案采用 xuàn，请按姓名用法确认；各读音义项分别保存。 本条字义对应原词条“旋”；Unicode 简繁与异体对应保留，请按实际字义确认。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "xuán",
+            "tone": 2,
+            "meanings": [
+              "繞著轉動。",
+              "回、歸。",
+              "小便。",
+              "立刻、很快的。",
+              "又、再。",
+              "表示同時做兩件事。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "旋"
+          },
+          {
+            "pinyin": "xuàn",
+            "tone": 4,
+            "meanings": [
+              "打轉的。",
+              "溫酒。",
+              "表動作是臨時、現時的。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "旋"
+          }
+        ],
+        "polyphonic": true,
+        "variants": [
+          "旋",
+          "鏇",
+          "镟"
+        ]
+      },
+      "allowedChangedFields": [
+        "meaning",
+        "traditional",
+        "readings",
+        "polyphonic",
+        "warning"
+      ],
+      "review": {
+        "rationale": "原默认借鏇器物义；改选本字旋，默认xuàn不变，完整保留xuán与xuàn两读并分义，不借凯旋义给xuàn。",
+        "defaultPinyinUnchanged": true,
+        "allHeteronymsPreserved": true,
+        "standaloneProjectApproval": false
+      },
+      "sourceEvidence": {
+        "rawSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "beforeDictionaryWord": "鏇",
+        "beforeRawEntryIndex": 147272,
+        "beforeEntry": {
+          "heteronyms": [
+            {
+              "bopomofo": "ㄒㄩㄢˋ",
+              "definitions": [
+                {
+                  "def": "圓形的爐子。",
+                  "quote": [
+                    "《說文解字．金部》：「鏇，圓鑪也。」"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "溫酒器。",
+                  "example": [
+                    "如：「金鏇」、「酒鏇」。"
+                  ],
+                  "link": [
+                    "也稱為「鏇子」。"
+                  ],
+                  "quote": [
+                    "元．戴侗《六書故．卷四．地理》：「鏇，溫器也，旋之湯中，以溫酒與洎者也。」"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "銅錫盤。",
+                  "quote": [
+                    "明．馮夢龍《古今譚概．妖異部．鏇中佛像》：「常熟丘郡家食櫥內，錫鏇置熟雞半隻。」"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "用鏇子溫酒。",
+                  "quote": [
+                    "《水滸傳．第七二回》：「你自去與我鏇一杯熱酒來吃。」"
+                  ],
+                  "type": "動"
+                },
+                {
+                  "def": "以機器或刀旋轉著削切。",
+                  "example": [
+                    "如：「鏇陀螺」、「鏇螺絲釘」、「把蘿蔔皮鏇下來」。"
+                  ],
+                  "type": "動"
+                }
+              ],
+              "pinyin": "xuàn"
+            }
+          ],
+          "non_radical_stroke_count": 11,
+          "radical": "金",
+          "stroke_count": 19,
+          "title": "鏇"
+        },
+        "afterRawEntryIndex": 69896,
+        "afterEntry": {
+          "heteronyms": [
+            {
+              "bopomofo": "ㄒㄩㄢˊ",
+              "definitions": [
+                {
+                  "def": "繞著轉動。",
+                  "example": [
+                    "如：「盤旋」、「回旋」。"
+                  ],
+                  "quote": [
+                    "唐．白居易〈長恨歌〉：「天旋日轉迴龍馭，到此躊躇不能去。」"
+                  ],
+                  "type": "動"
+                },
+                {
+                  "def": "回、歸。",
+                  "example": [
+                    "如：「凱旋歸來」。"
+                  ],
+                  "quote": [
+                    "唐．李商隱〈行次西郊作一百韻〉：「玉輦望南斗，未知何日旋。」",
+                    "宋．汪藻〈己酉亂後寄常州使君姪〉詩：「草草官軍渡，悠悠敵騎旋。」"
+                  ],
+                  "type": "動"
+                },
+                {
+                  "def": "小便。",
+                  "quote": [
+                    "唐．韓愈〈張中丞傳後敘〉：「及城陷，賊縛巡等數十人坐，且將戮，巡起旋。」"
+                  ],
+                  "type": "動"
+                },
+                {
+                  "def": "立刻、很快的。",
+                  "example": [
+                    "如：「旋即」。"
+                  ],
+                  "quote": [
+                    "唐．岑參〈走馬川行奉送出師西征〉詩：「馬毛帶雪汗氣蒸，五花連錢旋作冰。」",
+                    "宋．蘇軾〈浣溪沙．旋抹紅妝看使君〉詞：「旋抹紅妝看使君，三三五五棘籬門，相挨踏破蒨羅裙。」"
+                  ],
+                  "type": "副"
+                },
+                {
+                  "def": "又、再。",
+                  "quote": [
+                    "宋．晁補之〈八六子．喜秋晴〉詞：「醉休醒，醒來舊愁旋生。」"
+                  ],
+                  "type": "副"
+                },
+                {
+                  "def": "表示同時做兩件事。",
+                  "quote": [
+                    "唐．章碣〈陪浙西王侍郎夜宴〉詩：「旋看歌舞旋傳杯。」"
+                  ],
+                  "type": "連"
+                }
+              ],
+              "pinyin": "xuán"
+            },
+            {
+              "bopomofo": "ㄒㄩㄢˋ",
+              "definitions": [
+                {
+                  "def": "打轉的。",
+                  "example": [
+                    "如：「旋風」、「旋球」。"
+                  ],
+                  "type": "形"
+                },
+                {
+                  "def": "溫酒。",
+                  "link": [
+                    "通「鏇」。"
+                  ],
+                  "quote": [
+                    "《水滸傳．第五回》：「那莊客旋了一壺酒。」"
+                  ],
+                  "type": "動"
+                },
+                {
+                  "def": "表動作是臨時、現時的。",
+                  "quote": [
+                    "唐．杜荀鶴〈山中寡婦〉詩：「時挑野菜和根煮，旋斫生柴帶葉燒。」",
+                    "元．喬吉〈滿庭芳．活魚旋打〉曲：「活魚旋打，沽些村酒，問那人家。」"
+                  ],
+                  "type": "副"
+                }
+              ],
+              "pinyin": "xuàn"
+            }
+          ],
+          "non_radical_stroke_count": 7,
+          "radical": "方",
+          "stroke_count": 11,
+          "title": "旋"
+        }
+      }
+    },
+    {
+      "char": "郁",
+      "before": {
+        "char": "郁",
+        "pinyin": "yù",
+        "tone": 4,
+        "meaning": "積聚、凝滯。；怨恨。；茂盛的樣子。",
+        "traditional": "鬱",
+        "strokes": 8,
+        "radical": "邑",
+        "elements": [],
+        "elementBasis": "五行属性待起名师指定；不从普通笔画数推定五行",
+        "tags": [
+          "常用命名字候选"
+        ],
+        "warning": "繁体对应“鬱”，简繁与异体须按户籍用字确认。 Unicode 记有多个简繁对应：郁、鬱，请按实际字义确认。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "yù",
+            "tone": 4,
+            "meanings": [
+              "積聚、凝滯。",
+              "怨恨。",
+              "茂盛的樣子。",
+              "愁悶的。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "鬱"
+          }
+        ],
+        "polyphonic": false,
+        "variants": [
+          "郁",
+          "鬱"
+        ]
+      },
+      "after": {
+        "char": "郁",
+        "pinyin": "yù",
+        "tone": 4,
+        "meaning": "文采豐盛。；香氣濃烈。；和暖。",
+        "traditional": "郁",
+        "strokes": 8,
+        "radical": "邑",
+        "elements": [],
+        "elementBasis": "五行属性待起名师指定；不从普通笔画数推定五行",
+        "tags": [
+          "常用命名字候选"
+        ],
+        "warning": "本条字义对应原词条“郁”；Unicode 简繁与异体对应保留，请按实际字义确认。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "yù",
+            "tone": 4,
+            "meanings": [
+              "文采豐盛。",
+              "香氣濃烈。",
+              "和暖。",
+              "姓。如清代有郁松年。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "郁"
+          }
+        ],
+        "polyphonic": false,
+        "variants": [
+          "郁",
+          "鬱"
+        ]
+      },
+      "allowedChangedFields": [
+        "meaning",
+        "traditional",
+        "readings",
+        "polyphonic",
+        "warning"
+      ],
+      "review": {
+        "rationale": "原默认借鬱的积聚/怨恨义；改选本字郁原条，默认yù不变，不泛授文采等项目标签。",
+        "defaultPinyinUnchanged": true,
+        "allHeteronymsPreserved": true,
+        "standaloneProjectApproval": false
+      },
+      "sourceEvidence": {
+        "rawSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "beforeDictionaryWord": "鬱",
+        "beforeRawEntryIndex": 159379,
+        "beforeEntry": {
+          "heteronyms": [
+            {
+              "bopomofo": "ㄩˋ",
+              "definitions": [
+                {
+                  "def": "積聚、凝滯。",
+                  "example": [
+                    "如：「鬱積」、「鬱結」。"
+                  ],
+                  "quote": [
+                    "《漢書．卷八．宣帝紀》：「朕不明六藝，鬱于大道，是以陰陽風雨未時。」",
+                    "唐．皮日休〈請韓文公配饗太學書〉：「雲霧久鬱，忽廓則清。」"
+                  ],
+                  "type": "動"
+                },
+                {
+                  "def": "怨恨。",
+                  "quote": [
+                    "《呂氏春秋．仲夏紀．侈樂》：「故樂愈侈而民愈鬱，國愈亂。」"
+                  ],
+                  "type": "動"
+                },
+                {
+                  "def": "茂盛的樣子。",
+                  "example": [
+                    "如：「鬱鬱蒼蒼」。"
+                  ],
+                  "quote": [
+                    "《詩經．秦風．晨風》：「鴥彼晨風，鬱彼北林。」"
+                  ],
+                  "type": "形"
+                },
+                {
+                  "def": "愁悶的。",
+                  "example": [
+                    "如：「憂鬱」、「鬱鬱寡歡」。"
+                  ],
+                  "quote": [
+                    "《楚辭．劉向．九歎．憂苦》：「願假簧以舒憂兮，志紆鬱其難釋。」"
+                  ],
+                  "type": "形"
+                }
+              ],
+              "pinyin": "yù"
+            }
+          ],
+          "non_radical_stroke_count": 19,
+          "radical": "鬯",
+          "stroke_count": 29,
+          "title": "鬱"
+        },
+        "afterRawEntryIndex": 143695,
+        "afterEntry": {
+          "heteronyms": [
+            {
+              "bopomofo": "ㄩˋ",
+              "definitions": [
+                {
+                  "def": "文采豐盛。",
+                  "example": [
+                    "如：「文采郁郁」。"
+                  ],
+                  "quote": [
+                    "《論語．八佾》：「周監於二代，郁郁乎文哉！吾從周。」"
+                  ],
+                  "type": "形"
+                },
+                {
+                  "def": "香氣濃烈。",
+                  "example": [
+                    "如：「濃郁」、「馥郁」。"
+                  ],
+                  "quote": [
+                    "《晉書．卷四四．鄭袤等傳．贊曰》：「同鏘玉振，爭芬蘭郁。」"
+                  ],
+                  "type": "形"
+                },
+                {
+                  "def": "和暖。",
+                  "link": [
+                    "通「燠」。"
+                  ],
+                  "quote": [
+                    "《文選．劉孝標．廣絕交論》：「敘溫郁則寒谷成暄，論嚴苦則春叢零葉。」"
+                  ],
+                  "type": "形"
+                },
+                {
+                  "def": "姓。如清代有郁松年。",
+                  "type": "名"
+                }
+              ],
+              "pinyin": "yù"
+            }
+          ],
+          "non_radical_stroke_count": 6,
+          "radical": "邑",
+          "stroke_count": 9,
+          "title": "郁"
+        }
+      }
+    },
+    {
+      "char": "致",
+      "before": {
+        "char": "致",
+        "pinyin": "zhì",
+        "tone": 4,
+        "meaning": "細密的絲帛。；精細、細密。；美好。",
+        "traditional": "緻",
+        "strokes": 10,
+        "radical": "至",
+        "elements": [],
+        "elementBasis": "五行属性待起名师指定；不从普通笔画数推定五行",
+        "tags": [
+          "美德"
+        ],
+        "warning": "繁体对应“緻”，简繁与异体须按户籍用字确认。 Unicode 记有多个简繁对应：緻、致，请按实际字义确认。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "zhì",
+            "tone": 4,
+            "meanings": [
+              "細密的絲帛。",
+              "精細、細密。",
+              "美好。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "緻"
+          }
+        ],
+        "polyphonic": false,
+        "variants": [
+          "致",
+          "緻",
+          "𰬫"
+        ]
+      },
+      "after": {
+        "char": "致",
+        "pinyin": "zhì",
+        "tone": 4,
+        "meaning": "給予。；達到。；傳達、表示。",
+        "traditional": "致",
+        "strokes": 10,
+        "radical": "至",
+        "elements": [],
+        "elementBasis": "五行属性待起名师指定；不从普通笔画数推定五行",
+        "tags": [
+          "美德"
+        ],
+        "warning": "本条字义对应原词条“致”；Unicode 简繁与异体对应保留，请按实际字义确认。",
+        "sourceId": "moe-revised",
+        "readings": [
+          {
+            "pinyin": "zhì",
+            "tone": 4,
+            "meanings": [
+              "給予。",
+              "達到。",
+              "傳達、表示。",
+              "招引、延攬。",
+              "歸還、退回。",
+              "盡心、盡力。",
+              "推極、窮究。",
+              "旨趣、意態。",
+              "事物的道理。"
+            ],
+            "sourceId": "moe-revised",
+            "word": "致"
+          }
+        ],
+        "polyphonic": false,
+        "variants": [
+          "致",
+          "緻",
+          "𰬫"
+        ]
+      },
+      "allowedChangedFields": [
+        "meaning",
+        "traditional",
+        "readings",
+        "polyphonic",
+        "warning"
+      ],
+      "review": {
+        "rationale": "原默认借緻的丝帛/精细义；改选本字致完整原条，仅致远自然表达另行审定，不泛授单字主题。",
+        "defaultPinyinUnchanged": true,
+        "allHeteronymsPreserved": true,
+        "standaloneProjectApproval": false
+      },
+      "sourceEvidence": {
+        "rawSha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+        "beforeDictionaryWord": "緻",
+        "beforeRawEntryIndex": 113834,
+        "beforeEntry": {
+          "heteronyms": [
+            {
+              "bopomofo": "ㄓˋ",
+              "definitions": [
+                {
+                  "def": "細密的絲帛。",
+                  "quote": [
+                    "清．王念孫《廣雅疏證．卷七下．釋器》：「緻，練也。」",
+                    "疏證：「緻，一名細緻。《釋名》云：『細緻，染縑為五色，細且緻，不漏水也。』」"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "精細、細密。",
+                  "quote": [
+                    "《新唐書．卷二○三．文藝傳下．崔元翰傳》：「其好學老不倦，用思精緻，馳騁班固、蔡邕間以自名家。」"
+                  ],
+                  "type": "形"
+                },
+                {
+                  "def": "美好。",
+                  "quote": [
+                    "《紅樓夢．第八回》：「賈母見秦鍾形容標緻，舉止溫柔。」"
+                  ],
+                  "type": "形"
+                }
+              ],
+              "pinyin": "zhì"
+            }
+          ],
+          "non_radical_stroke_count": 9,
+          "radical": "糸",
+          "stroke_count": 15,
+          "title": "緻"
+        },
+        "afterRawEntryIndex": 120532,
+        "afterEntry": {
+          "heteronyms": [
+            {
+              "bopomofo": "ㄓˋ",
+              "definitions": [
+                {
+                  "def": "給予。",
+                  "quote": [
+                    "《史記．卷四七．孔子世家》：「魯今且郊，如致膰乎大夫，則吾猶可以止。」",
+                    "《晉書．卷四三．山濤傳》：「今致錢二十萬、穀二百斛。」"
+                  ],
+                  "type": "動"
+                },
+                {
+                  "def": "達到。",
+                  "quote": [
+                    "《莊子．外物》：「天地非不廣且大也，人之所用容足耳；然則廁足而墊之，致黃泉，人尚有用乎？」"
+                  ],
+                  "type": "動"
+                },
+                {
+                  "def": "傳達、表示。",
+                  "quote": [
+                    "《詩經．小雅．楚茨》：「工祝致告，徂賚孝孫。」",
+                    "《三國志．卷二四．魏書．崔林傳》：「仗節統事，州邵莫不奉牋致敬。」"
+                  ],
+                  "type": "動"
+                },
+                {
+                  "def": "招引、延攬。",
+                  "quote": [
+                    "《易經．需卦．九三》：「需于泥，致寇至。」",
+                    "《漢書．卷三九．蕭何傳》：「臣願大王王漢中，養其民以致賢人。」"
+                  ],
+                  "type": "動"
+                },
+                {
+                  "def": "歸還、退回。",
+                  "quote": [
+                    "《公羊傳．宣公元年》：「既而曰若此乎，古之道不即人心，退而致仕。」"
+                  ],
+                  "type": "動"
+                },
+                {
+                  "def": "盡心、盡力。",
+                  "quote": [
+                    "《論語．子張》：「人未有自致者也，必也親喪乎？」"
+                  ],
+                  "type": "動"
+                },
+                {
+                  "def": "推極、窮究。",
+                  "quote": [
+                    "《禮記．大學》：「欲誠其意者，先致其知。」"
+                  ],
+                  "type": "動"
+                },
+                {
+                  "def": "旨趣、意態。",
+                  "quote": [
+                    "《魏書．卷九三．恩倖傳．茹皓傳》：「樹草栽木，頗有野致。」"
+                  ],
+                  "type": "名"
+                },
+                {
+                  "def": "事物的道理。",
+                  "quote": [
+                    "《文選．袁宏．三國名臣序贊》：「所以存亡殊致，始終不同。」"
+                  ],
+                  "type": "名"
+                }
+              ],
+              "pinyin": "zhì"
+            }
+          ],
+          "non_radical_stroke_count": 3,
+          "radical": "至",
+          "stroke_count": 9,
+          "title": "致"
+        }
+      }
+    }
+  ]
+}

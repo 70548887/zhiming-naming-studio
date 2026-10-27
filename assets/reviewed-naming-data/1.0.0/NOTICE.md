@@ -1,0 +1,3 @@
+# Reviewed naming data 1.0.0
+
+This fixed main-process resource publication preserves the original M740 candidate, M752-r2 independent eligibility decisions, M744 source audit, M751 candidate consumer source snapshot, old 7.1 publication and reviewed M460 sixty-character publication. Original notices and licenses accompany their bytes. Archived candidate and product-root source files are hash evidence and are never executed. M751 remains a consumer candidate; M752 independently supplies its exact nine eligibility decisions. This publication does not alter original manual flags, historical publications, coverage counters or score authority. M779 project imagery retains its separate fixed publication and review identity under assets/project-element-imagery/1.0.0.

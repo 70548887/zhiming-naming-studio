@@ -1,0 +1,26 @@
+{
+  "version": "qiongtong-2294674-monthly-following-restrictions/1.0.0",
+  "sources": [
+    {
+      "id": "bazi-following-restrictions-qiongtong-2294674",
+      "name": "《穷通宝鉴》固定修订：甲寅卯与癸未的明确从格月份限制",
+      "url": "https://zh.wikisource.org/w/index.php?title=穷通宝鉴&oldid=2294674",
+      "commit": "wikisource-revision/2294674",
+      "license": "CC-BY-SA-4.0",
+      "files": [
+        "data/following-restrictions-rules.json",
+        "data/raw/following-restrictions-qiongtong-excerpts.json",
+        "data/raw/following-restrictions-NOTICE.md",
+        "data/raw/CC-BY-SA-4.0.txt"
+      ],
+      "sha256": "0558e7058d81d52056171d97352a412afc964ccc7d6521c2df2b89513de7ac6f",
+      "note": "固定电子修订2294674的两条明确月份限制；只约束本固定版本从财/从杀，不判完整从格或其他流派，不采用原文命运断语；未校影印底本。",
+      "fileHashes": {
+        "data/following-restrictions-rules.json": "f7513ccc32b0adb0fbd7b195d8f5d7514fb8e308005e96dd5ff87aac3ce2faf7",
+        "data/raw/CC-BY-SA-4.0.txt": "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5",
+        "data/raw/following-restrictions-NOTICE.md": "4ae477d41d55269fdbe08e42071c4322e3953107dafa17c22efb8afdf8b5d733",
+        "data/raw/following-restrictions-qiongtong-excerpts.json": "223893492659aeebb60a2e406254b47800af2cb195d7b98372a8c9b87c2f566c"
+      }
+    }
+  ]
+}

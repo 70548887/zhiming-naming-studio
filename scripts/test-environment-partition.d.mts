@@ -1,0 +1,3 @@
+export interface EnvironmentPartitionEntry {file:string;group:string;outputEnvironment?:string;cpuWindowFlag?:'M937_ACTUAL_CPU_WINDOW'|'M937_REPLAY_CPU_WINDOW';[key:string]:unknown;}
+export interface EnvironmentPartitionManifest {schema:string;entries:EnvironmentPartitionEntry[];integrationDependencies:EnvironmentPartitionEntry[];portableCompanions?:{file:string}[];}
+export function environmentTestSelection(options:{root:string;manifest:EnvironmentPartitionManifest;env:Record<string,string|undefined>;platform?:string}):{group:string;include:string[];environment:Record<string,string>;acceptanceAuthority:false;scope:string;};

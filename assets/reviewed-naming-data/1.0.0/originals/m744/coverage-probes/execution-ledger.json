@@ -1,0 +1,103 @@
+{
+  "schema": "m744-coverage-execution-ledger/1",
+  "skillFilesRead": [],
+  "policy": "No identical successful command repeated. Original 14-test suite and candidate build were not rerun.",
+  "successfulCommands": [
+    {
+      "outputId": "67357d",
+      "command": "rg --files D:\\Codex-NamingStudio-Evidence\\m740-character-meanings | Sort-Object",
+      "result": "Candidate file inventory"
+    },
+    {
+      "outputId": "819c5c",
+      "command": "rg source-lock/base217/304/521/supplemental/automatic/standalone across product src,data",
+      "result": "Broad read-only search completed; output truncated; subsequent searches narrowed"
+    },
+    {
+      "outputId": "5a7063",
+      "command": "Get-Content candidate inventory-sources, contract, delivery manifest, package",
+      "result": "Read fixed inventory and candidate authority flags"
+    },
+    {
+      "outputId": "bcde0d",
+      "command": "Get-Content candidate lib.mjs, validate.mjs",
+      "result": "Read builder helpers and fixed verifier"
+    },
+    {
+      "command": "Get-Content candidate tests/data.test.mjs, validation/test-receipt.json, pins.mjs",
+      "result": "Read original 14-test receipt only"
+    },
+    {
+      "outputId": "6d0714",
+      "command": "rg --files product src filtered meaning/naming/provider; Get-Content candidate data/source-lock.json",
+      "result": "Provider source paths and28 pinned sources"
+    },
+    {
+      "outputId": "3a36c8",
+      "command": "Get-Content product naming-coverage-provider.ts, domain/naming-coverage.ts",
+      "result": "Read actual provider aggregation gates"
+    },
+    {
+      "command": "Get-Content product naming-semantics-v5.ts, naming-semantics-v6.ts, shared/character-reading.ts",
+      "result": "Read actual base reading gate"
+    },
+    {
+      "outputId": "da6a2f",
+      "command": "Numbered read of tests/data.test.mjs and validate.mjs lines51 onward",
+      "result": "Read all14 tests and verifier completion behavior"
+    },
+    {
+      "outputId": "1841e2",
+      "command": "Locate node; inspect package dependency keywords; read first100 lines of naming-editorial-v7-data.ts and first70 of m460-publication-data.mjs",
+      "result": "Read actual publication authentication"
+    },
+    {
+      "outputId": "fafd4d",
+      "command": "Narrow rg across single-character-meaning-query.mjs, naming-review-v7.mjs and m460-publication-data.mjs",
+      "result": "Located registered query batches and automatic gate"
+    },
+    {
+      "outputId": "f892c3",
+      "command": "node -e resolve esbuild and process.version",
+      "result": "Node v22.16.0; existing esbuild available"
+    },
+    {
+      "outputId": "2bbd92",
+      "command": "Get-Content candidate build.mjs -TotalCount110; list m744 audit directory",
+      "result": "Read data-only build source, not executed"
+    },
+    {
+      "outputId": "86171b",
+      "command": "node D:\\Codex-NamingStudio-Evidence\\m744-data-audit\\coverage-probes\\independent-coverage-audit.mjs",
+      "result": "Actual current-gate sets equal candidate;28 source pins match;3 bad-source probes reject"
+    },
+    {
+      "outputId": "a0eb50",
+      "command": "Narrow rg for nondefault labels and exact verifier/provider locators",
+      "result": "Validated source references"
+    },
+    {
+      "outputId": "97c5b3",
+      "command": "node parse coverage-integrity.json status, baseline, helper boundary, occupancy",
+      "result": "Verified saved artifact and baseline HEAD equality"
+    }
+  ],
+  "partialCommands": [
+    {
+      "outputId": "8b14a2",
+      "result": "Candidate/product inventory succeeded; nonexistent audit directory caused exit1"
+    },
+    {
+      "outputId": "edfd12",
+      "result": "Coverage summary read succeeded; absent tsx directory caused exit1"
+    }
+  ],
+  "writes": [
+    "coverage-probes/independent-coverage-audit.mjs",
+    "coverage-probes/actual-semantics-v6.cjs",
+    "coverage-probes/recomputed-sets.json",
+    "coverage-integrity.json",
+    "coverage-probes/execution-ledger.json"
+  ],
+  "protectedWrites": 0
+}

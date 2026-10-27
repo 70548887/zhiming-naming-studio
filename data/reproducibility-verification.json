@@ -1,0 +1,13 @@
+{
+  "command": "node scripts/build-data.mjs --offline --reproducibility-check",
+  "networkUsed": false,
+  "before": {
+    "json": "c5e6934fab8892e2f162cb584c0869c253b838b5f41d7087d9e7630f648fe6ae",
+    "sqlite": "f264eb26f631441a31324e9be14058f38d02d444070e00e9e0690b4f0b9ff7cc"
+  },
+  "after": {
+    "json": "c5e6934fab8892e2f162cb584c0869c253b838b5f41d7087d9e7630f648fe6ae",
+    "sqlite": "f264eb26f631441a31324e9be14058f38d02d444070e00e9e0690b4f0b9ff7cc"
+  },
+  "identical": true
+}

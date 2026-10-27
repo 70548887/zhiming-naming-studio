@@ -1,0 +1,70 @@
+{
+  "version": "yue-homophone-review/1.0.0",
+  "sourceId": "yue-homophones-rime-fixed",
+  "commit": "259f0e48bba840c3a2e0d117539e96937f3d89bc",
+  "sourceVersion": "2026.08.10",
+  "originalFile": "jyut6ping3.words.dict.yaml",
+  "originalSha256": "54d174ad2bb997e4a678b7b076b84e4dc5914481b32467cdea3b43e88b7d5474",
+  "records": [
+    {
+      "line": 70365,
+      "sha256": "b5eb3ee1b7ea7556eef9bbf87af1f5fa025e91babdf3d228a5510064e1126ec8",
+      "rawLine": "衛生巾\twai6 sang1 gan1"
+    },
+    {
+      "line": 70729,
+      "sha256": "e1b9dfc04ba2dc81000ed94c370b79494a7877942b0ac64899a9ad252f68443c",
+      "rawLine": "狐狸精\twu4 lei4 zing1"
+    },
+    {
+      "line": 1804,
+      "sha256": "3799d99c5ddaf3eecdde4f6678b1a2ad0813a1f936d6417cd4ac76f2718fc9bc",
+      "rawLine": "變態\tbin3 taai3"
+    },
+    {
+      "line": 36262,
+      "sha256": "84966a86e6c622cdb76c60bed8161b8d942e7e225d4d4245b10a3c085ae2f5e8",
+      "rawLine": "死人\tsei2 jan4"
+    },
+    {
+      "line": 46166,
+      "sha256": "01cc39562a5635062172aa2a48c9f3ff8d9f70f122a0e210c53e678449ec4e8e",
+      "rawLine": "賤人\tzin6 jan4"
+    },
+    {
+      "line": 36451,
+      "sha256": "5548d24d3cd85ae78ffd28466302703342544ec218168e0ae79ff576c9c66520",
+      "rawLine": "衰人\tseoi1 jan4"
+    },
+    {
+      "line": 38553,
+      "sha256": "fe0d1a72ab52831931627fa3eaceb13029a7bc821f84ab618c7c295e2eb668fa",
+      "rawLine": "傻瓜\tso4 gwaa1"
+    },
+    {
+      "line": 10739,
+      "sha256": "667e0b632be52f2b793cade266322b89250f8bc9177309355bfad6c7a7581099",
+      "rawLine": "廢柴\tfai3 caai4"
+    },
+    {
+      "line": 1560,
+      "sha256": "2836b3bda6386a568c22b0a60a1f2fc43b53d0a08796257596ae7b73f7fd56a1",
+      "rawLine": "鼻涕\tbei6 tai3"
+    },
+    {
+      "line": 42627,
+      "sha256": "cc94f26e877c01ba255df046fe5c5a55a5fbf2532919e6137ab95d5363a284cc",
+      "rawLine": "瘟疫\twan1 jik6"
+    },
+    {
+      "line": 48184,
+      "sha256": "11f774b26fe53a92a07cb65a2f1cafabb8bfa13fd17e1f00c1f30780afe6c428",
+      "rawLine": "豬頭\tzyu1 tau4"
+    },
+    {
+      "line": 33994,
+      "sha256": "771fc394b8f587c08016df7059df68d1e7d176c67f4ab1ecb8b4c22dcee8bff6",
+      "rawLine": "仆街\tpuk1 gaai1"
+    }
+  ]
+}

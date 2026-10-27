@@ -1,0 +1,5 @@
+import type {PhoneticReviewInput} from '../name-phonetic/name-phonetic-types';
+export interface WordReference {id:string;word:string;span:{start:number;endExclusive:number;text:string;scope:string};sourceTokens:string[];actualTokens:string[];comparison:'unconfirmed'|'exact'|'tone-only'|'different-phonemes';alignedByMode:boolean;differentPositions:number[];originalPinyin:string|null;definitions:null|Record<string,unknown>[];source:Record<string,unknown>;variantEvidence:Record<string,unknown>[];interpretation:string;}
+export interface WrittenWordReferences {version:'name-word-pronunciation/1.0.0';language:'cmn'|'yue';mode:'strict'|'ignore-tone';fullName:string;status:'not-assessed'|'source-word-reference'|'no-covered-word';selectedTokens:string[];missing:string[];references:WordReference[];profileSha256:string;sourceLockSha256:string;scope:string;notice:string;limitations:string[];}
+export function calculateWrittenWordReferences(input:PhoneticReviewInput):WrittenWordReferences;
+export function getImportedWordProfile():Record<string,unknown>;

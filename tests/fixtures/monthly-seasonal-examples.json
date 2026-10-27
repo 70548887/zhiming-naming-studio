@@ -1,0 +1,2140 @@
+{
+  "version": "qiongtong-2294674-initial/1.0.0",
+  "sourceId": "bazi-monthly-qiongtong-2294674",
+  "method": "independent-manual-source-quote-anchors-plus-complete-curated-index; not application output",
+  "coverage": {
+    "indexedCases": 120,
+    "initialCases": 112,
+    "needsReviewCases": 8,
+    "independentMonthlyParagraphs": false,
+    "note": "120为日干×节月索引，不等于120条独立已审定处方；共享季节段和待审条目明确保留。"
+  },
+  "entries": [
+    {
+      "id": "甲-寅",
+      "dayStem": "甲",
+      "monthBranch": "寅",
+      "expectedStems": [
+        "丙",
+        "癸"
+      ],
+      "expectedRoles": [
+        "unranked",
+        "unranked"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论甲;codepoint[1491,1559)"
+    },
+    {
+      "id": "甲-卯",
+      "dayStem": "甲",
+      "monthBranch": "卯",
+      "expectedStems": [],
+      "expectedRoles": [],
+      "reviewStatus": "needs-review",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论甲;codepoint[2028,2150)"
+    },
+    {
+      "id": "甲-辰",
+      "dayStem": "甲",
+      "monthBranch": "辰",
+      "expectedStems": [
+        "庚",
+        "壬"
+      ],
+      "expectedRoles": [
+        "first",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论甲;codepoint[2152,2205)"
+    },
+    {
+      "id": "甲-巳",
+      "dayStem": "甲",
+      "monthBranch": "巳",
+      "expectedStems": [
+        "癸",
+        "丁"
+      ],
+      "expectedRoles": [
+        "first",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论甲;codepoint[2444,2467)"
+    },
+    {
+      "id": "甲-午",
+      "dayStem": "甲",
+      "monthBranch": "午",
+      "expectedStems": [
+        "癸",
+        "丁",
+        "庚"
+      ],
+      "expectedRoles": [
+        "first",
+        "support",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "shared-may-june-paragraph",
+      "sourceLocator": "oldid=2294674;论甲;codepoint[2644,2718)"
+    },
+    {
+      "id": "甲-未",
+      "dayStem": "甲",
+      "monthBranch": "未",
+      "expectedStems": [
+        "丁",
+        "庚"
+      ],
+      "expectedRoles": [
+        "first",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "shared-may-june-paragraph",
+      "sourceLocator": "oldid=2294674;论甲;codepoint[2644,2718)"
+    },
+    {
+      "id": "甲-申",
+      "dayStem": "甲",
+      "monthBranch": "申",
+      "expectedStems": [
+        "丁",
+        "庚"
+      ],
+      "expectedRoles": [
+        "first",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论甲;codepoint[3703,3791)"
+    },
+    {
+      "id": "甲-酉",
+      "dayStem": "甲",
+      "monthBranch": "酉",
+      "expectedStems": [
+        "丁",
+        "丙",
+        "庚"
+      ],
+      "expectedRoles": [
+        "first",
+        "support",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论甲;codepoint[3793,3824)"
+    },
+    {
+      "id": "甲-戌",
+      "dayStem": "甲",
+      "monthBranch": "戌",
+      "expectedStems": [
+        "丁",
+        "壬",
+        "癸"
+      ],
+      "expectedRoles": [
+        "first",
+        "support",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论甲;codepoint[3976,4034)"
+    },
+    {
+      "id": "甲-亥",
+      "dayStem": "甲",
+      "monthBranch": "亥",
+      "expectedStems": [
+        "庚",
+        "丁",
+        "丙"
+      ],
+      "expectedRoles": [
+        "parallel",
+        "parallel",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论甲;codepoint[4638,4671)"
+    },
+    {
+      "id": "甲-子",
+      "dayStem": "甲",
+      "monthBranch": "子",
+      "expectedStems": [
+        "丁",
+        "庚",
+        "丙"
+      ],
+      "expectedRoles": [
+        "first",
+        "support",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论甲;codepoint[4826,4927)"
+    },
+    {
+      "id": "甲-丑",
+      "dayStem": "甲",
+      "monthBranch": "丑",
+      "expectedStems": [
+        "庚",
+        "丁"
+      ],
+      "expectedRoles": [
+        "first",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论甲;codepoint[5015,5068)"
+    },
+    {
+      "id": "乙-寅",
+      "dayStem": "乙",
+      "monthBranch": "寅",
+      "expectedStems": [
+        "丙",
+        "癸"
+      ],
+      "expectedRoles": [
+        "first",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论乙;codepoint[5343,5394)"
+    },
+    {
+      "id": "乙-卯",
+      "dayStem": "乙",
+      "monthBranch": "卯",
+      "expectedStems": [
+        "丙",
+        "癸"
+      ],
+      "expectedRoles": [
+        "first",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论乙;codepoint[5494,5539)"
+    },
+    {
+      "id": "乙-辰",
+      "dayStem": "乙",
+      "monthBranch": "辰",
+      "expectedStems": [
+        "癸",
+        "丙"
+      ],
+      "expectedRoles": [
+        "first",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论乙;codepoint[5714,5735)"
+    },
+    {
+      "id": "乙-巳",
+      "dayStem": "乙",
+      "monthBranch": "巳",
+      "expectedStems": [
+        "癸"
+      ],
+      "expectedRoles": [
+        "first"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论乙;codepoint[6169,6291)"
+    },
+    {
+      "id": "乙-午",
+      "dayStem": "乙",
+      "monthBranch": "午",
+      "expectedStems": [],
+      "expectedRoles": [],
+      "reviewStatus": "needs-review",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论乙;codepoint[6338,6404)"
+    },
+    {
+      "id": "乙-未",
+      "dayStem": "乙",
+      "monthBranch": "未",
+      "expectedStems": [],
+      "expectedRoles": [],
+      "reviewStatus": "needs-review",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论乙;codepoint[6521,6584)"
+    },
+    {
+      "id": "乙-申",
+      "dayStem": "乙",
+      "monthBranch": "申",
+      "expectedStems": [
+        "己"
+      ],
+      "expectedRoles": [
+        "unranked"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论乙;codepoint[6960,7066)"
+    },
+    {
+      "id": "乙-酉",
+      "dayStem": "乙",
+      "monthBranch": "酉",
+      "expectedStems": [],
+      "expectedRoles": [],
+      "reviewStatus": "needs-review",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论乙;codepoint[7254,7334)"
+    },
+    {
+      "id": "乙-戌",
+      "dayStem": "乙",
+      "monthBranch": "戌",
+      "expectedStems": [
+        "癸"
+      ],
+      "expectedRoles": [
+        "first"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论乙;codepoint[7615,7710)"
+    },
+    {
+      "id": "乙-亥",
+      "dayStem": "乙",
+      "monthBranch": "亥",
+      "expectedStems": [
+        "丙",
+        "戊"
+      ],
+      "expectedRoles": [
+        "first",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论乙;codepoint[7784,7856)"
+    },
+    {
+      "id": "乙-子",
+      "dayStem": "乙",
+      "monthBranch": "子",
+      "expectedStems": [
+        "丙"
+      ],
+      "expectedRoles": [
+        "first"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论乙;codepoint[7990,8043)"
+    },
+    {
+      "id": "乙-丑",
+      "dayStem": "乙",
+      "monthBranch": "丑",
+      "expectedStems": [],
+      "expectedRoles": [],
+      "reviewStatus": "needs-review",
+      "sourceScope": "generic-winter-context-only",
+      "sourceLocator": "oldid=2294674;论乙;codepoint[8297,8340)"
+    },
+    {
+      "id": "丙-寅",
+      "dayStem": "丙",
+      "monthBranch": "寅",
+      "expectedStems": [
+        "壬",
+        "庚"
+      ],
+      "expectedRoles": [
+        "first",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论丙;codepoint[9223,9277)"
+    },
+    {
+      "id": "丙-卯",
+      "dayStem": "丙",
+      "monthBranch": "卯",
+      "expectedStems": [
+        "壬"
+      ],
+      "expectedRoles": [
+        "first"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论丙;codepoint[9766,9815)"
+    },
+    {
+      "id": "丙-辰",
+      "dayStem": "丙",
+      "monthBranch": "辰",
+      "expectedStems": [
+        "壬"
+      ],
+      "expectedRoles": [
+        "first"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论丙;codepoint[10165,10235)"
+    },
+    {
+      "id": "丙-巳",
+      "dayStem": "丙",
+      "monthBranch": "巳",
+      "expectedStems": [
+        "壬"
+      ],
+      "expectedRoles": [
+        "first"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论丙;codepoint[10473,10601)"
+    },
+    {
+      "id": "丙-午",
+      "dayStem": "丙",
+      "monthBranch": "午",
+      "expectedStems": [
+        "壬"
+      ],
+      "expectedRoles": [
+        "unranked"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论丙;codepoint[10839,10930)"
+    },
+    {
+      "id": "丙-未",
+      "dayStem": "丙",
+      "monthBranch": "未",
+      "expectedStems": [
+        "壬",
+        "庚"
+      ],
+      "expectedRoles": [
+        "first",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论丙;codepoint[11190,11218)"
+    },
+    {
+      "id": "丙-申",
+      "dayStem": "丙",
+      "monthBranch": "申",
+      "expectedStems": [
+        "壬"
+      ],
+      "expectedRoles": [
+        "first"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论丙;codepoint[11467,11520)"
+    },
+    {
+      "id": "丙-酉",
+      "dayStem": "丙",
+      "monthBranch": "酉",
+      "expectedStems": [
+        "壬"
+      ],
+      "expectedRoles": [
+        "first"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论丙;codepoint[11722,11756)"
+    },
+    {
+      "id": "丙-戌",
+      "dayStem": "丙",
+      "monthBranch": "戌",
+      "expectedStems": [
+        "甲",
+        "壬"
+      ],
+      "expectedRoles": [
+        "first",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论丙;codepoint[12015,12130)"
+    },
+    {
+      "id": "丙-亥",
+      "dayStem": "丙",
+      "monthBranch": "亥",
+      "expectedStems": [],
+      "expectedRoles": [],
+      "reviewStatus": "needs-review",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论丙;codepoint[12417,12446)"
+    },
+    {
+      "id": "丙-子",
+      "dayStem": "丙",
+      "monthBranch": "子",
+      "expectedStems": [
+        "壬",
+        "戊"
+      ],
+      "expectedRoles": [
+        "first",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论丙;codepoint[12525,12558)"
+    },
+    {
+      "id": "丙-丑",
+      "dayStem": "丙",
+      "monthBranch": "丑",
+      "expectedStems": [
+        "壬"
+      ],
+      "expectedRoles": [
+        "first"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论丙;codepoint[12807,12878)"
+    },
+    {
+      "id": "丁-寅",
+      "dayStem": "丁",
+      "monthBranch": "寅",
+      "expectedStems": [
+        "庚"
+      ],
+      "expectedRoles": [
+        "unranked"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论丁;codepoint[13123,13161)"
+    },
+    {
+      "id": "丁-卯",
+      "dayStem": "丁",
+      "monthBranch": "卯",
+      "expectedStems": [
+        "庚",
+        "甲"
+      ],
+      "expectedRoles": [
+        "first",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论丁;codepoint[13461,13526)"
+    },
+    {
+      "id": "丁-辰",
+      "dayStem": "丁",
+      "monthBranch": "辰",
+      "expectedStems": [
+        "甲",
+        "庚"
+      ],
+      "expectedRoles": [
+        "first",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论丁;codepoint[13826,13882)"
+    },
+    {
+      "id": "丁-巳",
+      "dayStem": "丁",
+      "monthBranch": "巳",
+      "expectedStems": [
+        "甲",
+        "庚"
+      ],
+      "expectedRoles": [
+        "unranked",
+        "unranked"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论丁;codepoint[13997,14099)"
+    },
+    {
+      "id": "丁-午",
+      "dayStem": "丁",
+      "monthBranch": "午",
+      "expectedStems": [],
+      "expectedRoles": [],
+      "reviewStatus": "needs-review",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论丁;codepoint[14333,14356)"
+    },
+    {
+      "id": "丁-未",
+      "dayStem": "丁",
+      "monthBranch": "未",
+      "expectedStems": [
+        "甲",
+        "壬"
+      ],
+      "expectedRoles": [
+        "first",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论丁;codepoint[14825,14863)"
+    },
+    {
+      "id": "丁-申",
+      "dayStem": "丁",
+      "monthBranch": "申",
+      "expectedStems": [
+        "甲",
+        "庚"
+      ],
+      "expectedRoles": [
+        "first",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论丁;codepoint[15500,15604)"
+    },
+    {
+      "id": "丁-酉",
+      "dayStem": "丁",
+      "monthBranch": "酉",
+      "expectedStems": [
+        "甲",
+        "丙",
+        "庚"
+      ],
+      "expectedRoles": [
+        "parallel",
+        "parallel",
+        "parallel"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "shared-autumn-paragraph",
+      "sourceLocator": "oldid=2294674;论丁;codepoint[15207,15323)"
+    },
+    {
+      "id": "丁-戌",
+      "dayStem": "丁",
+      "monthBranch": "戌",
+      "expectedStems": [
+        "甲",
+        "庚"
+      ],
+      "expectedRoles": [
+        "parallel",
+        "parallel"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "shared-autumn-paragraph",
+      "sourceLocator": "oldid=2294674;论丁;codepoint[15207,15323)"
+    },
+    {
+      "id": "丁-亥",
+      "dayStem": "丁",
+      "monthBranch": "亥",
+      "expectedStems": [
+        "庚",
+        "甲"
+      ],
+      "expectedRoles": [
+        "parallel",
+        "parallel"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "shared-winter-paragraph",
+      "sourceLocator": "oldid=2294674;论丁;codepoint[15853,15941)"
+    },
+    {
+      "id": "丁-子",
+      "dayStem": "丁",
+      "monthBranch": "子",
+      "expectedStems": [
+        "庚",
+        "甲"
+      ],
+      "expectedRoles": [
+        "parallel",
+        "parallel"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "shared-winter-paragraph",
+      "sourceLocator": "oldid=2294674;论丁;codepoint[15853,15941)"
+    },
+    {
+      "id": "丁-丑",
+      "dayStem": "丁",
+      "monthBranch": "丑",
+      "expectedStems": [
+        "庚",
+        "甲"
+      ],
+      "expectedRoles": [
+        "parallel",
+        "parallel"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "shared-winter-paragraph",
+      "sourceLocator": "oldid=2294674;论丁;codepoint[15853,15941)"
+    },
+    {
+      "id": "戊-寅",
+      "dayStem": "戊",
+      "monthBranch": "寅",
+      "expectedStems": [
+        "丙",
+        "甲",
+        "癸"
+      ],
+      "expectedRoles": [
+        "first",
+        "support",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "shared-spring-paragraph",
+      "sourceLocator": "oldid=2294674;论戊;codepoint[17172,17280)"
+    },
+    {
+      "id": "戊-卯",
+      "dayStem": "戊",
+      "monthBranch": "卯",
+      "expectedStems": [
+        "丙",
+        "甲",
+        "癸"
+      ],
+      "expectedRoles": [
+        "first",
+        "support",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "shared-spring-paragraph",
+      "sourceLocator": "oldid=2294674;论戊;codepoint[17172,17280)"
+    },
+    {
+      "id": "戊-辰",
+      "dayStem": "戊",
+      "monthBranch": "辰",
+      "expectedStems": [
+        "甲",
+        "丙",
+        "癸"
+      ],
+      "expectedRoles": [
+        "first",
+        "support",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "shared-spring-paragraph",
+      "sourceLocator": "oldid=2294674;论戊;codepoint[17172,17280)"
+    },
+    {
+      "id": "戊-巳",
+      "dayStem": "戊",
+      "monthBranch": "巳",
+      "expectedStems": [
+        "甲",
+        "丙",
+        "癸"
+      ],
+      "expectedRoles": [
+        "first",
+        "support",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论戊;codepoint[18012,18068)"
+    },
+    {
+      "id": "戊-午",
+      "dayStem": "戊",
+      "monthBranch": "午",
+      "expectedStems": [
+        "壬",
+        "甲"
+      ],
+      "expectedRoles": [
+        "first",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论戊;codepoint[18239,18275)"
+    },
+    {
+      "id": "戊-未",
+      "dayStem": "戊",
+      "monthBranch": "未",
+      "expectedStems": [
+        "癸",
+        "丙",
+        "甲"
+      ],
+      "expectedRoles": [
+        "first",
+        "support",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论戊;codepoint[18443,18515)"
+    },
+    {
+      "id": "戊-申",
+      "dayStem": "戊",
+      "monthBranch": "申",
+      "expectedStems": [
+        "丙",
+        "癸",
+        "甲"
+      ],
+      "expectedRoles": [
+        "first",
+        "support",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论戊;codepoint[18717,18829)"
+    },
+    {
+      "id": "戊-酉",
+      "dayStem": "戊",
+      "monthBranch": "酉",
+      "expectedStems": [
+        "丙",
+        "癸"
+      ],
+      "expectedRoles": [
+        "first",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论戊;codepoint[18945,19038)"
+    },
+    {
+      "id": "戊-戌",
+      "dayStem": "戊",
+      "monthBranch": "戌",
+      "expectedStems": [
+        "甲",
+        "癸"
+      ],
+      "expectedRoles": [
+        "first",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论戊;codepoint[19152,19215)"
+    },
+    {
+      "id": "戊-亥",
+      "dayStem": "戊",
+      "monthBranch": "亥",
+      "expectedStems": [
+        "甲",
+        "丙"
+      ],
+      "expectedRoles": [
+        "first",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论戊;codepoint[19489,19577)"
+    },
+    {
+      "id": "戊-子",
+      "dayStem": "戊",
+      "monthBranch": "子",
+      "expectedStems": [
+        "丙",
+        "甲"
+      ],
+      "expectedRoles": [
+        "first",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "shared-november-december-paragraph",
+      "sourceLocator": "oldid=2294674;论戊;codepoint[19749,19832)"
+    },
+    {
+      "id": "戊-丑",
+      "dayStem": "戊",
+      "monthBranch": "丑",
+      "expectedStems": [
+        "丙",
+        "甲"
+      ],
+      "expectedRoles": [
+        "first",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "shared-november-december-paragraph",
+      "sourceLocator": "oldid=2294674;论戊;codepoint[19749,19832)"
+    },
+    {
+      "id": "己-寅",
+      "dayStem": "己",
+      "monthBranch": "寅",
+      "expectedStems": [
+        "丙"
+      ],
+      "expectedRoles": [
+        "first"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论己;codepoint[20108,20234)"
+    },
+    {
+      "id": "己-卯",
+      "dayStem": "己",
+      "monthBranch": "卯",
+      "expectedStems": [
+        "甲",
+        "癸"
+      ],
+      "expectedRoles": [
+        "first",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论己;codepoint[20400,20481)"
+    },
+    {
+      "id": "己-辰",
+      "dayStem": "己",
+      "monthBranch": "辰",
+      "expectedStems": [
+        "丙",
+        "癸",
+        "甲"
+      ],
+      "expectedRoles": [
+        "first",
+        "support",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论己;codepoint[20689,20759)"
+    },
+    {
+      "id": "己-巳",
+      "dayStem": "己",
+      "monthBranch": "巳",
+      "expectedStems": [
+        "癸",
+        "丙"
+      ],
+      "expectedRoles": [
+        "first",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "shared-summer-paragraph",
+      "sourceLocator": "oldid=2294674;论己;codepoint[20931,20984)"
+    },
+    {
+      "id": "己-午",
+      "dayStem": "己",
+      "monthBranch": "午",
+      "expectedStems": [
+        "癸",
+        "丙"
+      ],
+      "expectedRoles": [
+        "first",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "shared-summer-paragraph",
+      "sourceLocator": "oldid=2294674;论己;codepoint[20931,20984)"
+    },
+    {
+      "id": "己-未",
+      "dayStem": "己",
+      "monthBranch": "未",
+      "expectedStems": [
+        "癸",
+        "丙"
+      ],
+      "expectedRoles": [
+        "first",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "shared-summer-paragraph",
+      "sourceLocator": "oldid=2294674;论己;codepoint[20931,20984)"
+    },
+    {
+      "id": "己-申",
+      "dayStem": "己",
+      "monthBranch": "申",
+      "expectedStems": [
+        "癸",
+        "丙",
+        "辛"
+      ],
+      "expectedRoles": [
+        "first",
+        "support",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "shared-autumn-paragraph",
+      "sourceLocator": "oldid=2294674;论己;codepoint[21628,21662)"
+    },
+    {
+      "id": "己-酉",
+      "dayStem": "己",
+      "monthBranch": "酉",
+      "expectedStems": [
+        "癸",
+        "丙",
+        "辛"
+      ],
+      "expectedRoles": [
+        "first",
+        "support",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "shared-autumn-paragraph",
+      "sourceLocator": "oldid=2294674;论己;codepoint[21628,21662)"
+    },
+    {
+      "id": "己-戌",
+      "dayStem": "己",
+      "monthBranch": "戌",
+      "expectedStems": [
+        "癸",
+        "丙",
+        "辛"
+      ],
+      "expectedRoles": [
+        "first",
+        "support",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "shared-autumn-paragraph",
+      "sourceLocator": "oldid=2294674;论己;codepoint[21628,21662)"
+    },
+    {
+      "id": "己-亥",
+      "dayStem": "己",
+      "monthBranch": "亥",
+      "expectedStems": [
+        "丙"
+      ],
+      "expectedRoles": [
+        "first"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "shared-winter-paragraph",
+      "sourceLocator": "oldid=2294674;论己;codepoint[21819,21883)"
+    },
+    {
+      "id": "己-子",
+      "dayStem": "己",
+      "monthBranch": "子",
+      "expectedStems": [
+        "丙"
+      ],
+      "expectedRoles": [
+        "first"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "shared-winter-paragraph",
+      "sourceLocator": "oldid=2294674;论己;codepoint[21819,21883)"
+    },
+    {
+      "id": "己-丑",
+      "dayStem": "己",
+      "monthBranch": "丑",
+      "expectedStems": [
+        "丙"
+      ],
+      "expectedRoles": [
+        "first"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "shared-winter-paragraph",
+      "sourceLocator": "oldid=2294674;论己;codepoint[21819,21883)"
+    },
+    {
+      "id": "庚-寅",
+      "dayStem": "庚",
+      "monthBranch": "寅",
+      "expectedStems": [
+        "丙",
+        "甲"
+      ],
+      "expectedRoles": [
+        "first",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论庚;codepoint[22751,22834)"
+    },
+    {
+      "id": "庚-卯",
+      "dayStem": "庚",
+      "monthBranch": "卯",
+      "expectedStems": [
+        "丁",
+        "甲"
+      ],
+      "expectedRoles": [
+        "first",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论庚;codepoint[23096,23176)"
+    },
+    {
+      "id": "庚-辰",
+      "dayStem": "庚",
+      "monthBranch": "辰",
+      "expectedStems": [
+        "甲",
+        "丁"
+      ],
+      "expectedRoles": [
+        "first",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论庚;codepoint[23510,23594)"
+    },
+    {
+      "id": "庚-巳",
+      "dayStem": "庚",
+      "monthBranch": "巳",
+      "expectedStems": [
+        "壬",
+        "丙",
+        "戊"
+      ],
+      "expectedRoles": [
+        "unranked",
+        "unranked",
+        "unranked"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论庚;codepoint[24089,24118)"
+    },
+    {
+      "id": "庚-午",
+      "dayStem": "庚",
+      "monthBranch": "午",
+      "expectedStems": [
+        "壬",
+        "癸"
+      ],
+      "expectedRoles": [
+        "first",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论庚;codepoint[24165,24266)"
+    },
+    {
+      "id": "庚-未",
+      "dayStem": "庚",
+      "monthBranch": "未",
+      "expectedStems": [
+        "丁",
+        "甲"
+      ],
+      "expectedRoles": [
+        "first",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论庚;codepoint[24366,24465)"
+    },
+    {
+      "id": "庚-申",
+      "dayStem": "庚",
+      "monthBranch": "申",
+      "expectedStems": [
+        "丁",
+        "甲"
+      ],
+      "expectedRoles": [
+        "first",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论庚;codepoint[24622,24687)"
+    },
+    {
+      "id": "庚-酉",
+      "dayStem": "庚",
+      "monthBranch": "酉",
+      "expectedStems": [
+        "丁",
+        "甲",
+        "丙"
+      ],
+      "expectedRoles": [
+        "parallel",
+        "parallel",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论庚;codepoint[24873,24946)"
+    },
+    {
+      "id": "庚-戌",
+      "dayStem": "庚",
+      "monthBranch": "戌",
+      "expectedStems": [
+        "甲",
+        "壬"
+      ],
+      "expectedRoles": [
+        "first",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论庚;codepoint[25159,25206)"
+    },
+    {
+      "id": "庚-亥",
+      "dayStem": "庚",
+      "monthBranch": "亥",
+      "expectedStems": [
+        "丁",
+        "丙"
+      ],
+      "expectedRoles": [
+        "parallel",
+        "parallel"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论庚;codepoint[25438,25504)"
+    },
+    {
+      "id": "庚-子",
+      "dayStem": "庚",
+      "monthBranch": "子",
+      "expectedStems": [
+        "丁",
+        "甲",
+        "丙"
+      ],
+      "expectedRoles": [
+        "parallel",
+        "parallel",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论庚;codepoint[25642,25740)"
+    },
+    {
+      "id": "庚-丑",
+      "dayStem": "庚",
+      "monthBranch": "丑",
+      "expectedStems": [
+        "丙",
+        "丁",
+        "甲"
+      ],
+      "expectedRoles": [
+        "first",
+        "support",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论庚;codepoint[25984,26031)"
+    },
+    {
+      "id": "辛-寅",
+      "dayStem": "辛",
+      "monthBranch": "寅",
+      "expectedStems": [
+        "己",
+        "壬"
+      ],
+      "expectedRoles": [
+        "first",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论辛;codepoint[26446,26489)"
+    },
+    {
+      "id": "辛-卯",
+      "dayStem": "辛",
+      "monthBranch": "卯",
+      "expectedStems": [
+        "壬"
+      ],
+      "expectedRoles": [
+        "first"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论辛;codepoint[26556,26685)"
+    },
+    {
+      "id": "辛-辰",
+      "dayStem": "辛",
+      "monthBranch": "辰",
+      "expectedStems": [
+        "壬",
+        "甲"
+      ],
+      "expectedRoles": [
+        "first",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论辛;codepoint[27011,27082)"
+    },
+    {
+      "id": "辛-巳",
+      "dayStem": "辛",
+      "monthBranch": "巳",
+      "expectedStems": [
+        "壬"
+      ],
+      "expectedRoles": [
+        "first"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论辛;codepoint[27266,27362)"
+    },
+    {
+      "id": "辛-午",
+      "dayStem": "辛",
+      "monthBranch": "午",
+      "expectedStems": [
+        "己",
+        "壬"
+      ],
+      "expectedRoles": [
+        "parallel",
+        "parallel"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论辛;codepoint[27510,27666)"
+    },
+    {
+      "id": "辛-未",
+      "dayStem": "辛",
+      "monthBranch": "未",
+      "expectedStems": [
+        "壬",
+        "庚"
+      ],
+      "expectedRoles": [
+        "first",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论辛;codepoint[27827,27989)"
+    },
+    {
+      "id": "辛-申",
+      "dayStem": "辛",
+      "monthBranch": "申",
+      "expectedStems": [
+        "壬"
+      ],
+      "expectedRoles": [
+        "first"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论辛;codepoint[28258,28303)"
+    },
+    {
+      "id": "辛-酉",
+      "dayStem": "辛",
+      "monthBranch": "酉",
+      "expectedStems": [
+        "壬"
+      ],
+      "expectedRoles": [
+        "first"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论辛;codepoint[28346,28418)"
+    },
+    {
+      "id": "辛-戌",
+      "dayStem": "辛",
+      "monthBranch": "戌",
+      "expectedStems": [
+        "壬",
+        "甲"
+      ],
+      "expectedRoles": [
+        "first",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论辛;codepoint[28943,29019)"
+    },
+    {
+      "id": "辛-亥",
+      "dayStem": "辛",
+      "monthBranch": "亥",
+      "expectedStems": [
+        "壬",
+        "丙"
+      ],
+      "expectedRoles": [
+        "first",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论辛;codepoint[29317,29418)"
+    },
+    {
+      "id": "辛-子",
+      "dayStem": "辛",
+      "monthBranch": "子",
+      "expectedStems": [
+        "壬",
+        "丙"
+      ],
+      "expectedRoles": [
+        "unranked",
+        "unranked"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论辛;codepoint[29525,29586)"
+    },
+    {
+      "id": "辛-丑",
+      "dayStem": "辛",
+      "monthBranch": "丑",
+      "expectedStems": [
+        "丙",
+        "壬"
+      ],
+      "expectedRoles": [
+        "first",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论辛;codepoint[29757,29853)"
+    },
+    {
+      "id": "壬-寅",
+      "dayStem": "壬",
+      "monthBranch": "寅",
+      "expectedStems": [
+        "庚"
+      ],
+      "expectedRoles": [
+        "first"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论壬;codepoint[30529,30614)"
+    },
+    {
+      "id": "壬-卯",
+      "dayStem": "壬",
+      "monthBranch": "卯",
+      "expectedStems": [
+        "戊",
+        "辛",
+        "庚"
+      ],
+      "expectedRoles": [
+        "first",
+        "support",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论壬;codepoint[30819,30868)"
+    },
+    {
+      "id": "壬-辰",
+      "dayStem": "壬",
+      "monthBranch": "辰",
+      "expectedStems": [
+        "甲",
+        "庚"
+      ],
+      "expectedRoles": [
+        "first",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论壬;codepoint[31052,31161)"
+    },
+    {
+      "id": "壬-巳",
+      "dayStem": "壬",
+      "monthBranch": "巳",
+      "expectedStems": [
+        "壬",
+        "辛",
+        "庚"
+      ],
+      "expectedRoles": [
+        "first",
+        "support",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论壬;codepoint[31290,31377)"
+    },
+    {
+      "id": "壬-午",
+      "dayStem": "壬",
+      "monthBranch": "午",
+      "expectedStems": [
+        "癸",
+        "庚"
+      ],
+      "expectedRoles": [
+        "first",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论壬;codepoint[31582,31642)"
+    },
+    {
+      "id": "壬-未",
+      "dayStem": "壬",
+      "monthBranch": "未",
+      "expectedStems": [],
+      "expectedRoles": [],
+      "reviewStatus": "needs-review",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论壬;codepoint[31771,31890)"
+    },
+    {
+      "id": "壬-申",
+      "dayStem": "壬",
+      "monthBranch": "申",
+      "expectedStems": [
+        "戊",
+        "丁"
+      ],
+      "expectedRoles": [
+        "first",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论壬;codepoint[31979,32101)"
+    },
+    {
+      "id": "壬-酉",
+      "dayStem": "壬",
+      "monthBranch": "酉",
+      "expectedStems": [
+        "甲",
+        "庚"
+      ],
+      "expectedRoles": [
+        "first",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论壬;codepoint[32493,32518)"
+    },
+    {
+      "id": "壬-戌",
+      "dayStem": "壬",
+      "monthBranch": "戌",
+      "expectedStems": [
+        "甲",
+        "丙"
+      ],
+      "expectedRoles": [
+        "first",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论壬;codepoint[32775,32799)"
+    },
+    {
+      "id": "壬-亥",
+      "dayStem": "壬",
+      "monthBranch": "亥",
+      "expectedStems": [
+        "戊"
+      ],
+      "expectedRoles": [
+        "first"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论壬;codepoint[32874,32982)"
+    },
+    {
+      "id": "壬-子",
+      "dayStem": "壬",
+      "monthBranch": "子",
+      "expectedStems": [
+        "戊",
+        "丙"
+      ],
+      "expectedRoles": [
+        "first",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论壬;codepoint[33159,33221)"
+    },
+    {
+      "id": "壬-丑",
+      "dayStem": "壬",
+      "monthBranch": "丑",
+      "expectedStems": [
+        "丙",
+        "丁",
+        "甲"
+      ],
+      "expectedRoles": [
+        "first",
+        "support",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论壬;codepoint[33624,33657)"
+    },
+    {
+      "id": "癸-寅",
+      "dayStem": "癸",
+      "monthBranch": "寅",
+      "expectedStems": [
+        "辛",
+        "丙"
+      ],
+      "expectedRoles": [
+        "first",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论癸;codepoint[33735,33801)"
+    },
+    {
+      "id": "癸-卯",
+      "dayStem": "癸",
+      "monthBranch": "卯",
+      "expectedStems": [
+        "庚",
+        "辛"
+      ],
+      "expectedRoles": [
+        "first",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论癸;codepoint[34020,34133)"
+    },
+    {
+      "id": "癸-辰",
+      "dayStem": "癸",
+      "monthBranch": "辰",
+      "expectedStems": [
+        "丙"
+      ],
+      "expectedRoles": [
+        "first"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论癸;codepoint[34251,34362)"
+    },
+    {
+      "id": "癸-巳",
+      "dayStem": "癸",
+      "monthBranch": "巳",
+      "expectedStems": [
+        "辛"
+      ],
+      "expectedRoles": [
+        "first"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论癸;codepoint[34596,34670)"
+    },
+    {
+      "id": "癸-午",
+      "dayStem": "癸",
+      "monthBranch": "午",
+      "expectedStems": [
+        "庚",
+        "辛",
+        "壬"
+      ],
+      "expectedRoles": [
+        "parallel",
+        "parallel",
+        "parallel"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论癸;codepoint[34785,34856)"
+    },
+    {
+      "id": "癸-未",
+      "dayStem": "癸",
+      "monthBranch": "未",
+      "expectedStems": [
+        "庚",
+        "辛"
+      ],
+      "expectedRoles": [
+        "parallel",
+        "parallel"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论癸;codepoint[35026,35180)"
+    },
+    {
+      "id": "癸-申",
+      "dayStem": "癸",
+      "monthBranch": "申",
+      "expectedStems": [
+        "丁"
+      ],
+      "expectedRoles": [
+        "first"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论癸;codepoint[35255,35386)"
+    },
+    {
+      "id": "癸-酉",
+      "dayStem": "癸",
+      "monthBranch": "酉",
+      "expectedStems": [
+        "辛",
+        "丙"
+      ],
+      "expectedRoles": [
+        "first",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论癸;codepoint[35529,35620)"
+    },
+    {
+      "id": "癸-戌",
+      "dayStem": "癸",
+      "monthBranch": "戌",
+      "expectedStems": [
+        "辛"
+      ],
+      "expectedRoles": [
+        "first"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论癸;codepoint[35693,35825)"
+    },
+    {
+      "id": "癸-亥",
+      "dayStem": "癸",
+      "monthBranch": "亥",
+      "expectedStems": [
+        "庚",
+        "辛"
+      ],
+      "expectedRoles": [
+        "parallel",
+        "parallel"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论癸;codepoint[35912,35965)"
+    },
+    {
+      "id": "癸-子",
+      "dayStem": "癸",
+      "monthBranch": "子",
+      "expectedStems": [
+        "丙",
+        "辛"
+      ],
+      "expectedRoles": [
+        "first",
+        "support"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论癸;codepoint[36151,36246)"
+    },
+    {
+      "id": "癸-丑",
+      "dayStem": "癸",
+      "monthBranch": "丑",
+      "expectedStems": [
+        "丙"
+      ],
+      "expectedRoles": [
+        "first"
+      ],
+      "reviewStatus": "initial",
+      "sourceScope": "month-explicit",
+      "sourceLocator": "oldid=2294674;论癸;codepoint[36398,36492)"
+    }
+  ],
+  "handAnchors": [
+    {
+      "id": "甲-寅",
+      "stems": [
+        "丙",
+        "癸"
+      ],
+      "roles": [
+        "unranked",
+        "unranked"
+      ],
+      "sourcePhrase": "得丙癸逢"
+    },
+    {
+      "id": "甲-辰",
+      "stems": [
+        "庚",
+        "壬"
+      ],
+      "roles": [
+        "first",
+        "support"
+      ],
+      "sourcePhrase": "先取庚金，次用壬水。"
+    },
+    {
+      "id": "甲-丑",
+      "stems": [
+        "庚",
+        "丁"
+      ],
+      "roles": [
+        "first",
+        "support"
+      ],
+      "sourcePhrase": "先用庚噼甲"
+    },
+    {
+      "id": "乙-酉",
+      "stems": [],
+      "roles": [],
+      "sourcePhrase": "在白露之后"
+    },
+    {
+      "id": "乙-丑",
+      "stems": [],
+      "roles": [],
+      "sourcePhrase": "冬月之木"
+    },
+    {
+      "id": "丙-亥",
+      "stems": [],
+      "roles": [],
+      "sourcePhrase": "木旺宜庚，水旺宜戊，火旺用壬"
+    },
+    {
+      "id": "丁-寅",
+      "stems": [
+        "庚"
+      ],
+      "roles": [
+        "unranked"
+      ],
+      "sourcePhrase": "姑用庚金。"
+    },
+    {
+      "id": "丁-未",
+      "stems": [
+        "甲",
+        "壬"
+      ],
+      "roles": [
+        "first",
+        "support"
+      ],
+      "sourcePhrase": "专取甲木，壬水次之。"
+    },
+    {
+      "id": "己-申",
+      "stems": [
+        "癸",
+        "丙",
+        "辛"
+      ],
+      "roles": [
+        "first",
+        "support",
+        "support"
+      ],
+      "sourcePhrase": "先癸后丙，取辛辅癸。"
+    },
+    {
+      "id": "庚-巳",
+      "stems": [
+        "壬",
+        "丙",
+        "戊"
+      ],
+      "roles": [
+        "unranked",
+        "unranked",
+        "unranked"
+      ],
+      "sourcePhrase": "但非拘执先后"
+    },
+    {
+      "id": "辛-辰",
+      "stems": [
+        "壬",
+        "甲"
+      ],
+      "roles": [
+        "first",
+        "support"
+      ],
+      "sourcePhrase": "先壬后甲。"
+    },
+    {
+      "id": "辛-戌",
+      "stems": [
+        "壬",
+        "甲"
+      ],
+      "roles": [
+        "first",
+        "support"
+      ],
+      "sourcePhrase": "先壬后甲。"
+    },
+    {
+      "id": "壬-未",
+      "stems": [],
+      "roles": [],
+      "sourcePhrase": "先用辛金癸水，次用甲木"
+    },
+    {
+      "id": "癸-巳",
+      "stems": [
+        "辛"
+      ],
+      "roles": [
+        "first"
+      ],
+      "sourcePhrase": "无辛用庚"
+    },
+    {
+      "id": "癸-丑",
+      "stems": [
+        "丙"
+      ],
+      "roles": [
+        "first"
+      ],
+      "sourcePhrase": "宜丙火解冻。"
+    }
+  ],
+  "predicateExamples": [
+    {
+      "id": "jia-hai-three-exposed",
+      "caseId": "甲-亥",
+      "facts": {
+        "exposed": [
+          "庚",
+          "丁",
+          "戊"
+        ],
+        "hidden": [],
+        "complete": true
+      },
+      "expected": "matched"
+    },
+    {
+      "id": "jia-hai-three-exposed",
+      "caseId": "甲-亥",
+      "facts": {
+        "exposed": [
+          "庚",
+          "丁"
+        ],
+        "hidden": [
+          "戊"
+        ],
+        "complete": true
+      },
+      "expected": "not-matched"
+    },
+    {
+      "id": "jia-chou-geng-exposed-ding-hidden",
+      "caseId": "甲-丑",
+      "facts": {
+        "exposed": [
+          "庚"
+        ],
+        "hidden": [
+          "丁"
+        ],
+        "complete": true
+      },
+      "expected": "matched"
+    },
+    {
+      "id": "jia-chou-geng-exposed-ding-hidden",
+      "caseId": "甲-丑",
+      "facts": {
+        "exposed": [
+          "庚",
+          "丁"
+        ],
+        "hidden": [],
+        "complete": true
+      },
+      "expected": "not-matched"
+    },
+    {
+      "id": "yi-zi-no-bing-anywhere",
+      "caseId": "乙-子",
+      "facts": {
+        "exposed": [
+          "乙",
+          "癸"
+        ],
+        "hidden": [
+          "壬",
+          "己"
+        ],
+        "complete": true
+      },
+      "expected": "matched"
+    },
+    {
+      "id": "yi-zi-no-bing-anywhere",
+      "caseId": "乙-子",
+      "facts": {
+        "exposed": [
+          "乙",
+          "癸"
+        ],
+        "hidden": [
+          "丙"
+        ],
+        "complete": true
+      },
+      "expected": "not-matched"
+    },
+    {
+      "id": "yi-zi-no-bing-anywhere",
+      "caseId": "乙-子",
+      "facts": {
+        "exposed": [
+          "乙",
+          "癸"
+        ],
+        "hidden": [
+          "壬"
+        ],
+        "complete": false
+      },
+      "expected": "uncertain"
+    }
+  ]
+}

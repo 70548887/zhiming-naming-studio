@@ -1,0 +1,121 @@
+{
+  "schema": "m975-audit-artifacts/1",
+  "reviewId": "M975-M754-GROUP",
+  "files": [
+    {
+      "path": "82a089e-fixed-boundary.patch",
+      "bytes": 4169,
+      "sha256": "5dc1dcea92c21c87fc2d7851983978992f2e9f49bb9252a933168e98a10fde6c"
+    },
+    {
+      "path": "b3258fe-fixed-boundary.patch",
+      "bytes": 11462,
+      "sha256": "da546878cc3136a11481d5ad4b99c6eb546dbcaf00e60bc74631c4079fe2e997"
+    },
+    {
+      "path": "execution-ledger.json",
+      "bytes": 7383,
+      "sha256": "bb362b508d07ac29002ef833a50e469362cfe969572cd7e3ef949d84db91699f"
+    },
+    {
+      "path": "finalize-review.mjs",
+      "bytes": 13270,
+      "sha256": "aa18c92c9c4d074721a916247487da3f94835acae0ea713d2e03e92d7dff2e49"
+    },
+    {
+      "path": "fixed/src/domain/m754-element-imagery-generation.ts",
+      "bytes": 928,
+      "sha256": "8870d6a590750a875afba96e34554a9e0bad5931748d1fbb3a19d753bb149ccc"
+    },
+    {
+      "path": "fixed/src/main/m754-element-imagery-generation.ts",
+      "bytes": 1054,
+      "sha256": "02f3e9527c0885e81206815e61e1d47db64ccb7868c484246f65ac614a1ca131"
+    },
+    {
+      "path": "fixed/src/main/m754-element-imagery.ts",
+      "bytes": 12672,
+      "sha256": "415e5a5248bbefaab735f5e954fcb72074bd263da5dea51718c12d4604af7d95"
+    },
+    {
+      "path": "fixed/src/main/m779-admitted-element-imagery.ts",
+      "bytes": 15216,
+      "sha256": "7bfe28a05287880400bdfe1cc6f56b8540e356760ac9100a653f74f08667104b"
+    },
+    {
+      "path": "fixed/src/shared/m754-element-imagery-pins.ts",
+      "bytes": 408,
+      "sha256": "a822962900f645f678a2abbc9f61aaa0f21114c1bfab9516590962e7eaf51993"
+    },
+    {
+      "path": "fixed/src/shared/m754-element-imagery.ts",
+      "bytes": 2288,
+      "sha256": "f82db121e5c762aa70c2dda1d13ff8af3be5ff1da0785035b4661d89790f11d2"
+    },
+    {
+      "path": "fixed/src/shared/m779-admitted-element-imagery.ts",
+      "bytes": 2371,
+      "sha256": "3d4f73839ed7cde3ddb6266cd8c957883cd5ef0ff7e93dee38786af33cd8751d"
+    },
+    {
+      "path": "group-map-original.json",
+      "bytes": 18665,
+      "sha256": "46d668ae3ea19f3dca5314e0083cf10a81da833d2f636578ead8c9a2d2eca261"
+    },
+    {
+      "path": "identity-review/identity-review.json",
+      "bytes": 25134,
+      "sha256": "598c386008c5f44187b4731d389352f3803ee6925e56d4cd66aff3d529fb12f9"
+    },
+    {
+      "path": "prior-evidence/M761-initial-report.md",
+      "bytes": 3815,
+      "sha256": "6233bcc93954bf2c33c301e9d954b9e82aa0039f7f9b9e8cc635c5eeeb069a27"
+    },
+    {
+      "path": "prior-evidence/M761-r2-receipt.json",
+      "bytes": 1388,
+      "sha256": "bacf7b59ad959912470fb93a707abcd1c3e59d22339c3bb8bee7ea2c2cbf0241"
+    },
+    {
+      "path": "prior-evidence/M777-admission-decision.json",
+      "bytes": 14013,
+      "sha256": "abbdac6c87e14c033de43e40acada9ac2ddcf4ae90761066b6f036cb4e57c64e"
+    },
+    {
+      "path": "prior-evidence/M779-author-M779-RESULT.json",
+      "bytes": 7173,
+      "sha256": "7e3b03e0522e6c1e8433395191df743252d047e68f7dc65bb832069c1053d8bb"
+    },
+    {
+      "path": "prior-evidence/M783-initial-report.md",
+      "bytes": 3992,
+      "sha256": "9606765c7e7564271ee25fd062a122622d484b9dd7af8eddbf2f5f7a2c8ad405"
+    },
+    {
+      "path": "prior-evidence/M783-r2-receipt.json",
+      "bytes": 2568,
+      "sha256": "e726720ce63e833de0aa41308fb98ff8b43eee377f1bf27d3cca6c06a721aff5"
+    },
+    {
+      "path": "prior-evidence/M783-reviewed-source-source-at-b3258fe.ts",
+      "bytes": 15216,
+      "sha256": "7bfe28a05287880400bdfe1cc6f56b8540e356760ac9100a653f74f08667104b"
+    },
+    {
+      "path": "publication-manifest-original.json",
+      "bytes": 3780,
+      "sha256": "79fc7b9c1ffb4098c960cbd65ff0a9b92c69a41d680ed581380457c1180209f9"
+    },
+    {
+      "path": "report.md",
+      "bytes": 1612,
+      "sha256": "8a30550809064f6a16aa2d8c7378afefc87c6c19e2df81932ebdd9e16247ef5d"
+    },
+    {
+      "path": "source-review.json",
+      "bytes": 14941,
+      "sha256": "0d5570de064c6c26c5d3a484245c56d1c1e732be3b0f45d53906f63f21fc86cc"
+    }
+  ]
+}

@@ -1,0 +1,512 @@
+{
+  "schema": "m976-independent-data-delta-review/1",
+  "reviewId": "M976-DATA-DELTA-REVIEW",
+  "date": "2026-10-27",
+  "result": "dedup-repair-accepted-six-literal-references-verified-manual-only",
+  "repository": "D:/Codex-NamingStudio-Evidence/m970-data-dedup-fix",
+  "commit": "dd54e0be89f4d8c71b65369c2b337e3410a61b7e",
+  "inputManifestSha256": "f3c11d74f45cff52403ce1bf95d123a36489bbf580fa9ce617d838fdedb19267",
+  "fixedPayloadsVerified": 52,
+  "findings": [
+    {
+      "id": "M965-OVERLAP-01",
+      "originalPriority": 2,
+      "status": "closed-at-fixed-data-and-dedup-logic-scope",
+      "basis": "The omitted legacy set is reconstructed through actual selected-reading bindings: 214 v4 direct, 1 v5 rebind, 2 v6 migrations. Its 217 entries are disjoint from 304 eligible v7 entries and form default521. All original10 are now existing-default comparisons, not new gaps."
+    }
+  ],
+  "newP1": 0,
+  "newP2": 0,
+  "notes": [
+    {
+      "priority": 3,
+      "id": "M976-DOC-SENSE-CHANGE",
+      "observation": "README highlights 革／由 as changed senses; 姿 also changes from 資質 at index1 to 容貌、態勢 at index0. Current candidate coordinates and restrictions are correct.",
+      "requestedClarification": "Any later integration or user-facing change summary should name all three changed senses; do not inherit prior approved as new-sense authority.",
+      "blocksManualReferenceReview": false
+    }
+  ],
+  "dedup": {
+    "bindingChain": {
+      "v5BaseToV4": true,
+      "v6BaseToV5": true,
+      "v7BaseToV6": true,
+      "v5NewDatasetToV6BaseDataset": true,
+      "v6NewDatasetToActualV6AndV7Base": true,
+      "all779V7BaselineSelectedFieldsEqualDataset": true,
+      "all2V5And9V6AfterEntriesEqualActualDataset": true,
+      "legacy217ByActualBindings": {
+        "v4": 214,
+        "v6-migration": 2,
+        "v5-rebound": 1
+      },
+      "legacy217EqualsUniverseMinus562Reviews": true,
+      "automatic304ActualSelectedBindings": true,
+      "automatic304Applicability": "any-name for all304 fixed rows",
+      "rawDictionaryReplayedByThisSubreview": false,
+      "interpretation": "Existing fixed inventory reconstructed without asserting new semantic endorsement, runtime execution, or new generation grants."
+    },
+    "counts": {
+      "universe": 779,
+      "previous217": 217,
+      "automatic304": 304,
+      "default521": 521,
+      "onDemand60": 60,
+      "defaultAndOnDemandUnion": 581,
+      "optInFamily40": 40,
+      "occupied": 706,
+      "remainingUnreserved": 73,
+      "remainingNotRecommended": 15
+    },
+    "fullForbiddenCount": 721,
+    "eligibleSourceScreeningCount": 58,
+    "reservationSources": 12,
+    "oldTen": [
+      "衡",
+      "景",
+      "菁",
+      "琳",
+      "林",
+      "宙",
+      "珠",
+      "竹",
+      "梓",
+      "熹"
+    ],
+    "oldTenAllInExistingDefault": true,
+    "newSixOverlapWithFullForbidden": 0,
+    "independentAssertions": 82,
+    "assertionsAreBusinessTests": false,
+    "upstreamFixedSnapshotsMatched": 8
+  },
+  "semanticReview": {
+    "result": "six-fixed-literal-references-verified-no-automatic-admission",
+    "rows": [
+      {
+        "char": "傲",
+        "candidateId": "m970-character-reference:傲:14019:0:1",
+        "pinyin": "ào",
+        "tone": 4,
+        "toneAuthority": "fixed dataset-v6 only; no MOE numeric tone invented",
+        "sourceCoordinates": [
+          14019,
+          0,
+          1
+        ],
+        "sourcePOS": "形",
+        "sourceDefinition": {
+          "def": "不屈服的。",
+          "example": [
+            "如：「傲骨」、「傲氣」。"
+          ],
+          "type": "形"
+        },
+        "sourceEntrySha256": "03e30ebac62ef49998b3504cd45adf60f31eef2f49e7ff9a44ad2f9b5e3b2b2d",
+        "sourceDefinitionSha256": "f6780cb6b95de4586fd9a6b1b9dc8d7688696b416d4885f04dd25c5b7db1f093",
+        "completeOriginalEntryMatches": true,
+        "allOriginalReadingsAndDefinitionsMatch": true,
+        "exactSourceGlyph": true,
+        "baselineUnchanged": true,
+        "priorScope": {
+          "status": "approved",
+          "automaticMeaningAllowed": false,
+          "sourceCoordinates": [
+            14019,
+            0,
+            1
+          ],
+          "dictionarySense": "不屈服的。"
+        },
+        "selectedSenseChangedFromPrior": false,
+        "projectExplanation": "取不屈服这一限定形容义。",
+        "projectLimits": [
+          "不把不屈服写成已经具备的坚强、勇敢或道德事实。",
+          "不采用傲慢、轻视或急躁的其他义项，也不由傲骨复词补义。",
+          "仅作候选单字原义对照；完整姓名未评估，未取得生成或自动采用权限。"
+        ],
+        "projectWish": null,
+        "literal": "不屈服的。",
+        "judgment": "original-sense-verified-manual-reference-only",
+        "reason": "限定形容义可直接对照；同音另有倨慢、轻视和急躁。当前说明没有把原义升级为既成人格或保证。",
+        "context": "具体全名须消除傲慢／不敬歧义；不能从傲骨复词补入未选内容。",
+        "suitability": "not-assessed-for-a-complete-name",
+        "finalUsageStatus": "manual-context-required",
+        "automaticAdmissionGranted": false,
+        "formalCoverageAdded": 0,
+        "scoreDelta": 0,
+        "activation": "off"
+      },
+      {
+        "char": "革",
+        "candidateId": "m970-character-reference:革:153706:0:0",
+        "pinyin": "gé",
+        "tone": 2,
+        "toneAuthority": "fixed dataset-v6 only; no MOE numeric tone invented",
+        "sourceCoordinates": [
+          153706,
+          0,
+          0
+        ],
+        "sourcePOS": "名",
+        "sourceDefinition": {
+          "def": "去毛且經過加工處理的獸皮。",
+          "example": [
+            "如：「皮革」。"
+          ],
+          "quote": [
+            "《說文解字．革部》：「獸皮治去其毛曰革。」",
+            "《詩經．召南．羔羊》：「羔羊之革，素絲五緎。」"
+          ],
+          "type": "名"
+        },
+        "sourceEntrySha256": "6fa9fc95a53e2b2e930aee711f65e9b28ef5fa9d6fb8a3c77de93c91f4cc628a",
+        "sourceDefinitionSha256": "54d97c0a87759cc4671c211d13f6a591cb459fedaf6d6baa557c47cebfefa4d2",
+        "completeOriginalEntryMatches": true,
+        "allOriginalReadingsAndDefinitionsMatch": true,
+        "exactSourceGlyph": true,
+        "baselineUnchanged": true,
+        "priorScope": {
+          "status": "approved",
+          "automaticMeaningAllowed": false,
+          "sourceCoordinates": [
+            153706,
+            0,
+            6
+          ],
+          "dictionarySense": "變更、改換。"
+        },
+        "selectedSenseChangedFromPrior": true,
+        "projectExplanation": "取去毛并经过加工处理的兽皮这一材料义。",
+        "projectLimits": [
+          "不从材料义推导改革、进取、坚韧或军事身份。",
+          "不赋予材料传统五行归属，不混入卦名、甲胄或人体皮肤义。",
+          "仅作候选单字原义对照；完整姓名未评估，未取得生成或自动采用权限。"
+        ],
+        "projectWish": null,
+        "literal": "去毛且經過加工處理的獸皮。",
+        "judgment": "original-material-sense-verified-no-name-recommendation",
+        "reason": "选择的是具体材料名词，原条支持此解释。材料名称存在不等于适合新生儿命名，未批准自动推荐。",
+        "context": "需明确材料取意及家庭接受度；不得导出改革、坚韧、兵甲、革卦或传统五行。gé与jí必须区分。",
+        "suitability": "pending-explicit-family-and-whole-name-context",
+        "finalUsageStatus": "manual-context-required",
+        "automaticAdmissionGranted": false,
+        "formalCoverageAdded": 0,
+        "scoreDelta": 0,
+        "activation": "off"
+      },
+      {
+        "char": "司",
+        "candidateId": "m970-character-reference:司:25850:0:0",
+        "pinyin": "sī",
+        "tone": 1,
+        "toneAuthority": "fixed dataset-v6 only; no MOE numeric tone invented",
+        "sourceCoordinates": [
+          25850,
+          0,
+          0
+        ],
+        "sourcePOS": "動",
+        "sourceDefinition": {
+          "def": "掌管。",
+          "example": [
+            "如：「職司」、「司儀」、「各司其事」。"
+          ],
+          "quote": [
+            "《文選．陸機．文賦》：「辭程才以效伎，意司契而為匠。」"
+          ],
+          "type": "動"
+        },
+        "sourceEntrySha256": "d9239bcbc063cd12de43970ba0650a214c85643fc561667261f5fbac0ca913be",
+        "sourceDefinitionSha256": "31a76ec7700f1748e50073c70b3a53c3e6539b55caeb3ab5dd814755933d8cc5",
+        "completeOriginalEntryMatches": true,
+        "allOriginalReadingsAndDefinitionsMatch": true,
+        "exactSourceGlyph": true,
+        "baselineUnchanged": true,
+        "priorScope": {
+          "status": "approved",
+          "automaticMeaningAllowed": false,
+          "sourceCoordinates": [
+            25850,
+            0,
+            0
+          ],
+          "dictionarySense": "掌管。"
+        },
+        "selectedSenseChangedFromPrior": false,
+        "projectExplanation": "取掌管这一动作义。",
+        "projectLimits": [
+          "不把掌管写成孩子天生领导、掌权或未来仕途。",
+          "不借行政组织单位或姓氏义批准姓名组合。",
+          "仅作候选单字原义对照；完整姓名未评估，未取得生成或自动采用权限。"
+        ],
+        "projectWish": null,
+        "literal": "掌管。",
+        "judgment": "original-sense-verified-manual-reference-only",
+        "reason": "动作义与原条一致；所掌管对象未由单字确定。当前说明排除了地位、权力和先天管理能力的推断。",
+        "context": "全名语境须明确所司之事；行政单位和姓氏义另列，不自动采用。",
+        "suitability": "not-assessed-for-a-complete-name",
+        "finalUsageStatus": "manual-context-required",
+        "automaticAdmissionGranted": false,
+        "formalCoverageAdded": 0,
+        "scoreDelta": 0,
+        "activation": "off"
+      },
+      {
+        "char": "姿",
+        "candidateId": "m970-character-reference:姿:40047:0:0",
+        "pinyin": "zī",
+        "tone": 1,
+        "toneAuthority": "fixed dataset-v6 only; no MOE numeric tone invented",
+        "sourceCoordinates": [
+          40047,
+          0,
+          0
+        ],
+        "sourcePOS": "名",
+        "sourceDefinition": {
+          "def": "容貌、態勢。",
+          "example": [
+            "如：「姿顏」、「姿容曼妙」、「舞姿」、「搖曳生姿」。"
+          ],
+          "quote": [
+            "唐．韓愈〈君子法天運〉詩：「利害有常勢，取捨無定姿。」"
+          ],
+          "type": "名"
+        },
+        "sourceEntrySha256": "91b0fea922ecdca77ef750657a2024f18d31bdbe3294324e2c136f485770e17b",
+        "sourceDefinitionSha256": "d1bfcc7d35421d3f534be6789e46a5b8882bf3f642479006918565ec6d911b63",
+        "completeOriginalEntryMatches": true,
+        "allOriginalReadingsAndDefinitionsMatch": true,
+        "exactSourceGlyph": true,
+        "baselineUnchanged": true,
+        "priorScope": {
+          "status": "approved",
+          "automaticMeaningAllowed": false,
+          "sourceCoordinates": [
+            40047,
+            0,
+            1
+          ],
+          "dictionarySense": "資質。"
+        },
+        "selectedSenseChangedFromPrior": true,
+        "projectExplanation": "取容貌、态势这一字面描述。",
+        "projectLimits": [
+          "不把容貌、态势自动加上美丽、优雅或出众等未见本义的形容。",
+          "不借资质义推断天赋，不把纵情义混入采用。",
+          "仅作候选单字原义对照；完整姓名未评估，未取得生成或自动采用权限。"
+        ],
+        "projectWish": null,
+        "literal": "容貌、態勢。",
+        "judgment": "original-neutral-sense-verified-manual-reference-only",
+        "reason": "本次采用中性容貌／态势名词，区别旧记录的资质义；不能将例词中的曼妙或其他修饰语移作单字固有评价。",
+        "context": "须确认具体所指与个人接受度；不补美貌、优雅、卓越或天赋，不混入纵情义。",
+        "suitability": "not-assessed-for-a-complete-name",
+        "finalUsageStatus": "manual-context-required",
+        "automaticAdmissionGranted": false,
+        "formalCoverageAdded": 0,
+        "scoreDelta": 0,
+        "activation": "off"
+      },
+      {
+        "char": "由",
+        "candidateId": "m970-character-reference:由:98075:0:2",
+        "pinyin": "yóu",
+        "tone": 2,
+        "toneAuthority": "fixed dataset-v6 only; no MOE numeric tone invented",
+        "sourceCoordinates": [
+          98075,
+          0,
+          2
+        ],
+        "sourcePOS": "名",
+        "sourceDefinition": {
+          "def": "途徑、方法。",
+          "quote": [
+            "南朝梁．何遜〈贈諸遊舊詩〉：「無由下征帆，獨與暮潮歸。」",
+            "明．徐弘祖《徐霞客遊記．卷三下．粵遊日記二》：「而溪崖亦懸嵌，無由上躋。」"
+          ],
+          "type": "名"
+        },
+        "sourceEntrySha256": "1048e5fc70aee214cb78cff99f34e006b2307e49f9d3e9df3590baa5145f8b5f",
+        "sourceDefinitionSha256": "4d00b2c876f15ad1f0275f63ef2156475656348d7e3d3875ea3549212cc34951",
+        "completeOriginalEntryMatches": true,
+        "allOriginalReadingsAndDefinitionsMatch": true,
+        "exactSourceGlyph": true,
+        "baselineUnchanged": true,
+        "priorScope": {
+          "status": "approved",
+          "automaticMeaningAllowed": false,
+          "sourceCoordinates": [
+            98075,
+            0,
+            7
+          ],
+          "dictionarySense": "踐行。"
+        },
+        "selectedSenseChangedFromPrior": true,
+        "projectExplanation": "取途径、方法这一名词义。",
+        "projectLimits": [
+          "不将自由复词拆为由字的自由、独立或自主品格义。",
+          "不把途径方法解释为正确选择、能力、机会或人生结果保证。",
+          "仅作候选单字原义对照；完整姓名未评估，未取得生成或自动采用权限。"
+        ],
+        "projectWish": null,
+        "literal": "途徑、方法。",
+        "judgment": "original-neutral-sense-verified-manual-reference-only",
+        "reason": "原条有明确途径／方法名词义；不同于旧践行动词，不沿用旧义的采用范围。",
+        "context": "须说明所指途径／方法；不把自由、正确选择、机会或人生结果转为单字语义。",
+        "suitability": "not-assessed-for-a-complete-name",
+        "finalUsageStatus": "manual-context-required",
+        "automaticAdmissionGranted": false,
+        "formalCoverageAdded": 0,
+        "scoreDelta": 0,
+        "activation": "off"
+      },
+      {
+        "char": "尤",
+        "candidateId": "m970-character-reference:尤:45696:0:1",
+        "pinyin": "yóu",
+        "tone": 2,
+        "toneAuthority": "fixed dataset-v6 only; no MOE numeric tone invented",
+        "sourceCoordinates": [
+          45696,
+          0,
+          1
+        ],
+        "sourcePOS": "動",
+        "sourceDefinition": {
+          "def": "親近、喜愛。",
+          "quote": [
+            "唐．羅隱〈春中湘中題岳麓寺僧舍〉詩：「欲共高僧話心跡，野花芳草奈相尤。」",
+            "宋．柳永〈如魚水．帝里疏散〉詞：「共綠蟻，紅粉相尤。」"
+          ],
+          "type": "動"
+        },
+        "sourceEntrySha256": "137eaea18778cde70387585bfd469d5dcf2613c352cb2d46b10ed739a87064f4",
+        "sourceDefinitionSha256": "1ec92c16cdad87e42e9fa7fa8935910918aaf2190f9c457f987b1d1014a2da88",
+        "completeOriginalEntryMatches": true,
+        "allOriginalReadingsAndDefinitionsMatch": true,
+        "exactSourceGlyph": true,
+        "baselineUnchanged": true,
+        "priorScope": {
+          "status": "approved",
+          "automaticMeaningAllowed": false,
+          "sourceCoordinates": [
+            45696,
+            0,
+            1
+          ],
+          "dictionarySense": "親近、喜愛。"
+        },
+        "selectedSenseChangedFromPrior": false,
+        "projectExplanation": "取亲近、喜爱这一动作义。",
+        "projectLimits": [
+          "不由尤其或优异等相近词推导优秀、卓越或人格评价。",
+          "不保证人际关系，不把责怪或过失义反向美化。",
+          "仅作候选单字原义对照；完整姓名未评估，未取得生成或自动采用权限。"
+        ],
+        "projectWish": null,
+        "literal": "親近、喜愛。",
+        "judgment": "original-action-sense-verified-manual-reference-only",
+        "reason": "原条直接提供亲近／喜爱动词；同条其他责怪、过失、尤其、特异等义不能自动混入本项。",
+        "context": "对象和全名需单独审阅；不承诺人际关系或优秀人格。",
+        "suitability": "not-assessed-for-a-complete-name",
+        "finalUsageStatus": "manual-context-required",
+        "automaticAdmissionGranted": false,
+        "formalCoverageAdded": 0,
+        "scoreDelta": 0,
+        "activation": "off"
+      }
+    ],
+    "counts": {
+      "sourceEntriesVerified": 6,
+      "exactReadingsVerified": 6,
+      "POSVerified": 6,
+      "changedPriorSenses": 3,
+      "samePriorSenses": 3,
+      "manualContextRequired": 6,
+      "completeNamesAssessed": 0,
+      "formalCoverageAdded": 0,
+      "automaticCoverageAdded": 0
+    },
+    "exactRawSource": {
+      "repo": "D:/Codex-NamingStudio-Evidence/m768-next-integration",
+      "commit": "f8e272b1b0d077019ca2d267709378df17e405d9",
+      "file": "data/raw/moe-revised.json.gz",
+      "bytes": 20310688,
+      "sha256": "cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e",
+      "entries": 163087,
+      "copiedIntoAudit": false,
+      "selectedOriginalsRetained": 6
+    },
+    "changedPriorSenses": [
+      "革",
+      "姿",
+      "由"
+    ],
+    "unchangedPriorSenses": [
+      "傲",
+      "司",
+      "尤"
+    ],
+    "dictionaryReferenceVerifiedDoesNotMeanSuitableName": true
+  },
+  "preservation": {
+    "originalM959ManifestEqualsPreviouslySealedM965": true,
+    "originalM959FilesVerified": 27,
+    "allOriginalFilesUnchanged": true,
+    "selectionSnapshotEqualsOriginal": true,
+    "originalM965FindingReportPreserved": true
+  },
+  "scopeLimits": [
+    "Root owns full52-file closure verification; this subreview avoids repeating that whole-package identity pass.",
+    "Product-source baselines and on-demand60/family40/context snapshots were independently compared to fixed f8e Git objects. Other reservation snapshots are checked as fixed dd54 inputs and descriptor-bound sets, not independently re-approved external sources.",
+    "No old10 semantic re-review or new6 semantic judgment was performed.",
+    "No raw MOE pass, author12 tests, owner/Store execution, product import, full typecheck, build, network or WIP-source reads.",
+    "The correction closes the observed default-set omission at fixed-data/logic scope only; it does not grant registration, activation, product release or expanded coverage.",
+    "This verifies six original meanings and limited project explanations, not suitability or whole-name recommendation.",
+    "No new character, default binding, data registration, generation, five-element assignment or scoring authority.",
+    "The copied baseline fields are preserved as context; stroke-count and element-system accuracy are not newly audited.",
+    "No author tests, product modules, owner/Store or full typecheck executed.",
+    "The fixed delivery contains candidate tools, data and review material. Hash verification of all52 payloads is not a complete executable-source security/production review of every author script.",
+    "No optional/manual record was promoted to default coverage or automated recommendation by this audit."
+  ],
+  "authority": {
+    "dedupDataRepairAccepted": true,
+    "sixExactLiteralReferencesVerified": true,
+    "newDictionaryCharacters": 0,
+    "formalCoverageAdded": 0,
+    "automaticCoverageAdded": 0,
+    "manualContextRequired": 6,
+    "activation": "off",
+    "approvedAutomaticCaseIds": [],
+    "dataRegistrationGranted": false,
+    "sourceRegistrationGranted": false,
+    "generationGranted": false,
+    "scoreAuthorityGranted": false,
+    "fiveElementAuthorityGranted": false,
+    "serviceStoreApproved": false,
+    "uiApproved": false,
+    "productReleaseApproved": false
+  },
+  "execution": {
+    "staticSetAssertions": 82,
+    "sixSourceRowsChecked": 6,
+    "author12Rerun": false,
+    "oldM95912Rerun": false,
+    "productImports": 0,
+    "ownerStoreRuns": 0,
+    "fullTypecheck": "not-executed",
+    "build": "not-executed",
+    "networkRequests": 0,
+    "productEdits": 0
+  },
+  "evidence": {
+    "fixedIdentitySha256": "fbec55de809d4726b4345b24e0cbe634fec806975bb786760fbac9afbb1e66ac",
+    "dedupReviewSha256": "eb76aebd4e8ca98d9766d2636cbfe6c3073ec0a1c2d5324694093bc248a4c273",
+    "staticSetCheckSha256": "2069e2f7e4fc8b14e6d5804f55bc740f77c8e181e9d323ba744a9b3f5c2f86b8",
+    "preservationSha256": "afcb39e297b4245ab62d6e21e6994dd8e35b24d01cd450fde98693c966ed3715",
+    "sixCharacterReviewSha256": "6df275c98ba8000225fb1a315626d7623a28307119cd5ea04315475fa84219c8"
+  }
+}

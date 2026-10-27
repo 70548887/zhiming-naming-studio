@@ -1,0 +1,29 @@
+{
+  "schema": "m1025-source-audit-receipt/1",
+  "reviewId": "M1025-SEMANTIC-EXACT3",
+  "result": "accepted-bounded-exact3-source-scope",
+  "sourceCommit": "c86600dcb9f51e02aeffa48ec74922fe983d6121",
+  "files": 3,
+  "runtimeFiles": 3,
+  "typeOnlyFiles": 0,
+  "newP1": 0,
+  "newP2": 0,
+  "pureGroupsPassed": 6,
+  "reviewSha256": "ca7167e935cfec61a56f3dd98b79a5f19463aa7c7e9ba33416921ce7ba1031f8",
+  "manifestSha256": "3edbd3b7dbdf936371c7c80a0bb17f7b2ea8217644e59e14a13321130cbec44a",
+  "authority": {
+    "exact3MayBeReferencedBySeparateSourceRegistration": true,
+    "registrationPerformed": false,
+    "adjacentFacadeRegistration": false,
+    "externalContextApproval": false,
+    "wholeSourceClosureApproved": false,
+    "sourceBuildApproved": false,
+    "StoreSaveApproved": false,
+    "automaticRecommendationsApproved": false,
+    "traditionalAuthority": false,
+    "formalCoverageAdded": 0,
+    "family40Approval": false,
+    "releaseApproved": false
+  },
+  "root": "D:/Codex-NamingStudio-Evidence/m1025-semantic-admission-source-audit"
+}

@@ -1,0 +1,60 @@
+{
+  "version": "modern-practical-method-references/1.0.0",
+  "baselineMain": "413670af5af1bd04893e494d6745a349606f946a",
+  "rules": {
+    "naming-editorial-4.0.0": {
+      "kind": "fixed-project-implementation-reference",
+      "baselineMain": "413670af5af1bd04893e494d6745a349606f946a",
+      "file": "src/domain/naming-v4.ts",
+      "sha256": "6805eb155c5a48b8bf05caf55bc917e20eda2a4e9e26562be48953994eb06b3d",
+      "industryRuleLine": 45,
+      "distinctivenessRuleLine": 224,
+      "selectedReadingGate": {
+        "file": "src/domain/naming-semantics-v4.ts",
+        "sha256": "e0677f21be27550c3625fac611d48080cf85bda613633aa8cdd977e5e16ba96e"
+      },
+      "scope": "Modern explanation method records a fixed implementation observation. This is separate from the original generation source snapshot and from naming7display-only meaning review."
+    },
+    "naming-editorial-5.0.0": {
+      "kind": "fixed-project-implementation-reference",
+      "baselineMain": "413670af5af1bd04893e494d6745a349606f946a",
+      "file": "src/domain/naming-v5.ts",
+      "sha256": "94bd2e4da3a16afccaf4cb685535fce2a90acefa32aa0dbc21f0db8bb7ca29c9",
+      "industryRuleLine": 46,
+      "distinctivenessRuleLine": 228,
+      "selectedReadingGate": {
+        "file": "src/domain/naming-semantics-v5.ts",
+        "sha256": "3c08df92066ccf966acddaa1cc641f02fc4920f78f021dba50a71c2b73936d22"
+      },
+      "scope": "Modern explanation method records a fixed implementation observation. This is separate from the original generation source snapshot and from naming7display-only meaning review."
+    },
+    "naming-editorial-6.0.0": {
+      "kind": "fixed-project-implementation-reference",
+      "baselineMain": "413670af5af1bd04893e494d6745a349606f946a",
+      "file": "src/domain/naming-v6.ts",
+      "sha256": "30b08f15ba0c3a7ee32ed91ec15af9ca172ac93573609d726247a3f997d32946",
+      "industryRuleLine": 47,
+      "distinctivenessRuleLine": 230,
+      "selectedReadingGate": {
+        "file": "src/domain/naming-semantics-v6.ts",
+        "sha256": "03a1120ee276d48ea0858427e74832018b973977b5a1d07d713e2c2bf4117f9e"
+      },
+      "scope": "Modern explanation method records a fixed implementation observation. This is separate from the original generation source snapshot and from naming7display-only meaning review."
+    },
+    "naming-editorial-7.0.0": {
+      "kind": "fixed-project-implementation-reference",
+      "baselineMain": "413670af5af1bd04893e494d6745a349606f946a",
+      "file": "src/domain/naming-v7.ts",
+      "sha256": "a6e35997bcdc32b2d99626fa1ebda0ce425d4b2c068f3b1330a9ea411ae49ce5",
+      "industryRuleLine": 62,
+      "distinctivenessRuleLine": 249,
+      "selectedReadingGate": {
+        "file": "src/domain/naming-semantics-v6.ts",
+        "sha256": "03a1120ee276d48ea0858427e74832018b973977b5a1d07d713e2c2bf4117f9e"
+      },
+      "scope": "Modern explanation method records a fixed implementation observation. This is separate from the original generation source snapshot and from naming7display-only meaning review."
+    }
+  },
+  "industryMapVerifiedAgainstFourVersions": true,
+  "sourceAttributionPolicy": "Stored review/source identity and independently checked project implementation are distinct. No population, psychological or occupational empirical source is inferred."
+}

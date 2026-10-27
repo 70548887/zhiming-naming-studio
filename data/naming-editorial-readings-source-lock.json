@@ -1,0 +1,25 @@
+{
+  "version": "naming-editorial-4.0.0",
+  "hashConvention": "sha256(JSON.stringify(fileHashes)); sorted relative path keys",
+  "sources": [
+    {
+      "id": "naming-editorial-readings-v4-fixed",
+      "name": "项目命名解释与自然表达 · 固定默认读音约束4.0",
+      "url": "local:data/naming-editorial-v4.json",
+      "commit": "published-1.0.30-defaults;naming-editorial-4.0.0",
+      "license": "CC0-1.0 (project-authored constraints only; dictionary quotations retain original licences)",
+      "files": [
+        "data/naming-editorial-v4-NOTICE.md",
+        "data/naming-editorial-v4-baseline.json",
+        "data/naming-editorial-v4.json"
+      ],
+      "sha256": "e091749bef7b5f273f912f86026ffafd27e993ff79eb325ce097fbc1d521935e",
+      "note": "以已发布1.0.30实际默认读音身份限定既有项目语义/自然表达；不是779义项专家认证，缺字显式待补。旧3.0/40出处和历史快照不改。",
+      "fileHashes": {
+        "data/naming-editorial-v4-NOTICE.md": "69c60510b9135939774430d37276365a74c6902da0df68ef03ad6fdd2008fc29",
+        "data/naming-editorial-v4-baseline.json": "3cb4dde1150ef79076e9ea230272db532d08737fb4fb2e61b95bb707bc9f97fe",
+        "data/naming-editorial-v4.json": "d24898eb63438d7b24262668eb3b36770f211fade015b28eeb361700a58ca6ce"
+      }
+    }
+  ]
+}

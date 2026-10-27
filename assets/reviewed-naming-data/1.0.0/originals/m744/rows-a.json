@@ -1,0 +1,173 @@
+{
+  "schema": "m744-independent-row-audit/1",
+  "auditId": "M744-DATA-A",
+  "date": "2026-10-25",
+  "assignedCharacters": ["邦", "沫", "纪", "纶", "年"],
+  "scope": "Data-only independent review. No product/package mutations, no automatic admission, no query/generation execution, no candidate construction, no old 14-test rerun.",
+  "packageRoot": "D:/Codex-NamingStudio-Evidence/m740-character-meanings",
+  "sourceRoot": "D:/Codex-NamingStudio-Evidence/m587-product-integration/work/data",
+  "indexConvention": "JSON array indices are zero-based; file lines are one-based; MOE pointers refer to decompressed parsed JSON.",
+  "summary": {
+    "reviewed": 5,
+    "sourceBindingPassed": 5,
+    "conditionalManualQuerySuitable": 5,
+    "definiteDataDefects": 0,
+    "historicalSelectedSenseChanges": ["纪", "年"],
+    "automaticAdmissionApproved": 0,
+    "actualQueryWiring": "未执行",
+    "actualGenerationWiring": "未执行"
+  },
+  "sharedVerifiedEvidence": {
+    "sourceLock": "data/source-lock.json#/sourceFiles",
+    "pinnedFileByteAndSha256Checks": [
+      {"file":"raw/moe-revised.json.gz","bytes":20310688,"sha256":"cf29701f887bd3b58e9520df53d905e2697ff13a408d70a771b0458f3039fb2e","passed":true},
+      {"file":"raw/kTraditionalVariant.txt","bytes":86288,"sha256":"4eca6285d45070548e6e6c06e4b48c3ca6866d4380e8cb980c512f5d1fc71895","passed":true},
+      {"file":"raw/kSimplifiedVariant.txt","bytes":88425,"sha256":"a7f0c9dbbca85cffd90517fa6ea9be97d2e6f811328a59b6b303d58a418ac9be","passed":true},
+      {"file":"dataset-v6.json","bytes":1563457,"sha256":"3245e1701046d43562520926d185e8363da8bf27c2523fc27a7de4e15eda0728","passed":true},
+      {"file":"naming-editorial-v7.json","bytes":1301005,"sha256":"392fa47441a0c410b0903c3e85853081225a1a5e9f540b5467e4ea4e2151cc48","passed":true}
+    ],
+    "licenseFilePinChecksPassed": ["raw/moe-README.md", "raw/CC-BY-ND-3.0-TW.html", "raw/unicode-LICENSE"],
+    "candidateFilePinChecksPassed": ["data/profile.json", "data/rows.jsonl", "data/pending-review.json", "data/NOTICE.md", "selection.json"],
+    "allFivePassed": [
+      "Profile case structurally identical to corresponding JSONL row.",
+      "Embedded baselineCharacter structurally identical to pinned dataset-v6 character.",
+      "Selected reading and tone match dataset default; raw MOE pinyin matches the selected reading.",
+      "Raw entry title is exactly one code point; selected definition is directly in that single-character entry, not borrowed from a multi-character headword.",
+      "Chosen definition including type, examples, quotes and other properties structurally equals raw MOE definition at recorded indices.",
+      "CompleteOriginalEntry structurally equals raw MOE entry; parsedEntrySha256 equals SHA256(JSON.stringify(parsed raw entry)). This is not an assertion of original JSON byte-span identity.",
+      "priorV7Review structurally equals pinned naming-editorial-v7 meaningReviews entry.",
+      "Pending queue matches row reading, tone, dictionary word, sense, POS, project meaning, limits and historical applicability.",
+      "All row guards preserve candidateOnly=true, activation=off, productionApproved=false, formalCoverageAdded=0, automaticNameRecommendation=false, automaticSemanticCreditAllowed=false, scoreDelta=0, wholeNameMeaning=null, usageReviewRequired=true.",
+      "Profile-level generationAuthority=false and sourceAuthority=false remain set."
+    ],
+    "licenseAndSeparation": {
+      "noticeEvidence": ["data/NOTICE.md:3", "data/NOTICE.md:5", "data/NOTICE.md:7", "data/NOTICE.md:9"],
+      "dictionary": "CC-BY-ND-3.0-TW remains attached to source; full parsed entries are unchanged.",
+      "unicode": "Unicode-License-V3 stays attached to exact raw mapping lines; mapping asserts glyph relation only, not blanket semantic identity or registration approval.",
+      "project": "Independent explanation is under project with CC0-1.0 and explicit non-dictionary attribution; it is not placed into source.definition."
+    }
+  },
+  "rows": [
+    {
+      "char": "邦",
+      "caseId": "single-meaning-m740:邦:143600:0:1",
+      "evidence": {
+        "rows": "data/rows.jsonl:1",
+        "profile": "data/profile.json:22#/cases/0",
+        "pending": "data/pending-review.json:8#/rows/0",
+        "baseline": "dataset-v6.json#/characters[char=邦]",
+        "rawEntry": "raw/moe-revised.json.gz#/143600",
+        "rawDefinition": "raw/moe-revised.json.gz#/143600/heteronyms/0/definitions/1",
+        "historicalReview": "naming-editorial-v7.json#/meaningReviews/5"
+      },
+      "verifiedBinding": {"title":"邦","pinyin":"bāng","tone":1,"sourcePOS":"名","definition":"泛稱國家。","fullOriginalMatches":true,"glyph":"exact U+90A6; no simplification mapping used"},
+      "semanticAssessment": "国家是直接单字名词义。项目取国家文化主题，未从例词友邦、多难兴邦借入友善、安邦才能或成就，语义支持充分。",
+      "historicalLimits": {"mode":"manual-confirmation-required","sameSelectedSense":true,"retained":true,"required":"家庭确认家国主题及完整姓名语境；国家不代表个人品质、政治身份或仕途。"},
+      "manualQuery": {"recommendation":"conditionally-suitable-for-on-request-candidate-display","conditions":["展示 bāng/1、国家所选义及独立项目解释。","保留 manual 标签、全名和家庭主题未确认状态；不将 prior approved 展示成全名批准。"]},
+      "generationEvidenceStillRequired": ["特定完整姓名确实使用国家/家国主题的人工语义确认及家庭意愿。","实际生成链证明本条仅是候选补充，不因国家义或既存 baseline 标签增加品质、政治身份、运势或自动语义分。","完整姓名的组合意义、谐音及其他语境消歧记录。"],
+      "definiteDefects": [],
+      "automaticAdmission": false
+    },
+    {
+      "char": "沫",
+      "caseId": "single-meaning-m740:沫:83904:0:0",
+      "evidence": {
+        "rows": "data/rows.jsonl:2",
+        "profile": "data/profile.json:217#/cases/1",
+        "pending": "data/pending-review.json:37#/rows/1",
+        "baseline": "dataset-v6.json#/characters[char=沫]",
+        "rawEntry": "raw/moe-revised.json.gz#/83904",
+        "rawDefinition": "raw/moe-revised.json.gz#/83904/heteronyms/0/definitions/0",
+        "historicalReview": "naming-editorial-v7.json#/meaningReviews/204"
+      },
+      "verifiedBinding": {"title":"沫","pinyin":"mò","tone":4,"sourcePOS":"名","definition":"液體形成而浮於表面的小泡。","fullOriginalMatches":true,"glyph":"exact U+6CAB; no simplification mapping used"},
+      "semanticAssessment": "原条直接定义液体表面小泡；泡沫、肥皂沫等仅是例词，未替代单字来源。项目小泡自然意象忠于所选义，未扩写为纯洁、坚韧或恒久。",
+      "historicalLimits": {"mode":"manual-confirmation-required","sameSelectedSense":true,"retained":true,"required":"接受口水和易散联想，限制在小泡审美；原条另有动词停止、终止义。易散警告完整保留于 priorV7Review 和 pending historicalReason。"},
+      "manualQuery": {"recommendation":"conditionally-suitable-for-on-request-candidate-display","conditions":["展示 mò/4 小泡义及原条另有口水、停止义。","实际 query 必须传达历史易散联想和人工主题确认，不能只取 project.limits 而漏掉历史条件。"]},
+      "generationEvidenceStillRequired": ["具体完整姓名的小泡审美主题与家庭接受口水、易散联想的记录。","组合消歧排除把口水/停止义隐藏后宣称全名自然纯美，或把小泡解释成坚韧、恒久。","实际生成链证明未从字旁、baseline 水标签或小泡意象自动增加五行、人格、健康或语义分。"],
+      "definiteDefects": [],
+      "automaticAdmission": false
+    },
+    {
+      "char": "纪",
+      "caseId": "single-meaning-m740:纪:111076:0:0",
+      "evidence": {
+        "rows": "data/rows.jsonl:3",
+        "profile": "data/profile.json:419#/cases/2",
+        "pending": "data/pending-review.json:66#/rows/2",
+        "baseline": "dataset-v6.json#/characters[char=纪]",
+        "rawEntry": "raw/moe-revised.json.gz#/111076",
+        "rawDefinition": "raw/moe-revised.json.gz#/111076/heteronyms/0/definitions/0",
+        "historicalReview": "naming-editorial-v7.json#/meaningReviews/106",
+        "unicode": [{"file":"raw/kTraditionalVariant.txt","line":1271,"raw":"7EAA\tU+7D00","matches":true},{"file":"raw/kSimplifiedVariant.txt","line":2544,"raw":"7D00\tU+7EAA","matches":true}]
+      },
+      "verifiedBinding": {"title":"紀","pinyin":"jì","tone":4,"sourcePOS":"名","definition":"絲的頭緒、條理。","fullOriginalMatches":true,"glyph":"纪 U+7EAA ↔ 紀 U+7D00, exact reciprocal raw lines; semanticEquivalenceClaim=false; registrationGlyphApproval=false"},
+      "semanticAssessment": "项目丝线头绪与条理的字面意象有单字原义支持；未把纪念、纪律、自律或智力作为本义。原条另列（又音）jǐ，当前选择是基线 jì，不借其又音。",
+      "historicalLimits": {"mode":"manual-confirmation-required","sameSelectedSense":false,"retained":true,"oldDefinitionIndex":1,"oldSense":"法度、準則。","newDefinitionIndex":0,"newSense":"絲的頭緒、條理。","required":"历史 approved 针对法度准则义。当前丝线义仍须独立审查，旧批准不得转用；保留 jì、复名语境、不同义项和读音消歧。"},
+      "manualQuery": {"recommendation":"conditionally-suitable-for-on-request-candidate-display","conditions":["清楚标识源词头紀与输入纪的 Unicode 字形关系及其有限范围。","显示当前是新选丝线义，历史法度准则批准不适用于本义项；保持 pending/manual。"]},
+      "generationEvidenceStillRequired": ["针对 def0 丝线头绪的新义项使用审阅，不能复制历史 def1 法度准则结论。","具体完整姓名和家庭语境确实采用丝线头绪意象，并明确 jì/4，而非 jǐ、纪念、法度准则或年代单位。","生成输出验证保留繁简源身份，不宣称 Unicode 映射保证全义同一或户籍批准。","实际生成链证明无自律、思维或学习能力推断及自动语义加分。"],
+      "definiteDefects": [],
+      "automaticAdmission": false
+    },
+    {
+      "char": "纶",
+      "caseId": "single-meaning-m740:纶:113321:0:0",
+      "evidence": {
+        "rows": "data/rows.jsonl:4",
+        "profile": "data/profile.json:712#/cases/3",
+        "pending": "data/pending-review.json:95#/rows/3",
+        "baseline": "dataset-v6.json#/characters[char=纶]",
+        "rawEntry": "raw/moe-revised.json.gz#/113321",
+        "rawDefinition": "raw/moe-revised.json.gz#/113321/heteronyms/0/definitions/0",
+        "historicalReview": "naming-editorial-v7.json#/meaningReviews/184",
+        "unicode": [{"file":"raw/kTraditionalVariant.txt","line":1283,"raw":"7EB6\tU+7DB8","matches":true},{"file":"raw/kSimplifiedVariant.txt","line":2679,"raw":"7DB8\tU+7EB6","matches":true}]
+      },
+      "verifiedBinding": {"title":"綸","pinyin":"lún","tone":2,"sourcePOS":"名","definition":"青色的絲帶。","fullOriginalMatches":true,"glyph":"纶 U+7EB6 ↔ 綸 U+7DB8, exact reciprocal raw lines; semanticEquivalenceClaim=false; registrationGlyphApproval=false"},
+      "semanticAssessment": "青色丝带在 lún 单字原条直接成立；项目为具体织物意象。guān 项仅参见綸巾，当前未借该词义；也未以帝王旨意、经纶补出才干。",
+      "historicalLimits": {"mode":"manual-confirmation-required","sameSelectedSense":true,"retained":true,"required":"仅可在明确的复名青丝带意象下人工固定；不借 guān 綸巾、不补治国经纶、不取皇帝旨意。"},
+      "manualQuery": {"recommendation":"conditionally-suitable-for-on-request-candidate-display","conditions":["显示 lún/2、源词头綸及青丝带所选义；明确另有 guān 参见义。","保留繁简范围、复名织物主题和人工确认限制。"]},
+      "generationEvidenceStillRequired": ["完整姓名中 lún/2 读音和青丝带织物意象均获人工确认，并具有家庭主题依据。","实际组合输出不会由綸巾切成 guān，不会由经纶或帝旨补出治国能力、身份、气质或才干。","生成接线证明候选不自动增分或解除 manual；简繁关系不当作所有语义等价或户籍许可。"],
+      "definiteDefects": [],
+      "automaticAdmission": false
+    },
+    {
+      "char": "年",
+      "caseId": "single-meaning-m740:年:49288:0:0",
+      "evidence": {
+        "rows": "data/rows.jsonl:5",
+        "profile": "data/profile.json:955#/cases/4",
+        "pending": "data/pending-review.json:124#/rows/4",
+        "baseline": "dataset-v6.json#/characters[char=年]",
+        "rawEntry": "raw/moe-revised.json.gz#/49288",
+        "rawDefinition": "raw/moe-revised.json.gz#/49288/heteronyms/0/definitions/0",
+        "historicalReview": "naming-editorial-v7.json#/meaningReviews/213"
+      },
+      "verifiedBinding": {"title":"年","pinyin":"nián","tone":2,"sourcePOS":"名","definition":"地球環繞太陽一周所需的時間。","fullOriginalMatches":true,"glyph":"exact U+5E74; no simplification mapping used"},
+      "semanticAssessment": "项目一年时间周期由选定单字义直接支持，未借延年益寿、丰年等例词推定长寿或丰收。它是时间概念，成立不等于适合作为任意完整姓名。",
+      "historicalLimits": {"mode":"manual-confirmation-required","sameSelectedSense":false,"retained":true,"oldDefinitionIndex":4,"oldSense":"時代、時期。","newDefinitionIndex":0,"newSense":"地球環繞太陽一周所需的時間。","required":"历史 approved 针对时代时期义；当前一年周期另需义项使用确认，保留时间纪念主题，不许诺延寿或丰收。"},
+      "manualQuery": {"recommendation":"conditionally-suitable-for-on-request-candidate-display","conditions":["显示 nián/2 与一年周期所选义，不把历史时代时期批准展示成当前义项的已批准结果。","保留家庭纪念主题、完整姓名未审和手动确认状态。"]},
+      "generationEvidenceStillRequired": ["针对 def0 一年周期而非旧 def4 时代时期的新使用审阅。","完整姓名的具体时间纪念对象和家庭语境，确认本次采用年度周期意象。","实际生成输出不混入年龄、年节、收成义，不将时间概念推成成熟、寿命、健康、运势或自动语义分。"],
+      "definiteDefects": [],
+      "automaticAdmission": false
+    }
+  ],
+  "executionLedger": {
+    "skillsRead": [],
+    "successfulCommands": [
+      {"id":"15481e","operation":"Inventory package root."},
+      {"id":"15481e-files","operation":"rg --files data and validation; returned 9 files."},
+      {"id":"920e12","operation":"Read README, M740 contract and selection."},
+      {"id":"55b60a","operation":"Read source-lock."},
+      {"id":"368c89","operation":"Read NOTICE."},
+      {"id":"26703f","operation":"Extract assigned 5 JSONL rows; tool display truncated, subsequent focused projections completed review."},
+      {"id":"05aad5","operation":"Inspect profile and pending schema keys."},
+      {"id":"dd3d1b","operation":"Project assigned cases and pending fields, inspect pinned dataset and v7 array shapes."},
+      {"id":"24155a","operation":"Independent Node source/entry/definition/baseline/history/Unicode verification; all requested checks passed."},
+      {"id":"9ebe27","operation":"Independent profile/row/queue parity and guard checks; license-file pin checks; NOTICE line evidence."},
+      {"id":"2b6ad7","operation":"rg exact caseId anchors in profile and pending."},
+      {"id":"02a928","operation":"Check five relevant candidate hashes and lengths against source-lock; all passed."},
+      {"id":"a080df","operation":"Parse saved audit JSON, verify exactly assigned five rows, zero definite defects and manual-only recommendations; passed."}
+    ],
+    "notExecuted": ["Old 14-test full suite", "Real query wiring", "Real generation wiring", "Automatic admission", "Package or product edit"]
+  }
+}

@@ -1,0 +1,267 @@
+{
+  "version": "qiongtong-2294674-monthly-cong-wealth/1.0.0",
+  "method": "manual literal-source prerequisites and synthetic explicit fact examples; no app imported",
+  "cases": [
+    {
+      "ruleId": "jia-chen-monthly-cong-wealth",
+      "dayMaster": "甲",
+      "monthBranch": "辰",
+      "facts": {
+        "exposed": [
+          "戊",
+          "己",
+          "丙"
+        ],
+        "hidden": [
+          "乙",
+          "戊",
+          "癸"
+        ],
+        "complete": true
+      },
+      "expected": "pending",
+      "reason": "辰藏癸不擅等同原句有效水；水范围、成局及戊己范围未核必要，不可提升或机械反证。"
+    },
+    {
+      "ruleId": "jia-chen-monthly-cong-wealth",
+      "dayMaster": "甲",
+      "monthBranch": "辰",
+      "facts": {
+        "exposed": [
+          "戊",
+          "癸",
+          "丙"
+        ],
+        "hidden": [],
+        "complete": true
+      },
+      "expected": "contradicted",
+      "reason": "明干已见癸，不符全无水的明确必要子集；不借藏水判反证。"
+    },
+    {
+      "ruleId": "jia-chen-monthly-cong-wealth",
+      "dayMaster": "甲",
+      "monthBranch": "辰",
+      "facts": {
+        "exposed": [
+          "戊",
+          "丙"
+        ],
+        "hidden": [
+          "乙"
+        ],
+        "complete": false
+      },
+      "expected": "pending",
+      "reason": "缺时不能证明全局无水。"
+    },
+    {
+      "ruleId": "yi-午-monthly-cong-wealth",
+      "dayMaster": "乙",
+      "monthBranch": "午",
+      "facts": {
+        "exposed": [
+          "丙",
+          "戊",
+          "丁"
+        ],
+        "hidden": [
+          "己",
+          "丁",
+          "庚"
+        ],
+        "complete": true
+      },
+      "expected": "candidate",
+      "reason": "两个明确结构前提均符，仅结构候选；仍未完成所有从财裁决。"
+    },
+    {
+      "ruleId": "yi-午-monthly-cong-wealth",
+      "dayMaster": "乙",
+      "monthBranch": "午",
+      "facts": {
+        "exposed": [
+          "丙",
+          "甲",
+          "丁"
+        ],
+        "hidden": [
+          "己"
+        ],
+        "complete": true
+      },
+      "expected": "contradicted",
+      "reason": "非日主明干甲为本句比劫出干反证。"
+    },
+    {
+      "ruleId": "yi-午-monthly-cong-wealth",
+      "dayMaster": "乙",
+      "monthBranch": "午",
+      "facts": {
+        "exposed": [
+          "丙",
+          "戊"
+        ],
+        "hidden": [
+          "己"
+        ],
+        "complete": false
+      },
+      "expected": "pending",
+      "reason": "缺时未见水和比劫不能肯定没有。"
+    },
+    {
+      "ruleId": "yi-午-monthly-cong-wealth",
+      "dayMaster": "乙",
+      "monthBranch": "午",
+      "facts": {
+        "exposed": [
+          "丙",
+          "戊",
+          "丁"
+        ],
+        "hidden": [
+          "甲",
+          "己"
+        ],
+        "complete": true
+      },
+      "expected": "candidate",
+      "reason": "藏甲不等于甲出干；不把本句的出干范围擅扩到藏根。"
+    },
+    {
+      "ruleId": "yi-未-monthly-cong-wealth",
+      "dayMaster": "乙",
+      "monthBranch": "未",
+      "facts": {
+        "exposed": [
+          "丙",
+          "戊",
+          "丁"
+        ],
+        "hidden": [
+          "己",
+          "丁",
+          "庚"
+        ],
+        "complete": true
+      },
+      "expected": "candidate",
+      "reason": "两个明确结构前提均符，仅结构候选；仍未完成所有从财裁决。"
+    },
+    {
+      "ruleId": "yi-未-monthly-cong-wealth",
+      "dayMaster": "乙",
+      "monthBranch": "未",
+      "facts": {
+        "exposed": [
+          "丙",
+          "甲",
+          "丁"
+        ],
+        "hidden": [
+          "己"
+        ],
+        "complete": true
+      },
+      "expected": "contradicted",
+      "reason": "非日主明干甲为本句比劫出干反证。"
+    },
+    {
+      "ruleId": "yi-未-monthly-cong-wealth",
+      "dayMaster": "乙",
+      "monthBranch": "未",
+      "facts": {
+        "exposed": [
+          "丙",
+          "戊"
+        ],
+        "hidden": [
+          "己"
+        ],
+        "complete": false
+      },
+      "expected": "pending",
+      "reason": "缺时未见水和比劫不能肯定没有。"
+    },
+    {
+      "ruleId": "yi-未-monthly-cong-wealth",
+      "dayMaster": "乙",
+      "monthBranch": "未",
+      "facts": {
+        "exposed": [
+          "丙",
+          "戊",
+          "丁"
+        ],
+        "hidden": [
+          "甲",
+          "己"
+        ],
+        "complete": true
+      },
+      "expected": "candidate",
+      "reason": "藏甲不等于甲出干；不把本句的出干范围擅扩到藏根。"
+    },
+    {
+      "ruleId": "geng-mao-monthly-cong-wealth",
+      "dayMaster": "庚",
+      "monthBranch": "卯",
+      "facts": {
+        "exposed": [
+          "甲",
+          "乙",
+          "丁"
+        ],
+        "hidden": [
+          "乙"
+        ],
+        "complete": true
+      },
+      "expected": "pending",
+      "reason": "无额外庚明干，但一片甲乙必要未核。"
+    },
+    {
+      "ruleId": "geng-mao-monthly-cong-wealth",
+      "dayMaster": "庚",
+      "monthBranch": "卯",
+      "facts": {
+        "exposed": [
+          "甲",
+          "庚",
+          "丁"
+        ],
+        "hidden": [
+          "乙"
+        ],
+        "complete": true
+      },
+      "expected": "contradicted",
+      "reason": "额外庚明干不符本句忌庚出干。"
+    },
+    {
+      "ruleId": "geng-mao-monthly-cong-wealth",
+      "dayMaster": "庚",
+      "monthBranch": "卯",
+      "facts": {
+        "exposed": [
+          "甲",
+          "乙"
+        ],
+        "hidden": [
+          "庚"
+        ],
+        "complete": false
+      },
+      "expected": "pending",
+      "reason": "缺时不能证明无额外庚；藏庚也不按未定一比scope判格。"
+    }
+  ],
+  "assertions": [
+    "DayMasteritselfisexcludedfrom出干比劫检查",
+    "Noarbitrary旺弱/一片/土局threshold",
+    "Contradictedmeansonlythismonthlyroutefails",
+    "Unknownhoursneverproveabsence",
+    "从杀/儿/旺/强notimported"
+  ]
+}

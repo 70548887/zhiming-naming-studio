@@ -1,0 +1,287 @@
+{
+  "version": "qiongtong-2294674-conditions/1.0.0",
+  "sourceId": "bazi-monthly-qiongtong-2294674-conditions",
+  "title": "固定电子版调候条件补充：时间前提与透藏事实",
+  "source": {
+    "title": "穷通宝鉴",
+    "pageId": 1057030,
+    "revisionId": 2294674,
+    "revisionTimestamp": "2023-06-14T13:49:39Z",
+    "url": "https://zh.wikisource.org/w/index.php?title=穷通宝鉴&oldid=2294674",
+    "permalink": "https://zh.wikisource.org/w/index.php?oldid=2294674",
+    "contributorHistory": "https://zh.wikisource.org/w/index.php?title=%E7%A9%B7%E9%80%9A%E5%AE%9D%E9%89%B4&action=history",
+    "rawSha256": "8ba17242f116583de2e10172e006f5ce5f74b23ccfc0bd24b886be135e9f20bd",
+    "rawCharacters": 36746,
+    "license": "Wikisource transcription CC-BY-SA-4.0; no claim of independent scanned-edition or public-domain-chain verification",
+    "scanCollation": false,
+    "sourceVersionType": "fixed-electronic-transcription"
+  },
+  "rules": [
+    {
+      "id": "yi-you-before-autumn-equinox",
+      "sourceQuote": "在白露之后，桂蕊未开，耑用癸水以滋桂萼。若秋分后，桂花已开，却喜向阳，又宜用丙，癸水次之",
+      "sourceSpan": {
+        "start": 7279,
+        "end": 7323,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;codepoint[7279,7323)",
+      "caseId": "乙-酉",
+      "dayStem": "乙",
+      "monthBranch": "酉",
+      "originalConditionId": "yi-you-white-dew-autumn-equinox",
+      "sourceId": "bazi-monthly-qiongtong-2294674-conditions",
+      "kind": "calendar-prerequisite",
+      "scope": "partial-prerequisite",
+      "calendar": {
+        "fromTerm": "白露",
+        "toTerm": "秋分",
+        "range": "[from,to)"
+      },
+      "unresolved": [
+        "桂蕊未开是原文物候意象，本软件没有观测或裁定。",
+        "白露至秋分的时间前提不等于原分支整体成立；不自动提出癸水。"
+      ],
+      "proposedUses": [],
+      "doesNotResolveOriginalBranch": true
+    },
+    {
+      "id": "yi-you-after-autumn-equinox",
+      "sourceQuote": "在白露之后，桂蕊未开，耑用癸水以滋桂萼。若秋分后，桂花已开，却喜向阳，又宜用丙，癸水次之",
+      "sourceSpan": {
+        "start": 7279,
+        "end": 7323,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;codepoint[7279,7323)",
+      "caseId": "乙-酉",
+      "dayStem": "乙",
+      "monthBranch": "酉",
+      "originalConditionId": "yi-you-white-dew-autumn-equinox",
+      "sourceId": "bazi-monthly-qiongtong-2294674-conditions",
+      "kind": "calendar-prerequisite",
+      "scope": "partial-prerequisite",
+      "calendar": {
+        "fromTerm": "秋分",
+        "toTerm": "寒露",
+        "range": "[from,to)"
+      },
+      "unresolved": [
+        "桂花已开、喜向阳等原文意象没有观测或裁定。",
+        "寒露上界来自当前酉节月范围，是软件定位边界，不冒称原句另外给出了寒露。",
+        "只显示秋分后的历法前提，不能据此宣布丙癸取舍完成。"
+      ],
+      "proposedUses": [],
+      "doesNotResolveOriginalBranch": true
+    },
+    {
+      "id": "gui-chen-before-grain-rain",
+      "sourceQuote": "清明后、火气未炽，专用丙火，为阴阳合谐。谷雨后，虽用丙火，尚宜辛甲佐之。",
+      "sourceSpan": {
+        "start": 34269,
+        "end": 34305,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;codepoint[34269,34305)",
+      "caseId": "癸-辰",
+      "dayStem": "癸",
+      "monthBranch": "辰",
+      "originalConditionId": "gui-chen-pure-brightness-grain-rain",
+      "sourceId": "bazi-monthly-qiongtong-2294674-conditions",
+      "kind": "calendar-prerequisite",
+      "scope": "partial-prerequisite",
+      "calendar": {
+        "fromTerm": "清明",
+        "toTerm": "谷雨",
+        "range": "[from,to)"
+      },
+      "unresolved": [
+        "火气未炽没有公认或本包指定的数值阈值，仍未核定。",
+        "只核清明至谷雨的历法前提，原句整体适用性待审，不新增用神结论。"
+      ],
+      "proposedUses": [],
+      "doesNotResolveOriginalBranch": true
+    },
+    {
+      "id": "gui-chen-after-grain-rain",
+      "sourceQuote": "清明后、火气未炽，专用丙火，为阴阳合谐。谷雨后，虽用丙火，尚宜辛甲佐之。",
+      "sourceSpan": {
+        "start": 34269,
+        "end": 34305,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;codepoint[34269,34305)",
+      "caseId": "癸-辰",
+      "dayStem": "癸",
+      "monthBranch": "辰",
+      "originalConditionId": "gui-chen-pure-brightness-grain-rain",
+      "sourceId": "bazi-monthly-qiongtong-2294674-conditions",
+      "kind": "calendar-prerequisite",
+      "scope": "partial-prerequisite",
+      "calendar": {
+        "fromTerm": "谷雨",
+        "toTerm": "立夏",
+        "range": "[from,to)"
+      },
+      "unresolved": [
+        "丙火初用与辛甲辅助仍为传统取用意见；本包只核时间前提。",
+        "立夏上界来自当前辰节月范围，是软件定位边界，不冒称原句另外给出了立夏。",
+        "不能把时间命中视为完整调候条件已满足或改变初始候选。"
+      ],
+      "proposedUses": [],
+      "doesNotResolveOriginalBranch": true
+    },
+    {
+      "id": "yi-yin-bing-gui-exposed",
+      "sourceQuote": "丙癸两透，科甲定然",
+      "sourceSpan": {
+        "start": 5396,
+        "end": 5405,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;codepoint[5396,5405)",
+      "caseId": "乙-寅",
+      "dayStem": "乙",
+      "monthBranch": "寅",
+      "sourceId": "bazi-monthly-qiongtong-2294674-conditions",
+      "kind": "fact",
+      "scope": "full-fact-predicate",
+      "predicate": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "stem",
+            "stem": "丙",
+            "scope": "exposed",
+            "includeDayMaster": false,
+            "present": true
+          },
+          {
+            "kind": "stem",
+            "stem": "癸",
+            "scope": "exposed",
+            "includeDayMaster": false,
+            "present": true
+          }
+        ]
+      },
+      "unresolved": [
+        "只核原句明示的天干位置事实，不采纳其后富贵、科甲等历史断语，不自动决定取用。"
+      ],
+      "proposedUses": [],
+      "doesNotResolveOriginalBranch": true
+    },
+    {
+      "id": "geng-chen-jia-exposed-ding-hidden",
+      "sourceQuote": "甲透丁藏，采芹拾芥",
+      "sourceSpan": {
+        "start": 23641,
+        "end": 23650,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;codepoint[23641,23650)",
+      "caseId": "庚-辰",
+      "dayStem": "庚",
+      "monthBranch": "辰",
+      "sourceId": "bazi-monthly-qiongtong-2294674-conditions",
+      "kind": "fact",
+      "scope": "full-fact-predicate",
+      "predicate": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "stem",
+            "stem": "甲",
+            "scope": "exposed",
+            "includeDayMaster": false,
+            "present": true
+          },
+          {
+            "kind": "stem",
+            "stem": "丁",
+            "scope": "hidden",
+            "includeDayMaster": false,
+            "present": true
+          }
+        ]
+      },
+      "unresolved": [
+        "只核原句明示的天干位置事实，不采纳其后富贵、科甲等历史断语，不自动决定取用。"
+      ],
+      "proposedUses": [],
+      "doesNotResolveOriginalBranch": true
+    },
+    {
+      "id": "xin-chou-ren-bing-hidden",
+      "sourceQuote": "壬丙俱藏，游庠食饩之人",
+      "sourceSpan": {
+        "start": 29805,
+        "end": 29816,
+        "unit": "unicode-codepoint",
+        "interval": "[start,end)"
+      },
+      "sourceLocator": "oldid=2294674;codepoint[29805,29816)",
+      "caseId": "辛-丑",
+      "dayStem": "辛",
+      "monthBranch": "丑",
+      "sourceId": "bazi-monthly-qiongtong-2294674-conditions",
+      "kind": "fact",
+      "scope": "full-fact-predicate",
+      "predicate": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "stem",
+            "stem": "壬",
+            "scope": "hidden",
+            "includeDayMaster": false,
+            "present": true
+          },
+          {
+            "kind": "stem",
+            "stem": "丙",
+            "scope": "hidden",
+            "includeDayMaster": false,
+            "present": true
+          }
+        ]
+      },
+      "unresolved": [
+        "只核原句明示的天干位置事实，不采纳其后富贵、科甲等历史断语，不自动决定取用。"
+      ],
+      "proposedUses": [],
+      "doesNotResolveOriginalBranch": true
+    }
+  ],
+  "contract": {
+    "timeBasis": "相邻节气真实瞬间，实际UTC毫秒；[from,to)软件约定，起点含边界。",
+    "unknown": "对出生民用日期全部有效瞬间区间核对，范围跨前提边界保留uncertain；不取默认中午代替。",
+    "scope": "按本条日干和节月匹配，时间前提和完整传统分支分别展示。",
+    "noPromotion": "calendar met只代表时间前提已核；原condition result不升级，proposedUses恒空，姓名排序和旧初提不变。",
+    "legacy": "独立附加证据与来源，不改写旧120表、旧15条件或任何旧版快照。"
+  },
+  "deferredOriginalConditions": [
+    "yi-wu-half-month-branches",
+    "bing-chen-earth-group",
+    "bing-hai-strength-branches",
+    "ding-wu-fire-group",
+    "wu-xu-metal-switch",
+    "ji-xu-earth-strong-jia",
+    "geng-si-no-fixed-order",
+    "ren-wei-alternative-order",
+    "gui-si-no-xin-fallback",
+    "gui-wei-half-month"
+  ],
+  "limitations": [
+    "四个时间前提是两个原条件的部分可核证据，不宣称解决其中旺弱或物候意见。",
+    "新增三项只核明确明干或藏干事实；不接收原文科甲、贫富、性格或健康断语。",
+    "未把上下半月机械等于15个24小时；没有多寡旺弱、成局、从化阈值。",
+    "当前固定电子转录未独立核验影印原页，署名与CC BY-SA4.0继续保留。"
+  ]
+}

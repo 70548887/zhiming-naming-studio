@@ -1,0 +1,76 @@
+{
+  "schema": "m458-test-inputs/1",
+  "status": "source-authored-unexecuted",
+  "files": [
+    {
+      "path": "m458-store-operation-boundaries.test.ts",
+      "sha256": "ba9d17fda0a768784cd1a28e52d40a20139fb3857c3b2947ef6e8703ea67135a",
+      "bytes": 19937
+    },
+    {
+      "path": "helpers/m458-store-fixture.ts",
+      "sha256": "559314cb9b61152cd60df4ba63374e480da0fa46dddc75275ae052c5f5f63740",
+      "bytes": 11822
+    },
+    {
+      "path": "helpers/m458-v7-seed.ts",
+      "sha256": "4c6e6638d9437a16b202ca4a241e4521d2b3e38d57bff7b1c17866fcfca60c07",
+      "bytes": 6122
+    },
+    {
+      "path": "m458-actual-table-predicate.test.ts",
+      "sha256": "473fb5c1fe04ff8da0bd98cc303746eb4676aeb862040d0019e95c20e42874e9",
+      "bytes": 3416
+    },
+    {
+      "path": "fixtures/m458-actual-tables.ts",
+      "sha256": "29f5a0b022e4250a37bf115666c865c3df5dc6bd2ac619997919bf331edc3134",
+      "bytes": 759
+    },
+    {
+      "path": "fixtures/m458-actual-tables-inputs.json",
+      "sha256": "b89f5b44986ee64172da4eec6fcfd774233959cd1914eecd4eda41b45137b318",
+      "bytes": 498
+    }
+  ],
+  "productBinding": {
+    "integration": "Actual future root-sealed M458 Store/main graph, plus unchanged Service/domain/shared/data; integration source does not import operation helpers. Root product manifest must supply final complete source pins before runtime.",
+    "purePredicate": {
+      "schema": "m458-actual-tables-predicate-inputs/1",
+      "mainSHA256": "07d9557408be354fa858b2f0cbf9a7d0a728f601516e180da134920630540520",
+      "fixtureSHA256": "29f5a0b022e4250a37bf115666c865c3df5dc6bd2ac619997919bf331edc3134",
+      "regionSHA256": "eddbc676145baba056230b4878ae40c0789cc250654f2b1d4881bb6cf23dd8b2",
+      "functionName": "prepareReplayOperationBatch",
+      "source": "../src/main/candidate-facts.ts",
+      "regionChars": 256,
+      "sourceAuthentication": false,
+      "status": "authored-unexecuted"
+    },
+    "mainFinalization": "If only unrelated main lines change before root sealing, recapture/rebind full-main metadata/fixture constants and fixture SHA; preserve exact comparison text/hash. No test logic/budget change."
+  },
+  "budgets": "No new testTimeout/hookTimeout/it timeout override. Existing W1/W2 and Solar original source/budgets remain unchanged.",
+  "bufferComparisons": "Native Buffer.equals on complete buffers, no replacement subset/hash-only equality for database byte assertions.",
+  "authority": "None supplied by tests; genuine source and SQL origin remain actual Store. Pure fixture is computation only.",
+  "runtime": {
+    "tests": "未执行",
+    "types": "未执行",
+    "AST": "未执行",
+    "SQL": "未执行",
+    "Worker": 0,
+    "projectModulesImported": "未执行",
+    "CWrites": false
+  },
+  "nextCommandsForRootOnly": [
+    "vitest run tests/m458-actual-table-predicate.test.ts",
+    "vitest run tests/m458-store-operation-boundaries.test.ts"
+  ],
+  "plan": "m458-boundary-plan.json",
+  "caseCounts": {
+    "genuineIntegration": 15,
+    "pureActualPredicate": 2,
+    "originalReferencedTests": "W1/W2, real project Store authority suite, Solar unchanged"
+  },
+  "traceCalibration": "All late ordinal tests first warm the same real public API, then collect two fresh public calls whose complete native path sequence must match. Warm does not establish semantic reuse. Only after stable trace is a native fault injected; no fault call is removed and no budget is raised. Actual Store I/O forwards the current installation-time FS data slot with its original receiver, preserving upstream hooks; module-start FS captures are only for test-owned file maintenance.",
+  "fixtures": "Current71 comes from full Service.generate; separate new V7 is genuinely generated/finalized/saved/read with actual full source registration and one normal V7 review. No candidate method relabel or project authorization is manufactured.",
+  "ledgerReference": "m458-boundary-plan.json"
+}
